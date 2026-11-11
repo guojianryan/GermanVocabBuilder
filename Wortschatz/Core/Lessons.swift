@@ -285,3 +285,35 @@ actor LessonRepository {
         return value
     }
 }
+
+/// A local-calendar daily set. Its selection stays fixed until the next day.
+struct DailyFive: Codable, Equatable {
+    let day: String
+    let level: String
+    let wordIDs: [String]
+    var outcomes: [String: Bool] = [:]
+    var completedCount: Int { wordIDs.filter { outcomes[$0] != nil }.count }
+    var isComplete: Bool { !wordIDs.isEmpty && completedCount == wordIDs.count }
+
+    static func dayKey(_ date: Date, calendar: Calendar = .current) -> String {
+        let parts = calendar.dateComponents([.era, .year, .month, .day], from: date)
+        return "\(parts.era ?? 0)-\(parts.year ?? 0)-\(parts.month ?? 0)-\(parts.day ?? 0)"
+    }
+
+    /// Pass candidates in shuffled order; failed recalls take priority among review words.
+    static func make(day: String, level: String, candidates: [WordEntry], deck: Set<String>, history: [String: Bool]) -> Self {
+        let eligible = candidates.filter { $0.level == level }
+        let reviews = eligible.filter { history[$0.id] == false }
+            + eligible.filter { history[$0.id] != false && (deck.contains($0.id) || history[$0.id] != nil) }
+        var selected = Array(reviews.prefix(2))
+        selected += eligible.filter { !deck.contains($0.id) && history[$0.id] == nil }.prefix(5 - selected.count)
+        let selectedIDs = Set(selected.map(\.id))
+        selected += eligible.filter { !selectedIDs.contains($0.id) }.prefix(5 - selected.count)
+        return Self(day: day, level: level, wordIDs: selected.map(\.id))
+    }
+
+    mutating func record(_ id: String, success: Bool) {
+        guard wordIDs.contains(id), outcomes[id] == nil else { return }
+        outcomes[id] = success
+    }
+}

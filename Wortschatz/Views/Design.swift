@@ -19,6 +19,7 @@ struct PrimaryButton: View {
     }
 }
 struct WordRow: View {
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
     @Environment(\.appTheme) private var theme
     @Environment(AppStore.self) private var store
     let entry: WordEntry
@@ -38,8 +39,12 @@ struct WordRow: View {
                     Text(entry.level).font(.caption2.weight(.medium)).foregroundStyle(theme.muted)
                 }.contentShape(Rectangle())
             }.buttonStyle(.plain).accessibilityIdentifier("wordResult-\(entry.id)").accessibilityValue(entry.level)
-            Button { store.toggle(entry) } label: {
+            Button {
+                withAnimation(reduceMotion ? nil : .spring(response: 0.3, dampingFraction: 0.8)) { store.toggle(entry) }
+            } label: {
                 Image(systemName: store.contains(entry) ? "checkmark" : "plus")
+                    .contentTransition(reduceMotion ? .identity : .symbolEffect(.replace))
+                    .symbolEffect(.bounce, options: .nonRepeating, value: !reduceMotion && store.contains(entry))
                     .font(.system(size: 15, weight: .semibold)).frame(width: 44, height: 44)
                     .foregroundStyle(store.contains(entry) ? theme.onAction : theme.accent)
                     .background(store.contains(entry) ? theme.action : theme.accent.opacity(0.06), in: Circle())

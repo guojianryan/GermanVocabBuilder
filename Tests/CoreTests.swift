@@ -9,6 +9,37 @@ import Foundation
             precondition(test(), message)
             checks += 1
         }
+        let a1 = index.entries.filter { $0.level == "A1" }
+        let failed = a1[0].id, familiar = a1[1].id
+        let daily = DailyFive.make(day: "today", level: "A1", candidates: index.entries,
+                                   deck: [familiar], history: [failed: false])
+        check(daily.wordIDs.count == 5 && Set(daily.wordIDs).count == 5, "Daily set has five unique words")
+        check(daily.wordIDs[0] == failed && daily.wordIDs[1] == familiar, "Review prioritizes missed words then saved words")
+        check(daily.wordIDs.dropFirst(2).allSatisfy { $0 != failed && $0 != familiar }, "Remaining daily words are new")
+        let fresh = DailyFive.make(day: "today", level: "A1", candidates: index.entries, deck: [], history: [:])
+        check(fresh.wordIDs.count == 5 && fresh.wordIDs.allSatisfy { id in a1.contains { $0.id == id } }, "Daily set works without a deck and stays at the chosen level")
+        let allSaved = DailyFive.make(day: "today", level: "A1", candidates: a1, deck: Set(a1.map(\.id)), history: [:])
+        check(allSaved.wordIDs.count == 5, "Daily set fills remaining slots when no new words remain")
+        let small = DailyFive.make(day: "today", level: "A1", candidates: Array(a1.prefix(3)), deck: [], history: [:])
+        check(small.wordIDs.count == 3, "Small catalogs never duplicate daily words")
+        let empty = DailyFive.make(day: "today", level: "missing", candidates: index.entries, deck: [], history: [:])
+        check(empty.wordIDs.isEmpty && !empty.isComplete, "Empty sets are not marked complete")
+        var progress = daily
+        progress.record("unknown", success: true)
+        check(progress.completedCount == 0, "Unrelated practice does not advance a daily set")
+        progress.record(failed, success: false)
+        progress.record(failed, success: true)
+        check(progress.completedCount == 1 && progress.outcomes[failed] == false, "Daily progress counts an attempt once, including missed recalls")
+        let restored = try JSONDecoder().decode(DailyFive.self, from: JSONEncoder().encode(progress))
+        check(restored == progress, "Daily selection and partial progress survive persistence")
+        for id in daily.wordIDs { progress.record(id, success: true) }
+        check(progress.isComplete && progress.completedCount == 5, "All attempted words finish the day regardless of score")
+        var utc = Calendar(identifier: .gregorian)
+        utc.timeZone = TimeZone(secondsFromGMT: 0)!
+        let midnight = Date(timeIntervalSince1970: 1_700_006_400)
+        let start = utc.startOfDay(for: midnight)
+        check(DailyFive.dayKey(start, calendar: utc) != DailyFive.dayKey(start.addingTimeInterval(-1), calendar: utc), "Daily key changes at local midnight")
+        check(DailyFive.dayKey(start, calendar: utc) == DailyFive.dayKey(start.addingTimeInterval(60), calendar: utc), "Daily key stays fixed within the day")
         for (query, expected) in [("rufe", "anrufen"), ("aelter", "alt"), ("weiß", "kennen"), ("die tische", "tisch"), ("Äpfel", "apfel"), ("apple", "apfel")] {
             check(WordSearch.results(query, in: index).contains { $0.id == expected }, "Search \(query) should find \(expected)")
         }

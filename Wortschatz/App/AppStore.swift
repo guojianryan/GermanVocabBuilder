@@ -3,7 +3,7 @@ import AVFoundation
 
 @MainActor @Observable final class AppStore {
     var theme: AppTheme { didSet { defaults.set(theme.rawValue, forKey: "appearance.theme.v1") } }
-    var studyLevel: StudyLevel { didSet { defaults.set(studyLevel.rawValue, forKey: "studyLevel.v1") } }
+    var studyLevel: StudyLevel { didSet { defaults.set(studyLevel.rawValue, forKey: "studyLevel.v1"); refreshDailyFive() } }
     private(set) var searchEngine: WordSearchEngine?
     private(set) var index: LessonIndex?
     private(set) var isLoadingLibrary = true
@@ -15,8 +15,13 @@ import AVFoundation
             defaults.set(deck, forKey: "studyDeck.v1")
         }
     }
+    private(set) var dailyFive: DailyFive?
+    private var recallHistory: [String: Bool] = [:]
+    var dailyWords: [WordEntry] { catalog?.words(for: dailyFive?.wordIDs ?? []) ?? [] }
+    var dailyRemainingWords: [WordEntry] { dailyWords.filter { dailyFive?.outcomes[$0.id] == nil } }
     private(set) var deckWords: [WordEntry] = []
     private(set) var deckIDs: Set<String>
+    @ObservationIgnored let readerPool = LessonWebViewPool()
     @ObservationIgnored private var catalog: LibraryCatalog?
     @ObservationIgnored private var loading = false
     @ObservationIgnored private let repository: LessonRepository
@@ -24,6 +29,12 @@ import AVFoundation
     private let speaker = AVSpeechSynthesizer()
     init(defaults: UserDefaults = .standard) {
         self.defaults = defaults
+        if let data = defaults.data(forKey: "dailyFive.v1") {
+            dailyFive = try? JSONDecoder().decode(DailyFive.self, from: data)
+        }
+        if let data = defaults.data(forKey: "recallHistory.v1") {
+            recallHistory = (try? JSONDecoder().decode([String: Bool].self, from: data)) ?? [:]
+        }
         theme = AppTheme(rawValue: defaults.string(forKey: "appearance.theme.v1") ?? "") ?? .warm
         studyLevel = StudyLevel(rawValue: defaults.string(forKey: "studyLevel.v1") ?? "") ?? .a1
         let savedDeck = defaults.stringArray(forKey: "studyDeck.v1") ?? []
@@ -43,12 +54,39 @@ import AVFoundation
             catalog = loaded
             index = loaded.index
             refreshDeckWords()
+            refreshDailyFive()
+            Task { @MainActor [weak self] in
+                await Task.yield()
+                self?.readerPool.prepare()
+            }
             let engine = WordSearchEngine(index: loaded.index)
             searchEngine = engine
             Task { try? await engine.prepare() }
         } catch is CancellationError {
             return
         } catch { loadError = "The lesson library couldn’t be opened. \(error.localizedDescription)" }
+    }
+    func refreshDailyFive(now: Date = Date()) {
+        guard let index else { return }
+        let day = DailyFive.dayKey(now)
+        if let dailyFive, dailyFive.day == day, !dailyFive.wordIDs.isEmpty,
+           dailyFive.level == studyLevel.rawValue || dailyFive.completedCount > 0 { return }
+        dailyFive = DailyFive.make(day: day, level: studyLevel.rawValue,
+                                   candidates: index.entries.shuffled(), deck: deckIDs, history: recallHistory)
+        persistDailyFive()
+    }
+    private func persistDailyFive() {
+        if let dailyFive, let data = try? JSONEncoder().encode(dailyFive) {
+            defaults.set(data, forKey: "dailyFive.v1")
+        }
+    }
+    func recordRecall(_ entry: WordEntry, success: Bool, dailyDay: String? = nil) {
+        recallHistory[entry.id] = success
+        if let data = try? JSONEncoder().encode(recallHistory) { defaults.set(data, forKey: "recallHistory.v1") }
+        if let dailyDay, dailyFive?.day == dailyDay {
+            dailyFive?.record(entry.id, success: success)
+            persistDailyFive()
+        }
     }
     private func refreshDeckWords() { deckWords = catalog?.words(for: deck) ?? [] }
     func contains(_ e: WordEntry) -> Bool { deckIDs.contains(e.id) }
@@ -61,7 +99,7 @@ import AVFoundation
     func practiceItems(_ entries: [WordEntry], quiz: Bool) async throws -> [PracticeItem] {
         try await repository.practiceItems(entries, quiz: quiz)
     }
-    func clearLessonCache() async { await repository.clearCache() }
+    func clearLessonCache() async { readerPool.clear(); await repository.clearCache() }
     func speak(_ text: String) {
         speaker.stopSpeaking(at: .immediate)
         try? AVAudioSession.sharedInstance().setCategory(.playback, mode: .spokenAudio, options: [.duckOthers])
@@ -75,6 +113,7 @@ import AVFoundation
 }
 
 @main struct WortschatzApp: App {
+    @Environment(\.scenePhase) private var scenePhase
     @State private var store: AppStore
     init() {
         var defaults = UserDefaults.standard
@@ -91,6 +130,10 @@ import AVFoundation
             .foregroundStyle(store.theme.ink)
             .preferredColorScheme(store.theme.scheme).tint(store.theme.accent)
             .task { await store.loadLibrary() }
+            .onChange(of: scenePhase) { _, phase in if phase == .active { store.refreshDailyFive() } }
+            .onReceive(NotificationCenter.default.publisher(for: UIApplication.significantTimeChangeNotification)) { _ in
+                store.refreshDailyFive()
+            }
             .onReceive(NotificationCenter.default.publisher(for: UIApplication.didReceiveMemoryWarningNotification)) { _ in
                 Task { await store.clearLessonCache() }
             }

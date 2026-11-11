@@ -6,16 +6,20 @@ An iPhone and iPad German vocabulary app built with SwiftUI, for iOS 18 or later
 
 Open `Wortschatz.xcodeproj` in Xcode, choose the **Wortschatz** scheme and an iPhone simulator, then Run. To install on an iPhone, select your signing team in the app target’s Signing & Capabilities settings.
 
-No API keys, packages, account, or server are required. The deck is stored locally with UserDefaults. Practice results last for the current session; missed items can be reviewed immediately.
+No API keys, packages, account, or server are required. The deck, Today’s five progress, and the latest recall result for each practiced word are stored locally with UserDefaults. Regular practice scores last for the current session; missed items can be reviewed immediately.
 
 ## Features
+
+- Today’s five appears at the top of Practice, even with an empty deck. Each local day selects up to two review words (missed recalls first), then new words at the chosen study level, filling any remaining slots from that level. The set has five unique words, or fewer if the level has fewer lessons. Each self-assessment saves progress immediately, including “Another look”; relaunching resumes the unfinished words. Daily cards can be saved to My Deck. Completed sets wait until the next local day, with no streak penalties. Changing study level replaces an unstarted set; a set already in progress keeps its level until tomorrow.
 
 - Search headwords, conjugations, plurals, related words, and English meanings. German folding and ranking follow `AGENT_BRIEF.md`.
 - Explore shows words after searching or selecting a word type, with results displayed in batches of 10 as you scroll. Changing a query or word type resets pagination.
 - Add/remove words from Explore, a lesson, or My Deck.
 - Banners animate valid root breakdowns by default: two parts slide together; longer breakdowns stretch the second part. Explicit `stretch`, `arrive`, `release`, `rise`, or `turn` settings take priority; `none` and unknown values suppress the default. Release pulses the preceding prefix, then lifts and clears the red root. Tap an animated lesson banner to replay; Reduce Motion keeps it static.
-- The index loads asynchronously at startup. Lesson reads and decoding run on a background actor, with an LRU cache capped at 32 lessons and 4 MB of raw JSON. The reader reuses the cached JSON and template. The supplied HTML renderer lives in WKWebView with an offline, app-matched reading style, all optional lesson sections, translation toggle, and interactive quizzes.
+- The index loads asynchronously at startup. Lesson reads and decoding run on a background actor, with an LRU cache capped at 32 lessons and 4 MB of raw JSON. The reader reuses the cached JSON and template, prewarms one idle web view, and recycles it between lessons. A loading indicator stays visible until navigation finishes; failed or stalled loads offer a retry, and a terminated web process gets one automatic reload. Memory warnings release the idle reader. The supplied HTML renderer lives in WKWebView with an offline, app-matched reading style, all optional lesson sections, translation toggle, and interactive quizzes.
+- Flashcard meanings expand and fade in; practice cards slide between words with smooth progress updates. Saving words animates the checkmark, and removed deck rows close smoothly. These interactions respect Reduce Motion.
 - My Deck renders rows lazily and resolves saved IDs through a cached dictionary. Flashcards load only the active lesson, reveal meanings and examples; self-assess recall and review missed cards.
+- Practice offers separate Flashcards and Lesson quiz cards, each with a short explanation and one-tap start.
 - Lesson quiz mode supports choices, fill-in answers, and manually assessed open responses. Multi-word sessions prepare and shuffle questions in the background once at the start, without retaining every full lesson. Explanations and completed sentences follow answers.
 - German pronunciation uses Apple’s on-device `AVSpeechSynthesizer` for headwords and example sentences. This is Apple speech synthesis, rather than an Apple Intelligence audio-generation service. Voice quality depends on German voices installed on the device; audio should be checked on a real iPhone.
 - Settings with Twilines Dark, Dusk, Warm, and Cool palettes, plus dark forest Green and midnight Blue. The chosen theme is saved locally and applies to Explore, My Deck, Practice, and the lesson reader. Warm is the default.

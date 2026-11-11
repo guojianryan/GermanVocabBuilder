@@ -1,45 +1,169 @@
 import SwiftUI
 
-enum PracticeMode: String, CaseIterable { case flashcards = "Flashcards", quiz = "Lesson quiz" }
+enum PracticeMode: String, CaseIterable, Identifiable {
+    case flashcards = "Flashcards", quiz = "Lesson quiz"
+    var id: String { rawValue }
+}
 struct PracticeHome: View {
     @Environment(\.appTheme) private var theme
     @Environment(AppStore.self) private var store
     let explore: () -> Void
-    @State private var mode = PracticeMode.flashcards
-    @State private var started = false
+    @State private var selectedMode: PracticeMode?
+    @State private var dailyRun: DailyPracticeRun?
     var body: some View {
         NavigationStack {
             ScrollView {
                 VStack(alignment: .leading, spacing: 26) {
                     Eyebrow(text: "A moment for your German").padding(.top, 20)
                     Text("From familiar\nto unforgettable.").font(.system(size: 40, weight: .medium, design: .serif)).tracking(-1)
-                    Image(systemName: "rectangle.on.rectangle.angled").font(.system(size: 80, weight: .ultraLight)).foregroundStyle(theme.accent)
-                        .frame(maxWidth: .infinity).padding(.vertical, 32)
+                    TodayFiveCard {
+                        store.refreshDailyFive()
+                        if let daily = store.dailyFive, !store.dailyRemainingWords.isEmpty {
+                            dailyRun = DailyPracticeRun(id: daily.day, entries: store.dailyRemainingWords,
+                                                        completed: daily.completedCount, total: daily.wordIDs.count,
+                                                        recalled: daily.outcomes.values.filter { $0 }.count)
+                        }
+                    }
                     if store.isLoadingLibrary {
                         ProgressView("Loading your deck…").frame(maxWidth: .infinity)
                     } else if store.deckWords.isEmpty {
-                        EmptyState(icon: "sparkles", title: "First, collect a few words", detail: "Add words to My Deck, then come back for a little practice.")
+                        EmptyState(icon: "sparkles", title: "Build your own deck", detail: "Save words from today’s set or Explore for extra practice whenever you like.")
                         PrimaryButton(title: "Explore words", action: explore)
                     } else {
-                        Text("Your deck, your pace.").font(.system(.title2, design: .serif))
-                        Text("\(store.deckWords.count) words ready. A few quiet minutes can make a difference.").foregroundStyle(theme.muted)
-                        Picker("Practice mode", selection: $mode) { ForEach(PracticeMode.allCases, id: \.self) { Text($0.rawValue).tag($0) } }.pickerStyle(.segmented)
-                        Text(mode == .flashcards ? "Recall the meaning, reveal the card, then decide what needs another look." : "Practice the original lesson questions, with explanations after every answer.")
-                            .font(.subheadline).foregroundStyle(theme.muted).frame(minHeight: 60, alignment: .top)
-                        PrimaryButton(title: "Let’s practice", icon: "play.fill") { started = true }
+                        VStack(alignment: .leading, spacing: 16) {
+                            HStack(alignment: .firstTextBaseline) {
+                                Text("Practice your way").font(.system(.title2, design: .serif).weight(.medium))
+                                Spacer()
+                                Text("\(store.deckWords.count) saved \(store.deckWords.count == 1 ? "word" : "words")").font(.caption).foregroundStyle(theme.muted)
+                            }
+                            PracticeModeCard(mode: .flashcards) { selectedMode = .flashcards }
+                            PracticeModeCard(mode: .quiz) { selectedMode = .quiz }
+                        }
+
                     }
                 }.padding(24).frame(maxWidth: 600).frame(maxWidth: .infinity)
             }.background(theme.paper).navigationTitle("Practice").navigationBarTitleDisplayMode(.inline)
-                .fullScreenCover(isPresented: $started) { PracticeSession(entries: store.deckWords, mode: mode) }
+                .fullScreenCover(item: $selectedMode) { mode in PracticeSession(entries: store.deckWords, mode: mode) }
+                .fullScreenCover(item: $dailyRun) { run in
+                    PracticeSession(entries: run.entries, mode: .flashcards, dailyRun: run)
+                }
+                .onAppear { store.refreshDailyFive() }
         }
     }
 }
+
+private struct PracticeModeCard: View {
+    @Environment(\.appTheme) private var theme
+    let mode: PracticeMode
+    let start: () -> Void
+    private var isFlashcards: Bool { mode == .flashcards }
+    var body: some View {
+        Button(action: start) {
+            HStack(alignment: .top, spacing: 16) {
+                Image(systemName: isFlashcards ? "rectangle.on.rectangle.angled" : "text.badge.checkmark")
+                    .font(.system(size: 24, weight: .light)).foregroundStyle(theme.accent)
+                    .frame(width: 50, height: 54)
+                    .background(theme.accent.opacity(0.08), in: RoundedRectangle(cornerRadius: 15))
+                VStack(alignment: .leading, spacing: 8) {
+                    Text(mode.rawValue).font(.system(.title3, design: .serif).weight(.semibold))
+                        .foregroundStyle(theme.ink)
+                    Text(isFlashcards ? "Recall the meaning, then reveal it. Go at your own pace." : "Choose or write an answer, then see why it works.")
+                        .font(.subheadline).foregroundStyle(theme.muted)
+                        .fixedSize(horizontal: false, vertical: true)
+                    HStack(spacing: 6) {
+                        Text(isFlashcards ? "Start recalling" : "Take a quiz")
+                        Image(systemName: "arrow.right").font(.caption.weight(.semibold))
+                    }.font(.subheadline.weight(.semibold)).foregroundStyle(theme.accent).padding(.top, 4)
+                }
+                Spacer(minLength: 0)
+            }.padding(20).frame(maxWidth: .infinity, alignment: .leading)
+                .background(theme.surface, in: RoundedRectangle(cornerRadius: 22))
+                .overlay(RoundedRectangle(cornerRadius: 22).stroke(theme.line))
+                .contentShape(RoundedRectangle(cornerRadius: 22))
+        }.buttonStyle(PracticeCardButtonStyle())
+            .accessibilityLabel(isFlashcards ? "Start flashcards" : "Start lesson quiz")
+            .accessibilityHint(isFlashcards ? "Recall meanings from your saved words." : "Answer questions from your saved lessons.")
+            .accessibilityIdentifier(isFlashcards ? "startFlashcards" : "startLessonQuiz")
+    }
+}
+
+private struct PracticeCardButtonStyle: ButtonStyle {
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
+    func makeBody(configuration: Configuration) -> some View {
+        configuration.label
+            .scaleEffect(configuration.isPressed && !reduceMotion ? 0.98 : 1)
+            .opacity(configuration.isPressed ? 0.85 : 1)
+            .animation(reduceMotion ? nil : .easeOut(duration: 0.15), value: configuration.isPressed)
+    }
+}
+
+struct DailyPracticeRun: Identifiable {
+    let id: String
+    let entries: [WordEntry]
+    let completed: Int
+    let total: Int
+    let recalled: Int
+}
+
+private struct TodayFiveCard: View {
+    @Environment(\.appTheme) private var theme
+    @Environment(AppStore.self) private var store
+    let start: () -> Void
+    var body: some View {
+        VStack(alignment: .leading, spacing: 16) {
+            HStack {
+                Label("TODAY’S FIVE", systemImage: "sun.max")
+                    .font(.system(.caption, design: .monospaced).weight(.semibold)).tracking(1.5)
+                Spacer()
+                if let daily = store.dailyFive { Text(daily.level).font(.caption.weight(.semibold)) }
+            }.foregroundStyle(theme.accent)
+            if store.isLoadingLibrary {
+                ProgressView("Choosing your words…")
+            } else if let daily = store.dailyFive, !daily.wordIDs.isEmpty {
+                Text(daily.isComplete ? "A little German, done." : "Five words. One small step.")
+                    .font(.system(.title2, design: .serif).weight(.medium))
+                Text(daily.isComplete ? "You’ve met all \(daily.wordIDs.count) words. A fresh set arrives tomorrow." : "A mix of new words and familiar ones when you have them. Your place is saved as you go.")
+                    .font(.subheadline).foregroundStyle(theme.muted)
+                HStack(spacing: 8) {
+                    ForEach(daily.wordIDs, id: \.self) { id in
+                        Image(systemName: daily.outcomes[id] == nil ? "circle" : "checkmark.circle.fill")
+                            .font(.title2).foregroundStyle(theme.accent)
+                            .accessibilityHidden(true)
+                    }
+                    Spacer()
+                    Text("\(daily.completedCount) of \(daily.wordIDs.count) complete")
+                        .font(.caption.monospacedDigit()).foregroundStyle(theme.muted)
+                        .accessibilityIdentifier("dailyProgress")
+                }
+                if daily.level != store.studyLevel.rawValue {
+                    Text("Today’s set stays at \(daily.level). Tomorrow’s will use \(store.studyLevel.rawValue).")
+                        .font(.caption).foregroundStyle(theme.muted)
+                }
+                if !daily.isComplete {
+                    PrimaryButton(title: daily.completedCount == 0 ? "Start today’s five" : "Continue today’s five", icon: "play.fill", action: start)
+                        .accessibilityIdentifier("startDailyFive")
+                } else {
+                    Label("Today’s five complete", systemImage: "checkmark.seal.fill")
+                        .font(.subheadline.weight(.semibold)).foregroundStyle(theme.accent)
+                }
+            } else {
+                Text(store.loadError ?? "No words at this level yet. Choose another level in Settings to get started.")
+                    .font(.subheadline).foregroundStyle(theme.muted)
+            }
+        }.padding(22).frame(maxWidth: .infinity, alignment: .leading)
+            .background(theme.surface, in: RoundedRectangle(cornerRadius: 25))
+            .overlay(RoundedRectangle(cornerRadius: 25).stroke(theme.line))
+    }
+}
+
 struct PracticeSession: View {
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
     @Environment(\.appTheme) private var theme
     @Environment(AppStore.self) private var store
     @Environment(\.dismiss) private var dismiss
     let entries: [WordEntry]
     let mode: PracticeMode
+    var dailyRun: DailyPracticeRun? = nil
     @State private var currentLesson: Lesson?
     @State private var preparing = false
     @State private var items: [PracticeItem] = []
@@ -65,18 +189,28 @@ struct PracticeSession: View {
                     } else if items.indices.contains(position) {
                         let item = items[position]
                         VStack(spacing: 10) {
-                            HStack { Eyebrow(text: mode.rawValue); Spacer(); Text("\(position + 1) / \(items.count)").font(.caption.monospacedDigit()).foregroundStyle(theme.muted) }
-                            ProgressView(value: Double(position), total: Double(max(1, items.count))).tint(theme.accent)
+                            HStack { Eyebrow(text: dailyRun == nil ? mode.rawValue : "Today’s five"); Spacer(); Text("\((dailyRun?.completed ?? 0) + position + 1) / \(dailyRun?.total ?? items.count)").font(.caption.monospacedDigit()).foregroundStyle(theme.muted) }
+                            ProgressView(value: Double((dailyRun?.completed ?? 0) + position), total: Double(max(1, dailyRun?.total ?? items.count))).tint(theme.accent)
+                                .animation(reduceMotion ? nil : .easeInOut(duration: 0.3), value: position)
                         }
-                        if mode == .flashcards { flashcard(item) } else { questionCard(item) }
+                        ZStack {
+                            Group {
+                                if mode == .flashcards { flashcard(item) } else { questionCard(item) }
+                            }
+                            .id(item.id)
+                            .transition(reduceMotion ? .identity : .asymmetric(
+                                insertion: .opacity.combined(with: .offset(x: 24)),
+                                removal: .opacity.combined(with: .offset(x: -24))))
+                        }
+                        .animation(reduceMotion ? nil : .easeInOut(duration: 0.28), value: position)
                     } else { ProgressView().padding(80) }
                 }.padding(24).frame(maxWidth: 620).frame(maxWidth: .infinity)
-            }.background(theme.paper).navigationTitle("A little practice").navigationBarTitleDisplayMode(.inline)
+            }.background(theme.paper).navigationTitle(dailyRun == nil ? "A little practice" : "Today’s five").navigationBarTitleDisplayMode(.inline)
                 .toolbar { ToolbarItem(placement: .topBarLeading) { Button { if finished || error != nil { dismiss() } else { confirmExit = true } } label: { Image(systemName: "xmark") }.accessibilityLabel("End practice") } }
                 .confirmationDialog("End this practice?", isPresented: $confirmExit, titleVisibility: .visible) {
                     Button("End practice", role: .destructive) { dismiss() }
                     Button("Keep practicing", role: .cancel) {}
-                } message: { Text("Your saved deck will stay as it is.") }
+                } message: { Text(dailyRun == nil ? "Your saved deck will stay as it is." : "Your progress is saved. Come back to finish today’s words.") }
         }.task { await prepare() }
             .task(id: items.indices.contains(position) ? items[position].id : nil) {
                 currentLesson = nil
@@ -95,7 +229,12 @@ struct PracticeSession: View {
         preparing = true
         defer { preparing = false }
         do {
-            let prepared = try await store.practiceItems(entries, quiz: mode == .quiz)
+            let prepared: [PracticeItem]
+            if dailyRun != nil {
+                prepared = entries.map { PracticeItem(entry: $0, question: nil) }
+            } else {
+                prepared = try await store.practiceItems(entries, quiz: mode == .quiz)
+            }
             try Task.checkCancellation()
             items = prepared
             if items.isEmpty { error = "Add a word to your deck to begin." }
@@ -114,6 +253,7 @@ struct PracticeSession: View {
                 if revealed {
                     Divider().padding(.horizontal, 30)
                     Text(item.entry.meaning).font(.title3).multilineTextAlignment(.center)
+                        .transition(.opacity)
                     if let sample = currentLesson?.sampleSentences.first {
                         VStack(spacing: 8) {
                             Text(sample.german).foregroundStyle(theme.accent)
@@ -121,6 +261,13 @@ struct PracticeSession: View {
                         }.multilineTextAlignment(.center)
                     }
                 } else { Text("What does it mean?").font(.subheadline).foregroundStyle(theme.muted).padding(.top, 20) }
+                if dailyRun != nil {
+                    Button { store.toggle(item.entry) } label: {
+                        Label(store.contains(item.entry) ? "Saved to My Deck" : "Save to My Deck",
+                              systemImage: store.contains(item.entry) ? "checkmark.circle.fill" : "plus.circle")
+                            .font(.subheadline)
+                    }.buttonStyle(.bordered)
+                }
                 Spacer(minLength: 24)
             }.padding(24).frame(minHeight: 360).frame(maxWidth: .infinity).background(theme.surface, in: RoundedRectangle(cornerRadius: 28))
                 .overlay(RoundedRectangle(cornerRadius: 28).stroke(theme.line))
@@ -130,8 +277,10 @@ struct PracticeSession: View {
                     Button { advance(item, success: false) } label: { Label("Another look", systemImage: "arrow.counterclockwise").frame(maxWidth: .infinity).padding(18).background(theme.accent.opacity(0.08), in: RoundedRectangle(cornerRadius: 18)) }.buttonStyle(.plain)
                     Button { advance(item, success: true) } label: { Label("Got it", systemImage: "checkmark").frame(maxWidth: .infinity).padding(18).foregroundStyle(theme.onAction).background(theme.action, in: RoundedRectangle(cornerRadius: 18)) }.buttonStyle(.plain)
                 }.font(.subheadline.weight(.semibold))
+                    .transition(reduceMotion ? .identity : .opacity.combined(with: .offset(y: 8)))
             } else { PrimaryButton(title: "Reveal meaning", icon: "arrow.turn.down.right") { revealed = true }.disabled(currentLesson == nil) }
         }
+        .animation(reduceMotion ? nil : .easeInOut(duration: 0.25), value: revealed)
     }
     @ViewBuilder private func questionCard(_ item: PracticeItem) -> some View {
         if let q = item.question {
@@ -176,10 +325,15 @@ struct PracticeSession: View {
         VStack(spacing: 24) {
             Image(systemName: "sun.max").font(.system(size: 72, weight: .ultraLight)).foregroundStyle(theme.accent).padding(.top, 40)
             Eyebrow(text: "Gut gemacht")
-            Text("A little more\nyours.").font(.system(size: 43, weight: .medium, design: .serif)).multilineTextAlignment(.center)
-            Text("\(score) of \(items.count) \(mode == .flashcards ? "words recalled" : "answers correct").").font(.title3)
-            Text(missed.isEmpty ? "You gave every word a moment. That’s how it sticks." : "Some words need another meeting. Give them one more look.").multilineTextAlignment(.center).foregroundStyle(theme.muted)
-            if !missed.isEmpty { PrimaryButton(title: "Review \(missed.count) again", icon: "arrow.counterclockwise") { items = missed.shuffled(); missed = []; position = 0; score = 0; reset() } }
+            Text(dailyRun == nil ? "A little more\nyours." : "Today’s words,\ndone.").font(.system(size: 43, weight: .medium, design: .serif)).multilineTextAlignment(.center)
+            Text("\(score + (dailyRun?.recalled ?? 0)) of \(dailyRun?.total ?? items.count) \(mode == .flashcards ? "words recalled" : "answers correct").").font(.title3)
+            if dailyRun != nil {
+                Text("You gave every word a moment. Come back tomorrow for a fresh set.")
+                    .multilineTextAlignment(.center).foregroundStyle(theme.muted)
+            } else {
+                Text(missed.isEmpty ? "You gave every word a moment. That’s how it sticks." : "Some words need another meeting. Give them one more look.").multilineTextAlignment(.center).foregroundStyle(theme.muted)
+                if !missed.isEmpty { PrimaryButton(title: "Review \(missed.count) again", icon: "arrow.counterclockwise") { items = missed.shuffled(); missed = []; position = 0; score = 0; reset() } }
+            }
             Button("Finish practice") { dismiss() }.font(.headline).padding(16)
         }
     }
@@ -189,6 +343,7 @@ struct PracticeSession: View {
     private func check(_ q: Question) { correct = q.accepts(input); revealed = true }
     private func reset() { revealed = false; input = ""; correct = false; currentLesson = nil }
     private func advance(_ item: PracticeItem, success: Bool) {
+        store.recordRecall(item.entry, success: success, dailyDay: dailyRun?.id)
         if success { score += 1 } else { missed.append(item) }
         store.stopAudio(); reset(); position += 1
     }

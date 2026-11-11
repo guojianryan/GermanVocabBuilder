@@ -243,6 +243,7 @@ private struct FeaturedWordBanner: View {
     }
 }
 struct DeckView: View {
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
     @Environment(\.appTheme) private var theme
     @Environment(AppStore.self) private var store
     let explore: () -> Void
@@ -261,7 +262,13 @@ struct DeckView: View {
                         PrimaryButton(title: "Find your first words", action: explore)
                     } else {
                         PrimaryButton(title: "Practice my deck", icon: "play.fill") { practice = true }
-                        LazyVStack(spacing: 0) { ForEach(store.deckWords) { e in WordRow(entry: e); Divider() } }
+                        LazyVStack(spacing: 0) {
+                            ForEach(store.deckWords) { e in
+                                VStack(spacing: 0) { WordRow(entry: e); Divider() }
+                                    .transition(reduceMotion ? .identity : .opacity.combined(with: .scale(scale: 0.97)))
+                            }
+                        }
+                        .animation(reduceMotion ? nil : .easeInOut(duration: 0.25), value: store.deckWords.map(\.id))
                         Text("Tap a checkmark to remove a word.").font(.caption).foregroundStyle(theme.muted)
                     }
                 }.padding(24).frame(maxWidth: 720).frame(maxWidth: .infinity)

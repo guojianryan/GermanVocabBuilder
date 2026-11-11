@@ -1,6 +1,77 @@
 import XCTest
 
 final class StudyFlowTests: XCTestCase {
+    @MainActor func testKellerReaderLoadsOnFirstAndRepeatOpen() throws {
+        let app = makeApp()
+        app.launch()
+        let search = app.textFields["wordSearch"]
+        XCTAssertTrue(search.waitForExistence(timeout: 10))
+        search.tap()
+        search.typeText("keller")
+        let result = app.staticTexts["Keller"]
+        XCTAssertTrue(result.waitForExistence(timeout: 5))
+        for attempt in 1...2 {
+            let start = Date()
+            result.tap()
+            XCTAssertTrue(app.webViews.staticTexts["cellar, basement"].waitForExistence(timeout: 10))
+            print("Keller reader attempt \(attempt): \(Date().timeIntervalSince(start)) seconds from tap to visible meaning")
+            attach(app, "Keller reader \(attempt)")
+            app.navigationBars.buttons.element(boundBy: 0).tap()
+            XCTAssertTrue(result.waitForExistence(timeout: 5))
+        }
+        app.buttons["Clear search"].tap()
+        search.tap()
+        search.typeText("apple")
+        let apple = app.staticTexts["Apfel"]
+        XCTAssertTrue(apple.waitForExistence(timeout: 5))
+        apple.tap()
+        XCTAssertTrue(app.webViews.staticTexts["apple"].waitForExistence(timeout: 10))
+        XCTAssertFalse(app.webViews.staticTexts["cellar, basement"].exists, "Reused reader must replace the previous lesson")
+    }
+
+    @MainActor func testDailyFiveResumesAndCompletesWithoutDeck() throws {
+        let app = makeApp()
+        app.launch()
+        app.buttons["Practice"].tap()
+        let start = app.buttons["startDailyFive"]
+        XCTAssertTrue(start.waitForExistence(timeout: 10))
+        XCTAssertEqual(app.staticTexts["dailyProgress"].label, "0 of 5 complete")
+        attach(app, "Today’s five ready")
+        start.tap()
+        let reveal = app.buttons["Reveal meaning"]
+        XCTAssertTrue(reveal.waitForExistence(timeout: 10))
+        let ready = expectation(for: NSPredicate(format: "enabled == true"), evaluatedWith: reveal)
+        wait(for: [ready], timeout: 10)
+        reveal.tap()
+        app.buttons["Another look"].tap()
+        XCTAssertTrue(app.staticTexts["2 / 5"].waitForExistence(timeout: 5))
+        app.terminate()
+        app.launch()
+        app.buttons["Practice"].tap()
+        XCTAssertTrue(start.waitForExistence(timeout: 10))
+        XCTAssertEqual(start.label, "Continue today’s five")
+        XCTAssertEqual(app.staticTexts["dailyProgress"].label, "1 of 5 complete")
+        start.tap()
+        for number in 2...5 {
+            XCTAssertTrue(app.staticTexts["\(number) / 5"].waitForExistence(timeout: 10))
+            XCTAssertTrue(reveal.waitForExistence(timeout: 10))
+            let ready = expectation(for: NSPredicate(format: "enabled == true"), evaluatedWith: reveal)
+            wait(for: [ready], timeout: 10)
+            reveal.tap()
+            app.buttons["Got it"].tap()
+        }
+        XCTAssertTrue(app.staticTexts["Today’s words,\ndone."].waitForExistence(timeout: 5))
+        attach(app, "Today’s five complete")
+        app.buttons["Finish practice"].tap()
+        XCTAssertTrue(app.staticTexts["Today’s five complete"].waitForExistence(timeout: 5))
+        XCTAssertEqual(app.staticTexts["dailyProgress"].label, "5 of 5 complete")
+        XCTAssertFalse(start.exists)
+        app.terminate()
+        app.launch()
+        app.buttons["Practice"].tap()
+        XCTAssertTrue(app.staticTexts["Today’s five complete"].waitForExistence(timeout: 10))
+    }
+
     @MainActor func testSearchDeckLessonAndPractice() throws {
         let app = makeApp()
         app.launch()
@@ -35,8 +106,22 @@ final class StudyFlowTests: XCTestCase {
         XCTAssertTrue(app.staticTexts["A little more\nyours."].waitForExistence(timeout: 5))
         app.buttons["Finish practice"].tap()
         app.buttons["Practice"].tap()
-        app.buttons["Lesson quiz"].tap()
-        app.buttons["Let’s practice"].tap()
+        let flashcards = app.buttons["startFlashcards"]
+        for _ in 0..<3 where !flashcards.isHittable { app.swipeUp() }
+        XCTAssertTrue(flashcards.waitForExistence(timeout: 5))
+        flashcards.tap()
+        XCTAssertTrue(app.buttons["Reveal meaning"].waitForExistence(timeout: 5))
+        let flashcardReady = expectation(for: NSPredicate(format: "enabled == true"), evaluatedWith: app.buttons["Reveal meaning"])
+        wait(for: [flashcardReady], timeout: 10)
+        app.buttons["Reveal meaning"].tap()
+        app.buttons["Got it"].tap()
+        XCTAssertTrue(app.buttons["Finish practice"].waitForExistence(timeout: 5))
+        app.buttons["Finish practice"].tap()
+        let quiz = app.buttons["startLessonQuiz"]
+        for _ in 0..<3 where !quiz.isHittable { app.swipeUp() }
+        XCTAssertTrue(quiz.waitForExistence(timeout: 5))
+        attach(app, "Practice choices")
+        quiz.tap()
         XCTAssertTrue(app.staticTexts["___ Apfel"].waitForExistence(timeout: 5))
         XCTAssertFalse(app.staticTexts["der Apfel"].exists, "Quiz heading must not reveal the noun article")
         app.buttons["der"].tap()

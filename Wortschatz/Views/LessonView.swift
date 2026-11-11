@@ -2,27 +2,52 @@ import SwiftUI
 import WebKit
 
 struct LessonView: View {
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
     @Environment(\.appTheme) private var theme
     @Environment(AppStore.self) private var store
     let entry: WordEntry
     @State private var html: String?
     @State private var error: String?
+    @State private var readerLoading = true
+    @State private var retry = 0
     var body: some View {
         Group {
-            if let html { LessonWebView(html: html, theme: theme, speak: store.speak) }
-            else if let error { ContentUnavailableView("Lesson unavailable", systemImage: "exclamationmark.triangle", description: Text(error)) }
-            else { ProgressView() }
+            if let error {
+                ContentUnavailableView {
+                    Label("Lesson unavailable", systemImage: "exclamationmark.triangle")
+                } description: { Text(error) } actions: {
+                    Button("Try again") { self.error = nil; html = nil; readerLoading = true; retry += 1 }
+                }
+            } else if let html {
+                LessonWebView(html: html, theme: theme, pool: store.readerPool, speak: store.speak,
+                              ready: { readerLoading = false }, failed: { readerLoading = false; self.error = $0 })
+                    .allowsHitTesting(!readerLoading)
+                    .accessibilityHidden(readerLoading)
+                    .overlay {
+                        if readerLoading {
+                            ZStack {
+                                theme.paper
+                                ProgressView("Opening lesson…")
+                            }.allowsHitTesting(false)
+                        }
+                    }
+            } else { ProgressView("Opening lesson…") }
         }.background(theme.paper).navigationTitle(entry.headword).navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .topBarTrailing) {
                     Button { store.speak(entry.displayWord) } label: { Image(systemName: "speaker.wave.2") }.accessibilityLabel("Hear \(entry.displayWord)")
                 }
                 ToolbarItem(placement: .topBarTrailing) {
-                    Button { store.toggle(entry) } label: { Image(systemName: store.contains(entry) ? "checkmark.circle.fill" : "plus.circle") }
+                    Button {
+                        withAnimation(reduceMotion ? nil : .spring(response: 0.3, dampingFraction: 0.8)) { store.toggle(entry) }
+                    } label: {
+                        Image(systemName: store.contains(entry) ? "checkmark.circle.fill" : "plus.circle")
+                            .contentTransition(reduceMotion ? .identity : .symbolEffect(.replace))
+                    }
                         .accessibilityLabel(store.contains(entry) ? "Remove from deck" : "Add to deck")
                 }
             }
-            .task {
+            .task(id: retry) {
                 do {
                     let source = try await store.readerSource(entry)
                     let rendered = await Task.detached(priority: .userInitiated) {
@@ -32,8 +57,16 @@ struct LessonView: View {
                     html = rendered
                 } catch is CancellationError {
                     return
-                } catch { self.error = error.localizedDescription }
-            }.onDisappear { store.stopAudio() }
+                } catch { readerLoading = false; self.error = error.localizedDescription }
+            }
+            .task(id: readerLoading) {
+                guard readerLoading else { return }
+                do { try await Task.sleep(for: .seconds(12)) } catch { return }
+                guard readerLoading, error == nil else { return }
+                readerLoading = false
+                error = "This lesson is taking longer than expected to open. Please try again."
+            }
+            .onDisappear { store.stopAudio() }
     }
 }
 enum LessonHTML {
@@ -103,20 +136,54 @@ enum LessonHTML {
         """)
     }
 }
+/// Keep one idle reader ready, without sharing a mounted view between navigation stacks.
+@MainActor final class LessonWebViewPool {
+    private var idle: WKWebView?
+    func prepare() {
+        guard idle == nil else { return }
+        let web = WKWebView(frame: .zero, configuration: WKWebViewConfiguration())
+        web.isOpaque = false
+        web.backgroundColor = .clear
+        web.loadHTMLString("<!doctype html><html><body></body></html>", baseURL: nil)
+        idle = web
+    }
+    func acquire() -> WKWebView {
+        if let web = idle { idle = nil; web.stopLoading(); return web }
+        let web = WKWebView(frame: .zero, configuration: WKWebViewConfiguration())
+        web.isOpaque = false
+        web.backgroundColor = .clear
+        return web
+    }
+    func recycle(_ web: WKWebView) {
+        web.stopLoading()
+        web.navigationDelegate = nil
+        web.configuration.userContentController.removeScriptMessageHandler(forName: "speak")
+        guard idle == nil else { return }
+        // Stop old timers and discard lesson content while retaining the warm browser.
+        web.loadHTMLString("<!doctype html><html><body></body></html>", baseURL: nil)
+        idle = web
+    }
+    func clear() { idle?.stopLoading(); idle = nil }
+}
+
 struct LessonWebView: UIViewRepresentable {
     let html: String
     let theme: AppTheme
+    let pool: LessonWebViewPool
     let speak: (String) -> Void
-    func makeCoordinator() -> Coordinator { Coordinator(theme: theme, speak: speak) }
+    let ready: () -> Void
+    let failed: (String) -> Void
+    func makeCoordinator() -> Coordinator {
+        Coordinator(theme: theme, pool: pool, speak: speak, ready: ready, failed: failed)
+    }
     func makeUIView(context: Context) -> WKWebView {
-        let config = WKWebViewConfiguration()
-        config.userContentController.add(context.coordinator, name: "speak")
-        let web = WKWebView(frame: .zero, configuration: config)
-        web.isOpaque = false
-        web.backgroundColor = .clear
+        let web = pool.acquire()
+        web.configuration.userContentController.add(context.coordinator, name: "speak")
+        web.scrollView.setContentOffset(.zero, animated: false)
         web.navigationDelegate = context.coordinator
         let styledHTML = html.replacingOccurrences(of: "<html lang=\"en\">", with: "<html lang=\"en\" style=\"\(theme.css)\">")
-        web.loadHTMLString(styledHTML, baseURL: nil)
+        context.coordinator.html = styledHTML
+        context.coordinator.navigation = web.loadHTMLString(styledHTML, baseURL: nil)
         return web
     }
     func updateUIView(_ web: WKWebView, context: Context) {
@@ -124,14 +191,23 @@ struct LessonWebView: UIViewRepresentable {
         context.coordinator.applyTheme(to: web)
     }
     static func dismantleUIView(_ web: WKWebView, coordinator: Coordinator) {
-        web.configuration.userContentController.removeScriptMessageHandler(forName: "speak")
-        web.stopLoading()
+        coordinator.pool.recycle(web)
     }
     final class Coordinator: NSObject, WKScriptMessageHandler, WKNavigationDelegate {
         let speak: (String) -> Void
         var theme: AppTheme
+        let pool: LessonWebViewPool
+        let ready: () -> Void
+        let failed: (String) -> Void
+        var html = ""
+        var navigation: WKNavigation?
+        private var recoveredProcess = false
         private var appliedTheme: AppTheme?
-        init(theme: AppTheme, speak: @escaping (String) -> Void) { self.theme = theme; self.speak = speak }
+        init(theme: AppTheme, pool: LessonWebViewPool, speak: @escaping (String) -> Void,
+             ready: @escaping () -> Void, failed: @escaping (String) -> Void) {
+            self.theme = theme; self.pool = pool; self.speak = speak
+            self.ready = ready; self.failed = failed
+        }
         func applyTheme(to web: WKWebView, force: Bool = false) {
             guard force || appliedTheme != theme else { return }
             appliedTheme = theme
@@ -139,8 +215,30 @@ struct LessonWebView: UIViewRepresentable {
             web.evaluateJavaScript("document.documentElement.style.cssText = " + css, completionHandler: nil)
         }
         func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
+            guard navigation === self.navigation else { return }
+            ready()
             applyTheme(to: webView, force: true)
             webView.evaluateJavaScript("if(window.replayWordAnimation){window.replayWordAnimation()}", completionHandler: nil)
+        }
+        func webView(_ webView: WKWebView, didFail navigation: WKNavigation!, withError error: Error) {
+            guard navigation === self.navigation else { return }
+            report(error)
+        }
+        func webView(_ webView: WKWebView, didFailProvisionalNavigation navigation: WKNavigation!, withError error: Error) {
+            guard navigation === self.navigation else { return }
+            report(error)
+        }
+        private func report(_ error: Error) {
+            guard (error as NSError).code != NSURLErrorCancelled else { return }
+            failed("The lesson reader couldn’t open this page. Please try again.")
+        }
+        func webViewWebContentProcessDidTerminate(_ webView: WKWebView) {
+            guard !recoveredProcess else {
+                failed("The lesson reader stopped unexpectedly. Please try again.")
+                return
+            }
+            recoveredProcess = true
+            navigation = webView.loadHTMLString(html, baseURL: nil)
         }
         func userContentController(_ controller: WKUserContentController, didReceive message: WKScriptMessage) {
             if let text = message.body as? String { speak(text) }
