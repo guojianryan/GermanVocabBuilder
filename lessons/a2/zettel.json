@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Zettel",
+    "partOfSpeech": "noun, masculine (der Zettel)",
+    "pronunciation": {
+      "respelling": "TSET-el",
+      "ipa": "ˈtsɛtl̩",
+      "notes": "The plural looks the same. Plural: die Zettel."
+    },
+    "meaning": "slip of paper, note",
+    "shortDefinition": "Slip of paper, note."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Zettel, plural die Zettel.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Zettel"
+        },
+        {
+          "label": "More than one",
+          "value": "die Zettel"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich schreibe die Nummer auf einen Zettel.",
+      "english": "I'll write the number on a piece of paper.",
+      "highlight": [
+        "Zettel."
+      ]
+    },
+    {
+      "german": "Hast du meinen Zettel gelesen?",
+      "english": "Did you read my note?",
+      "highlight": [
+        "Zettel"
+      ]
+    },
+    {
+      "german": "Der Einkaufszettel liegt in der Küche.",
+      "english": "The shopping list is in the kitchen.",
+      "highlight": [
+        "Einkaufszettel"
+      ]
+    }
+  ],
+  "forms": [
+    "Zettel",
+    "die Zettel",
+    "der Zettel"
+  ],
+  "memoryHook": "Der Zettel: a scrap of paper or a note.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Zettel",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Zettel is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Zettel, zwei ___",
+      "answer": "Zettel",
+      "fullAnswer": "ein Zettel, zwei Zettel",
+      "explanation": "The plural is Zettel.",
+      "acceptedAnswers": [
+        "Zettel"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Zettel mean?",
+      "options": [
+        "the window",
+        "slip of paper",
+        "to learn"
+      ],
+      "answer": "slip of paper",
+      "explanation": "Zettel: slip of paper, note.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "A shopping list:",
+      "options": [
+        "der Einkaufszettel",
+        "die Einkaufsliste (also)"
+      ],
+      "answer": "der Einkaufszettel",
+      "explanation": "Both used.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Zettel",
+        "Zetteln"
+      ],
+      "answer": "Zettel",
+      "explanation": "No change.",
+      "id": "q5"
+    }
+  ]
+}

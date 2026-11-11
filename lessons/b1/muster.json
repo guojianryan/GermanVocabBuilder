@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Muster",
+    "partOfSpeech": "noun, neuter (das Muster)",
+    "pronunciation": {
+      "respelling": "MOOS-ter",
+      "ipa": "ˈmʊstɐ",
+      "notes": "The plural looks the same. Plural: die Muster."
+    },
+    "meaning": "pattern; sample",
+    "shortDefinition": "Pattern; sample."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Muster, plural die Muster.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Muster"
+        },
+        {
+          "label": "More than one",
+          "value": "die Muster"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das Kleid hat ein schönes Muster.",
+      "english": "The dress has a nice pattern.",
+      "highlight": [
+        "Muster."
+      ]
+    },
+    {
+      "german": "Er folgt immer demselben Muster.",
+      "english": "He always follows the same pattern.",
+      "highlight": [
+        "Muster."
+      ]
+    },
+    {
+      "german": "Ich bekomme ein kostenloses Muster.",
+      "english": "I'm getting a free sample.",
+      "highlight": [
+        "Muster."
+      ]
+    }
+  ],
+  "forms": [
+    "Muster",
+    "die Muster",
+    "das Muster"
+  ],
+  "memoryHook": "Das Muster: pattern; sample.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Muster",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Muster is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Muster, zwei ___",
+      "answer": "Muster",
+      "fullAnswer": "ein Muster, zwei Muster",
+      "explanation": "The plural is Muster.",
+      "acceptedAnswers": [
+        "Muster"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Muster mean?",
+      "options": [
+        "the shop",
+        "the bread",
+        "pattern"
+      ],
+      "answer": "pattern",
+      "explanation": "Muster: pattern; sample.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Muster can mean…",
+      "options": [
+        "pattern or sample",
+        "only pattern"
+      ],
+      "answer": "pattern or sample",
+      "explanation": "Both.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Muster",
+        "Mustern"
+      ],
+      "answer": "Muster",
+      "explanation": "No change.",
+      "id": "q5"
+    }
+  ]
+}

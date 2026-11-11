@@ -1,0 +1,181 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "ermitteln",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "er-MIT-eln",
+      "ipa": "ɛɐ̯ˈmɪtl̩n",
+      "notes": ""
+    },
+    "meaning": "to investigate; to determine, find out",
+    "shortDefinition": "To investigate; to determine, find out."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "er",
+        "meaning": "find out"
+      },
+      {
+        "part": "mitteln",
+        "meaning": "to get the middle (Mitte)"
+      }
+    ],
+    "literalMeaning": "to find the middle",
+    "summary": "Working out where the truth sits."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "ermittl|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "ermittel|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "ermittel|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "ermittel|n"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "ermittel|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "ermittel|n"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat ermittelt"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Polizei ermittelt gegen ihn.",
+      "english": "The police are investigating him.",
+      "highlight": [
+        "ermittelt"
+      ]
+    },
+    {
+      "german": "Der Gewinner wird per Los ermittelt.",
+      "english": "The winner will be determined by lot.",
+      "highlight": [
+        "ermittelt."
+      ]
+    },
+    {
+      "german": "Wir müssen die Ursache ermitteln.",
+      "english": "We have to find out the cause.",
+      "highlight": [
+        "ermitteln."
+      ]
+    }
+  ],
+  "forms": [
+    "Ermittlung",
+    "Ermittler"
+  ],
+  "memoryHook": "Ermitteln (gegen) → die Ermittlungen, der Ermittler.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (ermitteln)",
+      "answer": "ermittelt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: ermittelt.",
+      "acceptedAnswers": [
+        "ermittelt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (ermitteln, past)",
+      "answer": "ermittelt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe ermittelt.",
+      "acceptedAnswers": [
+        "ermittelt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does ermitteln mean?",
+      "options": [
+        "the bed",
+        "to investigate",
+        "to travel"
+      ],
+      "answer": "to investigate",
+      "explanation": "ermitteln: to investigate; to determine, find out.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Ermitteln gegen' means…",
+      "options": [
+        "to investigate (someone)",
+        "to mediate"
+      ],
+      "answer": "to investigate (someone)",
+      "explanation": "Police.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Investigation:",
+      "options": [
+        "die Ermittlung",
+        "die Ermittelung only"
+      ],
+      "answer": "die Ermittlung",
+      "explanation": "Usually plural.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Investigator:",
+      "options": [
+        "der Ermittler",
+        "der Mittler"
+      ],
+      "answer": "der Ermittler",
+      "explanation": "Person.",
+      "id": "q6"
+    }
+  ]
+}

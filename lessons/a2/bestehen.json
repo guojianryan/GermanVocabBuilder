@@ -1,0 +1,181 @@
+{
+ "schemaVersion": "1.4",
+ "language": "de",
+ "explanationLanguage": "en",
+ "level": "A2",
+ "levelSource": "Goethe-Zertifikat A2 Wortliste",
+ "lessonType": "card",
+ "word": {
+  "headword": "bestehen",
+  "partOfSpeech": "verb",
+  "pronunciation": {
+   "respelling": "be-SHTAY-en",
+   "ipa": "bəˈʃteːən",
+   "notes": ""
+  },
+  "meaning": "to pass (an exam); to consist of",
+  "shortDefinition": "To pass (an exam); to consist of."
+ },
+ "tables": [
+  {
+   "title": "Present tense",
+   "columns": [
+    "present"
+   ],
+   "rows": [
+    {
+     "label": "ich",
+     "cells": [
+      "besteh|e"
+     ]
+    },
+    {
+     "label": "du",
+     "cells": [
+      "besteh|st"
+     ]
+    },
+    {
+     "label": "er, sie, es",
+     "cells": [
+      "besteh|t"
+     ]
+    },
+    {
+     "label": "wir",
+     "cells": [
+      "besteh|en"
+     ]
+    },
+    {
+     "label": "ihr",
+     "cells": [
+      "besteh|t"
+     ]
+    },
+    {
+     "label": "sie, Sie",
+     "cells": [
+      "besteh|en"
+     ]
+    }
+   ],
+   "notes": [
+    "Past (Perfekt): hat bestanden"
+   ]
+  }
+ ],
+ "wordFamily": [
+  {
+   "german": "durchfallen",
+   "english": "to fail",
+   "type": "verb"
+  }
+ ],
+ "sampleSentences": [
+  {
+   "german": "Ich habe die Prüfung bestanden!",
+   "english": "I passed the exam!",
+   "highlight": [
+    "bestanden!"
+   ]
+  },
+  {
+   "german": "Hoffentlich bestehe ich den Test.",
+   "english": "Hopefully I'll pass the test.",
+   "highlight": [
+    "bestehe"
+   ]
+  },
+  {
+   "german": "Die Prüfung besteht aus vier Teilen.",
+   "english": "The exam consists of four parts.",
+   "highlight": [
+    "besteht",
+    "aus"
+   ]
+  }
+ ],
+ "forms": [
+  "bestehe",
+  "bestehst",
+  "besteht",
+  "bestehen",
+  "bestanden",
+  "bestand"
+ ],
+ "memoryHook": "Eine Prüfung bestehen = pass. Bestehen aus = consist of. Fail = durchfallen.",
+ "signOff": "Gut gemacht!",
+ "quiz": [
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "er ___ (bestehen)",
+   "answer": "besteht",
+   "fullAnswer": "",
+   "explanation": "For er, sie, es: besteht.",
+   "acceptedAnswers": [
+    "besteht"
+   ],
+   "id": "q1"
+  },
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "Ich habe schon ___. (bestehen, past)",
+   "answer": "bestanden",
+   "fullAnswer": "",
+   "explanation": "Perfekt: habe bestanden.",
+   "acceptedAnswers": [
+    "bestanden"
+   ],
+   "id": "q2"
+  },
+  {
+   "type": "choice",
+   "prompt": "What does bestehen mean?",
+   "options": [
+    "to pass (an exam)",
+    "the car",
+    "the bill"
+   ],
+   "answer": "to pass (an exam)",
+   "explanation": "bestehen: to pass (an exam); to consist of.",
+   "id": "q3"
+  },
+  {
+   "type": "choice",
+   "prompt": "'I passed the exam':",
+   "options": [
+    "Ich habe die Prüfung bestanden.",
+    "Ich habe die Prüfung gepasst."
+   ],
+   "answer": "Ich habe die Prüfung bestanden.",
+   "explanation": "Bestehen.",
+   "id": "q4"
+  },
+  {
+   "type": "choice",
+   "prompt": "'Bestehen aus' means…",
+   "options": [
+    "to consist of",
+    "to stand out"
+   ],
+   "answer": "to consist of",
+   "explanation": "Aus.",
+   "id": "q5"
+  }
+ ],
+ "etymology": {
+  "title": "Where it comes from",
+  "parts": [
+   {
+    "part": "be",
+    "meaning": "prefix (acts on something)"
+   },
+   {
+    "part": "stehen",
+    "meaning": "to stand"
+   }
+  ],
+  "literalMeaning": "to stand (the test)"
+ }
+}

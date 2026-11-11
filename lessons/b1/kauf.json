@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Kauf",
+    "partOfSpeech": "noun, masculine (der Kauf)",
+    "pronunciation": {
+      "respelling": "KOWF",
+      "ipa": "kaʊ̯f",
+      "notes": "Plural: die Käufe."
+    },
+    "meaning": "purchase",
+    "shortDefinition": "Purchase."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Kauf, plural die Käufe.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Kauf"
+        },
+        {
+          "label": "More than one",
+          "value": "die Käufe"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das war ein guter Kauf.",
+      "english": "That was a good buy.",
+      "highlight": [
+        "Kauf."
+      ]
+    },
+    {
+      "german": "Beim Kauf von zwei gibt es Rabatt.",
+      "english": "There's a discount if you buy two.",
+      "highlight": [
+        "Kauf"
+      ]
+    },
+    {
+      "german": "Das Auto steht zum Kauf.",
+      "english": "The car is for sale.",
+      "highlight": [
+        "Kauf."
+      ]
+    }
+  ],
+  "forms": [
+    "Käufe",
+    "die Käufe",
+    "der Kauf"
+  ],
+  "memoryHook": "Kaufen → der Kauf (purchase). Ein guter Kauf = a good buy.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Kauf",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Kauf is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Kauf, zwei ___",
+      "answer": "Käufe",
+      "fullAnswer": "ein Kauf, zwei Käufe",
+      "explanation": "The plural is Käufe.",
+      "acceptedAnswers": [
+        "Kaeufe"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Kauf mean?",
+      "options": [
+        "the evening",
+        "purchase",
+        "the weather"
+      ],
+      "answer": "purchase",
+      "explanation": "Kauf: purchase.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "kaufen",
+        "Kaufhaus"
+      ],
+      "answer": "kaufen",
+      "explanation": "Buy.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Zum Kauf' means…",
+      "options": [
+        "for sale",
+        "to the shop"
+      ],
+      "answer": "for sale",
+      "explanation": "Sale.",
+      "id": "q5"
+    }
+  ]
+}

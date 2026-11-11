@@ -1,0 +1,131 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Raum",
+    "partOfSpeech": "noun, masculine (der Raum)",
+    "pronunciation": {
+      "respelling": "ROWM",
+      "ipa": "ʁaʊ̯m",
+      "notes": "Plural: die Räume."
+    },
+    "meaning": "room, space",
+    "shortDefinition": "Room, space."
+  },
+  "wordFamily": [
+    {
+      "german": "das Zimmer",
+      "english": "room",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Raum, plural die Räume.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Raum"
+        },
+        {
+          "label": "More than one",
+          "value": "die Räume"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Kurs ist in Raum 12.",
+      "english": "The class is in room 12.",
+      "highlight": [
+        "Raum"
+      ]
+    },
+    {
+      "german": "Die Wohnung hat drei Räume.",
+      "english": "The flat has three rooms.",
+      "highlight": [
+        "Räume."
+      ]
+    },
+    {
+      "german": "Hier ist nicht genug Raum.",
+      "english": "There isn't enough space here.",
+      "highlight": [
+        "Raum."
+      ]
+    }
+  ],
+  "forms": [
+    "Räume",
+    "die Räume",
+    "der Raum"
+  ],
+  "memoryHook": "Der Raum = room, space (English 'room' is related). For flats, Zimmer is more common.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Raum",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Raum is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Raum, zwei ___",
+      "answer": "Räume",
+      "fullAnswer": "ein Raum, zwei Räume",
+      "explanation": "The plural is Räume.",
+      "acceptedAnswers": [
+        "Raeume"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Raum mean?",
+      "options": [
+        "the car",
+        "room",
+        "the door"
+      ],
+      "answer": "room",
+      "explanation": "Raum: room, space.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "For a room in a flat, the more common word is…",
+      "options": [
+        "das Zimmer",
+        "der Raum"
+      ],
+      "answer": "das Zimmer",
+      "explanation": "Raum is more formal/general.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Räume",
+        "Raume"
+      ],
+      "answer": "Räume",
+      "explanation": "Umlaut + e.",
+      "id": "q5"
+    }
+  ]
+}

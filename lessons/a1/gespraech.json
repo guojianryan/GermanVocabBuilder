@@ -1,0 +1,151 @@
+{
+ "schemaVersion": "1.4",
+ "language": "de",
+ "explanationLanguage": "en",
+ "level": "A1",
+ "levelSource": "Goethe-Zertifikat A1 Wortliste",
+ "lessonType": "card",
+ "word": {
+  "headword": "Gespräch",
+  "partOfSpeech": "noun, neuter (das Gespräch)",
+  "pronunciation": {
+   "respelling": "guh-SHPRAYKH",
+   "ipa": "ɡəˈʃpʁɛːç",
+   "notes": "Plural: die Gespräche."
+  },
+  "meaning": "conversation, talk",
+  "shortDefinition": "Conversation, talk."
+ },
+ "etymology": {
+  "title": "Where it comes from",
+  "parts": [
+   {
+    "part": "Ge",
+    "meaning": "prefix"
+   },
+   {
+    "part": "spräch",
+    "meaning": "speech (sprechen)"
+   }
+  ],
+  "literalMeaning": "a speaking together",
+  "summary": "Ge- (noun prefix) + sprech- (from sprechen, to speak), with the vowel changing to ä."
+ },
+ "wordFamily": [
+  {
+   "german": "sprechen",
+   "english": "to speak",
+   "type": "verb"
+  },
+  {
+   "german": "das Telefongespräch",
+   "english": "phone call",
+   "type": "noun"
+  }
+ ],
+ "commonMistakes": [
+  {
+   "title": "Gender and plural",
+   "explanation": "Das Gespräch, plural die Gespräche.",
+   "forms": [
+    {
+     "label": "One",
+     "value": "das Gespräch"
+    },
+    {
+     "label": "More than one",
+     "value": "die Gespräche"
+    }
+   ]
+  }
+ ],
+ "sampleSentences": [
+  {
+   "german": "Wir hatten ein langes Gespräch.",
+   "english": "We had a long conversation.",
+   "highlight": [
+    "Gespräch."
+   ]
+  },
+  {
+   "german": "Ich habe morgen ein Vorstellungsgespräch.",
+   "english": "I have a job interview tomorrow.",
+   "highlight": [
+    "Vorstellungsgespräch."
+   ]
+  },
+  {
+   "german": "Herr Weber ist gerade im Gespräch.",
+   "english": "Mr Weber is in a meeting right now.",
+   "highlight": [
+    "Gespräch."
+   ]
+  }
+ ],
+ "forms": [
+  "Gespräche",
+  "die Gespräche",
+  "das Gespräch"
+ ],
+ "memoryHook": "Ge + spräch (from sprechen): a talk. Vorstellungsgespräch = job interview. 'Im Gespräch' = in a meeting.",
+ "signOff": "Gut gemacht!",
+ "quiz": [
+  {
+   "type": "choice",
+   "prompt": "___ Gespräch",
+   "options": [
+    "der",
+    "die",
+    "das"
+   ],
+   "answer": "das",
+   "explanation": "Gespräch is neuter.",
+   "id": "q1"
+  },
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "ein Gespräch, zwei ___",
+   "answer": "Gespräche",
+   "fullAnswer": "ein Gespräch, zwei Gespräche",
+   "explanation": "The plural is Gespräche.",
+   "acceptedAnswers": [
+    "Gespraeche"
+   ],
+   "id": "q2"
+  },
+  {
+   "type": "choice",
+   "prompt": "What does Gespräch mean?",
+   "options": [
+    "the car",
+    "conversation",
+    "never"
+   ],
+   "answer": "conversation",
+   "explanation": "Gespräch: conversation, talk.",
+   "id": "q3"
+  },
+  {
+   "type": "choice",
+   "prompt": "Gespräch comes from…",
+   "options": [
+    "sprechen",
+    "spielen"
+   ],
+   "answer": "sprechen",
+   "explanation": "Ge- + sprech: talking.",
+   "id": "q4"
+  },
+  {
+   "type": "choice",
+   "prompt": "Ein Vorstellungsgespräch is…",
+   "options": [
+    "a job interview",
+    "a theatre talk"
+   ],
+   "answer": "a job interview",
+   "explanation": "Vorstellen: introduce yourself.",
+   "id": "q5"
+  }
+ ]
+}

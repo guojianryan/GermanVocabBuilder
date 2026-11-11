@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "spazieren gehen",
+    "partOfSpeech": "phrase (verb)",
+    "pronunciation": {
+      "respelling": "shpa-TSEE-ren gay-en",
+      "ipa": "ʃpaˈtsiːʁən ˈɡeːən",
+      "notes": ""
+    },
+    "meaning": "to go for a walk",
+    "shortDefinition": "To go for a walk."
+  },
+  "sampleSentences": [
+    {
+      "german": "Wir gehen im Park spazieren.",
+      "english": "We're going for a walk in the park.",
+      "highlight": [
+        "gehen",
+        "spazieren."
+      ]
+    },
+    {
+      "german": "Ich gehe jeden Abend mit dem Hund spazieren.",
+      "english": "I walk the dog every evening.",
+      "highlight": [
+        "gehe",
+        "spazieren."
+      ]
+    },
+    {
+      "german": "Sind sie spazieren gegangen?",
+      "english": "Did they go for a walk?",
+      "highlight": [
+        "spazieren",
+        "gegangen?"
+      ]
+    }
+  ],
+  "forms": [
+    "gehe spazieren",
+    "geht spazieren",
+    "spazieren gegangen",
+    "spazieren"
+  ],
+  "memoryHook": "Spazieren gehen = go for a walk (gehen changes: ich gehe spazieren).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does spazieren gehen mean?",
+      "options": [
+        "the child",
+        "tomorrow",
+        "to go for a walk"
+      ],
+      "answer": "to go for a walk",
+      "explanation": "spazieren gehen: to go for a walk.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Word order:",
+      "options": [
+        "Ich gehe spazieren.",
+        "Ich spaziere gehen."
+      ],
+      "answer": "Ich gehe spazieren.",
+      "explanation": "Gehen conjugates.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "ist spazieren gegangen",
+        "hat spazieren gegangen"
+      ],
+      "answer": "ist spazieren gegangen",
+      "explanation": "Sein.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "The noun:",
+      "options": [
+        "der Spaziergang",
+        "die Spazierung"
+      ],
+      "answer": "der Spaziergang",
+      "explanation": "A walk.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Kommst du mit ___ ? (for a walk)",
+      "answer": "spazieren",
+      "fullAnswer": "Kommst du mit spazieren?",
+      "explanation": "Spazieren.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "fallen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "FAL-en",
+      "ipa": "ˈfalən",
+      "notes": ""
+    },
+    "meaning": "to fall",
+    "shortDefinition": "To fall."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "fall|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "f|ä|llst"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "f|ä|llt"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "fall|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "fall|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "fall|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): ist gefallen",
+        "a → ä for du and er."
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "hinfallen",
+      "english": "to fall over",
+      "type": "verb"
+    },
+    {
+      "german": "gefallen",
+      "english": "to please",
+      "type": "verb"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das Glas ist vom Tisch gefallen.",
+      "english": "The glass fell off the table.",
+      "highlight": [
+        "gefallen."
+      ]
+    },
+    {
+      "german": "Im Herbst fallen die Blätter.",
+      "english": "In autumn the leaves fall.",
+      "highlight": [
+        "fallen"
+      ]
+    },
+    {
+      "german": "Die Prüfung fällt mir schwer.",
+      "english": "I'm finding the exam hard.",
+      "highlight": [
+        "fällt"
+      ]
+    }
+  ],
+  "forms": [
+    "falle",
+    "fällst",
+    "fällt",
+    "fallen",
+    "fallt",
+    "gefallen",
+    "fiel",
+    "fielen"
+  ],
+  "memoryHook": "Fallen, fiel, ist gefallen. Careful: gefallen (to please) is a different verb!",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (fallen)",
+      "answer": "fällt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: fällt.",
+      "acceptedAnswers": [
+        "faellt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich bin schon ___. (fallen, past)",
+      "answer": "gefallen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: bin gefallen.",
+      "acceptedAnswers": [
+        "gefallen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does fallen mean?",
+      "options": [
+        "to fall",
+        "the bread",
+        "hot"
+      ],
+      "answer": "to fall",
+      "explanation": "fallen: to fall.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt with…",
+      "options": [
+        "sein",
+        "haben"
+      ],
+      "answer": "sein",
+      "explanation": "Ist gefallen.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Es fällt mir schwer' means…",
+      "options": [
+        "I find it hard.",
+        "It falls on me."
+      ],
+      "answer": "I find it hard.",
+      "explanation": "Schwerfallen.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Kuss",
+    "partOfSpeech": "noun, masculine (der Kuss)",
+    "pronunciation": {
+      "respelling": "KOOS",
+      "ipa": "kʊs",
+      "notes": "Plural: die Küsse."
+    },
+    "meaning": "kiss",
+    "shortDefinition": "Kiss."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Kuss, plural die Küsse.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Kuss"
+        },
+        {
+          "label": "More than one",
+          "value": "die Küsse"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Gib mir einen Kuss!",
+      "english": "Give me a kiss!",
+      "highlight": [
+        "Kuss!"
+      ]
+    },
+    {
+      "german": "Viele Küsse, deine Anna.",
+      "english": "Lots of kisses, your Anna.",
+      "highlight": [
+        "Küsse,"
+      ]
+    },
+    {
+      "german": "Es war ein langer Kuss.",
+      "english": "It was a long kiss.",
+      "highlight": [
+        "Kuss."
+      ]
+    }
+  ],
+  "forms": [
+    "Küsse",
+    "die Küsse",
+    "der Kuss"
+  ],
+  "memoryHook": "Der Kuss, die Küsse; küssen.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Kuss",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Kuss is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Kuss, zwei ___",
+      "answer": "Küsse",
+      "fullAnswer": "ein Kuss, zwei Küsse",
+      "explanation": "The plural is Küsse.",
+      "acceptedAnswers": [
+        "Kuesse"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Kuss mean?",
+      "options": [
+        "the job",
+        "kiss",
+        "the child"
+      ],
+      "answer": "kiss",
+      "explanation": "Kuss: kiss.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Küsse",
+        "Kusse"
+      ],
+      "answer": "Küsse",
+      "explanation": "u → ü.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "The verb:",
+      "options": [
+        "küssen",
+        "kussen"
+      ],
+      "answer": "küssen",
+      "explanation": "Kiss.",
+      "id": "q5"
+    }
+  ]
+}

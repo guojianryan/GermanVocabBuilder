@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Energie",
+    "partOfSpeech": "noun, feminine (die Energie)",
+    "pronunciation": {
+      "respelling": "e-ner-GEE",
+      "ipa": "enɛʁˈɡiː",
+      "notes": "Plural: die Energien."
+    },
+    "meaning": "energy",
+    "shortDefinition": "Energy."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Energie, plural die Energien.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Energie"
+        },
+        {
+          "label": "More than one",
+          "value": "die Energien"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich habe heute keine Energie.",
+      "english": "I have no energy today.",
+      "highlight": [
+        "Energie."
+      ]
+    },
+    {
+      "german": "Wir müssen Energie sparen.",
+      "english": "We have to save energy.",
+      "highlight": [
+        "Energie"
+      ]
+    },
+    {
+      "german": "Sonnenenergie ist sauber.",
+      "english": "Solar energy is clean.",
+      "highlight": [
+        "Sonnenenergie"
+      ]
+    }
+  ],
+  "forms": [
+    "Energien",
+    "die Energien",
+    "die Energie"
+  ],
+  "memoryHook": "Die Energie (hard g, stress at the end).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Energie",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Energie is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Energie, zwei ___",
+      "answer": "Energien",
+      "fullAnswer": "ein Energie, zwei Energien",
+      "explanation": "The plural is Energien.",
+      "acceptedAnswers": [
+        "Energien"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Energie mean?",
+      "options": [
+        "energy",
+        "always",
+        "the job"
+      ],
+      "answer": "energy",
+      "explanation": "Energie: energy.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "G sounds like…",
+      "options": [
+        "g in 'go'",
+        "j in 'jam'"
+      ],
+      "answer": "g in 'go'",
+      "explanation": "e-ner-GEE.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Renewable energy:",
+      "options": [
+        "erneuerbare Energie",
+        "neue Energie"
+      ],
+      "answer": "erneuerbare Energie",
+      "explanation": "Renewable.",
+      "id": "q5"
+    }
+  ]
+}

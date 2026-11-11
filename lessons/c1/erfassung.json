@@ -1,0 +1,140 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Erfassung",
+    "partOfSpeech": "noun, feminine (die Erfassung)",
+    "pronunciation": {
+      "respelling": "er-FA-sung",
+      "ipa": "ɛɐ̯ˈfasʊŋ",
+      "notes": "Plural: die Erfassungen."
+    },
+    "meaning": "recording, registration, capture (of data)",
+    "shortDefinition": "Recording, registration, capture (of data)."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Er",
+        "meaning": "seize"
+      },
+      {
+        "part": "fass",
+        "meaning": "grasp"
+      },
+      {
+        "part": "ung",
+        "meaning": "noun ending"
+      }
+    ],
+    "literalMeaning": "a grasping"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Erfassung, plural die Erfassungen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Erfassung"
+        },
+        {
+          "label": "More than one",
+          "value": "die Erfassungen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Erfassung der Daten.",
+      "english": "The recording of the data.",
+      "highlight": [
+        "Erfassung"
+      ]
+    },
+    {
+      "german": "Die Erfassung der Arbeitszeit.",
+      "english": "Recording working hours.",
+      "highlight": [
+        "Erfassung"
+      ]
+    },
+    {
+      "german": "Eine vollständige Erfassung.",
+      "english": "A complete record.",
+      "highlight": [
+        "Erfassung."
+      ]
+    }
+  ],
+  "forms": [
+    "erfassen"
+  ],
+  "memoryHook": "Erfassen → die Erfassung.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Erfassung",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Erfassung is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Erfassung, zwei ___",
+      "answer": "Erfassungen",
+      "fullAnswer": "ein Erfassung, zwei Erfassungen",
+      "explanation": "The plural is Erfassungen.",
+      "acceptedAnswers": [
+        "Erfassungen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Erfassung mean?",
+      "options": [
+        "never",
+        "the flower",
+        "recording"
+      ],
+      "answer": "recording",
+      "explanation": "Erfassung: recording, registration, capture (of data).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "erfassen (record, grasp)",
+        "fassen only"
+      ],
+      "answer": "erfassen (record, grasp)",
+      "explanation": "Record.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Data capture:",
+      "options": [
+        "die Datenerfassung",
+        "die Datenfassung"
+      ],
+      "answer": "die Datenerfassung",
+      "explanation": "Compound.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "lesen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "LAY-zen",
+      "ipa": "ˈleːzn̩",
+      "notes": ""
+    },
+    "meaning": "to read",
+    "shortDefinition": "To read."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "les|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "l|ie|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "l|ie|st"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "les|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "les|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "les|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gelesen",
+        "E becomes ie for du and er; both are liest."
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich lese gern Zeitung.",
+      "english": "I like reading the newspaper.",
+      "highlight": [
+        "lese"
+      ]
+    },
+    {
+      "german": "Was liest du gerade?",
+      "english": "What are you reading at the moment?",
+      "highlight": [
+        "liest"
+      ]
+    },
+    {
+      "german": "Hast du das Buch schon gelesen?",
+      "english": "Have you read the book yet?",
+      "highlight": [
+        "gelesen?"
+      ]
+    }
+  ],
+  "forms": [
+    "lese",
+    "liest",
+    "lesen",
+    "lest",
+    "gelesen",
+    "las"
+  ],
+  "memoryHook": "Lesen: e → ie (du liest, er liest). Hat gelesen.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (lesen)",
+      "answer": "liest",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: liest.",
+      "acceptedAnswers": [
+        "liest"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (lesen, past)",
+      "answer": "gelesen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gelesen.",
+      "acceptedAnswers": [
+        "gelesen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does lesen mean?",
+      "options": [
+        "the job",
+        "to read",
+        "the bed"
+      ],
+      "answer": "to read",
+      "explanation": "lesen: to read.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Du ___ viel.",
+      "options": [
+        "lest",
+        "liest"
+      ],
+      "answer": "liest",
+      "explanation": "E → ie.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Du liest and er liest are…",
+      "options": [
+        "the same",
+        "different"
+      ],
+      "answer": "the same",
+      "explanation": "Both liest.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "zeigen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "TSYE-gen",
+      "ipa": "ˈtsaɪ̯ɡn̩",
+      "notes": ""
+    },
+    "meaning": "to show",
+    "shortDefinition": "To show."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "zeig|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "zeig|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "zeig|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "zeig|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "zeig|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "zeig|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gezeigt"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "anzeigen",
+      "english": "to display",
+      "type": "verb"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Zeig mal!",
+      "english": "Show me!",
+      "highlight": [
+        "Zeig"
+      ]
+    },
+    {
+      "german": "Können Sie mir den Weg zeigen?",
+      "english": "Can you show me the way?",
+      "highlight": [
+        "zeigen?"
+      ]
+    },
+    {
+      "german": "Er zeigt uns die Stadt.",
+      "english": "He's showing us the town.",
+      "highlight": [
+        "zeigt"
+      ]
+    }
+  ],
+  "forms": [
+    "zeige",
+    "zeigst",
+    "zeigt",
+    "zeigen",
+    "gezeigt"
+  ],
+  "memoryHook": "Jemandem etwas zeigen. Zeigen auf = point at.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (zeigen)",
+      "answer": "zeigt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: zeigt.",
+      "acceptedAnswers": [
+        "zeigt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (zeigen, past)",
+      "answer": "gezeigt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gezeigt.",
+      "acceptedAnswers": [
+        "gezeigt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does zeigen mean?",
+      "options": [
+        "the car",
+        "to show",
+        "the shop"
+      ],
+      "answer": "to show",
+      "explanation": "zeigen: to show.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Show SOMEONE something:",
+      "options": [
+        "jemandem etwas zeigen",
+        "jemanden etwas zeigen"
+      ],
+      "answer": "jemandem etwas zeigen",
+      "explanation": "Dative person.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Point at':",
+      "options": [
+        "zeigen auf",
+        "zeigen an only"
+      ],
+      "answer": "zeigen auf",
+      "explanation": "Er zeigt auf das Haus.",
+      "id": "q5"
+    }
+  ]
+}

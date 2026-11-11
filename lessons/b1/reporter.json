@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Reporter",
+    "partOfSpeech": "noun, masculine (der Reporter)",
+    "pronunciation": {
+      "respelling": "re-POR-ter",
+      "ipa": "ʁeˈpɔʁtɐ",
+      "notes": "The plural looks the same. Plural: die Reporter."
+    },
+    "meaning": "reporter",
+    "shortDefinition": "Reporter."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Reporter, plural die Reporter.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Reporter"
+        },
+        {
+          "label": "More than one",
+          "value": "die Reporter"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Reporter stellt Fragen.",
+      "english": "The reporter asks questions.",
+      "highlight": [
+        "Reporter"
+      ]
+    },
+    {
+      "german": "Sie arbeitet als Reporterin.",
+      "english": "She works as a reporter.",
+      "highlight": [
+        "Reporterin."
+      ]
+    },
+    {
+      "german": "Viele Reporter waren vor Ort.",
+      "english": "Many reporters were on the scene.",
+      "highlight": [
+        "Reporter"
+      ]
+    }
+  ],
+  "forms": [
+    "Reporterin"
+  ],
+  "memoryHook": "Der Reporter, die Reporterin.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Reporter",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Reporter is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Reporter, zwei ___",
+      "answer": "Reporter",
+      "fullAnswer": "ein Reporter, zwei Reporter",
+      "explanation": "The plural is Reporter.",
+      "acceptedAnswers": [
+        "Reporter"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Reporter mean?",
+      "options": [
+        "to sleep",
+        "the window",
+        "reporter"
+      ],
+      "answer": "reporter",
+      "explanation": "Reporter: reporter.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Female:",
+      "options": [
+        "die Reporterin",
+        "die Reporter"
+      ],
+      "answer": "die Reporterin",
+      "explanation": "-in.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Reporter",
+        "Reporters"
+      ],
+      "answer": "Reporter",
+      "explanation": "No change.",
+      "id": "q5"
+    }
+  ]
+}

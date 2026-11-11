@@ -1,0 +1,148 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Flüchtling",
+    "partOfSpeech": "noun, masculine (der Flüchtling)",
+    "pronunciation": {
+      "respelling": "FLÜKHT-ling",
+      "ipa": "ˈflʏçtlɪŋ",
+      "notes": "Plural: die Flüchtlinge."
+    },
+    "meaning": "refugee",
+    "shortDefinition": "Refugee."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Flücht",
+        "meaning": "flight (Flucht)"
+      },
+      {
+        "part": "ling",
+        "meaning": "person ending"
+      }
+    ],
+    "literalMeaning": "one in flight"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Flüchtling, plural die Flüchtlinge.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Flüchtling"
+        },
+        {
+          "label": "More than one",
+          "value": "die Flüchtlinge"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Viele Flüchtlinge kommen nach Europa.",
+      "english": "Many refugees come to Europe.",
+      "highlight": [
+        "Flüchtlinge"
+      ]
+    },
+    {
+      "german": "Sie hilft Flüchtlingen beim Deutschlernen.",
+      "english": "She helps refugees learn German.",
+      "highlight": [
+        "Flüchtlingen"
+      ]
+    },
+    {
+      "german": "Er kam als Flüchtling.",
+      "english": "He came as a refugee.",
+      "highlight": [
+        "Flüchtling."
+      ]
+    }
+  ],
+  "forms": [
+    "Geflüchtete",
+    "Flucht"
+  ],
+  "memoryHook": "Fliehen → die Flucht → der Flüchtling.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Flüchtling",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Flüchtling is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Flüchtling, zwei ___",
+      "answer": "Flüchtlinge",
+      "fullAnswer": "ein Flüchtling, zwei Flüchtlinge",
+      "explanation": "The plural is Flüchtlinge.",
+      "acceptedAnswers": [
+        "Fluechtlinge"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Flüchtling mean?",
+      "options": [
+        "the window",
+        "refugee",
+        "to travel"
+      ],
+      "answer": "refugee",
+      "explanation": "Flüchtling: refugee.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "die Flucht / fliehen (flee)",
+        "fliegen"
+      ],
+      "answer": "die Flucht / fliehen (flee)",
+      "explanation": "Flight.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gender (even for women):",
+      "options": [
+        "der",
+        "die"
+      ],
+      "answer": "der",
+      "explanation": "-ling = der.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Neutral alternative:",
+      "options": [
+        "Geflüchtete(r)",
+        "Flüchtlingin"
+      ],
+      "answer": "Geflüchtete(r)",
+      "explanation": "Newer term.",
+      "id": "q6"
+    }
+  ]
+}

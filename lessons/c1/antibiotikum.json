@@ -1,0 +1,135 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Antibiotikum",
+    "partOfSpeech": "noun, neuter (das Antibiotikum)",
+    "pronunciation": {
+      "respelling": "an-ti-bi-OH-ti-koom",
+      "ipa": "antibiˈoːtikʊm",
+      "notes": "Plural: die Antibiotika."
+    },
+    "meaning": "antibiotic",
+    "shortDefinition": "Antibiotic."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Antibiotikum, plural die Antibiotika.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Antibiotikum"
+        },
+        {
+          "label": "More than one",
+          "value": "die Antibiotika"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Arzt verschreibt ein Antibiotikum.",
+      "english": "The doctor prescribes an antibiotic.",
+      "highlight": [
+        "Antibiotikum."
+      ]
+    },
+    {
+      "german": "Antibiotika helfen nicht gegen Viren.",
+      "english": "Antibiotics don't help against viruses.",
+      "highlight": [
+        "Antibiotika"
+      ]
+    },
+    {
+      "german": "Nimm das Antibiotikum bis zum Ende.",
+      "english": "Take the antibiotic to the end.",
+      "highlight": [
+        "Antibiotikum"
+      ]
+    }
+  ],
+  "forms": [
+    "Antibiotika",
+    "die Antibiotika",
+    "das Antibiotikum"
+  ],
+  "memoryHook": "Das Antibiotikum (die Antibiotika).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Antibiotikum",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Antibiotikum is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Antibiotikum, zwei ___",
+      "answer": "Antibiotika",
+      "fullAnswer": "ein Antibiotikum, zwei Antibiotika",
+      "explanation": "The plural is Antibiotika.",
+      "acceptedAnswers": [
+        "Antibiotika"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Antibiotikum mean?",
+      "options": [
+        "the station",
+        "the family",
+        "antibiotic"
+      ],
+      "answer": "antibiotic",
+      "explanation": "Antibiotikum: antibiotic.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Antibiotika",
+        "Antibiotikums"
+      ],
+      "answer": "Antibiotika",
+      "explanation": "-um → -a.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Stress on…",
+      "options": [
+        "-O-",
+        "AN-"
+      ],
+      "answer": "-O-",
+      "explanation": "an-ti-bi-OH-ti-koom.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gender:",
+      "options": [
+        "das",
+        "der"
+      ],
+      "answer": "das",
+      "explanation": "-um = das.",
+      "id": "q6"
+    }
+  ]
+}

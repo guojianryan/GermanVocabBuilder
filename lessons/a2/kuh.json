@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Kuh",
+    "partOfSpeech": "noun, feminine (die Kuh)",
+    "pronunciation": {
+      "respelling": "KOO",
+      "ipa": "kuː",
+      "notes": "Plural: die Kühe."
+    },
+    "meaning": "cow",
+    "shortDefinition": "Cow."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Kuh, plural die Kühe.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Kuh"
+        },
+        {
+          "label": "More than one",
+          "value": "die Kühe"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Kuh steht auf der Wiese.",
+      "english": "The cow is standing in the meadow.",
+      "highlight": [
+        "Kuh"
+      ]
+    },
+    {
+      "german": "Kühe geben Milch.",
+      "english": "Cows give milk.",
+      "highlight": [
+        "Kühe"
+      ]
+    },
+    {
+      "german": "Das ist eine heilige Kuh.",
+      "english": "That's a sacred cow.",
+      "highlight": [
+        "Kuh."
+      ]
+    }
+  ],
+  "forms": [
+    "Kühe",
+    "die Kühe",
+    "die Kuh"
+  ],
+  "memoryHook": "Die Kuh, die Kühe.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Kuh",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Kuh is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Kuh, zwei ___",
+      "answer": "Kühe",
+      "fullAnswer": "ein Kuh, zwei Kühe",
+      "explanation": "The plural is Kühe.",
+      "acceptedAnswers": [
+        "Kuehe"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Kuh mean?",
+      "options": [
+        "the weather",
+        "cow",
+        "the bill"
+      ],
+      "answer": "cow",
+      "explanation": "Kuh: cow.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Kühe",
+        "Kuhe"
+      ],
+      "answer": "Kühe",
+      "explanation": "u → ü.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "H is…",
+      "options": [
+        "silent",
+        "pronounced"
+      ],
+      "answer": "silent",
+      "explanation": "KOO.",
+      "id": "q5"
+    }
+  ]
+}

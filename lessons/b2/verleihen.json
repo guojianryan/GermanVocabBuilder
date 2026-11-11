@@ -1,0 +1,180 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "verleihen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "fer-LYE-en",
+      "ipa": "fɛɐ̯ˈlaɪ̯ən",
+      "notes": ""
+    },
+    "meaning": "to lend, hire out; to award",
+    "shortDefinition": "To lend, hire out; to award."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "ver",
+        "meaning": "away"
+      },
+      {
+        "part": "leihen",
+        "meaning": "to lend"
+      }
+    ],
+    "literalMeaning": "to lend away"
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "verleih|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "verleih|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "verleih|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "verleih|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "verleih|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "verleih|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat verliehen"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich verleihe meine Bücher nicht.",
+      "english": "I don't lend out my books.",
+      "highlight": [
+        "verleihe"
+      ]
+    },
+    {
+      "german": "Ihm wurde der Nobelpreis verliehen.",
+      "english": "He was awarded the Nobel Prize.",
+      "highlight": [
+        "verliehen."
+      ]
+    },
+    {
+      "german": "Hier werden Fahrräder verliehen.",
+      "english": "Bikes are hired out here.",
+      "highlight": [
+        "verliehen."
+      ]
+    }
+  ],
+  "forms": [
+    "Verleihung",
+    "Verleih"
+  ],
+  "memoryHook": "Verleihen (verlieh, verliehen): lend out; award; Verleihung.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (verleihen)",
+      "answer": "verleiht",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: verleiht.",
+      "acceptedAnswers": [
+        "verleiht"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (verleihen, past)",
+      "answer": "verliehen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe verliehen.",
+      "acceptedAnswers": [
+        "verliehen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does verleihen mean?",
+      "options": [
+        "the flower",
+        "always",
+        "to lend"
+      ],
+      "answer": "to lend",
+      "explanation": "verleihen: to lend, hire out; to award.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Noun (award ceremony):",
+      "options": [
+        "die Verleihung",
+        "der Verleih only"
+      ],
+      "answer": "die Verleihung",
+      "explanation": "Award.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Hire shop:",
+      "options": [
+        "der Verleih (Fahrradverleih)",
+        "die Leihe"
+      ],
+      "answer": "der Verleih (Fahrradverleih)",
+      "explanation": "Rental.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "hat verliehen",
+        "hat verleiht"
+      ],
+      "answer": "hat verliehen",
+      "explanation": "Strong.",
+      "id": "q6"
+    }
+  ]
+}

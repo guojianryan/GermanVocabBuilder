@@ -1,0 +1,167 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "gratulieren",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "gra-too-LEE-ren",
+      "ipa": "ɡʁatuˈliːʁən",
+      "notes": ""
+    },
+    "meaning": "to congratulate",
+    "shortDefinition": "To congratulate."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "gratulier|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "gratulier|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "gratulier|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "gratulier|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "gratulier|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "gratulier|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gratuliert",
+        "-ieren verbs have no ge- in the past."
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "der Glückwunsch",
+      "english": "congratulations",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich gratuliere dir zum Geburtstag!",
+      "english": "Happy birthday to you!",
+      "highlight": [
+        "gratuliere",
+        "dir"
+      ]
+    },
+    {
+      "german": "Wir gratulieren Ihnen zur Hochzeit.",
+      "english": "Congratulations on your wedding.",
+      "highlight": [
+        "gratulieren",
+        "Ihnen"
+      ]
+    },
+    {
+      "german": "Hast du ihr schon gratuliert?",
+      "english": "Have you congratulated her yet?",
+      "highlight": [
+        "gratuliert?"
+      ]
+    }
+  ],
+  "forms": [
+    "gratuliere",
+    "gratulierst",
+    "gratuliert",
+    "gratulieren"
+  ],
+  "memoryHook": "Gratulieren + dative + zu: Ich gratuliere dir zum Geburtstag. No ge- (it's an -ieren verb).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (gratulieren)",
+      "answer": "gratuliert",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: gratuliert.",
+      "acceptedAnswers": [
+        "gratuliert"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (gratulieren, past)",
+      "answer": "gratuliert",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gratuliert.",
+      "acceptedAnswers": [
+        "gratuliert"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does gratulieren mean?",
+      "options": [
+        "the window",
+        "the flower",
+        "to congratulate"
+      ],
+      "answer": "to congratulate",
+      "explanation": "gratulieren: to congratulate.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich gratuliere ___. (you)",
+      "options": [
+        "dich",
+        "dir"
+      ],
+      "answer": "dir",
+      "explanation": "Gratulieren + dative.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Congratulate ON something: gratulieren…",
+      "options": [
+        "zu",
+        "für"
+      ],
+      "answer": "zu",
+      "explanation": "Zum Geburtstag, zur Hochzeit.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "full",
+  "word": {
+    "headword": "hängen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "HENG-en",
+      "ipa": "ˈhɛŋən",
+      "notes": ""
+    },
+    "meaning": "to hang (two verbs!)",
+    "shortDefinition": "To be hanging (hing, gehangen) or to hang something up (hängte, gehängt)."
+  },
+  "intro": {
+    "title": "Hanging or hanging up?",
+    "paragraphs": [
+      "Hängen is really two verbs. When something is hanging (where?), it's irregular: Das Bild hing an der Wand, es hat dort gehangen.",
+      "When you hang something up (where to?), it's regular: Ich hängte das Bild an die Wand, ich habe es gehängt. Like liegen/legen and stehen/stellen, but with the same infinitive."
+    ]
+  },
+  "tables": [
+    {
+      "title": "Two kinds of hängen",
+      "columns": [
+        "past",
+        "Perfekt"
+      ],
+      "rows": [
+        {
+          "label": "is hanging (wo?)",
+          "hint": "+ dative",
+          "cells": [
+            "h|i|ng",
+            "hat geh|a|ngen"
+          ]
+        },
+        {
+          "label": "hangs up (wohin?)",
+          "hint": "+ accusative",
+          "cells": [
+            "häng|te|",
+            "hat gehäng|t|"
+          ]
+        }
+      ],
+      "notes": [
+        "Wo hängt das Bild? An der Wand. Wohin hängst du das Bild? An die Wand."
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "an der or an die?",
+      "explanation": "Hanging somewhere: dative. Putting it there: accusative.",
+      "wrong": "Ich hänge das Bild an der Wand.",
+      "correct": "Ich hänge das Bild an die Wand."
+    },
+    {
+      "title": "Perfekt",
+      "explanation": "Two different participles.",
+      "forms": [
+        {
+          "label": "was hanging",
+          "value": "hat gehangen"
+        },
+        {
+          "label": "hung it up",
+          "value": "hat gehängt"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das Bild hängt an der Wand.",
+      "english": "The picture is hanging on the wall.",
+      "highlight": [
+        "hängt"
+      ]
+    },
+    {
+      "german": "Ich hänge die Jacke an den Haken.",
+      "english": "I'm hanging the jacket on the hook.",
+      "highlight": [
+        "hänge"
+      ]
+    },
+    {
+      "german": "Die Wäsche hat den ganzen Tag draußen gehangen.",
+      "english": "The washing was hanging outside all day.",
+      "highlight": [
+        "gehangen."
+      ]
+    }
+  ],
+  "forms": [
+    "hängt",
+    "hänge",
+    "hängst",
+    "hing",
+    "hingen",
+    "gehangen",
+    "hängte",
+    "gehängt",
+    "aufhängen"
+  ],
+  "memoryHook": "It hung there (gehangen). I hung it up (gehängt).",
+  "signOff": "Lass den Kopf nicht hängen!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Das Bild hat lange an der Wand ___ .",
+      "options": [
+        "gehangen",
+        "gehängt"
+      ],
+      "answer": "gehangen",
+      "explanation": "Was hanging: gehangen.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich habe das Bild an die Wand ___ .",
+      "options": [
+        "gehängt",
+        "gehangen"
+      ],
+      "answer": "gehängt",
+      "explanation": "Hung it up: gehängt.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Die Jacke hängt an ___ Tür.",
+      "options": [
+        "der",
+        "die"
+      ],
+      "answer": "der",
+      "explanation": "Where? Dative.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich hänge die Jacke an ___ Tür.",
+      "options": [
+        "die",
+        "der"
+      ],
+      "answer": "die",
+      "explanation": "Where to? Accusative.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Das Bild ___ schief. (is hanging)",
+      "answer": "hängt",
+      "fullAnswer": "Das Bild hängt schief.",
+      "explanation": "Present: hängt.",
+      "acceptedAnswers": [
+        "haengt"
+      ],
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Lass den Kopf nicht hängen!' means…",
+      "options": [
+        "Chin up!",
+        "Don't hang your hat!"
+      ],
+      "answer": "Chin up!",
+      "explanation": "Don't let your head hang.",
+      "id": "q6"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Topf",
+    "partOfSpeech": "noun, masculine (der Topf)",
+    "pronunciation": {
+      "respelling": "TOPF",
+      "ipa": "tɔpf",
+      "notes": "Plural: die Töpfe."
+    },
+    "meaning": "pot, saucepan",
+    "shortDefinition": "Pot, saucepan."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Topf, plural die Töpfe.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Topf"
+        },
+        {
+          "label": "More than one",
+          "value": "die Töpfe"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Suppe ist im Topf.",
+      "english": "The soup is in the pot.",
+      "highlight": [
+        "Topf."
+      ]
+    },
+    {
+      "german": "Wir brauchen einen großen Topf.",
+      "english": "We need a big saucepan.",
+      "highlight": [
+        "Topf."
+      ]
+    },
+    {
+      "german": "Die Töpfe stehen im Schrank.",
+      "english": "The pots are in the cupboard.",
+      "highlight": [
+        "Töpfe"
+      ]
+    }
+  ],
+  "forms": [
+    "Töpfe",
+    "die Töpfe",
+    "der Topf"
+  ],
+  "memoryHook": "Der Topf (pot), die Pfanne (pan).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Topf",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Topf is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Topf, zwei ___",
+      "answer": "Töpfe",
+      "fullAnswer": "ein Topf, zwei Töpfe",
+      "explanation": "The plural is Töpfe.",
+      "acceptedAnswers": [
+        "Toepfe"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Topf mean?",
+      "options": [
+        "the bed",
+        "pot",
+        "the window"
+      ],
+      "answer": "pot",
+      "explanation": "Topf: pot, saucepan.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Töpfe",
+        "Topfs"
+      ],
+      "answer": "Töpfe",
+      "explanation": "o → ö.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "A frying pan:",
+      "options": [
+        "die Pfanne",
+        "der Bratopf"
+      ],
+      "answer": "die Pfanne",
+      "explanation": "Pfanne.",
+      "id": "q5"
+    }
+  ]
+}

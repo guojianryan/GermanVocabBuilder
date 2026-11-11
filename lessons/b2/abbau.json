@@ -1,0 +1,135 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Abbau",
+    "partOfSpeech": "noun, masculine (der Abbau)",
+    "pronunciation": {
+      "respelling": "AP-bow",
+      "ipa": "ˈapbaʊ̯",
+      "notes": "Usually no plural."
+    },
+    "meaning": "reduction; dismantling; mining; breakdown",
+    "shortDefinition": "Reduction; dismantling; mining; breakdown."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Ab",
+        "meaning": "off, down"
+      },
+      {
+        "part": "bau",
+        "meaning": "build",
+        "emphasis": "release"
+      }
+    ],
+    "literalMeaning": "a building-down",
+    "summary": "Taking it apart piece by piece."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Abbau, usually no plural.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Abbau"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Abbau von Stellen ist geplant.",
+      "english": "Job cuts are planned.",
+      "highlight": [
+        "Abbau"
+      ]
+    },
+    {
+      "german": "Der Abbau von Kohle.",
+      "english": "Coal mining.",
+      "highlight": [
+        "Abbau"
+      ]
+    },
+    {
+      "german": "Der Abbau des Zeltes dauert.",
+      "english": "Taking down the tent takes a while.",
+      "highlight": [
+        "Abbau"
+      ]
+    }
+  ],
+  "forms": [
+    "abbauen",
+    "Stellenabbau"
+  ],
+  "memoryHook": "Abbauen → der Abbau ↔ Aufbau; Stellenabbau.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Abbau",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Abbau is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Abbau mean?",
+      "options": [
+        "reduction",
+        "the door",
+        "to travel"
+      ],
+      "answer": "reduction",
+      "explanation": "Abbau: reduction; dismantling; mining; breakdown.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "abbauen",
+        "Bau only"
+      ],
+      "answer": "abbauen",
+      "explanation": "Dismantle.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Opposite:",
+      "options": [
+        "der Aufbau",
+        "der Umbau"
+      ],
+      "answer": "der Aufbau",
+      "explanation": "Build-up.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Stellenabbau' means…",
+      "options": [
+        "job cuts",
+        "job creation"
+      ],
+      "answer": "job cuts",
+      "explanation": "Redundancies.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Arbeitsplatz",
+    "partOfSpeech": "noun, masculine (der Arbeitsplatz)",
+    "pronunciation": {
+      "respelling": "AR-byts-plats",
+      "ipa": "ˈaʁbaɪ̯tsˌplats",
+      "notes": "Plural: die Arbeitsplätze."
+    },
+    "meaning": "workplace; job (position)",
+    "shortDefinition": "Workplace; job (position)."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Arbeit",
+        "meaning": "work"
+      },
+      {
+        "part": "s",
+        "meaning": "linking s"
+      },
+      {
+        "part": "platz",
+        "meaning": "place"
+      }
+    ],
+    "literalMeaning": "work place"
+  },
+  "wordFamily": [
+    {
+      "german": "der Platz",
+      "english": "place, square, seat",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Arbeitsplatz, plural die Arbeitsplätze.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Arbeitsplatz"
+        },
+        {
+          "label": "More than one",
+          "value": "die Arbeitsplätze"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "An meinem Arbeitsplatz fehlt ein Drucker.",
+      "english": "There's no printer at my workplace.",
+      "highlight": [
+        "Arbeitsplatz"
+      ]
+    },
+    {
+      "german": "Die Firma schafft 100 neue Arbeitsplätze.",
+      "english": "The company is creating 100 new jobs.",
+      "highlight": [
+        "Arbeitsplätze."
+      ]
+    },
+    {
+      "german": "Mein Arbeitsplatz ist am Fenster.",
+      "english": "My desk is by the window.",
+      "highlight": [
+        "Arbeitsplatz"
+      ]
+    }
+  ],
+  "forms": [
+    "Arbeitsplätze"
+  ],
+  "memoryHook": "Arbeit + Platz = the place where you work. Compounds take the gender of the last part: der Platz, der Arbeitsplatz.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Arbeitsplatz",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Arbeitsplatz is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Arbeitsplatz, zwei ___",
+      "answer": "Arbeitsplätze",
+      "fullAnswer": "ein Arbeitsplatz, zwei Arbeitsplätze",
+      "explanation": "The plural is Arbeitsplätze.",
+      "acceptedAnswers": [
+        "Arbeitsplaetze"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Arbeitsplatz is built from…",
+      "options": [
+        "Arbeit + s + Platz",
+        "Arbeiter + Platz"
+      ],
+      "answer": "Arbeit + s + Platz",
+      "explanation": "Platz: place.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Compound nouns take the gender of…",
+      "options": [
+        "the last word",
+        "the first word"
+      ],
+      "answer": "the last word",
+      "explanation": "Der Platz, so der Arbeitsplatz.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "an meinem ___ (at my workplace)",
+      "answer": "Arbeitsplatz",
+      "fullAnswer": "an meinem Arbeitsplatz",
+      "explanation": "Der Arbeitsplatz.",
+      "id": "q5"
+    }
+  ]
+}

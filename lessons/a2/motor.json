@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Motor",
+    "partOfSpeech": "noun, masculine (der Motor)",
+    "pronunciation": {
+      "respelling": "MOH-tor",
+      "ipa": "ˈmoːtoːɐ̯",
+      "notes": "Plural: die Motoren."
+    },
+    "meaning": "engine, motor",
+    "shortDefinition": "Engine, motor."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Motor, plural die Motoren.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Motor"
+        },
+        {
+          "label": "More than one",
+          "value": "die Motoren"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Motor ist kaputt.",
+      "english": "The engine is broken.",
+      "highlight": [
+        "Motor"
+      ]
+    },
+    {
+      "german": "Mach bitte den Motor aus.",
+      "english": "Please turn the engine off.",
+      "highlight": [
+        "Motor"
+      ]
+    },
+    {
+      "german": "Das Auto hat einen starken Motor.",
+      "english": "The car has a powerful engine.",
+      "highlight": [
+        "Motor."
+      ]
+    }
+  ],
+  "forms": [
+    "Motoren",
+    "die Motoren",
+    "der Motor"
+  ],
+  "memoryHook": "Der Motor, die Motoren. Das Motorrad = motorbike.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Motor",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Motor is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Motor, zwei ___",
+      "answer": "Motoren",
+      "fullAnswer": "ein Motor, zwei Motoren",
+      "explanation": "The plural is Motoren.",
+      "acceptedAnswers": [
+        "Motoren"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Motor mean?",
+      "options": [
+        "the shop",
+        "engine",
+        "the bed"
+      ],
+      "answer": "engine",
+      "explanation": "Motor: engine, motor.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Motoren",
+        "Motors"
+      ],
+      "answer": "Motoren",
+      "explanation": "Stress moves: mo-TOH-ren.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "A motorbike:",
+      "options": [
+        "das Motorrad",
+        "der Motorbike"
+      ],
+      "answer": "das Motorrad",
+      "explanation": "Motor + Rad.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "wünschen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "VÜN-shen",
+      "ipa": "ˈvʏnʃn̩",
+      "notes": ""
+    },
+    "meaning": "to wish",
+    "shortDefinition": "To wish."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "wünsch|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "wünsch|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "wünsch|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "wünsch|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "wünsch|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "wünsch|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gewünscht"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich wünsche dir alles Gute!",
+      "english": "I wish you all the best!",
+      "highlight": [
+        "wünsche"
+      ]
+    },
+    {
+      "german": "Was wünschst du dir zum Geburtstag?",
+      "english": "What would you like for your birthday?",
+      "highlight": [
+        "wünschst",
+        "dir"
+      ]
+    },
+    {
+      "german": "Wir wünschen Ihnen eine gute Reise.",
+      "english": "We wish you a good trip.",
+      "highlight": [
+        "wünschen"
+      ]
+    }
+  ],
+  "forms": [
+    "wünsche",
+    "wünschst",
+    "wünscht",
+    "wünschen",
+    "gewünscht"
+  ],
+  "memoryHook": "Jemandem etwas wünschen. Sich etwas wünschen = want something (as a gift).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (wünschen)",
+      "answer": "wünscht",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: wünscht.",
+      "acceptedAnswers": [
+        "wuenscht"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (wünschen, past)",
+      "answer": "gewünscht",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gewünscht.",
+      "acceptedAnswers": [
+        "gewuenscht"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does wünschen mean?",
+      "options": [
+        "to learn",
+        "to open",
+        "to wish"
+      ],
+      "answer": "to wish",
+      "explanation": "wünschen: to wish.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'What do you want for Christmas?':",
+      "options": [
+        "Was wünschst du dir zu Weihnachten?",
+        "Was willst du für Weihnachten?"
+      ],
+      "answer": "Was wünschst du dir zu Weihnachten?",
+      "explanation": "Sich wünschen.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Wish someone something:",
+      "options": [
+        "jemandem etwas wünschen",
+        "jemanden etwas wünschen"
+      ],
+      "answer": "jemandem etwas wünschen",
+      "explanation": "Dative person.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Team",
+    "partOfSpeech": "noun, neuter (das Team)",
+    "pronunciation": {
+      "respelling": "TEEM",
+      "ipa": "tiːm",
+      "notes": "Plural: die Teams."
+    },
+    "meaning": "team",
+    "shortDefinition": "Team."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Team, plural die Teams.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Team"
+        },
+        {
+          "label": "More than one",
+          "value": "die Teams"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir sind ein gutes Team.",
+      "english": "We're a good team.",
+      "highlight": [
+        "Team."
+      ]
+    },
+    {
+      "german": "Ich arbeite gern im Team.",
+      "english": "I like working in a team.",
+      "highlight": [
+        "Team."
+      ]
+    },
+    {
+      "german": "Das Team hat gewonnen.",
+      "english": "The team won.",
+      "highlight": [
+        "Team"
+      ]
+    }
+  ],
+  "forms": [
+    "Teams",
+    "die Teams",
+    "das Team"
+  ],
+  "memoryHook": "Das Team (English). Sport: die Mannschaft.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Team",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Team is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Team, zwei ___",
+      "answer": "Teams",
+      "fullAnswer": "ein Team, zwei Teams",
+      "explanation": "The plural is Teams.",
+      "acceptedAnswers": [
+        "Teams"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Team mean?",
+      "options": [
+        "the station",
+        "tomorrow",
+        "team"
+      ],
+      "answer": "team",
+      "explanation": "Team: team.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gender:",
+      "options": [
+        "das",
+        "die"
+      ],
+      "answer": "das",
+      "explanation": "Das Team.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "A German synonym (sport):",
+      "options": [
+        "die Mannschaft",
+        "die Gruppe only"
+      ],
+      "answer": "die Mannschaft",
+      "explanation": "Mannschaft.",
+      "id": "q5"
+    }
+  ]
+}

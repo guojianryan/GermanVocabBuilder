@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CF1246F69A07551644A2432 /* site/lesson-template.html in Resources */ = {isa = PBXBuildFile; fileRef = 51877A7EFDCD758E90FB71BF /* site/lesson-template.html */; };
+		24C55EF7E4F4BBEA71A0AEE8 /* Wortschatz/Views/LessonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BE2D7ABD09ED3C3CFB6CC8 /* Wortschatz/Views/LessonView.swift */; };
+		257A652C846BC0ED3D660CE8 /* Wortschatz/Views/LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1550F61602870EC7050BD3D7 /* Wortschatz/Views/LibraryView.swift */; };
+		407C65DE9C1E8FA593A1F9C0 /* Wortschatz/Views/AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0152570CCF065832DCDF6A59 /* Wortschatz/Views/AppTheme.swift */; };
+		4CA583B97A179BFF789E607F /* Wortschatz/Resources/Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 773AA64041E38D501714E021 /* Wortschatz/Resources/Assets.xcassets */; };
+		8F69D2603037B23E80BB9FA3 /* Tests/UITests/StudyFlowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDE1B02B46FB05CF1955EC0 /* Tests/UITests/StudyFlowTests.swift */; };
+		92316BCADCF0D1447D81D452 /* lessons in Resources */ = {isa = PBXBuildFile; fileRef = B0647DFE72ECBB4A82201EBC /* lessons */; };
+		9498B868B82B359902B21223 /* Wortschatz/Views/Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F341C1B140EE66AF4403FB /* Wortschatz/Views/Design.swift */; };
+		97AB1852141AC114A514F437 /* Wortschatz/App/AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942F72ECB01D8AA9AB9B048F /* Wortschatz/App/AppStore.swift */; };
+		9B6AD21A22B8AB8CDFAB663B /* Wortschatz/Views/PracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA160854168B34EE80E1C98 /* Wortschatz/Views/PracticeView.swift */; };
+		A9A8F6334CA488085CB3B0BA /* Wortschatz/Core/Lessons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B126B68F3D3A1902CDF458 /* Wortschatz/Core/Lessons.swift */; };
+		F8D75F7E89B0636CF4B530EC /* Wortschatz/Views/SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9118647B3010894F3B1319 /* Wortschatz/Views/SettingsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D799BAE6088A90139B415FCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98F54143AB4E86B28C3AFEE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E8A3AD980EC179856012B7E;
+			remoteInfo = Wortschatz;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0152570CCF065832DCDF6A59 /* Wortschatz/Views/AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wortschatz/Views/AppTheme.swift; sourceTree = SOURCE_ROOT; };
+		0BA160854168B34EE80E1C98 /* Wortschatz/Views/PracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wortschatz/Views/PracticeView.swift; sourceTree = SOURCE_ROOT; };
+		1550F61602870EC7050BD3D7 /* Wortschatz/Views/LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wortschatz/Views/LibraryView.swift; sourceTree = SOURCE_ROOT; };
+		15F341C1B140EE66AF4403FB /* Wortschatz/Views/Design.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wortschatz/Views/Design.swift; sourceTree = SOURCE_ROOT; };
+		38A007151ABE87CC01A5B6E9 /* Wortschatz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = Wortschatz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A9118647B3010894F3B1319 /* Wortschatz/Views/SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wortschatz/Views/SettingsView.swift; sourceTree = SOURCE_ROOT; };
+		4DDE1B02B46FB05CF1955EC0 /* Tests/UITests/StudyFlowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests/UITests/StudyFlowTests.swift; sourceTree = SOURCE_ROOT; };
+		51877A7EFDCD758E90FB71BF /* site/lesson-template.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "site/lesson-template.html"; sourceTree = SOURCE_ROOT; };
+		61BE2D7ABD09ED3C3CFB6CC8 /* Wortschatz/Views/LessonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wortschatz/Views/LessonView.swift; sourceTree = SOURCE_ROOT; };
+		773AA64041E38D501714E021 /* Wortschatz/Resources/Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Wortschatz/Resources/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		77B126B68F3D3A1902CDF458 /* Wortschatz/Core/Lessons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wortschatz/Core/Lessons.swift; sourceTree = SOURCE_ROOT; };
+		942F72ECB01D8AA9AB9B048F /* Wortschatz/App/AppStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wortschatz/App/AppStore.swift; sourceTree = SOURCE_ROOT; };
+		9D3AD977850B7EAC0E4F6585 /* WortschatzUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = WortschatzUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0647DFE72ECBB4A82201EBC /* lessons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = lessons; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7561BFB015D8F536760CB671 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8EED960630A35CF900E26FAF /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				4DDE1B02B46FB05CF1955EC0 /* Tests/UITests/StudyFlowTests.swift */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		B28B7AF69320201D1CF206EB = {
+			isa = PBXGroup;
+			children = (
+				942F72ECB01D8AA9AB9B048F /* Wortschatz/App/AppStore.swift */,
+				77B126B68F3D3A1902CDF458 /* Wortschatz/Core/Lessons.swift */,
+				0152570CCF065832DCDF6A59 /* Wortschatz/Views/AppTheme.swift */,
+				15F341C1B140EE66AF4403FB /* Wortschatz/Views/Design.swift */,
+				61BE2D7ABD09ED3C3CFB6CC8 /* Wortschatz/Views/LessonView.swift */,
+				1550F61602870EC7050BD3D7 /* Wortschatz/Views/LibraryView.swift */,
+				0BA160854168B34EE80E1C98 /* Wortschatz/Views/PracticeView.swift */,
+				4A9118647B3010894F3B1319 /* Wortschatz/Views/SettingsView.swift */,
+				B0647DFE72ECBB4A82201EBC /* lessons */,
+				51877A7EFDCD758E90FB71BF /* site/lesson-template.html */,
+				773AA64041E38D501714E021 /* Wortschatz/Resources/Assets.xcassets */,
+				FBDC4F23F93125BBEEAE800C /* Products */,
+				8EED960630A35CF900E26FAF /* Recovered References */,
+			);
+			sourceTree = "<group>";
+		};
+		FBDC4F23F93125BBEEAE800C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38A007151ABE87CC01A5B6E9 /* Wortschatz.app */,
+				9D3AD977850B7EAC0E4F6585 /* WortschatzUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0AD4B07A83E05DBD45B7FC37 /* WortschatzUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C89FC06BA9452D155609FB8 /* Build configuration list for PBXNativeTarget "WortschatzUITests" */;
+			buildPhases = (
+				95FC400A54C228DD62344224 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE58E2B17C19600779694943 /* PBXTargetDependency */,
+			);
+			name = WortschatzUITests;
+			productName = WortschatzUITests;
+			productReference = 9D3AD977850B7EAC0E4F6585 /* WortschatzUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		0E8A3AD980EC179856012B7E /* Wortschatz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C57128001CE614BF8549D6BB /* Build configuration list for PBXNativeTarget "Wortschatz" */;
+			buildPhases = (
+				BCE16DD0260827ECF338C787 /* Sources */,
+				7561BFB015D8F536760CB671 /* Frameworks */,
+				0189424A5A60FED329FA868E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wortschatz;
+			productName = Wortschatz;
+			productReference = 38A007151ABE87CC01A5B6E9 /* Wortschatz.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98F54143AB4E86B28C3AFEE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 862894B703A6DEDF96A9DD6C /* Build configuration list for PBXProject "Wortschatz" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B28B7AF69320201D1CF206EB;
+			productRefGroup = FBDC4F23F93125BBEEAE800C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E8A3AD980EC179856012B7E /* Wortschatz */,
+				0AD4B07A83E05DBD45B7FC37 /* WortschatzUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0189424A5A60FED329FA868E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92316BCADCF0D1447D81D452 /* lessons in Resources */,
+				0CF1246F69A07551644A2432 /* site/lesson-template.html in Resources */,
+				4CA583B97A179BFF789E607F /* Wortschatz/Resources/Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95FC400A54C228DD62344224 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F69D2603037B23E80BB9FA3 /* Tests/UITests/StudyFlowTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE16DD0260827ECF338C787 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97AB1852141AC114A514F437 /* Wortschatz/App/AppStore.swift in Sources */,
+				A9A8F6334CA488085CB3B0BA /* Wortschatz/Core/Lessons.swift in Sources */,
+				407C65DE9C1E8FA593A1F9C0 /* Wortschatz/Views/AppTheme.swift in Sources */,
+				9498B868B82B359902B21223 /* Wortschatz/Views/Design.swift in Sources */,
+				24C55EF7E4F4BBEA71A0AEE8 /* Wortschatz/Views/LessonView.swift in Sources */,
+				257A652C846BC0ED3D660CE8 /* Wortschatz/Views/LibraryView.swift in Sources */,
+				9B6AD21A22B8AB8CDFAB663B /* Wortschatz/Views/PracticeView.swift in Sources */,
+				F8D75F7E89B0636CF4B530EC /* Wortschatz/Views/SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE58E2B17C19600779694943 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E8A3AD980EC179856012B7E /* Wortschatz */;
+			targetProxy = D799BAE6088A90139B415FCC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		639A7CA24D39909E713B47F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = D4JN62A887;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Wortschatz;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jian.wortschatz;
+				PRODUCT_NAME = Wortschatz;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7082CC0B6FC1282FCEABD07A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = D4JN62A887;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Wortschatz;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jian.wortschatz;
+				PRODUCT_NAME = Wortschatz;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		89E1FD6268CC0F221A2BE178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		94C1D7A82E2F92E70C5BA5D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jian.wortschatz.uitests;
+				PRODUCT_NAME = WortschatzUITests;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wortschatz;
+			};
+			name = Debug;
+		};
+		9609A256A79253DD705A918E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jian.wortschatz.uitests;
+				PRODUCT_NAME = WortschatzUITests;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wortschatz;
+			};
+			name = Release;
+		};
+		E6DE6C99132752C914FEF632 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C89FC06BA9452D155609FB8 /* Build configuration list for PBXNativeTarget "WortschatzUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94C1D7A82E2F92E70C5BA5D8 /* Debug */,
+				9609A256A79253DD705A918E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		862894B703A6DEDF96A9DD6C /* Build configuration list for PBXProject "Wortschatz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89E1FD6268CC0F221A2BE178 /* Debug */,
+				E6DE6C99132752C914FEF632 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C57128001CE614BF8549D6BB /* Build configuration list for PBXNativeTarget "Wortschatz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7082CC0B6FC1282FCEABD07A /* Debug */,
+				639A7CA24D39909E713B47F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98F54143AB4E86B28C3AFEE0 /* Project object */;
+}

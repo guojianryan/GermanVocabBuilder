@@ -1,0 +1,138 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Bestandteil",
+    "partOfSpeech": "noun, masculine (der Bestandteil)",
+    "pronunciation": {
+      "respelling": "be-SHTANT-tile",
+      "ipa": "bəˈʃtantˌtaɪ̯l",
+      "notes": "Plural: die Bestandteile."
+    },
+    "meaning": "component, part",
+    "shortDefinition": "Component, part."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Bestand",
+        "meaning": "stock, existence"
+      },
+      {
+        "part": "teil",
+        "meaning": "part"
+      }
+    ],
+    "literalMeaning": "part of the whole"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Bestandteil, plural die Bestandteile.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Bestandteil"
+        },
+        {
+          "label": "More than one",
+          "value": "die Bestandteile"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wasser ist ein wichtiger Bestandteil.",
+      "english": "Water is an important component.",
+      "highlight": [
+        "Bestandteil."
+      ]
+    },
+    {
+      "german": "Das ist fester Bestandteil des Programms.",
+      "english": "That's an integral part of the programme.",
+      "highlight": [
+        "Bestandteil"
+      ]
+    },
+    {
+      "german": "Die Bestandteile der Mischung.",
+      "english": "The ingredients of the mixture.",
+      "highlight": [
+        "Bestandteile"
+      ]
+    }
+  ],
+  "forms": [
+    "Bestandteile",
+    "die Bestandteile",
+    "der Bestandteil"
+  ],
+  "memoryHook": "Bestand + Teil = component; fester Bestandteil.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Bestandteil",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Bestandteil is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Bestandteil, zwei ___",
+      "answer": "Bestandteile",
+      "fullAnswer": "ein Bestandteil, zwei Bestandteile",
+      "explanation": "The plural is Bestandteile.",
+      "acceptedAnswers": [
+        "Bestandteile"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Bestandteil mean?",
+      "options": [
+        "the job",
+        "component",
+        "the station"
+      ],
+      "answer": "component",
+      "explanation": "Bestandteil: component, part.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Fester Bestandteil' means…",
+      "options": [
+        "integral part",
+        "solid ingredient only"
+      ],
+      "answer": "integral part",
+      "explanation": "Phrase.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Bestand + Teil",
+        "bestehen + Teil only"
+      ],
+      "answer": "Bestand + Teil",
+      "explanation": "Part of the whole.",
+      "id": "q5"
+    }
+  ]
+}

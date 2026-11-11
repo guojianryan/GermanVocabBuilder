@@ -1,0 +1,137 @@
+{
+ "schemaVersion": "1.4",
+ "language": "de",
+ "explanationLanguage": "en",
+ "level": "A1",
+ "levelSource": "Goethe-Zertifikat A1 Wortliste",
+ "lessonType": "card",
+ "word": {
+  "headword": "Freizeit",
+  "partOfSpeech": "noun, feminine (die Freizeit)",
+  "pronunciation": {
+   "respelling": "FRY-tsite",
+   "ipa": "ˈfʁaɪ̯ˌtsaɪ̯t",
+   "notes": "Usually no plural. Usually no plural."
+  },
+  "meaning": "free time, leisure",
+  "shortDefinition": "Free time, leisure."
+ },
+ "etymology": {
+  "title": "Where it comes from",
+  "parts": [
+   {
+    "part": "Frei",
+    "meaning": "free",
+    "emphasis": "release"
+   },
+   {
+    "part": "zeit",
+    "meaning": "time"
+   }
+  ],
+  "literalMeaning": "free time"
+ },
+ "wordFamily": [
+  {
+   "german": "das Hobby",
+   "english": "hobby",
+   "type": "noun"
+  }
+ ],
+ "commonMistakes": [
+  {
+   "title": "Gender and plural",
+   "explanation": "Die Freizeit, usually no plural.",
+   "forms": [
+    {
+     "label": "One",
+     "value": "die Freizeit"
+    }
+   ]
+  }
+ ],
+ "sampleSentences": [
+  {
+   "german": "Was machst du in deiner Freizeit?",
+   "english": "What do you do in your free time?",
+   "highlight": [
+    "Freizeit?"
+   ]
+  },
+  {
+   "german": "In meiner Freizeit spiele ich Gitarre.",
+   "english": "In my free time I play the guitar.",
+   "highlight": [
+    "Freizeit"
+   ]
+  },
+  {
+   "german": "Ich habe zu wenig Freizeit.",
+   "english": "I don't have enough free time.",
+   "highlight": [
+    "Freizeit."
+   ]
+  }
+ ],
+ "forms": [
+  "die Freizeit"
+ ],
+ "memoryHook": "Frei + Zeit. Was machst du in deiner Freizeit? is a classic A1 exam question.",
+ "signOff": "Gut gemacht!",
+ "quiz": [
+  {
+   "type": "choice",
+   "prompt": "___ Freizeit",
+   "options": [
+    "der",
+    "die",
+    "das"
+   ],
+   "answer": "die",
+   "explanation": "Freizeit is feminine.",
+   "id": "q1"
+  },
+  {
+   "type": "choice",
+   "prompt": "What does Freizeit mean?",
+   "options": [
+    "always",
+    "free time",
+    "slowly"
+   ],
+   "answer": "free time",
+   "explanation": "Freizeit: free time, leisure.",
+   "id": "q2"
+  },
+  {
+   "type": "choice",
+   "prompt": "'In meiner Freizeit' means…",
+   "options": [
+    "in my free time",
+    "for free"
+   ],
+   "answer": "in my free time",
+   "explanation": "Frei + Zeit.",
+   "id": "q3"
+  },
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "Was machst du in deiner ___? (free time)",
+   "answer": "Freizeit",
+   "fullAnswer": "Was machst du in deiner Freizeit?",
+   "explanation": "Die Freizeit.",
+   "id": "q4"
+  },
+  {
+   "type": "choice",
+   "prompt": "Freizeit is feminine because…",
+   "options": [
+    "die Zeit",
+    "it ends in -t"
+   ],
+   "answer": "die Zeit",
+   "explanation": "Compound: last part decides.",
+   "id": "q5"
+  }
+ ]
+}

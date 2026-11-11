@@ -1,0 +1,170 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "vorlegen",
+    "partOfSpeech": "separable verb",
+    "pronunciation": {
+      "respelling": "FOR-lay-gen",
+      "ipa": "ˈfoːɐ̯ˌleːɡn̩",
+      "notes": ""
+    },
+    "meaning": "to present, submit, produce",
+    "shortDefinition": "To present, submit, produce."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "vor",
+        "meaning": "in front"
+      },
+      {
+        "part": "legen",
+        "meaning": "to lay"
+      }
+    ],
+    "literalMeaning": "to lay before"
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "leg|e … |vor"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "leg|st … |vor"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "leg|t … |vor"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "leg|en … |vor"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "leg|t … |vor"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "leg|en … |vor"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat vorgelegt"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Bitte legen Sie Ihren Ausweis vor.",
+      "english": "Please show your ID.",
+      "highlight": [
+        "legen",
+        "vor."
+      ]
+    },
+    {
+      "german": "Die Regierung hat einen Plan vorgelegt.",
+      "english": "The government has presented a plan.",
+      "highlight": [
+        "vorgelegt."
+      ]
+    },
+    {
+      "german": "Er legt ein schnelles Tempo vor.",
+      "english": "He sets a fast pace.",
+      "highlight": [
+        "legt",
+        "vor."
+      ]
+    }
+  ],
+  "forms": [
+    "Vorlage"
+  ],
+  "memoryHook": "Vorlegen = present, submit; die Vorlage.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ … vor (vorlegen)",
+      "answer": "legt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: legt … vor.",
+      "acceptedAnswers": [
+        "legt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (vorlegen, past)",
+      "answer": "vorgelegt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe vorgelegt.",
+      "acceptedAnswers": [
+        "vorgelegt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does vorlegen mean?",
+      "options": [
+        "quiet",
+        "to present",
+        "the bread"
+      ],
+      "answer": "to present",
+      "explanation": "vorlegen: to present, submit, produce.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Einen Ausweis vorlegen' means…",
+      "options": [
+        "to show / present ID",
+        "to lay ID down"
+      ],
+      "answer": "to show / present ID",
+      "explanation": "Present.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Related noun:",
+      "options": [
+        "die Vorlage (template; submission)",
+        "die Vorlegung only"
+      ],
+      "answer": "die Vorlage (template; submission)",
+      "explanation": "Template.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "baden",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "BAH-den",
+      "ipa": "ˈbaːdn̩",
+      "notes": ""
+    },
+    "meaning": "to have a bath; to swim (outdoors)",
+    "shortDefinition": "To have a bath; to swim (outdoors)."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "bad|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "bad|est"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "bad|et"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "bad|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "bad|et"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "bad|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gebadet",
+        "The stem ends in -d, so du and er add an e."
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "das Bad",
+      "english": "bath, bathroom",
+      "type": "noun"
+    },
+    {
+      "german": "duschen",
+      "english": "to shower",
+      "type": "verb"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich bade nicht so gern, ich dusche lieber.",
+      "english": "I don't like baths much, I prefer showers.",
+      "highlight": [
+        "bade"
+      ]
+    },
+    {
+      "german": "Im Sommer baden wir im See.",
+      "english": "In summer we swim in the lake.",
+      "highlight": [
+        "baden"
+      ]
+    },
+    {
+      "german": "Die Kinder baden gerade.",
+      "english": "The children are having a bath.",
+      "highlight": [
+        "baden"
+      ]
+    }
+  ],
+  "forms": [
+    "bade",
+    "badest",
+    "badet",
+    "baden",
+    "gebadet"
+  ],
+  "memoryHook": "Baden = to bathe: in a tub, or in a lake or the sea. Stems ending in -d add an e: du badest, er badet.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (baden)",
+      "answer": "badet",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: badet.",
+      "acceptedAnswers": [
+        "badet"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (baden, past)",
+      "answer": "gebadet",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gebadet.",
+      "acceptedAnswers": [
+        "gebadet"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does baden mean?",
+      "options": [
+        "to have a bath",
+        "the family",
+        "quiet"
+      ],
+      "answer": "to have a bath",
+      "explanation": "baden: to have a bath; to swim (outdoors).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Im See baden' means…",
+      "options": [
+        "to swim in the lake",
+        "to wash the car"
+      ],
+      "answer": "to swim in the lake",
+      "explanation": "Baden is also swimming outdoors.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Du ___ gern, oder?",
+      "options": [
+        "badst",
+        "badest"
+      ],
+      "answer": "badest",
+      "explanation": "Stems ending in -d add -e: du badest.",
+      "id": "q5"
+    }
+  ]
+}

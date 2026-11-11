@@ -1,0 +1,131 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Opa",
+    "partOfSpeech": "noun, masculine (der Opa)",
+    "pronunciation": {
+      "respelling": "OH-pa",
+      "ipa": "ˈoːpa",
+      "notes": "Plural: die Opas."
+    },
+    "meaning": "grandpa, granddad",
+    "shortDefinition": "Grandpa, granddad."
+  },
+  "wordFamily": [
+    {
+      "german": "die Oma",
+      "english": "grandma",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Opa, plural die Opas.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Opa"
+        },
+        {
+          "label": "More than one",
+          "value": "die Opas"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Mein Opa ist 85 Jahre alt.",
+      "english": "My grandpa is 85 years old.",
+      "highlight": [
+        "Opa"
+      ]
+    },
+    {
+      "german": "Opa erzählt gern Geschichten.",
+      "english": "Grandpa likes telling stories.",
+      "highlight": [
+        "Opa"
+      ]
+    },
+    {
+      "german": "Wir gehen mit Opa spazieren.",
+      "english": "We're going for a walk with Grandpa.",
+      "highlight": [
+        "Opa"
+      ]
+    }
+  ],
+  "forms": [
+    "Opas",
+    "die Opas",
+    "der Opa"
+  ],
+  "memoryHook": "Der Opa (masculine, despite the -a). Formal: Großvater.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Opa",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Opa is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Opa, zwei ___",
+      "answer": "Opas",
+      "fullAnswer": "ein Opa, zwei Opas",
+      "explanation": "The plural is Opas.",
+      "acceptedAnswers": [
+        "Opas"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Opa mean?",
+      "options": [
+        "grandpa",
+        "the job",
+        "to sing"
+      ],
+      "answer": "grandpa",
+      "explanation": "Opa: grandpa, granddad.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Opa is…",
+      "options": [
+        "masculine (der Opa)",
+        "feminine"
+      ],
+      "answer": "masculine (der Opa)",
+      "explanation": "Ends in -a but masculine.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "The formal word for Opa is…",
+      "options": [
+        "der Großvater",
+        "der Altvater"
+      ],
+      "answer": "der Großvater",
+      "explanation": "Großvater.",
+      "id": "q5"
+    }
+  ]
+}

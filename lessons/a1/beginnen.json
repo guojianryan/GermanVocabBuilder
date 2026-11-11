@@ -1,0 +1,173 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "beginnen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "buh-GIN-en",
+      "ipa": "bəˈɡɪnən",
+      "notes": ""
+    },
+    "meaning": "to begin, to start",
+    "shortDefinition": "To begin, to start."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "beginn|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "beginn|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "beginn|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "beginn|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "beginn|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "beginn|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat begonnen"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "der Beginn",
+      "english": "beginning, start",
+      "type": "noun"
+    },
+    {
+      "german": "anfangen",
+      "english": "to start",
+      "type": "separable verb"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Kurs beginnt um neun Uhr.",
+      "english": "The course begins at nine.",
+      "highlight": [
+        "beginnt"
+      ]
+    },
+    {
+      "german": "Wann beginnt der Film?",
+      "english": "When does the film start?",
+      "highlight": [
+        "beginnt"
+      ]
+    },
+    {
+      "german": "Wir haben pünktlich begonnen.",
+      "english": "We started on time.",
+      "highlight": [
+        "begonnen."
+      ]
+    }
+  ],
+  "forms": [
+    "beginne",
+    "beginnst",
+    "beginnt",
+    "beginnen",
+    "begonnen",
+    "begann",
+    "Beginn"
+  ],
+  "memoryHook": "Beginnen = begin. It doesn't split (unlike anfangen), and its past is irregular: begonnen.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (beginnen)",
+      "answer": "beginnt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: beginnt.",
+      "acceptedAnswers": [
+        "beginnt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (beginnen, past)",
+      "answer": "begonnen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe begonnen.",
+      "acceptedAnswers": [
+        "begonnen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does beginnen mean?",
+      "options": [
+        "to sing",
+        "the bread",
+        "to begin"
+      ],
+      "answer": "to begin",
+      "explanation": "beginnen: to begin, to start.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Which verb means the same?",
+      "options": [
+        "anfangen",
+        "aufhören"
+      ],
+      "answer": "anfangen",
+      "explanation": "Beginnen and anfangen are synonyms.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "The past participle is…",
+      "options": [
+        "begonnen",
+        "begannt",
+        "gebeginnt"
+      ],
+      "answer": "begonnen",
+      "explanation": "Irregular: begonnen.",
+      "id": "q5"
+    }
+  ]
+}

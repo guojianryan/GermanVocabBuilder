@@ -1,0 +1,187 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "anstehen",
+    "partOfSpeech": "separable verb",
+    "pronunciation": {
+      "respelling": "AN-shtay-en",
+      "ipa": "ˈanˌʃteːən",
+      "notes": ""
+    },
+    "meaning": "to queue; to be pending, be on the agenda",
+    "shortDefinition": "To queue; to be pending, be on the agenda."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "an",
+        "meaning": "at, on"
+      },
+      {
+        "part": "stehen",
+        "meaning": "to stand",
+        "emphasis": "stretch"
+      }
+    ],
+    "literalMeaning": "to stand at",
+    "summary": "Waiting in line."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "steh|e … |an"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "steh|st … |an"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "steh|t … |an"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "steh|en … |an"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "steh|t … |an"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "steh|en … |an"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat angestanden"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir mussten eine Stunde anstehen.",
+      "english": "We had to queue for an hour.",
+      "highlight": [
+        "anstehen."
+      ]
+    },
+    {
+      "german": "Was steht heute an?",
+      "english": "What's on today?",
+      "highlight": [
+        "steht",
+        "an?"
+      ]
+    },
+    {
+      "german": "Eine Entscheidung steht an.",
+      "english": "A decision is pending.",
+      "highlight": [
+        "steht",
+        "an."
+      ]
+    }
+  ],
+  "forms": [
+    "stehe an",
+    "stehst an",
+    "steht an",
+    "stehen an",
+    "angestanden"
+  ],
+  "memoryHook": "Anstehen: queue; be pending (Was steht an?).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ … an (anstehen)",
+      "answer": "steht",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: steht … an.",
+      "acceptedAnswers": [
+        "steht"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (anstehen, past)",
+      "answer": "angestanden",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe angestanden.",
+      "acceptedAnswers": [
+        "angestanden"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does anstehen mean?",
+      "options": [
+        "to queue",
+        "to help",
+        "the bread"
+      ],
+      "answer": "to queue",
+      "explanation": "anstehen: to queue; to be pending, be on the agenda.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Was steht an?' means…",
+      "options": [
+        "what's on / what needs doing?",
+        "who's queuing?"
+      ],
+      "answer": "what's on / what needs doing?",
+      "explanation": "Agenda.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonym (queue):",
+      "options": [
+        "Schlange stehen",
+        "warten only"
+      ],
+      "answer": "Schlange stehen",
+      "explanation": "Queue.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt (south):",
+      "options": [
+        "ist angestanden",
+        "hat angestanden only"
+      ],
+      "answer": "ist angestanden",
+      "explanation": "Regional.",
+      "id": "q6"
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "entlassen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "ent-LAS-en",
+      "ipa": "ɛntˈlasn̩",
+      "notes": ""
+    },
+    "meaning": "to dismiss, to discharge",
+    "shortDefinition": "To dismiss, to discharge."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "ent-",
+        "meaning": "away"
+      },
+      {
+        "part": "lass",
+        "meaning": "let (lassen)",
+        "emphasis": "release"
+      },
+      {
+        "part": "-en",
+        "meaning": "verb ending"
+      }
+    ],
+    "literalMeaning": "to let go away",
+    "summary": "Released from a job, a hospital or a prison."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "entlass|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "entl|ä|sst"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "entl|ä|sst"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "entlass|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "entlass|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "entlass|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat entlassen",
+        "a → ä for du and er."
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "die Entlassung",
+      "english": "dismissal; discharge",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Firma hat 50 Mitarbeiter entlassen.",
+      "english": "The company laid off 50 employees.",
+      "highlight": [
+        "entlassen."
+      ]
+    },
+    {
+      "german": "Er wird morgen aus dem Krankenhaus entlassen.",
+      "english": "He's being discharged from hospital tomorrow.",
+      "highlight": [
+        "entlassen."
+      ]
+    },
+    {
+      "german": "Sie wurde fristlos entlassen.",
+      "english": "She was dismissed without notice.",
+      "highlight": [
+        "entlassen."
+      ]
+    }
+  ],
+  "forms": [
+    "entlasse",
+    "entlässt",
+    "entlassen",
+    "entlasst",
+    "entließ"
+  ],
+  "memoryHook": "Ent- (away) + lassen (let): let go — from a job, a hospital, a prison.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (entlassen)",
+      "answer": "entlässt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: entlässt.",
+      "acceptedAnswers": [
+        "entlaesst"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (entlassen, past)",
+      "answer": "entlassen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe entlassen.",
+      "acceptedAnswers": [
+        "entlassen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does entlassen mean?",
+      "options": [
+        "to dismiss",
+        "the street",
+        "the bed"
+      ],
+      "answer": "to dismiss",
+      "explanation": "entlassen: to dismiss, to discharge.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Aus dem Krankenhaus entlassen' means…",
+      "options": [
+        "discharged from hospital",
+        "fired from hospital"
+      ],
+      "answer": "discharged from hospital",
+      "explanation": "Released.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonym (job):",
+      "options": [
+        "kündigen",
+        "einstellen"
+      ],
+      "answer": "kündigen",
+      "explanation": "Fire.",
+      "id": "q5"
+    }
+  ]
+}

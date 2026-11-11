@@ -1,0 +1,227 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "full",
+  "word": {
+    "headword": "wissen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "VISS-en",
+      "ipa": "ˈvɪsn̩",
+      "notes": "W = v."
+    },
+    "meaning": "to know (a fact)",
+    "shortDefinition": "To know facts and information."
+  },
+  "intro": {
+    "title": "Ich weiß es nicht",
+    "paragraphs": [
+      "Wissen is knowing facts: Ich weiß, wo er wohnt. People and places you know are kennen. Wissen is irregular in the singular: ich weiß, du weißt, er weiß."
+    ]
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "|weiß"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "|weißt"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "|weiß"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "wiss|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "wiss|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "wiss|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Ich and er: weiß (no -t). Past: wusste, hat gewusst."
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "kennen",
+      "english": "to know (be familiar with)",
+      "type": "verb"
+    },
+    {
+      "german": "das Wissen",
+      "english": "knowledge",
+      "type": "noun"
+    },
+    {
+      "german": "Weißt du was?",
+      "english": "You know what?",
+      "type": "phrase"
+    }
+  ],
+  "keyTrap": {
+    "title": "The big trap: wissen or kennen?",
+    "explanation": "Wissen: facts, often + clause (dass, wo, wie). Kennen: people, places, things you're familiar with.",
+    "wrong": {
+      "german": "Ich weiß Maria.",
+      "verdict": "A person: kennen."
+    },
+    "correct": [
+      {
+        "german": "Ich kenne Maria.",
+        "literal": "I know Maria.",
+        "note": "Person: kennen."
+      },
+      {
+        "german": "Ich weiß, wo Maria wohnt.",
+        "literal": "I know where Maria lives.",
+        "note": "Fact: wissen."
+      }
+    ]
+  },
+  "commonMistakes": [
+    {
+      "title": "er weiß",
+      "explanation": "No -t.",
+      "wrong": "Er weißt es.",
+      "correct": "Er weiß es."
+    },
+    {
+      "title": "I don't know",
+      "explanation": "Ich weiß nicht / Keine Ahnung.",
+      "examples": [
+        {
+          "german": "Ich weiß es nicht.",
+          "english": "I don't know.",
+          "highlight": "weiß"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Weißt du, wie spät es ist?",
+      "english": "Do you know what time it is?",
+      "highlight": [
+        "Weißt"
+      ]
+    },
+    {
+      "german": "Das weiß ich nicht.",
+      "english": "I don't know.",
+      "highlight": [
+        "weiß"
+      ]
+    },
+    {
+      "german": "Wir wissen noch nicht, wann wir kommen.",
+      "english": "We don't know yet when we're coming.",
+      "highlight": [
+        "wissen"
+      ]
+    },
+    {
+      "german": "Hast du das gewusst?",
+      "english": "Did you know that?",
+      "highlight": [
+        "gewusst?"
+      ]
+    }
+  ],
+  "forms": [
+    "weiß",
+    "weißt",
+    "wisst",
+    "wusste",
+    "gewusst",
+    "weiss"
+  ],
+  "memoryHook": "Wissen = facts (ich weiß). Kennen = people and places (ich kenne).",
+  "signOff": "Jetzt weißt du es!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich ___ es nicht. (wissen)",
+      "answer": "weiß",
+      "fullAnswer": "Ich weiß es nicht.",
+      "explanation": "Ich weiß.",
+      "acceptedAnswers": [
+        "weiss"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich ___ seine Adresse. (fact)",
+      "options": [
+        "weiß",
+        "kenne"
+      ],
+      "answer": "weiß",
+      "explanation": "Fact: wissen (kenne also possible for addresses).",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich ___ seinen Bruder. (person)",
+      "options": [
+        "weiß",
+        "kenne"
+      ],
+      "answer": "kenne",
+      "explanation": "Person: kennen.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Er ___ alles.",
+      "options": [
+        "weiß",
+        "weißt"
+      ],
+      "answer": "weiß",
+      "explanation": "No -t.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Past participle:",
+      "options": [
+        "gewusst",
+        "gewisst"
+      ],
+      "answer": "gewusst",
+      "explanation": "Irregular.",
+      "id": "q5"
+    }
+  ]
+}

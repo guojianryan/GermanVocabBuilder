@@ -1,0 +1,154 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "formulieren",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "for-moo-LEE-ren",
+      "ipa": "fɔʁmuˈliːʁən",
+      "notes": ""
+    },
+    "meaning": "to formulate, word",
+    "shortDefinition": "To formulate, word."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "formulier|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "formulier|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "formulier|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "formulier|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "formulier|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "formulier|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat formuliert"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wie soll ich das formulieren?",
+      "english": "How should I put this?",
+      "highlight": [
+        "formulieren?"
+      ]
+    },
+    {
+      "german": "Der Brief ist gut formuliert.",
+      "english": "The letter is well worded.",
+      "highlight": [
+        "formuliert."
+      ]
+    },
+    {
+      "german": "Sie formuliert eine klare Frage.",
+      "english": "She formulates a clear question.",
+      "highlight": [
+        "formuliert"
+      ]
+    }
+  ],
+  "forms": [
+    "Formulierung"
+  ],
+  "memoryHook": "Formulieren → die Formulierung.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (formulieren)",
+      "answer": "formuliert",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: formuliert.",
+      "acceptedAnswers": [
+        "formuliert"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (formulieren, past)",
+      "answer": "formuliert",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe formuliert.",
+      "acceptedAnswers": [
+        "formuliert"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does formulieren mean?",
+      "options": [
+        "quiet",
+        "to formulate",
+        "never"
+      ],
+      "answer": "to formulate",
+      "explanation": "formulieren: to formulate, word.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Noun:",
+      "options": [
+        "die Formulierung",
+        "die Formel only"
+      ],
+      "answer": "die Formulierung",
+      "explanation": "Wording.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "hat formuliert",
+        "hat geformuliert"
+      ],
+      "answer": "hat formuliert",
+      "explanation": "-ieren.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Fluggesellschaft",
+    "partOfSpeech": "noun, feminine (die Fluggesellschaft)",
+    "pronunciation": {
+      "respelling": "FLOOK-ge-zel-shaft",
+      "ipa": "ˈfluːkɡəˌzɛlʃaft",
+      "notes": "Plural: die Fluggesellschaften."
+    },
+    "meaning": "airline",
+    "shortDefinition": "Airline."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Flug",
+        "meaning": "flight"
+      },
+      {
+        "part": "gesellschaft",
+        "meaning": "company, society"
+      }
+    ],
+    "literalMeaning": "flight company"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Fluggesellschaft, plural die Fluggesellschaften.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Fluggesellschaft"
+        },
+        {
+          "label": "More than one",
+          "value": "die Fluggesellschaften"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Mit welcher Fluggesellschaft fliegst du?",
+      "english": "Which airline are you flying with?",
+      "highlight": [
+        "Fluggesellschaft"
+      ]
+    },
+    {
+      "german": "Die Fluggesellschaft hat den Flug gestrichen.",
+      "english": "The airline cancelled the flight.",
+      "highlight": [
+        "Fluggesellschaft"
+      ]
+    },
+    {
+      "german": "Billige Fluggesellschaften sind beliebt.",
+      "english": "Budget airlines are popular.",
+      "highlight": [
+        "Fluggesellschaften"
+      ]
+    }
+  ],
+  "forms": [
+    "Fluggesellschaften",
+    "die Fluggesellschaften",
+    "die Fluggesellschaft"
+  ],
+  "memoryHook": "Flug + Gesellschaft = airline.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Fluggesellschaft",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Fluggesellschaft is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Fluggesellschaft, zwei ___",
+      "answer": "Fluggesellschaften",
+      "fullAnswer": "ein Fluggesellschaft, zwei Fluggesellschaften",
+      "explanation": "The plural is Fluggesellschaften.",
+      "acceptedAnswers": [
+        "Fluggesellschaften"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Fluggesellschaft mean?",
+      "options": [
+        "quiet",
+        "the weather",
+        "airline"
+      ],
+      "answer": "airline",
+      "explanation": "Fluggesellschaft: airline.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Flug + Gesellschaft (company)",
+        "fliegen + Gesellen"
+      ],
+      "answer": "Flug + Gesellschaft (company)",
+      "explanation": "Flight company.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonym:",
+      "options": [
+        "die Airline",
+        "der Flughafen"
+      ],
+      "answer": "die Airline",
+      "explanation": "Loanword.",
+      "id": "q5"
+    }
+  ]
+}

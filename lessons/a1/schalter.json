@@ -1,0 +1,138 @@
+{
+ "schemaVersion": "1.4",
+ "language": "de",
+ "explanationLanguage": "en",
+ "level": "A1",
+ "levelSource": "Goethe-Zertifikat A1 Wortliste",
+ "lessonType": "card",
+ "word": {
+  "headword": "Schalter",
+  "partOfSpeech": "noun, masculine (der Schalter)",
+  "pronunciation": {
+   "respelling": "SHAL-ter",
+   "ipa": "ˈʃaltɐ",
+   "notes": "The plural looks the same. Plural: die Schalter."
+  },
+  "meaning": "counter (ticket, bank); switch",
+  "shortDefinition": "Counter (ticket, bank); switch."
+ },
+ "commonMistakes": [
+  {
+   "title": "Gender and plural",
+   "explanation": "Der Schalter, plural die Schalter.",
+   "forms": [
+    {
+     "label": "One",
+     "value": "der Schalter"
+    },
+    {
+     "label": "More than one",
+     "value": "die Schalter"
+    }
+   ]
+  }
+ ],
+ "sampleSentences": [
+  {
+   "german": "Fahrkarten gibt es am Schalter.",
+   "english": "Tickets are available at the counter.",
+   "highlight": [
+    "Schalter."
+   ]
+  },
+  {
+   "german": "Bitte gehen Sie zu Schalter 3.",
+   "english": "Please go to counter 3.",
+   "highlight": [
+    "Schalter"
+   ]
+  },
+  {
+   "german": "Der Lichtschalter ist neben der Tür.",
+   "english": "The light switch is next to the door.",
+   "highlight": [
+    "Lichtschalter"
+   ]
+  }
+ ],
+ "forms": [
+  "Schalter",
+  "die Schalter",
+  "der Schalter"
+ ],
+ "memoryHook": "Der Schalter = counter (bank, post, station) and switch.",
+ "signOff": "Gut gemacht!",
+ "quiz": [
+  {
+   "type": "choice",
+   "prompt": "___ Schalter",
+   "options": [
+    "der",
+    "die",
+    "das"
+   ],
+   "answer": "der",
+   "explanation": "Schalter is masculine.",
+   "id": "q1"
+  },
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "ein Schalter, zwei ___",
+   "answer": "Schalter",
+   "fullAnswer": "ein Schalter, zwei Schalter",
+   "explanation": "The plural is Schalter.",
+   "acceptedAnswers": [
+    "Schalter"
+   ],
+   "id": "q2"
+  },
+  {
+   "type": "choice",
+   "prompt": "What does Schalter mean?",
+   "options": [
+    "the car",
+    "expensive",
+    "counter (ticket"
+   ],
+   "answer": "counter (ticket",
+   "explanation": "Schalter: counter (ticket, bank); switch.",
+   "id": "q3"
+  },
+  {
+   "type": "choice",
+   "prompt": "Der Lichtschalter is…",
+   "options": [
+    "the light switch",
+    "the light counter"
+   ],
+   "answer": "the light switch",
+   "explanation": "Licht + Schalter.",
+   "id": "q4"
+  },
+  {
+   "type": "choice",
+   "prompt": "At a bank or post office, you queue at…",
+   "options": [
+    "den Schalter",
+    "die Kasse only"
+   ],
+   "answer": "den Schalter",
+   "explanation": "Counter.",
+   "id": "q5"
+  }
+ ],
+ "etymology": {
+  "title": "Where it comes from",
+  "parts": [
+   {
+    "part": "Schalt",
+    "meaning": "switch"
+   },
+   {
+    "part": "er",
+    "meaning": "person or thing that does it"
+   }
+  ],
+  "literalMeaning": "thing that switches"
+ }
+}

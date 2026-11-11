@@ -1,0 +1,188 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "stellen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "SHTEL-en",
+      "ipa": "ˈʃtɛlən",
+      "notes": ""
+    },
+    "meaning": "to put, to place (upright)",
+    "shortDefinition": "To put, to place (upright)."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "stell|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "stell|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "stell|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "stell|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "stell|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "stell|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gestellt"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "stehen",
+      "english": "to stand",
+      "type": "verb"
+    },
+    {
+      "german": "legen",
+      "english": "to lay",
+      "type": "verb"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "stellen, legen, setzen",
+      "explanation": "Upright: stellen. Flat: legen. Sitting: setzen.",
+      "examples": [
+        {
+          "german": "Ich stelle die Flasche hin.",
+          "english": "I stand the bottle there.",
+          "highlight": "stelle"
+        },
+        {
+          "german": "Ich lege das Buch hin.",
+          "english": "I lay the book down.",
+          "highlight": "lege"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Stell die Milch in den Kühlschrank.",
+      "english": "Put the milk in the fridge.",
+      "highlight": [
+        "Stell"
+      ]
+    },
+    {
+      "german": "Ich stelle die Blumen auf den Tisch.",
+      "english": "I'm putting the flowers on the table.",
+      "highlight": [
+        "stelle"
+      ]
+    },
+    {
+      "german": "Darf ich eine Frage stellen?",
+      "english": "May I ask a question?",
+      "highlight": [
+        "stellen?"
+      ]
+    }
+  ],
+  "forms": [
+    "stelle",
+    "stellst",
+    "stellt",
+    "stellen",
+    "gestellt"
+  ],
+  "memoryHook": "Stellen = put upright (action, + accusative). Then it steht. Eine Frage stellen = ask a question.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (stellen)",
+      "answer": "stellt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: stellt.",
+      "acceptedAnswers": [
+        "stellt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (stellen, past)",
+      "answer": "gestellt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gestellt.",
+      "acceptedAnswers": [
+        "gestellt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does stellen mean?",
+      "options": [
+        "to put",
+        "tomorrow",
+        "the bread"
+      ],
+      "answer": "to put",
+      "explanation": "stellen: to put, to place (upright).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Eine Frage stellen' means…",
+      "options": [
+        "to ask a question",
+        "to place a question"
+      ],
+      "answer": "to ask a question",
+      "explanation": "Fixed phrase.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Stellen + where to takes…",
+      "options": [
+        "the accusative",
+        "the dative"
+      ],
+      "answer": "the accusative",
+      "explanation": "In den Kühlschrank.",
+      "id": "q5"
+    }
+  ]
+}

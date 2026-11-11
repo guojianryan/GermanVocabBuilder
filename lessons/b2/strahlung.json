@@ -1,0 +1,139 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Strahlung",
+    "partOfSpeech": "noun, feminine (die Strahlung)",
+    "pronunciation": {
+      "respelling": "SHTRAA-lung",
+      "ipa": "ˈʃtʁaːlʊŋ",
+      "notes": "Plural: die Strahlungen."
+    },
+    "meaning": "radiation",
+    "shortDefinition": "Radiation."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Strahl",
+        "meaning": "ray, beam",
+        "emphasis": "stretch"
+      },
+      {
+        "part": "ung",
+        "meaning": "noun ending"
+      }
+    ],
+    "literalMeaning": "a beaming out",
+    "summary": "Rays spreading out."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Strahlung, plural die Strahlungen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Strahlung"
+        },
+        {
+          "label": "More than one",
+          "value": "die Strahlungen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Radioaktive Strahlung ist gefährlich.",
+      "english": "Radioactive radiation is dangerous.",
+      "highlight": [
+        "Strahlung"
+      ]
+    },
+    {
+      "german": "UV-Strahlung schadet der Haut.",
+      "english": "UV radiation damages the skin.",
+      "highlight": [
+        "UV-Strahlung"
+      ]
+    },
+    {
+      "german": "Die Strahlung des Handys.",
+      "english": "The phone's radiation.",
+      "highlight": [
+        "Strahlung"
+      ]
+    }
+  ],
+  "forms": [
+    "strahlen",
+    "Strahl"
+  ],
+  "memoryHook": "Strahlen → die Strahlung.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Strahlung",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Strahlung is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Strahlung, zwei ___",
+      "answer": "Strahlungen",
+      "fullAnswer": "ein Strahlung, zwei Strahlungen",
+      "explanation": "The plural is Strahlungen.",
+      "acceptedAnswers": [
+        "Strahlungen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Strahlung mean?",
+      "options": [
+        "to sleep",
+        "the weather",
+        "radiation"
+      ],
+      "answer": "radiation",
+      "explanation": "Strahlung: radiation.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "strahlen (beam, radiate)",
+        "Strahl only"
+      ],
+      "answer": "strahlen (beam, radiate)",
+      "explanation": "Radiate.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Strahlen' (person) means…",
+      "options": [
+        "to beam (with joy)",
+        "to radiate heat"
+      ],
+      "answer": "to beam (with joy)",
+      "explanation": "Smile.",
+      "id": "q5"
+    }
+  ]
+}

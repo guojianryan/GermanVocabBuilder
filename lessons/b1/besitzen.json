@@ -1,0 +1,179 @@
+{
+ "schemaVersion": "1.4",
+ "language": "de",
+ "explanationLanguage": "en",
+ "level": "B1",
+ "levelSource": "Goethe-Zertifikat B1 Wortliste",
+ "lessonType": "card",
+ "word": {
+  "headword": "besitzen",
+  "partOfSpeech": "verb",
+  "pronunciation": {
+   "respelling": "be-ZIT-sen",
+   "ipa": "bəˈzɪtsn̩",
+   "notes": ""
+  },
+  "meaning": "to own",
+  "shortDefinition": "To own."
+ },
+ "tables": [
+  {
+   "title": "Present tense",
+   "columns": [
+    "present"
+   ],
+   "rows": [
+    {
+     "label": "ich",
+     "cells": [
+      "besitz|e"
+     ]
+    },
+    {
+     "label": "du",
+     "cells": [
+      "besitz|t"
+     ]
+    },
+    {
+     "label": "er, sie, es",
+     "cells": [
+      "besitz|t"
+     ]
+    },
+    {
+     "label": "wir",
+     "cells": [
+      "besitz|en"
+     ]
+    },
+    {
+     "label": "ihr",
+     "cells": [
+      "besitz|t"
+     ]
+    },
+    {
+     "label": "sie, Sie",
+     "cells": [
+      "besitz|en"
+     ]
+    }
+   ],
+   "notes": [
+    "Past (Perfekt): hat besessen"
+   ]
+  }
+ ],
+ "wordFamily": [
+  {
+   "german": "der Besitzer",
+   "english": "owner",
+   "type": "noun"
+  }
+ ],
+ "sampleSentences": [
+  {
+   "german": "Er besitzt zwei Häuser.",
+   "english": "He owns two houses.",
+   "highlight": [
+    "besitzt"
+   ]
+  },
+  {
+   "german": "Ich besitze kein Auto.",
+   "english": "I don't own a car.",
+   "highlight": [
+    "besitze"
+   ]
+  },
+  {
+   "german": "Sie hat nie viel besessen.",
+   "english": "She never owned much.",
+   "highlight": [
+    "besessen."
+   ]
+  }
+ ],
+ "forms": [
+  "besitze",
+  "besitzt",
+  "besitzen",
+  "besessen",
+  "besaß"
+ ],
+ "memoryHook": "Besitzen = own (you sit on it!). Der Besitzer = owner.",
+ "signOff": "Gut gemacht!",
+ "quiz": [
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "er ___ (besitzen)",
+   "answer": "besitzt",
+   "fullAnswer": "",
+   "explanation": "For er, sie, es: besitzt.",
+   "acceptedAnswers": [
+    "besitzt"
+   ],
+   "id": "q1"
+  },
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "Ich habe schon ___. (besitzen, past)",
+   "answer": "besessen",
+   "fullAnswer": "",
+   "explanation": "Perfekt: habe besessen.",
+   "acceptedAnswers": [
+    "besessen"
+   ],
+   "id": "q2"
+  },
+  {
+   "type": "choice",
+   "prompt": "What does besitzen mean?",
+   "options": [
+    "to help",
+    "to own",
+    "the key"
+   ],
+   "answer": "to own",
+   "explanation": "besitzen: to own.",
+   "id": "q3"
+  },
+  {
+   "type": "choice",
+   "prompt": "Past participle:",
+   "options": [
+    "besessen",
+    "besitzt"
+   ],
+   "answer": "besessen",
+   "explanation": "Like sitzen → gesessen.",
+   "id": "q4"
+  },
+  {
+   "type": "choice",
+   "prompt": "The noun:",
+   "options": [
+    "der Besitz",
+    "die Besitzung only"
+   ],
+   "answer": "der Besitz",
+   "explanation": "Property.",
+   "id": "q5"
+  }
+ ],
+ "etymology": {
+  "title": "Where it comes from",
+  "parts": [
+   {
+    "part": "be",
+    "meaning": "prefix (acts on something)"
+   },
+   {
+    "part": "sitzen",
+    "meaning": "to sit"
+   }
+  ],
+  "literalMeaning": "to sit on"
+ }
+}

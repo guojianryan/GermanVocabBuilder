@@ -1,0 +1,166 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "dokumentieren",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "do-koo-men-TEE-ren",
+      "ipa": "dokumɛnˈtiːʁən",
+      "notes": ""
+    },
+    "meaning": "to document",
+    "shortDefinition": "To document."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "dokumentier|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "dokumentier|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "dokumentier|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "dokumentier|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "dokumentier|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "dokumentier|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat dokumentiert"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Bitte dokumentieren Sie alle Schritte.",
+      "english": "Please document every step.",
+      "highlight": [
+        "dokumentieren"
+      ]
+    },
+    {
+      "german": "Der Film dokumentiert das Leben in der DDR.",
+      "english": "The film documents life in the GDR.",
+      "highlight": [
+        "dokumentiert"
+      ]
+    },
+    {
+      "german": "Das ist gut dokumentiert.",
+      "english": "That's well documented.",
+      "highlight": [
+        "dokumentiert."
+      ]
+    }
+  ],
+  "forms": [
+    "Dokument",
+    "Dokumentation"
+  ],
+  "memoryHook": "Dokumentieren; das Dokument; die Doku.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (dokumentieren)",
+      "answer": "dokumentiert",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: dokumentiert.",
+      "acceptedAnswers": [
+        "dokumentiert"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (dokumentieren, past)",
+      "answer": "dokumentiert",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe dokumentiert.",
+      "acceptedAnswers": [
+        "dokumentiert"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does dokumentieren mean?",
+      "options": [
+        "the station",
+        "to document",
+        "the shop"
+      ],
+      "answer": "to document",
+      "explanation": "dokumentieren: to document.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Noun:",
+      "options": [
+        "die Dokumentation / das Dokument",
+        "die Dokumentierung only"
+      ],
+      "answer": "die Dokumentation / das Dokument",
+      "explanation": "Documentation.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Documentary (film):",
+      "options": [
+        "der Dokumentarfilm / die Doku",
+        "der Dokufilm only"
+      ],
+      "answer": "der Dokumentarfilm / die Doku",
+      "explanation": "Film.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "hat dokumentiert",
+        "hat gedokumentiert"
+      ],
+      "answer": "hat dokumentiert",
+      "explanation": "-ieren.",
+      "id": "q6"
+    }
+  ]
+}

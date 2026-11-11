@@ -1,0 +1,157 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "spülen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "SHPÜ-len",
+      "ipa": "ˈʃpyːlən",
+      "notes": ""
+    },
+    "meaning": "to rinse; to wash up; to flush",
+    "shortDefinition": "To rinse; to wash up; to flush."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "spül|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "spül|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "spül|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "spül|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "spül|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "spül|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gespült"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich spüle das Geschirr.",
+      "english": "I'm doing the washing-up.",
+      "highlight": [
+        "spüle"
+      ]
+    },
+    {
+      "german": "Bitte nach Benutzung spülen.",
+      "english": "Please flush after use.",
+      "highlight": [
+        "spülen."
+      ]
+    },
+    {
+      "german": "Spül den Mund aus.",
+      "english": "Rinse your mouth.",
+      "highlight": [
+        "Spül",
+        "aus."
+      ]
+    }
+  ],
+  "forms": [
+    "Spülmaschine",
+    "Spüle",
+    "abspülen"
+  ],
+  "memoryHook": "Spülen: wash up, rinse, flush. Spülmaschine = dishwasher.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (spülen)",
+      "answer": "spült",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: spült.",
+      "acceptedAnswers": [
+        "spuelt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (spülen, past)",
+      "answer": "gespült",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gespült.",
+      "acceptedAnswers": [
+        "gespuelt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does spülen mean?",
+      "options": [
+        "to rinse",
+        "the bill",
+        "the bed"
+      ],
+      "answer": "to rinse",
+      "explanation": "spülen: to rinse; to wash up; to flush.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Dishwasher:",
+      "options": [
+        "die Spülmaschine",
+        "die Waschmaschine"
+      ],
+      "answer": "die Spülmaschine",
+      "explanation": "Dishes.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Kitchen sink:",
+      "options": [
+        "die Spüle",
+        "das Waschbecken"
+      ],
+      "answer": "die Spüle",
+      "explanation": "Kitchen.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Creme",
+    "partOfSpeech": "noun, feminine (die Creme)",
+    "pronunciation": {
+      "respelling": "KRAYM",
+      "ipa": "kʁeːm",
+      "notes": "Plural: die Cremes."
+    },
+    "meaning": "cream (cosmetic); creamy dessert",
+    "shortDefinition": "Cream (cosmetic); creamy dessert."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Creme, plural die Cremes.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Creme"
+        },
+        {
+          "label": "More than one",
+          "value": "die Cremes"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Creme hilft gegen trockene Haut.",
+      "english": "The cream helps with dry skin.",
+      "highlight": [
+        "Creme"
+      ]
+    },
+    {
+      "german": "Ich nehme die Sonnencreme mit.",
+      "english": "I'm taking the suncream.",
+      "highlight": [
+        "Sonnencreme"
+      ]
+    },
+    {
+      "german": "Zum Nachtisch gibt es Schokoladencreme.",
+      "english": "There's chocolate mousse for dessert.",
+      "highlight": [
+        "Schokoladencreme."
+      ]
+    }
+  ],
+  "forms": [
+    "Krem",
+    "Sonnencreme"
+  ],
+  "memoryHook": "Die Creme: skin cream, creamy dessert. Coffee cream = Sahne.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Creme",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Creme is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Creme, zwei ___",
+      "answer": "Cremes",
+      "fullAnswer": "ein Creme, zwei Cremes",
+      "explanation": "The plural is Cremes.",
+      "acceptedAnswers": [
+        "Cremes"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Creme mean?",
+      "options": [
+        "cream (cosmetic)",
+        "the door",
+        "the family"
+      ],
+      "answer": "cream (cosmetic)",
+      "explanation": "Creme: cream (cosmetic); creamy dessert.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Cream (for coffee):",
+      "options": [
+        "die Sahne",
+        "die Creme"
+      ],
+      "answer": "die Sahne",
+      "explanation": "Sahne.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Suncream:",
+      "options": [
+        "die Sonnencreme",
+        "die Sonnensahne"
+      ],
+      "answer": "die Sonnencreme",
+      "explanation": "Sonne + Creme.",
+      "id": "q5"
+    }
+  ]
+}

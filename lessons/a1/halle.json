@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Halle",
+    "partOfSpeech": "noun, feminine (die Halle)",
+    "pronunciation": {
+      "respelling": "HAL-e",
+      "ipa": "ˈhalə",
+      "notes": "Plural: die Hallen."
+    },
+    "meaning": "hall",
+    "shortDefinition": "Hall."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Halle, plural die Hallen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Halle"
+        },
+        {
+          "label": "More than one",
+          "value": "die Hallen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir treffen uns in Halle B.",
+      "english": "We'll meet in hall B.",
+      "highlight": [
+        "Halle"
+      ]
+    },
+    {
+      "german": "Das Konzert ist in der Stadthalle.",
+      "english": "The concert is in the town hall.",
+      "highlight": [
+        "Stadthalle."
+      ]
+    },
+    {
+      "german": "Die Sporthalle ist neu.",
+      "english": "The sports hall is new.",
+      "highlight": [
+        "Sporthalle"
+      ]
+    }
+  ],
+  "forms": [
+    "Hallen",
+    "die Hallen",
+    "die Halle"
+  ],
+  "memoryHook": "Die Halle = hall (with an extra -e).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Halle",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Halle is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Halle, zwei ___",
+      "answer": "Hallen",
+      "fullAnswer": "ein Halle, zwei Hallen",
+      "explanation": "The plural is Hallen.",
+      "acceptedAnswers": [
+        "Hallen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Halle mean?",
+      "options": [
+        "hall",
+        "hot",
+        "slowly"
+      ],
+      "answer": "hall",
+      "explanation": "Halle: hall.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "A sports hall is…",
+      "options": [
+        "eine Sporthalle",
+        "ein Sportsaal"
+      ],
+      "answer": "eine Sporthalle",
+      "explanation": "Sport + Halle.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Hallo and Halle are…",
+      "options": [
+        "different words",
+        "the same word"
+      ],
+      "answer": "different words",
+      "explanation": "Hallo = hi.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Pizza",
+    "partOfSpeech": "noun, feminine (die Pizza)",
+    "pronunciation": {
+      "respelling": "PIT-sa",
+      "ipa": "ˈpɪtsa",
+      "notes": "Plural: die Pizzas."
+    },
+    "meaning": "pizza",
+    "shortDefinition": "Pizza."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Pizza, plural die Pizzas.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Pizza"
+        },
+        {
+          "label": "More than one",
+          "value": "die Pizzas"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir bestellen eine Pizza.",
+      "english": "We're ordering a pizza.",
+      "highlight": [
+        "Pizza."
+      ]
+    },
+    {
+      "german": "Die Pizza ist gleich fertig.",
+      "english": "The pizza will be ready soon.",
+      "highlight": [
+        "Pizza"
+      ]
+    },
+    {
+      "german": "Ich nehme eine Pizza Margherita.",
+      "english": "I'll have a Margherita pizza.",
+      "highlight": [
+        "Pizza"
+      ]
+    }
+  ],
+  "forms": [
+    "Pizzen"
+  ],
+  "memoryHook": "Die Pizza, die Pizzas/Pizzen.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Pizza",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Pizza is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Pizza, zwei ___",
+      "answer": "Pizzas",
+      "fullAnswer": "ein Pizza, zwei Pizzas",
+      "explanation": "The plural is Pizzas.",
+      "acceptedAnswers": [
+        "Pizzas"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Pizza mean?",
+      "options": [
+        "the job",
+        "pizza",
+        "the shop"
+      ],
+      "answer": "pizza",
+      "explanation": "Pizza: pizza.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Pizzas / Pizzen",
+        "Pizze only"
+      ],
+      "answer": "Pizzas / Pizzen",
+      "explanation": "Both.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Zz sounds like…",
+      "options": [
+        "ts",
+        "z"
+      ],
+      "answer": "ts",
+      "explanation": "PIT-sa.",
+      "id": "q5"
+    }
+  ]
+}

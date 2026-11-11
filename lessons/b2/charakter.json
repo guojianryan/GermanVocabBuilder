@@ -1,0 +1,133 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Charakter",
+    "partOfSpeech": "noun, masculine (der Charakter)",
+    "pronunciation": {
+      "respelling": "ka-RAK-ter",
+      "ipa": "kaˈʁaktɐ",
+      "notes": "Plural: die Charaktere."
+    },
+    "meaning": "character",
+    "shortDefinition": "Character."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Charakter, plural die Charaktere.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Charakter"
+        },
+        {
+          "label": "More than one",
+          "value": "die Charaktere"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er hat einen starken Charakter.",
+      "english": "He has a strong character.",
+      "highlight": [
+        "Charakter."
+      ]
+    },
+    {
+      "german": "Die Charaktere im Roman sind gut.",
+      "english": "The characters in the novel are good.",
+      "highlight": [
+        "Charaktere"
+      ]
+    },
+    {
+      "german": "Das hat privaten Charakter.",
+      "english": "That's of a private nature.",
+      "highlight": [
+        "Charakter."
+      ]
+    }
+  ],
+  "forms": [
+    "charakteristisch"
+  ],
+  "memoryHook": "Der Charakter (ch = k; plural Charaktere).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Charakter",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Charakter is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Charakter, zwei ___",
+      "answer": "Charaktere",
+      "fullAnswer": "ein Charakter, zwei Charaktere",
+      "explanation": "The plural is Charaktere.",
+      "acceptedAnswers": [
+        "Charaktere"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Charakter mean?",
+      "options": [
+        "to sing",
+        "character",
+        "never"
+      ],
+      "answer": "character",
+      "explanation": "Charakter: character.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ch sounds like…",
+      "options": [
+        "k",
+        "ch"
+      ],
+      "answer": "k",
+      "explanation": "ka-RAK-ter.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Charaktere",
+        "Charakters"
+      ],
+      "answer": "Charaktere",
+      "explanation": "-e.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Typical:",
+      "options": [
+        "charakteristisch",
+        "charakterisch"
+      ],
+      "answer": "charakteristisch",
+      "explanation": "Characteristic.",
+      "id": "q6"
+    }
+  ]
+}

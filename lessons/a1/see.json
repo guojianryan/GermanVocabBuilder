@@ -1,0 +1,147 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "See",
+    "partOfSpeech": "noun, masculine (der See)",
+    "pronunciation": {
+      "respelling": "ZAY",
+      "ipa": "zeː",
+      "notes": "Plural: die Seen."
+    },
+    "meaning": "lake",
+    "shortDefinition": "Lake."
+  },
+  "wordFamily": [
+    {
+      "german": "das Meer",
+      "english": "sea",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der See, plural die Seen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der See"
+        },
+        {
+          "label": "More than one",
+          "value": "die Seen"
+        }
+      ]
+    },
+    {
+      "title": "der See or die See?",
+      "explanation": "Masculine: lake. Feminine: sea.",
+      "examples": [
+        {
+          "german": "Wir schwimmen im See.",
+          "english": "We swim in the lake.",
+          "highlight": "See."
+        },
+        {
+          "german": "Wir fahren an die See.",
+          "english": "We're going to the seaside.",
+          "highlight": "die"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Im Sommer schwimmen wir im See.",
+      "english": "In summer we swim in the lake.",
+      "highlight": [
+        "See."
+      ]
+    },
+    {
+      "german": "Der Bodensee ist sehr groß.",
+      "english": "Lake Constance is very big.",
+      "highlight": [
+        "Bodensee"
+      ]
+    },
+    {
+      "german": "Wir machen Urlaub an der See.",
+      "english": "We're on holiday by the sea.",
+      "highlight": [
+        "See."
+      ]
+    }
+  ],
+  "forms": [
+    "Seen",
+    "die Seen",
+    "der See"
+  ],
+  "memoryHook": "Der See = lake. Die See = the sea (like das Meer). Gender matters!",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ See",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "See is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein See, zwei ___",
+      "answer": "Seen",
+      "fullAnswer": "ein See, zwei Seen",
+      "explanation": "The plural is Seen.",
+      "acceptedAnswers": [
+        "Seen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does See mean?",
+      "options": [
+        "quiet",
+        "expensive",
+        "lake"
+      ],
+      "answer": "lake",
+      "explanation": "See: lake.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Der See vs die See:",
+      "options": [
+        "lake vs sea",
+        "the same"
+      ],
+      "answer": "lake vs sea",
+      "explanation": "Gender changes the meaning!",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural of der See:",
+      "options": [
+        "Seen",
+        "Sees"
+      ],
+      "answer": "Seen",
+      "explanation": "Die Seen.",
+      "id": "q5"
+    }
+  ]
+}

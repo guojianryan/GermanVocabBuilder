@@ -1,0 +1,133 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Befehl",
+    "partOfSpeech": "noun, masculine (der Befehl)",
+    "pronunciation": {
+      "respelling": "be-FAYL",
+      "ipa": "bəˈfeːl",
+      "notes": "Plural: die Befehle."
+    },
+    "meaning": "order, command",
+    "shortDefinition": "Order, command."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Befehl, plural die Befehle.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Befehl"
+        },
+        {
+          "label": "More than one",
+          "value": "die Befehle"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Offizier gab den Befehl.",
+      "english": "The officer gave the order.",
+      "highlight": [
+        "Befehl."
+      ]
+    },
+    {
+      "german": "Er handelte auf Befehl.",
+      "english": "He acted on orders.",
+      "highlight": [
+        "Befehl."
+      ]
+    },
+    {
+      "german": "Gib den Befehl in die Konsole ein.",
+      "english": "Enter the command in the console.",
+      "highlight": [
+        "Befehl"
+      ]
+    }
+  ],
+  "forms": [
+    "befehlen"
+  ],
+  "memoryHook": "Befehlen (befiehlt, befahl, befohlen) → der Befehl.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Befehl",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Befehl is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Befehl, zwei ___",
+      "answer": "Befehle",
+      "fullAnswer": "ein Befehl, zwei Befehle",
+      "explanation": "The plural is Befehle.",
+      "acceptedAnswers": [
+        "Befehle"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Befehl mean?",
+      "options": [
+        "the weather",
+        "order",
+        "never"
+      ],
+      "answer": "order",
+      "explanation": "Befehl: order, command.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Verb:",
+      "options": [
+        "befehlen",
+        "befehligen only"
+      ],
+      "answer": "befehlen",
+      "explanation": "Command.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Auf Befehl' means…",
+      "options": [
+        "on orders",
+        "on demand"
+      ],
+      "answer": "on orders",
+      "explanation": "Phrase.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "In computing, ein Befehl is…",
+      "options": [
+        "a command",
+        "an error"
+      ],
+      "answer": "a command",
+      "explanation": "IT.",
+      "id": "q6"
+    }
+  ]
+}

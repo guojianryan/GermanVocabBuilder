@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Symptom",
+    "partOfSpeech": "noun, neuter (das Symptom)",
+    "pronunciation": {
+      "respelling": "züm-TOHM",
+      "ipa": "zʏmpˈtoːm",
+      "notes": "Plural: die Symptome."
+    },
+    "meaning": "symptom",
+    "shortDefinition": "Symptom."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Symptom, plural die Symptome.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Symptom"
+        },
+        {
+          "label": "More than one",
+          "value": "die Symptome"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Welche Symptome haben Sie?",
+      "english": "What symptoms do you have?",
+      "highlight": [
+        "Symptome"
+      ]
+    },
+    {
+      "german": "Fieber ist ein typisches Symptom.",
+      "english": "Fever is a typical symptom.",
+      "highlight": [
+        "Symptom."
+      ]
+    },
+    {
+      "german": "Die Symptome werden schlimmer.",
+      "english": "The symptoms are getting worse.",
+      "highlight": [
+        "Symptome"
+      ]
+    }
+  ],
+  "forms": [
+    "Symptome",
+    "die Symptome",
+    "das Symptom"
+  ],
+  "memoryHook": "Das Symptom (y = ü).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Symptom",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Symptom is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Symptom, zwei ___",
+      "answer": "Symptome",
+      "fullAnswer": "ein Symptom, zwei Symptome",
+      "explanation": "The plural is Symptome.",
+      "acceptedAnswers": [
+        "Symptome"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Symptom mean?",
+      "options": [
+        "to sleep",
+        "to open",
+        "symptom"
+      ],
+      "answer": "symptom",
+      "explanation": "Symptom: symptom.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Y sounds like…",
+      "options": [
+        "ü",
+        "i"
+      ],
+      "answer": "ü",
+      "explanation": "züm-TOHM.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Stress on…",
+      "options": [
+        "-TOM",
+        "SYM-"
+      ],
+      "answer": "-TOM",
+      "explanation": "End.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Stadt",
+    "partOfSpeech": "noun, feminine (die Stadt)",
+    "pronunciation": {
+      "respelling": "SHTAT",
+      "ipa": "ʃtat",
+      "notes": "Plural: die Städte."
+    },
+    "meaning": "town, city",
+    "shortDefinition": "Town, city."
+  },
+  "wordFamily": [
+    {
+      "german": "der Stadtplan",
+      "english": "city map",
+      "type": "noun"
+    },
+    {
+      "german": "das Dorf",
+      "english": "village",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Stadt, plural die Städte.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Stadt"
+        },
+        {
+          "label": "More than one",
+          "value": "die Städte"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich wohne in der Stadt.",
+      "english": "I live in town.",
+      "highlight": [
+        "Stadt."
+      ]
+    },
+    {
+      "german": "Hamburg ist eine große Stadt.",
+      "english": "Hamburg is a big city.",
+      "highlight": [
+        "Stadt."
+      ]
+    },
+    {
+      "german": "Wir fahren in die Stadt.",
+      "english": "We're going into town.",
+      "highlight": [
+        "Stadt."
+      ]
+    }
+  ],
+  "forms": [
+    "Städte",
+    "die Städte",
+    "die Stadt"
+  ],
+  "memoryHook": "Die Stadt (dt = t), plural Städte. In die Stadt = into town. Der Stadtplan = city map.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Stadt",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Stadt is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Stadt, zwei ___",
+      "answer": "Städte",
+      "fullAnswer": "ein Stadt, zwei Städte",
+      "explanation": "The plural is Städte.",
+      "acceptedAnswers": [
+        "Staedte"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Stadt mean?",
+      "options": [
+        "the family",
+        "town",
+        "to buy"
+      ],
+      "answer": "town",
+      "explanation": "Stadt: town, city.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "The town centre is…",
+      "options": [
+        "die Stadtmitte / das Zentrum",
+        "der Stadtrand"
+      ],
+      "answer": "die Stadtmitte / das Zentrum",
+      "explanation": "Centre.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Städte",
+        "Stadte"
+      ],
+      "answer": "Städte",
+      "explanation": "Umlaut + e. Pronounced SHTET-uh.",
+      "id": "q5"
+    }
+  ]
+}

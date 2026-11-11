@@ -1,0 +1,186 @@
+{
+ "schemaVersion": "1.4",
+ "language": "de",
+ "explanationLanguage": "en",
+ "level": "A1",
+ "levelSource": "Goethe-Zertifikat A1 Wortliste",
+ "lessonType": "card",
+ "word": {
+  "headword": "einsteigen",
+  "partOfSpeech": "separable verb",
+  "pronunciation": {
+   "respelling": "INE-shty-gen",
+   "ipa": "ˈaɪ̯nˌʃtaɪ̯ɡn̩",
+   "notes": ""
+  },
+  "meaning": "to get on, to get in (a vehicle)",
+  "shortDefinition": "To get on, to get in (a vehicle)."
+ },
+ "etymology": {
+  "title": "Where it comes from",
+  "parts": [
+   {
+    "part": "ein",
+    "meaning": "in",
+    "emphasis": "arrive"
+   },
+   {
+    "part": "steigen",
+    "meaning": "to climb"
+   }
+  ],
+  "literalMeaning": "to climb in"
+ },
+ "tables": [
+  {
+   "title": "Present tense",
+   "columns": [
+    "present"
+   ],
+   "rows": [
+    {
+     "label": "ich",
+     "cells": [
+      "steige … |ein"
+     ]
+    },
+    {
+     "label": "du",
+     "cells": [
+      "steigst … |ein"
+     ]
+    },
+    {
+     "label": "er, sie, es",
+     "cells": [
+      "steigt … |ein"
+     ]
+    },
+    {
+     "label": "wir",
+     "cells": [
+      "steigen … |ein"
+     ]
+    },
+    {
+     "label": "ihr",
+     "cells": [
+      "steigt … |ein"
+     ]
+    },
+    {
+     "label": "sie, Sie",
+     "cells": [
+      "steigen … |ein"
+     ]
+    }
+   ],
+   "notes": [
+    "Past (Perfekt): ist eingestiegen"
+   ]
+  }
+ ],
+ "wordFamily": [
+  {
+   "german": "aussteigen",
+   "english": "to get off",
+   "type": "separable verb"
+  },
+  {
+   "german": "umsteigen",
+   "english": "to change",
+   "type": "separable verb"
+  }
+ ],
+ "sampleSentences": [
+  {
+   "german": "Bitte einsteigen!",
+   "english": "All aboard, please!",
+   "highlight": [
+    "einsteigen!"
+   ]
+  },
+  {
+   "german": "Wir steigen hinten ein.",
+   "english": "We're getting on at the back.",
+   "highlight": [
+    "steigen",
+    "ein."
+   ]
+  },
+  {
+   "german": "Er ist in den falschen Zug eingestiegen.",
+   "english": "He got on the wrong train.",
+   "highlight": [
+    "eingestiegen."
+   ]
+  }
+ ],
+ "forms": [
+  "steige ein",
+  "steigst ein",
+  "steigt ein",
+  "steigen ein",
+  "eingestiegen"
+ ],
+ "memoryHook": "Ein-steigen = climb in. Aus-steigen = climb out. Um-steigen = change.",
+ "signOff": "Gut gemacht!",
+ "quiz": [
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "er ___ … ein (einsteigen)",
+   "answer": "steigt",
+   "fullAnswer": "",
+   "explanation": "For er, sie, es: steigt … ein.",
+   "acceptedAnswers": [
+    "steigt"
+   ],
+   "id": "q1"
+  },
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "Ich bin schon ___. (einsteigen, past)",
+   "answer": "eingestiegen",
+   "fullAnswer": "",
+   "explanation": "Perfekt: bin eingestiegen.",
+   "acceptedAnswers": [
+    "eingestiegen"
+   ],
+   "id": "q2"
+  },
+  {
+   "type": "choice",
+   "prompt": "What does einsteigen mean?",
+   "options": [
+    "expensive",
+    "the station",
+    "to get on"
+   ],
+   "answer": "to get on",
+   "explanation": "einsteigen: to get on, to get in (a vehicle).",
+   "id": "q3"
+  },
+  {
+   "type": "choice",
+   "prompt": "You get ___ den Bus.",
+   "options": [
+    "in",
+    "auf"
+   ],
+   "answer": "in",
+   "explanation": "In den Bus einsteigen.",
+   "id": "q4"
+  },
+  {
+   "type": "choice",
+   "prompt": "Ich ___ in den Zug eingestiegen.",
+   "options": [
+    "habe",
+    "bin"
+   ],
+   "answer": "bin",
+   "explanation": "Movement: sein.",
+   "id": "q5"
+  }
+ ]
+}

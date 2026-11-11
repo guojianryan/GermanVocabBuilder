@@ -1,0 +1,172 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "bitten",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "BIT-en",
+      "ipa": "ˈbɪtn̩",
+      "notes": ""
+    },
+    "meaning": "to ask (for), to request",
+    "shortDefinition": "To ask (for), to request."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "bitt|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "bitt|est"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "bitt|et"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "bitt|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "bitt|et"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "bitt|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gebeten"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "bitte",
+      "english": "please",
+      "type": "word"
+    },
+    {
+      "german": "fragen",
+      "english": "to ask (a question)",
+      "type": "verb"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Darf ich Sie um etwas bitten?",
+      "english": "May I ask you for something?",
+      "highlight": [
+        "bitten?"
+      ]
+    },
+    {
+      "german": "Er bittet mich um Hilfe.",
+      "english": "He's asking me for help.",
+      "highlight": [
+        "bittet",
+        "um"
+      ]
+    },
+    {
+      "german": "Ich habe ihn um seine Telefonnummer gebeten.",
+      "english": "I asked him for his number.",
+      "highlight": [
+        "gebeten."
+      ]
+    }
+  ],
+  "forms": [
+    "bitte",
+    "bittest",
+    "bittet",
+    "bitten",
+    "gebeten",
+    "bat"
+  ],
+  "memoryHook": "Bitten um = ask FOR something. Fragen = ask a question. Bitte! comes from bitten.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (bitten)",
+      "answer": "bittet",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: bittet.",
+      "acceptedAnswers": [
+        "bittet"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (bitten, past)",
+      "answer": "gebeten",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gebeten.",
+      "acceptedAnswers": [
+        "gebeten"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does bitten mean?",
+      "options": [
+        "to ask (for)",
+        "to sing",
+        "the window"
+      ],
+      "answer": "to ask (for)",
+      "explanation": "bitten: to ask (for), to request.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'To ask for help':",
+      "options": [
+        "um Hilfe bitten",
+        "für Hilfe bitten"
+      ],
+      "answer": "um Hilfe bitten",
+      "explanation": "Bitten um.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Bitten (ask for) or fragen (ask a question)?  ___ Sie ihn, wann der Zug kommt.",
+      "options": [
+        "Fragen",
+        "Bitten"
+      ],
+      "answer": "Fragen",
+      "explanation": "A question: fragen.",
+      "id": "q5"
+    }
+  ]
+}

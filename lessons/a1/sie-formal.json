@@ -1,0 +1,208 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "full",
+  "word": {
+    "headword": "Sie (formal)",
+    "partOfSpeech": "pronoun (formal you)",
+    "pronunciation": {
+      "respelling": "ZEE",
+      "ipa": "ziː",
+      "notes": "Always capitalised."
+    },
+    "meaning": "you (formal, one or more people)",
+    "shortDefinition": "The polite 'you' for strangers, officials and colleagues."
+  },
+  "intro": {
+    "title": "Du or Sie?",
+    "paragraphs": [
+      "Sie (capital S) is the formal you, for strangers, shop staff, officials and many colleagues. It takes the same verb form as 'they': Sie sind, Sie haben. Among friends, family, children and young people, it's du."
+    ]
+  },
+  "tables": [
+    {
+      "title": "Forms",
+      "columns": [
+        "form",
+        "example"
+      ],
+      "rows": [
+        {
+          "label": "subject",
+          "cells": [
+            "|Sie",
+            "Sind Sie Herr Klein?"
+          ]
+        },
+        {
+          "label": "accusative",
+          "cells": [
+            "|Sie",
+            "Ich rufe Sie an."
+          ]
+        },
+        {
+          "label": "dative",
+          "cells": [
+            "|Ihnen",
+            "Wie geht es Ihnen?"
+          ]
+        },
+        {
+          "label": "possessive",
+          "cells": [
+            "|Ihr",
+            "Ist das Ihr Koffer?"
+          ]
+        }
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "du",
+      "english": "you (informal)",
+      "type": "pronoun"
+    },
+    {
+      "german": "siezen / duzen",
+      "english": "to say Sie / du",
+      "type": "verbs"
+    },
+    {
+      "german": "Ihr",
+      "english": "your (formal)",
+      "type": "possessive"
+    }
+  ],
+  "keyTrap": {
+    "title": "The big trap: when to say du",
+    "explanation": "Start with Sie for adults you don't know. Switch to du when they offer it.",
+    "wrong": {
+      "german": "Kannst du mir helfen? (to a police officer)",
+      "verdict": "Too familiar. Use Sie."
+    },
+    "correct": [
+      {
+        "german": "Können Sie mir helfen?",
+        "literal": "Can you help me?",
+        "note": "Formal."
+      },
+      {
+        "german": "Wollen wir uns duzen?",
+        "literal": "Shall we say du?",
+        "note": "How people offer du."
+      }
+    ]
+  },
+  "commonMistakes": [
+    {
+      "title": "Capital letter",
+      "explanation": "Formal Sie and Ihnen are always capitalised.",
+      "wrong": "Wie geht es ihnen?",
+      "correct": "Wie geht es Ihnen?"
+    },
+    {
+      "title": "Verb form",
+      "explanation": "Sie takes the plural form, even for one person.",
+      "wrong": "Sie ist Herr Klein?",
+      "correct": "Sind Sie Herr Klein?"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Woher kommen Sie?",
+      "english": "Where are you from?",
+      "highlight": [
+        "Sie?"
+      ]
+    },
+    {
+      "german": "Wie geht es Ihnen?",
+      "english": "How are you?",
+      "highlight": [
+        "Ihnen?"
+      ]
+    },
+    {
+      "german": "Können Sie das bitte wiederholen?",
+      "english": "Could you repeat that, please?",
+      "highlight": [
+        "Sie"
+      ]
+    },
+    {
+      "german": "Ist das Ihr Platz?",
+      "english": "Is that your seat?",
+      "highlight": [
+        "Ihr"
+      ]
+    }
+  ],
+  "forms": [
+    "Sie",
+    "Ihnen",
+    "Ihr",
+    "Ihre",
+    "Ihren"
+  ],
+  "memoryHook": "Sie (capital) = polite you, with the 'they' verb: Sie sind, Sie haben. Dative: Ihnen.",
+  "signOff": "Vielen Dank, dass Sie mitlernen!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Talking to a shop assistant:",
+      "options": [
+        "Haben Sie …?",
+        "Hast du …?"
+      ],
+      "answer": "Haben Sie …?",
+      "explanation": "Formal.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Wie geht es ___? (formal)",
+      "options": [
+        "Sie",
+        "Ihnen"
+      ],
+      "answer": "Ihnen",
+      "explanation": "Dative: Ihnen.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Sie (formal) ___ sehr nett.",
+      "options": [
+        "ist",
+        "sind"
+      ],
+      "answer": "sind",
+      "explanation": "Plural verb form.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Is Sie capitalised?",
+      "options": [
+        "Yes, always (formal)",
+        "Only at the start"
+      ],
+      "answer": "Yes, always (formal)",
+      "explanation": "Formal Sie.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ist das ___ Tasche? (your, formal)",
+      "answer": "Ihre",
+      "fullAnswer": "Ist das Ihre Tasche?",
+      "explanation": "Ihr + e.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Umsatz",
+    "partOfSpeech": "noun, masculine (der Umsatz)",
+    "pronunciation": {
+      "respelling": "OOM-zats",
+      "ipa": "ˈʊmzats",
+      "notes": "Plural: die Umsätze."
+    },
+    "meaning": "turnover, sales",
+    "shortDefinition": "Turnover, sales."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Um",
+        "meaning": "around, change"
+      },
+      {
+        "part": "satz",
+        "meaning": "setting (setzen)",
+        "emphasis": "turn"
+      }
+    ],
+    "literalMeaning": "a turning-over",
+    "summary": "Goods turn into money."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Umsatz, plural die Umsätze.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Umsatz"
+        },
+        {
+          "label": "More than one",
+          "value": "die Umsätze"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Umsatz ist um 10 % gestiegen.",
+      "english": "Turnover rose by 10%.",
+      "highlight": [
+        "Umsatz"
+      ]
+    },
+    {
+      "german": "Die Firma macht viel Umsatz.",
+      "english": "The company has high sales.",
+      "highlight": [
+        "Umsatz."
+      ]
+    },
+    {
+      "german": "Umsatz und Gewinn sind nicht dasselbe.",
+      "english": "Turnover and profit aren't the same.",
+      "highlight": [
+        "Umsatz"
+      ]
+    }
+  ],
+  "forms": [
+    "umsetzen",
+    "Umsatzsteuer"
+  ],
+  "memoryHook": "Umsetzen → der Umsatz (turnover) ≠ Gewinn.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Umsatz",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Umsatz is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Umsatz, zwei ___",
+      "answer": "Umsätze",
+      "fullAnswer": "ein Umsatz, zwei Umsätze",
+      "explanation": "The plural is Umsätze.",
+      "acceptedAnswers": [
+        "Umsaetze"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Umsatz mean?",
+      "options": [
+        "turnover",
+        "to sleep",
+        "to buy"
+      ],
+      "answer": "turnover",
+      "explanation": "Umsatz: turnover, sales.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "umsetzen (sell, convert)",
+        "Satz only"
+      ],
+      "answer": "umsetzen (sell, convert)",
+      "explanation": "Turn over.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Umsatz vs Gewinn:",
+      "options": [
+        "sales vs profit",
+        "same"
+      ],
+      "answer": "sales vs profit",
+      "explanation": "Different.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "VAT:",
+      "options": [
+        "die Umsatzsteuer / Mehrwertsteuer",
+        "die Umsteuer"
+      ],
+      "answer": "die Umsatzsteuer / Mehrwertsteuer",
+      "explanation": "Tax.",
+      "id": "q6"
+    }
+  ]
+}

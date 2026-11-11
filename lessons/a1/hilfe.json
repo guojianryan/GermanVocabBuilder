@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Hilfe",
+    "partOfSpeech": "noun, feminine (die Hilfe)",
+    "pronunciation": {
+      "respelling": "HIL-fuh",
+      "ipa": "ˈhɪlfə",
+      "notes": "No plural. Usually no plural."
+    },
+    "meaning": "help",
+    "shortDefinition": "Help."
+  },
+  "wordFamily": [
+    {
+      "german": "helfen",
+      "english": "to help",
+      "type": "verb"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Hilfe, usually no plural.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Hilfe"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Hilfe!",
+      "english": "Help!",
+      "highlight": [
+        "Hilfe!"
+      ]
+    },
+    {
+      "german": "Vielen Dank für Ihre Hilfe.",
+      "english": "Many thanks for your help.",
+      "highlight": [
+        "Hilfe."
+      ]
+    },
+    {
+      "german": "Brauchen Sie Hilfe?",
+      "english": "Do you need help?",
+      "highlight": [
+        "Hilfe?"
+      ]
+    }
+  ],
+  "forms": [
+    "die Hilfe"
+  ],
+  "memoryHook": "Hilfe from helfen. Shouting 'Hilfe!' = 'Help!'. Erste Hilfe = first aid.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Hilfe",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Hilfe is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Hilfe mean?",
+      "options": [
+        "the key",
+        "help",
+        "the street"
+      ],
+      "answer": "help",
+      "explanation": "Hilfe: help.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Hilfe comes from…",
+      "options": [
+        "helfen",
+        "halten"
+      ],
+      "answer": "helfen",
+      "explanation": "Helfen → Hilfe.",
+      "id": "q3"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Danke für deine ___! (help)",
+      "answer": "Hilfe",
+      "fullAnswer": "Danke für deine Hilfe!",
+      "explanation": "Die Hilfe.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Erste Hilfe is…",
+      "options": [
+        "first aid",
+        "first help desk"
+      ],
+      "answer": "first aid",
+      "explanation": "Erste Hilfe.",
+      "id": "q5"
+    }
+  ]
+}

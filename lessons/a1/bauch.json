@@ -1,0 +1,121 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Bauch",
+    "partOfSpeech": "noun, masculine (der Bauch)",
+    "pronunciation": {
+      "respelling": "BOWKH",
+      "ipa": "baʊ̯x",
+      "notes": "Plural: die Bäuche."
+    },
+    "meaning": "stomach, belly",
+    "shortDefinition": "Stomach, belly."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Bauch, plural die Bäuche.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Bauch"
+        },
+        {
+          "label": "More than one",
+          "value": "die Bäuche"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Mein Bauch tut weh.",
+      "english": "My stomach hurts.",
+      "highlight": [
+        "Bauch"
+      ]
+    },
+    {
+      "german": "Ich habe Bauchschmerzen.",
+      "english": "I've got a stomach ache.",
+      "highlight": [
+        "Bauchschmerzen."
+      ]
+    },
+    {
+      "german": "Er schläft auf dem Bauch.",
+      "english": "He sleeps on his stomach.",
+      "highlight": [
+        "Bauch."
+      ]
+    }
+  ],
+  "forms": [
+    "Bäuche",
+    "die Bäuche",
+    "der Bauch"
+  ],
+  "memoryHook": "Bauch = belly. Bauchschmerzen = belly pains. The ch is the throaty 'loch' sound after au.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Bauch",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Bauch is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Bauch, zwei ___",
+      "answer": "Bäuche",
+      "fullAnswer": "ein Bauch, zwei Bäuche",
+      "explanation": "The plural is Bäuche.",
+      "acceptedAnswers": [
+        "Baeuche"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Bauch mean?",
+      "options": [
+        "never",
+        "the bread",
+        "stomach"
+      ],
+      "answer": "stomach",
+      "explanation": "Bauch: stomach, belly.",
+      "id": "q3"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe ___schmerzen. (stomach ache)",
+      "answer": "Bauch",
+      "fullAnswer": "Ich habe Bauchschmerzen.",
+      "explanation": "Bauch + Schmerzen.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Mein Bauch ___ weh.",
+      "options": [
+        "tut",
+        "ist"
+      ],
+      "answer": "tut",
+      "explanation": "Wehtun: to hurt.",
+      "id": "q5"
+    }
+  ]
+}

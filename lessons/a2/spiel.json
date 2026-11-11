@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Spiel",
+    "partOfSpeech": "noun, neuter (das Spiel)",
+    "pronunciation": {
+      "respelling": "SHPEEL",
+      "ipa": "ʃpiːl",
+      "notes": "Plural: die Spiele."
+    },
+    "meaning": "game; match",
+    "shortDefinition": "Game; match."
+  },
+  "wordFamily": [
+    {
+      "german": "spielen",
+      "english": "to play",
+      "type": "verb"
+    },
+    {
+      "german": "der Spieler",
+      "english": "player",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Spiel, plural die Spiele.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Spiel"
+        },
+        {
+          "label": "More than one",
+          "value": "die Spiele"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das Spiel beginnt um 15.30 Uhr.",
+      "english": "The match starts at 3:30.",
+      "highlight": [
+        "Spiel"
+      ]
+    },
+    {
+      "german": "Wir spielen ein Spiel.",
+      "english": "We're playing a game.",
+      "highlight": [
+        "Spiel."
+      ]
+    },
+    {
+      "german": "Wer hat das Spiel gewonnen?",
+      "english": "Who won the game?",
+      "highlight": [
+        "Spiel"
+      ]
+    }
+  ],
+  "forms": [
+    "Spiele",
+    "die Spiele",
+    "das Spiel"
+  ],
+  "memoryHook": "Spielen → das Spiel (game, match).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Spiel",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Spiel is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Spiel, zwei ___",
+      "answer": "Spiele",
+      "fullAnswer": "ein Spiel, zwei Spiele",
+      "explanation": "The plural is Spiele.",
+      "acceptedAnswers": [
+        "Spiele"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Spiel mean?",
+      "options": [
+        "game",
+        "hot",
+        "always"
+      ],
+      "answer": "game",
+      "explanation": "Spiel: game; match.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "A board game:",
+      "options": [
+        "ein Brettspiel",
+        "ein Tischspiel"
+      ],
+      "answer": "ein Brettspiel",
+      "explanation": "Brett = board.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Was steht auf dem Spiel?' means…",
+      "options": [
+        "What's at stake?",
+        "What's on the game?"
+      ],
+      "answer": "What's at stake?",
+      "explanation": "Idiom.",
+      "id": "q5"
+    }
+  ]
+}

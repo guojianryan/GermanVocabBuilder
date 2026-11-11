@@ -1,0 +1,181 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "empfinden",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "emp-FIN-den",
+      "ipa": "ɛmˈpfɪndn̩",
+      "notes": ""
+    },
+    "meaning": "to feel, perceive",
+    "shortDefinition": "To feel, perceive."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "emp",
+        "meaning": "prefix (ent-)"
+      },
+      {
+        "part": "finden",
+        "meaning": "to find"
+      }
+    ],
+    "literalMeaning": "to find within",
+    "summary": "Finding a feeling inside."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "empfind|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "empfind|est"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "empfind|et"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "empfind|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "empfind|et"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "empfind|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat empfunden"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich empfinde das als unfair.",
+      "english": "I find that unfair.",
+      "highlight": [
+        "empfinde"
+      ]
+    },
+    {
+      "german": "Sie empfand große Freude.",
+      "english": "She felt great joy.",
+      "highlight": [
+        "empfand"
+      ]
+    },
+    {
+      "german": "Wie empfinden Sie die Situation?",
+      "english": "How do you perceive the situation?",
+      "highlight": [
+        "empfinden"
+      ]
+    }
+  ],
+  "forms": [
+    "Empfindung",
+    "empfindlich"
+  ],
+  "memoryHook": "Empfinden (empfand, empfunden) = feel; empfindlich.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (empfinden)",
+      "answer": "empfindet",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: empfindet.",
+      "acceptedAnswers": [
+        "empfindet"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (empfinden, past)",
+      "answer": "empfunden",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe empfunden.",
+      "acceptedAnswers": [
+        "empfunden"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does empfinden mean?",
+      "options": [
+        "to feel",
+        "quiet",
+        "hot"
+      ],
+      "answer": "to feel",
+      "explanation": "empfinden: to feel, perceive.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Etwas als … empfinden' means…",
+      "options": [
+        "to find / perceive something as …",
+        "to invent"
+      ],
+      "answer": "to find / perceive something as …",
+      "explanation": "Perceive.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "hat empfunden",
+        "hat empfindet"
+      ],
+      "answer": "hat empfunden",
+      "explanation": "Like finden.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Adjective:",
+      "options": [
+        "empfindlich (sensitive)",
+        "empfindsam only"
+      ],
+      "answer": "empfindlich (sensitive)",
+      "explanation": "Sensitive.",
+      "id": "q6"
+    }
+  ]
+}

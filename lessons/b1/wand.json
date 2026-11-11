@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Wand",
+    "partOfSpeech": "noun, feminine (die Wand)",
+    "pronunciation": {
+      "respelling": "VANT",
+      "ipa": "vant",
+      "notes": "Plural: die Wände."
+    },
+    "meaning": "wall (inside)",
+    "shortDefinition": "Wall (inside)."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Wand, plural die Wände.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Wand"
+        },
+        {
+          "label": "More than one",
+          "value": "die Wände"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das Bild hängt an der Wand.",
+      "english": "The picture is hanging on the wall.",
+      "highlight": [
+        "Wand."
+      ]
+    },
+    {
+      "german": "Wir streichen die Wände weiß.",
+      "english": "We're painting the walls white.",
+      "highlight": [
+        "Wände"
+      ]
+    },
+    {
+      "german": "Die Wände sind sehr dünn.",
+      "english": "The walls are very thin.",
+      "highlight": [
+        "Wände"
+      ]
+    }
+  ],
+  "forms": [
+    "Wände",
+    "die Wände",
+    "die Wand"
+  ],
+  "memoryHook": "Die Wand, die Wände (inside wall). An der Wand.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Wand",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Wand is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Wand, zwei ___",
+      "answer": "Wände",
+      "fullAnswer": "ein Wand, zwei Wände",
+      "explanation": "The plural is Wände.",
+      "acceptedAnswers": [
+        "Waende"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Wand mean?",
+      "options": [
+        "wall (inside)",
+        "to buy",
+        "to sing"
+      ],
+      "answer": "wall (inside)",
+      "explanation": "Wand: wall (inside).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Wand vs Mauer:",
+      "options": [
+        "Wand = room wall; Mauer = outside/free-standing",
+        "same"
+      ],
+      "answer": "Wand = room wall; Mauer = outside/free-standing",
+      "explanation": "Different.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Wände",
+        "Wande"
+      ],
+      "answer": "Wände",
+      "explanation": "a → ä.",
+      "id": "q5"
+    }
+  ]
+}

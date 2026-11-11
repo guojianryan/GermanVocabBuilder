@@ -1,0 +1,170 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "bauen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "BOW-en",
+      "ipa": "ˈbaʊ̯ən",
+      "notes": ""
+    },
+    "meaning": "to build",
+    "shortDefinition": "To build."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "bau|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "bau|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "bau|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "bau|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "bau|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "bau|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gebaut"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "die Baustelle",
+      "english": "building site",
+      "type": "noun"
+    },
+    {
+      "german": "der Bauer",
+      "english": "farmer",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir bauen ein Haus.",
+      "english": "We're building a house.",
+      "highlight": [
+        "bauen"
+      ]
+    },
+    {
+      "german": "Die Brücke wurde 1890 gebaut.",
+      "english": "The bridge was built in 1890.",
+      "highlight": [
+        "gebaut."
+      ]
+    },
+    {
+      "german": "Die Kinder bauen eine Sandburg.",
+      "english": "The children are building a sandcastle.",
+      "highlight": [
+        "bauen"
+      ]
+    }
+  ],
+  "forms": [
+    "baue",
+    "baust",
+    "baut",
+    "bauen",
+    "gebaut"
+  ],
+  "memoryHook": "Bauen = build. Der Bau = building work, die Baustelle = building site.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (bauen)",
+      "answer": "baut",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: baut.",
+      "acceptedAnswers": [
+        "baut"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (bauen, past)",
+      "answer": "gebaut",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gebaut.",
+      "acceptedAnswers": [
+        "gebaut"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does bauen mean?",
+      "options": [
+        "the family",
+        "to build",
+        "to sleep"
+      ],
+      "answer": "to build",
+      "explanation": "bauen: to build.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "A building site is…",
+      "options": [
+        "eine Baustelle",
+        "ein Bauplatz only"
+      ],
+      "answer": "eine Baustelle",
+      "explanation": "Bau + Stelle.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "A farmer is (related word)…",
+      "options": [
+        "der Bauer",
+        "der Bäcker"
+      ],
+      "answer": "der Bauer",
+      "explanation": "Bauen once meant to farm.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Design",
+    "partOfSpeech": "noun, neuter (das Design)",
+    "pronunciation": {
+      "respelling": "di-ZINE",
+      "ipa": "diˈzaɪ̯n",
+      "notes": "Plural: die Designs."
+    },
+    "meaning": "design",
+    "shortDefinition": "Design."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Design, plural die Designs.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Design"
+        },
+        {
+          "label": "More than one",
+          "value": "die Designs"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Mir gefällt das Design.",
+      "english": "I like the design.",
+      "highlight": [
+        "Design."
+      ]
+    },
+    {
+      "german": "Sie studiert Design.",
+      "english": "She studies design.",
+      "highlight": [
+        "Design."
+      ]
+    },
+    {
+      "german": "Ein modernes Design.",
+      "english": "A modern design.",
+      "highlight": [
+        "Design."
+      ]
+    }
+  ],
+  "forms": [
+    "Designer"
+  ],
+  "memoryHook": "Das Design; der Designer.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Design",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Design is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Design, zwei ___",
+      "answer": "Designs",
+      "fullAnswer": "ein Design, zwei Designs",
+      "explanation": "The plural is Designs.",
+      "acceptedAnswers": [
+        "Designs"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Design mean?",
+      "options": [
+        "hot",
+        "design",
+        "the job"
+      ],
+      "answer": "design",
+      "explanation": "Design: design.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gender:",
+      "options": [
+        "das",
+        "der"
+      ],
+      "answer": "das",
+      "explanation": "Das Design.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Designer:",
+      "options": [
+        "der Designer / die Designerin",
+        "der Designist"
+      ],
+      "answer": "der Designer / die Designerin",
+      "explanation": "Person.",
+      "id": "q5"
+    }
+  ]
+}

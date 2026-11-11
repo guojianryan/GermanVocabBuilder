@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "benutzen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "buh-NOOT-sen",
+      "ipa": "bəˈnʊtsn̩",
+      "notes": ""
+    },
+    "meaning": "to use",
+    "shortDefinition": "To use."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "be",
+        "meaning": "prefix that makes a verb take an object"
+      },
+      {
+        "part": "nutzen",
+        "meaning": "to use"
+      }
+    ],
+    "literalMeaning": "to make use of"
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "benutz|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "benutz|t"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "benutz|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "benutz|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "benutz|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "benutz|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat benutzt",
+        "Du benutzt: the stem ends in -tz, so du only adds -t."
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "der Benutzer",
+      "english": "user",
+      "type": "noun"
+    },
+    {
+      "german": "nutzen",
+      "english": "to use (also)",
+      "type": "verb"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Darf ich Ihr Telefon benutzen?",
+      "english": "May I use your phone?",
+      "highlight": [
+        "benutzen?"
+      ]
+    },
+    {
+      "german": "Benutzen Sie bitte den Hinterausgang.",
+      "english": "Please use the back exit.",
+      "highlight": [
+        "Benutzen"
+      ]
+    },
+    {
+      "german": "Ich benutze jeden Tag die U-Bahn.",
+      "english": "I use the underground every day.",
+      "highlight": [
+        "benutze"
+      ]
+    }
+  ],
+  "forms": [
+    "benutze",
+    "benutzt",
+    "benutzen"
+  ],
+  "memoryHook": "Benutzen = use. The be- prefix means no ge- in the past: hat benutzt.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (benutzen)",
+      "answer": "benutzt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: benutzt.",
+      "acceptedAnswers": [
+        "benutzt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (benutzen, past)",
+      "answer": "benutzt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe benutzt.",
+      "acceptedAnswers": [
+        "benutzt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does benutzen mean?",
+      "options": [
+        "never",
+        "the street",
+        "to use"
+      ],
+      "answer": "to use",
+      "explanation": "benutzen: to use.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Du ___ mein Handy.",
+      "options": [
+        "benutzt",
+        "benutzst"
+      ],
+      "answer": "benutzt",
+      "explanation": "The stem ends in -tz, so du just adds -t.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "The past participle is…",
+      "options": [
+        "benutzt",
+        "gebenutzt"
+      ],
+      "answer": "benutzt",
+      "explanation": "Be- verbs have no ge-.",
+      "id": "q5"
+    }
+  ]
+}

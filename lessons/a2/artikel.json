@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Artikel",
+    "partOfSpeech": "noun, masculine (der Artikel)",
+    "pronunciation": {
+      "respelling": "ar-TEE-kel",
+      "ipa": "aʁˈtiːkl̩",
+      "notes": "The plural looks the same. Plural: die Artikel."
+    },
+    "meaning": "article",
+    "shortDefinition": "Article."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Artikel, plural die Artikel.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Artikel"
+        },
+        {
+          "label": "More than one",
+          "value": "die Artikel"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Im Deutschen gibt es drei Artikel: der, die und das.",
+      "english": "There are three articles in German: der, die and das.",
+      "highlight": [
+        "Artikel:"
+      ]
+    },
+    {
+      "german": "Ich habe einen interessanten Artikel gelesen.",
+      "english": "I read an interesting article.",
+      "highlight": [
+        "Artikel"
+      ]
+    },
+    {
+      "german": "Dieser Artikel ist im Angebot.",
+      "english": "This item is on offer.",
+      "highlight": [
+        "Artikel"
+      ]
+    }
+  ],
+  "forms": [
+    "Artikel",
+    "die Artikel",
+    "der Artikel"
+  ],
+  "memoryHook": "Der Artikel: der, die, das… and a newspaper article.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Artikel",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Artikel is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Artikel, zwei ___",
+      "answer": "Artikel",
+      "fullAnswer": "ein Artikel, zwei Artikel",
+      "explanation": "The plural is Artikel.",
+      "acceptedAnswers": [
+        "Artikel"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Artikel mean?",
+      "options": [
+        "quiet",
+        "the bread",
+        "article"
+      ],
+      "answer": "article",
+      "explanation": "Artikel: article.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Artikel can mean…",
+      "options": [
+        "grammar word, newspaper text or shop item",
+        "only a newspaper text"
+      ],
+      "answer": "grammar word, newspaper text or shop item",
+      "explanation": "All three.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Stress on…",
+      "options": [
+        "-TI-",
+        "AR-"
+      ],
+      "answer": "-TI-",
+      "explanation": "ar-TEE-kel.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Kühlschrank",
+    "partOfSpeech": "noun, masculine (der Kühlschrank)",
+    "pronunciation": {
+      "respelling": "KUEL-shrank",
+      "ipa": "ˈkyːlʃʁaŋk",
+      "notes": "Plural: die Kühlschränke."
+    },
+    "meaning": "fridge, refrigerator",
+    "shortDefinition": "Fridge, refrigerator."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Kühl",
+        "meaning": "cool"
+      },
+      {
+        "part": "schrank",
+        "meaning": "cupboard"
+      }
+    ],
+    "literalMeaning": "cool cupboard"
+  },
+  "wordFamily": [
+    {
+      "german": "der Schrank",
+      "english": "cupboard",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Kühlschrank, plural die Kühlschränke.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Kühlschrank"
+        },
+        {
+          "label": "More than one",
+          "value": "die Kühlschränke"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Milch ist im Kühlschrank.",
+      "english": "The milk is in the fridge.",
+      "highlight": [
+        "Kühlschrank."
+      ]
+    },
+    {
+      "german": "Der Kühlschrank ist leer.",
+      "english": "The fridge is empty.",
+      "highlight": [
+        "Kühlschrank"
+      ]
+    },
+    {
+      "german": "Stell die Butter in den Kühlschrank.",
+      "english": "Put the butter in the fridge.",
+      "highlight": [
+        "Kühlschrank."
+      ]
+    }
+  ],
+  "forms": [
+    "Kühlschränke",
+    "die Kühlschränke",
+    "der Kühlschrank"
+  ],
+  "memoryHook": "Kühl (cool) + Schrank (cupboard): a cool cupboard.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Kühlschrank",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Kühlschrank is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Kühlschrank, zwei ___",
+      "answer": "Kühlschränke",
+      "fullAnswer": "ein Kühlschrank, zwei Kühlschränke",
+      "explanation": "The plural is Kühlschränke.",
+      "acceptedAnswers": [
+        "Kuehlschraenke"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Kühlschrank mean?",
+      "options": [
+        "to travel",
+        "the bill",
+        "fridge"
+      ],
+      "answer": "fridge",
+      "explanation": "Kühlschrank: fridge, refrigerator.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Kühl + Schrank: kühl means…",
+      "options": [
+        "cool",
+        "kitchen"
+      ],
+      "answer": "cool",
+      "explanation": "A cool cupboard.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Putting something in: ___ den Kühlschrank",
+      "options": [
+        "in",
+        "im"
+      ],
+      "answer": "in",
+      "explanation": "Direction: in den.",
+      "id": "q5"
+    }
+  ]
+}

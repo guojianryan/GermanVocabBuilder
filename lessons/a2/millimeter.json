@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Millimeter",
+    "partOfSpeech": "noun, masculine (der Millimeter)",
+    "pronunciation": {
+      "respelling": "mi-li-MAY-ter",
+      "ipa": "mɪliˈmeːtɐ",
+      "notes": "The plural looks the same. Plural: die Millimeter."
+    },
+    "meaning": "millimetre",
+    "shortDefinition": "Millimetre."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Milli",
+        "meaning": "thousandth"
+      },
+      {
+        "part": "meter",
+        "meaning": "metre"
+      }
+    ],
+    "literalMeaning": "thousandth of a metre"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Millimeter, plural die Millimeter.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Millimeter"
+        },
+        {
+          "label": "More than one",
+          "value": "die Millimeter"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Schraube ist fünf Millimeter lang.",
+      "english": "The screw is five millimetres long.",
+      "highlight": [
+        "Millimeter"
+      ]
+    },
+    {
+      "german": "Es hat zehn Millimeter geregnet.",
+      "english": "Ten millimetres of rain fell.",
+      "highlight": [
+        "Millimeter"
+      ]
+    },
+    {
+      "german": "Das passt auf den Millimeter genau.",
+      "english": "It fits to the millimetre.",
+      "highlight": [
+        "Millimeter"
+      ]
+    }
+  ],
+  "forms": [
+    "mm"
+  ],
+  "memoryHook": "Der Millimeter (mm).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Millimeter",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Millimeter is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Millimeter, zwei ___",
+      "answer": "Millimeter",
+      "fullAnswer": "ein Millimeter, zwei Millimeter",
+      "explanation": "The plural is Millimeter.",
+      "acceptedAnswers": [
+        "Millimeter"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Millimeter mean?",
+      "options": [
+        "hot",
+        "the street",
+        "millimetre"
+      ],
+      "answer": "millimetre",
+      "explanation": "Millimeter: millimetre.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Abbreviation:",
+      "options": [
+        "mm",
+        "ml"
+      ],
+      "answer": "mm",
+      "explanation": "ml = millilitre.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gender (official):",
+      "options": [
+        "der (also das)",
+        "die"
+      ],
+      "answer": "der (also das)",
+      "explanation": "Both used.",
+      "id": "q5"
+    }
+  ]
+}

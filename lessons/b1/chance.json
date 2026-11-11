@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Chance",
+    "partOfSpeech": "noun, feminine (die Chance)",
+    "pronunciation": {
+      "respelling": "SHAHN-se",
+      "ipa": "ˈʃɑ̃ːsə",
+      "notes": "Plural: die Chancen."
+    },
+    "meaning": "chance, opportunity",
+    "shortDefinition": "Chance, opportunity."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Chance, plural die Chancen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Chance"
+        },
+        {
+          "label": "More than one",
+          "value": "die Chancen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das ist deine Chance!",
+      "english": "This is your chance!",
+      "highlight": [
+        "Chance!"
+      ]
+    },
+    {
+      "german": "Gib ihm noch eine Chance.",
+      "english": "Give him another chance.",
+      "highlight": [
+        "Chance."
+      ]
+    },
+    {
+      "german": "Er hat gute Chancen, den Job zu bekommen.",
+      "english": "He has a good chance of getting the job.",
+      "highlight": [
+        "Chancen,"
+      ]
+    }
+  ],
+  "forms": [
+    "Chancen",
+    "die Chancen",
+    "die Chance"
+  ],
+  "memoryHook": "Die Chance (French sound) = opportunity. By chance = zufällig.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Chance",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Chance is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Chance, zwei ___",
+      "answer": "Chancen",
+      "fullAnswer": "ein Chance, zwei Chancen",
+      "explanation": "The plural is Chancen.",
+      "acceptedAnswers": [
+        "Chancen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Chance mean?",
+      "options": [
+        "to help",
+        "chance",
+        "never"
+      ],
+      "answer": "chance",
+      "explanation": "Chance: chance, opportunity.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Pronounced…",
+      "options": [
+        "French: SHAHN-se",
+        "CHANCE"
+      ],
+      "answer": "French: SHAHN-se",
+      "explanation": "French.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'By chance' is NOT Chance. It's…",
+      "options": [
+        "zufällig",
+        "chancig"
+      ],
+      "answer": "zufällig",
+      "explanation": "Coincidence.",
+      "id": "q5"
+    }
+  ]
+}

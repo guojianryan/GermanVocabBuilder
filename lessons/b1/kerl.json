@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Kerl",
+    "partOfSpeech": "noun, masculine (der Kerl)",
+    "pronunciation": {
+      "respelling": "KAIRL",
+      "ipa": "kɛʁl",
+      "notes": "Plural: die Kerle."
+    },
+    "meaning": "guy, bloke",
+    "shortDefinition": "Guy, bloke."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Kerl, plural die Kerle.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Kerl"
+        },
+        {
+          "label": "More than one",
+          "value": "die Kerle"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er ist ein netter Kerl.",
+      "english": "He's a nice guy.",
+      "highlight": [
+        "Kerl."
+      ]
+    },
+    {
+      "german": "Was will der Kerl?",
+      "english": "What does that bloke want?",
+      "highlight": [
+        "Kerl?"
+      ]
+    },
+    {
+      "german": "Die Kerle sind laut.",
+      "english": "The guys are loud.",
+      "highlight": [
+        "Kerle"
+      ]
+    }
+  ],
+  "forms": [
+    "Kerle",
+    "die Kerle",
+    "der Kerl"
+  ],
+  "memoryHook": "Der Kerl (informal: guy) = der Typ.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Kerl",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Kerl is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Kerl, zwei ___",
+      "answer": "Kerle",
+      "fullAnswer": "ein Kerl, zwei Kerle",
+      "explanation": "The plural is Kerle.",
+      "acceptedAnswers": [
+        "Kerle"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Kerl mean?",
+      "options": [
+        "guy",
+        "the bill",
+        "always"
+      ],
+      "answer": "guy",
+      "explanation": "Kerl: guy, bloke.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Register:",
+      "options": [
+        "informal",
+        "formal"
+      ],
+      "answer": "informal",
+      "explanation": "Colloquial.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonym:",
+      "options": [
+        "der Typ",
+        "der Herr"
+      ],
+      "answer": "der Typ",
+      "explanation": "Guy.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Prognose",
+    "partOfSpeech": "noun, feminine (die Prognose)",
+    "pronunciation": {
+      "respelling": "prog-NOH-ze",
+      "ipa": "pʁoˈɡnoːzə",
+      "notes": "Plural: die Prognosen."
+    },
+    "meaning": "forecast, prognosis",
+    "shortDefinition": "Forecast, prognosis."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Prognose, plural die Prognosen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Prognose"
+        },
+        {
+          "label": "More than one",
+          "value": "die Prognosen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Prognose für morgen ist gut.",
+      "english": "The forecast for tomorrow is good.",
+      "highlight": [
+        "Prognose"
+      ]
+    },
+    {
+      "german": "Nach ersten Prognosen gewinnt die Partei.",
+      "english": "According to early projections the party wins.",
+      "highlight": [
+        "Prognosen"
+      ]
+    },
+    {
+      "german": "Der Arzt stellt eine Prognose.",
+      "english": "The doctor gives a prognosis.",
+      "highlight": [
+        "Prognose."
+      ]
+    }
+  ],
+  "forms": [
+    "Vorhersage"
+  ],
+  "memoryHook": "Die Prognose = Vorhersage; prognostizieren.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Prognose",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Prognose is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Prognose, zwei ___",
+      "answer": "Prognosen",
+      "fullAnswer": "ein Prognose, zwei Prognosen",
+      "explanation": "The plural is Prognosen.",
+      "acceptedAnswers": [
+        "Prognosen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Prognose mean?",
+      "options": [
+        "forecast",
+        "to sing",
+        "to travel"
+      ],
+      "answer": "forecast",
+      "explanation": "Prognose: forecast, prognosis.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Verb:",
+      "options": [
+        "prognostizieren",
+        "prognosen"
+      ],
+      "answer": "prognostizieren",
+      "explanation": "Forecast.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonym:",
+      "options": [
+        "die Vorhersage",
+        "die Diagnose"
+      ],
+      "answer": "die Vorhersage",
+      "explanation": "Forecast.",
+      "id": "q5"
+    }
+  ]
+}

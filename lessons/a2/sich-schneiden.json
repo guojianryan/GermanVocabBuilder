@@ -1,0 +1,160 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "(sich) schneiden",
+    "partOfSpeech": "verb, sometimes reflexive",
+    "pronunciation": {
+      "respelling": "SHNY-den",
+      "ipa": "ˈʃnaɪ̯dn̩",
+      "notes": ""
+    },
+    "meaning": "to cut (yourself)",
+    "shortDefinition": "To cut (yourself)."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "schneid|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "schneid|est"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "schneid|et"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "schneid|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "schneid|et"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "schneid|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat geschnitten"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich schneide das Brot.",
+      "english": "I'm cutting the bread.",
+      "highlight": [
+        "schneide"
+      ]
+    },
+    {
+      "german": "Au, ich habe mich geschnitten!",
+      "english": "Ow, I've cut myself!",
+      "highlight": [
+        "mich",
+        "geschnitten!"
+      ]
+    },
+    {
+      "german": "Ich lasse mir die Haare schneiden.",
+      "english": "I'm having my hair cut.",
+      "highlight": [
+        "schneiden."
+      ]
+    }
+  ],
+  "forms": [
+    "schneide",
+    "schneidest",
+    "schneidet",
+    "schneiden",
+    "geschnitten",
+    "schnitt"
+  ],
+  "memoryHook": "Schneiden, schnitt, geschnitten. Sich schneiden = cut yourself.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ ((sich) schneiden)",
+      "answer": "schneidet",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: schneidet.",
+      "acceptedAnswers": [
+        "schneidet"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe mich schon ___. ((sich) schneiden, past)",
+      "answer": "geschnitten",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe mich geschnitten.",
+      "acceptedAnswers": [
+        "geschnitten"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does (sich) schneiden mean?",
+      "options": [
+        "to cut (yourself)",
+        "the family",
+        "always"
+      ],
+      "answer": "to cut (yourself)",
+      "explanation": "(sich) schneiden: to cut (yourself).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Past participle:",
+      "options": [
+        "geschnitten",
+        "geschneidet"
+      ],
+      "answer": "geschnitten",
+      "explanation": "Irregular: schnitt.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'I've cut my finger':",
+      "options": [
+        "Ich habe mir in den Finger geschnitten.",
+        "Ich habe meinen Finger geschnitten mich."
+      ],
+      "answer": "Ich habe mir in den Finger geschnitten.",
+      "explanation": "Dative mir.",
+      "id": "q5"
+    }
+  ]
+}

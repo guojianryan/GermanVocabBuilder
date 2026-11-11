@@ -1,0 +1,125 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Feuer",
+    "partOfSpeech": "noun, neuter (das Feuer)",
+    "pronunciation": {
+      "respelling": "FOY-er",
+      "ipa": "ˈfɔɪ̯ɐ",
+      "notes": "Eu sounds like 'oy'. The plural is rare. Usually no plural."
+    },
+    "meaning": "fire; a light (for a cigarette)",
+    "shortDefinition": "Fire; a light (for a cigarette)."
+  },
+  "wordFamily": [
+    {
+      "german": "die Feuerwehr",
+      "english": "fire brigade",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Feuer, usually no plural.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Feuer"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Im Wald ist ein Feuer.",
+      "english": "There's a fire in the forest.",
+      "highlight": [
+        "Feuer."
+      ]
+    },
+    {
+      "german": "Haben Sie Feuer?",
+      "english": "Have you got a light?",
+      "highlight": [
+        "Feuer?"
+      ]
+    },
+    {
+      "german": "Ruf die Feuerwehr!",
+      "english": "Call the fire brigade!",
+      "highlight": [
+        "Feuerwehr!"
+      ]
+    }
+  ],
+  "forms": [
+    "das Feuer"
+  ],
+  "memoryHook": "Feuer = fire (eu = 'oy'). Feuerwehr: fire brigade, number 112.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Feuer",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Feuer is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Feuer mean?",
+      "options": [
+        "fire",
+        "to help",
+        "the family"
+      ],
+      "answer": "fire",
+      "explanation": "Feuer: fire; a light (for a cigarette).",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Haben Sie Feuer?' asks for…",
+      "options": [
+        "a light",
+        "a fireplace"
+      ],
+      "answer": "a light",
+      "explanation": "For a cigarette.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Die Feuerwehr is…",
+      "options": [
+        "the fire brigade",
+        "the fireplace"
+      ],
+      "answer": "the fire brigade",
+      "explanation": "Feuer + Wehr (defence).",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Eu sounds like…",
+      "options": [
+        "oy",
+        "ee-oo"
+      ],
+      "answer": "oy",
+      "explanation": "FOY-er.",
+      "id": "q5"
+    }
+  ]
+}

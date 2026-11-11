@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Titel",
+    "partOfSpeech": "noun, masculine (der Titel)",
+    "pronunciation": {
+      "respelling": "TEE-tel",
+      "ipa": "ˈtiːtl̩",
+      "notes": "The plural looks the same. Plural: die Titel."
+    },
+    "meaning": "title",
+    "shortDefinition": "Title."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Titel, plural die Titel.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Titel"
+        },
+        {
+          "label": "More than one",
+          "value": "die Titel"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wie ist der Titel von dem Buch?",
+      "english": "What's the title of the book?",
+      "highlight": [
+        "Titel"
+      ]
+    },
+    {
+      "german": "Er hat einen Doktortitel.",
+      "english": "He has a doctorate.",
+      "highlight": [
+        "Doktortitel."
+      ]
+    },
+    {
+      "german": "Der Titel des Films ist auf Englisch.",
+      "english": "The film's title is in English.",
+      "highlight": [
+        "Titel"
+      ]
+    }
+  ],
+  "forms": [
+    "Titel",
+    "die Titel",
+    "der Titel"
+  ],
+  "memoryHook": "Der Titel (TEE-tel).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Titel",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Titel is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Titel, zwei ___",
+      "answer": "Titel",
+      "fullAnswer": "ein Titel, zwei Titel",
+      "explanation": "The plural is Titel.",
+      "acceptedAnswers": [
+        "Titel"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Titel mean?",
+      "options": [
+        "title",
+        "never",
+        "always"
+      ],
+      "answer": "title",
+      "explanation": "Titel: title.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Pronounced…",
+      "options": [
+        "TEE-tel",
+        "TIE-tel"
+      ],
+      "answer": "TEE-tel",
+      "explanation": "Long i.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Titel",
+        "Titeln"
+      ],
+      "answer": "Titel",
+      "explanation": "No change.",
+      "id": "q5"
+    }
+  ]
+}

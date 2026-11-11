@@ -1,0 +1,216 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "full",
+  "word": {
+    "headword": "aus",
+    "partOfSpeech": "preposition (always with the dative); separable prefix",
+    "pronunciation": {
+      "respelling": "OWS",
+      "ipa": "aʊ̯s",
+      "notes": "Au as in 'house'. It's the same word as English 'out'."
+    },
+    "meaning": "from (origin); out of; made of; over, off",
+    "shortDefinition": "Where something comes from or goes out of."
+  },
+  "intro": {
+    "title": "Woher kommst du?",
+    "paragraphs": [
+      "Ich komme aus Brasilien: I come from Brazil. Aus tells where someone or something comes from, and out of what. Like mit, it always takes the dative."
+    ]
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "summary": "Aus and English 'out' are the same word.",
+    "cognates": [
+      {
+        "word": "out",
+        "language": "English"
+      },
+      {
+        "word": "uit",
+        "language": "Dutch"
+      }
+    ]
+  },
+  "tables": [
+    {
+      "title": "aus + dative",
+      "columns": [
+        "masculine",
+        "feminine",
+        "neuter",
+        "plural"
+      ],
+      "rows": [
+        {
+          "label": "the",
+          "cells": [
+            "aus d|em",
+            "aus d|er",
+            "aus d|em",
+            "aus d|en …n"
+          ]
+        }
+      ],
+      "notes": [
+        "Countries without an article need nothing extra: aus Spanien. With an article: aus der Türkei, aus den USA."
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "aus sein",
+      "english": "to be off; to be over",
+      "type": "phrase"
+    },
+    {
+      "german": "der Ausgang",
+      "english": "exit",
+      "type": "noun"
+    },
+    {
+      "german": "aussteigen, ausmachen",
+      "english": "to get off, to turn off",
+      "type": "separable verbs"
+    },
+    {
+      "german": "das Ausland",
+      "english": "abroad",
+      "type": "noun"
+    }
+  ],
+  "keyTrap": {
+    "title": "The big trap: von or aus?",
+    "explanation": "For your home country or city, German uses aus. Von is for people and for starting points.",
+    "wrong": {
+      "german": "Ich komme von Spanien.",
+      "verdict": "Where you're from: aus."
+    },
+    "correct": [
+      {
+        "german": "Ich komme aus Spanien.",
+        "literal": "I come out of Spain.",
+        "note": "Origin: aus."
+      },
+      {
+        "german": "Ich komme gerade von der Arbeit.",
+        "literal": "I come just from the work.",
+        "note": "Coming back from a place or activity: von."
+      }
+    ]
+  },
+  "commonMistakes": [
+    {
+      "title": "Made of",
+      "explanation": "Aus also says what something is made of.",
+      "examples": [
+        {
+          "german": "Der Tisch ist aus Holz.",
+          "english": "The table is made of wood.",
+          "highlight": "aus"
+        }
+      ]
+    },
+    {
+      "title": "Always dative",
+      "explanation": "Aus never takes the accusative.",
+      "wrong": "aus den Haus",
+      "correct": "aus dem Haus"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er kommt aus Brasilien.",
+      "english": "He comes from Brazil.",
+      "highlight": [
+        "aus"
+      ]
+    },
+    {
+      "german": "Sie trinkt Kaffee aus einer großen Tasse.",
+      "english": "She drinks coffee from a big cup.",
+      "highlight": [
+        "aus",
+        "einer"
+      ]
+    },
+    {
+      "german": "Mach bitte das Licht aus.",
+      "english": "Please turn the light off.",
+      "highlight": [
+        "aus."
+      ]
+    },
+    {
+      "german": "Die Schule ist um eins aus.",
+      "english": "School is over at one.",
+      "highlight": [
+        "aus."
+      ]
+    }
+  ],
+  "forms": [
+    "aus dem",
+    "aus der"
+  ],
+  "memoryHook": "Aus = out. Out of a country (aus Spanien), out of a cup, out of wood. Always with the dative.",
+  "signOff": "Aus und vorbei!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Woher kommst du? – Ich komme ___ Italien.",
+      "options": [
+        "von",
+        "aus"
+      ],
+      "answer": "aus",
+      "explanation": "Your country: aus.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Sie kommt aus ___ Schweiz.",
+      "options": [
+        "die",
+        "der"
+      ],
+      "answer": "der",
+      "explanation": "Aus + dative: der Schweiz.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Der Ring ist ___ Gold. (made of)",
+      "options": [
+        "aus",
+        "von"
+      ],
+      "answer": "aus",
+      "explanation": "Made of: aus.",
+      "id": "q3"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Er geht ___ dem Haus. (out of)",
+      "answer": "aus",
+      "fullAnswer": "Er geht aus dem Haus.",
+      "explanation": "Out of: aus.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Der Film ist ___. (over)",
+      "options": [
+        "aus",
+        "auf"
+      ],
+      "answer": "aus",
+      "explanation": "Over, finished: aus sein.",
+      "id": "q5"
+    }
+  ]
+}

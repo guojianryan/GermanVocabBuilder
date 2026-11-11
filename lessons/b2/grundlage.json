@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Grundlage",
+    "partOfSpeech": "noun, feminine (die Grundlage)",
+    "pronunciation": {
+      "respelling": "GROONT-laa-ge",
+      "ipa": "ˈɡʁʊntlaːɡə",
+      "notes": "Plural: die Grundlagen."
+    },
+    "meaning": "basis, foundation",
+    "shortDefinition": "Basis, foundation."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Grund",
+        "meaning": "ground"
+      },
+      {
+        "part": "lage",
+        "meaning": "layer, position"
+      }
+    ],
+    "literalMeaning": "ground layer"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Grundlage, plural die Grundlagen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Grundlage"
+        },
+        {
+          "label": "More than one",
+          "value": "die Grundlagen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das bildet die Grundlage für die Entscheidung.",
+      "english": "That forms the basis for the decision.",
+      "highlight": [
+        "Grundlage"
+      ]
+    },
+    {
+      "german": "Ich lerne die Grundlagen der Programmierung.",
+      "english": "I'm learning the basics of programming.",
+      "highlight": [
+        "Grundlagen"
+      ]
+    },
+    {
+      "german": "Auf der Grundlage der Daten.",
+      "english": "On the basis of the data.",
+      "highlight": [
+        "Grundlage"
+      ]
+    }
+  ],
+  "forms": [
+    "grundlegend"
+  ],
+  "memoryHook": "Grund + Lage = basis; die Grundlagen = basics.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Grundlage",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Grundlage is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Grundlage, zwei ___",
+      "answer": "Grundlagen",
+      "fullAnswer": "ein Grundlage, zwei Grundlagen",
+      "explanation": "The plural is Grundlagen.",
+      "acceptedAnswers": [
+        "Grundlagen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Grundlage mean?",
+      "options": [
+        "the car",
+        "basis",
+        "always"
+      ],
+      "answer": "basis",
+      "explanation": "Grundlage: basis, foundation.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Grund (ground) + Lage (layer)",
+        "Grund + legen only"
+      ],
+      "answer": "Grund (ground) + Lage (layer)",
+      "explanation": "Ground layer.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Die Grundlagen' (pl.) means…",
+      "options": [
+        "the basics",
+        "the cellars"
+      ],
+      "answer": "the basics",
+      "explanation": "Fundamentals.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Verlauf",
+    "partOfSpeech": "noun, masculine (der Verlauf)",
+    "pronunciation": {
+      "respelling": "fer-LOWF",
+      "ipa": "fɛɐ̯ˈlaʊ̯f",
+      "notes": "Plural: die Verläufe."
+    },
+    "meaning": "course, progress; history",
+    "shortDefinition": "Course, progress; history."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Ver",
+        "meaning": "prefix"
+      },
+      {
+        "part": "lauf",
+        "meaning": "run",
+        "emphasis": "stretch"
+      }
+    ],
+    "literalMeaning": "a running on",
+    "summary": "How things run on over time."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Verlauf, plural die Verläufe.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Verlauf"
+        },
+        {
+          "label": "More than one",
+          "value": "die Verläufe"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Im Verlauf des Abends wurde es lustig.",
+      "english": "In the course of the evening it got fun.",
+      "highlight": [
+        "Verlauf"
+      ]
+    },
+    {
+      "german": "Der Verlauf der Krankheit ist gut.",
+      "english": "The course of the illness is good.",
+      "highlight": [
+        "Verlauf"
+      ]
+    },
+    {
+      "german": "Lösche den Browserverlauf.",
+      "english": "Delete the browser history.",
+      "highlight": [
+        "Browserverlauf."
+      ]
+    }
+  ],
+  "forms": [
+    "verlaufen"
+  ],
+  "memoryHook": "Verlaufen → der Verlauf (course; history).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Verlauf",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Verlauf is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Verlauf, zwei ___",
+      "answer": "Verläufe",
+      "fullAnswer": "ein Verlauf, zwei Verläufe",
+      "explanation": "The plural is Verläufe.",
+      "acceptedAnswers": [
+        "Verlaeufe"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Verlauf mean?",
+      "options": [
+        "the bill",
+        "course",
+        "to buy"
+      ],
+      "answer": "course",
+      "explanation": "Verlauf: course, progress; history.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "verlaufen (run, proceed)",
+        "laufen only"
+      ],
+      "answer": "verlaufen (run, proceed)",
+      "explanation": "Proceed.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Im Verlauf' + genitive means…",
+      "options": [
+        "in the course of",
+        "on the run"
+      ],
+      "answer": "in the course of",
+      "explanation": "During.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "On a computer, 'Verlauf' is…",
+      "options": [
+        "history",
+        "download"
+      ],
+      "answer": "history",
+      "explanation": "Browser.",
+      "id": "q6"
+    }
+  ]
+}

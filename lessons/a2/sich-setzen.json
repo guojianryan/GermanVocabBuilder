@@ -1,0 +1,166 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "(sich) setzen",
+    "partOfSpeech": "verb, often reflexive",
+    "pronunciation": {
+      "respelling": "ZET-sen",
+      "ipa": "ˈzɛtsn̩",
+      "notes": ""
+    },
+    "meaning": "to sit down; to put",
+    "shortDefinition": "To sit down; to put."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "setz|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "setz|t"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "setz|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "setz|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "setz|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "setz|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gesetzt"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "sitzen",
+      "english": "to be sitting",
+      "type": "verb"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Setzen Sie sich bitte!",
+      "english": "Please sit down!",
+      "highlight": [
+        "Setzen",
+        "sich"
+      ]
+    },
+    {
+      "german": "Ich setze mich ans Fenster.",
+      "english": "I'm sitting down by the window.",
+      "highlight": [
+        "setze",
+        "mich"
+      ]
+    },
+    {
+      "german": "Sie setzt das Kind auf den Stuhl.",
+      "english": "She puts the child on the chair.",
+      "highlight": [
+        "setzt"
+      ]
+    }
+  ],
+  "forms": [
+    "setze",
+    "setzt",
+    "setzen",
+    "gesetzt"
+  ],
+  "memoryHook": "Sich setzen (sit down, movement) vs sitzen (be sitting).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ ((sich) setzen)",
+      "answer": "setzt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: setzt.",
+      "acceptedAnswers": [
+        "setzt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe mich schon ___. ((sich) setzen, past)",
+      "answer": "gesetzt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe mich gesetzt.",
+      "acceptedAnswers": [
+        "gesetzt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does (sich) setzen mean?",
+      "options": [
+        "to sit down",
+        "the shop",
+        "the street"
+      ],
+      "answer": "to sit down",
+      "explanation": "(sich) setzen: to sit down; to put.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Sitzen or sich setzen? 'Sit DOWN':",
+      "options": [
+        "sich setzen",
+        "sitzen"
+      ],
+      "answer": "sich setzen",
+      "explanation": "Movement.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Ich setze mich auf ___ Sofa.'",
+      "options": [
+        "das",
+        "dem"
+      ],
+      "answer": "das",
+      "explanation": "Where to? Accusative.",
+      "id": "q5"
+    }
+  ]
+}

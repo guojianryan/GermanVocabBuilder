@@ -1,0 +1,148 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Außenminister",
+    "partOfSpeech": "noun, masculine (der Außenminister)",
+    "pronunciation": {
+      "respelling": "OW-sen-mi-nis-ter",
+      "ipa": "ˈaʊ̯sn̩miˌnɪstɐ",
+      "notes": "The plural looks the same. Plural: die Außenminister."
+    },
+    "meaning": "foreign minister",
+    "shortDefinition": "Foreign minister."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Außen",
+        "meaning": "outside"
+      },
+      {
+        "part": "minister",
+        "meaning": "minister"
+      }
+    ],
+    "literalMeaning": "outside minister"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Außenminister, plural die Außenminister.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Außenminister"
+        },
+        {
+          "label": "More than one",
+          "value": "die Außenminister"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Außenminister reist nach Paris.",
+      "english": "The foreign minister is travelling to Paris.",
+      "highlight": [
+        "Außenminister"
+      ]
+    },
+    {
+      "german": "Die Außenministerin hielt eine Rede.",
+      "english": "The foreign minister gave a speech.",
+      "highlight": [
+        "Außenministerin"
+      ]
+    },
+    {
+      "german": "Ein Treffen der Außenminister.",
+      "english": "A meeting of foreign ministers.",
+      "highlight": [
+        "Außenminister."
+      ]
+    }
+  ],
+  "forms": [
+    "Außenministerin",
+    "Innenminister"
+  ],
+  "memoryHook": "Außen + Minister = foreign minister; Auswärtiges Amt.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Außenminister",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Außenminister is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Außenminister, zwei ___",
+      "answer": "Außenminister",
+      "fullAnswer": "ein Außenminister, zwei Außenminister",
+      "explanation": "The plural is Außenminister.",
+      "acceptedAnswers": [
+        "Außenminister"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Außenminister mean?",
+      "options": [
+        "foreign minister",
+        "the job",
+        "hot"
+      ],
+      "answer": "foreign minister",
+      "explanation": "Außenminister: foreign minister.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "außen (outside) + Minister",
+        "aus + Minister"
+      ],
+      "answer": "außen (outside) + Minister",
+      "explanation": "Outside affairs.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ministry:",
+      "options": [
+        "das Auswärtige Amt",
+        "das Außenamt only"
+      ],
+      "answer": "das Auswärtige Amt",
+      "explanation": "Germany.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Interior minister:",
+      "options": [
+        "der Innenminister",
+        "der Innerminister"
+      ],
+      "answer": "der Innenminister",
+      "explanation": "Inside.",
+      "id": "q6"
+    }
+  ]
+}

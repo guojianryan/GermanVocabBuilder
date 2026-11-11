@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Ecke",
+    "partOfSpeech": "noun, feminine (die Ecke)",
+    "pronunciation": {
+      "respelling": "EK-uh",
+      "ipa": "ˈɛkə",
+      "notes": "Plural: die Ecken."
+    },
+    "meaning": "corner",
+    "shortDefinition": "Corner."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Ecke, plural die Ecken.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Ecke"
+        },
+        {
+          "label": "More than one",
+          "value": "die Ecken"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Bäckerei ist an der Ecke.",
+      "english": "The bakery is on the corner.",
+      "highlight": [
+        "Ecke."
+      ]
+    },
+    {
+      "german": "Gleich um die Ecke ist ein Supermarkt.",
+      "english": "There's a supermarket just round the corner.",
+      "highlight": [
+        "Ecke"
+      ]
+    },
+    {
+      "german": "Der Fernseher steht in der Ecke.",
+      "english": "The TV is in the corner.",
+      "highlight": [
+        "Ecke."
+      ]
+    }
+  ],
+  "forms": [
+    "Ecken",
+    "die Ecken",
+    "die Ecke"
+  ],
+  "memoryHook": "An der Ecke (street corner), in der Ecke (corner of a room), um die Ecke (round the corner).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Ecke",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Ecke is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Ecke, zwei ___",
+      "answer": "Ecken",
+      "fullAnswer": "ein Ecke, zwei Ecken",
+      "explanation": "The plural is Ecken.",
+      "acceptedAnswers": [
+        "Ecken"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Ecke mean?",
+      "options": [
+        "corner",
+        "the door",
+        "the child"
+      ],
+      "answer": "corner",
+      "explanation": "Ecke: corner.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "On the street corner: ___ der Ecke.",
+      "options": [
+        "an",
+        "in"
+      ],
+      "answer": "an",
+      "explanation": "Outside corner: an der Ecke. Room corner: in der Ecke.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Um die Ecke' means…",
+      "options": [
+        "round the corner, very close",
+        "in the corner"
+      ],
+      "answer": "round the corner, very close",
+      "explanation": "Gleich um die Ecke.",
+      "id": "q5"
+    }
+  ]
+}

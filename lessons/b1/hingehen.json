@@ -1,0 +1,176 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "hingehen",
+    "partOfSpeech": "separable verb",
+    "pronunciation": {
+      "respelling": "HIN-gay-en",
+      "ipa": "ˈhɪnˌɡeːən",
+      "notes": ""
+    },
+    "meaning": "to go (there)",
+    "shortDefinition": "To go (there)."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "hin",
+        "meaning": "there (away)"
+      },
+      {
+        "part": "gehen",
+        "meaning": "to go",
+        "emphasis": "release"
+      }
+    ],
+    "literalMeaning": "to go there",
+    "summary": "Heading off away from here."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "geh|e … |hin"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "geh|st … |hin"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "geh|t … |hin"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "geh|en … |hin"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "geh|t … |hin"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "geh|en … |hin"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): ist hingegangen"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wo gehst du hin?",
+      "english": "Where are you going?",
+      "highlight": [
+        "gehst",
+        "hin?"
+      ]
+    },
+    {
+      "german": "Gehst du zur Party? – Ja, ich gehe hin.",
+      "english": "Are you going to the party? – Yes, I'm going.",
+      "highlight": [
+        "gehe",
+        "hin."
+      ]
+    },
+    {
+      "german": "Wir sind gestern hingegangen.",
+      "english": "We went there yesterday.",
+      "highlight": [
+        "hingegangen."
+      ]
+    }
+  ],
+  "forms": [
+    "gehe hin",
+    "gehst hin",
+    "geht hin",
+    "gehen hin",
+    "hingegangen"
+  ],
+  "memoryHook": "Hingehen (there). Wo gehst du hin? = wohin.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ … hin (hingehen)",
+      "answer": "geht",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: geht … hin.",
+      "acceptedAnswers": [
+        "geht"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich bin schon ___. (hingehen, past)",
+      "answer": "hingegangen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: bin hingegangen.",
+      "acceptedAnswers": [
+        "hingegangen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does hingehen mean?",
+      "options": [
+        "to go (there)",
+        "the bill",
+        "to sing"
+      ],
+      "answer": "to go (there)",
+      "explanation": "hingehen: to go (there).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Wo gehst du hin?' = …",
+      "options": [
+        "Wohin gehst du?",
+        "Woher kommst du?"
+      ],
+      "answer": "Wohin gehst du?",
+      "explanation": "Split wohin.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "ist hingegangen",
+        "hat hingegangen"
+      ],
+      "answer": "ist hingegangen",
+      "explanation": "Movement.",
+      "id": "q5"
+    }
+  ]
+}

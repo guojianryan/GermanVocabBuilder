@@ -1,0 +1,143 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Wettervorhersage",
+    "partOfSpeech": "noun, feminine (die Wettervorhersage)",
+    "pronunciation": {
+      "respelling": "VET-er-for-hair-zaa-ge",
+      "ipa": "ˈvɛtɐfoːɐ̯ˌheːɐ̯zaːɡə",
+      "notes": "Plural: die Wettervorhersagen."
+    },
+    "meaning": "weather forecast",
+    "shortDefinition": "Weather forecast."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Wetter",
+        "meaning": "weather"
+      },
+      {
+        "part": "vorher",
+        "meaning": "beforehand"
+      },
+      {
+        "part": "sage",
+        "meaning": "saying"
+      }
+    ],
+    "literalMeaning": "weather saying-beforehand",
+    "summary": "Telling the weather before it happens."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Wettervorhersage, plural die Wettervorhersagen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Wettervorhersage"
+        },
+        {
+          "label": "More than one",
+          "value": "die Wettervorhersagen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Wettervorhersage für morgen ist gut.",
+      "english": "The forecast for tomorrow is good.",
+      "highlight": [
+        "Wettervorhersage"
+      ]
+    },
+    {
+      "german": "Ich schaue mir die Wettervorhersage an.",
+      "english": "I'm checking the forecast.",
+      "highlight": [
+        "Wettervorhersage"
+      ]
+    },
+    {
+      "german": "Die Wettervorhersage war falsch.",
+      "english": "The forecast was wrong.",
+      "highlight": [
+        "Wettervorhersage"
+      ]
+    }
+  ],
+  "forms": [
+    "Wettervorhersagen",
+    "die Wettervorhersagen",
+    "die Wettervorhersage"
+  ],
+  "memoryHook": "Wetter + Vorhersage (fore-saying) = forecast.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Wettervorhersage",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Wettervorhersage is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Wettervorhersage, zwei ___",
+      "answer": "Wettervorhersagen",
+      "fullAnswer": "ein Wettervorhersage, zwei Wettervorhersagen",
+      "explanation": "The plural is Wettervorhersagen.",
+      "acceptedAnswers": [
+        "Wettervorhersagen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Wettervorhersage mean?",
+      "options": [
+        "to help",
+        "to learn",
+        "weather forecast"
+      ],
+      "answer": "weather forecast",
+      "explanation": "Wettervorhersage: weather forecast.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Wetter + vorher (before) + sagen",
+        "Wetter + Vorsage"
+      ],
+      "answer": "Wetter + vorher (before) + sagen",
+      "explanation": "Saying beforehand.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gender:",
+      "options": [
+        "die (die Vorhersage)",
+        "der"
+      ],
+      "answer": "die (die Vorhersage)",
+      "explanation": "Last part.",
+      "id": "q5"
+    }
+  ]
+}

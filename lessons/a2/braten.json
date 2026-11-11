@@ -1,0 +1,172 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "braten",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "BRAA-ten",
+      "ipa": "ˈbʁaːtn̩",
+      "notes": ""
+    },
+    "meaning": "to fry, to roast",
+    "shortDefinition": "To fry, to roast."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "brat|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "br|ä|tst"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "br|ä|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "brat|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "brat|et"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "brat|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gebraten",
+        "a → ä for du and er."
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "der Braten",
+      "english": "roast",
+      "type": "noun"
+    },
+    {
+      "german": "die Bratwurst",
+      "english": "fried sausage",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich brate das Fleisch in der Pfanne.",
+      "english": "I'm frying the meat in the pan.",
+      "highlight": [
+        "brate"
+      ]
+    },
+    {
+      "german": "Er brät jeden Morgen Eier.",
+      "english": "He fries eggs every morning.",
+      "highlight": [
+        "brät"
+      ]
+    },
+    {
+      "german": "Bratkartoffeln sind gebratene Kartoffeln.",
+      "english": "Bratkartoffeln are fried potatoes.",
+      "highlight": [
+        "gebratene"
+      ]
+    }
+  ],
+  "forms": [
+    "brate",
+    "brätst",
+    "brät",
+    "braten",
+    "bratet",
+    "gebraten"
+  ],
+  "memoryHook": "Braten → Bratwurst, Bratkartoffeln, der Braten (roast).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (braten)",
+      "answer": "brät",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: brät.",
+      "acceptedAnswers": [
+        "braet"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (braten, past)",
+      "answer": "gebraten",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gebraten.",
+      "acceptedAnswers": [
+        "gebraten"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does braten mean?",
+      "options": [
+        "to fry",
+        "tomorrow",
+        "never"
+      ],
+      "answer": "to fry",
+      "explanation": "braten: to fry, to roast.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Er ___ Fisch.",
+      "options": [
+        "brät",
+        "bratet"
+      ],
+      "answer": "brät",
+      "explanation": "a → ä, no extra -et.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "A Bratwurst is…",
+      "options": [
+        "a sausage for frying/grilling",
+        "a boiled sausage"
+      ],
+      "answer": "a sausage for frying/grilling",
+      "explanation": "Braten + Wurst.",
+      "id": "q5"
+    }
+  ]
+}

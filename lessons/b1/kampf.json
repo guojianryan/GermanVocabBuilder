@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Kampf",
+    "partOfSpeech": "noun, masculine (der Kampf)",
+    "pronunciation": {
+      "respelling": "KAMPF",
+      "ipa": "kampf",
+      "notes": "Plural: die Kämpfe."
+    },
+    "meaning": "fight, struggle",
+    "shortDefinition": "Fight, struggle."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Kampf, plural die Kämpfe.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Kampf"
+        },
+        {
+          "label": "More than one",
+          "value": "die Kämpfe"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Kampf gegen den Krebs ist schwer.",
+      "english": "The fight against cancer is hard.",
+      "highlight": [
+        "Kampf"
+      ]
+    },
+    {
+      "german": "Es war ein harter Kampf.",
+      "english": "It was a tough fight.",
+      "highlight": [
+        "Kampf."
+      ]
+    },
+    {
+      "german": "Der Kampf um den Titel beginnt.",
+      "english": "The fight for the title begins.",
+      "highlight": [
+        "Kampf"
+      ]
+    }
+  ],
+  "forms": [
+    "Kämpfe",
+    "die Kämpfe",
+    "der Kampf"
+  ],
+  "memoryHook": "Der Kampf → kämpfen.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Kampf",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Kampf is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Kampf, zwei ___",
+      "answer": "Kämpfe",
+      "fullAnswer": "ein Kampf, zwei Kämpfe",
+      "explanation": "The plural is Kämpfe.",
+      "acceptedAnswers": [
+        "Kaempfe"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Kampf mean?",
+      "options": [
+        "fight",
+        "the child",
+        "to open"
+      ],
+      "answer": "fight",
+      "explanation": "Kampf: fight, struggle.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Kämpfe",
+        "Kampfe"
+      ],
+      "answer": "Kämpfe",
+      "explanation": "a → ä.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Verb:",
+      "options": [
+        "kämpfen",
+        "kampfen"
+      ],
+      "answer": "kämpfen",
+      "explanation": "Fight.",
+      "id": "q5"
+    }
+  ]
+}

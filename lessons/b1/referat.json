@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Referat",
+    "partOfSpeech": "noun, neuter (das Referat)",
+    "pronunciation": {
+      "respelling": "re-fe-RAAT",
+      "ipa": "ʁefeˈʁaːt",
+      "notes": "Plural: die Referate."
+    },
+    "meaning": "presentation (at school/uni)",
+    "shortDefinition": "Presentation (at school/uni)."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Referat, plural die Referate.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Referat"
+        },
+        {
+          "label": "More than one",
+          "value": "die Referate"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich halte morgen ein Referat.",
+      "english": "I'm giving a presentation tomorrow.",
+      "highlight": [
+        "Referat."
+      ]
+    },
+    {
+      "german": "Das Referat ist über Goethe.",
+      "english": "The presentation is about Goethe.",
+      "highlight": [
+        "Referat"
+      ]
+    },
+    {
+      "german": "Sie hat ein gutes Referat gehalten.",
+      "english": "She gave a good presentation.",
+      "highlight": [
+        "Referat"
+      ]
+    }
+  ],
+  "forms": [
+    "Referate",
+    "die Referate",
+    "das Referat"
+  ],
+  "memoryHook": "Das Referat (school/uni presentation). Ein Referat halten.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Referat",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Referat is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Referat, zwei ___",
+      "answer": "Referate",
+      "fullAnswer": "ein Referat, zwei Referate",
+      "explanation": "The plural is Referate.",
+      "acceptedAnswers": [
+        "Referate"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Referat mean?",
+      "options": [
+        "the job",
+        "the station",
+        "presentation (at school/uni)"
+      ],
+      "answer": "presentation (at school/uni)",
+      "explanation": "Referat: presentation (at school/uni).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Give a presentation':",
+      "options": [
+        "ein Referat halten",
+        "ein Referat machen only"
+      ],
+      "answer": "ein Referat halten",
+      "explanation": "Halten.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Used mostly at…",
+      "options": [
+        "school, university",
+        "work"
+      ],
+      "answer": "school, university",
+      "explanation": "Academic.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+ "schemaVersion": "1.4",
+ "language": "de",
+ "explanationLanguage": "en",
+ "level": "A2",
+ "levelSource": "Goethe-Zertifikat A2 Wortliste",
+ "lessonType": "card",
+ "word": {
+  "headword": "Gehalt",
+  "partOfSpeech": "noun, neuter (das Gehalt)",
+  "pronunciation": {
+   "respelling": "ge-HALT",
+   "ipa": "ɡəˈhalt",
+   "notes": "Plural: die Gehälter."
+  },
+  "meaning": "salary",
+  "shortDefinition": "Salary."
+ },
+ "wordFamily": [
+  {
+   "german": "der Lohn",
+   "english": "wage",
+   "type": "noun"
+  }
+ ],
+ "commonMistakes": [
+  {
+   "title": "Gender and plural",
+   "explanation": "Das Gehalt, plural die Gehälter.",
+   "forms": [
+    {
+     "label": "One",
+     "value": "das Gehalt"
+    },
+    {
+     "label": "More than one",
+     "value": "die Gehälter"
+    }
+   ]
+  }
+ ],
+ "sampleSentences": [
+  {
+   "german": "Das Gehalt kommt am Monatsende.",
+   "english": "The salary comes at the end of the month.",
+   "highlight": [
+    "Gehalt"
+   ]
+  },
+  {
+   "german": "Er hat ein gutes Gehalt.",
+   "english": "He has a good salary.",
+   "highlight": [
+    "Gehalt."
+   ]
+  },
+  {
+   "german": "Wie hoch ist das Gehalt?",
+   "english": "How high is the salary?",
+   "highlight": [
+    "Gehalt?"
+   ]
+  }
+ ],
+ "forms": [
+  "Gehälter",
+  "die Gehälter",
+  "das Gehalt"
+ ],
+ "memoryHook": "Das Gehalt = monthly salary. Der Lohn = wages.",
+ "signOff": "Gut gemacht!",
+ "quiz": [
+  {
+   "type": "choice",
+   "prompt": "___ Gehalt",
+   "options": [
+    "der",
+    "die",
+    "das"
+   ],
+   "answer": "das",
+   "explanation": "Gehalt is neuter.",
+   "id": "q1"
+  },
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "ein Gehalt, zwei ___",
+   "answer": "Gehälter",
+   "fullAnswer": "ein Gehalt, zwei Gehälter",
+   "explanation": "The plural is Gehälter.",
+   "acceptedAnswers": [
+    "Gehaelter"
+   ],
+   "id": "q2"
+  },
+  {
+   "type": "choice",
+   "prompt": "What does Gehalt mean?",
+   "options": [
+    "salary",
+    "the bill",
+    "the weather"
+   ],
+   "answer": "salary",
+   "explanation": "Gehalt: salary.",
+   "id": "q3"
+  },
+  {
+   "type": "choice",
+   "prompt": "Gender:",
+   "options": [
+    "das (salary)",
+    "der"
+   ],
+   "answer": "das (salary)",
+   "explanation": "Der Gehalt = content (e.g. Fettgehalt).",
+   "id": "q4"
+  },
+  {
+   "type": "choice",
+   "prompt": "Hourly pay is usually…",
+   "options": [
+    "der Lohn",
+    "das Gehalt"
+   ],
+   "answer": "der Lohn",
+   "explanation": "Gehalt = monthly salary.",
+   "id": "q5"
+  }
+ ],
+ "etymology": {
+  "title": "Where it comes from",
+  "parts": [
+   {
+    "part": "Ge",
+    "meaning": "prefix"
+   },
+   {
+    "part": "halt",
+    "meaning": "hold, keep"
+   }
+  ],
+  "literalMeaning": "what keeps you"
+ }
+}

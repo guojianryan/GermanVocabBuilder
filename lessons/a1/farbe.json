@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Farbe",
+    "partOfSpeech": "noun, feminine (die Farbe)",
+    "pronunciation": {
+      "respelling": "FAR-buh",
+      "ipa": "ˈfaʁbə",
+      "notes": "Plural: die Farben."
+    },
+    "meaning": "colour; paint",
+    "shortDefinition": "Colour; paint."
+  },
+  "wordFamily": [
+    {
+      "german": "bunt",
+      "english": "colourful",
+      "type": "adjective"
+    },
+    {
+      "german": "die Lieblingsfarbe",
+      "english": "favourite colour",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Farbe, plural die Farben.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Farbe"
+        },
+        {
+          "label": "More than one",
+          "value": "die Farben"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Welche Farbe hat dein Auto?",
+      "english": "What colour is your car?",
+      "highlight": [
+        "Farbe"
+      ]
+    },
+    {
+      "german": "Meine Lieblingsfarbe ist Blau.",
+      "english": "My favourite colour is blue.",
+      "highlight": [
+        "Lieblingsfarbe"
+      ]
+    },
+    {
+      "german": "Haben Sie das auch in einer anderen Farbe?",
+      "english": "Do you have it in another colour too?",
+      "highlight": [
+        "Farbe?"
+      ]
+    }
+  ],
+  "forms": [
+    "Farben",
+    "die Farben",
+    "die Farbe"
+  ],
+  "memoryHook": "Welche Farbe hat …? = What colour is …? The colours themselves: rot, blau, grün, gelb, schwarz, weiß.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Farbe",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Farbe is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Farbe, zwei ___",
+      "answer": "Farben",
+      "fullAnswer": "ein Farbe, zwei Farben",
+      "explanation": "The plural is Farben.",
+      "acceptedAnswers": [
+        "Farben"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Farbe mean?",
+      "options": [
+        "the bill",
+        "colour",
+        "the weather"
+      ],
+      "answer": "colour",
+      "explanation": "Farbe: colour; paint.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Welche Farbe hat das Auto?' The answer could be…",
+      "options": [
+        "Es ist rot.",
+        "Es ist groß."
+      ],
+      "answer": "Es ist rot.",
+      "explanation": "Colours: rot, blau, grün…",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Colour names as nouns are…",
+      "options": [
+        "neuter and capitalised: das Blau",
+        "lowercase"
+      ],
+      "answer": "neuter and capitalised: das Blau",
+      "explanation": "Das Rot, das Blau.",
+      "id": "q5"
+    }
+  ]
+}

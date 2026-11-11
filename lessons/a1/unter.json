@@ -1,0 +1,113 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "unter",
+    "partOfSpeech": "preposition (dative or accusative)",
+    "pronunciation": {
+      "respelling": "OON-ter",
+      "ipa": "ˈʊntɐ",
+      "notes": ""
+    },
+    "meaning": "under, below; among",
+    "shortDefinition": "Under, below; among."
+  },
+  "wordFamily": [
+    {
+      "german": "über",
+      "english": "over",
+      "type": "preposition"
+    },
+    {
+      "german": "unten",
+      "english": "below",
+      "type": "adverb"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Katze schläft unter dem Tisch.",
+      "english": "The cat is sleeping under the table.",
+      "highlight": [
+        "unter"
+      ]
+    },
+    {
+      "german": "Leg die Schuhe unter das Bett.",
+      "english": "Put the shoes under the bed.",
+      "highlight": [
+        "unter",
+        "das"
+      ]
+    },
+    {
+      "german": "Kinder unter 6 Jahren zahlen nichts.",
+      "english": "Children under 6 pay nothing.",
+      "highlight": [
+        "unter"
+      ]
+    }
+  ],
+  "forms": [],
+  "memoryHook": "Unter = under (dative for where, accusative for where to). Opposite: über.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does unter mean?",
+      "options": [
+        "the key",
+        "under",
+        "to sleep"
+      ],
+      "answer": "under",
+      "explanation": "unter: under, below; among.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Location (where): unter ___ Tisch",
+      "options": [
+        "dem",
+        "den"
+      ],
+      "answer": "dem",
+      "explanation": "Dative.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Direction (where to): unter ___ Bett",
+      "options": [
+        "dem",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Accusative.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "The opposite of unter is…",
+      "options": [
+        "über",
+        "neben"
+      ],
+      "answer": "über",
+      "explanation": "Over.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Der Hund liegt ___ dem Sofa. (under)",
+      "answer": "unter",
+      "fullAnswer": "Der Hund liegt unter dem Sofa.",
+      "explanation": "Unter.",
+      "id": "q5"
+    }
+  ]
+}

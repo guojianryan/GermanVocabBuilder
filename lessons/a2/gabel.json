@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Gabel",
+    "partOfSpeech": "noun, feminine (die Gabel)",
+    "pronunciation": {
+      "respelling": "GAA-bel",
+      "ipa": "ˈɡaːbl̩",
+      "notes": "Plural: die Gabeln."
+    },
+    "meaning": "fork",
+    "shortDefinition": "Fork."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Gabel, plural die Gabeln.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Gabel"
+        },
+        {
+          "label": "More than one",
+          "value": "die Gabeln"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Kann ich bitte eine Gabel haben?",
+      "english": "Could I have a fork, please?",
+      "highlight": [
+        "Gabel"
+      ]
+    },
+    {
+      "german": "Messer und Gabel liegen auf dem Tisch.",
+      "english": "The knife and fork are on the table.",
+      "highlight": [
+        "Gabel"
+      ]
+    },
+    {
+      "german": "Er isst mit Messer und Gabel.",
+      "english": "He eats with a knife and fork.",
+      "highlight": [
+        "Gabel."
+      ]
+    }
+  ],
+  "forms": [
+    "Gabeln",
+    "die Gabeln",
+    "die Gabel"
+  ],
+  "memoryHook": "Die Gabel, das Messer, der Löffel: three genders on one table!",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Gabel",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Gabel is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Gabel, zwei ___",
+      "answer": "Gabeln",
+      "fullAnswer": "ein Gabel, zwei Gabeln",
+      "explanation": "The plural is Gabeln.",
+      "acceptedAnswers": [
+        "Gabeln"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Gabel mean?",
+      "options": [
+        "the window",
+        "the bed",
+        "fork"
+      ],
+      "answer": "fork",
+      "explanation": "Gabel: fork.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Knife and fork' (word order):",
+      "options": [
+        "Messer und Gabel",
+        "Gabel und Messer"
+      ],
+      "answer": "Messer und Gabel",
+      "explanation": "Knife first, like English.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Spoon is…",
+      "options": [
+        "der Löffel",
+        "die Gabel"
+      ],
+      "answer": "der Löffel",
+      "explanation": "Löffel.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+ "schemaVersion": "1.4",
+ "language": "de",
+ "explanationLanguage": "en",
+ "level": "B1",
+ "levelSource": "Goethe-Zertifikat B1 Wortliste",
+ "lessonType": "card",
+ "word": {
+  "headword": "Betrag",
+  "partOfSpeech": "noun, masculine (der Betrag)",
+  "pronunciation": {
+   "respelling": "be-TRAAK",
+   "ipa": "bəˈtʁaːk",
+   "notes": "Plural: die Beträge."
+  },
+  "meaning": "amount, sum",
+  "shortDefinition": "Amount, sum."
+ },
+ "wordFamily": [
+  {
+   "german": "betragen",
+   "english": "to amount to",
+   "type": "verb"
+  }
+ ],
+ "commonMistakes": [
+  {
+   "title": "Gender and plural",
+   "explanation": "Der Betrag, plural die Beträge.",
+   "forms": [
+    {
+     "label": "One",
+     "value": "der Betrag"
+    },
+    {
+     "label": "More than one",
+     "value": "die Beträge"
+    }
+   ]
+  }
+ ],
+ "sampleSentences": [
+  {
+   "german": "Bitte überweisen Sie den Betrag bis Freitag.",
+   "english": "Please transfer the amount by Friday.",
+   "highlight": [
+    "Betrag"
+   ]
+  },
+  {
+   "german": "Der Betrag ist zu hoch.",
+   "english": "The amount is too high.",
+   "highlight": [
+    "Betrag"
+   ]
+  },
+  {
+   "german": "Den Betrag erhalten.",
+   "english": "Amount received.",
+   "highlight": [
+    "Betrag"
+   ]
+  }
+ ],
+ "forms": [
+  "Beträge",
+  "die Beträge",
+  "der Betrag"
+ ],
+ "memoryHook": "Der Betrag = amount (betragen = to amount to).",
+ "signOff": "Gut gemacht!",
+ "quiz": [
+  {
+   "type": "choice",
+   "prompt": "___ Betrag",
+   "options": [
+    "der",
+    "die",
+    "das"
+   ],
+   "answer": "der",
+   "explanation": "Betrag is masculine.",
+   "id": "q1"
+  },
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "ein Betrag, zwei ___",
+   "answer": "Beträge",
+   "fullAnswer": "ein Betrag, zwei Beträge",
+   "explanation": "The plural is Beträge.",
+   "acceptedAnswers": [
+    "Betraege"
+   ],
+   "id": "q2"
+  },
+  {
+   "type": "choice",
+   "prompt": "What does Betrag mean?",
+   "options": [
+    "the key",
+    "to sing",
+    "amount"
+   ],
+   "answer": "amount",
+   "explanation": "Betrag: amount, sum.",
+   "id": "q3"
+  },
+  {
+   "type": "choice",
+   "prompt": "Betrag means…",
+   "options": [
+    "sum of money",
+    "contribution"
+   ],
+   "answer": "sum of money",
+   "explanation": "Amount.",
+   "id": "q4"
+  },
+  {
+   "type": "choice",
+   "prompt": "Beitrag vs Betrag:",
+   "options": [
+    "Beitrag = contribution; Betrag = amount",
+    "same"
+   ],
+   "answer": "Beitrag = contribution; Betrag = amount",
+   "explanation": "Different.",
+   "id": "q5"
+  }
+ ],
+ "etymology": {
+  "title": "Where it comes from",
+  "parts": [
+   {
+    "part": "Be",
+    "meaning": "prefix (acts on something)"
+   },
+   {
+    "part": "trag",
+    "meaning": "carrying"
+   }
+  ],
+  "literalMeaning": "the amount carried"
+ }
+}

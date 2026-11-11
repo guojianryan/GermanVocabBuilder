@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "erschweren",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "er-SHVAIR-en",
+      "ipa": "ɛɐ̯ˈʃveːʁən",
+      "notes": ""
+    },
+    "meaning": "to make difficult, hamper",
+    "shortDefinition": "To make difficult, hamper."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "er",
+        "meaning": "make"
+      },
+      {
+        "part": "schwer",
+        "meaning": "heavy, hard"
+      },
+      {
+        "part": "en",
+        "meaning": "verb ending"
+      }
+    ],
+    "literalMeaning": "to make heavy"
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "erschwer|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "erschwer|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "erschwer|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "erschwer|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "erschwer|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "erschwer|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat erschwert"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Schnee erschwert die Arbeit.",
+      "english": "The snow makes the work harder.",
+      "highlight": [
+        "erschwert"
+      ]
+    },
+    {
+      "german": "Das erschwert die Suche.",
+      "english": "That hampers the search.",
+      "highlight": [
+        "erschwert"
+      ]
+    },
+    {
+      "german": "Unter erschwerten Bedingungen.",
+      "english": "Under difficult conditions.",
+      "highlight": [
+        "erschwerten"
+      ]
+    }
+  ],
+  "forms": [
+    "erleichtern"
+  ],
+  "memoryHook": "Er + schwer = make difficult ↔ erleichtern.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (erschweren)",
+      "answer": "erschwert",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: erschwert.",
+      "acceptedAnswers": [
+        "erschwert"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (erschweren, past)",
+      "answer": "erschwert",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe erschwert.",
+      "acceptedAnswers": [
+        "erschwert"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does erschweren mean?",
+      "options": [
+        "to make difficult",
+        "the job",
+        "the bread"
+      ],
+      "answer": "to make difficult",
+      "explanation": "erschweren: to make difficult, hamper.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "schwer (heavy, difficult)",
+        "Schwert"
+      ],
+      "answer": "schwer (heavy, difficult)",
+      "explanation": "Difficult.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Opposite:",
+      "options": [
+        "erleichtern",
+        "beschweren"
+      ],
+      "answer": "erleichtern",
+      "explanation": "Make easier.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "hat erschwert",
+        "hat geerschwert"
+      ],
+      "answer": "hat erschwert",
+      "explanation": "No ge-.",
+      "id": "q6"
+    }
+  ]
+}

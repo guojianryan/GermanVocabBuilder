@@ -1,0 +1,139 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Grundstück",
+    "partOfSpeech": "noun, neuter (das Grundstück)",
+    "pronunciation": {
+      "respelling": "GROONT-shtük",
+      "ipa": "ˈɡʁʊntʃtʏk",
+      "notes": "Plural: die Grundstücke."
+    },
+    "meaning": "plot of land, property",
+    "shortDefinition": "Plot of land, property."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Grund",
+        "meaning": "ground"
+      },
+      {
+        "part": "stück",
+        "meaning": "piece"
+      }
+    ],
+    "literalMeaning": "piece of ground",
+    "summary": "A plot of land."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Grundstück, plural die Grundstücke.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Grundstück"
+        },
+        {
+          "label": "More than one",
+          "value": "die Grundstücke"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir haben ein Grundstück gekauft.",
+      "english": "We've bought a plot of land.",
+      "highlight": [
+        "Grundstück"
+      ]
+    },
+    {
+      "german": "Das Grundstück ist 500 Quadratmeter groß.",
+      "english": "The plot is 500 square metres.",
+      "highlight": [
+        "Grundstück"
+      ]
+    },
+    {
+      "german": "Betreten des Grundstücks verboten.",
+      "english": "No trespassing.",
+      "highlight": [
+        "Grundstücks"
+      ]
+    }
+  ],
+  "forms": [
+    "Grundstücke",
+    "die Grundstücke",
+    "das Grundstück"
+  ],
+  "memoryHook": "Grund + Stück = a piece of land.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Grundstück",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Grundstück is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Grundstück, zwei ___",
+      "answer": "Grundstücke",
+      "fullAnswer": "ein Grundstück, zwei Grundstücke",
+      "explanation": "The plural is Grundstücke.",
+      "acceptedAnswers": [
+        "Grundstuecke"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Grundstück mean?",
+      "options": [
+        "the bed",
+        "plot of land",
+        "the weather"
+      ],
+      "answer": "plot of land",
+      "explanation": "Grundstück: plot of land, property.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Grund (ground) + Stück (piece)",
+        "Grund + Stuck"
+      ],
+      "answer": "Grund (ground) + Stück (piece)",
+      "explanation": "Piece of ground.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gender:",
+      "options": [
+        "das (das Stück)",
+        "der"
+      ],
+      "answer": "das (das Stück)",
+      "explanation": "Last word.",
+      "id": "q5"
+    }
+  ]
+}

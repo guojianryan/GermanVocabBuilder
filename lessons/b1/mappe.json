@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Mappe",
+    "partOfSpeech": "noun, feminine (die Mappe)",
+    "pronunciation": {
+      "respelling": "MAP-e",
+      "ipa": "ˈmapə",
+      "notes": "Plural: die Mappen."
+    },
+    "meaning": "folder; briefcase",
+    "shortDefinition": "Folder; briefcase."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Mappe, plural die Mappen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Mappe"
+        },
+        {
+          "label": "More than one",
+          "value": "die Mappen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Papiere sind in der Mappe.",
+      "english": "The papers are in the folder.",
+      "highlight": [
+        "Mappe."
+      ]
+    },
+    {
+      "german": "Er trägt eine schwarze Mappe.",
+      "english": "He carries a black briefcase.",
+      "highlight": [
+        "Mappe."
+      ]
+    },
+    {
+      "german": "Ich lege eine Bewerbungsmappe an.",
+      "english": "I'm putting together an application folder.",
+      "highlight": [
+        "Bewerbungsmappe"
+      ]
+    }
+  ],
+  "forms": [
+    "Mappen",
+    "die Mappen",
+    "die Mappe"
+  ],
+  "memoryHook": "Die Mappe = folder (false friend: a map = die Karte).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Mappe",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Mappe is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Mappe, zwei ___",
+      "answer": "Mappen",
+      "fullAnswer": "ein Mappe, zwei Mappen",
+      "explanation": "The plural is Mappen.",
+      "acceptedAnswers": [
+        "Mappen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Mappe mean?",
+      "options": [
+        "the window",
+        "the key",
+        "folder"
+      ],
+      "answer": "folder",
+      "explanation": "Mappe: folder; briefcase.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Not a map! A map is…",
+      "options": [
+        "die Karte / Landkarte",
+        "die Mappe"
+      ],
+      "answer": "die Karte / Landkarte",
+      "explanation": "False friend.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Mappen",
+        "Mappes"
+      ],
+      "answer": "Mappen",
+      "explanation": "-n.",
+      "id": "q5"
+    }
+  ]
+}

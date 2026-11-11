@@ -1,0 +1,125 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Kunde",
+    "partOfSpeech": "noun, masculine (der Kunde)",
+    "pronunciation": {
+      "respelling": "KOON-duh",
+      "ipa": "ˈkʊndə",
+      "notes": "It adds -n except in der Kunde. Plural: die Kunden."
+    },
+    "meaning": "customer, client",
+    "shortDefinition": "Customer, client."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Kunde, plural die Kunden.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Kunde"
+        },
+        {
+          "label": "More than one",
+          "value": "die Kunden"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Kunde ist König.",
+      "english": "The customer is king.",
+      "highlight": [
+        "Kunde"
+      ]
+    },
+    {
+      "german": "Wir haben heute viele Kunden.",
+      "english": "We have lots of customers today.",
+      "highlight": [
+        "Kunden."
+      ]
+    },
+    {
+      "german": "Die Kundin möchte bezahlen.",
+      "english": "The (female) customer would like to pay.",
+      "highlight": [
+        "Kundin"
+      ]
+    }
+  ],
+  "forms": [
+    "Kunden",
+    "Kundin",
+    "Kundinnen",
+    "der Kunde"
+  ],
+  "memoryHook": "Der Kunde adds -n in other cases: dem Kunden. Female: die Kundin.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Kunde",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Kunde is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Kunde, zwei ___",
+      "answer": "Kunden",
+      "fullAnswer": "ein Kunde, zwei Kunden",
+      "explanation": "The plural is Kunden.",
+      "acceptedAnswers": [
+        "Kunden"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Kunde mean?",
+      "options": [
+        "the bill",
+        "customer",
+        "to travel"
+      ],
+      "answer": "customer",
+      "explanation": "Kunde: customer, client.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "A female customer is…",
+      "options": [
+        "die Kundin",
+        "die Kunde"
+      ],
+      "answer": "die Kundin",
+      "explanation": "Add -in.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich helfe dem ___. (customer)",
+      "options": [
+        "Kunde",
+        "Kunden"
+      ],
+      "answer": "Kunden",
+      "explanation": "Adds -n except as subject.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Studiengang",
+    "partOfSpeech": "noun, masculine (der Studiengang)",
+    "pronunciation": {
+      "respelling": "SHTOO-dyen-gang",
+      "ipa": "ˈʃtuːdi̯ənˌɡaŋ",
+      "notes": "Plural: die Studiengänge."
+    },
+    "meaning": "degree course",
+    "shortDefinition": "Degree course."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Studien",
+        "meaning": "studies"
+      },
+      {
+        "part": "gang",
+        "meaning": "course, path"
+      }
+    ],
+    "literalMeaning": "course of studies"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Studiengang, plural die Studiengänge.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Studiengang"
+        },
+        {
+          "label": "More than one",
+          "value": "die Studiengänge"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Welchen Studiengang studierst du?",
+      "english": "Which degree course are you on?",
+      "highlight": [
+        "Studiengang"
+      ]
+    },
+    {
+      "german": "Der Studiengang dauert sechs Semester.",
+      "english": "The course lasts six semesters.",
+      "highlight": [
+        "Studiengang"
+      ]
+    },
+    {
+      "german": "Es gibt einen neuen Studiengang Informatik.",
+      "english": "There's a new computer science course.",
+      "highlight": [
+        "Studiengang"
+      ]
+    }
+  ],
+  "forms": [
+    "Studiengänge",
+    "die Studiengänge",
+    "der Studiengang"
+  ],
+  "memoryHook": "Studien + Gang = degree course.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Studiengang",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Studiengang is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Studiengang, zwei ___",
+      "answer": "Studiengänge",
+      "fullAnswer": "ein Studiengang, zwei Studiengänge",
+      "explanation": "The plural is Studiengänge.",
+      "acceptedAnswers": [
+        "Studiengaenge"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Studiengang mean?",
+      "options": [
+        "degree course",
+        "to sleep",
+        "to travel"
+      ],
+      "answer": "degree course",
+      "explanation": "Studiengang: degree course.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Studien (studies) + Gang (course)",
+        "Studio + Gang"
+      ],
+      "answer": "Studien (studies) + Gang (course)",
+      "explanation": "Course of study.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Studiengänge",
+        "Studiengange"
+      ],
+      "answer": "Studiengänge",
+      "explanation": "a → ä.",
+      "id": "q5"
+    }
+  ]
+}

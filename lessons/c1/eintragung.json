@@ -1,0 +1,141 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Eintragung",
+    "partOfSpeech": "noun, feminine (die Eintragung)",
+    "pronunciation": {
+      "respelling": "INE-traa-gung",
+      "ipa": "ˈaɪ̯ntʁaːɡʊŋ",
+      "notes": "Plural: die Eintragungen."
+    },
+    "meaning": "entry, registration",
+    "shortDefinition": "Entry, registration."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Ein",
+        "meaning": "in"
+      },
+      {
+        "part": "trag",
+        "meaning": "carry (tragen)"
+      },
+      {
+        "part": "ung",
+        "meaning": "noun ending"
+      }
+    ],
+    "literalMeaning": "a carrying-in (writing in)"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Eintragung, plural die Eintragungen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Eintragung"
+        },
+        {
+          "label": "More than one",
+          "value": "die Eintragungen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Eintragung ins Handelsregister.",
+      "english": "Entry in the commercial register.",
+      "highlight": [
+        "Eintragung"
+      ]
+    },
+    {
+      "german": "Eine Eintragung im Kalender.",
+      "english": "An entry in the diary.",
+      "highlight": [
+        "Eintragung"
+      ]
+    },
+    {
+      "german": "Die Eintragung ist kostenlos.",
+      "english": "Registration is free.",
+      "highlight": [
+        "Eintragung"
+      ]
+    }
+  ],
+  "forms": [
+    "eintragen",
+    "Eintrag"
+  ],
+  "memoryHook": "Eintragen → die Eintragung (= Eintrag).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Eintragung",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Eintragung is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Eintragung, zwei ___",
+      "answer": "Eintragungen",
+      "fullAnswer": "ein Eintragung, zwei Eintragungen",
+      "explanation": "The plural is Eintragungen.",
+      "acceptedAnswers": [
+        "Eintragungen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Eintragung mean?",
+      "options": [
+        "to help",
+        "slowly",
+        "entry"
+      ],
+      "answer": "entry",
+      "explanation": "Eintragung: entry, registration.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "eintragen (enter, register)",
+        "tragen only"
+      ],
+      "answer": "eintragen (enter, register)",
+      "explanation": "Enter.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonym:",
+      "options": [
+        "der Eintrag",
+        "der Austrag"
+      ],
+      "answer": "der Eintrag",
+      "explanation": "Entry.",
+      "id": "q5"
+    }
+  ]
+}

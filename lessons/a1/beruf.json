@@ -1,0 +1,148 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Beruf",
+    "partOfSpeech": "noun, masculine (der Beruf)",
+    "pronunciation": {
+      "respelling": "buh-ROOF",
+      "ipa": "bəˈʁuːf",
+      "notes": "Plural: die Berufe."
+    },
+    "meaning": "job, profession",
+    "shortDefinition": "Job, profession."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Be",
+        "meaning": "prefix"
+      },
+      {
+        "part": "ruf",
+        "meaning": "call",
+        "note": "Der Ruf, from rufen."
+      }
+    ],
+    "literalMeaning": "a calling"
+  },
+  "wordFamily": [
+    {
+      "german": "beruflich",
+      "english": "professional; for work",
+      "type": "adjective"
+    },
+    {
+      "german": "der Job",
+      "english": "job",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Beruf, plural die Berufe.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Beruf"
+        },
+        {
+          "label": "More than one",
+          "value": "die Berufe"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Was sind Sie von Beruf?",
+      "english": "What do you do for a living?",
+      "highlight": [
+        "Beruf?"
+      ]
+    },
+    {
+      "german": "Ich bin Krankenschwester von Beruf.",
+      "english": "I'm a nurse by profession.",
+      "highlight": [
+        "Beruf."
+      ]
+    },
+    {
+      "german": "Er sucht einen neuen Beruf.",
+      "english": "He's looking for a new career.",
+      "highlight": [
+        "Beruf."
+      ]
+    }
+  ],
+  "forms": [
+    "Berufe",
+    "die Berufe",
+    "der Beruf"
+  ],
+  "memoryHook": "Was sind Sie von Beruf? is how Germans ask what you do. Answer: Ich bin … von Beruf.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Beruf",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Beruf is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Beruf, zwei ___",
+      "answer": "Berufe",
+      "fullAnswer": "ein Beruf, zwei Berufe",
+      "explanation": "The plural is Berufe.",
+      "acceptedAnswers": [
+        "Berufe"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Beruf mean?",
+      "options": [
+        "to sing",
+        "the window",
+        "job"
+      ],
+      "answer": "job",
+      "explanation": "Beruf: job, profession.",
+      "id": "q3"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Was sind Sie von ___?",
+      "answer": "Beruf",
+      "fullAnswer": "Was sind Sie von Beruf?",
+      "explanation": "The standard question about someone's job.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich bin Lehrer ___ Beruf.",
+      "options": [
+        "von",
+        "als"
+      ],
+      "answer": "von",
+      "explanation": "Von Beruf: by profession.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "leuchten",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "LOYKH-ten",
+      "ipa": "ˈlɔɪ̯çtn̩",
+      "notes": ""
+    },
+    "meaning": "to shine, glow",
+    "shortDefinition": "To shine, glow."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "leucht|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "leucht|est"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "leucht|et"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "leucht|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "leucht|et"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "leucht|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat geleuchtet"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Sterne leuchten am Himmel.",
+      "english": "The stars are shining in the sky.",
+      "highlight": [
+        "leuchten"
+      ]
+    },
+    {
+      "german": "Ihre Augen leuchten.",
+      "english": "Her eyes are shining.",
+      "highlight": [
+        "leuchten."
+      ]
+    },
+    {
+      "german": "Die Lampe leuchtet rot.",
+      "english": "The light is glowing red.",
+      "highlight": [
+        "leuchtet"
+      ]
+    }
+  ],
+  "forms": [
+    "Leuchtturm"
+  ],
+  "memoryHook": "Leuchten (glow) → der Leuchtturm.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (leuchten)",
+      "answer": "leuchtet",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: leuchtet.",
+      "acceptedAnswers": [
+        "leuchtet"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (leuchten, past)",
+      "answer": "geleuchtet",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe geleuchtet.",
+      "acceptedAnswers": [
+        "geleuchtet"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does leuchten mean?",
+      "options": [
+        "tomorrow",
+        "to shine",
+        "to travel"
+      ],
+      "answer": "to shine",
+      "explanation": "leuchten: to shine, glow.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Related:",
+      "options": [
+        "das Licht, die Leuchte",
+        "leicht"
+      ],
+      "answer": "das Licht, die Leuchte",
+      "explanation": "Light.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Lighthouse:",
+      "options": [
+        "der Leuchtturm",
+        "das Lichthaus"
+      ],
+      "answer": "der Leuchtturm",
+      "explanation": "Shining tower.",
+      "id": "q5"
+    }
+  ]
+}

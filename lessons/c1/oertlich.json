@@ -1,0 +1,119 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "örtlich",
+    "partOfSpeech": "adjective",
+    "pronunciation": {
+      "respelling": "ÖRT-likh",
+      "ipa": "ˈœʁtlɪç",
+      "notes": ""
+    },
+    "meaning": "local",
+    "shortDefinition": "Local."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "ört",
+        "meaning": "place (Ort)"
+      },
+      {
+        "part": "lich",
+        "meaning": "adjective ending"
+      }
+    ],
+    "literalMeaning": "of the place"
+  },
+  "sampleSentences": [
+    {
+      "german": "Örtliche Gewitter sind möglich.",
+      "english": "Local thunderstorms are possible.",
+      "highlight": [
+        "Örtliche"
+      ]
+    },
+    {
+      "german": "Er bekam eine örtliche Betäubung.",
+      "english": "He got a local anaesthetic.",
+      "highlight": [
+        "örtliche"
+      ]
+    },
+    {
+      "german": "Die örtliche Polizei.",
+      "english": "The local police.",
+      "highlight": [
+        "örtliche"
+      ]
+    }
+  ],
+  "forms": [
+    "Ort"
+  ],
+  "memoryHook": "Ort → örtlich (= lokal).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does örtlich mean?",
+      "options": [
+        "local",
+        "to sleep",
+        "the street"
+      ],
+      "answer": "local",
+      "explanation": "örtlich: local.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "der Ort (place)",
+        "Wort"
+      ],
+      "answer": "der Ort (place)",
+      "explanation": "Place.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonym:",
+      "options": [
+        "lokal",
+        "global"
+      ],
+      "answer": "lokal",
+      "explanation": "Local.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Örtliche Betäubung' means…",
+      "options": [
+        "local anaesthetic",
+        "local noise"
+      ],
+      "answer": "local anaesthetic",
+      "explanation": "Medicine.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Die ___ Zeitung. (local)",
+      "answer": "örtliche",
+      "fullAnswer": "Die örtliche Zeitung.",
+      "explanation": "Örtliche.",
+      "acceptedAnswers": [
+        "lokale"
+      ],
+      "id": "q5"
+    }
+  ]
+}

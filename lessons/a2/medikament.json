@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Medikament",
+    "partOfSpeech": "noun, neuter (das Medikament)",
+    "pronunciation": {
+      "respelling": "me-di-ka-MENT",
+      "ipa": "medikaˈmɛnt",
+      "notes": "Plural: die Medikamente."
+    },
+    "meaning": "medicine, medication",
+    "shortDefinition": "Medicine, medication."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Medikament, plural die Medikamente.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Medikament"
+        },
+        {
+          "label": "More than one",
+          "value": "die Medikamente"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Nehmen Sie das Medikament dreimal täglich.",
+      "english": "Take the medicine three times a day.",
+      "highlight": [
+        "Medikament"
+      ]
+    },
+    {
+      "german": "Haben Sie ein Medikament gegen Kopfschmerzen?",
+      "english": "Have you got something for a headache?",
+      "highlight": [
+        "Medikament"
+      ]
+    },
+    {
+      "german": "Medikamente bekommt man in der Apotheke.",
+      "english": "You get medicines at the chemist's.",
+      "highlight": [
+        "Medikamente"
+      ]
+    }
+  ],
+  "forms": [
+    "Medikamente",
+    "die Medikamente",
+    "das Medikament"
+  ],
+  "memoryHook": "Das Medikament gegen… Bought in die Apotheke.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Medikament",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Medikament is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Medikament, zwei ___",
+      "answer": "Medikamente",
+      "fullAnswer": "ein Medikament, zwei Medikamente",
+      "explanation": "The plural is Medikamente.",
+      "acceptedAnswers": [
+        "Medikamente"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Medikament mean?",
+      "options": [
+        "hot",
+        "the evening",
+        "medicine"
+      ],
+      "answer": "medicine",
+      "explanation": "Medikament: medicine, medication.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Medicine ___ a headache:",
+      "options": [
+        "gegen",
+        "für"
+      ],
+      "answer": "gegen",
+      "explanation": "Gegen Kopfschmerzen.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Where you buy it:",
+      "options": [
+        "die Apotheke",
+        "die Drogerie only"
+      ],
+      "answer": "die Apotheke",
+      "explanation": "Pharmacy.",
+      "id": "q5"
+    }
+  ]
+}

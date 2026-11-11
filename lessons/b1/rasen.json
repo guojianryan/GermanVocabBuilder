@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Rasen",
+    "partOfSpeech": "noun, masculine (der Rasen)",
+    "pronunciation": {
+      "respelling": "RAA-zen",
+      "ipa": "ˈʁaːzn̩",
+      "notes": "The plural looks the same. Plural: die Rasen."
+    },
+    "meaning": "lawn, grass",
+    "shortDefinition": "Lawn, grass."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Rasen, plural die Rasen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Rasen"
+        },
+        {
+          "label": "More than one",
+          "value": "die Rasen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich mähe den Rasen.",
+      "english": "I'm mowing the lawn.",
+      "highlight": [
+        "Rasen."
+      ]
+    },
+    {
+      "german": "Rasen betreten verboten!",
+      "english": "Keep off the grass!",
+      "highlight": [
+        "Rasen"
+      ]
+    },
+    {
+      "german": "Die Kinder spielen auf dem Rasen.",
+      "english": "The children are playing on the lawn.",
+      "highlight": [
+        "Rasen."
+      ]
+    }
+  ],
+  "forms": [
+    "Rasen",
+    "die Rasen",
+    "der Rasen"
+  ],
+  "memoryHook": "Der Rasen (lawn). Rasen (verb) = speed!",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Rasen",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Rasen is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Rasen, zwei ___",
+      "answer": "Rasen",
+      "fullAnswer": "ein Rasen, zwei Rasen",
+      "explanation": "The plural is Rasen.",
+      "acceptedAnswers": [
+        "Rasen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Rasen mean?",
+      "options": [
+        "cheap",
+        "lawn",
+        "to help"
+      ],
+      "answer": "lawn",
+      "explanation": "Rasen: lawn, grass.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Lawnmower:",
+      "options": [
+        "der Rasenmäher",
+        "der Rasenschneider"
+      ],
+      "answer": "der Rasenmäher",
+      "explanation": "Mähen = mow.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Rasen' (verb) means…",
+      "options": [
+        "to speed",
+        "to shave"
+      ],
+      "answer": "to speed",
+      "explanation": "Different word!",
+      "id": "q5"
+    }
+  ]
+}

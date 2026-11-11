@@ -1,0 +1,178 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "mieten",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "MEE-ten",
+      "ipa": "ˈmiːtn̩",
+      "notes": ""
+    },
+    "meaning": "to rent",
+    "shortDefinition": "To rent."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "miet|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "miet|est"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "miet|et"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "miet|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "miet|et"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "miet|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gemietet",
+        "The stem ends in -t, so du and er add an e."
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "die Miete",
+      "english": "rent",
+      "type": "noun"
+    },
+    {
+      "german": "vermieten",
+      "english": "to rent out",
+      "type": "verb"
+    },
+    {
+      "german": "der Mieter",
+      "english": "tenant",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir mieten eine Wohnung im Zentrum.",
+      "english": "We're renting a flat in the centre.",
+      "highlight": [
+        "mieten"
+      ]
+    },
+    {
+      "german": "Im Urlaub haben wir ein Auto gemietet.",
+      "english": "We rented a car on holiday.",
+      "highlight": [
+        "gemietet."
+      ]
+    },
+    {
+      "german": "Die Miete ist sehr hoch.",
+      "english": "The rent is very high.",
+      "highlight": [
+        "Miete"
+      ]
+    }
+  ],
+  "forms": [
+    "miete",
+    "mietest",
+    "mietet",
+    "mieten",
+    "gemietet",
+    "Miete",
+    "Mieter"
+  ],
+  "memoryHook": "Mieten = rent (as a tenant). Vermieten = rent out (landlord). Die Miete = the rent.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (mieten)",
+      "answer": "mietet",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: mietet.",
+      "acceptedAnswers": [
+        "mietet"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (mieten, past)",
+      "answer": "gemietet",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gemietet.",
+      "acceptedAnswers": [
+        "gemietet"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does mieten mean?",
+      "options": [
+        "always",
+        "the job",
+        "to rent"
+      ],
+      "answer": "to rent",
+      "explanation": "mieten: to rent.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Die Miete is…",
+      "options": [
+        "the rent",
+        "the middle"
+      ],
+      "answer": "the rent",
+      "explanation": "Mieten → Miete.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "The landlord who rents OUT is…",
+      "options": [
+        "der Vermieter",
+        "der Mieter"
+      ],
+      "answer": "der Vermieter",
+      "explanation": "Vermieten = rent out.",
+      "id": "q5"
+    }
+  ]
+}

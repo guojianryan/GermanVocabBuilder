@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Rind",
+    "partOfSpeech": "noun, neuter (das Rind)",
+    "pronunciation": {
+      "respelling": "RINT",
+      "ipa": "ʁɪnt",
+      "notes": "Plural: die Rinder."
+    },
+    "meaning": "cow, cattle; beef",
+    "shortDefinition": "Cow, cattle; beef."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Rind, plural die Rinder.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Rind"
+        },
+        {
+          "label": "More than one",
+          "value": "die Rinder"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Auf der Wiese stehen Rinder.",
+      "english": "There are cattle in the meadow.",
+      "highlight": [
+        "Rinder."
+      ]
+    },
+    {
+      "german": "Ist das Rind oder Schwein?",
+      "english": "Is that beef or pork?",
+      "highlight": [
+        "Rind"
+      ]
+    },
+    {
+      "german": "Ich esse kein Rindfleisch.",
+      "english": "I don't eat beef.",
+      "highlight": [
+        "Rindfleisch."
+      ]
+    }
+  ],
+  "forms": [
+    "Rindfleisch"
+  ],
+  "memoryHook": "Das Rind → Rindfleisch (beef). Schwein → Schweinefleisch (pork).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Rind",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Rind is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Rind, zwei ___",
+      "answer": "Rinder",
+      "fullAnswer": "ein Rind, zwei Rinder",
+      "explanation": "The plural is Rinder.",
+      "acceptedAnswers": [
+        "Rinder"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Rind mean?",
+      "options": [
+        "the evening",
+        "the station",
+        "cow"
+      ],
+      "answer": "cow",
+      "explanation": "Rind: cow, cattle; beef.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Beef:",
+      "options": [
+        "das Rindfleisch",
+        "das Kuhfleisch"
+      ],
+      "answer": "das Rindfleisch",
+      "explanation": "Rind + Fleisch.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Pork:",
+      "options": [
+        "das Schweinefleisch",
+        "das Pigfleisch"
+      ],
+      "answer": "das Schweinefleisch",
+      "explanation": "Schwein.",
+      "id": "q5"
+    }
+  ]
+}

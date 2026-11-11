@@ -1,0 +1,139 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Schnittstelle",
+    "partOfSpeech": "noun, feminine (die Schnittstelle)",
+    "pronunciation": {
+      "respelling": "SHNIT-shte-le",
+      "ipa": "ˈʃnɪtˌʃtɛlə",
+      "notes": "Plural: die Schnittstellen."
+    },
+    "meaning": "interface",
+    "shortDefinition": "Interface."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Schnitt",
+        "meaning": "cut"
+      },
+      {
+        "part": "stelle",
+        "meaning": "place"
+      }
+    ],
+    "literalMeaning": "cutting point",
+    "summary": "Where two lines cross."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Schnittstelle, plural die Schnittstellen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Schnittstelle"
+        },
+        {
+          "label": "More than one",
+          "value": "die Schnittstellen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Computer hat eine USB-Schnittstelle.",
+      "english": "The computer has a USB port.",
+      "highlight": [
+        "USB-Schnittstelle."
+      ]
+    },
+    {
+      "german": "Sie arbeitet an der Schnittstelle zwischen Technik und Design.",
+      "english": "She works at the interface of tech and design.",
+      "highlight": [
+        "Schnittstelle"
+      ]
+    },
+    {
+      "german": "Eine Schnittstelle für Programme.",
+      "english": "An interface for programs.",
+      "highlight": [
+        "Schnittstelle"
+      ]
+    }
+  ],
+  "forms": [
+    "Schnittstellen",
+    "die Schnittstellen",
+    "die Schnittstelle"
+  ],
+  "memoryHook": "Schnitt + Stelle = interface (where things meet).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Schnittstelle",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Schnittstelle is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Schnittstelle, zwei ___",
+      "answer": "Schnittstellen",
+      "fullAnswer": "ein Schnittstelle, zwei Schnittstellen",
+      "explanation": "The plural is Schnittstellen.",
+      "acceptedAnswers": [
+        "Schnittstellen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Schnittstelle mean?",
+      "options": [
+        "interface",
+        "hot",
+        "slowly"
+      ],
+      "answer": "interface",
+      "explanation": "Schnittstelle: interface.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Schnitt (cut) + Stelle (place)",
+        "Schnitzel + Stelle"
+      ],
+      "answer": "Schnitt (cut) + Stelle (place)",
+      "explanation": "Cutting point.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "In computing, 'Schnittstelle' =",
+      "options": [
+        "interface, port",
+        "screen"
+      ],
+      "answer": "interface, port",
+      "explanation": "IT.",
+      "id": "q5"
+    }
+  ]
+}

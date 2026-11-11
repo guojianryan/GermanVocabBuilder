@@ -1,0 +1,138 @@
+{
+ "schemaVersion": "1.4",
+ "language": "de",
+ "explanationLanguage": "en",
+ "level": "B1",
+ "levelSource": "Goethe-Zertifikat B1 Wortliste",
+ "lessonType": "card",
+ "word": {
+  "headword": "Gegenstand",
+  "partOfSpeech": "noun, masculine (der Gegenstand)",
+  "pronunciation": {
+   "respelling": "GAY-gen-shtant",
+   "ipa": "ˈɡeːɡn̩ʃtant",
+   "notes": "Plural: die Gegenstände."
+  },
+  "meaning": "object, item; subject",
+  "shortDefinition": "Object, item; subject."
+ },
+ "commonMistakes": [
+  {
+   "title": "Gender and plural",
+   "explanation": "Der Gegenstand, plural die Gegenstände.",
+   "forms": [
+    {
+     "label": "One",
+     "value": "der Gegenstand"
+    },
+    {
+     "label": "More than one",
+     "value": "die Gegenstände"
+    }
+   ]
+  }
+ ],
+ "sampleSentences": [
+  {
+   "german": "Auf dem Tisch liegen viele Gegenstände.",
+   "english": "There are lots of objects on the table.",
+   "highlight": [
+    "Gegenstände."
+   ]
+  },
+  {
+   "german": "Wertvolle Gegenstände bitte im Safe lassen.",
+   "english": "Please leave valuables in the safe.",
+   "highlight": [
+    "Gegenstände"
+   ]
+  },
+  {
+   "german": "Was ist der Gegenstand der Diskussion?",
+   "english": "What's the subject of the discussion?",
+   "highlight": [
+    "Gegenstand"
+   ]
+  }
+ ],
+ "forms": [
+  "Gegenstände",
+  "die Gegenstände",
+  "der Gegenstand"
+ ],
+ "memoryHook": "Gegen + Stand = object (what stands before you).",
+ "signOff": "Gut gemacht!",
+ "quiz": [
+  {
+   "type": "choice",
+   "prompt": "___ Gegenstand",
+   "options": [
+    "der",
+    "die",
+    "das"
+   ],
+   "answer": "der",
+   "explanation": "Gegenstand is masculine.",
+   "id": "q1"
+  },
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "ein Gegenstand, zwei ___",
+   "answer": "Gegenstände",
+   "fullAnswer": "ein Gegenstand, zwei Gegenstände",
+   "explanation": "The plural is Gegenstände.",
+   "acceptedAnswers": [
+    "Gegenstaende"
+   ],
+   "id": "q2"
+  },
+  {
+   "type": "choice",
+   "prompt": "What does Gegenstand mean?",
+   "options": [
+    "tomorrow",
+    "object",
+    "the window"
+   ],
+   "answer": "object",
+   "explanation": "Gegenstand: object, item; subject.",
+   "id": "q3"
+  },
+  {
+   "type": "choice",
+   "prompt": "Synonym:",
+   "options": [
+    "das Ding, die Sache",
+    "der Gegensatz"
+   ],
+   "answer": "das Ding, die Sache",
+   "explanation": "Object.",
+   "id": "q4"
+  },
+  {
+   "type": "choice",
+   "prompt": "Literally:",
+   "options": [
+    "what stands against (you)",
+    "against standing"
+   ],
+   "answer": "what stands against (you)",
+   "explanation": "Like Latin ob-ject.",
+   "id": "q5"
+  }
+ ],
+ "etymology": {
+  "title": "Where it comes from",
+  "parts": [
+   {
+    "part": "Gegen",
+    "meaning": "against"
+   },
+   {
+    "part": "stand",
+    "meaning": "standing"
+   }
+  ],
+  "literalMeaning": "what stands against you"
+ }
+}

@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Hammer",
+    "partOfSpeech": "noun, masculine (der Hammer)",
+    "pronunciation": {
+      "respelling": "HAM-er",
+      "ipa": "ˈhamɐ",
+      "notes": "Plural: die Hämmer."
+    },
+    "meaning": "hammer",
+    "shortDefinition": "Hammer."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Hammer, plural die Hämmer.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Hammer"
+        },
+        {
+          "label": "More than one",
+          "value": "die Hämmer"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Gib mir mal den Hammer.",
+      "english": "Pass me the hammer.",
+      "highlight": [
+        "Hammer."
+      ]
+    },
+    {
+      "german": "Er schlägt den Nagel mit dem Hammer in die Wand.",
+      "english": "He hammers the nail into the wall.",
+      "highlight": [
+        "Hammer"
+      ]
+    },
+    {
+      "german": "Das ist der Hammer!",
+      "english": "That's amazing! / That's outrageous!",
+      "highlight": [
+        "Hammer!"
+      ]
+    }
+  ],
+  "forms": [
+    "Hämmer",
+    "die Hämmer",
+    "der Hammer"
+  ],
+  "memoryHook": "Der Hammer. 'Der Hammer!' = awesome (or outrageous).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Hammer",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Hammer is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Hammer, zwei ___",
+      "answer": "Hämmer",
+      "fullAnswer": "ein Hammer, zwei Hämmer",
+      "explanation": "The plural is Hämmer.",
+      "acceptedAnswers": [
+        "Haemmer"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Hammer mean?",
+      "options": [
+        "expensive",
+        "hammer",
+        "the key"
+      ],
+      "answer": "hammer",
+      "explanation": "Hammer: hammer.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Das ist der Hammer!' (slang) means…",
+      "options": [
+        "That's amazing / outrageous!",
+        "That's a tool!"
+      ],
+      "answer": "That's amazing / outrageous!",
+      "explanation": "Slang.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Hämmer",
+        "Hammers"
+      ],
+      "answer": "Hämmer",
+      "explanation": "a → ä.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Universität",
+    "partOfSpeech": "noun, feminine (die Universität)",
+    "pronunciation": {
+      "respelling": "oo-ni-ver-zi-TAYT",
+      "ipa": "univɛʁziˈtɛːt",
+      "notes": "Plural: die Universitäten."
+    },
+    "meaning": "university",
+    "shortDefinition": "University."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Universität, plural die Universitäten.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Universität"
+        },
+        {
+          "label": "More than one",
+          "value": "die Universitäten"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Sie studiert an der Universität Wien.",
+      "english": "She studies at the University of Vienna.",
+      "highlight": [
+        "Universität"
+      ]
+    },
+    {
+      "german": "Ich gehe zur Uni.",
+      "english": "I'm going to uni.",
+      "highlight": [
+        "Uni."
+      ]
+    },
+    {
+      "german": "Die Universität ist sehr alt.",
+      "english": "The university is very old.",
+      "highlight": [
+        "Universität"
+      ]
+    }
+  ],
+  "forms": [
+    "Uni"
+  ],
+  "memoryHook": "Die Universität = die Uni. An der Uni.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Universität",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Universität is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Universität, zwei ___",
+      "answer": "Universitäten",
+      "fullAnswer": "ein Universität, zwei Universitäten",
+      "explanation": "The plural is Universitäten.",
+      "acceptedAnswers": [
+        "Universitaeten"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Universität mean?",
+      "options": [
+        "university",
+        "to learn",
+        "hot"
+      ],
+      "answer": "university",
+      "explanation": "Universität: university.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Short form:",
+      "options": [
+        "die Uni",
+        "die Univ"
+      ],
+      "answer": "die Uni",
+      "explanation": "Uni.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Study at university':",
+      "options": [
+        "an der Uni studieren",
+        "in der Uni studieren"
+      ],
+      "answer": "an der Uni studieren",
+      "explanation": "An.",
+      "id": "q5"
+    }
+  ]
+}

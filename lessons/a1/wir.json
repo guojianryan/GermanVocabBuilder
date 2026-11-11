@@ -1,0 +1,132 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "wir",
+    "partOfSpeech": "pronoun (wir, uns)",
+    "pronunciation": {
+      "respelling": "VEER",
+      "ipa": "viːɐ̯",
+      "notes": ""
+    },
+    "meaning": "we",
+    "shortDefinition": "We."
+  },
+  "tables": [
+    {
+      "title": "wir in three forms",
+      "columns": [
+        "form"
+      ],
+      "rows": [
+        {
+          "label": "subject",
+          "cells": [
+            "|wir"
+          ]
+        },
+        {
+          "label": "accusative",
+          "cells": [
+            "|uns"
+          ]
+        },
+        {
+          "label": "dative",
+          "cells": [
+            "|uns"
+          ]
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir kommen aus Italien.",
+      "english": "We're from Italy.",
+      "highlight": [
+        "Wir"
+      ]
+    },
+    {
+      "german": "Kannst du uns helfen?",
+      "english": "Can you help us?",
+      "highlight": [
+        "uns"
+      ]
+    },
+    {
+      "german": "Wir treffen uns morgen.",
+      "english": "We're meeting tomorrow.",
+      "highlight": [
+        "Wir",
+        "uns"
+      ]
+    }
+  ],
+  "forms": [
+    "wir",
+    "uns"
+  ],
+  "memoryHook": "Wir = we; uns = us (accusative and dative). Unser = our. Verb: wir + infinitive form (wir sind, wir haben).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does wir mean?",
+      "options": [
+        "to sing",
+        "we",
+        "always"
+      ],
+      "answer": "we",
+      "explanation": "wir: we.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Accusative and dative of wir:",
+      "options": [
+        "uns",
+        "unser"
+      ],
+      "answer": "uns",
+      "explanation": "Uns for both.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Wir ___ müde.",
+      "options": [
+        "sind",
+        "seid"
+      ],
+      "answer": "sind",
+      "explanation": "Wir sind.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Our' is…",
+      "options": [
+        "unser",
+        "uns"
+      ],
+      "answer": "unser",
+      "explanation": "Possessive.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Kommst du mit ___? (us)",
+      "answer": "uns",
+      "fullAnswer": "Kommst du mit uns?",
+      "explanation": "Mit + dative: uns.",
+      "id": "q5"
+    }
+  ]
+}

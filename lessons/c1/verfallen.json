@@ -1,0 +1,182 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "verfallen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "fer-FA-len",
+      "ipa": "fɛɐ̯ˈfalən",
+      "notes": ""
+    },
+    "meaning": "to decay, deteriorate; to expire; (~ in) to lapse into",
+    "shortDefinition": "To decay, deteriorate; to expire; (~ in) to lapse into."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "ver",
+        "meaning": "away, to ruin"
+      },
+      {
+        "part": "fallen",
+        "meaning": "to fall",
+        "emphasis": "release"
+      }
+    ],
+    "literalMeaning": "to fall away",
+    "summary": "Crumbling away."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "verfall|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "verfäll|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "verfäll|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "verfall|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "verfall|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "verfall|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): ist verfallen"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das alte Haus verfällt.",
+      "english": "The old house is falling into disrepair.",
+      "highlight": [
+        "verfällt."
+      ]
+    },
+    {
+      "german": "Das Ticket ist verfallen.",
+      "english": "The ticket has expired.",
+      "highlight": [
+        "verfallen."
+      ]
+    },
+    {
+      "german": "Er verfiel in Schweigen.",
+      "english": "He lapsed into silence.",
+      "highlight": [
+        "verfiel"
+      ]
+    }
+  ],
+  "forms": [
+    "Verfall",
+    "Verfallsdatum"
+  ],
+  "memoryHook": "Verfallen: decay; expire; lapse into; der Verfall.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (verfallen)",
+      "answer": "verfällt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: verfällt.",
+      "acceptedAnswers": [
+        "verfaellt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich bin schon ___. (verfallen, past)",
+      "answer": "verfallen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: bin verfallen.",
+      "acceptedAnswers": [
+        "verfallen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does verfallen mean?",
+      "options": [
+        "quiet",
+        "to decay",
+        "the flower"
+      ],
+      "answer": "to decay",
+      "explanation": "verfallen: to decay, deteriorate; to expire; (~ in) to lapse into.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Noun (expiry; decay):",
+      "options": [
+        "der Verfall",
+        "die Verfallung"
+      ],
+      "answer": "der Verfall",
+      "explanation": "Decline.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Best-before date:",
+      "options": [
+        "das Verfallsdatum / Mindesthaltbarkeitsdatum",
+        "das Verfallendatum"
+      ],
+      "answer": "das Verfallsdatum / Mindesthaltbarkeitsdatum",
+      "explanation": "Food.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Jemandem verfallen sein' means…",
+      "options": [
+        "to be under someone's spell",
+        "to fall on someone"
+      ],
+      "answer": "to be under someone's spell",
+      "explanation": "Addicted.",
+      "id": "q6"
+    }
+  ]
+}

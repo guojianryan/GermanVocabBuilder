@@ -1,0 +1,163 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "starten",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "SHTAR-ten",
+      "ipa": "ˈʃtaʁtn̩",
+      "notes": ""
+    },
+    "meaning": "to start; to take off",
+    "shortDefinition": "To start; to take off."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "start|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "start|est"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "start|et"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "start|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "start|et"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "start|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): ist gestartet"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "der Start",
+      "english": "start; take-off",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das Flugzeug startet um 10 Uhr.",
+      "english": "The plane takes off at 10.",
+      "highlight": [
+        "startet"
+      ]
+    },
+    {
+      "german": "Wir sind pünktlich gestartet.",
+      "english": "We set off on time.",
+      "highlight": [
+        "sind",
+        "gestartet."
+      ]
+    },
+    {
+      "german": "Ich habe den Motor gestartet.",
+      "english": "I started the engine.",
+      "highlight": [
+        "habe",
+        "gestartet."
+      ]
+    }
+  ],
+  "forms": [
+    "hat gestartet"
+  ],
+  "memoryHook": "Starten (ist gestartet; with object: hat). Der Start.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (starten)",
+      "answer": "startet",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: startet.",
+      "acceptedAnswers": [
+        "startet"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich bin schon ___. (starten, past)",
+      "answer": "gestartet",
+      "fullAnswer": "",
+      "explanation": "Perfekt: bin gestartet.",
+      "acceptedAnswers": [
+        "gestartet"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does starten mean?",
+      "options": [
+        "slowly",
+        "to start",
+        "the family"
+      ],
+      "answer": "to start",
+      "explanation": "starten: to start; to take off.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Ich habe den Motor gestartet' uses haben because…",
+      "options": [
+        "it has an object",
+        "it's past"
+      ],
+      "answer": "it has an object",
+      "explanation": "Transitive → haben.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Opposite (plane):",
+      "options": [
+        "landen",
+        "fliegen"
+      ],
+      "answer": "landen",
+      "explanation": "Land.",
+      "id": "q5"
+    }
+  ]
+}

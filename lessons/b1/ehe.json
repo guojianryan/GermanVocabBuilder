@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Ehe",
+    "partOfSpeech": "noun, feminine (die Ehe)",
+    "pronunciation": {
+      "respelling": "AY-e",
+      "ipa": "ˈeːə",
+      "notes": "Plural: die Ehen."
+    },
+    "meaning": "marriage",
+    "shortDefinition": "Marriage."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Ehe, plural die Ehen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Ehe"
+        },
+        {
+          "label": "More than one",
+          "value": "die Ehen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Sie führen eine glückliche Ehe.",
+      "english": "They have a happy marriage.",
+      "highlight": [
+        "Ehe."
+      ]
+    },
+    {
+      "german": "Die Ehe wurde geschieden.",
+      "english": "The marriage ended in divorce.",
+      "highlight": [
+        "Ehe"
+      ]
+    },
+    {
+      "german": "Er hat zwei Kinder aus erster Ehe.",
+      "english": "He has two children from his first marriage.",
+      "highlight": [
+        "Ehe."
+      ]
+    }
+  ],
+  "forms": [
+    "Ehering",
+    "Ehemann",
+    "Ehefrau"
+  ],
+  "memoryHook": "Die Ehe = marriage: Ehemann, Ehefrau, Ehepaar, Ehering.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Ehe",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Ehe is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Ehe, zwei ___",
+      "answer": "Ehen",
+      "fullAnswer": "ein Ehe, zwei Ehen",
+      "explanation": "The plural is Ehen.",
+      "acceptedAnswers": [
+        "Ehen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Ehe mean?",
+      "options": [
+        "marriage",
+        "the family",
+        "always"
+      ],
+      "answer": "marriage",
+      "explanation": "Ehe: marriage.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Married couple:",
+      "options": [
+        "das Ehepaar",
+        "das Ehekind"
+      ],
+      "answer": "das Ehepaar",
+      "explanation": "Ehe + Paar.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Wedding ring:",
+      "options": [
+        "der Ehering",
+        "der Hochzeitsring only"
+      ],
+      "answer": "der Ehering",
+      "explanation": "Ehe + Ring.",
+      "id": "q5"
+    }
+  ]
+}

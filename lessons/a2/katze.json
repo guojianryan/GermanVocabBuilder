@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Katze",
+    "partOfSpeech": "noun, feminine (die Katze)",
+    "pronunciation": {
+      "respelling": "KAT-se",
+      "ipa": "ˈkatsə",
+      "notes": "Plural: die Katzen."
+    },
+    "meaning": "cat",
+    "shortDefinition": "Cat."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Katze, plural die Katzen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Katze"
+        },
+        {
+          "label": "More than one",
+          "value": "die Katzen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir haben eine Katze.",
+      "english": "We've got a cat.",
+      "highlight": [
+        "Katze."
+      ]
+    },
+    {
+      "german": "Die Katze schläft auf dem Sofa.",
+      "english": "The cat's sleeping on the sofa.",
+      "highlight": [
+        "Katze"
+      ]
+    },
+    {
+      "german": "Ich bin allergisch gegen Katzen.",
+      "english": "I'm allergic to cats.",
+      "highlight": [
+        "Katzen."
+      ]
+    }
+  ],
+  "forms": [
+    "Katzen",
+    "die Katzen",
+    "die Katze"
+  ],
+  "memoryHook": "Die Katze; der Kater (tomcat, and a hangover!).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Katze",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Katze is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Katze, zwei ___",
+      "answer": "Katzen",
+      "fullAnswer": "ein Katze, zwei Katzen",
+      "explanation": "The plural is Katzen.",
+      "acceptedAnswers": [
+        "Katzen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Katze mean?",
+      "options": [
+        "the job",
+        "cat",
+        "expensive"
+      ],
+      "answer": "cat",
+      "explanation": "Katze: cat.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "A male cat:",
+      "options": [
+        "der Kater",
+        "der Katz"
+      ],
+      "answer": "der Kater",
+      "explanation": "Also: a hangover!",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Einen Kater haben' means…",
+      "options": [
+        "to have a hangover",
+        "to own a cat"
+      ],
+      "answer": "to have a hangover",
+      "explanation": "Idiom.",
+      "id": "q5"
+    }
+  ]
+}

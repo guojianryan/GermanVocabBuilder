@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Kapitel",
+    "partOfSpeech": "noun, neuter (das Kapitel)",
+    "pronunciation": {
+      "respelling": "ka-PIT-el",
+      "ipa": "kaˈpɪtl̩",
+      "notes": "The plural looks the same. Plural: die Kapitel."
+    },
+    "meaning": "chapter",
+    "shortDefinition": "Chapter."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Kapitel, plural die Kapitel.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Kapitel"
+        },
+        {
+          "label": "More than one",
+          "value": "die Kapitel"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Lesen Sie Kapitel drei.",
+      "english": "Read chapter three.",
+      "highlight": [
+        "Kapitel"
+      ]
+    },
+    {
+      "german": "Das Buch hat zwölf Kapitel.",
+      "english": "The book has twelve chapters.",
+      "highlight": [
+        "Kapitel."
+      ]
+    },
+    {
+      "german": "Das ist ein neues Kapitel in meinem Leben.",
+      "english": "This is a new chapter in my life.",
+      "highlight": [
+        "Kapitel"
+      ]
+    }
+  ],
+  "forms": [
+    "Kapitel",
+    "die Kapitel",
+    "das Kapitel"
+  ],
+  "memoryHook": "Das Kapitel (stress on PI).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Kapitel",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Kapitel is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Kapitel, zwei ___",
+      "answer": "Kapitel",
+      "fullAnswer": "ein Kapitel, zwei Kapitel",
+      "explanation": "The plural is Kapitel.",
+      "acceptedAnswers": [
+        "Kapitel"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Kapitel mean?",
+      "options": [
+        "to learn",
+        "the key",
+        "chapter"
+      ],
+      "answer": "chapter",
+      "explanation": "Kapitel: chapter.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Stress on…",
+      "options": [
+        "-PI-",
+        "KA-"
+      ],
+      "answer": "-PI-",
+      "explanation": "ka-PIT-el.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Kapitel",
+        "Kapiteln"
+      ],
+      "answer": "Kapitel",
+      "explanation": "No change.",
+      "id": "q5"
+    }
+  ]
+}

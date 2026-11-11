@@ -1,0 +1,154 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "zitieren",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "tsi-TEE-ren",
+      "ipa": "tsiˈtiːʁən",
+      "notes": ""
+    },
+    "meaning": "to quote, cite; to summon",
+    "shortDefinition": "To quote, cite; to summon."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "zitier|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "zitier|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "zitier|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "zitier|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "zitier|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "zitier|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat zitiert"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er zitiert gern Goethe.",
+      "english": "He likes quoting Goethe.",
+      "highlight": [
+        "zitiert"
+      ]
+    },
+    {
+      "german": "Ich zitiere: …",
+      "english": "I quote: …",
+      "highlight": [
+        "zitiere:"
+      ]
+    },
+    {
+      "german": "Sie wurde zum Chef zitiert.",
+      "english": "She was summoned to the boss.",
+      "highlight": [
+        "zitiert."
+      ]
+    }
+  ],
+  "forms": [
+    "Zitat"
+  ],
+  "memoryHook": "Zitieren → das Zitat.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (zitieren)",
+      "answer": "zitiert",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: zitiert.",
+      "acceptedAnswers": [
+        "zitiert"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (zitieren, past)",
+      "answer": "zitiert",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe zitiert.",
+      "acceptedAnswers": [
+        "zitiert"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does zitieren mean?",
+      "options": [
+        "to quote",
+        "the bill",
+        "the weather"
+      ],
+      "answer": "to quote",
+      "explanation": "zitieren: to quote, cite; to summon.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Noun:",
+      "options": [
+        "das Zitat",
+        "die Zitierung only"
+      ],
+      "answer": "das Zitat",
+      "explanation": "Quotation.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "hat zitiert",
+        "hat gezitiert"
+      ],
+      "answer": "hat zitiert",
+      "explanation": "-ieren.",
+      "id": "q5"
+    }
+  ]
+}

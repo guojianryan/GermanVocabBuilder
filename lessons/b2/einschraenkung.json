@@ -1,0 +1,140 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Einschränkung",
+    "partOfSpeech": "noun, feminine (die Einschränkung)",
+    "pronunciation": {
+      "respelling": "INE-shreng-kung",
+      "ipa": "ˈaɪ̯nʃʁɛŋkʊŋ",
+      "notes": "Plural: die Einschränkungen."
+    },
+    "meaning": "restriction, limitation; reservation",
+    "shortDefinition": "Restriction, limitation; reservation."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Ein",
+        "meaning": "in"
+      },
+      {
+        "part": "schränk",
+        "meaning": "fence (Schranke)"
+      },
+      {
+        "part": "ung",
+        "meaning": "noun ending"
+      }
+    ],
+    "literalMeaning": "a fencing-in"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Einschränkung, plural die Einschränkungen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Einschränkung"
+        },
+        {
+          "label": "More than one",
+          "value": "die Einschränkungen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Es gibt Einschränkungen im Verkehr.",
+      "english": "There are traffic restrictions.",
+      "highlight": [
+        "Einschränkungen"
+      ]
+    },
+    {
+      "german": "Ohne Einschränkung empfehlenswert.",
+      "english": "Recommended without reservation.",
+      "highlight": [
+        "Einschränkung"
+      ]
+    },
+    {
+      "german": "Mit einer Einschränkung: …",
+      "english": "With one reservation: …",
+      "highlight": [
+        "Einschränkung:"
+      ]
+    }
+  ],
+  "forms": [
+    "einschränken"
+  ],
+  "memoryHook": "Einschränken → die Einschränkung.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Einschränkung",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Einschränkung is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Einschränkung, zwei ___",
+      "answer": "Einschränkungen",
+      "fullAnswer": "ein Einschränkung, zwei Einschränkungen",
+      "explanation": "The plural is Einschränkungen.",
+      "acceptedAnswers": [
+        "Einschraenkungen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Einschränkung mean?",
+      "options": [
+        "to help",
+        "restriction",
+        "slowly"
+      ],
+      "answer": "restriction",
+      "explanation": "Einschränkung: restriction, limitation; reservation.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "einschränken (restrict)",
+        "Schrank"
+      ],
+      "answer": "einschränken (restrict)",
+      "explanation": "Restrict.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Ohne Einschränkung' means…",
+      "options": [
+        "without reservation",
+        "without a cupboard"
+      ],
+      "answer": "without reservation",
+      "explanation": "Fully.",
+      "id": "q5"
+    }
+  ]
+}

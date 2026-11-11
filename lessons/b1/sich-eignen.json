@@ -1,0 +1,160 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "(sich) eignen",
+    "partOfSpeech": "reflexive verb",
+    "pronunciation": {
+      "respelling": "EYE-gnen",
+      "ipa": "ˈaɪ̯ɡnən",
+      "notes": ""
+    },
+    "meaning": "to be suitable",
+    "shortDefinition": "To be suitable."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "eign|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "eign|est"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "eign|et"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "eign|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "eign|et"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "eign|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat geeignet"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Film eignet sich nicht für Kinder.",
+      "english": "The film isn't suitable for children.",
+      "highlight": [
+        "eignet",
+        "sich"
+      ]
+    },
+    {
+      "german": "Er ist für den Job gut geeignet.",
+      "english": "He's well suited for the job.",
+      "highlight": [
+        "geeignet."
+      ]
+    },
+    {
+      "german": "Das Zimmer eignet sich als Büro.",
+      "english": "The room would make a good office.",
+      "highlight": [
+        "eignet",
+        "sich"
+      ]
+    }
+  ],
+  "forms": [
+    "eigne",
+    "eignest",
+    "eignet",
+    "eignen",
+    "geeignet"
+  ],
+  "memoryHook": "Sich eignen für = be suitable for. Geeignet = suitable.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ ((sich) eignen)",
+      "answer": "eignet",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: eignet.",
+      "acceptedAnswers": [
+        "eignet"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe mich schon ___. ((sich) eignen, past)",
+      "answer": "geeignet",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe mich geeignet.",
+      "acceptedAnswers": [
+        "geeignet"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does (sich) eignen mean?",
+      "options": [
+        "the window",
+        "to be suitable",
+        "to learn"
+      ],
+      "answer": "to be suitable",
+      "explanation": "(sich) eignen: to be suitable.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Suitable ___ :",
+      "options": [
+        "für",
+        "zu only"
+      ],
+      "answer": "für",
+      "explanation": "Geeignet für.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Geeignet' (adj.) means…",
+      "options": [
+        "suitable",
+        "owned"
+      ],
+      "answer": "suitable",
+      "explanation": "Suitable.",
+      "id": "q5"
+    }
+  ]
+}

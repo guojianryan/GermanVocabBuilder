@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Baum",
+    "partOfSpeech": "noun, masculine (der Baum)",
+    "pronunciation": {
+      "respelling": "BOWM",
+      "ipa": "baʊ̯m",
+      "notes": "In Bäume, äu sounds like 'oy'. Plural: die Bäume."
+    },
+    "meaning": "tree",
+    "shortDefinition": "Tree."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Baum, plural die Bäume.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Baum"
+        },
+        {
+          "label": "More than one",
+          "value": "die Bäume"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Vor dem Haus steht ein großer Baum.",
+      "english": "There's a big tree in front of the house.",
+      "highlight": [
+        "Baum."
+      ]
+    },
+    {
+      "german": "Im Herbst verlieren die Bäume ihre Blätter.",
+      "english": "In autumn the trees lose their leaves.",
+      "highlight": [
+        "Bäume"
+      ]
+    },
+    {
+      "german": "Wir haben einen Weihnachtsbaum.",
+      "english": "We have a Christmas tree.",
+      "highlight": [
+        "Weihnachtsbaum."
+      ]
+    }
+  ],
+  "forms": [
+    "Bäume",
+    "die Bäume",
+    "der Baum"
+  ],
+  "memoryHook": "Baum is related to English 'beam' (once a tree trunk). Plural Bäume: äu sounds like 'oy'.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Baum",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Baum is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Baum, zwei ___",
+      "answer": "Bäume",
+      "fullAnswer": "ein Baum, zwei Bäume",
+      "explanation": "The plural is Bäume.",
+      "acceptedAnswers": [
+        "Baeume"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Baum mean?",
+      "options": [
+        "tree",
+        "to travel",
+        "the weather"
+      ],
+      "answer": "tree",
+      "explanation": "Baum: tree.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Au becomes ___ in the plural.",
+      "options": [
+        "äu",
+        "ä"
+      ],
+      "answer": "äu",
+      "explanation": "Baum, Bäume. Äu sounds like 'oy'.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Der Weihnachtsbaum is…",
+      "options": [
+        "the Christmas tree",
+        "the garden tree"
+      ],
+      "answer": "the Christmas tree",
+      "explanation": "Weihnachten = Christmas.",
+      "id": "q5"
+    }
+  ]
+}

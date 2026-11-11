@@ -1,0 +1,142 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "(sich) anmelden",
+    "partOfSpeech": "separable, often reflexive verb",
+    "pronunciation": {
+      "respelling": "AHN-mel-den",
+      "ipa": "ˈanmɛldn̩",
+      "notes": ""
+    },
+    "meaning": "to register, to sign up",
+    "shortDefinition": "To register, to sign up."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "an",
+        "meaning": "to, at"
+      },
+      {
+        "part": "melden",
+        "meaning": "to report"
+      }
+    ],
+    "literalMeaning": "to report in"
+  },
+  "wordFamily": [
+    {
+      "german": "die Anmeldung",
+      "english": "registration; reception desk",
+      "type": "noun"
+    },
+    {
+      "german": "sich abmelden",
+      "english": "to deregister, to sign out",
+      "type": "separable verb"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Don't forget mich",
+      "explanation": "When you register yourself, it's reflexive.",
+      "wrong": "Ich melde an.",
+      "correct": "Ich melde mich an."
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wo kann ich mich für den Kurs anmelden?",
+      "english": "Where can I sign up for the course?",
+      "highlight": [
+        "mich",
+        "anmelden?"
+      ]
+    },
+    {
+      "german": "Ich melde mich im Bürgeramt an.",
+      "english": "I'm registering at the citizens' office.",
+      "highlight": [
+        "melde",
+        "mich",
+        "an."
+      ]
+    },
+    {
+      "german": "Bitte gehen Sie zur Anmeldung.",
+      "english": "Please go to reception.",
+      "highlight": [
+        "Anmeldung."
+      ]
+    }
+  ],
+  "forms": [
+    "melde an",
+    "meldet an",
+    "angemeldet",
+    "Anmeldung",
+    "anmelden"
+  ],
+  "memoryHook": "Melden = report. Sich anmelden = report yourself in: register. In Germany you anmelden your address within two weeks of moving.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Ich melde ___ für den Kurs an.",
+      "options": [
+        "mich",
+        "mir"
+      ],
+      "answer": "mich",
+      "explanation": "Sich anmelden: ich melde mich an.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Hast du dich schon ___?",
+      "answer": "angemeldet",
+      "fullAnswer": "Hast du dich schon angemeldet?",
+      "explanation": "An-ge-meldet.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "At a doctor's practice, 'die Anmeldung' is…",
+      "options": [
+        "the reception desk",
+        "the waiting room"
+      ],
+      "answer": "the reception desk",
+      "explanation": "Where you register when you arrive.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "You sign up ___ a course.",
+      "options": [
+        "für",
+        "an"
+      ],
+      "answer": "für",
+      "explanation": "Sich für etwas anmelden.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "Ich anmelde mich.",
+        "Ich melde mich an."
+      ],
+      "answer": "Ich melde mich an.",
+      "explanation": "An goes to the end.",
+      "id": "q5"
+    }
+  ]
+}

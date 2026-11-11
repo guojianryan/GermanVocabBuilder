@@ -1,0 +1,143 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Lebenslauf",
+    "partOfSpeech": "noun, masculine (der Lebenslauf)",
+    "pronunciation": {
+      "respelling": "LAY-bens-lowf",
+      "ipa": "ˈleːbn̩sˌlaʊ̯f",
+      "notes": "Plural: die Lebensläufe."
+    },
+    "meaning": "CV, résumé",
+    "shortDefinition": "CV, résumé."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Leben",
+        "meaning": "life"
+      },
+      {
+        "part": "s",
+        "meaning": "linking letter"
+      },
+      {
+        "part": "lauf",
+        "meaning": "run, course"
+      }
+    ],
+    "literalMeaning": "course of life",
+    "summary": "A direct translation of Latin 'curriculum vitae'."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Lebenslauf, plural die Lebensläufe.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Lebenslauf"
+        },
+        {
+          "label": "More than one",
+          "value": "die Lebensläufe"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Schicken Sie uns Ihren Lebenslauf.",
+      "english": "Send us your CV.",
+      "highlight": [
+        "Lebenslauf."
+      ]
+    },
+    {
+      "german": "Mein Lebenslauf ist zwei Seiten lang.",
+      "english": "My CV is two pages long.",
+      "highlight": [
+        "Lebenslauf"
+      ]
+    },
+    {
+      "german": "Der Lebenslauf muss tabellarisch sein.",
+      "english": "The CV must be in table form.",
+      "highlight": [
+        "Lebenslauf"
+      ]
+    }
+  ],
+  "forms": [
+    "Lebensläufe",
+    "die Lebensläufe",
+    "der Lebenslauf"
+  ],
+  "memoryHook": "Der Lebenslauf = 'course of life' = CV.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Lebenslauf",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Lebenslauf is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Lebenslauf, zwei ___",
+      "answer": "Lebensläufe",
+      "fullAnswer": "ein Lebenslauf, zwei Lebensläufe",
+      "explanation": "The plural is Lebensläufe.",
+      "acceptedAnswers": [
+        "Lebenslaeufe"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Lebenslauf mean?",
+      "options": [
+        "CV",
+        "cheap",
+        "the bill"
+      ],
+      "answer": "CV",
+      "explanation": "Lebenslauf: CV, résumé.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Leben + s + Lauf (course)",
+        "Leben + laufen only"
+      ],
+      "answer": "Leben + s + Lauf (course)",
+      "explanation": "Course of life — like Latin curriculum vitae.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Lebensläufe",
+        "Lebenslaufe"
+      ],
+      "answer": "Lebensläufe",
+      "explanation": "au → äu.",
+      "id": "q5"
+    }
+  ]
+}

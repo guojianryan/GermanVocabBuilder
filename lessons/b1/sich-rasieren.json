@@ -1,0 +1,160 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "(sich) rasieren",
+    "partOfSpeech": "reflexive verb",
+    "pronunciation": {
+      "respelling": "ra-ZEE-ren",
+      "ipa": "ʁaˈziːʁən",
+      "notes": ""
+    },
+    "meaning": "to shave",
+    "shortDefinition": "To shave."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "rasier|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "rasier|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "rasier|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "rasier|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "rasier|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "rasier|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat rasiert"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er rasiert sich jeden Morgen.",
+      "english": "He shaves every morning.",
+      "highlight": [
+        "rasiert",
+        "sich"
+      ]
+    },
+    {
+      "german": "Ich habe mich heute nicht rasiert.",
+      "english": "I didn't shave today.",
+      "highlight": [
+        "mich",
+        "rasiert."
+      ]
+    },
+    {
+      "german": "Sie rasiert sich die Beine.",
+      "english": "She shaves her legs.",
+      "highlight": [
+        "rasiert",
+        "sich"
+      ]
+    }
+  ],
+  "forms": [
+    "rasiere",
+    "rasierst",
+    "rasiert",
+    "rasieren"
+  ],
+  "memoryHook": "Sich rasieren → der Rasierer.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ ((sich) rasieren)",
+      "answer": "rasiert",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: rasiert.",
+      "acceptedAnswers": [
+        "rasiert"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe mich schon ___. ((sich) rasieren, past)",
+      "answer": "rasiert",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe mich rasiert.",
+      "acceptedAnswers": [
+        "rasiert"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does (sich) rasieren mean?",
+      "options": [
+        "the shop",
+        "to shave",
+        "hot"
+      ],
+      "answer": "to shave",
+      "explanation": "(sich) rasieren: to shave.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Razor:",
+      "options": [
+        "der Rasierer",
+        "das Rasiermesser only"
+      ],
+      "answer": "der Rasierer",
+      "explanation": "Shaver.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Shaving body parts: Er rasiert ___ den Bart.",
+      "options": [
+        "sich (dative)",
+        "ihn"
+      ],
+      "answer": "sich (dative)",
+      "explanation": "Sich.",
+      "id": "q5"
+    }
+  ]
+}

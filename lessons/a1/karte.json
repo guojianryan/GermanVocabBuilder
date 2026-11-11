@@ -1,0 +1,141 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Karte",
+    "partOfSpeech": "noun, feminine (die Karte)",
+    "pronunciation": {
+      "respelling": "KAR-tuh",
+      "ipa": "ˈkaʁtə",
+      "notes": "Plural: die Karten."
+    },
+    "meaning": "card; ticket; map; menu",
+    "shortDefinition": "Card; ticket; map; menu."
+  },
+  "wordFamily": [
+    {
+      "german": "die Speisekarte",
+      "english": "menu",
+      "type": "noun"
+    },
+    {
+      "german": "die Fahrkarte",
+      "english": "ticket",
+      "type": "noun"
+    },
+    {
+      "german": "die Kreditkarte",
+      "english": "credit card",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Karte, plural die Karten.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Karte"
+        },
+        {
+          "label": "More than one",
+          "value": "die Karten"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Kann ich mit Karte zahlen?",
+      "english": "Can I pay by card?",
+      "highlight": [
+        "Karte"
+      ]
+    },
+    {
+      "german": "Ich habe zwei Karten fürs Konzert.",
+      "english": "I have two tickets for the concert.",
+      "highlight": [
+        "Karten"
+      ]
+    },
+    {
+      "german": "Die Karte, bitte!",
+      "english": "The menu, please!",
+      "highlight": [
+        "Karte,"
+      ]
+    }
+  ],
+  "forms": [
+    "Karten",
+    "die Karten",
+    "die Karte"
+  ],
+  "memoryHook": "Karte: card, ticket, map, menu. Context tells you which. Mit Karte zahlen = pay by card.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Karte",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Karte is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Karte, zwei ___",
+      "answer": "Karten",
+      "fullAnswer": "ein Karte, zwei Karten",
+      "explanation": "The plural is Karten.",
+      "acceptedAnswers": [
+        "Karten"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Karte mean?",
+      "options": [
+        "the door",
+        "the child",
+        "card"
+      ],
+      "answer": "card",
+      "explanation": "Karte: card; ticket; map; menu.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "In a restaurant, 'die Karte' is…",
+      "options": [
+        "the menu",
+        "the bill"
+      ],
+      "answer": "the menu",
+      "explanation": "Speisekarte.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Paying 'mit Karte' means…",
+      "options": [
+        "by card",
+        "by map"
+      ],
+      "answer": "by card",
+      "explanation": "Credit or debit card.",
+      "id": "q5"
+    }
+  ]
+}

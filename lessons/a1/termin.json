@@ -1,0 +1,221 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "lessonType": "full",
+  "word": {
+    "headword": "Termin",
+    "partOfSpeech": "noun, masculine (der Termin)",
+    "pronunciation": {
+      "respelling": "tair-MEEN",
+      "ipa": "tɛʁˈmiːn",
+      "notes": "Stress the second syllable, unlike English 'term'. Plural: die Termine."
+    },
+    "meaning": "appointment; fixed date",
+    "shortDefinition": "A booked time with a doctor, an office, a business or a client."
+  },
+  "intro": {
+    "title": "Life in Germany runs on Termine",
+    "paragraphs": [
+      "Want to see a doctor, register your address or open a bank account? You'll need a Termin. Germans book nearly everything in advance, so this word turns up in your first week.",
+      "It looks like English 'term', but it means appointment. And it's mainly for official or professional appointments, not for meeting friends."
+    ]
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "summary": "Termin comes from Latin terminus: a boundary stone, an end point. A Termin is a fixed point in time. English took the same Latin word and made 'term', 'terminal' and 'terminate' from it.",
+    "cognates": [
+      {
+        "word": "terminus",
+        "language": "Latin",
+        "note": "boundary, end point"
+      },
+      {
+        "word": "term",
+        "language": "English",
+        "note": "a fixed period"
+      },
+      {
+        "word": "terminal",
+        "language": "English",
+        "note": "the end of the line"
+      }
+    ]
+  },
+  "wordFamily": [
+    {
+      "german": "der Arzttermin",
+      "english": "doctor's appointment",
+      "type": "noun"
+    },
+    {
+      "german": "der Terminkalender",
+      "english": "diary, calendar",
+      "type": "noun"
+    },
+    {
+      "german": "einen Termin vereinbaren",
+      "english": "to arrange an appointment",
+      "type": "phrase"
+    },
+    {
+      "german": "die Verabredung",
+      "english": "a date or plan to meet friends",
+      "type": "noun"
+    },
+    {
+      "german": "das Semester",
+      "english": "term (at university)",
+      "type": "noun"
+    }
+  ],
+  "keyTrap": {
+    "title": "The big trap: a Termin with friends",
+    "explanation": "A Termin is a booked, businesslike appointment. Meeting a friend for coffee is a Verabredung, or you can just say you're meeting.",
+    "wrong": {
+      "german": "Ich habe heute einen Termin mit Lisa im Café.",
+      "verdict": "This sounds like a business meeting with Lisa."
+    },
+    "correct": [
+      {
+        "german": "Ich bin heute mit Lisa verabredet.",
+        "literal": "I am today with Lisa arranged.",
+        "note": "Friends: verabredet sein."
+      },
+      {
+        "german": "Ich treffe Lisa heute im Café.",
+        "literal": "I meet Lisa today in the café.",
+        "note": "The simplest option."
+      },
+      {
+        "german": "Ich habe morgen einen Termin beim Zahnarzt.",
+        "literal": "I have tomorrow an appointment at the dentist.",
+        "note": "Doctor, office, business: Termin."
+      }
+    ]
+  },
+  "commonMistakes": [
+    {
+      "title": "It's not a 'term'",
+      "explanation": "For a school or university term, German says Semester or Halbjahr. For a word or concept, it's der Begriff.",
+      "wrong": "das neue Termin an der Uni",
+      "correct": "das neue Semester an der Uni"
+    },
+    {
+      "title": "At the doctor's",
+      "explanation": "With people and their practices, use bei: beim Arzt, bei der Ärztin.",
+      "wrong": "einen Termin mit dem Arzt",
+      "correct": "einen Termin beim Arzt"
+    },
+    {
+      "title": "The plural",
+      "explanation": "Add -e.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Termin"
+        },
+        {
+          "label": "More than one",
+          "value": "die Termine"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich möchte einen Termin machen.",
+      "english": "I'd like to make an appointment.",
+      "highlight": [
+        "Termin"
+      ]
+    },
+    {
+      "german": "Haben Sie morgen Vormittag einen Termin frei?",
+      "english": "Do you have a free appointment tomorrow morning?",
+      "highlight": [
+        "Termin"
+      ]
+    },
+    {
+      "german": "Ich muss meinen Termin leider absagen.",
+      "english": "Unfortunately I have to cancel my appointment.",
+      "highlight": [
+        "Termin"
+      ]
+    },
+    {
+      "german": "Der Termin ist am Montag um zehn Uhr.",
+      "english": "The appointment is on Monday at ten.",
+      "highlight": [
+        "Termin"
+      ]
+    },
+    {
+      "german": "Diese Woche habe ich viele Termine.",
+      "english": "I've got a lot of appointments this week.",
+      "highlight": [
+        "Termine."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe einen Termin ___ Arzt.",
+      "answer": "beim",
+      "fullAnswer": "Ich habe einen Termin beim Arzt.",
+      "explanation": "bei + dem = beim."
+    },
+    {
+      "id": "q2",
+      "type": "fill-in-the-blank",
+      "prompt": "Am Freitag habe ich drei ___.",
+      "answer": "Termine",
+      "fullAnswer": "Am Freitag habe ich drei Termine.",
+      "explanation": "The plural adds -e."
+    },
+    {
+      "id": "q3",
+      "type": "open",
+      "prompt": "How do you say \"I'm meeting Tom for a drink tonight\" without using Termin?",
+      "acceptedAnswers": [
+        "Ich bin heute Abend mit Tom verabredet.",
+        "Ich treffe Tom heute Abend."
+      ],
+      "explanation": "Friends: verabredet sein or treffen."
+    },
+    {
+      "type": "choice",
+      "prompt": "___ Termin",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Termin is masculine.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "You're meeting a friend for coffee. Which is better?",
+      "options": [
+        "Ich habe einen Termin mit Anna.",
+        "Ich bin mit Anna verabredet."
+      ],
+      "answer": "Ich bin mit Anna verabredet.",
+      "explanation": "Friends: verabredet sein.",
+      "id": "q5"
+    }
+  ],
+  "forms": [
+    "Termine",
+    "Termins"
+  ],
+  "memoryHook": "A Termin is a terminus: a fixed point on the calendar with someone official. Friends get a Verabredung.",
+  "signOff": "Bis zum nächsten Termin!",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste"
+}

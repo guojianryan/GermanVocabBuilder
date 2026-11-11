@@ -1,0 +1,151 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Ausweis",
+    "partOfSpeech": "noun, masculine (der Ausweis)",
+    "pronunciation": {
+      "respelling": "OWS-vice",
+      "ipa": "ˈaʊ̯sˌvaɪ̯s",
+      "notes": "W sounds like v. Plural: die Ausweise."
+    },
+    "meaning": "ID card, identity document",
+    "shortDefinition": "ID card, identity document."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Aus",
+        "meaning": "out"
+      },
+      {
+        "part": "weis",
+        "meaning": "showing",
+        "note": "From weisen, to show."
+      }
+    ],
+    "literalMeaning": "what shows (who you are)"
+  },
+  "wordFamily": [
+    {
+      "german": "der Personalausweis",
+      "english": "national ID card",
+      "type": "noun"
+    },
+    {
+      "german": "der Pass",
+      "english": "passport",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Ausweis, plural die Ausweise.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Ausweis"
+        },
+        {
+          "label": "More than one",
+          "value": "die Ausweise"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Hier ist mein Ausweis.",
+      "english": "Here's my ID.",
+      "highlight": [
+        "Ausweis."
+      ]
+    },
+    {
+      "german": "Haben Sie einen Ausweis dabei?",
+      "english": "Do you have ID on you?",
+      "highlight": [
+        "Ausweis"
+      ]
+    },
+    {
+      "german": "Ich habe meinen Ausweis verloren.",
+      "english": "I've lost my ID card.",
+      "highlight": [
+        "Ausweis"
+      ]
+    }
+  ],
+  "forms": [
+    "Ausweise",
+    "die Ausweise",
+    "der Ausweis"
+  ],
+  "memoryHook": "Ausweisen = to show who you are. Your Ausweis proves it.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Ausweis",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Ausweis is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Ausweis, zwei ___",
+      "answer": "Ausweise",
+      "fullAnswer": "ein Ausweis, zwei Ausweise",
+      "explanation": "The plural is Ausweise.",
+      "acceptedAnswers": [
+        "Ausweise"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Ausweis mean?",
+      "options": [
+        "to sleep",
+        "the evening",
+        "ID card"
+      ],
+      "answer": "ID card",
+      "explanation": "Ausweis: ID card, identity document.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "The full name of the German ID card is…",
+      "options": [
+        "der Personalausweis",
+        "der Reisepass"
+      ],
+      "answer": "der Personalausweis",
+      "explanation": "Reisepass is a passport.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Haben Sie ___ Ausweis?",
+      "options": [
+        "einen",
+        "eine"
+      ],
+      "answer": "einen",
+      "explanation": "Masculine accusative: einen.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "vorliegen",
+    "partOfSpeech": "separable verb",
+    "pronunciation": {
+      "respelling": "FOR-lee-gen",
+      "ipa": "ˈfoːɐ̯ˌliːɡn̩",
+      "notes": ""
+    },
+    "meaning": "to be available, exist (formal)",
+    "shortDefinition": "To be available, exist (formal)."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "vor",
+        "meaning": "in front"
+      },
+      {
+        "part": "liegen",
+        "meaning": "to lie"
+      }
+    ],
+    "literalMeaning": "to lie in front (of you)"
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "lieg|e … |vor"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "lieg|st … |vor"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "lieg|t … |vor"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "lieg|en … |vor"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "lieg|t … |vor"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "lieg|en … |vor"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat vorgelegen"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Ergebnisse liegen noch nicht vor.",
+      "english": "The results aren't available yet.",
+      "highlight": [
+        "liegen",
+        "vor."
+      ]
+    },
+    {
+      "german": "Hier liegt ein Missverständnis vor.",
+      "english": "There's a misunderstanding here.",
+      "highlight": [
+        "liegt",
+        "vor."
+      ]
+    },
+    {
+      "german": "Mir liegt Ihre Bewerbung vor.",
+      "english": "I have your application in front of me.",
+      "highlight": [
+        "liegt",
+        "vor."
+      ]
+    }
+  ],
+  "forms": [
+    "liege vor",
+    "liegst vor",
+    "liegt vor",
+    "liegen vor",
+    "vorgelegen"
+  ],
+  "memoryHook": "Vorliegen (formal) = be available, exist.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ … vor (vorliegen)",
+      "answer": "liegt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: liegt … vor.",
+      "acceptedAnswers": [
+        "liegt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (vorliegen, past)",
+      "answer": "vorgelegen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe vorgelegen.",
+      "acceptedAnswers": [
+        "vorgelegen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does vorliegen mean?",
+      "options": [
+        "the station",
+        "to be available",
+        "the window"
+      ],
+      "answer": "to be available",
+      "explanation": "vorliegen: to be available, exist (formal).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Register:",
+      "options": [
+        "formal",
+        "slang"
+      ],
+      "answer": "formal",
+      "explanation": "Official.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Vorliegend' (adjective) means…",
+      "options": [
+        "present, at hand",
+        "lying down"
+      ],
+      "answer": "present, at hand",
+      "explanation": "In vorliegendem Fall.",
+      "id": "q5"
+    }
+  ]
+}

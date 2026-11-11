@@ -1,0 +1,141 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Herstellung",
+    "partOfSpeech": "noun, feminine (die Herstellung)",
+    "pronunciation": {
+      "respelling": "HAIR-shte-lung",
+      "ipa": "ˈheːɐ̯ʃtɛlʊŋ",
+      "notes": "Plural: die Herstellungen."
+    },
+    "meaning": "production, manufacture",
+    "shortDefinition": "Production, manufacture."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Her",
+        "meaning": "here, forth"
+      },
+      {
+        "part": "stell",
+        "meaning": "place (stellen)"
+      },
+      {
+        "part": "ung",
+        "meaning": "noun ending"
+      }
+    ],
+    "literalMeaning": "a putting-forth"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Herstellung, plural die Herstellungen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Herstellung"
+        },
+        {
+          "label": "More than one",
+          "value": "die Herstellungen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Herstellung ist teuer.",
+      "english": "Production is expensive.",
+      "highlight": [
+        "Herstellung"
+      ]
+    },
+    {
+      "german": "Die Herstellung von Autos.",
+      "english": "The manufacture of cars.",
+      "highlight": [
+        "Herstellung"
+      ]
+    },
+    {
+      "german": "Herstellungsland: China.",
+      "english": "Country of manufacture: China.",
+      "highlight": [
+        "Herstellungsland:"
+      ]
+    }
+  ],
+  "forms": [
+    "herstellen",
+    "Hersteller"
+  ],
+  "memoryHook": "Herstellen → die Herstellung, der Hersteller.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Herstellung",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Herstellung is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Herstellung, zwei ___",
+      "answer": "Herstellungen",
+      "fullAnswer": "ein Herstellung, zwei Herstellungen",
+      "explanation": "The plural is Herstellungen.",
+      "acceptedAnswers": [
+        "Herstellungen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Herstellung mean?",
+      "options": [
+        "production",
+        "to wait",
+        "the key"
+      ],
+      "answer": "production",
+      "explanation": "Herstellung: production, manufacture.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "herstellen (produce)",
+        "stellen only"
+      ],
+      "answer": "herstellen (produce)",
+      "explanation": "Produce.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Manufacturer:",
+      "options": [
+        "der Hersteller",
+        "der Herstell"
+      ],
+      "answer": "der Hersteller",
+      "explanation": "Company.",
+      "id": "q5"
+    }
+  ]
+}

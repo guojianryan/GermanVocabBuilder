@@ -1,0 +1,169 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "erfolgen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "er-FOL-gen",
+      "ipa": "ɛɐ̯ˈfɔlɡn̩",
+      "notes": ""
+    },
+    "meaning": "to take place, occur (formal)",
+    "shortDefinition": "To take place, occur (formal)."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "er",
+        "meaning": "prefix"
+      },
+      {
+        "part": "folgen",
+        "meaning": "to follow"
+      }
+    ],
+    "literalMeaning": "to follow (as a result)"
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "erfolg|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "erfolg|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "erfolg|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "erfolg|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "erfolg|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "erfolg|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): ist erfolgt"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Zahlung erfolgt per Überweisung.",
+      "english": "Payment is made by bank transfer.",
+      "highlight": [
+        "erfolgt"
+      ]
+    },
+    {
+      "german": "Die Lieferung erfolgt innerhalb von drei Tagen.",
+      "english": "Delivery takes place within three days.",
+      "highlight": [
+        "erfolgt"
+      ]
+    },
+    {
+      "german": "Eine Antwort ist nicht erfolgt.",
+      "english": "No reply has been given.",
+      "highlight": [
+        "ist",
+        "erfolgt."
+      ]
+    }
+  ],
+  "forms": [
+    "Erfolg"
+  ],
+  "memoryHook": "Erfolgen (formal) = take place. Der Erfolg = success.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (erfolgen)",
+      "answer": "erfolgt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: erfolgt.",
+      "acceptedAnswers": [
+        "erfolgt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich bin schon ___. (erfolgen, past)",
+      "answer": "erfolgt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: bin erfolgt.",
+      "acceptedAnswers": [
+        "erfolgt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does erfolgen mean?",
+      "options": [
+        "to take place",
+        "the flower",
+        "the shop"
+      ],
+      "answer": "to take place",
+      "explanation": "erfolgen: to take place, occur (formal).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Register:",
+      "options": [
+        "formal (official texts)",
+        "everyday"
+      ],
+      "answer": "formal (official texts)",
+      "explanation": "Formal.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Everyday synonym:",
+      "options": [
+        "passieren, stattfinden",
+        "folgen"
+      ],
+      "answer": "passieren, stattfinden",
+      "explanation": "Happen.",
+      "id": "q5"
+    }
+  ]
+}

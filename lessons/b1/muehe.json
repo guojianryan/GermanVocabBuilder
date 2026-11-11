@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Mühe",
+    "partOfSpeech": "noun, feminine (die Mühe)",
+    "pronunciation": {
+      "respelling": "MÜ-e",
+      "ipa": "ˈmyːə",
+      "notes": "Plural: die Mühen."
+    },
+    "meaning": "effort, trouble",
+    "shortDefinition": "Effort, trouble."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Mühe, plural die Mühen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Mühe"
+        },
+        {
+          "label": "More than one",
+          "value": "die Mühen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Gib dir Mühe!",
+      "english": "Make an effort!",
+      "highlight": [
+        "Mühe!"
+      ]
+    },
+    {
+      "german": "Das ist nicht der Mühe wert.",
+      "english": "It's not worth the trouble.",
+      "highlight": [
+        "Mühe"
+      ]
+    },
+    {
+      "german": "Mit Mühe hat er es geschafft.",
+      "english": "He managed it with difficulty.",
+      "highlight": [
+        "Mühe"
+      ]
+    }
+  ],
+  "forms": [
+    "Mühen",
+    "die Mühen",
+    "die Mühe"
+  ],
+  "memoryHook": "Die Mühe. Sich Mühe geben = try hard.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Mühe",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Mühe is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Mühe, zwei ___",
+      "answer": "Mühen",
+      "fullAnswer": "ein Mühe, zwei Mühen",
+      "explanation": "The plural is Mühen.",
+      "acceptedAnswers": [
+        "Muehen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Mühe mean?",
+      "options": [
+        "the window",
+        "effort",
+        "the bill"
+      ],
+      "answer": "effort",
+      "explanation": "Mühe: effort, trouble.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Sich Mühe geben' means…",
+      "options": [
+        "to make an effort",
+        "to give trouble"
+      ],
+      "answer": "to make an effort",
+      "explanation": "Try hard.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "H is…",
+      "options": [
+        "silent",
+        "pronounced"
+      ],
+      "answer": "silent",
+      "explanation": "MÜ-e.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+ "schemaVersion": "1.4",
+ "language": "de",
+ "explanationLanguage": "en",
+ "level": "A1",
+ "levelSource": "Goethe-Zertifikat A1 Wortliste",
+ "lessonType": "card",
+ "word": {
+  "headword": "Familienname",
+  "partOfSpeech": "noun, masculine (der Familienname)",
+  "pronunciation": {
+   "respelling": "fa-MEE-lyen-naa-me",
+   "ipa": "faˈmiːli̯ənˌnaːmə",
+   "notes": "Plural: die Familiennamen."
+  },
+  "meaning": "surname, family name",
+  "shortDefinition": "Surname, family name."
+ },
+ "wordFamily": [
+  {
+   "german": "der Vorname",
+   "english": "first name",
+   "type": "noun"
+  },
+  {
+   "german": "der Nachname",
+   "english": "surname",
+   "type": "noun"
+  }
+ ],
+ "commonMistakes": [
+  {
+   "title": "Gender and plural",
+   "explanation": "Der Familienname, plural die Familiennamen.",
+   "forms": [
+    {
+     "label": "One",
+     "value": "der Familienname"
+    },
+    {
+     "label": "More than one",
+     "value": "die Familiennamen"
+    }
+   ]
+  }
+ ],
+ "sampleSentences": [
+  {
+   "german": "Wie ist Ihr Familienname?",
+   "english": "What's your surname?",
+   "highlight": [
+    "Familienname?"
+   ]
+  },
+  {
+   "german": "Schreiben Sie bitte Ihren Familiennamen.",
+   "english": "Please write your surname.",
+   "highlight": [
+    "Familiennamen."
+   ]
+  },
+  {
+   "german": "Mein Familienname ist Schmidt.",
+   "english": "My surname is Schmidt.",
+   "highlight": [
+    "Familienname"
+   ]
+  }
+ ],
+ "forms": [
+  "Familiennamen",
+  "die Familiennamen",
+  "der Familienname"
+ ],
+ "memoryHook": "Familie + Name. The first name is der Vorname.",
+ "signOff": "Gut gemacht!",
+ "quiz": [
+  {
+   "type": "choice",
+   "prompt": "___ Familienname",
+   "options": [
+    "der",
+    "die",
+    "das"
+   ],
+   "answer": "der",
+   "explanation": "Familienname is masculine.",
+   "id": "q1"
+  },
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "ein Familienname, zwei ___",
+   "answer": "Familiennamen",
+   "fullAnswer": "ein Familienname, zwei Familiennamen",
+   "explanation": "The plural is Familiennamen.",
+   "acceptedAnswers": [
+    "Familiennamen"
+   ],
+   "id": "q2"
+  },
+  {
+   "type": "choice",
+   "prompt": "What does Familienname mean?",
+   "options": [
+    "to help",
+    "surname",
+    "hot"
+   ],
+   "answer": "surname",
+   "explanation": "Familienname: surname, family name.",
+   "id": "q3"
+  },
+  {
+   "type": "choice",
+   "prompt": "On a form, Familienname = …",
+   "options": [
+    "surname",
+    "first name"
+   ],
+   "answer": "surname",
+   "explanation": "First name: Vorname.",
+   "id": "q4"
+  },
+  {
+   "type": "choice",
+   "prompt": "Another word for Familienname:",
+   "options": [
+    "Nachname",
+    "Spitzname"
+   ],
+   "answer": "Nachname",
+   "explanation": "Nachname = surname.",
+   "id": "q5"
+  }
+ ],
+ "etymology": {
+  "title": "Where it comes from",
+  "parts": [
+   {
+    "part": "Familie",
+    "meaning": "family"
+   },
+   {
+    "part": "n",
+    "meaning": "linking letter"
+   },
+   {
+    "part": "name",
+    "meaning": "name"
+   }
+  ],
+  "literalMeaning": "family name"
+ }
+}

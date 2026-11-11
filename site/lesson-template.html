@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>langweilig Lesson</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&display=swap" rel="stylesheet">
+<style>
+/* Layout: one left-aligned reading column on a school-exercise-book page.
+   Squared paper (Karopapier) only behind the headword; royal-blue ink for German,
+   teacher's red pen for mistakes. The headword's "weil" stretches: a long while. */
+:root {
+  --paper: #F6F8FA;
+  --ink: #18233A;
+  --muted: #56627A;
+  --blue: #2340B0;      /* Königsblau fountain-pen ink */
+  --red: #C42B2B;       /* correction pen */
+  --rule: #D3DEEA;      /* grid and table lines */
+  --tint: #E9EEF7;
+  --display: "Jost", "Futura", "Century Gothic", system-ui, sans-serif;
+  --body: "Literata", "Iowan Old Style", Georgia, serif;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #111827; --ink: #E5EAF3; --muted: #9AA6BD; --blue: #93A8FF;
+    --red: #FF8A80; --rule: #2A3650; --tint: #1A2440; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #111827; --ink: #E5EAF3; --muted: #9AA6BD; --blue: #93A8FF;
+  --red: #FF8A80; --rule: #2A3650; --tint: #1A2440; color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; background: var(--paper); color: var(--ink);
+  font-family: var(--body); font-size: 1.075rem; line-height: 1.7;
+}
+.sheet { max-width: 46rem; margin: 0 auto; padding: 0 clamp(16px, 5vw, 32px) 4rem; }
+p { margin: 0; }
+h2, h3 { font-family: var(--display); text-wrap: balance; margin: 0; line-height: 1.2; }
+h2 { font-size: 1.65rem; font-weight: 600; }
+h3 { font-size: 1.15rem; font-weight: 600; }
+.de { color: var(--blue); }
+:focus-visible { outline: 2px solid var(--blue); outline-offset: 3px; border-radius: 2px; }
+
+/* top bar */
+.bar { display: flex; flex-wrap: wrap; gap: .75rem 1rem; align-items: center; justify-content: space-between;
+  padding: 1.1rem 0; font-family: var(--display); font-size: .95rem; color: var(--muted); }
+.bar-actions { display: flex; gap: .5rem; flex-wrap: wrap; }
+.btn { font: 500 .92rem var(--display); color: var(--ink); background: transparent;
+  border: 1.5px solid var(--rule); border-radius: 6px; padding: .4rem .85rem; cursor: pointer; }
+.btn:hover { border-color: var(--blue); color: var(--blue); }
+.btn.primary { background: var(--blue); border-color: var(--blue); color: var(--paper); }
+.btn.primary:hover { filter: brightness(1.1); color: var(--paper); }
+#file { position: absolute; width: 1px; height: 1px; opacity: 0; }
+#file:focus-visible + .btn { outline: 2px solid var(--blue); outline-offset: 3px; }
+
+/* lesson picker (when the page holds several lessons) */
+.picker { display: flex; flex-wrap: wrap; gap: .35rem 1.25rem; padding: 0 0 1rem; font-family: var(--display); font-size: 1.05rem; }
+.picker[hidden], .finder[hidden] { display: none; }
+.picker { max-height: 9.5rem; overflow-y: auto; }
+.finder { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem 1rem; padding-bottom: .75rem; font-family: var(--display); }
+.finder label { color: var(--muted); font-size: .95rem; }
+.finder input { font: 400 1rem var(--display); color: var(--ink); background: var(--paper); border: 1.5px solid var(--rule);
+  border-radius: 6px; padding: .4rem .7rem; width: min(100%, 18rem); }
+.finder input:focus-visible { outline: none; border-color: var(--blue); box-shadow: 0 0 0 3px var(--tint); }
+#find-count { color: var(--muted); font-size: .9rem; }
+.picker a { color: var(--muted); text-decoration: none; padding: .1rem 0; border-bottom: 2px solid transparent; }
+.picker a:hover { color: var(--blue); }
+.picker a[aria-current="page"] { color: var(--blue); border-bottom-color: var(--blue); }
+.picker .card-word { font-style: italic; }
+
+/* hero */
+.hero {
+  margin: 0 calc(-1 * clamp(16px, 5vw, 32px));
+  padding: clamp(2rem, 6vw, 3.5rem) clamp(16px, 5vw, 32px) 2.5rem;
+  background-image:
+    linear-gradient(var(--rule) 1px, transparent 1px),
+    linear-gradient(90deg, var(--rule) 1px, transparent 1px);
+  background-size: 22px 22px;
+  background-position: -1px -1px;
+  border-bottom: 1px solid var(--rule);
+  display: grid; gap: .9rem; min-width: 0;
+}
+.pos { font-family: var(--display); color: var(--muted); font-size: 1rem; }
+.headword {
+  font-family: var(--display); font-weight: 500; margin: 0;
+  font-size: clamp(3rem, 13vw, 7.25rem); line-height: 1.35; letter-spacing: -.02em;
+  /* Reserve room for serif ascenders, descenders and the release lift. */
+  min-width: 0; max-width: 100%; min-height: 1.7em; box-sizing: border-box;
+  white-space: nowrap; overflow-x: auto; overflow-y: hidden; padding: .15em 0 .2em;
+}
+.seg.stretch { color: var(--blue); letter-spacing: .32em; margin-right: -.06em;
+  animation: stretch 2.6s cubic-bezier(.45,0,.2,1) .3s both; }
+@keyframes stretch { from { letter-spacing: -.02em; } to { letter-spacing: .32em; } }
+@media (max-width: 30rem) { .seg.stretch { letter-spacing: .14em; animation-name: stretch-sm; } }
+@keyframes stretch-sm { from { letter-spacing: -.02em; } to { letter-spacing: .14em; } }
+.seg.arrive { display: inline-block; color: var(--blue);
+  animation: arrive 1.8s cubic-bezier(.15,.7,.2,1) .3s both; }
+@keyframes arrive { from { transform: translateX(1.1em); } to { transform: none; } }
+.seg.release { display:inline-block; animation:release 1.5s cubic-bezier(.3,.7,.3,1) 1.2s both; }
+@keyframes release {
+  0% { color:var(--red);font-weight:600;transform:translateY(0); }
+  50% { transform:translateY(-.06em); }
+  100% { color:var(--ink);font-weight:500;transform:translateY(0); }
+}
+.seg.release-cue { animation:release-cue .8s ease-in-out .5s both; }
+@keyframes release-cue { 0%,100% { color:var(--ink); } 50% { color:var(--blue); } }
+.seg.rise { display: inline-block; color: var(--blue);
+  animation: rise 1.8s cubic-bezier(.15,.7,.2,1) .3s both; }
+@keyframes rise { from { transform: translateY(.35em); } to { transform: none; } }
+.seg.turn { display: inline-block; color: var(--blue);
+  animation: turn 1.6s cubic-bezier(.45,0,.2,1) .3s both; }
+@keyframes turn { from { transform: perspective(6em) rotateY(0deg); } to { transform: perspective(6em) rotateY(360deg); } }
+@media (prefers-reduced-motion: reduce) {
+ .seg.stretch,.seg.arrive,.seg.release,.seg.release-cue,.seg.rise,.seg.turn { animation:none; }
+ .seg.stretch { color:var(--blue); }
+ .seg.release,.seg.release-cue { color:var(--ink);font-weight:500;transform:none; }
+}
+.meaning { font-size: clamp(1.5rem, 4vw, 2rem); font-style: italic; line-height: 1.3; }
+.say { display: flex; flex-wrap: wrap; gap: .4rem 1.5rem; color: var(--muted); font-size: 1rem; }
+.say b { font-family: var(--display); font-weight: 500; color: var(--ink); }
+.say-note { color: var(--muted); font-size: .95rem; max-width: 36rem; }
+
+/* sections */
+main { display: grid; gap: 3.5rem; padding-top: 2.75rem; }
+section { display: grid; gap: 1.1rem; }
+.prose { display: grid; gap: .9rem; max-width: 40rem; }
+
+/* etymology equation */
+.equation { display: flex; flex-wrap: wrap; align-items: flex-start; gap: .5rem 1rem; }
+.term { display: grid; gap: .15rem; }
+.term .word { font-family: var(--display); font-size: clamp(1.8rem, 6vw, 2.5rem); line-height: 1.1; color: var(--blue); }
+.term .gloss { font-size: .95rem; color: var(--muted); max-width: 11rem; line-height: 1.45; }
+.op { font-family: var(--display); font-size: clamp(1.8rem, 6vw, 2.5rem); line-height: 1.1; color: var(--muted); }
+.literal { font-size: 1.15rem; }
+.literal q { font-family: var(--display); font-weight: 500; color: var(--blue); quotes: "“" "”"; }
+.aside { border-left: 3px solid var(--blue); padding: .2rem 0 .2rem 1.1rem; display: grid; gap: .4rem; max-width: 40rem; }
+
+/* word family */
+.table-wrap { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; min-width: 30rem; }
+th, td { text-align: left; padding: .7rem 1rem .7rem 0; border-bottom: 1px solid var(--rule); vertical-align: top; }
+th { font-family: var(--display); font-weight: 500; color: var(--muted); font-size: .95rem; }
+td:first-child { font-family: var(--display); font-weight: 500; font-size: 1.1rem; color: var(--blue); white-space: nowrap; }
+td .lit { color: var(--muted); font-style: italic; }
+
+/* form tables (declension, conjugation) */
+.decl { min-width: 32rem; }
+.decl th[scope="row"] { font-family: var(--display); font-weight: 500; color: var(--ink); font-size: 1rem; }
+.decl th[scope="row"] span { display: block; font-family: var(--body); font-weight: 400; font-size: .85rem; color: var(--muted); }
+.decl td, .decl td:first-child { font-family: var(--display); font-size: 1.35rem; color: var(--ink); font-weight: 400; }
+.decl mark { font-weight: 500; }
+.patterns { margin: 0; padding-left: 1.2rem; display: grid; gap: .45rem; max-width: 40rem; }
+.patterns li::marker { color: var(--blue); }
+
+/* cognates */
+.cognates { display: flex; flex-wrap: wrap; gap: 1rem 2.25rem; }
+.cognate { display: grid; gap: .1rem; }
+.cognate .lang { font-size: .9rem; color: var(--muted); }
+.cognate .word { font-family: var(--display); font-size: 1.6rem; line-height: 1.15; color: var(--blue); }
+.cognate .gloss { font-size: .9rem; color: var(--muted); max-width: 12rem; line-height: 1.4; }
+
+/* headword that cycles through its forms */
+.seg.ending { color: var(--blue); }
+
+/* the trap: teacher's red pen */
+.trap { display: grid; gap: 1.25rem; padding: 1.5rem; background: var(--tint); border-radius: 4px; }
+.wrong-line { display: flex; flex-wrap: wrap; align-items: baseline; gap: .3rem 1rem; }
+.struck { font-family: var(--display); font-size: 1.6rem; text-decoration: line-through; text-decoration-color: var(--red);
+  text-decoration-thickness: 3px; }
+.red-note { color: var(--red); font-style: italic; }
+.right-list { list-style: none; margin: 0; padding: 0; display: grid; gap: .85rem; }
+.right-list li { display: grid; gap: .1rem; }
+.right-list .de { font-family: var(--display); font-size: 1.35rem; font-weight: 500; }
+.right-list .note { color: var(--muted); font-size: .97rem; }
+
+/* mistakes */
+.mistakes { display: grid; gap: 2rem; }
+.mistake { display: grid; gap: .55rem; }
+.fix { display: flex; flex-wrap: wrap; gap: .3rem 1.5rem; font-family: var(--display); font-size: 1.15rem; }
+.fix .x { text-decoration: line-through; text-decoration-color: var(--red); text-decoration-thickness: 2px; color: var(--muted); }
+.fix .ok { color: var(--blue); font-weight: 500; }
+.examples { list-style: none; padding: 0; margin: 0; display: grid; gap: .35rem; }
+.examples .de { font-family: var(--display); font-size: 1.15rem; }
+.decl mark, .examples mark { background: none; color: var(--blue); font-weight: 600; border-bottom: 2px solid var(--blue); }
+.examples .en { color: var(--muted); }
+.forms { display: flex; flex-wrap: wrap; gap: .75rem 2.25rem; }
+.forms div { display: grid; }
+.forms span { font-size: .9rem; color: var(--muted); }
+.forms b { font-family: var(--display); font-weight: 500; font-size: 1.2rem; color: var(--blue); }
+
+/* sentences */
+.sent-head { display: flex; flex-wrap: wrap; gap: .75rem; justify-content: space-between; align-items: baseline; }
+.sentences { list-style: none; margin: 0; padding: 0; display: grid; }
+.sentences li { padding: .85rem 0; border-bottom: 1px solid var(--rule); display: grid; gap: .15rem; }
+.sentences li:first-child { border-top: 1px solid var(--rule); }
+.sentences .de { font-size: 1.15rem; color: var(--ink); }
+.sentences .hl { font-weight: 600; }
+.sentences .en { color: var(--muted); font-style: italic; }
+.sentences.hide-en .en { visibility: hidden; }
+.sentences.hide-en li:hover .en, .sentences.hide-en li:focus-within .en { visibility: visible; }
+.sentences li[tabindex]:focus-visible { outline-offset: 0; }
+.hl { color: var(--blue); }
+
+/* quiz */
+.quiz { list-style: none; margin: 0; padding: 0; display: grid; gap: 1.75rem; counter-reset: q; }
+.quiz > li { display: grid; gap: .7rem; grid-template-columns: 2rem 1fr; }
+.quiz > li::before { counter-increment: q; content: counter(q); font-family: var(--display); font-weight: 600;
+  color: var(--blue); font-size: 1.2rem; line-height: 1.5; }
+.quiz .body { display: grid; gap: .7rem; }
+.row { display: flex; flex-wrap: wrap; gap: .5rem; align-items: center; }
+.row input { font: 500 1.05rem var(--display); color: var(--ink); background: var(--paper);
+  border: 1.5px solid var(--rule); border-radius: 6px; padding: .4rem .7rem; width: 9rem; }
+.row input:focus-visible { border-color: var(--blue); outline: none; box-shadow: 0 0 0 3px var(--tint); }
+.feedback { font-size: .98rem; }
+.btn.opt { font-size: 1.05rem; min-width: 3.5rem; }
+.btn.opt.picked-good { border-color: var(--blue); background: var(--tint); color: var(--blue); }
+.btn.opt.picked-bad { border-color: var(--red); color: var(--red); text-decoration: line-through; }
+.feedback.good { color: var(--blue); }
+.feedback.bad { color: var(--red); }
+.answer { display: grid; gap: .25rem; padding-left: 1rem; border-left: 3px solid var(--blue); }
+.answer .de { font-family: var(--display); font-weight: 500; font-size: 1.15rem; }
+.answer .note { color: var(--muted); }
+.answer[hidden] { display: none; }
+
+/* hook */
+.hook { padding-top: 2.5rem; border-top: 1px solid var(--rule); display: grid; gap: 1rem; }
+.hook p.big { font-family: var(--display); font-size: clamp(1.35rem, 4vw, 1.75rem); line-height: 1.35; text-wrap: balance; }
+.signoff { color: var(--blue); font-style: italic; font-size: 1.2rem; }
+
+/* json view / errors */
+.panel { border: 1.5px solid var(--rule); border-radius: 6px; padding: 1rem; overflow: auto; max-height: 28rem;
+  font: .85rem/1.5 ui-monospace, "SF Mono", Menlo, Consolas, monospace; white-space: pre; margin: 0 0 1.5rem; }
+.panel[hidden] { display: none; }
+.error { border-left: 3px solid var(--red); padding: .5rem 1rem; color: var(--red); margin-bottom: 1.5rem; }
+</style>
+</head>
+<body>
+<div class="sheet">
+  <div class="bar">
+    <span id="pair">German vocabulary</span>
+    <div class="bar-actions">
+      <input type="file" id="file" accept=".json,application/json">
+      <label for="file" class="btn">Open lesson file</label>
+      <button type="button" class="btn" id="toggle-json" aria-expanded="false" aria-controls="json-view">Show JSON</button>
+    </div>
+  </div>
+  <div id="finder" class="finder" hidden><label for="find">Find a word</label><input id="find" type="search" autocomplete="off" spellcheck="false" placeholder="e.g. fährt, Wohnung, mit"><span id="find-count"></span></div>
+  <nav id="picker" class="picker" aria-label="Lessons" hidden></nav>
+  <div id="error" class="error" role="alert" hidden></div>
+  <pre id="json-view" class="panel" hidden></pre>
+  <div id="lesson"></div>
+</div>
+
+<script type="application/json" id="lesson-data">__LESSON_JSON__</script>
+<script>
+(function () {
+  "use strict";
+
+  /* tiny element builder */
+  function h(tag, attrs) {
+    var el = document.createElement(tag);
+    if (attrs) for (var k in attrs) {
+      if (attrs[k] == null || attrs[k] === false) continue;
+      if (k === "class") el.className = attrs[k];
+      else if (k === "text") el.textContent = attrs[k];
+      else if (k.slice(0, 2) === "on") el.addEventListener(k.slice(2), attrs[k]);
+      else el.setAttribute(k, attrs[k] === true ? "" : attrs[k]);
+    }
+    for (var i = 2; i < arguments.length; i++) add(el, arguments[i]);
+    return el;
+  }
+  function add(el, c) {
+    if (c == null || c === false) return;
+    if (Array.isArray(c)) { c.forEach(function (x) { add(el, x); }); return; }
+    el.appendChild(typeof c === "string" ? document.createTextNode(c) : c);
+  }
+  function arr(x) { return Array.isArray(x) ? x : []; }
+
+  /* split the headword into the etymology parts: lang + weil + ig */
+  function segments(word, parts) {
+    var lower = word.toLowerCase(), pos = 0, out = [];
+    for (var i = 0; i < parts.length; i++) {
+      var p = String(parts[i].part || "").replace(/^-+|-+$/g, "").toLowerCase();
+      var len = 0;
+      for (var n = p.length; n > 0; n--) {
+        if (lower.substr(pos, n) === p.slice(0, n)) { len = n; break; }
+      }
+      if (!len) return [word];
+      out.push(word.substr(pos, len)); pos += len;
+    }
+    if (pos < word.length) out[out.length - 1] += word.slice(pos);
+    return out;
+  }
+
+  /* mark adjective endings: "ein langweiliger Film" + "er" */
+  function highlightEnding(text, stem, ending) {
+    if (!ending) return text;
+    var re = new RegExp("(" + stem.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + ")(" + ending + ")(?=\\s|$|[.,!?])", "i");
+    var m = text.match(re);
+    if (!m) {
+      /* not an ending: highlight the word itself, e.g. "am" in "die Ankunft am Flughafen" */
+      var w = text.split(/(\s+)/);
+      var at = w.findIndex(function (t) { return t.toLowerCase() === ending.toLowerCase(); });
+      if (at < 0) return text;
+      return [w.slice(0, at).join(""), h("mark", { text: w[at] }), w.slice(at + 1).join("")];
+    }
+    var i = m.index + m[1].length;
+    return [text.slice(0, i), h("mark", { text: m[2] }), text.slice(i + m[2].length)];
+  }
+
+  /* color every form of the headword family inside a German sentence */
+  function inkFamily(text, stems) {
+    if (!stems.length) return text;
+    var re = new RegExp("(\\S*(?:" + stems.join("|") + ")\\S*)", "gi");
+    var out = [], last = 0, m;
+    while ((m = re.exec(text))) {
+      var w = m[1].replace(/[.,!?…]+$/, "");
+      out.push(text.slice(last, m.index), h("span", { class: "hl", text: w }));
+      last = m.index + w.length;
+    }
+    out.push(text.slice(last));
+    return out;
+  }
+
+  /* color exactly the words a sentence lists in "highlight", e.g. kommst … an */
+  function inkWords(text, words) {
+    var want = words.map(function (w) { return w.toLowerCase().replace(/[.,!?…]+$/, ""); });
+    return text.split(/(\s+)/).map(function (tok) {
+      var m = tok.match(/^(.*?)([.,!?…]*)$/);
+      if (want.indexOf(m[1].toLowerCase()) < 0) return tok;
+      return [h("span", { class: "hl", text: m[1] }), m[2]];
+    });
+  }
+
+  function render(L) {
+    var root = document.getElementById("lesson");
+    root.textContent = "";
+    var W = L.word || {};
+    var ety = L.etymology || {};
+    var parts = arr(ety.parts);
+    var head = W.headword || "";
+    document.title = head ? head + " Lesson" : "Vocabulary Lesson";
+
+    var names = { de: "German", en: "English", fr: "French", es: "Spanish" };
+    document.getElementById("pair").textContent =
+      (names[L.language] || "Vocabulary") + " vocabulary" + (L.level ? ", level " + L.level : "") +
+      (L.lessonType === "card" ? ", short card" : "");
+
+    /* hero */
+    var segs = parts.length ? segments(head, parts) : [head];
+    /* Explicit settings win, including none/unknown; otherwise animate a valid breakdown. */
+    var fx = segs.map(function () { return ""; });
+    if (segs.length === parts.length) parts.forEach(function (p, i) {
+      if (/^(stretch|arrive|release|rise|turn)$/.test(p.emphasis || "")) fx[i] = p.emphasis;
+    });
+    var explicitEmphasis = parts.some(function (p) { return p.emphasis != null; });
+    if (L.lessonType !== "group" && !explicitEmphasis && segs.length === parts.length && segs.length >= 2) {
+      fx[1] = segs.length === 2 ? "arrive" : "stretch";
+    }
+    var cue = fx.indexOf("release") - 1;
+    var P = W.pronunciation || {};
+    root.appendChild(h("header", { class: "hero" },
+      W.partOfSpeech && h("p", { class: "pos", text: W.partOfSpeech }),
+      h("h1", { class: "headword", lang: L.language || "de", "aria-label": head },
+        segs.map(function (s, i) { return h("span", { class: "seg" + (/^(stretch|arrive|release|rise|turn)$/.test(fx[i]) ? " " + fx[i] : (i === cue ? " release-cue" : "")), "aria-hidden": "true", text: s }); })),
+      W.meaning && h("p", { class: "meaning", text: W.meaning }),
+      (P.respelling || P.ipa) && h("p", { class: "say" },
+        P.respelling && h("span", null, "Say it ", h("b", { text: P.respelling })),
+        P.ipa && h("span", null, "IPA ", h("b", { text: "/" + P.ipa + "/" }))),
+      P.notes && h("p", { class: "say-note", text: P.notes })
+    ));
+
+    var main = h("main");
+    root.appendChild(main);
+
+    /* intro */
+    if (L.intro) main.appendChild(h("section", null,
+      h("h2", { text: L.intro.title }),
+      h("div", { class: "prose" }, arr(L.intro.paragraphs).map(function (p) { return h("p", { text: p }); }))));
+
+    /* forms cycle in the hero: ein → eine → einen … → ein */
+    var cyc = arr(W.cycle);
+    if (cyc.length > 1 && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      var h1 = root.querySelector(".headword");
+      h1.textContent = "";
+      var stemEl = h("span", { class: "seg", "aria-hidden": "true", text: head });
+      var endEl = h("span", { class: "seg ending", "aria-hidden": "true" });
+      h1.appendChild(stemEl); h1.appendChild(endEl);
+      var step = 0;
+      var timer = setInterval(function () {
+        step++;
+        var f = cyc[step] || head;
+        var stem = f.toLowerCase().indexOf(head.toLowerCase()) === 0 ? head : "";
+        stemEl.textContent = stem || f;
+        endEl.textContent = stem ? f.slice(head.length) : "";
+        if (step >= cyc.length - 1) clearInterval(timer);
+      }, 650);
+    }
+
+    /* etymology */
+    if (parts.length || ety.cognates || ety.summary) {
+      var eq = [];
+      parts.forEach(function (p, i) {
+        if (i) eq.push(h("span", { class: "op", "aria-hidden": "true", text: "+" }));
+        eq.push(h("div", { class: "term" },
+          h("span", { class: "word", lang: "de", text: p.part }),
+          h("span", { class: "gloss" }, h("b", { text: p.meaning }), p.note ? ". " + p.note : "")));
+      });
+      var b = ety.bonus;
+      main.appendChild(h("section", null,
+        h("h2", { text: ety.title || "Where it comes from" }),
+        eq.length > 0 && h("div", { class: "equation" }, eq),
+        ety.literalMeaning && h("p", { class: "literal" }, "Put together: ", h("q", { text: ety.literalMeaning }), ety.summary ? ". " + ety.summary : ""),
+        !ety.literalMeaning && ety.summary && h("p", { class: "prose", text: ety.summary }),
+        ety.cognates && h("div", { class: "cognates", "aria-label": "Related words" }, ety.cognates.map(function (c) {
+          return h("div", { class: "cognate" },
+            h("span", { class: "lang", text: c.language }),
+            h("span", { class: "word", text: c.word }),
+            c.note && h("span", { class: "gloss", text: c.note }));
+        })),
+        b && h("div", { class: "aside" },
+          h("h3", null, (b.label || "Bonus word") + ": ", h("span", { class: "de", lang: "de", text: b.word })),
+          h("p", null, h("b", { text: b.meaning }), b.literalMeaning ? ", literally “" + b.literalMeaning + "”. " : ". ", b.note || ""))));
+    }
+
+    /* group lessons: the members of the set */
+    var mem = arr(L.members);
+    if (mem.length) main.appendChild(h("section", null,
+      h("h2", { text: "The whole set" }),
+      h("div", { class: "table-wrap" }, h("table", { class: "members" },
+        h("thead", null, h("tr", null, h("th", { scope: "col", text: "German" }), h("th", { scope: "col", text: "Meaning" }), h("th", { scope: "col", text: "Note" }))),
+        h("tbody", null, mem.map(function (m) {
+          return h("tr", null,
+            h("td", { lang: "de" }, m.german, m.plural && h("span", { class: "lit" }, " (plural " + m.plural + ")")),
+            h("td", { text: m.english }),
+            h("td", { text: m.note || "" }));
+        }))))));
+
+    /* form tables: a cell "ein|en" shows stem ein with the ending en highlighted */
+    arr(L.tables).forEach(function (t) {
+      var cell = function (v) {
+        var p = String(v).split("|");
+        return p.length > 2 ? [p[0], h("mark", { text: p[1] }), p.slice(2).join("")] : p.length > 1 ? [p[0], h("mark", { text: p[1] })] : String(v);
+      };
+      main.appendChild(h("section", null,
+        h("h2", { text: t.title }),
+        t.intro && h("p", { class: "prose", text: t.intro }),
+        h("div", { class: "table-wrap" }, h("table", { class: "decl" },
+          h("thead", null, h("tr", null, h("th", { scope: "col" }, ""),
+            arr(t.columns).map(function (c) { return h("th", { scope: "col", text: c }); }))),
+          h("tbody", null, arr(t.rows).map(function (r) {
+            return h("tr", null,
+              h("th", { scope: "row" }, r.label, r.hint && h("span", { text: r.hint })),
+              arr(r.cells).map(function (v) { return h("td", { lang: "de" }, cell(v)); }));
+          })))),
+        arr(t.notes).length > 0 && h("ul", { class: "patterns" }, t.notes.map(function (n) { return h("li", { text: n }); }))));
+    });
+
+    /* word family */
+    var fam = arr(L.wordFamily);
+    if (fam.length) main.appendChild(h("section", null,
+      h("h2", { text: "The word family" }),
+      h("div", { class: "table-wrap" }, h("table", null,
+        h("thead", null, h("tr", null, h("th", { scope: "col", text: "German" }), h("th", { scope: "col", text: "Meaning" }), h("th", { scope: "col", text: "Word type" }))),
+        h("tbody", null, fam.map(function (f) {
+          return h("tr", null,
+            h("td", { lang: "de", text: f.german }),
+            h("td", null, f.english, f.literal && h("span", { class: "lit" }, " (literally “" + f.literal + "”)")),
+            h("td", { text: f.type || "" }));
+        }))))));
+
+    /* key trap */
+    var T = L.keyTrap;
+    if (T) main.appendChild(h("section", null,
+      h("h2", { text: T.title }),
+      h("div", { class: "trap" },
+        T.wrong && h("div", { class: "wrong-line" },
+          h("span", { class: "struck", lang: "de", text: T.wrong.german }),
+          h("span", { class: "red-note", text: T.wrong.verdict || ("This means “" + T.wrong.actualMeaning + "”") })),
+        T.explanation && h("p", { text: T.explanation }),
+        h("ul", { class: "right-list", "aria-label": "Correct ways to say it" }, arr(T.correct).map(function (c) {
+          return h("li", null,
+            h("span", { class: "de", lang: "de", text: c.german }),
+            h("span", { class: "note" }, c.literal ? "Literally “" + c.literal + "” " : "", c.note || ""));
+        })))));
+
+    /* common mistakes */
+    var ms = arr(L.commonMistakes);
+    if (ms.length) main.appendChild(h("section", null,
+      h("h2", { text: T ? "Other common slip-ups" : "Good to know" }),
+      h("div", { class: "mistakes" }, ms.map(function (m) {
+        return h("div", { class: "mistake" },
+          h("h3", { text: m.title }),
+          m.explanation && h("p", { text: m.explanation }),
+          (m.wrong || m.correct) && h("p", { class: "fix", lang: "de" },
+            m.wrong && h("span", { class: "x", "aria-label": "Wrong: " + m.wrong, text: m.wrong }),
+            m.correct && h("span", { class: "ok", text: m.correct })),
+          m.examples && h("ul", { class: "examples" }, m.examples.map(function (e) {
+            return h("li", null, h("span", { class: "de", lang: "de" }, highlightEnding(e.german, head, e.highlight)),
+              h("span", { class: "en", text: "  " + e.english }));
+          })),
+          m.forms && h("div", { class: "forms" },
+            (Array.isArray(m.forms) ? m.forms.map(function (f) { return [f.value, f.label]; })
+              : [["positive", "Basic"], ["comparative", "More"], ["superlative", "Most"]].map(function (k) { return [m.forms[k[0]], k[1]]; }))
+            .map(function (k) {
+              return k[0] && h("div", null, h("span", { text: k[1] }), h("b", { lang: "de", text: k[0] }));
+            })));
+      }))));
+
+    /* sample sentences */
+    var ss = arr(L.sampleSentences);
+    if (ss.length) {
+      var stems = [];
+      if (head) stems.push(head.slice(0, Math.max(4, head.length - 2)).replace(/[^\wäöüß]/gi, ""));
+      fam.forEach(function (f) {
+        var w = String(f.german).split(" ").pop().toLowerCase();
+        if (w.length > 5) stems.push(w.slice(0, -2));
+      });
+      stems = stems.filter(function (s, i) { return s && stems.indexOf(s) === i; });
+      var list = h("ul", { class: "sentences" }, ss.map(function (s) {
+        return h("li", { tabindex: "0" },
+          h("span", { class: "de", lang: "de" }, s.highlight ? inkWords(s.german, s.highlight) : inkFamily(s.german, stems)),
+          h("span", { class: "en", text: s.english }));
+      }));
+      var tbtn = h("button", { type: "button", class: "btn", "aria-pressed": "false", onclick: function () {
+        var on = list.classList.toggle("hide-en");
+        tbtn.setAttribute("aria-pressed", String(on));
+        tbtn.textContent = on ? "Show translations" : "Hide translations";
+      } }, "Hide translations");
+      main.appendChild(h("section", null,
+        h("div", { class: "sent-head" }, h("h2", { text: "Sample sentences" }), tbtn),
+        list));
+    }
+
+    /* quiz */
+    var qs = arr(L.quiz);
+    if (qs.length) {
+      var norm = function (s) { return String(s).trim().toLowerCase().replace(/[.!?]+$/, ""); };
+      main.appendChild(h("section", null,
+        h("h2", { text: "Quick check" }),
+        h("ol", { class: "quiz" }, qs.map(function (q, qi) {
+          var id = "q-" + (q.id || qi);
+          var answer = h("div", { class: "answer", id: id + "-answer", hidden: true },
+            arr(q.acceptedAnswers).concat(q.fullAnswer ? [q.fullAnswer] : []).map(function (a) {
+              return h("span", { class: "de", lang: "de", text: a });
+            }),
+            q.explanation && h("span", { class: "note", text: q.explanation }));
+          var showBtn = h("button", { type: "button", class: "btn", "aria-controls": id + "-answer", "aria-expanded": "false", onclick: function () {
+            var open = answer.hidden;
+            answer.hidden = !open;
+            showBtn.setAttribute("aria-expanded", String(open));
+            showBtn.textContent = open ? "Hide answer" : "Show answer";
+          } }, "Show answer");
+          var body = h("div", { class: "body" }, h("p", { text: q.prompt }));
+          if (q.type === "choice") {
+            var cfb = h("p", { class: "feedback", "aria-live": "polite" });
+            var opts = h("div", { class: "row", role: "group", "aria-label": "Answer options" });
+            arr(q.options).forEach(function (o) {
+              var b = h("button", { type: "button", class: "btn opt", lang: "de", onclick: function () {
+                var right = norm(o) === norm(q.answer);
+                [].forEach.call(opts.children, function (x) { x.classList.remove("picked-good", "picked-bad"); });
+                b.classList.add(right ? "picked-good" : "picked-bad");
+                cfb.className = "feedback " + (right ? "good" : "bad");
+                cfb.textContent = right ? "Richtig! " + (q.explanation || "") : "Not quite. Try another one.";
+              } }, o);
+              opts.appendChild(b);
+            });
+            body.appendChild(opts);
+            body.appendChild(cfb);
+          } else if (q.type === "fill-in-the-blank") {
+            var input = h("input", { id: id + "-input", type: "text", autocomplete: "off", spellcheck: "false", "aria-label": "Your answer" });
+            var fb = h("p", { class: "feedback", "aria-live": "polite" });
+            var check = function () {
+              if (!input.value.trim()) { fb.className = "feedback bad"; fb.textContent = "Type the missing ending first."; return; }
+              var ok = [q.answer, q.fullAnswer].concat(arr(q.acceptedAnswers)).filter(Boolean).map(norm);
+              if (ok.indexOf(norm(input.value)) >= 0) {
+                fb.className = "feedback good"; fb.textContent = "Richtig! " + (q.fullAnswer || "");
+              } else {
+                fb.className = "feedback bad"; fb.textContent = "Not quite. Try again, or show the answer.";
+              }
+            };
+            input.addEventListener("keydown", function (e) { if (e.key === "Enter") check(); });
+            body.appendChild(h("div", { class: "row" }, input, h("button", { type: "button", class: "btn primary", onclick: check }, "Check"), showBtn));
+            body.appendChild(fb);
+          } else {
+            body.appendChild(h("div", { class: "row" }, showBtn));
+          }
+          body.appendChild(answer);
+          return h("li", null, body);
+        }))));
+    }
+
+    /* memory hook */
+    if (L.memoryHook || L.signOff) main.appendChild(h("footer", { class: "hook" },
+      L.memoryHook && h("h2", { text: "Remember it" }),
+      L.memoryHook && h("p", { class: "big", text: L.memoryHook }),
+      L.signOff && h("p", { class: "signoff", lang: "de", text: L.signOff })));
+
+    document.getElementById("json-view").textContent = JSON.stringify(L, null, 2);
+  }
+
+  var errBox = document.getElementById("error");
+  function showError(msg) { errBox.textContent = msg; errBox.hidden = !msg; }
+
+  /* several lessons: a picker, routed on the URL hash (#anrufen) */
+  var lessons = [];
+  function slugOf(L) {
+    return String(L.word.headword).toLowerCase().replace(/ä/g, "ae").replace(/ö/g, "oe").replace(/ü/g, "ue")
+      .replace(/ß/g, "ss").replace(/[^a-z0-9-]+/g, "-");
+  }
+  function showFromHash() {
+    var want = location.hash.slice(1);
+    var L = lessons.filter(function (x) { return slugOf(x) === want; })[0] || lessons[0];
+    render(L);
+    var links = document.querySelectorAll("#picker a");
+    for (var i = 0; i < links.length; i++) {
+      if (links[i].getAttribute("href") === "#" + slugOf(L)) links[i].setAttribute("aria-current", "page");
+      else links[i].removeAttribute("aria-current");
+    }
+  }
+  document.getElementById("find").addEventListener("input", function (e) {
+    var q = e.target.value.trim().toLowerCase().replace(/ä/g, "a").replace(/ö/g, "o").replace(/ü/g, "u")
+      .replace(/ae/g, "a").replace(/oe/g, "o").replace(/ue/g, "u").replace(/ß/g, "ss");
+    var shown = 0;
+    [].forEach.call(document.querySelectorAll("#picker a"), function (a) {
+      var hit = !q || a._keys.some(function (k) { return k.indexOf(q) === 0 || k.split(/\s+/).some(function (p) { return p.indexOf(q) === 0; }); });
+      a.hidden = !hit; if (hit) shown++;
+    });
+    document.getElementById("find-count").textContent = q ? (shown ? shown + " found" : "No match. Check the spelling or try the base form.") : lessons.length + " words";
+  });
+  window.addEventListener("hashchange", function () { if (lessons.length > 1) { showFromHash(); window.scrollTo(0, 0); } });
+
+  function load(text, source) {
+    var data;
+    try { data = JSON.parse(text); }
+    catch (e) { showError(source + " isn't valid JSON: " + e.message + ". Fix the file and open it again."); return; }
+    var list = Array.isArray(data) ? data : [data];
+    var bad = list.filter(function (x) { return !x || !x.word || !x.word.headword; });
+    if (!list.length || bad.length) {
+      showError(source + " has a lesson without word.headword, so it can't be shown. Check it follows the lesson schema.");
+      return;
+    }
+    showError("");
+    lessons = list;
+    var nav = document.getElementById("picker");
+    nav.textContent = "";
+    nav.hidden = list.length < 2;
+    document.getElementById("finder").hidden = list.length < 12;
+    var fold = function (s) { return String(s).toLowerCase().replace(/ä/g, "a").replace(/ö/g, "o").replace(/ü/g, "u")
+      .replace(/ae/g, "a").replace(/oe/g, "o").replace(/ue/g, "u").replace(/ß/g, "ss").replace(/^\(sich\)\s*/, ""); };
+    list.forEach(function (x) {
+      var a = h("a", { href: "#" + slugOf(x), class: x.lessonType === "card" ? "card-word" : null, text: x.word.headword });
+      a._keys = [x.word.headword].concat(arr(x.forms)).concat(arr(x.wordFamily).map(function (f) { return f.german; })).map(fold);
+      nav.appendChild(a);
+    });
+    document.getElementById("find-count").textContent = list.length + " words";
+    showFromHash();
+  }
+
+  load(document.getElementById("lesson-data").textContent, "The built-in lesson");
+
+  document.getElementById("file").addEventListener("change", function (e) {
+    var f = e.target.files && e.target.files[0];
+    if (!f) return;
+    var r = new FileReader();
+    r.onload = function () { load(String(r.result), f.name); window.scrollTo(0, 0); };
+    r.onerror = function () { showError(f.name + " couldn't be read. Try opening it again."); };
+    r.readAsText(f);
+    e.target.value = "";
+  });
+
+  var jbtn = document.getElementById("toggle-json"), jv = document.getElementById("json-view");
+  jbtn.addEventListener("click", function () {
+    var open = jv.hidden;
+    jv.hidden = !open;
+    jbtn.setAttribute("aria-expanded", String(open));
+    jbtn.textContent = open ? "Hide JSON" : "Show JSON";
+  });
+})();
+</script>
+</body>
+</html>

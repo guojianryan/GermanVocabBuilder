@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Praxis",
+    "partOfSpeech": "noun, feminine (die Praxis)",
+    "pronunciation": {
+      "respelling": "PRAK-sis",
+      "ipa": "ˈpʁaksɪs",
+      "notes": "Plural: die Praxen."
+    },
+    "meaning": "(doctor's) practice, surgery; practice",
+    "shortDefinition": "(doctor's) practice, surgery; practice."
+  },
+  "wordFamily": [
+    {
+      "german": "die Arztpraxis",
+      "english": "doctor's surgery",
+      "type": "noun"
+    },
+    {
+      "german": "praktisch",
+      "english": "practical",
+      "type": "adjective"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Praxis, plural die Praxen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Praxis"
+        },
+        {
+          "label": "More than one",
+          "value": "die Praxen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Praxis ist am Mittwochnachmittag geschlossen.",
+      "english": "The surgery is closed on Wednesday afternoons.",
+      "highlight": [
+        "Praxis"
+      ]
+    },
+    {
+      "german": "Rufen Sie bitte in der Praxis an.",
+      "english": "Please call the surgery.",
+      "highlight": [
+        "Praxis"
+      ]
+    },
+    {
+      "german": "In der Praxis ist das schwieriger.",
+      "english": "In practice it's harder.",
+      "highlight": [
+        "Praxis"
+      ]
+    }
+  ],
+  "forms": [
+    "Praxen",
+    "die Praxen",
+    "die Praxis"
+  ],
+  "memoryHook": "Die Praxis = a doctor's or dentist's practice, and 'practice' as opposed to theory. Plural Praxen.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Praxis",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Praxis is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Praxis, zwei ___",
+      "answer": "Praxen",
+      "fullAnswer": "ein Praxis, zwei Praxen",
+      "explanation": "The plural is Praxen.",
+      "acceptedAnswers": [
+        "Praxen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Praxis mean?",
+      "options": [
+        "the shop",
+        "the child",
+        "(doctor's) practice"
+      ],
+      "answer": "(doctor's) practice",
+      "explanation": "Praxis: (doctor's) practice, surgery; practice.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Die Arztpraxis is…",
+      "options": [
+        "a doctor's surgery",
+        "a medical exercise"
+      ],
+      "answer": "a doctor's surgery",
+      "explanation": "Arzt + Praxis.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'In der Praxis' can also mean…",
+      "options": [
+        "in practice",
+        "in the practice room"
+      ],
+      "answer": "in practice",
+      "explanation": "As opposed to theory.",
+      "id": "q5"
+    }
+  ]
+}

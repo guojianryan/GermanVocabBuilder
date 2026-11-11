@@ -1,0 +1,172 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "fliehen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "FLEE-en",
+      "ipa": "ˈfliːən",
+      "notes": ""
+    },
+    "meaning": "to flee, escape",
+    "shortDefinition": "To flee, escape."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "flieh|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "flieh|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "flieh|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "flieh|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "flieh|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "flieh|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): ist geflohen"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "die Flucht",
+      "english": "escape, flight",
+      "type": "noun"
+    },
+    {
+      "german": "der Flüchtling",
+      "english": "refugee",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Viele Menschen fliehen vor dem Krieg.",
+      "english": "Many people are fleeing the war.",
+      "highlight": [
+        "fliehen",
+        "vor"
+      ]
+    },
+    {
+      "german": "Der Dieb ist geflohen.",
+      "english": "The thief escaped.",
+      "highlight": [
+        "geflohen."
+      ]
+    },
+    {
+      "german": "Sie floh aus ihrer Heimat.",
+      "english": "She fled her homeland.",
+      "highlight": [
+        "floh"
+      ]
+    }
+  ],
+  "forms": [
+    "fliehe",
+    "fliehst",
+    "flieht",
+    "fliehen",
+    "geflohen",
+    "floh"
+  ],
+  "memoryHook": "Fliehen, floh, ist geflohen. Die Flucht = escape. Der Flüchtling = refugee.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (fliehen)",
+      "answer": "flieht",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: flieht.",
+      "acceptedAnswers": [
+        "flieht"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich bin schon ___. (fliehen, past)",
+      "answer": "geflohen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: bin geflohen.",
+      "acceptedAnswers": [
+        "geflohen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does fliehen mean?",
+      "options": [
+        "to flee",
+        "to travel",
+        "to open"
+      ],
+      "answer": "to flee",
+      "explanation": "fliehen: to flee, escape.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Flee ___ something (danger):",
+      "options": [
+        "vor",
+        "von"
+      ],
+      "answer": "vor",
+      "explanation": "Fliehen vor.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Past forms:",
+      "options": [
+        "floh, ist geflohen",
+        "fliehte, hat gefliehen"
+      ],
+      "answer": "floh, ist geflohen",
+      "explanation": "Irregular.",
+      "id": "q5"
+    }
+  ]
+}

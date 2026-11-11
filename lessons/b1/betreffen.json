@@ -1,0 +1,170 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "betreffen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "be-TREF-en",
+      "ipa": "bəˈtʁɛfn̩",
+      "notes": ""
+    },
+    "meaning": "to affect, concern",
+    "shortDefinition": "To affect, concern."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "be",
+        "meaning": "prefix"
+      },
+      {
+        "part": "treffen",
+        "meaning": "to hit, meet"
+      }
+    ],
+    "literalMeaning": "to hit upon"
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "betreff|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "betriff|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "betriff|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "betreff|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "betreff|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "betreff|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat betroffen"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das betrifft uns alle.",
+      "english": "That affects us all.",
+      "highlight": [
+        "betrifft"
+      ]
+    },
+    {
+      "german": "Was mich betrifft, bin ich einverstanden.",
+      "english": "As far as I'm concerned, I agree.",
+      "highlight": [
+        "betrifft,"
+      ]
+    },
+    {
+      "german": "Viele Menschen sind vom Hochwasser betroffen.",
+      "english": "Many people are affected by the flood.",
+      "highlight": [
+        "betroffen."
+      ]
+    }
+  ],
+  "forms": [
+    "betrifft",
+    "betroffen",
+    "Betreff"
+  ],
+  "memoryHook": "Betreffen (betrifft, betroffen). Betreff = subject line.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (betreffen)",
+      "answer": "betrifft",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: betrifft.",
+      "acceptedAnswers": [
+        "betrifft"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (betreffen, past)",
+      "answer": "betroffen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe betroffen.",
+      "acceptedAnswers": [
+        "betroffen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does betreffen mean?",
+      "options": [
+        "hot",
+        "to affect",
+        "never"
+      ],
+      "answer": "to affect",
+      "explanation": "betreffen: to affect, concern.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Was mich betrifft' means…",
+      "options": [
+        "as far as I'm concerned",
+        "what hits me"
+      ],
+      "answer": "as far as I'm concerned",
+      "explanation": "Phrase.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "In letters, 'Betreff:' means…",
+      "options": [
+        "subject (line)",
+        "regards"
+      ],
+      "answer": "subject (line)",
+      "explanation": "Re:.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Milligramm",
+    "partOfSpeech": "noun, neuter (das Milligramm)",
+    "pronunciation": {
+      "respelling": "MI-li-gram",
+      "ipa": "ˈmɪliɡʁam",
+      "notes": "The plural looks the same. Plural: die Milligramm."
+    },
+    "meaning": "milligram",
+    "shortDefinition": "Milligram."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Milli",
+        "meaning": "thousandth"
+      },
+      {
+        "part": "gramm",
+        "meaning": "gram"
+      }
+    ],
+    "literalMeaning": "thousandth of a gram"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Milligramm, plural die Milligramm.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Milligramm"
+        },
+        {
+          "label": "More than one",
+          "value": "die Milligramm"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Nehmen Sie 500 Milligramm täglich.",
+      "english": "Take 500 milligrams daily.",
+      "highlight": [
+        "Milligramm"
+      ]
+    },
+    {
+      "german": "Die Tablette enthält 20 Milligramm.",
+      "english": "The tablet contains 20 milligrams.",
+      "highlight": [
+        "Milligramm."
+      ]
+    },
+    {
+      "german": "Ein Gramm hat tausend Milligramm.",
+      "english": "A gram has a thousand milligrams.",
+      "highlight": [
+        "Milligramm."
+      ]
+    }
+  ],
+  "forms": [
+    "mg"
+  ],
+  "memoryHook": "Das Milligramm (mg).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Milligramm",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Milligramm is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Milligramm, zwei ___",
+      "answer": "Milligramm",
+      "fullAnswer": "ein Milligramm, zwei Milligramm",
+      "explanation": "The plural is Milligramm.",
+      "acceptedAnswers": [
+        "Milligramm"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Milligramm mean?",
+      "options": [
+        "milligram",
+        "to sleep",
+        "always"
+      ],
+      "answer": "milligram",
+      "explanation": "Milligramm: milligram.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Abbreviation:",
+      "options": [
+        "mg",
+        "ml"
+      ],
+      "answer": "mg",
+      "explanation": "ml = millilitre.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "After numbers:",
+      "options": [
+        "500 Milligramm (no -e)",
+        "500 Milligramme"
+      ],
+      "answer": "500 Milligramm (no -e)",
+      "explanation": "Like Kilo.",
+      "id": "q5"
+    }
+  ]
+}

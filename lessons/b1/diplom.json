@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Diplom",
+    "partOfSpeech": "noun, neuter (das Diplom)",
+    "pronunciation": {
+      "respelling": "di-PLOHM",
+      "ipa": "diˈploːm",
+      "notes": "Plural: die Diplome."
+    },
+    "meaning": "diploma, degree",
+    "shortDefinition": "Diploma, degree."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Diplom, plural die Diplome.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Diplom"
+        },
+        {
+          "label": "More than one",
+          "value": "die Diplome"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Sie hat ein Diplom in Biologie.",
+      "english": "She has a degree in biology.",
+      "highlight": [
+        "Diplom"
+      ]
+    },
+    {
+      "german": "Ist Ihr Diplom in Deutschland anerkannt?",
+      "english": "Is your diploma recognised in Germany?",
+      "highlight": [
+        "Diplom"
+      ]
+    },
+    {
+      "german": "Nach vier Jahren bekam er sein Diplom.",
+      "english": "After four years he got his diploma.",
+      "highlight": [
+        "Diplom."
+      ]
+    }
+  ],
+  "forms": [
+    "Diplome",
+    "die Diplome",
+    "das Diplom"
+  ],
+  "memoryHook": "Das Diplom (stress at the end).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Diplom",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Diplom is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Diplom, zwei ___",
+      "answer": "Diplome",
+      "fullAnswer": "ein Diplom, zwei Diplome",
+      "explanation": "The plural is Diplome.",
+      "acceptedAnswers": [
+        "Diplome"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Diplom mean?",
+      "options": [
+        "diploma",
+        "the flower",
+        "hot"
+      ],
+      "answer": "diploma",
+      "explanation": "Diplom: diploma, degree.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Stress on…",
+      "options": [
+        "-PLOM",
+        "DI-"
+      ],
+      "answer": "-PLOM",
+      "explanation": "di-PLOHM.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Today German unis mostly award…",
+      "options": [
+        "Bachelor and Master",
+        "only Diplom"
+      ],
+      "answer": "Bachelor and Master",
+      "explanation": "Bologna reform.",
+      "id": "q5"
+    }
+  ]
+}

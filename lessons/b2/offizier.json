@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Offizier",
+    "partOfSpeech": "noun, masculine (der Offizier)",
+    "pronunciation": {
+      "respelling": "o-fi-TSEER",
+      "ipa": "ɔfiˈtsiːɐ̯",
+      "notes": "Plural: die Offiziere."
+    },
+    "meaning": "officer (military)",
+    "shortDefinition": "Officer (military)."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Offizier, plural die Offiziere.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Offizier"
+        },
+        {
+          "label": "More than one",
+          "value": "die Offiziere"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er ist Offizier bei der Marine.",
+      "english": "He's a naval officer.",
+      "highlight": [
+        "Offizier"
+      ]
+    },
+    {
+      "german": "Die Offiziere gaben Befehle.",
+      "english": "The officers gave orders.",
+      "highlight": [
+        "Offiziere"
+      ]
+    },
+    {
+      "german": "Sie wurde zur Offizierin befördert.",
+      "english": "She was promoted to officer.",
+      "highlight": [
+        "Offizierin"
+      ]
+    }
+  ],
+  "forms": [
+    "Offizierin"
+  ],
+  "memoryHook": "Der Offizier (military) ≠ Polizist.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Offizier",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Offizier is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Offizier, zwei ___",
+      "answer": "Offiziere",
+      "fullAnswer": "ein Offizier, zwei Offiziere",
+      "explanation": "The plural is Offiziere.",
+      "acceptedAnswers": [
+        "Offiziere"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Offizier mean?",
+      "options": [
+        "to wait",
+        "to sleep",
+        "officer (military)"
+      ],
+      "answer": "officer (military)",
+      "explanation": "Offizier: officer (military).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Stress on…",
+      "options": [
+        "-ZIER",
+        "OF-"
+      ],
+      "answer": "-ZIER",
+      "explanation": "End.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Police officer:",
+      "options": [
+        "der Polizist / Polizeibeamte",
+        "der Offizier"
+      ],
+      "answer": "der Polizist / Polizeibeamte",
+      "explanation": "Different.",
+      "id": "q5"
+    }
+  ]
+}

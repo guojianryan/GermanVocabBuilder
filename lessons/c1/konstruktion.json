@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Konstruktion",
+    "partOfSpeech": "noun, feminine (die Konstruktion)",
+    "pronunciation": {
+      "respelling": "kon-strook-TSYOHN",
+      "ipa": "kɔnstʁʊkˈtsi̯oːn",
+      "notes": "Plural: die Konstruktionen."
+    },
+    "meaning": "construction, design, structure",
+    "shortDefinition": "Construction, design, structure."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Konstruktion, plural die Konstruktionen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Konstruktion"
+        },
+        {
+          "label": "More than one",
+          "value": "die Konstruktionen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Konstruktion der Brücke ist stabil.",
+      "english": "The bridge's construction is solid.",
+      "highlight": [
+        "Konstruktion"
+      ]
+    },
+    {
+      "german": "Eine grammatische Konstruktion.",
+      "english": "A grammatical construction.",
+      "highlight": [
+        "Konstruktion."
+      ]
+    },
+    {
+      "german": "Das ist eine reine Konstruktion.",
+      "english": "That's pure fabrication.",
+      "highlight": [
+        "Konstruktion."
+      ]
+    }
+  ],
+  "forms": [
+    "konstruieren",
+    "konstruktiv"
+  ],
+  "memoryHook": "Konstruieren → die Konstruktion; konstruktiv.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Konstruktion",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Konstruktion is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Konstruktion, zwei ___",
+      "answer": "Konstruktionen",
+      "fullAnswer": "ein Konstruktion, zwei Konstruktionen",
+      "explanation": "The plural is Konstruktionen.",
+      "acceptedAnswers": [
+        "Konstruktionen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Konstruktion mean?",
+      "options": [
+        "construction",
+        "the door",
+        "cheap"
+      ],
+      "answer": "construction",
+      "explanation": "Konstruktion: construction, design, structure.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Verb:",
+      "options": [
+        "konstruieren",
+        "konstruktionieren"
+      ],
+      "answer": "konstruieren",
+      "explanation": "Construct.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Adjective:",
+      "options": [
+        "konstruktiv (constructive)",
+        "konstruktional"
+      ],
+      "answer": "konstruktiv (constructive)",
+      "explanation": "Constructive.",
+      "id": "q5"
+    }
+  ]
+}

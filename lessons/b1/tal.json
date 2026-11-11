@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Tal",
+    "partOfSpeech": "noun, neuter (das Tal)",
+    "pronunciation": {
+      "respelling": "TAAL",
+      "ipa": "taːl",
+      "notes": "Plural: die Täler."
+    },
+    "meaning": "valley",
+    "shortDefinition": "Valley."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Tal, plural die Täler.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Tal"
+        },
+        {
+          "label": "More than one",
+          "value": "die Täler"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das Dorf liegt im Tal.",
+      "english": "The village is in the valley.",
+      "highlight": [
+        "Tal."
+      ]
+    },
+    {
+      "german": "Wir wandern ins Tal.",
+      "english": "We're hiking down into the valley.",
+      "highlight": [
+        "Tal."
+      ]
+    },
+    {
+      "german": "Die Täler in den Alpen sind schön.",
+      "english": "The valleys in the Alps are beautiful.",
+      "highlight": [
+        "Täler"
+      ]
+    }
+  ],
+  "forms": [
+    "Täler",
+    "die Täler",
+    "das Tal"
+  ],
+  "memoryHook": "Das Tal, die Täler (valley).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Tal",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Tal is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Tal, zwei ___",
+      "answer": "Täler",
+      "fullAnswer": "ein Tal, zwei Täler",
+      "explanation": "The plural is Täler.",
+      "acceptedAnswers": [
+        "Taeler"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Tal mean?",
+      "options": [
+        "valley",
+        "tomorrow",
+        "always"
+      ],
+      "answer": "valley",
+      "explanation": "Tal: valley.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Täler",
+        "Tale"
+      ],
+      "answer": "Täler",
+      "explanation": "a → ä + -er.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Opposite:",
+      "options": [
+        "der Berg",
+        "der See"
+      ],
+      "answer": "der Berg",
+      "explanation": "Mountain.",
+      "id": "q5"
+    }
+  ]
+}

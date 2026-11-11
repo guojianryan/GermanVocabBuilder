@@ -1,0 +1,164 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "blitzen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "BLIT-sen",
+      "ipa": "ˈblɪtsn̩",
+      "notes": ""
+    },
+    "meaning": "to flash (lightning); to be caught by a speed camera",
+    "shortDefinition": "To flash (lightning); to be caught by a speed camera."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "blitz|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "blitz|t"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "blitz|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "blitz|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "blitz|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "blitz|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat geblitzt"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "der Blitz",
+      "english": "lightning; flash",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Es blitzt und donnert.",
+      "english": "There's thunder and lightning.",
+      "highlight": [
+        "blitzt"
+      ]
+    },
+    {
+      "german": "Ich bin geblitzt worden.",
+      "english": "I got caught by a speed camera.",
+      "highlight": [
+        "geblitzt"
+      ]
+    },
+    {
+      "german": "Hat es geblitzt?",
+      "english": "Was there lightning?",
+      "highlight": [
+        "geblitzt?"
+      ]
+    }
+  ],
+  "forms": [
+    "blitze",
+    "blitzt",
+    "blitzen",
+    "geblitzt"
+  ],
+  "memoryHook": "Es blitzt = lightning. Geblitzt werden = caught on a speed camera.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (blitzen)",
+      "answer": "blitzt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: blitzt.",
+      "acceptedAnswers": [
+        "blitzt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (blitzen, past)",
+      "answer": "geblitzt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe geblitzt.",
+      "acceptedAnswers": [
+        "geblitzt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does blitzen mean?",
+      "options": [
+        "to flash (lightning)",
+        "always",
+        "the key"
+      ],
+      "answer": "to flash (lightning)",
+      "explanation": "blitzen: to flash (lightning); to be caught by a speed camera.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Ich wurde geblitzt' means…",
+      "options": [
+        "I was caught speeding",
+        "I was struck by lightning"
+      ],
+      "answer": "I was caught speeding",
+      "explanation": "Speed camera.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Weather subject:",
+      "options": [
+        "es",
+        "der Himmel"
+      ],
+      "answer": "es",
+      "explanation": "Es blitzt.",
+      "id": "q5"
+    }
+  ]
+}

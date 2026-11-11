@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Hand",
+    "partOfSpeech": "noun, feminine (die Hand)",
+    "pronunciation": {
+      "respelling": "HANT",
+      "ipa": "hant",
+      "notes": "Plural: die Hände."
+    },
+    "meaning": "hand",
+    "shortDefinition": "Hand."
+  },
+  "wordFamily": [
+    {
+      "german": "das Handy",
+      "english": "mobile phone",
+      "type": "noun"
+    },
+    {
+      "german": "der Handschuh",
+      "english": "glove (hand shoe)",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Hand, plural die Hände.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Hand"
+        },
+        {
+          "label": "More than one",
+          "value": "die Hände"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wasch dir die Hände!",
+      "english": "Wash your hands!",
+      "highlight": [
+        "Hände!"
+      ]
+    },
+    {
+      "german": "Sie gibt mir die Hand.",
+      "english": "She shakes my hand.",
+      "highlight": [
+        "Hand."
+      ]
+    },
+    {
+      "german": "Ich habe etwas in der Hand.",
+      "english": "I've got something in my hand.",
+      "highlight": [
+        "Hand."
+      ]
+    }
+  ],
+  "forms": [
+    "Hände",
+    "die Hände",
+    "die Hand"
+  ],
+  "memoryHook": "Die Hand, plural Hände. Germans greet with die Hand geben: a handshake.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Hand",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Hand is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Hand, zwei ___",
+      "answer": "Hände",
+      "fullAnswer": "ein Hand, zwei Hände",
+      "explanation": "The plural is Hände.",
+      "acceptedAnswers": [
+        "Haende"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Hand mean?",
+      "options": [
+        "quiet",
+        "hand",
+        "the family"
+      ],
+      "answer": "hand",
+      "explanation": "Hand: hand.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Jemandem die Hand geben' means…",
+      "options": [
+        "to shake hands",
+        "to give someone a hand (help)"
+      ],
+      "answer": "to shake hands",
+      "explanation": "Germans shake hands a lot.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Hand is…",
+      "options": [
+        "feminine",
+        "masculine"
+      ],
+      "answer": "feminine",
+      "explanation": "Die Hand.",
+      "id": "q5"
+    }
+  ]
+}

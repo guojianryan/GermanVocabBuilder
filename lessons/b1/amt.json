@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Amt",
+    "partOfSpeech": "noun, neuter (das Amt)",
+    "pronunciation": {
+      "respelling": "AMT",
+      "ipa": "amt",
+      "notes": "Plural: die Ämter."
+    },
+    "meaning": "office (public), authority",
+    "shortDefinition": "Office (public), authority."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Amt, plural die Ämter.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Amt"
+        },
+        {
+          "label": "More than one",
+          "value": "die Ämter"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich muss aufs Amt.",
+      "english": "I have to go to the council office.",
+      "highlight": [
+        "Amt."
+      ]
+    },
+    {
+      "german": "Das Arbeitsamt hilft bei der Jobsuche.",
+      "english": "The job centre helps with job hunting.",
+      "highlight": [
+        "Arbeitsamt"
+      ]
+    },
+    {
+      "german": "Er hat ein wichtiges Amt.",
+      "english": "He holds an important office.",
+      "highlight": [
+        "Amt."
+      ]
+    }
+  ],
+  "forms": [
+    "amtlich",
+    "Arbeitsamt",
+    "Standesamt"
+  ],
+  "memoryHook": "Das Amt: a public office (Finanzamt, Standesamt…). Amtlich = official.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Amt",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Amt is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Amt, zwei ___",
+      "answer": "Ämter",
+      "fullAnswer": "ein Amt, zwei Ämter",
+      "explanation": "The plural is Ämter.",
+      "acceptedAnswers": [
+        "Ämter"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Amt mean?",
+      "options": [
+        "office (public)",
+        "the family",
+        "tomorrow"
+      ],
+      "answer": "office (public)",
+      "explanation": "Amt: office (public), authority.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Ämter",
+        "Amte"
+      ],
+      "answer": "Ämter",
+      "explanation": "a → ä + er.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Amt or Büro? A government office:",
+      "options": [
+        "das Amt",
+        "das Büro"
+      ],
+      "answer": "das Amt",
+      "explanation": "Public authority.",
+      "id": "q5"
+    }
+  ]
+}

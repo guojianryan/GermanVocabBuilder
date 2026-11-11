@@ -1,0 +1,166 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "kosten",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "KOS-ten",
+      "ipa": "ˈkɔstn̩",
+      "notes": ""
+    },
+    "meaning": "to cost",
+    "shortDefinition": "To cost."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "kost|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "kost|est"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "kost|et"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "kost|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "kost|et"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "kost|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gekostet",
+        "The stem ends in -t, so du and er add an e."
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "kostenlos",
+      "english": "free of charge",
+      "type": "adjective"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Was kostet das?",
+      "english": "How much is that?",
+      "highlight": [
+        "kostet"
+      ]
+    },
+    {
+      "german": "Die Schuhe kosten 60 Euro.",
+      "english": "The shoes cost 60 euros.",
+      "highlight": [
+        "kosten"
+      ]
+    },
+    {
+      "german": "Das hat nichts gekostet.",
+      "english": "That didn't cost anything.",
+      "highlight": [
+        "gekostet."
+      ]
+    }
+  ],
+  "forms": [
+    "koste",
+    "kostest",
+    "kostet",
+    "kosten",
+    "gekostet"
+  ],
+  "memoryHook": "Was kostet …? = How much is …? Plural things: Was kosten …? Kostenlos = free.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (kosten)",
+      "answer": "kostet",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: kostet.",
+      "acceptedAnswers": [
+        "kostet"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (kosten, past)",
+      "answer": "gekostet",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gekostet.",
+      "acceptedAnswers": [
+        "gekostet"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does kosten mean?",
+      "options": [
+        "to sleep",
+        "the window",
+        "to cost"
+      ],
+      "answer": "to cost",
+      "explanation": "kosten: to cost.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Was ___ die Äpfel?",
+      "options": [
+        "kostet",
+        "kosten"
+      ],
+      "answer": "kosten",
+      "explanation": "Plural subject: kosten.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Kostenlos' means…",
+      "options": [
+        "free of charge",
+        "costly"
+      ],
+      "answer": "free of charge",
+      "explanation": "Kosten + los.",
+      "id": "q5"
+    }
+  ]
+}

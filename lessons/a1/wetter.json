@@ -1,0 +1,115 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Wetter",
+    "partOfSpeech": "noun, neuter (das Wetter)",
+    "pronunciation": {
+      "respelling": "VET-er",
+      "ipa": "ˈvɛtɐ",
+      "notes": "No plural in everyday use. Usually no plural."
+    },
+    "meaning": "weather",
+    "shortDefinition": "Weather."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Wetter, usually no plural.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Wetter"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wie ist das Wetter heute?",
+      "english": "What's the weather like today?",
+      "highlight": [
+        "Wetter"
+      ]
+    },
+    {
+      "german": "Bei schönem Wetter gehen wir spazieren.",
+      "english": "When the weather's nice we go for a walk.",
+      "highlight": [
+        "Wetter"
+      ]
+    },
+    {
+      "german": "Das Wetter ist schlecht.",
+      "english": "The weather is bad.",
+      "highlight": [
+        "Wetter"
+      ]
+    }
+  ],
+  "forms": [
+    "das Wetter"
+  ],
+  "memoryHook": "Das Wetter (W = v). Wie ist das Wetter? Der Wetterbericht = forecast.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Wetter",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Wetter is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Wetter mean?",
+      "options": [
+        "the key",
+        "weather",
+        "to sing"
+      ],
+      "answer": "weather",
+      "explanation": "Wetter: weather.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Wie ist das Wetter?' asks about…",
+      "options": [
+        "the weather",
+        "the time"
+      ],
+      "answer": "the weather",
+      "explanation": "Wetter.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "The weather forecast is…",
+      "options": [
+        "der Wetterbericht",
+        "die Wetterkarte"
+      ],
+      "answer": "der Wetterbericht",
+      "explanation": "Bericht = report.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Das ___ ist heute schön. (weather)",
+      "answer": "Wetter",
+      "fullAnswer": "Das Wetter ist heute schön.",
+      "explanation": "Das Wetter.",
+      "id": "q5"
+    }
+  ]
+}

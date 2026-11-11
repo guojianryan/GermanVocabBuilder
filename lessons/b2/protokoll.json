@@ -1,0 +1,133 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Protokoll",
+    "partOfSpeech": "noun, neuter (das Protokoll)",
+    "pronunciation": {
+      "respelling": "pro-to-KOL",
+      "ipa": "pʁotoˈkɔl",
+      "notes": "Plural: die Protokolle."
+    },
+    "meaning": "minutes, record; protocol",
+    "shortDefinition": "Minutes, record; protocol."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Protokoll, plural die Protokolle.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Protokoll"
+        },
+        {
+          "label": "More than one",
+          "value": "die Protokolle"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wer schreibt heute das Protokoll?",
+      "english": "Who's taking the minutes today?",
+      "highlight": [
+        "Protokoll?"
+      ]
+    },
+    {
+      "german": "Das steht so im Protokoll.",
+      "english": "That's what's in the record.",
+      "highlight": [
+        "Protokoll."
+      ]
+    },
+    {
+      "german": "Nach diplomatischem Protokoll.",
+      "english": "According to diplomatic protocol.",
+      "highlight": [
+        "Protokoll."
+      ]
+    }
+  ],
+  "forms": [
+    "protokollieren"
+  ],
+  "memoryHook": "Das Protokoll (minutes; protocol); Protokoll führen.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Protokoll",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Protokoll is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Protokoll, zwei ___",
+      "answer": "Protokolle",
+      "fullAnswer": "ein Protokoll, zwei Protokolle",
+      "explanation": "The plural is Protokolle.",
+      "acceptedAnswers": [
+        "Protokolle"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Protokoll mean?",
+      "options": [
+        "the shop",
+        "the weather",
+        "minutes"
+      ],
+      "answer": "minutes",
+      "explanation": "Protokoll: minutes, record; protocol.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Protokoll führen' means…",
+      "options": [
+        "to take the minutes",
+        "to lead a protocol"
+      ],
+      "answer": "to take the minutes",
+      "explanation": "Minutes.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Verb:",
+      "options": [
+        "protokollieren",
+        "protokollen"
+      ],
+      "answer": "protokollieren",
+      "explanation": "Record.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Stress on…",
+      "options": [
+        "-KOLL",
+        "PRO-"
+      ],
+      "answer": "-KOLL",
+      "explanation": "End.",
+      "id": "q6"
+    }
+  ]
+}

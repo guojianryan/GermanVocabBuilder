@@ -1,0 +1,151 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Kreislauf",
+    "partOfSpeech": "noun, masculine (der Kreislauf)",
+    "pronunciation": {
+      "respelling": "KRICE-lowf",
+      "ipa": "ˈkʁaɪ̯slaʊ̯f",
+      "notes": "Plural: die Kreisläufe."
+    },
+    "meaning": "circulation; cycle",
+    "shortDefinition": "Circulation; cycle."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Kreis",
+        "meaning": "circle"
+      },
+      {
+        "part": "lauf",
+        "meaning": "run",
+        "emphasis": "turn"
+      }
+    ],
+    "literalMeaning": "circle run",
+    "summary": "Going round and round."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Kreislauf, plural die Kreisläufe.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Kreislauf"
+        },
+        {
+          "label": "More than one",
+          "value": "die Kreisläufe"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Mein Kreislauf ist schwach.",
+      "english": "My circulation is poor.",
+      "highlight": [
+        "Kreislauf"
+      ]
+    },
+    {
+      "german": "Der Kreislauf des Wassers.",
+      "english": "The water cycle.",
+      "highlight": [
+        "Kreislauf"
+      ]
+    },
+    {
+      "german": "Ein Teufelskreislauf.",
+      "english": "A vicious circle.",
+      "highlight": [
+        "Teufelskreislauf."
+      ]
+    }
+  ],
+  "forms": [
+    "Kreisläufe",
+    "die Kreisläufe",
+    "der Kreislauf"
+  ],
+  "memoryHook": "Kreis + Lauf = circulation; cycle.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Kreislauf",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Kreislauf is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Kreislauf, zwei ___",
+      "answer": "Kreisläufe",
+      "fullAnswer": "ein Kreislauf, zwei Kreisläufe",
+      "explanation": "The plural is Kreisläufe.",
+      "acceptedAnswers": [
+        "Kreislaeufe"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Kreislauf mean?",
+      "options": [
+        "the weather",
+        "circulation",
+        "the car"
+      ],
+      "answer": "circulation",
+      "explanation": "Kreislauf: circulation; cycle.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Kreis (circle) + Lauf (run)",
+        "Kreis + laufen only"
+      ],
+      "answer": "Kreis (circle) + Lauf (run)",
+      "explanation": "Circle run.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Kreislaufprobleme' are…",
+      "options": [
+        "circulation problems (dizziness)",
+        "traffic issues"
+      ],
+      "answer": "circulation problems (dizziness)",
+      "explanation": "Health.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Recycling economy:",
+      "options": [
+        "die Kreislaufwirtschaft",
+        "die Kreiswirtschaft"
+      ],
+      "answer": "die Kreislaufwirtschaft",
+      "explanation": "Economy.",
+      "id": "q6"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Ziel",
+    "partOfSpeech": "noun, neuter (das Ziel)",
+    "pronunciation": {
+      "respelling": "TSEEL",
+      "ipa": "tsiːl",
+      "notes": "Plural: die Ziele."
+    },
+    "meaning": "goal, aim; destination",
+    "shortDefinition": "Goal, aim; destination."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Ziel, plural die Ziele.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Ziel"
+        },
+        {
+          "label": "More than one",
+          "value": "die Ziele"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Mein Ziel ist es, Deutsch zu lernen.",
+      "english": "My goal is to learn German.",
+      "highlight": [
+        "Ziel"
+      ]
+    },
+    {
+      "german": "Wir haben unser Ziel erreicht.",
+      "english": "We've reached our destination.",
+      "highlight": [
+        "Ziel"
+      ]
+    },
+    {
+      "german": "Er läuft als Erster ins Ziel.",
+      "english": "He's first across the finish line.",
+      "highlight": [
+        "Ziel."
+      ]
+    }
+  ],
+  "forms": [
+    "Ziele",
+    "die Ziele",
+    "das Ziel"
+  ],
+  "memoryHook": "Das Ziel: aim, destination, finish line. Football goal = das Tor.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Ziel",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Ziel is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Ziel, zwei ___",
+      "answer": "Ziele",
+      "fullAnswer": "ein Ziel, zwei Ziele",
+      "explanation": "The plural is Ziele.",
+      "acceptedAnswers": [
+        "Ziele"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Ziel mean?",
+      "options": [
+        "the weather",
+        "goal",
+        "to learn"
+      ],
+      "answer": "goal",
+      "explanation": "Ziel: goal, aim; destination.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Reach a goal':",
+      "options": [
+        "ein Ziel erreichen",
+        "ein Ziel bekommen"
+      ],
+      "answer": "ein Ziel erreichen",
+      "explanation": "Erreichen.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "In sport, a goal (football) is…",
+      "options": [
+        "ein Tor",
+        "ein Ziel"
+      ],
+      "answer": "ein Tor",
+      "explanation": "Ziel = finish line.",
+      "id": "q5"
+    }
+  ]
+}

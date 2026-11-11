@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "umarmen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "oom-AR-men",
+      "ipa": "ʊmˈʔaʁmən",
+      "notes": ""
+    },
+    "meaning": "to hug",
+    "shortDefinition": "To hug."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "um",
+        "meaning": "around"
+      },
+      {
+        "part": "arm",
+        "meaning": "arm"
+      },
+      {
+        "part": "en",
+        "meaning": "verb ending"
+      }
+    ],
+    "literalMeaning": "put arms around",
+    "summary": "Wrapping your arms around someone."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "umarm|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "umarm|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "umarm|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "umarm|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "umarm|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "umarm|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat umarmt"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "die Umarmung",
+      "english": "hug",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Sie umarmt ihre Mutter.",
+      "english": "She hugs her mother.",
+      "highlight": [
+        "umarmt"
+      ]
+    },
+    {
+      "german": "Wir haben uns umarmt.",
+      "english": "We hugged.",
+      "highlight": [
+        "umarmt."
+      ]
+    },
+    {
+      "german": "Lass dich umarmen!",
+      "english": "Come here, let me hug you!",
+      "highlight": [
+        "umarmen!"
+      ]
+    }
+  ],
+  "forms": [
+    "umarme",
+    "umarmst",
+    "umarmt",
+    "umarmen"
+  ],
+  "memoryHook": "Um + Arm = put your arms around = hug. Die Umarmung.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (umarmen)",
+      "answer": "umarmt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: umarmt.",
+      "acceptedAnswers": [
+        "umarmt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (umarmen, past)",
+      "answer": "umarmt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe umarmt.",
+      "acceptedAnswers": [
+        "umarmt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does umarmen mean?",
+      "options": [
+        "to hug",
+        "never",
+        "the bed"
+      ],
+      "answer": "to hug",
+      "explanation": "umarmen: to hug.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Separable?",
+      "options": [
+        "no (inseparable): ich umarme",
+        "yes: ich arme um"
+      ],
+      "answer": "no (inseparable): ich umarme",
+      "explanation": "Inseparable.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "um (around) + Arm",
+        "um + arm (poor)"
+      ],
+      "answer": "um (around) + Arm",
+      "explanation": "Arms around.",
+      "id": "q5"
+    }
+  ]
+}

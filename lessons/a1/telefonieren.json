@@ -1,0 +1,169 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "telefonieren",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "teh-leh-fo-NEE-ren",
+      "ipa": "telefoˈniːʁən",
+      "notes": ""
+    },
+    "meaning": "to phone, to be on the phone",
+    "shortDefinition": "To phone, to be on the phone."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "telefonier|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "telefonier|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "telefonier|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "telefonier|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "telefonier|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "telefonier|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat telefoniert"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "anrufen",
+      "english": "to call",
+      "type": "separable verb"
+    },
+    {
+      "german": "das Telefon",
+      "english": "telephone",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich telefoniere gerade.",
+      "english": "I'm on the phone right now.",
+      "highlight": [
+        "telefoniere"
+      ]
+    },
+    {
+      "german": "Er telefoniert jeden Tag mit seiner Mutter.",
+      "english": "He talks to his mother on the phone every day.",
+      "highlight": [
+        "telefoniert"
+      ]
+    },
+    {
+      "german": "Wir haben lange telefoniert.",
+      "english": "We talked on the phone for a long time.",
+      "highlight": [
+        "telefoniert."
+      ]
+    }
+  ],
+  "forms": [
+    "telefoniere",
+    "telefonierst",
+    "telefoniert",
+    "telefonieren"
+  ],
+  "memoryHook": "Telefonieren mit = talk on the phone with. To call someone: anrufen.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (telefonieren)",
+      "answer": "telefoniert",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: telefoniert.",
+      "acceptedAnswers": [
+        "telefoniert"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (telefonieren, past)",
+      "answer": "telefoniert",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe telefoniert.",
+      "acceptedAnswers": [
+        "telefoniert"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does telefonieren mean?",
+      "options": [
+        "to phone",
+        "the bill",
+        "to travel"
+      ],
+      "answer": "to phone",
+      "explanation": "telefonieren: to phone, to be on the phone.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Phoning WITH someone:",
+      "options": [
+        "mit + dative",
+        "an + accusative"
+      ],
+      "answer": "mit + dative",
+      "explanation": "Telefonieren mit.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Telefonieren vs anrufen: 'I'll call you' is…",
+      "options": [
+        "Ich rufe dich an.",
+        "Ich telefoniere dich."
+      ],
+      "answer": "Ich rufe dich an.",
+      "explanation": "Telefonieren has no object.",
+      "id": "q5"
+    }
+  ]
+}

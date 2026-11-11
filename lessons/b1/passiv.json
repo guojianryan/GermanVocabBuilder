@@ -1,0 +1,103 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "passiv",
+    "partOfSpeech": "adjective",
+    "pronunciation": {
+      "respelling": "PA-seef",
+      "ipa": "ˈpasiːf",
+      "notes": ""
+    },
+    "meaning": "passive",
+    "shortDefinition": "Passive."
+  },
+  "sampleSentences": [
+    {
+      "german": "Er ist sehr passiv.",
+      "english": "He's very passive.",
+      "highlight": [
+        "passiv."
+      ]
+    },
+    {
+      "german": "Passives Rauchen ist gefährlich.",
+      "english": "Passive smoking is dangerous.",
+      "highlight": [
+        "Passives"
+      ]
+    },
+    {
+      "german": "Der Satz steht im Passiv.",
+      "english": "The sentence is in the passive.",
+      "highlight": [
+        "Passiv."
+      ]
+    }
+  ],
+  "forms": [
+    "passive",
+    "Passiv"
+  ],
+  "memoryHook": "Passiv ↔ aktiv. Das Passiv = werden + Partizip.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does passiv mean?",
+      "options": [
+        "passive",
+        "tomorrow",
+        "the car"
+      ],
+      "answer": "passive",
+      "explanation": "passiv: passive.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Opposite:",
+      "options": [
+        "aktiv",
+        "positiv"
+      ],
+      "answer": "aktiv",
+      "explanation": "Active.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Final v sounds like…",
+      "options": [
+        "f",
+        "v"
+      ],
+      "answer": "f",
+      "explanation": "PA-seef.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Grammar 'das Passiv' uses…",
+      "options": [
+        "werden + Partizip",
+        "haben + Partizip"
+      ],
+      "answer": "werden + Partizip",
+      "explanation": "Es wird gemacht.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Sei nicht so ___ ! (passive)",
+      "answer": "passiv",
+      "fullAnswer": "Sei nicht so passiv!",
+      "explanation": "Passiv.",
+      "id": "q5"
+    }
+  ]
+}

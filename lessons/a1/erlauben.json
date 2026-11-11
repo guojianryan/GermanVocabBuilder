@@ -1,0 +1,189 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "erlauben",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "air-LOW-ben",
+      "ipa": "ɛɐ̯ˈlaʊ̯bn̩",
+      "notes": ""
+    },
+    "meaning": "to allow, to permit",
+    "shortDefinition": "To allow, to permit."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "er",
+        "meaning": "prefix"
+      },
+      {
+        "part": "lauben",
+        "meaning": "to permit",
+        "note": "An old word, related to English 'leave' as in 'by your leave'."
+      }
+    ],
+    "literalMeaning": "to give leave"
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "erlaub|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "erlaub|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "erlaub|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "erlaub|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "erlaub|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "erlaub|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat erlaubt"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "die Erlaubnis",
+      "english": "permission",
+      "type": "noun"
+    },
+    {
+      "german": "verboten",
+      "english": "forbidden",
+      "type": "adjective"
+    },
+    {
+      "german": "dürfen",
+      "english": "may",
+      "type": "modal verb"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Rauchen ist hier nicht erlaubt.",
+      "english": "Smoking isn't allowed here.",
+      "highlight": [
+        "erlaubt."
+      ]
+    },
+    {
+      "german": "Meine Eltern erlauben mir das nicht.",
+      "english": "My parents don't let me do that.",
+      "highlight": [
+        "erlauben"
+      ]
+    },
+    {
+      "german": "Erlauben Sie, dass ich mich vorstelle?",
+      "english": "May I introduce myself?",
+      "highlight": [
+        "Erlauben"
+      ]
+    }
+  ],
+  "forms": [
+    "erlaube",
+    "erlaubst",
+    "erlaubt",
+    "erlauben"
+  ],
+  "memoryHook": "Erlaubt = allowed, verboten = forbidden. The modal verb for permission is dürfen.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (erlauben)",
+      "answer": "erlaubt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: erlaubt.",
+      "acceptedAnswers": [
+        "erlaubt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (erlauben, past)",
+      "answer": "erlaubt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe erlaubt.",
+      "acceptedAnswers": [
+        "erlaubt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does erlauben mean?",
+      "options": [
+        "the bread",
+        "hot",
+        "to allow"
+      ],
+      "answer": "to allow",
+      "explanation": "erlauben: to allow, to permit.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "The opposite of erlaubt is…",
+      "options": [
+        "verboten",
+        "erklärt"
+      ],
+      "answer": "verboten",
+      "explanation": "Verboten: forbidden.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ist das ___? (allowed)",
+      "options": [
+        "erlaubt",
+        "erlauben"
+      ],
+      "answer": "erlaubt",
+      "explanation": "Ist erlaubt / ist verboten.",
+      "id": "q5"
+    }
+  ]
+}

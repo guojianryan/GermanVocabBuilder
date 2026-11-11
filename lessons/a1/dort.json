@@ -1,0 +1,171 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "full",
+  "word": {
+    "headword": "dort",
+    "partOfSpeech": "adverb (also dorthin, dorther)",
+    "pronunciation": {
+      "respelling": "DORT",
+      "ipa": "dɔʁt",
+      "notes": "Short o."
+    },
+    "meaning": "there; dorthin = (to) there; dorther = from there",
+    "shortDefinition": "A place away from the speaker."
+  },
+  "intro": {
+    "title": "There, to there, from there",
+    "paragraphs": [
+      "Dort means 'there'. German is strict about movement, though: being there is dort, going there is dorthin, and coming from there is dorther (or von dort)."
+    ]
+  },
+  "wordFamily": [
+    {
+      "german": "dorthin",
+      "english": "(to) there",
+      "type": "adverb"
+    },
+    {
+      "german": "dorther / von dort",
+      "english": "from there",
+      "type": "adverb"
+    },
+    {
+      "german": "hier",
+      "english": "here",
+      "type": "adverb"
+    },
+    {
+      "german": "da",
+      "english": "there (vaguer)",
+      "type": "adverb"
+    }
+  ],
+  "keyTrap": {
+    "title": "The big trap: going there",
+    "explanation": "With a movement verb, 'there' becomes dorthin.",
+    "wrong": {
+      "german": "Ich fahre morgen dort.",
+      "verdict": "Going there: dorthin."
+    },
+    "correct": [
+      {
+        "german": "Ich fahre morgen dorthin.",
+        "literal": "I travel tomorrow to-there.",
+        "note": "Movement: dorthin."
+      },
+      {
+        "german": "Ich wohne dort.",
+        "literal": "I live there.",
+        "note": "Location: dort."
+      }
+    ]
+  },
+  "commonMistakes": [
+    {
+      "title": "Same pattern as wo, wohin, woher",
+      "explanation": "Wo? → dort. Wohin? → dorthin. Woher? → dorther.",
+      "examples": [
+        {
+          "german": "Wohin gehst du? – Dorthin.",
+          "english": "Where are you going? – Over there.",
+          "highlight": "Dorthin."
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Siehst du das Café? Dort treffen wir uns.",
+      "english": "See that café? We'll meet there.",
+      "highlight": [
+        "Dort"
+      ]
+    },
+    {
+      "german": "Mein Bruder lebt in Kanada. Ich fliege bald dorthin.",
+      "english": "My brother lives in Canada. I'm flying there soon.",
+      "highlight": [
+        "dorthin."
+      ]
+    },
+    {
+      "german": "Er kommt gerade von dort.",
+      "english": "He's just come from there.",
+      "highlight": [
+        "dort."
+      ]
+    },
+    {
+      "german": "Dort drüben ist der Ausgang.",
+      "english": "The exit's over there.",
+      "highlight": [
+        "Dort"
+      ]
+    }
+  ],
+  "forms": [
+    "dorthin",
+    "dorther",
+    "von dort"
+  ],
+  "memoryHook": "Wo → dort, wohin → dorthin, woher → dorther. Hin = towards, her = from.",
+  "signOff": "Bis dorthin, alles Gute!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Ich arbeite ___. (there)",
+      "options": [
+        "dort",
+        "dorthin"
+      ],
+      "answer": "dort",
+      "explanation": "Location: dort.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Wir gehen jetzt ___. (there)",
+      "options": [
+        "dort",
+        "dorthin"
+      ],
+      "answer": "dorthin",
+      "explanation": "Movement: dorthin.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Wo? → dort. Wohin? → …",
+      "options": [
+        "dorthin",
+        "dorther"
+      ],
+      "answer": "dorthin",
+      "explanation": "Hin = towards.",
+      "id": "q3"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "___ drüben ist eine Apotheke. (Over there)",
+      "answer": "Dort",
+      "fullAnswer": "Dort drüben ist eine Apotheke.",
+      "explanation": "Dort drüben: over there.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Woher kommst du? – Ich komme gerade ___.",
+      "options": [
+        "dorthin",
+        "von dort"
+      ],
+      "answer": "von dort",
+      "explanation": "From there: von dort / dorther.",
+      "id": "q5"
+    }
+  ]
+}

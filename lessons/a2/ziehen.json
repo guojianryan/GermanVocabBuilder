@@ -1,0 +1,175 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "ziehen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "TSEE-en",
+      "ipa": "ˈtsiːən",
+      "notes": ""
+    },
+    "meaning": "to pull; to move (house)",
+    "shortDefinition": "To pull; to move (house)."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "zieh|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "zieh|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "zieh|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "zieh|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "zieh|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "zieh|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gezogen"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "anziehen",
+      "english": "to put on",
+      "type": "verb"
+    },
+    {
+      "german": "umziehen",
+      "english": "to move house",
+      "type": "verb"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Bitte ziehen!",
+      "english": "Pull! (on a door)",
+      "highlight": [
+        "ziehen!"
+      ]
+    },
+    {
+      "german": "Wir ziehen nach Hamburg.",
+      "english": "We're moving to Hamburg.",
+      "highlight": [
+        "ziehen"
+      ]
+    },
+    {
+      "german": "Zieh deine Jacke an!",
+      "english": "Put your jacket on!",
+      "highlight": [
+        "Zieh",
+        "an!"
+      ]
+    }
+  ],
+  "forms": [
+    "ziehe",
+    "ziehst",
+    "zieht",
+    "ziehen",
+    "gezogen",
+    "zog",
+    "ist gezogen",
+    "anziehen",
+    "ausziehen"
+  ],
+  "memoryHook": "Ziehen = pull (Drücken = push). Anziehen, ausziehen, umziehen.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (ziehen)",
+      "answer": "zieht",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: zieht.",
+      "acceptedAnswers": [
+        "zieht"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (ziehen, past)",
+      "answer": "gezogen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gezogen.",
+      "acceptedAnswers": [
+        "gezogen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does ziehen mean?",
+      "options": [
+        "expensive",
+        "to pull",
+        "the window"
+      ],
+      "answer": "to pull",
+      "explanation": "ziehen: to pull; to move (house).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "On a door, 'Ziehen' means…",
+      "options": [
+        "Pull",
+        "Push"
+      ],
+      "answer": "Pull",
+      "explanation": "Push = Drücken.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Moving to a city: Perfekt with…",
+      "options": [
+        "sein (ist nach Berlin gezogen)",
+        "haben"
+      ],
+      "answer": "sein (ist nach Berlin gezogen)",
+      "explanation": "Movement: sein.",
+      "id": "q5"
+    }
+  ]
+}

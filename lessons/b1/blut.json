@@ -1,0 +1,118 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Blut",
+    "partOfSpeech": "noun, neuter (das Blut)",
+    "pronunciation": {
+      "respelling": "BLOOT",
+      "ipa": "bluːt",
+      "notes": "Usually no plural."
+    },
+    "meaning": "blood",
+    "shortDefinition": "Blood."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Blut, usually no plural.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Blut"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich kann kein Blut sehen.",
+      "english": "I can't stand the sight of blood.",
+      "highlight": [
+        "Blut"
+      ]
+    },
+    {
+      "german": "Ich spende Blut.",
+      "english": "I donate blood.",
+      "highlight": [
+        "Blut."
+      ]
+    },
+    {
+      "german": "Der Arzt nimmt mir Blut ab.",
+      "english": "The doctor takes a blood sample.",
+      "highlight": [
+        "Blut"
+      ]
+    }
+  ],
+  "forms": [
+    "Blutdruck"
+  ],
+  "memoryHook": "Das Blut. Blutdruck, Blut spenden.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Blut",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Blut is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Blut mean?",
+      "options": [
+        "slowly",
+        "blood",
+        "to open"
+      ],
+      "answer": "blood",
+      "explanation": "Blut: blood.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Blut spenden' means…",
+      "options": [
+        "to donate blood",
+        "to bleed"
+      ],
+      "answer": "to donate blood",
+      "explanation": "Donate.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gender:",
+      "options": [
+        "das",
+        "der"
+      ],
+      "answer": "das",
+      "explanation": "Das Blut.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Blood pressure:",
+      "options": [
+        "der Blutdruck",
+        "die Blutkraft"
+      ],
+      "answer": "der Blutdruck",
+      "explanation": "Blut + Druck.",
+      "id": "q5"
+    }
+  ]
+}

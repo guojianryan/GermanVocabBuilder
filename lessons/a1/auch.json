@@ -1,0 +1,166 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "full",
+  "word": {
+    "headword": "auch",
+    "partOfSpeech": "adverb",
+    "pronunciation": {
+      "respelling": "OWKH",
+      "ipa": "aʊ̯x",
+      "notes": "Au as in 'how', then the throaty ch of Scottish 'loch'."
+    },
+    "meaning": "also, too, as well",
+    "shortDefinition": "Adds something or someone to what's already been said."
+  },
+  "intro": {
+    "title": "Me too!",
+    "paragraphs": [
+      "Auch is the German 'also' or 'too'. Ich auch! is 'Me too!'. Remember that German also means 'so', so when you mean 'also', reach for auch."
+    ]
+  },
+  "wordFamily": [
+    {
+      "german": "ich auch",
+      "english": "me too",
+      "type": "phrase"
+    },
+    {
+      "german": "ich auch nicht",
+      "english": "me neither",
+      "type": "phrase"
+    },
+    {
+      "german": "also",
+      "english": "so, therefore",
+      "type": "adverb"
+    }
+  ],
+  "keyTrap": {
+    "title": "The big trap: me too or me neither?",
+    "explanation": "If the first sentence is negative, you need auch nicht.",
+    "wrong": {
+      "german": "Ich trinke keinen Alkohol. – Ich auch.",
+      "verdict": "Agreeing with a negative needs auch nicht."
+    },
+    "correct": [
+      {
+        "german": "Ich trinke keinen Alkohol. – Ich auch nicht.",
+        "literal": "Me also not.",
+        "note": "Me neither: ich auch nicht."
+      },
+      {
+        "german": "Ich trinke gern Tee. – Ich auch.",
+        "literal": "Me also.",
+        "note": "Me too: ich auch."
+      }
+    ]
+  },
+  "commonMistakes": [
+    {
+      "title": "Position",
+      "explanation": "Auch goes right before the part it adds to, usually after the verb.",
+      "wrong": "Auch ich spreche Englisch auch.",
+      "correct": "Ich spreche auch Englisch."
+    },
+    {
+      "title": "auch vs also",
+      "explanation": "German also means 'so'.",
+      "wrong": "Ich komme also.",
+      "correct": "Ich komme auch."
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich bin auch Spanierin.",
+      "english": "I'm Spanish too.",
+      "highlight": [
+        "auch"
+      ]
+    },
+    {
+      "german": "Kommst du auch mit?",
+      "english": "Are you coming along too?",
+      "highlight": [
+        "auch"
+      ]
+    },
+    {
+      "german": "Ich habe keine Zeit. – Ich auch nicht.",
+      "english": "I don't have time. – Me neither.",
+      "highlight": [
+        "auch",
+        "nicht."
+      ]
+    },
+    {
+      "german": "Das ist auch schön.",
+      "english": "That's nice too.",
+      "highlight": [
+        "auch"
+      ]
+    }
+  ],
+  "forms": [
+    "auch nicht"
+  ],
+  "memoryHook": "Auch = also, too. Ich auch = me too. Ich auch nicht = me neither.",
+  "signOff": "Dir auch einen schönen Tag!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Ich liebe Pizza. – ___!",
+      "options": [
+        "Ich auch",
+        "Ich auch nicht"
+      ],
+      "answer": "Ich auch",
+      "explanation": "Agreeing with a positive.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich mag keinen Fisch. – ___!",
+      "options": [
+        "Ich auch",
+        "Ich auch nicht"
+      ],
+      "answer": "Ich auch nicht",
+      "explanation": "Agreeing with a negative.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Er spricht Deutsch und ___ Englisch. (also)",
+      "options": [
+        "also",
+        "auch"
+      ],
+      "answer": "auch",
+      "explanation": "Also, too: auch.",
+      "id": "q3"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe Hunger. – Ich ___! (me too)",
+      "answer": "auch",
+      "fullAnswer": "Ich auch!",
+      "explanation": "Ich auch: me too.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "Ich spreche auch Französisch.",
+        "Ich auch spreche Französisch."
+      ],
+      "answer": "Ich spreche auch Französisch.",
+      "explanation": "The verb stays in second place.",
+      "id": "q5"
+    }
+  ]
+}

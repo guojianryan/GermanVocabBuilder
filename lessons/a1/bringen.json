@@ -1,0 +1,166 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "bringen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "BRING-en",
+      "ipa": "ˈbʁɪŋən",
+      "notes": ""
+    },
+    "meaning": "to bring; to take",
+    "shortDefinition": "To bring; to take."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "bring|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "bring|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "bring|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "bring|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "bring|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "bring|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gebracht"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "mitbringen",
+      "english": "to bring along",
+      "type": "separable verb"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Kannst du mir ein Glas Wasser bringen?",
+      "english": "Can you bring me a glass of water?",
+      "highlight": [
+        "bringen?"
+      ]
+    },
+    {
+      "german": "Ich bringe die Kinder zur Schule.",
+      "english": "I take the children to school.",
+      "highlight": [
+        "bringe"
+      ]
+    },
+    {
+      "german": "Der Kellner hat das Essen gebracht.",
+      "english": "The waiter brought the food.",
+      "highlight": [
+        "gebracht."
+      ]
+    }
+  ],
+  "forms": [
+    "bringe",
+    "bringst",
+    "bringt",
+    "bringen",
+    "gebracht",
+    "brachte"
+  ],
+  "memoryHook": "Bringen = bring, also 'take someone somewhere'. Irregular past: gebracht.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (bringen)",
+      "answer": "bringt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: bringt.",
+      "acceptedAnswers": [
+        "bringt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (bringen, past)",
+      "answer": "gebracht",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gebracht.",
+      "acceptedAnswers": [
+        "gebracht"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does bringen mean?",
+      "options": [
+        "to bring",
+        "the bread",
+        "to sing"
+      ],
+      "answer": "to bring",
+      "explanation": "bringen: to bring; to take.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Bringst du ___ einen Kaffee? (me)",
+      "options": [
+        "mich",
+        "mir"
+      ],
+      "answer": "mir",
+      "explanation": "The person gets the dative: mir.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich bringe meinen Sohn ___ Schule.",
+      "options": [
+        "zur",
+        "in"
+      ],
+      "answer": "zur",
+      "explanation": "Taking someone somewhere: zu.",
+      "id": "q5"
+    }
+  ]
+}

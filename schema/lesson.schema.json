@@ -1,0 +1,682 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://germanvocab.local/schema/lesson.schema.json",
+  "title": "German vocabulary lesson",
+  "description": "One lesson per JSON file. Version 1.4. Only word, quiz and the header fields are always present; every other section is optional and should simply not be shown when missing.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "language",
+    "explanationLanguage",
+    "level",
+    "lessonType",
+    "word",
+    "sampleSentences",
+    "quiz",
+    "memoryHook"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+$",
+      "description": "Format version, e.g. \"1.4\". Additive changes bump the minor number."
+    },
+    "language": {
+      "type": "string",
+      "description": "BCP-47 code of the language being taught.",
+      "examples": [
+        "de"
+      ]
+    },
+    "explanationLanguage": {
+      "type": "string",
+      "description": "BCP-47 code of the explanations.",
+      "examples": [
+        "en"
+      ]
+    },
+    "level": {
+      "enum": [
+        "A1",
+        "A2",
+        "B1",
+        "B2",
+        "C1",
+        "C2"
+      ],
+      "description": "CEFR level: the first official list the word appears on."
+    },
+    "levelSource": {
+      "type": "string",
+      "description": "Where the level came from.",
+      "examples": [
+        "Goethe-Zertifikat A1 Wortliste"
+      ]
+    },
+    "lessonType": {
+      "enum": [
+        "full",
+        "card",
+        "group"
+      ],
+      "description": "full = long lesson for tricky words; card = short card for simple words; group = one lesson for a small closed set learned together (days, months, numbers, colours…), listed in `members`."
+    },
+    "word": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "headword",
+        "partOfSpeech",
+        "meaning"
+      ],
+      "properties": {
+        "headword": {
+          "type": "string",
+          "minLength": 1,
+          "description": "The word as it is taught, without article for nouns (e.g. \"Tisch\"). May include \"(sich) \" or a trailing hyphen (\"all-\")."
+        },
+        "partOfSpeech": {
+          "type": "string",
+          "description": "Free text, includes gender and article for nouns, e.g. \"noun, masculine (der Tisch)\"."
+        },
+        "pronunciation": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "respelling": {
+              "type": "string",
+              "description": "English-style respelling, stressed syllable in capitals."
+            },
+            "ipa": {
+              "type": "string",
+              "description": "IPA without slashes."
+            },
+            "notes": {
+              "type": "string"
+            }
+          }
+        },
+        "meaning": {
+          "type": "string"
+        },
+        "shortDefinition": {
+          "type": "string"
+        },
+        "cycle": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 2,
+          "description": "Optional. Forms the headword animates through on load (e.g. ein → eine → einen …), ending on the headword."
+        }
+      }
+    },
+    "members": {
+      "type": "array",
+      "minItems": 3,
+      "description": "Only in group lessons: the words of the set, in teaching order (Monday to Sunday, 1 to 20…). Each member is also a search form, so searching 'Mittwoch' finds the group lesson.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "german",
+          "english"
+        ],
+        "properties": {
+          "german": {
+            "type": "string",
+            "description": "The word with its article for nouns, e.g. 'der Montag'."
+          },
+          "english": {
+            "type": "string"
+          },
+          "plural": {
+            "type": "string",
+            "description": "Plural without article, if useful."
+          },
+          "note": {
+            "type": "string",
+            "description": "Short extra note: pronunciation, a trap, an abbreviation."
+          }
+        }
+      }
+    },
+    "intro": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "paragraphs"
+      ],
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "paragraphs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1
+        }
+      }
+    },
+    "etymology": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "parts": {
+          "type": "array",
+          "description": "The word split into pieces, in order (lang + Weile + -ig). Concatenating the parts without hyphens should spell the headword.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "part",
+              "meaning"
+            ],
+            "properties": {
+              "part": {
+                "type": "string"
+              },
+              "meaning": {
+                "type": "string"
+              },
+              "note": {
+                "type": "string"
+              },
+              "emphasis": {
+                "enum": [
+                  "stretch",
+                  "arrive",
+                  "release",
+                  "rise",
+                  "turn",
+                  "none"
+                ],
+                "description": "Optional hero animation for this piece (see AGENT_BRIEF.md, 'Hero animation'). At most one part per word. 'none' or no value = no animation."
+              }
+            }
+          }
+        },
+        "literalMeaning": {
+          "type": "string"
+        },
+        "summary": {
+          "type": "string"
+        },
+        "cognates": {
+          "type": "array",
+          "description": "Related words in other languages, for words that don't split into parts.",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "word",
+              "language"
+            ],
+            "properties": {
+              "word": {
+                "type": "string"
+              },
+              "language": {
+                "type": "string"
+              },
+              "note": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "bonus": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "word"
+          ],
+          "properties": {
+            "label": {
+              "type": "string",
+              "description": "Heading for the box. Default: \"Bonus word\"."
+            },
+            "word": {
+              "type": "string"
+            },
+            "meaning": {
+              "type": "string"
+            },
+            "literalMeaning": {
+              "type": "string"
+            },
+            "note": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "tables": {
+      "type": "array",
+      "description": "Form tables: declensions, conjugations, comparisons.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "title",
+          "columns",
+          "rows"
+        ],
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "intro": {
+            "type": "string"
+          },
+          "columns": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "minItems": 1
+          },
+          "rows": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "label",
+                "cells"
+              ],
+              "properties": {
+                "label": {
+                  "type": "string"
+                },
+                "hint": {
+                  "type": "string"
+                },
+                "cells": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/markedText"
+                  },
+                  "description": "One cell per column."
+                }
+              }
+            }
+          },
+          "notes": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "wordFamily": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "german",
+          "english"
+        ],
+        "properties": {
+          "german": {
+            "type": "string"
+          },
+          "english": {
+            "type": "string"
+          },
+          "literal": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string",
+            "description": "Free-text word type, e.g. \"separable verb\"."
+          }
+        }
+      }
+    },
+    "keyTrap": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "title",
+        "wrong",
+        "correct"
+      ],
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "explanation": {
+          "type": "string"
+        },
+        "wrong": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "german"
+          ],
+          "properties": {
+            "german": {
+              "type": "string"
+            },
+            "actualMeaning": {
+              "type": "string",
+              "description": "What the wrong sentence really means. Shown as: This means \"…\"."
+            },
+            "verdict": {
+              "type": "string",
+              "description": "Shown instead of actualMeaning when present."
+            }
+          },
+          "anyOf": [
+            {
+              "required": [
+                "actualMeaning"
+              ]
+            },
+            {
+              "required": [
+                "verdict"
+              ]
+            }
+          ]
+        },
+        "correct": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "german"
+            ],
+            "properties": {
+              "german": {
+                "type": "string"
+              },
+              "literal": {
+                "type": "string"
+              },
+              "note": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "commonMistakes": {
+      "type": "array",
+      "description": "Each item has a title and explanation plus ONE of: wrong/correct, examples, or forms.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "title"
+        ],
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "explanation": {
+            "type": "string"
+          },
+          "wrong": {
+            "type": "string"
+          },
+          "correct": {
+            "type": "string"
+          },
+          "examples": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "german"
+              ],
+              "properties": {
+                "german": {
+                  "type": "string"
+                },
+                "english": {
+                  "type": "string"
+                },
+                "highlight": {
+                  "type": "string",
+                  "description": "An ending to mark after the headword stem (\"er\" in langweiliger), or else a whole word in the sentence to mark (\"am\")."
+                }
+              }
+            }
+          },
+          "forms": {
+            "description": "Either a list of labelled forms, or the legacy comparison object.",
+            "oneOf": [
+              {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": [
+                    "label",
+                    "value"
+                  ],
+                  "properties": {
+                    "label": {
+                      "type": "string"
+                    },
+                    "value": {
+                      "type": "string"
+                    }
+                  }
+                }
+              },
+              {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "positive": {
+                    "type": "string"
+                  },
+                  "comparative": {
+                    "type": "string"
+                  },
+                  "superlative": {
+                    "type": "string"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "sampleSentences": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "german",
+          "english"
+        ],
+        "properties": {
+          "german": {
+            "type": "string"
+          },
+          "english": {
+            "type": "string"
+          },
+          "highlight": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Words in the German sentence to highlight. Match whole tokens, case-insensitive, ignoring trailing punctuation (. , ! ? …) on both sides."
+          }
+        }
+      }
+    },
+    "quiz": {
+      "type": "array",
+      "minItems": 5,
+      "items": {
+        "$ref": "#/$defs/question"
+      }
+    },
+    "forms": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Other forms of the word (plurals, conjugated forms, related nouns) for search. Not displayed."
+    },
+    "memoryHook": {
+      "type": "string"
+    },
+    "signOff": {
+      "type": "string",
+      "description": "A short German send-off line."
+    }
+  },
+  "$defs": {
+    "markedText": {
+      "type": "string",
+      "description": "Text with an optional highlighted part marked by pipes: \"ein|en\" → ein + [en]; \"a|m| Tisch\" → a + [m] + \" Tisch\"; \"|weiß\" → [weiß]. Never more than two pipes."
+    },
+    "question": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "type",
+        "prompt"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^q\\d+$"
+        },
+        "type": {
+          "enum": [
+            "choice",
+            "fill-in-the-blank",
+            "open"
+          ]
+        },
+        "prompt": {
+          "type": "string",
+          "description": "For fill-in-the-blank the gap is written as three underscores: ___ ."
+        },
+        "options": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 2,
+          "uniqueItems": true
+        },
+        "answer": {
+          "type": "string"
+        },
+        "fullAnswer": {
+          "type": "string",
+          "description": "The completed sentence, shown after answering."
+        },
+        "acceptedAnswers": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "description": "Extra accepted answers (e.g. umlaut-free spellings), or the model answers for open questions."
+        },
+        "explanation": {
+          "type": "string"
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "choice"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "options",
+              "answer"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "fill-in-the-blank"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "answer"
+            ],
+            "properties": {
+              "prompt": {
+                "pattern": "___"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "open"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "acceptedAnswers"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "lessonType": {
+            "const": "group"
+          }
+        },
+        "required": [
+          "lessonType"
+        ]
+      },
+      "then": {
+        "required": [
+          "members"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "möglich",
+    "partOfSpeech": "adjective",
+    "pronunciation": {
+      "respelling": "MURK-likh",
+      "ipa": "ˈmøːklɪç",
+      "notes": ""
+    },
+    "meaning": "possible",
+    "shortDefinition": "Possible."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "mög",
+        "meaning": "be able",
+        "note": "From mögen, which once meant 'can'."
+      },
+      {
+        "part": "lich",
+        "meaning": "adjective ending"
+      }
+    ],
+    "literalMeaning": "able to be"
+  },
+  "wordFamily": [
+    {
+      "german": "die Möglichkeit",
+      "english": "possibility",
+      "type": "noun"
+    },
+    {
+      "german": "vielleicht",
+      "english": "maybe",
+      "type": "adverb"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ist das möglich?",
+      "english": "Is that possible?",
+      "highlight": [
+        "möglich?"
+      ]
+    },
+    {
+      "german": "Eine Anmeldung ist nicht mehr möglich.",
+      "english": "Registration is no longer possible.",
+      "highlight": [
+        "möglich."
+      ]
+    },
+    {
+      "german": "Komm so schnell wie möglich!",
+      "english": "Come as quickly as possible!",
+      "highlight": [
+        "möglich!"
+      ]
+    }
+  ],
+  "forms": [
+    "mögliche",
+    "möglichen",
+    "unmöglich"
+  ],
+  "memoryHook": "Möglich = possible; unmöglich = impossible. So bald wie möglich = as soon as possible.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does möglich mean?",
+      "options": [
+        "possible",
+        "cheap",
+        "quiet"
+      ],
+      "answer": "possible",
+      "explanation": "möglich: possible.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "The opposite of möglich is…",
+      "options": [
+        "unmöglich",
+        "nichtlich"
+      ],
+      "answer": "unmöglich",
+      "explanation": "Un- + möglich.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "'So schnell wie möglich' means…",
+      "options": [
+        "as fast as possible",
+        "fast if possible"
+      ],
+      "answer": "as fast as possible",
+      "explanation": "So … wie möglich.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Möglich comes from…",
+      "options": [
+        "mögen / können (to be able)",
+        "Möbel"
+      ],
+      "answer": "mögen / können (to be able)",
+      "explanation": "Originally 'what can be'.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Das ist leider nicht ___. (possible)",
+      "answer": "möglich",
+      "fullAnswer": "Das ist leider nicht möglich.",
+      "explanation": "Möglich.",
+      "acceptedAnswers": [
+        "moeglich"
+      ],
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Gemeinderat",
+    "partOfSpeech": "noun, masculine (der Gemeinderat)",
+    "pronunciation": {
+      "respelling": "ge-MINE-de-raat",
+      "ipa": "ɡəˈmaɪ̯ndəˌʁaːt",
+      "notes": "Plural: die Gemeinderäte."
+    },
+    "meaning": "local council; councillor",
+    "shortDefinition": "Local council; councillor."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Gemeinde",
+        "meaning": "municipality"
+      },
+      {
+        "part": "rat",
+        "meaning": "council"
+      }
+    ],
+    "literalMeaning": "municipal council"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Gemeinderat, plural die Gemeinderäte.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Gemeinderat"
+        },
+        {
+          "label": "More than one",
+          "value": "die Gemeinderäte"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Gemeinderat hat entschieden.",
+      "english": "The local council has decided.",
+      "highlight": [
+        "Gemeinderat"
+      ]
+    },
+    {
+      "german": "Sie ist Gemeinderätin.",
+      "english": "She's a local councillor.",
+      "highlight": [
+        "Gemeinderätin."
+      ]
+    },
+    {
+      "german": "Die Sitzung des Gemeinderats.",
+      "english": "The council meeting.",
+      "highlight": [
+        "Gemeinderats."
+      ]
+    }
+  ],
+  "forms": [
+    "Gemeinde",
+    "Stadtrat"
+  ],
+  "memoryHook": "Gemeinde + Rat = local council / councillor; Stadtrat.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Gemeinderat",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Gemeinderat is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Gemeinderat, zwei ___",
+      "answer": "Gemeinderäte",
+      "fullAnswer": "ein Gemeinderat, zwei Gemeinderäte",
+      "explanation": "The plural is Gemeinderäte.",
+      "acceptedAnswers": [
+        "Gemeinderaete"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Gemeinderat mean?",
+      "options": [
+        "the evening",
+        "local council",
+        "to buy"
+      ],
+      "answer": "local council",
+      "explanation": "Gemeinderat: local council; councillor.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Gemeinde (municipality) + Rat (council)",
+        "gemein + Rad"
+      ],
+      "answer": "Gemeinde (municipality) + Rat (council)",
+      "explanation": "Municipal council.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Can mean…",
+      "options": [
+        "the council or a councillor",
+        "only the building"
+      ],
+      "answer": "the council or a councillor",
+      "explanation": "Both.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "City council:",
+      "options": [
+        "der Stadtrat",
+        "der Bürgerrat"
+      ],
+      "answer": "der Stadtrat",
+      "explanation": "City.",
+      "id": "q6"
+    }
+  ]
+}

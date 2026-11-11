@@ -1,0 +1,212 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "full",
+  "word": {
+    "headword": "dein-",
+    "partOfSpeech": "possessive (dein, deine, deinen …)",
+    "pronunciation": {
+      "respelling": "DINE",
+      "ipa": "daɪ̯n",
+      "notes": "Ei as in 'eye'."
+    },
+    "meaning": "your (talking to one person you say du to)",
+    "shortDefinition": "Says something belongs to the person you call du."
+  },
+  "intro": {
+    "title": "Your",
+    "paragraphs": [
+      "Dein means 'your' when you're talking to a friend, a child or family. It takes the same endings as ein. With people you call Sie, use Ihr."
+    ]
+  },
+  "tables": [
+    {
+      "title": "Same endings as ein",
+      "columns": [
+        "masculine",
+        "feminine",
+        "neuter",
+        "plural"
+      ],
+      "rows": [
+        {
+          "label": "subject",
+          "cells": [
+            "dein",
+            "dein|e",
+            "dein",
+            "dein|e"
+          ]
+        },
+        {
+          "label": "object",
+          "cells": [
+            "dein|en",
+            "dein|e",
+            "dein",
+            "dein|e"
+          ]
+        },
+        {
+          "label": "dative",
+          "cells": [
+            "dein|em",
+            "dein|er",
+            "dein|em",
+            "dein|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Mein, sein, ihr, unser and Ihr follow exactly this pattern."
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "du",
+      "english": "you (informal)",
+      "type": "pronoun"
+    },
+    {
+      "german": "Ihr",
+      "english": "your (formal)",
+      "type": "possessive"
+    },
+    {
+      "german": "mein",
+      "english": "my",
+      "type": "possessive"
+    },
+    {
+      "german": "euer",
+      "english": "your (you all)",
+      "type": "possessive"
+    }
+  ],
+  "keyTrap": {
+    "title": "The big trap: dein or Ihr?",
+    "explanation": "Use dein only with people you call du. For Sie, it's Ihr with a capital I.",
+    "wrong": {
+      "german": "Herr Müller, ist das dein Koffer?",
+      "verdict": "You say Sie to Herr Müller, so: Ihr."
+    },
+    "correct": [
+      {
+        "german": "Herr Müller, ist das Ihr Koffer?",
+        "literal": "Mr Müller, is that your suitcase?",
+        "note": "Formal: Ihr."
+      },
+      {
+        "german": "Tom, ist das dein Koffer?",
+        "literal": "Tom, is that your suitcase?",
+        "note": "Informal: dein."
+      }
+    ]
+  },
+  "commonMistakes": [
+    {
+      "title": "Endings",
+      "explanation": "Dein needs the right ending, just like ein.",
+      "wrong": "Ich mag dein Hund.",
+      "correct": "Ich mag deinen Hund."
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wie ist deine Adresse?",
+      "english": "What's your address?",
+      "highlight": [
+        "deine"
+      ]
+    },
+    {
+      "german": "Ist das dein Fahrrad?",
+      "english": "Is that your bike?",
+      "highlight": [
+        "dein"
+      ]
+    },
+    {
+      "german": "Ich habe deinen Schlüssel gefunden.",
+      "english": "I found your key.",
+      "highlight": [
+        "deinen"
+      ]
+    },
+    {
+      "german": "Grüß deine Eltern von mir!",
+      "english": "Say hello to your parents for me!",
+      "highlight": [
+        "deine"
+      ]
+    }
+  ],
+  "forms": [
+    "dein",
+    "deine",
+    "deinen",
+    "deinem",
+    "deiner",
+    "deines"
+  ],
+  "memoryHook": "Dein = your for du. Its endings copy ein: dein Hund, deinen Hund, deinem Hund.",
+  "signOff": "Dein Deutsch wird immer besser!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Wo ist ___ Tasche? (your, to a friend)",
+      "options": [
+        "dein",
+        "deine"
+      ],
+      "answer": "deine",
+      "explanation": "Die Tasche: deine.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich sehe ___ Bruder.",
+      "options": [
+        "dein",
+        "deinen"
+      ],
+      "answer": "deinen",
+      "explanation": "Masculine object: deinen.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Frau Lang, ist das ___ Auto?",
+      "options": [
+        "dein",
+        "Ihr"
+      ],
+      "answer": "Ihr",
+      "explanation": "Formal: Ihr.",
+      "id": "q3"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich wohne bei ___ Eltern. (your, informal)",
+      "answer": "deinen",
+      "fullAnswer": "bei deinen Eltern",
+      "explanation": "Dative plural: deinen.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Dein goes with…",
+      "options": [
+        "du",
+        "Sie"
+      ],
+      "answer": "du",
+      "explanation": "Du → dein.",
+      "id": "q5"
+    }
+  ]
+}

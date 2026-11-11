@@ -1,0 +1,181 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "anfallen",
+    "partOfSpeech": "separable verb",
+    "pronunciation": {
+      "respelling": "AN-fa-len",
+      "ipa": "ˈanˌfalən",
+      "notes": ""
+    },
+    "meaning": "to arise, accrue (costs, work); to attack",
+    "shortDefinition": "To arise, accrue (costs, work); to attack."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "an",
+        "meaning": "on, at"
+      },
+      {
+        "part": "fallen",
+        "meaning": "to fall"
+      }
+    ],
+    "literalMeaning": "to fall on (to)"
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "fall|e … |an"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "fäll|st … |an"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "fäll|t … |an"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "fall|en … |an"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "fall|t … |an"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "fall|en … |an"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): ist angefallen"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Es fallen keine Kosten an.",
+      "english": "There are no costs.",
+      "highlight": [
+        "fallen",
+        "an."
+      ]
+    },
+    {
+      "german": "Es ist viel Arbeit angefallen.",
+      "english": "A lot of work has piled up.",
+      "highlight": [
+        "angefallen."
+      ]
+    },
+    {
+      "german": "Der Hund fiel den Briefträger an.",
+      "english": "The dog attacked the postman.",
+      "highlight": [
+        "fiel",
+        "an."
+      ]
+    }
+  ],
+  "forms": [
+    "Anfall"
+  ],
+  "memoryHook": "Anfallen: arise (Kosten, Arbeit); attack; der Anfall.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ … an (anfallen)",
+      "answer": "fällt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: fällt … an.",
+      "acceptedAnswers": [
+        "faellt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich bin schon ___. (anfallen, past)",
+      "answer": "angefallen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: bin angefallen.",
+      "acceptedAnswers": [
+        "angefallen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does anfallen mean?",
+      "options": [
+        "the key",
+        "to arise",
+        "cheap"
+      ],
+      "answer": "to arise",
+      "explanation": "anfallen: to arise, accrue (costs, work); to attack.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Kosten fallen an' means…",
+      "options": [
+        "costs arise / are incurred",
+        "costs fall"
+      ],
+      "answer": "costs arise / are incurred",
+      "explanation": "Accrue.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt (costs, work):",
+      "options": [
+        "ist angefallen",
+        "hat angefallen"
+      ],
+      "answer": "ist angefallen",
+      "explanation": "Sein.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Noun 'der Anfall' means…",
+      "options": [
+        "fit, attack (illness)",
+        "fall"
+      ],
+      "answer": "fit, attack (illness)",
+      "explanation": "Seizure.",
+      "id": "q6"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Laune",
+    "partOfSpeech": "noun, feminine (die Laune)",
+    "pronunciation": {
+      "respelling": "LOW-ne",
+      "ipa": "ˈlaʊ̯nə",
+      "notes": "Plural: die Launen."
+    },
+    "meaning": "mood",
+    "shortDefinition": "Mood."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Laune, plural die Launen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Laune"
+        },
+        {
+          "label": "More than one",
+          "value": "die Launen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er hat heute gute Laune.",
+      "english": "He's in a good mood today.",
+      "highlight": [
+        "Laune."
+      ]
+    },
+    {
+      "german": "Sie ist schlecht gelaunt.",
+      "english": "She's in a bad mood.",
+      "highlight": [
+        "gelaunt."
+      ]
+    },
+    {
+      "german": "Das macht Laune!",
+      "english": "That's fun!",
+      "highlight": [
+        "Laune!"
+      ]
+    }
+  ],
+  "forms": [
+    "gelaunt"
+  ],
+  "memoryHook": "Die Laune = mood. Gut/schlecht gelaunt.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Laune",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Laune is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Laune, zwei ___",
+      "answer": "Launen",
+      "fullAnswer": "ein Laune, zwei Launen",
+      "explanation": "The plural is Launen.",
+      "acceptedAnswers": [
+        "Launen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Laune mean?",
+      "options": [
+        "mood",
+        "tomorrow",
+        "hot"
+      ],
+      "answer": "mood",
+      "explanation": "Laune: mood.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Gute Laune haben' means…",
+      "options": [
+        "to be in a good mood",
+        "to have good luck"
+      ],
+      "answer": "to be in a good mood",
+      "explanation": "Mood.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Adjective 'in a mood':",
+      "options": [
+        "gelaunt (gut/schlecht gelaunt)",
+        "launig only"
+      ],
+      "answer": "gelaunt (gut/schlecht gelaunt)",
+      "explanation": "Gelaunt.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Heimat",
+    "partOfSpeech": "noun, feminine (die Heimat)",
+    "pronunciation": {
+      "respelling": "HY-maht",
+      "ipa": "ˈhaɪ̯maːt",
+      "notes": "No plural. Usually no plural."
+    },
+    "meaning": "home, homeland",
+    "shortDefinition": "Home, homeland."
+  },
+  "wordFamily": [
+    {
+      "german": "das Heimatland",
+      "english": "home country",
+      "type": "noun"
+    },
+    {
+      "german": "das Zuhause",
+      "english": "home",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Heimat, usually no plural.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Heimat"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Meine Heimat ist Griechenland.",
+      "english": "Greece is my homeland.",
+      "highlight": [
+        "Heimat"
+      ]
+    },
+    {
+      "german": "Ich vermisse meine Heimat.",
+      "english": "I miss home.",
+      "highlight": [
+        "Heimat."
+      ]
+    },
+    {
+      "german": "Wo ist deine Heimat?",
+      "english": "Where's home for you?",
+      "highlight": [
+        "Heimat?"
+      ]
+    }
+  ],
+  "forms": [
+    "die Heimat"
+  ],
+  "memoryHook": "Heimat = home in the deepest sense: where you're from and feel you belong. There's no perfect English word.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Heimat",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Heimat is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Heimat mean?",
+      "options": [
+        "the evening",
+        "home",
+        "the window"
+      ],
+      "answer": "home",
+      "explanation": "Heimat: home, homeland.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Heimat means…",
+      "options": [
+        "the place you feel you belong",
+        "your flat"
+      ],
+      "answer": "the place you feel you belong",
+      "explanation": "More emotional than 'country'.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Das Heimatland is…",
+      "options": [
+        "home country",
+        "home address"
+      ],
+      "answer": "home country",
+      "explanation": "Heimat + Land.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich vermisse meine ___. (homeland)",
+      "answer": "Heimat",
+      "fullAnswer": "Ich vermisse meine Heimat.",
+      "explanation": "Die Heimat.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "enden",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "EN-den",
+      "ipa": "ˈɛndn̩",
+      "notes": ""
+    },
+    "meaning": "to end",
+    "shortDefinition": "To end."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "end|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "end|est"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "end|et"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "end|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "end|et"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "end|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat geendet",
+        "The stem ends in -d, so du and er add an e."
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "das Ende",
+      "english": "end",
+      "type": "noun"
+    },
+    {
+      "german": "beginnen",
+      "english": "to begin",
+      "type": "verb"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Kurs endet im Juni.",
+      "english": "The course ends in June.",
+      "highlight": [
+        "endet"
+      ]
+    },
+    {
+      "german": "Wann endet der Film?",
+      "english": "When does the film end?",
+      "highlight": [
+        "endet"
+      ]
+    },
+    {
+      "german": "Die Straße endet am Fluss.",
+      "english": "The road ends at the river.",
+      "highlight": [
+        "endet"
+      ]
+    }
+  ],
+  "forms": [
+    "ende",
+    "endest",
+    "endet",
+    "enden",
+    "geendet",
+    "Ende"
+  ],
+  "memoryHook": "Enden = end (das Ende). The stem ends in -d, so: du endest, er endet.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (enden)",
+      "answer": "endet",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: endet.",
+      "acceptedAnswers": [
+        "endet"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (enden, past)",
+      "answer": "geendet",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe geendet.",
+      "acceptedAnswers": [
+        "geendet"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does enden mean?",
+      "options": [
+        "to end",
+        "never",
+        "to learn"
+      ],
+      "answer": "to end",
+      "explanation": "enden: to end.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Which is a synonym?",
+      "options": [
+        "aufhören",
+        "anfangen"
+      ],
+      "answer": "aufhören",
+      "explanation": "Both mean to end, stop.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Das Ende is…",
+      "options": [
+        "the end",
+        "the duck"
+      ],
+      "answer": "the end",
+      "explanation": "Das Ende: the end.",
+      "id": "q5"
+    }
+  ]
+}

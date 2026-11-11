@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Hamburger",
+    "partOfSpeech": "noun, masculine (der Hamburger)",
+    "pronunciation": {
+      "respelling": "HAM-boor-ger",
+      "ipa": "ˈhambʊʁɡɐ",
+      "notes": "The plural looks the same. Plural: die Hamburger."
+    },
+    "meaning": "hamburger; person from Hamburg",
+    "shortDefinition": "Hamburger; person from Hamburg."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Hamburger, plural die Hamburger.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Hamburger"
+        },
+        {
+          "label": "More than one",
+          "value": "die Hamburger"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich nehme einen Hamburger mit Pommes.",
+      "english": "I'll have a burger and chips.",
+      "highlight": [
+        "Hamburger"
+      ]
+    },
+    {
+      "german": "Die Kinder essen gern Hamburger.",
+      "english": "The children like eating hamburgers.",
+      "highlight": [
+        "Hamburger."
+      ]
+    },
+    {
+      "german": "Er ist ein echter Hamburger.",
+      "english": "He's a real Hamburger (from Hamburg).",
+      "highlight": [
+        "Hamburger."
+      ]
+    }
+  ],
+  "forms": [
+    "Hamburger",
+    "die Hamburger",
+    "der Hamburger"
+  ],
+  "memoryHook": "Der Hamburger: food or a citizen of Hamburg.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Hamburger",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Hamburger is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Hamburger, zwei ___",
+      "answer": "Hamburger",
+      "fullAnswer": "ein Hamburger, zwei Hamburger",
+      "explanation": "The plural is Hamburger.",
+      "acceptedAnswers": [
+        "Hamburger"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Hamburger mean?",
+      "options": [
+        "hamburger",
+        "quiet",
+        "expensive"
+      ],
+      "answer": "hamburger",
+      "explanation": "Hamburger: hamburger; person from Hamburg.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ein Hamburger can also be…",
+      "options": [
+        "a person from Hamburg",
+        "a ham sandwich"
+      ],
+      "answer": "a person from Hamburg",
+      "explanation": "Like Berliner.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Hamburger",
+        "Hamburgers"
+      ],
+      "answer": "Hamburger",
+      "explanation": "-er: no change.",
+      "id": "q5"
+    }
+  ]
+}

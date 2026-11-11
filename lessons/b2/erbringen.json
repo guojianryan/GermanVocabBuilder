@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "erbringen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "er-BRING-en",
+      "ipa": "ɛɐ̯ˈbʁɪŋən",
+      "notes": ""
+    },
+    "meaning": "to produce, provide; to yield",
+    "shortDefinition": "To produce, provide; to yield."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "er",
+        "meaning": "bring about"
+      },
+      {
+        "part": "bringen",
+        "meaning": "to bring"
+      }
+    ],
+    "literalMeaning": "to bring forth"
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "erbring|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "erbring|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "erbring|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "erbring|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "erbring|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "erbring|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat erbracht"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Sie hat eine tolle Leistung erbracht.",
+      "english": "She delivered a great performance.",
+      "highlight": [
+        "erbracht."
+      ]
+    },
+    {
+      "german": "Er muss einen Nachweis erbringen.",
+      "english": "He has to provide proof.",
+      "highlight": [
+        "erbringen."
+      ]
+    },
+    {
+      "german": "Die Suche hat nichts erbracht.",
+      "english": "The search yielded nothing.",
+      "highlight": [
+        "erbracht."
+      ]
+    }
+  ],
+  "forms": [
+    "erbringe",
+    "erbringst",
+    "erbringt",
+    "erbringen",
+    "erbracht"
+  ],
+  "memoryHook": "Erbringen (erbrachte, erbracht): Leistung / Beweis erbringen.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (erbringen)",
+      "answer": "erbringt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: erbringt.",
+      "acceptedAnswers": [
+        "erbringt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (erbringen, past)",
+      "answer": "erbracht",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe erbracht.",
+      "acceptedAnswers": [
+        "erbracht"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does erbringen mean?",
+      "options": [
+        "quiet",
+        "tomorrow",
+        "to produce"
+      ],
+      "answer": "to produce",
+      "explanation": "erbringen: to produce, provide; to yield.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Typical objects:",
+      "options": [
+        "Leistung, Beweis, Nachweis",
+        "Kind"
+      ],
+      "answer": "Leistung, Beweis, Nachweis",
+      "explanation": "Formal.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "hat erbracht",
+        "hat erbringt"
+      ],
+      "answer": "hat erbracht",
+      "explanation": "Mixed.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Register:",
+      "options": [
+        "formal",
+        "slang"
+      ],
+      "answer": "formal",
+      "explanation": "Written.",
+      "id": "q6"
+    }
+  ]
+}

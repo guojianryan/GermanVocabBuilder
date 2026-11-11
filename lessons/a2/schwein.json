@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Schwein",
+    "partOfSpeech": "noun, neuter (das Schwein)",
+    "pronunciation": {
+      "respelling": "SHVINE",
+      "ipa": "ʃvaɪ̯n",
+      "notes": "Plural: die Schweine."
+    },
+    "meaning": "pig; pork",
+    "shortDefinition": "Pig; pork."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Schwein, plural die Schweine.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Schwein"
+        },
+        {
+          "label": "More than one",
+          "value": "die Schweine"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Auf dem Bauernhof gibt es Schweine.",
+      "english": "There are pigs on the farm.",
+      "highlight": [
+        "Schweine."
+      ]
+    },
+    {
+      "german": "Ich esse kein Schweinefleisch.",
+      "english": "I don't eat pork.",
+      "highlight": [
+        "Schweinefleisch."
+      ]
+    },
+    {
+      "german": "Da hast du Schwein gehabt!",
+      "english": "You were lucky there!",
+      "highlight": [
+        "Schwein"
+      ]
+    }
+  ],
+  "forms": [
+    "Schweinefleisch"
+  ],
+  "memoryHook": "Das Schwein. Schwein haben = be lucky!",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Schwein",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Schwein is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Schwein, zwei ___",
+      "answer": "Schweine",
+      "fullAnswer": "ein Schwein, zwei Schweine",
+      "explanation": "The plural is Schweine.",
+      "acceptedAnswers": [
+        "Schweine"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Schwein mean?",
+      "options": [
+        "pig",
+        "quiet",
+        "cheap"
+      ],
+      "answer": "pig",
+      "explanation": "Schwein: pig; pork.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Schwein haben' means…",
+      "options": [
+        "to be lucky",
+        "to own a pig"
+      ],
+      "answer": "to be lucky",
+      "explanation": "Idiom!",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Pork:",
+      "options": [
+        "das Schweinefleisch",
+        "das Schweinfleisch"
+      ],
+      "answer": "das Schweinefleisch",
+      "explanation": "With -e-.",
+      "id": "q5"
+    }
+  ]
+}

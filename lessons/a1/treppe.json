@@ -1,0 +1,131 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Treppe",
+    "partOfSpeech": "noun, feminine (die Treppe)",
+    "pronunciation": {
+      "respelling": "TREP-uh",
+      "ipa": "ˈtʁɛpə",
+      "notes": "Plural: die Treppen."
+    },
+    "meaning": "stairs, staircase",
+    "shortDefinition": "Stairs, staircase."
+  },
+  "wordFamily": [
+    {
+      "german": "der Aufzug",
+      "english": "lift",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Treppe, plural die Treppen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Treppe"
+        },
+        {
+          "label": "More than one",
+          "value": "die Treppen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Nehmen Sie die Treppe oder den Aufzug?",
+      "english": "Are you taking the stairs or the lift?",
+      "highlight": [
+        "Treppe"
+      ]
+    },
+    {
+      "german": "Die Treppe ist sehr steil.",
+      "english": "The stairs are very steep.",
+      "highlight": [
+        "Treppe"
+      ]
+    },
+    {
+      "german": "Er wartet unten an der Treppe.",
+      "english": "He's waiting at the bottom of the stairs.",
+      "highlight": [
+        "Treppe."
+      ]
+    }
+  ],
+  "forms": [
+    "Treppen",
+    "die Treppen",
+    "die Treppe"
+  ],
+  "memoryHook": "Die Treppe = the stairs (singular). Eine Stufe = one step.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Treppe",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Treppe is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Treppe, zwei ___",
+      "answer": "Treppen",
+      "fullAnswer": "ein Treppe, zwei Treppen",
+      "explanation": "The plural is Treppen.",
+      "acceptedAnswers": [
+        "Treppen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Treppe mean?",
+      "options": [
+        "stairs",
+        "always",
+        "the bread"
+      ],
+      "answer": "stairs",
+      "explanation": "Treppe: stairs, staircase.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Die Treppe (singular) means…",
+      "options": [
+        "the stairs (whole staircase)",
+        "one step"
+      ],
+      "answer": "the stairs (whole staircase)",
+      "explanation": "One step: die Stufe.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "The alternative to die Treppe is…",
+      "options": [
+        "der Aufzug",
+        "der Ausgang"
+      ],
+      "answer": "der Aufzug",
+      "explanation": "The lift.",
+      "id": "q5"
+    }
+  ]
+}

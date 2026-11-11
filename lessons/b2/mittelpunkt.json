@@ -1,0 +1,138 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Mittelpunkt",
+    "partOfSpeech": "noun, masculine (der Mittelpunkt)",
+    "pronunciation": {
+      "respelling": "MI-tel-poonkt",
+      "ipa": "ˈmɪtl̩pʊŋkt",
+      "notes": "Plural: die Mittelpunkte."
+    },
+    "meaning": "centre, focal point",
+    "shortDefinition": "Centre, focal point."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Mittel",
+        "meaning": "middle"
+      },
+      {
+        "part": "punkt",
+        "meaning": "point"
+      }
+    ],
+    "literalMeaning": "middle point"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Mittelpunkt, plural die Mittelpunkte.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Mittelpunkt"
+        },
+        {
+          "label": "More than one",
+          "value": "die Mittelpunkte"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Sie steht gern im Mittelpunkt.",
+      "english": "She likes being the centre of attention.",
+      "highlight": [
+        "Mittelpunkt."
+      ]
+    },
+    {
+      "german": "Der Mittelpunkt des Kreises.",
+      "english": "The centre of the circle.",
+      "highlight": [
+        "Mittelpunkt"
+      ]
+    },
+    {
+      "german": "Der Mensch steht im Mittelpunkt.",
+      "english": "People are the focus.",
+      "highlight": [
+        "Mittelpunkt."
+      ]
+    }
+  ],
+  "forms": [
+    "Mittelpunkte",
+    "die Mittelpunkte",
+    "der Mittelpunkt"
+  ],
+  "memoryHook": "Mittel + Punkt = centre; im Mittelpunkt stehen.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Mittelpunkt",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Mittelpunkt is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Mittelpunkt, zwei ___",
+      "answer": "Mittelpunkte",
+      "fullAnswer": "ein Mittelpunkt, zwei Mittelpunkte",
+      "explanation": "The plural is Mittelpunkte.",
+      "acceptedAnswers": [
+        "Mittelpunkte"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Mittelpunkt mean?",
+      "options": [
+        "expensive",
+        "centre",
+        "to learn"
+      ],
+      "answer": "centre",
+      "explanation": "Mittelpunkt: centre, focal point.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Im Mittelpunkt stehen' means…",
+      "options": [
+        "to be the centre of attention / focus",
+        "to stand still"
+      ],
+      "answer": "to be the centre of attention / focus",
+      "explanation": "Focus.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Mittel + Punkt",
+        "Mitte + Punkt only"
+      ],
+      "answer": "Mittel + Punkt",
+      "explanation": "Middle point.",
+      "id": "q5"
+    }
+  ]
+}

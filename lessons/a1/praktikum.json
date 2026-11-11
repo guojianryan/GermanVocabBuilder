@@ -1,0 +1,131 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Praktikum",
+    "partOfSpeech": "noun, neuter (das Praktikum)",
+    "pronunciation": {
+      "respelling": "PRAK-tee-koom",
+      "ipa": "ˈpʁaktikʊm",
+      "notes": "Plural: die Praktika."
+    },
+    "meaning": "internship, work placement",
+    "shortDefinition": "Internship, work placement."
+  },
+  "wordFamily": [
+    {
+      "german": "der Praktikant / die Praktikantin",
+      "english": "intern",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Praktikum, plural die Praktika.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Praktikum"
+        },
+        {
+          "label": "More than one",
+          "value": "die Praktika"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich mache ein Praktikum bei einer Bank.",
+      "english": "I'm doing an internship at a bank.",
+      "highlight": [
+        "Praktikum"
+      ]
+    },
+    {
+      "german": "Das Praktikum dauert drei Monate.",
+      "english": "The internship lasts three months.",
+      "highlight": [
+        "Praktikum"
+      ]
+    },
+    {
+      "german": "Viele Studenten machen Praktika im Sommer.",
+      "english": "Lots of students do internships in summer.",
+      "highlight": [
+        "Praktika"
+      ]
+    }
+  ],
+  "forms": [
+    "Praktika",
+    "Praktikant",
+    "Praktikantin"
+  ],
+  "memoryHook": "Das Praktikum (Latin plural: Praktika). The intern: Praktikant/Praktikantin.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Praktikum",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Praktikum is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Praktikum, zwei ___",
+      "answer": "Praktika",
+      "fullAnswer": "ein Praktikum, zwei Praktika",
+      "explanation": "The plural is Praktika.",
+      "acceptedAnswers": [
+        "Praktika"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Praktikum mean?",
+      "options": [
+        "hot",
+        "internship",
+        "the key"
+      ],
+      "answer": "internship",
+      "explanation": "Praktikum: internship, work placement.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "The plural is…",
+      "options": [
+        "Praktika",
+        "Praktikums"
+      ],
+      "answer": "Praktika",
+      "explanation": "Latin plural.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "A person doing a Praktikum is…",
+      "options": [
+        "der Praktikant / die Praktikantin",
+        "der Praktiker"
+      ],
+      "answer": "der Praktikant / die Praktikantin",
+      "explanation": "Intern.",
+      "id": "q5"
+    }
+  ]
+}

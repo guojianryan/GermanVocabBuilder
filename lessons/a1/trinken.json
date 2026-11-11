@@ -1,0 +1,166 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "trinken",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "TRINK-en",
+      "ipa": "ˈtʁɪŋkn̩",
+      "notes": ""
+    },
+    "meaning": "to drink",
+    "shortDefinition": "To drink."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "trink|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "trink|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "trink|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "trink|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "trink|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "trink|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat getrunken"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "das Getränk",
+      "english": "drink",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Was möchtest du trinken?",
+      "english": "What would you like to drink?",
+      "highlight": [
+        "trinken?"
+      ]
+    },
+    {
+      "german": "Ich trinke keinen Alkohol.",
+      "english": "I don't drink alcohol.",
+      "highlight": [
+        "trinke"
+      ]
+    },
+    {
+      "german": "Wir haben zu viel getrunken.",
+      "english": "We drank too much.",
+      "highlight": [
+        "getrunken."
+      ]
+    }
+  ],
+  "forms": [
+    "trinke",
+    "trinkst",
+    "trinkt",
+    "trinken",
+    "getrunken",
+    "trank"
+  ],
+  "memoryHook": "Trinken, hat getrunken. Das Getränk = drink. Prost! = Cheers!",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (trinken)",
+      "answer": "trinkt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: trinkt.",
+      "acceptedAnswers": [
+        "trinkt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (trinken, past)",
+      "answer": "getrunken",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe getrunken.",
+      "acceptedAnswers": [
+        "getrunken"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does trinken mean?",
+      "options": [
+        "hot",
+        "to drink",
+        "to sing"
+      ],
+      "answer": "to drink",
+      "explanation": "trinken: to drink.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Past participle:",
+      "options": [
+        "getrunken",
+        "getrinkt"
+      ],
+      "answer": "getrunken",
+      "explanation": "Irregular.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Das Getränk is…",
+      "options": [
+        "the drink",
+        "the drinker"
+      ],
+      "answer": "the drink",
+      "explanation": "Trinken → Getränk.",
+      "id": "q5"
+    }
+  ]
+}

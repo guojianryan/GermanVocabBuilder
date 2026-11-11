@@ -1,0 +1,120 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "automatisch",
+    "partOfSpeech": "adjective / adverb",
+    "pronunciation": {
+      "respelling": "ow-toh-MAH-tish",
+      "ipa": "ˌaʊ̯toˈmaːtɪʃ",
+      "notes": ""
+    },
+    "meaning": "automatic, automatically",
+    "shortDefinition": "Automatic, automatically."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "automat",
+        "meaning": "machine",
+        "note": "Der Automat."
+      },
+      {
+        "part": "isch",
+        "meaning": "adjective ending, like English -ic"
+      }
+    ],
+    "literalMeaning": "machine-like"
+  },
+  "sampleSentences": [
+    {
+      "german": "Du musst nichts machen. Das geht automatisch.",
+      "english": "You don't have to do anything. It happens automatically.",
+      "highlight": [
+        "automatisch."
+      ]
+    },
+    {
+      "german": "Die Tür öffnet sich automatisch.",
+      "english": "The door opens automatically.",
+      "highlight": [
+        "automatisch."
+      ]
+    },
+    {
+      "german": "Das Auto hat ein automatisches Getriebe.",
+      "english": "The car has an automatic gearbox.",
+      "highlight": [
+        "automatisches"
+      ]
+    }
+  ],
+  "forms": [
+    "automatische",
+    "automatischen",
+    "automatisches",
+    "automatischer"
+  ],
+  "memoryHook": "Automatisch = automatic. German -isch often matches English -ic: praktisch, typisch, elektrisch.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does automatisch mean?",
+      "options": [
+        "automatic",
+        "to help",
+        "the child"
+      ],
+      "answer": "automatic",
+      "explanation": "automatisch: automatic, automatically.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Where's the stress?",
+      "options": [
+        "AU-to-ma-tisch",
+        "au-to-MA-tisch"
+      ],
+      "answer": "au-to-MA-tisch",
+      "explanation": "Stress the third syllable.",
+      "id": "q2"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Das Licht geht ___ an. (automatically)",
+      "answer": "automatisch",
+      "fullAnswer": "Das Licht geht automatisch an.",
+      "explanation": "Same form as adjective and adverb.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "German -isch often matches English…",
+      "options": [
+        "-ic, -ical",
+        "-ful"
+      ],
+      "answer": "-ic, -ical",
+      "explanation": "automatisch, praktisch, typisch.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Das ist ein ___ System.",
+      "options": [
+        "automatisch",
+        "automatisches"
+      ],
+      "answer": "automatisches",
+      "explanation": "Before a neuter noun after ein: -es.",
+      "id": "q5"
+    }
+  ]
+}

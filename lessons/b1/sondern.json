@@ -1,0 +1,100 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "sondern",
+    "partOfSpeech": "conjunction",
+    "pronunciation": {
+      "respelling": "ZON-dern",
+      "ipa": "ˈzɔndɐn",
+      "notes": ""
+    },
+    "meaning": "but (rather)",
+    "shortDefinition": "But (rather)."
+  },
+  "sampleSentences": [
+    {
+      "german": "Nicht heute, sondern morgen.",
+      "english": "Not today but tomorrow.",
+      "highlight": [
+        "sondern"
+      ]
+    },
+    {
+      "german": "Er ist nicht dumm, sondern faul.",
+      "english": "He's not stupid, just lazy.",
+      "highlight": [
+        "sondern"
+      ]
+    },
+    {
+      "german": "Nicht nur Deutsch, sondern auch Englisch.",
+      "english": "Not only German but also English.",
+      "highlight": [
+        "sondern"
+      ]
+    }
+  ],
+  "forms": [],
+  "memoryHook": "Nicht X, sondern Y (correction). Otherwise: aber.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does sondern mean?",
+      "options": [
+        "expensive",
+        "but (rather)",
+        "cheap"
+      ],
+      "answer": "but (rather)",
+      "explanation": "sondern: but (rather).",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Sondern is used after…",
+      "options": [
+        "a negative (nicht, kein)",
+        "any clause"
+      ],
+      "answer": "a negative (nicht, kein)",
+      "explanation": "Correction.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Nicht nur … sondern auch' means…",
+      "options": [
+        "not only … but also",
+        "neither … nor"
+      ],
+      "answer": "not only … but also",
+      "explanation": "Pair.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Sondern or aber? 'Es ist teuer, ___ gut.'",
+      "options": [
+        "aber",
+        "sondern"
+      ],
+      "answer": "aber",
+      "explanation": "No negative → aber.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich trinke keinen Kaffee, ___ Tee. (but rather)",
+      "answer": "sondern",
+      "fullAnswer": "Ich trinke keinen Kaffee, sondern Tee.",
+      "explanation": "Sondern.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Schritt",
+    "partOfSpeech": "noun, masculine (der Schritt)",
+    "pronunciation": {
+      "respelling": "SHRIT",
+      "ipa": "ʃʁɪt",
+      "notes": "Plural: die Schritte."
+    },
+    "meaning": "step",
+    "shortDefinition": "Step."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Schritt, plural die Schritte.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Schritt"
+        },
+        {
+          "label": "More than one",
+          "value": "die Schritte"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das ist der erste Schritt.",
+      "english": "That's the first step.",
+      "highlight": [
+        "Schritt."
+      ]
+    },
+    {
+      "german": "Ich höre Schritte.",
+      "english": "I can hear footsteps.",
+      "highlight": [
+        "Schritte."
+      ]
+    },
+    {
+      "german": "Schritt für Schritt.",
+      "english": "Step by step.",
+      "highlight": [
+        "Schritt"
+      ]
+    }
+  ],
+  "forms": [
+    "Schritte",
+    "die Schritte",
+    "der Schritt"
+  ],
+  "memoryHook": "Der Schritt (step). Stairs: die Stufe.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Schritt",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Schritt is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Schritt, zwei ___",
+      "answer": "Schritte",
+      "fullAnswer": "ein Schritt, zwei Schritte",
+      "explanation": "The plural is Schritte.",
+      "acceptedAnswers": [
+        "Schritte"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Schritt mean?",
+      "options": [
+        "to sing",
+        "step",
+        "to learn"
+      ],
+      "answer": "step",
+      "explanation": "Schritt: step.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Schritt für Schritt' means…",
+      "options": [
+        "step by step",
+        "step for step"
+      ],
+      "answer": "step by step",
+      "explanation": "Gradually.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Step of a staircase:",
+      "options": [
+        "die Stufe",
+        "der Schritt"
+      ],
+      "answer": "die Stufe",
+      "explanation": "Different!",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "steuerlich",
+    "partOfSpeech": "adjective",
+    "pronunciation": {
+      "respelling": "SHTOY-er-likh",
+      "ipa": "ˈʃtɔɪ̯ɐlɪç",
+      "notes": ""
+    },
+    "meaning": "tax, fiscal",
+    "shortDefinition": "Tax, fiscal."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "steuer",
+        "meaning": "tax"
+      },
+      {
+        "part": "lich",
+        "meaning": "adjective ending"
+      }
+    ],
+    "literalMeaning": "of tax"
+  },
+  "sampleSentences": [
+    {
+      "german": "Das ist steuerlich absetzbar.",
+      "english": "That's tax-deductible.",
+      "highlight": [
+        "steuerlich"
+      ]
+    },
+    {
+      "german": "Steuerliche Vorteile.",
+      "english": "Tax benefits.",
+      "highlight": [
+        "Steuerliche"
+      ]
+    },
+    {
+      "german": "Eine steuerliche Entlastung.",
+      "english": "Tax relief.",
+      "highlight": [
+        "steuerliche"
+      ]
+    }
+  ],
+  "forms": [
+    "Steuer"
+  ],
+  "memoryHook": "Die Steuer → steuerlich (tax); absetzbar.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does steuerlich mean?",
+      "options": [
+        "tax",
+        "tomorrow",
+        "to sleep"
+      ],
+      "answer": "tax",
+      "explanation": "steuerlich: tax, fiscal.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "die Steuer (tax)",
+        "das Steuer (wheel)"
+      ],
+      "answer": "die Steuer (tax)",
+      "explanation": "Tax.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Steuerlich absetzbar' means…",
+      "options": [
+        "tax-deductible",
+        "steerable"
+      ],
+      "answer": "tax-deductible",
+      "explanation": "Taxes.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Tax adviser:",
+      "options": [
+        "der Steuerberater",
+        "der Steuermann"
+      ],
+      "answer": "der Steuerberater",
+      "explanation": "Accountant.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "___ Gründe. (tax)",
+      "answer": "Steuerliche",
+      "fullAnswer": "Steuerliche Gründe.",
+      "explanation": "Steuerliche.",
+      "id": "q5"
+    }
+  ]
+}

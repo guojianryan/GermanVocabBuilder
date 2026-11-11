@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Marmelade",
+    "partOfSpeech": "noun, feminine (die Marmelade)",
+    "pronunciation": {
+      "respelling": "mar-me-LAA-de",
+      "ipa": "maʁməˈlaːdə",
+      "notes": "Plural: die Marmeladen."
+    },
+    "meaning": "jam",
+    "shortDefinition": "Jam."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Marmelade, plural die Marmeladen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Marmelade"
+        },
+        {
+          "label": "More than one",
+          "value": "die Marmeladen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich esse Brot mit Marmelade.",
+      "english": "I eat bread with jam.",
+      "highlight": [
+        "Marmelade."
+      ]
+    },
+    {
+      "german": "Die Erdbeermarmelade ist selbst gemacht.",
+      "english": "The strawberry jam is homemade.",
+      "highlight": [
+        "Erdbeermarmelade"
+      ]
+    },
+    {
+      "german": "Gibst du mir die Marmelade?",
+      "english": "Will you pass me the jam?",
+      "highlight": [
+        "Marmelade?"
+      ]
+    }
+  ],
+  "forms": [
+    "Marmeladen",
+    "die Marmeladen",
+    "die Marmelade"
+  ],
+  "memoryHook": "Die Marmelade = jam (any fruit).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Marmelade",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Marmelade is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Marmelade, zwei ___",
+      "answer": "Marmeladen",
+      "fullAnswer": "ein Marmelade, zwei Marmeladen",
+      "explanation": "The plural is Marmeladen.",
+      "acceptedAnswers": [
+        "Marmeladen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Marmelade mean?",
+      "options": [
+        "quiet",
+        "never",
+        "jam"
+      ],
+      "answer": "jam",
+      "explanation": "Marmelade: jam.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Marmelade means…",
+      "options": [
+        "any jam",
+        "only orange marmalade"
+      ],
+      "answer": "any jam",
+      "explanation": "False friend-ish.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Stress on…",
+      "options": [
+        "-LA-",
+        "MAR-"
+      ],
+      "answer": "-LA-",
+      "explanation": "mar-me-LAA-de.",
+      "id": "q5"
+    }
+  ]
+}

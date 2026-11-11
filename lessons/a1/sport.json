@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Sport",
+    "partOfSpeech": "noun, masculine (der Sport)",
+    "pronunciation": {
+      "respelling": "SHPORT",
+      "ipa": "ʃpɔʁt",
+      "notes": "Usually no plural. Usually no plural."
+    },
+    "meaning": "sport, exercise",
+    "shortDefinition": "Sport, exercise."
+  },
+  "wordFamily": [
+    {
+      "german": "sportlich",
+      "english": "sporty",
+      "type": "adjective"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Sport, usually no plural.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Sport"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich mache viel Sport.",
+      "english": "I do a lot of sport.",
+      "highlight": [
+        "Sport."
+      ]
+    },
+    {
+      "german": "Welchen Sport machst du?",
+      "english": "What sport do you do?",
+      "highlight": [
+        "Sport"
+      ]
+    },
+    {
+      "german": "Sport ist gesund.",
+      "english": "Exercise is healthy.",
+      "highlight": [
+        "Sport"
+      ]
+    }
+  ],
+  "forms": [
+    "der Sport"
+  ],
+  "memoryHook": "Der Sport: Sport machen = do sport. Sp- at the start = 'shp'.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Sport",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Sport is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Sport mean?",
+      "options": [
+        "sport",
+        "to learn",
+        "the shop"
+      ],
+      "answer": "sport",
+      "explanation": "Sport: sport, exercise.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Sport machen' means…",
+      "options": [
+        "to do sport / exercise",
+        "to make sport"
+      ],
+      "answer": "to do sport / exercise",
+      "explanation": "Sport machen.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Sp at the start sounds like…",
+      "options": [
+        "shp",
+        "sp"
+      ],
+      "answer": "shp",
+      "explanation": "SHPORT.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich mache jeden Tag ___. (sport)",
+      "answer": "Sport",
+      "fullAnswer": "Ich mache jeden Tag Sport.",
+      "explanation": "Der Sport.",
+      "id": "q5"
+    }
+  ]
+}

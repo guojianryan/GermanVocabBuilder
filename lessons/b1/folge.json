@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Folge",
+    "partOfSpeech": "noun, feminine (die Folge)",
+    "pronunciation": {
+      "respelling": "FOL-ge",
+      "ipa": "ˈfɔlɡə",
+      "notes": "Plural: die Folgen."
+    },
+    "meaning": "consequence; episode",
+    "shortDefinition": "Consequence; episode."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Folge, plural die Folgen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Folge"
+        },
+        {
+          "label": "More than one",
+          "value": "die Folgen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das hat schlimme Folgen.",
+      "english": "That has bad consequences.",
+      "highlight": [
+        "Folgen."
+      ]
+    },
+    {
+      "german": "Hast du die neue Folge gesehen?",
+      "english": "Have you seen the new episode?",
+      "highlight": [
+        "Folge"
+      ]
+    },
+    {
+      "german": "Drei Tage in Folge hat es geregnet.",
+      "english": "It rained three days in a row.",
+      "highlight": [
+        "Folge"
+      ]
+    }
+  ],
+  "forms": [
+    "Folgen",
+    "die Folgen",
+    "die Folge"
+  ],
+  "memoryHook": "Die Folge: consequence, episode. Drei Tage in Folge = three days running.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Folge",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Folge is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Folge, zwei ___",
+      "answer": "Folgen",
+      "fullAnswer": "ein Folge, zwei Folgen",
+      "explanation": "The plural is Folgen.",
+      "acceptedAnswers": [
+        "Folgen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Folge mean?",
+      "options": [
+        "the bed",
+        "consequence",
+        "to wait"
+      ],
+      "answer": "consequence",
+      "explanation": "Folge: consequence; episode.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'In Folge' means…",
+      "options": [
+        "in a row",
+        "in the sequel"
+      ],
+      "answer": "in a row",
+      "explanation": "Consecutive.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "A TV episode:",
+      "options": [
+        "die Folge",
+        "die Episode (also)"
+      ],
+      "answer": "die Folge",
+      "explanation": "Both.",
+      "id": "q5"
+    }
+  ]
+}

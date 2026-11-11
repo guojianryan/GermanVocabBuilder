@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Torte",
+    "partOfSpeech": "noun, feminine (die Torte)",
+    "pronunciation": {
+      "respelling": "TOR-te",
+      "ipa": "ˈtɔʁtə",
+      "notes": "Plural: die Torten."
+    },
+    "meaning": "gateau, layer cake",
+    "shortDefinition": "Gateau, layer cake."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Torte, plural die Torten.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Torte"
+        },
+        {
+          "label": "More than one",
+          "value": "die Torten"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Zum Geburtstag gibt es eine Torte.",
+      "english": "There's a cake for the birthday.",
+      "highlight": [
+        "Torte."
+      ]
+    },
+    {
+      "german": "Die Schwarzwälder Kirschtorte ist berühmt.",
+      "english": "Black Forest gateau is famous.",
+      "highlight": [
+        "Kirschtorte"
+      ]
+    },
+    {
+      "german": "Ein Stück Torte, bitte.",
+      "english": "A piece of gateau, please.",
+      "highlight": [
+        "Torte,"
+      ]
+    }
+  ],
+  "forms": [
+    "Torten",
+    "die Torten",
+    "die Torte"
+  ],
+  "memoryHook": "Die Torte: a fancy cream cake. Der Kuchen: everyday cake.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Torte",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Torte is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Torte, zwei ___",
+      "answer": "Torten",
+      "fullAnswer": "ein Torte, zwei Torten",
+      "explanation": "The plural is Torten.",
+      "acceptedAnswers": [
+        "Torten"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Torte mean?",
+      "options": [
+        "gateau",
+        "to travel",
+        "the evening"
+      ],
+      "answer": "gateau",
+      "explanation": "Torte: gateau, layer cake.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Torte or Kuchen?",
+      "options": [
+        "Torte = fancy layered cake; Kuchen = everyday cake",
+        "same"
+      ],
+      "answer": "Torte = fancy layered cake; Kuchen = everyday cake",
+      "explanation": "Torte is fancier.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Black Forest gateau:",
+      "options": [
+        "Schwarzwälder Kirschtorte",
+        "Schwarzkuchen"
+      ],
+      "answer": "Schwarzwälder Kirschtorte",
+      "explanation": "Famous.",
+      "id": "q5"
+    }
+  ]
+}

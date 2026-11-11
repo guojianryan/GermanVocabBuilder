@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Institut",
+    "partOfSpeech": "noun, neuter (das Institut)",
+    "pronunciation": {
+      "respelling": "in-sti-TOOT",
+      "ipa": "ɪnstiˈtuːt",
+      "notes": "Plural: die Institute."
+    },
+    "meaning": "institute",
+    "shortDefinition": "Institute."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Institut, plural die Institute.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Institut"
+        },
+        {
+          "label": "More than one",
+          "value": "die Institute"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Sie arbeitet an einem Institut für Forschung.",
+      "english": "She works at a research institute.",
+      "highlight": [
+        "Institut"
+      ]
+    },
+    {
+      "german": "Das Goethe-Institut bietet Kurse an.",
+      "english": "The Goethe-Institut offers courses.",
+      "highlight": [
+        "Goethe-Institut"
+      ]
+    },
+    {
+      "german": "Das Institut ist an der Uni.",
+      "english": "The institute is at the university.",
+      "highlight": [
+        "Institut"
+      ]
+    }
+  ],
+  "forms": [
+    "Institute",
+    "die Institute",
+    "das Institut"
+  ],
+  "memoryHook": "Das Institut (stress at the end).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Institut",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Institut is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Institut, zwei ___",
+      "answer": "Institute",
+      "fullAnswer": "ein Institut, zwei Institute",
+      "explanation": "The plural is Institute.",
+      "acceptedAnswers": [
+        "Institute"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Institut mean?",
+      "options": [
+        "institute",
+        "to travel",
+        "the bill"
+      ],
+      "answer": "institute",
+      "explanation": "Institut: institute.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Stress on…",
+      "options": [
+        "-TUT",
+        "IN-"
+      ],
+      "answer": "-TUT",
+      "explanation": "End.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gender:",
+      "options": [
+        "das",
+        "die"
+      ],
+      "answer": "das",
+      "explanation": "Das Institut.",
+      "id": "q5"
+    }
+  ]
+}

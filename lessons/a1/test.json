@@ -1,0 +1,131 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Test",
+    "partOfSpeech": "noun, masculine (der Test)",
+    "pronunciation": {
+      "respelling": "TEST",
+      "ipa": "tɛst",
+      "notes": "Plural: die Tests."
+    },
+    "meaning": "test",
+    "shortDefinition": "Test."
+  },
+  "wordFamily": [
+    {
+      "german": "die Prüfung",
+      "english": "exam",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Test, plural die Tests.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Test"
+        },
+        {
+          "label": "More than one",
+          "value": "die Tests"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Morgen schreiben wir einen Test.",
+      "english": "We're having a test tomorrow.",
+      "highlight": [
+        "Test."
+      ]
+    },
+    {
+      "german": "Der Test war leicht.",
+      "english": "The test was easy.",
+      "highlight": [
+        "Test"
+      ]
+    },
+    {
+      "german": "Das Ergebnis des Tests kommt nächste Woche.",
+      "english": "The test result comes next week.",
+      "highlight": [
+        "Tests"
+      ]
+    }
+  ],
+  "forms": [
+    "Tests",
+    "die Tests",
+    "der Test"
+  ],
+  "memoryHook": "Der Test, plural Tests. Einen Test schreiben / machen.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Test",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Test is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Test, zwei ___",
+      "answer": "Tests",
+      "fullAnswer": "ein Test, zwei Tests",
+      "explanation": "The plural is Tests.",
+      "acceptedAnswers": [
+        "Tests"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Test mean?",
+      "options": [
+        "test",
+        "always",
+        "the shop"
+      ],
+      "answer": "test",
+      "explanation": "Test: test.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "You ___ einen Test.",
+      "options": [
+        "schreibst / machst",
+        "nimmst"
+      ],
+      "answer": "schreibst / machst",
+      "explanation": "Einen Test schreiben.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Tests",
+        "Teste"
+      ],
+      "answer": "Tests",
+      "explanation": "With -s.",
+      "id": "q5"
+    }
+  ]
+}

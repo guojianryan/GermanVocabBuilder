@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Armee",
+    "partOfSpeech": "noun, feminine (die Armee)",
+    "pronunciation": {
+      "respelling": "ar-MAY",
+      "ipa": "aʁˈmeː",
+      "notes": "Plural: die Armeen."
+    },
+    "meaning": "army",
+    "shortDefinition": "Army."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Armee, plural die Armeen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Armee"
+        },
+        {
+          "label": "More than one",
+          "value": "die Armeen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er war fünf Jahre in der Armee.",
+      "english": "He was in the army for five years.",
+      "highlight": [
+        "Armee."
+      ]
+    },
+    {
+      "german": "Die Armee hilft bei der Flut.",
+      "english": "The army is helping with the flood.",
+      "highlight": [
+        "Armee"
+      ]
+    },
+    {
+      "german": "Eine Armee von Fans wartete.",
+      "english": "An army of fans was waiting.",
+      "highlight": [
+        "Armee"
+      ]
+    }
+  ],
+  "forms": [
+    "Armeen",
+    "die Armeen",
+    "die Armee"
+  ],
+  "memoryHook": "Die Armee (stress at end). German army = Bundeswehr.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Armee",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Armee is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Armee, zwei ___",
+      "answer": "Armeen",
+      "fullAnswer": "ein Armee, zwei Armeen",
+      "explanation": "The plural is Armeen.",
+      "acceptedAnswers": [
+        "Armeen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Armee mean?",
+      "options": [
+        "army",
+        "slowly",
+        "to open"
+      ],
+      "answer": "army",
+      "explanation": "Armee: army.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Stress on…",
+      "options": [
+        "-MEE (last)",
+        "AR-"
+      ],
+      "answer": "-MEE (last)",
+      "explanation": "ar-MAY.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "German army:",
+      "options": [
+        "die Bundeswehr",
+        "die Bundesarmee"
+      ],
+      "answer": "die Bundeswehr",
+      "explanation": "Name.",
+      "id": "q5"
+    }
+  ]
+}

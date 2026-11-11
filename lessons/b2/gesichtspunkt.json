@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Gesichtspunkt",
+    "partOfSpeech": "noun, masculine (der Gesichtspunkt)",
+    "pronunciation": {
+      "respelling": "ge-ZIKHTS-poonkt",
+      "ipa": "ɡəˈzɪçtsˌpʊŋkt",
+      "notes": "Plural: die Gesichtspunkte."
+    },
+    "meaning": "point of view, aspect",
+    "shortDefinition": "Point of view, aspect."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Gesichts",
+        "meaning": "of sight (Gesicht)"
+      },
+      {
+        "part": "punkt",
+        "meaning": "point"
+      }
+    ],
+    "literalMeaning": "point of sight"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Gesichtspunkt, plural die Gesichtspunkte.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Gesichtspunkt"
+        },
+        {
+          "label": "More than one",
+          "value": "die Gesichtspunkte"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Unter diesem Gesichtspunkt hast du recht.",
+      "english": "From this point of view you're right.",
+      "highlight": [
+        "Gesichtspunkt"
+      ]
+    },
+    {
+      "german": "Nach ökologischen Gesichtspunkten.",
+      "english": "From an ecological point of view.",
+      "highlight": [
+        "Gesichtspunkten."
+      ]
+    },
+    {
+      "german": "Ein wichtiger Gesichtspunkt.",
+      "english": "An important aspect.",
+      "highlight": [
+        "Gesichtspunkt."
+      ]
+    }
+  ],
+  "forms": [
+    "Aspekt"
+  ],
+  "memoryHook": "Gesicht + Punkt = point of view (= Aspekt).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Gesichtspunkt",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Gesichtspunkt is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Gesichtspunkt, zwei ___",
+      "answer": "Gesichtspunkte",
+      "fullAnswer": "ein Gesichtspunkt, zwei Gesichtspunkte",
+      "explanation": "The plural is Gesichtspunkte.",
+      "acceptedAnswers": [
+        "Gesichtspunkte"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Gesichtspunkt mean?",
+      "options": [
+        "point of view",
+        "to buy",
+        "the station"
+      ],
+      "answer": "point of view",
+      "explanation": "Gesichtspunkt: point of view, aspect.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Gesicht (sight) + Punkt",
+        "Gesicht (face) + Punkt only"
+      ],
+      "answer": "Gesicht (sight) + Punkt",
+      "explanation": "Sight point.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonym:",
+      "options": [
+        "der Aspekt, die Hinsicht",
+        "der Standpunkt only"
+      ],
+      "answer": "der Aspekt, die Hinsicht",
+      "explanation": "Aspect.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Junge",
+    "partOfSpeech": "noun, masculine (der Junge)",
+    "pronunciation": {
+      "respelling": "YOONG-uh",
+      "ipa": "ˈjʊŋə",
+      "notes": "It adds -n in all forms except der Junge. Plural: die Jungen."
+    },
+    "meaning": "boy",
+    "shortDefinition": "Boy."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Junge, plural die Jungen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Junge"
+        },
+        {
+          "label": "More than one",
+          "value": "die Jungen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Junge spielt Fußball.",
+      "english": "The boy is playing football.",
+      "highlight": [
+        "Junge"
+      ]
+    },
+    {
+      "german": "Ist es ein Junge oder ein Mädchen?",
+      "english": "Is it a boy or a girl?",
+      "highlight": [
+        "Junge"
+      ]
+    },
+    {
+      "german": "Die Jungs sind im Garten.",
+      "english": "The boys are in the garden.",
+      "highlight": [
+        "Jungs"
+      ]
+    }
+  ],
+  "forms": [
+    "Jungen",
+    "Jungs",
+    "den Jungen",
+    "der Junge"
+  ],
+  "memoryHook": "Der Junge (boy), plural Jungen or, casually, Jungs. It adds -n in other cases: den Jungen.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Junge",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Junge is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Junge, zwei ___",
+      "answer": "Jungen",
+      "fullAnswer": "ein Junge, zwei Jungen",
+      "explanation": "The plural is Jungen.",
+      "acceptedAnswers": [
+        "Jungen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Junge mean?",
+      "options": [
+        "the shop",
+        "to help",
+        "boy"
+      ],
+      "answer": "boy",
+      "explanation": "Junge: boy.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "The opposite of der Junge is…",
+      "options": [
+        "das Mädchen",
+        "die Frau"
+      ],
+      "answer": "das Mädchen",
+      "explanation": "Boy, girl.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "In everyday speech the plural is often…",
+      "options": [
+        "Jungs",
+        "Junger"
+      ],
+      "answer": "Jungs",
+      "explanation": "Jungen or Jungs.",
+      "id": "q5"
+    }
+  ]
+}

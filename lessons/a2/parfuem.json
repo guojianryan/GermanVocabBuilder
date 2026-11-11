@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Parfüm",
+    "partOfSpeech": "noun, neuter (das Parfüm)",
+    "pronunciation": {
+      "respelling": "par-FÜM",
+      "ipa": "paʁˈfyːm",
+      "notes": "Plural: die Parfüms."
+    },
+    "meaning": "perfume",
+    "shortDefinition": "Perfume."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Parfüm, plural die Parfüms.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Parfüm"
+        },
+        {
+          "label": "More than one",
+          "value": "die Parfüms"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das Parfüm riecht gut.",
+      "english": "The perfume smells nice.",
+      "highlight": [
+        "Parfüm"
+      ]
+    },
+    {
+      "german": "Ich schenke ihr ein Parfüm.",
+      "english": "I'm giving her a perfume.",
+      "highlight": [
+        "Parfüm."
+      ]
+    },
+    {
+      "german": "Wo ist die Parfümabteilung?",
+      "english": "Where's the perfume department?",
+      "highlight": [
+        "Parfümabteilung?"
+      ]
+    }
+  ],
+  "forms": [
+    "Parfum"
+  ],
+  "memoryHook": "Das Parfüm (from French parfum).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Parfüm",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Parfüm is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Parfüm, zwei ___",
+      "answer": "Parfüms",
+      "fullAnswer": "ein Parfüm, zwei Parfüms",
+      "explanation": "The plural is Parfüms.",
+      "acceptedAnswers": [
+        "Parfuems"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Parfüm mean?",
+      "options": [
+        "perfume",
+        "the child",
+        "the car"
+      ],
+      "answer": "perfume",
+      "explanation": "Parfüm: perfume.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gender:",
+      "options": [
+        "das",
+        "die"
+      ],
+      "answer": "das",
+      "explanation": "Das Parfüm.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Also spelled…",
+      "options": [
+        "Parfum",
+        "Perfüm"
+      ],
+      "answer": "Parfum",
+      "explanation": "French spelling.",
+      "id": "q5"
+    }
+  ]
+}

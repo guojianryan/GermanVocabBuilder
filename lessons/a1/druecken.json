@@ -1,0 +1,170 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "drücken",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "DROOK-en (with ü)",
+      "ipa": "ˈdʁʏkn̩",
+      "notes": ""
+    },
+    "meaning": "to press, to push",
+    "shortDefinition": "To press, to push."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "drück|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "drück|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "drück|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "drück|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "drück|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "drück|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gedrückt"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "ziehen",
+      "english": "to pull",
+      "type": "verb"
+    },
+    {
+      "german": "der Knopf",
+      "english": "button",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Drücken Sie den grünen Knopf.",
+      "english": "Press the green button.",
+      "highlight": [
+        "Drücken"
+      ]
+    },
+    {
+      "german": "Auf der Tür steht: Drücken.",
+      "english": "The door says: Push.",
+      "highlight": [
+        "Drücken."
+      ]
+    },
+    {
+      "german": "Ich drücke dir die Daumen!",
+      "english": "Fingers crossed for you!",
+      "highlight": [
+        "drücke"
+      ]
+    }
+  ],
+  "forms": [
+    "drücke",
+    "drückst",
+    "drückt",
+    "drücken",
+    "gedrückt"
+  ],
+  "memoryHook": "Drücken = push, press. On doors: Drücken (push) or Ziehen (pull). For luck, Germans press their thumbs: Daumen drücken.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (drücken)",
+      "answer": "drückt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: drückt.",
+      "acceptedAnswers": [
+        "drueckt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (drücken, past)",
+      "answer": "gedrückt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gedrückt.",
+      "acceptedAnswers": [
+        "gedrueckt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does drücken mean?",
+      "options": [
+        "the window",
+        "to press",
+        "the station"
+      ],
+      "answer": "to press",
+      "explanation": "drücken: to press, to push.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "On a door, 'Drücken' means…",
+      "options": [
+        "push",
+        "pull"
+      ],
+      "answer": "push",
+      "explanation": "Pull is ziehen.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Ich drücke dir die Daumen' means…",
+      "options": [
+        "I'll keep my fingers crossed for you",
+        "I'm pressing your thumbs"
+      ],
+      "answer": "I'll keep my fingers crossed for you",
+      "explanation": "Germans press their thumbs for luck.",
+      "id": "q5"
+    }
+  ]
+}

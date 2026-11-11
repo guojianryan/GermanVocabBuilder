@@ -1,0 +1,125 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Wort",
+    "partOfSpeech": "noun, neuter (das Wort)",
+    "pronunciation": {
+      "respelling": "VORT",
+      "ipa": "vɔʁt",
+      "notes": "Plural: die Wörter."
+    },
+    "meaning": "word",
+    "shortDefinition": "Word."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Wort, plural die Wörter.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Wort"
+        },
+        {
+          "label": "More than one",
+          "value": "die Wörter"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Was bedeutet dieses Wort?",
+      "english": "What does this word mean?",
+      "highlight": [
+        "Wort?"
+      ]
+    },
+    {
+      "german": "Ich lerne jeden Tag zehn neue Wörter.",
+      "english": "I learn ten new words every day.",
+      "highlight": [
+        "Wörter."
+      ]
+    },
+    {
+      "german": "Ein paar Worte zum Schluss.",
+      "english": "A few words to close.",
+      "highlight": [
+        "Worte"
+      ]
+    }
+  ],
+  "forms": [
+    "Wörter",
+    "Worte",
+    "Wörterbuch",
+    "das Wort"
+  ],
+  "memoryHook": "Das Wort: Wörter (individual words, like vocabulary) and Worte (spoken words). Wörterbuch = dictionary.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Wort",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Wort is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Wort, zwei ___",
+      "answer": "Wörter",
+      "fullAnswer": "ein Wort, zwei Wörter",
+      "explanation": "The plural is Wörter.",
+      "acceptedAnswers": [
+        "Woerter"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Wort mean?",
+      "options": [
+        "word",
+        "the shop",
+        "the car"
+      ],
+      "answer": "word",
+      "explanation": "Wort: word.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Wörter vs Worte:",
+      "options": [
+        "single words vs words in speech/sayings",
+        "the same"
+      ],
+      "answer": "single words vs words in speech/sayings",
+      "explanation": "Two plurals.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Das Wörterbuch is…",
+      "options": [
+        "the dictionary",
+        "the word book (novel)"
+      ],
+      "answer": "the dictionary",
+      "explanation": "Wörter + Buch.",
+      "id": "q5"
+    }
+  ]
+}

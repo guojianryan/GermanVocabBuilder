@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Zone",
+    "partOfSpeech": "noun, feminine (die Zone)",
+    "pronunciation": {
+      "respelling": "TSOH-ne",
+      "ipa": "ˈtsoːnə",
+      "notes": "Plural: die Zonen."
+    },
+    "meaning": "zone",
+    "shortDefinition": "Zone."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Zone, plural die Zonen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Zone"
+        },
+        {
+          "label": "More than one",
+          "value": "die Zonen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Wohnung liegt in Zone B.",
+      "english": "The flat is in zone B.",
+      "highlight": [
+        "Zone"
+      ]
+    },
+    {
+      "german": "Das ist eine Fußgängerzone.",
+      "english": "That's a pedestrian zone.",
+      "highlight": [
+        "Fußgängerzone."
+      ]
+    },
+    {
+      "german": "Das Ticket gilt für alle Zonen.",
+      "english": "The ticket is valid for all zones.",
+      "highlight": [
+        "Zonen."
+      ]
+    }
+  ],
+  "forms": [
+    "Zonen",
+    "die Zonen",
+    "die Zone"
+  ],
+  "memoryHook": "Die Zone (z = ts). Fußgängerzone.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Zone",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Zone is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Zone, zwei ___",
+      "answer": "Zonen",
+      "fullAnswer": "ein Zone, zwei Zonen",
+      "explanation": "The plural is Zonen.",
+      "acceptedAnswers": [
+        "Zonen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Zone mean?",
+      "options": [
+        "to open",
+        "the evening",
+        "zone"
+      ],
+      "answer": "zone",
+      "explanation": "Zone: zone.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Pedestrian zone:",
+      "options": [
+        "die Fußgängerzone",
+        "die Gehzone"
+      ],
+      "answer": "die Fußgängerzone",
+      "explanation": "Shopping street.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Z sounds like…",
+      "options": [
+        "ts",
+        "z"
+      ],
+      "answer": "ts",
+      "explanation": "TSOH-ne.",
+      "id": "q5"
+    }
+  ]
+}

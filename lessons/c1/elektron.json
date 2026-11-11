@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Elektron",
+    "partOfSpeech": "noun, neuter (das Elektron)",
+    "pronunciation": {
+      "respelling": "e-LEK-tron",
+      "ipa": "ˈeːlɛktʁɔn",
+      "notes": "Plural: die Elektronen."
+    },
+    "meaning": "electron",
+    "shortDefinition": "Electron."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Elektron, plural die Elektronen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Elektron"
+        },
+        {
+          "label": "More than one",
+          "value": "die Elektronen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Elektronen sind negativ geladen.",
+      "english": "Electrons are negatively charged.",
+      "highlight": [
+        "Elektronen"
+      ]
+    },
+    {
+      "german": "Ein Atom hat Elektronen und Protonen.",
+      "english": "An atom has electrons and protons.",
+      "highlight": [
+        "Elektronen"
+      ]
+    },
+    {
+      "german": "Das Elektron kreist um den Kern.",
+      "english": "The electron orbits the nucleus.",
+      "highlight": [
+        "Elektron"
+      ]
+    }
+  ],
+  "forms": [
+    "elektronisch"
+  ],
+  "memoryHook": "Das Elektron (die Elektronen); elektronisch.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Elektron",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Elektron is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Elektron, zwei ___",
+      "answer": "Elektronen",
+      "fullAnswer": "ein Elektron, zwei Elektronen",
+      "explanation": "The plural is Elektronen.",
+      "acceptedAnswers": [
+        "Elektronen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Elektron mean?",
+      "options": [
+        "the bill",
+        "electron",
+        "the family"
+      ],
+      "answer": "electron",
+      "explanation": "Elektron: electron.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Elektronen",
+        "Elektrons"
+      ],
+      "answer": "Elektronen",
+      "explanation": "-en.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Related adjective:",
+      "options": [
+        "elektronisch",
+        "elektrisch only"
+      ],
+      "answer": "elektronisch",
+      "explanation": "Electronic.",
+      "id": "q5"
+    }
+  ]
+}

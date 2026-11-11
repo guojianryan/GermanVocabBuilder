@@ -1,0 +1,186 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "zustehen",
+    "partOfSpeech": "separable verb",
+    "pronunciation": {
+      "respelling": "TSOO-shtay-en",
+      "ipa": "ˈtsuːˌʃteːən",
+      "notes": ""
+    },
+    "meaning": "to be due to, be entitled to",
+    "shortDefinition": "To be due to, be entitled to."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "zu",
+        "meaning": "to"
+      },
+      {
+        "part": "stehen",
+        "meaning": "to stand"
+      }
+    ],
+    "literalMeaning": "to stand to (someone)"
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "steh|e … |zu"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "steh|st … |zu"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "steh|t … |zu"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "steh|en … |zu"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "steh|t … |zu"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "steh|en … |zu"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat zugestanden"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Dir stehen 30 Tage Urlaub zu.",
+      "english": "You're entitled to 30 days' holiday.",
+      "highlight": [
+        "stehen",
+        "zu."
+      ]
+    },
+    {
+      "german": "Das steht dir nicht zu!",
+      "english": "That's not your place!",
+      "highlight": [
+        "steht",
+        "zu!"
+      ]
+    },
+    {
+      "german": "Ihr steht eine Entschädigung zu.",
+      "english": "She's entitled to compensation.",
+      "highlight": [
+        "steht",
+        "zu."
+      ]
+    }
+  ],
+  "forms": [
+    "stehe zu",
+    "stehst zu",
+    "steht zu",
+    "stehen zu",
+    "zugestanden"
+  ],
+  "memoryHook": "Zustehen (+ Dat.) = be entitled to.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ … zu (zustehen)",
+      "answer": "steht",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: steht … zu.",
+      "acceptedAnswers": [
+        "steht"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (zustehen, past)",
+      "answer": "zugestanden",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe zugestanden.",
+      "acceptedAnswers": [
+        "zugestanden"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does zustehen mean?",
+      "options": [
+        "to be due to",
+        "the flower",
+        "to open"
+      ],
+      "answer": "to be due to",
+      "explanation": "zustehen: to be due to, be entitled to.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Structure:",
+      "options": [
+        "jemandem steht etwas zu (Dat.)",
+        "jemand steht etwas zu"
+      ],
+      "answer": "jemandem steht etwas zu (Dat.)",
+      "explanation": "Dative.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Das steht dir nicht zu' means…",
+      "options": [
+        "you have no right to that",
+        "that doesn't suit you"
+      ],
+      "answer": "you have no right to that",
+      "explanation": "Not your place.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "hat zugestanden",
+        "ist zugestanden"
+      ],
+      "answer": "hat zugestanden",
+      "explanation": "Haben.",
+      "id": "q6"
+    }
+  ]
+}

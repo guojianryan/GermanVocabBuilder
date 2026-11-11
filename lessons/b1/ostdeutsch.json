@@ -1,0 +1,117 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "ostdeutsch",
+    "partOfSpeech": "adjective",
+    "pronunciation": {
+      "respelling": "OST-doytch",
+      "ipa": "ˈɔstdɔɪ̯tʃ",
+      "notes": ""
+    },
+    "meaning": "East German",
+    "shortDefinition": "East German."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "ost",
+        "meaning": "east"
+      },
+      {
+        "part": "deutsch",
+        "meaning": "German"
+      }
+    ],
+    "literalMeaning": "east German"
+  },
+  "sampleSentences": [
+    {
+      "german": "Leipzig ist eine ostdeutsche Stadt.",
+      "english": "Leipzig is an eastern German city.",
+      "highlight": [
+        "ostdeutsche"
+      ]
+    },
+    {
+      "german": "Er ist ostdeutsch aufgewachsen.",
+      "english": "He grew up in East Germany.",
+      "highlight": [
+        "ostdeutsch"
+      ]
+    },
+    {
+      "german": "Ostdeutsche Länder.",
+      "english": "The eastern German states.",
+      "highlight": [
+        "Ostdeutsche"
+      ]
+    }
+  ],
+  "forms": [
+    "Ostdeutschland",
+    "westdeutsch"
+  ],
+  "memoryHook": "Ost + deutsch = East German; DDR.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does ostdeutsch mean?",
+      "options": [
+        "slowly",
+        "hot",
+        "East German"
+      ],
+      "answer": "East German",
+      "explanation": "ostdeutsch: East German.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Opposite:",
+      "options": [
+        "westdeutsch",
+        "süddeutsch"
+      ],
+      "answer": "westdeutsch",
+      "explanation": "West.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Former East Germany:",
+      "options": [
+        "die DDR",
+        "die BRD"
+      ],
+      "answer": "die DDR",
+      "explanation": "GDR.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Lower case?",
+      "options": [
+        "yes",
+        "no"
+      ],
+      "answer": "yes",
+      "explanation": "Adjective.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Dresden ist ___ . (East German)",
+      "answer": "ostdeutsch",
+      "fullAnswer": "Dresden ist ostdeutsch.",
+      "explanation": "Ostdeutsch.",
+      "id": "q5"
+    }
+  ]
+}

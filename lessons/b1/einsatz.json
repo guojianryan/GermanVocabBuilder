@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Einsatz",
+    "partOfSpeech": "noun, masculine (der Einsatz)",
+    "pronunciation": {
+      "respelling": "INE-zats",
+      "ipa": "ˈaɪ̯nzats",
+      "notes": "Plural: die Einsätze."
+    },
+    "meaning": "use, deployment; commitment; stake",
+    "shortDefinition": "Use, deployment; commitment; stake."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Ein",
+        "meaning": "in"
+      },
+      {
+        "part": "satz",
+        "meaning": "set"
+      }
+    ],
+    "literalMeaning": "a setting in"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Einsatz, plural die Einsätze.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Einsatz"
+        },
+        {
+          "label": "More than one",
+          "value": "die Einsätze"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Danke für deinen Einsatz!",
+      "english": "Thanks for your commitment!",
+      "highlight": [
+        "Einsatz!"
+      ]
+    },
+    {
+      "german": "Die Feuerwehr ist im Einsatz.",
+      "english": "The fire brigade is on a call-out.",
+      "highlight": [
+        "Einsatz."
+      ]
+    },
+    {
+      "german": "Der Einsatz beim Spiel ist hoch.",
+      "english": "The stakes in the game are high.",
+      "highlight": [
+        "Einsatz"
+      ]
+    }
+  ],
+  "forms": [
+    "einsetzen"
+  ],
+  "memoryHook": "Einsetzen → der Einsatz (use; commitment; stake).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Einsatz",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Einsatz is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Einsatz, zwei ___",
+      "answer": "Einsätze",
+      "fullAnswer": "ein Einsatz, zwei Einsätze",
+      "explanation": "The plural is Einsätze.",
+      "acceptedAnswers": [
+        "Einsaetze"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Einsatz mean?",
+      "options": [
+        "the station",
+        "use",
+        "to sleep"
+      ],
+      "answer": "use",
+      "explanation": "Einsatz: use, deployment; commitment; stake.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Im Einsatz sein' means…",
+      "options": [
+        "to be in action, on duty",
+        "to be inserted"
+      ],
+      "answer": "to be in action, on duty",
+      "explanation": "On duty.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Verb:",
+      "options": [
+        "einsetzen",
+        "einsitzen"
+      ],
+      "answer": "einsetzen",
+      "explanation": "Use, deploy.",
+      "id": "q5"
+    }
+  ]
+}

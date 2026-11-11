@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Kommentar",
+    "partOfSpeech": "noun, masculine (der Kommentar)",
+    "pronunciation": {
+      "respelling": "ko-men-TAAR",
+      "ipa": "kɔmɛnˈtaːɐ̯",
+      "notes": "Plural: die Kommentare."
+    },
+    "meaning": "comment, commentary",
+    "shortDefinition": "Comment, commentary."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Kommentar, plural die Kommentare.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Kommentar"
+        },
+        {
+          "label": "More than one",
+          "value": "die Kommentare"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Kein Kommentar!",
+      "english": "No comment!",
+      "highlight": [
+        "Kommentar!"
+      ]
+    },
+    {
+      "german": "Sie schreibt einen Kommentar in der Zeitung.",
+      "english": "She's writing an opinion piece in the paper.",
+      "highlight": [
+        "Kommentar"
+      ]
+    },
+    {
+      "german": "Unter dem Video gibt es viele Kommentare.",
+      "english": "There are lots of comments under the video.",
+      "highlight": [
+        "Kommentare."
+      ]
+    }
+  ],
+  "forms": [
+    "kommentieren"
+  ],
+  "memoryHook": "Der Kommentar; kommentieren.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Kommentar",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Kommentar is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Kommentar, zwei ___",
+      "answer": "Kommentare",
+      "fullAnswer": "ein Kommentar, zwei Kommentare",
+      "explanation": "The plural is Kommentare.",
+      "acceptedAnswers": [
+        "Kommentare"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Kommentar mean?",
+      "options": [
+        "the key",
+        "to travel",
+        "comment"
+      ],
+      "answer": "comment",
+      "explanation": "Kommentar: comment, commentary.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Verb:",
+      "options": [
+        "kommentieren",
+        "kommentaren"
+      ],
+      "answer": "kommentieren",
+      "explanation": "Comment.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "In a newspaper, ein Kommentar is…",
+      "options": [
+        "an opinion piece",
+        "a report"
+      ],
+      "answer": "an opinion piece",
+      "explanation": "Op-ed.",
+      "id": "q5"
+    }
+  ]
+}

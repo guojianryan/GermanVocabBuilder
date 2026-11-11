@@ -1,0 +1,148 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Malerei",
+    "partOfSpeech": "noun, feminine (die Malerei)",
+    "pronunciation": {
+      "respelling": "maa-le-RYE",
+      "ipa": "maːləˈʁaɪ̯",
+      "notes": "Plural: die Malereien."
+    },
+    "meaning": "painting (art)",
+    "shortDefinition": "Painting (art)."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Maler",
+        "meaning": "painter"
+      },
+      {
+        "part": "ei",
+        "meaning": "noun ending (art, activity)"
+      }
+    ],
+    "literalMeaning": "painter's art"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Malerei, plural die Malereien.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Malerei"
+        },
+        {
+          "label": "More than one",
+          "value": "die Malereien"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Sie interessiert sich für Malerei.",
+      "english": "She's interested in painting.",
+      "highlight": [
+        "Malerei."
+      ]
+    },
+    {
+      "german": "Die Malerei des Barock.",
+      "english": "Baroque painting.",
+      "highlight": [
+        "Malerei"
+      ]
+    },
+    {
+      "german": "Höhlenmalereien sind sehr alt.",
+      "english": "Cave paintings are very old.",
+      "highlight": [
+        "Höhlenmalereien"
+      ]
+    }
+  ],
+  "forms": [
+    "malen",
+    "Maler"
+  ],
+  "memoryHook": "Malen → die Malerei, der Maler.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Malerei",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Malerei is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Malerei, zwei ___",
+      "answer": "Malereien",
+      "fullAnswer": "ein Malerei, zwei Malereien",
+      "explanation": "The plural is Malereien.",
+      "acceptedAnswers": [
+        "Malereien"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Malerei mean?",
+      "options": [
+        "painting (art)",
+        "the family",
+        "the door"
+      ],
+      "answer": "painting (art)",
+      "explanation": "Malerei: painting (art).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "malen (paint)",
+        "Mal (time)"
+      ],
+      "answer": "malen (paint)",
+      "explanation": "Paint.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Painter:",
+      "options": [
+        "der Maler / die Malerin",
+        "der Malerer"
+      ],
+      "answer": "der Maler / die Malerin",
+      "explanation": "Person.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Stress on…",
+      "options": [
+        "-REI",
+        "MA-"
+      ],
+      "answer": "-REI",
+      "explanation": "End.",
+      "id": "q6"
+    }
+  ]
+}

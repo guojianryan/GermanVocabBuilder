@@ -1,0 +1,182 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "beibringen",
+    "partOfSpeech": "separable verb",
+    "pronunciation": {
+      "respelling": "BYE-bring-en",
+      "ipa": "ˈbaɪ̯ˌbʁɪŋən",
+      "notes": ""
+    },
+    "meaning": "to teach; to provide (documents)",
+    "shortDefinition": "To teach; to provide (documents)."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "bei",
+        "meaning": "by, to"
+      },
+      {
+        "part": "bringen",
+        "meaning": "to bring",
+        "emphasis": "arrive"
+      }
+    ],
+    "literalMeaning": "to bring to (someone)",
+    "summary": "Getting it across to them."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "bring|e … |bei"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "bring|st … |bei"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "bring|t … |bei"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "bring|en … |bei"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "bring|t … |bei"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "bring|en … |bei"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat beigebracht"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Mein Vater hat mir Schwimmen beigebracht.",
+      "english": "My father taught me to swim.",
+      "highlight": [
+        "beigebracht."
+      ]
+    },
+    {
+      "german": "Kannst du mir das beibringen?",
+      "english": "Can you teach me that?",
+      "highlight": [
+        "beibringen?"
+      ]
+    },
+    {
+      "german": "Bitte bringen Sie die Unterlagen bei.",
+      "english": "Please provide the documents.",
+      "highlight": [
+        "bringen",
+        "bei."
+      ]
+    }
+  ],
+  "forms": [
+    "lehren"
+  ],
+  "memoryHook": "Beibringen (+ Dat.) = teach (everyday).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ … bei (beibringen)",
+      "answer": "bringt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: bringt … bei.",
+      "acceptedAnswers": [
+        "bringt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (beibringen, past)",
+      "answer": "beigebracht",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe beigebracht.",
+      "acceptedAnswers": [
+        "beigebracht"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does beibringen mean?",
+      "options": [
+        "to wait",
+        "to teach",
+        "the weather"
+      ],
+      "answer": "to teach",
+      "explanation": "beibringen: to teach; to provide (documents).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Structure:",
+      "options": [
+        "jemandem (Dat.) etwas beibringen",
+        "jemanden etwas beibringen"
+      ],
+      "answer": "jemandem (Dat.) etwas beibringen",
+      "explanation": "Dative.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Beibringen vs lehren:",
+      "options": [
+        "everyday vs formal / professional",
+        "same"
+      ],
+      "answer": "everyday vs formal / professional",
+      "explanation": "Register.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "hat beigebracht",
+        "hat beigebringt"
+      ],
+      "answer": "hat beigebracht",
+      "explanation": "Mixed.",
+      "id": "q6"
+    }
+  ]
+}

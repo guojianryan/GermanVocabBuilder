@@ -1,0 +1,168 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "warten",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "VAR-ten",
+      "ipa": "ˈvaʁtn̩",
+      "notes": ""
+    },
+    "meaning": "to wait",
+    "shortDefinition": "To wait."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "wart|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "wart|est"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "wart|et"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "wart|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "wart|et"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "wart|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gewartet",
+        "The stem ends in -t: du wartest, er wartet."
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "auf, not für",
+      "explanation": "Waiting for something is warten auf.",
+      "wrong": "Ich warte für den Zug.",
+      "correct": "Ich warte auf den Zug."
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich warte auf den Bus.",
+      "english": "I'm waiting for the bus.",
+      "highlight": [
+        "warte",
+        "auf"
+      ]
+    },
+    {
+      "german": "Warte bitte einen Moment!",
+      "english": "Please wait a moment!",
+      "highlight": [
+        "Warte"
+      ]
+    },
+    {
+      "german": "Wir haben eine Stunde gewartet.",
+      "english": "We waited for an hour.",
+      "highlight": [
+        "gewartet."
+      ]
+    }
+  ],
+  "forms": [
+    "warte",
+    "wartest",
+    "wartet",
+    "warten",
+    "gewartet"
+  ],
+  "memoryHook": "Warten auf + accusative: Ich warte auf dich. Not 'für'!",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (warten)",
+      "answer": "wartet",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: wartet.",
+      "acceptedAnswers": [
+        "wartet"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (warten, past)",
+      "answer": "gewartet",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gewartet.",
+      "acceptedAnswers": [
+        "gewartet"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does warten mean?",
+      "options": [
+        "to wait",
+        "to sleep",
+        "to help"
+      ],
+      "answer": "to wait",
+      "explanation": "warten: to wait.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Wait FOR something: warten…",
+      "options": [
+        "auf + accusative",
+        "für"
+      ],
+      "answer": "auf + accusative",
+      "explanation": "Warten auf.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Das Wartezimmer is…",
+      "options": [
+        "the waiting room",
+        "the waiting list"
+      ],
+      "answer": "the waiting room",
+      "explanation": "Warte + Zimmer.",
+      "id": "q5"
+    }
+  ]
+}

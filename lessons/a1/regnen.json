@@ -1,0 +1,116 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "regnen",
+    "partOfSpeech": "verb (es regnet)",
+    "pronunciation": {
+      "respelling": "RAYG-nen",
+      "ipa": "ˈʁeːɡnən",
+      "notes": ""
+    },
+    "meaning": "to rain",
+    "shortDefinition": "To rain."
+  },
+  "wordFamily": [
+    {
+      "german": "der Regen",
+      "english": "rain",
+      "type": "noun"
+    },
+    {
+      "german": "der Regenschirm",
+      "english": "umbrella",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Es regnet.",
+      "english": "It's raining.",
+      "highlight": [
+        "regnet."
+      ]
+    },
+    {
+      "german": "Gestern hat es den ganzen Tag geregnet.",
+      "english": "It rained all day yesterday.",
+      "highlight": [
+        "geregnet."
+      ]
+    },
+    {
+      "german": "Wenn es regnet, bleiben wir zu Hause.",
+      "english": "If it rains, we'll stay home.",
+      "highlight": [
+        "regnet,"
+      ]
+    }
+  ],
+  "forms": [
+    "regnet",
+    "geregnet",
+    "Regen"
+  ],
+  "memoryHook": "Es regnet = it's raining. Der Regen = rain. Der Regenschirm = umbrella.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does regnen mean?",
+      "options": [
+        "the car",
+        "to rain",
+        "the bed"
+      ],
+      "answer": "to rain",
+      "explanation": "regnen: to rain.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Regnen is used with…",
+      "options": [
+        "es",
+        "er"
+      ],
+      "answer": "es",
+      "explanation": "Es regnet.",
+      "id": "q2"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Es ___ seit Stunden. (regnen)",
+      "answer": "regnet",
+      "fullAnswer": "Es regnet seit Stunden.",
+      "explanation": "Es regnet.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Der Regen is…",
+      "options": [
+        "the rain",
+        "the umbrella"
+      ],
+      "answer": "the rain",
+      "explanation": "Regen. Umbrella: Regenschirm.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Past: es hat ___",
+      "options": [
+        "geregnet",
+        "geregent"
+      ],
+      "answer": "geregnet",
+      "explanation": "Ge-regn-et.",
+      "id": "q5"
+    }
+  ]
+}

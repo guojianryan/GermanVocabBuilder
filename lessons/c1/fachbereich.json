@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Fachbereich",
+    "partOfSpeech": "noun, masculine (der Fachbereich)",
+    "pronunciation": {
+      "respelling": "FAKH-be-rykh",
+      "ipa": "ˈfaxbəˌʁaɪ̯ç",
+      "notes": "Plural: die Fachbereiche."
+    },
+    "meaning": "(academic) department, faculty; field",
+    "shortDefinition": "(academic) department, faculty; field."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Fach",
+        "meaning": "subject"
+      },
+      {
+        "part": "bereich",
+        "meaning": "area"
+      }
+    ],
+    "literalMeaning": "subject area"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Fachbereich, plural die Fachbereiche.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Fachbereich"
+        },
+        {
+          "label": "More than one",
+          "value": "die Fachbereiche"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Sie arbeitet im Fachbereich Physik.",
+      "english": "She works in the physics department.",
+      "highlight": [
+        "Fachbereich"
+      ]
+    },
+    {
+      "german": "Das fällt nicht in meinen Fachbereich.",
+      "english": "That's not my field.",
+      "highlight": [
+        "Fachbereich."
+      ]
+    },
+    {
+      "german": "Der Fachbereich Medizin.",
+      "english": "The medical faculty.",
+      "highlight": [
+        "Fachbereich"
+      ]
+    }
+  ],
+  "forms": [
+    "Fakultät"
+  ],
+  "memoryHook": "Fach + Bereich = department, field (≈ Fakultät).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Fachbereich",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Fachbereich is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Fachbereich, zwei ___",
+      "answer": "Fachbereiche",
+      "fullAnswer": "ein Fachbereich, zwei Fachbereiche",
+      "explanation": "The plural is Fachbereiche.",
+      "acceptedAnswers": [
+        "Fachbereiche"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Fachbereich mean?",
+      "options": [
+        "quiet",
+        "(academic) department",
+        "the shop"
+      ],
+      "answer": "(academic) department",
+      "explanation": "Fachbereich: (academic) department, faculty; field.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Fach (subject) + Bereich (area)",
+        "Fach + reich"
+      ],
+      "answer": "Fach (subject) + Bereich (area)",
+      "explanation": "Subject area.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonym (university):",
+      "options": [
+        "die Fakultät",
+        "die Fachhochschule"
+      ],
+      "answer": "die Fakultät",
+      "explanation": "Faculty.",
+      "id": "q5"
+    }
+  ]
+}

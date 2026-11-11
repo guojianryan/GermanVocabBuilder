@@ -1,0 +1,131 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Konto",
+    "partOfSpeech": "noun, neuter (das Konto)",
+    "pronunciation": {
+      "respelling": "KON-toh",
+      "ipa": "ˈkɔnto",
+      "notes": "Plural: die Konten."
+    },
+    "meaning": "(bank) account",
+    "shortDefinition": "(bank) account."
+  },
+  "wordFamily": [
+    {
+      "german": "die Bank",
+      "english": "bank",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Konto, plural die Konten.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Konto"
+        },
+        {
+          "label": "More than one",
+          "value": "die Konten"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich möchte ein Konto eröffnen.",
+      "english": "I'd like to open an account.",
+      "highlight": [
+        "Konto"
+      ]
+    },
+    {
+      "german": "Das Geld ist auf meinem Konto.",
+      "english": "The money is in my account.",
+      "highlight": [
+        "Konto."
+      ]
+    },
+    {
+      "german": "Wie ist Ihre Kontonummer?",
+      "english": "What's your account number?",
+      "highlight": [
+        "Kontonummer?"
+      ]
+    }
+  ],
+  "forms": [
+    "Konten",
+    "Kontos",
+    "das Konto"
+  ],
+  "memoryHook": "Das Konto (bank account). Money is auf dem Konto. Plural usually Konten.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Konto",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Konto is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Konto, zwei ___",
+      "answer": "Konten",
+      "fullAnswer": "ein Konto, zwei Konten",
+      "explanation": "The plural is Konten.",
+      "acceptedAnswers": [
+        "Konten"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Konto mean?",
+      "options": [
+        "tomorrow",
+        "the key",
+        "(bank) account"
+      ],
+      "answer": "(bank) account",
+      "explanation": "Konto: (bank) account.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Money is ___ dem Konto.",
+      "options": [
+        "auf",
+        "in"
+      ],
+      "answer": "auf",
+      "explanation": "Auf dem Konto.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Konten",
+        "Kontos"
+      ],
+      "answer": "Konten",
+      "explanation": "Konten (Kontos also exists).",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Golf",
+    "partOfSpeech": "noun, neuter (das Golf)",
+    "pronunciation": {
+      "respelling": "GOLF",
+      "ipa": "ɡɔlf",
+      "notes": "Usually no plural."
+    },
+    "meaning": "golf",
+    "shortDefinition": "Golf."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Golf, usually no plural.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Golf"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er spielt am Wochenende Golf.",
+      "english": "He plays golf at weekends.",
+      "highlight": [
+        "Golf."
+      ]
+    },
+    {
+      "german": "Der Golfplatz ist sehr groß.",
+      "english": "The golf course is very big.",
+      "highlight": [
+        "Golfplatz"
+      ]
+    },
+    {
+      "german": "Golf ist ein teurer Sport.",
+      "english": "Golf is an expensive sport.",
+      "highlight": [
+        "Golf"
+      ]
+    }
+  ],
+  "forms": [
+    "Golfplatz"
+  ],
+  "memoryHook": "Das Golf (sport). Der Golf = gulf (sea).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Golf",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Golf is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Golf mean?",
+      "options": [
+        "the flower",
+        "golf",
+        "the weather"
+      ],
+      "answer": "golf",
+      "explanation": "Golf: golf.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Play golf':",
+      "options": [
+        "Golf spielen",
+        "das Golf spielen"
+      ],
+      "answer": "Golf spielen",
+      "explanation": "No article.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Der Golf (masculine) means…",
+      "options": [
+        "a gulf (sea)",
+        "golf"
+      ],
+      "answer": "a gulf (sea)",
+      "explanation": "Different gender!",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Golf course:",
+      "options": [
+        "der Golfplatz",
+        "das Golffeld"
+      ],
+      "answer": "der Golfplatz",
+      "explanation": "Platz.",
+      "id": "q5"
+    }
+  ]
+}

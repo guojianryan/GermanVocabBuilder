@@ -1,0 +1,182 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "verkehren",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "fer-KAIR-en",
+      "ipa": "fɛɐ̯ˈkeːʁən",
+      "notes": ""
+    },
+    "meaning": "to run (transport); to associate, mix; to reverse",
+    "shortDefinition": "To run (transport); to associate, mix; to reverse."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "ver",
+        "meaning": "around, wrong"
+      },
+      {
+        "part": "kehren",
+        "meaning": "to turn",
+        "emphasis": "turn"
+      }
+    ],
+    "literalMeaning": "to turn about",
+    "summary": "Going back and forth; turned the wrong way."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "verkehr|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "verkehr|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "verkehr|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "verkehr|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "verkehr|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "verkehr|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat verkehrt"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Bus verkehrt alle zehn Minuten.",
+      "english": "The bus runs every ten minutes.",
+      "highlight": [
+        "verkehrt"
+      ]
+    },
+    {
+      "german": "Sie verkehrt in Künstlerkreisen.",
+      "english": "She mixes in artistic circles.",
+      "highlight": [
+        "verkehrt"
+      ]
+    },
+    {
+      "german": "Das ist genau verkehrt herum.",
+      "english": "That's exactly the wrong way round.",
+      "highlight": [
+        "verkehrt"
+      ]
+    }
+  ],
+  "forms": [
+    "Verkehr",
+    "verkehrt"
+  ],
+  "memoryHook": "Verkehren: run (Bus); mix; verkehrt = wrong; der Verkehr.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (verkehren)",
+      "answer": "verkehrt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: verkehrt.",
+      "acceptedAnswers": [
+        "verkehrt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (verkehren, past)",
+      "answer": "verkehrt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe verkehrt.",
+      "acceptedAnswers": [
+        "verkehrt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does verkehren mean?",
+      "options": [
+        "to buy",
+        "to run (transport)",
+        "never"
+      ],
+      "answer": "to run (transport)",
+      "explanation": "verkehren: to run (transport); to associate, mix; to reverse.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Verkehrt' (adjective) means…",
+      "options": [
+        "wrong, the wrong way round",
+        "traffic-related"
+      ],
+      "answer": "wrong, the wrong way round",
+      "explanation": "Wrong.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Noun:",
+      "options": [
+        "der Verkehr (traffic)",
+        "die Verkehrung only"
+      ],
+      "answer": "der Verkehr (traffic)",
+      "explanation": "Traffic.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Typical subject (transport):",
+      "options": [
+        "Bus, Zug, Fähre",
+        "Auto only"
+      ],
+      "answer": "Bus, Zug, Fähre",
+      "explanation": "Public transport.",
+      "id": "q6"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Klima",
+    "partOfSpeech": "noun, neuter (das Klima)",
+    "pronunciation": {
+      "respelling": "KLEE-ma",
+      "ipa": "ˈkliːma",
+      "notes": "Plural: die Klimas."
+    },
+    "meaning": "climate",
+    "shortDefinition": "Climate."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Klima, plural die Klimas.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Klima"
+        },
+        {
+          "label": "More than one",
+          "value": "die Klimas"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das Klima hier ist mild.",
+      "english": "The climate here is mild.",
+      "highlight": [
+        "Klima"
+      ]
+    },
+    {
+      "german": "Der Klimawandel ist ein großes Problem.",
+      "english": "Climate change is a big problem.",
+      "highlight": [
+        "Klimawandel"
+      ]
+    },
+    {
+      "german": "Das Klima im Büro ist gut.",
+      "english": "The atmosphere in the office is good.",
+      "highlight": [
+        "Klima"
+      ]
+    }
+  ],
+  "forms": [
+    "Klimawandel"
+  ],
+  "memoryHook": "Das Klima: climate (and atmosphere). Klimawandel = climate change.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Klima",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Klima is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Klima, zwei ___",
+      "answer": "Klimas",
+      "fullAnswer": "ein Klima, zwei Klimas",
+      "explanation": "The plural is Klimas.",
+      "acceptedAnswers": [
+        "Klimas"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Klima mean?",
+      "options": [
+        "climate",
+        "to sing",
+        "the window"
+      ],
+      "answer": "climate",
+      "explanation": "Klima: climate.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Climate change:",
+      "options": [
+        "der Klimawandel",
+        "die Klimaänderung only"
+      ],
+      "answer": "der Klimawandel",
+      "explanation": "Wandel = change.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Das Klima im Team' means…",
+      "options": [
+        "the atmosphere in the team",
+        "the room temperature"
+      ],
+      "answer": "the atmosphere in the team",
+      "explanation": "Mood.",
+      "id": "q5"
+    }
+  ]
+}

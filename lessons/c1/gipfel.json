@@ -1,0 +1,133 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Gipfel",
+    "partOfSpeech": "noun, masculine (der Gipfel)",
+    "pronunciation": {
+      "respelling": "GIP-fel",
+      "ipa": "ˈɡɪpfl̩",
+      "notes": "The plural looks the same. Plural: die Gipfel."
+    },
+    "meaning": "summit, peak",
+    "shortDefinition": "Summit, peak."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Gipfel, plural die Gipfel.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Gipfel"
+        },
+        {
+          "label": "More than one",
+          "value": "die Gipfel"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir haben den Gipfel erreicht.",
+      "english": "We've reached the summit.",
+      "highlight": [
+        "Gipfel"
+      ]
+    },
+    {
+      "german": "Der G20-Gipfel in Hamburg.",
+      "english": "The G20 summit in Hamburg.",
+      "highlight": [
+        "G20-Gipfel"
+      ]
+    },
+    {
+      "german": "Das ist der Gipfel der Frechheit!",
+      "english": "That's the height of cheek!",
+      "highlight": [
+        "Gipfel"
+      ]
+    }
+  ],
+  "forms": [
+    "Gipfeltreffen"
+  ],
+  "memoryHook": "Der Gipfel (peak; summit); das ist der Gipfel!",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Gipfel",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Gipfel is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Gipfel, zwei ___",
+      "answer": "Gipfel",
+      "fullAnswer": "ein Gipfel, zwei Gipfel",
+      "explanation": "The plural is Gipfel.",
+      "acceptedAnswers": [
+        "Gipfel"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Gipfel mean?",
+      "options": [
+        "the bed",
+        "summit",
+        "the car"
+      ],
+      "answer": "summit",
+      "explanation": "Gipfel: summit, peak.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Political 'Gipfel' is…",
+      "options": [
+        "a summit meeting",
+        "a peak only"
+      ],
+      "answer": "a summit meeting",
+      "explanation": "Summit.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Das ist der Gipfel!' means…",
+      "options": [
+        "that's the limit!",
+        "that's the top!"
+      ],
+      "answer": "that's the limit!",
+      "explanation": "Idiom.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Austrian 'Kipferl' / German 'Gipfel'…",
+      "options": [
+        "(Swiss) Gipfeli = croissant",
+        "mountain"
+      ],
+      "answer": "(Swiss) Gipfeli = croissant",
+      "explanation": "Regional.",
+      "id": "q6"
+    }
+  ]
+}

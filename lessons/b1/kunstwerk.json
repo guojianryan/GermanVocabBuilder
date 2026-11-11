@@ -1,0 +1,138 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Kunstwerk",
+    "partOfSpeech": "noun, neuter (das Kunstwerk)",
+    "pronunciation": {
+      "respelling": "KOONST-vairk",
+      "ipa": "ˈkʊnstvɛʁk",
+      "notes": "Plural: die Kunstwerke."
+    },
+    "meaning": "work of art",
+    "shortDefinition": "Work of art."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Kunst",
+        "meaning": "art"
+      },
+      {
+        "part": "werk",
+        "meaning": "work"
+      }
+    ],
+    "literalMeaning": "art work"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Kunstwerk, plural die Kunstwerke.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Kunstwerk"
+        },
+        {
+          "label": "More than one",
+          "value": "die Kunstwerke"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das Bild ist ein echtes Kunstwerk.",
+      "english": "The picture is a real work of art.",
+      "highlight": [
+        "Kunstwerk."
+      ]
+    },
+    {
+      "german": "Im Museum hängen viele Kunstwerke.",
+      "english": "Many works of art hang in the museum.",
+      "highlight": [
+        "Kunstwerke."
+      ]
+    },
+    {
+      "german": "Die Torte ist ein Kunstwerk!",
+      "english": "The cake is a work of art!",
+      "highlight": [
+        "Kunstwerk!"
+      ]
+    }
+  ],
+  "forms": [
+    "Kunstwerke",
+    "die Kunstwerke",
+    "das Kunstwerk"
+  ],
+  "memoryHook": "Kunst + Werk = work of art.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Kunstwerk",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Kunstwerk is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Kunstwerk, zwei ___",
+      "answer": "Kunstwerke",
+      "fullAnswer": "ein Kunstwerk, zwei Kunstwerke",
+      "explanation": "The plural is Kunstwerke.",
+      "acceptedAnswers": [
+        "Kunstwerke"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Kunstwerk mean?",
+      "options": [
+        "work of art",
+        "hot",
+        "expensive"
+      ],
+      "answer": "work of art",
+      "explanation": "Kunstwerk: work of art.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Kunst + Werk",
+        "können + Werk"
+      ],
+      "answer": "Kunst + Werk",
+      "explanation": "Art work.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gender:",
+      "options": [
+        "das (Werk)",
+        "die (Kunst)"
+      ],
+      "answer": "das (Werk)",
+      "explanation": "Last part.",
+      "id": "q5"
+    }
+  ]
+}

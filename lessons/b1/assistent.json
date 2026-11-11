@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Assistent",
+    "partOfSpeech": "noun, masculine (der Assistent)",
+    "pronunciation": {
+      "respelling": "a-sis-TENT",
+      "ipa": "asɪsˈtɛnt",
+      "notes": "Plural: die Assistenten."
+    },
+    "meaning": "assistant",
+    "shortDefinition": "Assistant."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Assistent, plural die Assistenten.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Assistent"
+        },
+        {
+          "label": "More than one",
+          "value": "die Assistenten"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Mein Assistent macht die Termine.",
+      "english": "My assistant makes the appointments.",
+      "highlight": [
+        "Assistent"
+      ]
+    },
+    {
+      "german": "Sie ist Assistentin der Geschäftsführung.",
+      "english": "She's the executive assistant.",
+      "highlight": [
+        "Assistentin"
+      ]
+    },
+    {
+      "german": "Wir suchen einen Assistenten.",
+      "english": "We're looking for an assistant.",
+      "highlight": [
+        "Assistenten."
+      ]
+    }
+  ],
+  "forms": [
+    "Assistentin"
+  ],
+  "memoryHook": "Der Assistent (weak), die Assistentin.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Assistent",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Assistent is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Assistent, zwei ___",
+      "answer": "Assistenten",
+      "fullAnswer": "ein Assistent, zwei Assistenten",
+      "explanation": "The plural is Assistenten.",
+      "acceptedAnswers": [
+        "Assistenten"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Assistent mean?",
+      "options": [
+        "to buy",
+        "expensive",
+        "assistant"
+      ],
+      "answer": "assistant",
+      "explanation": "Assistent: assistant.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Weak noun: den/dem…",
+      "options": [
+        "Assistenten",
+        "Assistent"
+      ],
+      "answer": "Assistenten",
+      "explanation": "-ent = weak.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Female:",
+      "options": [
+        "die Assistentin",
+        "die Assistenz"
+      ],
+      "answer": "die Assistentin",
+      "explanation": "-in.",
+      "id": "q5"
+    }
+  ]
+}

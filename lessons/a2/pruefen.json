@@ -1,0 +1,170 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "prüfen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "PRÜ-fen",
+      "ipa": "ˈpʁyːfn̩",
+      "notes": ""
+    },
+    "meaning": "to check, to test",
+    "shortDefinition": "To check, to test."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "prüf|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "prüf|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "prüf|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "prüf|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "prüf|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "prüf|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat geprüft"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "die Prüfung",
+      "english": "exam",
+      "type": "noun"
+    },
+    {
+      "german": "der Prüfer",
+      "english": "examiner",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Bitte prüfen Sie Ihre Daten.",
+      "english": "Please check your details.",
+      "highlight": [
+        "prüfen"
+      ]
+    },
+    {
+      "german": "Der Lehrer prüft die Schüler.",
+      "english": "The teacher tests the pupils.",
+      "highlight": [
+        "prüft"
+      ]
+    },
+    {
+      "german": "Ich habe alles geprüft.",
+      "english": "I've checked everything.",
+      "highlight": [
+        "geprüft."
+      ]
+    }
+  ],
+  "forms": [
+    "prüfe",
+    "prüfst",
+    "prüft",
+    "prüfen",
+    "geprüft"
+  ],
+  "memoryHook": "Prüfen = check, examine → die Prüfung, der Prüfer.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (prüfen)",
+      "answer": "prüft",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: prüft.",
+      "acceptedAnswers": [
+        "prueft"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (prüfen, past)",
+      "answer": "geprüft",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe geprüft.",
+      "acceptedAnswers": [
+        "geprueft"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does prüfen mean?",
+      "options": [
+        "to check",
+        "the door",
+        "the station"
+      ],
+      "answer": "to check",
+      "explanation": "prüfen: to check, to test.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "The noun 'exam':",
+      "options": [
+        "die Prüfung",
+        "die Prüfe"
+      ],
+      "answer": "die Prüfung",
+      "explanation": "Prüfung.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "An examiner:",
+      "options": [
+        "der Prüfer",
+        "der Prüfling"
+      ],
+      "answer": "der Prüfer",
+      "explanation": "Prüfling = candidate.",
+      "id": "q5"
+    }
+  ]
+}

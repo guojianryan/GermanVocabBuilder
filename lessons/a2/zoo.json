@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Zoo",
+    "partOfSpeech": "noun, masculine (der Zoo)",
+    "pronunciation": {
+      "respelling": "TSOH",
+      "ipa": "tsoː",
+      "notes": "Plural: die Zoos."
+    },
+    "meaning": "zoo",
+    "shortDefinition": "Zoo."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Zoo, plural die Zoos.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Zoo"
+        },
+        {
+          "label": "More than one",
+          "value": "die Zoos"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Am Sonntag gehen wir in den Zoo.",
+      "english": "On Sunday we're going to the zoo.",
+      "highlight": [
+        "Zoo."
+      ]
+    },
+    {
+      "german": "Im Zoo gibt es Elefanten.",
+      "english": "There are elephants at the zoo.",
+      "highlight": [
+        "Zoo"
+      ]
+    },
+    {
+      "german": "Der Berliner Zoo ist sehr alt.",
+      "english": "Berlin Zoo is very old.",
+      "highlight": [
+        "Zoo"
+      ]
+    }
+  ],
+  "forms": [
+    "Zoos",
+    "die Zoos",
+    "der Zoo"
+  ],
+  "memoryHook": "Der Zoo (say tsoh).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Zoo",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Zoo is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Zoo, zwei ___",
+      "answer": "Zoos",
+      "fullAnswer": "ein Zoo, zwei Zoos",
+      "explanation": "The plural is Zoos.",
+      "acceptedAnswers": [
+        "Zoos"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Zoo mean?",
+      "options": [
+        "the family",
+        "tomorrow",
+        "zoo"
+      ],
+      "answer": "zoo",
+      "explanation": "Zoo: zoo.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Z sounds like…",
+      "options": [
+        "ts",
+        "z"
+      ],
+      "answer": "ts",
+      "explanation": "TSOH.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'To the zoo':",
+      "options": [
+        "in den Zoo",
+        "zum Zoo (also)"
+      ],
+      "answer": "in den Zoo",
+      "explanation": "Both possible.",
+      "id": "q5"
+    }
+  ]
+}

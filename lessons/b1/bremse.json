@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Bremse",
+    "partOfSpeech": "noun, feminine (die Bremse)",
+    "pronunciation": {
+      "respelling": "BREM-ze",
+      "ipa": "ˈbʁɛmzə",
+      "notes": "Plural: die Bremsen."
+    },
+    "meaning": "brake",
+    "shortDefinition": "Brake."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Bremse, plural die Bremsen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Bremse"
+        },
+        {
+          "label": "More than one",
+          "value": "die Bremsen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Bremse funktioniert nicht.",
+      "english": "The brake isn't working.",
+      "highlight": [
+        "Bremse"
+      ]
+    },
+    {
+      "german": "Tritt auf die Bremse!",
+      "english": "Hit the brakes!",
+      "highlight": [
+        "Bremse!"
+      ]
+    },
+    {
+      "german": "Die Bremsen müssen repariert werden.",
+      "english": "The brakes need repairing.",
+      "highlight": [
+        "Bremsen"
+      ]
+    }
+  ],
+  "forms": [
+    "Bremsen",
+    "die Bremsen",
+    "die Bremse"
+  ],
+  "memoryHook": "Die Bremse → bremsen.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Bremse",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Bremse is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Bremse, zwei ___",
+      "answer": "Bremsen",
+      "fullAnswer": "ein Bremse, zwei Bremsen",
+      "explanation": "The plural is Bremsen.",
+      "acceptedAnswers": [
+        "Bremsen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Bremse mean?",
+      "options": [
+        "cheap",
+        "brake",
+        "the weather"
+      ],
+      "answer": "brake",
+      "explanation": "Bremse: brake.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Auf die Bremse treten' means…",
+      "options": [
+        "to hit the brakes",
+        "to break the brake"
+      ],
+      "answer": "to hit the brakes",
+      "explanation": "Brake.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Verb:",
+      "options": [
+        "bremsen",
+        "bremen"
+      ],
+      "answer": "bremsen",
+      "explanation": "Brake.",
+      "id": "q5"
+    }
+  ]
+}

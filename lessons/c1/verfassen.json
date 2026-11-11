@@ -1,0 +1,180 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "verfassen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "fer-FA-sen",
+      "ipa": "fɛɐ̯ˈfasn̩",
+      "notes": ""
+    },
+    "meaning": "to write, compose, draw up",
+    "shortDefinition": "To write, compose, draw up."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "ver",
+        "meaning": "prefix"
+      },
+      {
+        "part": "fassen",
+        "meaning": "to grasp, set down"
+      }
+    ],
+    "literalMeaning": "to set down (in words)"
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "verfass|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "verfass|t"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "verfass|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "verfass|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "verfass|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "verfass|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat verfasst"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er verfasst einen Bericht.",
+      "english": "He's writing a report.",
+      "highlight": [
+        "verfasst"
+      ]
+    },
+    {
+      "german": "Wer hat den Brief verfasst?",
+      "english": "Who wrote the letter?",
+      "highlight": [
+        "verfasst?"
+      ]
+    },
+    {
+      "german": "Sie verfasste mehrere Romane.",
+      "english": "She wrote several novels.",
+      "highlight": [
+        "verfasste"
+      ]
+    }
+  ],
+  "forms": [
+    "Verfasser",
+    "Verfassung"
+  ],
+  "memoryHook": "Verfassen = write (formal); der Verfasser; die Verfassung.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (verfassen)",
+      "answer": "verfasst",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: verfasst.",
+      "acceptedAnswers": [
+        "verfasst"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (verfassen, past)",
+      "answer": "verfasst",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe verfasst.",
+      "acceptedAnswers": [
+        "verfasst"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does verfassen mean?",
+      "options": [
+        "never",
+        "to write",
+        "to sleep"
+      ],
+      "answer": "to write",
+      "explanation": "verfassen: to write, compose, draw up.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Author:",
+      "options": [
+        "der Verfasser / die Verfasserin",
+        "der Verfass"
+      ],
+      "answer": "der Verfasser / die Verfasserin",
+      "explanation": "Author.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Register:",
+      "options": [
+        "formal (= schreiben)",
+        "slang"
+      ],
+      "answer": "formal (= schreiben)",
+      "explanation": "Formal.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Related:",
+      "options": [
+        "die Verfassung (constitution)",
+        "die Fassade"
+      ],
+      "answer": "die Verfassung (constitution)",
+      "explanation": "Family.",
+      "id": "q6"
+    }
+  ]
+}

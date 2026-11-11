@@ -1,0 +1,168 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "full",
+  "word": {
+    "headword": "also",
+    "partOfSpeech": "adverb / particle",
+    "pronunciation": {
+      "respelling": "AHL-zoh",
+      "ipa": "ˈalzo",
+      "notes": "The s sounds like z."
+    },
+    "meaning": "so, therefore; well…",
+    "shortDefinition": "Draws a conclusion or starts a thought."
+  },
+  "intro": {
+    "title": "Also doesn't mean 'also'",
+    "paragraphs": [
+      "Also looks exactly like the English word, but it means 'so' or 'therefore'. Germans also use it the way English speakers say 'so…' or 'well…' to start a sentence. For 'also', German says auch."
+    ]
+  },
+  "wordFamily": [
+    {
+      "german": "auch",
+      "english": "also, too",
+      "type": "adverb"
+    },
+    {
+      "german": "deshalb",
+      "english": "that's why",
+      "type": "adverb"
+    },
+    {
+      "german": "Also gut!",
+      "english": "All right then!",
+      "type": "phrase"
+    }
+  ],
+  "keyTrap": {
+    "title": "The big trap: also is 'so'",
+    "explanation": "When you mean 'too' or 'as well', you need auch.",
+    "wrong": {
+      "german": "Ich spreche also Englisch.",
+      "verdict": "This means 'So I speak English.'"
+    },
+    "correct": [
+      {
+        "german": "Ich spreche auch Englisch.",
+        "literal": "I speak also English.",
+        "note": "Too, as well: auch."
+      },
+      {
+        "german": "Es regnet, also bleiben wir zu Hause.",
+        "literal": "It's raining, so we stay at home.",
+        "note": "Therefore: also."
+      }
+    ]
+  },
+  "commonMistakes": [
+    {
+      "title": "Word order after also",
+      "explanation": "When also starts the clause, the verb comes right after it.",
+      "wrong": "Es ist spät, also ich gehe.",
+      "correct": "Es ist spät, also gehe ich."
+    },
+    {
+      "title": "Starting a sentence",
+      "explanation": "Also, … works like English 'So, …' or 'Well, …'.",
+      "examples": [
+        {
+          "german": "Also, wo waren wir?",
+          "english": "So, where were we?",
+          "highlight": "Also,"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er hat keine Zeit, also kommt er nicht.",
+      "english": "He has no time, so he isn't coming.",
+      "highlight": [
+        "also"
+      ]
+    },
+    {
+      "german": "Also, was möchtest du trinken?",
+      "english": "So, what would you like to drink?",
+      "highlight": [
+        "Also,"
+      ]
+    },
+    {
+      "german": "Ich komme auch mit.",
+      "english": "I'm coming too.",
+      "highlight": [
+        "auch"
+      ]
+    },
+    {
+      "german": "Also gut, machen wir das so.",
+      "english": "All right then, let's do it that way.",
+      "highlight": [
+        "Also"
+      ]
+    }
+  ],
+  "forms": [],
+  "memoryHook": "Also = so. Auch = also. Swap them in your head.",
+  "signOff": "Also, bis bald!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Ich trinke Tee, und meine Frau trinkt ___ Tee. (too)",
+      "options": [
+        "also",
+        "auch"
+      ],
+      "answer": "auch",
+      "explanation": "Too, as well: auch.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Der Laden ist zu, ___ gehen wir nach Hause. (so)",
+      "options": [
+        "also",
+        "auch"
+      ],
+      "answer": "also",
+      "explanation": "Therefore: also.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "Es ist spät, also ich gehe.",
+        "Es ist spät, also gehe ich."
+      ],
+      "answer": "Es ist spät, also gehe ich.",
+      "explanation": "The verb comes right after also.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "German 'also' means…",
+      "options": [
+        "also, too",
+        "so, therefore"
+      ],
+      "answer": "so, therefore",
+      "explanation": "A false friend.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich bin ___ Lehrerin. (I'm a teacher too.)",
+      "answer": "auch",
+      "fullAnswer": "Ich bin auch Lehrerin.",
+      "explanation": "Too: auch.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "reservieren",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "re-zer-VEE-ren",
+      "ipa": "ʁezɛʁˈviːʁən",
+      "notes": ""
+    },
+    "meaning": "to reserve, to book",
+    "shortDefinition": "To reserve, to book."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "reservier|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "reservier|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "reservier|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "reservier|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "reservier|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "reservier|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat reserviert"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "die Reservierung",
+      "english": "reservation",
+      "type": "noun"
+    },
+    {
+      "german": "buchen",
+      "english": "to book",
+      "type": "verb"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich möchte einen Tisch für zwei reservieren.",
+      "english": "I'd like to reserve a table for two.",
+      "highlight": [
+        "reservieren."
+      ]
+    },
+    {
+      "german": "Haben Sie reserviert?",
+      "english": "Do you have a reservation?",
+      "highlight": [
+        "reserviert?"
+      ]
+    },
+    {
+      "german": "Der Platz ist reserviert.",
+      "english": "The seat is reserved.",
+      "highlight": [
+        "reserviert."
+      ]
+    }
+  ],
+  "forms": [
+    "reserviere",
+    "reservierst",
+    "reserviert",
+    "reservieren"
+  ],
+  "memoryHook": "Reservieren = book a table/seat. Buchen = book a trip.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (reservieren)",
+      "answer": "reserviert",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: reserviert.",
+      "acceptedAnswers": [
+        "reserviert"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (reservieren, past)",
+      "answer": "reserviert",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe reserviert.",
+      "acceptedAnswers": [
+        "reserviert"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does reservieren mean?",
+      "options": [
+        "the key",
+        "always",
+        "to reserve"
+      ],
+      "answer": "to reserve",
+      "explanation": "reservieren: to reserve, to book.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "The noun:",
+      "options": [
+        "die Reservierung",
+        "die Reserve"
+      ],
+      "answer": "die Reservierung",
+      "explanation": "Reservation.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "hat reserviert",
+        "hat gereserviert"
+      ],
+      "answer": "hat reserviert",
+      "explanation": "No ge-.",
+      "id": "q5"
+    }
+  ]
+}

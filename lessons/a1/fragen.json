@@ -1,0 +1,171 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "fragen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "FRAH-gen",
+      "ipa": "ˈfʁaːɡn̩",
+      "notes": ""
+    },
+    "meaning": "to ask",
+    "shortDefinition": "To ask."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "frag|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "frag|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "frag|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "frag|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "frag|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "frag|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gefragt"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "die Frage",
+      "english": "question",
+      "type": "noun"
+    },
+    {
+      "german": "bitten",
+      "english": "to ask for",
+      "type": "verb"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Darf ich Sie etwas fragen?",
+      "english": "May I ask you something?",
+      "highlight": [
+        "fragen?"
+      ]
+    },
+    {
+      "german": "Frag doch den Lehrer!",
+      "english": "Why don't you ask the teacher!",
+      "highlight": [
+        "Frag"
+      ]
+    },
+    {
+      "german": "Er hat nach dem Weg gefragt.",
+      "english": "He asked the way.",
+      "highlight": [
+        "gefragt."
+      ]
+    }
+  ],
+  "forms": [
+    "frage",
+    "fragst",
+    "fragt",
+    "fragen",
+    "gefragt",
+    "Frage"
+  ],
+  "memoryHook": "Fragen + accusative: ich frage dich. Die Frage = the question. To ask FOR something: bitten um.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (fragen)",
+      "answer": "fragt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: fragt.",
+      "acceptedAnswers": [
+        "fragt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (fragen, past)",
+      "answer": "gefragt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gefragt.",
+      "acceptedAnswers": [
+        "gefragt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does fragen mean?",
+      "options": [
+        "to open",
+        "never",
+        "to ask"
+      ],
+      "answer": "to ask",
+      "explanation": "fragen: to ask.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich frage ___. (you, informal)",
+      "options": [
+        "dich",
+        "dir"
+      ],
+      "answer": "dich",
+      "explanation": "Fragen takes the accusative.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "To ask for directions: nach dem Weg…",
+      "options": [
+        "fragen",
+        "bitten"
+      ],
+      "answer": "fragen",
+      "explanation": "Fragen nach: ask about.",
+      "id": "q5"
+    }
+  ]
+}

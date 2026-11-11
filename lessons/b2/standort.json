@@ -1,0 +1,138 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Standort",
+    "partOfSpeech": "noun, masculine (der Standort)",
+    "pronunciation": {
+      "respelling": "SHTANT-ort",
+      "ipa": "ˈʃtantʔɔʁt",
+      "notes": "Plural: die Standorte."
+    },
+    "meaning": "location, site",
+    "shortDefinition": "Location, site."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Stand",
+        "meaning": "standing"
+      },
+      {
+        "part": "ort",
+        "meaning": "place"
+      }
+    ],
+    "literalMeaning": "standing place"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Standort, plural die Standorte.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Standort"
+        },
+        {
+          "label": "More than one",
+          "value": "die Standorte"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Standort der Firma ist in München.",
+      "english": "The company is located in Munich.",
+      "highlight": [
+        "Standort"
+      ]
+    },
+    {
+      "german": "Deutschland ist ein guter Standort für Industrie.",
+      "english": "Germany is a good location for industry.",
+      "highlight": [
+        "Standort"
+      ]
+    },
+    {
+      "german": "Teilen Sie Ihren Standort.",
+      "english": "Share your location.",
+      "highlight": [
+        "Standort."
+      ]
+    }
+  ],
+  "forms": [
+    "Standorte",
+    "die Standorte",
+    "der Standort"
+  ],
+  "memoryHook": "Stand + Ort = location, site.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Standort",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Standort is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Standort, zwei ___",
+      "answer": "Standorte",
+      "fullAnswer": "ein Standort, zwei Standorte",
+      "explanation": "The plural is Standorte.",
+      "acceptedAnswers": [
+        "Standorte"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Standort mean?",
+      "options": [
+        "the child",
+        "location",
+        "the station"
+      ],
+      "answer": "location",
+      "explanation": "Standort: location, site.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Stand + Ort (place)",
+        "Stadt + Ort"
+      ],
+      "answer": "Stand + Ort (place)",
+      "explanation": "Standing place.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "On a phone, Standort means…",
+      "options": [
+        "location",
+        "status"
+      ],
+      "answer": "location",
+      "explanation": "GPS.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Beispiel",
+    "partOfSpeech": "noun, neuter (das Beispiel)",
+    "pronunciation": {
+      "respelling": "BY-shpeel",
+      "ipa": "ˈbaɪ̯ʃpiːl",
+      "notes": "Plural: die Beispiele."
+    },
+    "meaning": "example",
+    "shortDefinition": "Example."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Bei",
+        "meaning": "beside"
+      },
+      {
+        "part": "spiel",
+        "meaning": "story",
+        "note": "An old word for a tale, like the -spel in English 'gospel'."
+      }
+    ],
+    "literalMeaning": "a story told alongside"
+  },
+  "wordFamily": [
+    {
+      "german": "zum Beispiel (z. B.)",
+      "english": "for example",
+      "type": "phrase"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Beispiel, plural die Beispiele.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Beispiel"
+        },
+        {
+          "label": "More than one",
+          "value": "die Beispiele"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Können Sie ein Beispiel geben?",
+      "english": "Can you give an example?",
+      "highlight": [
+        "Beispiel"
+      ]
+    },
+    {
+      "german": "Ich mag Obst, zum Beispiel Äpfel.",
+      "english": "I like fruit, for example apples.",
+      "highlight": [
+        "Beispiel"
+      ]
+    },
+    {
+      "german": "Hier sind drei Beispiele.",
+      "english": "Here are three examples.",
+      "highlight": [
+        "Beispiele."
+      ]
+    }
+  ],
+  "forms": [
+    "Beispiele",
+    "z. B."
+  ],
+  "memoryHook": "Zum Beispiel (z. B.) is the German 'for example'. Bei + Spiel: something played alongside, an example.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Beispiel",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Beispiel is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Beispiel, zwei ___",
+      "answer": "Beispiele",
+      "fullAnswer": "ein Beispiel, zwei Beispiele",
+      "explanation": "The plural is Beispiele.",
+      "acceptedAnswers": [
+        "Beispiele"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Beispiel mean?",
+      "options": [
+        "example",
+        "hot",
+        "the weather"
+      ],
+      "answer": "example",
+      "explanation": "Beispiel: example.",
+      "id": "q3"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich spiele viele Sportarten, zum ___ Tennis. (for example)",
+      "answer": "Beispiel",
+      "fullAnswer": "zum Beispiel Tennis",
+      "explanation": "Zum Beispiel = for example.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "The short form of 'zum Beispiel' is…",
+      "options": [
+        "z. B.",
+        "e. g."
+      ],
+      "answer": "z. B.",
+      "explanation": "Z. B. is the German e.g.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Rezept",
+    "partOfSpeech": "noun, neuter (das Rezept)",
+    "pronunciation": {
+      "respelling": "re-TSEPT",
+      "ipa": "ʁeˈtsɛpt",
+      "notes": "Plural: die Rezepte."
+    },
+    "meaning": "recipe; prescription",
+    "shortDefinition": "Recipe; prescription."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Rezept, plural die Rezepte.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Rezept"
+        },
+        {
+          "label": "More than one",
+          "value": "die Rezepte"
+        }
+      ]
+    },
+    {
+      "title": "False friend",
+      "explanation": "Rezept is not a receipt.",
+      "wrong": "Kann ich ein Rezept haben? (in a shop)",
+      "correct": "Kann ich eine Quittung haben?"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Hast du ein gutes Rezept für Kuchen?",
+      "english": "Have you got a good cake recipe?",
+      "highlight": [
+        "Rezept"
+      ]
+    },
+    {
+      "german": "Der Arzt gibt mir ein Rezept.",
+      "english": "The doctor gives me a prescription.",
+      "highlight": [
+        "Rezept."
+      ]
+    },
+    {
+      "german": "Das Medikament gibt es nur auf Rezept.",
+      "english": "The medicine is prescription only.",
+      "highlight": [
+        "Rezept."
+      ]
+    }
+  ],
+  "forms": [
+    "Rezepte",
+    "die Rezepte",
+    "das Rezept"
+  ],
+  "memoryHook": "Das Rezept: recipe or prescription. A receipt = die Quittung!",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Rezept",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Rezept is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Rezept, zwei ___",
+      "answer": "Rezepte",
+      "fullAnswer": "ein Rezept, zwei Rezepte",
+      "explanation": "The plural is Rezepte.",
+      "acceptedAnswers": [
+        "Rezepte"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Rezept mean?",
+      "options": [
+        "recipe",
+        "the job",
+        "to travel"
+      ],
+      "answer": "recipe",
+      "explanation": "Rezept: recipe; prescription.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Das Rezept means…",
+      "options": [
+        "recipe and prescription",
+        "receipt"
+      ],
+      "answer": "recipe and prescription",
+      "explanation": "Not a receipt!",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "A receipt (shop) is…",
+      "options": [
+        "die Quittung / der Kassenbon",
+        "das Rezept"
+      ],
+      "answer": "die Quittung / der Kassenbon",
+      "explanation": "False friend.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Lkw",
+    "partOfSpeech": "noun, masculine (der Lkw)",
+    "pronunciation": {
+      "respelling": "EL-kah-vay",
+      "ipa": "ˈɛlkaːveː",
+      "notes": "Say the letters: L-K-W. Plural: die Lkws."
+    },
+    "meaning": "lorry, truck",
+    "shortDefinition": "Lorry, truck."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "summary": "Short for Last (load) + Kraft (power) + Wagen (vehicle)."
+  },
+  "wordFamily": [
+    {
+      "german": "der Pkw",
+      "english": "car (formal)",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Lkw, plural die Lkws.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Lkw"
+        },
+        {
+          "label": "More than one",
+          "value": "die Lkws"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Auf der Autobahn sind viele Lkws.",
+      "english": "There are lots of lorries on the motorway.",
+      "highlight": [
+        "Lkws."
+      ]
+    },
+    {
+      "german": "Mein Bruder fährt Lkw.",
+      "english": "My brother drives a lorry.",
+      "highlight": [
+        "Lkw."
+      ]
+    },
+    {
+      "german": "Der Lkw blockiert die Straße.",
+      "english": "The truck is blocking the road.",
+      "highlight": [
+        "Lkw"
+      ]
+    }
+  ],
+  "forms": [
+    "Lkws",
+    "LKW",
+    "Lastkraftwagen"
+  ],
+  "memoryHook": "Lkw = Lastkraftwagen (load + power + wagon). Say the letters: el-ka-WAY. A car is a Pkw.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Lkw",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Lkw is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Lkw, zwei ___",
+      "answer": "Lkws",
+      "fullAnswer": "ein Lkw, zwei Lkws",
+      "explanation": "The plural is Lkws.",
+      "acceptedAnswers": [
+        "Lkws"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Lkw mean?",
+      "options": [
+        "lorry",
+        "to sleep",
+        "the flower"
+      ],
+      "answer": "lorry",
+      "explanation": "Lkw: lorry, truck.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Lkw stands for…",
+      "options": [
+        "Lastkraftwagen",
+        "Langer Kraftwagen"
+      ],
+      "answer": "Lastkraftwagen",
+      "explanation": "Load-power-wagon.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "A car is a Pkw. It stands for…",
+      "options": [
+        "Personenkraftwagen",
+        "Privatkraftwagen"
+      ],
+      "answer": "Personenkraftwagen",
+      "explanation": "People-power-wagon.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+ "schemaVersion": "1.4",
+ "language": "de",
+ "explanationLanguage": "en",
+ "level": "B1",
+ "levelSource": "Goethe-Zertifikat B1 Wortliste",
+ "lessonType": "card",
+ "word": {
+  "headword": "Zahlung",
+  "partOfSpeech": "noun, feminine (die Zahlung)",
+  "pronunciation": {
+   "respelling": "TSAA-lung",
+   "ipa": "ˈtsaːlʊŋ",
+   "notes": "Plural: die Zahlungen."
+  },
+  "meaning": "payment",
+  "shortDefinition": "Payment."
+ },
+ "commonMistakes": [
+  {
+   "title": "Gender and plural",
+   "explanation": "Die Zahlung, plural die Zahlungen.",
+   "forms": [
+    {
+     "label": "One",
+     "value": "die Zahlung"
+    },
+    {
+     "label": "More than one",
+     "value": "die Zahlungen"
+    }
+   ]
+  }
+ ],
+ "sampleSentences": [
+  {
+   "german": "Die Zahlung ist eingegangen.",
+   "english": "The payment has been received.",
+   "highlight": [
+    "Zahlung"
+   ]
+  },
+  {
+   "german": "Zahlung per Karte ist möglich.",
+   "english": "Payment by card is possible.",
+   "highlight": [
+    "Zahlung"
+   ]
+  },
+  {
+   "german": "Die Zahlung ist bis Freitag fällig.",
+   "english": "Payment is due by Friday.",
+   "highlight": [
+    "Zahlung"
+   ]
+  }
+ ],
+ "forms": [
+  "Zahlungen",
+  "die Zahlungen",
+  "die Zahlung"
+ ],
+ "memoryHook": "Zahlen → die Zahlung.",
+ "signOff": "Gut gemacht!",
+ "quiz": [
+  {
+   "type": "choice",
+   "prompt": "___ Zahlung",
+   "options": [
+    "der",
+    "die",
+    "das"
+   ],
+   "answer": "die",
+   "explanation": "Zahlung is feminine.",
+   "id": "q1"
+  },
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "ein Zahlung, zwei ___",
+   "answer": "Zahlungen",
+   "fullAnswer": "ein Zahlung, zwei Zahlungen",
+   "explanation": "The plural is Zahlungen.",
+   "acceptedAnswers": [
+    "Zahlungen"
+   ],
+   "id": "q2"
+  },
+  {
+   "type": "choice",
+   "prompt": "What does Zahlung mean?",
+   "options": [
+    "payment",
+    "the window",
+    "the bread"
+   ],
+   "answer": "payment",
+   "explanation": "Zahlung: payment.",
+   "id": "q3"
+  },
+  {
+   "type": "choice",
+   "prompt": "From…",
+   "options": [
+    "zahlen (pay)",
+    "zählen (count)"
+   ],
+   "answer": "zahlen (pay)",
+   "explanation": "Pay.",
+   "id": "q4"
+  },
+  {
+   "type": "choice",
+   "prompt": "'Zahlung fällig' means…",
+   "options": [
+    "payment due",
+    "payment fallen"
+   ],
+   "answer": "payment due",
+   "explanation": "Due.",
+   "id": "q5"
+  }
+ ],
+ "etymology": {
+  "title": "Where it comes from",
+  "parts": [
+   {
+    "part": "Zahl",
+    "meaning": "pay"
+   },
+   {
+    "part": "ung",
+    "meaning": "noun ending (the act of)"
+   }
+  ],
+  "literalMeaning": "a paying"
+ }
+}

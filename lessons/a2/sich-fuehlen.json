@@ -1,0 +1,167 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "(sich) fühlen",
+    "partOfSpeech": "verb, often reflexive",
+    "pronunciation": {
+      "respelling": "FÜ-len",
+      "ipa": "ˈfyːlən",
+      "notes": ""
+    },
+    "meaning": "to feel",
+    "shortDefinition": "To feel."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "fühl|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "fühl|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "fühl|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "fühl|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "fühl|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "fühl|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gefühlt"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "das Gefühl",
+      "english": "feeling",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich fühle mich nicht gut.",
+      "english": "I don't feel well.",
+      "highlight": [
+        "fühle",
+        "mich"
+      ]
+    },
+    {
+      "german": "Wie fühlst du dich?",
+      "english": "How do you feel?",
+      "highlight": [
+        "fühlst",
+        "dich?"
+      ]
+    },
+    {
+      "german": "Fühl mal, das Wasser ist warm!",
+      "english": "Feel this, the water's warm!",
+      "highlight": [
+        "Fühl"
+      ]
+    }
+  ],
+  "forms": [
+    "fühle",
+    "fühlst",
+    "fühlt",
+    "fühlen",
+    "gefühlt"
+  ],
+  "memoryHook": "Sich fühlen = feel (how you are). Fühlen = feel by touch.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ ((sich) fühlen)",
+      "answer": "fühlt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: fühlt.",
+      "acceptedAnswers": [
+        "fuehlt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe mich schon ___. ((sich) fühlen, past)",
+      "answer": "gefühlt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe mich gefühlt.",
+      "acceptedAnswers": [
+        "gefuehlt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does (sich) fühlen mean?",
+      "options": [
+        "never",
+        "the child",
+        "to feel"
+      ],
+      "answer": "to feel",
+      "explanation": "(sich) fühlen: to feel.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'I feel tired':",
+      "options": [
+        "Ich fühle mich müde.",
+        "Ich fühle müde."
+      ],
+      "answer": "Ich fühle mich müde.",
+      "explanation": "Feelings: sich fühlen.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Fühl mal!' means…",
+      "options": [
+        "Touch/feel this!",
+        "Feel better!"
+      ],
+      "answer": "Touch/feel this!",
+      "explanation": "Without sich: touch.",
+      "id": "q5"
+    }
+  ]
+}

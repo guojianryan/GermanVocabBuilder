@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Notiz",
+    "partOfSpeech": "noun, feminine (die Notiz)",
+    "pronunciation": {
+      "respelling": "no-TEETS",
+      "ipa": "noˈtiːts",
+      "notes": "Plural: die Notizen."
+    },
+    "meaning": "note",
+    "shortDefinition": "Note."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Notiz, plural die Notizen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Notiz"
+        },
+        {
+          "label": "More than one",
+          "value": "die Notizen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich mache mir eine Notiz.",
+      "english": "I'm making a note.",
+      "highlight": [
+        "Notiz."
+      ]
+    },
+    {
+      "german": "Er hat eine Notiz auf dem Tisch gelassen.",
+      "english": "He left a note on the table.",
+      "highlight": [
+        "Notiz"
+      ]
+    },
+    {
+      "german": "Wo ist mein Notizbuch?",
+      "english": "Where's my notebook?",
+      "highlight": [
+        "Notizbuch?"
+      ]
+    }
+  ],
+  "forms": [
+    "Notizbuch"
+  ],
+  "memoryHook": "Die Notiz (memo). Die Note = school grade.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Notiz",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Notiz is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Notiz, zwei ___",
+      "answer": "Notizen",
+      "fullAnswer": "ein Notiz, zwei Notizen",
+      "explanation": "The plural is Notizen.",
+      "acceptedAnswers": [
+        "Notizen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Notiz mean?",
+      "options": [
+        "note",
+        "the car",
+        "slowly"
+      ],
+      "answer": "note",
+      "explanation": "Notiz: note.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Make a note':",
+      "options": [
+        "sich eine Notiz machen",
+        "eine Notiz schreiben nur"
+      ],
+      "answer": "sich eine Notiz machen",
+      "explanation": "Machen.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Die Note (not Notiz) means…",
+      "options": [
+        "grade, musical note",
+        "a short memo"
+      ],
+      "answer": "grade, musical note",
+      "explanation": "Different word.",
+      "id": "q5"
+    }
+  ]
+}

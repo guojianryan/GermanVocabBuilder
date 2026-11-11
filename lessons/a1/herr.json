@@ -1,0 +1,141 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Herr",
+    "partOfSpeech": "noun, masculine (der Herr)",
+    "pronunciation": {
+      "respelling": "HAIR",
+      "ipa": "hɛʁ",
+      "notes": "Herr becomes Herrn after prepositions and as an object. Plural: die Herren."
+    },
+    "meaning": "Mr; gentleman",
+    "shortDefinition": "Mr; gentleman."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Herr, plural die Herren.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Herr"
+        },
+        {
+          "label": "More than one",
+          "value": "die Herren"
+        }
+      ]
+    },
+    {
+      "title": "Herr or Herrn?",
+      "explanation": "Subject: Herr. Everything else: Herrn.",
+      "examples": [
+        {
+          "german": "Herr Klein ist da.",
+          "english": "Mr Klein is here.",
+          "highlight": "Herr"
+        },
+        {
+          "german": "Ich kenne Herrn Klein.",
+          "english": "I know Mr Klein.",
+          "highlight": "Herrn"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Guten Tag, Herr Schmidt!",
+      "english": "Hello, Mr Schmidt!",
+      "highlight": [
+        "Herr"
+      ]
+    },
+    {
+      "german": "Ich möchte mit Herrn Weber sprechen.",
+      "english": "I'd like to speak to Mr Weber.",
+      "highlight": [
+        "Herrn"
+      ]
+    },
+    {
+      "german": "Sehr geehrte Damen und Herren",
+      "english": "Dear Sir or Madam / Ladies and gentlemen",
+      "highlight": [
+        "Herren"
+      ]
+    }
+  ],
+  "forms": [
+    "Herren",
+    "Herrn",
+    "der Herr",
+    "die Herren"
+  ],
+  "memoryHook": "Herr = Mr. It adds -n except as the subject: mit Herrn Weber, an Herrn Weber. Damen und Herren = ladies and gentlemen.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Herr",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Herr is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Herr, zwei ___",
+      "answer": "Herren",
+      "fullAnswer": "ein Herr, zwei Herren",
+      "explanation": "The plural is Herren.",
+      "acceptedAnswers": [
+        "Herren"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Herr mean?",
+      "options": [
+        "Mr",
+        "cheap",
+        "the key"
+      ],
+      "answer": "Mr",
+      "explanation": "Herr: Mr; gentleman.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich spreche mit ___ Weber.",
+      "options": [
+        "Herr",
+        "Herrn"
+      ],
+      "answer": "Herrn",
+      "explanation": "Herr adds -n in all cases except the subject.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "On a toilet door, 'Herren' means…",
+      "options": [
+        "men",
+        "staff"
+      ],
+      "answer": "men",
+      "explanation": "Damen / Herren.",
+      "id": "q5"
+    }
+  ]
+}

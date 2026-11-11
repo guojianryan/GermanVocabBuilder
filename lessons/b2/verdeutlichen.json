@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "verdeutlichen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "fer-DOYT-likh-en",
+      "ipa": "fɛɐ̯ˈdɔɪ̯tlɪçn̩",
+      "notes": ""
+    },
+    "meaning": "to clarify, make clear",
+    "shortDefinition": "To clarify, make clear."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "ver",
+        "meaning": "make"
+      },
+      {
+        "part": "deutlich",
+        "meaning": "clear"
+      },
+      {
+        "part": "en",
+        "meaning": "verb ending"
+      }
+    ],
+    "literalMeaning": "to make clear"
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "verdeutlich|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "verdeutlich|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "verdeutlich|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "verdeutlich|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "verdeutlich|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "verdeutlich|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat verdeutlicht"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ein Beispiel verdeutlicht das Problem.",
+      "english": "An example makes the problem clear.",
+      "highlight": [
+        "verdeutlicht"
+      ]
+    },
+    {
+      "german": "Ich möchte das kurz verdeutlichen.",
+      "english": "I'd like to clarify that briefly.",
+      "highlight": [
+        "verdeutlichen."
+      ]
+    },
+    {
+      "german": "Die Grafik verdeutlicht den Trend.",
+      "english": "The chart illustrates the trend.",
+      "highlight": [
+        "verdeutlicht"
+      ]
+    }
+  ],
+  "forms": [
+    "deutlich"
+  ],
+  "memoryHook": "Ver + deutlich = make clear.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (verdeutlichen)",
+      "answer": "verdeutlicht",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: verdeutlicht.",
+      "acceptedAnswers": [
+        "verdeutlicht"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (verdeutlichen, past)",
+      "answer": "verdeutlicht",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe verdeutlicht.",
+      "acceptedAnswers": [
+        "verdeutlicht"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does verdeutlichen mean?",
+      "options": [
+        "to clarify",
+        "always",
+        "quiet"
+      ],
+      "answer": "to clarify",
+      "explanation": "verdeutlichen: to clarify, make clear.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "deutlich (clear)",
+        "deutsch"
+      ],
+      "answer": "deutlich (clear)",
+      "explanation": "Clear.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonyms:",
+      "options": [
+        "klarmachen, veranschaulichen",
+        "verwirren"
+      ],
+      "answer": "klarmachen, veranschaulichen",
+      "explanation": "Clarify.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "hat verdeutlicht",
+        "hat geverdeutlicht"
+      ],
+      "answer": "hat verdeutlicht",
+      "explanation": "No ge-.",
+      "id": "q6"
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Jacke",
+    "partOfSpeech": "noun, feminine (die Jacke)",
+    "pronunciation": {
+      "respelling": "YAK-uh",
+      "ipa": "ˈjakə",
+      "notes": "Plural: die Jacken."
+    },
+    "meaning": "jacket",
+    "shortDefinition": "Jacket."
+  },
+  "wordFamily": [
+    {
+      "german": "der Mantel",
+      "english": "coat",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Jacke, plural die Jacken.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Jacke"
+        },
+        {
+          "label": "More than one",
+          "value": "die Jacken"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Zieh eine Jacke an, es ist kalt.",
+      "english": "Put a jacket on, it's cold.",
+      "highlight": [
+        "Jacke"
+      ]
+    },
+    {
+      "german": "Die Jacke ist mir zu groß.",
+      "english": "The jacket is too big for me.",
+      "highlight": [
+        "Jacke"
+      ]
+    },
+    {
+      "german": "Haben Sie die Jacke auch in Blau?",
+      "english": "Do you have the jacket in blue too?",
+      "highlight": [
+        "Jacke"
+      ]
+    }
+  ],
+  "forms": [
+    "Jacken",
+    "die Jacken",
+    "die Jacke"
+  ],
+  "memoryHook": "Die Jacke = jacket (J = y). A heavier coat is der Mantel.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Jacke",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Jacke is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Jacke, zwei ___",
+      "answer": "Jacken",
+      "fullAnswer": "ein Jacke, zwei Jacken",
+      "explanation": "The plural is Jacken.",
+      "acceptedAnswers": [
+        "Jacken"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Jacke mean?",
+      "options": [
+        "the bread",
+        "expensive",
+        "jacket"
+      ],
+      "answer": "jacket",
+      "explanation": "Jacke: jacket.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "You ___ eine Jacke an.",
+      "options": [
+        "ziehst",
+        "machst"
+      ],
+      "answer": "ziehst",
+      "explanation": "Anziehen.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "J sounds like…",
+      "options": [
+        "y",
+        "j"
+      ],
+      "answer": "y",
+      "explanation": "YAK-uh.",
+      "id": "q5"
+    }
+  ]
+}

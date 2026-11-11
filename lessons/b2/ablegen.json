@@ -1,0 +1,182 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "ablegen",
+    "partOfSpeech": "separable verb",
+    "pronunciation": {
+      "respelling": "AP-lay-gen",
+      "ipa": "ˈapˌleːɡn̩",
+      "notes": ""
+    },
+    "meaning": "to take off (coat); to file; to take (an exam); to drop (a habit)",
+    "shortDefinition": "To take off (coat); to file; to take (an exam); to drop (a habit)."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "ab",
+        "meaning": "off, down"
+      },
+      {
+        "part": "legen",
+        "meaning": "to lay",
+        "emphasis": "release"
+      }
+    ],
+    "literalMeaning": "to lay down",
+    "summary": "Putting it down and leaving it."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "leg|e … |ab"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "leg|st … |ab"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "leg|t … |ab"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "leg|en … |ab"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "leg|t … |ab"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "leg|en … |ab"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat abgelegt"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Möchten Sie ablegen?",
+      "english": "May I take your coat?",
+      "highlight": [
+        "ablegen?"
+      ]
+    },
+    {
+      "german": "Sie hat die Prüfung abgelegt.",
+      "english": "She's taken the exam.",
+      "highlight": [
+        "abgelegt."
+      ]
+    },
+    {
+      "german": "Leg die Dokumente im Ordner ab.",
+      "english": "File the documents in the folder.",
+      "highlight": [
+        "Leg",
+        "ab."
+      ]
+    }
+  ],
+  "forms": [
+    "Ablage"
+  ],
+  "memoryHook": "Ablegen: take off; file (Ablage); take an exam; drop.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ … ab (ablegen)",
+      "answer": "legt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: legt … ab.",
+      "acceptedAnswers": [
+        "legt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (ablegen, past)",
+      "answer": "abgelegt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe abgelegt.",
+      "acceptedAnswers": [
+        "abgelegt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does ablegen mean?",
+      "options": [
+        "the station",
+        "to take off (coat)",
+        "never"
+      ],
+      "answer": "to take off (coat)",
+      "explanation": "ablegen: to take off (coat); to file; to take (an exam); to drop (a habit).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Eine Prüfung ablegen' means…",
+      "options": [
+        "to take / sit an exam",
+        "to give up an exam"
+      ],
+      "answer": "to take / sit an exam",
+      "explanation": "Exam.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Eine Gewohnheit ablegen' means…",
+      "options": [
+        "to drop a habit",
+        "to file a habit"
+      ],
+      "answer": "to drop a habit",
+      "explanation": "Give up.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Storage (file):",
+      "options": [
+        "die Ablage",
+        "der Ableger only"
+      ],
+      "answer": "die Ablage",
+      "explanation": "Filing.",
+      "id": "q6"
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Genehmigung",
+    "partOfSpeech": "noun, feminine (die Genehmigung)",
+    "pronunciation": {
+      "respelling": "ge-NAY-mi-gung",
+      "ipa": "ɡəˈneːmɪɡʊŋ",
+      "notes": "Plural: die Genehmigungen."
+    },
+    "meaning": "permit, approval, permission",
+    "shortDefinition": "Permit, approval, permission."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Ge",
+        "meaning": "prefix"
+      },
+      {
+        "part": "nehm",
+        "meaning": "accept (nehmen)"
+      },
+      {
+        "part": "igung",
+        "meaning": "noun ending"
+      }
+    ],
+    "literalMeaning": "an accepting"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Genehmigung, plural die Genehmigungen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Genehmigung"
+        },
+        {
+          "label": "More than one",
+          "value": "die Genehmigungen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Dafür brauchen Sie eine Genehmigung.",
+      "english": "You need a permit for that.",
+      "highlight": [
+        "Genehmigung."
+      ]
+    },
+    {
+      "german": "Ohne Genehmigung ist das verboten.",
+      "english": "Without permission it's forbidden.",
+      "highlight": [
+        "Genehmigung"
+      ]
+    },
+    {
+      "german": "Die Baugenehmigung liegt vor.",
+      "english": "Planning permission has been granted.",
+      "highlight": [
+        "Baugenehmigung"
+      ]
+    }
+  ],
+  "forms": [
+    "genehmigen",
+    "Erlaubnis"
+  ],
+  "memoryHook": "Genehmigen → die Genehmigung (= Erlaubnis).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Genehmigung",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Genehmigung is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Genehmigung, zwei ___",
+      "answer": "Genehmigungen",
+      "fullAnswer": "ein Genehmigung, zwei Genehmigungen",
+      "explanation": "The plural is Genehmigungen.",
+      "acceptedAnswers": [
+        "Genehmigungen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Genehmigung mean?",
+      "options": [
+        "slowly",
+        "permit",
+        "the family"
+      ],
+      "answer": "permit",
+      "explanation": "Genehmigung: permit, approval, permission.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "genehmigen (approve)",
+        "nehmen only"
+      ],
+      "answer": "genehmigen (approve)",
+      "explanation": "Approve.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Planning permission:",
+      "options": [
+        "die Baugenehmigung",
+        "die Bauerlaubnis only"
+      ],
+      "answer": "die Baugenehmigung",
+      "explanation": "Building.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonym:",
+      "options": [
+        "die Erlaubnis",
+        "das Verbot"
+      ],
+      "answer": "die Erlaubnis",
+      "explanation": "Permission.",
+      "id": "q6"
+    }
+  ]
+}

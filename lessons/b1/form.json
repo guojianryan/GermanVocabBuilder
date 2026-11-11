@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Form",
+    "partOfSpeech": "noun, feminine (die Form)",
+    "pronunciation": {
+      "respelling": "FORM",
+      "ipa": "fɔʁm",
+      "notes": "Plural: die Formen."
+    },
+    "meaning": "form, shape",
+    "shortDefinition": "Form, shape."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Form, plural die Formen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Form"
+        },
+        {
+          "label": "More than one",
+          "value": "die Formen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Tisch hat eine runde Form.",
+      "english": "The table has a round shape.",
+      "highlight": [
+        "Form."
+      ]
+    },
+    {
+      "german": "Ich bin nicht in Form.",
+      "english": "I'm out of shape.",
+      "highlight": [
+        "Form."
+      ]
+    },
+    {
+      "german": "Gib den Teig in die Form.",
+      "english": "Put the dough in the tin.",
+      "highlight": [
+        "Form."
+      ]
+    }
+  ],
+  "forms": [
+    "Formen",
+    "die Formen",
+    "die Form"
+  ],
+  "memoryHook": "Die Form = shape (also baking tin). A form to fill in = das Formular!",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Form",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Form is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Form, zwei ___",
+      "answer": "Formen",
+      "fullAnswer": "ein Form, zwei Formen",
+      "explanation": "The plural is Formen.",
+      "acceptedAnswers": [
+        "Formen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Form mean?",
+      "options": [
+        "hot",
+        "form",
+        "slowly"
+      ],
+      "answer": "form",
+      "explanation": "Form: form, shape.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'In Form sein' means…",
+      "options": [
+        "to be in shape",
+        "to be formal"
+      ],
+      "answer": "to be in shape",
+      "explanation": "Fit.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "A form (paper) is…",
+      "options": [
+        "das Formular",
+        "die Form"
+      ],
+      "answer": "das Formular",
+      "explanation": "Different!",
+      "id": "q5"
+    }
+  ]
+}

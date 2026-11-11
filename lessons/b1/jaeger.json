@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Jäger",
+    "partOfSpeech": "noun, masculine (der Jäger)",
+    "pronunciation": {
+      "respelling": "YAY-ger",
+      "ipa": "ˈjɛːɡɐ",
+      "notes": "The plural looks the same. Plural: die Jäger."
+    },
+    "meaning": "hunter",
+    "shortDefinition": "Hunter."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Jäg",
+        "meaning": "hunt (jagen)"
+      },
+      {
+        "part": "er",
+        "meaning": "person who does it"
+      }
+    ],
+    "literalMeaning": "one who hunts"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Jäger, plural die Jäger.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Jäger"
+        },
+        {
+          "label": "More than one",
+          "value": "die Jäger"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Jäger geht in den Wald.",
+      "english": "The hunter goes into the forest.",
+      "highlight": [
+        "Jäger"
+      ]
+    },
+    {
+      "german": "Die Jägerin hat ein Reh gesehen.",
+      "english": "The hunter saw a deer.",
+      "highlight": [
+        "Jägerin"
+      ]
+    },
+    {
+      "german": "Jägerschnitzel mit Pilzsoße.",
+      "english": "Schnitzel with mushroom sauce.",
+      "highlight": [
+        "Jägerschnitzel"
+      ]
+    }
+  ],
+  "forms": [
+    "Jägerin",
+    "jagen"
+  ],
+  "memoryHook": "Jagen → der Jäger, die Jagd.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Jäger",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Jäger is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Jäger, zwei ___",
+      "answer": "Jäger",
+      "fullAnswer": "ein Jäger, zwei Jäger",
+      "explanation": "The plural is Jäger.",
+      "acceptedAnswers": [
+        "Jaeger"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Jäger mean?",
+      "options": [
+        "to help",
+        "hunter",
+        "to buy"
+      ],
+      "answer": "hunter",
+      "explanation": "Jäger: hunter.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "jagen (hunt)",
+        "Jahr"
+      ],
+      "answer": "jagen (hunt)",
+      "explanation": "Hunt.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Jägerschnitzel comes with…",
+      "options": [
+        "mushroom sauce",
+        "deer meat"
+      ],
+      "answer": "mushroom sauce",
+      "explanation": "Food.",
+      "id": "q5"
+    }
+  ]
+}

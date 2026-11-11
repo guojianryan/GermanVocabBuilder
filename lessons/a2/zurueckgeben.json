@@ -1,0 +1,171 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "zurückgeben",
+    "partOfSpeech": "separable verb",
+    "pronunciation": {
+      "respelling": "tsoo-RÜK-gay-ben",
+      "ipa": "tsuˈʁʏkˌɡeːbn̩",
+      "notes": ""
+    },
+    "meaning": "to give back, return",
+    "shortDefinition": "To give back, return."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "zurück",
+        "meaning": "back",
+        "emphasis": "arrive"
+      },
+      {
+        "part": "geben",
+        "meaning": "to give"
+      }
+    ],
+    "literalMeaning": "to give back",
+    "summary": "It comes back to its owner."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "geb|e … |zurück"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "gib|st … |zurück"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "gib|t … |zurück"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "geb|en … |zurück"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "geb|t … |zurück"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "geb|en … |zurück"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat zurückgegeben"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Gib mir das Buch zurück!",
+      "english": "Give me the book back!",
+      "highlight": [
+        "Gib",
+        "zurück!"
+      ]
+    },
+    {
+      "german": "Ich habe den Schlüssel zurückgegeben.",
+      "english": "I've returned the key.",
+      "highlight": [
+        "zurückgegeben."
+      ]
+    },
+    {
+      "german": "Kann ich die Hose zurückgeben?",
+      "english": "Can I return the trousers?",
+      "highlight": [
+        "zurückgeben?"
+      ]
+    }
+  ],
+  "forms": [
+    "Rückgabe"
+  ],
+  "memoryHook": "Zurückgeben (gibt zurück) → die Rückgabe.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ … zurück (zurückgeben)",
+      "answer": "gibt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: gibt … zurück.",
+      "acceptedAnswers": [
+        "gibt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (zurückgeben, past)",
+      "answer": "zurückgegeben",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe zurückgegeben.",
+      "acceptedAnswers": [
+        "zurueckgegeben"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does zurückgeben mean?",
+      "options": [
+        "the station",
+        "to give back",
+        "the key"
+      ],
+      "answer": "to give back",
+      "explanation": "zurückgeben: to give back, return.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "er ___ … zurück:",
+      "options": [
+        "gibt",
+        "gebt"
+      ],
+      "answer": "gibt",
+      "explanation": "e → i.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Noun (shop):",
+      "options": [
+        "die Rückgabe",
+        "die Zurückgabe only"
+      ],
+      "answer": "die Rückgabe",
+      "explanation": "Return.",
+      "id": "q5"
+    }
+  ]
+}

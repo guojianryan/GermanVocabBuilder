@@ -1,0 +1,131 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Sache",
+    "partOfSpeech": "noun, feminine (die Sache)",
+    "pronunciation": {
+      "respelling": "ZAKH-e",
+      "ipa": "ˈzaxə",
+      "notes": "Plural: die Sachen."
+    },
+    "meaning": "thing, matter; (plural) stuff",
+    "shortDefinition": "Thing, matter; (plural) stuff."
+  },
+  "wordFamily": [
+    {
+      "german": "das Ding",
+      "english": "thing",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Sache, plural die Sachen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Sache"
+        },
+        {
+          "label": "More than one",
+          "value": "die Sachen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Pack deine Sachen!",
+      "english": "Pack your things!",
+      "highlight": [
+        "Sachen!"
+      ]
+    },
+    {
+      "german": "Das ist eine wichtige Sache.",
+      "english": "That's an important matter.",
+      "highlight": [
+        "Sache."
+      ]
+    },
+    {
+      "german": "Das ist nicht meine Sache.",
+      "english": "That's none of my business.",
+      "highlight": [
+        "Sache."
+      ]
+    }
+  ],
+  "forms": [
+    "Sachen",
+    "die Sachen",
+    "die Sache"
+  ],
+  "memoryHook": "Die Sache = thing, matter. Sachen = stuff.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Sache",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Sache is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Sache, zwei ___",
+      "answer": "Sachen",
+      "fullAnswer": "ein Sache, zwei Sachen",
+      "explanation": "The plural is Sachen.",
+      "acceptedAnswers": [
+        "Sachen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Sache mean?",
+      "options": [
+        "cheap",
+        "thing",
+        "the weather"
+      ],
+      "answer": "thing",
+      "explanation": "Sache: thing, matter; (plural) stuff.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Meine Sachen' means…",
+      "options": [
+        "my stuff",
+        "my problems"
+      ],
+      "answer": "my stuff",
+      "explanation": "Belongings.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Das ist deine Sache' means…",
+      "options": [
+        "That's your business.",
+        "That's your thing (object)."
+      ],
+      "answer": "That's your business.",
+      "explanation": "Matter.",
+      "id": "q5"
+    }
+  ]
+}

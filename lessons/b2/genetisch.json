@@ -1,0 +1,103 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "genetisch",
+    "partOfSpeech": "adjective",
+    "pronunciation": {
+      "respelling": "ge-NAY-tish",
+      "ipa": "ɡeˈneːtɪʃ",
+      "notes": ""
+    },
+    "meaning": "genetic",
+    "shortDefinition": "Genetic."
+  },
+  "sampleSentences": [
+    {
+      "german": "Das ist genetisch bedingt.",
+      "english": "That's genetically determined.",
+      "highlight": [
+        "genetisch"
+      ]
+    },
+    {
+      "german": "Genetisch veränderte Pflanzen.",
+      "english": "Genetically modified plants.",
+      "highlight": [
+        "Genetisch"
+      ]
+    },
+    {
+      "german": "Ein genetischer Test.",
+      "english": "A genetic test.",
+      "highlight": [
+        "genetischer"
+      ]
+    }
+  ],
+  "forms": [
+    "Gen",
+    "Genetik"
+  ],
+  "memoryHook": "Gen → genetisch; die Genetik.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does genetisch mean?",
+      "options": [
+        "genetic",
+        "cheap",
+        "to sing"
+      ],
+      "answer": "genetic",
+      "explanation": "genetisch: genetic.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "G sounds like…",
+      "options": [
+        "hard g",
+        "j"
+      ],
+      "answer": "hard g",
+      "explanation": "ge-NAY-tish.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Related:",
+      "options": [
+        "das Gen, die Genetik",
+        "die Generation only"
+      ],
+      "answer": "das Gen, die Genetik",
+      "explanation": "Gene.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "GM food:",
+      "options": [
+        "gentechnisch veränderte Lebensmittel",
+        "genetische Speise"
+      ],
+      "answer": "gentechnisch veränderte Lebensmittel",
+      "explanation": "Common phrase.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Eine ___ Krankheit. (genetic)",
+      "answer": "genetische",
+      "fullAnswer": "Eine genetische Krankheit.",
+      "explanation": "Genetische.",
+      "id": "q5"
+    }
+  ]
+}

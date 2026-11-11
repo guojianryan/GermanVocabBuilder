@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Hütte",
+    "partOfSpeech": "noun, feminine (die Hütte)",
+    "pronunciation": {
+      "respelling": "HÜT-e",
+      "ipa": "ˈhʏtə",
+      "notes": "Plural: die Hütten."
+    },
+    "meaning": "hut, cabin",
+    "shortDefinition": "Hut, cabin."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Hütte, plural die Hütten.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Hütte"
+        },
+        {
+          "label": "More than one",
+          "value": "die Hütten"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir übernachten in einer Hütte in den Bergen.",
+      "english": "We're staying in a mountain hut.",
+      "highlight": [
+        "Hütte"
+      ]
+    },
+    {
+      "german": "Die Hütte hat keinen Strom.",
+      "english": "The cabin has no electricity.",
+      "highlight": [
+        "Hütte"
+      ]
+    },
+    {
+      "german": "Auf der Hütte gibt es gutes Essen.",
+      "english": "There's good food at the hut.",
+      "highlight": [
+        "Hütte"
+      ]
+    }
+  ],
+  "forms": [
+    "Hütten",
+    "die Hütten",
+    "die Hütte"
+  ],
+  "memoryHook": "Die Hütte: hut, cabin (Berghütte for hikers).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Hütte",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Hütte is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Hütte, zwei ___",
+      "answer": "Hütten",
+      "fullAnswer": "ein Hütte, zwei Hütten",
+      "explanation": "The plural is Hütten.",
+      "acceptedAnswers": [
+        "Huetten"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Hütte mean?",
+      "options": [
+        "hut",
+        "the bread",
+        "to sing"
+      ],
+      "answer": "hut",
+      "explanation": "Hütte: hut, cabin.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "A mountain hut:",
+      "options": [
+        "die Berghütte",
+        "das Berghaus only"
+      ],
+      "answer": "die Berghütte",
+      "explanation": "Hikers.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Hütten",
+        "Hütte"
+      ],
+      "answer": "Hütten",
+      "explanation": "-n.",
+      "id": "q5"
+    }
+  ]
+}

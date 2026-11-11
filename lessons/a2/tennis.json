@@ -1,0 +1,119 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Tennis",
+    "partOfSpeech": "noun, neuter (das Tennis)",
+    "pronunciation": {
+      "respelling": "TEN-is",
+      "ipa": "ˈtɛnɪs",
+      "notes": "Usually no plural."
+    },
+    "meaning": "tennis",
+    "shortDefinition": "Tennis."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Tennis, usually no plural.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Tennis"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Spielst du Tennis?",
+      "english": "Do you play tennis?",
+      "highlight": [
+        "Tennis?"
+      ]
+    },
+    {
+      "german": "Ich spiele zweimal pro Woche Tennis.",
+      "english": "I play tennis twice a week.",
+      "highlight": [
+        "Tennis."
+      ]
+    },
+    {
+      "german": "Der Tennisplatz ist hinter dem Park.",
+      "english": "The tennis court is behind the park.",
+      "highlight": [
+        "Tennisplatz"
+      ]
+    }
+  ],
+  "forms": [
+    "Tischtennis",
+    "Tennisplatz"
+  ],
+  "memoryHook": "Tennis spielen (no article). Tischtennis = table tennis.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Tennis",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Tennis is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Tennis mean?",
+      "options": [
+        "tomorrow",
+        "tennis",
+        "cheap"
+      ],
+      "answer": "tennis",
+      "explanation": "Tennis: tennis.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Play tennis':",
+      "options": [
+        "Tennis spielen",
+        "das Tennis spielen"
+      ],
+      "answer": "Tennis spielen",
+      "explanation": "No article.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "A tennis court:",
+      "options": [
+        "der Tennisplatz",
+        "der Tennishof"
+      ],
+      "answer": "der Tennisplatz",
+      "explanation": "Platz.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Table tennis:",
+      "options": [
+        "Tischtennis",
+        "Plattentennis"
+      ],
+      "answer": "Tischtennis",
+      "explanation": "Tisch + Tennis.",
+      "id": "q5"
+    }
+  ]
+}

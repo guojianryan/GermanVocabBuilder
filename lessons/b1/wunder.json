@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Wunder",
+    "partOfSpeech": "noun, neuter (das Wunder)",
+    "pronunciation": {
+      "respelling": "VOON-der",
+      "ipa": "ˈvʊndɐ",
+      "notes": "The plural looks the same. Plural: die Wunder."
+    },
+    "meaning": "miracle, wonder",
+    "shortDefinition": "Miracle, wonder."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Wunder, plural die Wunder.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Wunder"
+        },
+        {
+          "label": "More than one",
+          "value": "die Wunder"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Es ist ein Wunder, dass er überlebt hat.",
+      "english": "It's a miracle he survived.",
+      "highlight": [
+        "Wunder,"
+      ]
+    },
+    {
+      "german": "Kein Wunder, dass du müde bist.",
+      "english": "No wonder you're tired.",
+      "highlight": [
+        "Wunder,"
+      ]
+    },
+    {
+      "german": "Die sieben Weltwunder.",
+      "english": "The seven wonders of the world.",
+      "highlight": [
+        "Weltwunder."
+      ]
+    }
+  ],
+  "forms": [
+    "Wunder",
+    "die Wunder",
+    "das Wunder"
+  ],
+  "memoryHook": "Das Wunder. Kein Wunder! Wunderbar, wunderschön.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Wunder",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Wunder is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Wunder, zwei ___",
+      "answer": "Wunder",
+      "fullAnswer": "ein Wunder, zwei Wunder",
+      "explanation": "The plural is Wunder.",
+      "acceptedAnswers": [
+        "Wunder"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Wunder mean?",
+      "options": [
+        "miracle",
+        "the weather",
+        "the flower"
+      ],
+      "answer": "miracle",
+      "explanation": "Wunder: miracle, wonder.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Kein Wunder' means…",
+      "options": [
+        "no wonder",
+        "no miracle needed"
+      ],
+      "answer": "no wonder",
+      "explanation": "Phrase.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Wunder",
+        "Wundern"
+      ],
+      "answer": "Wunder",
+      "explanation": "No change.",
+      "id": "q5"
+    }
+  ]
+}

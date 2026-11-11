@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Bild",
+    "partOfSpeech": "noun, neuter (das Bild)",
+    "pronunciation": {
+      "respelling": "BILT",
+      "ipa": "bɪlt",
+      "notes": "The d sounds like t. Plural: die Bilder."
+    },
+    "meaning": "picture, image",
+    "shortDefinition": "Picture, image."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Bild, plural die Bilder.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Bild"
+        },
+        {
+          "label": "More than one",
+          "value": "die Bilder"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Hast du ein Bild von deinem Sohn?",
+      "english": "Do you have a picture of your son?",
+      "highlight": [
+        "Bild"
+      ]
+    },
+    {
+      "german": "Das Bild hängt an der Wand.",
+      "english": "The picture is hanging on the wall.",
+      "highlight": [
+        "Bild"
+      ]
+    },
+    {
+      "german": "Schick mir die Bilder!",
+      "english": "Send me the pictures!",
+      "highlight": [
+        "Bilder!"
+      ]
+    }
+  ],
+  "forms": [
+    "Bilder",
+    "die Bilder",
+    "das Bild"
+  ],
+  "memoryHook": "Ein Bild: think 'build' an image. Plural die Bilder.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Bild",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Bild is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Bild, zwei ___",
+      "answer": "Bilder",
+      "fullAnswer": "ein Bild, zwei Bilder",
+      "explanation": "The plural is Bilder.",
+      "acceptedAnswers": [
+        "Bilder"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Bild mean?",
+      "options": [
+        "to sing",
+        "picture",
+        "never"
+      ],
+      "answer": "picture",
+      "explanation": "Bild: picture, image.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Bild can mean…",
+      "options": [
+        "photo, painting or image",
+        "only a painting"
+      ],
+      "answer": "photo, painting or image",
+      "explanation": "Any picture.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'A picture of my son':",
+      "options": [
+        "ein Bild von meinem Sohn",
+        "ein Bild aus meinem Sohn"
+      ],
+      "answer": "ein Bild von meinem Sohn",
+      "explanation": "Von + dative.",
+      "id": "q5"
+    }
+  ]
+}

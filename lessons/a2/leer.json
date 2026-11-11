@@ -1,0 +1,104 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "leer",
+    "partOfSpeech": "adjective",
+    "pronunciation": {
+      "respelling": "LAIR",
+      "ipa": "leːɐ̯",
+      "notes": ""
+    },
+    "meaning": "empty",
+    "shortDefinition": "Empty."
+  },
+  "sampleSentences": [
+    {
+      "german": "Die Flasche ist leer.",
+      "english": "The bottle is empty.",
+      "highlight": [
+        "leer."
+      ]
+    },
+    {
+      "german": "Der Kühlschrank ist fast leer.",
+      "english": "The fridge is almost empty.",
+      "highlight": [
+        "leer."
+      ]
+    },
+    {
+      "german": "Mein Handy-Akku ist leer.",
+      "english": "My phone battery is dead.",
+      "highlight": [
+        "leer."
+      ]
+    }
+  ],
+  "forms": [
+    "leere",
+    "leeren",
+    "leeres"
+  ],
+  "memoryHook": "Leer = empty (double e). Opposite: voll.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does leer mean?",
+      "options": [
+        "to open",
+        "expensive",
+        "empty"
+      ],
+      "answer": "empty",
+      "explanation": "leer: empty.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "The opposite:",
+      "options": [
+        "voll",
+        "lehr"
+      ],
+      "answer": "voll",
+      "explanation": "Full.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "'The battery is flat':",
+      "options": [
+        "Der Akku ist leer.",
+        "Der Akku ist tot."
+      ],
+      "answer": "Der Akku ist leer.",
+      "explanation": "Empty.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Leer or lehren? 'Empty':",
+      "options": [
+        "leer",
+        "lehr"
+      ],
+      "answer": "leer",
+      "explanation": "Lehren = to teach.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Das Glas ist ___ . (empty)",
+      "answer": "leer",
+      "fullAnswer": "Das Glas ist leer.",
+      "explanation": "Leer.",
+      "id": "q5"
+    }
+  ]
+}

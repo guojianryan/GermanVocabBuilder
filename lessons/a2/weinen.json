@@ -1,0 +1,165 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "weinen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "VINE-en",
+      "ipa": "ˈvaɪ̯nən",
+      "notes": ""
+    },
+    "meaning": "to cry",
+    "shortDefinition": "To cry."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "wein|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "wein|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "wein|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "wein|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "wein|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "wein|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat geweint"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "lachen",
+      "english": "to laugh",
+      "type": "verb"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das Baby weint.",
+      "english": "The baby's crying.",
+      "highlight": [
+        "weint."
+      ]
+    },
+    {
+      "german": "Warum weinst du?",
+      "english": "Why are you crying?",
+      "highlight": [
+        "weinst"
+      ]
+    },
+    {
+      "german": "Sie hat vor Freude geweint.",
+      "english": "She cried with joy.",
+      "highlight": [
+        "geweint."
+      ]
+    }
+  ],
+  "forms": [
+    "weine",
+    "weinst",
+    "weint",
+    "weinen",
+    "geweint"
+  ],
+  "memoryHook": "Weinen = cry (not wine!). Lachen = laugh.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (weinen)",
+      "answer": "weint",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: weint.",
+      "acceptedAnswers": [
+        "weint"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (weinen, past)",
+      "answer": "geweint",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe geweint.",
+      "acceptedAnswers": [
+        "geweint"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does weinen mean?",
+      "options": [
+        "the evening",
+        "the bed",
+        "to cry"
+      ],
+      "answer": "to cry",
+      "explanation": "weinen: to cry.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Weinen or der Wein?",
+      "options": [
+        "weinen = cry; Wein = wine",
+        "same root"
+      ],
+      "answer": "weinen = cry; Wein = wine",
+      "explanation": "Different.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "The opposite:",
+      "options": [
+        "lachen",
+        "lächeln only"
+      ],
+      "answer": "lachen",
+      "explanation": "Laugh.",
+      "id": "q5"
+    }
+  ]
+}

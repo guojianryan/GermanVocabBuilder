@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Bohne",
+    "partOfSpeech": "noun, feminine (die Bohne)",
+    "pronunciation": {
+      "respelling": "BOH-ne",
+      "ipa": "ˈboːnə",
+      "notes": "Plural: die Bohnen."
+    },
+    "meaning": "bean",
+    "shortDefinition": "Bean."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Bohne, plural die Bohnen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Bohne"
+        },
+        {
+          "label": "More than one",
+          "value": "die Bohnen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich koche Suppe mit grünen Bohnen.",
+      "english": "I'm making soup with green beans.",
+      "highlight": [
+        "Bohnen."
+      ]
+    },
+    {
+      "german": "Kaffeebohnen kommen aus Brasilien.",
+      "english": "Coffee beans come from Brazil.",
+      "highlight": [
+        "Kaffeebohnen"
+      ]
+    },
+    {
+      "german": "Magst du Bohnen?",
+      "english": "Do you like beans?",
+      "highlight": [
+        "Bohnen?"
+      ]
+    }
+  ],
+  "forms": [
+    "Bohnen",
+    "die Bohnen",
+    "die Bohne"
+  ],
+  "memoryHook": "Die Bohne = bean. 'Nicht die Bohne!' = not one bit!",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Bohne",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Bohne is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Bohne, zwei ___",
+      "answer": "Bohnen",
+      "fullAnswer": "ein Bohne, zwei Bohnen",
+      "explanation": "The plural is Bohnen.",
+      "acceptedAnswers": [
+        "Bohnen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Bohne mean?",
+      "options": [
+        "bean",
+        "hot",
+        "expensive"
+      ],
+      "answer": "bean",
+      "explanation": "Bohne: bean.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "The h in Bohne is…",
+      "options": [
+        "silent (makes o long)",
+        "pronounced"
+      ],
+      "answer": "silent (makes o long)",
+      "explanation": "BOH-ne.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Coffee beans:",
+      "options": [
+        "Kaffeebohnen",
+        "Kaffeekerne"
+      ],
+      "answer": "Kaffeebohnen",
+      "explanation": "Kaffee + Bohnen.",
+      "id": "q5"
+    }
+  ]
+}

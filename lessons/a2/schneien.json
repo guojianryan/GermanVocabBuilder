@@ -1,0 +1,158 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "schneien",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "SHNY-en",
+      "ipa": "ˈʃnaɪ̯ən",
+      "notes": ""
+    },
+    "meaning": "to snow",
+    "shortDefinition": "To snow."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "schnei|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "schnei|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "schnei|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "schnei|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "schnei|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "schnei|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat geschneit"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Es schneit!",
+      "english": "It's snowing!",
+      "highlight": [
+        "schneit!"
+      ]
+    },
+    {
+      "german": "Gestern hat es den ganzen Tag geschneit.",
+      "english": "It snowed all day yesterday.",
+      "highlight": [
+        "geschneit."
+      ]
+    },
+    {
+      "german": "Hoffentlich schneit es an Weihnachten.",
+      "english": "Hopefully it'll snow at Christmas.",
+      "highlight": [
+        "schneit"
+      ]
+    }
+  ],
+  "forms": [
+    "schneie",
+    "schneist",
+    "schneit",
+    "schneien",
+    "geschneit"
+  ],
+  "memoryHook": "Es schneit, es regnet. Weather verbs use es.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (schneien)",
+      "answer": "schneit",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: schneit.",
+      "acceptedAnswers": [
+        "schneit"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (schneien, past)",
+      "answer": "geschneit",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe geschneit.",
+      "acceptedAnswers": [
+        "geschneit"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does schneien mean?",
+      "options": [
+        "to snow",
+        "to travel",
+        "the car"
+      ],
+      "answer": "to snow",
+      "explanation": "schneien: to snow.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Subject is always…",
+      "options": [
+        "es",
+        "der Schnee"
+      ],
+      "answer": "es",
+      "explanation": "Es schneit.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Like regnen:",
+      "options": [
+        "es regnet / es schneit",
+        "es regent / es schneit"
+      ],
+      "answer": "es regnet / es schneit",
+      "explanation": "Weather verbs.",
+      "id": "q5"
+    }
+  ]
+}

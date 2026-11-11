@@ -1,0 +1,165 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "interpretieren",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "in-ter-pre-TEE-ren",
+      "ipa": "ɪntɐpʁeˈtiːʁən",
+      "notes": ""
+    },
+    "meaning": "to interpret",
+    "shortDefinition": "To interpret."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "interpretier|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "interpretier|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "interpretier|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "interpretier|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "interpretier|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "interpretier|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat interpretiert"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wie interpretierst du das Gedicht?",
+      "english": "How do you interpret the poem?",
+      "highlight": [
+        "interpretierst"
+      ]
+    },
+    {
+      "german": "Das kann man unterschiedlich interpretieren.",
+      "english": "You can interpret that in different ways.",
+      "highlight": [
+        "interpretieren."
+      ]
+    },
+    {
+      "german": "Sie interpretiert das Lied neu.",
+      "english": "She does a new version of the song.",
+      "highlight": [
+        "interpretiert"
+      ]
+    }
+  ],
+  "forms": [
+    "Interpretation"
+  ],
+  "memoryHook": "Interpretieren → die Interpretation (≠ Dolmetscher).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (interpretieren)",
+      "answer": "interpretiert",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: interpretiert.",
+      "acceptedAnswers": [
+        "interpretiert"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (interpretieren, past)",
+      "answer": "interpretiert",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe interpretiert.",
+      "acceptedAnswers": [
+        "interpretiert"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does interpretieren mean?",
+      "options": [
+        "the shop",
+        "to interpret",
+        "tomorrow"
+      ],
+      "answer": "to interpret",
+      "explanation": "interpretieren: to interpret.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Noun:",
+      "options": [
+        "die Interpretation",
+        "die Interpretierung only"
+      ],
+      "answer": "die Interpretation",
+      "explanation": "Interpretation.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Interpreter (language):",
+      "options": [
+        "der Dolmetscher",
+        "der Interpret"
+      ],
+      "answer": "der Dolmetscher",
+      "explanation": "Interpreter.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Der Interpret' (music) is…",
+      "options": [
+        "the performer",
+        "a translator"
+      ],
+      "answer": "the performer",
+      "explanation": "Singer.",
+      "id": "q6"
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Bewerber",
+    "partOfSpeech": "noun, masculine (der Bewerber)",
+    "pronunciation": {
+      "respelling": "be-VAIR-ber",
+      "ipa": "bəˈvɛʁbɐ",
+      "notes": "The plural looks the same. Plural: die Bewerber."
+    },
+    "meaning": "applicant",
+    "shortDefinition": "Applicant."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Be",
+        "meaning": "prefix"
+      },
+      {
+        "part": "werb",
+        "meaning": "apply, woo (werben)"
+      },
+      {
+        "part": "er",
+        "meaning": "person who does it"
+      }
+    ],
+    "literalMeaning": "one who applies"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Bewerber, plural die Bewerber.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Bewerber"
+        },
+        {
+          "label": "More than one",
+          "value": "die Bewerber"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Es gibt 50 Bewerber für die Stelle.",
+      "english": "There are 50 applicants for the job.",
+      "highlight": [
+        "Bewerber"
+      ]
+    },
+    {
+      "german": "Die Bewerberin hat viel Erfahrung.",
+      "english": "The applicant has a lot of experience.",
+      "highlight": [
+        "Bewerberin"
+      ]
+    },
+    {
+      "german": "Wir laden drei Bewerber ein.",
+      "english": "We're inviting three applicants.",
+      "highlight": [
+        "Bewerber"
+      ]
+    }
+  ],
+  "forms": [
+    "Bewerberin"
+  ],
+  "memoryHook": "Sich bewerben → der Bewerber.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Bewerber",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Bewerber is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Bewerber, zwei ___",
+      "answer": "Bewerber",
+      "fullAnswer": "ein Bewerber, zwei Bewerber",
+      "explanation": "The plural is Bewerber.",
+      "acceptedAnswers": [
+        "Bewerber"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Bewerber mean?",
+      "options": [
+        "to open",
+        "the station",
+        "applicant"
+      ],
+      "answer": "applicant",
+      "explanation": "Bewerber: applicant.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "sich bewerben",
+        "werben only"
+      ],
+      "answer": "sich bewerben",
+      "explanation": "Apply.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Female:",
+      "options": [
+        "die Bewerberin",
+        "die Bewerber"
+      ],
+      "answer": "die Bewerberin",
+      "explanation": "-in.",
+      "id": "q5"
+    }
+  ]
+}

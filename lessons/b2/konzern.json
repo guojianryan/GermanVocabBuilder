@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Konzern",
+    "partOfSpeech": "noun, masculine (der Konzern)",
+    "pronunciation": {
+      "respelling": "kon-TSAIRN",
+      "ipa": "kɔnˈtsɛʁn",
+      "notes": "Plural: die Konzerne."
+    },
+    "meaning": "group (of companies), corporation",
+    "shortDefinition": "Group (of companies), corporation."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Konzern, plural die Konzerne.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Konzern"
+        },
+        {
+          "label": "More than one",
+          "value": "die Konzerne"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er arbeitet bei einem großen Konzern.",
+      "english": "He works for a big corporation.",
+      "highlight": [
+        "Konzern."
+      ]
+    },
+    {
+      "german": "Der Konzern hat 100.000 Mitarbeiter.",
+      "english": "The group has 100,000 employees.",
+      "highlight": [
+        "Konzern"
+      ]
+    },
+    {
+      "german": "Internationale Konzerne zahlen wenig Steuern.",
+      "english": "Multinationals pay little tax.",
+      "highlight": [
+        "Konzerne"
+      ]
+    }
+  ],
+  "forms": [
+    "Konzerne",
+    "die Konzerne",
+    "der Konzern"
+  ],
+  "memoryHook": "Der Konzern (corporation) ≠ das Konzert.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Konzern",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Konzern is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Konzern, zwei ___",
+      "answer": "Konzerne",
+      "fullAnswer": "ein Konzern, zwei Konzerne",
+      "explanation": "The plural is Konzerne.",
+      "acceptedAnswers": [
+        "Konzerne"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Konzern mean?",
+      "options": [
+        "to learn",
+        "group (of companies)",
+        "the key"
+      ],
+      "answer": "group (of companies)",
+      "explanation": "Konzern: group (of companies), corporation.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Konzern vs Firma:",
+      "options": [
+        "large group vs any company",
+        "same"
+      ],
+      "answer": "large group vs any company",
+      "explanation": "Size.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Don't confuse with…",
+      "options": [
+        "das Konzert (concert)",
+        "der Konzern only"
+      ],
+      "answer": "das Konzert (concert)",
+      "explanation": "Different.",
+      "id": "q5"
+    }
+  ]
+}

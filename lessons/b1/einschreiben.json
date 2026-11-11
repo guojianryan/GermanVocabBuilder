@@ -1,0 +1,136 @@
+{
+ "schemaVersion": "1.4",
+ "language": "de",
+ "explanationLanguage": "en",
+ "level": "B1",
+ "levelSource": "Goethe-Zertifikat B1 Wortliste",
+ "lessonType": "card",
+ "word": {
+  "headword": "Einschreiben",
+  "partOfSpeech": "noun, neuter (das Einschreiben)",
+  "pronunciation": {
+   "respelling": "INE-shry-ben",
+   "ipa": "ˈaɪ̯nʃʁaɪ̯bn̩",
+   "notes": "The plural looks the same. Plural: die Einschreiben."
+  },
+  "meaning": "registered letter",
+  "shortDefinition": "Registered letter."
+ },
+ "commonMistakes": [
+  {
+   "title": "Gender and plural",
+   "explanation": "Das Einschreiben, plural die Einschreiben.",
+   "forms": [
+    {
+     "label": "One",
+     "value": "das Einschreiben"
+    },
+    {
+     "label": "More than one",
+     "value": "die Einschreiben"
+    }
+   ]
+  }
+ ],
+ "sampleSentences": [
+  {
+   "german": "Ich schicke den Brief als Einschreiben.",
+   "english": "I'm sending the letter by registered post.",
+   "highlight": [
+    "Einschreiben."
+   ]
+  },
+  {
+   "german": "Ein Einschreiben muss man unterschreiben.",
+   "english": "You have to sign for a registered letter.",
+   "highlight": [
+    "Einschreiben"
+   ]
+  },
+  {
+   "german": "Per Einschreiben, bitte.",
+   "english": "Registered, please.",
+   "highlight": [
+    "Einschreiben,"
+   ]
+  }
+ ],
+ "forms": [
+  "sich einschreiben"
+ ],
+ "memoryHook": "Das Einschreiben = registered letter. Sich einschreiben = enrol.",
+ "signOff": "Gut gemacht!",
+ "quiz": [
+  {
+   "type": "choice",
+   "prompt": "___ Einschreiben",
+   "options": [
+    "der",
+    "die",
+    "das"
+   ],
+   "answer": "das",
+   "explanation": "Einschreiben is neuter.",
+   "id": "q1"
+  },
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "ein Einschreiben, zwei ___",
+   "answer": "Einschreiben",
+   "fullAnswer": "ein Einschreiben, zwei Einschreiben",
+   "explanation": "The plural is Einschreiben.",
+   "acceptedAnswers": [
+    "Einschreiben"
+   ],
+   "id": "q2"
+  },
+  {
+   "type": "choice",
+   "prompt": "What does Einschreiben mean?",
+   "options": [
+    "registered letter",
+    "the flower",
+    "never"
+   ],
+   "answer": "registered letter",
+   "explanation": "Einschreiben: registered letter.",
+   "id": "q3"
+  },
+  {
+   "type": "choice",
+   "prompt": "An Einschreiben is…",
+   "options": [
+    "registered post",
+    "an enrolment form"
+   ],
+   "answer": "registered post",
+   "explanation": "Post office.",
+   "id": "q4"
+  },
+  {
+   "type": "choice",
+   "prompt": "'Sich einschreiben' (verb) means…",
+   "options": [
+    "to enrol, register",
+    "to write in"
+   ],
+   "answer": "to enrol, register",
+   "explanation": "University.",
+   "id": "q5"
+  }
+ ],
+ "etymology": {
+  "title": "Where it comes from",
+  "parts": [
+   {
+    "part": "Ein",
+    "meaning": "in, into"
+   },
+   {
+    "part": "schreiben",
+    "meaning": "writing"
+   }
+  ],
+  "literalMeaning": "written in (registered)"
+ }
+}

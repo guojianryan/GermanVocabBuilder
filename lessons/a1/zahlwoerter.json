@@ -1,0 +1,390 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "group",
+  "word": {
+    "headword": "Zahlwörter",
+    "partOfSpeech": "word group: numbers",
+    "pronunciation": {
+      "respelling": "TSAAL-vur-ter",
+      "ipa": "ˈtsaːlˌvœʁtɐ",
+      "notes": ""
+    },
+    "meaning": "numbers from zero to a million",
+    "shortDefinition": "Numbers from zero to a million."
+  },
+  "members": [
+    {
+      "german": "null",
+      "english": "0"
+    },
+    {
+      "german": "eins",
+      "english": "1",
+      "note": "Counting: eins. Before a noun: ein/eine."
+    },
+    {
+      "german": "zwei",
+      "english": "2",
+      "note": "On the phone often zwo, so it isn't confused with drei."
+    },
+    {
+      "german": "drei",
+      "english": "3"
+    },
+    {
+      "german": "vier",
+      "english": "4"
+    },
+    {
+      "german": "fünf",
+      "english": "5"
+    },
+    {
+      "german": "sechs",
+      "english": "6",
+      "note": "Sounds like 'zex'."
+    },
+    {
+      "german": "sieben",
+      "english": "7"
+    },
+    {
+      "german": "acht",
+      "english": "8"
+    },
+    {
+      "german": "neun",
+      "english": "9"
+    },
+    {
+      "german": "zehn",
+      "english": "10"
+    },
+    {
+      "german": "elf",
+      "english": "11"
+    },
+    {
+      "german": "zwölf",
+      "english": "12"
+    },
+    {
+      "german": "dreizehn",
+      "english": "13"
+    },
+    {
+      "german": "vierzehn",
+      "english": "14"
+    },
+    {
+      "german": "fünfzehn",
+      "english": "15"
+    },
+    {
+      "german": "sechzehn",
+      "english": "16",
+      "note": "Loses the s: sech-zehn."
+    },
+    {
+      "german": "siebzehn",
+      "english": "17",
+      "note": "Loses -en: sieb-zehn."
+    },
+    {
+      "german": "achtzehn",
+      "english": "18"
+    },
+    {
+      "german": "neunzehn",
+      "english": "19"
+    },
+    {
+      "german": "zwanzig",
+      "english": "20"
+    },
+    {
+      "german": "einundzwanzig",
+      "english": "21",
+      "note": "One-and-twenty: the ones come first."
+    },
+    {
+      "german": "dreißig",
+      "english": "30",
+      "note": "With ß, not -zig."
+    },
+    {
+      "german": "vierzig",
+      "english": "40"
+    },
+    {
+      "german": "fünfzig",
+      "english": "50"
+    },
+    {
+      "german": "sechzig",
+      "english": "60"
+    },
+    {
+      "german": "siebzig",
+      "english": "70"
+    },
+    {
+      "german": "achtzig",
+      "english": "80"
+    },
+    {
+      "german": "neunzig",
+      "english": "90"
+    },
+    {
+      "german": "hundert",
+      "english": "100",
+      "note": "Also einhundert."
+    },
+    {
+      "german": "hunderteins",
+      "english": "101"
+    },
+    {
+      "german": "zweihundert",
+      "english": "200"
+    },
+    {
+      "german": "tausend",
+      "english": "1,000",
+      "note": "Also eintausend."
+    },
+    {
+      "german": "die Million",
+      "english": "million",
+      "plural": "Millionen"
+    },
+    {
+      "german": "die Milliarde",
+      "english": "billion",
+      "plural": "Milliarden",
+      "note": "Not a 'billion' in German: eine Billion is a trillion!"
+    }
+  ],
+  "intro": {
+    "title": "Twenty-one is one-and-twenty",
+    "paragraphs": [
+      "German numbers up to twelve are just words to learn. From thirteen on, they follow a pattern, and the one surprise is that from 21 to 99 the ones come first: einundzwanzig is 'one-and-twenty', siebenundvierzig is 'seven-and-forty'.",
+      "Big numbers are written as one long word: 365 is dreihundertfünfundsechzig. Nobody writes it out in real life, but you need to hear it that way."
+    ]
+  },
+  "tables": [
+    {
+      "title": "The pattern",
+      "columns": [
+        "example"
+      ],
+      "rows": [
+        {
+          "label": "13–19",
+          "hint": "number + zehn",
+          "cells": [
+            "drei|zehn|"
+          ]
+        },
+        {
+          "label": "20–90",
+          "hint": "number + zig",
+          "cells": [
+            "vier|zig|"
+          ]
+        },
+        {
+          "label": "21–99",
+          "hint": "ones + und + tens",
+          "cells": [
+            "vier|und|zwanzig"
+          ]
+        },
+        {
+          "label": "100+",
+          "hint": "one long word",
+          "cells": [
+            "zweihundert|fünfundzwanzig|"
+          ]
+        }
+      ],
+      "notes": [
+        "Exceptions: sechzehn, siebzehn, sechzig, siebzig, dreißig."
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Writing big numbers",
+      "explanation": "German uses a point for thousands and a comma for decimals: 1.000 is a thousand, 1,5 is one and a half.",
+      "forms": [
+        {
+          "label": "a thousand",
+          "value": "1.000"
+        },
+        {
+          "label": "one and a half",
+          "value": "1,5"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich bin dreiunddreißig Jahre alt.",
+      "english": "I'm thirty-three.",
+      "highlight": [
+        "dreiunddreißig"
+      ]
+    },
+    {
+      "german": "Die Nummer ist null, eins, sieben, zwo …",
+      "english": "The number is zero, one, seven, two …",
+      "highlight": [
+        "null,",
+        "eins,",
+        "sieben,",
+        "zwo"
+      ]
+    },
+    {
+      "german": "Das kostet neunundneunzig Euro.",
+      "english": "That costs ninety-nine euros.",
+      "highlight": [
+        "neunundneunzig"
+      ]
+    }
+  ],
+  "forms": [
+    "null",
+    "eins",
+    "zwei",
+    "drei",
+    "vier",
+    "fünf",
+    "sechs",
+    "sieben",
+    "acht",
+    "neun",
+    "zehn",
+    "elf",
+    "zwölf",
+    "dreizehn",
+    "vierzehn",
+    "fünfzehn",
+    "sechzehn",
+    "siebzehn",
+    "achtzehn",
+    "neunzehn",
+    "zwanzig",
+    "einundzwanzig",
+    "dreißig",
+    "vierzig",
+    "fünfzig",
+    "sechzig",
+    "siebzig",
+    "achtzig",
+    "neunzig",
+    "hundert",
+    "hunderteins",
+    "zweihundert",
+    "tausend",
+    "die Million",
+    "Million",
+    "Millionen",
+    "die Milliarde",
+    "Milliarde",
+    "Milliarden",
+    "zwo",
+    "eintausend",
+    "einhundert",
+    "Zahl"
+  ],
+  "memoryHook": "Twenty-one = einundzwanzig: like the old English 'four-and-twenty blackbirds'.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "47 is…",
+      "options": [
+        "siebenundvierzig",
+        "vierzigsieben",
+        "vierundsiebzig"
+      ],
+      "answer": "siebenundvierzig",
+      "explanation": "Ones first: sieben-und-vierzig.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "74 is…",
+      "options": [
+        "vierundsiebzig",
+        "siebenundvierzig"
+      ],
+      "answer": "vierundsiebzig",
+      "explanation": "Vier-und-siebzig. Careful: easy to swap when listening.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Which is spelled correctly?",
+      "options": [
+        "sechzehn",
+        "sechszehn"
+      ],
+      "answer": "sechzehn",
+      "explanation": "16 and 60 drop the s: sechzehn, sechzig.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "30 is…",
+      "options": [
+        "dreißig",
+        "dreizig"
+      ],
+      "answer": "dreißig",
+      "explanation": "The only tens word with ß.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "21 = ___",
+      "answer": "einundzwanzig",
+      "fullAnswer": "einundzwanzig",
+      "explanation": "Ein-und-zwanzig.",
+      "acceptedAnswers": [
+        "ein und zwanzig"
+      ],
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "On the phone, 2 is often said as…",
+      "options": [
+        "zwo",
+        "zwei-i"
+      ],
+      "answer": "zwo",
+      "explanation": "Zwo, so it's not confused with drei.",
+      "id": "q6"
+    },
+    {
+      "type": "choice",
+      "prompt": "German 'eine Milliarde' is…",
+      "options": [
+        "a billion (1,000,000,000)",
+        "a million"
+      ],
+      "answer": "a billion (1,000,000,000)",
+      "explanation": "And eine Billion is a trillion.",
+      "id": "q7"
+    }
+  ]
+}

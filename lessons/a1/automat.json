@@ -1,0 +1,138 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Automat",
+    "partOfSpeech": "noun, masculine (der Automat)",
+    "pronunciation": {
+      "respelling": "ow-toh-MAHT",
+      "ipa": "ˌaʊ̯toˈmaːt",
+      "notes": "Stress the last syllable. It adds -en in all forms except der Automat. Plural: die Automaten."
+    },
+    "meaning": "machine (vending or ticket machine)",
+    "shortDefinition": "Machine (vending or ticket machine)."
+  },
+  "wordFamily": [
+    {
+      "german": "der Fahrkartenautomat",
+      "english": "ticket machine",
+      "type": "noun"
+    },
+    {
+      "german": "automatisch",
+      "english": "automatic",
+      "type": "adjective"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Automat, plural die Automaten.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Automat"
+        },
+        {
+          "label": "More than one",
+          "value": "die Automaten"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Fahrkarten gibt es nur am Automaten.",
+      "english": "Tickets are only available from the machine.",
+      "highlight": [
+        "Automaten."
+      ]
+    },
+    {
+      "german": "Der Automat nimmt keine Karten.",
+      "english": "The machine doesn't take cards.",
+      "highlight": [
+        "Automat"
+      ]
+    },
+    {
+      "german": "Ich hole mir einen Kaffee aus dem Automaten.",
+      "english": "I'm getting a coffee from the machine.",
+      "highlight": [
+        "Automaten."
+      ]
+    }
+  ],
+  "forms": [
+    "Automaten",
+    "die Automaten",
+    "den Automaten",
+    "am Automaten",
+    "der Automat"
+  ],
+  "memoryHook": "Der Automat is a 'weak' noun: it adds -en everywhere except 'der Automat'. Am Automaten, den Automaten.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Automat",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Automat is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Automat, zwei ___",
+      "answer": "Automaten",
+      "fullAnswer": "ein Automat, zwei Automaten",
+      "explanation": "The plural is Automaten.",
+      "acceptedAnswers": [
+        "Automaten"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Automat mean?",
+      "options": [
+        "machine (vending or ticket machine)",
+        "to open",
+        "the key"
+      ],
+      "answer": "machine (vending or ticket machine)",
+      "explanation": "Automat: machine (vending or ticket machine).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich kaufe das Ticket am ___.",
+      "options": [
+        "Automat",
+        "Automaten"
+      ],
+      "answer": "Automaten",
+      "explanation": "Automat adds -en in every case except the nominative singular.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Where's the stress in Automat?",
+      "options": [
+        "AU-to-mat",
+        "au-to-MAT"
+      ],
+      "answer": "au-to-MAT",
+      "explanation": "Stress the last syllable.",
+      "id": "q5"
+    }
+  ]
+}

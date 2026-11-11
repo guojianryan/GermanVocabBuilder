@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Burg",
+    "partOfSpeech": "noun, feminine (die Burg)",
+    "pronunciation": {
+      "respelling": "BOORK",
+      "ipa": "bʊʁk",
+      "notes": "Plural: die Burgen."
+    },
+    "meaning": "castle (fortified)",
+    "shortDefinition": "Castle (fortified)."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Burg, plural die Burgen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Burg"
+        },
+        {
+          "label": "More than one",
+          "value": "die Burgen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Auf dem Berg steht eine alte Burg.",
+      "english": "There's an old castle on the mountain.",
+      "highlight": [
+        "Burg."
+      ]
+    },
+    {
+      "german": "Wir besichtigen die Burg.",
+      "english": "We're visiting the castle.",
+      "highlight": [
+        "Burg."
+      ]
+    },
+    {
+      "german": "Die Kinder bauen eine Sandburg.",
+      "english": "The children are building a sandcastle.",
+      "highlight": [
+        "Sandburg."
+      ]
+    }
+  ],
+  "forms": [
+    "Burgen",
+    "die Burgen",
+    "die Burg"
+  ],
+  "memoryHook": "Die Burg (fortress). Hamburg, Augsburg, Würzburg…",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Burg",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Burg is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Burg, zwei ___",
+      "answer": "Burgen",
+      "fullAnswer": "ein Burg, zwei Burgen",
+      "explanation": "The plural is Burgen.",
+      "acceptedAnswers": [
+        "Burgen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Burg mean?",
+      "options": [
+        "the key",
+        "castle (fortified)",
+        "to learn"
+      ],
+      "answer": "castle (fortified)",
+      "explanation": "Burg: castle (fortified).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Burg or Schloss?",
+      "options": [
+        "Burg = fortress; Schloss = palace",
+        "same"
+      ],
+      "answer": "Burg = fortress; Schloss = palace",
+      "explanation": "Different.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Towns ending in -burg (Hamburg) had…",
+      "options": [
+        "a castle",
+        "a mountain"
+      ],
+      "answer": "a castle",
+      "explanation": "-burg.",
+      "id": "q5"
+    }
+  ]
+}

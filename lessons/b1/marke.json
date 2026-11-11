@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Marke",
+    "partOfSpeech": "noun, feminine (die Marke)",
+    "pronunciation": {
+      "respelling": "MAR-ke",
+      "ipa": "ˈmaʁkə",
+      "notes": "Plural: die Marken."
+    },
+    "meaning": "brand; stamp",
+    "shortDefinition": "Brand; stamp."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Marke, plural die Marken.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Marke"
+        },
+        {
+          "label": "More than one",
+          "value": "die Marken"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Welche Marke ist dein Handy?",
+      "english": "What make is your phone?",
+      "highlight": [
+        "Marke"
+      ]
+    },
+    {
+      "german": "Ich kaufe keine teuren Marken.",
+      "english": "I don't buy expensive brands.",
+      "highlight": [
+        "Marken."
+      ]
+    },
+    {
+      "german": "Ich brauche eine Briefmarke.",
+      "english": "I need a stamp.",
+      "highlight": [
+        "Briefmarke."
+      ]
+    }
+  ],
+  "forms": [
+    "Marken",
+    "die Marken",
+    "die Marke"
+  ],
+  "memoryHook": "Die Marke: brand; Briefmarke = stamp.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Marke",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Marke is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Marke, zwei ___",
+      "answer": "Marken",
+      "fullAnswer": "ein Marke, zwei Marken",
+      "explanation": "The plural is Marken.",
+      "acceptedAnswers": [
+        "Marken"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Marke mean?",
+      "options": [
+        "brand",
+        "to help",
+        "the street"
+      ],
+      "answer": "brand",
+      "explanation": "Marke: brand; stamp.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "A postage stamp:",
+      "options": [
+        "die Briefmarke",
+        "der Stempel"
+      ],
+      "answer": "die Briefmarke",
+      "explanation": "Brief + Marke.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Brand-name clothes:",
+      "options": [
+        "Markenkleidung",
+        "Markierung"
+      ],
+      "answer": "Markenkleidung",
+      "explanation": "Brands.",
+      "id": "q5"
+    }
+  ]
+}

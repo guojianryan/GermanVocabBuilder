@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Messung",
+    "partOfSpeech": "noun, feminine (die Messung)",
+    "pronunciation": {
+      "respelling": "ME-sung",
+      "ipa": "ˈmɛsʊŋ",
+      "notes": "Plural: die Messungen."
+    },
+    "meaning": "measurement",
+    "shortDefinition": "Measurement."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Mess",
+        "meaning": "measure (messen)"
+      },
+      {
+        "part": "ung",
+        "meaning": "noun ending"
+      }
+    ],
+    "literalMeaning": "a measuring"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Messung, plural die Messungen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Messung"
+        },
+        {
+          "label": "More than one",
+          "value": "die Messungen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Messung ergab 30 Grad.",
+      "english": "The measurement showed 30 degrees.",
+      "highlight": [
+        "Messung"
+      ]
+    },
+    {
+      "german": "Wir machen eine Messung des Blutdrucks.",
+      "english": "We're measuring your blood pressure.",
+      "highlight": [
+        "Messung"
+      ]
+    },
+    {
+      "german": "Genaue Messungen sind wichtig.",
+      "english": "Precise measurements are important.",
+      "highlight": [
+        "Messungen"
+      ]
+    }
+  ],
+  "forms": [
+    "messen"
+  ],
+  "memoryHook": "Messen → die Messung.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Messung",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Messung is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Messung, zwei ___",
+      "answer": "Messungen",
+      "fullAnswer": "ein Messung, zwei Messungen",
+      "explanation": "The plural is Messungen.",
+      "acceptedAnswers": [
+        "Messungen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Messung mean?",
+      "options": [
+        "measurement",
+        "hot",
+        "the child"
+      ],
+      "answer": "measurement",
+      "explanation": "Messung: measurement.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "messen (measure)",
+        "Messe (fair)"
+      ],
+      "answer": "messen (measure)",
+      "explanation": "Measure.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Measuring device:",
+      "options": [
+        "das Messgerät",
+        "der Messer"
+      ],
+      "answer": "das Messgerät",
+      "explanation": "Device.",
+      "id": "q5"
+    }
+  ]
+}

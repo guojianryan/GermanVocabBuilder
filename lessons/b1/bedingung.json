@@ -1,0 +1,142 @@
+{
+ "schemaVersion": "1.4",
+ "language": "de",
+ "explanationLanguage": "en",
+ "level": "B1",
+ "levelSource": "Goethe-Zertifikat B1 Wortliste",
+ "lessonType": "card",
+ "word": {
+  "headword": "Bedingung",
+  "partOfSpeech": "noun, feminine (die Bedingung)",
+  "pronunciation": {
+   "respelling": "be-DING-ung",
+   "ipa": "bəˈdɪŋʊŋ",
+   "notes": "Plural: die Bedingungen."
+  },
+  "meaning": "condition",
+  "shortDefinition": "Condition."
+ },
+ "commonMistakes": [
+  {
+   "title": "Gender and plural",
+   "explanation": "Die Bedingung, plural die Bedingungen.",
+   "forms": [
+    {
+     "label": "One",
+     "value": "die Bedingung"
+    },
+    {
+     "label": "More than one",
+     "value": "die Bedingungen"
+    }
+   ]
+  }
+ ],
+ "sampleSentences": [
+  {
+   "german": "Unter einer Bedingung: du hilfst mir.",
+   "english": "On one condition: you help me.",
+   "highlight": [
+    "Bedingung:"
+   ]
+  },
+  {
+   "german": "Die Arbeitsbedingungen sind gut.",
+   "english": "The working conditions are good.",
+   "highlight": [
+    "Arbeitsbedingungen"
+   ]
+  },
+  {
+   "german": "Lesen Sie die Bedingungen genau.",
+   "english": "Read the terms carefully.",
+   "highlight": [
+    "Bedingungen"
+   ]
+  }
+ ],
+ "forms": [
+  "Bedingungen",
+  "die Bedingungen",
+  "die Bedingung"
+ ],
+ "memoryHook": "Die Bedingung = condition. Unbedingt = unconditionally, absolutely.",
+ "signOff": "Gut gemacht!",
+ "quiz": [
+  {
+   "type": "choice",
+   "prompt": "___ Bedingung",
+   "options": [
+    "der",
+    "die",
+    "das"
+   ],
+   "answer": "die",
+   "explanation": "Bedingung is feminine.",
+   "id": "q1"
+  },
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "ein Bedingung, zwei ___",
+   "answer": "Bedingungen",
+   "fullAnswer": "ein Bedingung, zwei Bedingungen",
+   "explanation": "The plural is Bedingungen.",
+   "acceptedAnswers": [
+    "Bedingungen"
+   ],
+   "id": "q2"
+  },
+  {
+   "type": "choice",
+   "prompt": "What does Bedingung mean?",
+   "options": [
+    "tomorrow",
+    "the bill",
+    "condition"
+   ],
+   "answer": "condition",
+   "explanation": "Bedingung: condition.",
+   "id": "q3"
+  },
+  {
+   "type": "choice",
+   "prompt": "'On one condition':",
+   "options": [
+    "unter einer Bedingung",
+    "mit einer Bedingung"
+   ],
+   "answer": "unter einer Bedingung",
+   "explanation": "Unter.",
+   "id": "q4"
+  },
+  {
+   "type": "choice",
+   "prompt": "'Unbedingt' (related) means…",
+   "options": [
+    "absolutely",
+    "conditionally"
+   ],
+   "answer": "absolutely",
+   "explanation": "Unconditionally.",
+   "id": "q5"
+  }
+ ],
+ "etymology": {
+  "title": "Where it comes from",
+  "parts": [
+   {
+    "part": "Be",
+    "meaning": "prefix (acts on something)"
+   },
+   {
+    "part": "ding",
+    "meaning": "thing, agree (old)"
+   },
+   {
+    "part": "ung",
+    "meaning": "noun ending (the act of)"
+   }
+  ],
+  "literalMeaning": "what is agreed"
+ }
+}

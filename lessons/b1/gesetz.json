@@ -1,0 +1,136 @@
+{
+ "schemaVersion": "1.4",
+ "language": "de",
+ "explanationLanguage": "en",
+ "level": "B1",
+ "levelSource": "Goethe-Zertifikat B1 Wortliste",
+ "lessonType": "card",
+ "word": {
+  "headword": "Gesetz",
+  "partOfSpeech": "noun, neuter (das Gesetz)",
+  "pronunciation": {
+   "respelling": "ge-ZETS",
+   "ipa": "ɡəˈzɛts",
+   "notes": "Plural: die Gesetze."
+  },
+  "meaning": "law",
+  "shortDefinition": "Law."
+ },
+ "commonMistakes": [
+  {
+   "title": "Gender and plural",
+   "explanation": "Das Gesetz, plural die Gesetze.",
+   "forms": [
+    {
+     "label": "One",
+     "value": "das Gesetz"
+    },
+    {
+     "label": "More than one",
+     "value": "die Gesetze"
+    }
+   ]
+  }
+ ],
+ "sampleSentences": [
+  {
+   "german": "Das ist gegen das Gesetz.",
+   "english": "That's against the law.",
+   "highlight": [
+    "Gesetz."
+   ]
+  },
+  {
+   "german": "Das Parlament beschließt ein neues Gesetz.",
+   "english": "Parliament passes a new law.",
+   "highlight": [
+    "Gesetz."
+   ]
+  },
+  {
+   "german": "Nach dem Gesetz ist das verboten.",
+   "english": "That's forbidden by law.",
+   "highlight": [
+    "Gesetz"
+   ]
+  }
+ ],
+ "forms": [
+  "gesetzlich"
+ ],
+ "memoryHook": "Das Gesetz (what's set down). Gesetzlich = legal.",
+ "signOff": "Gut gemacht!",
+ "quiz": [
+  {
+   "type": "choice",
+   "prompt": "___ Gesetz",
+   "options": [
+    "der",
+    "die",
+    "das"
+   ],
+   "answer": "das",
+   "explanation": "Gesetz is neuter.",
+   "id": "q1"
+  },
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "ein Gesetz, zwei ___",
+   "answer": "Gesetze",
+   "fullAnswer": "ein Gesetz, zwei Gesetze",
+   "explanation": "The plural is Gesetze.",
+   "acceptedAnswers": [
+    "Gesetze"
+   ],
+   "id": "q2"
+  },
+  {
+   "type": "choice",
+   "prompt": "What does Gesetz mean?",
+   "options": [
+    "law",
+    "to help",
+    "slowly"
+   ],
+   "answer": "law",
+   "explanation": "Gesetz: law.",
+   "id": "q3"
+  },
+  {
+   "type": "choice",
+   "prompt": "'Gegen das Gesetz' means…",
+   "options": [
+    "illegal",
+    "a lawyer"
+   ],
+   "answer": "illegal",
+   "explanation": "Against the law.",
+   "id": "q4"
+  },
+  {
+   "type": "choice",
+   "prompt": "Legal (adj.):",
+   "options": [
+    "gesetzlich / legal",
+    "gesetzig"
+   ],
+   "answer": "gesetzlich / legal",
+   "explanation": "Lawful.",
+   "id": "q5"
+  }
+ ],
+ "etymology": {
+  "title": "Where it comes from",
+  "parts": [
+   {
+    "part": "Ge",
+    "meaning": "prefix"
+   },
+   {
+    "part": "setz",
+    "meaning": "set"
+   }
+  ],
+  "literalMeaning": "something set down"
+ }
+}

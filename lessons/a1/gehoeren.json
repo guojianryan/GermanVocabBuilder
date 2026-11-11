@@ -1,0 +1,186 @@
+{
+ "schemaVersion": "1.4",
+ "language": "de",
+ "explanationLanguage": "en",
+ "level": "A1",
+ "levelSource": "Goethe-Zertifikat A1 Wortliste",
+ "lessonType": "card",
+ "word": {
+  "headword": "gehören",
+  "partOfSpeech": "verb",
+  "pronunciation": {
+   "respelling": "guh-HUR-en",
+   "ipa": "ɡəˈhøːʁən",
+   "notes": ""
+  },
+  "meaning": "to belong (to)",
+  "shortDefinition": "To belong (to)."
+ },
+ "tables": [
+  {
+   "title": "Present tense",
+   "columns": [
+    "present"
+   ],
+   "rows": [
+    {
+     "label": "ich",
+     "cells": [
+      "gehör|e"
+     ]
+    },
+    {
+     "label": "du",
+     "cells": [
+      "gehör|st"
+     ]
+    },
+    {
+     "label": "er, sie, es",
+     "cells": [
+      "gehör|t"
+     ]
+    },
+    {
+     "label": "wir",
+     "cells": [
+      "gehör|en"
+     ]
+    },
+    {
+     "label": "ihr",
+     "cells": [
+      "gehör|t"
+     ]
+    },
+    {
+     "label": "sie, Sie",
+     "cells": [
+      "gehör|en"
+     ]
+    }
+   ],
+   "notes": [
+    "Past (Perfekt): hat gehört",
+    "No ge- in the past: hat gehört (same form as the past of hören)."
+   ]
+  }
+ ],
+ "wordFamily": [
+  {
+   "german": "gehören zu",
+   "english": "to be part of",
+   "type": "phrase"
+  },
+  {
+   "german": "hören",
+   "english": "to hear",
+   "type": "verb"
+  }
+ ],
+ "sampleSentences": [
+  {
+   "german": "Wem gehört das Fahrrad?",
+   "english": "Whose bike is this?",
+   "highlight": [
+    "gehört"
+   ]
+  },
+  {
+   "german": "Das gehört mir.",
+   "english": "That's mine.",
+   "highlight": [
+    "gehört",
+    "mir."
+   ]
+  },
+  {
+   "german": "Er gehört zur Familie.",
+   "english": "He's part of the family.",
+   "highlight": [
+    "gehört",
+    "zur"
+   ]
+  }
+ ],
+ "forms": [
+  "gehöre",
+  "gehörst",
+  "gehört",
+  "gehören"
+ ],
+ "memoryHook": "Gehören + dative: Das gehört mir = that belongs to me. Careful: the participle gehört is the same as hören's.",
+ "signOff": "Gut gemacht!",
+ "quiz": [
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "er ___ (gehören)",
+   "answer": "gehört",
+   "fullAnswer": "",
+   "explanation": "For er, sie, es: gehört.",
+   "acceptedAnswers": [
+    "gehoert"
+   ],
+   "id": "q1"
+  },
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "Ich habe schon ___. (gehören, past)",
+   "answer": "gehört",
+   "fullAnswer": "",
+   "explanation": "Perfekt: habe gehört.",
+   "acceptedAnswers": [
+    "gehoert"
+   ],
+   "id": "q2"
+  },
+  {
+   "type": "choice",
+   "prompt": "What does gehören mean?",
+   "options": [
+    "never",
+    "to wait",
+    "to belong (to)"
+   ],
+   "answer": "to belong (to)",
+   "explanation": "gehören: to belong (to).",
+   "id": "q3"
+  },
+  {
+   "type": "choice",
+   "prompt": "Das Buch gehört ___. (me)",
+   "options": [
+    "mich",
+    "mir"
+   ],
+   "answer": "mir",
+   "explanation": "Gehören + dative.",
+   "id": "q4"
+  },
+  {
+   "type": "choice",
+   "prompt": "'Wem gehört das?' asks…",
+   "options": [
+    "Whose is this?",
+    "Who heard that?"
+   ],
+   "answer": "Whose is this?",
+   "explanation": "Wem = to whom.",
+   "id": "q5"
+  }
+ ],
+ "etymology": {
+  "title": "Where it comes from",
+  "parts": [
+   {
+    "part": "ge",
+    "meaning": "prefix"
+   },
+   {
+    "part": "hören",
+    "meaning": "to hear"
+   }
+  ],
+  "literalMeaning": "to listen to, belong to"
+ }
+}

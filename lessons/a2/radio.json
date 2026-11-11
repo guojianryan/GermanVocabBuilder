@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Radio",
+    "partOfSpeech": "noun, neuter (das Radio)",
+    "pronunciation": {
+      "respelling": "RAA-dee-oh",
+      "ipa": "ˈʁaːdi̯o",
+      "notes": "Plural: die Radios."
+    },
+    "meaning": "radio",
+    "shortDefinition": "Radio."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Radio, plural die Radios.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Radio"
+        },
+        {
+          "label": "More than one",
+          "value": "die Radios"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich höre morgens Radio.",
+      "english": "I listen to the radio in the mornings.",
+      "highlight": [
+        "Radio."
+      ]
+    },
+    {
+      "german": "Mach bitte das Radio an.",
+      "english": "Please turn the radio on.",
+      "highlight": [
+        "Radio"
+      ]
+    },
+    {
+      "german": "Das habe ich im Radio gehört.",
+      "english": "I heard that on the radio.",
+      "highlight": [
+        "Radio"
+      ]
+    }
+  ],
+  "forms": [
+    "Radios",
+    "die Radios",
+    "das Radio"
+  ],
+  "memoryHook": "Das Radio; Radio hören, im Radio.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Radio",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Radio is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Radio, zwei ___",
+      "answer": "Radios",
+      "fullAnswer": "ein Radio, zwei Radios",
+      "explanation": "The plural is Radios.",
+      "acceptedAnswers": [
+        "Radios"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Radio mean?",
+      "options": [
+        "radio",
+        "the evening",
+        "never"
+      ],
+      "answer": "radio",
+      "explanation": "Radio: radio.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'On the radio':",
+      "options": [
+        "im Radio",
+        "auf dem Radio"
+      ],
+      "answer": "im Radio",
+      "explanation": "Im.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Listen to the radio':",
+      "options": [
+        "Radio hören",
+        "das Radio zuhören"
+      ],
+      "answer": "Radio hören",
+      "explanation": "No article.",
+      "id": "q5"
+    }
+  ]
+}

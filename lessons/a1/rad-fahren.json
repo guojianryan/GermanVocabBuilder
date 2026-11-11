@@ -1,0 +1,118 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Rad fahren",
+    "partOfSpeech": "verb phrase",
+    "pronunciation": {
+      "respelling": "RAHT fah-ren",
+      "ipa": "ˈʁaːt faːʁən",
+      "notes": ""
+    },
+    "meaning": "to cycle, to ride a bike",
+    "shortDefinition": "To cycle, to ride a bike."
+  },
+  "wordFamily": [
+    {
+      "german": "das Fahrrad",
+      "english": "bicycle",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich fahre jeden Tag Rad.",
+      "english": "I cycle every day.",
+      "highlight": [
+        "fahre",
+        "Rad."
+      ]
+    },
+    {
+      "german": "Kannst du Rad fahren?",
+      "english": "Can you ride a bike?",
+      "highlight": [
+        "Rad",
+        "fahren?"
+      ]
+    },
+    {
+      "german": "Wir sind am Wochenende Rad gefahren.",
+      "english": "We went cycling at the weekend.",
+      "highlight": [
+        "Rad",
+        "gefahren."
+      ]
+    }
+  ],
+  "forms": [
+    "fahre Rad",
+    "fährt Rad",
+    "Rad gefahren",
+    "Radfahrer"
+  ],
+  "memoryHook": "Rad fahren = cycle. Ich fahre Rad, ich bin Rad gefahren.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does Rad fahren mean?",
+      "options": [
+        "the car",
+        "to cycle",
+        "the bill"
+      ],
+      "answer": "to cycle",
+      "explanation": "Rad fahren: to cycle, to ride a bike.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Ich fahre Rad' means…",
+      "options": [
+        "I cycle",
+        "I drive a wheel"
+      ],
+      "answer": "I cycle",
+      "explanation": "Rad = bike.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Rad here is short for…",
+      "options": [
+        "Fahrrad",
+        "Radio"
+      ],
+      "answer": "Fahrrad",
+      "explanation": "Bike.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Past: Wir ___ Rad gefahren.",
+      "options": [
+        "sind",
+        "haben"
+      ],
+      "answer": "sind",
+      "explanation": "Fahren uses sein.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Er ___ gern Rad. (fahren)",
+      "answer": "fährt",
+      "fullAnswer": "Er fährt gern Rad.",
+      "explanation": "Er fährt.",
+      "acceptedAnswers": [
+        "faehrt"
+      ],
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "schieben",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "SHEE-ben",
+      "ipa": "ˈʃiːbn̩",
+      "notes": ""
+    },
+    "meaning": "to push",
+    "shortDefinition": "To push."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "schieb|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "schieb|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "schieb|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "schieb|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "schieb|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "schieb|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat geschoben"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich schiebe das Fahrrad.",
+      "english": "I'm pushing the bike.",
+      "highlight": [
+        "schiebe"
+      ]
+    },
+    {
+      "german": "Schieb den Tisch an die Wand.",
+      "english": "Push the table against the wall.",
+      "highlight": [
+        "Schieb"
+      ]
+    },
+    {
+      "german": "Er schiebt die Schuld auf andere.",
+      "english": "He blames others.",
+      "highlight": [
+        "schiebt"
+      ]
+    }
+  ],
+  "forms": [
+    "schiebe",
+    "schiebst",
+    "schiebt",
+    "schieben",
+    "geschoben"
+  ],
+  "memoryHook": "Schieben, schob, geschoben (push along). Doors: drücken.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (schieben)",
+      "answer": "schiebt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: schiebt.",
+      "acceptedAnswers": [
+        "schiebt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (schieben, past)",
+      "answer": "geschoben",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe geschoben.",
+      "acceptedAnswers": [
+        "geschoben"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does schieben mean?",
+      "options": [
+        "quiet",
+        "to push",
+        "to travel"
+      ],
+      "answer": "to push",
+      "explanation": "schieben: to push.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "hat geschoben",
+        "hat geschiebt"
+      ],
+      "answer": "hat geschoben",
+      "explanation": "Irregular.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Schieben vs drücken:",
+      "options": [
+        "schieben = push along; drücken = press",
+        "same"
+      ],
+      "answer": "schieben = push along; drücken = press",
+      "explanation": "Doors say drücken.",
+      "id": "q5"
+    }
+  ]
+}

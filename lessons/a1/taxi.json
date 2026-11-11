@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Taxi",
+    "partOfSpeech": "noun, neuter (das Taxi)",
+    "pronunciation": {
+      "respelling": "TAK-see",
+      "ipa": "ˈtaksi",
+      "notes": "Plural: die Taxis."
+    },
+    "meaning": "taxi",
+    "shortDefinition": "Taxi."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Taxi, plural die Taxis.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Taxi"
+        },
+        {
+          "label": "More than one",
+          "value": "die Taxis"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir nehmen ein Taxi.",
+      "english": "We'll take a taxi.",
+      "highlight": [
+        "Taxi."
+      ]
+    },
+    {
+      "german": "Können Sie mir ein Taxi rufen?",
+      "english": "Could you call me a taxi?",
+      "highlight": [
+        "Taxi"
+      ]
+    },
+    {
+      "german": "Das Taxi wartet vor dem Hotel.",
+      "english": "The taxi is waiting in front of the hotel.",
+      "highlight": [
+        "Taxi"
+      ]
+    }
+  ],
+  "forms": [
+    "Taxis",
+    "die Taxis",
+    "das Taxi"
+  ],
+  "memoryHook": "Das Taxi, plural Taxis. Ein Taxi nehmen / rufen / bestellen.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Taxi",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Taxi is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Taxi, zwei ___",
+      "answer": "Taxis",
+      "fullAnswer": "ein Taxi, zwei Taxis",
+      "explanation": "The plural is Taxis.",
+      "acceptedAnswers": [
+        "Taxis"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Taxi mean?",
+      "options": [
+        "the weather",
+        "to wait",
+        "taxi"
+      ],
+      "answer": "taxi",
+      "explanation": "Taxi: taxi.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "You ___ ein Taxi.",
+      "options": [
+        "nimmst / rufst",
+        "machst"
+      ],
+      "answer": "nimmst / rufst",
+      "explanation": "Ein Taxi nehmen / rufen.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Taxi is…",
+      "options": [
+        "neuter",
+        "masculine"
+      ],
+      "answer": "neuter",
+      "explanation": "Das Taxi.",
+      "id": "q5"
+    }
+  ]
+}

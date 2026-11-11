@@ -1,0 +1,151 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Rechnung",
+    "partOfSpeech": "noun, feminine (die Rechnung)",
+    "pronunciation": {
+      "respelling": "REKH-noong",
+      "ipa": "ˈʁɛçnʊŋ",
+      "notes": "Plural: die Rechnungen."
+    },
+    "meaning": "bill, invoice",
+    "shortDefinition": "Bill, invoice."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Rechn",
+        "meaning": "calculate",
+        "note": "From rechnen."
+      },
+      {
+        "part": "ung",
+        "meaning": "noun ending"
+      }
+    ],
+    "literalMeaning": "a calculation"
+  },
+  "wordFamily": [
+    {
+      "german": "rechnen",
+      "english": "to calculate",
+      "type": "verb"
+    },
+    {
+      "german": "bezahlen",
+      "english": "to pay",
+      "type": "verb"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Rechnung, plural die Rechnungen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Rechnung"
+        },
+        {
+          "label": "More than one",
+          "value": "die Rechnungen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Rechnung, bitte!",
+      "english": "The bill, please!",
+      "highlight": [
+        "Rechnung,"
+      ]
+    },
+    {
+      "german": "Die Rechnung ist sehr hoch.",
+      "english": "The bill is very high.",
+      "highlight": [
+        "Rechnung"
+      ]
+    },
+    {
+      "german": "Bitte bezahlen Sie die Rechnung bis Montag.",
+      "english": "Please pay the invoice by Monday.",
+      "highlight": [
+        "Rechnung"
+      ]
+    }
+  ],
+  "forms": [
+    "Rechnungen",
+    "die Rechnungen",
+    "die Rechnung"
+  ],
+  "memoryHook": "Die Rechnung = bill (from rechnen, calculate). Zahlen, bitte! works too.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Rechnung",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Rechnung is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Rechnung, zwei ___",
+      "answer": "Rechnungen",
+      "fullAnswer": "ein Rechnung, zwei Rechnungen",
+      "explanation": "The plural is Rechnungen.",
+      "acceptedAnswers": [
+        "Rechnungen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Rechnung mean?",
+      "options": [
+        "to open",
+        "bill",
+        "to sing"
+      ],
+      "answer": "bill",
+      "explanation": "Rechnung: bill, invoice.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "In a restaurant, to ask for the bill:",
+      "options": [
+        "Die Rechnung, bitte!",
+        "Die Karte, bitte!"
+      ],
+      "answer": "Die Rechnung, bitte!",
+      "explanation": "Karte = menu.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Rechnung comes from rechnen, which means…",
+      "options": [
+        "to calculate",
+        "to be right"
+      ],
+      "answer": "to calculate",
+      "explanation": "Rechnen → Rechnung.",
+      "id": "q5"
+    }
+  ]
+}

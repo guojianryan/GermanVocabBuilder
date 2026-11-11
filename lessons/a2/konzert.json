@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Konzert",
+    "partOfSpeech": "noun, neuter (das Konzert)",
+    "pronunciation": {
+      "respelling": "kon-TSAIRT",
+      "ipa": "kɔnˈtsɛʁt",
+      "notes": "Plural: die Konzerte."
+    },
+    "meaning": "concert",
+    "shortDefinition": "Concert."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Konzert, plural die Konzerte.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Konzert"
+        },
+        {
+          "label": "More than one",
+          "value": "die Konzerte"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir gehen heute Abend ins Konzert.",
+      "english": "We're going to a concert tonight.",
+      "highlight": [
+        "Konzert."
+      ]
+    },
+    {
+      "german": "Das Konzert beginnt um 20 Uhr.",
+      "english": "The concert starts at 8 pm.",
+      "highlight": [
+        "Konzert"
+      ]
+    },
+    {
+      "german": "Hast du Karten für das Konzert?",
+      "english": "Have you got tickets for the concert?",
+      "highlight": [
+        "Konzert?"
+      ]
+    }
+  ],
+  "forms": [
+    "Konzerte",
+    "die Konzerte",
+    "das Konzert"
+  ],
+  "memoryHook": "Das Konzert (z = ts). Ins Konzert gehen.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Konzert",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Konzert is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Konzert, zwei ___",
+      "answer": "Konzerte",
+      "fullAnswer": "ein Konzert, zwei Konzerte",
+      "explanation": "The plural is Konzerte.",
+      "acceptedAnswers": [
+        "Konzerte"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Konzert mean?",
+      "options": [
+        "the flower",
+        "concert",
+        "quiet"
+      ],
+      "answer": "concert",
+      "explanation": "Konzert: concert.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Go to a concert':",
+      "options": [
+        "ins Konzert gehen",
+        "zum Konzert only"
+      ],
+      "answer": "ins Konzert gehen",
+      "explanation": "Ins Konzert.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Z sounds like…",
+      "options": [
+        "ts",
+        "z"
+      ],
+      "answer": "ts",
+      "explanation": "kon-TSAIRT.",
+      "id": "q5"
+    }
+  ]
+}

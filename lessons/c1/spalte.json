@@ -1,0 +1,134 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Spalte",
+    "partOfSpeech": "noun, feminine (die Spalte)",
+    "pronunciation": {
+      "respelling": "SHPAL-te",
+      "ipa": "ˈʃpaltə",
+      "notes": "Plural: die Spalten."
+    },
+    "meaning": "column; crack, crevice",
+    "shortDefinition": "Column; crack, crevice."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Spalte, plural die Spalten.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Spalte"
+        },
+        {
+          "label": "More than one",
+          "value": "die Spalten"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Tabelle hat drei Spalten.",
+      "english": "The table has three columns.",
+      "highlight": [
+        "Spalten."
+      ]
+    },
+    {
+      "german": "Durch die Spalte kommt Licht.",
+      "english": "Light comes through the crack.",
+      "highlight": [
+        "Spalte"
+      ]
+    },
+    {
+      "german": "Eine Gletscherspalte.",
+      "english": "A crevasse.",
+      "highlight": [
+        "Gletscherspalte."
+      ]
+    }
+  ],
+  "forms": [
+    "spalten",
+    "Zeile"
+  ],
+  "memoryHook": "Die Spalte (column; crack) vs die Zeile (row); spalten.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Spalte",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Spalte is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Spalte, zwei ___",
+      "answer": "Spalten",
+      "fullAnswer": "ein Spalte, zwei Spalten",
+      "explanation": "The plural is Spalten.",
+      "acceptedAnswers": [
+        "Spalten"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Spalte mean?",
+      "options": [
+        "the bill",
+        "the key",
+        "column"
+      ],
+      "answer": "column",
+      "explanation": "Spalte: column; crack, crevice.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "In a table, die Spalte is…",
+      "options": [
+        "a column",
+        "a row (Zeile)"
+      ],
+      "answer": "a column",
+      "explanation": "Column.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Verb:",
+      "options": [
+        "spalten (split)",
+        "spalteln"
+      ],
+      "answer": "spalten (split)",
+      "explanation": "Split.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Row:",
+      "options": [
+        "die Zeile",
+        "die Spalte"
+      ],
+      "answer": "die Zeile",
+      "explanation": "Row.",
+      "id": "q6"
+    }
+  ]
+}

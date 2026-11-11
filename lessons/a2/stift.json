@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Stift",
+    "partOfSpeech": "noun, masculine (der Stift)",
+    "pronunciation": {
+      "respelling": "SHTIFT",
+      "ipa": "ʃtɪft",
+      "notes": "Plural: die Stifte."
+    },
+    "meaning": "pen, pencil",
+    "shortDefinition": "Pen, pencil."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Stift, plural die Stifte.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Stift"
+        },
+        {
+          "label": "More than one",
+          "value": "die Stifte"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Hast du einen Stift für mich?",
+      "english": "Have you got a pen for me?",
+      "highlight": [
+        "Stift"
+      ]
+    },
+    {
+      "german": "Schreiben Sie mit einem Stift, nicht mit Bleistift.",
+      "english": "Write with a pen, not a pencil.",
+      "highlight": [
+        "Stift,"
+      ]
+    },
+    {
+      "german": "Die Kinder malen mit Buntstiften.",
+      "english": "The children are drawing with coloured pencils.",
+      "highlight": [
+        "Buntstiften."
+      ]
+    }
+  ],
+  "forms": [
+    "Bleistift",
+    "Buntstift"
+  ],
+  "memoryHook": "Der Stift: anything to write with. Bleistift, Kuli, Buntstift.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Stift",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Stift is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Stift, zwei ___",
+      "answer": "Stifte",
+      "fullAnswer": "ein Stift, zwei Stifte",
+      "explanation": "The plural is Stifte.",
+      "acceptedAnswers": [
+        "Stifte"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Stift mean?",
+      "options": [
+        "pen",
+        "the window",
+        "to sing"
+      ],
+      "answer": "pen",
+      "explanation": "Stift: pen, pencil.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Der Stift is…",
+      "options": [
+        "any pen or pencil",
+        "only a pencil"
+      ],
+      "answer": "any pen or pencil",
+      "explanation": "General word.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "A pencil specifically:",
+      "options": [
+        "der Bleistift",
+        "der Graustift"
+      ],
+      "answer": "der Bleistift",
+      "explanation": "Blei = lead.",
+      "id": "q5"
+    }
+  ]
+}

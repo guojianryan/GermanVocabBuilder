@@ -1,0 +1,179 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "verschwinden",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "fer-SHVIN-den",
+      "ipa": "fɛɐ̯ˈʃvɪndn̩",
+      "notes": ""
+    },
+    "meaning": "to disappear",
+    "shortDefinition": "To disappear."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "ver",
+        "meaning": "away (prefix)"
+      },
+      {
+        "part": "schwind",
+        "meaning": "vanish, dwindle",
+        "emphasis": "release"
+      },
+      {
+        "part": "en",
+        "meaning": "verb ending"
+      }
+    ],
+    "literalMeaning": "dwindle away",
+    "summary": "Fading out until nothing's left."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "verschwind|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "verschwind|est"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "verschwind|et"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "verschwind|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "verschwind|et"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "verschwind|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): ist verschwunden"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Mein Schlüssel ist verschwunden.",
+      "english": "My key has disappeared.",
+      "highlight": [
+        "ist",
+        "verschwunden."
+      ]
+    },
+    {
+      "german": "Verschwinde!",
+      "english": "Get lost!",
+      "highlight": [
+        "Verschwinde!"
+      ]
+    },
+    {
+      "german": "Die Sonne verschwindet hinter den Wolken.",
+      "english": "The sun disappears behind the clouds.",
+      "highlight": [
+        "verschwindet"
+      ]
+    }
+  ],
+  "forms": [
+    "verschwinde",
+    "verschwindest",
+    "verschwindet",
+    "verschwinden",
+    "verschwunden"
+  ],
+  "memoryHook": "Verschwinden, verschwand, ist verschwunden.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (verschwinden)",
+      "answer": "verschwindet",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: verschwindet.",
+      "acceptedAnswers": [
+        "verschwindet"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich bin schon ___. (verschwinden, past)",
+      "answer": "verschwunden",
+      "fullAnswer": "",
+      "explanation": "Perfekt: bin verschwunden.",
+      "acceptedAnswers": [
+        "verschwunden"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does verschwinden mean?",
+      "options": [
+        "to disappear",
+        "the flower",
+        "to buy"
+      ],
+      "answer": "to disappear",
+      "explanation": "verschwinden: to disappear.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "ist verschwunden",
+        "hat verschwindet"
+      ],
+      "answer": "ist verschwunden",
+      "explanation": "Strong + sein.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Verschwinde!' means…",
+      "options": [
+        "Get lost!",
+        "Disappear slowly"
+      ],
+      "answer": "Get lost!",
+      "explanation": "Rude.",
+      "id": "q5"
+    }
+  ]
+}

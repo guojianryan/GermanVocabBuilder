@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Flasche",
+    "partOfSpeech": "noun, feminine (die Flasche)",
+    "pronunciation": {
+      "respelling": "FLASH-uh",
+      "ipa": "ˈflaʃə",
+      "notes": "Plural: die Flaschen."
+    },
+    "meaning": "bottle",
+    "shortDefinition": "Bottle."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Flasche, plural die Flaschen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Flasche"
+        },
+        {
+          "label": "More than one",
+          "value": "die Flaschen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Eine Flasche Wasser, bitte.",
+      "english": "A bottle of water, please.",
+      "highlight": [
+        "Flasche"
+      ]
+    },
+    {
+      "german": "Bring die leeren Flaschen zurück.",
+      "english": "Take the empty bottles back.",
+      "highlight": [
+        "Flaschen"
+      ]
+    },
+    {
+      "german": "Wir haben eine Flasche Wein getrunken.",
+      "english": "We drank a bottle of wine.",
+      "highlight": [
+        "Flasche"
+      ]
+    }
+  ],
+  "forms": [
+    "Flaschen",
+    "die Flaschen",
+    "die Flasche"
+  ],
+  "memoryHook": "Eine Flasche Wasser: no 'of' needed. Most bottles in Germany have Pfand: a deposit you get back.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Flasche",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Flasche is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Flasche, zwei ___",
+      "answer": "Flaschen",
+      "fullAnswer": "ein Flasche, zwei Flaschen",
+      "explanation": "The plural is Flaschen.",
+      "acceptedAnswers": [
+        "Flaschen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Flasche mean?",
+      "options": [
+        "the station",
+        "to learn",
+        "bottle"
+      ],
+      "answer": "bottle",
+      "explanation": "Flasche: bottle.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Eine Flasche Wasser' (no 'of' in German) means…",
+      "options": [
+        "a bottle of water",
+        "a water bottle"
+      ],
+      "answer": "a bottle of water",
+      "explanation": "No word for 'of' needed.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Das Pfand on a bottle is…",
+      "options": [
+        "the deposit",
+        "the label"
+      ],
+      "answer": "the deposit",
+      "explanation": "In Germany you get money back for many bottles.",
+      "id": "q5"
+    }
+  ]
+}

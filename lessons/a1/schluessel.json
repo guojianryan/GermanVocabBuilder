@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Schlüssel",
+    "partOfSpeech": "noun, masculine (der Schlüssel)",
+    "pronunciation": {
+      "respelling": "SHLUESS-el",
+      "ipa": "ˈʃlʏsl̩",
+      "notes": "The plural looks the same. Plural: die Schlüssel."
+    },
+    "meaning": "key",
+    "shortDefinition": "Key."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Schlüssel, plural die Schlüssel.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Schlüssel"
+        },
+        {
+          "label": "More than one",
+          "value": "die Schlüssel"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich habe meinen Schlüssel vergessen.",
+      "english": "I've forgotten my key.",
+      "highlight": [
+        "Schlüssel"
+      ]
+    },
+    {
+      "german": "Hier ist der Schlüssel für Zimmer 12.",
+      "english": "Here's the key for room 12.",
+      "highlight": [
+        "Schlüssel"
+      ]
+    },
+    {
+      "german": "Wo sind die Schlüssel?",
+      "english": "Where are the keys?",
+      "highlight": [
+        "Schlüssel?"
+      ]
+    }
+  ],
+  "forms": [
+    "Schlüssel",
+    "die Schlüssel",
+    "der Schlüssel"
+  ],
+  "memoryHook": "Der Schlüssel (from schließen, lock). Plural unchanged.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Schlüssel",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Schlüssel is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Schlüssel, zwei ___",
+      "answer": "Schlüssel",
+      "fullAnswer": "ein Schlüssel, zwei Schlüssel",
+      "explanation": "The plural is Schlüssel.",
+      "acceptedAnswers": [
+        "Schluessel"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Schlüssel mean?",
+      "options": [
+        "to sleep",
+        "key",
+        "the bill"
+      ],
+      "answer": "key",
+      "explanation": "Schlüssel: key.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Schlüssel comes from…",
+      "options": [
+        "schließen (to lock)",
+        "schlafen"
+      ],
+      "answer": "schließen (to lock)",
+      "explanation": "The thing that locks.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Schlüssel",
+        "Schlüssels"
+      ],
+      "answer": "Schlüssel",
+      "explanation": "Same as singular.",
+      "id": "q5"
+    }
+  ]
+}

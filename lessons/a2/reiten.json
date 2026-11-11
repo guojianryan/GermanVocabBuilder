@@ -1,0 +1,160 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "reiten",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "RYE-ten",
+      "ipa": "ˈʁaɪ̯tn̩",
+      "notes": ""
+    },
+    "meaning": "to ride (a horse)",
+    "shortDefinition": "To ride (a horse)."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "reit|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "reit|est"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "reit|et"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "reit|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "reit|et"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "reit|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): ist geritten"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Meine Tochter reitet jeden Samstag.",
+      "english": "My daughter goes riding every Saturday.",
+      "highlight": [
+        "reitet"
+      ]
+    },
+    {
+      "german": "Bist du schon mal geritten?",
+      "english": "Have you ever been riding?",
+      "highlight": [
+        "geritten?"
+      ]
+    },
+    {
+      "german": "Wir reiten am Strand.",
+      "english": "We're riding on the beach.",
+      "highlight": [
+        "reiten"
+      ]
+    }
+  ],
+  "forms": [
+    "reite",
+    "reitest",
+    "reitet",
+    "reiten",
+    "geritten",
+    "ritt",
+    "hat geritten"
+  ],
+  "memoryHook": "Reiten = ride an animal (ritt, ist geritten). Bikes: fahren.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (reiten)",
+      "answer": "reitet",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: reitet.",
+      "acceptedAnswers": [
+        "reitet"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich bin schon ___. (reiten, past)",
+      "answer": "geritten",
+      "fullAnswer": "",
+      "explanation": "Perfekt: bin geritten.",
+      "acceptedAnswers": [
+        "geritten"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does reiten mean?",
+      "options": [
+        "slowly",
+        "cheap",
+        "to ride (a horse)"
+      ],
+      "answer": "to ride (a horse)",
+      "explanation": "reiten: to ride (a horse).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ride a BIKE:",
+      "options": [
+        "Rad fahren",
+        "Rad reiten"
+      ],
+      "answer": "Rad fahren",
+      "explanation": "Reiten is for animals.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Past participle:",
+      "options": [
+        "geritten",
+        "gereitet"
+      ],
+      "answer": "geritten",
+      "explanation": "Irregular.",
+      "id": "q5"
+    }
+  ]
+}

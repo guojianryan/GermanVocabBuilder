@@ -1,0 +1,157 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "schwitzen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "SHVIT-sen",
+      "ipa": "ˈʃvɪtsn̩",
+      "notes": ""
+    },
+    "meaning": "to sweat",
+    "shortDefinition": "To sweat."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "schwitz|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "schwitz|t"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "schwitz|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "schwitz|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "schwitz|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "schwitz|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat geschwitzt"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich schwitze bei der Hitze.",
+      "english": "I'm sweating in the heat.",
+      "highlight": [
+        "schwitze"
+      ]
+    },
+    {
+      "german": "Er hat beim Sport viel geschwitzt.",
+      "english": "He sweated a lot doing sport.",
+      "highlight": [
+        "geschwitzt."
+      ]
+    },
+    {
+      "german": "In der Sauna schwitzt man.",
+      "english": "You sweat in the sauna.",
+      "highlight": [
+        "schwitzt"
+      ]
+    }
+  ],
+  "forms": [
+    "schwitze",
+    "schwitzt",
+    "schwitzen",
+    "geschwitzt"
+  ],
+  "memoryHook": "Schwitzen → der Schweiß (sweat).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (schwitzen)",
+      "answer": "schwitzt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: schwitzt.",
+      "acceptedAnswers": [
+        "schwitzt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (schwitzen, past)",
+      "answer": "geschwitzt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe geschwitzt.",
+      "acceptedAnswers": [
+        "geschwitzt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does schwitzen mean?",
+      "options": [
+        "the station",
+        "the window",
+        "to sweat"
+      ],
+      "answer": "to sweat",
+      "explanation": "schwitzen: to sweat.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "du ___ (schwitzen):",
+      "options": [
+        "schwitzt",
+        "schwitzst"
+      ],
+      "answer": "schwitzt",
+      "explanation": "z-stem: just -t.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Noun 'sweat':",
+      "options": [
+        "der Schweiß",
+        "der Schwitz"
+      ],
+      "answer": "der Schweiß",
+      "explanation": "Different form.",
+      "id": "q5"
+    }
+  ]
+}

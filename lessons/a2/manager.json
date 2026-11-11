@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Manager",
+    "partOfSpeech": "noun, masculine (der Manager)",
+    "pronunciation": {
+      "respelling": "MEN-e-djer",
+      "ipa": "ˈmɛnɪdʒɐ",
+      "notes": "The plural looks the same. Plural: die Manager."
+    },
+    "meaning": "manager",
+    "shortDefinition": "Manager."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Manager, plural die Manager.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Manager"
+        },
+        {
+          "label": "More than one",
+          "value": "die Manager"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er arbeitet als Manager.",
+      "english": "He works as a manager.",
+      "highlight": [
+        "Manager."
+      ]
+    },
+    {
+      "german": "Die Managerin leitet das Team.",
+      "english": "The manager runs the team.",
+      "highlight": [
+        "Managerin"
+      ]
+    },
+    {
+      "german": "Manager verdienen viel.",
+      "english": "Managers earn a lot.",
+      "highlight": [
+        "Manager"
+      ]
+    }
+  ],
+  "forms": [
+    "Managerin"
+  ],
+  "memoryHook": "Der Manager (English pronunciation).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Manager",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Manager is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Manager, zwei ___",
+      "answer": "Manager",
+      "fullAnswer": "ein Manager, zwei Manager",
+      "explanation": "The plural is Manager.",
+      "acceptedAnswers": [
+        "Manager"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Manager mean?",
+      "options": [
+        "to travel",
+        "manager",
+        "expensive"
+      ],
+      "answer": "manager",
+      "explanation": "Manager: manager.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Female:",
+      "options": [
+        "die Managerin",
+        "die Manageress"
+      ],
+      "answer": "die Managerin",
+      "explanation": "-in.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "German synonym:",
+      "options": [
+        "der Leiter / die Führungskraft",
+        "der Mitarbeiter"
+      ],
+      "answer": "der Leiter / die Führungskraft",
+      "explanation": "Leader.",
+      "id": "q5"
+    }
+  ]
+}

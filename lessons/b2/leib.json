@@ -1,0 +1,134 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Leib",
+    "partOfSpeech": "noun, masculine (der Leib)",
+    "pronunciation": {
+      "respelling": "LYPE",
+      "ipa": "laɪ̯p",
+      "notes": "Plural: die Leiber."
+    },
+    "meaning": "body (literary)",
+    "shortDefinition": "Body (literary)."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Leib, plural die Leiber.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Leib"
+        },
+        {
+          "label": "More than one",
+          "value": "die Leiber"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er zitterte am ganzen Leib.",
+      "english": "He was trembling all over.",
+      "highlight": [
+        "Leib."
+      ]
+    },
+    {
+      "german": "Mit Leib und Seele.",
+      "english": "Heart and soul.",
+      "highlight": [
+        "Leib"
+      ]
+    },
+    {
+      "german": "Bleib mir vom Leib!",
+      "english": "Keep away from me!",
+      "highlight": [
+        "Leib!"
+      ]
+    }
+  ],
+  "forms": [
+    "Körper",
+    "leiblich"
+  ],
+  "memoryHook": "Der Leib (literary body) = Körper; mit Leib und Seele.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Leib",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Leib is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Leib, zwei ___",
+      "answer": "Leiber",
+      "fullAnswer": "ein Leib, zwei Leiber",
+      "explanation": "The plural is Leiber.",
+      "acceptedAnswers": [
+        "Leiber"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Leib mean?",
+      "options": [
+        "the street",
+        "body (literary)",
+        "to buy"
+      ],
+      "answer": "body (literary)",
+      "explanation": "Leib: body (literary).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Mit Leib und Seele' means…",
+      "options": [
+        "heart and soul",
+        "body and mind only"
+      ],
+      "answer": "heart and soul",
+      "explanation": "Idiom.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Everyday word for body:",
+      "options": [
+        "der Körper",
+        "der Leib"
+      ],
+      "answer": "der Körper",
+      "explanation": "Körper.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Don't confuse with…",
+      "options": [
+        "der Laib (loaf)",
+        "die Liebe"
+      ],
+      "answer": "der Laib (loaf)",
+      "explanation": "Same sound.",
+      "id": "q6"
+    }
+  ]
+}

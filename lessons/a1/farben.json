@@ -1,0 +1,188 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "group",
+  "word": {
+    "headword": "Farben",
+    "partOfSpeech": "word group: colours",
+    "pronunciation": {
+      "respelling": "FAR-ben",
+      "ipa": "ˈfaʁbn̩",
+      "notes": ""
+    },
+    "meaning": "the colours",
+    "shortDefinition": "The colours."
+  },
+  "members": [
+    {
+      "german": "schwarz",
+      "english": "black"
+    },
+    {
+      "german": "weiß",
+      "english": "white"
+    },
+    {
+      "german": "rot",
+      "english": "red"
+    },
+    {
+      "german": "blau",
+      "english": "blue",
+      "note": "Also 'drunk' in slang!"
+    },
+    {
+      "german": "grün",
+      "english": "green"
+    },
+    {
+      "german": "gelb",
+      "english": "yellow"
+    },
+    {
+      "german": "grau",
+      "english": "grey"
+    },
+    {
+      "german": "braun",
+      "english": "brown"
+    },
+    {
+      "german": "orange",
+      "english": "orange",
+      "note": "Pronounced the French way: o-RAHNSH."
+    },
+    {
+      "german": "lila",
+      "english": "purple",
+      "note": "No endings: ein lila Kleid."
+    },
+    {
+      "german": "rosa",
+      "english": "pink",
+      "note": "No endings: ein rosa Hemd."
+    },
+    {
+      "german": "die Farbe",
+      "english": "colour",
+      "plural": "Farben"
+    }
+  ],
+  "intro": {
+    "title": "Ein rotes Auto",
+    "paragraphs": [
+      "Colours are adjectives, so before a noun they take endings: ein rotes Auto, der blaue Himmel. After sein they don't: Das Auto ist rot.",
+      "Lila, rosa and orange usually take no endings at all: ein lila Pullover. 'What colour is it?' is Welche Farbe hat das?"
+    ]
+  },
+  "sampleSentences": [
+    {
+      "german": "Ich trinke lieber Rotwein.",
+      "english": "I prefer red wine.",
+      "highlight": [
+        "Rotwein."
+      ]
+    },
+    {
+      "german": "Welche Farbe hat dein Auto? – Es ist blau.",
+      "english": "What colour is your car? – It's blue.",
+      "highlight": [
+        "Farbe",
+        "blau."
+      ]
+    },
+    {
+      "german": "Sie trägt ein schwarzes Kleid.",
+      "english": "She's wearing a black dress.",
+      "highlight": [
+        "schwarzes"
+      ]
+    }
+  ],
+  "forms": [
+    "schwarz",
+    "weiß",
+    "rot",
+    "blau",
+    "grün",
+    "gelb",
+    "grau",
+    "braun",
+    "orange",
+    "lila",
+    "rosa",
+    "die Farbe",
+    "Farbe",
+    "Farben"
+  ],
+  "memoryHook": "Colours are adjectives: they take endings before nouns. Lila and rosa never do.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "'What colour is it?'",
+      "options": [
+        "Welche Farbe hat das?",
+        "Was für Farbe ist es?"
+      ],
+      "answer": "Welche Farbe hat das?",
+      "explanation": "Literally: Which colour has it?",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ein ___ Auto (red)",
+      "options": [
+        "rotes",
+        "rot"
+      ],
+      "answer": "rotes",
+      "explanation": "Das Auto → ein rotes Auto.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Das Auto ist ___ .",
+      "options": [
+        "rot",
+        "rotes"
+      ],
+      "answer": "rot",
+      "explanation": "After sein: no ending.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Which colour takes no endings?",
+      "options": [
+        "lila",
+        "grün"
+      ],
+      "answer": "lila",
+      "explanation": "Ein lila Kleid.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Der Himmel ist ___ . (blue)",
+      "answer": "blau",
+      "fullAnswer": "Der Himmel ist blau.",
+      "explanation": "Blau.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Weiß means…",
+      "options": [
+        "white",
+        "wise"
+      ],
+      "answer": "white",
+      "explanation": "And weiß is also 'knows' (wissen)!",
+      "id": "q6"
+    }
+  ]
+}

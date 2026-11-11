@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Kaiser",
+    "partOfSpeech": "noun, masculine (der Kaiser)",
+    "pronunciation": {
+      "respelling": "KYE-zer",
+      "ipa": "ˈkaɪ̯zɐ",
+      "notes": "The plural looks the same. Plural: die Kaiser."
+    },
+    "meaning": "emperor",
+    "shortDefinition": "Emperor."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Kaiser, plural die Kaiser.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Kaiser"
+        },
+        {
+          "label": "More than one",
+          "value": "die Kaiser"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Kaiser Wilhelm regierte bis 1918.",
+      "english": "Emperor Wilhelm ruled until 1918.",
+      "highlight": [
+        "Kaiser"
+      ]
+    },
+    {
+      "german": "Die Kaiserin Sisi ist berühmt.",
+      "english": "Empress Sisi is famous.",
+      "highlight": [
+        "Kaiserin"
+      ]
+    },
+    {
+      "german": "Er fühlt sich wie ein Kaiser.",
+      "english": "He feels like a king.",
+      "highlight": [
+        "Kaiser."
+      ]
+    }
+  ],
+  "forms": [
+    "Kaiserin"
+  ],
+  "memoryHook": "Der Kaiser (from Caesar), die Kaiserin.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Kaiser",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Kaiser is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Kaiser, zwei ___",
+      "answer": "Kaiser",
+      "fullAnswer": "ein Kaiser, zwei Kaiser",
+      "explanation": "The plural is Kaiser.",
+      "acceptedAnswers": [
+        "Kaiser"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Kaiser mean?",
+      "options": [
+        "the bread",
+        "the flower",
+        "emperor"
+      ],
+      "answer": "emperor",
+      "explanation": "Kaiser: emperor.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From the Latin name…",
+      "options": [
+        "Caesar",
+        "Cicero"
+      ],
+      "answer": "Caesar",
+      "explanation": "Like Tsar.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Female:",
+      "options": [
+        "die Kaiserin",
+        "die Kaise"
+      ],
+      "answer": "die Kaiserin",
+      "explanation": "-in.",
+      "id": "q5"
+    }
+  ]
+}

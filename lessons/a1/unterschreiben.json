@@ -1,0 +1,185 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "unterschreiben",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "oon-ter-SHRY-ben",
+      "ipa": "ʊntɐˈʃʁaɪ̯bn̩",
+      "notes": ""
+    },
+    "meaning": "to sign",
+    "shortDefinition": "To sign."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "unter",
+        "meaning": "under"
+      },
+      {
+        "part": "schreiben",
+        "meaning": "to write"
+      }
+    ],
+    "literalMeaning": "to write underneath"
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "unterschreib|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "unterschreib|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "unterschreib|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "unterschreib|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "unterschreib|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "unterschreib|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat unterschrieben",
+        "Not separable; past: hat unterschrieben."
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "die Unterschrift",
+      "english": "signature",
+      "type": "noun"
+    },
+    {
+      "german": "schreiben",
+      "english": "to write",
+      "type": "verb"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Unterschreiben Sie bitte hier.",
+      "english": "Please sign here.",
+      "highlight": [
+        "Unterschreiben"
+      ]
+    },
+    {
+      "german": "Ich habe den Vertrag unterschrieben.",
+      "english": "I've signed the contract.",
+      "highlight": [
+        "unterschrieben."
+      ]
+    },
+    {
+      "german": "Wo muss ich unterschreiben?",
+      "english": "Where do I have to sign?",
+      "highlight": [
+        "unterschreiben?"
+      ]
+    }
+  ],
+  "forms": [
+    "unterschreibe",
+    "unterschreibst",
+    "unterschreibt",
+    "unterschreiben",
+    "unterschrieben"
+  ],
+  "memoryHook": "Unter (under) + schreiben: write underneath, sign. Not separable. Die Unterschrift = signature.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (unterschreiben)",
+      "answer": "unterschreibt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: unterschreibt.",
+      "acceptedAnswers": [
+        "unterschreibt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (unterschreiben, past)",
+      "answer": "unterschrieben",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe unterschrieben.",
+      "acceptedAnswers": [
+        "unterschrieben"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does unterschreiben mean?",
+      "options": [
+        "to help",
+        "to wait",
+        "to sign"
+      ],
+      "answer": "to sign",
+      "explanation": "unterschreiben: to sign.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Die Unterschrift is…",
+      "options": [
+        "the signature",
+        "the subtitle"
+      ],
+      "answer": "the signature",
+      "explanation": "Unter + Schrift.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Unterschreiben is…",
+      "options": [
+        "not separable",
+        "separable"
+      ],
+      "answer": "not separable",
+      "explanation": "Ich unterschreibe.",
+      "id": "q5"
+    }
+  ]
+}

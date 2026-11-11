@@ -1,0 +1,138 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Ausgangspunkt",
+    "partOfSpeech": "noun, masculine (der Ausgangspunkt)",
+    "pronunciation": {
+      "respelling": "OWS-gangs-poonkt",
+      "ipa": "ˈaʊ̯sɡaŋsˌpʊŋkt",
+      "notes": "Plural: die Ausgangspunkte."
+    },
+    "meaning": "starting point",
+    "shortDefinition": "Starting point."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Ausgangs",
+        "meaning": "of the going-out"
+      },
+      {
+        "part": "punkt",
+        "meaning": "point"
+      }
+    ],
+    "literalMeaning": "point of setting out"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Ausgangspunkt, plural die Ausgangspunkte.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Ausgangspunkt"
+        },
+        {
+          "label": "More than one",
+          "value": "die Ausgangspunkte"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Bahnhof ist unser Ausgangspunkt.",
+      "english": "The station is our starting point.",
+      "highlight": [
+        "Ausgangspunkt."
+      ]
+    },
+    {
+      "german": "Ausgangspunkt der Überlegung ist …",
+      "english": "The starting point for the idea is …",
+      "highlight": [
+        "Ausgangspunkt"
+      ]
+    },
+    {
+      "german": "Zurück zum Ausgangspunkt.",
+      "english": "Back to square one.",
+      "highlight": [
+        "Ausgangspunkt."
+      ]
+    }
+  ],
+  "forms": [
+    "Ausgangspunkte",
+    "die Ausgangspunkte",
+    "der Ausgangspunkt"
+  ],
+  "memoryHook": "Ausgang + Punkt = starting point.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Ausgangspunkt",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Ausgangspunkt is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Ausgangspunkt, zwei ___",
+      "answer": "Ausgangspunkte",
+      "fullAnswer": "ein Ausgangspunkt, zwei Ausgangspunkte",
+      "explanation": "The plural is Ausgangspunkte.",
+      "acceptedAnswers": [
+        "Ausgangspunkte"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Ausgangspunkt mean?",
+      "options": [
+        "always",
+        "expensive",
+        "starting point"
+      ],
+      "answer": "starting point",
+      "explanation": "Ausgangspunkt: starting point.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Ausgang (exit, start) + s + Punkt",
+        "aus + gehen + Punkt only"
+      ],
+      "answer": "Ausgang (exit, start) + s + Punkt",
+      "explanation": "Starting point.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonym:",
+      "options": [
+        "der Anfang, die Basis",
+        "das Ziel"
+      ],
+      "answer": "der Anfang, die Basis",
+      "explanation": "Start.",
+      "id": "q5"
+    }
+  ]
+}

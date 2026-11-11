@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Motivation",
+    "partOfSpeech": "noun, feminine (die Motivation)",
+    "pronunciation": {
+      "respelling": "mo-ti-va-TSYOHN",
+      "ipa": "motivaˈtsi̯oːn",
+      "notes": "Plural: die Motivationen."
+    },
+    "meaning": "motivation",
+    "shortDefinition": "Motivation."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Motivation, plural die Motivationen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Motivation"
+        },
+        {
+          "label": "More than one",
+          "value": "die Motivationen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Mir fehlt die Motivation.",
+      "english": "I lack motivation.",
+      "highlight": [
+        "Motivation."
+      ]
+    },
+    {
+      "german": "Was ist deine Motivation?",
+      "english": "What's your motivation?",
+      "highlight": [
+        "Motivation?"
+      ]
+    },
+    {
+      "german": "Ihre Motivation ist hoch.",
+      "english": "Her motivation is high.",
+      "highlight": [
+        "Motivation"
+      ]
+    }
+  ],
+  "forms": [
+    "motivieren",
+    "Motivationsschreiben"
+  ],
+  "memoryHook": "Motivieren → die Motivation.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Motivation",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Motivation is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Motivation, zwei ___",
+      "answer": "Motivationen",
+      "fullAnswer": "ein Motivation, zwei Motivationen",
+      "explanation": "The plural is Motivationen.",
+      "acceptedAnswers": [
+        "Motivationen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Motivation mean?",
+      "options": [
+        "motivation",
+        "to wait",
+        "tomorrow"
+      ],
+      "answer": "motivation",
+      "explanation": "Motivation: motivation.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Verb:",
+      "options": [
+        "motivieren",
+        "motivationen"
+      ],
+      "answer": "motivieren",
+      "explanation": "Motivate.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Job application letter:",
+      "options": [
+        "das Motivationsschreiben",
+        "der Motivbrief"
+      ],
+      "answer": "das Motivationsschreiben",
+      "explanation": "Cover letter.",
+      "id": "q5"
+    }
+  ]
+}

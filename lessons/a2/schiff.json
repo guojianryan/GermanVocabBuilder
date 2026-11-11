@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Schiff",
+    "partOfSpeech": "noun, neuter (das Schiff)",
+    "pronunciation": {
+      "respelling": "SHIF",
+      "ipa": "ʃɪf",
+      "notes": "Plural: die Schiffe."
+    },
+    "meaning": "ship, boat",
+    "shortDefinition": "Ship, boat."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Schiff, plural die Schiffe.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Schiff"
+        },
+        {
+          "label": "More than one",
+          "value": "die Schiffe"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir fahren mit dem Schiff über den Bodensee.",
+      "english": "We're crossing Lake Constance by boat.",
+      "highlight": [
+        "Schiff"
+      ]
+    },
+    {
+      "german": "Das Schiff fährt um 10 Uhr ab.",
+      "english": "The ship leaves at 10.",
+      "highlight": [
+        "Schiff"
+      ]
+    },
+    {
+      "german": "Ich mache gern eine Schifffahrt.",
+      "english": "I like going on a boat trip.",
+      "highlight": [
+        "Schifffahrt."
+      ]
+    }
+  ],
+  "forms": [
+    "Schiffe",
+    "die Schiffe",
+    "das Schiff"
+  ],
+  "memoryHook": "Das Schiff = ship (even a big boat). Schifffahrt: three f's!",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Schiff",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Schiff is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Schiff, zwei ___",
+      "answer": "Schiffe",
+      "fullAnswer": "ein Schiff, zwei Schiffe",
+      "explanation": "The plural is Schiffe.",
+      "acceptedAnswers": [
+        "Schiffe"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Schiff mean?",
+      "options": [
+        "the window",
+        "the bill",
+        "ship"
+      ],
+      "answer": "ship",
+      "explanation": "Schiff: ship, boat.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "A boat trip:",
+      "options": [
+        "eine Schifffahrt",
+        "eine Schiffreise only"
+      ],
+      "answer": "eine Schifffahrt",
+      "explanation": "Three f's!",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'By ship':",
+      "options": [
+        "mit dem Schiff",
+        "auf Schiff"
+      ],
+      "answer": "mit dem Schiff",
+      "explanation": "Mit.",
+      "id": "q5"
+    }
+  ]
+}

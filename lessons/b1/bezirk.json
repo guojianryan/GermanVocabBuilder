@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Bezirk",
+    "partOfSpeech": "noun, masculine (der Bezirk)",
+    "pronunciation": {
+      "respelling": "be-TSIRK",
+      "ipa": "bəˈtsɪʁk",
+      "notes": "Plural: die Bezirke."
+    },
+    "meaning": "district",
+    "shortDefinition": "District."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Bezirk, plural die Bezirke.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Bezirk"
+        },
+        {
+          "label": "More than one",
+          "value": "die Bezirke"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Kreuzberg ist ein Bezirk von Berlin.",
+      "english": "Kreuzberg is a district of Berlin.",
+      "highlight": [
+        "Bezirk"
+      ]
+    },
+    {
+      "german": "In welchem Bezirk wohnst du?",
+      "english": "Which district do you live in?",
+      "highlight": [
+        "Bezirk"
+      ]
+    },
+    {
+      "german": "Das Bezirksamt ist hier.",
+      "english": "The district office is here.",
+      "highlight": [
+        "Bezirksamt"
+      ]
+    }
+  ],
+  "forms": [
+    "Bezirke",
+    "die Bezirke",
+    "der Bezirk"
+  ],
+  "memoryHook": "Der Bezirk (district); Bezirksamt.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Bezirk",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Bezirk is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Bezirk, zwei ___",
+      "answer": "Bezirke",
+      "fullAnswer": "ein Bezirk, zwei Bezirke",
+      "explanation": "The plural is Bezirke.",
+      "acceptedAnswers": [
+        "Bezirke"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Bezirk mean?",
+      "options": [
+        "slowly",
+        "the flower",
+        "district"
+      ],
+      "answer": "district",
+      "explanation": "Bezirk: district.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Z sounds like…",
+      "options": [
+        "ts",
+        "z"
+      ],
+      "answer": "ts",
+      "explanation": "be-TSIRK.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Related to…",
+      "options": [
+        "circle (Latin circus)",
+        "Birke"
+      ],
+      "answer": "circle (Latin circus)",
+      "explanation": "Area.",
+      "id": "q5"
+    }
+  ]
+}

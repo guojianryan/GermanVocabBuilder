@@ -1,0 +1,180 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "bedürfen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "be-DÜR-fen",
+      "ipa": "bəˈdʏʁfn̩",
+      "notes": ""
+    },
+    "meaning": "to require, need (+ genitive)",
+    "shortDefinition": "To require, need (+ genitive)."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "be",
+        "meaning": "prefix"
+      },
+      {
+        "part": "dürfen",
+        "meaning": "to need (old sense)"
+      }
+    ],
+    "literalMeaning": "to be in need of"
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "bedarf"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "bedarfst"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "bedarf"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "bedürf|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "bedürf|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "bedürf|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat bedurft"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das bedarf einer Erklärung.",
+      "english": "That requires an explanation.",
+      "highlight": [
+        "bedarf"
+      ]
+    },
+    {
+      "german": "Es bedarf keiner weiteren Worte.",
+      "english": "No more words are needed.",
+      "highlight": [
+        "bedarf"
+      ]
+    },
+    {
+      "german": "Die Sache bedarf großer Sorgfalt.",
+      "english": "The matter requires great care.",
+      "highlight": [
+        "bedarf"
+      ]
+    }
+  ],
+  "forms": [
+    "Bedarf",
+    "Bedürfnis"
+  ],
+  "memoryHook": "Bedürfen + Gen. (formal) = need; der Bedarf, das Bedürfnis.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (bedürfen)",
+      "answer": "bedarf",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: bedarf.",
+      "acceptedAnswers": [
+        "bedarf"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (bedürfen, past)",
+      "answer": "bedurft",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe bedurft.",
+      "acceptedAnswers": [
+        "bedurft"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does bedürfen mean?",
+      "options": [
+        "the job",
+        "expensive",
+        "to require"
+      ],
+      "answer": "to require",
+      "explanation": "bedürfen: to require, need (+ genitive).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Takes…",
+      "options": [
+        "genitive",
+        "accusative"
+      ],
+      "answer": "genitive",
+      "explanation": "Formal.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Register:",
+      "options": [
+        "very formal",
+        "everyday"
+      ],
+      "answer": "very formal",
+      "explanation": "Written.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Noun:",
+      "options": [
+        "der Bedarf (need, demand)",
+        "die Bedürfe"
+      ],
+      "answer": "der Bedarf (need, demand)",
+      "explanation": "Demand.",
+      "id": "q6"
+    }
+  ]
+}

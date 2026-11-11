@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Partei",
+    "partOfSpeech": "noun, feminine (die Partei)",
+    "pronunciation": {
+      "respelling": "par-TYE",
+      "ipa": "paʁˈtaɪ̯",
+      "notes": "Plural: die Parteien."
+    },
+    "meaning": "(political) party",
+    "shortDefinition": "(political) party."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Partei, plural die Parteien.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Partei"
+        },
+        {
+          "label": "More than one",
+          "value": "die Parteien"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Welche Partei wählst du?",
+      "english": "Which party do you vote for?",
+      "highlight": [
+        "Partei"
+      ]
+    },
+    {
+      "german": "Die Partei hat die Wahl gewonnen.",
+      "english": "The party won the election.",
+      "highlight": [
+        "Partei"
+      ]
+    },
+    {
+      "german": "Er ist Mitglied einer Partei.",
+      "english": "He's a member of a party.",
+      "highlight": [
+        "Partei."
+      ]
+    }
+  ],
+  "forms": [
+    "Parteien",
+    "die Parteien",
+    "die Partei"
+  ],
+  "memoryHook": "Die Partei (politics) ≠ die Party (celebration).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Partei",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Partei is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Partei, zwei ___",
+      "answer": "Parteien",
+      "fullAnswer": "ein Partei, zwei Parteien",
+      "explanation": "The plural is Parteien.",
+      "acceptedAnswers": [
+        "Parteien"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Partei mean?",
+      "options": [
+        "(political) party",
+        "to travel",
+        "slowly"
+      ],
+      "answer": "(political) party",
+      "explanation": "Partei: (political) party.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "A celebration is…",
+      "options": [
+        "die Party / das Fest",
+        "die Partei"
+      ],
+      "answer": "die Party / das Fest",
+      "explanation": "Different!",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Stress on…",
+      "options": [
+        "-TEI",
+        "PAR-"
+      ],
+      "answer": "-TEI",
+      "explanation": "End.",
+      "id": "q5"
+    }
+  ]
+}

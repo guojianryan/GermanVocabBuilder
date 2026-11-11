@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "T-Shirt",
+    "partOfSpeech": "noun, neuter (das T-Shirt)",
+    "pronunciation": {
+      "respelling": "TEE-shirt",
+      "ipa": "ˈtiːʃœʁt",
+      "notes": "Plural: die T-Shirts."
+    },
+    "meaning": "T-shirt",
+    "shortDefinition": "T-shirt."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das T-Shirt, plural die T-Shirts.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das T-Shirt"
+        },
+        {
+          "label": "More than one",
+          "value": "die T-Shirts"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Im Sommer trage ich T-Shirts.",
+      "english": "I wear T-shirts in summer.",
+      "highlight": [
+        "T-Shirts."
+      ]
+    },
+    {
+      "german": "Das T-Shirt ist zu groß.",
+      "english": "The T-shirt is too big.",
+      "highlight": [
+        "T-Shirt"
+      ]
+    },
+    {
+      "german": "Ich kaufe ein weißes T-Shirt.",
+      "english": "I'm buying a white T-shirt.",
+      "highlight": [
+        "T-Shirt."
+      ]
+    }
+  ],
+  "forms": [
+    "T-Shirts",
+    "die T-Shirts",
+    "das T-Shirt"
+  ],
+  "memoryHook": "Das T-Shirt (English word, neuter).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ T-Shirt",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "T-Shirt is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein T-Shirt, zwei ___",
+      "answer": "T-Shirts",
+      "fullAnswer": "ein T-Shirt, zwei T-Shirts",
+      "explanation": "The plural is T-Shirts.",
+      "acceptedAnswers": [
+        "T-Shirts"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does T-Shirt mean?",
+      "options": [
+        "never",
+        "cheap",
+        "T-shirt"
+      ],
+      "answer": "T-shirt",
+      "explanation": "T-Shirt: T-shirt.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gender:",
+      "options": [
+        "das",
+        "die"
+      ],
+      "answer": "das",
+      "explanation": "Das T-Shirt.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "T-Shirts",
+        "T-Shirten"
+      ],
+      "answer": "T-Shirts",
+      "explanation": "-s.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Forum",
+    "partOfSpeech": "noun, neuter (das Forum)",
+    "pronunciation": {
+      "respelling": "FOH-room",
+      "ipa": "ˈfoːʁʊm",
+      "notes": "Plural: die Foren."
+    },
+    "meaning": "forum",
+    "shortDefinition": "Forum."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Forum, plural die Foren.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Forum"
+        },
+        {
+          "label": "More than one",
+          "value": "die Foren"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich habe die Frage in einem Forum gestellt.",
+      "english": "I asked the question in a forum.",
+      "highlight": [
+        "Forum"
+      ]
+    },
+    {
+      "german": "Im Forum diskutieren viele Leute.",
+      "english": "Lots of people discuss in the forum.",
+      "highlight": [
+        "Forum"
+      ]
+    },
+    {
+      "german": "Es gibt viele Foren zu diesem Thema.",
+      "english": "There are many forums on this topic.",
+      "highlight": [
+        "Foren"
+      ]
+    }
+  ],
+  "forms": [
+    "Foren",
+    "die Foren",
+    "das Forum"
+  ],
+  "memoryHook": "Das Forum, die Foren.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Forum",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Forum is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Forum, zwei ___",
+      "answer": "Foren",
+      "fullAnswer": "ein Forum, zwei Foren",
+      "explanation": "The plural is Foren.",
+      "acceptedAnswers": [
+        "Foren"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Forum mean?",
+      "options": [
+        "the bill",
+        "to help",
+        "forum"
+      ],
+      "answer": "forum",
+      "explanation": "Forum: forum.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Foren",
+        "Forums"
+      ],
+      "answer": "Foren",
+      "explanation": "-um → -en.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gender:",
+      "options": [
+        "das",
+        "der"
+      ],
+      "answer": "das",
+      "explanation": "Das Forum.",
+      "id": "q5"
+    }
+  ]
+}

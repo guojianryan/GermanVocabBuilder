@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Hafen",
+    "partOfSpeech": "noun, masculine (der Hafen)",
+    "pronunciation": {
+      "respelling": "HAA-fen",
+      "ipa": "ˈhaːfn̩",
+      "notes": "Plural: die Häfen."
+    },
+    "meaning": "harbour, port",
+    "shortDefinition": "Harbour, port."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Hafen, plural die Häfen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Hafen"
+        },
+        {
+          "label": "More than one",
+          "value": "die Häfen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Hamburg hat einen großen Hafen.",
+      "english": "Hamburg has a large port.",
+      "highlight": [
+        "Hafen."
+      ]
+    },
+    {
+      "german": "Das Schiff liegt im Hafen.",
+      "english": "The ship is in the harbour.",
+      "highlight": [
+        "Hafen."
+      ]
+    },
+    {
+      "german": "Wir machen eine Hafenrundfahrt.",
+      "english": "We're taking a harbour tour.",
+      "highlight": [
+        "Hafenrundfahrt."
+      ]
+    }
+  ],
+  "forms": [
+    "Häfen",
+    "die Häfen",
+    "der Hafen"
+  ],
+  "memoryHook": "Der Hafen (harbour). Flughafen = airport (flight harbour).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Hafen",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Hafen is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Hafen, zwei ___",
+      "answer": "Häfen",
+      "fullAnswer": "ein Hafen, zwei Häfen",
+      "explanation": "The plural is Häfen.",
+      "acceptedAnswers": [
+        "Haefen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Hafen mean?",
+      "options": [
+        "harbour",
+        "the car",
+        "the weather"
+      ],
+      "answer": "harbour",
+      "explanation": "Hafen: harbour, port.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Häfen",
+        "Hafens"
+      ],
+      "answer": "Häfen",
+      "explanation": "a → ä.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Airport:",
+      "options": [
+        "der Flughafen",
+        "der Lufthafen"
+      ],
+      "answer": "der Flughafen",
+      "explanation": "Flug + Hafen.",
+      "id": "q5"
+    }
+  ]
+}

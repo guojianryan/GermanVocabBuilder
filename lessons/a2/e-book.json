@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "E-Book",
+    "partOfSpeech": "noun, neuter (das E-Book)",
+    "pronunciation": {
+      "respelling": "EE-book",
+      "ipa": "ˈiːbʊk",
+      "notes": "Plural: die E-Books."
+    },
+    "meaning": "e-book",
+    "shortDefinition": "E-book."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das E-Book, plural die E-Books.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das E-Book"
+        },
+        {
+          "label": "More than one",
+          "value": "die E-Books"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich lese lieber E-Books.",
+      "english": "I prefer reading e-books.",
+      "highlight": [
+        "E-Books."
+      ]
+    },
+    {
+      "german": "Das E-Book ist billiger als das Buch.",
+      "english": "The e-book is cheaper than the book.",
+      "highlight": [
+        "E-Book"
+      ]
+    },
+    {
+      "german": "Hast du einen E-Book-Reader?",
+      "english": "Have you got an e-reader?",
+      "highlight": [
+        "E-Book-Reader?"
+      ]
+    }
+  ],
+  "forms": [
+    "E-Books",
+    "die E-Books",
+    "das E-Book"
+  ],
+  "memoryHook": "Das E-Book: English word, gender from das Buch.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ E-Book",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "E-Book is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein E-Book, zwei ___",
+      "answer": "E-Books",
+      "fullAnswer": "ein E-Book, zwei E-Books",
+      "explanation": "The plural is E-Books.",
+      "acceptedAnswers": [
+        "E-Books"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does E-Book mean?",
+      "options": [
+        "never",
+        "to buy",
+        "e-book"
+      ],
+      "answer": "e-book",
+      "explanation": "E-Book: e-book.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gender:",
+      "options": [
+        "das (das Buch)",
+        "der"
+      ],
+      "answer": "das (das Buch)",
+      "explanation": "Like Buch.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Pronounced…",
+      "options": [
+        "the English way",
+        "AY-bookh"
+      ],
+      "answer": "the English way",
+      "explanation": "English word.",
+      "id": "q5"
+    }
+  ]
+}

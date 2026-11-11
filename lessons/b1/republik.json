@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Republik",
+    "partOfSpeech": "noun, feminine (die Republik)",
+    "pronunciation": {
+      "respelling": "re-poo-BLEEK",
+      "ipa": "ʁepuˈbliːk",
+      "notes": "Plural: die Republiken."
+    },
+    "meaning": "republic",
+    "shortDefinition": "Republic."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Republik, plural die Republiken.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Republik"
+        },
+        {
+          "label": "More than one",
+          "value": "die Republiken"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Deutschland ist eine Republik.",
+      "english": "Germany is a republic.",
+      "highlight": [
+        "Republik."
+      ]
+    },
+    {
+      "german": "Die Tschechische Republik liegt östlich.",
+      "english": "The Czech Republic is to the east.",
+      "highlight": [
+        "Republik"
+      ]
+    },
+    {
+      "german": "Die Republik wurde 1949 gegründet.",
+      "english": "The republic was founded in 1949.",
+      "highlight": [
+        "Republik"
+      ]
+    }
+  ],
+  "forms": [
+    "Republiken",
+    "die Republiken",
+    "die Republik"
+  ],
+  "memoryHook": "Die Republik (stress at end).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Republik",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Republik is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Republik, zwei ___",
+      "answer": "Republiken",
+      "fullAnswer": "ein Republik, zwei Republiken",
+      "explanation": "The plural is Republiken.",
+      "acceptedAnswers": [
+        "Republiken"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Republik mean?",
+      "options": [
+        "the evening",
+        "cheap",
+        "republic"
+      ],
+      "answer": "republic",
+      "explanation": "Republik: republic.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Stress on…",
+      "options": [
+        "-LIK",
+        "RE-"
+      ],
+      "answer": "-LIK",
+      "explanation": "End.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Opposite (form of state):",
+      "options": [
+        "die Monarchie",
+        "die Diktatur only"
+      ],
+      "answer": "die Monarchie",
+      "explanation": "Monarchy.",
+      "id": "q5"
+    }
+  ]
+}

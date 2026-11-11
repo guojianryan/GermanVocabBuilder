@@ -1,0 +1,104 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "hinter",
+    "partOfSpeech": "preposition",
+    "pronunciation": {
+      "respelling": "HIN-ter",
+      "ipa": "ˈhɪntɐ",
+      "notes": ""
+    },
+    "meaning": "behind",
+    "shortDefinition": "Behind."
+  },
+  "sampleSentences": [
+    {
+      "german": "Der Garten ist hinter dem Haus.",
+      "english": "The garden is behind the house.",
+      "highlight": [
+        "hinter"
+      ]
+    },
+    {
+      "german": "Stell das Fahrrad hinter das Haus.",
+      "english": "Put the bike behind the house.",
+      "highlight": [
+        "hinter"
+      ]
+    },
+    {
+      "german": "Wir haben es hinter uns.",
+      "english": "We've got it behind us.",
+      "highlight": [
+        "hinter"
+      ]
+    }
+  ],
+  "forms": [
+    "hinten",
+    "hinterm",
+    "hinters"
+  ],
+  "memoryHook": "Hinter = behind. Two-way: dative (where?) or accusative (where to?).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does hinter mean?",
+      "options": [
+        "always",
+        "to help",
+        "behind"
+      ],
+      "answer": "behind",
+      "explanation": "hinter: behind.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Where? (static):",
+      "options": [
+        "hinter dem Haus",
+        "hinter das Haus"
+      ],
+      "answer": "hinter dem Haus",
+      "explanation": "Dative.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Where to? (movement):",
+      "options": [
+        "hinter das Haus",
+        "hinter dem Haus"
+      ],
+      "answer": "hinter das Haus",
+      "explanation": "Accusative.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "The opposite:",
+      "options": [
+        "vor",
+        "neben"
+      ],
+      "answer": "vor",
+      "explanation": "In front of.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Die Katze sitzt ___ dem Sofa. (behind)",
+      "answer": "hinter",
+      "fullAnswer": "Die Katze sitzt hinter dem Sofa.",
+      "explanation": "Hinter.",
+      "id": "q5"
+    }
+  ]
+}

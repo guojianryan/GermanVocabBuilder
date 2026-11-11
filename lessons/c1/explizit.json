@@ -1,0 +1,106 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "explizit",
+    "partOfSpeech": "adjective",
+    "pronunciation": {
+      "respelling": "eks-pli-TSEET",
+      "ipa": "ɛkspliˈtsiːt",
+      "notes": ""
+    },
+    "meaning": "explicit",
+    "shortDefinition": "Explicit."
+  },
+  "sampleSentences": [
+    {
+      "german": "Er hat das explizit verboten.",
+      "english": "He explicitly forbade it.",
+      "highlight": [
+        "explizit"
+      ]
+    },
+    {
+      "german": "Eine explizite Anweisung.",
+      "english": "An explicit instruction.",
+      "highlight": [
+        "explizite"
+      ]
+    },
+    {
+      "german": "Das wird nicht explizit erwähnt.",
+      "english": "That isn't explicitly mentioned.",
+      "highlight": [
+        "explizit"
+      ]
+    }
+  ],
+  "forms": [
+    "ausdrücklich",
+    "implizit"
+  ],
+  "memoryHook": "Explizit = ausdrücklich ↔ implizit.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does explizit mean?",
+      "options": [
+        "never",
+        "explicit",
+        "always"
+      ],
+      "answer": "explicit",
+      "explanation": "explizit: explicit.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Opposite:",
+      "options": [
+        "implizit",
+        "explosiv"
+      ],
+      "answer": "implizit",
+      "explanation": "Implicit.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonym:",
+      "options": [
+        "ausdrücklich",
+        "indirekt"
+      ],
+      "answer": "ausdrücklich",
+      "explanation": "Explicit.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Stress on…",
+      "options": [
+        "-ZIT",
+        "EX-"
+      ],
+      "answer": "-ZIT",
+      "explanation": "End.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Eine ___ Erlaubnis. (explicit)",
+      "answer": "explizite",
+      "fullAnswer": "Eine explizite Erlaubnis.",
+      "explanation": "Explizite.",
+      "acceptedAnswers": [
+        "ausdrückliche"
+      ],
+      "id": "q5"
+    }
+  ]
+}

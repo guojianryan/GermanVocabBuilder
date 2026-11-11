@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Maus",
+    "partOfSpeech": "noun, feminine (die Maus)",
+    "pronunciation": {
+      "respelling": "MOWS",
+      "ipa": "maʊ̯s",
+      "notes": "Plural: die Mäuse."
+    },
+    "meaning": "mouse",
+    "shortDefinition": "Mouse."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Maus, plural die Mäuse.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Maus"
+        },
+        {
+          "label": "More than one",
+          "value": "die Mäuse"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Katze jagt eine Maus.",
+      "english": "The cat is chasing a mouse.",
+      "highlight": [
+        "Maus."
+      ]
+    },
+    {
+      "german": "Meine Computermaus ist kaputt.",
+      "english": "My computer mouse is broken.",
+      "highlight": [
+        "Computermaus"
+      ]
+    },
+    {
+      "german": "Wir haben Mäuse im Keller.",
+      "english": "We have mice in the cellar.",
+      "highlight": [
+        "Mäuse"
+      ]
+    }
+  ],
+  "forms": [
+    "Mäuse",
+    "die Mäuse",
+    "die Maus"
+  ],
+  "memoryHook": "Die Maus, die Mäuse (also: computer mouse).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Maus",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Maus is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Maus, zwei ___",
+      "answer": "Mäuse",
+      "fullAnswer": "ein Maus, zwei Mäuse",
+      "explanation": "The plural is Mäuse.",
+      "acceptedAnswers": [
+        "Maeuse"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Maus mean?",
+      "options": [
+        "always",
+        "mouse",
+        "to buy"
+      ],
+      "answer": "mouse",
+      "explanation": "Maus: mouse.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Mäuse",
+        "Mause"
+      ],
+      "answer": "Mäuse",
+      "explanation": "au → äu.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Informal 'Mäuse' can mean…",
+      "options": [
+        "money",
+        "sweets"
+      ],
+      "answer": "money",
+      "explanation": "Slang.",
+      "id": "q5"
+    }
+  ]
+}

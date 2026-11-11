@@ -1,0 +1,186 @@
+{
+ "schemaVersion": "1.4",
+ "language": "de",
+ "explanationLanguage": "en",
+ "level": "A1",
+ "levelSource": "Goethe-Zertifikat A1 Wortliste",
+ "lessonType": "card",
+ "word": {
+  "headword": "aussteigen",
+  "partOfSpeech": "separable verb",
+  "pronunciation": {
+   "respelling": "OWS-shty-gen",
+   "ipa": "ˈaʊ̯sˌʃtaɪ̯ɡn̩",
+   "notes": ""
+  },
+  "meaning": "to get off, to get out (of a vehicle)",
+  "shortDefinition": "To get off, to get out (of a vehicle)."
+ },
+ "etymology": {
+  "title": "Where it comes from",
+  "parts": [
+   {
+    "part": "aus",
+    "meaning": "out"
+   },
+   {
+    "part": "steigen",
+    "meaning": "to climb",
+    "emphasis": "release"
+   }
+  ],
+  "literalMeaning": "to climb out"
+ },
+ "tables": [
+  {
+   "title": "Present tense",
+   "columns": [
+    "present"
+   ],
+   "rows": [
+    {
+     "label": "ich",
+     "cells": [
+      "steige … |aus"
+     ]
+    },
+    {
+     "label": "du",
+     "cells": [
+      "steigst … |aus"
+     ]
+    },
+    {
+     "label": "er, sie, es",
+     "cells": [
+      "steigt … |aus"
+     ]
+    },
+    {
+     "label": "wir",
+     "cells": [
+      "steigen … |aus"
+     ]
+    },
+    {
+     "label": "ihr",
+     "cells": [
+      "steigt … |aus"
+     ]
+    },
+    {
+     "label": "sie, Sie",
+     "cells": [
+      "steigen … |aus"
+     ]
+    }
+   ],
+   "notes": [
+    "Past (Perfekt): ist ausgestiegen"
+   ]
+  }
+ ],
+ "wordFamily": [
+  {
+   "german": "einsteigen",
+   "english": "to get on",
+   "type": "separable verb"
+  },
+  {
+   "german": "umsteigen",
+   "english": "to change (trains)",
+   "type": "separable verb"
+  }
+ ],
+ "sampleSentences": [
+  {
+   "german": "Wo muss ich aussteigen?",
+   "english": "Where do I have to get off?",
+   "highlight": [
+    "aussteigen?"
+   ]
+  },
+  {
+   "german": "Wir steigen an der nächsten Haltestelle aus.",
+   "english": "We're getting off at the next stop.",
+   "highlight": [
+    "steigen",
+    "aus."
+   ]
+  },
+  {
+   "german": "Bitte alle aussteigen!",
+   "english": "All change, please!",
+   "highlight": [
+    "aussteigen!"
+   ]
+  }
+ ],
+ "forms": [
+  "steige aus",
+  "steigst aus",
+  "steigt aus",
+  "steigen aus",
+  "ausgestiegen"
+ ],
+ "memoryHook": "Steigen = climb. Aus-steigen = climb out. Ein-steigen = climb in. Um-steigen = change.",
+ "signOff": "Gut gemacht!",
+ "quiz": [
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "er ___ … aus (aussteigen)",
+   "answer": "steigt",
+   "fullAnswer": "",
+   "explanation": "For er, sie, es: steigt … aus.",
+   "acceptedAnswers": [
+    "steigt"
+   ],
+   "id": "q1"
+  },
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "Ich bin schon ___. (aussteigen, past)",
+   "answer": "ausgestiegen",
+   "fullAnswer": "",
+   "explanation": "Perfekt: bin ausgestiegen.",
+   "acceptedAnswers": [
+    "ausgestiegen"
+   ],
+   "id": "q2"
+  },
+  {
+   "type": "choice",
+   "prompt": "What does aussteigen mean?",
+   "options": [
+    "to get off",
+    "the flower",
+    "to learn"
+   ],
+   "answer": "to get off",
+   "explanation": "aussteigen: to get off, to get out (of a vehicle).",
+   "id": "q3"
+  },
+  {
+   "type": "choice",
+   "prompt": "The opposite of aussteigen is…",
+   "options": [
+    "einsteigen",
+    "umsteigen"
+   ],
+   "answer": "einsteigen",
+   "explanation": "Einsteigen: get on.",
+   "id": "q4"
+  },
+  {
+   "type": "choice",
+   "prompt": "Changing trains is…",
+   "options": [
+    "umsteigen",
+    "aussteigen"
+   ],
+   "answer": "umsteigen",
+   "explanation": "Um-steigen: change.",
+   "id": "q5"
+  }
+ ]
+}

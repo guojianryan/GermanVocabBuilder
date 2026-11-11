@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Art",
+    "partOfSpeech": "noun, feminine (die Art)",
+    "pronunciation": {
+      "respelling": "ART",
+      "ipa": "aːɐ̯t",
+      "notes": "Plural: die Arten."
+    },
+    "meaning": "kind, type; way, manner",
+    "shortDefinition": "Kind, type; way, manner."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Art, plural die Arten.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Art"
+        },
+        {
+          "label": "More than one",
+          "value": "die Arten"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Was für eine Art Musik hörst du?",
+      "english": "What kind of music do you listen to?",
+      "highlight": [
+        "Art"
+      ]
+    },
+    {
+      "german": "Ich mag seine Art.",
+      "english": "I like his manner.",
+      "highlight": [
+        "Art."
+      ]
+    },
+    {
+      "german": "Auf diese Art geht es schneller.",
+      "english": "It's quicker this way.",
+      "highlight": [
+        "Art"
+      ]
+    }
+  ],
+  "forms": [
+    "Arten",
+    "die Arten",
+    "die Art"
+  ],
+  "memoryHook": "Die Art = kind, way. Art (painting) = die Kunst!",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Art",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Art is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Art, zwei ___",
+      "answer": "Arten",
+      "fullAnswer": "ein Art, zwei Arten",
+      "explanation": "The plural is Arten.",
+      "acceptedAnswers": [
+        "Arten"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Art mean?",
+      "options": [
+        "the bread",
+        "to sleep",
+        "kind"
+      ],
+      "answer": "kind",
+      "explanation": "Art: kind, type; way, manner.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'In this way':",
+      "options": [
+        "auf diese Art",
+        "in diese Art"
+      ],
+      "answer": "auf diese Art",
+      "explanation": "Auf.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Art does NOT mean…",
+      "options": [
+        "art (Kunst)",
+        "kind"
+      ],
+      "answer": "art (Kunst)",
+      "explanation": "False friend! Art = Kunst.",
+      "id": "q5"
+    }
+  ]
+}

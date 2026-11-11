@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Protest",
+    "partOfSpeech": "noun, masculine (der Protest)",
+    "pronunciation": {
+      "respelling": "pro-TEST",
+      "ipa": "pʁoˈtɛst",
+      "notes": "Plural: die Proteste."
+    },
+    "meaning": "protest",
+    "shortDefinition": "Protest."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Protest, plural die Proteste.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Protest"
+        },
+        {
+          "label": "More than one",
+          "value": "die Proteste"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Es gab große Proteste.",
+      "english": "There were big protests.",
+      "highlight": [
+        "Proteste."
+      ]
+    },
+    {
+      "german": "Aus Protest hat er gekündigt.",
+      "english": "He quit in protest.",
+      "highlight": [
+        "Protest"
+      ]
+    },
+    {
+      "german": "Der Protest war friedlich.",
+      "english": "The protest was peaceful.",
+      "highlight": [
+        "Protest"
+      ]
+    }
+  ],
+  "forms": [
+    "Proteste",
+    "die Proteste",
+    "der Protest"
+  ],
+  "memoryHook": "Der Protest (stress at the end). Aus Protest.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Protest",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Protest is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Protest, zwei ___",
+      "answer": "Proteste",
+      "fullAnswer": "ein Protest, zwei Proteste",
+      "explanation": "The plural is Proteste.",
+      "acceptedAnswers": [
+        "Proteste"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Protest mean?",
+      "options": [
+        "protest",
+        "slowly",
+        "the evening"
+      ],
+      "answer": "protest",
+      "explanation": "Protest: protest.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Aus Protest' means…",
+      "options": [
+        "in protest",
+        "out of the protest"
+      ],
+      "answer": "in protest",
+      "explanation": "Aus.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Stress on…",
+      "options": [
+        "-TEST",
+        "PRO-"
+      ],
+      "answer": "-TEST",
+      "explanation": "End.",
+      "id": "q5"
+    }
+  ]
+}

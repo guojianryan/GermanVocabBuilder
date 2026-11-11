@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Grenze",
+    "partOfSpeech": "noun, feminine (die Grenze)",
+    "pronunciation": {
+      "respelling": "GREN-tse",
+      "ipa": "ˈɡʁɛntsə",
+      "notes": "Plural: die Grenzen."
+    },
+    "meaning": "border; limit",
+    "shortDefinition": "Border; limit."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Grenze, plural die Grenzen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Grenze"
+        },
+        {
+          "label": "More than one",
+          "value": "die Grenzen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir fahren über die Grenze nach Österreich.",
+      "english": "We're crossing the border into Austria.",
+      "highlight": [
+        "Grenze"
+      ]
+    },
+    {
+      "german": "Alles hat seine Grenzen.",
+      "english": "Everything has its limits.",
+      "highlight": [
+        "Grenzen."
+      ]
+    },
+    {
+      "german": "Die Stadt liegt an der Grenze.",
+      "english": "The town is on the border.",
+      "highlight": [
+        "Grenze."
+      ]
+    }
+  ],
+  "forms": [
+    "begrenzt"
+  ],
+  "memoryHook": "Die Grenze: border, limit. Begrenzt = limited.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Grenze",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Grenze is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Grenze, zwei ___",
+      "answer": "Grenzen",
+      "fullAnswer": "ein Grenze, zwei Grenzen",
+      "explanation": "The plural is Grenzen.",
+      "acceptedAnswers": [
+        "Grenzen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Grenze mean?",
+      "options": [
+        "border",
+        "the family",
+        "the child"
+      ],
+      "answer": "border",
+      "explanation": "Grenze: border; limit.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'An der Grenze' means…",
+      "options": [
+        "on the border",
+        "at the limit only"
+      ],
+      "answer": "on the border",
+      "explanation": "Border.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Adjective 'limited':",
+      "options": [
+        "begrenzt",
+        "grenzlich"
+      ],
+      "answer": "begrenzt",
+      "explanation": "Limited.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Dieb",
+    "partOfSpeech": "noun, masculine (der Dieb)",
+    "pronunciation": {
+      "respelling": "DEEP",
+      "ipa": "diːp",
+      "notes": "Plural: die Diebe."
+    },
+    "meaning": "thief",
+    "shortDefinition": "Thief."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Dieb, plural die Diebe.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Dieb"
+        },
+        {
+          "label": "More than one",
+          "value": "die Diebe"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Dieb hat mein Fahrrad gestohlen.",
+      "english": "The thief stole my bike.",
+      "highlight": [
+        "Dieb"
+      ]
+    },
+    {
+      "german": "Haltet den Dieb!",
+      "english": "Stop thief!",
+      "highlight": [
+        "Dieb!"
+      ]
+    },
+    {
+      "german": "Die Polizei hat die Diebe gefasst.",
+      "english": "The police caught the thieves.",
+      "highlight": [
+        "Diebe"
+      ]
+    }
+  ],
+  "forms": [
+    "Diebstahl",
+    "Diebin"
+  ],
+  "memoryHook": "Der Dieb (b = p). Der Diebstahl = theft.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Dieb",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Dieb is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Dieb, zwei ___",
+      "answer": "Diebe",
+      "fullAnswer": "ein Dieb, zwei Diebe",
+      "explanation": "The plural is Diebe.",
+      "acceptedAnswers": [
+        "Diebe"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Dieb mean?",
+      "options": [
+        "slowly",
+        "thief",
+        "the evening"
+      ],
+      "answer": "thief",
+      "explanation": "Dieb: thief.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Theft:",
+      "options": [
+        "der Diebstahl",
+        "die Dieberei only"
+      ],
+      "answer": "der Diebstahl",
+      "explanation": "Dieb + stehlen.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Final b sounds like…",
+      "options": [
+        "p",
+        "b"
+      ],
+      "answer": "p",
+      "explanation": "DEEP.",
+      "id": "q5"
+    }
+  ]
+}

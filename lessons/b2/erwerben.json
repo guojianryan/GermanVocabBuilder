@@ -1,0 +1,180 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "erwerben",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "er-VAIR-ben",
+      "ipa": "ɛɐ̯ˈvɛʁbn̩",
+      "notes": ""
+    },
+    "meaning": "to acquire, purchase; to gain",
+    "shortDefinition": "To acquire, purchase; to gain."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "er",
+        "meaning": "obtain"
+      },
+      {
+        "part": "werben",
+        "meaning": "to strive, woo"
+      }
+    ],
+    "literalMeaning": "to obtain by striving"
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "erwerb|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "erwirb|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "erwirb|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "erwerb|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "erwerb|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "erwerb|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat erworben"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er hat das Haus 2010 erworben.",
+      "english": "He acquired the house in 2010.",
+      "highlight": [
+        "erworben."
+      ]
+    },
+    {
+      "german": "Sie erwirbt neue Kenntnisse.",
+      "english": "She's gaining new knowledge.",
+      "highlight": [
+        "erwirbt"
+      ]
+    },
+    {
+      "german": "Tickets können online erworben werden.",
+      "english": "Tickets can be purchased online.",
+      "highlight": [
+        "erworben"
+      ]
+    }
+  ],
+  "forms": [
+    "Erwerb",
+    "erwerbstätig"
+  ],
+  "memoryHook": "Erwerben (erwirbt, erwarb, erworben) = acquire.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (erwerben)",
+      "answer": "erwirbt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: erwirbt.",
+      "acceptedAnswers": [
+        "erwirbt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (erwerben, past)",
+      "answer": "erworben",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe erworben.",
+      "acceptedAnswers": [
+        "erworben"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does erwerben mean?",
+      "options": [
+        "cheap",
+        "the station",
+        "to acquire"
+      ],
+      "answer": "to acquire",
+      "explanation": "erwerben: to acquire, purchase; to gain.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "er ___ (erwerben):",
+      "options": [
+        "erwirbt",
+        "erwerbt"
+      ],
+      "answer": "erwirbt",
+      "explanation": "e → i.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "hat erworben",
+        "hat erwerbt"
+      ],
+      "answer": "hat erworben",
+      "explanation": "Strong.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Noun:",
+      "options": [
+        "der Erwerb",
+        "die Erwerbung only"
+      ],
+      "answer": "der Erwerb",
+      "explanation": "Acquisition.",
+      "id": "q6"
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Feind",
+    "partOfSpeech": "noun, masculine (der Feind)",
+    "pronunciation": {
+      "respelling": "FINE-t",
+      "ipa": "faɪ̯nt",
+      "notes": "Plural: die Feinde."
+    },
+    "meaning": "enemy",
+    "shortDefinition": "Enemy."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Feind, plural die Feinde.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Feind"
+        },
+        {
+          "label": "More than one",
+          "value": "die Feinde"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er hat viele Feinde.",
+      "english": "He has many enemies.",
+      "highlight": [
+        "Feinde."
+      ]
+    },
+    {
+      "german": "Sie sind Freunde, keine Feinde.",
+      "english": "They're friends, not enemies.",
+      "highlight": [
+        "Feinde."
+      ]
+    },
+    {
+      "german": "Das Bessere ist der Feind des Guten.",
+      "english": "The better is the enemy of the good.",
+      "highlight": [
+        "Feind"
+      ]
+    }
+  ],
+  "forms": [
+    "Feindin",
+    "feindlich"
+  ],
+  "memoryHook": "Der Feind ↔ der Freund; feindlich.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Feind",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Feind is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Feind, zwei ___",
+      "answer": "Feinde",
+      "fullAnswer": "ein Feind, zwei Feinde",
+      "explanation": "The plural is Feinde.",
+      "acceptedAnswers": [
+        "Feinde"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Feind mean?",
+      "options": [
+        "always",
+        "enemy",
+        "the family"
+      ],
+      "answer": "enemy",
+      "explanation": "Feind: enemy.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Opposite:",
+      "options": [
+        "der Freund",
+        "der Fremde"
+      ],
+      "answer": "der Freund",
+      "explanation": "Friend.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Adjective:",
+      "options": [
+        "feindlich",
+        "feindig"
+      ],
+      "answer": "feindlich",
+      "explanation": "Hostile.",
+      "id": "q5"
+    }
+  ]
+}

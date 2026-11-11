@@ -1,0 +1,138 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Marktanteil",
+    "partOfSpeech": "noun, masculine (der Marktanteil)",
+    "pronunciation": {
+      "respelling": "MARKT-an-tile",
+      "ipa": "ˈmaʁktʔantaɪ̯l",
+      "notes": "Plural: die Marktanteile."
+    },
+    "meaning": "market share",
+    "shortDefinition": "Market share."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Markt",
+        "meaning": "market"
+      },
+      {
+        "part": "anteil",
+        "meaning": "share"
+      }
+    ],
+    "literalMeaning": "market share"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Marktanteil, plural die Marktanteile.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Marktanteil"
+        },
+        {
+          "label": "More than one",
+          "value": "die Marktanteile"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Firma hat ihren Marktanteil erhöht.",
+      "english": "The company has increased its market share.",
+      "highlight": [
+        "Marktanteil"
+      ]
+    },
+    {
+      "german": "Ein Marktanteil von 20 Prozent.",
+      "english": "A market share of 20 per cent.",
+      "highlight": [
+        "Marktanteil"
+      ]
+    },
+    {
+      "german": "Sie verlieren Marktanteile.",
+      "english": "They're losing market share.",
+      "highlight": [
+        "Marktanteile."
+      ]
+    }
+  ],
+  "forms": [
+    "Marktanteile",
+    "die Marktanteile",
+    "der Marktanteil"
+  ],
+  "memoryHook": "Markt + Anteil = market share.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Marktanteil",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Marktanteil is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Marktanteil, zwei ___",
+      "answer": "Marktanteile",
+      "fullAnswer": "ein Marktanteil, zwei Marktanteile",
+      "explanation": "The plural is Marktanteile.",
+      "acceptedAnswers": [
+        "Marktanteile"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Marktanteil mean?",
+      "options": [
+        "the flower",
+        "market share",
+        "the bread"
+      ],
+      "answer": "market share",
+      "explanation": "Marktanteil: market share.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Markt + Anteil (share)",
+        "Markt + Teil only"
+      ],
+      "answer": "Markt + Anteil (share)",
+      "explanation": "Market share.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Marktanteile",
+        "Marktanteilen"
+      ],
+      "answer": "Marktanteile",
+      "explanation": "-e.",
+      "id": "q5"
+    }
+  ]
+}

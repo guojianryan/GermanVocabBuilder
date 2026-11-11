@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Dokument",
+    "partOfSpeech": "noun, neuter (das Dokument)",
+    "pronunciation": {
+      "respelling": "do-koo-MENT",
+      "ipa": "dokuˈmɛnt",
+      "notes": "Plural: die Dokumente."
+    },
+    "meaning": "document",
+    "shortDefinition": "Document."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Dokument, plural die Dokumente.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Dokument"
+        },
+        {
+          "label": "More than one",
+          "value": "die Dokumente"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Bitte bringen Sie alle Dokumente mit.",
+      "english": "Please bring all documents.",
+      "highlight": [
+        "Dokumente"
+      ]
+    },
+    {
+      "german": "Ich speichere das Dokument.",
+      "english": "I'm saving the document.",
+      "highlight": [
+        "Dokument."
+      ]
+    },
+    {
+      "german": "Das ist ein wichtiges Dokument.",
+      "english": "That's an important document.",
+      "highlight": [
+        "Dokument."
+      ]
+    }
+  ],
+  "forms": [
+    "Dokumente",
+    "die Dokumente",
+    "das Dokument"
+  ],
+  "memoryHook": "Das Dokument (stress at the end). Unterlagen = papers.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Dokument",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Dokument is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Dokument, zwei ___",
+      "answer": "Dokumente",
+      "fullAnswer": "ein Dokument, zwei Dokumente",
+      "explanation": "The plural is Dokumente.",
+      "acceptedAnswers": [
+        "Dokumente"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Dokument mean?",
+      "options": [
+        "the flower",
+        "the evening",
+        "document"
+      ],
+      "answer": "document",
+      "explanation": "Dokument: document.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonym (papers):",
+      "options": [
+        "die Unterlagen",
+        "die Untertassen"
+      ],
+      "answer": "die Unterlagen",
+      "explanation": "Papers.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Stress on…",
+      "options": [
+        "-MENT",
+        "DO-"
+      ],
+      "answer": "-MENT",
+      "explanation": "End.",
+      "id": "q5"
+    }
+  ]
+}

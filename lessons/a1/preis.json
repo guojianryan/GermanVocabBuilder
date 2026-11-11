@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Preis",
+    "partOfSpeech": "noun, masculine (der Preis)",
+    "pronunciation": {
+      "respelling": "PRICE",
+      "ipa": "pʁaɪ̯s",
+      "notes": "Plural: die Preise."
+    },
+    "meaning": "price; prize",
+    "shortDefinition": "Price; prize."
+  },
+  "wordFamily": [
+    {
+      "german": "kosten",
+      "english": "to cost",
+      "type": "verb"
+    },
+    {
+      "german": "teuer",
+      "english": "expensive",
+      "type": "adjective"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Preis, plural die Preise.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Preis"
+        },
+        {
+          "label": "More than one",
+          "value": "die Preise"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wie hoch ist der Preis?",
+      "english": "What's the price?",
+      "highlight": [
+        "Preis?"
+      ]
+    },
+    {
+      "german": "Die Preise sind hier sehr hoch.",
+      "english": "Prices are very high here.",
+      "highlight": [
+        "Preise"
+      ]
+    },
+    {
+      "german": "Sie hat den ersten Preis gewonnen.",
+      "english": "She won first prize.",
+      "highlight": [
+        "Preis"
+      ]
+    }
+  ],
+  "forms": [
+    "Preise",
+    "die Preise",
+    "der Preis"
+  ],
+  "memoryHook": "Der Preis = price and prize. Preise sind hoch / niedrig.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Preis",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Preis is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Preis, zwei ___",
+      "answer": "Preise",
+      "fullAnswer": "ein Preis, zwei Preise",
+      "explanation": "The plural is Preise.",
+      "acceptedAnswers": [
+        "Preise"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Preis mean?",
+      "options": [
+        "the family",
+        "to travel",
+        "price"
+      ],
+      "answer": "price",
+      "explanation": "Preis: price; prize.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Preis means price and…",
+      "options": [
+        "prize",
+        "praise"
+      ],
+      "answer": "prize",
+      "explanation": "Den Preis gewinnen.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Prices are hoch or…",
+      "options": [
+        "niedrig",
+        "klein"
+      ],
+      "answer": "niedrig",
+      "explanation": "High or low.",
+      "id": "q5"
+    }
+  ]
+}

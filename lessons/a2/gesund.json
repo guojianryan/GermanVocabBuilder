@@ -1,0 +1,105 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "gesund",
+    "partOfSpeech": "adjective",
+    "pronunciation": {
+      "respelling": "ge-ZOONT",
+      "ipa": "ɡəˈzʊnt",
+      "notes": ""
+    },
+    "meaning": "healthy",
+    "shortDefinition": "Healthy."
+  },
+  "sampleSentences": [
+    {
+      "german": "Obst ist gesund.",
+      "english": "Fruit is healthy.",
+      "highlight": [
+        "gesund."
+      ]
+    },
+    {
+      "german": "Bleib gesund!",
+      "english": "Stay healthy!",
+      "highlight": [
+        "gesund!"
+      ]
+    },
+    {
+      "german": "Ich bin wieder gesund.",
+      "english": "I'm well again.",
+      "highlight": [
+        "gesund."
+      ]
+    }
+  ],
+  "forms": [
+    "gesünder",
+    "gesunde",
+    "ungesund",
+    "am gesündesten"
+  ],
+  "memoryHook": "Gesund = healthy. Gesundheit! = bless you!",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does gesund mean?",
+      "options": [
+        "the car",
+        "the job",
+        "healthy"
+      ],
+      "answer": "healthy",
+      "explanation": "gesund: healthy.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "The opposite:",
+      "options": [
+        "krank / ungesund",
+        "gesünder"
+      ],
+      "answer": "krank / ungesund",
+      "explanation": "Ill / unhealthy.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Healthier':",
+      "options": [
+        "gesünder",
+        "gesunder"
+      ],
+      "answer": "gesünder",
+      "explanation": "u → ü.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Ich bin wieder gesund' means…",
+      "options": [
+        "I'm well again.",
+        "I'm healthy food."
+      ],
+      "answer": "I'm well again.",
+      "explanation": "Recovered.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Rauchen ist nicht ___ . (healthy)",
+      "answer": "gesund",
+      "fullAnswer": "Rauchen ist nicht gesund.",
+      "explanation": "Gesund.",
+      "id": "q5"
+    }
+  ]
+}

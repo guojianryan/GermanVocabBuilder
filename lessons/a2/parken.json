@@ -1,0 +1,165 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "parken",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "PAR-ken",
+      "ipa": "ˈpaʁkn̩",
+      "notes": ""
+    },
+    "meaning": "to park",
+    "shortDefinition": "To park."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "park|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "park|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "park|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "park|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "park|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "park|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat geparkt"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "der Parkplatz",
+      "english": "car park, parking space",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wo kann ich hier parken?",
+      "english": "Where can I park here?",
+      "highlight": [
+        "parken?"
+      ]
+    },
+    {
+      "german": "Hier ist Parken verboten.",
+      "english": "No parking here.",
+      "highlight": [
+        "Parken"
+      ]
+    },
+    {
+      "german": "Ich habe vor dem Haus geparkt.",
+      "english": "I parked in front of the house.",
+      "highlight": [
+        "geparkt."
+      ]
+    }
+  ],
+  "forms": [
+    "parke",
+    "parkst",
+    "parkt",
+    "parken",
+    "geparkt"
+  ],
+  "memoryHook": "Parken: Parkplatz, Parkhaus. Parken verboten!",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (parken)",
+      "answer": "parkt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: parkt.",
+      "acceptedAnswers": [
+        "parkt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (parken, past)",
+      "answer": "geparkt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe geparkt.",
+      "acceptedAnswers": [
+        "geparkt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does parken mean?",
+      "options": [
+        "the family",
+        "the door",
+        "to park"
+      ],
+      "answer": "to park",
+      "explanation": "parken: to park.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "A car park:",
+      "options": [
+        "der Parkplatz",
+        "der Park"
+      ],
+      "answer": "der Parkplatz",
+      "explanation": "Parkplatz.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "A multi-storey car park:",
+      "options": [
+        "das Parkhaus",
+        "der Parkturm"
+      ],
+      "answer": "das Parkhaus",
+      "explanation": "Park + Haus.",
+      "id": "q5"
+    }
+  ]
+}

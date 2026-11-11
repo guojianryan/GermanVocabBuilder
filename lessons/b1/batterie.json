@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Batterie",
+    "partOfSpeech": "noun, feminine (die Batterie)",
+    "pronunciation": {
+      "respelling": "ba-te-REE",
+      "ipa": "batəˈʁiː",
+      "notes": "Plural: die Batterien."
+    },
+    "meaning": "battery",
+    "shortDefinition": "Battery."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Batterie, plural die Batterien.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Batterie"
+        },
+        {
+          "label": "More than one",
+          "value": "die Batterien"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Batterie ist leer.",
+      "english": "The battery is flat.",
+      "highlight": [
+        "Batterie"
+      ]
+    },
+    {
+      "german": "Ich brauche neue Batterien für die Fernbedienung.",
+      "english": "I need new batteries for the remote.",
+      "highlight": [
+        "Batterien"
+      ]
+    },
+    {
+      "german": "Das Auto springt nicht an – die Batterie!",
+      "english": "The car won't start – the battery!",
+      "highlight": [
+        "Batterie!"
+      ]
+    }
+  ],
+  "forms": [
+    "Akku"
+  ],
+  "memoryHook": "Die Batterie (stress at the end). Phone battery: der Akku.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Batterie",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Batterie is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Batterie, zwei ___",
+      "answer": "Batterien",
+      "fullAnswer": "ein Batterie, zwei Batterien",
+      "explanation": "The plural is Batterien.",
+      "acceptedAnswers": [
+        "Batterien"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Batterie mean?",
+      "options": [
+        "to learn",
+        "hot",
+        "battery"
+      ],
+      "answer": "battery",
+      "explanation": "Batterie: battery.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "For phones, people often say…",
+      "options": [
+        "der Akku",
+        "die Batterie only"
+      ],
+      "answer": "der Akku",
+      "explanation": "Rechargeable.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Stress on…",
+      "options": [
+        "-RIE",
+        "BAT-"
+      ],
+      "answer": "-RIE",
+      "explanation": "ba-te-REE.",
+      "id": "q5"
+    }
+  ]
+}

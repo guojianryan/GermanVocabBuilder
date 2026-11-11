@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Variante",
+    "partOfSpeech": "noun, feminine (die Variante)",
+    "pronunciation": {
+      "respelling": "va-ri-AN-te",
+      "ipa": "vaʁiˈantə",
+      "notes": "Plural: die Varianten."
+    },
+    "meaning": "variant, version",
+    "shortDefinition": "Variant, version."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Variante, plural die Varianten.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Variante"
+        },
+        {
+          "label": "More than one",
+          "value": "die Varianten"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Es gibt zwei Varianten.",
+      "english": "There are two versions.",
+      "highlight": [
+        "Varianten."
+      ]
+    },
+    {
+      "german": "Ich nehme die günstigere Variante.",
+      "english": "I'll take the cheaper option.",
+      "highlight": [
+        "Variante."
+      ]
+    },
+    {
+      "german": "Das ist eine österreichische Variante.",
+      "english": "That's an Austrian variant.",
+      "highlight": [
+        "Variante."
+      ]
+    }
+  ],
+  "forms": [
+    "Varianten",
+    "die Varianten",
+    "die Variante"
+  ],
+  "memoryHook": "Die Variante (option, version).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Variante",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Variante is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Variante, zwei ___",
+      "answer": "Varianten",
+      "fullAnswer": "ein Variante, zwei Varianten",
+      "explanation": "The plural is Varianten.",
+      "acceptedAnswers": [
+        "Varianten"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Variante mean?",
+      "options": [
+        "expensive",
+        "variant",
+        "to open"
+      ],
+      "answer": "variant",
+      "explanation": "Variante: variant, version.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "V sounds like…",
+      "options": [
+        "v",
+        "f"
+      ],
+      "answer": "v",
+      "explanation": "va-ri-AN-te.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonym:",
+      "options": [
+        "die Version, die Möglichkeit",
+        "die Varietät"
+      ],
+      "answer": "die Version, die Möglichkeit",
+      "explanation": "Option.",
+      "id": "q5"
+    }
+  ]
+}

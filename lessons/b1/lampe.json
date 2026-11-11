@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Lampe",
+    "partOfSpeech": "noun, feminine (die Lampe)",
+    "pronunciation": {
+      "respelling": "LAM-pe",
+      "ipa": "ˈlampə",
+      "notes": "Plural: die Lampen."
+    },
+    "meaning": "lamp",
+    "shortDefinition": "Lamp."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Lampe, plural die Lampen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Lampe"
+        },
+        {
+          "label": "More than one",
+          "value": "die Lampen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Mach bitte die Lampe an.",
+      "english": "Please switch the lamp on.",
+      "highlight": [
+        "Lampe"
+      ]
+    },
+    {
+      "german": "Die Lampe über dem Tisch ist neu.",
+      "english": "The lamp above the table is new.",
+      "highlight": [
+        "Lampe"
+      ]
+    },
+    {
+      "german": "Wir brauchen eine neue Lampe.",
+      "english": "We need a new lamp.",
+      "highlight": [
+        "Lampe."
+      ]
+    }
+  ],
+  "forms": [
+    "Lampen",
+    "die Lampen",
+    "die Lampe"
+  ],
+  "memoryHook": "Die Lampe, die Lampen.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Lampe",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Lampe is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Lampe, zwei ___",
+      "answer": "Lampen",
+      "fullAnswer": "ein Lampe, zwei Lampen",
+      "explanation": "The plural is Lampen.",
+      "acceptedAnswers": [
+        "Lampen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Lampe mean?",
+      "options": [
+        "always",
+        "lamp",
+        "to open"
+      ],
+      "answer": "lamp",
+      "explanation": "Lampe: lamp.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Lampen",
+        "Lampes"
+      ],
+      "answer": "Lampen",
+      "explanation": "-n.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Bulb:",
+      "options": [
+        "die Glühbirne",
+        "die Lampenbirne"
+      ],
+      "answer": "die Glühbirne",
+      "explanation": "Glow pear!",
+      "id": "q5"
+    }
+  ]
+}

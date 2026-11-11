@@ -1,0 +1,155 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "bilden",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "BIL-den",
+      "ipa": "ˈbɪldn̩",
+      "notes": ""
+    },
+    "meaning": "to form; to educate",
+    "shortDefinition": "To form; to educate."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "bild|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "bild|est"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "bild|et"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "bild|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "bild|et"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "bild|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gebildet"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Bildet Gruppen von drei Personen.",
+      "english": "Form groups of three.",
+      "highlight": [
+        "Bildet"
+      ]
+    },
+    {
+      "german": "Wie bildet man das Perfekt?",
+      "english": "How do you form the perfect tense?",
+      "highlight": [
+        "bildet"
+      ]
+    },
+    {
+      "german": "Reisen bildet.",
+      "english": "Travel broadens the mind.",
+      "highlight": [
+        "bildet."
+      ]
+    }
+  ],
+  "forms": [
+    "gebildet",
+    "Bildung"
+  ],
+  "memoryHook": "Bilden (form) → die Bildung, gebildet, die Ausbildung.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (bilden)",
+      "answer": "bildet",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: bildet.",
+      "acceptedAnswers": [
+        "bildet"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (bilden, past)",
+      "answer": "gebildet",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gebildet.",
+      "acceptedAnswers": [
+        "gebildet"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does bilden mean?",
+      "options": [
+        "the bed",
+        "to form",
+        "to open"
+      ],
+      "answer": "to form",
+      "explanation": "bilden: to form; to educate.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Noun 'education':",
+      "options": [
+        "die Bildung",
+        "das Bild"
+      ],
+      "answer": "die Bildung",
+      "explanation": "Education.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Gebildet' (adjective) means…",
+      "options": [
+        "educated, cultured",
+        "pictured"
+      ],
+      "answer": "educated, cultured",
+      "explanation": "Educated.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Bürger",
+    "partOfSpeech": "noun, masculine (der Bürger)",
+    "pronunciation": {
+      "respelling": "BÜR-ger",
+      "ipa": "ˈbʏʁɡɐ",
+      "notes": "The plural looks the same. Plural: die Bürger."
+    },
+    "meaning": "citizen",
+    "shortDefinition": "Citizen."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Bürger, plural die Bürger.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Bürger"
+        },
+        {
+          "label": "More than one",
+          "value": "die Bürger"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Alle Bürger dürfen wählen.",
+      "english": "All citizens may vote.",
+      "highlight": [
+        "Bürger"
+      ]
+    },
+    {
+      "german": "Sie ist Bürgerin der Stadt.",
+      "english": "She's a citizen of the town.",
+      "highlight": [
+        "Bürgerin"
+      ]
+    },
+    {
+      "german": "Das Bürgeramt ist im Rathaus.",
+      "english": "The citizens' office is in the town hall.",
+      "highlight": [
+        "Bürgeramt"
+      ]
+    }
+  ],
+  "forms": [
+    "Bürgerin",
+    "Bürgermeister",
+    "Bürgeramt"
+  ],
+  "memoryHook": "Der Bürger (citizen). Bürgermeister = mayor, Bürgeramt = registry office.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Bürger",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Bürger is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Bürger, zwei ___",
+      "answer": "Bürger",
+      "fullAnswer": "ein Bürger, zwei Bürger",
+      "explanation": "The plural is Bürger.",
+      "acceptedAnswers": [
+        "Buerger"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Bürger mean?",
+      "options": [
+        "citizen",
+        "the bread",
+        "expensive"
+      ],
+      "answer": "citizen",
+      "explanation": "Bürger: citizen.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Female:",
+      "options": [
+        "die Bürgerin",
+        "die Bürger"
+      ],
+      "answer": "die Bürgerin",
+      "explanation": "-in.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "The mayor:",
+      "options": [
+        "der Bürgermeister",
+        "der Bürgerchef"
+      ],
+      "answer": "der Bürgermeister",
+      "explanation": "Bürger + Meister.",
+      "id": "q5"
+    }
+  ]
+}

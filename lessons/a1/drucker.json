@@ -1,0 +1,150 @@
+{
+ "schemaVersion": "1.4",
+ "language": "de",
+ "explanationLanguage": "en",
+ "level": "A1",
+ "levelSource": "Goethe-Zertifikat A1 Wortliste",
+ "lessonType": "card",
+ "word": {
+  "headword": "Drucker",
+  "partOfSpeech": "noun, masculine (der Drucker)",
+  "pronunciation": {
+   "respelling": "DROOK-er",
+   "ipa": "ˈdʁʊkɐ",
+   "notes": "Plural: die Drucker."
+  },
+  "meaning": "printer",
+  "shortDefinition": "Printer."
+ },
+ "wordFamily": [
+  {
+   "german": "drucken",
+   "english": "to print",
+   "type": "verb"
+  },
+  {
+   "german": "ausdrucken",
+   "english": "to print out",
+   "type": "verb"
+  }
+ ],
+ "commonMistakes": [
+  {
+   "title": "Gender and plural",
+   "explanation": "Der Drucker, plural die Drucker.",
+   "forms": [
+    {
+     "label": "One",
+     "value": "der Drucker"
+    },
+    {
+     "label": "More than one",
+     "value": "die Drucker"
+    }
+   ]
+  }
+ ],
+ "sampleSentences": [
+  {
+   "german": "Mein Drucker ist kaputt.",
+   "english": "My printer is broken.",
+   "highlight": [
+    "Drucker"
+   ]
+  },
+  {
+   "german": "Hast du einen Drucker?",
+   "english": "Have you got a printer?",
+   "highlight": [
+    "Drucker?"
+   ]
+  },
+  {
+   "german": "Der Drucker hat kein Papier mehr.",
+   "english": "The printer has run out of paper.",
+   "highlight": [
+    "Drucker"
+   ]
+  }
+ ],
+ "forms": [
+  "Drucker",
+  "die Drucker",
+  "der Drucker"
+ ],
+ "memoryHook": "Drucken (print) + -er. Plural stays die Drucker.",
+ "signOff": "Gut gemacht!",
+ "quiz": [
+  {
+   "type": "choice",
+   "prompt": "___ Drucker",
+   "options": [
+    "der",
+    "die",
+    "das"
+   ],
+   "answer": "der",
+   "explanation": "Drucker is masculine.",
+   "id": "q1"
+  },
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "ein Drucker, zwei ___",
+   "answer": "Drucker",
+   "fullAnswer": "ein Drucker, zwei Drucker",
+   "explanation": "The plural is Drucker.",
+   "acceptedAnswers": [
+    "Drucker"
+   ],
+   "id": "q2"
+  },
+  {
+   "type": "choice",
+   "prompt": "What does Drucker mean?",
+   "options": [
+    "to wait",
+    "the weather",
+    "printer"
+   ],
+   "answer": "printer",
+   "explanation": "Drucker: printer.",
+   "id": "q3"
+  },
+  {
+   "type": "choice",
+   "prompt": "Drucker comes from…",
+   "options": [
+    "drucken (to print)",
+    "drücken (to press)"
+   ],
+   "answer": "drucken (to print)",
+   "explanation": "Drucken + -er.",
+   "id": "q4"
+  },
+  {
+   "type": "choice",
+   "prompt": "'To print' is…",
+   "options": [
+    "drucken",
+    "drücken"
+   ],
+   "answer": "drucken",
+   "explanation": "No umlaut. Drücken = to push.",
+   "id": "q5"
+  }
+ ],
+ "etymology": {
+  "title": "Where it comes from",
+  "parts": [
+   {
+    "part": "Druck",
+    "meaning": "print"
+   },
+   {
+    "part": "er",
+    "meaning": "person or thing that does it"
+   }
+  ],
+  "literalMeaning": "thing that prints"
+ }
+}

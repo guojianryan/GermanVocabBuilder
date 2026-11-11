@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Datei",
+    "partOfSpeech": "noun, feminine (die Datei)",
+    "pronunciation": {
+      "respelling": "da-TIE",
+      "ipa": "daˈtaɪ̯",
+      "notes": "Plural: die Dateien."
+    },
+    "meaning": "file (computer)",
+    "shortDefinition": "File (computer)."
+  },
+  "wordFamily": [
+    {
+      "german": "die Daten",
+      "english": "data",
+      "type": "noun"
+    },
+    {
+      "german": "speichern",
+      "english": "to save",
+      "type": "verb"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Datei, plural die Dateien.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Datei"
+        },
+        {
+          "label": "More than one",
+          "value": "die Dateien"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich schicke dir die Datei per E-Mail.",
+      "english": "I'll email you the file.",
+      "highlight": [
+        "Datei"
+      ]
+    },
+    {
+      "german": "Hast du die Datei gespeichert?",
+      "english": "Did you save the file?",
+      "highlight": [
+        "Datei"
+      ]
+    },
+    {
+      "german": "Die Datei ist zu groß.",
+      "english": "The file is too big.",
+      "highlight": [
+        "Datei"
+      ]
+    }
+  ],
+  "forms": [
+    "Dateien",
+    "die Dateien",
+    "die Datei"
+  ],
+  "memoryHook": "Die Datei = computer file. Die Daten = data.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Datei",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Datei is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Datei, zwei ___",
+      "answer": "Dateien",
+      "fullAnswer": "ein Datei, zwei Dateien",
+      "explanation": "The plural is Dateien.",
+      "acceptedAnswers": [
+        "Dateien"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Datei mean?",
+      "options": [
+        "file (computer)",
+        "expensive",
+        "the shop"
+      ],
+      "answer": "file (computer)",
+      "explanation": "Datei: file (computer).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Stress on…",
+      "options": [
+        "-TEI",
+        "DA-"
+      ],
+      "answer": "-TEI",
+      "explanation": "da-TIE.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Datei or Daten? 'Data':",
+      "options": [
+        "die Daten",
+        "die Datei"
+      ],
+      "answer": "die Daten",
+      "explanation": "Datei = one file.",
+      "id": "q5"
+    }
+  ]
+}

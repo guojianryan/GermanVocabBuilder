@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Küste",
+    "partOfSpeech": "noun, feminine (die Küste)",
+    "pronunciation": {
+      "respelling": "KÜS-te",
+      "ipa": "ˈkʏstə",
+      "notes": "Plural: die Küsten."
+    },
+    "meaning": "coast",
+    "shortDefinition": "Coast."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Küste, plural die Küsten.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Küste"
+        },
+        {
+          "label": "More than one",
+          "value": "die Küsten"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir machen Urlaub an der Küste.",
+      "english": "We're on holiday on the coast.",
+      "highlight": [
+        "Küste."
+      ]
+    },
+    {
+      "german": "Die Küste ist sehr schön.",
+      "english": "The coast is very beautiful.",
+      "highlight": [
+        "Küste"
+      ]
+    },
+    {
+      "german": "Hamburg liegt nicht direkt an der Küste.",
+      "english": "Hamburg isn't right on the coast.",
+      "highlight": [
+        "Küste."
+      ]
+    }
+  ],
+  "forms": [
+    "Küsten",
+    "die Küsten",
+    "die Küste"
+  ],
+  "memoryHook": "Die Küste = coast. An der Küste.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Küste",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Küste is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Küste, zwei ___",
+      "answer": "Küsten",
+      "fullAnswer": "ein Küste, zwei Küsten",
+      "explanation": "The plural is Küsten.",
+      "acceptedAnswers": [
+        "Kuesten"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Küste mean?",
+      "options": [
+        "coast",
+        "the window",
+        "tomorrow"
+      ],
+      "answer": "coast",
+      "explanation": "Küste: coast.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'On the coast':",
+      "options": [
+        "an der Küste",
+        "auf der Küste"
+      ],
+      "answer": "an der Küste",
+      "explanation": "An.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Don't confuse with…",
+      "options": [
+        "die Kiste (box)",
+        "kosten"
+      ],
+      "answer": "die Kiste (box)",
+      "explanation": "Different.",
+      "id": "q5"
+    }
+  ]
+}

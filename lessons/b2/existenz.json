@@ -1,0 +1,134 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Existenz",
+    "partOfSpeech": "noun, feminine (die Existenz)",
+    "pronunciation": {
+      "respelling": "ek-sis-TENTS",
+      "ipa": "ɛksɪsˈtɛnts",
+      "notes": "Plural: die Existenzen."
+    },
+    "meaning": "existence; livelihood",
+    "shortDefinition": "Existence; livelihood."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Existenz, plural die Existenzen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Existenz"
+        },
+        {
+          "label": "More than one",
+          "value": "die Existenzen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er glaubt an die Existenz Gottes.",
+      "english": "He believes in the existence of God.",
+      "highlight": [
+        "Existenz"
+      ]
+    },
+    {
+      "german": "Sie hat sich eine Existenz aufgebaut.",
+      "english": "She's built up a livelihood.",
+      "highlight": [
+        "Existenz"
+      ]
+    },
+    {
+      "german": "Die Krise bedroht viele Existenzen.",
+      "english": "The crisis threatens many livelihoods.",
+      "highlight": [
+        "Existenzen."
+      ]
+    }
+  ],
+  "forms": [
+    "existieren",
+    "Existenzgründer"
+  ],
+  "memoryHook": "Die Existenz (existence; livelihood); existieren.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Existenz",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Existenz is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Existenz, zwei ___",
+      "answer": "Existenzen",
+      "fullAnswer": "ein Existenz, zwei Existenzen",
+      "explanation": "The plural is Existenzen.",
+      "acceptedAnswers": [
+        "Existenzen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Existenz mean?",
+      "options": [
+        "existence",
+        "to sleep",
+        "expensive"
+      ],
+      "answer": "existence",
+      "explanation": "Existenz: existence; livelihood.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Eine Existenz aufbauen' means…",
+      "options": [
+        "to build a livelihood",
+        "to start existing"
+      ],
+      "answer": "to build a livelihood",
+      "explanation": "Living.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Verb:",
+      "options": [
+        "existieren",
+        "existenzieren"
+      ],
+      "answer": "existieren",
+      "explanation": "Exist.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Start-up founder:",
+      "options": [
+        "der Existenzgründer",
+        "der Existenzbauer"
+      ],
+      "answer": "der Existenzgründer",
+      "explanation": "Business.",
+      "id": "q6"
+    }
+  ]
+}

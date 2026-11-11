@@ -1,0 +1,180 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "zulassen",
+    "partOfSpeech": "separable verb",
+    "pronunciation": {
+      "respelling": "TSOO-la-sen",
+      "ipa": "ˈtsuːˌlasn̩",
+      "notes": ""
+    },
+    "meaning": "to allow, permit; to register; to keep closed",
+    "shortDefinition": "To allow, permit; to register; to keep closed."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "zu",
+        "meaning": "to, closed"
+      },
+      {
+        "part": "lassen",
+        "meaning": "to let"
+      }
+    ],
+    "literalMeaning": "to let in"
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "lass|e … |zu"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "läss|t … |zu"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "läss|t … |zu"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "lass|en … |zu"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "lass|t … |zu"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "lass|en … |zu"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat zugelassen"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das lasse ich nicht zu!",
+      "english": "I won't allow that!",
+      "highlight": [
+        "lasse",
+        "zu!"
+      ]
+    },
+    {
+      "german": "Das Auto ist noch nicht zugelassen.",
+      "english": "The car isn't registered yet.",
+      "highlight": [
+        "zugelassen."
+      ]
+    },
+    {
+      "german": "Er wurde zum Studium zugelassen.",
+      "english": "He was admitted to the course.",
+      "highlight": [
+        "zugelassen."
+      ]
+    }
+  ],
+  "forms": [
+    "Zulassung"
+  ],
+  "memoryHook": "Zulassen = allow; register; die Zulassung.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ … zu (zulassen)",
+      "answer": "lässt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: lässt … zu.",
+      "acceptedAnswers": [
+        "laesst"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (zulassen, past)",
+      "answer": "zugelassen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe zugelassen.",
+      "acceptedAnswers": [
+        "zugelassen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does zulassen mean?",
+      "options": [
+        "quiet",
+        "cheap",
+        "to allow"
+      ],
+      "answer": "to allow",
+      "explanation": "zulassen: to allow, permit; to register; to keep closed.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Noun:",
+      "options": [
+        "die Zulassung (licence, admission)",
+        "der Zulass"
+      ],
+      "answer": "die Zulassung (licence, admission)",
+      "explanation": "Admission.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "er ___ … zu:",
+      "options": [
+        "lässt",
+        "lasst"
+      ],
+      "answer": "lässt",
+      "explanation": "a → ä.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Zugelassen' (car) means…",
+      "options": [
+        "registered",
+        "left closed"
+      ],
+      "answer": "registered",
+      "explanation": "Licensed.",
+      "id": "q6"
+    }
+  ]
+}

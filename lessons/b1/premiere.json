@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Premiere",
+    "partOfSpeech": "noun, feminine (die Premiere)",
+    "pronunciation": {
+      "respelling": "pre-MYAI-re",
+      "ipa": "pʁəˈmi̯eːʁə",
+      "notes": "Plural: die Premieren."
+    },
+    "meaning": "premiere, opening night",
+    "shortDefinition": "Premiere, opening night."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Premiere, plural die Premieren.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Premiere"
+        },
+        {
+          "label": "More than one",
+          "value": "die Premieren"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Heute ist die Premiere des Films.",
+      "english": "Today is the film's premiere.",
+      "highlight": [
+        "Premiere"
+      ]
+    },
+    {
+      "german": "Die Premiere war ausverkauft.",
+      "english": "The opening night was sold out.",
+      "highlight": [
+        "Premiere"
+      ]
+    },
+    {
+      "german": "Das ist für mich eine Premiere.",
+      "english": "That's a first for me.",
+      "highlight": [
+        "Premiere."
+      ]
+    }
+  ],
+  "forms": [
+    "Premieren",
+    "die Premieren",
+    "die Premiere"
+  ],
+  "memoryHook": "Die Premiere (French). Also: a first.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Premiere",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Premiere is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Premiere, zwei ___",
+      "answer": "Premieren",
+      "fullAnswer": "ein Premiere, zwei Premieren",
+      "explanation": "The plural is Premieren.",
+      "acceptedAnswers": [
+        "Premieren"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Premiere mean?",
+      "options": [
+        "tomorrow",
+        "premiere",
+        "quiet"
+      ],
+      "answer": "premiere",
+      "explanation": "Premiere: premiere, opening night.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Das ist eine Premiere' (informal) means…",
+      "options": [
+        "that's a first",
+        "that's a film"
+      ],
+      "answer": "that's a first",
+      "explanation": "First time.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Pronunciation:",
+      "options": [
+        "French",
+        "English"
+      ],
+      "answer": "French",
+      "explanation": "pre-MYAI-re.",
+      "id": "q5"
+    }
+  ]
+}

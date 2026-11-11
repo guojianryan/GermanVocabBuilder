@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Fenster",
+    "partOfSpeech": "noun, neuter (das Fenster)",
+    "pronunciation": {
+      "respelling": "FEN-ster",
+      "ipa": "ˈfɛnstɐ",
+      "notes": "The plural looks the same. Plural: die Fenster."
+    },
+    "meaning": "window",
+    "shortDefinition": "Window."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Fenster, plural die Fenster.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Fenster"
+        },
+        {
+          "label": "More than one",
+          "value": "die Fenster"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Mach bitte das Fenster auf.",
+      "english": "Please open the window.",
+      "highlight": [
+        "Fenster"
+      ]
+    },
+    {
+      "german": "Ich sitze gern am Fenster.",
+      "english": "I like sitting by the window.",
+      "highlight": [
+        "Fenster."
+      ]
+    },
+    {
+      "german": "Die Fenster sind schmutzig.",
+      "english": "The windows are dirty.",
+      "highlight": [
+        "Fenster"
+      ]
+    }
+  ],
+  "forms": [
+    "Fenster",
+    "die Fenster",
+    "das Fenster"
+  ],
+  "memoryHook": "Das Fenster (like 'fenestra' in Latin). Plural looks the same.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Fenster",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Fenster is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Fenster, zwei ___",
+      "answer": "Fenster",
+      "fullAnswer": "ein Fenster, zwei Fenster",
+      "explanation": "The plural is Fenster.",
+      "acceptedAnswers": [
+        "Fenster"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Fenster mean?",
+      "options": [
+        "window",
+        "the bill",
+        "the child"
+      ],
+      "answer": "window",
+      "explanation": "Fenster: window.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'By the window':",
+      "options": [
+        "am Fenster",
+        "beim Fenster"
+      ],
+      "answer": "am Fenster",
+      "explanation": "An dem.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "A window seat:",
+      "options": [
+        "ein Fensterplatz",
+        "ein Fenstersitz"
+      ],
+      "answer": "ein Fensterplatz",
+      "explanation": "Fenster + Platz.",
+      "id": "q5"
+    }
+  ]
+}

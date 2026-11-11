@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Rolle",
+    "partOfSpeech": "noun, feminine (die Rolle)",
+    "pronunciation": {
+      "respelling": "ROL-e",
+      "ipa": "ˈʁɔlə",
+      "notes": "Plural: die Rollen."
+    },
+    "meaning": "role; roll",
+    "shortDefinition": "Role; roll."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Rolle, plural die Rollen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Rolle"
+        },
+        {
+          "label": "More than one",
+          "value": "die Rollen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Sie spielt die Hauptrolle.",
+      "english": "She plays the lead role.",
+      "highlight": [
+        "Hauptrolle."
+      ]
+    },
+    {
+      "german": "Das spielt keine Rolle.",
+      "english": "That doesn't matter.",
+      "highlight": [
+        "Rolle."
+      ]
+    },
+    {
+      "german": "Eine Rolle Klopapier, bitte.",
+      "english": "A roll of toilet paper, please.",
+      "highlight": [
+        "Rolle"
+      ]
+    }
+  ],
+  "forms": [
+    "Rollen",
+    "die Rollen",
+    "die Rolle"
+  ],
+  "memoryHook": "Die Rolle: role, roll. Das spielt keine Rolle!",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Rolle",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Rolle is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Rolle, zwei ___",
+      "answer": "Rollen",
+      "fullAnswer": "ein Rolle, zwei Rollen",
+      "explanation": "The plural is Rollen.",
+      "acceptedAnswers": [
+        "Rollen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Rolle mean?",
+      "options": [
+        "the door",
+        "role",
+        "to sing"
+      ],
+      "answer": "role",
+      "explanation": "Rolle: role; roll.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Das spielt keine Rolle' means…",
+      "options": [
+        "It doesn't matter",
+        "It's not a part"
+      ],
+      "answer": "It doesn't matter",
+      "explanation": "Idiom.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Rollen",
+        "Rolles"
+      ],
+      "answer": "Rollen",
+      "explanation": "-n.",
+      "id": "q5"
+    }
+  ]
+}

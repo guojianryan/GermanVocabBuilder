@@ -1,0 +1,147 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Befund",
+    "partOfSpeech": "noun, masculine (der Befund)",
+    "pronunciation": {
+      "respelling": "be-FOONT",
+      "ipa": "bəˈfʊnt",
+      "notes": "Plural: die Befunde."
+    },
+    "meaning": "findings, results",
+    "shortDefinition": "Findings, results."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Be",
+        "meaning": "prefix"
+      },
+      {
+        "part": "fund",
+        "meaning": "find (finden)"
+      }
+    ],
+    "literalMeaning": "what is found"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Befund, plural die Befunde.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Befund"
+        },
+        {
+          "label": "More than one",
+          "value": "die Befunde"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Befund ist negativ.",
+      "english": "The results are negative.",
+      "highlight": [
+        "Befund"
+      ]
+    },
+    {
+      "german": "Der Arzt bespricht den Befund.",
+      "english": "The doctor discusses the findings.",
+      "highlight": [
+        "Befund."
+      ]
+    },
+    {
+      "german": "Ohne Befund.",
+      "english": "No abnormal findings.",
+      "highlight": [
+        "Befund."
+      ]
+    }
+  ],
+  "forms": [
+    "befinden"
+  ],
+  "memoryHook": "Befinden → der Befund (medical findings); ohne Befund.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Befund",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Befund is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Befund, zwei ___",
+      "answer": "Befunde",
+      "fullAnswer": "ein Befund, zwei Befunde",
+      "explanation": "The plural is Befunde.",
+      "acceptedAnswers": [
+        "Befunde"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Befund mean?",
+      "options": [
+        "findings",
+        "the evening",
+        "to wait"
+      ],
+      "answer": "findings",
+      "explanation": "Befund: findings, results.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Ohne Befund' (o. B.) means…",
+      "options": [
+        "nothing abnormal found",
+        "no results yet"
+      ],
+      "answer": "nothing abnormal found",
+      "explanation": "Medical.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "befinden (find, deem)",
+        "Fund only"
+      ],
+      "answer": "befinden (find, deem)",
+      "explanation": "Find.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Medical 'negativer Befund' usually means…",
+      "options": [
+        "good news (nothing found)",
+        "bad news"
+      ],
+      "answer": "good news (nothing found)",
+      "explanation": "Medicine.",
+      "id": "q6"
+    }
+  ]
+}

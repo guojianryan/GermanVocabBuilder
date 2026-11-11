@@ -1,0 +1,180 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "berufen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "be-ROO-fen",
+      "ipa": "bəˈʁuːfn̩",
+      "notes": ""
+    },
+    "meaning": "to appoint; (sich ~ auf) to refer to, cite",
+    "shortDefinition": "To appoint; (sich ~ auf) to refer to, cite."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "be",
+        "meaning": "prefix"
+      },
+      {
+        "part": "rufen",
+        "meaning": "to call"
+      }
+    ],
+    "literalMeaning": "to call (to a post)"
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "beruf|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "beruf|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "beruf|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "beruf|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "beruf|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "beruf|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat berufen"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Sie wurde zur Richterin berufen.",
+      "english": "She was appointed judge.",
+      "highlight": [
+        "berufen."
+      ]
+    },
+    {
+      "german": "Er beruft sich auf das Gesetz.",
+      "english": "He cites the law.",
+      "highlight": [
+        "beruft"
+      ]
+    },
+    {
+      "german": "Sie fühlt sich zur Ärztin berufen.",
+      "english": "She feels called to be a doctor.",
+      "highlight": [
+        "berufen."
+      ]
+    }
+  ],
+  "forms": [
+    "Berufung",
+    "Beruf"
+  ],
+  "memoryHook": "Berufen (berief, berufen): appoint; sich berufen auf; die Berufung.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (berufen)",
+      "answer": "beruft",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: beruft.",
+      "acceptedAnswers": [
+        "beruft"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (berufen, past)",
+      "answer": "berufen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe berufen.",
+      "acceptedAnswers": [
+        "berufen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does berufen mean?",
+      "options": [
+        "to sing",
+        "to appoint",
+        "cheap"
+      ],
+      "answer": "to appoint",
+      "explanation": "berufen: to appoint; (sich ~ auf) to refer to, cite.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Sich berufen auf' means…",
+      "options": [
+        "to refer to, invoke",
+        "to call oneself"
+      ],
+      "answer": "to refer to, invoke",
+      "explanation": "Invoke.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Sich berufen fühlen' means…",
+      "options": [
+        "to feel called / have a vocation",
+        "to feel professional"
+      ],
+      "answer": "to feel called / have a vocation",
+      "explanation": "Vocation.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Noun (vocation; appeal):",
+      "options": [
+        "die Berufung",
+        "der Beruf only"
+      ],
+      "answer": "die Berufung",
+      "explanation": "Calling.",
+      "id": "q6"
+    }
+  ]
+}

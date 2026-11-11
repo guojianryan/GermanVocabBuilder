@@ -1,0 +1,159 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "schauen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "SHOW-en",
+      "ipa": "ˈʃaʊ̯ən",
+      "notes": ""
+    },
+    "meaning": "to look",
+    "shortDefinition": "To look."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "schau|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "schau|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "schau|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "schau|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "schau|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "schau|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat geschaut"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Schau mal!",
+      "english": "Look!",
+      "highlight": [
+        "Schau"
+      ]
+    },
+    {
+      "german": "Ich schaue aus dem Fenster.",
+      "english": "I'm looking out of the window.",
+      "highlight": [
+        "schaue"
+      ]
+    },
+    {
+      "german": "Wir schauen heute Abend fern.",
+      "english": "We're watching TV tonight.",
+      "highlight": [
+        "schauen",
+        "fern."
+      ]
+    }
+  ],
+  "forms": [
+    "schaue",
+    "schaust",
+    "schaut",
+    "schauen",
+    "geschaut"
+  ],
+  "memoryHook": "Schauen (south) = gucken (north) = look.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (schauen)",
+      "answer": "schaut",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: schaut.",
+      "acceptedAnswers": [
+        "schaut"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (schauen, past)",
+      "answer": "geschaut",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe geschaut.",
+      "acceptedAnswers": [
+        "geschaut"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does schauen mean?",
+      "options": [
+        "to look",
+        "the street",
+        "the key"
+      ],
+      "answer": "to look",
+      "explanation": "schauen: to look.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Schauen is more common in…",
+      "options": [
+        "southern Germany, Austria",
+        "northern Germany"
+      ],
+      "answer": "southern Germany, Austria",
+      "explanation": "North: gucken.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonyms:",
+      "options": [
+        "sehen, gucken",
+        "hören"
+      ],
+      "answer": "sehen, gucken",
+      "explanation": "Look.",
+      "id": "q5"
+    }
+  ]
+}

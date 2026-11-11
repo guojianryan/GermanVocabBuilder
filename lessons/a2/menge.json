@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Menge",
+    "partOfSpeech": "noun, feminine (die Menge)",
+    "pronunciation": {
+      "respelling": "MENG-e",
+      "ipa": "ˈmɛŋə",
+      "notes": "Plural: die Mengen."
+    },
+    "meaning": "amount, quantity; crowd",
+    "shortDefinition": "Amount, quantity; crowd."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Menge, plural die Mengen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Menge"
+        },
+        {
+          "label": "More than one",
+          "value": "die Mengen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir haben eine Menge Arbeit.",
+      "english": "We have a lot of work.",
+      "highlight": [
+        "Menge"
+      ]
+    },
+    {
+      "german": "Das kostet eine Menge Geld.",
+      "english": "That costs a lot of money.",
+      "highlight": [
+        "Menge"
+      ]
+    },
+    {
+      "german": "Die Menge hat applaudiert.",
+      "english": "The crowd applauded.",
+      "highlight": [
+        "Menge"
+      ]
+    }
+  ],
+  "forms": [
+    "Mengen",
+    "die Mengen",
+    "die Menge"
+  ],
+  "memoryHook": "Eine Menge = loads of. Die Menge = amount / crowd.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Menge",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Menge is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Menge, zwei ___",
+      "answer": "Mengen",
+      "fullAnswer": "ein Menge, zwei Mengen",
+      "explanation": "The plural is Mengen.",
+      "acceptedAnswers": [
+        "Mengen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Menge mean?",
+      "options": [
+        "amount",
+        "the weather",
+        "always"
+      ],
+      "answer": "amount",
+      "explanation": "Menge: amount, quantity; crowd.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Eine Menge' means…",
+      "options": [
+        "a lot of",
+        "a little"
+      ],
+      "answer": "a lot of",
+      "explanation": "Informal.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Eine Menge Leute':",
+      "options": [
+        "a lot of people",
+        "a crowd of mountains"
+      ],
+      "answer": "a lot of people",
+      "explanation": "A lot.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Lohn",
+    "partOfSpeech": "noun, masculine (der Lohn)",
+    "pronunciation": {
+      "respelling": "LOHN",
+      "ipa": "loːn",
+      "notes": "Plural: die Löhne."
+    },
+    "meaning": "wage(s)",
+    "shortDefinition": "Wage(s)."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Lohn, plural die Löhne.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Lohn"
+        },
+        {
+          "label": "More than one",
+          "value": "die Löhne"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Lohn kommt am Monatsende.",
+      "english": "Wages come at the end of the month.",
+      "highlight": [
+        "Lohn"
+      ]
+    },
+    {
+      "german": "Die Löhne sind gestiegen.",
+      "english": "Wages have risen.",
+      "highlight": [
+        "Löhne"
+      ]
+    },
+    {
+      "german": "Der Mindestlohn beträgt …",
+      "english": "The minimum wage is …",
+      "highlight": [
+        "Mindestlohn"
+      ]
+    }
+  ],
+  "forms": [
+    "Löhne",
+    "die Löhne",
+    "der Lohn"
+  ],
+  "memoryHook": "Der Lohn (wage), die Löhne. Der Mindestlohn = minimum wage.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Lohn",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Lohn is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Lohn, zwei ___",
+      "answer": "Löhne",
+      "fullAnswer": "ein Lohn, zwei Löhne",
+      "explanation": "The plural is Löhne.",
+      "acceptedAnswers": [
+        "Loehne"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Lohn mean?",
+      "options": [
+        "the bed",
+        "slowly",
+        "wage(s)"
+      ],
+      "answer": "wage(s)",
+      "explanation": "Lohn: wage(s).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Lohn vs Gehalt:",
+      "options": [
+        "Lohn = wage (hourly); Gehalt = salary",
+        "same"
+      ],
+      "answer": "Lohn = wage (hourly); Gehalt = salary",
+      "explanation": "Similar.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Löhne",
+        "Lohne"
+      ],
+      "answer": "Löhne",
+      "explanation": "o → ö.",
+      "id": "q5"
+    }
+  ]
+}

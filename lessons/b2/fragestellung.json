@@ -1,0 +1,138 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Fragestellung",
+    "partOfSpeech": "noun, feminine (die Fragestellung)",
+    "pronunciation": {
+      "respelling": "FRAA-ge-shte-lung",
+      "ipa": "ˈfʁaːɡəˌʃtɛlʊŋ",
+      "notes": "Plural: die Fragestellungen."
+    },
+    "meaning": "question, problem (to investigate)",
+    "shortDefinition": "Question, problem (to investigate)."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Frage",
+        "meaning": "question"
+      },
+      {
+        "part": "stellung",
+        "meaning": "positioning"
+      }
+    ],
+    "literalMeaning": "question-posing"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Fragestellung, plural die Fragestellungen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Fragestellung"
+        },
+        {
+          "label": "More than one",
+          "value": "die Fragestellungen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das ist eine interessante Fragestellung.",
+      "english": "That's an interesting question.",
+      "highlight": [
+        "Fragestellung."
+      ]
+    },
+    {
+      "german": "Die Fragestellung der Studie ist klar.",
+      "english": "The study's research question is clear.",
+      "highlight": [
+        "Fragestellung"
+      ]
+    },
+    {
+      "german": "Je nach Fragestellung.",
+      "english": "Depending on the question.",
+      "highlight": [
+        "Fragestellung."
+      ]
+    }
+  ],
+  "forms": [
+    "Fragestellungen",
+    "die Fragestellungen",
+    "die Fragestellung"
+  ],
+  "memoryHook": "Frage + Stellung = the question posed (research).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Fragestellung",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Fragestellung is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Fragestellung, zwei ___",
+      "answer": "Fragestellungen",
+      "fullAnswer": "ein Fragestellung, zwei Fragestellungen",
+      "explanation": "The plural is Fragestellungen.",
+      "acceptedAnswers": [
+        "Fragestellungen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Fragestellung mean?",
+      "options": [
+        "question",
+        "to wait",
+        "to open"
+      ],
+      "answer": "question",
+      "explanation": "Fragestellung: question, problem (to investigate).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Frage + Stellung",
+        "fragen + stellen only"
+      ],
+      "answer": "Frage + Stellung",
+      "explanation": "Question-posing.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Register:",
+      "options": [
+        "academic / formal",
+        "slang"
+      ],
+      "answer": "academic / formal",
+      "explanation": "Research.",
+      "id": "q5"
+    }
+  ]
+}

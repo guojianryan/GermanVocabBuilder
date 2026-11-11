@@ -1,0 +1,172 @@
+{
+ "schemaVersion": "1.4",
+ "language": "de",
+ "explanationLanguage": "en",
+ "level": "B1",
+ "levelSource": "Goethe-Zertifikat B1 Wortliste",
+ "lessonType": "card",
+ "word": {
+  "headword": "verschreiben",
+  "partOfSpeech": "verb",
+  "pronunciation": {
+   "respelling": "fer-SHRYE-ben",
+   "ipa": "fɛɐ̯ˈʃʁaɪ̯bn̩",
+   "notes": ""
+  },
+  "meaning": "to prescribe",
+  "shortDefinition": "To prescribe."
+ },
+ "tables": [
+  {
+   "title": "Present tense",
+   "columns": [
+    "present"
+   ],
+   "rows": [
+    {
+     "label": "ich",
+     "cells": [
+      "verschreib|e"
+     ]
+    },
+    {
+     "label": "du",
+     "cells": [
+      "verschreib|st"
+     ]
+    },
+    {
+     "label": "er, sie, es",
+     "cells": [
+      "verschreib|t"
+     ]
+    },
+    {
+     "label": "wir",
+     "cells": [
+      "verschreib|en"
+     ]
+    },
+    {
+     "label": "ihr",
+     "cells": [
+      "verschreib|t"
+     ]
+    },
+    {
+     "label": "sie, Sie",
+     "cells": [
+      "verschreib|en"
+     ]
+    }
+   ],
+   "notes": [
+    "Past (Perfekt): hat verschrieben"
+   ]
+  }
+ ],
+ "sampleSentences": [
+  {
+   "german": "Der Arzt verschreibt mir Tabletten.",
+   "english": "The doctor prescribes me tablets.",
+   "highlight": [
+    "verschreibt"
+   ]
+  },
+  {
+   "german": "Das Medikament wurde verschrieben.",
+   "english": "The medication was prescribed.",
+   "highlight": [
+    "verschrieben."
+   ]
+  },
+  {
+   "german": "Ich habe mich verschrieben.",
+   "english": "I made a writing mistake.",
+   "highlight": [
+    "verschrieben."
+   ]
+  }
+ ],
+ "forms": [
+  "verschreibe",
+  "verschreibst",
+  "verschreibt",
+  "verschreiben",
+  "verschrieben"
+ ],
+ "memoryHook": "Verschreiben = prescribe. Sich verschreiben = slip of the pen.",
+ "signOff": "Gut gemacht!",
+ "quiz": [
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "er ___ (verschreiben)",
+   "answer": "verschreibt",
+   "fullAnswer": "",
+   "explanation": "For er, sie, es: verschreibt.",
+   "acceptedAnswers": [
+    "verschreibt"
+   ],
+   "id": "q1"
+  },
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "Ich habe schon ___. (verschreiben, past)",
+   "answer": "verschrieben",
+   "fullAnswer": "",
+   "explanation": "Perfekt: habe verschrieben.",
+   "acceptedAnswers": [
+    "verschrieben"
+   ],
+   "id": "q2"
+  },
+  {
+   "type": "choice",
+   "prompt": "What does verschreiben mean?",
+   "options": [
+    "tomorrow",
+    "the car",
+    "to prescribe"
+   ],
+   "answer": "to prescribe",
+   "explanation": "verschreiben: to prescribe.",
+   "id": "q3"
+  },
+  {
+   "type": "choice",
+   "prompt": "'Sich verschreiben' means…",
+   "options": [
+    "to make a writing mistake",
+    "to sign up"
+   ],
+   "answer": "to make a writing mistake",
+   "explanation": "Slip of the pen.",
+   "id": "q4"
+  },
+  {
+   "type": "choice",
+   "prompt": "Prescription-only:",
+   "options": [
+    "verschreibungspflichtig",
+    "rezeptlos"
+   ],
+   "answer": "verschreibungspflichtig",
+   "explanation": "Prescription required.",
+   "id": "q5"
+  }
+ ],
+ "etymology": {
+  "title": "Where it comes from",
+  "parts": [
+   {
+    "part": "ver",
+    "meaning": "prefix (change, away)"
+   },
+   {
+    "part": "schreiben",
+    "meaning": "to write"
+   }
+  ],
+  "literalMeaning": "to write out (a prescription)"
+ }
+}

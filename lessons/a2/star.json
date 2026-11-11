@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Star",
+    "partOfSpeech": "noun, masculine (der Star)",
+    "pronunciation": {
+      "respelling": "STAAR",
+      "ipa": "staːɐ̯",
+      "notes": "Plural: die Stars."
+    },
+    "meaning": "star (celebrity)",
+    "shortDefinition": "Star (celebrity)."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Star, plural die Stars.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Star"
+        },
+        {
+          "label": "More than one",
+          "value": "die Stars"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Sie ist ein großer Star.",
+      "english": "She's a big star.",
+      "highlight": [
+        "Star."
+      ]
+    },
+    {
+      "german": "Viele Stars wohnen in Berlin.",
+      "english": "Lots of stars live in Berlin.",
+      "highlight": [
+        "Stars"
+      ]
+    },
+    {
+      "german": "Er war der Star des Abends.",
+      "english": "He was the star of the evening.",
+      "highlight": [
+        "Star"
+      ]
+    }
+  ],
+  "forms": [
+    "Stars",
+    "die Stars",
+    "der Star"
+  ],
+  "memoryHook": "Der Star (celebrity, English sound). In the sky: der Stern.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Star",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Star is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Star, zwei ___",
+      "answer": "Stars",
+      "fullAnswer": "ein Star, zwei Stars",
+      "explanation": "The plural is Stars.",
+      "acceptedAnswers": [
+        "Stars"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Star mean?",
+      "options": [
+        "star (celebrity)",
+        "to help",
+        "the key"
+      ],
+      "answer": "star (celebrity)",
+      "explanation": "Star: star (celebrity).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "St here sounds like…",
+      "options": [
+        "st (English)",
+        "sht"
+      ],
+      "answer": "st (English)",
+      "explanation": "English word.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "A star in the sky:",
+      "options": [
+        "der Stern",
+        "der Star"
+      ],
+      "answer": "der Stern",
+      "explanation": "Stern.",
+      "id": "q5"
+    }
+  ]
+}

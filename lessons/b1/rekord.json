@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Rekord",
+    "partOfSpeech": "noun, masculine (der Rekord)",
+    "pronunciation": {
+      "respelling": "re-KORT",
+      "ipa": "ʁeˈkɔʁt",
+      "notes": "Plural: die Rekorde."
+    },
+    "meaning": "record",
+    "shortDefinition": "Record."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Rekord, plural die Rekorde.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Rekord"
+        },
+        {
+          "label": "More than one",
+          "value": "die Rekorde"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Sie hat einen neuen Rekord aufgestellt.",
+      "english": "She set a new record.",
+      "highlight": [
+        "Rekord"
+      ]
+    },
+    {
+      "german": "Das ist ein Weltrekord!",
+      "english": "That's a world record!",
+      "highlight": [
+        "Weltrekord!"
+      ]
+    },
+    {
+      "german": "Die Temperaturen erreichen Rekordwerte.",
+      "english": "Temperatures are reaching record levels.",
+      "highlight": [
+        "Rekordwerte."
+      ]
+    }
+  ],
+  "forms": [
+    "Rekorde",
+    "die Rekorde",
+    "der Rekord"
+  ],
+  "memoryHook": "Der Rekord (sport, best ever). Music: die Schallplatte.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Rekord",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Rekord is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Rekord, zwei ___",
+      "answer": "Rekorde",
+      "fullAnswer": "ein Rekord, zwei Rekorde",
+      "explanation": "The plural is Rekorde.",
+      "acceptedAnswers": [
+        "Rekorde"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Rekord mean?",
+      "options": [
+        "to learn",
+        "to sing",
+        "record"
+      ],
+      "answer": "record",
+      "explanation": "Rekord: record.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Spelling:",
+      "options": [
+        "Rekord (k)",
+        "Record"
+      ],
+      "answer": "Rekord (k)",
+      "explanation": "German k.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Record (music) is…",
+      "options": [
+        "die Schallplatte",
+        "der Rekord"
+      ],
+      "answer": "die Schallplatte",
+      "explanation": "Different!",
+      "id": "q5"
+    }
+  ]
+}

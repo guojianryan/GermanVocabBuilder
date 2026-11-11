@@ -1,0 +1,215 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "full",
+  "word": {
+    "headword": "dies-",
+    "partOfSpeech": "determiner (dieser, diese, dieses)",
+    "pronunciation": {
+      "respelling": "DEEZ-er, DEEZ-uh, DEEZ-es",
+      "ipa": "ˈdiːzɐ, ˈdiːzə, ˈdiːzəs",
+      "notes": "Long ie, the s sounds like z."
+    },
+    "meaning": "this, these",
+    "shortDefinition": "Points at a specific thing near you."
+  },
+  "intro": {
+    "title": "This one",
+    "paragraphs": [
+      "Dies- means 'this'. Its endings copy der, die, das: der → dieser, die → diese, das → dieses, den → diesen. If you know the article, you know the ending."
+    ]
+  },
+  "tables": [
+    {
+      "title": "Endings like der, die, das",
+      "columns": [
+        "masculine",
+        "feminine",
+        "neuter",
+        "plural"
+      ],
+      "rows": [
+        {
+          "label": "subject",
+          "cells": [
+            "dies|er",
+            "dies|e",
+            "dies|es",
+            "dies|e"
+          ]
+        },
+        {
+          "label": "object",
+          "cells": [
+            "dies|en",
+            "dies|e",
+            "dies|es",
+            "dies|e"
+          ]
+        },
+        {
+          "label": "dative",
+          "cells": [
+            "dies|em",
+            "dies|er",
+            "dies|em",
+            "dies|en"
+          ]
+        }
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "der, die, das",
+      "english": "the",
+      "type": "article"
+    },
+    {
+      "german": "jed-",
+      "english": "each, every",
+      "type": "determiner"
+    },
+    {
+      "german": "welch-",
+      "english": "which",
+      "type": "determiner"
+    }
+  ],
+  "keyTrap": {
+    "title": "The big trap: the ending must match",
+    "explanation": "Dies- always needs the ending of der, die or das for that noun.",
+    "wrong": {
+      "german": "Ich möchte dies Jacke.",
+      "verdict": "Die Jacke → diese Jacke."
+    },
+    "correct": [
+      {
+        "german": "Ich möchte diese Jacke.",
+        "literal": "I'd like this jacket.",
+        "note": "Die → diese."
+      },
+      {
+        "german": "Ich nehme diesen Pullover.",
+        "literal": "I'll take this jumper.",
+        "note": "Den → diesen."
+      }
+    ]
+  },
+  "commonMistakes": [
+    {
+      "title": "This week, this year",
+      "explanation": "Time phrases use the accusative without a preposition.",
+      "examples": [
+        {
+          "german": "Diese Woche habe ich frei.",
+          "english": "I'm off this week.",
+          "highlight": "Diese"
+        },
+        {
+          "german": "Diesen Sommer fahren wir nach Spanien.",
+          "english": "This summer we're going to Spain.",
+          "highlight": "Diesen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ist dieser Platz frei?",
+      "english": "Is this seat free?",
+      "highlight": [
+        "dieser"
+      ]
+    },
+    {
+      "german": "Was kostet dieses Buch?",
+      "english": "How much is this book?",
+      "highlight": [
+        "dieses"
+      ]
+    },
+    {
+      "german": "Diese Schuhe gefallen mir.",
+      "english": "I like these shoes.",
+      "highlight": [
+        "Diese"
+      ]
+    },
+    {
+      "german": "Ich wohne seit Mai in dieser Stadt.",
+      "english": "I've lived in this town since May.",
+      "highlight": [
+        "dieser"
+      ]
+    }
+  ],
+  "forms": [
+    "dieser",
+    "diese",
+    "dieses",
+    "diesen",
+    "diesem"
+  ],
+  "memoryHook": "Dies- copies der, die, das: der → dieser, die → diese, das → dieses, den → diesen.",
+  "signOff": "Diese Lektion ist fertig!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Tisch ist schön. (der Tisch)",
+      "options": [
+        "Dieser",
+        "Diese",
+        "Dieses"
+      ],
+      "answer": "Dieser",
+      "explanation": "Der → dieser.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich kaufe ___ Auto. (das Auto)",
+      "options": [
+        "dieser",
+        "dieses",
+        "diesen"
+      ],
+      "answer": "dieses",
+      "explanation": "Das → dieses.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich nehme ___ Rock. (der Rock, object)",
+      "options": [
+        "dieser",
+        "diesen"
+      ],
+      "answer": "diesen",
+      "explanation": "Den → diesen.",
+      "id": "q3"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "___ Woche bin ich in Urlaub. (this)",
+      "answer": "Diese",
+      "fullAnswer": "Diese Woche bin ich in Urlaub.",
+      "explanation": "Die Woche → diese.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "In ___ Haus wohne ich. (dem Haus)",
+      "options": [
+        "diesem",
+        "dieses"
+      ],
+      "answer": "diesem",
+      "explanation": "Dem → diesem.",
+      "id": "q5"
+    }
+  ]
+}

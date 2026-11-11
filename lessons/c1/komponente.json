@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Komponente",
+    "partOfSpeech": "noun, feminine (die Komponente)",
+    "pronunciation": {
+      "respelling": "kom-po-NEN-te",
+      "ipa": "kɔmpoˈnɛntə",
+      "notes": "Plural: die Komponenten."
+    },
+    "meaning": "component",
+    "shortDefinition": "Component."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Komponente, plural die Komponenten.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Komponente"
+        },
+        {
+          "label": "More than one",
+          "value": "die Komponenten"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Eine wichtige Komponente des Systems.",
+      "english": "An important component of the system.",
+      "highlight": [
+        "Komponente"
+      ]
+    },
+    {
+      "german": "Die Komponenten werden in China hergestellt.",
+      "english": "The components are made in China.",
+      "highlight": [
+        "Komponenten"
+      ]
+    },
+    {
+      "german": "Das hat eine emotionale Komponente.",
+      "english": "That has an emotional element.",
+      "highlight": [
+        "Komponente."
+      ]
+    }
+  ],
+  "forms": [
+    "Bestandteil"
+  ],
+  "memoryHook": "Die Komponente = Bestandteil.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Komponente",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Komponente is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Komponente, zwei ___",
+      "answer": "Komponenten",
+      "fullAnswer": "ein Komponente, zwei Komponenten",
+      "explanation": "The plural is Komponenten.",
+      "acceptedAnswers": [
+        "Komponenten"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Komponente mean?",
+      "options": [
+        "component",
+        "never",
+        "the window"
+      ],
+      "answer": "component",
+      "explanation": "Komponente: component.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonym:",
+      "options": [
+        "der Bestandteil, das Element",
+        "die Kompetenz"
+      ],
+      "answer": "der Bestandteil, das Element",
+      "explanation": "Part.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Komponenten",
+        "Komponentes"
+      ],
+      "answer": "Komponenten",
+      "explanation": "-n.",
+      "id": "q5"
+    }
+  ]
+}

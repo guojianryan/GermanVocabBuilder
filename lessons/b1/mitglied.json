@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Mitglied",
+    "partOfSpeech": "noun, neuter (das Mitglied)",
+    "pronunciation": {
+      "respelling": "MIT-gleet",
+      "ipa": "ˈmɪtɡliːt",
+      "notes": "Plural: die Mitglieder."
+    },
+    "meaning": "member",
+    "shortDefinition": "Member."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Mit",
+        "meaning": "with, co-"
+      },
+      {
+        "part": "glied",
+        "meaning": "limb, link"
+      }
+    ],
+    "literalMeaning": "co-limb",
+    "summary": "A limb of the same body."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Mitglied, plural die Mitglieder.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Mitglied"
+        },
+        {
+          "label": "More than one",
+          "value": "die Mitglieder"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich bin Mitglied im Sportverein.",
+      "english": "I'm a member of the sports club.",
+      "highlight": [
+        "Mitglied"
+      ]
+    },
+    {
+      "german": "Der Verein hat 200 Mitglieder.",
+      "english": "The club has 200 members.",
+      "highlight": [
+        "Mitglieder."
+      ]
+    },
+    {
+      "german": "Er ist Mitglied der Partei.",
+      "english": "He's a member of the party.",
+      "highlight": [
+        "Mitglied"
+      ]
+    }
+  ],
+  "forms": [
+    "Mitgliedschaft"
+  ],
+  "memoryHook": "Das Mitglied (always das!). Mitgliedschaft = membership.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Mitglied",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Mitglied is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Mitglied, zwei ___",
+      "answer": "Mitglieder",
+      "fullAnswer": "ein Mitglied, zwei Mitglieder",
+      "explanation": "The plural is Mitglieder.",
+      "acceptedAnswers": [
+        "Mitglieder"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Mitglied mean?",
+      "options": [
+        "the car",
+        "the weather",
+        "member"
+      ],
+      "answer": "member",
+      "explanation": "Mitglied: member.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gender (even for people):",
+      "options": [
+        "das",
+        "der"
+      ],
+      "answer": "das",
+      "explanation": "Das Glied.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Membership:",
+      "options": [
+        "die Mitgliedschaft",
+        "die Mitgliederung"
+      ],
+      "answer": "die Mitgliedschaft",
+      "explanation": "-schaft.",
+      "id": "q5"
+    }
+  ]
+}

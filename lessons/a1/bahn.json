@@ -1,0 +1,146 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Bahn",
+    "partOfSpeech": "noun, feminine (die Bahn)",
+    "pronunciation": {
+      "respelling": "BAHN",
+      "ipa": "baːn",
+      "notes": "Plural: die Bahnen."
+    },
+    "meaning": "railway; train; tram",
+    "shortDefinition": "Railway; train; tram."
+  },
+  "wordFamily": [
+    {
+      "german": "der Bahnhof",
+      "english": "station",
+      "type": "noun"
+    },
+    {
+      "german": "die U-Bahn",
+      "english": "underground, subway",
+      "type": "noun"
+    },
+    {
+      "german": "die S-Bahn",
+      "english": "suburban train",
+      "type": "noun"
+    },
+    {
+      "german": "die Straßenbahn",
+      "english": "tram",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Bahn, plural die Bahnen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Bahn"
+        },
+        {
+          "label": "More than one",
+          "value": "die Bahnen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich fahre mit der Bahn.",
+      "english": "I'm going by train.",
+      "highlight": [
+        "Bahn."
+      ]
+    },
+    {
+      "german": "Die Bahn hat Verspätung.",
+      "english": "The train is late.",
+      "highlight": [
+        "Bahn"
+      ]
+    },
+    {
+      "german": "Er arbeitet bei der Bahn.",
+      "english": "He works for the railway.",
+      "highlight": [
+        "Bahn."
+      ]
+    }
+  ],
+  "forms": [
+    "Bahnen",
+    "die Bahnen",
+    "die Bahn"
+  ],
+  "memoryHook": "Die Bahn means 'the track'. Every rail word builds on it: S-Bahn, U-Bahn, Straßenbahn, Bahnhof.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Bahn",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Bahn is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Bahn, zwei ___",
+      "answer": "Bahnen",
+      "fullAnswer": "ein Bahn, zwei Bahnen",
+      "explanation": "The plural is Bahnen.",
+      "acceptedAnswers": [
+        "Bahnen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Bahn mean?",
+      "options": [
+        "railway",
+        "hot",
+        "to learn"
+      ],
+      "answer": "railway",
+      "explanation": "Bahn: railway; train; tram.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich fahre mit ___ Bahn.",
+      "options": [
+        "dem",
+        "der"
+      ],
+      "answer": "der",
+      "explanation": "Die Bahn, dative: der.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Which is a city train?",
+      "options": [
+        "die S-Bahn",
+        "die Autobahn"
+      ],
+      "answer": "die S-Bahn",
+      "explanation": "S-Bahn, U-Bahn, Straßenbahn: city trains.",
+      "id": "q5"
+    }
+  ]
+}

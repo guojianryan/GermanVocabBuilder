@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Träger",
+    "partOfSpeech": "noun, masculine (der Träger)",
+    "pronunciation": {
+      "respelling": "TRAY-ger",
+      "ipa": "ˈtʁɛːɡɐ",
+      "notes": "The plural looks the same. Plural: die Träger."
+    },
+    "meaning": "bearer, carrier; strap; sponsor, responsible body",
+    "shortDefinition": "Bearer, carrier; strap; sponsor, responsible body."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Träg",
+        "meaning": "carry (tragen)"
+      },
+      {
+        "part": "er",
+        "meaning": "one who / thing that"
+      }
+    ],
+    "literalMeaning": "one that carries"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Träger, plural die Träger.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Träger"
+        },
+        {
+          "label": "More than one",
+          "value": "die Träger"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Träger der Schule ist die Stadt.",
+      "english": "The school is run by the town.",
+      "highlight": [
+        "Träger"
+      ]
+    },
+    {
+      "german": "Das Kleid hat dünne Träger.",
+      "english": "The dress has thin straps.",
+      "highlight": [
+        "Träger."
+      ]
+    },
+    {
+      "german": "Er ist Träger des Nobelpreises.",
+      "english": "He's a Nobel Prize winner.",
+      "highlight": [
+        "Träger"
+      ]
+    }
+  ],
+  "forms": [
+    "Trägerin",
+    "tragen"
+  ],
+  "memoryHook": "Tragen → der Träger (carrier; strap; responsible body).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Träger",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Träger is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Träger, zwei ___",
+      "answer": "Träger",
+      "fullAnswer": "ein Träger, zwei Träger",
+      "explanation": "The plural is Träger.",
+      "acceptedAnswers": [
+        "Traeger"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Träger mean?",
+      "options": [
+        "bearer",
+        "the car",
+        "tomorrow"
+      ],
+      "answer": "bearer",
+      "explanation": "Träger: bearer, carrier; strap; sponsor, responsible body.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "tragen (carry)",
+        "träge (lazy)"
+      ],
+      "answer": "tragen (carry)",
+      "explanation": "Carry.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Träger can mean…",
+      "options": [
+        "carrier, strap, holder, sponsor",
+        "only porter"
+      ],
+      "answer": "carrier, strap, holder, sponsor",
+      "explanation": "Several.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Bundesland",
+    "partOfSpeech": "noun, neuter (das Bundesland)",
+    "pronunciation": {
+      "respelling": "BOON-des-lant",
+      "ipa": "ˈbʊndəsˌlant",
+      "notes": "Plural: die Bundesländer."
+    },
+    "meaning": "federal state",
+    "shortDefinition": "Federal state."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Bund",
+        "meaning": "federation"
+      },
+      {
+        "part": "es",
+        "meaning": "linking letters"
+      },
+      {
+        "part": "land",
+        "meaning": "land, state"
+      }
+    ],
+    "literalMeaning": "federation land"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Bundesland, plural die Bundesländer.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Bundesland"
+        },
+        {
+          "label": "More than one",
+          "value": "die Bundesländer"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Deutschland hat 16 Bundesländer.",
+      "english": "Germany has 16 federal states.",
+      "highlight": [
+        "Bundesländer."
+      ]
+    },
+    {
+      "german": "Bayern ist das größte Bundesland.",
+      "english": "Bavaria is the largest state.",
+      "highlight": [
+        "Bundesland."
+      ]
+    },
+    {
+      "german": "Die Ferien sind in jedem Bundesland anders.",
+      "english": "The holidays differ in every state.",
+      "highlight": [
+        "Bundesland"
+      ]
+    }
+  ],
+  "forms": [
+    "Land"
+  ],
+  "memoryHook": "Bund + Land = federal state (16 in DE, 9 in AT).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Bundesland",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Bundesland is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Bundesland, zwei ___",
+      "answer": "Bundesländer",
+      "fullAnswer": "ein Bundesland, zwei Bundesländer",
+      "explanation": "The plural is Bundesländer.",
+      "acceptedAnswers": [
+        "Bundeslaender"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Bundesland mean?",
+      "options": [
+        "the flower",
+        "federal state",
+        "the family"
+      ],
+      "answer": "federal state",
+      "explanation": "Bundesland: federal state.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Bund + es + Land",
+        "Bunde + Land"
+      ],
+      "answer": "Bund + es + Land",
+      "explanation": "Federal land.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Austria also has…",
+      "options": [
+        "Bundesländer",
+        "Kantone"
+      ],
+      "answer": "Bundesländer",
+      "explanation": "Switzerland has Kantone.",
+      "id": "q5"
+    }
+  ]
+}

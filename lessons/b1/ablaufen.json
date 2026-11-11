@@ -1,0 +1,172 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "ablaufen",
+    "partOfSpeech": "separable verb",
+    "pronunciation": {
+      "respelling": "AP-low-fen",
+      "ipa": "ˈapˌlaʊ̯fn̩",
+      "notes": ""
+    },
+    "meaning": "to expire, run out; to go (as planned)",
+    "shortDefinition": "To expire, run out; to go (as planned)."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "ab",
+        "meaning": "off, away"
+      },
+      {
+        "part": "laufen",
+        "meaning": "to run",
+        "emphasis": "release"
+      }
+    ],
+    "literalMeaning": "to run off",
+    "summary": "Time runs off and is gone."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "lauf|e … |ab"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "läuf|st … |ab"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "läuf|t … |ab"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "lauf|en … |ab"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "lauf|t … |ab"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "lauf|en … |ab"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): ist abgelaufen"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Mein Pass läuft im Mai ab.",
+      "english": "My passport expires in May.",
+      "highlight": [
+        "läuft",
+        "ab."
+      ]
+    },
+    {
+      "german": "Die Milch ist abgelaufen.",
+      "english": "The milk is past its date.",
+      "highlight": [
+        "abgelaufen."
+      ]
+    },
+    {
+      "german": "Wie ist das Gespräch abgelaufen?",
+      "english": "How did the conversation go?",
+      "highlight": [
+        "abgelaufen?"
+      ]
+    }
+  ],
+  "forms": [
+    "Ablauf",
+    "abgelaufen"
+  ],
+  "memoryHook": "Ablaufen: expire; go (der Ablauf = procedure).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ … ab (ablaufen)",
+      "answer": "läuft",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: läuft … ab.",
+      "acceptedAnswers": [
+        "laeuft"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich bin schon ___. (ablaufen, past)",
+      "answer": "abgelaufen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: bin abgelaufen.",
+      "acceptedAnswers": [
+        "abgelaufen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does ablaufen mean?",
+      "options": [
+        "to expire",
+        "the street",
+        "to sleep"
+      ],
+      "answer": "to expire",
+      "explanation": "ablaufen: to expire, run out; to go (as planned).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "ist abgelaufen",
+        "hat abgelaufen"
+      ],
+      "answer": "ist abgelaufen",
+      "explanation": "Like laufen.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Noun:",
+      "options": [
+        "der Ablauf (course, procedure)",
+        "die Ablaufung"
+      ],
+      "answer": "der Ablauf (course, procedure)",
+      "explanation": "Process.",
+      "id": "q5"
+    }
+  ]
+}

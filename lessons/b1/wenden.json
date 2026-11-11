@@ -1,0 +1,157 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "wenden",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "VEN-den",
+      "ipa": "ˈvɛndn̩",
+      "notes": ""
+    },
+    "meaning": "to turn; (sich) to turn to",
+    "shortDefinition": "To turn; (sich) to turn to."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "wend|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "wend|est"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "wend|et"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "wend|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "wend|et"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "wend|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gewendet"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Bitte wenden!",
+      "english": "Please turn over!",
+      "highlight": [
+        "wenden!"
+      ]
+    },
+    {
+      "german": "Er wendet das Auto.",
+      "english": "He turns the car round.",
+      "highlight": [
+        "wendet"
+      ]
+    },
+    {
+      "german": "Wenden Sie sich an die Rezeption.",
+      "english": "Please contact reception.",
+      "highlight": [
+        "Wenden",
+        "sich",
+        "an"
+      ]
+    }
+  ],
+  "forms": [
+    "gewandt",
+    "(sich) wenden"
+  ],
+  "memoryHook": "Wenden: turn. Sich wenden an = contact.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (wenden)",
+      "answer": "wendet",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: wendet.",
+      "acceptedAnswers": [
+        "wendet"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (wenden, past)",
+      "answer": "gewendet",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gewendet.",
+      "acceptedAnswers": [
+        "gewendet"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does wenden mean?",
+      "options": [
+        "the station",
+        "quiet",
+        "to turn"
+      ],
+      "answer": "to turn",
+      "explanation": "wenden: to turn; (sich) to turn to.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Sich wenden an' means…",
+      "options": [
+        "to turn to, contact",
+        "to turn around"
+      ],
+      "answer": "to turn to, contact",
+      "explanation": "Contact.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt (sich an jemanden):",
+      "options": [
+        "hat sich gewandt / gewendet",
+        "hat gewunden"
+      ],
+      "answer": "hat sich gewandt / gewendet",
+      "explanation": "Both.",
+      "id": "q5"
+    }
+  ]
+}

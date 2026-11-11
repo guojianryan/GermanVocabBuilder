@@ -1,0 +1,191 @@
+{
+ "schemaVersion": "1.4",
+ "language": "de",
+ "explanationLanguage": "en",
+ "level": "A1",
+ "levelSource": "Goethe-Zertifikat A1 Wortliste",
+ "lessonType": "card",
+ "word": {
+  "headword": "fernsehen",
+  "partOfSpeech": "separable verb",
+  "pronunciation": {
+   "respelling": "FAIRN-zay-en",
+   "ipa": "ˈfɛʁnˌzeːən",
+   "notes": ""
+  },
+  "meaning": "to watch TV",
+  "shortDefinition": "To watch TV."
+ },
+ "etymology": {
+  "title": "Where it comes from",
+  "parts": [
+   {
+    "part": "fern",
+    "meaning": "far",
+    "emphasis": "stretch"
+   },
+   {
+    "part": "sehen",
+    "meaning": "to see",
+    "note": "Exactly like Greek 'tele-vision'."
+   }
+  ],
+  "literalMeaning": "to see far"
+ },
+ "tables": [
+  {
+   "title": "Present tense",
+   "columns": [
+    "present"
+   ],
+   "rows": [
+    {
+     "label": "ich",
+     "cells": [
+      "sehe … |fern"
+     ]
+    },
+    {
+     "label": "du",
+     "cells": [
+      "siehst … |fern"
+     ]
+    },
+    {
+     "label": "er, sie, es",
+     "cells": [
+      "sieht … |fern"
+     ]
+    },
+    {
+     "label": "wir",
+     "cells": [
+      "sehen … |fern"
+     ]
+    },
+    {
+     "label": "ihr",
+     "cells": [
+      "seht … |fern"
+     ]
+    },
+    {
+     "label": "sie, Sie",
+     "cells": [
+      "sehen … |fern"
+     ]
+    }
+   ],
+   "notes": [
+    "Past (Perfekt): hat ferngesehen",
+    "Sehen changes to sieht for er: er sieht fern."
+   ]
+  }
+ ],
+ "wordFamily": [
+  {
+   "german": "der Fernseher",
+   "english": "TV set",
+   "type": "noun"
+  },
+  {
+   "german": "das Fernsehen",
+   "english": "television",
+   "type": "noun"
+  }
+ ],
+ "sampleSentences": [
+  {
+   "german": "Am Abend sehe ich oft fern.",
+   "english": "I often watch TV in the evening.",
+   "highlight": [
+    "sehe",
+    "fern."
+   ]
+  },
+  {
+   "german": "Die Kinder dürfen nur eine Stunde fernsehen.",
+   "english": "The children are only allowed to watch TV for an hour.",
+   "highlight": [
+    "fernsehen."
+   ]
+  },
+  {
+   "german": "Der Fernseher ist kaputt.",
+   "english": "The TV is broken.",
+   "highlight": [
+    "Fernseher"
+   ]
+  }
+ ],
+ "forms": [
+  "sehe fern",
+  "siehst fern",
+  "sieht fern",
+  "sehen fern",
+  "seht fern",
+  "ferngesehen",
+  "Fernseher",
+  "Fernsehen"
+ ],
+ "memoryHook": "Fern (far) + sehen (see): exactly 'tele-vision'. Der Fernseher = the TV set.",
+ "signOff": "Gut gemacht!",
+ "quiz": [
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "er ___ … fern (fernsehen)",
+   "answer": "sieht",
+   "fullAnswer": "",
+   "explanation": "For er, sie, es: sieht … fern.",
+   "acceptedAnswers": [
+    "sieht"
+   ],
+   "id": "q1"
+  },
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "Ich habe schon ___. (fernsehen, past)",
+   "answer": "ferngesehen",
+   "fullAnswer": "",
+   "explanation": "Perfekt: habe ferngesehen.",
+   "acceptedAnswers": [
+    "ferngesehen"
+   ],
+   "id": "q2"
+  },
+  {
+   "type": "choice",
+   "prompt": "What does fernsehen mean?",
+   "options": [
+    "to watch TV",
+    "the station",
+    "the door"
+   ],
+   "answer": "to watch TV",
+   "explanation": "fernsehen: to watch TV.",
+   "id": "q3"
+  },
+  {
+   "type": "choice",
+   "prompt": "Fern means…",
+   "options": [
+    "far",
+    "near"
+   ],
+   "answer": "far",
+   "explanation": "Fern-sehen: far-seeing, like Greek tele-vision.",
+   "id": "q4"
+  },
+  {
+   "type": "choice",
+   "prompt": "The TV set is…",
+   "options": [
+    "der Fernseher",
+    "das Fernsehen"
+   ],
+   "answer": "der Fernseher",
+   "explanation": "Das Fernsehen is television in general.",
+   "id": "q5"
+  }
+ ]
+}

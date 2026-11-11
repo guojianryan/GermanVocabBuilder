@@ -1,0 +1,166 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "reißen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "RYE-sen",
+      "ipa": "ˈʁaɪ̯sn̩",
+      "notes": ""
+    },
+    "meaning": "to tear, rip; to pull",
+    "shortDefinition": "To tear, rip; to pull."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "reiß|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "reiß|t"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "reiß|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "reiß|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "reiß|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "reiß|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gerissen"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das Papier ist gerissen.",
+      "english": "The paper has torn.",
+      "highlight": [
+        "gerissen."
+      ]
+    },
+    {
+      "german": "Er riss ihr die Tasche aus der Hand.",
+      "english": "He snatched the bag from her hand.",
+      "highlight": [
+        "riss"
+      ]
+    },
+    {
+      "german": "Reiß dich zusammen!",
+      "english": "Pull yourself together!",
+      "highlight": [
+        "Reiß"
+      ]
+    }
+  ],
+  "forms": [
+    "Riss",
+    "Reißverschluss"
+  ],
+  "memoryHook": "Reißen (riss, gerissen); sich zusammenreißen; Reißverschluss.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (reißen)",
+      "answer": "reißt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: reißt.",
+      "acceptedAnswers": [
+        "reisst"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (reißen, past)",
+      "answer": "gerissen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gerissen.",
+      "acceptedAnswers": [
+        "gerissen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does reißen mean?",
+      "options": [
+        "to tear",
+        "always",
+        "the bed"
+      ],
+      "answer": "to tear",
+      "explanation": "reißen: to tear, rip; to pull.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt (tear something):",
+      "options": [
+        "hat gerissen",
+        "hat gereißt"
+      ],
+      "answer": "hat gerissen",
+      "explanation": "Strong: riss, gerissen.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Sich zusammenreißen' means…",
+      "options": [
+        "to pull oneself together",
+        "to tear apart"
+      ],
+      "answer": "to pull oneself together",
+      "explanation": "Idiom.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Zipper:",
+      "options": [
+        "der Reißverschluss",
+        "der Reißknopf"
+      ],
+      "answer": "der Reißverschluss",
+      "explanation": "Tear-fastener.",
+      "id": "q6"
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "lagern",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "LAA-gern",
+      "ipa": "ˈlaːɡɐn",
+      "notes": ""
+    },
+    "meaning": "to store; to camp; to lie",
+    "shortDefinition": "To store; to camp; to lie."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "lager|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "lager|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "lager|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "lager|n"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "lager|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "lager|n"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gelagert"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Kühl und trocken lagern.",
+      "english": "Store in a cool, dry place.",
+      "highlight": [
+        "lagern."
+      ]
+    },
+    {
+      "german": "Der Wein lagert im Keller.",
+      "english": "The wine is kept in the cellar.",
+      "highlight": [
+        "lagert"
+      ]
+    },
+    {
+      "german": "Die Wanderer lagerten am Fluss.",
+      "english": "The hikers camped by the river.",
+      "highlight": [
+        "lagerten"
+      ]
+    }
+  ],
+  "forms": [
+    "Lager",
+    "Lagerung"
+  ],
+  "memoryHook": "Lager → lagern (store; camp); die Lagerung.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (lagern)",
+      "answer": "lagert",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: lagert.",
+      "acceptedAnswers": [
+        "lagert"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (lagern, past)",
+      "answer": "gelagert",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gelagert.",
+      "acceptedAnswers": [
+        "gelagert"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does lagern mean?",
+      "options": [
+        "to store",
+        "the street",
+        "the bed"
+      ],
+      "answer": "to store",
+      "explanation": "lagern: to store; to camp; to lie.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Noun:",
+      "options": [
+        "das Lager (store, camp)",
+        "die Lagerung only"
+      ],
+      "answer": "das Lager (store, camp)",
+      "explanation": "Store.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Typical on packaging:",
+      "options": [
+        "trocken lagern",
+        "trocken legen"
+      ],
+      "answer": "trocken lagern",
+      "explanation": "Instructions.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Anders gelagert' (case) means…",
+      "options": [
+        "different (in nature)",
+        "stored elsewhere"
+      ],
+      "answer": "different (in nature)",
+      "explanation": "Idiom.",
+      "id": "q6"
+    }
+  ]
+}

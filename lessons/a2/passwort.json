@@ -1,0 +1,138 @@
+{
+ "schemaVersion": "1.4",
+ "language": "de",
+ "explanationLanguage": "en",
+ "level": "A2",
+ "levelSource": "Goethe-Zertifikat A2 Wortliste",
+ "lessonType": "card",
+ "word": {
+  "headword": "Passwort",
+  "partOfSpeech": "noun, neuter (das Passwort)",
+  "pronunciation": {
+   "respelling": "PAS-vort",
+   "ipa": "ˈpasvɔʁt",
+   "notes": "Plural: die Passwörter."
+  },
+  "meaning": "password",
+  "shortDefinition": "Password."
+ },
+ "commonMistakes": [
+  {
+   "title": "Gender and plural",
+   "explanation": "Das Passwort, plural die Passwörter.",
+   "forms": [
+    {
+     "label": "One",
+     "value": "das Passwort"
+    },
+    {
+     "label": "More than one",
+     "value": "die Passwörter"
+    }
+   ]
+  }
+ ],
+ "sampleSentences": [
+  {
+   "german": "Ich habe mein Passwort vergessen.",
+   "english": "I've forgotten my password.",
+   "highlight": [
+    "Passwort"
+   ]
+  },
+  {
+   "german": "Wie ist das WLAN-Passwort?",
+   "english": "What's the Wi-Fi password?",
+   "highlight": [
+    "WLAN-Passwort?"
+   ]
+  },
+  {
+   "german": "Ändern Sie Ihr Passwort regelmäßig.",
+   "english": "Change your password regularly.",
+   "highlight": [
+    "Passwort"
+   ]
+  }
+ ],
+ "forms": [
+  "Passwörter",
+  "die Passwörter",
+  "das Passwort"
+ ],
+ "memoryHook": "Das Passwort, die Passwörter. WLAN = Wi-Fi.",
+ "signOff": "Gut gemacht!",
+ "quiz": [
+  {
+   "type": "choice",
+   "prompt": "___ Passwort",
+   "options": [
+    "der",
+    "die",
+    "das"
+   ],
+   "answer": "das",
+   "explanation": "Passwort is neuter.",
+   "id": "q1"
+  },
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "ein Passwort, zwei ___",
+   "answer": "Passwörter",
+   "fullAnswer": "ein Passwort, zwei Passwörter",
+   "explanation": "The plural is Passwörter.",
+   "acceptedAnswers": [
+    "Passwoerter"
+   ],
+   "id": "q2"
+  },
+  {
+   "type": "choice",
+   "prompt": "What does Passwort mean?",
+   "options": [
+    "the shop",
+    "to sing",
+    "password"
+   ],
+   "answer": "password",
+   "explanation": "Passwort: password.",
+   "id": "q3"
+  },
+  {
+   "type": "choice",
+   "prompt": "Plural:",
+   "options": [
+    "Passwörter",
+    "Passworte"
+   ],
+   "answer": "Passwörter",
+   "explanation": "Wort → Wörter.",
+   "id": "q4"
+  },
+  {
+   "type": "choice",
+   "prompt": "Wi-Fi in German is usually…",
+   "options": [
+    "WLAN (vay-lahn)",
+    "WiFi only"
+   ],
+   "answer": "WLAN (vay-lahn)",
+   "explanation": "WLAN.",
+   "id": "q5"
+  }
+ ],
+ "etymology": {
+  "title": "Where it comes from",
+  "parts": [
+   {
+    "part": "Pass",
+    "meaning": "pass"
+   },
+   {
+    "part": "wort",
+    "meaning": "word"
+   }
+  ],
+  "literalMeaning": "pass word"
+ }
+}

@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Motto",
+    "partOfSpeech": "noun, neuter (das Motto)",
+    "pronunciation": {
+      "respelling": "MO-to",
+      "ipa": "ˈmɔto",
+      "notes": "Plural: die Mottos."
+    },
+    "meaning": "motto",
+    "shortDefinition": "Motto."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Motto, plural die Mottos.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Motto"
+        },
+        {
+          "label": "More than one",
+          "value": "die Mottos"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Unser Motto ist: Spaß zuerst!",
+      "english": "Our motto is: fun first!",
+      "highlight": [
+        "Motto"
+      ]
+    },
+    {
+      "german": "Die Party hat ein Motto: die 80er.",
+      "english": "The party has a theme: the 80s.",
+      "highlight": [
+        "Motto:"
+      ]
+    },
+    {
+      "german": "Nach dem Motto: Wer zuerst kommt …",
+      "english": "Following the principle: first come …",
+      "highlight": [
+        "Motto:"
+      ]
+    }
+  ],
+  "forms": [
+    "Mottoparty"
+  ],
+  "memoryHook": "Das Motto (also: party theme).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Motto",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Motto is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Motto, zwei ___",
+      "answer": "Mottos",
+      "fullAnswer": "ein Motto, zwei Mottos",
+      "explanation": "The plural is Mottos.",
+      "acceptedAnswers": [
+        "Mottos"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Motto mean?",
+      "options": [
+        "motto",
+        "hot",
+        "the key"
+      ],
+      "answer": "motto",
+      "explanation": "Motto: motto.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "For a party, Motto means…",
+      "options": [
+        "theme",
+        "invitation"
+      ],
+      "answer": "theme",
+      "explanation": "Theme party.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Mottos",
+        "Motti only"
+      ],
+      "answer": "Mottos",
+      "explanation": "-s.",
+      "id": "q5"
+    }
+  ]
+}

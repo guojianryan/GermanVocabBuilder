@@ -1,0 +1,133 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Geist",
+    "partOfSpeech": "noun, masculine (der Geist)",
+    "pronunciation": {
+      "respelling": "GYEST",
+      "ipa": "ɡaɪ̯st",
+      "notes": "Plural: die Geister."
+    },
+    "meaning": "mind, spirit; ghost",
+    "shortDefinition": "Mind, spirit; ghost."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Geist, plural die Geister.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Geist"
+        },
+        {
+          "label": "More than one",
+          "value": "die Geister"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er hat einen wachen Geist.",
+      "english": "He has an alert mind.",
+      "highlight": [
+        "Geist."
+      ]
+    },
+    {
+      "german": "In dem Schloss spukt ein Geist.",
+      "english": "A ghost haunts the castle.",
+      "highlight": [
+        "Geist."
+      ]
+    },
+    {
+      "german": "Das geht mir auf den Geist.",
+      "english": "That gets on my nerves.",
+      "highlight": [
+        "Geist."
+      ]
+    }
+  ],
+  "forms": [
+    "geistig"
+  ],
+  "memoryHook": "Der Geist: mind, spirit, ghost; geistig.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Geist",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Geist is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Geist, zwei ___",
+      "answer": "Geister",
+      "fullAnswer": "ein Geist, zwei Geister",
+      "explanation": "The plural is Geister.",
+      "acceptedAnswers": [
+        "Geister"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Geist mean?",
+      "options": [
+        "mind",
+        "to sing",
+        "expensive"
+      ],
+      "answer": "mind",
+      "explanation": "Geist: mind, spirit; ghost.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Auf den Geist gehen' means…",
+      "options": [
+        "to get on someone's nerves",
+        "to go to heaven"
+      ],
+      "answer": "to get on someone's nerves",
+      "explanation": "Idiom.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Holy Spirit:",
+      "options": [
+        "der Heilige Geist",
+        "der heilige Gast"
+      ],
+      "answer": "der Heilige Geist",
+      "explanation": "Religion.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Adjective:",
+      "options": [
+        "geistig",
+        "geisterig"
+      ],
+      "answer": "geistig",
+      "explanation": "Mental.",
+      "id": "q6"
+    }
+  ]
+}

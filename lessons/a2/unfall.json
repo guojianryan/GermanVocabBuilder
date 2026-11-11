@@ -1,0 +1,138 @@
+{
+ "schemaVersion": "1.4",
+ "language": "de",
+ "explanationLanguage": "en",
+ "level": "A2",
+ "levelSource": "Goethe-Zertifikat A2 Wortliste",
+ "lessonType": "card",
+ "word": {
+  "headword": "Unfall",
+  "partOfSpeech": "noun, masculine (der Unfall)",
+  "pronunciation": {
+   "respelling": "OON-fal",
+   "ipa": "ˈʊnfal",
+   "notes": "Plural: die Unfälle."
+  },
+  "meaning": "accident",
+  "shortDefinition": "Accident."
+ },
+ "commonMistakes": [
+  {
+   "title": "Gender and plural",
+   "explanation": "Der Unfall, plural die Unfälle.",
+   "forms": [
+    {
+     "label": "One",
+     "value": "der Unfall"
+    },
+    {
+     "label": "More than one",
+     "value": "die Unfälle"
+    }
+   ]
+  }
+ ],
+ "sampleSentences": [
+  {
+   "german": "Auf der Autobahn gab es einen Unfall.",
+   "english": "There was an accident on the motorway.",
+   "highlight": [
+    "Unfall."
+   ]
+  },
+  {
+   "german": "Er hatte einen Unfall mit dem Fahrrad.",
+   "english": "He had a bike accident.",
+   "highlight": [
+    "Unfall"
+   ]
+  },
+  {
+   "german": "Bei dem Unfall wurde niemand verletzt.",
+   "english": "Nobody was hurt in the accident.",
+   "highlight": [
+    "Unfall"
+   ]
+  }
+ ],
+ "forms": [
+  "Unfälle",
+  "die Unfälle",
+  "der Unfall"
+ ],
+ "memoryHook": "Der Unfall, die Unfälle. Einen Unfall haben.",
+ "signOff": "Gut gemacht!",
+ "quiz": [
+  {
+   "type": "choice",
+   "prompt": "___ Unfall",
+   "options": [
+    "der",
+    "die",
+    "das"
+   ],
+   "answer": "der",
+   "explanation": "Unfall is masculine.",
+   "id": "q1"
+  },
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "ein Unfall, zwei ___",
+   "answer": "Unfälle",
+   "fullAnswer": "ein Unfall, zwei Unfälle",
+   "explanation": "The plural is Unfälle.",
+   "acceptedAnswers": [
+    "Unfaelle"
+   ],
+   "id": "q2"
+  },
+  {
+   "type": "choice",
+   "prompt": "What does Unfall mean?",
+   "options": [
+    "accident",
+    "to sing",
+    "the shop"
+   ],
+   "answer": "accident",
+   "explanation": "Unfall: accident.",
+   "id": "q3"
+  },
+  {
+   "type": "choice",
+   "prompt": "'Have an accident':",
+   "options": [
+    "einen Unfall haben",
+    "einen Unfall machen"
+   ],
+   "answer": "einen Unfall haben",
+   "explanation": "Haben.",
+   "id": "q4"
+  },
+  {
+   "type": "choice",
+   "prompt": "Plural:",
+   "options": [
+    "Unfälle",
+    "Unfalle"
+   ],
+   "answer": "Unfälle",
+   "explanation": "a → ä.",
+   "id": "q5"
+  }
+ ],
+ "etymology": {
+  "title": "Where it comes from",
+  "parts": [
+   {
+    "part": "Un",
+    "meaning": "not, un-"
+   },
+   {
+    "part": "fall",
+    "meaning": "fall"
+   }
+  ],
+  "literalMeaning": "a bad fall"
+ }
+}

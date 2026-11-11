@@ -1,0 +1,174 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "denken",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "DENK-en",
+      "ipa": "ˈdɛŋkn̩",
+      "notes": ""
+    },
+    "meaning": "to think",
+    "shortDefinition": "To think."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "denk|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "denk|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "denk|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "denk|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "denk|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "denk|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gedacht"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "nachdenken",
+      "english": "to think about, ponder",
+      "type": "verb"
+    },
+    {
+      "german": "der Gedanke",
+      "english": "thought",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich denke, das ist richtig.",
+      "english": "I think that's right.",
+      "highlight": [
+        "denke,"
+      ]
+    },
+    {
+      "german": "Ich denke oft an dich.",
+      "english": "I often think of you.",
+      "highlight": [
+        "denke",
+        "an"
+      ]
+    },
+    {
+      "german": "Was denkst du über den Film?",
+      "english": "What do you think of the film?",
+      "highlight": [
+        "denkst",
+        "über"
+      ]
+    }
+  ],
+  "forms": [
+    "denke",
+    "denkst",
+    "denkt",
+    "denken",
+    "gedacht",
+    "dachte",
+    "dachten"
+  ],
+  "memoryHook": "Denken an (of), denken über (about). Past: dachte, gedacht.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (denken)",
+      "answer": "denkt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: denkt.",
+      "acceptedAnswers": [
+        "denkt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (denken, past)",
+      "answer": "gedacht",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gedacht.",
+      "acceptedAnswers": [
+        "gedacht"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does denken mean?",
+      "options": [
+        "to think",
+        "the car",
+        "to wait"
+      ],
+      "answer": "to think",
+      "explanation": "denken: to think.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'I'm thinking of you':",
+      "options": [
+        "Ich denke an dich.",
+        "Ich denke von dir."
+      ],
+      "answer": "Ich denke an dich.",
+      "explanation": "Denken an.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Past forms:",
+      "options": [
+        "dachte, gedacht",
+        "denkte, gedenkt"
+      ],
+      "answer": "dachte, gedacht",
+      "explanation": "Irregular.",
+      "id": "q5"
+    }
+  ]
+}

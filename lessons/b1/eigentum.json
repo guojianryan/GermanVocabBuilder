@@ -1,0 +1,132 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Eigentum",
+    "partOfSpeech": "noun, neuter (das Eigentum)",
+    "pronunciation": {
+      "respelling": "EYE-ge-toom",
+      "ipa": "ˈaɪ̯ɡn̩tuːm",
+      "notes": "Usually no plural."
+    },
+    "meaning": "property, ownership",
+    "shortDefinition": "Property, ownership."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Eigen",
+        "meaning": "own"
+      },
+      {
+        "part": "tum",
+        "meaning": "noun ending (-dom)"
+      }
+    ],
+    "literalMeaning": "own-dom"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Eigentum, usually no plural.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Eigentum"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das ist mein Eigentum.",
+      "english": "That's my property.",
+      "highlight": [
+        "Eigentum."
+      ]
+    },
+    {
+      "german": "Sie wohnen in einer Eigentumswohnung.",
+      "english": "They live in an owner-occupied flat.",
+      "highlight": [
+        "Eigentumswohnung."
+      ]
+    },
+    {
+      "german": "Privates Eigentum ist geschützt.",
+      "english": "Private property is protected.",
+      "highlight": [
+        "Eigentum"
+      ]
+    }
+  ],
+  "forms": [
+    "Eigentümer"
+  ],
+  "memoryHook": "Eigen + -tum = property; der Eigentümer.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Eigentum",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Eigentum is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Eigentum mean?",
+      "options": [
+        "property",
+        "to sleep",
+        "to buy"
+      ],
+      "answer": "property",
+      "explanation": "Eigentum: property, ownership.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "eigen (own) + -tum",
+        "Eiche + Tum"
+      ],
+      "answer": "eigen (own) + -tum",
+      "explanation": "Own-ness.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Owner:",
+      "options": [
+        "der Eigentümer",
+        "der Eigen"
+      ],
+      "answer": "der Eigentümer",
+      "explanation": "Owner.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Eigentumswohnung means…",
+      "options": [
+        "owned flat (condo)",
+        "rented flat"
+      ],
+      "answer": "owned flat (condo)",
+      "explanation": "Bought.",
+      "id": "q5"
+    }
+  ]
+}

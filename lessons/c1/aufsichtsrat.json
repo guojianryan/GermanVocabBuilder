@@ -1,0 +1,148 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Aufsichtsrat",
+    "partOfSpeech": "noun, masculine (der Aufsichtsrat)",
+    "pronunciation": {
+      "respelling": "OWF-zikhts-raat",
+      "ipa": "ˈaʊ̯fzɪçtsˌʁaːt",
+      "notes": "Plural: die Aufsichtsräte."
+    },
+    "meaning": "supervisory board",
+    "shortDefinition": "Supervisory board."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Aufsichts",
+        "meaning": "of supervision"
+      },
+      {
+        "part": "rat",
+        "meaning": "council"
+      }
+    ],
+    "literalMeaning": "supervision council"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Aufsichtsrat, plural die Aufsichtsräte.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Aufsichtsrat"
+        },
+        {
+          "label": "More than one",
+          "value": "die Aufsichtsräte"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Aufsichtsrat kontrolliert den Vorstand.",
+      "english": "The supervisory board oversees the management board.",
+      "highlight": [
+        "Aufsichtsrat"
+      ]
+    },
+    {
+      "german": "Sie sitzt im Aufsichtsrat.",
+      "english": "She's on the supervisory board.",
+      "highlight": [
+        "Aufsichtsrat."
+      ]
+    },
+    {
+      "german": "Der Aufsichtsratsvorsitzende.",
+      "english": "The chairman of the supervisory board.",
+      "highlight": [
+        "Aufsichtsratsvorsitzende."
+      ]
+    }
+  ],
+  "forms": [
+    "Vorstand",
+    "Aufsicht"
+  ],
+  "memoryHook": "Aufsicht + Rat = supervisory board (↔ Vorstand).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Aufsichtsrat",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Aufsichtsrat is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Aufsichtsrat, zwei ___",
+      "answer": "Aufsichtsräte",
+      "fullAnswer": "ein Aufsichtsrat, zwei Aufsichtsräte",
+      "explanation": "The plural is Aufsichtsräte.",
+      "acceptedAnswers": [
+        "Aufsichtsraete"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Aufsichtsrat mean?",
+      "options": [
+        "supervisory board",
+        "the job",
+        "the station"
+      ],
+      "answer": "supervisory board",
+      "explanation": "Aufsichtsrat: supervisory board.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Aufsicht (supervision) + Rat (council)",
+        "auf + Sicht + Rad"
+      ],
+      "answer": "Aufsicht (supervision) + Rat (council)",
+      "explanation": "Supervision council.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "It supervises…",
+      "options": [
+        "der Vorstand (management board)",
+        "the workers only"
+      ],
+      "answer": "der Vorstand (management board)",
+      "explanation": "Two-tier.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Aufsichtsräte",
+        "Aufsichtsrate"
+      ],
+      "answer": "Aufsichtsräte",
+      "explanation": "Umlaut.",
+      "id": "q6"
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Licht",
+    "partOfSpeech": "noun, neuter (das Licht)",
+    "pronunciation": {
+      "respelling": "LIKHT",
+      "ipa": "lɪçt",
+      "notes": "Plural: die Lichter."
+    },
+    "meaning": "light",
+    "shortDefinition": "Light."
+  },
+  "wordFamily": [
+    {
+      "german": "die Lampe",
+      "english": "lamp",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Licht, plural die Lichter.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Licht"
+        },
+        {
+          "label": "More than one",
+          "value": "die Lichter"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Mach bitte das Licht an!",
+      "english": "Please turn on the light!",
+      "highlight": [
+        "Licht"
+      ]
+    },
+    {
+      "german": "Heute Nacht war das Licht an.",
+      "english": "The light was on last night.",
+      "highlight": [
+        "Licht"
+      ]
+    },
+    {
+      "german": "Das Zimmer hat viel Licht.",
+      "english": "The room gets lots of light.",
+      "highlight": [
+        "Licht."
+      ]
+    }
+  ],
+  "forms": [
+    "Lichter",
+    "die Lichter",
+    "das Licht"
+  ],
+  "memoryHook": "Das Licht = light (ch soft as in ich). Licht an, Licht aus.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Licht",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Licht is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Licht, zwei ___",
+      "answer": "Lichter",
+      "fullAnswer": "ein Licht, zwei Lichter",
+      "explanation": "The plural is Lichter.",
+      "acceptedAnswers": [
+        "Lichter"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Licht mean?",
+      "options": [
+        "light",
+        "the child",
+        "the bed"
+      ],
+      "answer": "light",
+      "explanation": "Licht: light.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Turn on the light:",
+      "options": [
+        "Mach das Licht an!",
+        "Mach das Licht auf!"
+      ],
+      "answer": "Mach das Licht an!",
+      "explanation": "Lights: an/aus.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "The traffic light is…",
+      "options": [
+        "die Ampel",
+        "das Verkehrslicht"
+      ],
+      "answer": "die Ampel",
+      "explanation": "Die Ampel.",
+      "id": "q5"
+    }
+  ]
+}

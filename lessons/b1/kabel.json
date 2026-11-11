@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Kabel",
+    "partOfSpeech": "noun, neuter (das Kabel)",
+    "pronunciation": {
+      "respelling": "KAA-bel",
+      "ipa": "ˈkaːbl̩",
+      "notes": "The plural looks the same. Plural: die Kabel."
+    },
+    "meaning": "cable",
+    "shortDefinition": "Cable."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Kabel, plural die Kabel.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Kabel"
+        },
+        {
+          "label": "More than one",
+          "value": "die Kabel"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Hast du ein Ladekabel?",
+      "english": "Have you got a charging cable?",
+      "highlight": [
+        "Ladekabel?"
+      ]
+    },
+    {
+      "german": "Das Kabel ist zu kurz.",
+      "english": "The cable is too short.",
+      "highlight": [
+        "Kabel"
+      ]
+    },
+    {
+      "german": "Wir haben Kabelfernsehen.",
+      "english": "We have cable TV.",
+      "highlight": [
+        "Kabelfernsehen."
+      ]
+    }
+  ],
+  "forms": [
+    "Kabel",
+    "die Kabel",
+    "das Kabel"
+  ],
+  "memoryHook": "Das Kabel, die Kabel. Ladekabel = charger cable.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Kabel",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Kabel is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Kabel, zwei ___",
+      "answer": "Kabel",
+      "fullAnswer": "ein Kabel, zwei Kabel",
+      "explanation": "The plural is Kabel.",
+      "acceptedAnswers": [
+        "Kabel"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Kabel mean?",
+      "options": [
+        "cable",
+        "the car",
+        "tomorrow"
+      ],
+      "answer": "cable",
+      "explanation": "Kabel: cable.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Charging cable:",
+      "options": [
+        "das Ladekabel",
+        "das Stromkabel only"
+      ],
+      "answer": "das Ladekabel",
+      "explanation": "Laden.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Kabel",
+        "Kabeln"
+      ],
+      "answer": "Kabel",
+      "explanation": "No change.",
+      "id": "q5"
+    }
+  ]
+}

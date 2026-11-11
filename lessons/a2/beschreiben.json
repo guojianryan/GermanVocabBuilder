@@ -1,0 +1,180 @@
+{
+ "schemaVersion": "1.4",
+ "language": "de",
+ "explanationLanguage": "en",
+ "level": "A2",
+ "levelSource": "Goethe-Zertifikat A2 Wortliste",
+ "lessonType": "card",
+ "word": {
+  "headword": "beschreiben",
+  "partOfSpeech": "verb",
+  "pronunciation": {
+   "respelling": "be-SHRY-ben",
+   "ipa": "bəˈʃʁaɪ̯bn̩",
+   "notes": ""
+  },
+  "meaning": "to describe",
+  "shortDefinition": "To describe."
+ },
+ "tables": [
+  {
+   "title": "Present tense",
+   "columns": [
+    "present"
+   ],
+   "rows": [
+    {
+     "label": "ich",
+     "cells": [
+      "beschreib|e"
+     ]
+    },
+    {
+     "label": "du",
+     "cells": [
+      "beschreib|st"
+     ]
+    },
+    {
+     "label": "er, sie, es",
+     "cells": [
+      "beschreib|t"
+     ]
+    },
+    {
+     "label": "wir",
+     "cells": [
+      "beschreib|en"
+     ]
+    },
+    {
+     "label": "ihr",
+     "cells": [
+      "beschreib|t"
+     ]
+    },
+    {
+     "label": "sie, Sie",
+     "cells": [
+      "beschreib|en"
+     ]
+    }
+   ],
+   "notes": [
+    "Past (Perfekt): hat beschrieben"
+   ]
+  }
+ ],
+ "wordFamily": [
+  {
+   "german": "die Beschreibung",
+   "english": "description",
+   "type": "noun"
+  }
+ ],
+ "sampleSentences": [
+  {
+   "german": "Beschreiben Sie das Bild.",
+   "english": "Describe the picture.",
+   "highlight": [
+    "Beschreiben"
+   ]
+  },
+  {
+   "german": "Kannst du mir den Weg beschreiben?",
+   "english": "Can you describe the way to me?",
+   "highlight": [
+    "beschreiben?"
+   ]
+  },
+  {
+   "german": "Er hat den Mann genau beschrieben.",
+   "english": "He described the man exactly.",
+   "highlight": [
+    "beschrieben."
+   ]
+  }
+ ],
+ "forms": [
+  "beschreibe",
+  "beschreibst",
+  "beschreibt",
+  "beschreiben",
+  "beschrieben",
+  "beschrieb"
+ ],
+ "memoryHook": "Be + schreiben: write about it = describe.",
+ "signOff": "Gut gemacht!",
+ "quiz": [
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "er ___ (beschreiben)",
+   "answer": "beschreibt",
+   "fullAnswer": "",
+   "explanation": "For er, sie, es: beschreibt.",
+   "acceptedAnswers": [
+    "beschreibt"
+   ],
+   "id": "q1"
+  },
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "Ich habe schon ___. (beschreiben, past)",
+   "answer": "beschrieben",
+   "fullAnswer": "",
+   "explanation": "Perfekt: habe beschrieben.",
+   "acceptedAnswers": [
+    "beschrieben"
+   ],
+   "id": "q2"
+  },
+  {
+   "type": "choice",
+   "prompt": "What does beschreiben mean?",
+   "options": [
+    "the job",
+    "expensive",
+    "to describe"
+   ],
+   "answer": "to describe",
+   "explanation": "beschreiben: to describe.",
+   "id": "q3"
+  },
+  {
+   "type": "choice",
+   "prompt": "'Describe the way to me':",
+   "options": [
+    "Beschreib mir den Weg.",
+    "Beschreib den Weg zu mir."
+   ],
+   "answer": "Beschreib mir den Weg.",
+   "explanation": "Dative mir.",
+   "id": "q4"
+  },
+  {
+   "type": "choice",
+   "prompt": "The noun:",
+   "options": [
+    "die Beschreibung",
+    "die Beschrift"
+   ],
+   "answer": "die Beschreibung",
+   "explanation": "Description.",
+   "id": "q5"
+  }
+ ],
+ "etymology": {
+  "title": "Where it comes from",
+  "parts": [
+   {
+    "part": "be",
+    "meaning": "prefix (acts on something)"
+   },
+   {
+    "part": "schreiben",
+    "meaning": "to write"
+   }
+  ],
+  "literalMeaning": "to write about"
+ }
+}

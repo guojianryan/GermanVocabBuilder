@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Brot",
+    "partOfSpeech": "noun, neuter (das Brot)",
+    "pronunciation": {
+      "respelling": "BROHT",
+      "ipa": "bʁoːt",
+      "notes": "Long o. Plural: die Brote."
+    },
+    "meaning": "bread; a loaf",
+    "shortDefinition": "Bread; a loaf."
+  },
+  "wordFamily": [
+    {
+      "german": "das Brötchen",
+      "english": "bread roll",
+      "type": "noun"
+    },
+    {
+      "german": "das Abendbrot",
+      "english": "supper",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Brot, plural die Brote.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Brot"
+        },
+        {
+          "label": "More than one",
+          "value": "die Brote"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich kaufe ein Brot beim Bäcker.",
+      "english": "I buy a loaf at the baker's.",
+      "highlight": [
+        "Brot"
+      ]
+    },
+    {
+      "german": "Zum Abendbrot essen wir Brot mit Käse.",
+      "english": "For supper we eat bread and cheese.",
+      "highlight": [
+        "Abendbrot",
+        "Brot"
+      ]
+    },
+    {
+      "german": "Möchtest du noch Brot?",
+      "english": "Would you like more bread?",
+      "highlight": [
+        "Brot?"
+      ]
+    }
+  ],
+  "forms": [
+    "Brote",
+    "die Brote",
+    "das Brot"
+  ],
+  "memoryHook": "Germany has hundreds of kinds of Brot. Das Abendbrot is the traditional bread-based supper.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Brot",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Brot is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Brot, zwei ___",
+      "answer": "Brote",
+      "fullAnswer": "ein Brot, zwei Brote",
+      "explanation": "The plural is Brote.",
+      "acceptedAnswers": [
+        "Brote"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Brot mean?",
+      "options": [
+        "the car",
+        "the child",
+        "bread"
+      ],
+      "answer": "bread",
+      "explanation": "Brot: bread; a loaf.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Das Abendbrot is…",
+      "options": [
+        "a light evening meal with bread",
+        "breakfast"
+      ],
+      "answer": "a light evening meal with bread",
+      "explanation": "Abend + Brot.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "A small bread roll is…",
+      "options": [
+        "das Brötchen",
+        "die Brotchen"
+      ],
+      "answer": "das Brötchen",
+      "explanation": "-chen makes things small and adds an umlaut.",
+      "id": "q5"
+    }
+  ]
+}

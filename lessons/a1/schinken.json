@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Schinken",
+    "partOfSpeech": "noun, masculine (der Schinken)",
+    "pronunciation": {
+      "respelling": "SHINK-en",
+      "ipa": "ˈʃɪŋkn̩",
+      "notes": "The plural looks the same. Plural: die Schinken."
+    },
+    "meaning": "ham",
+    "shortDefinition": "Ham."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Schinken, plural die Schinken.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Schinken"
+        },
+        {
+          "label": "More than one",
+          "value": "die Schinken"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich möchte gern ein Schinkenbrot.",
+      "english": "I'd like a ham sandwich.",
+      "highlight": [
+        "Schinkenbrot."
+      ]
+    },
+    {
+      "german": "Pizza mit Schinken und Käse, bitte.",
+      "english": "Pizza with ham and cheese, please.",
+      "highlight": [
+        "Schinken"
+      ]
+    },
+    {
+      "german": "Ich esse keinen Schinken.",
+      "english": "I don't eat ham.",
+      "highlight": [
+        "Schinken."
+      ]
+    }
+  ],
+  "forms": [
+    "Schinken",
+    "die Schinken",
+    "der Schinken"
+  ],
+  "memoryHook": "Der Schinken = ham. Schinkenbrot = ham sandwich.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Schinken",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Schinken is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Schinken, zwei ___",
+      "answer": "Schinken",
+      "fullAnswer": "ein Schinken, zwei Schinken",
+      "explanation": "The plural is Schinken.",
+      "acceptedAnswers": [
+        "Schinken"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Schinken mean?",
+      "options": [
+        "to learn",
+        "the job",
+        "ham"
+      ],
+      "answer": "ham",
+      "explanation": "Schinken: ham.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ein Schinkenbrot is…",
+      "options": [
+        "a ham sandwich",
+        "ham bread"
+      ],
+      "answer": "a ham sandwich",
+      "explanation": "Schinken + Brot.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich esse ___ Schinken. (no)",
+      "options": [
+        "kein",
+        "keinen"
+      ],
+      "answer": "keinen",
+      "explanation": "Masculine: keinen.",
+      "id": "q5"
+    }
+  ]
+}

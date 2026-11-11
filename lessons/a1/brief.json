@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Brief",
+    "partOfSpeech": "noun, masculine (der Brief)",
+    "pronunciation": {
+      "respelling": "BREEF",
+      "ipa": "bʁiːf",
+      "notes": "Plural: die Briefe."
+    },
+    "meaning": "letter",
+    "shortDefinition": "Letter."
+  },
+  "wordFamily": [
+    {
+      "german": "die Briefmarke",
+      "english": "stamp",
+      "type": "noun"
+    },
+    {
+      "german": "der Briefkasten",
+      "english": "letterbox",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Brief, plural die Briefe.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Brief"
+        },
+        {
+          "label": "More than one",
+          "value": "die Briefe"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich habe einen Brief von meiner Oma bekommen.",
+      "english": "I got a letter from my grandma.",
+      "highlight": [
+        "Brief"
+      ]
+    },
+    {
+      "german": "Schreibst du noch Briefe?",
+      "english": "Do you still write letters?",
+      "highlight": [
+        "Briefe?"
+      ]
+    },
+    {
+      "german": "Der Brief ist schon abgeschickt.",
+      "english": "The letter's already been sent.",
+      "highlight": [
+        "Brief"
+      ]
+    }
+  ],
+  "forms": [
+    "Briefe",
+    "die Briefe",
+    "der Brief"
+  ],
+  "memoryHook": "Brief is related to English 'brief' (a short written note). Der Briefkasten = letterbox.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Brief",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Brief is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Brief, zwei ___",
+      "answer": "Briefe",
+      "fullAnswer": "ein Brief, zwei Briefe",
+      "explanation": "The plural is Briefe.",
+      "acceptedAnswers": [
+        "Briefe"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Brief mean?",
+      "options": [
+        "to wait",
+        "letter",
+        "to help"
+      ],
+      "answer": "letter",
+      "explanation": "Brief: letter.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Where do you put a stamp?",
+      "options": [
+        "auf den Brief",
+        "in den Brief"
+      ],
+      "answer": "auf den Brief",
+      "explanation": "Die Briefmarke kommt auf den Brief.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Der Briefkasten is…",
+      "options": [
+        "the letterbox",
+        "the envelope"
+      ],
+      "answer": "the letterbox",
+      "explanation": "Brief + Kasten (box).",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Aktie",
+    "partOfSpeech": "noun, feminine (die Aktie)",
+    "pronunciation": {
+      "respelling": "AK-tsye",
+      "ipa": "ˈaktsi̯ə",
+      "notes": "Plural: die Aktien."
+    },
+    "meaning": "share (stock)",
+    "shortDefinition": "Share (stock)."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Aktie, plural die Aktien.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Aktie"
+        },
+        {
+          "label": "More than one",
+          "value": "die Aktien"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er kauft Aktien von Apple.",
+      "english": "He's buying Apple shares.",
+      "highlight": [
+        "Aktien"
+      ]
+    },
+    {
+      "german": "Die Aktie ist um 5 % gestiegen.",
+      "english": "The share price rose by 5%.",
+      "highlight": [
+        "Aktie"
+      ]
+    },
+    {
+      "german": "Wie stehen die Aktien?",
+      "english": "How are things looking?",
+      "highlight": [
+        "Aktien?"
+      ]
+    }
+  ],
+  "forms": [
+    "Aktionär",
+    "Aktiengesellschaft"
+  ],
+  "memoryHook": "Die Aktie; der Aktionär; Aktiengesellschaft.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Aktie",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Aktie is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Aktie, zwei ___",
+      "answer": "Aktien",
+      "fullAnswer": "ein Aktie, zwei Aktien",
+      "explanation": "The plural is Aktien.",
+      "acceptedAnswers": [
+        "Aktien"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Aktie mean?",
+      "options": [
+        "the bill",
+        "share (stock)",
+        "tomorrow"
+      ],
+      "answer": "share (stock)",
+      "explanation": "Aktie: share (stock).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Wie stehen die Aktien?' (informal) means…",
+      "options": [
+        "how are things?",
+        "what are the shares?"
+      ],
+      "answer": "how are things?",
+      "explanation": "Idiom.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Shareholder:",
+      "options": [
+        "der Aktionär",
+        "der Aktier"
+      ],
+      "answer": "der Aktionär",
+      "explanation": "Person.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "T sounds like…",
+      "options": [
+        "ts",
+        "t"
+      ],
+      "answer": "ts",
+      "explanation": "AK-tsye.",
+      "id": "q6"
+    }
+  ]
+}

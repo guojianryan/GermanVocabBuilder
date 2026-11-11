@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Zentrum",
+    "partOfSpeech": "noun, neuter (das Zentrum)",
+    "pronunciation": {
+      "respelling": "TSEN-troom",
+      "ipa": "ˈtsɛntʁʊm",
+      "notes": "Plural: die Zentren."
+    },
+    "meaning": "centre",
+    "shortDefinition": "Centre."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Zentrum, plural die Zentren.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Zentrum"
+        },
+        {
+          "label": "More than one",
+          "value": "die Zentren"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das Hotel liegt im Zentrum.",
+      "english": "The hotel is in the centre.",
+      "highlight": [
+        "Zentrum."
+      ]
+    },
+    {
+      "german": "Wie komme ich ins Zentrum?",
+      "english": "How do I get to the centre?",
+      "highlight": [
+        "Zentrum?"
+      ]
+    },
+    {
+      "german": "Das Einkaufszentrum ist neu.",
+      "english": "The shopping centre is new.",
+      "highlight": [
+        "Einkaufszentrum"
+      ]
+    }
+  ],
+  "forms": [
+    "Zentren",
+    "die Zentren",
+    "das Zentrum"
+  ],
+  "memoryHook": "Das Zentrum, die Zentren. Also: die Innenstadt.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Zentrum",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Zentrum is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Zentrum, zwei ___",
+      "answer": "Zentren",
+      "fullAnswer": "ein Zentrum, zwei Zentren",
+      "explanation": "The plural is Zentren.",
+      "acceptedAnswers": [
+        "Zentren"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Zentrum mean?",
+      "options": [
+        "quiet",
+        "the window",
+        "centre"
+      ],
+      "answer": "centre",
+      "explanation": "Zentrum: centre.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Zentren",
+        "Zentrums"
+      ],
+      "answer": "Zentren",
+      "explanation": "-um → -en.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "City centre (another word):",
+      "options": [
+        "die Innenstadt",
+        "die Mittestadt"
+      ],
+      "answer": "die Innenstadt",
+      "explanation": "Innenstadt.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Fahrrad",
+    "partOfSpeech": "noun, neuter (das Fahrrad)",
+    "pronunciation": {
+      "respelling": "FAR-raht",
+      "ipa": "ˈfaːɐ̯ˌʁaːt",
+      "notes": "Plural: die Fahrräder."
+    },
+    "meaning": "bicycle, bike",
+    "shortDefinition": "Bicycle, bike."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Fahr",
+        "meaning": "travel",
+        "note": "From fahren."
+      },
+      {
+        "part": "rad",
+        "meaning": "wheel"
+      }
+    ],
+    "literalMeaning": "travel wheel"
+  },
+  "wordFamily": [
+    {
+      "german": "Rad fahren",
+      "english": "to cycle",
+      "type": "phrase"
+    },
+    {
+      "german": "das Rad",
+      "english": "wheel; bike",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Fahrrad, plural die Fahrräder.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Fahrrad"
+        },
+        {
+          "label": "More than one",
+          "value": "die Fahrräder"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich fahre mit dem Fahrrad zur Uni.",
+      "english": "I cycle to university.",
+      "highlight": [
+        "Fahrrad"
+      ]
+    },
+    {
+      "german": "Mein Fahrrad ist kaputt.",
+      "english": "My bike is broken.",
+      "highlight": [
+        "Fahrrad"
+      ]
+    },
+    {
+      "german": "Hier kann man Fahrräder mieten.",
+      "english": "You can rent bikes here.",
+      "highlight": [
+        "Fahrräder"
+      ]
+    }
+  ],
+  "forms": [
+    "Fahrräder",
+    "die Fahrräder",
+    "das Fahrrad"
+  ],
+  "memoryHook": "Fahr(en) + Rad (wheel): a wheel you ride. Plural: Fahrräder. Rad fahren = to cycle.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Fahrrad",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Fahrrad is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Fahrrad, zwei ___",
+      "answer": "Fahrräder",
+      "fullAnswer": "ein Fahrrad, zwei Fahrräder",
+      "explanation": "The plural is Fahrräder.",
+      "acceptedAnswers": [
+        "Fahrraeder"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Fahrrad mean?",
+      "options": [
+        "bicycle",
+        "cheap",
+        "always"
+      ],
+      "answer": "bicycle",
+      "explanation": "Fahrrad: bicycle, bike.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "In everyday speech, Fahrrad is often just…",
+      "options": [
+        "das Rad",
+        "das Auto"
+      ],
+      "answer": "das Rad",
+      "explanation": "Rad fahren: to cycle.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich fahre ___ Fahrrad.",
+      "options": [
+        "mit dem",
+        "mit der"
+      ],
+      "answer": "mit dem",
+      "explanation": "Das Fahrrad, dative: dem.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Bundesrat",
+    "partOfSpeech": "noun, masculine (der Bundesrat)",
+    "pronunciation": {
+      "respelling": "BOON-des-raat",
+      "ipa": "ˈbʊndəsˌʁaːt",
+      "notes": "Usually no plural."
+    },
+    "meaning": "Bundesrat (federal council, upper house)",
+    "shortDefinition": "Bundesrat (federal council, upper house)."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Bundes",
+        "meaning": "federal"
+      },
+      {
+        "part": "rat",
+        "meaning": "council"
+      }
+    ],
+    "literalMeaning": "federal council"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Bundesrat, usually no plural.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Bundesrat"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Bundesrat muss dem Gesetz zustimmen.",
+      "english": "The Bundesrat has to approve the law.",
+      "highlight": [
+        "Bundesrat"
+      ]
+    },
+    {
+      "german": "Im Bundesrat sitzen Vertreter der Länder.",
+      "english": "Representatives of the states sit in the Bundesrat.",
+      "highlight": [
+        "Bundesrat"
+      ]
+    },
+    {
+      "german": "Der Bundesrat tagt heute.",
+      "english": "The Bundesrat is in session today.",
+      "highlight": [
+        "Bundesrat"
+      ]
+    }
+  ],
+  "forms": [
+    "Bundestag"
+  ],
+  "memoryHook": "Bund + Rat = federal council; Bundestag = parliament.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Bundesrat",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Bundesrat is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Bundesrat mean?",
+      "options": [
+        "Bundesrat (federal council",
+        "cheap",
+        "always"
+      ],
+      "answer": "Bundesrat (federal council",
+      "explanation": "Bundesrat: Bundesrat (federal council, upper house).",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Represents…",
+      "options": [
+        "the federal states (Länder)",
+        "the people directly"
+      ],
+      "answer": "the federal states (Länder)",
+      "explanation": "States.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Lower house:",
+      "options": [
+        "der Bundestag",
+        "der Landtag"
+      ],
+      "answer": "der Bundestag",
+      "explanation": "Parliament.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "In Switzerland, der Bundesrat is…",
+      "options": [
+        "the government (executive)",
+        "a court"
+      ],
+      "answer": "the government (executive)",
+      "explanation": "Different role.",
+      "id": "q5"
+    }
+  ]
+}

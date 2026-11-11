@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Mond",
+    "partOfSpeech": "noun, masculine (der Mond)",
+    "pronunciation": {
+      "respelling": "MOHNT",
+      "ipa": "moːnt",
+      "notes": "Plural: die Monde."
+    },
+    "meaning": "moon",
+    "shortDefinition": "Moon."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Mond, plural die Monde.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Mond"
+        },
+        {
+          "label": "More than one",
+          "value": "die Monde"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Heute ist Vollmond.",
+      "english": "It's a full moon tonight.",
+      "highlight": [
+        "Vollmond."
+      ]
+    },
+    {
+      "german": "Der Mond scheint hell.",
+      "english": "The moon is shining brightly.",
+      "highlight": [
+        "Mond"
+      ]
+    },
+    {
+      "german": "1969 landeten Menschen auf dem Mond.",
+      "english": "In 1969 people landed on the moon.",
+      "highlight": [
+        "Mond."
+      ]
+    }
+  ],
+  "forms": [
+    "Monde",
+    "die Monde",
+    "der Mond"
+  ],
+  "memoryHook": "Der Mond (masculine!), die Sonne (feminine).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Mond",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Mond is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Mond, zwei ___",
+      "answer": "Monde",
+      "fullAnswer": "ein Mond, zwei Monde",
+      "explanation": "The plural is Monde.",
+      "acceptedAnswers": [
+        "Monde"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Mond mean?",
+      "options": [
+        "the street",
+        "the shop",
+        "moon"
+      ],
+      "answer": "moon",
+      "explanation": "Mond: moon.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gender:",
+      "options": [
+        "der",
+        "die"
+      ],
+      "answer": "der",
+      "explanation": "Der Mond (but die Sonne).",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Monday is…",
+      "options": [
+        "Montag (moon day)",
+        "Mondtag"
+      ],
+      "answer": "Montag (moon day)",
+      "explanation": "Same root.",
+      "id": "q5"
+    }
+  ]
+}

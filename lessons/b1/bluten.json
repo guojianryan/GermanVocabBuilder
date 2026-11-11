@@ -1,0 +1,165 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "bluten",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "BLOO-ten",
+      "ipa": "ˈbluːtn̩",
+      "notes": ""
+    },
+    "meaning": "to bleed",
+    "shortDefinition": "To bleed."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "blut|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "blut|est"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "blut|et"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "blut|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "blut|et"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "blut|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat geblutet"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "das Blut",
+      "english": "blood",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Du blutest am Finger!",
+      "english": "Your finger's bleeding!",
+      "highlight": [
+        "blutest"
+      ]
+    },
+    {
+      "german": "Die Wunde blutet stark.",
+      "english": "The wound is bleeding heavily.",
+      "highlight": [
+        "blutet"
+      ]
+    },
+    {
+      "german": "Meine Nase hat geblutet.",
+      "english": "My nose was bleeding.",
+      "highlight": [
+        "geblutet."
+      ]
+    }
+  ],
+  "forms": [
+    "blute",
+    "blutest",
+    "blutet",
+    "bluten",
+    "geblutet"
+  ],
+  "memoryHook": "Das Blut → bluten (bleed).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (bluten)",
+      "answer": "blutet",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: blutet.",
+      "acceptedAnswers": [
+        "blutet"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (bluten, past)",
+      "answer": "geblutet",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe geblutet.",
+      "acceptedAnswers": [
+        "geblutet"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does bluten mean?",
+      "options": [
+        "the window",
+        "to bleed",
+        "to help"
+      ],
+      "answer": "to bleed",
+      "explanation": "bluten: to bleed.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Du ___ .",
+      "options": [
+        "blutest",
+        "blutst"
+      ],
+      "answer": "blutest",
+      "explanation": "Add -e-.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Blood:",
+      "options": [
+        "das Blut",
+        "der Blut"
+      ],
+      "answer": "das Blut",
+      "explanation": "Neuter.",
+      "id": "q5"
+    }
+  ]
+}

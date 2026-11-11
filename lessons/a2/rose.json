@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Rose",
+    "partOfSpeech": "noun, feminine (die Rose)",
+    "pronunciation": {
+      "respelling": "ROH-ze",
+      "ipa": "ˈʁoːzə",
+      "notes": "Plural: die Rosen."
+    },
+    "meaning": "rose",
+    "shortDefinition": "Rose."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Rose, plural die Rosen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Rose"
+        },
+        {
+          "label": "More than one",
+          "value": "die Rosen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er schenkt ihr rote Rosen.",
+      "english": "He gives her red roses.",
+      "highlight": [
+        "Rosen."
+      ]
+    },
+    {
+      "german": "Im Garten blühen die Rosen.",
+      "english": "The roses are blooming in the garden.",
+      "highlight": [
+        "Rosen."
+      ]
+    },
+    {
+      "german": "Die Rose riecht gut.",
+      "english": "The rose smells nice.",
+      "highlight": [
+        "Rose"
+      ]
+    }
+  ],
+  "forms": [
+    "Rosen",
+    "die Rosen",
+    "die Rose"
+  ],
+  "memoryHook": "Die Rose (two syllables). Rosa = pink.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Rose",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Rose is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Rose, zwei ___",
+      "answer": "Rosen",
+      "fullAnswer": "ein Rose, zwei Rosen",
+      "explanation": "The plural is Rosen.",
+      "acceptedAnswers": [
+        "Rosen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Rose mean?",
+      "options": [
+        "rose",
+        "expensive",
+        "slowly"
+      ],
+      "answer": "rose",
+      "explanation": "Rose: rose.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Pronounced…",
+      "options": [
+        "ROH-ze",
+        "rohz"
+      ],
+      "answer": "ROH-ze",
+      "explanation": "Two syllables.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Rosa means…",
+      "options": [
+        "pink",
+        "rose"
+      ],
+      "answer": "pink",
+      "explanation": "The colour.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Ministerpräsident",
+    "partOfSpeech": "noun, masculine (der Ministerpräsident)",
+    "pronunciation": {
+      "respelling": "mi-NIS-ter-pre-zi-dent",
+      "ipa": "miˈnɪstɐpʁɛziˌdɛnt",
+      "notes": "Plural: die Ministerpräsidenten."
+    },
+    "meaning": "minister-president (head of a German state)",
+    "shortDefinition": "Minister-president (head of a German state)."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Minister",
+        "meaning": "minister"
+      },
+      {
+        "part": "präsident",
+        "meaning": "president"
+      }
+    ],
+    "literalMeaning": "president of ministers"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Ministerpräsident, plural die Ministerpräsidenten.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Ministerpräsident"
+        },
+        {
+          "label": "More than one",
+          "value": "die Ministerpräsidenten"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Ministerpräsident von Bayern sitzt in München.",
+      "english": "The Bavarian minister-president is based in Munich.",
+      "highlight": [
+        "Ministerpräsident"
+      ]
+    },
+    {
+      "german": "Sie wurde zur Ministerpräsidentin gewählt.",
+      "english": "She was elected minister-president.",
+      "highlight": [
+        "Ministerpräsidentin"
+      ]
+    },
+    {
+      "german": "Jedes Bundesland hat einen Ministerpräsidenten.",
+      "english": "Each state has a minister-president.",
+      "highlight": [
+        "Ministerpräsidenten."
+      ]
+    }
+  ],
+  "forms": [
+    "Ministerpräsidentin"
+  ],
+  "memoryHook": "Ministerpräsident = head of a Bundesland.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Ministerpräsident",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Ministerpräsident is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Ministerpräsident, zwei ___",
+      "answer": "Ministerpräsidenten",
+      "fullAnswer": "ein Ministerpräsident, zwei Ministerpräsidenten",
+      "explanation": "The plural is Ministerpräsidenten.",
+      "acceptedAnswers": [
+        "Ministerpraesidenten"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Ministerpräsident mean?",
+      "options": [
+        "never",
+        "the weather",
+        "minister-president (head of a German state)"
+      ],
+      "answer": "minister-president (head of a German state)",
+      "explanation": "Ministerpräsident: minister-president (head of a German state).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "He or she leads…",
+      "options": [
+        "a German Bundesland",
+        "the federal government"
+      ],
+      "answer": "a German Bundesland",
+      "explanation": "State level.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Weak noun: den/dem…",
+      "options": [
+        "Ministerpräsidenten",
+        "Ministerpräsident"
+      ],
+      "answer": "Ministerpräsidenten",
+      "explanation": "-en.",
+      "id": "q5"
+    }
+  ]
+}

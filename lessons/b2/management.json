@@ -1,0 +1,133 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Management",
+    "partOfSpeech": "noun, neuter (das Management)",
+    "pronunciation": {
+      "respelling": "MEN-etch-ment",
+      "ipa": "ˈmɛnɪtʃmənt",
+      "notes": "Plural: die Managements."
+    },
+    "meaning": "management",
+    "shortDefinition": "Management."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Management, plural die Managements.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Management"
+        },
+        {
+          "label": "More than one",
+          "value": "die Managements"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das Management hat entschieden.",
+      "english": "Management has decided.",
+      "highlight": [
+        "Management"
+      ]
+    },
+    {
+      "german": "Er studiert Management.",
+      "english": "He's studying management.",
+      "highlight": [
+        "Management."
+      ]
+    },
+    {
+      "german": "Zeitmanagement ist wichtig.",
+      "english": "Time management is important.",
+      "highlight": [
+        "Zeitmanagement"
+      ]
+    }
+  ],
+  "forms": [
+    "Manager"
+  ],
+  "memoryHook": "Das Management (English); der Manager.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Management",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Management is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Management, zwei ___",
+      "answer": "Managements",
+      "fullAnswer": "ein Management, zwei Managements",
+      "explanation": "The plural is Managements.",
+      "acceptedAnswers": [
+        "Managements"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Management mean?",
+      "options": [
+        "the child",
+        "management",
+        "the weather"
+      ],
+      "answer": "management",
+      "explanation": "Management: management.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gender:",
+      "options": [
+        "das",
+        "die"
+      ],
+      "answer": "das",
+      "explanation": "Das Management.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Pronunciation:",
+      "options": [
+        "English",
+        "German"
+      ],
+      "answer": "English",
+      "explanation": "Loanword.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Manager:",
+      "options": [
+        "der Manager / die Managerin",
+        "der Managent"
+      ],
+      "answer": "der Manager / die Managerin",
+      "explanation": "Person.",
+      "id": "q6"
+    }
+  ]
+}

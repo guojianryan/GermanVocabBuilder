@@ -1,0 +1,210 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "full",
+  "word": {
+    "headword": "wollen",
+    "partOfSpeech": "modal verb",
+    "pronunciation": {
+      "respelling": "VOL-en",
+      "ipa": "ˈvɔlən",
+      "notes": "W = v, short o."
+    },
+    "meaning": "to want (to)",
+    "shortDefinition": "Strong wishes and plans."
+  },
+  "intro": {
+    "title": "Ich will…",
+    "paragraphs": [
+      "Wollen = want. Ich will Deutsch lernen. It's direct, so in shops use möchte instead. Careful: ich will does NOT mean 'I will'. The future is werden."
+    ]
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "|will"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "|willst"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "|will"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "woll|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "woll|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "woll|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Ich and er: will. Past: wollte."
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "möchten",
+      "english": "would like",
+      "type": "modal verb"
+    },
+    {
+      "german": "werden",
+      "english": "will (future)",
+      "type": "verb"
+    },
+    {
+      "german": "der Wille",
+      "english": "will",
+      "type": "noun"
+    }
+  ],
+  "keyTrap": {
+    "title": "The big trap: ich will ≠ I will",
+    "explanation": "Ich will = I want. For the future, use werden or just the present.",
+    "wrong": {
+      "german": "Ich will morgen anrufen. (meaning: I'll call tomorrow)",
+      "verdict": "This means 'I want to call tomorrow'."
+    },
+    "correct": [
+      {
+        "german": "Ich rufe morgen an.",
+        "literal": "I call tomorrow.",
+        "note": "Future: present tense + time."
+      },
+      {
+        "german": "Ich will Ärztin werden.",
+        "literal": "I want doctor to become.",
+        "note": "Want: wollen."
+      }
+    ]
+  },
+  "commonMistakes": [
+    {
+      "title": "Too direct in shops",
+      "explanation": "Use möchte.",
+      "wrong": "Ich will ein Bier.",
+      "correct": "Ich möchte ein Bier."
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich will Deutsch lernen.",
+      "english": "I want to learn German.",
+      "highlight": [
+        "will"
+      ]
+    },
+    {
+      "german": "Willst du mitkommen?",
+      "english": "Do you want to come along?",
+      "highlight": [
+        "Willst"
+      ]
+    },
+    {
+      "german": "Wir wollen im Sommer nach Italien fahren.",
+      "english": "We want to go to Italy in summer.",
+      "highlight": [
+        "wollen"
+      ]
+    },
+    {
+      "german": "Er wollte nicht warten.",
+      "english": "He didn't want to wait.",
+      "highlight": [
+        "wollte"
+      ]
+    }
+  ],
+  "forms": [
+    "will",
+    "willst",
+    "wollt",
+    "wollte",
+    "wollten",
+    "gewollt"
+  ],
+  "memoryHook": "Ich will = I WANT (not I will). Polite: ich möchte. Future: werden.",
+  "signOff": "Wer will, der kann!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich ___ Pilot werden. (want)",
+      "answer": "will",
+      "fullAnswer": "Ich will Pilot werden.",
+      "explanation": "Ich will.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Ich will' means…",
+      "options": [
+        "I want",
+        "I will"
+      ],
+      "answer": "I want",
+      "explanation": "False friend.",
+      "id": "q2"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "___ du einen Kaffee? (want)",
+      "answer": "Willst",
+      "fullAnswer": "Willst du einen Kaffee?",
+      "explanation": "Du willst.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Er ___ nach Hause.",
+      "options": [
+        "will",
+        "willt"
+      ],
+      "answer": "will",
+      "explanation": "No ending.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Politer in a shop:",
+      "options": [
+        "Ich möchte …",
+        "Ich will …"
+      ],
+      "answer": "Ich möchte …",
+      "explanation": "Möchte.",
+      "id": "q5"
+    }
+  ]
+}

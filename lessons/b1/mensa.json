@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Mensa",
+    "partOfSpeech": "noun, feminine (die Mensa)",
+    "pronunciation": {
+      "respelling": "MEN-za",
+      "ipa": "ˈmɛnza",
+      "notes": "Plural: die Mensen."
+    },
+    "meaning": "university canteen",
+    "shortDefinition": "University canteen."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Mensa, plural die Mensen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Mensa"
+        },
+        {
+          "label": "More than one",
+          "value": "die Mensen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir essen in der Mensa.",
+      "english": "We eat in the canteen.",
+      "highlight": [
+        "Mensa."
+      ]
+    },
+    {
+      "german": "Das Essen in der Mensa ist billig.",
+      "english": "The food in the canteen is cheap.",
+      "highlight": [
+        "Mensa"
+      ]
+    },
+    {
+      "german": "Treffen wir uns vor der Mensa?",
+      "english": "Shall we meet outside the canteen?",
+      "highlight": [
+        "Mensa?"
+      ]
+    }
+  ],
+  "forms": [
+    "Mensen",
+    "die Mensen",
+    "die Mensa"
+  ],
+  "memoryHook": "Die Mensa = uni canteen (company: die Kantine).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Mensa",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Mensa is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Mensa, zwei ___",
+      "answer": "Mensen",
+      "fullAnswer": "ein Mensa, zwei Mensen",
+      "explanation": "The plural is Mensen.",
+      "acceptedAnswers": [
+        "Mensen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Mensa mean?",
+      "options": [
+        "the bed",
+        "university canteen",
+        "cheap"
+      ],
+      "answer": "university canteen",
+      "explanation": "Mensa: university canteen.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Mensa is at…",
+      "options": [
+        "university (or school)",
+        "a company"
+      ],
+      "answer": "university (or school)",
+      "explanation": "A company has a Kantine.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Mensen",
+        "Mensas"
+      ],
+      "answer": "Mensen",
+      "explanation": "Latin.",
+      "id": "q5"
+    }
+  ]
+}

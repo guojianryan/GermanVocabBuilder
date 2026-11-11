@@ -1,0 +1,154 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "erwähnen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "er-VAY-nen",
+      "ipa": "ɛɐ̯ˈvɛːnən",
+      "notes": ""
+    },
+    "meaning": "to mention",
+    "shortDefinition": "To mention."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "erwähn|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "erwähn|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "erwähn|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "erwähn|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "erwähn|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "erwähn|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat erwähnt"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er hat das Problem nicht erwähnt.",
+      "english": "He didn't mention the problem.",
+      "highlight": [
+        "erwähnt."
+      ]
+    },
+    {
+      "german": "Wie schon erwähnt, …",
+      "english": "As already mentioned, …",
+      "highlight": [
+        "erwähnt,"
+      ]
+    },
+    {
+      "german": "Ich möchte noch erwähnen, dass …",
+      "english": "I'd also like to mention that …",
+      "highlight": [
+        "erwähnen,"
+      ]
+    }
+  ],
+  "forms": [
+    "Erwähnung"
+  ],
+  "memoryHook": "Erwähnen (no ge-) = mention.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (erwähnen)",
+      "answer": "erwähnt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: erwähnt.",
+      "acceptedAnswers": [
+        "erwaehnt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (erwähnen, past)",
+      "answer": "erwähnt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe erwähnt.",
+      "acceptedAnswers": [
+        "erwaehnt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does erwähnen mean?",
+      "options": [
+        "the bill",
+        "to mention",
+        "the flower"
+      ],
+      "answer": "to mention",
+      "explanation": "erwähnen: to mention.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "hat erwähnt",
+        "hat geerwähnt"
+      ],
+      "answer": "hat erwähnt",
+      "explanation": "Er- = no ge-.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Noun:",
+      "options": [
+        "die Erwähnung",
+        "das Erwähn"
+      ],
+      "answer": "die Erwähnung",
+      "explanation": "Mention.",
+      "id": "q5"
+    }
+  ]
+}

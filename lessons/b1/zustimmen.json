@@ -1,0 +1,180 @@
+{
+ "schemaVersion": "1.4",
+ "language": "de",
+ "explanationLanguage": "en",
+ "level": "B1",
+ "levelSource": "Goethe-Zertifikat B1 Wortliste",
+ "lessonType": "card",
+ "word": {
+  "headword": "zustimmen",
+  "partOfSpeech": "separable verb",
+  "pronunciation": {
+   "respelling": "TSOO-shtim-en",
+   "ipa": "ˈtsuːˌʃtɪmən",
+   "notes": ""
+  },
+  "meaning": "to agree",
+  "shortDefinition": "To agree."
+ },
+ "tables": [
+  {
+   "title": "Present tense",
+   "columns": [
+    "present"
+   ],
+   "rows": [
+    {
+     "label": "ich",
+     "cells": [
+      "stimm|e … |zu"
+     ]
+    },
+    {
+     "label": "du",
+     "cells": [
+      "stimm|st … |zu"
+     ]
+    },
+    {
+     "label": "er, sie, es",
+     "cells": [
+      "stimm|t … |zu"
+     ]
+    },
+    {
+     "label": "wir",
+     "cells": [
+      "stimm|en … |zu"
+     ]
+    },
+    {
+     "label": "ihr",
+     "cells": [
+      "stimm|t … |zu"
+     ]
+    },
+    {
+     "label": "sie, Sie",
+     "cells": [
+      "stimm|en … |zu"
+     ]
+    }
+   ],
+   "notes": [
+    "Past (Perfekt): hat zugestimmt"
+   ]
+  }
+ ],
+ "wordFamily": [
+  {
+   "german": "die Zustimmung",
+   "english": "agreement, approval",
+   "type": "noun"
+  }
+ ],
+ "sampleSentences": [
+  {
+   "german": "Ich stimme dir zu.",
+   "english": "I agree with you.",
+   "highlight": [
+    "stimme",
+    "zu."
+   ]
+  },
+  {
+   "german": "Alle haben dem Plan zugestimmt.",
+   "english": "Everyone agreed to the plan.",
+   "highlight": [
+    "zugestimmt."
+   ]
+  },
+  {
+   "german": "Da kann ich nur zustimmen.",
+   "english": "I can only agree with that.",
+   "highlight": [
+    "zustimmen."
+   ]
+  }
+ ],
+ "forms": [
+  "stimme zu",
+  "stimmst zu",
+  "stimmt zu",
+  "stimmen zu",
+  "zugestimmt"
+ ],
+ "memoryHook": "Zustimmen (+ Dat) = agree → die Zustimmung.",
+ "signOff": "Gut gemacht!",
+ "quiz": [
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "er ___ … zu (zustimmen)",
+   "answer": "stimmt",
+   "fullAnswer": "",
+   "explanation": "For er, sie, es: stimmt … zu.",
+   "acceptedAnswers": [
+    "stimmt"
+   ],
+   "id": "q1"
+  },
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "Ich habe schon ___. (zustimmen, past)",
+   "answer": "zugestimmt",
+   "fullAnswer": "",
+   "explanation": "Perfekt: habe zugestimmt.",
+   "acceptedAnswers": [
+    "zugestimmt"
+   ],
+   "id": "q2"
+  },
+  {
+   "type": "choice",
+   "prompt": "What does zustimmen mean?",
+   "options": [
+    "to help",
+    "to agree",
+    "the job"
+   ],
+   "answer": "to agree",
+   "explanation": "zustimmen: to agree.",
+   "id": "q3"
+  },
+  {
+   "type": "choice",
+   "prompt": "Case: jemandem zustimmen",
+   "options": [
+    "dative",
+    "accusative"
+   ],
+   "answer": "dative",
+   "explanation": "Ich stimme dir zu.",
+   "id": "q4"
+  },
+  {
+   "type": "choice",
+   "prompt": "Opposite:",
+   "options": [
+    "widersprechen / ablehnen",
+    "zusagen"
+   ],
+   "answer": "widersprechen / ablehnen",
+   "explanation": "Disagree.",
+   "id": "q5"
+  }
+ ],
+ "etymology": {
+  "title": "Where it comes from",
+  "parts": [
+   {
+    "part": "zu",
+    "meaning": "to, towards; shut"
+   },
+   {
+    "part": "stimmen",
+    "meaning": "to vote"
+   }
+  ],
+  "literalMeaning": "to vote for"
+ }
+}

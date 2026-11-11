@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Girokonto",
+    "partOfSpeech": "noun, neuter (das Girokonto)",
+    "pronunciation": {
+      "respelling": "ZHEE-ro-kon-toh",
+      "ipa": "ˈʒiːʁoˌkɔnto",
+      "notes": "Plural: die Girokonten."
+    },
+    "meaning": "current account",
+    "shortDefinition": "Current account."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Girokonto, plural die Girokonten.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Girokonto"
+        },
+        {
+          "label": "More than one",
+          "value": "die Girokonten"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich eröffne ein Girokonto.",
+      "english": "I'm opening a current account.",
+      "highlight": [
+        "Girokonto."
+      ]
+    },
+    {
+      "german": "Das Gehalt kommt aufs Girokonto.",
+      "english": "The salary goes into the current account.",
+      "highlight": [
+        "Girokonto."
+      ]
+    },
+    {
+      "german": "Das Girokonto kostet nichts.",
+      "english": "The current account is free.",
+      "highlight": [
+        "Girokonto"
+      ]
+    }
+  ],
+  "forms": [
+    "Girokonten",
+    "die Girokonten",
+    "das Girokonto"
+  ],
+  "memoryHook": "Das Girokonto = current account (for everyday banking).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Girokonto",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Girokonto is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Girokonto, zwei ___",
+      "answer": "Girokonten",
+      "fullAnswer": "ein Girokonto, zwei Girokonten",
+      "explanation": "The plural is Girokonten.",
+      "acceptedAnswers": [
+        "Girokonten"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Girokonto mean?",
+      "options": [
+        "the bill",
+        "to help",
+        "current account"
+      ],
+      "answer": "current account",
+      "explanation": "Girokonto: current account.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "G sounds like…",
+      "options": [
+        "zh (as in 'measure')",
+        "g"
+      ],
+      "answer": "zh (as in 'measure')",
+      "explanation": "Italian origin.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Girokonten",
+        "Girokontos"
+      ],
+      "answer": "Girokonten",
+      "explanation": "-o → -en.",
+      "id": "q5"
+    }
+  ]
+}

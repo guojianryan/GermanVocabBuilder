@@ -1,0 +1,158 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "murmeln",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "MOOR-meln",
+      "ipa": "ˈmʊʁml̩n",
+      "notes": ""
+    },
+    "meaning": "to murmur, mutter",
+    "shortDefinition": "To murmur, mutter."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "murml|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "murmel|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "murmel|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "murmel|n"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "murmel|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "murmel|n"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gemurmelt"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er murmelt etwas Unverständliches.",
+      "english": "He's mumbling something incomprehensible.",
+      "highlight": [
+        "murmelt"
+      ]
+    },
+    {
+      "german": "Sie murmelte eine Entschuldigung.",
+      "english": "She murmured an apology.",
+      "highlight": [
+        "murmelte"
+      ]
+    },
+    {
+      "german": "Hör auf zu murmeln!",
+      "english": "Stop mumbling!",
+      "highlight": [
+        "murmeln!"
+      ]
+    }
+  ],
+  "forms": [
+    "murmle",
+    "murmelst",
+    "murmelt",
+    "murmeln",
+    "gemurmelt"
+  ],
+  "memoryHook": "Murmeln (ich murmle) = mutter.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (murmeln)",
+      "answer": "murmelt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: murmelt.",
+      "acceptedAnswers": [
+        "murmelt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (murmeln, past)",
+      "answer": "gemurmelt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gemurmelt.",
+      "acceptedAnswers": [
+        "gemurmelt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does murmeln mean?",
+      "options": [
+        "the bread",
+        "to murmur",
+        "the bill"
+      ],
+      "answer": "to murmur",
+      "explanation": "murmeln: to murmur, mutter.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "ich ___ (murmeln):",
+      "options": [
+        "murmle",
+        "murmeln"
+      ],
+      "answer": "murmle",
+      "explanation": "-el verbs.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Similar:",
+      "options": [
+        "flüstern, nuscheln",
+        "schreien"
+      ],
+      "answer": "flüstern, nuscheln",
+      "explanation": "Quiet.",
+      "id": "q5"
+    }
+  ]
+}

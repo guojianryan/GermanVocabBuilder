@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "zulässig",
+    "partOfSpeech": "adjective",
+    "pronunciation": {
+      "respelling": "TSOO-le-sikh",
+      "ipa": "ˈtsuːlɛsɪç",
+      "notes": ""
+    },
+    "meaning": "permissible, allowed",
+    "shortDefinition": "Permissible, allowed."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "zu",
+        "meaning": "to"
+      },
+      {
+        "part": "läss",
+        "meaning": "let (lassen)"
+      },
+      {
+        "part": "ig",
+        "meaning": "adjective ending"
+      }
+    ],
+    "literalMeaning": "able to be let in"
+  },
+  "sampleSentences": [
+    {
+      "german": "Das ist rechtlich zulässig.",
+      "english": "That's legally permissible.",
+      "highlight": [
+        "zulässig."
+      ]
+    },
+    {
+      "german": "Die zulässige Höchstgeschwindigkeit.",
+      "english": "The maximum permitted speed.",
+      "highlight": [
+        "zulässige"
+      ]
+    },
+    {
+      "german": "Das zulässige Gesamtgewicht.",
+      "english": "The permitted total weight.",
+      "highlight": [
+        "zulässige"
+      ]
+    }
+  ],
+  "forms": [
+    "zulassen",
+    "unzulässig"
+  ],
+  "memoryHook": "Zulassen → zulässig ↔ unzulässig.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does zulässig mean?",
+      "options": [
+        "quiet",
+        "permissible",
+        "the shop"
+      ],
+      "answer": "permissible",
+      "explanation": "zulässig: permissible, allowed.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "zulassen (allow)",
+        "lässig"
+      ],
+      "answer": "zulassen (allow)",
+      "explanation": "Allow.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Opposite:",
+      "options": [
+        "unzulässig",
+        "zulassen"
+      ],
+      "answer": "unzulässig",
+      "explanation": "Not allowed.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonym:",
+      "options": [
+        "erlaubt",
+        "verboten"
+      ],
+      "answer": "erlaubt",
+      "explanation": "Allowed.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Das ist nicht ___ . (permissible)",
+      "answer": "zulässig",
+      "fullAnswer": "Das ist nicht zulässig.",
+      "explanation": "Zulässig.",
+      "acceptedAnswers": [
+        "erlaubt"
+      ],
+      "id": "q5"
+    }
+  ]
+}

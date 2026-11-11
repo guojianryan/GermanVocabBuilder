@@ -1,0 +1,120 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Eltern",
+    "partOfSpeech": "noun, plural only (die Eltern)",
+    "pronunciation": {
+      "respelling": "EL-tern",
+      "ipa": "ˈɛltɐn",
+      "notes": ""
+    },
+    "meaning": "parents",
+    "shortDefinition": "Parents."
+  },
+  "wordFamily": [
+    {
+      "german": "die Mutter",
+      "english": "mother",
+      "type": "noun"
+    },
+    {
+      "german": "der Vater",
+      "english": "father",
+      "type": "noun"
+    },
+    {
+      "german": "die Großeltern",
+      "english": "grandparents",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Meine Eltern wohnen in Leipzig.",
+      "english": "My parents live in Leipzig.",
+      "highlight": [
+        "Eltern"
+      ]
+    },
+    {
+      "german": "Ich besuche am Wochenende meine Eltern.",
+      "english": "I'm visiting my parents at the weekend.",
+      "highlight": [
+        "Eltern."
+      ]
+    },
+    {
+      "german": "Er wohnt noch bei seinen Eltern.",
+      "english": "He still lives with his parents.",
+      "highlight": [
+        "Eltern."
+      ]
+    }
+  ],
+  "forms": [
+    "die Eltern",
+    "Elternteil"
+  ],
+  "memoryHook": "Die Eltern: always plural, from alt (the 'elders'). One parent is ein Elternteil.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does Eltern mean?",
+      "options": [
+        "parents",
+        "the evening",
+        "to open"
+      ],
+      "answer": "parents",
+      "explanation": "Eltern: parents.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Eltern is…",
+      "options": [
+        "always plural",
+        "feminine singular"
+      ],
+      "answer": "always plural",
+      "explanation": "There's no singular.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Meine Eltern ___ in Berlin.",
+      "options": [
+        "wohnt",
+        "wohnen"
+      ],
+      "answer": "wohnen",
+      "explanation": "Plural verb.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Eltern is related to…",
+      "options": [
+        "alt (older)",
+        "elf (eleven)"
+      ],
+      "answer": "alt (older)",
+      "explanation": "Parents are the older ones.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Er wohnt bei seinen ___. (parents)",
+      "answer": "Eltern",
+      "fullAnswer": "bei seinen Eltern",
+      "explanation": "Dative plural: Eltern (already ends in -n).",
+      "id": "q5"
+    }
+  ]
+}

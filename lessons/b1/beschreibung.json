@@ -1,0 +1,142 @@
+{
+ "schemaVersion": "1.4",
+ "language": "de",
+ "explanationLanguage": "en",
+ "level": "B1",
+ "levelSource": "Goethe-Zertifikat B1 Wortliste",
+ "lessonType": "card",
+ "word": {
+  "headword": "Beschreibung",
+  "partOfSpeech": "noun, feminine (die Beschreibung)",
+  "pronunciation": {
+   "respelling": "be-SHRY-bung",
+   "ipa": "bəˈʃʁaɪ̯bʊŋ",
+   "notes": "Plural: die Beschreibungen."
+  },
+  "meaning": "description",
+  "shortDefinition": "Description."
+ },
+ "commonMistakes": [
+  {
+   "title": "Gender and plural",
+   "explanation": "Die Beschreibung, plural die Beschreibungen.",
+   "forms": [
+    {
+     "label": "One",
+     "value": "die Beschreibung"
+    },
+    {
+     "label": "More than one",
+     "value": "die Beschreibungen"
+    }
+   ]
+  }
+ ],
+ "sampleSentences": [
+  {
+   "german": "Lesen Sie die Beschreibung.",
+   "english": "Read the description.",
+   "highlight": [
+    "Beschreibung."
+   ]
+  },
+  {
+   "german": "Die Beschreibung passt genau.",
+   "english": "The description fits exactly.",
+   "highlight": [
+    "Beschreibung"
+   ]
+  },
+  {
+   "german": "Eine Wegbeschreibung, bitte.",
+   "english": "Directions, please.",
+   "highlight": [
+    "Wegbeschreibung,"
+   ]
+  }
+ ],
+ "forms": [
+  "Beschreibungen",
+  "die Beschreibungen",
+  "die Beschreibung"
+ ],
+ "memoryHook": "Beschreiben → die Beschreibung.",
+ "signOff": "Gut gemacht!",
+ "quiz": [
+  {
+   "type": "choice",
+   "prompt": "___ Beschreibung",
+   "options": [
+    "der",
+    "die",
+    "das"
+   ],
+   "answer": "die",
+   "explanation": "Beschreibung is feminine.",
+   "id": "q1"
+  },
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "ein Beschreibung, zwei ___",
+   "answer": "Beschreibungen",
+   "fullAnswer": "ein Beschreibung, zwei Beschreibungen",
+   "explanation": "The plural is Beschreibungen.",
+   "acceptedAnswers": [
+    "Beschreibungen"
+   ],
+   "id": "q2"
+  },
+  {
+   "type": "choice",
+   "prompt": "What does Beschreibung mean?",
+   "options": [
+    "the shop",
+    "the weather",
+    "description"
+   ],
+   "answer": "description",
+   "explanation": "Beschreibung: description.",
+   "id": "q3"
+  },
+  {
+   "type": "choice",
+   "prompt": "Directions (how to get there):",
+   "options": [
+    "die Wegbeschreibung",
+    "die Straßenbeschreibung"
+   ],
+   "answer": "die Wegbeschreibung",
+   "explanation": "Weg + Beschreibung.",
+   "id": "q4"
+  },
+  {
+   "type": "choice",
+   "prompt": "From…",
+   "options": [
+    "beschreiben",
+    "schreiben only"
+   ],
+   "answer": "beschreiben",
+   "explanation": "Describe.",
+   "id": "q5"
+  }
+ ],
+ "etymology": {
+  "title": "Where it comes from",
+  "parts": [
+   {
+    "part": "Be",
+    "meaning": "prefix (acts on something)"
+   },
+   {
+    "part": "schreib",
+    "meaning": "write"
+   },
+   {
+    "part": "ung",
+    "meaning": "noun ending (the act of)"
+   }
+  ],
+  "literalMeaning": "a writing-about"
+ }
+}

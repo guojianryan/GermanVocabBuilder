@@ -1,0 +1,119 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Terror",
+    "partOfSpeech": "noun, masculine (der Terror)",
+    "pronunciation": {
+      "respelling": "TE-ror",
+      "ipa": "ˈtɛʁoːɐ̯",
+      "notes": "Usually no plural."
+    },
+    "meaning": "terror",
+    "shortDefinition": "Terror."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Terror, usually no plural.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Terror"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Welt kämpft gegen den Terror.",
+      "english": "The world is fighting terror.",
+      "highlight": [
+        "Terror."
+      ]
+    },
+    {
+      "german": "Mach keinen Terror!",
+      "english": "Don't make a fuss! (informal)",
+      "highlight": [
+        "Terror!"
+      ]
+    },
+    {
+      "german": "Viele Menschen leiden unter Terror.",
+      "english": "Many people suffer from terror.",
+      "highlight": [
+        "Terror."
+      ]
+    }
+  ],
+  "forms": [
+    "Terrorist",
+    "Terroranschlag"
+  ],
+  "memoryHook": "Der Terror; der Terrorist; der Terroranschlag.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Terror",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Terror is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Terror mean?",
+      "options": [
+        "to learn",
+        "terror",
+        "the street"
+      ],
+      "answer": "terror",
+      "explanation": "Terror: terror.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "A terrorist:",
+      "options": [
+        "der Terrorist",
+        "der Terrorer"
+      ],
+      "answer": "der Terrorist",
+      "explanation": "Person.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gender:",
+      "options": [
+        "der",
+        "die"
+      ],
+      "answer": "der",
+      "explanation": "Der Terror.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Attack:",
+      "options": [
+        "der Terroranschlag",
+        "der Terrorangriff only"
+      ],
+      "answer": "der Terroranschlag",
+      "explanation": "Compound.",
+      "id": "q5"
+    }
+  ]
+}

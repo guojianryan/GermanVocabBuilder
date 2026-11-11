@@ -1,0 +1,166 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "kommentieren",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "ko-men-TEE-ren",
+      "ipa": "kɔmɛnˈtiːʁən",
+      "notes": ""
+    },
+    "meaning": "to comment on",
+    "shortDefinition": "To comment on."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "kommentier|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "kommentier|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "kommentier|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "kommentier|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "kommentier|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "kommentier|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat kommentiert"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er wollte das nicht kommentieren.",
+      "english": "He didn't want to comment on that.",
+      "highlight": [
+        "kommentieren."
+      ]
+    },
+    {
+      "german": "Sie kommentiert das Spiel im Radio.",
+      "english": "She commentates on the match on the radio.",
+      "highlight": [
+        "kommentiert"
+      ]
+    },
+    {
+      "german": "Viele haben den Post kommentiert.",
+      "english": "Lots of people commented on the post.",
+      "highlight": [
+        "kommentiert."
+      ]
+    }
+  ],
+  "forms": [
+    "Kommentar",
+    "Kommentator"
+  ],
+  "memoryHook": "Kommentieren + Akk.; der Kommentar, der Kommentator.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (kommentieren)",
+      "answer": "kommentiert",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: kommentiert.",
+      "acceptedAnswers": [
+        "kommentiert"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (kommentieren, past)",
+      "answer": "kommentiert",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe kommentiert.",
+      "acceptedAnswers": [
+        "kommentiert"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does kommentieren mean?",
+      "options": [
+        "the street",
+        "to comment on",
+        "slowly"
+      ],
+      "answer": "to comment on",
+      "explanation": "kommentieren: to comment on.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Takes…",
+      "options": [
+        "accusative (etwas kommentieren)",
+        "zu + dative"
+      ],
+      "answer": "accusative (etwas kommentieren)",
+      "explanation": "Direct.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Noun:",
+      "options": [
+        "der Kommentar",
+        "die Kommentation"
+      ],
+      "answer": "der Kommentar",
+      "explanation": "Comment.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Commentator:",
+      "options": [
+        "der Kommentator",
+        "der Kommentierer"
+      ],
+      "answer": "der Kommentator",
+      "explanation": "Person.",
+      "id": "q6"
+    }
+  ]
+}

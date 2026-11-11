@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Müsli",
+    "partOfSpeech": "noun, neuter (das Müsli)",
+    "pronunciation": {
+      "respelling": "MÜS-lee",
+      "ipa": "ˈmyːsli",
+      "notes": "Plural: die Müslis."
+    },
+    "meaning": "muesli",
+    "shortDefinition": "Muesli."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Müsli, plural die Müslis.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Müsli"
+        },
+        {
+          "label": "More than one",
+          "value": "die Müslis"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Zum Frühstück esse ich Müsli.",
+      "english": "I eat muesli for breakfast.",
+      "highlight": [
+        "Müsli."
+      ]
+    },
+    {
+      "german": "Das Müsli ist mit Nüssen.",
+      "english": "The muesli has nuts in it.",
+      "highlight": [
+        "Müsli"
+      ]
+    },
+    {
+      "german": "Ich mache mein Müsli selbst.",
+      "english": "I make my own muesli.",
+      "highlight": [
+        "Müsli"
+      ]
+    }
+  ],
+  "forms": [
+    "Müslis",
+    "die Müslis",
+    "das Müsli"
+  ],
+  "memoryHook": "Das Müsli (Swiss). Also spelled Müesli in Switzerland.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Müsli",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Müsli is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Müsli, zwei ___",
+      "answer": "Müslis",
+      "fullAnswer": "ein Müsli, zwei Müslis",
+      "explanation": "The plural is Müslis.",
+      "acceptedAnswers": [
+        "Mueslis"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Müsli mean?",
+      "options": [
+        "to travel",
+        "the shop",
+        "muesli"
+      ],
+      "answer": "muesli",
+      "explanation": "Müsli: muesli.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Origin:",
+      "options": [
+        "Swiss German",
+        "English"
+      ],
+      "answer": "Swiss German",
+      "explanation": "From Switzerland.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Müslis",
+        "Müsli"
+      ],
+      "answer": "Müslis",
+      "explanation": "-s.",
+      "id": "q5"
+    }
+  ]
+}

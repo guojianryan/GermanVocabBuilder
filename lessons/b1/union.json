@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Union",
+    "partOfSpeech": "noun, feminine (die Union)",
+    "pronunciation": {
+      "respelling": "oo-NYOHN",
+      "ipa": "uˈni̯oːn",
+      "notes": "Plural: die Unionen."
+    },
+    "meaning": "union",
+    "shortDefinition": "Union."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Union, plural die Unionen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Union"
+        },
+        {
+          "label": "More than one",
+          "value": "die Unionen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Europäische Union hat 27 Mitglieder.",
+      "english": "The European Union has 27 members.",
+      "highlight": [
+        "Union"
+      ]
+    },
+    {
+      "german": "Die Union gewann die Wahl.",
+      "english": "The CDU/CSU won the election.",
+      "highlight": [
+        "Union"
+      ]
+    },
+    {
+      "german": "Deutschland ist Mitglied der Union.",
+      "english": "Germany is a member of the Union.",
+      "highlight": [
+        "Union."
+      ]
+    }
+  ],
+  "forms": [
+    "EU"
+  ],
+  "memoryHook": "Die Union (EU; CDU/CSU). Trade union = Gewerkschaft.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Union",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Union is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Union, zwei ___",
+      "answer": "Unionen",
+      "fullAnswer": "ein Union, zwei Unionen",
+      "explanation": "The plural is Unionen.",
+      "acceptedAnswers": [
+        "Unionen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Union mean?",
+      "options": [
+        "union",
+        "the flower",
+        "to sleep"
+      ],
+      "answer": "union",
+      "explanation": "Union: union.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "In German politics 'die Union' often means…",
+      "options": [
+        "CDU and CSU together",
+        "the trade union"
+      ],
+      "answer": "CDU and CSU together",
+      "explanation": "Politics.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "EU stands for…",
+      "options": [
+        "Europäische Union",
+        "Europa Unternehmen"
+      ],
+      "answer": "Europäische Union",
+      "explanation": "EU.",
+      "id": "q5"
+    }
+  ]
+}

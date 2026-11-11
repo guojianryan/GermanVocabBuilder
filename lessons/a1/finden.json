@@ -1,0 +1,161 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "finden",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "FIN-den",
+      "ipa": "ˈfɪndn̩",
+      "notes": ""
+    },
+    "meaning": "to find; to think, to consider",
+    "shortDefinition": "To find; to think, to consider."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "find|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "find|est"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "find|et"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "find|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "find|et"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "find|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gefunden",
+        "The stem ends in -d, so du and er add an e: du findest, er findet."
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich finde meinen Schlüssel nicht.",
+      "english": "I can't find my key.",
+      "highlight": [
+        "finde"
+      ]
+    },
+    {
+      "german": "Wie findest du das Kleid? – Ich finde es schön.",
+      "english": "What do you think of the dress? – I think it's nice.",
+      "highlight": [
+        "findest",
+        "finde"
+      ]
+    },
+    {
+      "german": "Hast du eine Wohnung gefunden?",
+      "english": "Have you found a flat?",
+      "highlight": [
+        "gefunden?"
+      ]
+    }
+  ],
+  "forms": [
+    "finde",
+    "findest",
+    "findet",
+    "finden",
+    "gefunden",
+    "fand"
+  ],
+  "memoryHook": "Finden = find, and also 'think of': Ich finde das gut. It's the everyday way to give an opinion.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (finden)",
+      "answer": "findet",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: findet.",
+      "acceptedAnswers": [
+        "findet"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (finden, past)",
+      "answer": "gefunden",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gefunden.",
+      "acceptedAnswers": [
+        "gefunden"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does finden mean?",
+      "options": [
+        "cheap",
+        "to find",
+        "the door"
+      ],
+      "answer": "to find",
+      "explanation": "finden: to find; to think, to consider.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Wie findest du Berlin?' asks…",
+      "options": [
+        "your opinion of Berlin",
+        "how to get to Berlin"
+      ],
+      "answer": "your opinion of Berlin",
+      "explanation": "Finden = think, find.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich ___ das Buch langweilig.",
+      "options": [
+        "finde",
+        "denke"
+      ],
+      "answer": "finde",
+      "explanation": "Opinions about things: finden.",
+      "id": "q5"
+    }
+  ]
+}

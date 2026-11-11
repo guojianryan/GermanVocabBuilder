@@ -1,0 +1,145 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "anmachen",
+    "partOfSpeech": "separable verb",
+    "pronunciation": {
+      "respelling": "AHN-makh-en",
+      "ipa": "ˈanmaxn̩",
+      "notes": ""
+    },
+    "meaning": "to turn on, to switch on",
+    "shortDefinition": "To turn on, to switch on."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "an",
+        "meaning": "on"
+      },
+      {
+        "part": "machen",
+        "meaning": "to make, to do"
+      }
+    ],
+    "literalMeaning": "to make on"
+  },
+  "wordFamily": [
+    {
+      "german": "ausmachen",
+      "english": "to turn off",
+      "type": "separable verb"
+    },
+    {
+      "german": "an sein",
+      "english": "to be on",
+      "type": "phrase"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "an, aus, auf, zu",
+      "explanation": "An and aus are for lights and machines. Auf and zu are for doors and windows.",
+      "examples": [
+        {
+          "german": "Mach das Licht aus.",
+          "english": "Turn the light off.",
+          "highlight": "aus."
+        },
+        {
+          "german": "Mach das Fenster auf.",
+          "english": "Open the window.",
+          "highlight": "auf."
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Mach bitte das Licht an!",
+      "english": "Please turn on the light!",
+      "highlight": [
+        "Mach",
+        "an!"
+      ]
+    },
+    {
+      "german": "Kannst du den Fernseher anmachen?",
+      "english": "Can you switch on the TV?",
+      "highlight": [
+        "anmachen?"
+      ]
+    },
+    {
+      "german": "Ich habe die Heizung angemacht.",
+      "english": "I've turned the heating on.",
+      "highlight": [
+        "angemacht."
+      ]
+    }
+  ],
+  "forms": [
+    "mache an",
+    "macht an",
+    "angemacht"
+  ],
+  "memoryHook": "An = on. Anmachen = make it on. Ausmachen = make it off.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "___ bitte das Radio an!",
+      "answer": "Mach",
+      "fullAnswer": "Mach bitte das Radio an!",
+      "explanation": "Command form: mach … an.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "The opposite of anmachen is…",
+      "options": [
+        "ausmachen",
+        "aufmachen"
+      ],
+      "answer": "ausmachen",
+      "explanation": "Ausmachen: to turn off.",
+      "id": "q2"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Wer hat das Licht ___?",
+      "answer": "angemacht",
+      "fullAnswer": "Wer hat das Licht angemacht?",
+      "explanation": "An-ge-macht.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Das Licht ist ___. (It's on.)",
+      "options": [
+        "an",
+        "auf"
+      ],
+      "answer": "an",
+      "explanation": "Lights and devices: an sein, aus sein.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "Ich anmache den Computer.",
+        "Ich mache den Computer an."
+      ],
+      "answer": "Ich mache den Computer an.",
+      "explanation": "An goes to the end.",
+      "id": "q5"
+    }
+  ]
+}

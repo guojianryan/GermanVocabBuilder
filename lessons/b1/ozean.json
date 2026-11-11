@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Ozean",
+    "partOfSpeech": "noun, masculine (der Ozean)",
+    "pronunciation": {
+      "respelling": "OH-tse-aan",
+      "ipa": "ˈoːtseaːn",
+      "notes": "Plural: die Ozeane."
+    },
+    "meaning": "ocean",
+    "shortDefinition": "Ocean."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Ozean, plural die Ozeane.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Ozean"
+        },
+        {
+          "label": "More than one",
+          "value": "die Ozeane"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Atlantische Ozean ist groß.",
+      "english": "The Atlantic Ocean is big.",
+      "highlight": [
+        "Ozean"
+      ]
+    },
+    {
+      "german": "Wir fliegen über den Ozean.",
+      "english": "We're flying over the ocean.",
+      "highlight": [
+        "Ozean."
+      ]
+    },
+    {
+      "german": "Plastik verschmutzt die Ozeane.",
+      "english": "Plastic is polluting the oceans.",
+      "highlight": [
+        "Ozeane."
+      ]
+    }
+  ],
+  "forms": [
+    "Ozeane",
+    "die Ozeane",
+    "der Ozean"
+  ],
+  "memoryHook": "Der Ozean (z = ts). Das Meer = sea.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Ozean",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Ozean is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Ozean, zwei ___",
+      "answer": "Ozeane",
+      "fullAnswer": "ein Ozean, zwei Ozeane",
+      "explanation": "The plural is Ozeane.",
+      "acceptedAnswers": [
+        "Ozeane"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Ozean mean?",
+      "options": [
+        "the shop",
+        "hot",
+        "ocean"
+      ],
+      "answer": "ocean",
+      "explanation": "Ozean: ocean.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Z sounds like…",
+      "options": [
+        "ts",
+        "z"
+      ],
+      "answer": "ts",
+      "explanation": "OH-tse-aan.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Smaller: the sea =",
+      "options": [
+        "das Meer",
+        "der See"
+      ],
+      "answer": "das Meer",
+      "explanation": "Der See = lake!",
+      "id": "q5"
+    }
+  ]
+}

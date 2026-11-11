@@ -1,0 +1,148 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Schuldner",
+    "partOfSpeech": "noun, masculine (der Schuldner)",
+    "pronunciation": {
+      "respelling": "SHOOLT-ner",
+      "ipa": "ˈʃʊldnɐ",
+      "notes": "The plural looks the same. Plural: die Schuldner."
+    },
+    "meaning": "debtor",
+    "shortDefinition": "Debtor."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Schuld",
+        "meaning": "debt"
+      },
+      {
+        "part": "ner",
+        "meaning": "person ending"
+      }
+    ],
+    "literalMeaning": "one in debt"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Schuldner, plural die Schuldner.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Schuldner"
+        },
+        {
+          "label": "More than one",
+          "value": "die Schuldner"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Schuldner kann nicht zahlen.",
+      "english": "The debtor can't pay.",
+      "highlight": [
+        "Schuldner"
+      ]
+    },
+    {
+      "german": "Die Bank mahnt ihre Schuldner.",
+      "english": "The bank sends reminders to its debtors.",
+      "highlight": [
+        "Schuldner."
+      ]
+    },
+    {
+      "german": "Ich bin dein Schuldner.",
+      "english": "I'm in your debt.",
+      "highlight": [
+        "Schuldner."
+      ]
+    }
+  ],
+  "forms": [
+    "Schulden",
+    "Gläubiger"
+  ],
+  "memoryHook": "Schulden → der Schuldner ↔ Gläubiger.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Schuldner",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Schuldner is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Schuldner, zwei ___",
+      "answer": "Schuldner",
+      "fullAnswer": "ein Schuldner, zwei Schuldner",
+      "explanation": "The plural is Schuldner.",
+      "acceptedAnswers": [
+        "Schuldner"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Schuldner mean?",
+      "options": [
+        "debtor",
+        "slowly",
+        "to buy"
+      ],
+      "answer": "debtor",
+      "explanation": "Schuldner: debtor.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Opposite:",
+      "options": [
+        "der Gläubiger (creditor)",
+        "der Schuldige"
+      ],
+      "answer": "der Gläubiger (creditor)",
+      "explanation": "Creditor.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "die Schulden (debts)",
+        "die Schule"
+      ],
+      "answer": "die Schulden (debts)",
+      "explanation": "Debts.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Schuldner vs Schuldige:",
+      "options": [
+        "debtor vs guilty person",
+        "same"
+      ],
+      "answer": "debtor vs guilty person",
+      "explanation": "Different.",
+      "id": "q6"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Analyse",
+    "partOfSpeech": "noun, feminine (die Analyse)",
+    "pronunciation": {
+      "respelling": "a-na-LÜ-ze",
+      "ipa": "anaˈlyːzə",
+      "notes": "Plural: die Analysen."
+    },
+    "meaning": "analysis",
+    "shortDefinition": "Analysis."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Analyse, plural die Analysen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Analyse"
+        },
+        {
+          "label": "More than one",
+          "value": "die Analysen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Analyse zeigt einen Anstieg.",
+      "english": "The analysis shows an increase.",
+      "highlight": [
+        "Analyse"
+      ]
+    },
+    {
+      "german": "Wir machen eine genaue Analyse.",
+      "english": "We're doing a detailed analysis.",
+      "highlight": [
+        "Analyse."
+      ]
+    },
+    {
+      "german": "Die Blutanalyse ist normal.",
+      "english": "The blood test is normal.",
+      "highlight": [
+        "Blutanalyse"
+      ]
+    }
+  ],
+  "forms": [
+    "analysieren"
+  ],
+  "memoryHook": "Die Analyse (y = ü); analysieren.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Analyse",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Analyse is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Analyse, zwei ___",
+      "answer": "Analysen",
+      "fullAnswer": "ein Analyse, zwei Analysen",
+      "explanation": "The plural is Analysen.",
+      "acceptedAnswers": [
+        "Analysen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Analyse mean?",
+      "options": [
+        "cheap",
+        "analysis",
+        "the bread"
+      ],
+      "answer": "analysis",
+      "explanation": "Analyse: analysis.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Y sounds like…",
+      "options": [
+        "ü",
+        "i"
+      ],
+      "answer": "ü",
+      "explanation": "a-na-LÜ-ze.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Verb:",
+      "options": [
+        "analysieren",
+        "analysen"
+      ],
+      "answer": "analysieren",
+      "explanation": "Analyse.",
+      "id": "q5"
+    }
+  ]
+}

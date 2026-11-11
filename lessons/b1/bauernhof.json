@@ -1,0 +1,142 @@
+{
+ "schemaVersion": "1.4",
+ "language": "de",
+ "explanationLanguage": "en",
+ "level": "B1",
+ "levelSource": "Goethe-Zertifikat B1 Wortliste",
+ "lessonType": "card",
+ "word": {
+  "headword": "Bauernhof",
+  "partOfSpeech": "noun, masculine (der Bauernhof)",
+  "pronunciation": {
+   "respelling": "BOW-ern-hohf",
+   "ipa": "ˈbaʊ̯ɐnhoːf",
+   "notes": "Plural: die Bauernhöfe."
+  },
+  "meaning": "farm",
+  "shortDefinition": "Farm."
+ },
+ "commonMistakes": [
+  {
+   "title": "Gender and plural",
+   "explanation": "Der Bauernhof, plural die Bauernhöfe.",
+   "forms": [
+    {
+     "label": "One",
+     "value": "der Bauernhof"
+    },
+    {
+     "label": "More than one",
+     "value": "die Bauernhöfe"
+    }
+   ]
+  }
+ ],
+ "sampleSentences": [
+  {
+   "german": "Wir machen Urlaub auf dem Bauernhof.",
+   "english": "We're on a farm holiday.",
+   "highlight": [
+    "Bauernhof."
+   ]
+  },
+  {
+   "german": "Auf dem Bauernhof gibt es Kühe und Schweine.",
+   "english": "There are cows and pigs on the farm.",
+   "highlight": [
+    "Bauernhof"
+   ]
+  },
+  {
+   "german": "Die Eier sind frisch vom Bauernhof.",
+   "english": "The eggs are fresh from the farm.",
+   "highlight": [
+    "Bauernhof."
+   ]
+  }
+ ],
+ "forms": [
+  "Bauernhöfe",
+  "die Bauernhöfe",
+  "der Bauernhof"
+ ],
+ "memoryHook": "Bauer + Hof = farm.",
+ "signOff": "Gut gemacht!",
+ "quiz": [
+  {
+   "type": "choice",
+   "prompt": "___ Bauernhof",
+   "options": [
+    "der",
+    "die",
+    "das"
+   ],
+   "answer": "der",
+   "explanation": "Bauernhof is masculine.",
+   "id": "q1"
+  },
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "ein Bauernhof, zwei ___",
+   "answer": "Bauernhöfe",
+   "fullAnswer": "ein Bauernhof, zwei Bauernhöfe",
+   "explanation": "The plural is Bauernhöfe.",
+   "acceptedAnswers": [
+    "Bauernhoefe"
+   ],
+   "id": "q2"
+  },
+  {
+   "type": "choice",
+   "prompt": "What does Bauernhof mean?",
+   "options": [
+    "the family",
+    "farm",
+    "to travel"
+   ],
+   "answer": "farm",
+   "explanation": "Bauernhof: farm.",
+   "id": "q3"
+  },
+  {
+   "type": "choice",
+   "prompt": "Built from…",
+   "options": [
+    "Bauer + n + Hof",
+    "bauen + Hof"
+   ],
+   "answer": "Bauer + n + Hof",
+   "explanation": "Farmer's yard.",
+   "id": "q4"
+  },
+  {
+   "type": "choice",
+   "prompt": "'Auf dem Bauernhof' uses…",
+   "options": [
+    "auf",
+    "in"
+   ],
+   "answer": "auf",
+   "explanation": "Auf.",
+   "id": "q5"
+  }
+ ],
+ "etymology": {
+  "title": "Where it comes from",
+  "parts": [
+   {
+    "part": "Bauer",
+    "meaning": "farmer"
+   },
+   {
+    "part": "n",
+    "meaning": "linking letter"
+   },
+   {
+    "part": "hof",
+    "meaning": "yard, farm"
+   }
+  ],
+  "literalMeaning": "farmer's yard"
+ }
+}

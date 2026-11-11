@@ -1,0 +1,180 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "bedingen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "be-DING-en",
+      "ipa": "bəˈdɪŋən",
+      "notes": ""
+    },
+    "meaning": "to cause, determine; to require",
+    "shortDefinition": "To cause, determine; to require."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "be",
+        "meaning": "prefix"
+      },
+      {
+        "part": "dingen",
+        "meaning": "to agree terms (Ding = assembly)"
+      }
+    ],
+    "literalMeaning": "to set terms"
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "beding|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "beding|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "beding|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "beding|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "beding|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "beding|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat bedingt"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das eine bedingt das andere.",
+      "english": "One thing determines the other.",
+      "highlight": [
+        "bedingt"
+      ]
+    },
+    {
+      "german": "Die Verspätung ist wetterbedingt.",
+      "english": "The delay is due to the weather.",
+      "highlight": [
+        "wetterbedingt."
+      ]
+    },
+    {
+      "german": "Das ist nur bedingt richtig.",
+      "english": "That's only partly true.",
+      "highlight": [
+        "bedingt"
+      ]
+    }
+  ],
+  "forms": [
+    "Bedingung",
+    "bedingt"
+  ],
+  "memoryHook": "Bedingen = cause; -bedingt (due to); bedingt (partly); die Bedingung.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (bedingen)",
+      "answer": "bedingt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: bedingt.",
+      "acceptedAnswers": [
+        "bedingt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (bedingen, past)",
+      "answer": "bedingt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe bedingt.",
+      "acceptedAnswers": [
+        "bedingt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does bedingen mean?",
+      "options": [
+        "the car",
+        "to cause",
+        "to wait"
+      ],
+      "answer": "to cause",
+      "explanation": "bedingen: to cause, determine; to require.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'-bedingt' as a suffix means…",
+      "options": [
+        "caused by (wetterbedingt)",
+        "conditional only"
+      ],
+      "answer": "caused by (wetterbedingt)",
+      "explanation": "Due to.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Bedingt' (adverb) means…",
+      "options": [
+        "partly, to a limited extent",
+        "certainly"
+      ],
+      "answer": "partly, to a limited extent",
+      "explanation": "Limited.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Noun:",
+      "options": [
+        "die Bedingung (condition)",
+        "das Ding"
+      ],
+      "answer": "die Bedingung (condition)",
+      "explanation": "Condition.",
+      "id": "q6"
+    }
+  ]
+}

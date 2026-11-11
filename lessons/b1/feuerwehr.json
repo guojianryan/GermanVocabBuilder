@@ -1,0 +1,136 @@
+{
+ "schemaVersion": "1.4",
+ "language": "de",
+ "explanationLanguage": "en",
+ "level": "B1",
+ "levelSource": "Goethe-Zertifikat B1 Wortliste",
+ "lessonType": "card",
+ "word": {
+  "headword": "Feuerwehr",
+  "partOfSpeech": "noun, feminine (die Feuerwehr)",
+  "pronunciation": {
+   "respelling": "FOY-er-vair",
+   "ipa": "ˈfɔɪ̯ɐveːɐ̯",
+   "notes": "Plural: die Feuerwehren."
+  },
+  "meaning": "fire brigade",
+  "shortDefinition": "Fire brigade."
+ },
+ "commonMistakes": [
+  {
+   "title": "Gender and plural",
+   "explanation": "Die Feuerwehr, plural die Feuerwehren.",
+   "forms": [
+    {
+     "label": "One",
+     "value": "die Feuerwehr"
+    },
+    {
+     "label": "More than one",
+     "value": "die Feuerwehren"
+    }
+   ]
+  }
+ ],
+ "sampleSentences": [
+  {
+   "german": "Ruf die Feuerwehr!",
+   "english": "Call the fire brigade!",
+   "highlight": [
+    "Feuerwehr!"
+   ]
+  },
+  {
+   "german": "Die Feuerwehr war schnell da.",
+   "english": "The fire brigade was quick to arrive.",
+   "highlight": [
+    "Feuerwehr"
+   ]
+  },
+  {
+   "german": "Er ist bei der freiwilligen Feuerwehr.",
+   "english": "He's in the volunteer fire brigade.",
+   "highlight": [
+    "Feuerwehr."
+   ]
+  }
+ ],
+ "forms": [
+  "Feuerwehrmann"
+ ],
+ "memoryHook": "Feuer + Wehr (defence). Call 112.",
+ "signOff": "Gut gemacht!",
+ "quiz": [
+  {
+   "type": "choice",
+   "prompt": "___ Feuerwehr",
+   "options": [
+    "der",
+    "die",
+    "das"
+   ],
+   "answer": "die",
+   "explanation": "Feuerwehr is feminine.",
+   "id": "q1"
+  },
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "ein Feuerwehr, zwei ___",
+   "answer": "Feuerwehren",
+   "fullAnswer": "ein Feuerwehr, zwei Feuerwehren",
+   "explanation": "The plural is Feuerwehren.",
+   "acceptedAnswers": [
+    "Feuerwehren"
+   ],
+   "id": "q2"
+  },
+  {
+   "type": "choice",
+   "prompt": "What does Feuerwehr mean?",
+   "options": [
+    "expensive",
+    "fire brigade",
+    "the bed"
+   ],
+   "answer": "fire brigade",
+   "explanation": "Feuerwehr: fire brigade.",
+   "id": "q3"
+  },
+  {
+   "type": "choice",
+   "prompt": "Emergency number in Germany:",
+   "options": [
+    "112",
+    "999"
+   ],
+   "answer": "112",
+   "explanation": "Fire and ambulance.",
+   "id": "q4"
+  },
+  {
+   "type": "choice",
+   "prompt": "Built from…",
+   "options": [
+    "Feuer + Wehr (defence)",
+    "Feuer + wer"
+   ],
+   "answer": "Feuer + Wehr (defence)",
+   "explanation": "Fire defence.",
+   "id": "q5"
+  }
+ ],
+ "etymology": {
+  "title": "Where it comes from",
+  "parts": [
+   {
+    "part": "Feuer",
+    "meaning": "fire"
+   },
+   {
+    "part": "wehr",
+    "meaning": "defence"
+   }
+  ],
+  "literalMeaning": "fire defence"
+ }
+}

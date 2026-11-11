@@ -1,0 +1,186 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "einräumen",
+    "partOfSpeech": "separable verb",
+    "pronunciation": {
+      "respelling": "INE-roy-men",
+      "ipa": "ˈaɪ̯nˌʁɔɪ̯mən",
+      "notes": ""
+    },
+    "meaning": "to put away; to concede, admit; to grant",
+    "shortDefinition": "To put away; to concede, admit; to grant."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "ein",
+        "meaning": "in"
+      },
+      {
+        "part": "räumen",
+        "meaning": "to make room"
+      }
+    ],
+    "literalMeaning": "to make room in",
+    "summary": "Making room for a fact."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "räum|e … |ein"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "räum|st … |ein"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "räum|t … |ein"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "räum|en … |ein"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "räum|t … |ein"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "räum|en … |ein"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat eingeräumt"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich räume die Spülmaschine ein.",
+      "english": "I'm loading the dishwasher.",
+      "highlight": [
+        "räume",
+        "ein."
+      ]
+    },
+    {
+      "german": "Er räumte seinen Fehler ein.",
+      "english": "He conceded his mistake.",
+      "highlight": [
+        "räumte",
+        "ein."
+      ]
+    },
+    {
+      "german": "Man hat uns mehr Zeit eingeräumt.",
+      "english": "We've been granted more time.",
+      "highlight": [
+        "eingeräumt."
+      ]
+    }
+  ],
+  "forms": [
+    "räume ein",
+    "räumst ein",
+    "räumt ein",
+    "räumen ein",
+    "eingeräumt"
+  ],
+  "memoryHook": "Einräumen: put away; concede; grant (Zeit).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ … ein (einräumen)",
+      "answer": "räumt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: räumt … ein.",
+      "acceptedAnswers": [
+        "raeumt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (einräumen, past)",
+      "answer": "eingeräumt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe eingeräumt.",
+      "acceptedAnswers": [
+        "eingeraeumt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does einräumen mean?",
+      "options": [
+        "to put away",
+        "the evening",
+        "the bed"
+      ],
+      "answer": "to put away",
+      "explanation": "einräumen: to put away; to concede, admit; to grant.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Einen Fehler einräumen' means…",
+      "options": [
+        "to admit a mistake",
+        "to tidy up a mistake"
+      ],
+      "answer": "to admit a mistake",
+      "explanation": "Concede.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Opposite (dishwasher):",
+      "options": [
+        "ausräumen",
+        "aufräumen"
+      ],
+      "answer": "ausräumen",
+      "explanation": "Unload.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "der Raum (space)",
+        "Rahmen"
+      ],
+      "answer": "der Raum (space)",
+      "explanation": "Make room.",
+      "id": "q6"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Vorname",
+    "partOfSpeech": "noun, masculine (der Vorname)",
+    "pronunciation": {
+      "respelling": "FOR-nah-muh",
+      "ipa": "ˈfoːɐ̯ˌnaːmə",
+      "notes": "Plural: die Vornamen."
+    },
+    "meaning": "first name",
+    "shortDefinition": "First name."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Vor",
+        "meaning": "before, in front"
+      },
+      {
+        "part": "name",
+        "meaning": "name"
+      }
+    ],
+    "literalMeaning": "the name in front"
+  },
+  "wordFamily": [
+    {
+      "german": "der Nachname",
+      "english": "surname",
+      "type": "noun"
+    },
+    {
+      "german": "der Name",
+      "english": "name",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Vorname, plural die Vornamen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Vorname"
+        },
+        {
+          "label": "More than one",
+          "value": "die Vornamen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wie ist Ihr Vorname?",
+      "english": "What's your first name?",
+      "highlight": [
+        "Vorname?"
+      ]
+    },
+    {
+      "german": "Mein Vorname ist Thomas; Schmidt ist der Familienname.",
+      "english": "My first name is Thomas; Schmidt is the surname.",
+      "highlight": [
+        "Vorname"
+      ]
+    },
+    {
+      "german": "Schreiben Sie Vor- und Nachnamen.",
+      "english": "Write first name and surname.",
+      "highlight": [
+        "Vor-",
+        "Nachnamen."
+      ]
+    }
+  ],
+  "forms": [
+    "Vornamen",
+    "der Vorname"
+  ],
+  "memoryHook": "Vor (before) + Name: the name that comes first. Nachname / Familienname = surname.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Vorname",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Vorname is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Vorname, zwei ___",
+      "answer": "Vornamen",
+      "fullAnswer": "ein Vorname, zwei Vornamen",
+      "explanation": "The plural is Vornamen.",
+      "acceptedAnswers": [
+        "Vornamen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Vorname mean?",
+      "options": [
+        "to help",
+        "the key",
+        "first name"
+      ],
+      "answer": "first name",
+      "explanation": "Vorname: first name.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Vorname vs Nachname: your surname is…",
+      "options": [
+        "der Nachname",
+        "der Vorname"
+      ],
+      "answer": "der Nachname",
+      "explanation": "Nach = after.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Like Name, Vorname adds -n:",
+      "options": [
+        "Ihren Vornamen",
+        "Ihren Vorname"
+      ],
+      "answer": "Ihren Vornamen",
+      "explanation": "Den Vornamen.",
+      "id": "q5"
+    }
+  ]
+}

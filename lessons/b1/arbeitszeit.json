@@ -1,0 +1,138 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Arbeitszeit",
+    "partOfSpeech": "noun, feminine (die Arbeitszeit)",
+    "pronunciation": {
+      "respelling": "AR-bites-tsite",
+      "ipa": "ˈaʁbaɪ̯tsˌtsaɪ̯t",
+      "notes": "Plural: die Arbeitszeiten."
+    },
+    "meaning": "working hours",
+    "shortDefinition": "Working hours."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Arbeits",
+        "meaning": "of work"
+      },
+      {
+        "part": "zeit",
+        "meaning": "time",
+        "emphasis": "stretch"
+      }
+    ],
+    "literalMeaning": "work time",
+    "summary": "The span of the working day."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Arbeitszeit, plural die Arbeitszeiten.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Arbeitszeit"
+        },
+        {
+          "label": "More than one",
+          "value": "die Arbeitszeiten"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Meine Arbeitszeit ist von neun bis fünf.",
+      "english": "My working hours are nine to five.",
+      "highlight": [
+        "Arbeitszeit"
+      ]
+    },
+    {
+      "german": "Wir haben flexible Arbeitszeiten.",
+      "english": "We have flexible working hours.",
+      "highlight": [
+        "Arbeitszeiten."
+      ]
+    },
+    {
+      "german": "Die Arbeitszeit wird kürzer.",
+      "english": "Working hours are getting shorter.",
+      "highlight": [
+        "Arbeitszeit"
+      ]
+    }
+  ],
+  "forms": [
+    "Gleitzeit"
+  ],
+  "memoryHook": "Arbeit + Zeit = working hours; Gleitzeit.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Arbeitszeit",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Arbeitszeit is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Arbeitszeit, zwei ___",
+      "answer": "Arbeitszeiten",
+      "fullAnswer": "ein Arbeitszeit, zwei Arbeitszeiten",
+      "explanation": "The plural is Arbeitszeiten.",
+      "acceptedAnswers": [
+        "Arbeitszeiten"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Arbeitszeit mean?",
+      "options": [
+        "working hours",
+        "to travel",
+        "to sleep"
+      ],
+      "answer": "working hours",
+      "explanation": "Arbeitszeit: working hours.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Arbeit + s + Zeit",
+        "Arbeits + eit"
+      ],
+      "answer": "Arbeit + s + Zeit",
+      "explanation": "Work time.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Flexitime:",
+      "options": [
+        "die Gleitzeit",
+        "die Flexzeit"
+      ],
+      "answer": "die Gleitzeit",
+      "explanation": "Glide time.",
+      "id": "q5"
+    }
+  ]
+}

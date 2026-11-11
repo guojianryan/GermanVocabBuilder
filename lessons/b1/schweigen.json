@@ -1,0 +1,155 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "schweigen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "SHVYE-gen",
+      "ipa": "ˈʃvaɪ̯ɡn̩",
+      "notes": ""
+    },
+    "meaning": "to be silent",
+    "shortDefinition": "To be silent."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "schweig|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "schweig|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "schweig|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "schweig|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "schweig|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "schweig|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat geschwiegen"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er schweigt.",
+      "english": "He says nothing.",
+      "highlight": [
+        "schweigt."
+      ]
+    },
+    {
+      "german": "Sie hat die ganze Zeit geschwiegen.",
+      "english": "She was silent the whole time.",
+      "highlight": [
+        "geschwiegen."
+      ]
+    },
+    {
+      "german": "Reden ist Silber, Schweigen ist Gold.",
+      "english": "Speech is silver, silence is golden.",
+      "highlight": [
+        "Schweigen"
+      ]
+    }
+  ],
+  "forms": [
+    "Schweigen",
+    "schweigsam"
+  ],
+  "memoryHook": "Schweigen, schwieg, geschwiegen. Schweigen ist Gold.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (schweigen)",
+      "answer": "schweigt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: schweigt.",
+      "acceptedAnswers": [
+        "schweigt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (schweigen, past)",
+      "answer": "geschwiegen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe geschwiegen.",
+      "acceptedAnswers": [
+        "geschwiegen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does schweigen mean?",
+      "options": [
+        "the bill",
+        "to wait",
+        "to be silent"
+      ],
+      "answer": "to be silent",
+      "explanation": "schweigen: to be silent.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "hat geschwiegen",
+        "hat geschweigt"
+      ],
+      "answer": "hat geschwiegen",
+      "explanation": "Strong verb.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Adjective 'silent, quiet (person)':",
+      "options": [
+        "schweigsam",
+        "schweigig"
+      ],
+      "answer": "schweigsam",
+      "explanation": "Taciturn.",
+      "id": "q5"
+    }
+  ]
+}

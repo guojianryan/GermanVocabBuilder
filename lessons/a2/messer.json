@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Messer",
+    "partOfSpeech": "noun, neuter (das Messer)",
+    "pronunciation": {
+      "respelling": "MES-er",
+      "ipa": "ˈmɛsɐ",
+      "notes": "The plural looks the same. Plural: die Messer."
+    },
+    "meaning": "knife",
+    "shortDefinition": "Knife."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Messer, plural die Messer.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Messer"
+        },
+        {
+          "label": "More than one",
+          "value": "die Messer"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das Messer ist sehr scharf.",
+      "english": "The knife is very sharp.",
+      "highlight": [
+        "Messer"
+      ]
+    },
+    {
+      "german": "Ich brauche ein Messer für das Brot.",
+      "english": "I need a knife for the bread.",
+      "highlight": [
+        "Messer"
+      ]
+    },
+    {
+      "german": "Messer, Gabel und Löffel liegen auf dem Tisch.",
+      "english": "Knife, fork and spoon are on the table.",
+      "highlight": [
+        "Messer,"
+      ]
+    }
+  ],
+  "forms": [
+    "Messer",
+    "die Messer",
+    "das Messer"
+  ],
+  "memoryHook": "Das Messer, die Gabel, der Löffel.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Messer",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Messer is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Messer, zwei ___",
+      "answer": "Messer",
+      "fullAnswer": "ein Messer, zwei Messer",
+      "explanation": "The plural is Messer.",
+      "acceptedAnswers": [
+        "Messer"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Messer mean?",
+      "options": [
+        "the bed",
+        "to open",
+        "knife"
+      ],
+      "answer": "knife",
+      "explanation": "Messer: knife.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "A sharp knife:",
+      "options": [
+        "ein scharfes Messer",
+        "ein heißes Messer"
+      ],
+      "answer": "ein scharfes Messer",
+      "explanation": "Scharf.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Messer",
+        "Messern"
+      ],
+      "answer": "Messer",
+      "explanation": "No change.",
+      "id": "q5"
+    }
+  ]
+}

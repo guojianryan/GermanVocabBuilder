@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Ski",
+    "partOfSpeech": "noun, masculine (der Ski)",
+    "pronunciation": {
+      "respelling": "SHEE",
+      "ipa": "ʃiː",
+      "notes": "Plural: die Skier."
+    },
+    "meaning": "ski",
+    "shortDefinition": "Ski."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Ski, plural die Skier.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Ski"
+        },
+        {
+          "label": "More than one",
+          "value": "die Skier"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Im Winter fahren wir Ski.",
+      "english": "In winter we go skiing.",
+      "highlight": [
+        "Ski."
+      ]
+    },
+    {
+      "german": "Ich leihe mir Skier aus.",
+      "english": "I'm hiring skis.",
+      "highlight": [
+        "Skier"
+      ]
+    },
+    {
+      "german": "Kannst du Ski fahren?",
+      "english": "Can you ski?",
+      "highlight": [
+        "Ski"
+      ]
+    }
+  ],
+  "forms": [
+    "Ski fahren",
+    "Skifahren",
+    "Ski"
+  ],
+  "memoryHook": "Der Ski (say 'shee'). Ski fahren = to ski.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Ski",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Ski is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Ski, zwei ___",
+      "answer": "Skier",
+      "fullAnswer": "ein Ski, zwei Skier",
+      "explanation": "The plural is Skier.",
+      "acceptedAnswers": [
+        "Skier"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Ski mean?",
+      "options": [
+        "to wait",
+        "expensive",
+        "ski"
+      ],
+      "answer": "ski",
+      "explanation": "Ski: ski.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Pronounced…",
+      "options": [
+        "SHEE",
+        "SKEE"
+      ],
+      "answer": "SHEE",
+      "explanation": "Like 'she'.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'To ski':",
+      "options": [
+        "Ski fahren",
+        "skien"
+      ],
+      "answer": "Ski fahren",
+      "explanation": "Ski fahren / Ski laufen.",
+      "id": "q5"
+    }
+  ]
+}

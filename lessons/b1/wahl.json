@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Wahl",
+    "partOfSpeech": "noun, feminine (die Wahl)",
+    "pronunciation": {
+      "respelling": "VAAL",
+      "ipa": "vaːl",
+      "notes": "Plural: die Wahlen."
+    },
+    "meaning": "choice; election",
+    "shortDefinition": "Choice; election."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Wahl, plural die Wahlen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Wahl"
+        },
+        {
+          "label": "More than one",
+          "value": "die Wahlen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich habe keine Wahl.",
+      "english": "I have no choice.",
+      "highlight": [
+        "Wahl."
+      ]
+    },
+    {
+      "german": "Die Wahl ist am Sonntag.",
+      "english": "The election is on Sunday.",
+      "highlight": [
+        "Wahl"
+      ]
+    },
+    {
+      "german": "Du hast die Wahl.",
+      "english": "It's your choice.",
+      "highlight": [
+        "Wahl."
+      ]
+    }
+  ],
+  "forms": [
+    "wählen"
+  ],
+  "memoryHook": "Wählen → die Wahl (choice, election).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Wahl",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Wahl is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Wahl, zwei ___",
+      "answer": "Wahlen",
+      "fullAnswer": "ein Wahl, zwei Wahlen",
+      "explanation": "The plural is Wahlen.",
+      "acceptedAnswers": [
+        "Wahlen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Wahl mean?",
+      "options": [
+        "choice",
+        "the bread",
+        "slowly"
+      ],
+      "answer": "choice",
+      "explanation": "Wahl: choice; election.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Verb:",
+      "options": [
+        "wählen",
+        "wahlen"
+      ],
+      "answer": "wählen",
+      "explanation": "Choose, vote.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Wahl means…",
+      "options": [
+        "choice and election",
+        "only election"
+      ],
+      "answer": "choice and election",
+      "explanation": "Both.",
+      "id": "q5"
+    }
+  ]
+}

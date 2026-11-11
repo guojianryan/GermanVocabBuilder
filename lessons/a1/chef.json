@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Chef",
+    "partOfSpeech": "noun, masculine (der Chef)",
+    "pronunciation": {
+      "respelling": "SHEF",
+      "ipa": "ʃɛf",
+      "notes": "Ch sounds like 'sh'. The female form is die Chefin. Plural: die Chefs."
+    },
+    "meaning": "boss",
+    "shortDefinition": "Boss."
+  },
+  "wordFamily": [
+    {
+      "german": "die Chefin",
+      "english": "female boss",
+      "type": "noun"
+    },
+    {
+      "german": "der Koch",
+      "english": "cook, chef",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Chef, plural die Chefs.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Chef"
+        },
+        {
+          "label": "More than one",
+          "value": "die Chefs"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Mein Chef ist heute nicht da.",
+      "english": "My boss isn't in today.",
+      "highlight": [
+        "Chef"
+      ]
+    },
+    {
+      "german": "Sie ist die Chefin von 20 Leuten.",
+      "english": "She's the boss of 20 people.",
+      "highlight": [
+        "Chefin"
+      ]
+    },
+    {
+      "german": "Ich muss den Chef fragen.",
+      "english": "I have to ask the boss.",
+      "highlight": [
+        "Chef"
+      ]
+    }
+  ],
+  "forms": [
+    "Chefs",
+    "Chefin",
+    "Chefinnen",
+    "der Chef"
+  ],
+  "memoryHook": "False friend: Chef = boss. A chef who cooks is der Koch.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Chef",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Chef is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Chef, zwei ___",
+      "answer": "Chefs",
+      "fullAnswer": "ein Chef, zwei Chefs",
+      "explanation": "The plural is Chefs.",
+      "acceptedAnswers": [
+        "Chefs"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Chef mean?",
+      "options": [
+        "boss",
+        "to help",
+        "the car"
+      ],
+      "answer": "boss",
+      "explanation": "Chef: boss.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "German Chef means…",
+      "options": [
+        "boss",
+        "cook"
+      ],
+      "answer": "boss",
+      "explanation": "A cook is der Koch.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "A female boss is…",
+      "options": [
+        "die Chefin",
+        "die Chefe"
+      ],
+      "answer": "die Chefin",
+      "explanation": "Add -in.",
+      "id": "q5"
+    }
+  ]
+}

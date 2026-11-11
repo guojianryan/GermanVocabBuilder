@@ -1,0 +1,131 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Fuß",
+    "partOfSpeech": "noun, masculine (der Fuß)",
+    "pronunciation": {
+      "respelling": "FOOS",
+      "ipa": "fuːs",
+      "notes": "Plural: die Füße."
+    },
+    "meaning": "foot",
+    "shortDefinition": "Foot."
+  },
+  "wordFamily": [
+    {
+      "german": "der Fußball",
+      "english": "football",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Fuß, plural die Füße.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Fuß"
+        },
+        {
+          "label": "More than one",
+          "value": "die Füße"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Mein Fuß tut weh.",
+      "english": "My foot hurts.",
+      "highlight": [
+        "Fuß"
+      ]
+    },
+    {
+      "german": "Wir gehen zu Fuß.",
+      "english": "We're walking.",
+      "highlight": [
+        "Fuß."
+      ]
+    },
+    {
+      "german": "Ich habe kalte Füße.",
+      "english": "My feet are cold.",
+      "highlight": [
+        "Füße."
+      ]
+    }
+  ],
+  "forms": [
+    "Füße",
+    "die Füße",
+    "der Fuß"
+  ],
+  "memoryHook": "Fuß = foot (ß = s). Zu Fuß = on foot. Plural Füße, like foot/feet.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Fuß",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Fuß is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Fuß, zwei ___",
+      "answer": "Füße",
+      "fullAnswer": "ein Fuß, zwei Füße",
+      "explanation": "The plural is Füße.",
+      "acceptedAnswers": [
+        "Fueße"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Fuß mean?",
+      "options": [
+        "foot",
+        "slowly",
+        "to sing"
+      ],
+      "answer": "foot",
+      "explanation": "Fuß: foot.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Zu Fuß gehen' means…",
+      "options": [
+        "to walk, to go on foot",
+        "to go to the feet"
+      ],
+      "answer": "to walk, to go on foot",
+      "explanation": "Zu Fuß: on foot.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "ß sounds like…",
+      "options": [
+        "s",
+        "b"
+      ],
+      "answer": "s",
+      "explanation": "A sharp s.",
+      "id": "q5"
+    }
+  ]
+}

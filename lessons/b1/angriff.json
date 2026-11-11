@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Angriff",
+    "partOfSpeech": "noun, masculine (der Angriff)",
+    "pronunciation": {
+      "respelling": "AN-grif",
+      "ipa": "ˈanɡʁɪf",
+      "notes": "Plural: die Angriffe."
+    },
+    "meaning": "attack",
+    "shortDefinition": "Attack."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "An",
+        "meaning": "at"
+      },
+      {
+        "part": "griff",
+        "meaning": "grip, grab"
+      }
+    ],
+    "literalMeaning": "a grabbing at"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Angriff, plural die Angriffe.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Angriff"
+        },
+        {
+          "label": "More than one",
+          "value": "die Angriffe"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Angriff kam in der Nacht.",
+      "english": "The attack came at night.",
+      "highlight": [
+        "Angriff"
+      ]
+    },
+    {
+      "german": "Die Mannschaft spielt im Angriff stark.",
+      "english": "The team is strong in attack.",
+      "highlight": [
+        "Angriff"
+      ]
+    },
+    {
+      "german": "Angriff ist die beste Verteidigung.",
+      "english": "Attack is the best defence.",
+      "highlight": [
+        "Angriff"
+      ]
+    }
+  ],
+  "forms": [
+    "angreifen"
+  ],
+  "memoryHook": "Angreifen → der Angriff.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Angriff",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Angriff is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Angriff, zwei ___",
+      "answer": "Angriffe",
+      "fullAnswer": "ein Angriff, zwei Angriffe",
+      "explanation": "The plural is Angriffe.",
+      "acceptedAnswers": [
+        "Angriffe"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Angriff mean?",
+      "options": [
+        "attack",
+        "the job",
+        "tomorrow"
+      ],
+      "answer": "attack",
+      "explanation": "Angriff: attack.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Verb:",
+      "options": [
+        "angreifen",
+        "angriffen"
+      ],
+      "answer": "angreifen",
+      "explanation": "Attack.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Opposite:",
+      "options": [
+        "die Verteidigung",
+        "der Ausgriff"
+      ],
+      "answer": "die Verteidigung",
+      "explanation": "Defence.",
+      "id": "q5"
+    }
+  ]
+}

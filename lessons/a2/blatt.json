@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Blatt",
+    "partOfSpeech": "noun, neuter (das Blatt)",
+    "pronunciation": {
+      "respelling": "BLAT",
+      "ipa": "blat",
+      "notes": "Plural: die Blätter."
+    },
+    "meaning": "leaf; sheet (of paper)",
+    "shortDefinition": "Leaf; sheet (of paper)."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Blatt, plural die Blätter.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Blatt"
+        },
+        {
+          "label": "More than one",
+          "value": "die Blätter"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Im Herbst fallen die Blätter.",
+      "english": "In autumn the leaves fall.",
+      "highlight": [
+        "Blätter."
+      ]
+    },
+    {
+      "german": "Hast du ein Blatt Papier?",
+      "english": "Have you got a sheet of paper?",
+      "highlight": [
+        "Blatt"
+      ]
+    },
+    {
+      "german": "Schreibt eure Namen auf das Blatt.",
+      "english": "Write your names on the sheet.",
+      "highlight": [
+        "Blatt."
+      ]
+    }
+  ],
+  "forms": [
+    "Blätter",
+    "die Blätter",
+    "das Blatt"
+  ],
+  "memoryHook": "Das Blatt: a leaf on a tree or a leaf of paper.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Blatt",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Blatt is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Blatt, zwei ___",
+      "answer": "Blätter",
+      "fullAnswer": "ein Blatt, zwei Blätter",
+      "explanation": "The plural is Blätter.",
+      "acceptedAnswers": [
+        "Blaetter"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Blatt mean?",
+      "options": [
+        "to help",
+        "to learn",
+        "leaf"
+      ],
+      "answer": "leaf",
+      "explanation": "Blatt: leaf; sheet (of paper).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'A sheet of paper':",
+      "options": [
+        "ein Blatt Papier",
+        "ein Blatt von Papier"
+      ],
+      "answer": "ein Blatt Papier",
+      "explanation": "No 'von'.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Blätter",
+        "Blatts"
+      ],
+      "answer": "Blätter",
+      "explanation": "a → ä + er.",
+      "id": "q5"
+    }
+  ]
+}

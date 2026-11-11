@@ -1,0 +1,163 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "full",
+  "word": {
+    "headword": "denn",
+    "partOfSpeech": "conjunction; also a particle in questions",
+    "pronunciation": {
+      "respelling": "DEN",
+      "ipa": "dɛn",
+      "notes": "Short e, as in 'den'."
+    },
+    "meaning": "because; (in questions) then, actually",
+    "shortDefinition": "Gives a reason, or softens a question."
+  },
+  "intro": {
+    "title": "Because…",
+    "paragraphs": [
+      "Denn gives a reason: Ich bleibe zu Hause, denn ich bin krank. In questions it's a small softener with no real translation: Wo bist du denn? (Where are you, then?)."
+    ]
+  },
+  "wordFamily": [
+    {
+      "german": "weil",
+      "english": "because (verb goes to the end)",
+      "type": "conjunction"
+    },
+    {
+      "german": "dann",
+      "english": "then",
+      "type": "adverb"
+    }
+  ],
+  "keyTrap": {
+    "title": "The big trap: word order after denn",
+    "explanation": "After denn, the word order stays normal: subject, then verb. (With weil, the verb goes to the end.)",
+    "wrong": {
+      "german": "Ich komme nicht, denn bin ich krank.",
+      "verdict": "Denn doesn't move the verb."
+    },
+    "correct": [
+      {
+        "german": "Ich komme nicht, denn ich bin krank.",
+        "literal": "…because I am ill.",
+        "note": "Denn: normal order."
+      },
+      {
+        "german": "Ich komme nicht, weil ich krank bin.",
+        "literal": "…because I ill am.",
+        "note": "Weil: verb at the end."
+      }
+    ]
+  },
+  "commonMistakes": [
+    {
+      "title": "denn or dann?",
+      "explanation": "Denn = because. Dann = then.",
+      "wrong": "Ich esse, denn gehe ich.",
+      "correct": "Ich esse, dann gehe ich."
+    },
+    {
+      "title": "The question softener",
+      "explanation": "In questions, denn makes you sound friendly and interested.",
+      "examples": [
+        {
+          "german": "Was ist denn los?",
+          "english": "What's the matter?",
+          "highlight": "denn"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich nehme ein Taxi, denn es regnet.",
+      "english": "I'm taking a taxi because it's raining.",
+      "highlight": [
+        "denn"
+      ]
+    },
+    {
+      "german": "Wo wohnst du denn?",
+      "english": "So where do you live?",
+      "highlight": [
+        "denn?"
+      ]
+    },
+    {
+      "german": "Was ist denn passiert?",
+      "english": "What happened?",
+      "highlight": [
+        "denn"
+      ]
+    },
+    {
+      "german": "Er lernt Deutsch, denn er will in Wien arbeiten.",
+      "english": "He's learning German because he wants to work in Vienna.",
+      "highlight": [
+        "denn"
+      ]
+    }
+  ],
+  "forms": [],
+  "memoryHook": "Denn = because, normal word order. In questions it's a friendly 'then?': Wo bist du denn?",
+  "signOff": "Was ist denn das? Ein guter Lerntag!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Ich trinke Kaffee, ___ ich bin müde.",
+      "options": [
+        "denn",
+        "dann"
+      ],
+      "answer": "denn",
+      "explanation": "Reason: denn.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "…, denn ich habe Hunger.",
+        "…, denn habe ich Hunger."
+      ],
+      "answer": "…, denn ich habe Hunger.",
+      "explanation": "Normal order after denn.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Was ist denn los?' means…",
+      "options": [
+        "What's the matter?",
+        "Because what?"
+      ],
+      "answer": "What's the matter?",
+      "explanation": "Denn softens the question.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich gehe früh, ___ ich morgen arbeiten muss.",
+      "options": [
+        "denn",
+        "weil"
+      ],
+      "answer": "weil",
+      "explanation": "The verb is at the end, so it must be weil.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich bleibe hier, ___ es regnet. (because)",
+      "answer": "denn",
+      "fullAnswer": "Ich bleibe hier, denn es regnet.",
+      "explanation": "Denn + normal order.",
+      "id": "q5"
+    }
+  ]
+}

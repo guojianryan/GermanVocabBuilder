@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Schachtel",
+    "partOfSpeech": "noun, feminine (die Schachtel)",
+    "pronunciation": {
+      "respelling": "SHAKH-tel",
+      "ipa": "ˈʃaxtl̩",
+      "notes": "Plural: die Schachteln."
+    },
+    "meaning": "box (small, cardboard)",
+    "shortDefinition": "Box (small, cardboard)."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Schachtel, plural die Schachteln.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Schachtel"
+        },
+        {
+          "label": "More than one",
+          "value": "die Schachteln"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Eine Schachtel Pralinen.",
+      "english": "A box of chocolates.",
+      "highlight": [
+        "Schachtel"
+      ]
+    },
+    {
+      "german": "Er raucht eine Schachtel am Tag.",
+      "english": "He smokes a packet a day.",
+      "highlight": [
+        "Schachtel"
+      ]
+    },
+    {
+      "german": "Leg es in die Schachtel.",
+      "english": "Put it in the box.",
+      "highlight": [
+        "Schachtel."
+      ]
+    }
+  ],
+  "forms": [
+    "Schachteln",
+    "die Schachteln",
+    "die Schachtel"
+  ],
+  "memoryHook": "Die Schachtel (small box; packet of cigarettes).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Schachtel",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Schachtel is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Schachtel, zwei ___",
+      "answer": "Schachteln",
+      "fullAnswer": "ein Schachtel, zwei Schachteln",
+      "explanation": "The plural is Schachteln.",
+      "acceptedAnswers": [
+        "Schachteln"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Schachtel mean?",
+      "options": [
+        "box (small",
+        "the street",
+        "tomorrow"
+      ],
+      "answer": "box (small",
+      "explanation": "Schachtel: box (small, cardboard).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Schachtel vs Kiste:",
+      "options": [
+        "Schachtel = small box; Kiste = crate",
+        "same"
+      ],
+      "answer": "Schachtel = small box; Kiste = crate",
+      "explanation": "Size.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Schachteln",
+        "Schachtels"
+      ],
+      "answer": "Schachteln",
+      "explanation": "-n.",
+      "id": "q5"
+    }
+  ]
+}

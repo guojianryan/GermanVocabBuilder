@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Zunge",
+    "partOfSpeech": "noun, feminine (die Zunge)",
+    "pronunciation": {
+      "respelling": "TSOONG-e",
+      "ipa": "ˈtsʊŋə",
+      "notes": "Plural: die Zungen."
+    },
+    "meaning": "tongue",
+    "shortDefinition": "Tongue."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Zunge, plural die Zungen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Zunge"
+        },
+        {
+          "label": "More than one",
+          "value": "die Zungen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Zeig mir deine Zunge.",
+      "english": "Show me your tongue.",
+      "highlight": [
+        "Zunge."
+      ]
+    },
+    {
+      "german": "Das Wort liegt mir auf der Zunge.",
+      "english": "The word is on the tip of my tongue.",
+      "highlight": [
+        "Zunge."
+      ]
+    },
+    {
+      "german": "Sie hat sich auf die Zunge gebissen.",
+      "english": "She bit her tongue.",
+      "highlight": [
+        "Zunge"
+      ]
+    }
+  ],
+  "forms": [
+    "Zungen",
+    "die Zungen",
+    "die Zunge"
+  ],
+  "memoryHook": "Die Zunge (z = ts); es liegt mir auf der Zunge.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Zunge",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Zunge is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Zunge, zwei ___",
+      "answer": "Zungen",
+      "fullAnswer": "ein Zunge, zwei Zungen",
+      "explanation": "The plural is Zungen.",
+      "acceptedAnswers": [
+        "Zungen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Zunge mean?",
+      "options": [
+        "tongue",
+        "the job",
+        "cheap"
+      ],
+      "answer": "tongue",
+      "explanation": "Zunge: tongue.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Auf der Zunge liegen' means…",
+      "options": [
+        "on the tip of your tongue",
+        "lying on the tongue"
+      ],
+      "answer": "on the tip of your tongue",
+      "explanation": "Idiom.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Z sounds like…",
+      "options": [
+        "ts",
+        "z"
+      ],
+      "answer": "ts",
+      "explanation": "TSOONG-e.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Markt",
+    "partOfSpeech": "noun, masculine (der Markt)",
+    "pronunciation": {
+      "respelling": "MARKT",
+      "ipa": "maʁkt",
+      "notes": "Plural: die Märkte."
+    },
+    "meaning": "market",
+    "shortDefinition": "Market."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Markt, plural die Märkte.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Markt"
+        },
+        {
+          "label": "More than one",
+          "value": "die Märkte"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Samstags kaufe ich auf dem Markt ein.",
+      "english": "On Saturdays I shop at the market.",
+      "highlight": [
+        "Markt"
+      ]
+    },
+    {
+      "german": "Der Markt ist auf dem Marktplatz.",
+      "english": "The market is in the market square.",
+      "highlight": [
+        "Markt"
+      ]
+    },
+    {
+      "german": "Im Dezember gibt es einen Weihnachtsmarkt.",
+      "english": "In December there's a Christmas market.",
+      "highlight": [
+        "Weihnachtsmarkt."
+      ]
+    }
+  ],
+  "forms": [
+    "Märkte",
+    "die Märkte",
+    "der Markt"
+  ],
+  "memoryHook": "Der Markt: auf dem Markt. Weihnachtsmarkt, Supermarkt, Flohmarkt.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Markt",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Markt is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Markt, zwei ___",
+      "answer": "Märkte",
+      "fullAnswer": "ein Markt, zwei Märkte",
+      "explanation": "The plural is Märkte.",
+      "acceptedAnswers": [
+        "Maerkte"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Markt mean?",
+      "options": [
+        "to travel",
+        "to sleep",
+        "market"
+      ],
+      "answer": "market",
+      "explanation": "Markt: market.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'At the market':",
+      "options": [
+        "auf dem Markt",
+        "im Markt"
+      ],
+      "answer": "auf dem Markt",
+      "explanation": "Auf (open air).",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "A supermarket:",
+      "options": [
+        "der Supermarkt",
+        "die Supermarkt"
+      ],
+      "answer": "der Supermarkt",
+      "explanation": "Der Markt.",
+      "id": "q5"
+    }
+  ]
+}

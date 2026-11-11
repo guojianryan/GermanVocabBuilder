@@ -1,0 +1,179 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "nachdenken",
+    "partOfSpeech": "separable verb",
+    "pronunciation": {
+      "respelling": "NAAKH-deng-ken",
+      "ipa": "ˈnaːxˌdɛŋkn̩",
+      "notes": ""
+    },
+    "meaning": "to think (about), reflect",
+    "shortDefinition": "To think (about), reflect."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "nach",
+        "meaning": "after"
+      },
+      {
+        "part": "denk",
+        "meaning": "think"
+      },
+      {
+        "part": "en",
+        "meaning": "verb ending"
+      }
+    ],
+    "literalMeaning": "think after",
+    "summary": "Following a thought through."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "denk|e … |nach"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "denk|st … |nach"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "denk|t … |nach"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "denk|en … |nach"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "denk|t … |nach"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "denk|en … |nach"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat nachgedacht"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich muss darüber nachdenken.",
+      "english": "I need to think about it.",
+      "highlight": [
+        "darüber",
+        "nachdenken."
+      ]
+    },
+    {
+      "german": "Denk mal nach!",
+      "english": "Think about it!",
+      "highlight": [
+        "Denk",
+        "nach!"
+      ]
+    },
+    {
+      "german": "Sie hat lange nachgedacht.",
+      "english": "She thought about it for a long time.",
+      "highlight": [
+        "nachgedacht."
+      ]
+    }
+  ],
+  "forms": [
+    "denke nach",
+    "denkst nach",
+    "denkt nach",
+    "denken nach",
+    "nachgedacht"
+  ],
+  "memoryHook": "Nachdenken über = reflect on (denken an = think of).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ … nach (nachdenken)",
+      "answer": "denkt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: denkt … nach.",
+      "acceptedAnswers": [
+        "denkt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (nachdenken, past)",
+      "answer": "nachgedacht",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe nachgedacht.",
+      "acceptedAnswers": [
+        "nachgedacht"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does nachdenken mean?",
+      "options": [
+        "hot",
+        "to buy",
+        "to think (about)"
+      ],
+      "answer": "to think (about)",
+      "explanation": "nachdenken: to think (about), reflect.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Think about = nachdenken ___",
+      "options": [
+        "über (+ Akk)",
+        "an"
+      ],
+      "answer": "über (+ Akk)",
+      "explanation": "Darüber.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "hat nachgedacht",
+        "hat nachgedenkt"
+      ],
+      "answer": "hat nachgedacht",
+      "explanation": "Irregular.",
+      "id": "q5"
+    }
+  ]
+}

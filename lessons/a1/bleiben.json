@@ -1,0 +1,168 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "bleiben",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "BLY-ben",
+      "ipa": "ˈblaɪ̯bn̩",
+      "notes": ""
+    },
+    "meaning": "to stay, to remain",
+    "shortDefinition": "To stay, to remain."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "bleib|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "bleib|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "bleib|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "bleib|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "bleib|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "bleib|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): ist geblieben",
+        "Bleiben uses sein in the past, although nothing moves."
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "übernachten",
+      "english": "to stay the night",
+      "type": "verb"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wie lange bleibst du in Berlin?",
+      "english": "How long are you staying in Berlin?",
+      "highlight": [
+        "bleibst"
+      ]
+    },
+    {
+      "german": "Heute bleibe ich zu Hause.",
+      "english": "Today I'm staying at home.",
+      "highlight": [
+        "bleibe"
+      ]
+    },
+    {
+      "german": "Wir sind eine Woche geblieben.",
+      "english": "We stayed for a week.",
+      "highlight": [
+        "geblieben."
+      ]
+    }
+  ],
+  "forms": [
+    "bleibe",
+    "bleibst",
+    "bleibt",
+    "bleiben",
+    "geblieben",
+    "blieb",
+    "blieben"
+  ],
+  "memoryHook": "Bleiben = stay. Even though you don't move, it uses sein: ich bin geblieben.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (bleiben)",
+      "answer": "bleibt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: bleibt.",
+      "acceptedAnswers": [
+        "bleibt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich bin schon ___. (bleiben, past)",
+      "answer": "geblieben",
+      "fullAnswer": "",
+      "explanation": "Perfekt: bin geblieben.",
+      "acceptedAnswers": [
+        "geblieben"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does bleiben mean?",
+      "options": [
+        "to help",
+        "to learn",
+        "to stay"
+      ],
+      "answer": "to stay",
+      "explanation": "bleiben: to stay, to remain.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich ___ zwei Tage in Wien geblieben.",
+      "options": [
+        "habe",
+        "bin"
+      ],
+      "answer": "bin",
+      "explanation": "Bleiben uses sein in the past.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Bleiben Sie dran!' on the phone means…",
+      "options": [
+        "Please hold!",
+        "Please hang up!"
+      ],
+      "answer": "Please hold!",
+      "explanation": "Stay on the line.",
+      "id": "q5"
+    }
+  ]
+}

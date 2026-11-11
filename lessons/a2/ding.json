@@ -1,0 +1,131 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Ding",
+    "partOfSpeech": "noun, neuter (das Ding)",
+    "pronunciation": {
+      "respelling": "DING",
+      "ipa": "dɪŋ",
+      "notes": "Plural: die Dinge."
+    },
+    "meaning": "thing",
+    "shortDefinition": "Thing."
+  },
+  "wordFamily": [
+    {
+      "german": "die Sache",
+      "english": "thing, matter",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Ding, plural die Dinge.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Ding"
+        },
+        {
+          "label": "More than one",
+          "value": "die Dinge"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Was ist das für ein Ding?",
+      "english": "What kind of thing is that?",
+      "highlight": [
+        "Ding?"
+      ]
+    },
+    {
+      "german": "Ich muss noch ein paar Dinge erledigen.",
+      "english": "I still have a few things to do.",
+      "highlight": [
+        "Dinge"
+      ]
+    },
+    {
+      "german": "Das ist nicht mein Ding.",
+      "english": "That's not my thing.",
+      "highlight": [
+        "Ding."
+      ]
+    }
+  ],
+  "forms": [
+    "Dinge",
+    "die Dinge",
+    "das Ding"
+  ],
+  "memoryHook": "Das Ding = thing. Vor allen Dingen = above all.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Ding",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Ding is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Ding, zwei ___",
+      "answer": "Dinge",
+      "fullAnswer": "ein Ding, zwei Dinge",
+      "explanation": "The plural is Dinge.",
+      "acceptedAnswers": [
+        "Dinge"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Ding mean?",
+      "options": [
+        "to sing",
+        "the street",
+        "thing"
+      ],
+      "answer": "thing",
+      "explanation": "Ding: thing.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Das ist nicht mein Ding' means…",
+      "options": [
+        "It's not my thing.",
+        "It's not my property."
+      ],
+      "answer": "It's not my thing.",
+      "explanation": "Same idiom as English.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "A synonym:",
+      "options": [
+        "die Sache",
+        "der Dank"
+      ],
+      "answer": "die Sache",
+      "explanation": "Thing, matter.",
+      "id": "q5"
+    }
+  ]
+}

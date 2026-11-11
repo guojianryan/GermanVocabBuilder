@@ -1,0 +1,169 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "empfehlen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "em-PFAY-len",
+      "ipa": "ɛmˈpfeːlən",
+      "notes": ""
+    },
+    "meaning": "to recommend",
+    "shortDefinition": "To recommend."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "empfehl|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "empfiehl|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "empfiehl|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "empfehl|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "empfehl|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "empfehl|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat empfohlen",
+        "E changes to ie for du and er: du empfiehlst, er empfiehlt."
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "die Empfehlung",
+      "english": "recommendation",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Können Sie mir ein Restaurant empfehlen?",
+      "english": "Can you recommend a restaurant?",
+      "highlight": [
+        "empfehlen?"
+      ]
+    },
+    {
+      "german": "Ich empfehle Ihnen den Fisch.",
+      "english": "I recommend the fish.",
+      "highlight": [
+        "empfehle"
+      ]
+    },
+    {
+      "german": "Der Arzt hat mir Ruhe empfohlen.",
+      "english": "The doctor recommended rest.",
+      "highlight": [
+        "empfohlen."
+      ]
+    }
+  ],
+  "forms": [
+    "empfehle",
+    "empfiehlst",
+    "empfiehlt",
+    "empfehlen",
+    "empfehlt",
+    "empfohlen",
+    "empfahl",
+    "Empfehlung"
+  ],
+  "memoryHook": "Empfehlen = recommend. Watch the vowel: du empfiehlst, er empfiehlt; past empfohlen.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (empfehlen)",
+      "answer": "empfiehlt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: empfiehlt.",
+      "acceptedAnswers": [
+        "empfiehlt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (empfehlen, past)",
+      "answer": "empfohlen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe empfohlen.",
+      "acceptedAnswers": [
+        "empfohlen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does empfehlen mean?",
+      "options": [
+        "the bed",
+        "hot",
+        "to recommend"
+      ],
+      "answer": "to recommend",
+      "explanation": "empfehlen: to recommend.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Was ___ du mir? (empfehlen)",
+      "options": [
+        "empfehlst",
+        "empfiehlst"
+      ],
+      "answer": "empfiehlst",
+      "explanation": "E changes to ie for du and er.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich empfehle ___ das Hotel. (you, formal)",
+      "options": [
+        "Sie",
+        "Ihnen"
+      ],
+      "answer": "Ihnen",
+      "explanation": "The person gets the dative.",
+      "id": "q5"
+    }
+  ]
+}

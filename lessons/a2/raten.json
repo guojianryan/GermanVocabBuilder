@@ -1,0 +1,172 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "raten",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "RAA-ten",
+      "ipa": "ˈʁaːtn̩",
+      "notes": ""
+    },
+    "meaning": "to guess; to advise",
+    "shortDefinition": "To guess; to advise."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "rat|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "r|ä|tst"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "r|ä|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "rat|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "rat|et"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "rat|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat geraten",
+        "a → ä for du and er."
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "der Rat",
+      "english": "advice",
+      "type": "noun"
+    },
+    {
+      "german": "das Rätsel",
+      "english": "puzzle",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Rate mal, wer angerufen hat!",
+      "english": "Guess who called!",
+      "highlight": [
+        "Rate"
+      ]
+    },
+    {
+      "german": "Ich rate dir, zum Arzt zu gehen.",
+      "english": "I advise you to see a doctor.",
+      "highlight": [
+        "rate"
+      ]
+    },
+    {
+      "german": "Das hast du richtig geraten!",
+      "english": "You guessed right!",
+      "highlight": [
+        "geraten!"
+      ]
+    }
+  ],
+  "forms": [
+    "rate",
+    "rätst",
+    "rät",
+    "raten",
+    "ratet",
+    "geraten"
+  ],
+  "memoryHook": "Raten = guess, or give advice (jemandem raten). Der Rat = advice.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (raten)",
+      "answer": "rät",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: rät.",
+      "acceptedAnswers": [
+        "raet"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (raten, past)",
+      "answer": "geraten",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe geraten.",
+      "acceptedAnswers": [
+        "geraten"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does raten mean?",
+      "options": [
+        "the street",
+        "to guess",
+        "to wait"
+      ],
+      "answer": "to guess",
+      "explanation": "raten: to guess; to advise.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Rate mal!' means…",
+      "options": [
+        "Guess!",
+        "Rate it!"
+      ],
+      "answer": "Guess!",
+      "explanation": "Guess.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Er ___ mir, Deutsch zu lernen.",
+      "options": [
+        "rät",
+        "ratet"
+      ],
+      "answer": "rät",
+      "explanation": "a → ä.",
+      "id": "q5"
+    }
+  ]
+}

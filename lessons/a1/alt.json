@@ -1,0 +1,182 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "alt",
+    "partOfSpeech": "adjective",
+    "pronunciation": {
+      "respelling": "AHLT",
+      "ipa": "alt",
+      "notes": ""
+    },
+    "meaning": "old",
+    "shortDefinition": "Old."
+  },
+  "tables": [
+    {
+      "title": "Old, older, oldest",
+      "columns": [
+        "form"
+      ],
+      "rows": [
+        {
+          "label": "old",
+          "cells": [
+            "alt"
+          ]
+        },
+        {
+          "label": "older",
+          "cells": [
+            "|älter"
+          ]
+        },
+        {
+          "label": "oldest",
+          "cells": [
+            "am |ältesten"
+          ]
+        }
+      ],
+      "notes": [
+        "The umlaut appears in the comparative: älter, not alter."
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "das Alter",
+      "english": "age",
+      "type": "noun"
+    },
+    {
+      "german": "jung",
+      "english": "young",
+      "type": "adjective"
+    },
+    {
+      "german": "neu",
+      "english": "new",
+      "type": "adjective"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Opposites",
+      "explanation": "For people the opposite is jung; for things it's neu.",
+      "examples": [
+        {
+          "german": "ein junger Mann",
+          "english": "a young man",
+          "highlight": "junger"
+        },
+        {
+          "german": "ein neues Auto",
+          "english": "a new car",
+          "highlight": "neues"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wie alt bist du? – Ich bin 25 Jahre alt.",
+      "english": "How old are you? – I'm 25.",
+      "highlight": [
+        "alt",
+        "alt."
+      ]
+    },
+    {
+      "german": "Mein Bruder ist älter als ich.",
+      "english": "My brother is older than me.",
+      "highlight": [
+        "älter"
+      ]
+    },
+    {
+      "german": "Wir wohnen in einem alten Haus.",
+      "english": "We live in an old house.",
+      "highlight": [
+        "alten"
+      ]
+    },
+    {
+      "german": "Das Alter spielt keine Rolle.",
+      "english": "Age doesn't matter.",
+      "highlight": [
+        "Alter"
+      ]
+    }
+  ],
+  "forms": [
+    "alte",
+    "alten",
+    "alter",
+    "altes",
+    "älter",
+    "ältesten",
+    "Alter"
+  ],
+  "memoryHook": "Alt = old, like English 'old' and 'elder'. Älter has the umlaut, just as 'elder' changes its vowel.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Wie ___ sind Sie?",
+      "answer": "alt",
+      "fullAnswer": "Wie alt sind Sie?",
+      "explanation": "Asking someone's age.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Meine Schwester ist ___ als ich. (older)",
+      "answer": "älter",
+      "fullAnswer": "Meine Schwester ist älter als ich.",
+      "explanation": "Alt, älter, am ältesten.",
+      "acceptedAnswers": [
+        "aelter"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich bin 30 ___ alt.",
+      "options": [
+        "Jahr",
+        "Jahre"
+      ],
+      "answer": "Jahre",
+      "explanation": "Ages use the plural: 30 Jahre alt.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "The opposite of alt (for people) is…",
+      "options": [
+        "jung",
+        "neu"
+      ],
+      "answer": "jung",
+      "explanation": "For people: jung. For things: neu.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "das ___ (age)",
+      "options": [
+        "Alt",
+        "Alter",
+        "Alte"
+      ],
+      "answer": "Alter",
+      "explanation": "The noun is das Alter.",
+      "id": "q5"
+    }
+  ]
+}

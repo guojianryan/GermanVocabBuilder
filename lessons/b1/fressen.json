@@ -1,0 +1,160 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "fressen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "FRES-en",
+      "ipa": "ˈfʁɛsn̩",
+      "notes": ""
+    },
+    "meaning": "to eat (animals); to scoff",
+    "shortDefinition": "To eat (animals); to scoff."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "fress|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "fr|i|sst"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "fr|i|sst"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "fress|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "fress|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "fress|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gefressen",
+        "e → i for du and er."
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Hund frisst sein Futter.",
+      "english": "The dog is eating its food.",
+      "highlight": [
+        "frisst"
+      ]
+    },
+    {
+      "german": "Was fressen Kaninchen?",
+      "english": "What do rabbits eat?",
+      "highlight": [
+        "fressen"
+      ]
+    },
+    {
+      "german": "Friss nicht so schnell!",
+      "english": "Don't wolf it down!",
+      "highlight": [
+        "Friss"
+      ]
+    }
+  ],
+  "forms": [
+    "fresse",
+    "frisst",
+    "fressen",
+    "fresst",
+    "gefressen",
+    "fraß"
+  ],
+  "memoryHook": "Animals fressen, people essen (fressen for people is rude!).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (fressen)",
+      "answer": "frisst",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: frisst.",
+      "acceptedAnswers": [
+        "frisst"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (fressen, past)",
+      "answer": "gefressen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gefressen.",
+      "acceptedAnswers": [
+        "gefressen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does fressen mean?",
+      "options": [
+        "the bill",
+        "the weather",
+        "to eat (animals)"
+      ],
+      "answer": "to eat (animals)",
+      "explanation": "fressen: to eat (animals); to scoff.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Fressen or essen? For animals:",
+      "options": [
+        "fressen",
+        "essen"
+      ],
+      "answer": "fressen",
+      "explanation": "Animals fressen.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Used for people, fressen is…",
+      "options": [
+        "rude",
+        "polite"
+      ],
+      "answer": "rude",
+      "explanation": "Like 'stuff your face'.",
+      "id": "q5"
+    }
+  ]
+}

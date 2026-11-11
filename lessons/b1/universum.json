@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Universum",
+    "partOfSpeech": "noun, neuter (das Universum)",
+    "pronunciation": {
+      "respelling": "oo-ni-VAIR-zoom",
+      "ipa": "uniˈvɛʁzʊm",
+      "notes": "Plural: die Universen."
+    },
+    "meaning": "universe",
+    "shortDefinition": "Universe."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Universum, plural die Universen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Universum"
+        },
+        {
+          "label": "More than one",
+          "value": "die Universen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das Universum ist unendlich.",
+      "english": "The universe is infinite.",
+      "highlight": [
+        "Universum"
+      ]
+    },
+    {
+      "german": "Gibt es Leben im Universum?",
+      "english": "Is there life in the universe?",
+      "highlight": [
+        "Universum?"
+      ]
+    },
+    {
+      "german": "Sie ist das Zentrum seines Universums.",
+      "english": "She's the centre of his universe.",
+      "highlight": [
+        "Universums."
+      ]
+    }
+  ],
+  "forms": [
+    "Weltall"
+  ],
+  "memoryHook": "Das Universum = das Weltall.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Universum",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Universum is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Universum, zwei ___",
+      "answer": "Universen",
+      "fullAnswer": "ein Universum, zwei Universen",
+      "explanation": "The plural is Universen.",
+      "acceptedAnswers": [
+        "Universen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Universum mean?",
+      "options": [
+        "universe",
+        "never",
+        "to buy"
+      ],
+      "answer": "universe",
+      "explanation": "Universum: universe.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "V sounds like…",
+      "options": [
+        "v",
+        "f"
+      ],
+      "answer": "v",
+      "explanation": "oo-ni-VAIR-zoom.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonym:",
+      "options": [
+        "das Weltall, der Kosmos",
+        "die Welt only"
+      ],
+      "answer": "das Weltall, der Kosmos",
+      "explanation": "Space.",
+      "id": "q5"
+    }
+  ]
+}

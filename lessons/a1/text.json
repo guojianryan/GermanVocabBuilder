@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Text",
+    "partOfSpeech": "noun, masculine (der Text)",
+    "pronunciation": {
+      "respelling": "TEKST",
+      "ipa": "tɛkst",
+      "notes": "Plural: die Texte."
+    },
+    "meaning": "text",
+    "shortDefinition": "Text."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Text, plural die Texte.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Text"
+        },
+        {
+          "label": "More than one",
+          "value": "die Texte"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Lesen Sie den Text.",
+      "english": "Read the text.",
+      "highlight": [
+        "Text."
+      ]
+    },
+    {
+      "german": "Der Text ist sehr lang.",
+      "english": "The text is very long.",
+      "highlight": [
+        "Text"
+      ]
+    },
+    {
+      "german": "Schreiben Sie einen kurzen Text über sich.",
+      "english": "Write a short text about yourself.",
+      "highlight": [
+        "Text"
+      ]
+    }
+  ],
+  "forms": [
+    "Texte",
+    "die Texte",
+    "der Text"
+  ],
+  "memoryHook": "Der Text, plural Texte.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Text",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Text is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Text, zwei ___",
+      "answer": "Texte",
+      "fullAnswer": "ein Text, zwei Texte",
+      "explanation": "The plural is Texte.",
+      "acceptedAnswers": [
+        "Texte"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Text mean?",
+      "options": [
+        "text",
+        "to wait",
+        "the station"
+      ],
+      "answer": "text",
+      "explanation": "Text: text.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Text is…",
+      "options": [
+        "masculine",
+        "neuter"
+      ],
+      "answer": "masculine",
+      "explanation": "Der Text.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Lesen Sie ___ Text.",
+      "options": [
+        "der",
+        "den"
+      ],
+      "answer": "den",
+      "explanation": "Masculine object.",
+      "id": "q5"
+    }
+  ]
+}

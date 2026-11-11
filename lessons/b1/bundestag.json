@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Bundestag",
+    "partOfSpeech": "noun, masculine (der Bundestag)",
+    "pronunciation": {
+      "respelling": "BOON-des-taak",
+      "ipa": "ˈbʊndəstaːk",
+      "notes": "Usually no plural."
+    },
+    "meaning": "Bundestag (German parliament)",
+    "shortDefinition": "Bundestag (German parliament)."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Bund",
+        "meaning": "federation"
+      },
+      {
+        "part": "es",
+        "meaning": "linking letters"
+      },
+      {
+        "part": "tag",
+        "meaning": "assembly (old)"
+      }
+    ],
+    "literalMeaning": "federal assembly"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Bundestag, usually no plural.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Bundestag"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Bundestag hat das Gesetz beschlossen.",
+      "english": "The Bundestag passed the law.",
+      "highlight": [
+        "Bundestag"
+      ]
+    },
+    {
+      "german": "Sie ist Abgeordnete im Bundestag.",
+      "english": "She's a member of the Bundestag.",
+      "highlight": [
+        "Bundestag."
+      ]
+    },
+    {
+      "german": "Der Bundestag sitzt im Reichstag.",
+      "english": "The Bundestag sits in the Reichstag building.",
+      "highlight": [
+        "Bundestag"
+      ]
+    }
+  ],
+  "forms": [
+    "der Bundestag"
+  ],
+  "memoryHook": "Der Bundestag (parliament; Tag = assembly).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Bundestag",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Bundestag is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Bundestag mean?",
+      "options": [
+        "Bundestag (German parliament)",
+        "expensive",
+        "the bill"
+      ],
+      "answer": "Bundestag (German parliament)",
+      "explanation": "Bundestag: Bundestag (German parliament).",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Bund + es + Tag (assembly)",
+        "Bund + Tag (day)"
+      ],
+      "answer": "Bund + es + Tag (assembly)",
+      "explanation": "Old 'Tag' = assembly.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Members:",
+      "options": [
+        "Abgeordnete",
+        "Minister"
+      ],
+      "answer": "Abgeordnete",
+      "explanation": "MPs.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gender:",
+      "options": [
+        "der",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Der Tag.",
+      "id": "q5"
+    }
+  ]
+}

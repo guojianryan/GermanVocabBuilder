@@ -1,0 +1,125 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Schüler",
+    "partOfSpeech": "noun, masculine (der Schüler)",
+    "pronunciation": {
+      "respelling": "SHÜ-ler",
+      "ipa": "ˈʃyːlɐ",
+      "notes": "The plural looks the same. Plural: die Schüler."
+    },
+    "meaning": "school pupil, student (at school)",
+    "shortDefinition": "School pupil, student (at school)."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Schüler, plural die Schüler.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Schüler"
+        },
+        {
+          "label": "More than one",
+          "value": "die Schüler"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "In meinem Kurs sind acht Schülerinnen und fünf Schüler.",
+      "english": "My class has eight girls and five boys.",
+      "highlight": [
+        "Schülerinnen",
+        "Schüler."
+      ]
+    },
+    {
+      "german": "Mein Sohn ist Schüler.",
+      "english": "My son is at school.",
+      "highlight": [
+        "Schüler."
+      ]
+    },
+    {
+      "german": "Die Schüler haben heute frei.",
+      "english": "The pupils have the day off.",
+      "highlight": [
+        "Schüler"
+      ]
+    }
+  ],
+  "forms": [
+    "Schülerin",
+    "Schülerinnen",
+    "der Schüler"
+  ],
+  "memoryHook": "Schule + -er = Schüler (school); Student (university).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Schüler",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Schüler is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Schüler, zwei ___",
+      "answer": "Schüler",
+      "fullAnswer": "ein Schüler, zwei Schüler",
+      "explanation": "The plural is Schüler.",
+      "acceptedAnswers": [
+        "Schueler"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Schüler mean?",
+      "options": [
+        "school pupil",
+        "the bread",
+        "the street"
+      ],
+      "answer": "school pupil",
+      "explanation": "Schüler: school pupil, student (at school).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "At university you're a…",
+      "options": [
+        "Student",
+        "Schüler"
+      ],
+      "answer": "Student",
+      "explanation": "Schüler is for school.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "A female pupil:",
+      "options": [
+        "die Schülerin",
+        "die Schülerine"
+      ],
+      "answer": "die Schülerin",
+      "explanation": "-in.",
+      "id": "q5"
+    }
+  ]
+}

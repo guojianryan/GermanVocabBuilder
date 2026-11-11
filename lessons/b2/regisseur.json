@@ -1,0 +1,134 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Regisseur",
+    "partOfSpeech": "noun, masculine (der Regisseur)",
+    "pronunciation": {
+      "respelling": "re-zhi-SÖR",
+      "ipa": "ʁeʒɪˈsøːɐ̯",
+      "notes": "Plural: die Regisseure."
+    },
+    "meaning": "director (film, theatre)",
+    "shortDefinition": "Director (film, theatre)."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Regisseur, plural die Regisseure.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Regisseur"
+        },
+        {
+          "label": "More than one",
+          "value": "die Regisseure"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Regisseur hat einen Oscar gewonnen.",
+      "english": "The director won an Oscar.",
+      "highlight": [
+        "Regisseur"
+      ]
+    },
+    {
+      "german": "Sie ist eine bekannte Regisseurin.",
+      "english": "She's a well-known director.",
+      "highlight": [
+        "Regisseurin."
+      ]
+    },
+    {
+      "german": "Wer ist der Regisseur des Films?",
+      "english": "Who directed the film?",
+      "highlight": [
+        "Regisseur"
+      ]
+    }
+  ],
+  "forms": [
+    "Regisseurin",
+    "Regie"
+  ],
+  "memoryHook": "Der Regisseur (French); Regie führen.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Regisseur",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Regisseur is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Regisseur, zwei ___",
+      "answer": "Regisseure",
+      "fullAnswer": "ein Regisseur, zwei Regisseure",
+      "explanation": "The plural is Regisseure.",
+      "acceptedAnswers": [
+        "Regisseure"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Regisseur mean?",
+      "options": [
+        "to sleep",
+        "director (film",
+        "to learn"
+      ],
+      "answer": "director (film",
+      "explanation": "Regisseur: director (film, theatre).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Pronunciation:",
+      "options": [
+        "French (re-zhi-SÖR)",
+        "German (re-GIS-oyr)"
+      ],
+      "answer": "French (re-zhi-SÖR)",
+      "explanation": "Loanword.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Directing:",
+      "options": [
+        "die Regie",
+        "die Regierung"
+      ],
+      "answer": "die Regie",
+      "explanation": "Regie führen.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Female:",
+      "options": [
+        "die Regisseurin",
+        "die Regisseuse"
+      ],
+      "answer": "die Regisseurin",
+      "explanation": "-in.",
+      "id": "q6"
+    }
+  ]
+}

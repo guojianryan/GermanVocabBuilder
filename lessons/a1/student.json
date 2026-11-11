@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Student",
+    "partOfSpeech": "noun, masculine (der Student)",
+    "pronunciation": {
+      "respelling": "shtoo-DENT",
+      "ipa": "ʃtuˈdɛnt",
+      "notes": "Plural: die Studenten."
+    },
+    "meaning": "(university) student",
+    "shortDefinition": "(university) student."
+  },
+  "wordFamily": [
+    {
+      "german": "studieren",
+      "english": "to study",
+      "type": "verb"
+    },
+    {
+      "german": "das Studium",
+      "english": "studies",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Student, plural die Studenten.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Student"
+        },
+        {
+          "label": "More than one",
+          "value": "die Studenten"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich bin Studentin.",
+      "english": "I'm a student (female).",
+      "highlight": [
+        "Studentin."
+      ]
+    },
+    {
+      "german": "Viele Studenten wohnen in WGs.",
+      "english": "Lots of students live in shared flats.",
+      "highlight": [
+        "Studenten"
+      ]
+    },
+    {
+      "german": "Er ist Student an der Uni Köln.",
+      "english": "He's a student at Cologne University.",
+      "highlight": [
+        "Student"
+      ]
+    }
+  ],
+  "forms": [
+    "Studentin",
+    "Studentinnen",
+    "Studenten",
+    "den Studenten"
+  ],
+  "memoryHook": "Student (university) with -en in every form except der Student. Female: Studentin.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Student",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Student is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Student, zwei ___",
+      "answer": "Studenten",
+      "fullAnswer": "ein Student, zwei Studenten",
+      "explanation": "The plural is Studenten.",
+      "acceptedAnswers": [
+        "Studenten"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Student mean?",
+      "options": [
+        "(university) student",
+        "the station",
+        "the child"
+      ],
+      "answer": "(university) student",
+      "explanation": "Student: (university) student.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'I'm a student' (man):",
+      "options": [
+        "Ich bin Student.",
+        "Ich bin ein Student."
+      ],
+      "answer": "Ich bin Student.",
+      "explanation": "No article.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Den Studenten or den Student? Ich kenne ___ .",
+      "options": [
+        "den Studenten",
+        "den Student"
+      ],
+      "answer": "den Studenten",
+      "explanation": "Accusative adds -en.",
+      "id": "q5"
+    }
+  ]
+}

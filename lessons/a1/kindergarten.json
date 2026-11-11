@@ -1,0 +1,145 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Kindergarten",
+    "partOfSpeech": "noun, masculine (der Kindergarten)",
+    "pronunciation": {
+      "respelling": "KIN-der-gar-ten",
+      "ipa": "ˈkɪndɐˌɡaʁtn̩",
+      "notes": "Plural: die Kindergärten."
+    },
+    "meaning": "nursery school, kindergarten",
+    "shortDefinition": "Nursery school, kindergarten."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Kinder",
+        "meaning": "children"
+      },
+      {
+        "part": "garten",
+        "meaning": "garden"
+      }
+    ],
+    "literalMeaning": "children's garden"
+  },
+  "wordFamily": [
+    {
+      "german": "die Kita",
+      "english": "day-care centre",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Kindergarten, plural die Kindergärten.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Kindergarten"
+        },
+        {
+          "label": "More than one",
+          "value": "die Kindergärten"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Meine Tochter geht in den Kindergarten.",
+      "english": "My daughter goes to nursery school.",
+      "highlight": [
+        "Kindergarten."
+      ]
+    },
+    {
+      "german": "Ich hole meinen Sohn vom Kindergarten ab.",
+      "english": "I pick my son up from nursery.",
+      "highlight": [
+        "Kindergarten"
+      ]
+    },
+    {
+      "german": "Der Kindergarten öffnet um sieben.",
+      "english": "The nursery opens at seven.",
+      "highlight": [
+        "Kindergarten"
+      ]
+    }
+  ],
+  "forms": [
+    "Kindergärten",
+    "die Kindergärten",
+    "der Kindergarten"
+  ],
+  "memoryHook": "Kinder + Garten: a garden of children. English borrowed it whole.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Kindergarten",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Kindergarten is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Kindergarten, zwei ___",
+      "answer": "Kindergärten",
+      "fullAnswer": "ein Kindergarten, zwei Kindergärten",
+      "explanation": "The plural is Kindergärten.",
+      "acceptedAnswers": [
+        "Kindergaerten"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Kindergarten mean?",
+      "options": [
+        "the bill",
+        "the job",
+        "nursery school"
+      ],
+      "answer": "nursery school",
+      "explanation": "Kindergarten: nursery school, kindergarten.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "In Germany, Kindergarten is for children aged about…",
+      "options": [
+        "3 to 6",
+        "6 to 10"
+      ],
+      "answer": "3 to 6",
+      "explanation": "Before school.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gender follows the last part, der Garten, so…",
+      "options": [
+        "der Kindergarten",
+        "das Kindergarten"
+      ],
+      "answer": "der Kindergarten",
+      "explanation": "Der Garten.",
+      "id": "q5"
+    }
+  ]
+}

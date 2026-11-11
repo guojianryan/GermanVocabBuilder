@@ -1,0 +1,171 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "full",
+  "word": {
+    "headword": "für",
+    "partOfSpeech": "preposition (always with the accusative)",
+    "pronunciation": {
+      "respelling": "FUER",
+      "ipa": "fyːɐ̯",
+      "notes": "Ü: say 'ee' with rounded lips."
+    },
+    "meaning": "for",
+    "shortDefinition": "Who or what something is for."
+  },
+  "intro": {
+    "title": "Für dich",
+    "paragraphs": [
+      "Für means 'for' and always takes the accusative: für dich, für meinen Bruder. It's mostly straightforward, with one big exception: for how long something has been going on, German uses seit, not für."
+    ]
+  },
+  "wordFamily": [
+    {
+      "german": "seit",
+      "english": "for, since (until now)",
+      "type": "preposition"
+    },
+    {
+      "german": "Danke für …",
+      "english": "Thanks for …",
+      "type": "phrase"
+    },
+    {
+      "german": "sich interessieren für",
+      "english": "to be interested in",
+      "type": "phrase"
+    }
+  ],
+  "keyTrap": {
+    "title": "The big trap: für or seit?",
+    "explanation": "Something that started in the past and is still going on takes seit + dative, not für.",
+    "wrong": {
+      "german": "Ich wohne hier für drei Jahre.",
+      "verdict": "You still live here, so it's seit."
+    },
+    "correct": [
+      {
+        "german": "Ich wohne hier seit drei Jahren.",
+        "literal": "I live here since three years.",
+        "note": "Still true: seit."
+      },
+      {
+        "german": "Ich fahre für eine Woche nach Paris.",
+        "literal": "I go for a week to Paris.",
+        "note": "A planned period: für."
+      }
+    ]
+  },
+  "commonMistakes": [
+    {
+      "title": "Accusative",
+      "explanation": "Für always takes the accusative.",
+      "wrong": "für meinem Vater",
+      "correct": "für meinen Vater"
+    },
+    {
+      "title": "Thanks for",
+      "explanation": "Danke für + accusative.",
+      "examples": [
+        {
+          "german": "Danke für die Einladung!",
+          "english": "Thanks for the invitation!",
+          "highlight": "für"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das Geschenk ist für dich.",
+      "english": "The present is for you.",
+      "highlight": [
+        "für"
+      ]
+    },
+    {
+      "german": "Ich brauche einen Tisch für vier Personen.",
+      "english": "I need a table for four.",
+      "highlight": [
+        "für"
+      ]
+    },
+    {
+      "german": "Danke für deine Hilfe!",
+      "english": "Thanks for your help!",
+      "highlight": [
+        "für"
+      ]
+    },
+    {
+      "german": "Ich interessiere mich für Musik.",
+      "english": "I'm interested in music.",
+      "highlight": [
+        "für"
+      ]
+    }
+  ],
+  "forms": [],
+  "memoryHook": "Für + accusative: für dich, für ihn. Still going on? Use seit.",
+  "signOff": "Danke für deine Zeit!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Das ist für ___. (him)",
+      "options": [
+        "ihn",
+        "ihm"
+      ],
+      "answer": "ihn",
+      "explanation": "Für + accusative: ihn.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich lerne ___ einem Jahr Deutsch.",
+      "options": [
+        "für",
+        "seit"
+      ],
+      "answer": "seit",
+      "explanation": "Still learning: seit.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ein Zimmer ___ zwei Nächte, bitte.",
+      "options": [
+        "für",
+        "seit"
+      ],
+      "answer": "für",
+      "explanation": "A planned period: für.",
+      "id": "q3"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Danke ___ die Blumen!",
+      "answer": "für",
+      "fullAnswer": "Danke für die Blumen!",
+      "explanation": "Danke für.",
+      "acceptedAnswers": [
+        "fuer"
+      ],
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich kaufe ein Geschenk für ___ Mutter.",
+      "options": [
+        "meine",
+        "meiner"
+      ],
+      "answer": "meine",
+      "explanation": "Accusative feminine: meine.",
+      "id": "q5"
+    }
+  ]
+}

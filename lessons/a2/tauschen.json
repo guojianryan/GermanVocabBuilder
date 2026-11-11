@@ -1,0 +1,173 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "tauschen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "TOW-shen",
+      "ipa": "ˈtaʊ̯ʃn̩",
+      "notes": ""
+    },
+    "meaning": "to swap, to exchange",
+    "shortDefinition": "To swap, to exchange."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "tausch|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "tausch|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "tausch|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "tausch|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "tausch|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "tausch|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat getauscht"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "austauschen",
+      "english": "to exchange",
+      "type": "verb"
+    },
+    {
+      "german": "umtauschen",
+      "english": "to exchange (in a shop)",
+      "type": "verb"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wollen wir die Plätze tauschen?",
+      "english": "Shall we swap seats?",
+      "highlight": [
+        "tauschen?"
+      ]
+    },
+    {
+      "german": "Ich tausche mein Buch gegen deine CD.",
+      "english": "I'll swap my book for your CD.",
+      "highlight": [
+        "tausche",
+        "gegen"
+      ]
+    },
+    {
+      "german": "Kann ich die Hose umtauschen?",
+      "english": "Can I exchange the trousers?",
+      "highlight": [
+        "umtauschen?"
+      ]
+    }
+  ],
+  "forms": [
+    "tausche",
+    "tauschst",
+    "tauscht",
+    "tauschen",
+    "getauscht",
+    "austauschen",
+    "ausgetauscht"
+  ],
+  "memoryHook": "Tauschen = swap. Austauschen = exchange (ideas). Umtauschen = exchange in a shop.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (tauschen)",
+      "answer": "tauscht",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: tauscht.",
+      "acceptedAnswers": [
+        "tauscht"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (tauschen, past)",
+      "answer": "getauscht",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe getauscht.",
+      "acceptedAnswers": [
+        "getauscht"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does tauschen mean?",
+      "options": [
+        "to swap",
+        "to sleep",
+        "the bread"
+      ],
+      "answer": "to swap",
+      "explanation": "tauschen: to swap, to exchange.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Swap something ___ something:",
+      "options": [
+        "gegen",
+        "für"
+      ],
+      "answer": "gegen",
+      "explanation": "Tauschen gegen.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "In a shop, exchanging an item is…",
+      "options": [
+        "umtauschen",
+        "wechseln"
+      ],
+      "answer": "umtauschen",
+      "explanation": "Umtauschen.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Veranstalter",
+    "partOfSpeech": "noun, masculine (der Veranstalter)",
+    "pronunciation": {
+      "respelling": "fer-AN-shtal-ter",
+      "ipa": "fɛɐ̯ˈʔanʃtaltɐ",
+      "notes": "The plural looks the same. Plural: die Veranstalter."
+    },
+    "meaning": "organiser, promoter",
+    "shortDefinition": "Organiser, promoter."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Ver",
+        "meaning": "prefix"
+      },
+      {
+        "part": "anstalt",
+        "meaning": "arrangement"
+      },
+      {
+        "part": "er",
+        "meaning": "person who does it"
+      }
+    ],
+    "literalMeaning": "one who arranges"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Veranstalter, plural die Veranstalter.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Veranstalter"
+        },
+        {
+          "label": "More than one",
+          "value": "die Veranstalter"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Veranstalter hat das Konzert abgesagt.",
+      "english": "The organiser cancelled the concert.",
+      "highlight": [
+        "Veranstalter"
+      ]
+    },
+    {
+      "german": "Die Veranstalterin ist zufrieden.",
+      "english": "The organiser is satisfied.",
+      "highlight": [
+        "Veranstalterin"
+      ]
+    },
+    {
+      "german": "Ein Reiseveranstalter.",
+      "english": "A tour operator.",
+      "highlight": [
+        "Reiseveranstalter."
+      ]
+    }
+  ],
+  "forms": [
+    "veranstalten",
+    "Veranstaltung"
+  ],
+  "memoryHook": "Veranstalten → der Veranstalter; Reiseveranstalter.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Veranstalter",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Veranstalter is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Veranstalter, zwei ___",
+      "answer": "Veranstalter",
+      "fullAnswer": "ein Veranstalter, zwei Veranstalter",
+      "explanation": "The plural is Veranstalter.",
+      "acceptedAnswers": [
+        "Veranstalter"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Veranstalter mean?",
+      "options": [
+        "to travel",
+        "organiser",
+        "the bill"
+      ],
+      "answer": "organiser",
+      "explanation": "Veranstalter: organiser, promoter.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "veranstalten (organise)",
+        "Anstalt only"
+      ],
+      "answer": "veranstalten (organise)",
+      "explanation": "Organise.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Tour operator:",
+      "options": [
+        "der Reiseveranstalter",
+        "der Reiseleiter"
+      ],
+      "answer": "der Reiseveranstalter",
+      "explanation": "Travel.",
+      "id": "q5"
+    }
+  ]
+}

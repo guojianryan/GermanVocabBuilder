@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Kritik",
+    "partOfSpeech": "noun, feminine (die Kritik)",
+    "pronunciation": {
+      "respelling": "kri-TEEK",
+      "ipa": "kʁiˈtiːk",
+      "notes": "Plural: die Kritiken."
+    },
+    "meaning": "criticism; review",
+    "shortDefinition": "Criticism; review."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Kritik, plural die Kritiken.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Kritik"
+        },
+        {
+          "label": "More than one",
+          "value": "die Kritiken"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er kann keine Kritik vertragen.",
+      "english": "He can't take criticism.",
+      "highlight": [
+        "Kritik"
+      ]
+    },
+    {
+      "german": "Der Film hat gute Kritiken bekommen.",
+      "english": "The film got good reviews.",
+      "highlight": [
+        "Kritiken"
+      ]
+    },
+    {
+      "german": "Ich habe eine Kritik an dem Plan.",
+      "english": "I have a criticism of the plan.",
+      "highlight": [
+        "Kritik"
+      ]
+    }
+  ],
+  "forms": [
+    "Kritiken",
+    "die Kritiken",
+    "die Kritik"
+  ],
+  "memoryHook": "Die Kritik: criticism, review. Der Kritiker = critic.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Kritik",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Kritik is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Kritik, zwei ___",
+      "answer": "Kritiken",
+      "fullAnswer": "ein Kritik, zwei Kritiken",
+      "explanation": "The plural is Kritiken.",
+      "acceptedAnswers": [
+        "Kritiken"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Kritik mean?",
+      "options": [
+        "criticism",
+        "to help",
+        "never"
+      ],
+      "answer": "criticism",
+      "explanation": "Kritik: criticism; review.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Kritik can mean…",
+      "options": [
+        "criticism or a review",
+        "only criticism"
+      ],
+      "answer": "criticism or a review",
+      "explanation": "Both.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "A critic:",
+      "options": [
+        "der Kritiker",
+        "der Kritik"
+      ],
+      "answer": "der Kritiker",
+      "explanation": "Person.",
+      "id": "q5"
+    }
+  ]
+}

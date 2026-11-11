@@ -1,0 +1,180 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "beklagen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "be-KLAA-gen",
+      "ipa": "bəˈklaːɡn̩",
+      "notes": ""
+    },
+    "meaning": "to lament, mourn; (sich ~) to complain",
+    "shortDefinition": "To lament, mourn; (sich ~) to complain."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "be",
+        "meaning": "prefix"
+      },
+      {
+        "part": "klagen",
+        "meaning": "to lament, complain"
+      }
+    ],
+    "literalMeaning": "to lament over"
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "beklag|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "beklag|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "beklag|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "beklag|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "beklag|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "beklag|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat beklagt"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Sie beklagt sich über den Lärm.",
+      "english": "She complains about the noise.",
+      "highlight": [
+        "beklagt"
+      ]
+    },
+    {
+      "german": "Ich kann mich nicht beklagen.",
+      "english": "I can't complain.",
+      "highlight": [
+        "beklagen."
+      ]
+    },
+    {
+      "german": "Der Unfall forderte drei Todesopfer zu beklagen.",
+      "english": "Three deaths are to be mourned from the accident.",
+      "highlight": [
+        "beklagen."
+      ]
+    }
+  ],
+  "forms": [
+    "klagen",
+    "Beklagte"
+  ],
+  "memoryHook": "Sich beklagen über = sich beschweren; der Beklagte (defendant).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (beklagen)",
+      "answer": "beklagt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: beklagt.",
+      "acceptedAnswers": [
+        "beklagt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (beklagen, past)",
+      "answer": "beklagt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe beklagt.",
+      "acceptedAnswers": [
+        "beklagt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does beklagen mean?",
+      "options": [
+        "to lament",
+        "to buy",
+        "to wait"
+      ],
+      "answer": "to lament",
+      "explanation": "beklagen: to lament, mourn; (sich ~) to complain.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Sich beklagen über' means…",
+      "options": [
+        "to complain about",
+        "to sue"
+      ],
+      "answer": "to complain about",
+      "explanation": "Complain.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonym:",
+      "options": [
+        "sich beschweren",
+        "sich freuen"
+      ],
+      "answer": "sich beschweren",
+      "explanation": "Complain.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Defendant (court):",
+      "options": [
+        "der/die Beklagte",
+        "der Kläger"
+      ],
+      "answer": "der/die Beklagte",
+      "explanation": "Legal.",
+      "id": "q6"
+    }
+  ]
+}

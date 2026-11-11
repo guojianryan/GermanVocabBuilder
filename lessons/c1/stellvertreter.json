@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Stellvertreter",
+    "partOfSpeech": "noun, masculine (der Stellvertreter)",
+    "pronunciation": {
+      "respelling": "SHTEL-fer-tray-ter",
+      "ipa": "ˈʃtɛlfɛɐ̯ˌtʁeːtɐ",
+      "notes": "The plural looks the same. Plural: die Stellvertreter."
+    },
+    "meaning": "deputy, representative",
+    "shortDefinition": "Deputy, representative."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Stell",
+        "meaning": "place (Stelle)"
+      },
+      {
+        "part": "vertreter",
+        "meaning": "representative"
+      }
+    ],
+    "literalMeaning": "place-representative"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Stellvertreter, plural die Stellvertreter.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Stellvertreter"
+        },
+        {
+          "label": "More than one",
+          "value": "die Stellvertreter"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er ist der Stellvertreter des Direktors.",
+      "english": "He's the director's deputy.",
+      "highlight": [
+        "Stellvertreter"
+      ]
+    },
+    {
+      "german": "Sie ist meine Stellvertreterin.",
+      "english": "She's my deputy.",
+      "highlight": [
+        "Stellvertreterin."
+      ]
+    },
+    {
+      "german": "Der Stellvertreter übernimmt im Urlaub.",
+      "english": "The deputy takes over during holidays.",
+      "highlight": [
+        "Stellvertreter"
+      ]
+    }
+  ],
+  "forms": [
+    "stellvertretend",
+    "Stellvertreterin"
+  ],
+  "memoryHook": "Stelle + Vertreter = deputy; stellvertretend.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Stellvertreter",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Stellvertreter is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Stellvertreter, zwei ___",
+      "answer": "Stellvertreter",
+      "fullAnswer": "ein Stellvertreter, zwei Stellvertreter",
+      "explanation": "The plural is Stellvertreter.",
+      "acceptedAnswers": [
+        "Stellvertreter"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Stellvertreter mean?",
+      "options": [
+        "deputy",
+        "quiet",
+        "cheap"
+      ],
+      "answer": "deputy",
+      "explanation": "Stellvertreter: deputy, representative.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Stelle + vertreten (represent)",
+        "stellen + treten"
+      ],
+      "answer": "Stelle + vertreten (represent)",
+      "explanation": "In place of.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Adjective:",
+      "options": [
+        "stellvertretend",
+        "stellvertreterisch"
+      ],
+      "answer": "stellvertretend",
+      "explanation": "Deputy.",
+      "id": "q5"
+    }
+  ]
+}

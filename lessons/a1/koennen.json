@@ -1,0 +1,223 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "full",
+  "word": {
+    "headword": "können",
+    "partOfSpeech": "modal verb",
+    "pronunciation": {
+      "respelling": "KURN-en",
+      "ipa": "ˈkœnən",
+      "notes": "Ö: say 'e' with rounded lips."
+    },
+    "meaning": "can, to be able to; to know how to",
+    "shortDefinition": "Ability, possibility, and polite requests."
+  },
+  "intro": {
+    "title": "Kannst du mir helfen?",
+    "paragraphs": [
+      "Können is 'can': ability (Ich kann schwimmen), possibility (Das kann sein) and polite requests (Können Sie mir helfen?). Like all modal verbs, it sends the main verb to the end."
+    ]
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "|kann"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "|kannst"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "|kann"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "könn|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "könn|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "könn|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Singular forms have a instead of ö, and ich and er are the same: kann.",
+        "Past: konnte."
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "dürfen",
+      "english": "may",
+      "type": "modal verb"
+    },
+    {
+      "german": "müssen",
+      "english": "must",
+      "type": "modal verb"
+    },
+    {
+      "german": "kennen",
+      "english": "to know (be familiar)",
+      "type": "verb"
+    }
+  ],
+  "keyTrap": {
+    "title": "The big trap: the second verb goes last",
+    "explanation": "Können takes second place; the action verb goes to the end, unchanged.",
+    "wrong": {
+      "german": "Ich kann spreche Deutsch.",
+      "verdict": "The second verb stays in the infinitive, at the end."
+    },
+    "correct": [
+      {
+        "german": "Ich kann Deutsch sprechen.",
+        "literal": "I can German speak.",
+        "note": "Infinitive at the end."
+      },
+      {
+        "german": "Ich kann Deutsch.",
+        "literal": "I can German.",
+        "note": "Languages: you can even drop the verb."
+      }
+    ]
+  },
+  "commonMistakes": [
+    {
+      "title": "ich kann, er kann",
+      "explanation": "No -t for er.",
+      "wrong": "Er kannt schwimmen.",
+      "correct": "Er kann schwimmen."
+    },
+    {
+      "title": "Polite requests",
+      "explanation": "Könnten (would you be able to) is extra polite.",
+      "examples": [
+        {
+          "german": "Könnten Sie mir helfen?",
+          "english": "Could you help me?",
+          "highlight": "Könnten"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Kannst du schwimmen?",
+      "english": "Can you swim?",
+      "highlight": [
+        "Kannst"
+      ]
+    },
+    {
+      "german": "Können Sie das bitte wiederholen?",
+      "english": "Could you repeat that, please?",
+      "highlight": [
+        "Können"
+      ]
+    },
+    {
+      "german": "Hier kann man gut essen.",
+      "english": "You can eat well here.",
+      "highlight": [
+        "kann"
+      ]
+    },
+    {
+      "german": "Ich konnte nicht kommen.",
+      "english": "I couldn't come.",
+      "highlight": [
+        "konnte"
+      ]
+    }
+  ],
+  "forms": [
+    "kann",
+    "kannst",
+    "könnt",
+    "konnte",
+    "konnten",
+    "gekonnt",
+    "könnten"
+  ],
+  "memoryHook": "Ich kann, du kannst, er kann: the main verb goes to the end. Können Sie …? = polite request.",
+  "signOff": "Du kannst das!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Er ___ gut kochen. (können)",
+      "answer": "kann",
+      "fullAnswer": "Er kann gut kochen.",
+      "explanation": "Er kann.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Which is correct?",
+      "options": [
+        "Ich kann Gitarre spielen.",
+        "Ich kann spiele Gitarre."
+      ],
+      "answer": "Ich kann Gitarre spielen.",
+      "explanation": "Infinitive at the end.",
+      "id": "q2"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "___ du mir helfen? (Can)",
+      "answer": "Kannst",
+      "fullAnswer": "Kannst du mir helfen?",
+      "explanation": "Du kannst.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Das kann sein' means…",
+      "options": [
+        "That's possible",
+        "That can be done"
+      ],
+      "answer": "That's possible",
+      "explanation": "Maybe.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Wir ___ morgen kommen.",
+      "options": [
+        "können",
+        "kann"
+      ],
+      "answer": "können",
+      "explanation": "Wir können.",
+      "id": "q5"
+    }
+  ]
+}

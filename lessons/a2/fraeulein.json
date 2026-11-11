@@ -1,0 +1,138 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Fräulein",
+    "partOfSpeech": "noun, neuter (das Fräulein)",
+    "pronunciation": {
+      "respelling": "FROY-line",
+      "ipa": "ˈfʁɔɪ̯laɪ̯n",
+      "notes": "The plural looks the same. Plural: die Fräulein."
+    },
+    "meaning": "Miss, young lady (old-fashioned)",
+    "shortDefinition": "Miss, young lady (old-fashioned)."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Fräu",
+        "meaning": "lady (Frau)"
+      },
+      {
+        "part": "lein",
+        "meaning": "little (diminutive)"
+      }
+    ],
+    "literalMeaning": "little lady"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Fräulein, plural die Fräulein.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Fräulein"
+        },
+        {
+          "label": "More than one",
+          "value": "die Fräulein"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Früher sagte man Fräulein Müller.",
+      "english": "People used to say Miss Müller.",
+      "highlight": [
+        "Fräulein"
+      ]
+    },
+    {
+      "german": "Heute sagt man zu allen Frauen 'Frau'.",
+      "english": "Today all women are addressed as 'Frau'.",
+      "highlight": [
+        "Frau'."
+      ]
+    },
+    {
+      "german": "Das kleine Fräulein ist frech.",
+      "english": "The little madam is cheeky.",
+      "highlight": [
+        "Fräulein"
+      ]
+    }
+  ],
+  "forms": [
+    "Fräulein",
+    "die Fräulein",
+    "das Fräulein"
+  ],
+  "memoryHook": "Das Fräulein (old-fashioned). Today: Frau.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Fräulein",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Fräulein is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Fräulein, zwei ___",
+      "answer": "Fräulein",
+      "fullAnswer": "ein Fräulein, zwei Fräulein",
+      "explanation": "The plural is Fräulein.",
+      "acceptedAnswers": [
+        "Fraeulein"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Fräulein mean?",
+      "options": [
+        "to travel",
+        "to learn",
+        "Miss"
+      ],
+      "answer": "Miss",
+      "explanation": "Fräulein: Miss, young lady (old-fashioned).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Is Fräulein used today?",
+      "options": [
+        "hardly — it sounds old-fashioned",
+        "yes, for all young women"
+      ],
+      "answer": "hardly — it sounds old-fashioned",
+      "explanation": "Use Frau.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gender:",
+      "options": [
+        "das (-lein)",
+        "die"
+      ],
+      "answer": "das (-lein)",
+      "explanation": "Diminutive.",
+      "id": "q5"
+    }
+  ]
+}

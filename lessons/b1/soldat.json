@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Soldat",
+    "partOfSpeech": "noun, masculine (der Soldat)",
+    "pronunciation": {
+      "respelling": "zol-DAAT",
+      "ipa": "zɔlˈdaːt",
+      "notes": "Plural: die Soldaten."
+    },
+    "meaning": "soldier",
+    "shortDefinition": "Soldier."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Soldat, plural die Soldaten.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Soldat"
+        },
+        {
+          "label": "More than one",
+          "value": "die Soldaten"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Soldaten marschieren.",
+      "english": "The soldiers are marching.",
+      "highlight": [
+        "Soldaten"
+      ]
+    },
+    {
+      "german": "Er war zwei Jahre Soldat.",
+      "english": "He was a soldier for two years.",
+      "highlight": [
+        "Soldat."
+      ]
+    },
+    {
+      "german": "Sie ist Soldatin.",
+      "english": "She's a soldier.",
+      "highlight": [
+        "Soldatin."
+      ]
+    }
+  ],
+  "forms": [
+    "Soldatin"
+  ],
+  "memoryHook": "Der Soldat (weak), die Soldatin.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Soldat",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Soldat is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Soldat, zwei ___",
+      "answer": "Soldaten",
+      "fullAnswer": "ein Soldat, zwei Soldaten",
+      "explanation": "The plural is Soldaten.",
+      "acceptedAnswers": [
+        "Soldaten"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Soldat mean?",
+      "options": [
+        "the key",
+        "to sleep",
+        "soldier"
+      ],
+      "answer": "soldier",
+      "explanation": "Soldat: soldier.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Weak noun: den/dem…",
+      "options": [
+        "Soldaten",
+        "Soldat"
+      ],
+      "answer": "Soldaten",
+      "explanation": "-en.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Stress on…",
+      "options": [
+        "-DAT",
+        "SOL-"
+      ],
+      "answer": "-DAT",
+      "explanation": "End.",
+      "id": "q5"
+    }
+  ]
+}

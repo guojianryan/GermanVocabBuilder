@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Grill",
+    "partOfSpeech": "noun, masculine (der Grill)",
+    "pronunciation": {
+      "respelling": "GRIL",
+      "ipa": "ɡʁɪl",
+      "notes": "Plural: die Grills."
+    },
+    "meaning": "barbecue, grill",
+    "shortDefinition": "Barbecue, grill."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Grill, plural die Grills.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Grill"
+        },
+        {
+          "label": "More than one",
+          "value": "die Grills"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir machen den Grill an.",
+      "english": "We're lighting the barbecue.",
+      "highlight": [
+        "Grill"
+      ]
+    },
+    {
+      "german": "Das Fleisch liegt auf dem Grill.",
+      "english": "The meat is on the grill.",
+      "highlight": [
+        "Grill."
+      ]
+    },
+    {
+      "german": "Hast du einen Grill im Garten?",
+      "english": "Have you got a barbecue in the garden?",
+      "highlight": [
+        "Grill"
+      ]
+    }
+  ],
+  "forms": [
+    "grillen",
+    "Grillparty"
+  ],
+  "memoryHook": "Der Grill → grillen. Grillparty im Sommer!",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Grill",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Grill is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Grill, zwei ___",
+      "answer": "Grills",
+      "fullAnswer": "ein Grill, zwei Grills",
+      "explanation": "The plural is Grills.",
+      "acceptedAnswers": [
+        "Grills"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Grill mean?",
+      "options": [
+        "the evening",
+        "the car",
+        "barbecue"
+      ],
+      "answer": "barbecue",
+      "explanation": "Grill: barbecue, grill.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Verb:",
+      "options": [
+        "grillen",
+        "grillieren only"
+      ],
+      "answer": "grillen",
+      "explanation": "Barbecue.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "A barbecue party:",
+      "options": [
+        "eine Grillparty",
+        "ein Grillfest (also)"
+      ],
+      "answer": "eine Grillparty",
+      "explanation": "Both.",
+      "id": "q5"
+    }
+  ]
+}

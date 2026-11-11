@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Geschlecht",
+    "partOfSpeech": "noun, neuter (das Geschlecht)",
+    "pronunciation": {
+      "respelling": "ge-SHLEKHT",
+      "ipa": "ɡəˈʃlɛçt",
+      "notes": "Plural: die Geschlechter."
+    },
+    "meaning": "sex, gender",
+    "shortDefinition": "Sex, gender."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Geschlecht, plural die Geschlechter.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Geschlecht"
+        },
+        {
+          "label": "More than one",
+          "value": "die Geschlechter"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Geschlecht: männlich / weiblich / divers",
+      "english": "Sex: male / female / diverse",
+      "highlight": [
+        "Geschlecht:"
+      ]
+    },
+    {
+      "german": "Die Gehälter sind für beide Geschlechter gleich.",
+      "english": "Salaries are the same for both sexes.",
+      "highlight": [
+        "Geschlechter"
+      ]
+    },
+    {
+      "german": "Welches Geschlecht hat das Wort?",
+      "english": "What gender is the word?",
+      "highlight": [
+        "Geschlecht"
+      ]
+    }
+  ],
+  "forms": [
+    "Geschlechter",
+    "die Geschlechter",
+    "das Geschlecht"
+  ],
+  "memoryHook": "Das Geschlecht: sex, gender (also grammatical gender).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Geschlecht",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Geschlecht is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Geschlecht, zwei ___",
+      "answer": "Geschlechter",
+      "fullAnswer": "ein Geschlecht, zwei Geschlechter",
+      "explanation": "The plural is Geschlechter.",
+      "acceptedAnswers": [
+        "Geschlechter"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Geschlecht mean?",
+      "options": [
+        "always",
+        "sex",
+        "the bread"
+      ],
+      "answer": "sex",
+      "explanation": "Geschlecht: sex, gender.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "On forms, Geschlecht asks…",
+      "options": [
+        "your sex/gender",
+        "your family"
+      ],
+      "answer": "your sex/gender",
+      "explanation": "Gender.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Geschlechter",
+        "Geschlechte"
+      ],
+      "answer": "Geschlechter",
+      "explanation": "-er.",
+      "id": "q5"
+    }
+  ]
+}

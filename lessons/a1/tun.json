@@ -1,0 +1,173 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "tun",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "TOON",
+      "ipa": "tuːn",
+      "notes": ""
+    },
+    "meaning": "to do",
+    "shortDefinition": "To do."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "tu|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "tu|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "tu|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "tu|n"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "tu|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "tu|n"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat getan"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "machen",
+      "english": "to do, to make",
+      "type": "verb"
+    },
+    {
+      "german": "wehtun",
+      "english": "to hurt",
+      "type": "verb"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Was kann ich für Sie tun?",
+      "english": "What can I do for you?",
+      "highlight": [
+        "tun?"
+      ]
+    },
+    {
+      "german": "Mein Arm tut weh.",
+      "english": "My arm hurts.",
+      "highlight": [
+        "tut",
+        "weh."
+      ]
+    },
+    {
+      "german": "Es tut mir leid.",
+      "english": "I'm sorry.",
+      "highlight": [
+        "tut",
+        "leid."
+      ]
+    }
+  ],
+  "forms": [
+    "tue",
+    "tust",
+    "tut",
+    "tun",
+    "getan",
+    "tat"
+  ],
+  "memoryHook": "Tun = do. Most often in phrases: es tut mir leid, es tut weh. Everyday 'do' is often machen.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (tun)",
+      "answer": "tut",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: tut.",
+      "acceptedAnswers": [
+        "tut"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (tun, past)",
+      "answer": "getan",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe getan.",
+      "acceptedAnswers": [
+        "getan"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does tun mean?",
+      "options": [
+        "to do",
+        "the shop",
+        "the flower"
+      ],
+      "answer": "to do",
+      "explanation": "tun: to do.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Es tut mir leid' means…",
+      "options": [
+        "I'm sorry",
+        "It does me harm"
+      ],
+      "answer": "I'm sorry",
+      "explanation": "Fixed phrase.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Was tut weh?' asks…",
+      "options": [
+        "What hurts?",
+        "What are you doing?"
+      ],
+      "answer": "What hurts?",
+      "explanation": "Wehtun.",
+      "id": "q5"
+    }
+  ]
+}

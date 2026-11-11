@@ -1,0 +1,147 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Gutachten",
+    "partOfSpeech": "noun, neuter (das Gutachten)",
+    "pronunciation": {
+      "respelling": "GOOT-akh-ten",
+      "ipa": "ˈɡuːtʔaxtn̩",
+      "notes": "The plural looks the same. Plural: die Gutachten."
+    },
+    "meaning": "expert report, assessment",
+    "shortDefinition": "Expert report, assessment."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Gut",
+        "meaning": "good"
+      },
+      {
+        "part": "achten",
+        "meaning": "to consider"
+      }
+    ],
+    "literalMeaning": "good consideration"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Gutachten, plural die Gutachten.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Gutachten"
+        },
+        {
+          "label": "More than one",
+          "value": "die Gutachten"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ein Gutachter erstellt ein Gutachten.",
+      "english": "An expert prepares a report.",
+      "highlight": [
+        "Gutachten."
+      ]
+    },
+    {
+      "german": "Laut Gutachten ist das Haus sicher.",
+      "english": "According to the report the house is safe.",
+      "highlight": [
+        "Gutachten"
+      ]
+    },
+    {
+      "german": "Ein ärztliches Gutachten.",
+      "english": "A medical report.",
+      "highlight": [
+        "Gutachten."
+      ]
+    }
+  ],
+  "forms": [
+    "Gutachter"
+  ],
+  "memoryHook": "Gut + achten = expert report; der Gutachter.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Gutachten",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Gutachten is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Gutachten, zwei ___",
+      "answer": "Gutachten",
+      "fullAnswer": "ein Gutachten, zwei Gutachten",
+      "explanation": "The plural is Gutachten.",
+      "acceptedAnswers": [
+        "Gutachten"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Gutachten mean?",
+      "options": [
+        "expert report",
+        "expensive",
+        "the window"
+      ],
+      "answer": "expert report",
+      "explanation": "Gutachten: expert report, assessment.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Expert (who writes it):",
+      "options": [
+        "der Gutachter",
+        "der Gutacht"
+      ],
+      "answer": "der Gutachter",
+      "explanation": "Assessor.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "gut + achten (consider)",
+        "Gut + Acht (eight)"
+      ],
+      "answer": "gut + achten (consider)",
+      "explanation": "Good consideration.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Gutachten",
+        "Gutachtens"
+      ],
+      "answer": "Gutachten",
+      "explanation": "No change.",
+      "id": "q6"
+    }
+  ]
+}

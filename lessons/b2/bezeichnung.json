@@ -1,0 +1,140 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Bezeichnung",
+    "partOfSpeech": "noun, feminine (die Bezeichnung)",
+    "pronunciation": {
+      "respelling": "be-TSYKH-nung",
+      "ipa": "bəˈtsaɪ̯çnʊŋ",
+      "notes": "Plural: die Bezeichnungen."
+    },
+    "meaning": "name, term, designation",
+    "shortDefinition": "Name, term, designation."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Be",
+        "meaning": "prefix"
+      },
+      {
+        "part": "zeichn",
+        "meaning": "mark (zeichnen)"
+      },
+      {
+        "part": "ung",
+        "meaning": "noun ending"
+      }
+    ],
+    "literalMeaning": "a marking"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Bezeichnung, plural die Bezeichnungen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Bezeichnung"
+        },
+        {
+          "label": "More than one",
+          "value": "die Bezeichnungen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wie lautet die genaue Bezeichnung?",
+      "english": "What's the exact name?",
+      "highlight": [
+        "Bezeichnung?"
+      ]
+    },
+    {
+      "german": "Das ist eine andere Bezeichnung für dasselbe.",
+      "english": "That's another term for the same thing.",
+      "highlight": [
+        "Bezeichnung"
+      ]
+    },
+    {
+      "german": "Die Bezeichnung ist irreführend.",
+      "english": "The name is misleading.",
+      "highlight": [
+        "Bezeichnung"
+      ]
+    }
+  ],
+  "forms": [
+    "bezeichnen"
+  ],
+  "memoryHook": "Bezeichnen → die Bezeichnung.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Bezeichnung",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Bezeichnung is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Bezeichnung, zwei ___",
+      "answer": "Bezeichnungen",
+      "fullAnswer": "ein Bezeichnung, zwei Bezeichnungen",
+      "explanation": "The plural is Bezeichnungen.",
+      "acceptedAnswers": [
+        "Bezeichnungen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Bezeichnung mean?",
+      "options": [
+        "to sing",
+        "to travel",
+        "name"
+      ],
+      "answer": "name",
+      "explanation": "Bezeichnung: name, term, designation.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "bezeichnen (call, designate)",
+        "zeichnen only"
+      ],
+      "answer": "bezeichnen (call, designate)",
+      "explanation": "Name.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonym:",
+      "options": [
+        "der Name, der Begriff",
+        "das Zeichen"
+      ],
+      "answer": "der Name, der Begriff",
+      "explanation": "Term.",
+      "id": "q5"
+    }
+  ]
+}

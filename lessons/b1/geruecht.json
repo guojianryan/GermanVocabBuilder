@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Gerücht",
+    "partOfSpeech": "noun, neuter (das Gerücht)",
+    "pronunciation": {
+      "respelling": "ge-RÜKHT",
+      "ipa": "ɡəˈʁʏçt",
+      "notes": "Plural: die Gerüchte."
+    },
+    "meaning": "rumour",
+    "shortDefinition": "Rumour."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Gerücht, plural die Gerüchte.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Gerücht"
+        },
+        {
+          "label": "More than one",
+          "value": "die Gerüchte"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das ist nur ein Gerücht.",
+      "english": "That's just a rumour.",
+      "highlight": [
+        "Gerücht."
+      ]
+    },
+    {
+      "german": "Es gibt Gerüchte über eine Trennung.",
+      "english": "There are rumours of a split.",
+      "highlight": [
+        "Gerüchte"
+      ]
+    },
+    {
+      "german": "Wer hat das Gerücht verbreitet?",
+      "english": "Who spread the rumour?",
+      "highlight": [
+        "Gerücht"
+      ]
+    }
+  ],
+  "forms": [
+    "Gerüchte",
+    "die Gerüchte",
+    "das Gerücht"
+  ],
+  "memoryHook": "Das Gerücht (rumour); Gerüchte verbreiten.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Gerücht",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Gerücht is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Gerücht, zwei ___",
+      "answer": "Gerüchte",
+      "fullAnswer": "ein Gerücht, zwei Gerüchte",
+      "explanation": "The plural is Gerüchte.",
+      "acceptedAnswers": [
+        "Geruechte"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Gerücht mean?",
+      "options": [
+        "rumour",
+        "the evening",
+        "to sleep"
+      ],
+      "answer": "rumour",
+      "explanation": "Gerücht: rumour.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Ein Gerücht verbreiten' means…",
+      "options": [
+        "to spread a rumour",
+        "to smell a rumour"
+      ],
+      "answer": "to spread a rumour",
+      "explanation": "Spread.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Related to…",
+      "options": [
+        "rufen (call) – what is called out",
+        "riechen"
+      ],
+      "answer": "rufen (call) – what is called out",
+      "explanation": "Old link.",
+      "id": "q5"
+    }
+  ]
+}

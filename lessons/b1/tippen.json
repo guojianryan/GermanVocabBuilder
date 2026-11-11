@@ -1,0 +1,154 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "tippen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "TIP-en",
+      "ipa": "ˈtɪpn̩",
+      "notes": ""
+    },
+    "meaning": "to type; to tap; to guess",
+    "shortDefinition": "To type; to tap; to guess."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "tipp|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "tipp|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "tipp|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "tipp|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "tipp|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "tipp|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat getippt"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich tippe eine Nachricht.",
+      "english": "I'm typing a message.",
+      "highlight": [
+        "tippe"
+      ]
+    },
+    {
+      "german": "Er hat mir auf die Schulter getippt.",
+      "english": "He tapped me on the shoulder.",
+      "highlight": [
+        "getippt."
+      ]
+    },
+    {
+      "german": "Ich tippe, dass Bayern gewinnt.",
+      "english": "My guess is Bayern will win.",
+      "highlight": [
+        "tippe,"
+      ]
+    }
+  ],
+  "forms": [
+    "Tipp"
+  ],
+  "memoryHook": "Tippen: type, tap, guess. Der Tipp = tip.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (tippen)",
+      "answer": "tippt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: tippt.",
+      "acceptedAnswers": [
+        "tippt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (tippen, past)",
+      "answer": "getippt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe getippt.",
+      "acceptedAnswers": [
+        "getippt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does tippen mean?",
+      "options": [
+        "the street",
+        "the weather",
+        "to type"
+      ],
+      "answer": "to type",
+      "explanation": "tippen: to type; to tap; to guess.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Ich tippe auf…' means…",
+      "options": [
+        "My bet is on…",
+        "I'm typing on…"
+      ],
+      "answer": "My bet is on…",
+      "explanation": "Guess.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Noun 'tip, hint':",
+      "options": [
+        "der Tipp",
+        "die Tippe"
+      ],
+      "answer": "der Tipp",
+      "explanation": "Tip.",
+      "id": "q5"
+    }
+  ]
+}

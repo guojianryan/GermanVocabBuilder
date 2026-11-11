@@ -1,0 +1,165 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "spielen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "SHPEE-len",
+      "ipa": "ˈʃpiːlən",
+      "notes": ""
+    },
+    "meaning": "to play",
+    "shortDefinition": "To play."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "spiel|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "spiel|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "spiel|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "spiel|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "spiel|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "spiel|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gespielt"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "das Spiel",
+      "english": "game, match",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Kinder spielen im Garten.",
+      "english": "The children are playing in the garden.",
+      "highlight": [
+        "spielen"
+      ]
+    },
+    {
+      "german": "Spielst du ein Instrument?",
+      "english": "Do you play an instrument?",
+      "highlight": [
+        "Spielst"
+      ]
+    },
+    {
+      "german": "Wir haben gestern Fußball gespielt.",
+      "english": "We played football yesterday.",
+      "highlight": [
+        "gespielt."
+      ]
+    }
+  ],
+  "forms": [
+    "spiele",
+    "spielst",
+    "spielt",
+    "spielen",
+    "gespielt"
+  ],
+  "memoryHook": "Spielen = play: Fußball, Gitarre, Karten. Das Spiel = game.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (spielen)",
+      "answer": "spielt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: spielt.",
+      "acceptedAnswers": [
+        "spielt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (spielen, past)",
+      "answer": "gespielt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gespielt.",
+      "acceptedAnswers": [
+        "gespielt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does spielen mean?",
+      "options": [
+        "the flower",
+        "the job",
+        "to play"
+      ],
+      "answer": "to play",
+      "explanation": "spielen: to play.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Sport and instruments take…",
+      "options": [
+        "no article: Tennis spielen, Klavier spielen",
+        "the article"
+      ],
+      "answer": "no article: Tennis spielen, Klavier spielen",
+      "explanation": "Ich spiele Gitarre.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Das Spiel is…",
+      "options": [
+        "the game",
+        "the mirror"
+      ],
+      "answer": "the game",
+      "explanation": "Spielen → Spiel.",
+      "id": "q5"
+    }
+  ]
+}

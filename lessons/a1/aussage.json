@@ -1,0 +1,148 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Aussage",
+    "partOfSpeech": "noun, feminine (die Aussage)",
+    "pronunciation": {
+      "respelling": "OWS-zah-guh",
+      "ipa": "ˈaʊ̯sˌzaːɡə",
+      "notes": "Plural: die Aussagen."
+    },
+    "meaning": "statement",
+    "shortDefinition": "Statement."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Aus",
+        "meaning": "out"
+      },
+      {
+        "part": "sage",
+        "meaning": "saying",
+        "note": "From sagen."
+      }
+    ],
+    "literalMeaning": "something said out"
+  },
+  "wordFamily": [
+    {
+      "german": "sagen",
+      "english": "to say",
+      "type": "verb"
+    },
+    {
+      "german": "die Ansage",
+      "english": "announcement",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Aussage, plural die Aussagen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Aussage"
+        },
+        {
+          "label": "More than one",
+          "value": "die Aussagen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ist die Aussage richtig oder falsch?",
+      "english": "Is the statement true or false?",
+      "highlight": [
+        "Aussage"
+      ]
+    },
+    {
+      "german": "Lesen Sie die Aussagen 1 bis 5.",
+      "english": "Read statements 1 to 5.",
+      "highlight": [
+        "Aussagen"
+      ]
+    },
+    {
+      "german": "Diese Aussage stimmt nicht.",
+      "english": "That statement isn't true.",
+      "highlight": [
+        "Aussage"
+      ]
+    }
+  ],
+  "forms": [
+    "Aussagen",
+    "die Aussagen",
+    "die Aussage"
+  ],
+  "memoryHook": "Aus + sagen: what's said out loud, a statement. You'll meet it in every German exam: richtig oder falsch?",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Aussage",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Aussage is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Aussage, zwei ___",
+      "answer": "Aussagen",
+      "fullAnswer": "ein Aussage, zwei Aussagen",
+      "explanation": "The plural is Aussagen.",
+      "acceptedAnswers": [
+        "Aussagen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Aussage mean?",
+      "options": [
+        "the window",
+        "the bread",
+        "statement"
+      ],
+      "answer": "statement",
+      "explanation": "Aussage: statement.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "In a test: 'Ist die Aussage richtig oder falsch?' You decide if the statement is…",
+      "options": [
+        "true or false",
+        "long or short"
+      ],
+      "answer": "true or false",
+      "explanation": "Richtig = true/right, falsch = false/wrong.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Diese ___ ist falsch. (statement)",
+      "answer": "Aussage",
+      "fullAnswer": "Diese Aussage ist falsch.",
+      "explanation": "Die Aussage.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "mahnen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "MAA-nen",
+      "ipa": "ˈmaːnən",
+      "notes": ""
+    },
+    "meaning": "to warn, urge; to send a reminder",
+    "shortDefinition": "To warn, urge; to send a reminder."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "mahn|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "mahn|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "mahn|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "mahn|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "mahn|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "mahn|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gemahnt"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er mahnt zur Vorsicht.",
+      "english": "He urges caution.",
+      "highlight": [
+        "mahnt"
+      ]
+    },
+    {
+      "german": "Die Bank hat mich gemahnt.",
+      "english": "The bank sent me a reminder.",
+      "highlight": [
+        "gemahnt."
+      ]
+    },
+    {
+      "german": "Das Denkmal mahnt an die Opfer.",
+      "english": "The memorial commemorates the victims.",
+      "highlight": [
+        "mahnt"
+      ]
+    }
+  ],
+  "forms": [
+    "Mahnung",
+    "Mahnmal",
+    "ermahnen"
+  ],
+  "memoryHook": "Mahnen = warn, urge, remind; die Mahnung; das Mahnmal.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (mahnen)",
+      "answer": "mahnt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: mahnt.",
+      "acceptedAnswers": [
+        "mahnt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (mahnen, past)",
+      "answer": "gemahnt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gemahnt.",
+      "acceptedAnswers": [
+        "gemahnt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does mahnen mean?",
+      "options": [
+        "slowly",
+        "expensive",
+        "to warn"
+      ],
+      "answer": "to warn",
+      "explanation": "mahnen: to warn, urge; to send a reminder.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Noun (payment reminder):",
+      "options": [
+        "die Mahnung",
+        "die Mahne"
+      ],
+      "answer": "die Mahnung",
+      "explanation": "Reminder.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Memorial (warning):",
+      "options": [
+        "das Mahnmal",
+        "das Denkmahn"
+      ],
+      "answer": "das Mahnmal",
+      "explanation": "Memorial.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Zur Eile mahnen' means…",
+      "options": [
+        "to urge haste",
+        "to warn against haste"
+      ],
+      "answer": "to urge haste",
+      "explanation": "Urge.",
+      "id": "q6"
+    }
+  ]
+}

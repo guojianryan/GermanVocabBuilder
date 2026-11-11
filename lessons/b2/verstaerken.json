@@ -1,0 +1,184 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "verstärken",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "fer-SHTAIR-ken",
+      "ipa": "fɛɐ̯ˈʃtɛʁkn̩",
+      "notes": ""
+    },
+    "meaning": "to strengthen, reinforce, amplify",
+    "shortDefinition": "To strengthen, reinforce, amplify."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "ver",
+        "meaning": "make"
+      },
+      {
+        "part": "stärk",
+        "meaning": "strong (stark)"
+      },
+      {
+        "part": "en",
+        "meaning": "verb ending"
+      }
+    ],
+    "literalMeaning": "to make stronger"
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "verstärk|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "verstärk|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "verstärk|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "verstärk|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "verstärk|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "verstärk|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat verstärkt"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Polizei verstärkt die Kontrollen.",
+      "english": "The police are stepping up checks.",
+      "highlight": [
+        "verstärkt"
+      ]
+    },
+    {
+      "german": "Das verstärkt meinen Eindruck.",
+      "english": "That reinforces my impression.",
+      "highlight": [
+        "verstärkt"
+      ]
+    },
+    {
+      "german": "Der Schmerz hat sich verstärkt.",
+      "english": "The pain has got stronger.",
+      "highlight": [
+        "verstärkt."
+      ]
+    }
+  ],
+  "forms": [
+    "Verstärkung",
+    "Verstärker"
+  ],
+  "memoryHook": "Ver + stark = strengthen; der Verstärker.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (verstärken)",
+      "answer": "verstärkt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: verstärkt.",
+      "acceptedAnswers": [
+        "verstaerkt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (verstärken, past)",
+      "answer": "verstärkt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe verstärkt.",
+      "acceptedAnswers": [
+        "verstaerkt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does verstärken mean?",
+      "options": [
+        "the weather",
+        "to open",
+        "to strengthen"
+      ],
+      "answer": "to strengthen",
+      "explanation": "verstärken: to strengthen, reinforce, amplify.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "stark (strong)",
+        "Stärke only"
+      ],
+      "answer": "stark (strong)",
+      "explanation": "Strong.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Amplifier:",
+      "options": [
+        "der Verstärker",
+        "die Verstärkung only"
+      ],
+      "answer": "der Verstärker",
+      "explanation": "Audio.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "hat verstärkt",
+        "hat geverstärkt"
+      ],
+      "answer": "hat verstärkt",
+      "explanation": "No ge-.",
+      "id": "q6"
+    }
+  ]
+}

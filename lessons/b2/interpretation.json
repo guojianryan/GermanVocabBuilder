@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Interpretation",
+    "partOfSpeech": "noun, feminine (die Interpretation)",
+    "pronunciation": {
+      "respelling": "in-ter-pre-ta-TSYOHN",
+      "ipa": "ɪntɐpʁetaˈtsi̯oːn",
+      "notes": "Plural: die Interpretationen."
+    },
+    "meaning": "interpretation",
+    "shortDefinition": "Interpretation."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Interpretation, plural die Interpretationen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Interpretation"
+        },
+        {
+          "label": "More than one",
+          "value": "die Interpretationen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das ist eine Frage der Interpretation.",
+      "english": "That's a matter of interpretation.",
+      "highlight": [
+        "Interpretation."
+      ]
+    },
+    {
+      "german": "Wir schreiben eine Gedichtinterpretation.",
+      "english": "We're writing an analysis of a poem.",
+      "highlight": [
+        "Gedichtinterpretation."
+      ]
+    },
+    {
+      "german": "Ihre Interpretation des Liedes ist toll.",
+      "english": "Her rendition of the song is great.",
+      "highlight": [
+        "Interpretation"
+      ]
+    }
+  ],
+  "forms": [
+    "interpretieren"
+  ],
+  "memoryHook": "Interpretieren → die Interpretation.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Interpretation",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Interpretation is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Interpretation, zwei ___",
+      "answer": "Interpretationen",
+      "fullAnswer": "ein Interpretation, zwei Interpretationen",
+      "explanation": "The plural is Interpretationen.",
+      "acceptedAnswers": [
+        "Interpretationen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Interpretation mean?",
+      "options": [
+        "to help",
+        "interpretation",
+        "the family"
+      ],
+      "answer": "interpretation",
+      "explanation": "Interpretation: interpretation.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Verb:",
+      "options": [
+        "interpretieren",
+        "interpretationen"
+      ],
+      "answer": "interpretieren",
+      "explanation": "Interpret.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "At school, 'Interpretation' is…",
+      "options": [
+        "literary analysis",
+        "translation"
+      ],
+      "answer": "literary analysis",
+      "explanation": "School.",
+      "id": "q5"
+    }
+  ]
+}

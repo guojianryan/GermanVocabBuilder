@@ -1,0 +1,150 @@
+{
+ "schemaVersion": "1.4",
+ "language": "de",
+ "explanationLanguage": "en",
+ "level": "A1",
+ "levelSource": "Goethe-Zertifikat A1 Wortliste",
+ "lessonType": "card",
+ "word": {
+  "headword": "Schwimmbad",
+  "partOfSpeech": "noun, neuter (das Schwimmbad)",
+  "pronunciation": {
+   "respelling": "SHVIM-baat",
+   "ipa": "ˈʃvɪmbaːt",
+   "notes": "Plural: die Schwimmbäder."
+  },
+  "meaning": "swimming pool",
+  "shortDefinition": "Swimming pool."
+ },
+ "wordFamily": [
+  {
+   "german": "schwimmen",
+   "english": "to swim",
+   "type": "verb"
+  },
+  {
+   "german": "das Freibad",
+   "english": "outdoor pool",
+   "type": "noun"
+  }
+ ],
+ "commonMistakes": [
+  {
+   "title": "Gender and plural",
+   "explanation": "Das Schwimmbad, plural die Schwimmbäder.",
+   "forms": [
+    {
+     "label": "One",
+     "value": "das Schwimmbad"
+    },
+    {
+     "label": "More than one",
+     "value": "die Schwimmbäder"
+    }
+   ]
+  }
+ ],
+ "sampleSentences": [
+  {
+   "german": "Kommst du mit ins Schwimmbad?",
+   "english": "Are you coming to the pool?",
+   "highlight": [
+    "Schwimmbad?"
+   ]
+  },
+  {
+   "german": "Das Schwimmbad ist im Sommer offen.",
+   "english": "The pool is open in summer.",
+   "highlight": [
+    "Schwimmbad"
+   ]
+  },
+  {
+   "german": "Im Hallenbad ist es warm.",
+   "english": "It's warm in the indoor pool.",
+   "highlight": [
+    "Hallenbad"
+   ]
+  }
+ ],
+ "forms": [
+  "Schwimmbäder",
+  "die Schwimmbäder",
+  "das Schwimmbad"
+ ],
+ "memoryHook": "Schwimmen + Bad. Freibad outside, Hallenbad inside.",
+ "signOff": "Gut gemacht!",
+ "quiz": [
+  {
+   "type": "choice",
+   "prompt": "___ Schwimmbad",
+   "options": [
+    "der",
+    "die",
+    "das"
+   ],
+   "answer": "das",
+   "explanation": "Schwimmbad is neuter.",
+   "id": "q1"
+  },
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "ein Schwimmbad, zwei ___",
+   "answer": "Schwimmbäder",
+   "fullAnswer": "ein Schwimmbad, zwei Schwimmbäder",
+   "explanation": "The plural is Schwimmbäder.",
+   "acceptedAnswers": [
+    "Schwimmbaeder"
+   ],
+   "id": "q2"
+  },
+  {
+   "type": "choice",
+   "prompt": "What does Schwimmbad mean?",
+   "options": [
+    "swimming pool",
+    "quiet",
+    "to travel"
+   ],
+   "answer": "swimming pool",
+   "explanation": "Schwimmbad: swimming pool.",
+   "id": "q3"
+  },
+  {
+   "type": "choice",
+   "prompt": "An indoor pool is…",
+   "options": [
+    "ein Hallenbad",
+    "ein Hausbad"
+   ],
+   "answer": "ein Hallenbad",
+   "explanation": "Halle + Bad.",
+   "id": "q4"
+  },
+  {
+   "type": "choice",
+   "prompt": "An outdoor pool is…",
+   "options": [
+    "ein Freibad",
+    "ein Draußenbad"
+   ],
+   "answer": "ein Freibad",
+   "explanation": "Frei + Bad.",
+   "id": "q5"
+  }
+ ],
+ "etymology": {
+  "title": "Where it comes from",
+  "parts": [
+   {
+    "part": "Schwimm",
+    "meaning": "swim"
+   },
+   {
+    "part": "bad",
+    "meaning": "bath"
+   }
+  ],
+  "literalMeaning": "swimming bath"
+ }
+}

@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Seminar",
+    "partOfSpeech": "noun, neuter (das Seminar)",
+    "pronunciation": {
+      "respelling": "ze-mi-NAAR",
+      "ipa": "zemiˈnaːɐ̯",
+      "notes": "Plural: die Seminare."
+    },
+    "meaning": "seminar",
+    "shortDefinition": "Seminar."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Seminar, plural die Seminare.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Seminar"
+        },
+        {
+          "label": "More than one",
+          "value": "die Seminare"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich habe heute ein Seminar.",
+      "english": "I have a seminar today.",
+      "highlight": [
+        "Seminar."
+      ]
+    },
+    {
+      "german": "Das Seminar ist über Geschichte.",
+      "english": "The seminar is about history.",
+      "highlight": [
+        "Seminar"
+      ]
+    },
+    {
+      "german": "Er besucht ein Seminar zum Thema Zeitmanagement.",
+      "english": "He's attending a seminar on time management.",
+      "highlight": [
+        "Seminar"
+      ]
+    }
+  ],
+  "forms": [
+    "Seminare",
+    "die Seminare",
+    "das Seminar"
+  ],
+  "memoryHook": "Das Seminar (stress at the end).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Seminar",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Seminar is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Seminar, zwei ___",
+      "answer": "Seminare",
+      "fullAnswer": "ein Seminar, zwei Seminare",
+      "explanation": "The plural is Seminare.",
+      "acceptedAnswers": [
+        "Seminare"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Seminar mean?",
+      "options": [
+        "to travel",
+        "the job",
+        "seminar"
+      ],
+      "answer": "seminar",
+      "explanation": "Seminar: seminar.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Stress on…",
+      "options": [
+        "-NAR",
+        "SE-"
+      ],
+      "answer": "-NAR",
+      "explanation": "End.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Seminare",
+        "Seminars"
+      ],
+      "answer": "Seminare",
+      "explanation": "-e.",
+      "id": "q5"
+    }
+  ]
+}

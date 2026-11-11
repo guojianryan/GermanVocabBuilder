@@ -1,0 +1,139 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Vorwahl",
+    "partOfSpeech": "noun, feminine (die Vorwahl)",
+    "pronunciation": {
+      "respelling": "FOR-vahl",
+      "ipa": "ˈfoːɐ̯ˌvaːl",
+      "notes": "Plural: die Vorwahlen."
+    },
+    "meaning": "dialling code, area code",
+    "shortDefinition": "Dialling code, area code."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Vor",
+        "meaning": "before"
+      },
+      {
+        "part": "wahl",
+        "meaning": "dialling, choice",
+        "note": "From wählen."
+      }
+    ],
+    "literalMeaning": "what you dial first"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Vorwahl, plural die Vorwahlen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Vorwahl"
+        },
+        {
+          "label": "More than one",
+          "value": "die Vorwahlen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Vorwahl von Berlin ist 030.",
+      "english": "The dialling code for Berlin is 030.",
+      "highlight": [
+        "Vorwahl"
+      ]
+    },
+    {
+      "german": "Wie ist die Vorwahl für Österreich?",
+      "english": "What's the code for Austria?",
+      "highlight": [
+        "Vorwahl"
+      ]
+    },
+    {
+      "german": "Ohne Vorwahl funktioniert es nicht.",
+      "english": "It doesn't work without the code.",
+      "highlight": [
+        "Vorwahl"
+      ]
+    }
+  ],
+  "forms": [
+    "Vorwahlen",
+    "die Vorwahlen",
+    "die Vorwahl"
+  ],
+  "memoryHook": "Vor + Wahl (dial): the number you dial first. Germany: +49.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Vorwahl",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Vorwahl is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Vorwahl, zwei ___",
+      "answer": "Vorwahlen",
+      "fullAnswer": "ein Vorwahl, zwei Vorwahlen",
+      "explanation": "The plural is Vorwahlen.",
+      "acceptedAnswers": [
+        "Vorwahlen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Vorwahl mean?",
+      "options": [
+        "the job",
+        "the bed",
+        "dialling code"
+      ],
+      "answer": "dialling code",
+      "explanation": "Vorwahl: dialling code, area code.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Vorwahl = vor + wählen (to dial):",
+      "options": [
+        "what you dial first",
+        "the vote before"
+      ],
+      "answer": "what you dial first",
+      "explanation": "Area code.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Germany's international code is…",
+      "options": [
+        "+49",
+        "+44"
+      ],
+      "answer": "+49",
+      "explanation": "Ländervorwahl.",
+      "id": "q5"
+    }
+  ]
+}

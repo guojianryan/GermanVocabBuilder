@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Limonade",
+    "partOfSpeech": "noun, feminine (die Limonade)",
+    "pronunciation": {
+      "respelling": "li-mo-NAA-de",
+      "ipa": "limoˈnaːdə",
+      "notes": "Plural: die Limonaden."
+    },
+    "meaning": "lemonade, fizzy drink",
+    "shortDefinition": "Lemonade, fizzy drink."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Limonade, plural die Limonaden.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Limonade"
+        },
+        {
+          "label": "More than one",
+          "value": "die Limonaden"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Kinder trinken Limonade.",
+      "english": "The children are drinking lemonade.",
+      "highlight": [
+        "Limonade."
+      ]
+    },
+    {
+      "german": "Eine Limo, bitte!",
+      "english": "A fizzy drink, please!",
+      "highlight": [
+        "Limo,"
+      ]
+    },
+    {
+      "german": "Limonade hat viel Zucker.",
+      "english": "Lemonade has a lot of sugar.",
+      "highlight": [
+        "Limonade"
+      ]
+    }
+  ],
+  "forms": [
+    "Limo"
+  ],
+  "memoryHook": "Die Limonade (Limo) = sweet fizzy drink.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Limonade",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Limonade is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Limonade, zwei ___",
+      "answer": "Limonaden",
+      "fullAnswer": "ein Limonade, zwei Limonaden",
+      "explanation": "The plural is Limonaden.",
+      "acceptedAnswers": [
+        "Limonaden"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Limonade mean?",
+      "options": [
+        "lemonade",
+        "tomorrow",
+        "never"
+      ],
+      "answer": "lemonade",
+      "explanation": "Limonade: lemonade, fizzy drink.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Short form:",
+      "options": [
+        "die Limo",
+        "die Lime"
+      ],
+      "answer": "die Limo",
+      "explanation": "Limo.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Limonade can be…",
+      "options": [
+        "any sweet fizzy drink",
+        "only lemon"
+      ],
+      "answer": "any sweet fizzy drink",
+      "explanation": "Orange too.",
+      "id": "q5"
+    }
+  ]
+}

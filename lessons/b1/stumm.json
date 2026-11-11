@@ -1,0 +1,103 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "stumm",
+    "partOfSpeech": "adjective",
+    "pronunciation": {
+      "respelling": "SHTOOM",
+      "ipa": "ʃtʊm",
+      "notes": ""
+    },
+    "meaning": "mute, silent",
+    "shortDefinition": "Mute, silent."
+  },
+  "sampleSentences": [
+    {
+      "german": "Er saß stumm da.",
+      "english": "He sat there silently.",
+      "highlight": [
+        "stumm"
+      ]
+    },
+    {
+      "german": "Das Handy ist auf stumm geschaltet.",
+      "english": "The phone is on silent.",
+      "highlight": [
+        "stumm"
+      ]
+    },
+    {
+      "german": "Das ist ein Stummfilm.",
+      "english": "That's a silent film.",
+      "highlight": [
+        "Stummfilm."
+      ]
+    }
+  ],
+  "forms": [
+    "stumme",
+    "Stummfilm"
+  ],
+  "memoryHook": "Stumm = mute. Stumm schalten = mute.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does stumm mean?",
+      "options": [
+        "the station",
+        "to sleep",
+        "mute"
+      ],
+      "answer": "mute",
+      "explanation": "stumm: mute, silent.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Stumm schalten' means…",
+      "options": [
+        "to mute",
+        "to switch off"
+      ],
+      "answer": "to mute",
+      "explanation": "Mute.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Stumm vs still:",
+      "options": [
+        "stumm = not speaking; still = quiet",
+        "same"
+      ],
+      "answer": "stumm = not speaking; still = quiet",
+      "explanation": "Close.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Silent film:",
+      "options": [
+        "der Stummfilm",
+        "der Stillfilm"
+      ],
+      "answer": "der Stummfilm",
+      "explanation": "Silent.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Schalte bitte dein Handy ___ . (on mute)",
+      "answer": "stumm",
+      "fullAnswer": "Schalte bitte dein Handy stumm.",
+      "explanation": "Stumm.",
+      "id": "q5"
+    }
+  ]
+}

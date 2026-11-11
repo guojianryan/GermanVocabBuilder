@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Momente A2.2 Kursbuch Glossar",
+  "lessonType": "card",
+  "word": {
+    "headword": "Date",
+    "partOfSpeech": "noun, neuter (das Date)",
+    "pronunciation": {
+      "respelling": "DAYT",
+      "ipa": "deːt",
+      "notes": "Plural: die Dates."
+    },
+    "meaning": "date (romantic)",
+    "shortDefinition": "Date (romantic)."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Date, plural die Dates.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Date"
+        },
+        {
+          "label": "More than one",
+          "value": "die Dates"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich habe heute Abend ein Date.",
+      "english": "I've got a date tonight.",
+      "highlight": [
+        "Date."
+      ]
+    },
+    {
+      "german": "Wie war dein erstes Date?",
+      "english": "How was your first date?",
+      "highlight": [
+        "Date?"
+      ]
+    },
+    {
+      "german": "Sie hatten ein Date im Café.",
+      "english": "They had a date at the café.",
+      "highlight": [
+        "Date"
+      ]
+    }
+  ],
+  "forms": [
+    "Dates",
+    "die Dates",
+    "das Date"
+  ],
+  "memoryHook": "Das Date (romantic). Calendar date = das Datum.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Date",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Date is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Date, zwei ___",
+      "answer": "Dates",
+      "fullAnswer": "ein Date, zwei Dates",
+      "explanation": "The plural is Dates.",
+      "acceptedAnswers": [
+        "Dates"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Date mean?",
+      "options": [
+        "date (romantic)",
+        "the child",
+        "to travel"
+      ],
+      "answer": "date (romantic)",
+      "explanation": "Date: date (romantic).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "A calendar date is…",
+      "options": [
+        "das Datum",
+        "das Date"
+      ],
+      "answer": "das Datum",
+      "explanation": "Different!",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gender:",
+      "options": [
+        "das",
+        "der"
+      ],
+      "answer": "das",
+      "explanation": "Das Date.",
+      "id": "q5"
+    }
+  ]
+}

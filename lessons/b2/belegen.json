@@ -1,0 +1,180 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "belegen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "be-LAY-gen",
+      "ipa": "bəˈleːɡn̩",
+      "notes": ""
+    },
+    "meaning": "to prove; to take (a course); to cover, top; to occupy",
+    "shortDefinition": "To prove; to take (a course); to cover, top; to occupy."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "be",
+        "meaning": "prefix (on)"
+      },
+      {
+        "part": "legen",
+        "meaning": "to lay"
+      }
+    ],
+    "literalMeaning": "to lay on"
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "beleg|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "beleg|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "beleg|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "beleg|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "beleg|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "beleg|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat belegt"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Studien belegen den Zusammenhang.",
+      "english": "Studies prove the connection.",
+      "highlight": [
+        "belegen"
+      ]
+    },
+    {
+      "german": "Ich habe einen Deutschkurs belegt.",
+      "english": "I've signed up for a German course.",
+      "highlight": [
+        "belegt."
+      ]
+    },
+    {
+      "german": "Ein belegtes Brötchen, bitte.",
+      "english": "A filled roll, please.",
+      "highlight": [
+        "belegtes"
+      ]
+    }
+  ],
+  "forms": [
+    "Beleg",
+    "belegt"
+  ],
+  "memoryHook": "Belegen: prove; enrol; cover (belegtes Brötchen); der Beleg.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (belegen)",
+      "answer": "belegt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: belegt.",
+      "acceptedAnswers": [
+        "belegt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (belegen, past)",
+      "answer": "belegt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe belegt.",
+      "acceptedAnswers": [
+        "belegt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does belegen mean?",
+      "options": [
+        "to travel",
+        "quiet",
+        "to prove"
+      ],
+      "answer": "to prove",
+      "explanation": "belegen: to prove; to take (a course); to cover, top; to occupy.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Einen Kurs belegen' means…",
+      "options": [
+        "to enrol in a course",
+        "to cover a course"
+      ],
+      "answer": "to enrol in a course",
+      "explanation": "Enrol.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Belegt' (phone, seat) means…",
+      "options": [
+        "taken, engaged",
+        "proven"
+      ],
+      "answer": "taken, engaged",
+      "explanation": "Occupied.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Noun (receipt, proof):",
+      "options": [
+        "der Beleg",
+        "die Belegung only"
+      ],
+      "answer": "der Beleg",
+      "explanation": "Receipt.",
+      "id": "q6"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Kreis",
+    "partOfSpeech": "noun, masculine (der Kreis)",
+    "pronunciation": {
+      "respelling": "KRICE",
+      "ipa": "kʁaɪ̯s",
+      "notes": "Plural: die Kreise."
+    },
+    "meaning": "circle; district",
+    "shortDefinition": "Circle; district."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Kreis, plural die Kreise.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Kreis"
+        },
+        {
+          "label": "More than one",
+          "value": "die Kreise"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Zeichne einen Kreis.",
+      "english": "Draw a circle.",
+      "highlight": [
+        "Kreis."
+      ]
+    },
+    {
+      "german": "Wir sitzen im Kreis.",
+      "english": "We're sitting in a circle.",
+      "highlight": [
+        "Kreis."
+      ]
+    },
+    {
+      "german": "Im Freundeskreis feiern wir.",
+      "english": "We celebrate with our circle of friends.",
+      "highlight": [
+        "Freundeskreis"
+      ]
+    }
+  ],
+  "forms": [
+    "Kreise",
+    "die Kreise",
+    "der Kreis"
+  ],
+  "memoryHook": "Der Kreis: circle, district. Freundeskreis.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Kreis",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Kreis is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Kreis, zwei ___",
+      "answer": "Kreise",
+      "fullAnswer": "ein Kreis, zwei Kreise",
+      "explanation": "The plural is Kreise.",
+      "acceptedAnswers": [
+        "Kreise"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Kreis mean?",
+      "options": [
+        "slowly",
+        "circle",
+        "the key"
+      ],
+      "answer": "circle",
+      "explanation": "Kreis: circle; district.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "A circle of friends:",
+      "options": [
+        "der Freundeskreis",
+        "die Freundesrunde only"
+      ],
+      "answer": "der Freundeskreis",
+      "explanation": "Circle.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Kreis can also mean…",
+      "options": [
+        "administrative district",
+        "crisis"
+      ],
+      "answer": "administrative district",
+      "explanation": "Landkreis.",
+      "id": "q5"
+    }
+  ]
+}

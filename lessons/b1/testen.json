@@ -1,0 +1,165 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "testen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "TES-ten",
+      "ipa": "ˈtɛstn̩",
+      "notes": ""
+    },
+    "meaning": "to test",
+    "shortDefinition": "To test."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "test|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "test|est"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "test|et"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "test|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "test|et"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "test|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat getestet"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "der Test",
+      "english": "test",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir testen das neue Produkt.",
+      "english": "We're testing the new product.",
+      "highlight": [
+        "testen"
+      ]
+    },
+    {
+      "german": "Ich habe mich auf Corona testen lassen.",
+      "english": "I got tested for Covid.",
+      "highlight": [
+        "testen"
+      ]
+    },
+    {
+      "german": "Teste dein Deutsch!",
+      "english": "Test your German!",
+      "highlight": [
+        "Teste"
+      ]
+    }
+  ],
+  "forms": [
+    "teste",
+    "testest",
+    "testet",
+    "testen",
+    "getestet"
+  ],
+  "memoryHook": "Testen = prüfen, ausprobieren. Der Test.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (testen)",
+      "answer": "testet",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: testet.",
+      "acceptedAnswers": [
+        "testet"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (testen, past)",
+      "answer": "getestet",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe getestet.",
+      "acceptedAnswers": [
+        "getestet"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does testen mean?",
+      "options": [
+        "slowly",
+        "to test",
+        "the flower"
+      ],
+      "answer": "to test",
+      "explanation": "testen: to test.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "du ___ (testen):",
+      "options": [
+        "testest",
+        "testst"
+      ],
+      "answer": "testest",
+      "explanation": "Extra e after t.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonym:",
+      "options": [
+        "prüfen, ausprobieren",
+        "lernen"
+      ],
+      "answer": "prüfen, ausprobieren",
+      "explanation": "Check, try.",
+      "id": "q5"
+    }
+  ]
+}

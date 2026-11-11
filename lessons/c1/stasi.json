@@ -1,0 +1,118 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Stasi",
+    "partOfSpeech": "noun, feminine (die Stasi)",
+    "pronunciation": {
+      "respelling": "SHTAA-zee",
+      "ipa": "ˈʃtaːzi",
+      "notes": "Usually no plural."
+    },
+    "meaning": "Stasi (East German secret police)",
+    "shortDefinition": "Stasi (East German secret police)."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Stasi, usually no plural.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Stasi"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Stasi überwachte die Bürger.",
+      "english": "The Stasi spied on citizens.",
+      "highlight": [
+        "Stasi"
+      ]
+    },
+    {
+      "german": "Er war Stasi-Spitzel.",
+      "english": "He was a Stasi informer.",
+      "highlight": [
+        "Stasi-Spitzel."
+      ]
+    },
+    {
+      "german": "Sie hat ihre Stasi-Akte gelesen.",
+      "english": "She read her Stasi file.",
+      "highlight": [
+        "Stasi-Akte"
+      ]
+    }
+  ],
+  "forms": [
+    "Staatssicherheit"
+  ],
+  "memoryHook": "Die Stasi = Staatssicherheit (DDR secret police).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Stasi",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Stasi is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Stasi mean?",
+      "options": [
+        "the street",
+        "Stasi (East German secret police)",
+        "the shop"
+      ],
+      "answer": "Stasi (East German secret police)",
+      "explanation": "Stasi: Stasi (East German secret police).",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Short for…",
+      "options": [
+        "Staatssicherheit",
+        "Stadtsicherheit"
+      ],
+      "answer": "Staatssicherheit",
+      "explanation": "State security.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Country:",
+      "options": [
+        "the GDR (DDR)",
+        "West Germany"
+      ],
+      "answer": "the GDR (DDR)",
+      "explanation": "East Germany.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gender:",
+      "options": [
+        "die",
+        "der"
+      ],
+      "answer": "die",
+      "explanation": "Die Staatssicherheit.",
+      "id": "q5"
+    }
+  ]
+}

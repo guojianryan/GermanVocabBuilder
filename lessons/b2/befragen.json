@@ -1,0 +1,180 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "befragen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "be-FRAA-gen",
+      "ipa": "bəˈfʁaːɡn̩",
+      "notes": ""
+    },
+    "meaning": "to question, interview, survey",
+    "shortDefinition": "To question, interview, survey."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "be",
+        "meaning": "prefix"
+      },
+      {
+        "part": "fragen",
+        "meaning": "to ask"
+      }
+    ],
+    "literalMeaning": "to ask (thoroughly)"
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "befrag|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "befrag|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "befrag|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "befrag|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "befrag|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "befrag|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat befragt"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Polizei befragt die Zeugen.",
+      "english": "The police are questioning the witnesses.",
+      "highlight": [
+        "befragt"
+      ]
+    },
+    {
+      "german": "1000 Menschen wurden befragt.",
+      "english": "1,000 people were surveyed.",
+      "highlight": [
+        "befragt."
+      ]
+    },
+    {
+      "german": "Befragen Sie Ihren Arzt.",
+      "english": "Consult your doctor.",
+      "highlight": [
+        "Befragen"
+      ]
+    }
+  ],
+  "forms": [
+    "Befragung",
+    "Umfrage"
+  ],
+  "memoryHook": "Be + fragen = question, survey; die Befragung.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (befragen)",
+      "answer": "befragt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: befragt.",
+      "acceptedAnswers": [
+        "befragt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (befragen, past)",
+      "answer": "befragt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe befragt.",
+      "acceptedAnswers": [
+        "befragt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does befragen mean?",
+      "options": [
+        "to question",
+        "tomorrow",
+        "the bill"
+      ],
+      "answer": "to question",
+      "explanation": "befragen: to question, interview, survey.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Noun:",
+      "options": [
+        "die Befragung (survey)",
+        "die Befrage"
+      ],
+      "answer": "die Befragung (survey)",
+      "explanation": "Survey.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Befragen vs fragen:",
+      "options": [
+        "question systematically vs ask",
+        "same"
+      ],
+      "answer": "question systematically vs ask",
+      "explanation": "Formal.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "hat befragt",
+        "hat gebefragt"
+      ],
+      "answer": "hat befragt",
+      "explanation": "No ge-.",
+      "id": "q6"
+    }
+  ]
+}

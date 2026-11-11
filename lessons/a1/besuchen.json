@@ -1,0 +1,191 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "besuchen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "buh-ZOO-khen",
+      "ipa": "bəˈzuːxn̩",
+      "notes": ""
+    },
+    "meaning": "to visit",
+    "shortDefinition": "To visit."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "be",
+        "meaning": "prefix"
+      },
+      {
+        "part": "suchen",
+        "meaning": "to look for"
+      }
+    ],
+    "literalMeaning": "to seek out"
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "besuch|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "besuch|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "besuch|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "besuch|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "besuch|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "besuch|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat besucht"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "der Besuch",
+      "english": "visit; visitors",
+      "type": "noun"
+    },
+    {
+      "german": "besichtigen",
+      "english": "to visit (sights)",
+      "type": "verb"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "No zu",
+      "explanation": "Besuchen takes the person directly.",
+      "wrong": "Ich besuche zu meiner Freundin.",
+      "correct": "Ich besuche meine Freundin."
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Am Wochenende besuche ich meine Eltern.",
+      "english": "At the weekend I'm visiting my parents.",
+      "highlight": [
+        "besuche"
+      ]
+    },
+    {
+      "german": "Besuch mich doch mal!",
+      "english": "Come and see me some time!",
+      "highlight": [
+        "Besuch"
+      ]
+    },
+    {
+      "german": "Wir bekommen heute Besuch.",
+      "english": "We're having visitors today.",
+      "highlight": [
+        "Besuch."
+      ]
+    }
+  ],
+  "forms": [
+    "besuche",
+    "besuchst",
+    "besucht",
+    "besuchen"
+  ],
+  "memoryHook": "Besuchen = visit, with no preposition: ich besuche dich. Besuch haben = to have visitors.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (besuchen)",
+      "answer": "besucht",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: besucht.",
+      "acceptedAnswers": [
+        "besucht"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (besuchen, past)",
+      "answer": "besucht",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe besucht.",
+      "acceptedAnswers": [
+        "besucht"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does besuchen mean?",
+      "options": [
+        "never",
+        "to learn",
+        "to visit"
+      ],
+      "answer": "to visit",
+      "explanation": "besuchen: to visit.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich besuche ___ Oma.",
+      "options": [
+        "meine",
+        "zu meiner"
+      ],
+      "answer": "meine",
+      "explanation": "Besuchen takes a direct object, no zu.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Der Besuch can mean…",
+      "options": [
+        "visitors",
+        "the visa"
+      ],
+      "answer": "visitors",
+      "explanation": "Wir haben Besuch: we have visitors.",
+      "id": "q5"
+    }
+  ]
+}

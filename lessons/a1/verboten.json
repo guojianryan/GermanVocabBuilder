@@ -1,0 +1,130 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "verboten",
+    "partOfSpeech": "adjective",
+    "pronunciation": {
+      "respelling": "fair-BOH-ten",
+      "ipa": "fɛɐ̯ˈboːtn̩",
+      "notes": ""
+    },
+    "meaning": "forbidden, not allowed",
+    "shortDefinition": "Forbidden, not allowed."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "ver",
+        "meaning": "prefix: against"
+      },
+      {
+        "part": "boten",
+        "meaning": "commanded",
+        "note": "Past form of the old verb for 'bid, command'."
+      }
+    ],
+    "literalMeaning": "commanded against"
+  },
+  "wordFamily": [
+    {
+      "german": "erlaubt",
+      "english": "allowed",
+      "type": "adjective"
+    },
+    {
+      "german": "das Verbot",
+      "english": "ban",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Rauchen verboten!",
+      "english": "No smoking!",
+      "highlight": [
+        "verboten!"
+      ]
+    },
+    {
+      "german": "Parken ist hier verboten.",
+      "english": "Parking is not allowed here.",
+      "highlight": [
+        "verboten."
+      ]
+    },
+    {
+      "german": "Das ist streng verboten.",
+      "english": "That's strictly forbidden.",
+      "highlight": [
+        "verboten."
+      ]
+    }
+  ],
+  "forms": [
+    "verbieten",
+    "Verbot"
+  ],
+  "memoryHook": "Verboten = forbidden (from verbieten). Opposite: erlaubt. You'll see it on many signs.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does verboten mean?",
+      "options": [
+        "the shop",
+        "slowly",
+        "forbidden"
+      ],
+      "answer": "forbidden",
+      "explanation": "verboten: forbidden, not allowed.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "The opposite of verboten is…",
+      "options": [
+        "erlaubt",
+        "geöffnet"
+      ],
+      "answer": "erlaubt",
+      "explanation": "Allowed.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Verboten comes from…",
+      "options": [
+        "verbieten (to forbid)",
+        "verbinden"
+      ],
+      "answer": "verbieten (to forbid)",
+      "explanation": "Verbieten, hat verboten.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "On a sign, 'Betreten verboten' means…",
+      "options": [
+        "Keep out",
+        "Please enter"
+      ],
+      "answer": "Keep out",
+      "explanation": "Entering forbidden.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Hier ist Rauchen ___. (forbidden)",
+      "answer": "verboten",
+      "fullAnswer": "Hier ist Rauchen verboten.",
+      "explanation": "Verboten.",
+      "id": "q5"
+    }
+  ]
+}

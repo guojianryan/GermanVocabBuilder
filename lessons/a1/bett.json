@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Bett",
+    "partOfSpeech": "noun, neuter (das Bett)",
+    "pronunciation": {
+      "respelling": "BET",
+      "ipa": "bɛt",
+      "notes": "Plural: die Betten."
+    },
+    "meaning": "bed",
+    "shortDefinition": "Bed."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Bett, plural die Betten.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Bett"
+        },
+        {
+          "label": "More than one",
+          "value": "die Betten"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich gehe um elf ins Bett.",
+      "english": "I go to bed at eleven.",
+      "highlight": [
+        "Bett."
+      ]
+    },
+    {
+      "german": "Am Sonntag frühstücke ich im Bett.",
+      "english": "On Sundays I have breakfast in bed.",
+      "highlight": [
+        "Bett."
+      ]
+    },
+    {
+      "german": "Das Zimmer hat zwei Betten.",
+      "english": "The room has two beds.",
+      "highlight": [
+        "Betten."
+      ]
+    }
+  ],
+  "forms": [
+    "Betten",
+    "die Betten",
+    "das Bett"
+  ],
+  "memoryHook": "Ins Bett gehen (go to bed), im Bett liegen (lie in bed). Same as English 'bed', with a double t.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Bett",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Bett is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Bett, zwei ___",
+      "answer": "Betten",
+      "fullAnswer": "ein Bett, zwei Betten",
+      "explanation": "The plural is Betten.",
+      "acceptedAnswers": [
+        "Betten"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Bett mean?",
+      "options": [
+        "bed",
+        "the job",
+        "the bill"
+      ],
+      "answer": "bed",
+      "explanation": "Bett: bed.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich gehe ___ Bett. (to bed)",
+      "options": [
+        "ins",
+        "im"
+      ],
+      "answer": "ins",
+      "explanation": "Going there: ins Bett.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich liege ___ Bett. (in bed)",
+      "options": [
+        "ins",
+        "im"
+      ],
+      "answer": "im",
+      "explanation": "Being there: im Bett.",
+      "id": "q5"
+    }
+  ]
+}

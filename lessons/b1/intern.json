@@ -1,0 +1,103 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "intern",
+    "partOfSpeech": "adjective",
+    "pronunciation": {
+      "respelling": "in-TAIRN",
+      "ipa": "ɪnˈtɛʁn",
+      "notes": ""
+    },
+    "meaning": "internal",
+    "shortDefinition": "Internal."
+  },
+  "sampleSentences": [
+    {
+      "german": "Das ist eine interne Besprechung.",
+      "english": "That's an internal meeting.",
+      "highlight": [
+        "interne"
+      ]
+    },
+    {
+      "german": "Die Informationen sind intern.",
+      "english": "The information is internal.",
+      "highlight": [
+        "intern."
+      ]
+    },
+    {
+      "german": "Das regeln wir intern.",
+      "english": "We'll sort that out internally.",
+      "highlight": [
+        "intern."
+      ]
+    }
+  ],
+  "forms": [
+    "interne",
+    "extern"
+  ],
+  "memoryHook": "Intern ↔ extern.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does intern mean?",
+      "options": [
+        "the bill",
+        "the door",
+        "internal"
+      ],
+      "answer": "internal",
+      "explanation": "intern: internal.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Opposite:",
+      "options": [
+        "extern",
+        "international"
+      ],
+      "answer": "extern",
+      "explanation": "External.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Stress on…",
+      "options": [
+        "-TERN",
+        "IN-"
+      ],
+      "answer": "-TERN",
+      "explanation": "End.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "A boarding school:",
+      "options": [
+        "das Internat",
+        "das Intern"
+      ],
+      "answer": "das Internat",
+      "explanation": "Related.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Das ist nur für den ___ Gebrauch. (internal)",
+      "answer": "internen",
+      "fullAnswer": "Das ist nur für den internen Gebrauch.",
+      "explanation": "Internen.",
+      "id": "q5"
+    }
+  ]
+}

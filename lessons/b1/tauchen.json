@@ -1,0 +1,156 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "tauchen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "TOW-khen",
+      "ipa": "ˈtaʊ̯xn̩",
+      "notes": ""
+    },
+    "meaning": "to dive",
+    "shortDefinition": "To dive."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "tauch|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "tauch|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "tauch|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "tauch|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "tauch|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "tauch|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): ist getaucht"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Im Urlaub gehen wir tauchen.",
+      "english": "We go diving on holiday.",
+      "highlight": [
+        "tauchen."
+      ]
+    },
+    {
+      "german": "Er ist bis auf den Grund getaucht.",
+      "english": "He dived to the bottom.",
+      "highlight": [
+        "ist",
+        "getaucht."
+      ]
+    },
+    {
+      "german": "Ich tauche gern im Meer.",
+      "english": "I like diving in the sea.",
+      "highlight": [
+        "tauche"
+      ]
+    }
+  ],
+  "forms": [
+    "Taucher",
+    "auftauchen"
+  ],
+  "memoryHook": "Tauchen → der Taucher. Auftauchen = appear.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (tauchen)",
+      "answer": "taucht",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: taucht.",
+      "acceptedAnswers": [
+        "taucht"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich bin schon ___. (tauchen, past)",
+      "answer": "getaucht",
+      "fullAnswer": "",
+      "explanation": "Perfekt: bin getaucht.",
+      "acceptedAnswers": [
+        "getaucht"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does tauchen mean?",
+      "options": [
+        "to sleep",
+        "to dive",
+        "the station"
+      ],
+      "answer": "to dive",
+      "explanation": "tauchen: to dive.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt (movement):",
+      "options": [
+        "ist / hat getaucht",
+        "hat getochen"
+      ],
+      "answer": "ist / hat getaucht",
+      "explanation": "Both used.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "A diver:",
+      "options": [
+        "der Taucher",
+        "der Tauch"
+      ],
+      "answer": "der Taucher",
+      "explanation": "Diver.",
+      "id": "q5"
+    }
+  ]
+}

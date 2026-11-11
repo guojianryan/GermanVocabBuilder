@@ -1,0 +1,180 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "bewerten",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "be-VAIR-ten",
+      "ipa": "bəˈveːɐ̯tn̩",
+      "notes": ""
+    },
+    "meaning": "to assess, rate, judge",
+    "shortDefinition": "To assess, rate, judge."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "be",
+        "meaning": "prefix"
+      },
+      {
+        "part": "werten",
+        "meaning": "to value"
+      }
+    ],
+    "literalMeaning": "to put a value on"
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "bewert|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "bewert|est"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "bewert|et"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "bewert|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "bewert|et"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "bewert|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat bewertet"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Bitte bewerten Sie unseren Service.",
+      "english": "Please rate our service.",
+      "highlight": [
+        "bewerten"
+      ]
+    },
+    {
+      "german": "Die Arbeit wurde gut bewertet.",
+      "english": "The work was rated well.",
+      "highlight": [
+        "bewertet."
+      ]
+    },
+    {
+      "german": "Wie bewerten Sie die Lage?",
+      "english": "How do you assess the situation?",
+      "highlight": [
+        "bewerten"
+      ]
+    }
+  ],
+  "forms": [
+    "Bewertung",
+    "Wert"
+  ],
+  "memoryHook": "Be + Wert = assess, rate; die Bewertung.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (bewerten)",
+      "answer": "bewertet",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: bewertet.",
+      "acceptedAnswers": [
+        "bewertet"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (bewerten, past)",
+      "answer": "bewertet",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe bewertet.",
+      "acceptedAnswers": [
+        "bewertet"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does bewerten mean?",
+      "options": [
+        "the door",
+        "to assess",
+        "to sing"
+      ],
+      "answer": "to assess",
+      "explanation": "bewerten: to assess, rate, judge.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "der Wert (value)",
+        "werten only"
+      ],
+      "answer": "der Wert (value)",
+      "explanation": "Value.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Noun:",
+      "options": [
+        "die Bewertung",
+        "der Bewert"
+      ],
+      "answer": "die Bewertung",
+      "explanation": "Rating.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "hat bewertet",
+        "hat gebewertet"
+      ],
+      "answer": "hat bewertet",
+      "explanation": "No ge-.",
+      "id": "q6"
+    }
+  ]
+}

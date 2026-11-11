@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Infektion",
+    "partOfSpeech": "noun, feminine (die Infektion)",
+    "pronunciation": {
+      "respelling": "in-fek-TSYOHN",
+      "ipa": "ɪnfɛkˈtsi̯oːn",
+      "notes": "Plural: die Infektionen."
+    },
+    "meaning": "infection",
+    "shortDefinition": "Infection."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Infektion, plural die Infektionen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Infektion"
+        },
+        {
+          "label": "More than one",
+          "value": "die Infektionen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er hat eine Infektion.",
+      "english": "He has an infection.",
+      "highlight": [
+        "Infektion."
+      ]
+    },
+    {
+      "german": "Die Infektion ist ansteckend.",
+      "english": "The infection is contagious.",
+      "highlight": [
+        "Infektion"
+      ]
+    },
+    {
+      "german": "Waschen Sie die Hände, um Infektionen zu vermeiden.",
+      "english": "Wash your hands to avoid infections.",
+      "highlight": [
+        "Infektionen"
+      ]
+    }
+  ],
+  "forms": [
+    "Infektionen",
+    "die Infektionen",
+    "die Infektion"
+  ],
+  "memoryHook": "Die Infektion (-tion = tsyohn).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Infektion",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Infektion is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Infektion, zwei ___",
+      "answer": "Infektionen",
+      "fullAnswer": "ein Infektion, zwei Infektionen",
+      "explanation": "The plural is Infektionen.",
+      "acceptedAnswers": [
+        "Infektionen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Infektion mean?",
+      "options": [
+        "the family",
+        "infection",
+        "the bread"
+      ],
+      "answer": "infection",
+      "explanation": "Infektion: infection.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "-tion sounds like…",
+      "options": [
+        "tsyohn",
+        "shun"
+      ],
+      "answer": "tsyohn",
+      "explanation": "in-fek-TSYOHN.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Ansteckend' means…",
+      "options": [
+        "contagious",
+        "dangerous"
+      ],
+      "answer": "contagious",
+      "explanation": "Infectious.",
+      "id": "q5"
+    }
+  ]
+}

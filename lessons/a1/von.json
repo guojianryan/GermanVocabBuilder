@@ -1,0 +1,172 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "full",
+  "word": {
+    "headword": "von",
+    "partOfSpeech": "preposition (always with the dative)",
+    "pronunciation": {
+      "respelling": "FON",
+      "ipa": "fɔn",
+      "notes": "V = f. Short o."
+    },
+    "meaning": "from; of; by",
+    "shortDefinition": "Starting point, belonging, or who did something."
+  },
+  "intro": {
+    "title": "Von hier bis da",
+    "paragraphs": [
+      "Von = from (von Montag bis Freitag, ein Brief von Anna), 'of' instead of the genitive (die Mutter von Tom), and 'by' (ein Buch von Goethe). Always dative; von dem → vom."
+    ]
+  },
+  "wordFamily": [
+    {
+      "german": "vom",
+      "english": "from the (von dem)",
+      "type": "contraction"
+    },
+    {
+      "german": "aus",
+      "english": "from (origin)",
+      "type": "preposition"
+    },
+    {
+      "german": "von … bis",
+      "english": "from … to",
+      "type": "phrase"
+    }
+  ],
+  "keyTrap": {
+    "title": "The big trap: von or aus?",
+    "explanation": "Your home country or city: aus. Coming back from a place or person: von.",
+    "wrong": {
+      "german": "Ich komme von Brasilien.",
+      "verdict": "Origin: aus."
+    },
+    "correct": [
+      {
+        "german": "Ich komme aus Brasilien.",
+        "literal": "I come out of Brazil.",
+        "note": "Origin: aus."
+      },
+      {
+        "german": "Ich komme gerade vom Supermarkt.",
+        "literal": "I come just from-the supermarket.",
+        "note": "Coming back: von."
+      }
+    ]
+  },
+  "commonMistakes": [
+    {
+      "title": "Of (possession)",
+      "explanation": "Von + dative replaces the genitive in speech.",
+      "examples": [
+        {
+          "german": "das Auto von meinem Bruder",
+          "english": "my brother's car",
+          "highlight": "von"
+        }
+      ]
+    },
+    {
+      "title": "vom",
+      "explanation": "Von dem usually shortens.",
+      "wrong": "von dem Bahnhof",
+      "correct": "vom Bahnhof"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich arbeite von Montag bis Freitag.",
+      "english": "I work Monday to Friday.",
+      "highlight": [
+        "von"
+      ]
+    },
+    {
+      "german": "Ich habe eine Nachricht von Anna bekommen.",
+      "english": "I got a message from Anna.",
+      "highlight": [
+        "von"
+      ]
+    },
+    {
+      "german": "Das ist ein Freund von mir.",
+      "english": "That's a friend of mine.",
+      "highlight": [
+        "von"
+      ]
+    },
+    {
+      "german": "Ich hole dich vom Bahnhof ab.",
+      "english": "I'll pick you up from the station.",
+      "highlight": [
+        "vom"
+      ]
+    }
+  ],
+  "forms": [
+    "vom",
+    "von dem",
+    "von der"
+  ],
+  "memoryHook": "Von = from, of, by (+ dative, von dem = vom). Home country? Use aus.",
+  "signOff": "Viele Grüße von mir!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Ein Geschenk ___ meiner Mutter.",
+      "options": [
+        "von",
+        "aus"
+      ],
+      "answer": "von",
+      "explanation": "From a person: von.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Sie kommt ___ Japan.",
+      "options": [
+        "von",
+        "aus"
+      ],
+      "answer": "aus",
+      "explanation": "Origin: aus.",
+      "id": "q2"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich komme gerade ___ Arzt. (from the)",
+      "answer": "vom",
+      "fullAnswer": "Ich komme gerade vom Arzt.",
+      "explanation": "Von + dem = vom.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Von 9 ___ 17 Uhr",
+      "options": [
+        "bis",
+        "zu"
+      ],
+      "answer": "bis",
+      "explanation": "Von … bis.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Der Bruder von Lisa' means…",
+      "options": [
+        "Lisa's brother",
+        "the brother from Lisa"
+      ],
+      "answer": "Lisa's brother",
+      "explanation": "Possession.",
+      "id": "q5"
+    }
+  ]
+}

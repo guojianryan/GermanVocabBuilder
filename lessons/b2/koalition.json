@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Koalition",
+    "partOfSpeech": "noun, feminine (die Koalition)",
+    "pronunciation": {
+      "respelling": "ko-a-li-TSYOHN",
+      "ipa": "koaliˈtsi̯oːn",
+      "notes": "Plural: die Koalitionen."
+    },
+    "meaning": "coalition",
+    "shortDefinition": "Coalition."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Koalition, plural die Koalitionen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Koalition"
+        },
+        {
+          "label": "More than one",
+          "value": "die Koalitionen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Parteien bilden eine Koalition.",
+      "english": "The parties are forming a coalition.",
+      "highlight": [
+        "Koalition."
+      ]
+    },
+    {
+      "german": "Die Koalition ist zerbrochen.",
+      "english": "The coalition has collapsed.",
+      "highlight": [
+        "Koalition"
+      ]
+    },
+    {
+      "german": "Ein Koalitionsvertrag.",
+      "english": "A coalition agreement.",
+      "highlight": [
+        "Koalitionsvertrag."
+      ]
+    }
+  ],
+  "forms": [
+    "Koalitionsvertrag"
+  ],
+  "memoryHook": "Die Koalition; GroKo = große Koalition.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Koalition",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Koalition is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Koalition, zwei ___",
+      "answer": "Koalitionen",
+      "fullAnswer": "ein Koalition, zwei Koalitionen",
+      "explanation": "The plural is Koalitionen.",
+      "acceptedAnswers": [
+        "Koalitionen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Koalition mean?",
+      "options": [
+        "coalition",
+        "expensive",
+        "slowly"
+      ],
+      "answer": "coalition",
+      "explanation": "Koalition: coalition.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Eine Koalition bilden' means…",
+      "options": [
+        "to form a coalition",
+        "to break a coalition"
+      ],
+      "answer": "to form a coalition",
+      "explanation": "Politics.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Grand coalition:",
+      "options": [
+        "die große Koalition (GroKo)",
+        "die Großkoalition"
+      ],
+      "answer": "die große Koalition (GroKo)",
+      "explanation": "CDU + SPD.",
+      "id": "q5"
+    }
+  ]
+}

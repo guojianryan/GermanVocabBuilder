@@ -1,0 +1,181 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "auskommen",
+    "partOfSpeech": "separable verb",
+    "pronunciation": {
+      "respelling": "OWS-ko-men",
+      "ipa": "ˈaʊ̯sˌkɔmən",
+      "notes": ""
+    },
+    "meaning": "to get by, manage; to get on (with someone)",
+    "shortDefinition": "To get by, manage; to get on (with someone)."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "aus",
+        "meaning": "out, through"
+      },
+      {
+        "part": "kommen",
+        "meaning": "to come"
+      }
+    ],
+    "literalMeaning": "to come out (all right)"
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "komm|e … |aus"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "komm|st … |aus"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "komm|t … |aus"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "komm|en … |aus"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "komm|t … |aus"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "komm|en … |aus"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): ist ausgekommen"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich komme mit meinem Geld gut aus.",
+      "english": "I manage fine on my money.",
+      "highlight": [
+        "komme",
+        "aus."
+      ]
+    },
+    {
+      "german": "Wir kommen gut miteinander aus.",
+      "english": "We get on well together.",
+      "highlight": [
+        "kommen",
+        "aus."
+      ]
+    },
+    {
+      "german": "Ohne Auto auskommen.",
+      "english": "To manage without a car.",
+      "highlight": [
+        "auskommen."
+      ]
+    }
+  ],
+  "forms": [
+    "Auskommen"
+  ],
+  "memoryHook": "Auskommen (mit / ohne) = get by; get on with.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ … aus (auskommen)",
+      "answer": "kommt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: kommt … aus.",
+      "acceptedAnswers": [
+        "kommt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich bin schon ___. (auskommen, past)",
+      "answer": "ausgekommen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: bin ausgekommen.",
+      "acceptedAnswers": [
+        "ausgekommen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does auskommen mean?",
+      "options": [
+        "to get by",
+        "to travel",
+        "to open"
+      ],
+      "answer": "to get by",
+      "explanation": "auskommen: to get by, manage; to get on (with someone).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Mit jemandem auskommen' means…",
+      "options": [
+        "to get on with someone",
+        "to come out with someone"
+      ],
+      "answer": "to get on with someone",
+      "explanation": "Get along.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Ohne etwas auskommen' means…",
+      "options": [
+        "to manage without",
+        "to leave without"
+      ],
+      "answer": "to manage without",
+      "explanation": "Do without.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Noun 'das Auskommen' means…",
+      "options": [
+        "livelihood",
+        "exit"
+      ],
+      "answer": "livelihood",
+      "explanation": "Living.",
+      "id": "q6"
+    }
+  ]
+}

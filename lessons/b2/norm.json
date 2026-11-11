@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Norm",
+    "partOfSpeech": "noun, feminine (die Norm)",
+    "pronunciation": {
+      "respelling": "NORM",
+      "ipa": "nɔʁm",
+      "notes": "Plural: die Normen."
+    },
+    "meaning": "norm, standard",
+    "shortDefinition": "Norm, standard."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Norm, plural die Normen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Norm"
+        },
+        {
+          "label": "More than one",
+          "value": "die Normen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das ist die Norm.",
+      "english": "That's the norm.",
+      "highlight": [
+        "Norm."
+      ]
+    },
+    {
+      "german": "Das Produkt entspricht der DIN-Norm.",
+      "english": "The product meets the DIN standard.",
+      "highlight": [
+        "DIN-Norm."
+      ]
+    },
+    {
+      "german": "Soziale Normen ändern sich.",
+      "english": "Social norms change.",
+      "highlight": [
+        "Normen"
+      ]
+    }
+  ],
+  "forms": [
+    "normal"
+  ],
+  "memoryHook": "Die Norm (DIN-Norm); normal.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Norm",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Norm is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Norm, zwei ___",
+      "answer": "Normen",
+      "fullAnswer": "ein Norm, zwei Normen",
+      "explanation": "The plural is Normen.",
+      "acceptedAnswers": [
+        "Normen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Norm mean?",
+      "options": [
+        "norm",
+        "to sleep",
+        "the street"
+      ],
+      "answer": "norm",
+      "explanation": "Norm: norm, standard.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Adjective:",
+      "options": [
+        "normal",
+        "normig"
+      ],
+      "answer": "normal",
+      "explanation": "Normal.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "German standards body:",
+      "options": [
+        "DIN",
+        "TÜV"
+      ],
+      "answer": "DIN",
+      "explanation": "Deutsches Institut für Normung.",
+      "id": "q5"
+    }
+  ]
+}

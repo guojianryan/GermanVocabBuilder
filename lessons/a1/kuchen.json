@@ -1,0 +1,135 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Kuchen",
+    "partOfSpeech": "noun, masculine (der Kuchen)",
+    "pronunciation": {
+      "respelling": "KOO-khen",
+      "ipa": "ˈkuːxn̩",
+      "notes": "The plural looks the same. Plural: die Kuchen."
+    },
+    "meaning": "cake",
+    "shortDefinition": "Cake."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Kuchen, plural die Kuchen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Kuchen"
+        },
+        {
+          "label": "More than one",
+          "value": "die Kuchen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich nehme ein Stück Kuchen.",
+      "english": "I'll have a piece of cake.",
+      "highlight": [
+        "Kuchen."
+      ]
+    },
+    {
+      "german": "Am Sonntag gibt es Kaffee und Kuchen.",
+      "english": "On Sunday there's coffee and cake.",
+      "highlight": [
+        "Kuchen."
+      ]
+    },
+    {
+      "german": "Der Kuchen schmeckt super!",
+      "english": "The cake tastes great!",
+      "highlight": [
+        "Kuchen"
+      ]
+    }
+  ],
+  "forms": [
+    "Kuchen",
+    "die Kuchen",
+    "der Kuchen"
+  ],
+  "memoryHook": "Kuchen without dots is cake. Küche with dots is the room where you bake it.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Kuchen",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Kuchen is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Kuchen, zwei ___",
+      "answer": "Kuchen",
+      "fullAnswer": "ein Kuchen, zwei Kuchen",
+      "explanation": "The plural is Kuchen.",
+      "acceptedAnswers": [
+        "Kuchen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Kuchen mean?",
+      "options": [
+        "cake",
+        "the shop",
+        "the street"
+      ],
+      "answer": "cake",
+      "explanation": "Kuchen: cake.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'A piece of cake':",
+      "options": [
+        "ein Stück Kuchen",
+        "ein Teil Kuchen"
+      ],
+      "answer": "ein Stück Kuchen",
+      "explanation": "Ein Stück.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Kuchen or Küche? 'Cake':",
+      "options": [
+        "der Kuchen",
+        "die Küche"
+      ],
+      "answer": "der Kuchen",
+      "explanation": "No umlaut.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Kaffee und Kuchen is…",
+      "options": [
+        "an afternoon tradition",
+        "breakfast"
+      ],
+      "answer": "an afternoon tradition",
+      "explanation": "Around 3–4 pm, often on Sundays.",
+      "id": "q6"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Mischung",
+    "partOfSpeech": "noun, feminine (die Mischung)",
+    "pronunciation": {
+      "respelling": "MISH-ung",
+      "ipa": "ˈmɪʃʊŋ",
+      "notes": "Plural: die Mischungen."
+    },
+    "meaning": "mixture, mix",
+    "shortDefinition": "Mixture, mix."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Misch",
+        "meaning": "mix (mischen)"
+      },
+      {
+        "part": "ung",
+        "meaning": "noun ending"
+      }
+    ],
+    "literalMeaning": "a mixing"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Mischung, plural die Mischungen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Mischung"
+        },
+        {
+          "label": "More than one",
+          "value": "die Mischungen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das ist eine gute Mischung.",
+      "english": "That's a good mix.",
+      "highlight": [
+        "Mischung."
+      ]
+    },
+    {
+      "german": "Eine Mischung aus Kaffee und Milch.",
+      "english": "A mixture of coffee and milk.",
+      "highlight": [
+        "Mischung"
+      ]
+    },
+    {
+      "german": "Die Mischung macht's.",
+      "english": "It's all in the mix.",
+      "highlight": [
+        "Mischung"
+      ]
+    }
+  ],
+  "forms": [
+    "Mischungen",
+    "die Mischungen",
+    "die Mischung"
+  ],
+  "memoryHook": "Mischen → die Mischung.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Mischung",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Mischung is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Mischung, zwei ___",
+      "answer": "Mischungen",
+      "fullAnswer": "ein Mischung, zwei Mischungen",
+      "explanation": "The plural is Mischungen.",
+      "acceptedAnswers": [
+        "Mischungen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Mischung mean?",
+      "options": [
+        "mixture",
+        "the weather",
+        "the bed"
+      ],
+      "answer": "mixture",
+      "explanation": "Mischung: mixture, mix.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "mischen",
+        "Mist"
+      ],
+      "answer": "mischen",
+      "explanation": "Mix.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Eine Mischung aus' means…",
+      "options": [
+        "a mixture of",
+        "a mix out"
+      ],
+      "answer": "a mixture of",
+      "explanation": "Phrase.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Ohr",
+    "partOfSpeech": "noun, neuter (das Ohr)",
+    "pronunciation": {
+      "respelling": "OHR",
+      "ipa": "oːɐ̯",
+      "notes": "Plural: die Ohren."
+    },
+    "meaning": "ear",
+    "shortDefinition": "Ear."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Ohr, plural die Ohren.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Ohr"
+        },
+        {
+          "label": "More than one",
+          "value": "die Ohren"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Mein Ohr tut weh.",
+      "english": "My ear hurts.",
+      "highlight": [
+        "Ohr"
+      ]
+    },
+    {
+      "german": "Ich habe Ohrenschmerzen.",
+      "english": "I've got earache.",
+      "highlight": [
+        "Ohrenschmerzen."
+      ]
+    },
+    {
+      "german": "Sie hat kleine Ohren.",
+      "english": "She has small ears.",
+      "highlight": [
+        "Ohren."
+      ]
+    }
+  ],
+  "forms": [
+    "Ohren",
+    "die Ohren",
+    "das Ohr"
+  ],
+  "memoryHook": "Das Ohr, die Ohren. Ohrenschmerzen = earache.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Ohr",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Ohr is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Ohr, zwei ___",
+      "answer": "Ohren",
+      "fullAnswer": "ein Ohr, zwei Ohren",
+      "explanation": "The plural is Ohren.",
+      "acceptedAnswers": [
+        "Ohren"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Ohr mean?",
+      "options": [
+        "ear",
+        "quiet",
+        "to buy"
+      ],
+      "answer": "ear",
+      "explanation": "Ohr: ear.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Ohren",
+        "Öhre"
+      ],
+      "answer": "Ohren",
+      "explanation": "-en.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Earache:",
+      "options": [
+        "Ohrenschmerzen",
+        "Ohrweh"
+      ],
+      "answer": "Ohrenschmerzen",
+      "explanation": "Ohren + Schmerzen.",
+      "id": "q5"
+    }
+  ]
+}

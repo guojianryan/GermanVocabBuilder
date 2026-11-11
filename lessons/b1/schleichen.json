@@ -1,0 +1,158 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "schleichen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "SHLY-khen",
+      "ipa": "ˈʃlaɪ̯çn̩",
+      "notes": ""
+    },
+    "meaning": "to creep, sneak",
+    "shortDefinition": "To creep, sneak."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "schleich|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "schleich|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "schleich|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "schleich|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "schleich|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "schleich|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): ist geschlichen"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Katze schleicht durch den Garten.",
+      "english": "The cat creeps through the garden.",
+      "highlight": [
+        "schleicht"
+      ]
+    },
+    {
+      "german": "Er ist leise ins Zimmer geschlichen.",
+      "english": "He crept quietly into the room.",
+      "highlight": [
+        "geschlichen."
+      ]
+    },
+    {
+      "german": "Schleich dich!",
+      "english": "Get lost! (southern)",
+      "highlight": [
+        "Schleich"
+      ]
+    }
+  ],
+  "forms": [
+    "schleiche",
+    "schleichst",
+    "schleicht",
+    "schleichen",
+    "geschlichen"
+  ],
+  "memoryHook": "Schleichen (schlich, ist geschlichen) = creep.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (schleichen)",
+      "answer": "schleicht",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: schleicht.",
+      "acceptedAnswers": [
+        "schleicht"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich bin schon ___. (schleichen, past)",
+      "answer": "geschlichen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: bin geschlichen.",
+      "acceptedAnswers": [
+        "geschlichen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does schleichen mean?",
+      "options": [
+        "expensive",
+        "the station",
+        "to creep"
+      ],
+      "answer": "to creep",
+      "explanation": "schleichen: to creep, sneak.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "ist geschlichen",
+        "hat geschleicht"
+      ],
+      "answer": "ist geschlichen",
+      "explanation": "Strong + movement.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Hidden advertising:",
+      "options": [
+        "die Schleichwerbung",
+        "die Schleichreklame"
+      ],
+      "answer": "die Schleichwerbung",
+      "explanation": "Compound.",
+      "id": "q5"
+    }
+  ]
+}

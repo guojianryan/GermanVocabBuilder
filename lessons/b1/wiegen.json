@@ -1,0 +1,154 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "wiegen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "VEE-gen",
+      "ipa": "ˈviːɡn̩",
+      "notes": ""
+    },
+    "meaning": "to weigh",
+    "shortDefinition": "To weigh."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "wieg|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "wieg|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "wieg|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "wieg|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "wieg|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "wieg|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gewogen"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wie viel wiegst du?",
+      "english": "How much do you weigh?",
+      "highlight": [
+        "wiegst"
+      ]
+    },
+    {
+      "german": "Das Paket wiegt zwei Kilo.",
+      "english": "The parcel weighs two kilos.",
+      "highlight": [
+        "wiegt"
+      ]
+    },
+    {
+      "german": "Ich habe die Äpfel gewogen.",
+      "english": "I weighed the apples.",
+      "highlight": [
+        "gewogen."
+      ]
+    }
+  ],
+  "forms": [
+    "Gewicht"
+  ],
+  "memoryHook": "Wiegen, wog, gewogen. Das Gewicht = weight.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (wiegen)",
+      "answer": "wiegt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: wiegt.",
+      "acceptedAnswers": [
+        "wiegt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (wiegen, past)",
+      "answer": "gewogen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gewogen.",
+      "acceptedAnswers": [
+        "gewogen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does wiegen mean?",
+      "options": [
+        "the window",
+        "slowly",
+        "to weigh"
+      ],
+      "answer": "to weigh",
+      "explanation": "wiegen: to weigh.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "hat gewogen",
+        "hat gewiegt"
+      ],
+      "answer": "hat gewogen",
+      "explanation": "Strong verb.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Related noun:",
+      "options": [
+        "das Gewicht (weight)",
+        "die Wiege only"
+      ],
+      "answer": "das Gewicht (weight)",
+      "explanation": "Weight.",
+      "id": "q5"
+    }
+  ]
+}

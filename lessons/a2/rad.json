@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Rad",
+    "partOfSpeech": "noun, neuter (das Rad)",
+    "pronunciation": {
+      "respelling": "RAAT",
+      "ipa": "ʁaːt",
+      "notes": "Plural: die Räder."
+    },
+    "meaning": "wheel; bike",
+    "shortDefinition": "Wheel; bike."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Rad, plural die Räder.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Rad"
+        },
+        {
+          "label": "More than one",
+          "value": "die Räder"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das Auto hat vier Räder.",
+      "english": "The car has four wheels.",
+      "highlight": [
+        "Räder."
+      ]
+    },
+    {
+      "german": "Ich fahre mit dem Rad.",
+      "english": "I go by bike.",
+      "highlight": [
+        "Rad."
+      ]
+    },
+    {
+      "german": "Er fährt gern Rad.",
+      "english": "He likes cycling.",
+      "highlight": [
+        "Rad."
+      ]
+    }
+  ],
+  "forms": [
+    "Fahrrad"
+  ],
+  "memoryHook": "Das Rad: wheel; bike (= Fahrrad). Rad fahren.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Rad",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Rad is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Rad, zwei ___",
+      "answer": "Räder",
+      "fullAnswer": "ein Rad, zwei Räder",
+      "explanation": "The plural is Räder.",
+      "acceptedAnswers": [
+        "Raeder"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Rad mean?",
+      "options": [
+        "cheap",
+        "wheel",
+        "the bill"
+      ],
+      "answer": "wheel",
+      "explanation": "Rad: wheel; bike.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Rad fahren is written…",
+      "options": [
+        "two words, capital R",
+        "radfahren only"
+      ],
+      "answer": "two words, capital R",
+      "explanation": "Ich fahre Rad.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Räder",
+        "Rade"
+      ],
+      "answer": "Räder",
+      "explanation": "a → ä + -er.",
+      "id": "q5"
+    }
+  ]
+}

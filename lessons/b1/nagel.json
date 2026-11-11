@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Nagel",
+    "partOfSpeech": "noun, masculine (der Nagel)",
+    "pronunciation": {
+      "respelling": "NAA-gel",
+      "ipa": "ˈnaːɡl̩",
+      "notes": "Plural: die Nägel."
+    },
+    "meaning": "nail",
+    "shortDefinition": "Nail."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Nagel, plural die Nägel.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Nagel"
+        },
+        {
+          "label": "More than one",
+          "value": "die Nägel"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich schlage einen Nagel in die Wand.",
+      "english": "I'm hammering a nail into the wall.",
+      "highlight": [
+        "Nagel"
+      ]
+    },
+    {
+      "german": "Sie lackiert ihre Fingernägel.",
+      "english": "She paints her fingernails.",
+      "highlight": [
+        "Fingernägel."
+      ]
+    },
+    {
+      "german": "Du hast den Nagel auf den Kopf getroffen.",
+      "english": "You've hit the nail on the head.",
+      "highlight": [
+        "Nagel"
+      ]
+    }
+  ],
+  "forms": [
+    "Nägel",
+    "die Nägel",
+    "der Nagel"
+  ],
+  "memoryHook": "Der Nagel, die Nägel (finger and metal).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Nagel",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Nagel is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Nagel, zwei ___",
+      "answer": "Nägel",
+      "fullAnswer": "ein Nagel, zwei Nägel",
+      "explanation": "The plural is Nägel.",
+      "acceptedAnswers": [
+        "Naegel"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Nagel mean?",
+      "options": [
+        "the weather",
+        "the key",
+        "nail"
+      ],
+      "answer": "nail",
+      "explanation": "Nagel: nail.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Nägel",
+        "Nagels"
+      ],
+      "answer": "Nägel",
+      "explanation": "a → ä.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Nagel means…",
+      "options": [
+        "both fingernail and metal nail",
+        "only metal nail"
+      ],
+      "answer": "both fingernail and metal nail",
+      "explanation": "Both.",
+      "id": "q5"
+    }
+  ]
+}

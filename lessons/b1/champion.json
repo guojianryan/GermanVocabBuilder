@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Champion",
+    "partOfSpeech": "noun, masculine (der Champion)",
+    "pronunciation": {
+      "respelling": "CHEM-pyen",
+      "ipa": "ˈtʃɛmpi̯ən",
+      "notes": "Plural: die Champions."
+    },
+    "meaning": "champion",
+    "shortDefinition": "Champion."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Champion, plural die Champions.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Champion"
+        },
+        {
+          "label": "More than one",
+          "value": "die Champions"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er ist der neue Champion.",
+      "english": "He's the new champion.",
+      "highlight": [
+        "Champion."
+      ]
+    },
+    {
+      "german": "Die Champions League beginnt.",
+      "english": "The Champions League is starting.",
+      "highlight": [
+        "Champions"
+      ]
+    },
+    {
+      "german": "Sie ist Champion im Schach.",
+      "english": "She's the chess champion.",
+      "highlight": [
+        "Champion"
+      ]
+    }
+  ],
+  "forms": [
+    "Meister"
+  ],
+  "memoryHook": "Der Champion = der Meister.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Champion",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Champion is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Champion, zwei ___",
+      "answer": "Champions",
+      "fullAnswer": "ein Champion, zwei Champions",
+      "explanation": "The plural is Champions.",
+      "acceptedAnswers": [
+        "Champions"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Champion mean?",
+      "options": [
+        "champion",
+        "the street",
+        "hot"
+      ],
+      "answer": "champion",
+      "explanation": "Champion: champion.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "German synonym:",
+      "options": [
+        "der Meister / Sieger",
+        "der Kämpfer"
+      ],
+      "answer": "der Meister / Sieger",
+      "explanation": "Champion.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Pronunciation:",
+      "options": [
+        "English",
+        "French"
+      ],
+      "answer": "English",
+      "explanation": "CHEM-pyen.",
+      "id": "q5"
+    }
+  ]
+}

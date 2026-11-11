@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Wolke",
+    "partOfSpeech": "noun, feminine (die Wolke)",
+    "pronunciation": {
+      "respelling": "VOL-ke",
+      "ipa": "ˈvɔlkə",
+      "notes": "Plural: die Wolken."
+    },
+    "meaning": "cloud",
+    "shortDefinition": "Cloud."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Wolke, plural die Wolken.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Wolke"
+        },
+        {
+          "label": "More than one",
+          "value": "die Wolken"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Am Himmel sind keine Wolken.",
+      "english": "There are no clouds in the sky.",
+      "highlight": [
+        "Wolken."
+      ]
+    },
+    {
+      "german": "Die Wolken werden dunkel.",
+      "english": "The clouds are getting dark.",
+      "highlight": [
+        "Wolken"
+      ]
+    },
+    {
+      "german": "Ich bin im siebten Himmel / auf Wolke sieben.",
+      "english": "I'm on cloud nine.",
+      "highlight": [
+        "Wolke"
+      ]
+    }
+  ],
+  "forms": [
+    "wolkig",
+    "bewölkt"
+  ],
+  "memoryHook": "Die Wolke → bewölkt. Auf Wolke sieben = on cloud nine.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Wolke",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Wolke is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Wolke, zwei ___",
+      "answer": "Wolken",
+      "fullAnswer": "ein Wolke, zwei Wolken",
+      "explanation": "The plural is Wolken.",
+      "acceptedAnswers": [
+        "Wolken"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Wolke mean?",
+      "options": [
+        "cloud",
+        "to buy",
+        "the flower"
+      ],
+      "answer": "cloud",
+      "explanation": "Wolke: cloud.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'On cloud nine' in German:",
+      "options": [
+        "auf Wolke sieben",
+        "auf Wolke neun"
+      ],
+      "answer": "auf Wolke sieben",
+      "explanation": "Seven!",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Adjective 'cloudy':",
+      "options": [
+        "bewölkt / wolkig",
+        "wolken"
+      ],
+      "answer": "bewölkt / wolkig",
+      "explanation": "Both.",
+      "id": "q5"
+    }
+  ]
+}

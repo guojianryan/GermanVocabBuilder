@@ -1,0 +1,169 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "halten",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "HAL-ten",
+      "ipa": "ˈhaltn̩",
+      "notes": ""
+    },
+    "meaning": "to hold; to stop; (halten von) to think of",
+    "shortDefinition": "To hold; to stop; (halten von) to think of."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "halt|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "h|ä|ltst"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "h|ä|lt"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "halt|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "halt|et"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "halt|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gehalten",
+        "Du hältst, er hält: umlaut, and er has no extra -t."
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "die Haltestelle",
+      "english": "stop",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Hält dieser Zug in Bonn?",
+      "english": "Does this train stop in Bonn?",
+      "highlight": [
+        "Hält"
+      ]
+    },
+    {
+      "german": "Kannst du mal kurz meine Tasche halten?",
+      "english": "Can you hold my bag for a moment?",
+      "highlight": [
+        "halten?"
+      ]
+    },
+    {
+      "german": "Was hältst du von der Idee?",
+      "english": "What do you think of the idea?",
+      "highlight": [
+        "hältst",
+        "von"
+      ]
+    }
+  ],
+  "forms": [
+    "halte",
+    "hältst",
+    "hält",
+    "halten",
+    "haltet",
+    "gehalten",
+    "hielt"
+  ],
+  "memoryHook": "Halten = hold, stop (vehicles), and think of (halten von). Die Haltestelle = the stop.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (halten)",
+      "answer": "hält",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: hält.",
+      "acceptedAnswers": [
+        "haelt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (halten, past)",
+      "answer": "gehalten",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gehalten.",
+      "acceptedAnswers": [
+        "gehalten"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does halten mean?",
+      "options": [
+        "to sing",
+        "to hold",
+        "slowly"
+      ],
+      "answer": "to hold",
+      "explanation": "halten: to hold; to stop; (halten von) to think of.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Was hältst du davon?' means…",
+      "options": [
+        "What do you think of it?",
+        "What are you holding?"
+      ],
+      "answer": "What do you think of it?",
+      "explanation": "Halten von: think of.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Der Bus ___ hier nicht.",
+      "options": [
+        "hält",
+        "haltet"
+      ],
+      "answer": "hält",
+      "explanation": "Er hält, with an umlaut.",
+      "id": "q5"
+    }
+  ]
+}

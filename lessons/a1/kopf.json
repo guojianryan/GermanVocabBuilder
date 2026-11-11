@@ -1,0 +1,131 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Kopf",
+    "partOfSpeech": "noun, masculine (der Kopf)",
+    "pronunciation": {
+      "respelling": "KOPF",
+      "ipa": "kɔpf",
+      "notes": "Plural: die Köpfe."
+    },
+    "meaning": "head",
+    "shortDefinition": "Head."
+  },
+  "wordFamily": [
+    {
+      "german": "die Kopfschmerzen",
+      "english": "headache",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Kopf, plural die Köpfe.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Kopf"
+        },
+        {
+          "label": "More than one",
+          "value": "die Köpfe"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Mein Kopf tut weh.",
+      "english": "My head hurts.",
+      "highlight": [
+        "Kopf"
+      ]
+    },
+    {
+      "german": "Ich habe Kopfschmerzen.",
+      "english": "I have a headache.",
+      "highlight": [
+        "Kopfschmerzen."
+      ]
+    },
+    {
+      "german": "Er schüttelt den Kopf.",
+      "english": "He shakes his head.",
+      "highlight": [
+        "Kopf."
+      ]
+    }
+  ],
+  "forms": [
+    "Köpfe",
+    "die Köpfe",
+    "der Kopf"
+  ],
+  "memoryHook": "Der Kopf = head. Kopfschmerzen = headache.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Kopf",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Kopf is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Kopf, zwei ___",
+      "answer": "Köpfe",
+      "fullAnswer": "ein Kopf, zwei Köpfe",
+      "explanation": "The plural is Köpfe.",
+      "acceptedAnswers": [
+        "Koepfe"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Kopf mean?",
+      "options": [
+        "to sing",
+        "head",
+        "cheap"
+      ],
+      "answer": "head",
+      "explanation": "Kopf: head.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "A headache is…",
+      "options": [
+        "Kopfschmerzen",
+        "Kopfweh only"
+      ],
+      "answer": "Kopfschmerzen",
+      "explanation": "Kopf + Schmerzen (also Kopfweh).",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Pf in Kopf sounds like…",
+      "options": [
+        "p + f",
+        "f only"
+      ],
+      "answer": "p + f",
+      "explanation": "KOPF.",
+      "id": "q5"
+    }
+  ]
+}

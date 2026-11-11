@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Punkt",
+    "partOfSpeech": "noun, masculine (der Punkt)",
+    "pronunciation": {
+      "respelling": "POONKT",
+      "ipa": "pʊŋkt",
+      "notes": "Plural: die Punkte."
+    },
+    "meaning": "point; full stop",
+    "shortDefinition": "Point; full stop."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Punkt, plural die Punkte.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Punkt"
+        },
+        {
+          "label": "More than one",
+          "value": "die Punkte"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Am Ende vom Satz steht ein Punkt.",
+      "english": "There's a full stop at the end of the sentence.",
+      "highlight": [
+        "Punkt."
+      ]
+    },
+    {
+      "german": "Für jede richtige Antwort gibt es einen Punkt.",
+      "english": "You get a point for each correct answer.",
+      "highlight": [
+        "Punkt."
+      ]
+    },
+    {
+      "german": "Wir treffen uns um Punkt acht.",
+      "english": "We're meeting at eight on the dot.",
+      "highlight": [
+        "Punkt"
+      ]
+    }
+  ],
+  "forms": [
+    "Punkte",
+    "die Punkte",
+    "der Punkt"
+  ],
+  "memoryHook": "Der Punkt: full stop, point in a test, or 'on the dot'.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Punkt",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Punkt is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Punkt, zwei ___",
+      "answer": "Punkte",
+      "fullAnswer": "ein Punkt, zwei Punkte",
+      "explanation": "The plural is Punkte.",
+      "acceptedAnswers": [
+        "Punkte"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Punkt mean?",
+      "options": [
+        "the bread",
+        "the car",
+        "point"
+      ],
+      "answer": "point",
+      "explanation": "Punkt: point; full stop.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Punkt acht' means…",
+      "options": [
+        "exactly eight o'clock",
+        "point eight"
+      ],
+      "answer": "exactly eight o'clock",
+      "explanation": "On the dot.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "In the exam, 'Punkte' are…",
+      "options": [
+        "marks/points",
+        "full stops"
+      ],
+      "answer": "marks/points",
+      "explanation": "Scores.",
+      "id": "q5"
+    }
+  ]
+}

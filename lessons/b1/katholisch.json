@@ -1,0 +1,103 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "katholisch",
+    "partOfSpeech": "adjective",
+    "pronunciation": {
+      "respelling": "ka-TOH-lish",
+      "ipa": "kaˈtoːlɪʃ",
+      "notes": ""
+    },
+    "meaning": "Catholic",
+    "shortDefinition": "Catholic."
+  },
+  "sampleSentences": [
+    {
+      "german": "Bayern ist überwiegend katholisch.",
+      "english": "Bavaria is mainly Catholic.",
+      "highlight": [
+        "katholisch."
+      ]
+    },
+    {
+      "german": "Sie geht in die katholische Kirche.",
+      "english": "She goes to the Catholic church.",
+      "highlight": [
+        "katholische"
+      ]
+    },
+    {
+      "german": "Er ist katholisch erzogen worden.",
+      "english": "He was brought up Catholic.",
+      "highlight": [
+        "katholisch"
+      ]
+    }
+  ],
+  "forms": [
+    "katholische",
+    "Katholik"
+  ],
+  "memoryHook": "Katholisch (th = t) ↔ evangelisch.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does katholisch mean?",
+      "options": [
+        "the station",
+        "Catholic",
+        "the flower"
+      ],
+      "answer": "Catholic",
+      "explanation": "katholisch: Catholic.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Th sounds like…",
+      "options": [
+        "t",
+        "th"
+      ],
+      "answer": "t",
+      "explanation": "ka-TOH-lish.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Protestant:",
+      "options": [
+        "evangelisch",
+        "protestantisch only"
+      ],
+      "answer": "evangelisch",
+      "explanation": "Common word.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "A Catholic:",
+      "options": [
+        "der Katholik / die Katholikin",
+        "der Katholische"
+      ],
+      "answer": "der Katholik / die Katholikin",
+      "explanation": "Person.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Sie ist ___ . (Catholic)",
+      "answer": "katholisch",
+      "fullAnswer": "Sie ist katholisch.",
+      "explanation": "Katholisch.",
+      "id": "q5"
+    }
+  ]
+}

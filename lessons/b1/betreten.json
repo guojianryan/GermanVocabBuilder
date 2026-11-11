@@ -1,0 +1,170 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "betreten",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "be-TRAY-ten",
+      "ipa": "bəˈtʁeːtn̩",
+      "notes": ""
+    },
+    "meaning": "to enter, step onto",
+    "shortDefinition": "To enter, step onto."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "be",
+        "meaning": "prefix (onto)"
+      },
+      {
+        "part": "treten",
+        "meaning": "to step",
+        "emphasis": "arrive"
+      }
+    ],
+    "literalMeaning": "to step onto",
+    "summary": "Stepping in."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "betret|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "betritt|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "betritt"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "betret|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "betret|et"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "betret|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat betreten"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Rasen betreten verboten!",
+      "english": "Keep off the grass!",
+      "highlight": [
+        "betreten"
+      ]
+    },
+    {
+      "german": "Er betritt den Raum.",
+      "english": "He enters the room.",
+      "highlight": [
+        "betritt"
+      ]
+    },
+    {
+      "german": "Betreten auf eigene Gefahr.",
+      "english": "Enter at your own risk.",
+      "highlight": [
+        "Betreten"
+      ]
+    }
+  ],
+  "forms": [
+    "betritt"
+  ],
+  "memoryHook": "Betreten (+ Akk) = enter. Betreten verboten!",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (betreten)",
+      "answer": "betritt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: betritt.",
+      "acceptedAnswers": [
+        "betritt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (betreten, past)",
+      "answer": "betreten",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe betreten.",
+      "acceptedAnswers": [
+        "betreten"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does betreten mean?",
+      "options": [
+        "slowly",
+        "to enter",
+        "to travel"
+      ],
+      "answer": "to enter",
+      "explanation": "betreten: to enter, step onto.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Needs…",
+      "options": [
+        "a direct object (den Raum)",
+        "a preposition"
+      ],
+      "answer": "a direct object (den Raum)",
+      "explanation": "Transitive.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "er ___ (betreten):",
+      "options": [
+        "betritt",
+        "betretet"
+      ],
+      "answer": "betritt",
+      "explanation": "Like treten.",
+      "id": "q5"
+    }
+  ]
+}

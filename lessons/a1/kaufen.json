@@ -1,0 +1,170 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "kaufen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "KOW-fen",
+      "ipa": "ˈkaʊ̯fn̩",
+      "notes": ""
+    },
+    "meaning": "to buy",
+    "shortDefinition": "To buy."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "kauf|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "kauf|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "kauf|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "kauf|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "kauf|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "kauf|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gekauft"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "verkaufen",
+      "english": "to sell",
+      "type": "verb"
+    },
+    {
+      "german": "einkaufen",
+      "english": "to shop",
+      "type": "separable verb"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich kaufe ein neues Handy.",
+      "english": "I'm buying a new phone.",
+      "highlight": [
+        "kaufe"
+      ]
+    },
+    {
+      "german": "Wo hast du die Schuhe gekauft?",
+      "english": "Where did you buy the shoes?",
+      "highlight": [
+        "gekauft?"
+      ]
+    },
+    {
+      "german": "Was kostet das? – Ich kaufe es.",
+      "english": "How much is it? – I'll take it.",
+      "highlight": [
+        "kaufe"
+      ]
+    }
+  ],
+  "forms": [
+    "kaufe",
+    "kaufst",
+    "kauft",
+    "kaufen",
+    "gekauft"
+  ],
+  "memoryHook": "Kaufen = buy; verkaufen = sell; einkaufen = do the shopping.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (kaufen)",
+      "answer": "kauft",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: kauft.",
+      "acceptedAnswers": [
+        "kauft"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (kaufen, past)",
+      "answer": "gekauft",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gekauft.",
+      "acceptedAnswers": [
+        "gekauft"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does kaufen mean?",
+      "options": [
+        "the weather",
+        "to buy",
+        "the window"
+      ],
+      "answer": "to buy",
+      "explanation": "kaufen: to buy.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Kaufen vs einkaufen: 'I'm going shopping' is…",
+      "options": [
+        "Ich gehe einkaufen.",
+        "Ich gehe kaufen."
+      ],
+      "answer": "Ich gehe einkaufen.",
+      "explanation": "Einkaufen: shopping.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "The opposite of kaufen is…",
+      "options": [
+        "verkaufen",
+        "bezahlen"
+      ],
+      "answer": "verkaufen",
+      "explanation": "Verkaufen: sell.",
+      "id": "q5"
+    }
+  ]
+}

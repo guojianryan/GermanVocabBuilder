@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Anschluss",
+    "partOfSpeech": "noun, masculine (der Anschluss)",
+    "pronunciation": {
+      "respelling": "AHN-shloos",
+      "ipa": "ˈanʃlʊs",
+      "notes": "Plural: die Anschlüsse."
+    },
+    "meaning": "connection (train, phone, internet)",
+    "shortDefinition": "Connection (train, phone, internet)."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "An",
+        "meaning": "on"
+      },
+      {
+        "part": "schluss",
+        "meaning": "closing, locking",
+        "note": "From schließen."
+      }
+    ],
+    "literalMeaning": "a locking on"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Anschluss, plural die Anschlüsse.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Anschluss"
+        },
+        {
+          "label": "More than one",
+          "value": "die Anschlüsse"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "In Mannheim haben Sie Anschluss nach Stuttgart.",
+      "english": "In Mannheim you have a connection to Stuttgart.",
+      "highlight": [
+        "Anschluss"
+      ]
+    },
+    {
+      "german": "Ich habe meinen Anschluss verpasst.",
+      "english": "I missed my connection.",
+      "highlight": [
+        "Anschluss"
+      ]
+    },
+    {
+      "german": "Die Wohnung hat einen Internetanschluss.",
+      "english": "The flat has an internet connection.",
+      "highlight": [
+        "Internetanschluss."
+      ]
+    }
+  ],
+  "forms": [
+    "Anschlusses",
+    "Anschlüssen"
+  ],
+  "memoryHook": "Schließen = to close, to lock together. An Anschluss is where two things lock together: two trains, or your flat and the internet.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Anschluss",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Anschluss is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Anschluss, zwei ___",
+      "answer": "Anschlüsse",
+      "fullAnswer": "ein Anschluss, zwei Anschlüsse",
+      "explanation": "The plural is Anschlüsse.",
+      "acceptedAnswers": [
+        "Anschluesse"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Your train is late and you miss the next train. You missed your…",
+      "options": [
+        "Anschluss",
+        "Ausgang"
+      ],
+      "answer": "Anschluss",
+      "explanation": "Anschluss: connection.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich habe ___ Anschluss verpasst. (my)",
+      "options": [
+        "mein",
+        "meinen"
+      ],
+      "answer": "meinen",
+      "explanation": "Masculine accusative: meinen.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Which is a phone or internet connection?",
+      "options": [
+        "der Anschluss",
+        "die Ansage"
+      ],
+      "answer": "der Anschluss",
+      "explanation": "Telefonanschluss, Internetanschluss.",
+      "id": "q5"
+    }
+  ]
+}

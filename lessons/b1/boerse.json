@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Börse",
+    "partOfSpeech": "noun, feminine (die Börse)",
+    "pronunciation": {
+      "respelling": "BÖR-ze",
+      "ipa": "ˈbœʁzə",
+      "notes": "Plural: die Börsen."
+    },
+    "meaning": "stock exchange",
+    "shortDefinition": "Stock exchange."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Börse, plural die Börsen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Börse"
+        },
+        {
+          "label": "More than one",
+          "value": "die Börsen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Firma geht an die Börse.",
+      "english": "The company is going public.",
+      "highlight": [
+        "Börse."
+      ]
+    },
+    {
+      "german": "Die Börse in Frankfurt ist wichtig.",
+      "english": "The Frankfurt stock exchange is important.",
+      "highlight": [
+        "Börse"
+      ]
+    },
+    {
+      "german": "An der Börse fallen die Kurse.",
+      "english": "Share prices are falling on the stock market.",
+      "highlight": [
+        "Börse"
+      ]
+    }
+  ],
+  "forms": [
+    "Geldbörse"
+  ],
+  "memoryHook": "Die Börse (stock exchange); Geldbörse = purse.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Börse",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Börse is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Börse, zwei ___",
+      "answer": "Börsen",
+      "fullAnswer": "ein Börse, zwei Börsen",
+      "explanation": "The plural is Börsen.",
+      "acceptedAnswers": [
+        "Boersen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Börse mean?",
+      "options": [
+        "the bed",
+        "stock exchange",
+        "the child"
+      ],
+      "answer": "stock exchange",
+      "explanation": "Börse: stock exchange.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'An die Börse gehen' means…",
+      "options": [
+        "to go public (IPO)",
+        "to go shopping"
+      ],
+      "answer": "to go public (IPO)",
+      "explanation": "IPO.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Also: Geldbörse means…",
+      "options": [
+        "purse",
+        "bank"
+      ],
+      "answer": "purse",
+      "explanation": "Wallet.",
+      "id": "q5"
+    }
+  ]
+}

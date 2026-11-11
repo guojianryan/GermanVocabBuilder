@@ -1,0 +1,159 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "brennen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "BREN-en",
+      "ipa": "ˈbʁɛnən",
+      "notes": ""
+    },
+    "meaning": "to burn",
+    "shortDefinition": "To burn."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "brenn|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "brenn|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "brenn|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "brenn|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "brenn|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "brenn|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gebrannt"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das Haus brennt!",
+      "english": "The house is on fire!",
+      "highlight": [
+        "brennt!"
+      ]
+    },
+    {
+      "german": "Im Wohnzimmer brennt noch Licht.",
+      "english": "The light's still on in the living room.",
+      "highlight": [
+        "brennt"
+      ]
+    },
+    {
+      "german": "Meine Augen brennen.",
+      "english": "My eyes are stinging.",
+      "highlight": [
+        "brennen."
+      ]
+    }
+  ],
+  "forms": [
+    "brenne",
+    "brennst",
+    "brennt",
+    "brennen",
+    "gebrannt",
+    "brannte"
+  ],
+  "memoryHook": "Brennen, brannte, gebrannt. Licht brennt = the light is on.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (brennen)",
+      "answer": "brennt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: brennt.",
+      "acceptedAnswers": [
+        "brennt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (brennen, past)",
+      "answer": "gebrannt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gebrannt.",
+      "acceptedAnswers": [
+        "gebrannt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does brennen mean?",
+      "options": [
+        "to travel",
+        "to burn",
+        "expensive"
+      ],
+      "answer": "to burn",
+      "explanation": "brennen: to burn.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Past forms:",
+      "options": [
+        "brannte, gebrannt",
+        "brennte, gebrennt"
+      ],
+      "answer": "brannte, gebrannt",
+      "explanation": "Like kennen.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Es brennt!' means…",
+      "options": [
+        "Fire!",
+        "It's hot!"
+      ],
+      "answer": "Fire!",
+      "explanation": "Emergency.",
+      "id": "q5"
+    }
+  ]
+}

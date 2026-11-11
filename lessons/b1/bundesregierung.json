@@ -1,0 +1,140 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Bundesregierung",
+    "partOfSpeech": "noun, feminine (die Bundesregierung)",
+    "pronunciation": {
+      "respelling": "BOON-des-re-gee-rung",
+      "ipa": "ˈbʊndəsʁeˌɡiːʁʊŋ",
+      "notes": "Plural: die Bundesregierungen."
+    },
+    "meaning": "federal government",
+    "shortDefinition": "Federal government."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Bund",
+        "meaning": "federation"
+      },
+      {
+        "part": "es",
+        "meaning": "linking letters"
+      },
+      {
+        "part": "regierung",
+        "meaning": "government"
+      }
+    ],
+    "literalMeaning": "federation government"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Bundesregierung, plural die Bundesregierungen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Bundesregierung"
+        },
+        {
+          "label": "More than one",
+          "value": "die Bundesregierungen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Bundesregierung hat ein neues Gesetz beschlossen.",
+      "english": "The federal government has passed a new law.",
+      "highlight": [
+        "Bundesregierung"
+      ]
+    },
+    {
+      "german": "Die Bundesregierung sitzt in Berlin.",
+      "english": "The federal government is based in Berlin.",
+      "highlight": [
+        "Bundesregierung"
+      ]
+    },
+    {
+      "german": "Die Bundesregierung wird von der Kanzlerin geführt.",
+      "english": "The federal government is led by the chancellor.",
+      "highlight": [
+        "Bundesregierung"
+      ]
+    }
+  ],
+  "forms": [
+    "Landesregierung"
+  ],
+  "memoryHook": "Bund + Regierung = federal government.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Bundesregierung",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Bundesregierung is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Bundesregierung, zwei ___",
+      "answer": "Bundesregierungen",
+      "fullAnswer": "ein Bundesregierung, zwei Bundesregierungen",
+      "explanation": "The plural is Bundesregierungen.",
+      "acceptedAnswers": [
+        "Bundesregierungen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Bundesregierung mean?",
+      "options": [
+        "federal government",
+        "to open",
+        "to sleep"
+      ],
+      "answer": "federal government",
+      "explanation": "Bundesregierung: federal government.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Bund + es + Regierung",
+        "Bunde + Regierung"
+      ],
+      "answer": "Bund + es + Regierung",
+      "explanation": "Federal government.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "State government:",
+      "options": [
+        "die Landesregierung",
+        "die Bundeslandregierung"
+      ],
+      "answer": "die Landesregierung",
+      "explanation": "Länder level.",
+      "id": "q5"
+    }
+  ]
+}

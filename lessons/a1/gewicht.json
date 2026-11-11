@@ -1,0 +1,142 @@
+{
+ "schemaVersion": "1.4",
+ "language": "de",
+ "explanationLanguage": "en",
+ "level": "A1",
+ "levelSource": "Goethe-Zertifikat A1 Wortliste",
+ "lessonType": "card",
+ "word": {
+  "headword": "Gewicht",
+  "partOfSpeech": "noun, neuter (das Gewicht)",
+  "pronunciation": {
+   "respelling": "guh-VIKHT",
+   "ipa": "ɡəˈvɪçt",
+   "notes": "The plural (Gewichte) is rare. Usually no plural."
+  },
+  "meaning": "weight",
+  "shortDefinition": "Weight."
+ },
+ "etymology": {
+  "title": "Where it comes from",
+  "parts": [
+   {
+    "part": "Ge",
+    "meaning": "prefix"
+   },
+   {
+    "part": "wicht",
+    "meaning": "weigh (wiegen)"
+   }
+  ],
+  "literalMeaning": "weighing",
+  "summary": "From wiegen (to weigh), with ge- and a vowel change."
+ },
+ "wordFamily": [
+  {
+   "german": "wiegen",
+   "english": "to weigh",
+   "type": "verb"
+  },
+  {
+   "german": "das Kilo",
+   "english": "kilo",
+   "type": "noun"
+  }
+ ],
+ "commonMistakes": [
+  {
+   "title": "Gender and plural",
+   "explanation": "Das Gewicht, usually no plural.",
+   "forms": [
+    {
+     "label": "One",
+     "value": "das Gewicht"
+    }
+   ]
+  }
+ ],
+ "sampleSentences": [
+  {
+   "german": "Wie hoch ist das Gewicht des Pakets?",
+   "english": "What's the weight of the parcel?",
+   "highlight": [
+    "Gewicht"
+   ]
+  },
+  {
+   "german": "Das Gewicht ist maximal 20 Kilo.",
+   "english": "The weight limit is 20 kilos.",
+   "highlight": [
+    "Gewicht"
+   ]
+  },
+  {
+   "german": "Er achtet auf sein Gewicht.",
+   "english": "He watches his weight.",
+   "highlight": [
+    "Gewicht."
+   ]
+  }
+ ],
+ "forms": [
+  "das Gewicht"
+ ],
+ "memoryHook": "Gewicht from wiegen (weigh). English 'weight' is a cousin.",
+ "signOff": "Gut gemacht!",
+ "quiz": [
+  {
+   "type": "choice",
+   "prompt": "___ Gewicht",
+   "options": [
+    "der",
+    "die",
+    "das"
+   ],
+   "answer": "das",
+   "explanation": "Gewicht is neuter.",
+   "id": "q1"
+  },
+  {
+   "type": "choice",
+   "prompt": "What does Gewicht mean?",
+   "options": [
+    "to travel",
+    "weight",
+    "to sing"
+   ],
+   "answer": "weight",
+   "explanation": "Gewicht: weight.",
+   "id": "q2"
+  },
+  {
+   "type": "choice",
+   "prompt": "Gewicht comes from…",
+   "options": [
+    "wiegen (to weigh)",
+    "wichtig"
+   ],
+   "answer": "wiegen (to weigh)",
+   "explanation": "Wiegen → Gewicht.",
+   "id": "q3"
+  },
+  {
+   "type": "choice",
+   "prompt": "Weight is measured in…",
+   "options": [
+    "Kilo / Gramm",
+    "Meter"
+   ],
+   "answer": "Kilo / Gramm",
+   "explanation": "1 Kilo = 1000 Gramm.",
+   "id": "q4"
+  },
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "Das ___ vom Koffer ist 23 Kilo. (weight)",
+   "answer": "Gewicht",
+   "fullAnswer": "Das Gewicht vom Koffer ist 23 Kilo.",
+   "explanation": "Das Gewicht.",
+   "id": "q5"
+  }
+ ]
+}

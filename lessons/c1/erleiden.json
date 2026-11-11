@@ -1,0 +1,179 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "erleiden",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "er-LYE-den",
+      "ipa": "ɛɐ̯ˈlaɪ̯dn̩",
+      "notes": ""
+    },
+    "meaning": "to suffer (damage, loss)",
+    "shortDefinition": "To suffer (damage, loss)."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "er",
+        "meaning": "undergo"
+      },
+      {
+        "part": "leiden",
+        "meaning": "to suffer"
+      }
+    ],
+    "literalMeaning": "to undergo suffering"
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "erleid|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "erleid|est"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "erleid|et"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "erleid|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "erleid|et"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "erleid|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat erlitten"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er erlitt einen Herzinfarkt.",
+      "english": "He suffered a heart attack.",
+      "highlight": [
+        "erlitt"
+      ]
+    },
+    {
+      "german": "Die Firma hat Verluste erlitten.",
+      "english": "The company has suffered losses.",
+      "highlight": [
+        "erlitten."
+      ]
+    },
+    {
+      "german": "Sie erlitt schwere Verletzungen.",
+      "english": "She sustained serious injuries.",
+      "highlight": [
+        "erlitt"
+      ]
+    }
+  ],
+  "forms": [
+    "leiden"
+  ],
+  "memoryHook": "Erleiden (erlitt, erlitten) = suffer (Verlust, Schaden).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (erleiden)",
+      "answer": "erleidet",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: erleidet.",
+      "acceptedAnswers": [
+        "erleidet"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (erleiden, past)",
+      "answer": "erlitten",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe erlitten.",
+      "acceptedAnswers": [
+        "erlitten"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does erleiden mean?",
+      "options": [
+        "to suffer (damage",
+        "always",
+        "the car"
+      ],
+      "answer": "to suffer (damage",
+      "explanation": "erleiden: to suffer (damage, loss).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Typical objects:",
+      "options": [
+        "Verlust, Schaden, Niederlage, Verletzung",
+        "Freude"
+      ],
+      "answer": "Verlust, Schaden, Niederlage, Verletzung",
+      "explanation": "Suffer.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "hat erlitten",
+        "hat erleidet"
+      ],
+      "answer": "hat erlitten",
+      "explanation": "Strong.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Erleiden vs leiden:",
+      "options": [
+        "suffer (one event) vs suffer (ongoing)",
+        "same"
+      ],
+      "answer": "suffer (one event) vs suffer (ongoing)",
+      "explanation": "Nuance.",
+      "id": "q6"
+    }
+  ]
+}

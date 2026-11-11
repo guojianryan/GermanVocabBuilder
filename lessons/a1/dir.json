@@ -1,0 +1,112 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "dir",
+    "partOfSpeech": "pronoun (dative of du)",
+    "pronunciation": {
+      "respelling": "DEER",
+      "ipa": "diːɐ̯",
+      "notes": ""
+    },
+    "meaning": "(to/for) you, informal",
+    "shortDefinition": "(to/for) you, informal."
+  },
+  "wordFamily": [
+    {
+      "german": "dich",
+      "english": "you (accusative)",
+      "type": "pronoun"
+    },
+    {
+      "german": "Ihnen",
+      "english": "(to) you, formal",
+      "type": "pronoun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wie geht es dir?",
+      "english": "How are you?",
+      "highlight": [
+        "dir?"
+      ]
+    },
+    {
+      "german": "Ich helfe dir.",
+      "english": "I'll help you.",
+      "highlight": [
+        "dir."
+      ]
+    },
+    {
+      "german": "Ich komme mit dir.",
+      "english": "I'm coming with you.",
+      "highlight": [
+        "dir."
+      ]
+    }
+  ],
+  "forms": [],
+  "memoryHook": "Dir = to/for/with you. Wie geht's dir? Danke, und dir?",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does dir mean?",
+      "options": [
+        "the bread",
+        "the car",
+        "(to/for) you"
+      ],
+      "answer": "(to/for) you",
+      "explanation": "dir: (to/for) you, informal.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Wie geht es ___? (you)",
+      "answer": "dir",
+      "fullAnswer": "Wie geht es dir?",
+      "explanation": "Es geht + dative.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich gebe ___ das Buch. (to you)",
+      "options": [
+        "dich",
+        "dir"
+      ],
+      "answer": "dir",
+      "explanation": "The receiver: dative.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Mit ___ (with you)",
+      "options": [
+        "dich",
+        "dir"
+      ],
+      "answer": "dir",
+      "explanation": "Mit + dative.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "The formal version of 'Wie geht es dir?' is…",
+      "options": [
+        "Wie geht es Ihnen?",
+        "Wie geht es Sie?"
+      ],
+      "answer": "Wie geht es Ihnen?",
+      "explanation": "Formal dative: Ihnen.",
+      "id": "q5"
+    }
+  ]
+}

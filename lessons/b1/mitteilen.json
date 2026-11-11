@@ -1,0 +1,186 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "mitteilen",
+    "partOfSpeech": "separable verb",
+    "pronunciation": {
+      "respelling": "MIT-tye-len",
+      "ipa": "ˈmɪtˌtaɪ̯lən",
+      "notes": ""
+    },
+    "meaning": "to inform, tell",
+    "shortDefinition": "To inform, tell."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "mit",
+        "meaning": "with"
+      },
+      {
+        "part": "teil",
+        "meaning": "share (teilen)"
+      },
+      {
+        "part": "en",
+        "meaning": "verb ending"
+      }
+    ],
+    "literalMeaning": "share with",
+    "summary": "Sharing information with someone."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "teil|e … |mit"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "teil|st … |mit"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "teil|t … |mit"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "teil|en … |mit"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "teil|t … |mit"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "teil|en … |mit"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat mitgeteilt"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "die Mitteilung",
+      "english": "message, notice",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir teilen Ihnen mit, dass …",
+      "english": "We hereby inform you that …",
+      "highlight": [
+        "teilen",
+        "mit,"
+      ]
+    },
+    {
+      "german": "Er hat mir die Neuigkeit mitgeteilt.",
+      "english": "He told me the news.",
+      "highlight": [
+        "mitgeteilt."
+      ]
+    },
+    {
+      "german": "Bitte teilen Sie uns Ihre Adresse mit.",
+      "english": "Please let us know your address.",
+      "highlight": [
+        "teilen",
+        "mit."
+      ]
+    }
+  ],
+  "forms": [
+    "teile mit",
+    "teilst mit",
+    "teilt mit",
+    "teilen mit",
+    "mitgeteilt"
+  ],
+  "memoryHook": "Mitteilen (formal: inform) → die Mitteilung.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ … mit (mitteilen)",
+      "answer": "teilt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: teilt … mit.",
+      "acceptedAnswers": [
+        "teilt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (mitteilen, past)",
+      "answer": "mitgeteilt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe mitgeteilt.",
+      "acceptedAnswers": [
+        "mitgeteilt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does mitteilen mean?",
+      "options": [
+        "the door",
+        "to inform",
+        "the street"
+      ],
+      "answer": "to inform",
+      "explanation": "mitteilen: to inform, tell.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Register:",
+      "options": [
+        "formal (letters)",
+        "slang"
+      ],
+      "answer": "formal (letters)",
+      "explanation": "Formal.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "The noun:",
+      "options": [
+        "die Mitteilung",
+        "das Mitteil"
+      ],
+      "answer": "die Mitteilung",
+      "explanation": "Message, notice.",
+      "id": "q5"
+    }
+  ]
+}

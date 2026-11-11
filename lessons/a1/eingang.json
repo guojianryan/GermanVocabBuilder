@@ -1,0 +1,147 @@
+{
+ "schemaVersion": "1.4",
+ "language": "de",
+ "explanationLanguage": "en",
+ "level": "A1",
+ "levelSource": "Goethe-Zertifikat A1 Wortliste",
+ "lessonType": "card",
+ "word": {
+  "headword": "Eingang",
+  "partOfSpeech": "noun, masculine (der Eingang)",
+  "pronunciation": {
+   "respelling": "INE-gang",
+   "ipa": "ˈaɪ̯nˌɡaŋ",
+   "notes": "Plural: die Eingänge."
+  },
+  "meaning": "entrance",
+  "shortDefinition": "Entrance."
+ },
+ "etymology": {
+  "title": "Where it comes from",
+  "parts": [
+   {
+    "part": "Ein",
+    "meaning": "in",
+    "emphasis": "arrive"
+   },
+   {
+    "part": "gang",
+    "meaning": "way, walk",
+    "note": "From gehen."
+   }
+  ],
+  "literalMeaning": "a way in"
+ },
+ "wordFamily": [
+  {
+   "german": "der Ausgang",
+   "english": "exit",
+   "type": "noun"
+  }
+ ],
+ "commonMistakes": [
+  {
+   "title": "Gender and plural",
+   "explanation": "Der Eingang, plural die Eingänge.",
+   "forms": [
+    {
+     "label": "One",
+     "value": "der Eingang"
+    },
+    {
+     "label": "More than one",
+     "value": "die Eingänge"
+    }
+   ]
+  }
+ ],
+ "sampleSentences": [
+  {
+   "german": "Der Eingang ist auf der anderen Seite.",
+   "english": "The entrance is on the other side.",
+   "highlight": [
+    "Eingang"
+   ]
+  },
+  {
+   "german": "Wir treffen uns am Eingang.",
+   "english": "Let's meet at the entrance.",
+   "highlight": [
+    "Eingang."
+   ]
+  },
+  {
+   "german": "Das Museum hat zwei Eingänge.",
+   "english": "The museum has two entrances.",
+   "highlight": [
+    "Eingänge."
+   ]
+  }
+ ],
+ "forms": [
+  "Eingänge",
+  "die Eingänge",
+  "der Eingang"
+ ],
+ "memoryHook": "Ein + Gang = way in. Aus + Gang = way out.",
+ "signOff": "Gut gemacht!",
+ "quiz": [
+  {
+   "type": "choice",
+   "prompt": "___ Eingang",
+   "options": [
+    "der",
+    "die",
+    "das"
+   ],
+   "answer": "der",
+   "explanation": "Eingang is masculine.",
+   "id": "q1"
+  },
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "ein Eingang, zwei ___",
+   "answer": "Eingänge",
+   "fullAnswer": "ein Eingang, zwei Eingänge",
+   "explanation": "The plural is Eingänge.",
+   "acceptedAnswers": [
+    "Eingaenge"
+   ],
+   "id": "q2"
+  },
+  {
+   "type": "choice",
+   "prompt": "What does Eingang mean?",
+   "options": [
+    "to sleep",
+    "entrance",
+    "the bed"
+   ],
+   "answer": "entrance",
+   "explanation": "Eingang: entrance.",
+   "id": "q3"
+  },
+  {
+   "type": "choice",
+   "prompt": "The opposite of der Eingang is…",
+   "options": [
+    "der Ausgang",
+    "der Anfang"
+   ],
+   "answer": "der Ausgang",
+   "explanation": "Ein = in, aus = out.",
+   "id": "q4"
+  },
+  {
+   "type": "choice",
+   "prompt": "Wir treffen uns ___ Eingang.",
+   "options": [
+    "am",
+    "im"
+   ],
+   "answer": "am",
+   "explanation": "At the entrance: am.",
+   "id": "q5"
+  }
+ ]
+}

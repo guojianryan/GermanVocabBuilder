@@ -1,0 +1,152 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Eigentümer",
+    "partOfSpeech": "noun, masculine (der Eigentümer)",
+    "pronunciation": {
+      "respelling": "EYE-gen-tü-mer",
+      "ipa": "ˈaɪ̯ɡn̩tyːmɐ",
+      "notes": "The plural looks the same. Plural: die Eigentümer."
+    },
+    "meaning": "owner, proprietor",
+    "shortDefinition": "Owner, proprietor."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Eigen",
+        "meaning": "own"
+      },
+      {
+        "part": "tüm",
+        "meaning": "-dom (Eigentum)"
+      },
+      {
+        "part": "er",
+        "meaning": "person"
+      }
+    ],
+    "literalMeaning": "one with property"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Eigentümer, plural die Eigentümer.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Eigentümer"
+        },
+        {
+          "label": "More than one",
+          "value": "die Eigentümer"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wer ist der Eigentümer des Hauses?",
+      "english": "Who owns the house?",
+      "highlight": [
+        "Eigentümer"
+      ]
+    },
+    {
+      "german": "Die Eigentümerin will verkaufen.",
+      "english": "The owner wants to sell.",
+      "highlight": [
+        "Eigentümerin"
+      ]
+    },
+    {
+      "german": "Der Hund hat einen neuen Eigentümer.",
+      "english": "The dog has a new owner.",
+      "highlight": [
+        "Eigentümer."
+      ]
+    }
+  ],
+  "forms": [
+    "Eigentum",
+    "Eigentümerin"
+  ],
+  "memoryHook": "Eigentum → der Eigentümer (= Besitzer).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Eigentümer",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Eigentümer is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Eigentümer, zwei ___",
+      "answer": "Eigentümer",
+      "fullAnswer": "ein Eigentümer, zwei Eigentümer",
+      "explanation": "The plural is Eigentümer.",
+      "acceptedAnswers": [
+        "Eigentuemer"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Eigentümer mean?",
+      "options": [
+        "owner",
+        "the child",
+        "tomorrow"
+      ],
+      "answer": "owner",
+      "explanation": "Eigentümer: owner, proprietor.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "das Eigentum (property)",
+        "eigen only"
+      ],
+      "answer": "das Eigentum (property)",
+      "explanation": "Property.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonym:",
+      "options": [
+        "der Besitzer",
+        "der Mieter"
+      ],
+      "answer": "der Besitzer",
+      "explanation": "Owner.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Opposite (housing):",
+      "options": [
+        "der Mieter (tenant)",
+        "der Käufer"
+      ],
+      "answer": "der Mieter (tenant)",
+      "explanation": "Tenant.",
+      "id": "q6"
+    }
+  ]
+}

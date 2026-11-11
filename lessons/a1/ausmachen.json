@@ -1,0 +1,185 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "ausmachen",
+    "partOfSpeech": "separable verb",
+    "pronunciation": {
+      "respelling": "OWS-makh-en",
+      "ipa": "ˈaʊ̯sˌmaxn̩",
+      "notes": ""
+    },
+    "meaning": "to turn off, to switch off; to arrange (a time)",
+    "shortDefinition": "To turn off, to switch off; to arrange (a time)."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "aus",
+        "meaning": "out, off"
+      },
+      {
+        "part": "machen",
+        "meaning": "to make, to do"
+      }
+    ],
+    "literalMeaning": "to make off"
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "mache … |aus"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "machst … |aus"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "macht … |aus"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "machen … |aus"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "macht … |aus"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "machen … |aus"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat ausgemacht"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "anmachen",
+      "english": "to turn on",
+      "type": "separable verb"
+    },
+    {
+      "german": "aus sein",
+      "english": "to be off",
+      "type": "phrase"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Mach bitte das Licht aus!",
+      "english": "Please turn off the light!",
+      "highlight": [
+        "Mach",
+        "aus!"
+      ]
+    },
+    {
+      "german": "Hast du den Herd ausgemacht?",
+      "english": "Did you turn off the cooker?",
+      "highlight": [
+        "ausgemacht?"
+      ]
+    },
+    {
+      "german": "Wir haben einen Termin ausgemacht.",
+      "english": "We've arranged an appointment.",
+      "highlight": [
+        "ausgemacht."
+      ]
+    }
+  ],
+  "forms": [
+    "mache aus",
+    "machst aus",
+    "macht aus",
+    "machen aus",
+    "ausgemacht"
+  ],
+  "memoryHook": "An = on, aus = off. Mach das Licht aus.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ … aus (ausmachen)",
+      "answer": "macht",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: macht … aus.",
+      "acceptedAnswers": [
+        "macht"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (ausmachen, past)",
+      "answer": "ausgemacht",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe ausgemacht.",
+      "acceptedAnswers": [
+        "ausgemacht"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does ausmachen mean?",
+      "options": [
+        "to turn off",
+        "to wait",
+        "to sleep"
+      ],
+      "answer": "to turn off",
+      "explanation": "ausmachen: to turn off, to switch off; to arrange (a time).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "The opposite of ausmachen is…",
+      "options": [
+        "anmachen",
+        "aufmachen"
+      ],
+      "answer": "anmachen",
+      "explanation": "Anmachen: turn on.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Einen Termin ausmachen means…",
+      "options": [
+        "to arrange an appointment",
+        "to cancel an appointment"
+      ],
+      "answer": "to arrange an appointment",
+      "explanation": "Ausmachen also means to agree on.",
+      "id": "q5"
+    }
+  ]
+}

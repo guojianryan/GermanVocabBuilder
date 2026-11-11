@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Liga",
+    "partOfSpeech": "noun, feminine (die Liga)",
+    "pronunciation": {
+      "respelling": "LEE-ga",
+      "ipa": "ˈliːɡa",
+      "notes": "Plural: die Ligen."
+    },
+    "meaning": "league",
+    "shortDefinition": "League."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Liga, plural die Ligen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Liga"
+        },
+        {
+          "label": "More than one",
+          "value": "die Ligen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Verein spielt in der ersten Liga.",
+      "english": "The club plays in the first division.",
+      "highlight": [
+        "Liga."
+      ]
+    },
+    {
+      "german": "Sie sind in eine höhere Liga aufgestiegen.",
+      "english": "They've been promoted to a higher league.",
+      "highlight": [
+        "Liga"
+      ]
+    },
+    {
+      "german": "Das ist eine andere Liga.",
+      "english": "That's in a different league.",
+      "highlight": [
+        "Liga."
+      ]
+    }
+  ],
+  "forms": [
+    "Bundesliga"
+  ],
+  "memoryHook": "Die Liga (die Ligen); Bundesliga.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Liga",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Liga is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Liga, zwei ___",
+      "answer": "Ligen",
+      "fullAnswer": "ein Liga, zwei Ligen",
+      "explanation": "The plural is Ligen.",
+      "acceptedAnswers": [
+        "Ligen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Liga mean?",
+      "options": [
+        "league",
+        "quiet",
+        "to wait"
+      ],
+      "answer": "league",
+      "explanation": "Liga: league.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Ligen",
+        "Ligas"
+      ],
+      "answer": "Ligen",
+      "explanation": "-a → -en.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'In einer anderen Liga spielen' means…",
+      "options": [
+        "to be in a different league",
+        "to change teams"
+      ],
+      "answer": "to be in a different league",
+      "explanation": "Idiom.",
+      "id": "q5"
+    }
+  ]
+}

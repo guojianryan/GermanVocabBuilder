@@ -1,0 +1,183 @@
+{
+ "schemaVersion": "1.4",
+ "language": "de",
+ "explanationLanguage": "en",
+ "level": "A2",
+ "levelSource": "Goethe-Zertifikat A2 Wortliste",
+ "lessonType": "card",
+ "word": {
+  "headword": "beenden",
+  "partOfSpeech": "verb",
+  "pronunciation": {
+   "respelling": "be-EN-den",
+   "ipa": "bəˈʔɛndn̩",
+   "notes": ""
+  },
+  "meaning": "to end, to finish (something)",
+  "shortDefinition": "To end, to finish (something)."
+ },
+ "tables": [
+  {
+   "title": "Present tense",
+   "columns": [
+    "present"
+   ],
+   "rows": [
+    {
+     "label": "ich",
+     "cells": [
+      "beend|e"
+     ]
+    },
+    {
+     "label": "du",
+     "cells": [
+      "beend|est"
+     ]
+    },
+    {
+     "label": "er, sie, es",
+     "cells": [
+      "beend|et"
+     ]
+    },
+    {
+     "label": "wir",
+     "cells": [
+      "beend|en"
+     ]
+    },
+    {
+     "label": "ihr",
+     "cells": [
+      "beend|et"
+     ]
+    },
+    {
+     "label": "sie, Sie",
+     "cells": [
+      "beend|en"
+     ]
+    }
+   ],
+   "notes": [
+    "Past (Perfekt): hat beendet"
+   ]
+  }
+ ],
+ "wordFamily": [
+  {
+   "german": "enden",
+   "english": "to end",
+   "type": "verb"
+  },
+  {
+   "german": "das Ende",
+   "english": "end",
+   "type": "noun"
+  }
+ ],
+ "sampleSentences": [
+  {
+   "german": "Du musst deine Ausbildung auf jeden Fall beenden.",
+   "english": "You definitely have to finish your training.",
+   "highlight": [
+    "beenden."
+   ]
+  },
+  {
+   "german": "Er beendet das Gespräch.",
+   "english": "He ends the conversation.",
+   "highlight": [
+    "beendet"
+   ]
+  },
+  {
+   "german": "Das Spiel ist beendet.",
+   "english": "The game is over.",
+   "highlight": [
+    "beendet."
+   ]
+  }
+ ],
+ "forms": [
+  "beende",
+  "beendest",
+  "beendet",
+  "beenden"
+ ],
+ "memoryHook": "Etwas beenden (you end it). Etwas endet (it ends).",
+ "signOff": "Gut gemacht!",
+ "quiz": [
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "er ___ (beenden)",
+   "answer": "beendet",
+   "fullAnswer": "",
+   "explanation": "For er, sie, es: beendet.",
+   "acceptedAnswers": [
+    "beendet"
+   ],
+   "id": "q1"
+  },
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "Ich habe schon ___. (beenden, past)",
+   "answer": "beendet",
+   "fullAnswer": "",
+   "explanation": "Perfekt: habe beendet.",
+   "acceptedAnswers": [
+    "beendet"
+   ],
+   "id": "q2"
+  },
+  {
+   "type": "choice",
+   "prompt": "What does beenden mean?",
+   "options": [
+    "to buy",
+    "to end",
+    "the shop"
+   ],
+   "answer": "to end",
+   "explanation": "beenden: to end, to finish (something).",
+   "id": "q3"
+  },
+  {
+   "type": "choice",
+   "prompt": "Enden or beenden? 'The film ends at 10':",
+   "options": [
+    "Der Film endet um 10.",
+    "Der Film beendet um 10."
+   ],
+   "answer": "Der Film endet um 10.",
+   "explanation": "By itself: enden. With an object: beenden.",
+   "id": "q4"
+  },
+  {
+   "type": "choice",
+   "prompt": "Beenden needs…",
+   "options": [
+    "an object",
+    "no object"
+   ],
+   "answer": "an object",
+   "explanation": "Etwas beenden.",
+   "id": "q5"
+  }
+ ],
+ "etymology": {
+  "title": "Where it comes from",
+  "parts": [
+   {
+    "part": "be",
+    "meaning": "prefix (acts on something)"
+   },
+   {
+    "part": "enden",
+    "meaning": "to end"
+   }
+  ],
+  "literalMeaning": "to end"
+ }
+}

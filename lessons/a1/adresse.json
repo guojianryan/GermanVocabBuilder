@@ -1,0 +1,125 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Adresse",
+    "partOfSpeech": "noun, feminine (die Adresse)",
+    "pronunciation": {
+      "respelling": "ah-DRESS-uh",
+      "ipa": "aˈdʁɛsə",
+      "notes": "Stress the second syllable. Plural: die Adressen."
+    },
+    "meaning": "address",
+    "shortDefinition": "Address."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Adresse, plural die Adressen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Adresse"
+        },
+        {
+          "label": "More than one",
+          "value": "die Adressen"
+        }
+      ]
+    },
+    {
+      "title": "Spelling",
+      "explanation": "One d, two s, final e.",
+      "wrong": "Addresse",
+      "correct": "Adresse"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wie ist Ihre Adresse?",
+      "english": "What's your address?",
+      "highlight": [
+        "Adresse?"
+      ]
+    },
+    {
+      "german": "Meine neue Adresse ist Lindenstraße 12.",
+      "english": "My new address is Lindenstraße 12.",
+      "highlight": [
+        "Adresse"
+      ]
+    },
+    {
+      "german": "Schick mir bitte deine E-Mail-Adresse.",
+      "english": "Please send me your email address.",
+      "highlight": [
+        "E-Mail-Adresse."
+      ]
+    }
+  ],
+  "forms": [
+    "Adressen"
+  ],
+  "memoryHook": "Adresse is English 'address' with one d and a German e on the end. Stress the middle: a-DRES-se.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Adresse",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Adresse is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Adresse, zwei ___",
+      "answer": "Adressen",
+      "fullAnswer": "ein Adresse, zwei Adressen",
+      "explanation": "The plural is Adressen.",
+      "acceptedAnswers": [
+        "Adressen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Where's the stress in Adresse?",
+      "options": [
+        "A-dresse",
+        "a-DRES-se"
+      ],
+      "answer": "a-DRES-se",
+      "explanation": "Unlike English, the stress is on the second syllable.",
+      "id": "q3"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Wie ist Ihre ___? (address)",
+      "answer": "Adresse",
+      "fullAnswer": "Wie ist Ihre Adresse?",
+      "explanation": "Adresse with double s and an e at the end.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Which spelling is correct?",
+      "options": [
+        "Adress",
+        "Adresse",
+        "Addresse"
+      ],
+      "answer": "Adresse",
+      "explanation": "One d, two s, and an e at the end.",
+      "id": "q5"
+    }
+  ]
+}

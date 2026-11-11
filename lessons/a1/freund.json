@@ -1,0 +1,148 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Freund",
+    "partOfSpeech": "noun, masculine (der Freund)",
+    "pronunciation": {
+      "respelling": "FROYNT",
+      "ipa": "fʁɔɪ̯nt",
+      "notes": "Plural: die Freunde."
+    },
+    "meaning": "friend; boyfriend",
+    "shortDefinition": "Friend; boyfriend."
+  },
+  "wordFamily": [
+    {
+      "german": "die Freundin",
+      "english": "(girl)friend",
+      "type": "noun"
+    },
+    {
+      "german": "freundlich",
+      "english": "friendly",
+      "type": "adjective"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Freund, plural die Freunde.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Freund"
+        },
+        {
+          "label": "More than one",
+          "value": "die Freunde"
+        }
+      ]
+    },
+    {
+      "title": "Friend or partner?",
+      "explanation": "Mein Freund often means boyfriend. Ein Freund von mir is just a friend.",
+      "examples": [
+        {
+          "german": "Das ist ein Freund von mir.",
+          "english": "That's a friend of mine.",
+          "highlight": "von"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das ist ein Freund von mir.",
+      "english": "This is a friend of mine.",
+      "highlight": [
+        "Freund"
+      ]
+    },
+    {
+      "german": "Meine Freundin heißt Sara.",
+      "english": "My girlfriend is called Sara.",
+      "highlight": [
+        "Freundin"
+      ]
+    },
+    {
+      "german": "Am Samstag treffe ich Freunde.",
+      "english": "On Saturday I'm meeting friends.",
+      "highlight": [
+        "Freunde."
+      ]
+    }
+  ],
+  "forms": [
+    "Freunde",
+    "Freundin",
+    "Freundinnen",
+    "der Freund"
+  ],
+  "memoryHook": "Careful: mein Freund / meine Freundin often means boyfriend / girlfriend. For just a friend: ein Freund von mir.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Freund",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Freund is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Freund, zwei ___",
+      "answer": "Freunde",
+      "fullAnswer": "ein Freund, zwei Freunde",
+      "explanation": "The plural is Freunde.",
+      "acceptedAnswers": [
+        "Freunde"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Freund mean?",
+      "options": [
+        "to sing",
+        "friend",
+        "the station"
+      ],
+      "answer": "friend",
+      "explanation": "Freund: friend; boyfriend.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Mein Freund' often means…",
+      "options": [
+        "my boyfriend",
+        "any friend"
+      ],
+      "answer": "my boyfriend",
+      "explanation": "For a friend, say 'ein Freund von mir'.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "A female friend is…",
+      "options": [
+        "die Freundin",
+        "die Freunde"
+      ],
+      "answer": "die Freundin",
+      "explanation": "Add -in.",
+      "id": "q5"
+    }
+  ]
+}

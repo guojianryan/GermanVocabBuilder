@@ -1,0 +1,234 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "full",
+  "word": {
+    "headword": "haben",
+    "partOfSpeech": "verb (also a helping verb)",
+    "pronunciation": {
+      "respelling": "HAH-ben",
+      "ipa": "ˈhaːbn̩",
+      "notes": "Long a."
+    },
+    "meaning": "to have",
+    "shortDefinition": "To have, and the helper for most past tenses."
+  },
+  "intro": {
+    "title": "Haben does double duty",
+    "paragraphs": [
+      "Haben means 'to have', and German uses it for things English says with 'be': Ich habe Hunger (I'm hungry), Ich habe Zeit (I'm free). It's also the helper verb for most past tenses: Ich habe gegessen."
+    ]
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "hab|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "ha|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "ha|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "hab|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "hab|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "hab|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Du hast and er hat lose the b.",
+        "Past (Perfekt): hat gehabt. Simple past: hatte."
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "Hunger / Durst haben",
+      "english": "to be hungry / thirsty",
+      "type": "phrases"
+    },
+    {
+      "german": "Zeit haben",
+      "english": "to be free, to have time",
+      "type": "phrase"
+    },
+    {
+      "german": "Geburtstag haben",
+      "english": "to have a birthday",
+      "type": "phrase"
+    },
+    {
+      "german": "sein",
+      "english": "to be",
+      "type": "verb"
+    }
+  ],
+  "keyTrap": {
+    "title": "The big trap: 'I am hungry'",
+    "explanation": "Hunger, thirst, fear, time and birthdays are things you 'have' in German.",
+    "wrong": {
+      "german": "Ich bin Hunger.",
+      "verdict": "You have hunger: Ich habe Hunger."
+    },
+    "correct": [
+      {
+        "german": "Ich habe Hunger.",
+        "literal": "I have hunger.",
+        "note": "Hungry."
+      },
+      {
+        "german": "Hast du morgen Zeit?",
+        "literal": "Have you tomorrow time?",
+        "note": "Are you free tomorrow?"
+      }
+    ]
+  },
+  "commonMistakes": [
+    {
+      "title": "haben or sein in the past?",
+      "explanation": "Most verbs use haben. Movement and change verbs use sein.",
+      "examples": [
+        {
+          "german": "Ich habe gegessen.",
+          "english": "I ate.",
+          "highlight": "habe"
+        },
+        {
+          "german": "Ich bin gefahren.",
+          "english": "I drove.",
+          "highlight": "bin"
+        }
+      ]
+    },
+    {
+      "title": "du hast, er hat",
+      "explanation": "No b in these two forms.",
+      "wrong": "Er habt ein Auto.",
+      "correct": "Er hat ein Auto."
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich habe zwei Kinder.",
+      "english": "I have two children.",
+      "highlight": [
+        "habe"
+      ]
+    },
+    {
+      "german": "Hast du einen Moment Zeit?",
+      "english": "Have you got a moment?",
+      "highlight": [
+        "Hast"
+      ]
+    },
+    {
+      "german": "Wir haben keine Milch mehr.",
+      "english": "We've run out of milk.",
+      "highlight": [
+        "haben"
+      ]
+    },
+    {
+      "german": "Er hat gestern lange gearbeitet.",
+      "english": "He worked late yesterday.",
+      "highlight": [
+        "hat"
+      ]
+    }
+  ],
+  "forms": [
+    "habe",
+    "hast",
+    "hat",
+    "habt",
+    "gehabt",
+    "hatte",
+    "hatten",
+    "hab"
+  ],
+  "memoryHook": "Haben = have. Hunger, Durst, Zeit: you have them. Most past tenses: habe + participle.",
+  "signOff": "Hab einen schönen Tag!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Er ___ ein Auto. (haben)",
+      "answer": "hat",
+      "fullAnswer": "Er hat ein Auto.",
+      "explanation": "Er hat.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "'I'm thirsty' is…",
+      "options": [
+        "Ich habe Durst.",
+        "Ich bin Durst."
+      ],
+      "answer": "Ich habe Durst.",
+      "explanation": "You have thirst.",
+      "id": "q2"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Du ___ Glück! (haben)",
+      "answer": "hast",
+      "fullAnswer": "Du hast Glück!",
+      "explanation": "Du hast.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich ___ Pizza gegessen.",
+      "options": [
+        "habe",
+        "bin"
+      ],
+      "answer": "habe",
+      "explanation": "Essen uses haben.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Hast du morgen Zeit?' asks…",
+      "options": [
+        "Are you free tomorrow?",
+        "Do you have a watch?"
+      ],
+      "answer": "Are you free tomorrow?",
+      "explanation": "Zeit haben.",
+      "id": "q5"
+    }
+  ]
+}

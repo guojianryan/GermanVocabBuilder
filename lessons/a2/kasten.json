@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Momente A2.2 Kursbuch Glossar",
+  "lessonType": "card",
+  "word": {
+    "headword": "Kasten",
+    "partOfSpeech": "noun, masculine (der Kasten)",
+    "pronunciation": {
+      "respelling": "KAS-ten",
+      "ipa": "ˈkastn̩",
+      "notes": "Plural: die Kästen."
+    },
+    "meaning": "box; crate",
+    "shortDefinition": "Box; crate."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Kasten, plural die Kästen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Kasten"
+        },
+        {
+          "label": "More than one",
+          "value": "die Kästen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ein Kasten Bier, bitte.",
+      "english": "A crate of beer, please.",
+      "highlight": [
+        "Kasten"
+      ]
+    },
+    {
+      "german": "Die Werkzeuge sind im Kasten.",
+      "english": "The tools are in the box.",
+      "highlight": [
+        "Kasten."
+      ]
+    },
+    {
+      "german": "Wirf den Brief in den Briefkasten.",
+      "english": "Put the letter in the postbox.",
+      "highlight": [
+        "Briefkasten."
+      ]
+    }
+  ],
+  "forms": [
+    "Kästen",
+    "die Kästen",
+    "der Kasten"
+  ],
+  "memoryHook": "Der Kasten (box, crate). Briefkasten.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Kasten",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Kasten is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Kasten, zwei ___",
+      "answer": "Kästen",
+      "fullAnswer": "ein Kasten, zwei Kästen",
+      "explanation": "The plural is Kästen.",
+      "acceptedAnswers": [
+        "Kaesten"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Kasten mean?",
+      "options": [
+        "the evening",
+        "box",
+        "to wait"
+      ],
+      "answer": "box",
+      "explanation": "Kasten: box; crate.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Ein Kasten Wasser' is…",
+      "options": [
+        "a crate of bottles",
+        "a tank"
+      ],
+      "answer": "a crate of bottles",
+      "explanation": "Drinks crate.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Kästen",
+        "Kasten"
+      ],
+      "answer": "Kästen",
+      "explanation": "a → ä.",
+      "id": "q5"
+    }
+  ]
+}

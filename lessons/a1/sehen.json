@@ -1,0 +1,173 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "sehen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "ZAY-en",
+      "ipa": "ˈzeːən",
+      "notes": ""
+    },
+    "meaning": "to see; to watch",
+    "shortDefinition": "To see; to watch."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "seh|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "s|ie|hst"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "s|ie|ht"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "seh|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "seh|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "seh|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gesehen",
+        "E → ie for du and er."
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "fernsehen",
+      "english": "to watch TV",
+      "type": "separable verb"
+    },
+    {
+      "german": "aussehen",
+      "english": "to look",
+      "type": "separable verb"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich sehe dich morgen.",
+      "english": "I'll see you tomorrow.",
+      "highlight": [
+        "sehe"
+      ]
+    },
+    {
+      "german": "Siehst du das Schild?",
+      "english": "Can you see the sign?",
+      "highlight": [
+        "Siehst"
+      ]
+    },
+    {
+      "german": "Hast du den Film gesehen?",
+      "english": "Have you seen the film?",
+      "highlight": [
+        "gesehen?"
+      ]
+    }
+  ],
+  "forms": [
+    "sehe",
+    "siehst",
+    "sieht",
+    "sehen",
+    "seht",
+    "gesehen",
+    "sah"
+  ],
+  "memoryHook": "Sehen: du siehst, er sieht. Fernsehen, aussehen, Wiedersehen all build on it.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (sehen)",
+      "answer": "sieht",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: sieht.",
+      "acceptedAnswers": [
+        "sieht"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (sehen, past)",
+      "answer": "gesehen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gesehen.",
+      "acceptedAnswers": [
+        "gesehen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does sehen mean?",
+      "options": [
+        "to see",
+        "to wait",
+        "the evening"
+      ],
+      "answer": "to see",
+      "explanation": "sehen: to see; to watch.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Er ___ fern.",
+      "options": [
+        "seht",
+        "sieht"
+      ],
+      "answer": "sieht",
+      "explanation": "E → ie.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Auf Wiedersehen' contains…",
+      "options": [
+        "sehen (see again)",
+        "sagen"
+      ],
+      "answer": "sehen (see again)",
+      "explanation": "Until we see each other again.",
+      "id": "q5"
+    }
+  ]
+}

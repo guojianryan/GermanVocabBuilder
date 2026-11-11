@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Moment",
+    "partOfSpeech": "noun, masculine (der Moment)",
+    "pronunciation": {
+      "respelling": "moh-MENT",
+      "ipa": "moˈmɛnt",
+      "notes": "Plural: die Momente."
+    },
+    "meaning": "moment",
+    "shortDefinition": "Moment."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Moment, plural die Momente.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Moment"
+        },
+        {
+          "label": "More than one",
+          "value": "die Momente"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Einen Moment, bitte!",
+      "english": "Just a moment, please!",
+      "highlight": [
+        "Moment,"
+      ]
+    },
+    {
+      "german": "Im Moment habe ich keine Zeit.",
+      "english": "I don't have time at the moment.",
+      "highlight": [
+        "Moment"
+      ]
+    },
+    {
+      "german": "Moment mal, das stimmt nicht!",
+      "english": "Hang on, that's not right!",
+      "highlight": [
+        "Moment"
+      ]
+    }
+  ],
+  "forms": [
+    "Momente",
+    "die Momente",
+    "der Moment"
+  ],
+  "memoryHook": "Einen Moment, bitte! = one moment, please. Im Moment = currently. Moment mal! = hang on!",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Moment",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Moment is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Moment, zwei ___",
+      "answer": "Momente",
+      "fullAnswer": "ein Moment, zwei Momente",
+      "explanation": "The plural is Momente.",
+      "acceptedAnswers": [
+        "Momente"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Moment mean?",
+      "options": [
+        "moment",
+        "the child",
+        "to travel"
+      ],
+      "answer": "moment",
+      "explanation": "Moment: moment.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Im Moment' means…",
+      "options": [
+        "at the moment",
+        "in a moment"
+      ],
+      "answer": "at the moment",
+      "explanation": "Currently.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "On the phone: 'Einen ___, bitte.'",
+      "options": [
+        "Moment",
+        "Minute"
+      ],
+      "answer": "Moment",
+      "explanation": "One moment, please.",
+      "id": "q5"
+    }
+  ]
+}

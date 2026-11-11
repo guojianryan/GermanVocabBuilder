@@ -1,0 +1,118 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Stress",
+    "partOfSpeech": "noun, masculine (der Stress)",
+    "pronunciation": {
+      "respelling": "SHTRES",
+      "ipa": "ʃtʁɛs",
+      "notes": "Usually no plural."
+    },
+    "meaning": "stress",
+    "shortDefinition": "Stress."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Stress, usually no plural.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Stress"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich habe zurzeit viel Stress.",
+      "english": "I'm under a lot of stress at the moment.",
+      "highlight": [
+        "Stress."
+      ]
+    },
+    {
+      "german": "Mach dir keinen Stress!",
+      "english": "Don't stress!",
+      "highlight": [
+        "Stress!"
+      ]
+    },
+    {
+      "german": "Der Stress bei der Arbeit ist zu viel.",
+      "english": "The stress at work is too much.",
+      "highlight": [
+        "Stress"
+      ]
+    }
+  ],
+  "forms": [
+    "gestresst"
+  ],
+  "memoryHook": "Stress haben. Ich bin gestresst.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Stress",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Stress is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Stress mean?",
+      "options": [
+        "always",
+        "stress",
+        "the evening"
+      ],
+      "answer": "stress",
+      "explanation": "Stress: stress.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "'I'm stressed':",
+      "options": [
+        "Ich habe Stress. / Ich bin gestresst.",
+        "Ich bin Stress."
+      ],
+      "answer": "Ich habe Stress. / Ich bin gestresst.",
+      "explanation": "Haben or gestresst.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "St sounds like…",
+      "options": [
+        "sht (usually)",
+        "st"
+      ],
+      "answer": "sht (usually)",
+      "explanation": "SHTRES.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Mach dir keinen Stress' means…",
+      "options": [
+        "Don't worry about it!",
+        "Don't stress me!"
+      ],
+      "answer": "Don't worry about it!",
+      "explanation": "Relax.",
+      "id": "q5"
+    }
+  ]
+}

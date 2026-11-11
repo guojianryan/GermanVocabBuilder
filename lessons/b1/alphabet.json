@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Alphabet",
+    "partOfSpeech": "noun, neuter (das Alphabet)",
+    "pronunciation": {
+      "respelling": "al-fa-BAYT",
+      "ipa": "alfaˈbeːt",
+      "notes": "Plural: die Alphabete."
+    },
+    "meaning": "alphabet",
+    "shortDefinition": "Alphabet."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Alphabet, plural die Alphabete.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Alphabet"
+        },
+        {
+          "label": "More than one",
+          "value": "die Alphabete"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das deutsche Alphabet hat 26 Buchstaben – plus ä, ö, ü und ß.",
+      "english": "The German alphabet has 26 letters – plus ä, ö, ü and ß.",
+      "highlight": [
+        "Alphabet"
+      ]
+    },
+    {
+      "german": "Sortieren Sie die Wörter nach dem Alphabet.",
+      "english": "Sort the words alphabetically.",
+      "highlight": [
+        "Alphabet."
+      ]
+    },
+    {
+      "german": "Mein Sohn lernt gerade das Alphabet.",
+      "english": "My son is learning the alphabet.",
+      "highlight": [
+        "Alphabet."
+      ]
+    }
+  ],
+  "forms": [
+    "alphabetisch"
+  ],
+  "memoryHook": "Das Alphabet (stress at the end): A, B, C… plus Ä, Ö, Ü, ß.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Alphabet",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Alphabet is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Alphabet, zwei ___",
+      "answer": "Alphabete",
+      "fullAnswer": "ein Alphabet, zwei Alphabete",
+      "explanation": "The plural is Alphabete.",
+      "acceptedAnswers": [
+        "Alphabete"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Alphabet mean?",
+      "options": [
+        "to travel",
+        "alphabet",
+        "the bread"
+      ],
+      "answer": "alphabet",
+      "explanation": "Alphabet: alphabet.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Alphabetically':",
+      "options": [
+        "alphabetisch / nach dem Alphabet",
+        "alphabetlich"
+      ],
+      "answer": "alphabetisch / nach dem Alphabet",
+      "explanation": "Both.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ph sounds like…",
+      "options": [
+        "f",
+        "p"
+      ],
+      "answer": "f",
+      "explanation": "al-fa-BAYT.",
+      "id": "q5"
+    }
+  ]
+}

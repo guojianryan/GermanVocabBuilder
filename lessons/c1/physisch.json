@@ -1,0 +1,106 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "physisch",
+    "partOfSpeech": "adjective",
+    "pronunciation": {
+      "respelling": "FÜ-zish",
+      "ipa": "ˈfyːzɪʃ",
+      "notes": ""
+    },
+    "meaning": "physical",
+    "shortDefinition": "Physical."
+  },
+  "sampleSentences": [
+    {
+      "german": "Die Arbeit ist physisch anstrengend.",
+      "english": "The work is physically demanding.",
+      "highlight": [
+        "physisch"
+      ]
+    },
+    {
+      "german": "Physische und psychische Gesundheit.",
+      "english": "Physical and mental health.",
+      "highlight": [
+        "Physische"
+      ]
+    },
+    {
+      "german": "Er war physisch anwesend.",
+      "english": "He was physically present.",
+      "highlight": [
+        "physisch"
+      ]
+    }
+  ],
+  "forms": [
+    "körperlich",
+    "physikalisch"
+  ],
+  "memoryHook": "Physisch = körperlich ↔ psychisch (≠ physikalisch).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does physisch mean?",
+      "options": [
+        "slowly",
+        "physical",
+        "never"
+      ],
+      "answer": "physical",
+      "explanation": "physisch: physical.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Opposite:",
+      "options": [
+        "psychisch",
+        "physikalisch"
+      ],
+      "answer": "psychisch",
+      "explanation": "Mental.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Physisch vs physikalisch:",
+      "options": [
+        "bodily vs of physics",
+        "same"
+      ],
+      "answer": "bodily vs of physics",
+      "explanation": "Different.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Everyday synonym:",
+      "options": [
+        "körperlich",
+        "geistig"
+      ],
+      "answer": "körperlich",
+      "explanation": "Bodily.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "___ Gewalt. (physical)",
+      "answer": "Physische",
+      "fullAnswer": "Physische Gewalt.",
+      "explanation": "Physische.",
+      "acceptedAnswers": [
+        "Körperliche"
+      ],
+      "id": "q5"
+    }
+  ]
+}

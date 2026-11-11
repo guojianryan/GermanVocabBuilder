@@ -1,0 +1,185 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "vermieten",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "fair-MEE-ten",
+      "ipa": "fɛɐ̯ˈmiːtn̩",
+      "notes": ""
+    },
+    "meaning": "to rent out, to let",
+    "shortDefinition": "To rent out, to let."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "ver",
+        "meaning": "prefix: away, giving up"
+      },
+      {
+        "part": "mieten",
+        "meaning": "to rent"
+      }
+    ],
+    "literalMeaning": "to rent out"
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "vermiet|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "vermiet|est"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "vermiet|et"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "vermiet|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "vermiet|et"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "vermiet|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat vermietet",
+        "The stem ends in -t, so du and er add an e."
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "mieten",
+      "english": "to rent",
+      "type": "verb"
+    },
+    {
+      "german": "der Vermieter",
+      "english": "landlord",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir vermieten ein Zimmer.",
+      "english": "We're letting a room.",
+      "highlight": [
+        "vermieten"
+      ]
+    },
+    {
+      "german": "Zimmer zu vermieten.",
+      "english": "Room to let.",
+      "highlight": [
+        "vermieten."
+      ]
+    },
+    {
+      "german": "Der Vermieter wohnt im Erdgeschoss.",
+      "english": "The landlord lives on the ground floor.",
+      "highlight": [
+        "Vermieter"
+      ]
+    }
+  ],
+  "forms": [
+    "vermiete",
+    "vermietest",
+    "vermietet",
+    "vermieten",
+    "Vermieter"
+  ],
+  "memoryHook": "Vermieten = rent out (landlord, der Vermieter). Mieten = rent (tenant, der Mieter).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (vermieten)",
+      "answer": "vermietet",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: vermietet.",
+      "acceptedAnswers": [
+        "vermietet"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (vermieten, past)",
+      "answer": "vermietet",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe vermietet.",
+      "acceptedAnswers": [
+        "vermietet"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does vermieten mean?",
+      "options": [
+        "the flower",
+        "to rent out",
+        "to wait"
+      ],
+      "answer": "to rent out",
+      "explanation": "vermieten: to rent out, to let.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Mieten vs vermieten:",
+      "options": [
+        "tenant rents / landlord rents out",
+        "the same"
+      ],
+      "answer": "tenant rents / landlord rents out",
+      "explanation": "Ver- = out.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Der Vermieter is…",
+      "options": [
+        "the landlord",
+        "the tenant"
+      ],
+      "answer": "the landlord",
+      "explanation": "Tenant: Mieter.",
+      "id": "q5"
+    }
+  ]
+}

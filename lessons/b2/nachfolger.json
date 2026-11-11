@@ -1,0 +1,141 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Nachfolger",
+    "partOfSpeech": "noun, masculine (der Nachfolger)",
+    "pronunciation": {
+      "respelling": "NAAKH-fol-ger",
+      "ipa": "ˈnaːxˌfɔlɡɐ",
+      "notes": "The plural looks the same. Plural: die Nachfolger."
+    },
+    "meaning": "successor",
+    "shortDefinition": "Successor."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Nach",
+        "meaning": "after"
+      },
+      {
+        "part": "folg",
+        "meaning": "follow"
+      },
+      {
+        "part": "er",
+        "meaning": "person who does it"
+      }
+    ],
+    "literalMeaning": "one who follows after"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Nachfolger, plural die Nachfolger.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Nachfolger"
+        },
+        {
+          "label": "More than one",
+          "value": "die Nachfolger"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wer wird sein Nachfolger?",
+      "english": "Who will be his successor?",
+      "highlight": [
+        "Nachfolger?"
+      ]
+    },
+    {
+      "german": "Sie ist die Nachfolgerin der Chefin.",
+      "english": "She's the boss's successor.",
+      "highlight": [
+        "Nachfolgerin"
+      ]
+    },
+    {
+      "german": "Das Modell hat einen Nachfolger.",
+      "english": "The model has a successor.",
+      "highlight": [
+        "Nachfolger."
+      ]
+    }
+  ],
+  "forms": [
+    "Nachfolgerin",
+    "Vorgänger"
+  ],
+  "memoryHook": "Nach + folgen → der Nachfolger ↔ Vorgänger.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Nachfolger",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Nachfolger is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Nachfolger, zwei ___",
+      "answer": "Nachfolger",
+      "fullAnswer": "ein Nachfolger, zwei Nachfolger",
+      "explanation": "The plural is Nachfolger.",
+      "acceptedAnswers": [
+        "Nachfolger"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Nachfolger mean?",
+      "options": [
+        "successor",
+        "the bed",
+        "the street"
+      ],
+      "answer": "successor",
+      "explanation": "Nachfolger: successor.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "nachfolgen (succeed, follow)",
+        "folgen only"
+      ],
+      "answer": "nachfolgen (succeed, follow)",
+      "explanation": "Follow.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Opposite:",
+      "options": [
+        "der Vorgänger",
+        "der Nachkomme"
+      ],
+      "answer": "der Vorgänger",
+      "explanation": "Predecessor.",
+      "id": "q5"
+    }
+  ]
+}

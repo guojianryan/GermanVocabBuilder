@@ -1,0 +1,141 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Erreger",
+    "partOfSpeech": "noun, masculine (der Erreger)",
+    "pronunciation": {
+      "respelling": "er-RAY-ger",
+      "ipa": "ɛɐ̯ˈʁeːɡɐ",
+      "notes": "The plural looks the same. Plural: die Erreger."
+    },
+    "meaning": "pathogen, germ",
+    "shortDefinition": "Pathogen, germ."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Er",
+        "meaning": "prefix"
+      },
+      {
+        "part": "reg",
+        "meaning": "stir (regen)"
+      },
+      {
+        "part": "er",
+        "meaning": "thing that does it"
+      }
+    ],
+    "literalMeaning": "that which stirs up (disease)"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Erreger, plural die Erreger.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Erreger"
+        },
+        {
+          "label": "More than one",
+          "value": "die Erreger"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Erreger wurde im Labor gefunden.",
+      "english": "The pathogen was found in the lab.",
+      "highlight": [
+        "Erreger"
+      ]
+    },
+    {
+      "german": "Viren und Bakterien sind Erreger.",
+      "english": "Viruses and bacteria are pathogens.",
+      "highlight": [
+        "Erreger."
+      ]
+    },
+    {
+      "german": "Der Erreger ist sehr ansteckend.",
+      "english": "The germ is highly contagious.",
+      "highlight": [
+        "Erreger"
+      ]
+    }
+  ],
+  "forms": [
+    "erregen",
+    "Krankheitserreger"
+  ],
+  "memoryHook": "Erregen → der (Krankheits)erreger.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Erreger",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Erreger is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Erreger, zwei ___",
+      "answer": "Erreger",
+      "fullAnswer": "ein Erreger, zwei Erreger",
+      "explanation": "The plural is Erreger.",
+      "acceptedAnswers": [
+        "Erreger"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Erreger mean?",
+      "options": [
+        "pathogen",
+        "the door",
+        "always"
+      ],
+      "answer": "pathogen",
+      "explanation": "Erreger: pathogen, germ.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "erregen (cause, arouse)",
+        "Regen"
+      ],
+      "answer": "erregen (cause, arouse)",
+      "explanation": "Cause.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Full term:",
+      "options": [
+        "der Krankheitserreger",
+        "der Krankerreger"
+      ],
+      "answer": "der Krankheitserreger",
+      "explanation": "Compound.",
+      "id": "q5"
+    }
+  ]
+}

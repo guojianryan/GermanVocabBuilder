@@ -1,0 +1,160 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "heißen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "HY-sen",
+      "ipa": "ˈhaɪ̯sn̩",
+      "notes": ""
+    },
+    "meaning": "to be called; to mean",
+    "shortDefinition": "To be called; to mean."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "heiß|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "heiß|t"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "heiß|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "heiß|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "heiß|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "heiß|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat geheißen",
+        "Du heißt: the stem ends in ß, so du only adds -t."
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wie heißen Sie? – Ich heiße Maria.",
+      "english": "What's your name? – My name's Maria.",
+      "highlight": [
+        "heißen",
+        "heiße"
+      ]
+    },
+    {
+      "german": "Wie heißt das auf Deutsch?",
+      "english": "What's that called in German?",
+      "highlight": [
+        "heißt"
+      ]
+    },
+    {
+      "german": "Was heißt 'Gleis'?",
+      "english": "What does 'Gleis' mean?",
+      "highlight": [
+        "heißt"
+      ]
+    }
+  ],
+  "forms": [
+    "heiße",
+    "heißt",
+    "heißen",
+    "geheißen",
+    "hieß"
+  ],
+  "memoryHook": "Wie heißt du? = What's your name? Don't confuse with heiß (hot). Was heißt …? = What does … mean?",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (heißen)",
+      "answer": "heißt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: heißt.",
+      "acceptedAnswers": [
+        "heisst"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (heißen, past)",
+      "answer": "geheißen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe geheißen.",
+      "acceptedAnswers": [
+        "geheissen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does heißen mean?",
+      "options": [
+        "the bread",
+        "to be called",
+        "to sleep"
+      ],
+      "answer": "to be called",
+      "explanation": "heißen: to be called; to mean.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Du ___ Tom, oder?",
+      "options": [
+        "heißst",
+        "heißt"
+      ],
+      "answer": "heißt",
+      "explanation": "The stem ends in ß, so du just adds -t.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Wie heißt du?' asks…",
+      "options": [
+        "your name",
+        "how hot you are"
+      ],
+      "answer": "your name",
+      "explanation": "Heißen ≠ heiß (hot).",
+      "id": "q5"
+    }
+  ]
+}

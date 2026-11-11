@@ -1,0 +1,171 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "rechnen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "REKH-nen",
+      "ipa": "ˈʁɛçnən",
+      "notes": ""
+    },
+    "meaning": "to calculate; to count on",
+    "shortDefinition": "To calculate; to count on."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "rechn|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "rechn|est"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "rechn|et"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "rechn|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "rechn|et"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "rechn|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gerechnet"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "die Rechnung",
+      "english": "bill",
+      "type": "noun"
+    },
+    {
+      "german": "der Rechner",
+      "english": "calculator, computer",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Kannst du im Kopf rechnen?",
+      "english": "Can you do mental arithmetic?",
+      "highlight": [
+        "rechnen?"
+      ]
+    },
+    {
+      "german": "Wir rechnen mit 50 Gästen.",
+      "english": "We're expecting 50 guests.",
+      "highlight": [
+        "rechnen",
+        "mit"
+      ]
+    },
+    {
+      "german": "Damit habe ich nicht gerechnet.",
+      "english": "I didn't expect that.",
+      "highlight": [
+        "gerechnet."
+      ]
+    }
+  ],
+  "forms": [
+    "rechne",
+    "rechnest",
+    "rechnet",
+    "rechnen",
+    "gerechnet"
+  ],
+  "memoryHook": "Rechnen = calculate. Rechnen mit = expect. Die Rechnung = bill.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (rechnen)",
+      "answer": "rechnet",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: rechnet.",
+      "acceptedAnswers": [
+        "rechnet"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (rechnen, past)",
+      "answer": "gerechnet",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gerechnet.",
+      "acceptedAnswers": [
+        "gerechnet"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does rechnen mean?",
+      "options": [
+        "the car",
+        "the family",
+        "to calculate"
+      ],
+      "answer": "to calculate",
+      "explanation": "rechnen: to calculate; to count on.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Rechnen mit' means…",
+      "options": [
+        "to expect, count on",
+        "to calculate with a computer"
+      ],
+      "answer": "to expect, count on",
+      "explanation": "Mit.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Du ___ gut.",
+      "options": [
+        "rechnest",
+        "rechnst"
+      ],
+      "answer": "rechnest",
+      "explanation": "Add -e-.",
+      "id": "q5"
+    }
+  ]
+}

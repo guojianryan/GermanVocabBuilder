@@ -1,0 +1,107 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "leider",
+    "partOfSpeech": "adverb",
+    "pronunciation": {
+      "respelling": "LY-der",
+      "ipa": "ˈlaɪ̯dɐ",
+      "notes": ""
+    },
+    "meaning": "unfortunately, I'm afraid",
+    "shortDefinition": "Unfortunately, I'm afraid."
+  },
+  "wordFamily": [
+    {
+      "german": "zum Glück",
+      "english": "luckily",
+      "type": "phrase"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Leider habe ich keine Zeit.",
+      "english": "Unfortunately I don't have time.",
+      "highlight": [
+        "Leider"
+      ]
+    },
+    {
+      "german": "Das geht leider nicht.",
+      "english": "I'm afraid that's not possible.",
+      "highlight": [
+        "leider"
+      ]
+    },
+    {
+      "german": "Kommst du? – Leider nicht.",
+      "english": "Are you coming? – Sadly not.",
+      "highlight": [
+        "Leider"
+      ]
+    }
+  ],
+  "forms": [],
+  "memoryHook": "Leider = unfortunately. Germans soften every 'no' with it: Leider nicht.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does leider mean?",
+      "options": [
+        "the window",
+        "the weather",
+        "unfortunately"
+      ],
+      "answer": "unfortunately",
+      "explanation": "leider: unfortunately, I'm afraid.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Leider nicht' means…",
+      "options": [
+        "Unfortunately not",
+        "Luckily not"
+      ],
+      "answer": "Unfortunately not",
+      "explanation": "Polite no.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "The opposite (luckily) is…",
+      "options": [
+        "zum Glück",
+        "gern"
+      ],
+      "answer": "zum Glück",
+      "explanation": "Zum Glück.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "Leider ich kann nicht.",
+        "Leider kann ich nicht."
+      ],
+      "answer": "Leider kann ich nicht.",
+      "explanation": "Verb second.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe ___ keine Zeit. (unfortunately)",
+      "answer": "leider",
+      "fullAnswer": "Ich habe leider keine Zeit.",
+      "explanation": "Leider.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "arbeiten",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "AR-by-ten",
+      "ipa": "ˈaʁbaɪ̯tn̩",
+      "notes": ""
+    },
+    "meaning": "to work",
+    "shortDefinition": "To work."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "arbeit",
+        "meaning": "work",
+        "note": "Die Arbeit."
+      },
+      {
+        "part": "en",
+        "meaning": "verb ending"
+      }
+    ],
+    "literalMeaning": "to work"
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "arbeit|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "arbeit|est"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "arbeit|et"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "arbeit|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "arbeit|et"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "arbeit|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gearbeitet",
+        "The stem ends in -t, so du and er add an extra e."
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "die Arbeit",
+      "english": "work, job",
+      "type": "noun"
+    },
+    {
+      "german": "arbeitslos",
+      "english": "unemployed",
+      "type": "adjective"
+    },
+    {
+      "german": "der Arbeitsplatz",
+      "english": "workplace",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "als and bei",
+      "explanation": "Als + job (no article); bei + employer.",
+      "wrong": "Ich arbeite als ein Arzt.",
+      "correct": "Ich arbeite als Arzt."
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wo arbeiten Sie?",
+      "english": "Where do you work?",
+      "highlight": [
+        "arbeiten"
+      ]
+    },
+    {
+      "german": "Ich arbeite als Krankenpfleger.",
+      "english": "I work as a nurse.",
+      "highlight": [
+        "arbeite",
+        "als"
+      ]
+    },
+    {
+      "german": "Sie arbeitet bei einer Bank.",
+      "english": "She works at a bank.",
+      "highlight": [
+        "arbeitet",
+        "bei"
+      ]
+    },
+    {
+      "german": "Mein Bruder sucht Arbeit.",
+      "english": "My brother is looking for work.",
+      "highlight": [
+        "Arbeit."
+      ]
+    }
+  ],
+  "forms": [
+    "arbeite",
+    "arbeitest",
+    "arbeitet",
+    "gearbeitet",
+    "Arbeit"
+  ],
+  "memoryHook": "Ich arbeite als (job) bei (company). As a teacher, at Siemens: als Lehrer, bei Siemens.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Ich arbeite ___ Lehrerin.",
+      "options": [
+        "als",
+        "wie"
+      ],
+      "answer": "als",
+      "explanation": "Your job: als, no article.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Er arbeitet ___ Siemens.",
+      "options": [
+        "bei",
+        "in",
+        "an"
+      ],
+      "answer": "bei",
+      "explanation": "Your employer: bei.",
+      "id": "q2"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Sie ___ in einem Hotel. (arbeiten)",
+      "answer": "arbeitet",
+      "fullAnswer": "Sie arbeitet in einem Hotel.",
+      "explanation": "The stem ends in -t, so sie adds -et.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "___ Arbeit",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Die Arbeit, plural die Arbeiten.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Gestern habe ich zehn Stunden ___.",
+      "answer": "gearbeitet",
+      "fullAnswer": "Gestern habe ich zehn Stunden gearbeitet.",
+      "explanation": "Ge-arbeit-et.",
+      "id": "q5"
+    }
+  ]
+}

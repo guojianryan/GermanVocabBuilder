@@ -1,0 +1,172 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "full",
+  "word": {
+    "headword": "noch",
+    "partOfSpeech": "adverb",
+    "pronunciation": {
+      "respelling": "NOKH",
+      "ipa": "nɔx",
+      "notes": "Short o, throaty ch."
+    },
+    "meaning": "still; yet; another, more",
+    "shortDefinition": "Something continuing, or something extra."
+  },
+  "intro": {
+    "title": "Noch ein Bier?",
+    "paragraphs": [
+      "Noch has three everyday jobs: still (Er schläft noch), not yet (noch nicht), and another/more (noch ein Kaffee, noch etwas?)."
+    ]
+  },
+  "wordFamily": [
+    {
+      "german": "noch nicht",
+      "english": "not yet",
+      "type": "phrase"
+    },
+    {
+      "german": "noch einmal",
+      "english": "once more",
+      "type": "phrase"
+    },
+    {
+      "german": "immer noch",
+      "english": "still",
+      "type": "phrase"
+    },
+    {
+      "german": "schon",
+      "english": "already",
+      "type": "adverb"
+    }
+  ],
+  "keyTrap": {
+    "title": "The big trap: noch nicht vs nicht mehr",
+    "explanation": "Noch nicht = not yet (it will happen). Nicht mehr = no longer (it's over).",
+    "wrong": {
+      "german": "Er ist nicht mehr da. (meaning: hasn't arrived yet)",
+      "verdict": "That means he's gone."
+    },
+    "correct": [
+      {
+        "german": "Er ist noch nicht da.",
+        "literal": "He is still not there.",
+        "note": "Not yet."
+      },
+      {
+        "german": "Er ist nicht mehr da.",
+        "literal": "He is not more there.",
+        "note": "No longer."
+      }
+    ]
+  },
+  "commonMistakes": [
+    {
+      "title": "Another one",
+      "explanation": "Noch + ein = another.",
+      "examples": [
+        {
+          "german": "Noch ein Bier, bitte!",
+          "english": "Another beer, please!",
+          "highlight": "Noch"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Bist du noch im Büro?",
+      "english": "Are you still at the office?",
+      "highlight": [
+        "noch"
+      ]
+    },
+    {
+      "german": "Ich habe noch nicht gegessen.",
+      "english": "I haven't eaten yet.",
+      "highlight": [
+        "noch"
+      ]
+    },
+    {
+      "german": "Möchten Sie noch etwas?",
+      "english": "Would you like anything else?",
+      "highlight": [
+        "noch"
+      ]
+    },
+    {
+      "german": "Sagen Sie das bitte noch einmal.",
+      "english": "Please say that again.",
+      "highlight": [
+        "noch"
+      ]
+    }
+  ],
+  "forms": [
+    "noch nicht",
+    "noch einmal",
+    "noch mal",
+    "immer noch"
+  ],
+  "memoryHook": "Noch = still, yet, more. Noch nicht = not yet. Noch ein = another.",
+  "signOff": "Noch eine Lektion geschafft!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "He hasn't come YET: Er ist ___ da.",
+      "options": [
+        "noch nicht",
+        "nicht mehr"
+      ],
+      "answer": "noch nicht",
+      "explanation": "Not yet.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "___ einen Kaffee, bitte! (Another)",
+      "answer": "Noch",
+      "fullAnswer": "Noch einen Kaffee, bitte!",
+      "explanation": "Noch ein.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Möchten Sie noch etwas?' means…",
+      "options": [
+        "Anything else?",
+        "Still something?"
+      ],
+      "answer": "Anything else?",
+      "explanation": "Noch etwas.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "The opposite of noch nicht is…",
+      "options": [
+        "schon",
+        "nie"
+      ],
+      "answer": "schon",
+      "explanation": "Schon: already.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Er schläft noch' means…",
+      "options": [
+        "He's still asleep",
+        "He sleeps again"
+      ],
+      "answer": "He's still asleep",
+      "explanation": "Still.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Spiegel",
+    "partOfSpeech": "noun, masculine (der Spiegel)",
+    "pronunciation": {
+      "respelling": "SHPEE-gel",
+      "ipa": "ˈʃpiːɡl̩",
+      "notes": "The plural looks the same. Plural: die Spiegel."
+    },
+    "meaning": "mirror",
+    "shortDefinition": "Mirror."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Spiegel, plural die Spiegel.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Spiegel"
+        },
+        {
+          "label": "More than one",
+          "value": "die Spiegel"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Sie schaut in den Spiegel.",
+      "english": "She looks in the mirror.",
+      "highlight": [
+        "Spiegel."
+      ]
+    },
+    {
+      "german": "Der Spiegel hängt im Bad.",
+      "english": "The mirror hangs in the bathroom.",
+      "highlight": [
+        "Spiegel"
+      ]
+    },
+    {
+      "german": "Ich lese den 'Spiegel'.",
+      "english": "I read 'Der Spiegel' (magazine).",
+      "highlight": [
+        "Spiegel'."
+      ]
+    }
+  ],
+  "forms": [
+    "Spiegel",
+    "die Spiegel",
+    "der Spiegel"
+  ],
+  "memoryHook": "Der Spiegel (mirror). Also a famous magazine.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Spiegel",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Spiegel is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Spiegel, zwei ___",
+      "answer": "Spiegel",
+      "fullAnswer": "ein Spiegel, zwei Spiegel",
+      "explanation": "The plural is Spiegel.",
+      "acceptedAnswers": [
+        "Spiegel"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Spiegel mean?",
+      "options": [
+        "hot",
+        "the door",
+        "mirror"
+      ],
+      "answer": "mirror",
+      "explanation": "Spiegel: mirror.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'In den Spiegel schauen' — case:",
+      "options": [
+        "accusative (direction)",
+        "dative"
+      ],
+      "answer": "accusative (direction)",
+      "explanation": "Into.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Spiegel",
+        "Spiegeln"
+      ],
+      "answer": "Spiegel",
+      "explanation": "No change.",
+      "id": "q5"
+    }
+  ]
+}

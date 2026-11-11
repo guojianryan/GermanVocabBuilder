@@ -1,0 +1,139 @@
+{
+ "schemaVersion": "1.4",
+ "language": "de",
+ "explanationLanguage": "en",
+ "level": "B1",
+ "levelSource": "Goethe-Zertifikat B1 Wortliste",
+ "lessonType": "card",
+ "word": {
+  "headword": "Bauer",
+  "partOfSpeech": "noun, masculine (der Bauer)",
+  "pronunciation": {
+   "respelling": "BOW-er",
+   "ipa": "ˈbaʊ̯ɐ",
+   "notes": "Plural: die Bauern."
+  },
+  "meaning": "farmer",
+  "shortDefinition": "Farmer."
+ },
+ "commonMistakes": [
+  {
+   "title": "Gender and plural",
+   "explanation": "Der Bauer, plural die Bauern.",
+   "forms": [
+    {
+     "label": "One",
+     "value": "der Bauer"
+    },
+    {
+     "label": "More than one",
+     "value": "die Bauern"
+    }
+   ]
+  }
+ ],
+ "sampleSentences": [
+  {
+   "german": "Der Bauer hat viele Kühe.",
+   "english": "The farmer has lots of cows.",
+   "highlight": [
+    "Bauer"
+   ]
+  },
+  {
+   "german": "Wir kaufen Eier beim Bauern.",
+   "english": "We buy eggs from the farmer.",
+   "highlight": [
+    "Bauern."
+   ]
+  },
+  {
+   "german": "Sie ist Bäuerin.",
+   "english": "She's a farmer.",
+   "highlight": [
+    "Bäuerin."
+   ]
+  }
+ ],
+ "forms": [
+  "Bäuerin",
+  "Bauern",
+  "Bauernhof",
+  "Landwirt"
+ ],
+ "memoryHook": "Der Bauer, die Bäuerin, der Bauernhof.",
+ "signOff": "Gut gemacht!",
+ "quiz": [
+  {
+   "type": "choice",
+   "prompt": "___ Bauer",
+   "options": [
+    "der",
+    "die",
+    "das"
+   ],
+   "answer": "der",
+   "explanation": "Bauer is masculine.",
+   "id": "q1"
+  },
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "ein Bauer, zwei ___",
+   "answer": "Bauern",
+   "fullAnswer": "ein Bauer, zwei Bauern",
+   "explanation": "The plural is Bauern.",
+   "acceptedAnswers": [
+    "Bauern"
+   ],
+   "id": "q2"
+  },
+  {
+   "type": "choice",
+   "prompt": "What does Bauer mean?",
+   "options": [
+    "farmer",
+    "the bread",
+    "to help"
+   ],
+   "answer": "farmer",
+   "explanation": "Bauer: farmer.",
+   "id": "q3"
+  },
+  {
+   "type": "choice",
+   "prompt": "Female:",
+   "options": [
+    "die Bäuerin",
+    "die Bauerin"
+   ],
+   "answer": "die Bäuerin",
+   "explanation": "au → äu.",
+   "id": "q4"
+  },
+  {
+   "type": "choice",
+   "prompt": "A farm:",
+   "options": [
+    "der Bauernhof",
+    "das Bauhaus"
+   ],
+   "answer": "der Bauernhof",
+   "explanation": "Bauern + Hof.",
+   "id": "q5"
+  }
+ ],
+ "etymology": {
+  "title": "Where it comes from",
+  "parts": [
+   {
+    "part": "Bau",
+    "meaning": "build, farm (bauen)"
+   },
+   {
+    "part": "er",
+    "meaning": "person or thing that does it"
+   }
+  ],
+  "literalMeaning": "someone who farms"
+ }
+}

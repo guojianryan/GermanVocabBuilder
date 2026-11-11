@@ -1,0 +1,209 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "full",
+  "word": {
+    "headword": "mögen",
+    "partOfSpeech": "verb (modal)",
+    "pronunciation": {
+      "respelling": "MUR-gen",
+      "ipa": "ˈmøːɡn̩",
+      "notes": "Long ö."
+    },
+    "meaning": "to like",
+    "shortDefinition": "To like someone or something."
+  },
+  "intro": {
+    "title": "Ich mag dich",
+    "paragraphs": [
+      "Mögen is 'to like', used mainly with nouns: Ich mag Pizza, Ich mag dich. For activities, Germans use gern with the verb: Ich schwimme gern. Its forms change: ich mag, du magst."
+    ]
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "|mag"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "|magst"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "|mag"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "mög|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "mög|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "mög|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Ich and er: mag. Past: mochte, hat gemocht."
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "gern",
+      "english": "gladly (like doing)",
+      "type": "adverb"
+    },
+    {
+      "german": "möchten",
+      "english": "would like",
+      "type": "modal verb"
+    },
+    {
+      "german": "gefallen",
+      "english": "to please, to like",
+      "type": "verb"
+    }
+  ],
+  "keyTrap": {
+    "title": "The big trap: mögen or gern?",
+    "explanation": "Mögen for things and people; gern for doing things.",
+    "wrong": {
+      "german": "Ich mag schwimmen.",
+      "verdict": "Understandable, but Germans say: Ich schwimme gern."
+    },
+    "correct": [
+      {
+        "german": "Ich schwimme gern.",
+        "literal": "I swim gladly.",
+        "note": "Activities: gern."
+      },
+      {
+        "german": "Ich mag Hunde.",
+        "literal": "I like dogs.",
+        "note": "Things, people: mögen."
+      }
+    ]
+  },
+  "commonMistakes": [
+    {
+      "title": "Not liking",
+      "explanation": "Ich mag … nicht, or Ich mag keinen/keine …",
+      "wrong": "Ich nicht mag Fisch.",
+      "correct": "Ich mag keinen Fisch."
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich mag Schokolade.",
+      "english": "I like chocolate.",
+      "highlight": [
+        "mag"
+      ]
+    },
+    {
+      "german": "Magst du Katzen?",
+      "english": "Do you like cats?",
+      "highlight": [
+        "Magst"
+      ]
+    },
+    {
+      "german": "Wir mögen unsere Nachbarn.",
+      "english": "We like our neighbours.",
+      "highlight": [
+        "mögen"
+      ]
+    },
+    {
+      "german": "Er mag keinen Kaffee.",
+      "english": "He doesn't like coffee.",
+      "highlight": [
+        "mag"
+      ]
+    }
+  ],
+  "forms": [
+    "mag",
+    "magst",
+    "mögt",
+    "mochte",
+    "gemocht"
+  ],
+  "memoryHook": "Mögen + noun: Ich mag Pizza. Gern + verb: Ich esse gern Pizza.",
+  "signOff": "Ich mag deine Ausdauer!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich ___ Tee. (mögen)",
+      "answer": "mag",
+      "fullAnswer": "Ich mag Tee.",
+      "explanation": "Ich mag.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "___ du Hunde? (mögen)",
+      "answer": "Magst",
+      "fullAnswer": "Magst du Hunde?",
+      "explanation": "Du magst.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "'I like dancing' sounds most natural as…",
+      "options": [
+        "Ich tanze gern.",
+        "Ich mag tanzen."
+      ],
+      "answer": "Ich tanze gern.",
+      "explanation": "Activities: gern.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Er ___ Fußball.",
+      "options": [
+        "mag",
+        "magt"
+      ],
+      "answer": "mag",
+      "explanation": "No ending.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich mag ___ Fisch. (no)",
+      "options": [
+        "keinen",
+        "nicht"
+      ],
+      "answer": "keinen",
+      "explanation": "Kein + noun.",
+      "id": "q5"
+    }
+  ]
+}

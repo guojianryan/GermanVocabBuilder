@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Ring",
+    "partOfSpeech": "noun, masculine (der Ring)",
+    "pronunciation": {
+      "respelling": "RING",
+      "ipa": "ʁɪŋ",
+      "notes": "Plural: die Ringe."
+    },
+    "meaning": "ring",
+    "shortDefinition": "Ring."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Ring, plural die Ringe.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Ring"
+        },
+        {
+          "label": "More than one",
+          "value": "die Ringe"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Sie trägt einen goldenen Ring.",
+      "english": "She wears a gold ring.",
+      "highlight": [
+        "Ring."
+      ]
+    },
+    {
+      "german": "Er hat ihr einen Ring geschenkt.",
+      "english": "He gave her a ring.",
+      "highlight": [
+        "Ring"
+      ]
+    },
+    {
+      "german": "Der Ring ist eine große Straße um die Stadt.",
+      "english": "The Ring is a big road around the city.",
+      "highlight": [
+        "Ring"
+      ]
+    }
+  ],
+  "forms": [
+    "Ringe",
+    "die Ringe",
+    "der Ring"
+  ],
+  "memoryHook": "Der Ring: jewellery or a ring road.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Ring",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Ring is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Ring, zwei ___",
+      "answer": "Ringe",
+      "fullAnswer": "ein Ring, zwei Ringe",
+      "explanation": "The plural is Ringe.",
+      "acceptedAnswers": [
+        "Ringe"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Ring mean?",
+      "options": [
+        "ring",
+        "the shop",
+        "slowly"
+      ],
+      "answer": "ring",
+      "explanation": "Ring: ring.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "A wedding ring:",
+      "options": [
+        "der Ehering",
+        "der Hochzeitsring only"
+      ],
+      "answer": "der Ehering",
+      "explanation": "Ehe = marriage.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gender:",
+      "options": [
+        "der",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Der Ring.",
+      "id": "q5"
+    }
+  ]
+}

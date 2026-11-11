@@ -1,0 +1,147 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Buchstabe",
+    "partOfSpeech": "noun, masculine (der Buchstabe)",
+    "pronunciation": {
+      "respelling": "BOOKH-shtah-buh",
+      "ipa": "ˈbuːxˌʃtaːbə",
+      "notes": "It adds -n in most forms: den Buchstaben. Plural: die Buchstaben."
+    },
+    "meaning": "letter (of the alphabet)",
+    "shortDefinition": "Letter (of the alphabet)."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Buch",
+        "meaning": "beech",
+        "note": "Letters were once carved on beech sticks."
+      },
+      {
+        "part": "stabe",
+        "meaning": "stick",
+        "note": "From der Stab."
+      }
+    ],
+    "literalMeaning": "beech stick"
+  },
+  "wordFamily": [
+    {
+      "german": "buchstabieren",
+      "english": "to spell",
+      "type": "verb"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Buchstabe, plural die Buchstaben.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Buchstabe"
+        },
+        {
+          "label": "More than one",
+          "value": "die Buchstaben"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das Wort hat sechs Buchstaben.",
+      "english": "The word has six letters.",
+      "highlight": [
+        "Buchstaben."
+      ]
+    },
+    {
+      "german": "Schreiben Sie Ihren Namen in großen Buchstaben.",
+      "english": "Write your name in capital letters.",
+      "highlight": [
+        "Buchstaben."
+      ]
+    },
+    {
+      "german": "Mit welchem Buchstaben fängt es an?",
+      "english": "What letter does it start with?",
+      "highlight": [
+        "Buchstaben"
+      ]
+    }
+  ],
+  "forms": [
+    "Buchstaben",
+    "die Buchstaben",
+    "den Buchstaben"
+  ],
+  "memoryHook": "Buch (book, originally beech wood) + Stab (stick): letters were once carved on beech sticks.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Buchstabe",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Buchstabe is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Buchstabe, zwei ___",
+      "answer": "Buchstaben",
+      "fullAnswer": "ein Buchstabe, zwei Buchstaben",
+      "explanation": "The plural is Buchstaben.",
+      "acceptedAnswers": [
+        "Buchstaben"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Buchstabe mean?",
+      "options": [
+        "to sleep",
+        "hot",
+        "letter (of the alphabet)"
+      ],
+      "answer": "letter (of the alphabet)",
+      "explanation": "Buchstabe: letter (of the alphabet).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "A letter you post is der Brief. A letter of the alphabet is…",
+      "options": [
+        "der Buchstabe",
+        "die Briefmarke"
+      ],
+      "answer": "der Buchstabe",
+      "explanation": "English has one word; German has two.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "mit dem ___ A",
+      "options": [
+        "Buchstabe",
+        "Buchstaben"
+      ],
+      "answer": "Buchstaben",
+      "explanation": "Like Automat, it adds -n in most forms.",
+      "id": "q5"
+    }
+  ]
+}

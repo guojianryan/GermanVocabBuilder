@@ -1,0 +1,165 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "schreien",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "SHRYE-en",
+      "ipa": "ˈʃʁaɪ̯ən",
+      "notes": ""
+    },
+    "meaning": "to scream, shout",
+    "shortDefinition": "To scream, shout."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "schrei|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "schrei|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "schrei|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "schrei|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "schrei|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "schrei|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat geschrien"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "der Schrei",
+      "english": "scream",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das Baby schreit.",
+      "english": "The baby is crying.",
+      "highlight": [
+        "schreit."
+      ]
+    },
+    {
+      "german": "Schrei nicht so!",
+      "english": "Don't shout like that!",
+      "highlight": [
+        "Schrei"
+      ]
+    },
+    {
+      "german": "Sie hat um Hilfe geschrien.",
+      "english": "She screamed for help.",
+      "highlight": [
+        "geschrien."
+      ]
+    }
+  ],
+  "forms": [
+    "schreie",
+    "schreist",
+    "schreit",
+    "schreien",
+    "geschrien"
+  ],
+  "memoryHook": "Schreien, schrie, geschrien. Der Schrei.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (schreien)",
+      "answer": "schreit",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: schreit.",
+      "acceptedAnswers": [
+        "schreit"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (schreien, past)",
+      "answer": "geschrien",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe geschrien.",
+      "acceptedAnswers": [
+        "geschrien"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does schreien mean?",
+      "options": [
+        "to help",
+        "to open",
+        "to scream"
+      ],
+      "answer": "to scream",
+      "explanation": "schreien: to scream, shout.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "hat geschrien",
+        "hat geschreit"
+      ],
+      "answer": "hat geschrien",
+      "explanation": "Strong verb.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Noun:",
+      "options": [
+        "der Schrei",
+        "die Schreie only"
+      ],
+      "answer": "der Schrei",
+      "explanation": "Scream.",
+      "id": "q5"
+    }
+  ]
+}

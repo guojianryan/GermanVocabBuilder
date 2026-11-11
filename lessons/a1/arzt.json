@@ -1,0 +1,151 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Arzt",
+    "partOfSpeech": "noun, masculine (der Arzt)",
+    "pronunciation": {
+      "respelling": "ARTST",
+      "ipa": "aːɐ̯tst",
+      "notes": "The female form is die Ärztin. Plural: die Ärzte."
+    },
+    "meaning": "doctor",
+    "shortDefinition": "Doctor."
+  },
+  "wordFamily": [
+    {
+      "german": "die Ärztin",
+      "english": "female doctor",
+      "type": "noun"
+    },
+    {
+      "german": "der Zahnarzt",
+      "english": "dentist",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Arzt, plural die Ärzte.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Arzt"
+        },
+        {
+          "label": "More than one",
+          "value": "die Ärzte"
+        }
+      ]
+    },
+    {
+      "title": "zum or beim?",
+      "explanation": "Going there: zum Arzt. Being there: beim Arzt.",
+      "examples": [
+        {
+          "german": "Ich gehe zum Arzt.",
+          "english": "I'm going to the doctor.",
+          "highlight": "zum"
+        },
+        {
+          "german": "Ich war beim Arzt.",
+          "english": "I was at the doctor's.",
+          "highlight": "beim"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich habe morgen einen Termin beim Arzt.",
+      "english": "I have a doctor's appointment tomorrow.",
+      "highlight": [
+        "Arzt."
+      ]
+    },
+    {
+      "german": "Meine Ärztin ist sehr nett.",
+      "english": "My (female) doctor is very nice.",
+      "highlight": [
+        "Ärztin"
+      ]
+    },
+    {
+      "german": "Du bist krank. Geh zum Arzt!",
+      "english": "You're ill. Go to the doctor!",
+      "highlight": [
+        "Arzt!"
+      ]
+    }
+  ],
+  "forms": [
+    "Ärzte",
+    "Ärztin",
+    "Ärztinnen"
+  ],
+  "memoryHook": "Zum Arzt gehen (go to), beim Arzt sein (be at). Women are Ärztinnen.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Arzt",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Arzt is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Arzt, zwei ___",
+      "answer": "Ärzte",
+      "fullAnswer": "ein Arzt, zwei Ärzte",
+      "explanation": "The plural is Ärzte.",
+      "acceptedAnswers": [
+        "Ärzte"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "A female doctor is…",
+      "options": [
+        "die Ärztin",
+        "die Arztin"
+      ],
+      "answer": "die Ärztin",
+      "explanation": "The feminine has an umlaut: Ärztin.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich gehe ___ Arzt.",
+      "options": [
+        "zum",
+        "beim"
+      ],
+      "answer": "zum",
+      "explanation": "Going to: zum Arzt.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich bin ___ Arzt. (at the doctor's)",
+      "options": [
+        "zum",
+        "beim"
+      ],
+      "answer": "beim",
+      "explanation": "Being there: beim Arzt.",
+      "id": "q5"
+    }
+  ]
+}

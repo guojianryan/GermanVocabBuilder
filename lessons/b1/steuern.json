@@ -1,0 +1,154 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "steuern",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "SHTOY-ern",
+      "ipa": "ˈʃtɔɪ̯ɐn",
+      "notes": ""
+    },
+    "meaning": "to steer, control",
+    "shortDefinition": "To steer, control."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "steuer|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "steuer|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "steuer|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "steuer|n"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "steuer|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "steuer|n"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gesteuert"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wer steuert das Boot?",
+      "english": "Who's steering the boat?",
+      "highlight": [
+        "steuert"
+      ]
+    },
+    {
+      "german": "Die Heizung wird per App gesteuert.",
+      "english": "The heating is controlled by app.",
+      "highlight": [
+        "gesteuert."
+      ]
+    },
+    {
+      "german": "Sie steuert das Projekt.",
+      "english": "She manages the project.",
+      "highlight": [
+        "steuert"
+      ]
+    }
+  ],
+  "forms": [
+    "Steuerung"
+  ],
+  "memoryHook": "Steuern (steer) ← das Steuer. Die Steuer = tax!",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (steuern)",
+      "answer": "steuert",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: steuert.",
+      "acceptedAnswers": [
+        "steuert"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (steuern, past)",
+      "answer": "gesteuert",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gesteuert.",
+      "acceptedAnswers": [
+        "gesteuert"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does steuern mean?",
+      "options": [
+        "the job",
+        "to help",
+        "to steer"
+      ],
+      "answer": "to steer",
+      "explanation": "steuern: to steer, control.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Related noun:",
+      "options": [
+        "das Steuer (steering wheel)",
+        "die Steuer only"
+      ],
+      "answer": "das Steuer (steering wheel)",
+      "explanation": "Wheel; die Steuer = tax.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Noun 'control':",
+      "options": [
+        "die Steuerung",
+        "der Steuer"
+      ],
+      "answer": "die Steuerung",
+      "explanation": "Control.",
+      "id": "q5"
+    }
+  ]
+}

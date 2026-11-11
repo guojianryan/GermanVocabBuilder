@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Wind",
+    "partOfSpeech": "noun, masculine (der Wind)",
+    "pronunciation": {
+      "respelling": "VINT",
+      "ipa": "vɪnt",
+      "notes": "Plural: die Winde."
+    },
+    "meaning": "wind",
+    "shortDefinition": "Wind."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Wind, plural die Winde.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Wind"
+        },
+        {
+          "label": "More than one",
+          "value": "die Winde"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Heute ist viel Wind.",
+      "english": "It's very windy today.",
+      "highlight": [
+        "Wind."
+      ]
+    },
+    {
+      "german": "Der Wind kommt aus Westen.",
+      "english": "The wind is coming from the west.",
+      "highlight": [
+        "Wind"
+      ]
+    },
+    {
+      "german": "Es ist windig.",
+      "english": "It's windy.",
+      "highlight": [
+        "windig."
+      ]
+    }
+  ],
+  "forms": [
+    "Winde",
+    "windig",
+    "der Wind"
+  ],
+  "memoryHook": "Der Wind (W = v, d = t). Windig = windy.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Wind",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Wind is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Wind, zwei ___",
+      "answer": "Winde",
+      "fullAnswer": "ein Wind, zwei Winde",
+      "explanation": "The plural is Winde.",
+      "acceptedAnswers": [
+        "Winde"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Wind mean?",
+      "options": [
+        "to sing",
+        "the bread",
+        "wind"
+      ],
+      "answer": "wind",
+      "explanation": "Wind: wind.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Windy' is…",
+      "options": [
+        "windig",
+        "windlich"
+      ],
+      "answer": "windig",
+      "explanation": "Wind + -ig.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "W in Wind sounds like…",
+      "options": [
+        "v",
+        "w"
+      ],
+      "answer": "v",
+      "explanation": "VINT.",
+      "id": "q5"
+    }
+  ]
+}

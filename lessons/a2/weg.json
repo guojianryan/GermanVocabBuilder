@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Weg",
+    "partOfSpeech": "noun, masculine (der Weg)",
+    "pronunciation": {
+      "respelling": "VAYK",
+      "ipa": "veːk",
+      "notes": "Plural: die Wege."
+    },
+    "meaning": "way, path",
+    "shortDefinition": "Way, path."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Weg, plural die Wege.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Weg"
+        },
+        {
+          "label": "More than one",
+          "value": "die Wege"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Können Sie mir den Weg zum Bahnhof zeigen?",
+      "english": "Can you show me the way to the station?",
+      "highlight": [
+        "Weg"
+      ]
+    },
+    {
+      "german": "Der Weg ist nicht weit.",
+      "english": "It's not far.",
+      "highlight": [
+        "Weg"
+      ]
+    },
+    {
+      "german": "Ich bin auf dem Weg.",
+      "english": "I'm on my way.",
+      "highlight": [
+        "Weg."
+      ]
+    }
+  ],
+  "forms": [
+    "Wege",
+    "die Wege",
+    "der Weg"
+  ],
+  "memoryHook": "Der Weg (long e) = way. Weg (short e) = away.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Weg",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Weg is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Weg, zwei ___",
+      "answer": "Wege",
+      "fullAnswer": "ein Weg, zwei Wege",
+      "explanation": "The plural is Wege.",
+      "acceptedAnswers": [
+        "Wege"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Weg mean?",
+      "options": [
+        "way",
+        "the street",
+        "the window"
+      ],
+      "answer": "way",
+      "explanation": "Weg: way, path.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'On the way':",
+      "options": [
+        "auf dem Weg / unterwegs",
+        "im Weg"
+      ],
+      "answer": "auf dem Weg / unterwegs",
+      "explanation": "Auf dem Weg.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Im Weg sein' means…",
+      "options": [
+        "to be in the way",
+        "to be on the way"
+      ],
+      "answer": "to be in the way",
+      "explanation": "Obstacle.",
+      "id": "q5"
+    }
+  ]
+}

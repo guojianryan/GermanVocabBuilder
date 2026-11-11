@@ -1,0 +1,188 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "legen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "LAY-gen",
+      "ipa": "ˈleːɡn̩",
+      "notes": ""
+    },
+    "meaning": "to lay, to put (down flat)",
+    "shortDefinition": "To lay, to put (down flat)."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "leg|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "leg|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "leg|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "leg|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "leg|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "leg|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gelegt"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "liegen",
+      "english": "to lie (be lying)",
+      "type": "verb"
+    },
+    {
+      "german": "stellen",
+      "english": "to put (upright)",
+      "type": "verb"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "legen or liegen?",
+      "explanation": "You legen something; afterwards it liegt.",
+      "examples": [
+        {
+          "german": "Ich lege den Löffel auf den Tisch.",
+          "english": "I put the spoon on the table.",
+          "highlight": "lege"
+        },
+        {
+          "german": "Der Löffel liegt auf dem Tisch.",
+          "english": "The spoon is on the table.",
+          "highlight": "liegt"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Leg das Buch auf den Tisch.",
+      "english": "Put the book on the table.",
+      "highlight": [
+        "Leg"
+      ]
+    },
+    {
+      "german": "Ich lege die Schlüssel immer hierhin.",
+      "english": "I always put the keys here.",
+      "highlight": [
+        "lege"
+      ]
+    },
+    {
+      "german": "Wo hast du mein Handy hingelegt?",
+      "english": "Where did you put my phone?",
+      "highlight": [
+        "hingelegt?"
+      ]
+    }
+  ],
+  "forms": [
+    "lege",
+    "legst",
+    "legt",
+    "legen",
+    "gelegt"
+  ],
+  "memoryHook": "Legen = put down flat (action, + accusative). Liegen = lie there (state, + dative).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (legen)",
+      "answer": "legt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: legt.",
+      "acceptedAnswers": [
+        "legt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (legen, past)",
+      "answer": "gelegt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gelegt.",
+      "acceptedAnswers": [
+        "gelegt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does legen mean?",
+      "options": [
+        "the car",
+        "to lay",
+        "the street"
+      ],
+      "answer": "to lay",
+      "explanation": "legen: to lay, to put (down flat).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Legen (action) vs liegen (state): 'The book IS on the table' is…",
+      "options": [
+        "Das Buch liegt auf dem Tisch.",
+        "Das Buch legt auf dem Tisch."
+      ],
+      "answer": "Das Buch liegt auf dem Tisch.",
+      "explanation": "State: liegen.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich lege das Buch auf ___ Tisch.",
+      "options": [
+        "den",
+        "dem"
+      ],
+      "answer": "den",
+      "explanation": "Legen = where to: accusative.",
+      "id": "q5"
+    }
+  ]
+}

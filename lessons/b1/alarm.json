@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Alarm",
+    "partOfSpeech": "noun, masculine (der Alarm)",
+    "pronunciation": {
+      "respelling": "a-LARM",
+      "ipa": "aˈlaʁm",
+      "notes": "Plural: die Alarme."
+    },
+    "meaning": "alarm",
+    "shortDefinition": "Alarm."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Alarm, plural die Alarme.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Alarm"
+        },
+        {
+          "label": "More than one",
+          "value": "die Alarme"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Alarm ging mitten in der Nacht los.",
+      "english": "The alarm went off in the middle of the night.",
+      "highlight": [
+        "Alarm"
+      ]
+    },
+    {
+      "german": "Bei Feuer gibt es Alarm.",
+      "english": "If there's a fire, the alarm sounds.",
+      "highlight": [
+        "Alarm."
+      ]
+    },
+    {
+      "german": "Wer hat Alarm geschlagen?",
+      "english": "Who raised the alarm?",
+      "highlight": [
+        "Alarm"
+      ]
+    }
+  ],
+  "forms": [
+    "Alarme",
+    "die Alarme",
+    "der Alarm"
+  ],
+  "memoryHook": "Der Alarm (fire, burglar). Alarm clock = Wecker.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Alarm",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Alarm is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Alarm, zwei ___",
+      "answer": "Alarme",
+      "fullAnswer": "ein Alarm, zwei Alarme",
+      "explanation": "The plural is Alarme.",
+      "acceptedAnswers": [
+        "Alarme"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Alarm mean?",
+      "options": [
+        "tomorrow",
+        "alarm",
+        "the window"
+      ],
+      "answer": "alarm",
+      "explanation": "Alarm: alarm.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "An alarm clock is…",
+      "options": [
+        "der Wecker",
+        "der Alarm"
+      ],
+      "answer": "der Wecker",
+      "explanation": "Wecker.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Alarm schlagen' means…",
+      "options": [
+        "to raise the alarm",
+        "to hit an alarm"
+      ],
+      "answer": "to raise the alarm",
+      "explanation": "Idiom.",
+      "id": "q5"
+    }
+  ]
+}

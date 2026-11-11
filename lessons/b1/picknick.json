@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Picknick",
+    "partOfSpeech": "noun, neuter (das Picknick)",
+    "pronunciation": {
+      "respelling": "PIK-nik",
+      "ipa": "ˈpɪknɪk",
+      "notes": "Plural: die Picknicks."
+    },
+    "meaning": "picnic",
+    "shortDefinition": "Picnic."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Picknick, plural die Picknicks.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Picknick"
+        },
+        {
+          "label": "More than one",
+          "value": "die Picknicks"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir machen ein Picknick im Park.",
+      "english": "We're having a picnic in the park.",
+      "highlight": [
+        "Picknick"
+      ]
+    },
+    {
+      "german": "Ich packe den Picknickkorb.",
+      "english": "I'm packing the picnic basket.",
+      "highlight": [
+        "Picknickkorb."
+      ]
+    },
+    {
+      "german": "Das Picknick fällt wegen Regen aus.",
+      "english": "The picnic is cancelled because of rain.",
+      "highlight": [
+        "Picknick"
+      ]
+    }
+  ],
+  "forms": [
+    "Picknicks",
+    "die Picknicks",
+    "das Picknick"
+  ],
+  "memoryHook": "Das Picknick (ck, ck). Ein Picknick machen.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Picknick",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Picknick is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Picknick, zwei ___",
+      "answer": "Picknicks",
+      "fullAnswer": "ein Picknick, zwei Picknicks",
+      "explanation": "The plural is Picknicks.",
+      "acceptedAnswers": [
+        "Picknicks"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Picknick mean?",
+      "options": [
+        "picnic",
+        "to sing",
+        "slowly"
+      ],
+      "answer": "picnic",
+      "explanation": "Picknick: picnic.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Spelling:",
+      "options": [
+        "Picknick (ck ×2)",
+        "Picnic"
+      ],
+      "answer": "Picknick (ck ×2)",
+      "explanation": "German.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Ein Picknick machen' means…",
+      "options": [
+        "to have a picnic",
+        "to make lunch"
+      ],
+      "answer": "to have a picnic",
+      "explanation": "Machen.",
+      "id": "q5"
+    }
+  ]
+}

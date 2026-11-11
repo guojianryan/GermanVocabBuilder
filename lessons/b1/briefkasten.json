@@ -1,0 +1,138 @@
+{
+ "schemaVersion": "1.4",
+ "language": "de",
+ "explanationLanguage": "en",
+ "level": "B1",
+ "levelSource": "Goethe-Zertifikat B1 Wortliste",
+ "lessonType": "card",
+ "word": {
+  "headword": "Briefkasten",
+  "partOfSpeech": "noun, masculine (der Briefkasten)",
+  "pronunciation": {
+   "respelling": "BREEF-kas-ten",
+   "ipa": "ˈbʁiːfkastn̩",
+   "notes": "Plural: die Briefkästen."
+  },
+  "meaning": "letterbox, postbox",
+  "shortDefinition": "Letterbox, postbox."
+ },
+ "commonMistakes": [
+  {
+   "title": "Gender and plural",
+   "explanation": "Der Briefkasten, plural die Briefkästen.",
+   "forms": [
+    {
+     "label": "One",
+     "value": "der Briefkasten"
+    },
+    {
+     "label": "More than one",
+     "value": "die Briefkästen"
+    }
+   ]
+  }
+ ],
+ "sampleSentences": [
+  {
+   "german": "Ich werfe den Brief in den Briefkasten.",
+   "english": "I'm putting the letter in the postbox.",
+   "highlight": [
+    "Briefkasten."
+   ]
+  },
+  {
+   "german": "Hast du in den Briefkasten geschaut?",
+   "english": "Have you checked the letterbox?",
+   "highlight": [
+    "Briefkasten"
+   ]
+  },
+  {
+   "german": "Der Briefkasten wird um 17 Uhr geleert.",
+   "english": "The postbox is emptied at 5 pm.",
+   "highlight": [
+    "Briefkasten"
+   ]
+  }
+ ],
+ "forms": [
+  "Briefkästen",
+  "die Briefkästen",
+  "der Briefkasten"
+ ],
+ "memoryHook": "Brief + Kasten = letterbox (yellow in Germany).",
+ "signOff": "Gut gemacht!",
+ "quiz": [
+  {
+   "type": "choice",
+   "prompt": "___ Briefkasten",
+   "options": [
+    "der",
+    "die",
+    "das"
+   ],
+   "answer": "der",
+   "explanation": "Briefkasten is masculine.",
+   "id": "q1"
+  },
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "ein Briefkasten, zwei ___",
+   "answer": "Briefkästen",
+   "fullAnswer": "ein Briefkasten, zwei Briefkästen",
+   "explanation": "The plural is Briefkästen.",
+   "acceptedAnswers": [
+    "Briefkaesten"
+   ],
+   "id": "q2"
+  },
+  {
+   "type": "choice",
+   "prompt": "What does Briefkasten mean?",
+   "options": [
+    "expensive",
+    "letterbox",
+    "to open"
+   ],
+   "answer": "letterbox",
+   "explanation": "Briefkasten: letterbox, postbox.",
+   "id": "q3"
+  },
+  {
+   "type": "choice",
+   "prompt": "Built from…",
+   "options": [
+    "Brief + Kasten (box)",
+    "Brief + Kastanie"
+   ],
+   "answer": "Brief + Kasten (box)",
+   "explanation": "Letter box.",
+   "id": "q4"
+  },
+  {
+   "type": "choice",
+   "prompt": "Plural:",
+   "options": [
+    "Briefkästen",
+    "Briefkasten"
+   ],
+   "answer": "Briefkästen",
+   "explanation": "a → ä.",
+   "id": "q5"
+  }
+ ],
+ "etymology": {
+  "title": "Where it comes from",
+  "parts": [
+   {
+    "part": "Brief",
+    "meaning": "letter"
+   },
+   {
+    "part": "kasten",
+    "meaning": "box"
+   }
+  ],
+  "literalMeaning": "letter box"
+ }
+}

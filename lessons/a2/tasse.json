@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Tasse",
+    "partOfSpeech": "noun, feminine (die Tasse)",
+    "pronunciation": {
+      "respelling": "TAS-e",
+      "ipa": "ˈtasə",
+      "notes": "Plural: die Tassen."
+    },
+    "meaning": "cup",
+    "shortDefinition": "Cup."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Tasse, plural die Tassen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Tasse"
+        },
+        {
+          "label": "More than one",
+          "value": "die Tassen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Möchtest du eine Tasse Kaffee?",
+      "english": "Would you like a cup of coffee?",
+      "highlight": [
+        "Tasse"
+      ]
+    },
+    {
+      "german": "Die Tassen sind im Schrank.",
+      "english": "The cups are in the cupboard.",
+      "highlight": [
+        "Tassen"
+      ]
+    },
+    {
+      "german": "Ich trinke zwei Tassen Tee am Tag.",
+      "english": "I drink two cups of tea a day.",
+      "highlight": [
+        "Tassen"
+      ]
+    }
+  ],
+  "forms": [
+    "Tassen",
+    "die Tassen",
+    "die Tasse"
+  ],
+  "memoryHook": "Die Tasse. Eine Tasse Kaffee (no 'of').",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Tasse",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Tasse is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Tasse, zwei ___",
+      "answer": "Tassen",
+      "fullAnswer": "ein Tasse, zwei Tassen",
+      "explanation": "The plural is Tassen.",
+      "acceptedAnswers": [
+        "Tassen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Tasse mean?",
+      "options": [
+        "always",
+        "expensive",
+        "cup"
+      ],
+      "answer": "cup",
+      "explanation": "Tasse: cup.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'A cup of tea':",
+      "options": [
+        "eine Tasse Tee",
+        "eine Tasse von Tee"
+      ],
+      "answer": "eine Tasse Tee",
+      "explanation": "No 'von'.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "A mug is often…",
+      "options": [
+        "ein Becher",
+        "eine Glas"
+      ],
+      "answer": "ein Becher",
+      "explanation": "Becher.",
+      "id": "q5"
+    }
+  ]
+}

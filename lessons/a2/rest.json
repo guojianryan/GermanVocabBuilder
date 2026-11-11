@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Rest",
+    "partOfSpeech": "noun, masculine (der Rest)",
+    "pronunciation": {
+      "respelling": "REST",
+      "ipa": "ʁɛst",
+      "notes": "Plural: die Reste."
+    },
+    "meaning": "rest, remainder",
+    "shortDefinition": "Rest, remainder."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Rest, plural die Reste.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Rest"
+        },
+        {
+          "label": "More than one",
+          "value": "die Reste"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Den Rest essen wir morgen.",
+      "english": "We'll eat the rest tomorrow.",
+      "highlight": [
+        "Rest"
+      ]
+    },
+    {
+      "german": "Der Rest ist für dich.",
+      "english": "The rest is for you.",
+      "highlight": [
+        "Rest"
+      ]
+    },
+    {
+      "german": "Stimmt so, der Rest ist Trinkgeld.",
+      "english": "Keep the change.",
+      "highlight": [
+        "Rest"
+      ]
+    }
+  ],
+  "forms": [
+    "Reste",
+    "Rest"
+  ],
+  "memoryHook": "Der Rest = what's left over. Relaxing: sich ausruhen.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Rest",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Rest is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Rest, zwei ___",
+      "answer": "Reste",
+      "fullAnswer": "ein Rest, zwei Reste",
+      "explanation": "The plural is Reste.",
+      "acceptedAnswers": [
+        "Reste"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Rest mean?",
+      "options": [
+        "the family",
+        "the bread",
+        "rest"
+      ],
+      "answer": "rest",
+      "explanation": "Rest: rest, remainder.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Der Rest means…",
+      "options": [
+        "the remainder",
+        "a break"
+      ],
+      "answer": "the remainder",
+      "explanation": "A break = die Pause.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Have a rest' is…",
+      "options": [
+        "sich ausruhen",
+        "einen Rest machen"
+      ],
+      "answer": "sich ausruhen",
+      "explanation": "Rest (relax) = ausruhen.",
+      "id": "q5"
+    }
+  ]
+}

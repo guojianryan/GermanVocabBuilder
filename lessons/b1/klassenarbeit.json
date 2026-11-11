@@ -1,0 +1,142 @@
+{
+ "schemaVersion": "1.4",
+ "language": "de",
+ "explanationLanguage": "en",
+ "level": "B1",
+ "levelSource": "Goethe-Zertifikat B1 Wortliste",
+ "lessonType": "card",
+ "word": {
+  "headword": "Klassenarbeit",
+  "partOfSpeech": "noun, feminine (die Klassenarbeit)",
+  "pronunciation": {
+   "respelling": "KLAS-en-ar-bite",
+   "ipa": "ˈklasn̩ʔaʁbaɪ̯t",
+   "notes": "Plural: die Klassenarbeiten."
+  },
+  "meaning": "class test",
+  "shortDefinition": "Class test."
+ },
+ "commonMistakes": [
+  {
+   "title": "Gender and plural",
+   "explanation": "Die Klassenarbeit, plural die Klassenarbeiten.",
+   "forms": [
+    {
+     "label": "One",
+     "value": "die Klassenarbeit"
+    },
+    {
+     "label": "More than one",
+     "value": "die Klassenarbeiten"
+    }
+   ]
+  }
+ ],
+ "sampleSentences": [
+  {
+   "german": "Morgen schreiben wir eine Klassenarbeit.",
+   "english": "We're having a test tomorrow.",
+   "highlight": [
+    "Klassenarbeit."
+   ]
+  },
+  {
+   "german": "Ich habe eine Zwei in der Klassenarbeit.",
+   "english": "I got a 2 in the test.",
+   "highlight": [
+    "Klassenarbeit."
+   ]
+  },
+  {
+   "german": "Die Klassenarbeit war schwer.",
+   "english": "The test was hard.",
+   "highlight": [
+    "Klassenarbeit"
+   ]
+  }
+ ],
+ "forms": [
+  "Klassenarbeiten",
+  "die Klassenarbeiten",
+  "die Klassenarbeit"
+ ],
+ "memoryHook": "Klasse + Arbeit = written class test.",
+ "signOff": "Gut gemacht!",
+ "quiz": [
+  {
+   "type": "choice",
+   "prompt": "___ Klassenarbeit",
+   "options": [
+    "der",
+    "die",
+    "das"
+   ],
+   "answer": "die",
+   "explanation": "Klassenarbeit is feminine.",
+   "id": "q1"
+  },
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "ein Klassenarbeit, zwei ___",
+   "answer": "Klassenarbeiten",
+   "fullAnswer": "ein Klassenarbeit, zwei Klassenarbeiten",
+   "explanation": "The plural is Klassenarbeiten.",
+   "acceptedAnswers": [
+    "Klassenarbeiten"
+   ],
+   "id": "q2"
+  },
+  {
+   "type": "choice",
+   "prompt": "What does Klassenarbeit mean?",
+   "options": [
+    "class test",
+    "the evening",
+    "expensive"
+   ],
+   "answer": "class test",
+   "explanation": "Klassenarbeit: class test.",
+   "id": "q3"
+  },
+  {
+   "type": "choice",
+   "prompt": "'Eine Klassenarbeit schreiben' means…",
+   "options": [
+    "to sit a written test",
+    "to write homework"
+   ],
+   "answer": "to sit a written test",
+   "explanation": "School.",
+   "id": "q4"
+  },
+  {
+   "type": "choice",
+   "prompt": "Built from…",
+   "options": [
+    "Klasse + n + Arbeit",
+    "Klasse + Arbeiter"
+   ],
+   "answer": "Klasse + n + Arbeit",
+   "explanation": "Class work.",
+   "id": "q5"
+  }
+ ],
+ "etymology": {
+  "title": "Where it comes from",
+  "parts": [
+   {
+    "part": "Klasse",
+    "meaning": "class"
+   },
+   {
+    "part": "n",
+    "meaning": "linking letter"
+   },
+   {
+    "part": "arbeit",
+    "meaning": "work"
+   }
+  ],
+  "literalMeaning": "class work"
+ }
+}

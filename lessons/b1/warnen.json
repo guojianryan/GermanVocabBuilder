@@ -1,0 +1,167 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "warnen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "VAR-nen",
+      "ipa": "ˈvaʁnən",
+      "notes": ""
+    },
+    "meaning": "to warn",
+    "shortDefinition": "To warn."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "warn|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "warn|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "warn|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "warn|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "warn|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "warn|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gewarnt"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "die Warnung",
+      "english": "warning",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich warne dich!",
+      "english": "I'm warning you!",
+      "highlight": [
+        "warne"
+      ]
+    },
+    {
+      "german": "Die Polizei warnt vor Glatteis.",
+      "english": "The police are warning of black ice.",
+      "highlight": [
+        "warnt",
+        "vor"
+      ]
+    },
+    {
+      "german": "Er hat mich vor dem Hund gewarnt.",
+      "english": "He warned me about the dog.",
+      "highlight": [
+        "vor",
+        "gewarnt."
+      ]
+    }
+  ],
+  "forms": [
+    "warne",
+    "warnst",
+    "warnt",
+    "warnen",
+    "gewarnt"
+  ],
+  "memoryHook": "Warnen vor (+ Dat) → die Warnung.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (warnen)",
+      "answer": "warnt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: warnt.",
+      "acceptedAnswers": [
+        "warnt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (warnen, past)",
+      "answer": "gewarnt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gewarnt.",
+      "acceptedAnswers": [
+        "gewarnt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does warnen mean?",
+      "options": [
+        "tomorrow",
+        "to warn",
+        "the evening"
+      ],
+      "answer": "to warn",
+      "explanation": "warnen: to warn.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Warn about:",
+      "options": [
+        "warnen vor (+ Dat)",
+        "warnen über"
+      ],
+      "answer": "warnen vor (+ Dat)",
+      "explanation": "Vor.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Noun:",
+      "options": [
+        "die Warnung",
+        "der Warn"
+      ],
+      "answer": "die Warnung",
+      "explanation": "Warning.",
+      "id": "q5"
+    }
+  ]
+}

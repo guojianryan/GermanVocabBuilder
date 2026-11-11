@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Flur",
+    "partOfSpeech": "noun, masculine (der Flur)",
+    "pronunciation": {
+      "respelling": "FLOOR",
+      "ipa": "fluːɐ̯",
+      "notes": "Plural: die Flure."
+    },
+    "meaning": "hall, corridor",
+    "shortDefinition": "Hall, corridor."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Flur, plural die Flure.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Flur"
+        },
+        {
+          "label": "More than one",
+          "value": "die Flure"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Schuhe stehen im Flur.",
+      "english": "The shoes are in the hall.",
+      "highlight": [
+        "Flur."
+      ]
+    },
+    {
+      "german": "Das Bad ist am Ende des Flurs.",
+      "english": "The bathroom is at the end of the corridor.",
+      "highlight": [
+        "Flurs."
+      ]
+    },
+    {
+      "german": "Wir warten im Flur.",
+      "english": "We're waiting in the corridor.",
+      "highlight": [
+        "Flur."
+      ]
+    }
+  ],
+  "forms": [
+    "Flure",
+    "die Flure",
+    "der Flur"
+  ],
+  "memoryHook": "Der Flur = hallway, NOT floor!",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Flur",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Flur is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Flur, zwei ___",
+      "answer": "Flure",
+      "fullAnswer": "ein Flur, zwei Flure",
+      "explanation": "The plural is Flure.",
+      "acceptedAnswers": [
+        "Flure"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Flur mean?",
+      "options": [
+        "never",
+        "expensive",
+        "hall"
+      ],
+      "answer": "hall",
+      "explanation": "Flur: hall, corridor.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Flur means…",
+      "options": [
+        "hallway",
+        "floor (storey)"
+      ],
+      "answer": "hallway",
+      "explanation": "False friend! Floor = Stock / Boden.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonym:",
+      "options": [
+        "der Gang / Korridor",
+        "die Etage"
+      ],
+      "answer": "der Gang / Korridor",
+      "explanation": "Corridor.",
+      "id": "q5"
+    }
+  ]
+}

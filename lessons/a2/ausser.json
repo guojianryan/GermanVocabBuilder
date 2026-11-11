@@ -1,0 +1,104 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "außer",
+    "partOfSpeech": "preposition (+ dative)",
+    "pronunciation": {
+      "respelling": "OW-ser",
+      "ipa": "ˈaʊ̯sɐ",
+      "notes": ""
+    },
+    "meaning": "except, apart from",
+    "shortDefinition": "Except, apart from."
+  },
+  "sampleSentences": [
+    {
+      "german": "Außer mir waren alle da.",
+      "english": "Everyone was there except me.",
+      "highlight": [
+        "Außer",
+        "mir"
+      ]
+    },
+    {
+      "german": "Der Laden ist täglich außer Sonntag geöffnet.",
+      "english": "The shop is open daily except Sunday.",
+      "highlight": [
+        "außer"
+      ]
+    },
+    {
+      "german": "Außer Kaffee trinke ich nichts.",
+      "english": "I don't drink anything apart from coffee.",
+      "highlight": [
+        "Außer"
+      ]
+    }
+  ],
+  "forms": [],
+  "memoryHook": "Außer = except (+ dative). Außer Betrieb = out of order.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does außer mean?",
+      "options": [
+        "the street",
+        "the family",
+        "except"
+      ],
+      "answer": "except",
+      "explanation": "außer: except, apart from.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Außer takes…",
+      "options": [
+        "dative",
+        "accusative"
+      ],
+      "answer": "dative",
+      "explanation": "Außer mir, außer dem Chef.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Except me':",
+      "options": [
+        "außer mir",
+        "außer mich"
+      ],
+      "answer": "außer mir",
+      "explanation": "Dative.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Außer Betrieb' on a machine means…",
+      "options": [
+        "out of order",
+        "outside"
+      ],
+      "answer": "out of order",
+      "explanation": "Common sign.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Alle kommen ___ Peter. (except)",
+      "answer": "außer",
+      "fullAnswer": "Alle kommen außer Peter.",
+      "explanation": "Außer.",
+      "acceptedAnswers": [
+        "ausser"
+      ],
+      "id": "q5"
+    }
+  ]
+}

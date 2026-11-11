@@ -1,0 +1,133 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Partie",
+    "partOfSpeech": "noun, feminine (die Partie)",
+    "pronunciation": {
+      "respelling": "par-TEE",
+      "ipa": "paʁˈtiː",
+      "notes": "Plural: die Partien."
+    },
+    "meaning": "game (match); part, role; match (marriage)",
+    "shortDefinition": "Game (match); part, role; match (marriage)."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Partie, plural die Partien.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Partie"
+        },
+        {
+          "label": "More than one",
+          "value": "die Partien"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir spielen eine Partie Schach.",
+      "english": "We're playing a game of chess.",
+      "highlight": [
+        "Partie"
+      ]
+    },
+    {
+      "german": "Er ist eine gute Partie.",
+      "english": "He's a good catch.",
+      "highlight": [
+        "Partie."
+      ]
+    },
+    {
+      "german": "Bist du mit von der Partie?",
+      "english": "Are you in?",
+      "highlight": [
+        "Partie?"
+      ]
+    }
+  ],
+  "forms": [
+    "Party"
+  ],
+  "memoryHook": "Die Partie: game; good catch; mit von der Partie (≠ Party).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Partie",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Partie is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Partie, zwei ___",
+      "answer": "Partien",
+      "fullAnswer": "ein Partie, zwei Partien",
+      "explanation": "The plural is Partien.",
+      "acceptedAnswers": [
+        "Partien"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Partie mean?",
+      "options": [
+        "game (match)",
+        "quiet",
+        "the weather"
+      ],
+      "answer": "game (match)",
+      "explanation": "Partie: game (match); part, role; match (marriage).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Mit von der Partie sein' means…",
+      "options": [
+        "to be in on it, join in",
+        "to be at a party"
+      ],
+      "answer": "to be in on it, join in",
+      "explanation": "Join.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Partie vs Party:",
+      "options": [
+        "game / match vs celebration",
+        "same"
+      ],
+      "answer": "game / match vs celebration",
+      "explanation": "Different.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Eine gute Partie' means…",
+      "options": [
+        "a good catch (marriage)",
+        "a good party"
+      ],
+      "answer": "a good catch (marriage)",
+      "explanation": "Idiom.",
+      "id": "q6"
+    }
+  ]
+}

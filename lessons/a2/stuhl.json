@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Stuhl",
+    "partOfSpeech": "noun, masculine (der Stuhl)",
+    "pronunciation": {
+      "respelling": "SHTOOL",
+      "ipa": "ʃtuːl",
+      "notes": "Plural: die Stühle."
+    },
+    "meaning": "chair",
+    "shortDefinition": "Chair."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Stuhl, plural die Stühle.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Stuhl"
+        },
+        {
+          "label": "More than one",
+          "value": "die Stühle"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Setz dich auf den Stuhl.",
+      "english": "Sit on the chair.",
+      "highlight": [
+        "Stuhl."
+      ]
+    },
+    {
+      "german": "Wir brauchen noch zwei Stühle.",
+      "english": "We need two more chairs.",
+      "highlight": [
+        "Stühle."
+      ]
+    },
+    {
+      "german": "Der Stuhl ist bequem.",
+      "english": "The chair is comfortable.",
+      "highlight": [
+        "Stuhl"
+      ]
+    }
+  ],
+  "forms": [
+    "Stühle",
+    "die Stühle",
+    "der Stuhl"
+  ],
+  "memoryHook": "Der Stuhl, die Stühle. Armchair = der Sessel.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Stuhl",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Stuhl is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Stuhl, zwei ___",
+      "answer": "Stühle",
+      "fullAnswer": "ein Stuhl, zwei Stühle",
+      "explanation": "The plural is Stühle.",
+      "acceptedAnswers": [
+        "Stuehle"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Stuhl mean?",
+      "options": [
+        "expensive",
+        "chair",
+        "the job"
+      ],
+      "answer": "chair",
+      "explanation": "Stuhl: chair.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Stühle",
+        "Stuhle"
+      ],
+      "answer": "Stühle",
+      "explanation": "u → ü.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "An armchair:",
+      "options": [
+        "der Sessel",
+        "der Armstuhl"
+      ],
+      "answer": "der Sessel",
+      "explanation": "Sessel.",
+      "id": "q5"
+    }
+  ]
+}

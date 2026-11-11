@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Nadel",
+    "partOfSpeech": "noun, feminine (die Nadel)",
+    "pronunciation": {
+      "respelling": "NAA-del",
+      "ipa": "ˈnaːdl̩",
+      "notes": "Plural: die Nadeln."
+    },
+    "meaning": "needle; pin",
+    "shortDefinition": "Needle; pin."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Nadel, plural die Nadeln.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Nadel"
+        },
+        {
+          "label": "More than one",
+          "value": "die Nadeln"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich brauche Nadel und Faden.",
+      "english": "I need a needle and thread.",
+      "highlight": [
+        "Nadel"
+      ]
+    },
+    {
+      "german": "Der Tannenbaum verliert Nadeln.",
+      "english": "The fir tree is dropping needles.",
+      "highlight": [
+        "Nadeln."
+      ]
+    },
+    {
+      "german": "Die Sicherheitsnadel hält.",
+      "english": "The safety pin holds.",
+      "highlight": [
+        "Sicherheitsnadel"
+      ]
+    }
+  ],
+  "forms": [
+    "Nadeln",
+    "die Nadeln",
+    "die Nadel"
+  ],
+  "memoryHook": "Die Nadel (needle, pin).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Nadel",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Nadel is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Nadel, zwei ___",
+      "answer": "Nadeln",
+      "fullAnswer": "ein Nadel, zwei Nadeln",
+      "explanation": "The plural is Nadeln.",
+      "acceptedAnswers": [
+        "Nadeln"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Nadel mean?",
+      "options": [
+        "the job",
+        "needle",
+        "to travel"
+      ],
+      "answer": "needle",
+      "explanation": "Nadel: needle; pin.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Safety pin:",
+      "options": [
+        "die Sicherheitsnadel",
+        "die Schutznadel"
+      ],
+      "answer": "die Sicherheitsnadel",
+      "explanation": "Safety needle.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Nadeln",
+        "Nädel"
+      ],
+      "answer": "Nadeln",
+      "explanation": "-n.",
+      "id": "q5"
+    }
+  ]
+}

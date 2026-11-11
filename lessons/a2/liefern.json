@@ -1,0 +1,165 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "liefern",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "LEE-fern",
+      "ipa": "ˈliːfɐn",
+      "notes": ""
+    },
+    "meaning": "to deliver",
+    "shortDefinition": "To deliver."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "liefer|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "liefer|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "liefer|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "liefer|n"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "liefer|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "liefer|n"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat geliefert"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "die Lieferung",
+      "english": "delivery",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir liefern die Möbel am Montag.",
+      "english": "We'll deliver the furniture on Monday.",
+      "highlight": [
+        "liefern"
+      ]
+    },
+    {
+      "german": "Die Pizza wird in 30 Minuten geliefert.",
+      "english": "The pizza will be delivered in 30 minutes.",
+      "highlight": [
+        "geliefert."
+      ]
+    },
+    {
+      "german": "Liefern Sie auch nach Österreich?",
+      "english": "Do you deliver to Austria too?",
+      "highlight": [
+        "Liefern"
+      ]
+    }
+  ],
+  "forms": [
+    "liefere",
+    "lieferst",
+    "liefert",
+    "liefern",
+    "geliefert"
+  ],
+  "memoryHook": "Liefern = deliver. Lieferung, Lieferdienst.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (liefern)",
+      "answer": "liefert",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: liefert.",
+      "acceptedAnswers": [
+        "liefert"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (liefern, past)",
+      "answer": "geliefert",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe geliefert.",
+      "acceptedAnswers": [
+        "geliefert"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does liefern mean?",
+      "options": [
+        "to buy",
+        "to deliver",
+        "to sing"
+      ],
+      "answer": "to deliver",
+      "explanation": "liefern: to deliver.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "The noun 'delivery':",
+      "options": [
+        "die Lieferung",
+        "die Liefer"
+      ],
+      "answer": "die Lieferung",
+      "explanation": "-ung.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "A delivery service (food):",
+      "options": [
+        "der Lieferdienst",
+        "der Lieferladen"
+      ],
+      "answer": "der Lieferdienst",
+      "explanation": "Liefer + Dienst.",
+      "id": "q5"
+    }
+  ]
+}

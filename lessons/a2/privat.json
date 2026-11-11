@@ -1,0 +1,103 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "privat",
+    "partOfSpeech": "adjective",
+    "pronunciation": {
+      "respelling": "pri-VAAT",
+      "ipa": "pʁiˈvaːt",
+      "notes": ""
+    },
+    "meaning": "private",
+    "shortDefinition": "Private."
+  },
+  "sampleSentences": [
+    {
+      "german": "Das ist meine private Nummer.",
+      "english": "That's my private number.",
+      "highlight": [
+        "private"
+      ]
+    },
+    {
+      "german": "Das ist privat!",
+      "english": "That's private!",
+      "highlight": [
+        "privat!"
+      ]
+    },
+    {
+      "german": "Er ist privat versichert.",
+      "english": "He has private health insurance.",
+      "highlight": [
+        "privat"
+      ]
+    }
+  ],
+  "forms": [
+    "private",
+    "privaten"
+  ],
+  "memoryHook": "Privat (stress at the end). Privat vs beruflich.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does privat mean?",
+      "options": [
+        "private",
+        "to open",
+        "slowly"
+      ],
+      "answer": "private",
+      "explanation": "privat: private.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "V sounds like…",
+      "options": [
+        "v",
+        "f"
+      ],
+      "answer": "v",
+      "explanation": "pri-VAAT.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Stress on…",
+      "options": [
+        "-VAT",
+        "PRI-"
+      ],
+      "answer": "-VAT",
+      "explanation": "End.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "The opposite (in work context):",
+      "options": [
+        "beruflich / dienstlich",
+        "öffentlich only"
+      ],
+      "answer": "beruflich / dienstlich",
+      "explanation": "Work.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich bin ___ hier, nicht beruflich. (private)",
+      "answer": "privat",
+      "fullAnswer": "Ich bin privat hier, nicht beruflich.",
+      "explanation": "Privat.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "servieren",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "zer-VEE-ren",
+      "ipa": "zɛʁˈviːʁən",
+      "notes": ""
+    },
+    "meaning": "to serve (food)",
+    "shortDefinition": "To serve (food)."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "servier|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "servier|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "servier|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "servier|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "servier|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "servier|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat serviert"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das Essen wird um 19 Uhr serviert.",
+      "english": "Dinner is served at 7 pm.",
+      "highlight": [
+        "serviert."
+      ]
+    },
+    {
+      "german": "Der Kellner serviert den Wein.",
+      "english": "The waiter serves the wine.",
+      "highlight": [
+        "serviert"
+      ]
+    },
+    {
+      "german": "Kalt servieren.",
+      "english": "Serve cold.",
+      "highlight": [
+        "servieren."
+      ]
+    }
+  ],
+  "forms": [
+    "Serviette"
+  ],
+  "memoryHook": "Servieren (no ge-); die Serviette.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (servieren)",
+      "answer": "serviert",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: serviert.",
+      "acceptedAnswers": [
+        "serviert"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (servieren, past)",
+      "answer": "serviert",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe serviert.",
+      "acceptedAnswers": [
+        "serviert"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does servieren mean?",
+      "options": [
+        "the family",
+        "never",
+        "to serve (food)"
+      ],
+      "answer": "to serve (food)",
+      "explanation": "servieren: to serve (food).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "hat serviert",
+        "hat geserviert"
+      ],
+      "answer": "hat serviert",
+      "explanation": "-ieren: no ge-.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Napkin:",
+      "options": [
+        "die Serviette",
+        "das Servier"
+      ],
+      "answer": "die Serviette",
+      "explanation": "Same root.",
+      "id": "q5"
+    }
+  ]
+}

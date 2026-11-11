@@ -1,0 +1,166 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "locken",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "LO-ken",
+      "ipa": "ˈlɔkn̩",
+      "notes": ""
+    },
+    "meaning": "to lure, entice, tempt",
+    "shortDefinition": "To lure, entice, tempt."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "lock|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "lock|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "lock|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "lock|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "lock|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "lock|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gelockt"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das schöne Wetter lockt viele Besucher.",
+      "english": "The nice weather attracts many visitors.",
+      "highlight": [
+        "lockt"
+      ]
+    },
+    {
+      "german": "Sie lockt die Katze mit Futter.",
+      "english": "She lures the cat with food.",
+      "highlight": [
+        "lockt"
+      ]
+    },
+    {
+      "german": "Das lockt mich nicht.",
+      "english": "That doesn't tempt me.",
+      "highlight": [
+        "lockt"
+      ]
+    }
+  ],
+  "forms": [
+    "verlockend",
+    "anlocken"
+  ],
+  "memoryHook": "Locken = lure, tempt; verlockend; die Locke = curl.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (locken)",
+      "answer": "lockt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: lockt.",
+      "acceptedAnswers": [
+        "lockt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (locken, past)",
+      "answer": "gelockt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gelockt.",
+      "acceptedAnswers": [
+        "gelockt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does locken mean?",
+      "options": [
+        "to lure",
+        "the family",
+        "hot"
+      ],
+      "answer": "to lure",
+      "explanation": "locken: to lure, entice, tempt.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Adjective 'verlockend' means…",
+      "options": [
+        "tempting",
+        "locked"
+      ],
+      "answer": "tempting",
+      "explanation": "Tempting.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Bait:",
+      "options": [
+        "der Köder / das Lockmittel",
+        "die Locke"
+      ],
+      "answer": "der Köder / das Lockmittel",
+      "explanation": "Bait.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Die Locke' (noun) means…",
+      "options": [
+        "a curl (of hair)",
+        "a lure"
+      ],
+      "answer": "a curl (of hair)",
+      "explanation": "Hair.",
+      "id": "q6"
+    }
+  ]
+}

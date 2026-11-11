@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Boot",
+    "partOfSpeech": "noun, neuter (das Boot)",
+    "pronunciation": {
+      "respelling": "BOHT",
+      "ipa": "boːt",
+      "notes": "Plural: die Boote."
+    },
+    "meaning": "boat",
+    "shortDefinition": "Boat."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Boot, plural die Boote.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Boot"
+        },
+        {
+          "label": "More than one",
+          "value": "die Boote"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir fahren mit dem Boot über den See.",
+      "english": "We're crossing the lake by boat.",
+      "highlight": [
+        "Boot"
+      ]
+    },
+    {
+      "german": "Er hat ein kleines Segelboot.",
+      "english": "He has a small sailing boat.",
+      "highlight": [
+        "Segelboot."
+      ]
+    },
+    {
+      "german": "Alle sitzen im selben Boot.",
+      "english": "We're all in the same boat.",
+      "highlight": [
+        "Boot."
+      ]
+    }
+  ],
+  "forms": [
+    "Boote",
+    "die Boote",
+    "das Boot"
+  ],
+  "memoryHook": "Das Boot (small); das Schiff (big).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Boot",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Boot is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Boot, zwei ___",
+      "answer": "Boote",
+      "fullAnswer": "ein Boot, zwei Boote",
+      "explanation": "The plural is Boote.",
+      "acceptedAnswers": [
+        "Boote"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Boot mean?",
+      "options": [
+        "boat",
+        "cheap",
+        "the flower"
+      ],
+      "answer": "boat",
+      "explanation": "Boot: boat.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Boot or Schiff? A large ship:",
+      "options": [
+        "das Schiff",
+        "das Boot"
+      ],
+      "answer": "das Schiff",
+      "explanation": "Boot = small.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Im selben Boot sitzen' means…",
+      "options": [
+        "to be in the same situation",
+        "to row"
+      ],
+      "answer": "to be in the same situation",
+      "explanation": "Same idiom!",
+      "id": "q5"
+    }
+  ]
+}

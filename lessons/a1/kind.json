@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Kind",
+    "partOfSpeech": "noun, neuter (das Kind)",
+    "pronunciation": {
+      "respelling": "KINT",
+      "ipa": "kɪnt",
+      "notes": "Plural: die Kinder."
+    },
+    "meaning": "child",
+    "shortDefinition": "Child."
+  },
+  "wordFamily": [
+    {
+      "german": "der Kindergarten",
+      "english": "nursery school",
+      "type": "noun"
+    },
+    {
+      "german": "die Kindheit",
+      "english": "childhood",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Kind, plural die Kinder.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Kind"
+        },
+        {
+          "label": "More than one",
+          "value": "die Kinder"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir haben zwei Kinder.",
+      "english": "We have two children.",
+      "highlight": [
+        "Kinder."
+      ]
+    },
+    {
+      "german": "Das Kind spielt im Garten.",
+      "english": "The child is playing in the garden.",
+      "highlight": [
+        "Kind"
+      ]
+    },
+    {
+      "german": "Als Kind habe ich in Italien gewohnt.",
+      "english": "As a child I lived in Italy.",
+      "highlight": [
+        "Kind"
+      ]
+    }
+  ],
+  "forms": [
+    "Kinder",
+    "die Kinder",
+    "das Kind"
+  ],
+  "memoryHook": "Das Kind (d sounds like t), plural Kinder. English kept it in 'kindergarten'.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Kind",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Kind is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Kind, zwei ___",
+      "answer": "Kinder",
+      "fullAnswer": "ein Kind, zwei Kinder",
+      "explanation": "The plural is Kinder.",
+      "acceptedAnswers": [
+        "Kinder"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Kind mean?",
+      "options": [
+        "the evening",
+        "child",
+        "to learn"
+      ],
+      "answer": "child",
+      "explanation": "Kind: child.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Kind is…",
+      "options": [
+        "neuter",
+        "masculine"
+      ],
+      "answer": "neuter",
+      "explanation": "Das Kind.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Der Kindergarten is…",
+      "options": [
+        "nursery school (ages 3–6)",
+        "a playground"
+      ],
+      "answer": "nursery school (ages 3–6)",
+      "explanation": "Kinder + Garten.",
+      "id": "q5"
+    }
+  ]
+}

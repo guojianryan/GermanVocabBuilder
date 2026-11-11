@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Kontinent",
+    "partOfSpeech": "noun, masculine (der Kontinent)",
+    "pronunciation": {
+      "respelling": "kon-ti-NENT",
+      "ipa": "kɔntiˈnɛnt",
+      "notes": "Plural: die Kontinente."
+    },
+    "meaning": "continent",
+    "shortDefinition": "Continent."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Kontinent, plural die Kontinente.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Kontinent"
+        },
+        {
+          "label": "More than one",
+          "value": "die Kontinente"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Afrika ist ein großer Kontinent.",
+      "english": "Africa is a big continent.",
+      "highlight": [
+        "Kontinent."
+      ]
+    },
+    {
+      "german": "Es gibt sieben Kontinente.",
+      "english": "There are seven continents.",
+      "highlight": [
+        "Kontinente."
+      ]
+    },
+    {
+      "german": "Der Kontinent Europa.",
+      "english": "The continent of Europe.",
+      "highlight": [
+        "Kontinent"
+      ]
+    }
+  ],
+  "forms": [
+    "Erdteil"
+  ],
+  "memoryHook": "Der Kontinent (= Erdteil).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Kontinent",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Kontinent is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Kontinent, zwei ___",
+      "answer": "Kontinente",
+      "fullAnswer": "ein Kontinent, zwei Kontinente",
+      "explanation": "The plural is Kontinente.",
+      "acceptedAnswers": [
+        "Kontinente"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Kontinent mean?",
+      "options": [
+        "to open",
+        "continent",
+        "the key"
+      ],
+      "answer": "continent",
+      "explanation": "Kontinent: continent.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Stress on…",
+      "options": [
+        "-NENT",
+        "KON-"
+      ],
+      "answer": "-NENT",
+      "explanation": "End.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonym:",
+      "options": [
+        "der Erdteil",
+        "das Land"
+      ],
+      "answer": "der Erdteil",
+      "explanation": "Earth part.",
+      "id": "q5"
+    }
+  ]
+}

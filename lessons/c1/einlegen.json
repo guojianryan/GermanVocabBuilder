@@ -1,0 +1,182 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "einlegen",
+    "partOfSpeech": "separable verb",
+    "pronunciation": {
+      "respelling": "INE-lay-gen",
+      "ipa": "ˈaɪ̯nˌleːɡn̩",
+      "notes": ""
+    },
+    "meaning": "to put in, insert; to take (a break); to lodge (an appeal); to pickle",
+    "shortDefinition": "To put in, insert; to take (a break); to lodge (an appeal); to pickle."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "ein",
+        "meaning": "in"
+      },
+      {
+        "part": "legen",
+        "meaning": "to lay",
+        "emphasis": "arrive"
+      }
+    ],
+    "literalMeaning": "to lay in",
+    "summary": "Putting it inside."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "leg|e … |ein"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "leg|st … |ein"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "leg|t … |ein"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "leg|en … |ein"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "leg|t … |ein"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "leg|en … |ein"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat eingelegt"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir legen eine Pause ein.",
+      "english": "We'll take a break.",
+      "highlight": [
+        "legen",
+        "ein."
+      ]
+    },
+    {
+      "german": "Er hat Einspruch eingelegt.",
+      "english": "He lodged an objection.",
+      "highlight": [
+        "eingelegt."
+      ]
+    },
+    {
+      "german": "Eingelegte Gurken.",
+      "english": "Pickled gherkins.",
+      "highlight": [
+        "Eingelegte"
+      ]
+    }
+  ],
+  "forms": [
+    "Einlage"
+  ],
+  "memoryHook": "Einlegen: insert; take (Pause); lodge (Einspruch); pickle.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ … ein (einlegen)",
+      "answer": "legt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: legt … ein.",
+      "acceptedAnswers": [
+        "legt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (einlegen, past)",
+      "answer": "eingelegt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe eingelegt.",
+      "acceptedAnswers": [
+        "eingelegt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does einlegen mean?",
+      "options": [
+        "to put in",
+        "the job",
+        "slowly"
+      ],
+      "answer": "to put in",
+      "explanation": "einlegen: to put in, insert; to take (a break); to lodge (an appeal); to pickle.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Eine Pause einlegen' means…",
+      "options": [
+        "to take a break",
+        "to insert a break in paper"
+      ],
+      "answer": "to take a break",
+      "explanation": "Break.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Ein gutes Wort einlegen für' means…",
+      "options": [
+        "to put in a good word for",
+        "to insert a word"
+      ],
+      "answer": "to put in a good word for",
+      "explanation": "Idiom.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Eingelegt' (food) means…",
+      "options": [
+        "pickled, marinated",
+        "inserted"
+      ],
+      "answer": "pickled, marinated",
+      "explanation": "Food.",
+      "id": "q6"
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Mensch",
+    "partOfSpeech": "noun, masculine (der Mensch)",
+    "pronunciation": {
+      "respelling": "MENSH",
+      "ipa": "mɛnʃ",
+      "notes": "It adds -en in all forms except der Mensch. Plural: die Menschen."
+    },
+    "meaning": "human being, person",
+    "shortDefinition": "Human being, person."
+  },
+  "wordFamily": [
+    {
+      "german": "die Leute",
+      "english": "people",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Mensch, plural die Menschen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Mensch"
+        },
+        {
+          "label": "More than one",
+          "value": "die Menschen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er ist ein netter Mensch.",
+      "english": "He's a nice person.",
+      "highlight": [
+        "Mensch."
+      ]
+    },
+    {
+      "german": "In der Stadt leben zwei Millionen Menschen.",
+      "english": "Two million people live in the city.",
+      "highlight": [
+        "Menschen."
+      ]
+    },
+    {
+      "german": "Mensch, das ist toll!",
+      "english": "Wow, that's great!",
+      "highlight": [
+        "Mensch,"
+      ]
+    }
+  ],
+  "forms": [
+    "Menschen",
+    "den Menschen",
+    "der Mensch"
+  ],
+  "memoryHook": "Der Mensch = person, human (any gender). Adds -en in other cases: den Menschen. 'Mensch!' = 'Wow!'.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Mensch",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Mensch is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Mensch, zwei ___",
+      "answer": "Menschen",
+      "fullAnswer": "ein Mensch, zwei Menschen",
+      "explanation": "The plural is Menschen.",
+      "acceptedAnswers": [
+        "Menschen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Mensch mean?",
+      "options": [
+        "expensive",
+        "human being",
+        "to travel"
+      ],
+      "answer": "human being",
+      "explanation": "Mensch: human being, person.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Mensch is…",
+      "options": [
+        "masculine, for any person",
+        "only for men"
+      ],
+      "answer": "masculine, for any person",
+      "explanation": "Der Mensch = person.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Mensch!' as an exclamation means…",
+      "options": [
+        "Wow! / Oh man!",
+        "Human!"
+      ],
+      "answer": "Wow! / Oh man!",
+      "explanation": "Informal.",
+      "id": "q5"
+    }
+  ]
+}

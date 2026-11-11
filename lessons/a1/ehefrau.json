@@ -1,0 +1,155 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Ehefrau",
+    "partOfSpeech": "noun, feminine (die Ehefrau)",
+    "pronunciation": {
+      "respelling": "AY-uh-frow",
+      "ipa": "ˈeːəˌfʁaʊ̯",
+      "notes": "Plural: die Ehefrauen."
+    },
+    "meaning": "wife",
+    "shortDefinition": "Wife."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Ehe",
+        "meaning": "marriage"
+      },
+      {
+        "part": "frau",
+        "meaning": "woman, wife"
+      }
+    ],
+    "literalMeaning": "marriage woman"
+  },
+  "wordFamily": [
+    {
+      "german": "der Ehemann",
+      "english": "husband",
+      "type": "noun"
+    },
+    {
+      "german": "die Ehe",
+      "english": "marriage",
+      "type": "noun"
+    },
+    {
+      "german": "verheiratet",
+      "english": "married",
+      "type": "adjective"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Ehefrau, plural die Ehefrauen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Ehefrau"
+        },
+        {
+          "label": "More than one",
+          "value": "die Ehefrauen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das ist meine Ehefrau, Lena.",
+      "english": "This is my wife, Lena.",
+      "highlight": [
+        "Ehefrau,"
+      ]
+    },
+    {
+      "german": "Seine Frau arbeitet als Ärztin.",
+      "english": "His wife works as a doctor.",
+      "highlight": [
+        "Frau"
+      ]
+    },
+    {
+      "german": "Er wohnt mit seiner Ehefrau in Bonn.",
+      "english": "He lives with his wife in Bonn.",
+      "highlight": [
+        "Ehefrau"
+      ]
+    }
+  ],
+  "forms": [
+    "Ehefrauen",
+    "die Ehefrauen",
+    "die Ehefrau"
+  ],
+  "memoryHook": "Die Ehe (marriage) + Frau. In daily life, just meine Frau. Husband: der Ehemann, or just mein Mann.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Ehefrau",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Ehefrau is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Ehefrau, zwei ___",
+      "answer": "Ehefrauen",
+      "fullAnswer": "ein Ehefrau, zwei Ehefrauen",
+      "explanation": "The plural is Ehefrauen.",
+      "acceptedAnswers": [
+        "Ehefrauen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Ehefrau mean?",
+      "options": [
+        "wife",
+        "quiet",
+        "slowly"
+      ],
+      "answer": "wife",
+      "explanation": "Ehefrau: wife.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "In everyday speech, 'my wife' is usually…",
+      "options": [
+        "meine Frau",
+        "meine Ehefrau"
+      ],
+      "answer": "meine Frau",
+      "explanation": "Ehefrau is more formal.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Die Ehe means…",
+      "options": [
+        "marriage",
+        "honour"
+      ],
+      "answer": "marriage",
+      "explanation": "Ehe + Frau.",
+      "id": "q5"
+    }
+  ]
+}

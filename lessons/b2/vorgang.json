@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Vorgang",
+    "partOfSpeech": "noun, masculine (der Vorgang)",
+    "pronunciation": {
+      "respelling": "FOR-gang",
+      "ipa": "ˈfoːɐ̯ɡaŋ",
+      "notes": "Plural: die Vorgänge."
+    },
+    "meaning": "process, event, occurrence; file",
+    "shortDefinition": "Process, event, occurrence; file."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Vor",
+        "meaning": "forward, before"
+      },
+      {
+        "part": "gang",
+        "meaning": "going"
+      }
+    ],
+    "literalMeaning": "a going-forward"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Vorgang, plural die Vorgänge.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Vorgang"
+        },
+        {
+          "label": "More than one",
+          "value": "die Vorgänge"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Vorgang dauert zehn Minuten.",
+      "english": "The process takes ten minutes.",
+      "highlight": [
+        "Vorgang"
+      ]
+    },
+    {
+      "german": "Die Polizei untersucht die Vorgänge.",
+      "english": "The police are investigating the events.",
+      "highlight": [
+        "Vorgänge."
+      ]
+    },
+    {
+      "german": "Bitte nennen Sie die Nummer des Vorgangs.",
+      "english": "Please quote the case number.",
+      "highlight": [
+        "Vorgangs."
+      ]
+    }
+  ],
+  "forms": [
+    "vorgehen",
+    "Vorgänger"
+  ],
+  "memoryHook": "Vorgehen → der Vorgang (process, event).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Vorgang",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Vorgang is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Vorgang, zwei ___",
+      "answer": "Vorgänge",
+      "fullAnswer": "ein Vorgang, zwei Vorgänge",
+      "explanation": "The plural is Vorgänge.",
+      "acceptedAnswers": [
+        "Vorgaenge"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Vorgang mean?",
+      "options": [
+        "the family",
+        "the job",
+        "process"
+      ],
+      "answer": "process",
+      "explanation": "Vorgang: process, event, occurrence; file.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "vorgehen (happen, proceed)",
+        "vor + Gang (corridor) only"
+      ],
+      "answer": "vorgehen (happen, proceed)",
+      "explanation": "Proceed.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Predecessor:",
+      "options": [
+        "der Vorgänger",
+        "der Vorgang"
+      ],
+      "answer": "der Vorgänger",
+      "explanation": "Related.",
+      "id": "q5"
+    }
+  ]
+}

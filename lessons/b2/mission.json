@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Mission",
+    "partOfSpeech": "noun, feminine (die Mission)",
+    "pronunciation": {
+      "respelling": "mi-SYOHN",
+      "ipa": "mɪˈsi̯oːn",
+      "notes": "Plural: die Missionen."
+    },
+    "meaning": "mission",
+    "shortDefinition": "Mission."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Mission, plural die Missionen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Mission"
+        },
+        {
+          "label": "More than one",
+          "value": "die Missionen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Mission war erfolgreich.",
+      "english": "The mission was successful.",
+      "highlight": [
+        "Mission"
+      ]
+    },
+    {
+      "german": "Er sieht es als seine Mission.",
+      "english": "He sees it as his mission.",
+      "highlight": [
+        "Mission."
+      ]
+    },
+    {
+      "german": "Eine diplomatische Mission.",
+      "english": "A diplomatic mission.",
+      "highlight": [
+        "Mission."
+      ]
+    }
+  ],
+  "forms": [
+    "Missionar"
+  ],
+  "memoryHook": "Die Mission; der Missionar.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Mission",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Mission is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Mission, zwei ___",
+      "answer": "Missionen",
+      "fullAnswer": "ein Mission, zwei Missionen",
+      "explanation": "The plural is Missionen.",
+      "acceptedAnswers": [
+        "Missionen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Mission mean?",
+      "options": [
+        "to sing",
+        "cheap",
+        "mission"
+      ],
+      "answer": "mission",
+      "explanation": "Mission: mission.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "-sion sounds like…",
+      "options": [
+        "-syohn",
+        "-shun"
+      ],
+      "answer": "-syohn",
+      "explanation": "mi-SYOHN.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Missionary:",
+      "options": [
+        "der Missionar",
+        "der Missioner"
+      ],
+      "answer": "der Missionar",
+      "explanation": "Person.",
+      "id": "q5"
+    }
+  ]
+}

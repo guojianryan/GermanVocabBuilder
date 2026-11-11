@@ -1,0 +1,131 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Bus",
+    "partOfSpeech": "noun, masculine (der Bus)",
+    "pronunciation": {
+      "respelling": "BOOS",
+      "ipa": "bʊs",
+      "notes": "Short u, as in 'put'. Plural: die Busse."
+    },
+    "meaning": "bus",
+    "shortDefinition": "Bus."
+  },
+  "wordFamily": [
+    {
+      "german": "die Haltestelle",
+      "english": "stop",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Bus, plural die Busse.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Bus"
+        },
+        {
+          "label": "More than one",
+          "value": "die Busse"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich fahre mit dem Bus zur Arbeit.",
+      "english": "I go to work by bus.",
+      "highlight": [
+        "Bus"
+      ]
+    },
+    {
+      "german": "Der Bus kommt alle zehn Minuten.",
+      "english": "The bus comes every ten minutes.",
+      "highlight": [
+        "Bus"
+      ]
+    },
+    {
+      "german": "Wo hält der Bus?",
+      "english": "Where does the bus stop?",
+      "highlight": [
+        "Bus?"
+      ]
+    }
+  ],
+  "forms": [
+    "Busse",
+    "die Busse",
+    "der Bus"
+  ],
+  "memoryHook": "Der Bus, plural Busse: double the s and add -e. You wait an der Haltestelle.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Bus",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Bus is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Bus, zwei ___",
+      "answer": "Busse",
+      "fullAnswer": "ein Bus, zwei Busse",
+      "explanation": "The plural is Busse.",
+      "acceptedAnswers": [
+        "Busse"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Bus mean?",
+      "options": [
+        "bus",
+        "to travel",
+        "quiet"
+      ],
+      "answer": "bus",
+      "explanation": "Bus: bus.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich fahre mit ___ Bus.",
+      "options": [
+        "dem",
+        "der"
+      ],
+      "answer": "dem",
+      "explanation": "Der Bus, dative: dem.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Where do you wait for a bus?",
+      "options": [
+        "an der Haltestelle",
+        "am Bahnsteig"
+      ],
+      "answer": "an der Haltestelle",
+      "explanation": "Haltestelle: stop.",
+      "id": "q5"
+    }
+  ]
+}

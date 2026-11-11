@@ -1,0 +1,158 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "beißen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "BYE-sen",
+      "ipa": "ˈbaɪ̯sn̩",
+      "notes": ""
+    },
+    "meaning": "to bite",
+    "shortDefinition": "To bite."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "beiß|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "beiß|t"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "beiß|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "beiß|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "beiß|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "beiß|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gebissen"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Hund beißt nicht.",
+      "english": "The dog doesn't bite.",
+      "highlight": [
+        "beißt"
+      ]
+    },
+    {
+      "german": "Mich hat eine Mücke gebissen.",
+      "english": "A mosquito bit me.",
+      "highlight": [
+        "gebissen."
+      ]
+    },
+    {
+      "german": "Ich beiße in den Apfel.",
+      "english": "I bite into the apple.",
+      "highlight": [
+        "beiße"
+      ]
+    }
+  ],
+  "forms": [
+    "beiße",
+    "beißt",
+    "beißen",
+    "gebissen",
+    "biss"
+  ],
+  "memoryHook": "Beißen, biss, gebissen. 'Ein bisschen' = a little bite!",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (beißen)",
+      "answer": "beißt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: beißt.",
+      "acceptedAnswers": [
+        "beisst"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (beißen, past)",
+      "answer": "gebissen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gebissen.",
+      "acceptedAnswers": [
+        "gebissen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does beißen mean?",
+      "options": [
+        "to bite",
+        "never",
+        "the door"
+      ],
+      "answer": "to bite",
+      "explanation": "beißen: to bite.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Past forms:",
+      "options": [
+        "biss, gebissen",
+        "beißte, gebeißt"
+      ],
+      "answer": "biss, gebissen",
+      "explanation": "Irregular.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "A bite (snack):",
+      "options": [
+        "ein Bissen",
+        "ein Beiß"
+      ],
+      "answer": "ein Bissen",
+      "explanation": "Also 'ein bisschen' comes from it!",
+      "id": "q5"
+    }
+  ]
+}

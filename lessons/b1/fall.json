@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Fall",
+    "partOfSpeech": "noun, masculine (der Fall)",
+    "pronunciation": {
+      "respelling": "FAL",
+      "ipa": "fal",
+      "notes": "Plural: die Fälle."
+    },
+    "meaning": "case; fall",
+    "shortDefinition": "Case; fall."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Fall, plural die Fälle.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Fall"
+        },
+        {
+          "label": "More than one",
+          "value": "die Fälle"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Auf jeden Fall!",
+      "english": "Definitely!",
+      "highlight": [
+        "Fall!"
+      ]
+    },
+    {
+      "german": "Für alle Fälle nehme ich einen Schirm mit.",
+      "english": "Just in case, I'm taking an umbrella.",
+      "highlight": [
+        "Fälle"
+      ]
+    },
+    {
+      "german": "Im Deutschen gibt es vier Fälle.",
+      "english": "There are four cases in German.",
+      "highlight": [
+        "Fälle."
+      ]
+    }
+  ],
+  "forms": [
+    "falls",
+    "auf jeden Fall"
+  ],
+  "memoryHook": "Der Fall: case. Auf jeden Fall, für alle Fälle, im Fall.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Fall",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Fall is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Fall, zwei ___",
+      "answer": "Fälle",
+      "fullAnswer": "ein Fall, zwei Fälle",
+      "explanation": "The plural is Fälle.",
+      "acceptedAnswers": [
+        "Faelle"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Fall mean?",
+      "options": [
+        "tomorrow",
+        "the evening",
+        "case"
+      ],
+      "answer": "case",
+      "explanation": "Fall: case; fall.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Für alle Fälle' means…",
+      "options": [
+        "just in case",
+        "for all falls"
+      ],
+      "answer": "just in case",
+      "explanation": "Idiom.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "In grammar, Fälle are…",
+      "options": [
+        "cases (nominative…)",
+        "mistakes"
+      ],
+      "answer": "cases (nominative…)",
+      "explanation": "Four cases.",
+      "id": "q5"
+    }
+  ]
+}

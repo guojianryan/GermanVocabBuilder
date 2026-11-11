@@ -1,0 +1,166 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "fügen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "FÜ-gen",
+      "ipa": "ˈfyːɡn̩",
+      "notes": ""
+    },
+    "meaning": "to add, join; (sich ~) to submit, comply",
+    "shortDefinition": "To add, join; (sich ~) to submit, comply."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "füg|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "füg|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "füg|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "füg|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "füg|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "füg|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gefügt"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er fügt einen Satz hinzu.",
+      "english": "He adds a sentence.",
+      "highlight": [
+        "fügt"
+      ]
+    },
+    {
+      "german": "Sie fügte sich in ihr Schicksal.",
+      "english": "She resigned herself to her fate.",
+      "highlight": [
+        "fügte"
+      ]
+    },
+    {
+      "german": "Alles fügt sich zusammen.",
+      "english": "Everything is falling into place.",
+      "highlight": [
+        "fügt"
+      ]
+    }
+  ],
+  "forms": [
+    "hinzufügen",
+    "Fuge"
+  ],
+  "memoryHook": "Fügen: join; hinzufügen (add); sich fügen (comply).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (fügen)",
+      "answer": "fügt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: fügt.",
+      "acceptedAnswers": [
+        "fuegt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (fügen, past)",
+      "answer": "gefügt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gefügt.",
+      "acceptedAnswers": [
+        "gefuegt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does fügen mean?",
+      "options": [
+        "tomorrow",
+        "to add",
+        "cheap"
+      ],
+      "answer": "to add",
+      "explanation": "fügen: to add, join; (sich ~) to submit, comply.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Hinzufügen' means…",
+      "options": [
+        "to add",
+        "to hurt"
+      ],
+      "answer": "to add",
+      "explanation": "Add.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Sich fügen' means…",
+      "options": [
+        "to comply, submit",
+        "to fit badly"
+      ],
+      "answer": "to comply, submit",
+      "explanation": "Submit.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Joint, seam:",
+      "options": [
+        "die Fuge",
+        "der Fug"
+      ],
+      "answer": "die Fuge",
+      "explanation": "Joint.",
+      "id": "q6"
+    }
+  ]
+}

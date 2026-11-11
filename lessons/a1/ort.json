@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Ort",
+    "partOfSpeech": "noun, masculine (der Ort)",
+    "pronunciation": {
+      "respelling": "ORT",
+      "ipa": "ɔʁt",
+      "notes": "Plural: die Orte."
+    },
+    "meaning": "place; town, village",
+    "shortDefinition": "Place; town, village."
+  },
+  "wordFamily": [
+    {
+      "german": "der Wohnort",
+      "english": "place of residence",
+      "type": "noun"
+    },
+    {
+      "german": "der Geburtsort",
+      "english": "place of birth",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Ort, plural die Orte.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Ort"
+        },
+        {
+          "label": "More than one",
+          "value": "die Orte"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das ist ein schöner Ort für ein Picknick.",
+      "english": "That's a nice place for a picnic.",
+      "highlight": [
+        "Ort"
+      ]
+    },
+    {
+      "german": "Ich wohne in einem kleinen Ort bei München.",
+      "english": "I live in a small town near Munich.",
+      "highlight": [
+        "Ort"
+      ]
+    },
+    {
+      "german": "Geburtsort: Ankara",
+      "english": "Place of birth: Ankara",
+      "highlight": [
+        "Geburtsort:"
+      ]
+    }
+  ],
+  "forms": [
+    "Orte",
+    "die Orte",
+    "der Ort"
+  ],
+  "memoryHook": "Der Ort = place, small town. Wohnort, Geburtsort on every form.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Ort",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Ort is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Ort, zwei ___",
+      "answer": "Orte",
+      "fullAnswer": "ein Ort, zwei Orte",
+      "explanation": "The plural is Orte.",
+      "acceptedAnswers": [
+        "Orte"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Ort mean?",
+      "options": [
+        "quiet",
+        "place",
+        "the window"
+      ],
+      "answer": "place",
+      "explanation": "Ort: place; town, village.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "On forms, Wohnort means…",
+      "options": [
+        "place of residence",
+        "address number"
+      ],
+      "answer": "place of residence",
+      "explanation": "Wohn + Ort.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Vor Ort' means…",
+      "options": [
+        "on site, on the spot",
+        "before the town"
+      ],
+      "answer": "on site, on the spot",
+      "explanation": "Fixed phrase.",
+      "id": "q5"
+    }
+  ]
+}

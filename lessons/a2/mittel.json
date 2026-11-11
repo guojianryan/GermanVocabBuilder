@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Mittel",
+    "partOfSpeech": "noun, neuter (das Mittel)",
+    "pronunciation": {
+      "respelling": "MIT-el",
+      "ipa": "ˈmɪtl̩",
+      "notes": "The plural looks the same. Plural: die Mittel."
+    },
+    "meaning": "means; remedy",
+    "shortDefinition": "Means; remedy."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Mittel, plural die Mittel.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Mittel"
+        },
+        {
+          "label": "More than one",
+          "value": "die Mittel"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Haben Sie ein Mittel gegen Husten?",
+      "english": "Have you got something for a cough?",
+      "highlight": [
+        "Mittel"
+      ]
+    },
+    {
+      "german": "Das Auto ist ein Verkehrsmittel.",
+      "english": "The car is a means of transport.",
+      "highlight": [
+        "Verkehrsmittel."
+      ]
+    },
+    {
+      "german": "Wir haben nicht genug Mittel.",
+      "english": "We don't have enough funds.",
+      "highlight": [
+        "Mittel."
+      ]
+    }
+  ],
+  "forms": [
+    "Mittel",
+    "die Mittel",
+    "das Mittel"
+  ],
+  "memoryHook": "Das Mittel = means, remedy. Lebensmittel, Verkehrsmittel, Waschmittel.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Mittel",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Mittel is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Mittel, zwei ___",
+      "answer": "Mittel",
+      "fullAnswer": "ein Mittel, zwei Mittel",
+      "explanation": "The plural is Mittel.",
+      "acceptedAnswers": [
+        "Mittel"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Mittel mean?",
+      "options": [
+        "to buy",
+        "to help",
+        "means"
+      ],
+      "answer": "means",
+      "explanation": "Mittel: means; remedy.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Ein Mittel gegen Kopfschmerzen' is…",
+      "options": [
+        "a headache remedy",
+        "the middle of a headache"
+      ],
+      "answer": "a headache remedy",
+      "explanation": "Remedy.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Lebensmittel, Verkehrsmittel, Waschmittel: Mittel means…",
+      "options": [
+        "means, stuff for",
+        "middle"
+      ],
+      "answer": "means, stuff for",
+      "explanation": "Means.",
+      "id": "q5"
+    }
+  ]
+}

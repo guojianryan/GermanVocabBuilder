@@ -1,0 +1,150 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Ehemann",
+    "partOfSpeech": "noun, masculine (der Ehemann)",
+    "pronunciation": {
+      "respelling": "AY-uh-man",
+      "ipa": "ˈeːəˌman",
+      "notes": "Plural: die Ehemänner."
+    },
+    "meaning": "husband",
+    "shortDefinition": "Husband."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Ehe",
+        "meaning": "marriage"
+      },
+      {
+        "part": "mann",
+        "meaning": "man, husband"
+      }
+    ],
+    "literalMeaning": "marriage man"
+  },
+  "wordFamily": [
+    {
+      "german": "die Ehefrau",
+      "english": "wife",
+      "type": "noun"
+    },
+    {
+      "german": "der Mann",
+      "english": "man; husband",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Ehemann, plural die Ehemänner.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Ehemann"
+        },
+        {
+          "label": "More than one",
+          "value": "die Ehemänner"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Mein Ehemann kocht sehr gut.",
+      "english": "My husband cooks very well.",
+      "highlight": [
+        "Ehemann"
+      ]
+    },
+    {
+      "german": "Sie kommt mit ihrem Mann.",
+      "english": "She's coming with her husband.",
+      "highlight": [
+        "Mann."
+      ]
+    },
+    {
+      "german": "Ehemann und Ehefrau unterschreiben hier.",
+      "english": "Husband and wife sign here.",
+      "highlight": [
+        "Ehemann"
+      ]
+    }
+  ],
+  "forms": [
+    "Ehemänner",
+    "die Ehemänner",
+    "der Ehemann"
+  ],
+  "memoryHook": "Ehe (marriage) + Mann. Day to day: mein Mann.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Ehemann",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Ehemann is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Ehemann, zwei ___",
+      "answer": "Ehemänner",
+      "fullAnswer": "ein Ehemann, zwei Ehemänner",
+      "explanation": "The plural is Ehemänner.",
+      "acceptedAnswers": [
+        "Ehemaenner"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Ehemann mean?",
+      "options": [
+        "the street",
+        "husband",
+        "never"
+      ],
+      "answer": "husband",
+      "explanation": "Ehemann: husband.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "In everyday speech, 'my husband' is usually…",
+      "options": [
+        "mein Mann",
+        "mein Ehemann"
+      ],
+      "answer": "mein Mann",
+      "explanation": "Ehemann is more formal.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "The plural of Mann gets…",
+      "options": [
+        "ä + er: Männer",
+        "-s: Manns"
+      ],
+      "answer": "ä + er: Männer",
+      "explanation": "Ehemänner.",
+      "id": "q5"
+    }
+  ]
+}

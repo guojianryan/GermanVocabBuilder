@@ -1,0 +1,172 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "fliegen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "FLEE-gen",
+      "ipa": "ˈfliːɡn̩",
+      "notes": ""
+    },
+    "meaning": "to fly",
+    "shortDefinition": "To fly."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "flieg|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "flieg|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "flieg|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "flieg|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "flieg|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "flieg|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): ist geflogen"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "der Flug",
+      "english": "flight",
+      "type": "noun"
+    },
+    {
+      "german": "das Flugzeug",
+      "english": "aeroplane",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich fliege nicht gern.",
+      "english": "I don't like flying.",
+      "highlight": [
+        "fliege"
+      ]
+    },
+    {
+      "german": "Wir fliegen im Juli nach Spanien.",
+      "english": "We're flying to Spain in July.",
+      "highlight": [
+        "fliegen"
+      ]
+    },
+    {
+      "german": "Er ist gestern nach New York geflogen.",
+      "english": "He flew to New York yesterday.",
+      "highlight": [
+        "geflogen."
+      ]
+    }
+  ],
+  "forms": [
+    "fliege",
+    "fliegst",
+    "fliegt",
+    "fliegen",
+    "geflogen",
+    "flog",
+    "Flug"
+  ],
+  "memoryHook": "Fliegen = fly, past geflogen with sein. Der Flug = the flight; der Flughafen = airport.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (fliegen)",
+      "answer": "fliegt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: fliegt.",
+      "acceptedAnswers": [
+        "fliegt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich bin schon ___. (fliegen, past)",
+      "answer": "geflogen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: bin geflogen.",
+      "acceptedAnswers": [
+        "geflogen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does fliegen mean?",
+      "options": [
+        "to fly",
+        "the street",
+        "to open"
+      ],
+      "answer": "to fly",
+      "explanation": "fliegen: to fly.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich ___ nach Rom geflogen.",
+      "options": [
+        "habe",
+        "bin"
+      ],
+      "answer": "bin",
+      "explanation": "Movement: sein.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "The noun 'flight' is…",
+      "options": [
+        "der Flug",
+        "die Fliege"
+      ],
+      "answer": "der Flug",
+      "explanation": "Die Fliege is a fly (insect).",
+      "id": "q5"
+    }
+  ]
+}

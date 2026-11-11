@@ -1,0 +1,166 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "herrschen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "HAIR-shen",
+      "ipa": "ˈhɛʁʃn̩",
+      "notes": ""
+    },
+    "meaning": "to rule; to prevail",
+    "shortDefinition": "To rule; to prevail."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "herrsch|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "herrsch|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "herrsch|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "herrsch|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "herrsch|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "herrsch|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat geherrscht"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der König herrschte 40 Jahre.",
+      "english": "The king ruled for 40 years.",
+      "highlight": [
+        "herrschte"
+      ]
+    },
+    {
+      "german": "Im Büro herrscht Chaos.",
+      "english": "Chaos reigns in the office.",
+      "highlight": [
+        "herrscht"
+      ]
+    },
+    {
+      "german": "Es herrscht große Hitze.",
+      "english": "It's very hot.",
+      "highlight": [
+        "herrscht"
+      ]
+    }
+  ],
+  "forms": [
+    "Herrscher",
+    "Herrschaft"
+  ],
+  "memoryHook": "Herrschen: rule; es herrscht (Ruhe); der Herrscher.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (herrschen)",
+      "answer": "herrscht",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: herrscht.",
+      "acceptedAnswers": [
+        "herrscht"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (herrschen, past)",
+      "answer": "geherrscht",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe geherrscht.",
+      "acceptedAnswers": [
+        "geherrscht"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does herrschen mean?",
+      "options": [
+        "to rule",
+        "to buy",
+        "to wait"
+      ],
+      "answer": "to rule",
+      "explanation": "herrschen: to rule; to prevail.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Es herrscht …' describes…",
+      "options": [
+        "a prevailing state (Chaos, Ruhe)",
+        "a king only"
+      ],
+      "answer": "a prevailing state (Chaos, Ruhe)",
+      "explanation": "Prevail.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ruler:",
+      "options": [
+        "der Herrscher",
+        "der Herr only"
+      ],
+      "answer": "der Herrscher",
+      "explanation": "Ruler.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Rule (noun):",
+      "options": [
+        "die Herrschaft",
+        "die Herrsche"
+      ],
+      "answer": "die Herrschaft",
+      "explanation": "Reign.",
+      "id": "q6"
+    }
+  ]
+}

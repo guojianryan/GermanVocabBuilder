@@ -1,0 +1,180 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "erschießen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "er-SHEE-sen",
+      "ipa": "ɛɐ̯ˈʃiːsn̩",
+      "notes": ""
+    },
+    "meaning": "to shoot dead",
+    "shortDefinition": "To shoot dead."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "er",
+        "meaning": "to the end (kill)"
+      },
+      {
+        "part": "schießen",
+        "meaning": "to shoot",
+        "emphasis": "release"
+      }
+    ],
+    "literalMeaning": "to shoot to death"
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "erschieß|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "erschieß|t"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "erschieß|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "erschieß|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "erschieß|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "erschieß|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat erschossen"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Mann wurde erschossen.",
+      "english": "The man was shot dead.",
+      "highlight": [
+        "erschossen."
+      ]
+    },
+    {
+      "german": "Ich bin total erschossen. (informal)",
+      "english": "I'm completely shattered.",
+      "highlight": [
+        "erschossen."
+      ]
+    },
+    {
+      "german": "Er erschoss den Bären.",
+      "english": "He shot the bear.",
+      "highlight": [
+        "erschoss"
+      ]
+    }
+  ],
+  "forms": [
+    "schießen"
+  ],
+  "memoryHook": "Erschießen = shoot dead; informal: erschossen = shattered.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (erschießen)",
+      "answer": "erschießt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: erschießt.",
+      "acceptedAnswers": [
+        "erschiesst"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (erschießen, past)",
+      "answer": "erschossen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe erschossen.",
+      "acceptedAnswers": [
+        "erschossen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does erschießen mean?",
+      "options": [
+        "to wait",
+        "to shoot dead",
+        "expensive"
+      ],
+      "answer": "to shoot dead",
+      "explanation": "erschießen: to shoot dead.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Erschießen vs schießen:",
+      "options": [
+        "kill by shooting vs shoot",
+        "same"
+      ],
+      "answer": "kill by shooting vs shoot",
+      "explanation": "Er- = result.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Informal 'erschossen' means…",
+      "options": [
+        "exhausted",
+        "surprised"
+      ],
+      "answer": "exhausted",
+      "explanation": "Tired.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "hat erschossen",
+        "hat erschießt"
+      ],
+      "answer": "hat erschossen",
+      "explanation": "Strong.",
+      "id": "q6"
+    }
+  ]
+}

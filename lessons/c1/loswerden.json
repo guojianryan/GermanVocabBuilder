@@ -1,0 +1,188 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "loswerden",
+    "partOfSpeech": "separable verb",
+    "pronunciation": {
+      "respelling": "LOHS-vair-den",
+      "ipa": "ˈloːsˌveːɐ̯dn̩",
+      "notes": ""
+    },
+    "meaning": "to get rid of",
+    "shortDefinition": "To get rid of."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "los",
+        "meaning": "free, loose"
+      },
+      {
+        "part": "werden",
+        "meaning": "to become",
+        "emphasis": "release"
+      }
+    ],
+    "literalMeaning": "to become free (of)",
+    "summary": "Finally free of it."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "werd|e … |los"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "wird|st … |los"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "wird … |los"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "werd|en … |los"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "werd|et … |los"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "werd|en … |los"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): ist losgeworden"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich werde die Erkältung nicht los.",
+      "english": "I can't shake off this cold.",
+      "highlight": [
+        "werde",
+        "los."
+      ]
+    },
+    {
+      "german": "Wir sind das alte Sofa losgeworden.",
+      "english": "We got rid of the old sofa.",
+      "highlight": [
+        "losgeworden."
+      ]
+    },
+    {
+      "german": "Ich werde das Gefühl nicht los, dass …",
+      "english": "I can't shake the feeling that …",
+      "highlight": [
+        "werde",
+        "los,"
+      ]
+    }
+  ],
+  "forms": [
+    "werde los",
+    "wirdst los",
+    "wird los",
+    "werden los",
+    "werdet los",
+    "losgeworden"
+  ],
+  "memoryHook": "Loswerden (ist losgeworden) = get rid of.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ … los (loswerden)",
+      "answer": "wird",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: wird … los.",
+      "acceptedAnswers": [
+        "wird"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich bin schon ___. (loswerden, past)",
+      "answer": "losgeworden",
+      "fullAnswer": "",
+      "explanation": "Perfekt: bin losgeworden.",
+      "acceptedAnswers": [
+        "losgeworden"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does loswerden mean?",
+      "options": [
+        "to get rid of",
+        "to open",
+        "always"
+      ],
+      "answer": "to get rid of",
+      "explanation": "loswerden: to get rid of.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "ist losgeworden",
+        "hat losgeworden"
+      ],
+      "answer": "ist losgeworden",
+      "explanation": "Werden = sein.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Das Gefühl nicht loswerden' means…",
+      "options": [
+        "can't shake the feeling",
+        "lose the feeling"
+      ],
+      "answer": "can't shake the feeling",
+      "explanation": "Idiom.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Takes…",
+      "options": [
+        "accusative",
+        "dative"
+      ],
+      "answer": "accusative",
+      "explanation": "Object.",
+      "id": "q6"
+    }
+  ]
+}

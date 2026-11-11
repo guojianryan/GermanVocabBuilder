@@ -1,0 +1,151 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Geburtstag",
+    "partOfSpeech": "noun, masculine (der Geburtstag)",
+    "pronunciation": {
+      "respelling": "guh-BOORTS-tahk",
+      "ipa": "ɡəˈbuːɐ̯tsˌtaːk",
+      "notes": "Plural: die Geburtstage."
+    },
+    "meaning": "birthday",
+    "shortDefinition": "Birthday."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Geburt",
+        "meaning": "birth"
+      },
+      {
+        "part": "s",
+        "meaning": "linking s"
+      },
+      {
+        "part": "tag",
+        "meaning": "day"
+      }
+    ],
+    "literalMeaning": "birth day"
+  },
+  "wordFamily": [
+    {
+      "german": "der Glückwunsch",
+      "english": "congratulations",
+      "type": "noun"
+    },
+    {
+      "german": "die Geburt",
+      "english": "birth",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Geburtstag, plural die Geburtstage.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Geburtstag"
+        },
+        {
+          "label": "More than one",
+          "value": "die Geburtstage"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Herzlichen Glückwunsch zum Geburtstag!",
+      "english": "Happy birthday!",
+      "highlight": [
+        "Geburtstag!"
+      ]
+    },
+    {
+      "german": "Wann hast du Geburtstag?",
+      "english": "When's your birthday?",
+      "highlight": [
+        "Geburtstag?"
+      ]
+    },
+    {
+      "german": "Ich habe am 5. Juni Geburtstag.",
+      "english": "My birthday's on 5 June.",
+      "highlight": [
+        "Geburtstag."
+      ]
+    }
+  ],
+  "forms": [
+    "Geburtstage",
+    "die Geburtstage",
+    "der Geburtstag"
+  ],
+  "memoryHook": "Geburt + s + Tag. In German you 'have' birthday: Ich habe heute Geburtstag.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Geburtstag",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Geburtstag is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Geburtstag, zwei ___",
+      "answer": "Geburtstage",
+      "fullAnswer": "ein Geburtstag, zwei Geburtstage",
+      "explanation": "The plural is Geburtstage.",
+      "acceptedAnswers": [
+        "Geburtstage"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Geburtstag mean?",
+      "options": [
+        "tomorrow",
+        "the door",
+        "birthday"
+      ],
+      "answer": "birthday",
+      "explanation": "Geburtstag: birthday.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'When's your birthday?' is…",
+      "options": [
+        "Wann hast du Geburtstag?",
+        "Wann ist du Geburtstag?"
+      ],
+      "answer": "Wann hast du Geburtstag?",
+      "explanation": "In German you 'have' your birthday.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Alles Gute zum ___! (birthday)",
+      "answer": "Geburtstag",
+      "fullAnswer": "Alles Gute zum Geburtstag!",
+      "explanation": "Zum Geburtstag.",
+      "id": "q5"
+    }
+  ]
+}

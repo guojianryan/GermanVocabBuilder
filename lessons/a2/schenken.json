@@ -1,0 +1,165 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "schenken",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "SHENK-en",
+      "ipa": "ˈʃɛŋkn̩",
+      "notes": ""
+    },
+    "meaning": "to give (as a present)",
+    "shortDefinition": "To give (as a present)."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "schenk|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "schenk|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "schenk|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "schenk|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "schenk|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "schenk|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat geschenkt"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "das Geschenk",
+      "english": "present",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Was schenkst du deiner Mutter?",
+      "english": "What are you giving your mother?",
+      "highlight": [
+        "schenkst"
+      ]
+    },
+    {
+      "german": "Ich schenke ihm ein Buch.",
+      "english": "I'm giving him a book.",
+      "highlight": [
+        "schenke"
+      ]
+    },
+    {
+      "german": "Das habe ich zum Geburtstag geschenkt bekommen.",
+      "english": "I got that for my birthday.",
+      "highlight": [
+        "geschenkt"
+      ]
+    }
+  ],
+  "forms": [
+    "schenke",
+    "schenkst",
+    "schenkt",
+    "schenken",
+    "geschenkt"
+  ],
+  "memoryHook": "Schenken = give a present. Das Geschenk = the present.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (schenken)",
+      "answer": "schenkt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: schenkt.",
+      "acceptedAnswers": [
+        "schenkt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (schenken, past)",
+      "answer": "geschenkt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe geschenkt.",
+      "acceptedAnswers": [
+        "geschenkt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does schenken mean?",
+      "options": [
+        "to give (as a present)",
+        "the family",
+        "quiet"
+      ],
+      "answer": "to give (as a present)",
+      "explanation": "schenken: to give (as a present).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Schenken or geben? A present:",
+      "options": [
+        "schenken",
+        "geben"
+      ],
+      "answer": "schenken",
+      "explanation": "Schenken = give as a gift.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Geschenkt!' (informal) means…",
+      "options": [
+        "Forget it! / Never mind!",
+        "Present!"
+      ],
+      "answer": "Forget it! / Never mind!",
+      "explanation": "Idiom.",
+      "id": "q5"
+    }
+  ]
+}

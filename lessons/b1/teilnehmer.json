@@ -1,0 +1,137 @@
+{
+ "schemaVersion": "1.4",
+ "language": "de",
+ "explanationLanguage": "en",
+ "level": "B1",
+ "levelSource": "Goethe-Zertifikat B1 Wortliste",
+ "lessonType": "card",
+ "word": {
+  "headword": "Teilnehmer",
+  "partOfSpeech": "noun, masculine (der Teilnehmer)",
+  "pronunciation": {
+   "respelling": "TILE-nay-mer",
+   "ipa": "ˈtaɪ̯lneːmɐ",
+   "notes": "The plural looks the same. Plural: die Teilnehmer."
+  },
+  "meaning": "participant",
+  "shortDefinition": "Participant."
+ },
+ "commonMistakes": [
+  {
+   "title": "Gender and plural",
+   "explanation": "Der Teilnehmer, plural die Teilnehmer.",
+   "forms": [
+    {
+     "label": "One",
+     "value": "der Teilnehmer"
+    },
+    {
+     "label": "More than one",
+     "value": "die Teilnehmer"
+    }
+   ]
+  }
+ ],
+ "sampleSentences": [
+  {
+   "german": "Der Kurs hat zwölf Teilnehmer.",
+   "english": "The course has twelve participants.",
+   "highlight": [
+    "Teilnehmer."
+   ]
+  },
+  {
+   "german": "Alle Teilnehmerinnen und Teilnehmer bekommen ein Zertifikat.",
+   "english": "All participants receive a certificate.",
+   "highlight": [
+    "Teilnehmerinnen",
+    "Teilnehmer"
+   ]
+  },
+  {
+   "german": "Jeder Teilnehmer zahlt 20 Euro.",
+   "english": "Each participant pays 20 euros.",
+   "highlight": [
+    "Teilnehmer"
+   ]
+  }
+ ],
+ "forms": [
+  "Teilnehmerin"
+ ],
+ "memoryHook": "Teilnehmen → der Teilnehmer.",
+ "signOff": "Gut gemacht!",
+ "quiz": [
+  {
+   "type": "choice",
+   "prompt": "___ Teilnehmer",
+   "options": [
+    "der",
+    "die",
+    "das"
+   ],
+   "answer": "der",
+   "explanation": "Teilnehmer is masculine.",
+   "id": "q1"
+  },
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "ein Teilnehmer, zwei ___",
+   "answer": "Teilnehmer",
+   "fullAnswer": "ein Teilnehmer, zwei Teilnehmer",
+   "explanation": "The plural is Teilnehmer.",
+   "acceptedAnswers": [
+    "Teilnehmer"
+   ],
+   "id": "q2"
+  },
+  {
+   "type": "choice",
+   "prompt": "What does Teilnehmer mean?",
+   "options": [
+    "participant",
+    "the job",
+    "the station"
+   ],
+   "answer": "participant",
+   "explanation": "Teilnehmer: participant.",
+   "id": "q3"
+  },
+  {
+   "type": "choice",
+   "prompt": "From…",
+   "options": [
+    "teilnehmen + -er",
+    "Teil + nehmen only"
+   ],
+   "answer": "teilnehmen + -er",
+   "explanation": "Participant.",
+   "id": "q4"
+  },
+  {
+   "type": "choice",
+   "prompt": "Female:",
+   "options": [
+    "die Teilnehmerin",
+    "die Teilnehmer"
+   ],
+   "answer": "die Teilnehmerin",
+   "explanation": "-in.",
+   "id": "q5"
+  }
+ ],
+ "etymology": {
+  "title": "Where it comes from",
+  "parts": [
+   {
+    "part": "Teil",
+    "meaning": "part"
+   },
+   {
+    "part": "nehmer",
+    "meaning": "taker"
+   }
+  ],
+  "literalMeaning": "part taker"
+ }
+}

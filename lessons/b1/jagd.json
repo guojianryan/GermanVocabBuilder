@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Jagd",
+    "partOfSpeech": "noun, feminine (die Jagd)",
+    "pronunciation": {
+      "respelling": "YAAKT",
+      "ipa": "jaːkt",
+      "notes": "Plural: die Jagden."
+    },
+    "meaning": "hunt, chase",
+    "shortDefinition": "Hunt, chase."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Jagd, plural die Jagden.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Jagd"
+        },
+        {
+          "label": "More than one",
+          "value": "die Jagden"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er geht auf die Jagd.",
+      "english": "He goes hunting.",
+      "highlight": [
+        "Jagd."
+      ]
+    },
+    {
+      "german": "Die Jagd nach dem Täter.",
+      "english": "The hunt for the culprit.",
+      "highlight": [
+        "Jagd"
+      ]
+    },
+    {
+      "german": "Die Jagd auf Wölfe ist verboten.",
+      "english": "Hunting wolves is banned.",
+      "highlight": [
+        "Jagd"
+      ]
+    }
+  ],
+  "forms": [
+    "jagen",
+    "Jäger"
+  ],
+  "memoryHook": "Jagen → die Jagd, der Jäger.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Jagd",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Jagd is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Jagd, zwei ___",
+      "answer": "Jagden",
+      "fullAnswer": "ein Jagd, zwei Jagden",
+      "explanation": "The plural is Jagden.",
+      "acceptedAnswers": [
+        "Jagden"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Jagd mean?",
+      "options": [
+        "never",
+        "hunt",
+        "the child"
+      ],
+      "answer": "hunt",
+      "explanation": "Jagd: hunt, chase.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "jagen",
+        "Jacke"
+      ],
+      "answer": "jagen",
+      "explanation": "Hunt.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Auf die Jagd gehen' means…",
+      "options": [
+        "to go hunting",
+        "to go to Jagd"
+      ],
+      "answer": "to go hunting",
+      "explanation": "Phrase.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "mangeln",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "MANG-eln",
+      "ipa": "ˈmaŋl̩n",
+      "notes": ""
+    },
+    "meaning": "(es mangelt an) to be lacking",
+    "shortDefinition": "(es mangelt an) to be lacking."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "mangl|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "mangel|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "mangel|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "mangel|n"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "mangel|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "mangel|n"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gemangelt"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Es mangelt an Geld.",
+      "english": "There's a lack of money.",
+      "highlight": [
+        "mangelt"
+      ]
+    },
+    {
+      "german": "Ihm mangelt es an Geduld.",
+      "english": "He lacks patience.",
+      "highlight": [
+        "mangelt"
+      ]
+    },
+    {
+      "german": "Es mangelt uns an nichts.",
+      "english": "We want for nothing.",
+      "highlight": [
+        "mangelt"
+      ]
+    }
+  ],
+  "forms": [
+    "Mangel",
+    "mangelhaft"
+  ],
+  "memoryHook": "Es mangelt an = there's a lack of; der Mangel; mangelhaft.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (mangeln)",
+      "answer": "mangelt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: mangelt.",
+      "acceptedAnswers": [
+        "mangelt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (mangeln, past)",
+      "answer": "gemangelt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gemangelt.",
+      "acceptedAnswers": [
+        "gemangelt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does mangeln mean?",
+      "options": [
+        "(es mangelt an) to be lacking",
+        "never",
+        "to travel"
+      ],
+      "answer": "(es mangelt an) to be lacking",
+      "explanation": "mangeln: (es mangelt an) to be lacking.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Structure:",
+      "options": [
+        "es mangelt (jemandem) an + Dat.",
+        "ich mangle etwas"
+      ],
+      "answer": "es mangelt (jemandem) an + Dat.",
+      "explanation": "Impersonal.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Noun:",
+      "options": [
+        "der Mangel (lack; defect)",
+        "die Mangelung"
+      ],
+      "answer": "der Mangel (lack; defect)",
+      "explanation": "Lack.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Adjective:",
+      "options": [
+        "mangelhaft (deficient; grade 5)",
+        "mangelig"
+      ],
+      "answer": "mangelhaft (deficient; grade 5)",
+      "explanation": "Poor.",
+      "id": "q6"
+    }
+  ]
+}

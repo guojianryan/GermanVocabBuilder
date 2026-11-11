@@ -1,0 +1,185 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "erzählen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "air-TSAY-len",
+      "ipa": "ɛɐ̯ˈtsɛːlən",
+      "notes": ""
+    },
+    "meaning": "to tell (a story), to talk about",
+    "shortDefinition": "To tell (a story), to talk about."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "er",
+        "meaning": "prefix"
+      },
+      {
+        "part": "zählen",
+        "meaning": "to count",
+        "note": "Telling once meant listing things in order."
+      }
+    ],
+    "literalMeaning": "to recount"
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "erzähl|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "erzähl|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "erzähl|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "erzähl|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "erzähl|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "erzähl|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat erzählt",
+        "No ge- in the past: hat erzählt."
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "die Geschichte",
+      "english": "story",
+      "type": "noun"
+    },
+    {
+      "german": "sagen",
+      "english": "to say",
+      "type": "verb"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Erzähl mal, wie war der Urlaub?",
+      "english": "Tell me, how was the holiday?",
+      "highlight": [
+        "Erzähl"
+      ]
+    },
+    {
+      "german": "Meine Oma erzählt gern Geschichten.",
+      "english": "My grandma likes telling stories.",
+      "highlight": [
+        "erzählt"
+      ]
+    },
+    {
+      "german": "Er hat mir alles erzählt.",
+      "english": "He told me everything.",
+      "highlight": [
+        "erzählt."
+      ]
+    }
+  ],
+  "forms": [
+    "erzähle",
+    "erzählst",
+    "erzählt",
+    "erzählen"
+  ],
+  "memoryHook": "Erzählen = tell, recount. 'Erzähl mal!' = 'Go on, tell me!' Related to zählen (count): once, telling meant listing things in order.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (erzählen)",
+      "answer": "erzählt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: erzählt.",
+      "acceptedAnswers": [
+        "erzaehlt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (erzählen, past)",
+      "answer": "erzählt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe erzählt.",
+      "acceptedAnswers": [
+        "erzaehlt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does erzählen mean?",
+      "options": [
+        "the door",
+        "slowly",
+        "to tell (a story)"
+      ],
+      "answer": "to tell (a story)",
+      "explanation": "erzählen: to tell (a story), to talk about.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Erzählen is used for…",
+      "options": [
+        "telling stories and news",
+        "telling the time"
+      ],
+      "answer": "telling stories and news",
+      "explanation": "Erzähl mal!",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Erzähl ___ von deiner Reise! (me)",
+      "options": [
+        "mich",
+        "mir"
+      ],
+      "answer": "mir",
+      "explanation": "The listener gets the dative.",
+      "id": "q5"
+    }
+  ]
+}

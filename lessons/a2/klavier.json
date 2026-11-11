@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Klavier",
+    "partOfSpeech": "noun, neuter (das Klavier)",
+    "pronunciation": {
+      "respelling": "kla-VEER",
+      "ipa": "klaˈviːɐ̯",
+      "notes": "Plural: die Klaviere."
+    },
+    "meaning": "piano",
+    "shortDefinition": "Piano."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Klavier, plural die Klaviere.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Klavier"
+        },
+        {
+          "label": "More than one",
+          "value": "die Klaviere"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Meine Tochter spielt Klavier.",
+      "english": "My daughter plays the piano.",
+      "highlight": [
+        "Klavier."
+      ]
+    },
+    {
+      "german": "Das Klavier ist sehr alt.",
+      "english": "The piano is very old.",
+      "highlight": [
+        "Klavier"
+      ]
+    },
+    {
+      "german": "Er nimmt Klavierunterricht.",
+      "english": "He's taking piano lessons.",
+      "highlight": [
+        "Klavierunterricht."
+      ]
+    }
+  ],
+  "forms": [
+    "Klaviere",
+    "die Klaviere",
+    "das Klavier"
+  ],
+  "memoryHook": "Das Klavier (v like v). Klavier spielen.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Klavier",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Klavier is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Klavier, zwei ___",
+      "answer": "Klaviere",
+      "fullAnswer": "ein Klavier, zwei Klaviere",
+      "explanation": "The plural is Klaviere.",
+      "acceptedAnswers": [
+        "Klaviere"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Klavier mean?",
+      "options": [
+        "to buy",
+        "piano",
+        "the child"
+      ],
+      "answer": "piano",
+      "explanation": "Klavier: piano.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'She plays the piano':",
+      "options": [
+        "Sie spielt Klavier.",
+        "Sie spielt das Klavier."
+      ],
+      "answer": "Sie spielt Klavier.",
+      "explanation": "No article.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "V sounds like…",
+      "options": [
+        "v",
+        "f"
+      ],
+      "answer": "v",
+      "explanation": "kla-VEER (from French).",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Frau",
+    "partOfSpeech": "noun, feminine (die Frau)",
+    "pronunciation": {
+      "respelling": "FROW",
+      "ipa": "fʁaʊ̯",
+      "notes": "Plural: die Frauen."
+    },
+    "meaning": "woman; wife; Mrs/Ms",
+    "shortDefinition": "Woman; wife; Mrs/Ms."
+  },
+  "wordFamily": [
+    {
+      "german": "der Mann",
+      "english": "man; husband",
+      "type": "noun"
+    },
+    {
+      "german": "die Ehefrau",
+      "english": "wife",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Frau, plural die Frauen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Frau"
+        },
+        {
+          "label": "More than one",
+          "value": "die Frauen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das ist Frau Müller.",
+      "english": "This is Ms Müller.",
+      "highlight": [
+        "Frau"
+      ]
+    },
+    {
+      "german": "Meine Frau kommt aus Polen.",
+      "english": "My wife is from Poland.",
+      "highlight": [
+        "Frau"
+      ]
+    },
+    {
+      "german": "In der Firma arbeiten mehr Frauen als Männer.",
+      "english": "More women than men work at the company.",
+      "highlight": [
+        "Frauen"
+      ]
+    }
+  ],
+  "forms": [
+    "Frauen",
+    "die Frauen",
+    "die Frau"
+  ],
+  "memoryHook": "Frau = woman, wife and the title Ms. 'Fräulein' (Miss) is outdated; use Frau for every adult woman.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Frau",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Frau is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Frau, zwei ___",
+      "answer": "Frauen",
+      "fullAnswer": "ein Frau, zwei Frauen",
+      "explanation": "The plural is Frauen.",
+      "acceptedAnswers": [
+        "Frauen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Frau mean?",
+      "options": [
+        "the car",
+        "the street",
+        "woman"
+      ],
+      "answer": "woman",
+      "explanation": "Frau: woman; wife; Mrs/Ms.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Frau before a surname means…",
+      "options": [
+        "Mrs/Ms",
+        "Miss only"
+      ],
+      "answer": "Mrs/Ms",
+      "explanation": "Frau is used for all adult women.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Meine Frau' usually means…",
+      "options": [
+        "my wife",
+        "my woman friend"
+      ],
+      "answer": "my wife",
+      "explanation": "Frau = woman and wife.",
+      "id": "q5"
+    }
+  ]
+}

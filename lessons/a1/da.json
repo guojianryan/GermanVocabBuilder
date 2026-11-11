@@ -1,0 +1,177 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "full",
+  "word": {
+    "headword": "da",
+    "partOfSpeech": "adverb",
+    "pronunciation": {
+      "respelling": "DAH",
+      "ipa": "daː",
+      "notes": "Long a."
+    },
+    "meaning": "there; here; present",
+    "shortDefinition": "Points to a place, or says someone is present."
+  },
+  "intro": {
+    "title": "Da ist er!",
+    "paragraphs": [
+      "Da points: Da ist der Bus! (There's the bus!). With sein it means 'present' or 'in': Ist Frau Klein da? (Is Ms Klein in?). It's vaguer than dort, and Germans use it constantly."
+    ]
+  },
+  "wordFamily": [
+    {
+      "german": "da sein",
+      "english": "to be there, to be present",
+      "type": "phrase"
+    },
+    {
+      "german": "dort",
+      "english": "there (further away)",
+      "type": "adverb"
+    },
+    {
+      "german": "hier",
+      "english": "here",
+      "type": "adverb"
+    },
+    {
+      "german": "daneben",
+      "english": "next to it",
+      "type": "adverb"
+    }
+  ],
+  "keyTrap": {
+    "title": "The big trap: da with sein",
+    "explanation": "'Is X in?' and 'X isn't here' use da sein, not a word for 'in' or 'here'.",
+    "wrong": {
+      "german": "Ist Herr Weber in?",
+      "verdict": "Asking if someone is present: da."
+    },
+    "correct": [
+      {
+        "german": "Ist Herr Weber da?",
+        "literal": "Is Mr Weber there?",
+        "note": "Present, in the office: da sein."
+      },
+      {
+        "german": "Wir sind im Moment nicht da.",
+        "literal": "We are at the moment not there.",
+        "note": "On an answering machine."
+      }
+    ]
+  },
+  "commonMistakes": [
+    {
+      "title": "Word order",
+      "explanation": "When da starts a sentence, the verb comes next.",
+      "wrong": "Da der Bus kommt.",
+      "correct": "Da kommt der Bus."
+    },
+    {
+      "title": "da or dort?",
+      "explanation": "Dort is further away and more precise; da is everyday and vague.",
+      "examples": [
+        {
+          "german": "Da drüben!",
+          "english": "Over there!",
+          "highlight": "Da"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Da ist ja mein Schlüssel!",
+      "english": "There's my key!",
+      "highlight": [
+        "Da"
+      ]
+    },
+    {
+      "german": "Ist Anna da? – Nein, sie ist nicht da.",
+      "english": "Is Anna in? – No, she isn't here.",
+      "highlight": [
+        "da?",
+        "da."
+      ]
+    },
+    {
+      "german": "Sind alle da?",
+      "english": "Is everyone here?",
+      "highlight": [
+        "da?"
+      ]
+    },
+    {
+      "german": "Ich bin gleich wieder da.",
+      "english": "I'll be right back.",
+      "highlight": [
+        "da."
+      ]
+    }
+  ],
+  "forms": [
+    "da sein",
+    "ist da"
+  ],
+  "memoryHook": "Da points: there! And da sein = be present. Ich bin gleich wieder da: back in a minute.",
+  "signOff": "Schön, dass du da bist!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "You phone an office: 'Ist Frau Kaya ___?'",
+      "options": [
+        "da",
+        "dort"
+      ],
+      "answer": "da",
+      "explanation": "Is she in? Ist sie da?",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "Da kommt der Zug.",
+        "Da der Zug kommt."
+      ],
+      "answer": "Da kommt der Zug.",
+      "explanation": "Verb second.",
+      "id": "q2"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich bin gleich wieder ___. (back)",
+      "answer": "da",
+      "fullAnswer": "Ich bin gleich wieder da.",
+      "explanation": "Wieder da sein: be back.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Sind alle da?' means…",
+      "options": [
+        "Is everyone here?",
+        "Is everything there?"
+      ],
+      "answer": "Is everyone here?",
+      "explanation": "Alle = everyone, da sein = present.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "The a in da is…",
+      "options": [
+        "long",
+        "short"
+      ],
+      "answer": "long",
+      "explanation": "DAH.",
+      "id": "q5"
+    }
+  ]
+}

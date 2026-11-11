@@ -1,0 +1,227 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "full",
+  "word": {
+    "headword": "helfen",
+    "partOfSpeech": "verb (with the dative)",
+    "pronunciation": {
+      "respelling": "HEL-fen",
+      "ipa": "ˈhɛlfn̩",
+      "notes": "Short e."
+    },
+    "meaning": "to help",
+    "shortDefinition": "To help someone; the person is in the dative."
+  },
+  "intro": {
+    "title": "Kann ich Ihnen helfen?",
+    "paragraphs": [
+      "Helfen is one of the verbs that take the dative: you help to someone. Kann ich Ihnen helfen? (Can I help you?), Hilf mir! (Help me!). It also changes e to i: du hilfst, er hilft."
+    ]
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "helf|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "h|i|lfst"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "h|i|lft"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "helf|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "helf|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "helf|en"
+          ]
+        }
+      ],
+      "notes": [
+        "E changes to i for du and er.",
+        "Past (Perfekt): hat geholfen."
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "die Hilfe",
+      "english": "help",
+      "type": "noun"
+    },
+    {
+      "german": "Hilfe!",
+      "english": "Help!",
+      "type": "phrase"
+    },
+    {
+      "german": "hilfsbereit",
+      "english": "helpful",
+      "type": "adjective"
+    }
+  ],
+  "keyTrap": {
+    "title": "The big trap: dative, not accusative",
+    "explanation": "The person you help is in the dative: mir, dir, ihm, ihr, Ihnen.",
+    "wrong": {
+      "german": "Kannst du mich helfen?",
+      "verdict": "Helfen takes the dative: mir."
+    },
+    "correct": [
+      {
+        "german": "Kannst du mir helfen?",
+        "literal": "Can you to-me help?",
+        "note": "Dative: mir."
+      },
+      {
+        "german": "Kann ich Ihnen helfen?",
+        "literal": "Can I to-you help?",
+        "note": "Formal: Ihnen."
+      }
+    ]
+  },
+  "commonMistakes": [
+    {
+      "title": "Help with something",
+      "explanation": "Helping with a task takes bei + dative.",
+      "wrong": "Hilf mir mit den Hausaufgaben.",
+      "correct": "Hilf mir bei den Hausaufgaben."
+    },
+    {
+      "title": "The command",
+      "explanation": "For du: hilf! (e → i).",
+      "examples": [
+        {
+          "german": "Hilf mir bitte!",
+          "english": "Please help me!",
+          "highlight": "Hilf"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Kann ich Ihnen helfen?",
+      "english": "Can I help you?",
+      "highlight": [
+        "Ihnen",
+        "helfen?"
+      ]
+    },
+    {
+      "german": "Mein Bruder hilft mir beim Umzug.",
+      "english": "My brother is helping me move.",
+      "highlight": [
+        "hilft",
+        "mir"
+      ]
+    },
+    {
+      "german": "Danke, du hast mir sehr geholfen!",
+      "english": "Thanks, you've been a big help!",
+      "highlight": [
+        "mir",
+        "geholfen!"
+      ]
+    },
+    {
+      "german": "Ich brauche Hilfe.",
+      "english": "I need help.",
+      "highlight": [
+        "Hilfe."
+      ]
+    }
+  ],
+  "forms": [
+    "helfe",
+    "hilfst",
+    "hilft",
+    "helft",
+    "geholfen",
+    "half",
+    "hilf",
+    "Hilfe"
+  ],
+  "memoryHook": "Helfen + dative: hilf mir! E → i: du hilfst, er hilft.",
+  "signOff": "Danke für deine Hilfe!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Ich helfe ___. (you, informal)",
+      "options": [
+        "dich",
+        "dir"
+      ],
+      "answer": "dir",
+      "explanation": "Dative: dir.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Er ___ seiner Mutter. (helfen)",
+      "answer": "hilft",
+      "fullAnswer": "Er hilft seiner Mutter.",
+      "explanation": "E → i: hilft.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Kann ich ___ helfen? (you, formal)",
+      "options": [
+        "Sie",
+        "Ihnen"
+      ],
+      "answer": "Ihnen",
+      "explanation": "Formal dative: Ihnen.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Help with homework: helfen ___ den Hausaufgaben",
+      "options": [
+        "bei",
+        "mit"
+      ],
+      "answer": "bei",
+      "explanation": "Bei + task.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Du hast mir sehr ___. (helped)",
+      "answer": "geholfen",
+      "fullAnswer": "Du hast mir sehr geholfen.",
+      "explanation": "Past: geholfen.",
+      "id": "q5"
+    }
+  ]
+}

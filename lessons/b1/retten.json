@@ -1,0 +1,165 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "retten",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "RET-en",
+      "ipa": "ˈʁɛtn̩",
+      "notes": ""
+    },
+    "meaning": "to save, rescue",
+    "shortDefinition": "To save, rescue."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "rett|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "rett|est"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "rett|et"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "rett|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "rett|et"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "rett|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gerettet"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "die Rettung",
+      "english": "rescue",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Feuerwehr hat die Katze gerettet.",
+      "english": "The fire brigade rescued the cat.",
+      "highlight": [
+        "gerettet."
+      ]
+    },
+    {
+      "german": "Er hat ihr das Leben gerettet.",
+      "english": "He saved her life.",
+      "highlight": [
+        "gerettet."
+      ]
+    },
+    {
+      "german": "Rette sich, wer kann!",
+      "english": "Every man for himself!",
+      "highlight": [
+        "Rette"
+      ]
+    }
+  ],
+  "forms": [
+    "rette",
+    "rettest",
+    "rettet",
+    "retten",
+    "gerettet"
+  ],
+  "memoryHook": "Retten = rescue (save money = sparen). Die Rettung.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (retten)",
+      "answer": "rettet",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: rettet.",
+      "acceptedAnswers": [
+        "rettet"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (retten, past)",
+      "answer": "gerettet",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gerettet.",
+      "acceptedAnswers": [
+        "gerettet"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does retten mean?",
+      "options": [
+        "the weather",
+        "tomorrow",
+        "to save"
+      ],
+      "answer": "to save",
+      "explanation": "retten: to save, rescue.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Rescue service:",
+      "options": [
+        "der Rettungsdienst",
+        "der Rettendienst"
+      ],
+      "answer": "der Rettungsdienst",
+      "explanation": "Rettung.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Save money is…",
+      "options": [
+        "sparen",
+        "retten"
+      ],
+      "answer": "sparen",
+      "explanation": "Different!",
+      "id": "q5"
+    }
+  ]
+}

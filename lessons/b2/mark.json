@@ -1,0 +1,135 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Mark",
+    "partOfSpeech": "noun, feminine (die Mark)",
+    "pronunciation": {
+      "respelling": "MARK",
+      "ipa": "maʁk",
+      "notes": "After numbers the plural is Mark. Plural: die Mark."
+    },
+    "meaning": "mark (former German currency)",
+    "shortDefinition": "Mark (former German currency)."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Mark, plural die Mark.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Mark"
+        },
+        {
+          "label": "More than one",
+          "value": "die Mark"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Früher bezahlte man mit D-Mark.",
+      "english": "People used to pay in Deutschmarks.",
+      "highlight": [
+        "D-Mark."
+      ]
+    },
+    {
+      "german": "Das kostete zehn Mark.",
+      "english": "That cost ten marks.",
+      "highlight": [
+        "Mark."
+      ]
+    },
+    {
+      "german": "Er hat keine müde Mark.",
+      "english": "He hasn't got a penny.",
+      "highlight": [
+        "Mark."
+      ]
+    }
+  ],
+  "forms": [
+    "Mark",
+    "die Mark",
+    "die Mark"
+  ],
+  "memoryHook": "Die (D-)Mark, until 2002; zehn Mark.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Mark",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Mark is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Mark, zwei ___",
+      "answer": "Mark",
+      "fullAnswer": "ein Mark, zwei Mark",
+      "explanation": "The plural is Mark.",
+      "acceptedAnswers": [
+        "Mark"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Mark mean?",
+      "options": [
+        "to buy",
+        "mark (former German currency)",
+        "the job"
+      ],
+      "answer": "mark (former German currency)",
+      "explanation": "Mark: mark (former German currency).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural with numbers:",
+      "options": [
+        "zehn Mark",
+        "zehn Marken"
+      ],
+      "answer": "zehn Mark",
+      "explanation": "Unchanged.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Replaced by the euro in…",
+      "options": [
+        "2002",
+        "1990"
+      ],
+      "answer": "2002",
+      "explanation": "Cash changeover.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Das Mark (neuter) means…",
+      "options": [
+        "marrow",
+        "brand"
+      ],
+      "answer": "marrow",
+      "explanation": "Bis ins Mark.",
+      "id": "q6"
+    }
+  ]
+}

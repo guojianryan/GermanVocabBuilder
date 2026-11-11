@@ -1,0 +1,159 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "heben",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "HAY-ben",
+      "ipa": "ˈheːbn̩",
+      "notes": ""
+    },
+    "meaning": "to lift",
+    "shortDefinition": "To lift."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "heb|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "heb|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "heb|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "heb|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "heb|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "heb|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gehoben"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich kann den Koffer nicht heben.",
+      "english": "I can't lift the suitcase.",
+      "highlight": [
+        "heben."
+      ]
+    },
+    {
+      "german": "Heben Sie die Hand!",
+      "english": "Raise your hand!",
+      "highlight": [
+        "Heben"
+      ]
+    },
+    {
+      "german": "Er hat das Glas gehoben.",
+      "english": "He raised his glass.",
+      "highlight": [
+        "gehoben."
+      ]
+    }
+  ],
+  "forms": [
+    "hebe",
+    "hebst",
+    "hebt",
+    "heben",
+    "gehoben",
+    "hob"
+  ],
+  "memoryHook": "Heben, hob, gehoben = lift. Abheben, aufheben.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (heben)",
+      "answer": "hebt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: hebt.",
+      "acceptedAnswers": [
+        "hebt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (heben, past)",
+      "answer": "gehoben",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gehoben.",
+      "acceptedAnswers": [
+        "gehoben"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does heben mean?",
+      "options": [
+        "to lift",
+        "always",
+        "the street"
+      ],
+      "answer": "to lift",
+      "explanation": "heben: to lift.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Past:",
+      "options": [
+        "hob, gehoben",
+        "hebte, gehebt"
+      ],
+      "answer": "hob, gehoben",
+      "explanation": "Irregular.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Related:",
+      "options": [
+        "abheben, aufheben",
+        "abhalten"
+      ],
+      "answer": "abheben, aufheben",
+      "explanation": "Family.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Hobby",
+    "partOfSpeech": "noun, neuter (das Hobby)",
+    "pronunciation": {
+      "respelling": "HOB-ee",
+      "ipa": "ˈhɔbi",
+      "notes": "Plural: die Hobbys."
+    },
+    "meaning": "hobby",
+    "shortDefinition": "Hobby."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Hobby, plural die Hobbys.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Hobby"
+        },
+        {
+          "label": "More than one",
+          "value": "die Hobbys"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Was sind deine Hobbys?",
+      "english": "What are your hobbies?",
+      "highlight": [
+        "Hobbys?"
+      ]
+    },
+    {
+      "german": "Mein Hobby ist Fotografieren.",
+      "english": "My hobby is photography.",
+      "highlight": [
+        "Hobby"
+      ]
+    },
+    {
+      "german": "Sie hat viele Hobbys.",
+      "english": "She has lots of hobbies.",
+      "highlight": [
+        "Hobbys."
+      ]
+    }
+  ],
+  "forms": [
+    "Hobbys",
+    "die Hobbys",
+    "das Hobby"
+  ],
+  "memoryHook": "Das Hobby, plural Hobbys (German spelling). Classic question: Was sind deine Hobbys?",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Hobby",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Hobby is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Hobby, zwei ___",
+      "answer": "Hobbys",
+      "fullAnswer": "ein Hobby, zwei Hobbys",
+      "explanation": "The plural is Hobbys.",
+      "acceptedAnswers": [
+        "Hobbys"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Hobby mean?",
+      "options": [
+        "cheap",
+        "hobby",
+        "to learn"
+      ],
+      "answer": "hobby",
+      "explanation": "Hobby: hobby.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Hobbys",
+        "Hobbies"
+      ],
+      "answer": "Hobbys",
+      "explanation": "German plural -s.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Another way to ask about hobbies:",
+      "options": [
+        "Was machst du in deiner Freizeit?",
+        "Wie heißt du?"
+      ],
+      "answer": "Was machst du in deiner Freizeit?",
+      "explanation": "Free time.",
+      "id": "q5"
+    }
+  ]
+}

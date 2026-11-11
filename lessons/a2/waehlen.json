@@ -1,0 +1,165 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "wählen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "VAY-len",
+      "ipa": "ˈvɛːlən",
+      "notes": ""
+    },
+    "meaning": "to choose; to vote; to dial",
+    "shortDefinition": "To choose; to vote; to dial."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "wähl|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "wähl|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "wähl|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "wähl|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "wähl|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "wähl|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gewählt"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "die Wahl",
+      "english": "choice; election",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Haben Sie schon gewählt?",
+      "english": "Have you chosen yet? (restaurant)",
+      "highlight": [
+        "gewählt?"
+      ]
+    },
+    {
+      "german": "Am Sonntag wählen wir.",
+      "english": "We're voting on Sunday.",
+      "highlight": [
+        "wählen"
+      ]
+    },
+    {
+      "german": "Wählen Sie die 110.",
+      "english": "Dial 110.",
+      "highlight": [
+        "Wählen"
+      ]
+    }
+  ],
+  "forms": [
+    "wähle",
+    "wählst",
+    "wählt",
+    "wählen",
+    "gewählt"
+  ],
+  "memoryHook": "Wählen: choose, vote, dial. Die Wahl = choice, election.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (wählen)",
+      "answer": "wählt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: wählt.",
+      "acceptedAnswers": [
+        "waehlt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (wählen, past)",
+      "answer": "gewählt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gewählt.",
+      "acceptedAnswers": [
+        "gewaehlt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does wählen mean?",
+      "options": [
+        "to travel",
+        "the child",
+        "to choose"
+      ],
+      "answer": "to choose",
+      "explanation": "wählen: to choose; to vote; to dial.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Wählen can mean…",
+      "options": [
+        "choose, vote, dial",
+        "only vote"
+      ],
+      "answer": "choose, vote, dial",
+      "explanation": "Three meanings.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "An election:",
+      "options": [
+        "die Wahl",
+        "die Wähle"
+      ],
+      "answer": "die Wahl",
+      "explanation": "Wahl.",
+      "id": "q5"
+    }
+  ]
+}

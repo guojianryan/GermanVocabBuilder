@@ -1,0 +1,187 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "einbringen",
+    "partOfSpeech": "separable verb",
+    "pronunciation": {
+      "respelling": "INE-bring-en",
+      "ipa": "ˈaɪ̯nˌbʁɪŋən",
+      "notes": ""
+    },
+    "meaning": "to bring in; to contribute; to yield",
+    "shortDefinition": "To bring in; to contribute; to yield."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "ein",
+        "meaning": "in"
+      },
+      {
+        "part": "bringen",
+        "meaning": "to bring",
+        "emphasis": "arrive"
+      }
+    ],
+    "literalMeaning": "to bring in",
+    "summary": "Bringing it inside."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "bring|e … |ein"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "bring|st … |ein"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "bring|t … |ein"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "bring|en … |ein"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "bring|t … |ein"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "bring|en … |ein"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat eingebracht"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Sie bringt viele Ideen ein.",
+      "english": "She contributes lots of ideas.",
+      "highlight": [
+        "bringt",
+        "ein."
+      ]
+    },
+    {
+      "german": "Das bringt nichts ein.",
+      "english": "That doesn't pay.",
+      "highlight": [
+        "bringt",
+        "ein."
+      ]
+    },
+    {
+      "german": "Die Partei hat einen Antrag eingebracht.",
+      "english": "The party has tabled a motion.",
+      "highlight": [
+        "eingebracht."
+      ]
+    }
+  ],
+  "forms": [
+    "bringe ein",
+    "bringst ein",
+    "bringt ein",
+    "bringen ein",
+    "eingebracht"
+  ],
+  "memoryHook": "Einbringen: bring in, contribute; sich einbringen.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ … ein (einbringen)",
+      "answer": "bringt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: bringt … ein.",
+      "acceptedAnswers": [
+        "bringt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (einbringen, past)",
+      "answer": "eingebracht",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe eingebracht.",
+      "acceptedAnswers": [
+        "eingebracht"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does einbringen mean?",
+      "options": [
+        "to sleep",
+        "to bring in",
+        "the job"
+      ],
+      "answer": "to bring in",
+      "explanation": "einbringen: to bring in; to contribute; to yield.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Sich einbringen' means…",
+      "options": [
+        "to get involved",
+        "to bring oneself home"
+      ],
+      "answer": "to get involved",
+      "explanation": "Engage.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Das bringt nichts ein' means…",
+      "options": [
+        "it doesn't pay off",
+        "it brings nothing in the house"
+      ],
+      "answer": "it doesn't pay off",
+      "explanation": "Profit.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "hat eingebracht",
+        "hat eingebringt"
+      ],
+      "answer": "hat eingebracht",
+      "explanation": "Mixed.",
+      "id": "q6"
+    }
+  ]
+}

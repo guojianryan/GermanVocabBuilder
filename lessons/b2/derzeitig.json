@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "derzeitig",
+    "partOfSpeech": "adjective",
+    "pronunciation": {
+      "respelling": "DAIR-tsye-tikh",
+      "ipa": "ˈdeːɐ̯tsaɪ̯tɪç",
+      "notes": ""
+    },
+    "meaning": "current, present",
+    "shortDefinition": "Current, present."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "der",
+        "meaning": "the"
+      },
+      {
+        "part": "zeit",
+        "meaning": "time"
+      },
+      {
+        "part": "ig",
+        "meaning": "adjective ending"
+      }
+    ],
+    "literalMeaning": "of the time"
+  },
+  "sampleSentences": [
+    {
+      "german": "Die derzeitige Lage ist schwierig.",
+      "english": "The current situation is difficult.",
+      "highlight": [
+        "derzeitige"
+      ]
+    },
+    {
+      "german": "Ihr derzeitiger Wohnort.",
+      "english": "Your current place of residence.",
+      "highlight": [
+        "derzeitiger"
+      ]
+    },
+    {
+      "german": "Nach derzeitigem Stand.",
+      "english": "As things stand.",
+      "highlight": [
+        "derzeitigem"
+      ]
+    }
+  ],
+  "forms": [
+    "derzeit"
+  ],
+  "memoryHook": "Derzeit → derzeitig = current.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does derzeitig mean?",
+      "options": [
+        "quiet",
+        "the evening",
+        "current"
+      ],
+      "answer": "current",
+      "explanation": "derzeitig: current, present.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "derzeit (currently)",
+        "Zeit only"
+      ],
+      "answer": "derzeit (currently)",
+      "explanation": "Currently.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Used…",
+      "options": [
+        "only before nouns",
+        "after sein"
+      ],
+      "answer": "only before nouns",
+      "explanation": "Attributive.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonyms:",
+      "options": [
+        "jetzig, aktuell, gegenwärtig",
+        "damalig"
+      ],
+      "answer": "jetzig, aktuell, gegenwärtig",
+      "explanation": "Current.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Der ___ Preis. (current)",
+      "answer": "derzeitige",
+      "fullAnswer": "Der derzeitige Preis.",
+      "explanation": "Derzeitige.",
+      "acceptedAnswers": [
+        "aktuelle",
+        "jetzige"
+      ],
+      "id": "q5"
+    }
+  ]
+}

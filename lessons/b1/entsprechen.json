@@ -1,0 +1,169 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "entsprechen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "ent-SHPREKH-en",
+      "ipa": "ɛntˈʃpʁɛçn̩",
+      "notes": ""
+    },
+    "meaning": "to correspond to, match",
+    "shortDefinition": "To correspond to, match."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "ent",
+        "meaning": "towards (old)"
+      },
+      {
+        "part": "sprechen",
+        "meaning": "to speak"
+      }
+    ],
+    "literalMeaning": "to speak back to, answer to"
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "entsprech|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "entsprich|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "entsprich|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "entsprech|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "entsprech|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "entsprech|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat entsprochen"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das entspricht nicht der Wahrheit.",
+      "english": "That doesn't correspond to the truth.",
+      "highlight": [
+        "entspricht"
+      ]
+    },
+    {
+      "german": "Die Wohnung entspricht unseren Wünschen.",
+      "english": "The flat matches our wishes.",
+      "highlight": [
+        "entspricht"
+      ]
+    },
+    {
+      "german": "Ein Meter entspricht hundert Zentimetern.",
+      "english": "One metre equals a hundred centimetres.",
+      "highlight": [
+        "entspricht"
+      ]
+    }
+  ],
+  "forms": [
+    "entspricht",
+    "entsprechend"
+  ],
+  "memoryHook": "Entsprechen (+ Dat) = correspond to. Entsprechend = accordingly.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (entsprechen)",
+      "answer": "entspricht",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: entspricht.",
+      "acceptedAnswers": [
+        "entspricht"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (entsprechen, past)",
+      "answer": "entsprochen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe entsprochen.",
+      "acceptedAnswers": [
+        "entsprochen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does entsprechen mean?",
+      "options": [
+        "to travel",
+        "to correspond to",
+        "the door"
+      ],
+      "answer": "to correspond to",
+      "explanation": "entsprechen: to correspond to, match.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Case after entsprechen:",
+      "options": [
+        "dative",
+        "accusative"
+      ],
+      "answer": "dative",
+      "explanation": "Der Wahrheit.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Adjective 'corresponding':",
+      "options": [
+        "entsprechend",
+        "entsprochen"
+      ],
+      "answer": "entsprechend",
+      "explanation": "Appropriate.",
+      "id": "q5"
+    }
+  ]
+}

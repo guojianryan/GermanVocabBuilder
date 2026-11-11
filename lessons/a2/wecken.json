@@ -1,0 +1,165 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "wecken",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "VEK-en",
+      "ipa": "ˈvɛkn̩",
+      "notes": ""
+    },
+    "meaning": "to wake (someone)",
+    "shortDefinition": "To wake (someone)."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "weck|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "weck|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "weck|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "weck|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "weck|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "weck|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat geweckt"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "der Wecker",
+      "english": "alarm clock",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Kannst du mich um sieben wecken?",
+      "english": "Can you wake me at seven?",
+      "highlight": [
+        "wecken?"
+      ]
+    },
+    {
+      "german": "Der Hund hat mich geweckt.",
+      "english": "The dog woke me up.",
+      "highlight": [
+        "geweckt."
+      ]
+    },
+    {
+      "german": "Weck mich nicht!",
+      "english": "Don't wake me!",
+      "highlight": [
+        "Weck"
+      ]
+    }
+  ],
+  "forms": [
+    "wecke",
+    "weckst",
+    "weckt",
+    "wecken",
+    "geweckt"
+  ],
+  "memoryHook": "Wecken = wake someone. Der Wecker = alarm clock.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (wecken)",
+      "answer": "weckt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: weckt.",
+      "acceptedAnswers": [
+        "weckt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (wecken, past)",
+      "answer": "geweckt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe geweckt.",
+      "acceptedAnswers": [
+        "geweckt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does wecken mean?",
+      "options": [
+        "the door",
+        "the street",
+        "to wake (someone)"
+      ],
+      "answer": "to wake (someone)",
+      "explanation": "wecken: to wake (someone).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "An alarm clock:",
+      "options": [
+        "der Wecker",
+        "die Weckuhr only"
+      ],
+      "answer": "der Wecker",
+      "explanation": "Wecker.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Wake up (yourself):",
+      "options": [
+        "aufwachen",
+        "wecken"
+      ],
+      "answer": "aufwachen",
+      "explanation": "Wecken = wake someone.",
+      "id": "q5"
+    }
+  ]
+}

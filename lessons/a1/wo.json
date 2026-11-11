@@ -1,0 +1,194 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "full",
+  "word": {
+    "headword": "wo",
+    "partOfSpeech": "question word",
+    "pronunciation": {
+      "respelling": "VOH",
+      "ipa": "voː",
+      "notes": "W = v, long o."
+    },
+    "meaning": "where",
+    "shortDefinition": "Where something is (location)."
+  },
+  "intro": {
+    "title": "Wo, wohin, woher",
+    "paragraphs": [
+      "German splits 'where' into three: wo (where something is), wohin (where to), woher (where from). Wo is only for location."
+    ]
+  },
+  "tables": [
+    {
+      "title": "Three kinds of 'where'",
+      "columns": [
+        "meaning",
+        "example"
+      ],
+      "rows": [
+        {
+          "label": "wo",
+          "cells": [
+            "location",
+            "Wo wohnst du?"
+          ]
+        },
+        {
+          "label": "wohin",
+          "cells": [
+            "direction",
+            "Wohin fährst du?"
+          ]
+        },
+        {
+          "label": "woher",
+          "cells": [
+            "origin",
+            "Woher kommst du?"
+          ]
+        }
+      ],
+      "notes": [
+        "Answers: wo → in/an + dative; wohin → nach / zu / in + accusative; woher → aus / von."
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "wohin",
+      "english": "where to",
+      "type": "question word"
+    },
+    {
+      "german": "woher",
+      "english": "where from",
+      "type": "question word"
+    },
+    {
+      "german": "wer",
+      "english": "who",
+      "type": "question word"
+    }
+  ],
+  "keyTrap": {
+    "title": "The big trap: wo for 'where to'",
+    "explanation": "With movement verbs, use wohin.",
+    "wrong": {
+      "german": "Wo gehst du?",
+      "verdict": "Going somewhere: wohin."
+    },
+    "correct": [
+      {
+        "german": "Wohin gehst du?",
+        "literal": "Where-to go you?",
+        "note": "Direction: wohin."
+      },
+      {
+        "german": "Wo bist du?",
+        "literal": "Where are you?",
+        "note": "Location: wo."
+      }
+    ]
+  },
+  "commonMistakes": [
+    {
+      "title": "wo vs wer",
+      "explanation": "Wo = where, wer = who.",
+      "wrong": "Wer wohnst du?",
+      "correct": "Wo wohnst du?"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wo ist die Toilette?",
+      "english": "Where's the toilet?",
+      "highlight": [
+        "Wo"
+      ]
+    },
+    {
+      "german": "Wo wohnen Sie?",
+      "english": "Where do you live?",
+      "highlight": [
+        "Wo"
+      ]
+    },
+    {
+      "german": "Weißt du, wo mein Handy ist?",
+      "english": "Do you know where my phone is?",
+      "highlight": [
+        "wo"
+      ]
+    },
+    {
+      "german": "Wo arbeitest du?",
+      "english": "Where do you work?",
+      "highlight": [
+        "Wo"
+      ]
+    }
+  ],
+  "forms": [
+    "wo"
+  ],
+  "memoryHook": "Wo = where (location). Wohin = where to. Woher = where from. Wer = who!",
+  "signOff": "Wo ein Wille ist, ist auch ein Weg!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ wohnst du?",
+      "options": [
+        "Wo",
+        "Wohin"
+      ],
+      "answer": "Wo",
+      "explanation": "Location.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "___ fährst du im Urlaub?",
+      "options": [
+        "Wo",
+        "Wohin"
+      ],
+      "answer": "Wohin",
+      "explanation": "Direction.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "___ kommst du? (origin)",
+      "options": [
+        "Woher",
+        "Wo"
+      ],
+      "answer": "Woher",
+      "explanation": "Origin.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Wo vs wer: 'where' is…",
+      "options": [
+        "wo",
+        "wer"
+      ],
+      "answer": "wo",
+      "explanation": "Wo.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "___ ist der Bahnhof? (Where)",
+      "answer": "Wo",
+      "fullAnswer": "Wo ist der Bahnhof?",
+      "explanation": "Wo.",
+      "id": "q5"
+    }
+  ]
+}

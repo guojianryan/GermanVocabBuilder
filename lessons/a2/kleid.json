@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Kleid",
+    "partOfSpeech": "noun, neuter (das Kleid)",
+    "pronunciation": {
+      "respelling": "KLITE",
+      "ipa": "klaɪ̯t",
+      "notes": "Plural: die Kleider."
+    },
+    "meaning": "dress; (plural) clothes",
+    "shortDefinition": "Dress; (plural) clothes."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Kleid, plural die Kleider.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Kleid"
+        },
+        {
+          "label": "More than one",
+          "value": "die Kleider"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Sie trägt ein rotes Kleid.",
+      "english": "She's wearing a red dress.",
+      "highlight": [
+        "Kleid."
+      ]
+    },
+    {
+      "german": "Das Kleid passt dir gut.",
+      "english": "That dress suits you.",
+      "highlight": [
+        "Kleid"
+      ]
+    },
+    {
+      "german": "Ich brauche neue Kleider.",
+      "english": "I need new clothes.",
+      "highlight": [
+        "Kleider."
+      ]
+    }
+  ],
+  "forms": [
+    "Kleider",
+    "die Kleider",
+    "das Kleid"
+  ],
+  "memoryHook": "Das Kleid (dress), die Kleider (dresses, clothes), die Kleidung (clothing).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Kleid",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Kleid is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Kleid, zwei ___",
+      "answer": "Kleider",
+      "fullAnswer": "ein Kleid, zwei Kleider",
+      "explanation": "The plural is Kleider.",
+      "acceptedAnswers": [
+        "Kleider"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Kleid mean?",
+      "options": [
+        "quiet",
+        "the flower",
+        "dress"
+      ],
+      "answer": "dress",
+      "explanation": "Kleid: dress; (plural) clothes.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Die Kleider' can mean…",
+      "options": [
+        "dresses or clothes",
+        "only dresses"
+      ],
+      "answer": "dresses or clothes",
+      "explanation": "Kleider = clothes too.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Clothing in general:",
+      "options": [
+        "die Kleidung",
+        "das Kleid"
+      ],
+      "answer": "die Kleidung",
+      "explanation": "Kleidung.",
+      "id": "q5"
+    }
+  ]
+}

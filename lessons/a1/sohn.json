@@ -1,0 +1,131 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Sohn",
+    "partOfSpeech": "noun, masculine (der Sohn)",
+    "pronunciation": {
+      "respelling": "ZOHN",
+      "ipa": "zoːn",
+      "notes": "Plural: die Söhne."
+    },
+    "meaning": "son",
+    "shortDefinition": "Son."
+  },
+  "wordFamily": [
+    {
+      "german": "die Tochter",
+      "english": "daughter",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Sohn, plural die Söhne.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Sohn"
+        },
+        {
+          "label": "More than one",
+          "value": "die Söhne"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Mein Sohn ist acht Jahre alt.",
+      "english": "My son is eight.",
+      "highlight": [
+        "Sohn"
+      ]
+    },
+    {
+      "german": "Sie haben zwei Söhne und eine Tochter.",
+      "english": "They have two sons and a daughter.",
+      "highlight": [
+        "Söhne"
+      ]
+    },
+    {
+      "german": "Das ist mein Sohn Paul.",
+      "english": "This is my son Paul.",
+      "highlight": [
+        "Sohn"
+      ]
+    }
+  ],
+  "forms": [
+    "Söhne",
+    "die Söhne",
+    "der Sohn"
+  ],
+  "memoryHook": "Der Sohn (son), plural Söhne. Tochter = daughter.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Sohn",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Sohn is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Sohn, zwei ___",
+      "answer": "Söhne",
+      "fullAnswer": "ein Sohn, zwei Söhne",
+      "explanation": "The plural is Söhne.",
+      "acceptedAnswers": [
+        "Soehne"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Sohn mean?",
+      "options": [
+        "the weather",
+        "never",
+        "son"
+      ],
+      "answer": "son",
+      "explanation": "Sohn: son.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "The opposite of Sohn is…",
+      "options": [
+        "die Tochter",
+        "die Schwester"
+      ],
+      "answer": "die Tochter",
+      "explanation": "Son / daughter.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "The h in Sohn is…",
+      "options": [
+        "silent, lengthening the o",
+        "pronounced"
+      ],
+      "answer": "silent, lengthening the o",
+      "explanation": "ZOHN.",
+      "id": "q5"
+    }
+  ]
+}

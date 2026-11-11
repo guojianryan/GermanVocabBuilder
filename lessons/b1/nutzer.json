@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Nutzer",
+    "partOfSpeech": "noun, masculine (der Nutzer)",
+    "pronunciation": {
+      "respelling": "NOOT-ser",
+      "ipa": "ˈnʊtsɐ",
+      "notes": "The plural looks the same. Plural: die Nutzer."
+    },
+    "meaning": "user",
+    "shortDefinition": "User."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Nutz",
+        "meaning": "use"
+      },
+      {
+        "part": "er",
+        "meaning": "person who does it"
+      }
+    ],
+    "literalMeaning": "one who uses"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Nutzer, plural die Nutzer.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Nutzer"
+        },
+        {
+          "label": "More than one",
+          "value": "die Nutzer"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die App hat zehn Millionen Nutzer.",
+      "english": "The app has ten million users.",
+      "highlight": [
+        "Nutzer."
+      ]
+    },
+    {
+      "german": "Viele Nutzerinnen und Nutzer beschweren sich.",
+      "english": "Many users are complaining.",
+      "highlight": [
+        "Nutzerinnen",
+        "Nutzer"
+      ]
+    },
+    {
+      "german": "Neue Nutzer müssen sich registrieren.",
+      "english": "New users have to register.",
+      "highlight": [
+        "Nutzer"
+      ]
+    }
+  ],
+  "forms": [
+    "Nutzerin"
+  ],
+  "memoryHook": "Nutzen → der Nutzer (= Benutzer).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Nutzer",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Nutzer is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Nutzer, zwei ___",
+      "answer": "Nutzer",
+      "fullAnswer": "ein Nutzer, zwei Nutzer",
+      "explanation": "The plural is Nutzer.",
+      "acceptedAnswers": [
+        "Nutzer"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Nutzer mean?",
+      "options": [
+        "never",
+        "the window",
+        "user"
+      ],
+      "answer": "user",
+      "explanation": "Nutzer: user.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "nutzen (use)",
+        "Nuss"
+      ],
+      "answer": "nutzen (use)",
+      "explanation": "Use.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonym:",
+      "options": [
+        "der Benutzer / User",
+        "der Besitzer"
+      ],
+      "answer": "der Benutzer / User",
+      "explanation": "User.",
+      "id": "q5"
+    }
+  ]
+}

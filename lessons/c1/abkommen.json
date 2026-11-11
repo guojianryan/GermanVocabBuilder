@@ -1,0 +1,147 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Abkommen",
+    "partOfSpeech": "noun, neuter (das Abkommen)",
+    "pronunciation": {
+      "respelling": "AP-ko-men",
+      "ipa": "ˈapˌkɔmən",
+      "notes": "The plural looks the same. Plural: die Abkommen."
+    },
+    "meaning": "agreement, treaty",
+    "shortDefinition": "Agreement, treaty."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Ab",
+        "meaning": "off"
+      },
+      {
+        "part": "kommen",
+        "meaning": "coming"
+      }
+    ],
+    "literalMeaning": "a coming-to (terms)"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Abkommen, plural die Abkommen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Abkommen"
+        },
+        {
+          "label": "More than one",
+          "value": "die Abkommen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Länder unterzeichnen ein Abkommen.",
+      "english": "The countries are signing an agreement.",
+      "highlight": [
+        "Abkommen."
+      ]
+    },
+    {
+      "german": "Das Pariser Abkommen zum Klimaschutz.",
+      "english": "The Paris Agreement on climate.",
+      "highlight": [
+        "Abkommen"
+      ]
+    },
+    {
+      "german": "Ein Abkommen schließen.",
+      "english": "To conclude an agreement.",
+      "highlight": [
+        "Abkommen"
+      ]
+    }
+  ],
+  "forms": [
+    "Vertrag"
+  ],
+  "memoryHook": "Das Abkommen = treaty; abkommen = stray.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Abkommen",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Abkommen is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Abkommen, zwei ___",
+      "answer": "Abkommen",
+      "fullAnswer": "ein Abkommen, zwei Abkommen",
+      "explanation": "The plural is Abkommen.",
+      "acceptedAnswers": [
+        "Abkommen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Abkommen mean?",
+      "options": [
+        "the job",
+        "the street",
+        "agreement"
+      ],
+      "answer": "agreement",
+      "explanation": "Abkommen: agreement, treaty.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Vom Weg abkommen' means…",
+      "options": [
+        "to stray from the path",
+        "to agree on the path"
+      ],
+      "answer": "to stray from the path",
+      "explanation": "Verb.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonym:",
+      "options": [
+        "der Vertrag, die Vereinbarung",
+        "die Ankunft"
+      ],
+      "answer": "der Vertrag, die Vereinbarung",
+      "explanation": "Treaty.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Abkommen",
+        "Abkommens"
+      ],
+      "answer": "Abkommen",
+      "explanation": "No change.",
+      "id": "q6"
+    }
+  ]
+}

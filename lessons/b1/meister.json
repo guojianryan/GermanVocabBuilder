@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Meister",
+    "partOfSpeech": "noun, masculine (der Meister)",
+    "pronunciation": {
+      "respelling": "MICE-ter",
+      "ipa": "ˈmaɪ̯stɐ",
+      "notes": "The plural looks the same. Plural: die Meister."
+    },
+    "meaning": "master (craftsman); champion",
+    "shortDefinition": "Master (craftsman); champion."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Meister, plural die Meister.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Meister"
+        },
+        {
+          "label": "More than one",
+          "value": "die Meister"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er hat die Meisterprüfung gemacht.",
+      "english": "He passed his master craftsman's exam.",
+      "highlight": [
+        "Meisterprüfung"
+      ]
+    },
+    {
+      "german": "Bayern München ist deutscher Meister.",
+      "english": "Bayern Munich are German champions.",
+      "highlight": [
+        "Meister."
+      ]
+    },
+    {
+      "german": "Übung macht den Meister.",
+      "english": "Practice makes perfect.",
+      "highlight": [
+        "Meister."
+      ]
+    }
+  ],
+  "forms": [
+    "Meisterschaft"
+  ],
+  "memoryHook": "Der Meister: master craftsman, champion. Weltmeister!",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Meister",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Meister is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Meister, zwei ___",
+      "answer": "Meister",
+      "fullAnswer": "ein Meister, zwei Meister",
+      "explanation": "The plural is Meister.",
+      "acceptedAnswers": [
+        "Meister"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Meister mean?",
+      "options": [
+        "to buy",
+        "master (craftsman)",
+        "to wait"
+      ],
+      "answer": "master (craftsman)",
+      "explanation": "Meister: master (craftsman); champion.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Übung macht den Meister' means…",
+      "options": [
+        "Practice makes perfect",
+        "Exercise makes the boss"
+      ],
+      "answer": "Practice makes perfect",
+      "explanation": "Proverb.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Championship:",
+      "options": [
+        "die Meisterschaft",
+        "die Meisterei"
+      ],
+      "answer": "die Meisterschaft",
+      "explanation": "Weltmeisterschaft = World Cup.",
+      "id": "q5"
+    }
+  ]
+}

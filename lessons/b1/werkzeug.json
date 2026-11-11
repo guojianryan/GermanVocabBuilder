@@ -1,0 +1,138 @@
+{
+ "schemaVersion": "1.4",
+ "language": "de",
+ "explanationLanguage": "en",
+ "level": "B1",
+ "levelSource": "Goethe-Zertifikat B1 Wortliste",
+ "lessonType": "card",
+ "word": {
+  "headword": "Werkzeug",
+  "partOfSpeech": "noun, neuter (das Werkzeug)",
+  "pronunciation": {
+   "respelling": "VAIRK-tsoyk",
+   "ipa": "ˈvɛʁkt͡sɔɪ̯k",
+   "notes": "Plural: die Werkzeuge."
+  },
+  "meaning": "tool(s)",
+  "shortDefinition": "Tool(s)."
+ },
+ "commonMistakes": [
+  {
+   "title": "Gender and plural",
+   "explanation": "Das Werkzeug, plural die Werkzeuge.",
+   "forms": [
+    {
+     "label": "One",
+     "value": "das Werkzeug"
+    },
+    {
+     "label": "More than one",
+     "value": "die Werkzeuge"
+    }
+   ]
+  }
+ ],
+ "sampleSentences": [
+  {
+   "german": "Hast du das richtige Werkzeug?",
+   "english": "Have you got the right tools?",
+   "highlight": [
+    "Werkzeug?"
+   ]
+  },
+  {
+   "german": "Das Werkzeug liegt im Keller.",
+   "english": "The tools are in the cellar.",
+   "highlight": [
+    "Werkzeug"
+   ]
+  },
+  {
+   "german": "Sprache ist ein wichtiges Werkzeug.",
+   "english": "Language is an important tool.",
+   "highlight": [
+    "Werkzeug."
+   ]
+  }
+ ],
+ "forms": [
+  "Werkzeuge",
+  "die Werkzeuge",
+  "das Werkzeug"
+ ],
+ "memoryHook": "Werk + Zeug = tools.",
+ "signOff": "Gut gemacht!",
+ "quiz": [
+  {
+   "type": "choice",
+   "prompt": "___ Werkzeug",
+   "options": [
+    "der",
+    "die",
+    "das"
+   ],
+   "answer": "das",
+   "explanation": "Werkzeug is neuter.",
+   "id": "q1"
+  },
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "ein Werkzeug, zwei ___",
+   "answer": "Werkzeuge",
+   "fullAnswer": "ein Werkzeug, zwei Werkzeuge",
+   "explanation": "The plural is Werkzeuge.",
+   "acceptedAnswers": [
+    "Werkzeuge"
+   ],
+   "id": "q2"
+  },
+  {
+   "type": "choice",
+   "prompt": "What does Werkzeug mean?",
+   "options": [
+    "always",
+    "tool(s)",
+    "the bed"
+   ],
+   "answer": "tool(s)",
+   "explanation": "Werkzeug: tool(s).",
+   "id": "q3"
+  },
+  {
+   "type": "choice",
+   "prompt": "Built from…",
+   "options": [
+    "Werk (work) + Zeug (stuff)",
+    "Werk + Zug"
+   ],
+   "answer": "Werk (work) + Zeug (stuff)",
+   "explanation": "Work stuff.",
+   "id": "q4"
+  },
+  {
+   "type": "choice",
+   "prompt": "Toolbox:",
+   "options": [
+    "der Werkzeugkasten",
+    "die Werkzeugbox only"
+   ],
+   "answer": "der Werkzeugkasten",
+   "explanation": "Box.",
+   "id": "q5"
+  }
+ ],
+ "etymology": {
+  "title": "Where it comes from",
+  "parts": [
+   {
+    "part": "Werk",
+    "meaning": "work"
+   },
+   {
+    "part": "zeug",
+    "meaning": "things"
+   }
+  ],
+  "literalMeaning": "work things"
+ }
+}

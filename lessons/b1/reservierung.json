@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Reservierung",
+    "partOfSpeech": "noun, feminine (die Reservierung)",
+    "pronunciation": {
+      "respelling": "re-zer-VEE-rung",
+      "ipa": "ʁezɛʁˈviːʁʊŋ",
+      "notes": "Plural: die Reservierungen."
+    },
+    "meaning": "reservation",
+    "shortDefinition": "Reservation."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Reservierung, plural die Reservierungen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Reservierung"
+        },
+        {
+          "label": "More than one",
+          "value": "die Reservierungen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich habe eine Reservierung auf den Namen Müller.",
+      "english": "I have a reservation under the name Müller.",
+      "highlight": [
+        "Reservierung"
+      ]
+    },
+    {
+      "german": "Die Reservierung ist bestätigt.",
+      "english": "The reservation is confirmed.",
+      "highlight": [
+        "Reservierung"
+      ]
+    },
+    {
+      "german": "Ohne Reservierung bekommt man keinen Tisch.",
+      "english": "You won't get a table without a reservation.",
+      "highlight": [
+        "Reservierung"
+      ]
+    }
+  ],
+  "forms": [
+    "reservieren"
+  ],
+  "memoryHook": "Reservieren → die Reservierung.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Reservierung",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Reservierung is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Reservierung, zwei ___",
+      "answer": "Reservierungen",
+      "fullAnswer": "ein Reservierung, zwei Reservierungen",
+      "explanation": "The plural is Reservierungen.",
+      "acceptedAnswers": [
+        "Reservierungen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Reservierung mean?",
+      "options": [
+        "reservation",
+        "the child",
+        "to sleep"
+      ],
+      "answer": "reservation",
+      "explanation": "Reservierung: reservation.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "reservieren",
+        "Reserve only"
+      ],
+      "answer": "reservieren",
+      "explanation": "Reserve.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "V sounds like…",
+      "options": [
+        "v",
+        "f"
+      ],
+      "answer": "v",
+      "explanation": "re-zer-VEE-rung.",
+      "id": "q5"
+    }
+  ]
+}

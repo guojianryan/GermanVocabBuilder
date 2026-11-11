@@ -1,0 +1,159 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "klingen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "KLING-en",
+      "ipa": "ˈklɪŋən",
+      "notes": ""
+    },
+    "meaning": "to sound",
+    "shortDefinition": "To sound."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "kling|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "kling|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "kling|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "kling|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "kling|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "kling|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat geklungen"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das klingt gut!",
+      "english": "That sounds good!",
+      "highlight": [
+        "klingt"
+      ]
+    },
+    {
+      "german": "Du klingst müde.",
+      "english": "You sound tired.",
+      "highlight": [
+        "klingst"
+      ]
+    },
+    {
+      "german": "Die Musik klingt schön.",
+      "english": "The music sounds lovely.",
+      "highlight": [
+        "klingt"
+      ]
+    }
+  ],
+  "forms": [
+    "klinge",
+    "klingst",
+    "klingt",
+    "klingen",
+    "geklungen",
+    "klang"
+  ],
+  "memoryHook": "Klingen, klang, geklungen = sound. Klingeln = ring!",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (klingen)",
+      "answer": "klingt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: klingt.",
+      "acceptedAnswers": [
+        "klingt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (klingen, past)",
+      "answer": "geklungen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe geklungen.",
+      "acceptedAnswers": [
+        "geklungen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does klingen mean?",
+      "options": [
+        "the street",
+        "to sound",
+        "to sleep"
+      ],
+      "answer": "to sound",
+      "explanation": "klingen: to sound.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Das klingt gut' means…",
+      "options": [
+        "That sounds good",
+        "That rings well"
+      ],
+      "answer": "That sounds good",
+      "explanation": "Sound.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Past:",
+      "options": [
+        "klang, geklungen",
+        "klingte, geklingt"
+      ],
+      "answer": "klang, geklungen",
+      "explanation": "Irregular.",
+      "id": "q5"
+    }
+  ]
+}

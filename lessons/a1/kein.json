@@ -1,0 +1,214 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "full",
+  "word": {
+    "headword": "kein",
+    "partOfSpeech": "negative article (kein, keine, keinen …)",
+    "pronunciation": {
+      "respelling": "KINE",
+      "ipa": "kaɪ̯n",
+      "notes": "Ei as in 'eye'."
+    },
+    "meaning": "no, not a, not any",
+    "shortDefinition": "The negative of ein: no, not a."
+  },
+  "intro": {
+    "title": "Kein Problem!",
+    "paragraphs": [
+      "Kein is 'not a' or 'no': Ich habe kein Auto. It negates nouns, while nicht negates verbs and adjectives. It takes exactly the same endings as ein, and unlike ein it has a plural: keine Kinder."
+    ]
+  },
+  "tables": [
+    {
+      "title": "Same endings as ein, plus a plural",
+      "columns": [
+        "masculine",
+        "feminine",
+        "neuter",
+        "plural"
+      ],
+      "rows": [
+        {
+          "label": "subject",
+          "cells": [
+            "kein",
+            "kein|e",
+            "kein",
+            "kein|e"
+          ]
+        },
+        {
+          "label": "object",
+          "cells": [
+            "kein|en",
+            "kein|e",
+            "kein",
+            "kein|e"
+          ]
+        },
+        {
+          "label": "dative",
+          "cells": [
+            "kein|em",
+            "kein|er",
+            "kein|em",
+            "kein|en"
+          ]
+        }
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "nicht",
+      "english": "not",
+      "type": "adverb"
+    },
+    {
+      "german": "ein",
+      "english": "a, an",
+      "type": "article"
+    },
+    {
+      "german": "Kein Problem!",
+      "english": "No problem!",
+      "type": "phrase"
+    },
+    {
+      "german": "keiner",
+      "english": "nobody, none",
+      "type": "pronoun"
+    }
+  ],
+  "keyTrap": {
+    "title": "The big trap: kein or nicht?",
+    "explanation": "Use kein with a noun that would have ein or no article. Use nicht for verbs, adjectives and nouns with der/die/das.",
+    "wrong": {
+      "german": "Ich habe nicht Zeit.",
+      "verdict": "Zeit is a noun without article: keine Zeit."
+    },
+    "correct": [
+      {
+        "german": "Ich habe keine Zeit.",
+        "literal": "I have no time.",
+        "note": "Noun: kein."
+      },
+      {
+        "german": "Ich komme nicht.",
+        "literal": "I come not.",
+        "note": "Verb: nicht."
+      },
+      {
+        "german": "Das ist nicht mein Auto.",
+        "literal": "That is not my car.",
+        "note": "With mein/der: nicht."
+      }
+    ]
+  },
+  "commonMistakes": [
+    {
+      "title": "Endings",
+      "explanation": "Kein follows ein.",
+      "wrong": "Ich habe kein Hund.",
+      "correct": "Ich habe keinen Hund."
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Kein Problem!",
+      "english": "No problem!",
+      "highlight": [
+        "Kein"
+      ]
+    },
+    {
+      "german": "Ich habe keine Geschwister.",
+      "english": "I don't have any brothers or sisters.",
+      "highlight": [
+        "keine"
+      ]
+    },
+    {
+      "german": "Er trinkt keinen Alkohol.",
+      "english": "He doesn't drink alcohol.",
+      "highlight": [
+        "keinen"
+      ]
+    },
+    {
+      "german": "Das ist kein Witz.",
+      "english": "That's no joke.",
+      "highlight": [
+        "kein"
+      ]
+    }
+  ],
+  "forms": [
+    "kein",
+    "keine",
+    "keinen",
+    "keinem",
+    "keiner",
+    "keines"
+  ],
+  "memoryHook": "Kein = not a / no, for nouns. Same endings as ein. Nicht for everything else.",
+  "signOff": "Kein Problem, du schaffst das!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Ich habe ___ Auto.",
+      "options": [
+        "nicht",
+        "kein"
+      ],
+      "answer": "kein",
+      "explanation": "Noun: kein.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich habe ___ Bruder.",
+      "options": [
+        "kein",
+        "keinen"
+      ],
+      "answer": "keinen",
+      "explanation": "Masculine object: keinen.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich bin ___ müde.",
+      "options": [
+        "kein",
+        "nicht"
+      ],
+      "answer": "nicht",
+      "explanation": "Adjective: nicht.",
+      "id": "q3"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Wir haben ___ Kinder. (no)",
+      "answer": "keine",
+      "fullAnswer": "Wir haben keine Kinder.",
+      "explanation": "Plural: keine.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Kein Problem!' means…",
+      "options": [
+        "No problem!",
+        "Not a problem?"
+      ],
+      "answer": "No problem!",
+      "explanation": "Fixed phrase.",
+      "id": "q5"
+    }
+  ]
+}

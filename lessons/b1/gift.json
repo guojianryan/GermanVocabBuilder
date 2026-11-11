@@ -1,0 +1,130 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Gift",
+    "partOfSpeech": "noun, neuter (das Gift)",
+    "pronunciation": {
+      "respelling": "GIFT",
+      "ipa": "ɡɪft",
+      "notes": "Plural: die Gifte."
+    },
+    "meaning": "poison",
+    "shortDefinition": "Poison."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Gift, plural die Gifte.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Gift"
+        },
+        {
+          "label": "More than one",
+          "value": "die Gifte"
+        }
+      ]
+    },
+    {
+      "title": "False friend",
+      "explanation": "Gift means poison!",
+      "wrong": "Danke für das Gift! (meaning 'present')",
+      "correct": "Danke für das Geschenk!"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das ist Gift für die Umwelt.",
+      "english": "That's poison for the environment.",
+      "highlight": [
+        "Gift"
+      ]
+    },
+    {
+      "german": "Rattengift ist gefährlich.",
+      "english": "Rat poison is dangerous.",
+      "highlight": [
+        "Rattengift"
+      ]
+    },
+    {
+      "german": "Darauf kannst du Gift nehmen!",
+      "english": "You can bet your life on it!",
+      "highlight": [
+        "Gift"
+      ]
+    }
+  ],
+  "forms": [
+    "Gifte",
+    "die Gifte",
+    "das Gift"
+  ],
+  "memoryHook": "Das Gift = POISON, not a gift (das Geschenk)!",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Gift",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Gift is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Gift, zwei ___",
+      "answer": "Gifte",
+      "fullAnswer": "ein Gift, zwei Gifte",
+      "explanation": "The plural is Gifte.",
+      "acceptedAnswers": [
+        "Gifte"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Gift mean?",
+      "options": [
+        "poison",
+        "to buy",
+        "hot"
+      ],
+      "answer": "poison",
+      "explanation": "Gift: poison.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "German Gift means…",
+      "options": [
+        "poison",
+        "present"
+      ],
+      "answer": "poison",
+      "explanation": "False friend! Present = Geschenk.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Darauf kannst du Gift nehmen' means…",
+      "options": [
+        "you can be sure of it",
+        "don't eat it"
+      ],
+      "answer": "you can be sure of it",
+      "explanation": "Idiom.",
+      "id": "q5"
+    }
+  ]
+}

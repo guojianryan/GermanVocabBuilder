@@ -1,0 +1,118 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Celsius",
+    "partOfSpeech": "noun, neuter (das Celsius)",
+    "pronunciation": {
+      "respelling": "TSEL-zee-oos",
+      "ipa": "ˈtsɛlzi̯ʊs",
+      "notes": "Usually no plural."
+    },
+    "meaning": "Celsius",
+    "shortDefinition": "Celsius."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Celsius, usually no plural.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Celsius"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Es sind 20 Grad Celsius.",
+      "english": "It's 20 degrees Celsius.",
+      "highlight": [
+        "Celsius."
+      ]
+    },
+    {
+      "german": "Wasser kocht bei 100 Grad Celsius.",
+      "english": "Water boils at 100 degrees Celsius.",
+      "highlight": [
+        "Celsius."
+      ]
+    },
+    {
+      "german": "In Deutschland misst man in Celsius.",
+      "english": "In Germany temperature is measured in Celsius.",
+      "highlight": [
+        "Celsius."
+      ]
+    }
+  ],
+  "forms": [
+    "°C"
+  ],
+  "memoryHook": "Grad Celsius (c = ts).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Celsius",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Celsius is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Celsius mean?",
+      "options": [
+        "the station",
+        "to help",
+        "Celsius"
+      ],
+      "answer": "Celsius",
+      "explanation": "Celsius: Celsius.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "C sounds like…",
+      "options": [
+        "ts",
+        "s"
+      ],
+      "answer": "ts",
+      "explanation": "TSEL-zee-oos.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Used with…",
+      "options": [
+        "Grad",
+        "Meter"
+      ],
+      "answer": "Grad",
+      "explanation": "20 Grad Celsius.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Article?",
+      "options": [
+        "usually none",
+        "der"
+      ],
+      "answer": "usually none",
+      "explanation": "Grad Celsius.",
+      "id": "q5"
+    }
+  ]
+}

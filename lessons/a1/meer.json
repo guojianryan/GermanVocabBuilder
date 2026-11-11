@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Meer",
+    "partOfSpeech": "noun, neuter (das Meer)",
+    "pronunciation": {
+      "respelling": "MAIR",
+      "ipa": "meːɐ̯",
+      "notes": "Plural: die Meere."
+    },
+    "meaning": "sea",
+    "shortDefinition": "Sea."
+  },
+  "wordFamily": [
+    {
+      "german": "der See",
+      "english": "lake",
+      "type": "noun"
+    },
+    {
+      "german": "die See",
+      "english": "sea (also)",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Meer, plural die Meere.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Meer"
+        },
+        {
+          "label": "More than one",
+          "value": "die Meere"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir fahren im Sommer ans Meer.",
+      "english": "We're going to the seaside in summer.",
+      "highlight": [
+        "Meer."
+      ]
+    },
+    {
+      "german": "Das Hotel liegt direkt am Meer.",
+      "english": "The hotel is right by the sea.",
+      "highlight": [
+        "Meer."
+      ]
+    },
+    {
+      "german": "Das Meer ist heute ruhig.",
+      "english": "The sea is calm today.",
+      "highlight": [
+        "Meer"
+      ]
+    }
+  ],
+  "forms": [
+    "Meere",
+    "die Meere",
+    "das Meer"
+  ],
+  "memoryHook": "Das Meer = sea. Ans Meer (going), am Meer (there). Sounds like mehr (more).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Meer",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Meer is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Meer, zwei ___",
+      "answer": "Meere",
+      "fullAnswer": "ein Meer, zwei Meere",
+      "explanation": "The plural is Meere.",
+      "acceptedAnswers": [
+        "Meere"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Meer mean?",
+      "options": [
+        "the family",
+        "slowly",
+        "sea"
+      ],
+      "answer": "sea",
+      "explanation": "Meer: sea.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Going to the seaside: ___ Meer",
+      "options": [
+        "ans",
+        "am"
+      ],
+      "answer": "ans",
+      "explanation": "Direction: ans.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Mehr (more) and Meer (sea) sound…",
+      "options": [
+        "the same",
+        "different"
+      ],
+      "answer": "the same",
+      "explanation": "Homophones.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "verkaufen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "fair-KOW-fen",
+      "ipa": "fɛɐ̯ˈkaʊ̯fn̩",
+      "notes": ""
+    },
+    "meaning": "to sell",
+    "shortDefinition": "To sell."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "ver",
+        "meaning": "prefix: away, giving up"
+      },
+      {
+        "part": "kaufen",
+        "meaning": "to buy"
+      }
+    ],
+    "literalMeaning": "to buy away"
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "verkauf|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "verkauf|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "verkauf|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "verkauf|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "verkauf|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "verkauf|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat verkauft"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "kaufen",
+      "english": "to buy",
+      "type": "verb"
+    },
+    {
+      "german": "der Verkäufer",
+      "english": "salesperson",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich verkaufe mein altes Fahrrad.",
+      "english": "I'm selling my old bike.",
+      "highlight": [
+        "verkaufe"
+      ]
+    },
+    {
+      "german": "Hier werden Fahrkarten verkauft.",
+      "english": "Tickets are sold here.",
+      "highlight": [
+        "verkauft."
+      ]
+    },
+    {
+      "german": "Die Wohnung ist schon verkauft.",
+      "english": "The flat's already sold.",
+      "highlight": [
+        "verkauft."
+      ]
+    }
+  ],
+  "forms": [
+    "verkaufe",
+    "verkaufst",
+    "verkauft",
+    "verkaufen"
+  ],
+  "memoryHook": "Ver + kaufen = sell. Der Verkäufer = sales assistant. Zu verkaufen = for sale.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (verkaufen)",
+      "answer": "verkauft",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: verkauft.",
+      "acceptedAnswers": [
+        "verkauft"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (verkaufen, past)",
+      "answer": "verkauft",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe verkauft.",
+      "acceptedAnswers": [
+        "verkauft"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does verkaufen mean?",
+      "options": [
+        "to travel",
+        "the evening",
+        "to sell"
+      ],
+      "answer": "to sell",
+      "explanation": "verkaufen: to sell.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "The opposite of verkaufen is…",
+      "options": [
+        "kaufen",
+        "bezahlen"
+      ],
+      "answer": "kaufen",
+      "explanation": "Buy / sell.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Der Verkäufer is…",
+      "options": [
+        "the salesperson",
+        "the buyer"
+      ],
+      "answer": "the salesperson",
+      "explanation": "Verkaufen → Verkäufer.",
+      "id": "q5"
+    }
+  ]
+}

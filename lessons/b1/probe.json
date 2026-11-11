@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Probe",
+    "partOfSpeech": "noun, feminine (die Probe)",
+    "pronunciation": {
+      "respelling": "PROH-be",
+      "ipa": "ˈpʁoːbə",
+      "notes": "Plural: die Proben."
+    },
+    "meaning": "rehearsal; sample; test",
+    "shortDefinition": "Rehearsal; sample; test."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Probe, plural die Proben.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Probe"
+        },
+        {
+          "label": "More than one",
+          "value": "die Proben"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Probe ist um sieben.",
+      "english": "Rehearsal is at seven.",
+      "highlight": [
+        "Probe"
+      ]
+    },
+    {
+      "german": "Der Arzt nimmt eine Blutprobe.",
+      "english": "The doctor takes a blood sample.",
+      "highlight": [
+        "Blutprobe."
+      ]
+    },
+    {
+      "german": "Er ist noch auf Probe angestellt.",
+      "english": "He's still on probation.",
+      "highlight": [
+        "Probe"
+      ]
+    }
+  ],
+  "forms": [
+    "proben",
+    "probieren"
+  ],
+  "memoryHook": "Die Probe: rehearsal; sample; trial. Probieren = try.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Probe",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Probe is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Probe, zwei ___",
+      "answer": "Proben",
+      "fullAnswer": "ein Probe, zwei Proben",
+      "explanation": "The plural is Proben.",
+      "acceptedAnswers": [
+        "Proben"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Probe mean?",
+      "options": [
+        "rehearsal",
+        "the weather",
+        "to sleep"
+      ],
+      "answer": "rehearsal",
+      "explanation": "Probe: rehearsal; sample; test.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Auf Probe' means…",
+      "options": [
+        "on trial / probation",
+        "for testing food"
+      ],
+      "answer": "on trial / probation",
+      "explanation": "Trial.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Related verb:",
+      "options": [
+        "probieren (try)",
+        "proben only"
+      ],
+      "answer": "probieren (try)",
+      "explanation": "Try.",
+      "id": "q5"
+    }
+  ]
+}

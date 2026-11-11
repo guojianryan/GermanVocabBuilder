@@ -1,0 +1,158 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "nicken",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "NIK-en",
+      "ipa": "ˈnɪkn̩",
+      "notes": ""
+    },
+    "meaning": "to nod",
+    "shortDefinition": "To nod."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "nick|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "nick|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "nick|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "nick|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "nick|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "nick|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat genickt"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er nickt und lächelt.",
+      "english": "He nods and smiles.",
+      "highlight": [
+        "nickt"
+      ]
+    },
+    {
+      "german": "Sie hat zustimmend genickt.",
+      "english": "She nodded in agreement.",
+      "highlight": [
+        "genickt."
+      ]
+    },
+    {
+      "german": "Nicken heißt in Deutschland ja.",
+      "english": "Nodding means yes in Germany.",
+      "highlight": [
+        "Nicken"
+      ]
+    }
+  ],
+  "forms": [
+    "nicke",
+    "nickst",
+    "nickt",
+    "nicken",
+    "genickt"
+  ],
+  "memoryHook": "Nicken (yes) ↔ den Kopf schütteln (no).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (nicken)",
+      "answer": "nickt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: nickt.",
+      "acceptedAnswers": [
+        "nickt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (nicken, past)",
+      "answer": "genickt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe genickt.",
+      "acceptedAnswers": [
+        "genickt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does nicken mean?",
+      "options": [
+        "to nod",
+        "hot",
+        "the family"
+      ],
+      "answer": "to nod",
+      "explanation": "nicken: to nod.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Opposite gesture:",
+      "options": [
+        "den Kopf schütteln",
+        "winken"
+      ],
+      "answer": "den Kopf schütteln",
+      "explanation": "Shake head.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Einnicken' means…",
+      "options": [
+        "to nod off",
+        "to agree"
+      ],
+      "answer": "to nod off",
+      "explanation": "Fall asleep.",
+      "id": "q5"
+    }
+  ]
+}

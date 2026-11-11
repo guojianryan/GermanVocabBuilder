@@ -1,0 +1,170 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "zeichnen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "TSYKHE-nen",
+      "ipa": "ˈtsaɪ̯çnən",
+      "notes": ""
+    },
+    "meaning": "to draw",
+    "shortDefinition": "To draw."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "zeichn|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "zeichn|est"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "zeichn|et"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "zeichn|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "zeichn|et"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "zeichn|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gezeichnet"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "die Zeichnung",
+      "english": "drawing",
+      "type": "noun"
+    },
+    {
+      "german": "das Zeichen",
+      "english": "sign",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Mein Sohn zeichnet gern.",
+      "english": "My son likes drawing.",
+      "highlight": [
+        "zeichnet"
+      ]
+    },
+    {
+      "german": "Kannst du mir einen Plan zeichnen?",
+      "english": "Can you draw me a map?",
+      "highlight": [
+        "zeichnen?"
+      ]
+    },
+    {
+      "german": "Ich habe ein Pferd gezeichnet.",
+      "english": "I drew a horse.",
+      "highlight": [
+        "gezeichnet."
+      ]
+    }
+  ],
+  "forms": [
+    "zeichne",
+    "zeichnest",
+    "zeichnet",
+    "zeichnen",
+    "gezeichnet"
+  ],
+  "memoryHook": "Zeichnen = draw (pencil). Malen = paint. Das Zeichen = sign.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (zeichnen)",
+      "answer": "zeichnet",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: zeichnet.",
+      "acceptedAnswers": [
+        "zeichnet"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (zeichnen, past)",
+      "answer": "gezeichnet",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gezeichnet.",
+      "acceptedAnswers": [
+        "gezeichnet"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does zeichnen mean?",
+      "options": [
+        "the weather",
+        "to sleep",
+        "to draw"
+      ],
+      "answer": "to draw",
+      "explanation": "zeichnen: to draw.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Zeichnen or malen? With a pencil:",
+      "options": [
+        "zeichnen",
+        "malen"
+      ],
+      "answer": "zeichnen",
+      "explanation": "Malen = paint.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "A drawing:",
+      "options": [
+        "die Zeichnung",
+        "das Zeichen"
+      ],
+      "answer": "die Zeichnung",
+      "explanation": "Das Zeichen = sign.",
+      "id": "q5"
+    }
+  ]
+}

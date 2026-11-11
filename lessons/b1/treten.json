@@ -1,0 +1,157 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "treten",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "TRAY-ten",
+      "ipa": "ˈtʁeːtn̩",
+      "notes": ""
+    },
+    "meaning": "to step; to kick",
+    "shortDefinition": "To step; to kick."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "tret|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "tritt|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "tritt"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "tret|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "tret|et"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "tret|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat getreten"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er hat mich getreten.",
+      "english": "He kicked me.",
+      "highlight": [
+        "getreten."
+      ]
+    },
+    {
+      "german": "Bitte treten Sie ein.",
+      "english": "Please come in.",
+      "highlight": [
+        "treten",
+        "ein."
+      ]
+    },
+    {
+      "german": "Ich bin in eine Pfütze getreten.",
+      "english": "I stepped in a puddle.",
+      "highlight": [
+        "bin",
+        "getreten."
+      ]
+    }
+  ],
+  "forms": [
+    "tritt",
+    "eintreten"
+  ],
+  "memoryHook": "Treten, trat, getreten (er tritt). Eintreten = enter.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (treten)",
+      "answer": "tritt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: tritt.",
+      "acceptedAnswers": [
+        "tritt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (treten, past)",
+      "answer": "getreten",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe getreten.",
+      "acceptedAnswers": [
+        "getreten"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does treten mean?",
+      "options": [
+        "always",
+        "to step",
+        "the weather"
+      ],
+      "answer": "to step",
+      "explanation": "treten: to step; to kick.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "er ___ (treten):",
+      "options": [
+        "tritt",
+        "tretet"
+      ],
+      "answer": "tritt",
+      "explanation": "Irregular.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Ich bin in … getreten' uses sein because…",
+      "options": [
+        "it's movement (step)",
+        "it's past"
+      ],
+      "answer": "it's movement (step)",
+      "explanation": "Step = sein; kick = haben.",
+      "id": "q5"
+    }
+  ]
+}

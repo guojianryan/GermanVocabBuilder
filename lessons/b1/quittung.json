@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Quittung",
+    "partOfSpeech": "noun, feminine (die Quittung)",
+    "pronunciation": {
+      "respelling": "KVIT-ung",
+      "ipa": "ˈkvɪtʊŋ",
+      "notes": "Plural: die Quittungen."
+    },
+    "meaning": "receipt",
+    "shortDefinition": "Receipt."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Quittung, plural die Quittungen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Quittung"
+        },
+        {
+          "label": "More than one",
+          "value": "die Quittungen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Kann ich bitte eine Quittung haben?",
+      "english": "Can I have a receipt, please?",
+      "highlight": [
+        "Quittung"
+      ]
+    },
+    {
+      "german": "Bewahren Sie die Quittung auf.",
+      "english": "Keep the receipt.",
+      "highlight": [
+        "Quittung"
+      ]
+    },
+    {
+      "german": "Ohne Quittung kein Umtausch.",
+      "english": "No exchange without a receipt.",
+      "highlight": [
+        "Quittung"
+      ]
+    }
+  ],
+  "forms": [
+    "Quittungen",
+    "die Quittungen",
+    "die Quittung"
+  ],
+  "memoryHook": "Die Quittung = receipt (= Beleg, Kassenbon).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Quittung",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Quittung is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Quittung, zwei ___",
+      "answer": "Quittungen",
+      "fullAnswer": "ein Quittung, zwei Quittungen",
+      "explanation": "The plural is Quittungen.",
+      "acceptedAnswers": [
+        "Quittungen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Quittung mean?",
+      "options": [
+        "to help",
+        "receipt",
+        "quiet"
+      ],
+      "answer": "receipt",
+      "explanation": "Quittung: receipt.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonyms:",
+      "options": [
+        "der Beleg, der Kassenbon",
+        "die Rechnung only"
+      ],
+      "answer": "der Beleg, der Kassenbon",
+      "explanation": "Receipt.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Qu sounds like…",
+      "options": [
+        "kv",
+        "kw"
+      ],
+      "answer": "kv",
+      "explanation": "KVIT-ung.",
+      "id": "q5"
+    }
+  ]
+}

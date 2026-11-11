@@ -1,0 +1,138 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Momente A2.2 Kursbuch Glossar",
+  "lessonType": "card",
+  "word": {
+    "headword": "Videospiel",
+    "partOfSpeech": "noun, neuter (das Videospiel)",
+    "pronunciation": {
+      "respelling": "VEE-de-o-shpeel",
+      "ipa": "ˈviːdeoˌʃpiːl",
+      "notes": "Plural: die Videospiele."
+    },
+    "meaning": "video game",
+    "shortDefinition": "Video game."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Video",
+        "meaning": "video"
+      },
+      {
+        "part": "spiel",
+        "meaning": "game"
+      }
+    ],
+    "literalMeaning": "video game"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Videospiel, plural die Videospiele.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Videospiel"
+        },
+        {
+          "label": "More than one",
+          "value": "die Videospiele"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er spielt gern Videospiele.",
+      "english": "He likes playing video games.",
+      "highlight": [
+        "Videospiele."
+      ]
+    },
+    {
+      "german": "Das Videospiel ist ab 12.",
+      "english": "The video game is for 12 and over.",
+      "highlight": [
+        "Videospiel"
+      ]
+    },
+    {
+      "german": "Welches Videospiel magst du?",
+      "english": "Which video game do you like?",
+      "highlight": [
+        "Videospiel"
+      ]
+    }
+  ],
+  "forms": [
+    "Videospiele",
+    "die Videospiele",
+    "das Videospiel"
+  ],
+  "memoryHook": "Video + Spiel = video game.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Videospiel",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Videospiel is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Videospiel, zwei ___",
+      "answer": "Videospiele",
+      "fullAnswer": "ein Videospiel, zwei Videospiele",
+      "explanation": "The plural is Videospiele.",
+      "acceptedAnswers": [
+        "Videospiele"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Videospiel mean?",
+      "options": [
+        "to wait",
+        "video game",
+        "slowly"
+      ],
+      "answer": "video game",
+      "explanation": "Videospiel: video game.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Video + Spiel",
+        "Video + spielen only"
+      ],
+      "answer": "Video + Spiel",
+      "explanation": "Video game.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gender:",
+      "options": [
+        "das (das Spiel)",
+        "der"
+      ],
+      "answer": "das (das Spiel)",
+      "explanation": "Last part.",
+      "id": "q5"
+    }
+  ]
+}

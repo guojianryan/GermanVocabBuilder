@@ -1,0 +1,182 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "erlernen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "er-LAIR-nen",
+      "ipa": "ɛɐ̯ˈlɛʁnən",
+      "notes": ""
+    },
+    "meaning": "to learn, acquire (a skill)",
+    "shortDefinition": "To learn, acquire (a skill)."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "er",
+        "meaning": "to completion"
+      },
+      {
+        "part": "lernen",
+        "meaning": "to learn"
+      }
+    ],
+    "literalMeaning": "to learn fully"
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "erlern|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "erlern|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "erlern|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "erlern|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "erlern|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "erlern|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat erlernt"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er hat einen Beruf erlernt.",
+      "english": "He learned a trade.",
+      "highlight": [
+        "erlernt."
+      ]
+    },
+    {
+      "german": "Sprachen kann man in jedem Alter erlernen.",
+      "english": "You can learn languages at any age.",
+      "highlight": [
+        "erlernen."
+      ]
+    },
+    {
+      "german": "Der erlernte Beruf.",
+      "english": "The trade one trained in.",
+      "highlight": [
+        "erlernte"
+      ]
+    }
+  ],
+  "forms": [
+    "erlerne",
+    "erlernst",
+    "erlernt",
+    "erlernen"
+  ],
+  "memoryHook": "Er + lernen = learn fully (a trade, skill).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (erlernen)",
+      "answer": "erlernt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: erlernt.",
+      "acceptedAnswers": [
+        "erlernt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (erlernen, past)",
+      "answer": "erlernt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe erlernt.",
+      "acceptedAnswers": [
+        "erlernt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does erlernen mean?",
+      "options": [
+        "the weather",
+        "to learn",
+        "quiet"
+      ],
+      "answer": "to learn",
+      "explanation": "erlernen: to learn, acquire (a skill).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Erlernen vs lernen:",
+      "options": [
+        "learn fully (skill) vs learn",
+        "same"
+      ],
+      "answer": "learn fully (skill) vs learn",
+      "explanation": "Nuance.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Register:",
+      "options": [
+        "formal-ish",
+        "slang"
+      ],
+      "answer": "formal-ish",
+      "explanation": "Written.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "hat erlernt",
+        "hat geerlernt"
+      ],
+      "answer": "hat erlernt",
+      "explanation": "No ge-.",
+      "id": "q6"
+    }
+  ]
+}

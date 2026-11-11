@@ -1,0 +1,159 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "sinken",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "ZING-ken",
+      "ipa": "ˈzɪŋkn̩",
+      "notes": ""
+    },
+    "meaning": "to sink; to fall",
+    "shortDefinition": "To sink; to fall."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "sink|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "sink|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "sink|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "sink|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "sink|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "sink|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): ist gesunken"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das Schiff ist gesunken.",
+      "english": "The ship sank.",
+      "highlight": [
+        "ist",
+        "gesunken."
+      ]
+    },
+    {
+      "german": "Die Preise sinken.",
+      "english": "Prices are falling.",
+      "highlight": [
+        "sinken."
+      ]
+    },
+    {
+      "german": "Die Temperatur sinkt unter null.",
+      "english": "The temperature is dropping below zero.",
+      "highlight": [
+        "sinkt"
+      ]
+    }
+  ],
+  "forms": [
+    "sinke",
+    "sinkst",
+    "sinkt",
+    "sinken",
+    "gesunken"
+  ],
+  "memoryHook": "Sinken, sank, ist gesunken ↔ steigen.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (sinken)",
+      "answer": "sinkt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: sinkt.",
+      "acceptedAnswers": [
+        "sinkt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich bin schon ___. (sinken, past)",
+      "answer": "gesunken",
+      "fullAnswer": "",
+      "explanation": "Perfekt: bin gesunken.",
+      "acceptedAnswers": [
+        "gesunken"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does sinken mean?",
+      "options": [
+        "expensive",
+        "the street",
+        "to sink"
+      ],
+      "answer": "to sink",
+      "explanation": "sinken: to sink; to fall.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "ist gesunken",
+        "hat gesinkt"
+      ],
+      "answer": "ist gesunken",
+      "explanation": "Strong + sein.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Opposite (prices):",
+      "options": [
+        "steigen",
+        "fallen"
+      ],
+      "answer": "steigen",
+      "explanation": "Rise.",
+      "id": "q5"
+    }
+  ]
+}

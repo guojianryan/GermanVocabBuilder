@@ -1,0 +1,128 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Blume",
+    "partOfSpeech": "noun, feminine (die Blume)",
+    "pronunciation": {
+      "respelling": "BLOO-muh",
+      "ipa": "ˈbluːmə",
+      "notes": "Plural: die Blumen."
+    },
+    "meaning": "flower",
+    "shortDefinition": "Flower."
+  },
+  "wordFamily": [
+    {
+      "german": "der Blumenladen",
+      "english": "florist's",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Blume, plural die Blumen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Blume"
+        },
+        {
+          "label": "More than one",
+          "value": "die Blumen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich bringe dir Blumen mit.",
+      "english": "I'll bring you flowers.",
+      "highlight": [
+        "Blumen"
+      ]
+    },
+    {
+      "german": "Die Blumen im Garten sind schön.",
+      "english": "The flowers in the garden are beautiful.",
+      "highlight": [
+        "Blumen"
+      ]
+    },
+    {
+      "german": "Danke für die Blumen!",
+      "english": "Thanks for the flowers!",
+      "highlight": [
+        "Blumen!"
+      ]
+    }
+  ],
+  "forms": [
+    "Blumen",
+    "die Blumen",
+    "die Blume"
+  ],
+  "memoryHook": "Blume is a cousin of English 'bloom' and 'blossom'.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Blume",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Blume is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Blume, zwei ___",
+      "answer": "Blumen",
+      "fullAnswer": "ein Blume, zwei Blumen",
+      "explanation": "The plural is Blumen.",
+      "acceptedAnswers": [
+        "Blumen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Blume mean?",
+      "options": [
+        "flower",
+        "always",
+        "tomorrow"
+      ],
+      "answer": "flower",
+      "explanation": "Blume: flower.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Where do you buy flowers?",
+      "options": [
+        "im Blumenladen",
+        "in der Bäckerei"
+      ],
+      "answer": "im Blumenladen",
+      "explanation": "Blumen + Laden.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Er schenkt ihr ___. (flowers)",
+      "answer": "Blumen",
+      "fullAnswer": "Er schenkt ihr Blumen.",
+      "explanation": "Plural: Blumen.",
+      "id": "q5"
+    }
+  ]
+}

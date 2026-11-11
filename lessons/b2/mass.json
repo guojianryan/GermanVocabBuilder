@@ -1,0 +1,134 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Maß",
+    "partOfSpeech": "noun, neuter (das Maß)",
+    "pronunciation": {
+      "respelling": "MAAS",
+      "ipa": "maːs",
+      "notes": "Plural: die Maße."
+    },
+    "meaning": "measure, degree; dimension",
+    "shortDefinition": "Measure, degree; dimension."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Maß, plural die Maße.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Maß"
+        },
+        {
+          "label": "More than one",
+          "value": "die Maße"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "In hohem Maße ist das richtig.",
+      "english": "That is true to a great extent.",
+      "highlight": [
+        "Maße"
+      ]
+    },
+    {
+      "german": "Die Maße des Tisches sind 2 x 1 Meter.",
+      "english": "The table measures 2 by 1 metres.",
+      "highlight": [
+        "Maße"
+      ]
+    },
+    {
+      "german": "Alles mit Maß und Ziel.",
+      "english": "Everything in moderation.",
+      "highlight": [
+        "Maß"
+      ]
+    }
+  ],
+  "forms": [
+    "messen",
+    "maßgeschneidert"
+  ],
+  "memoryHook": "Das Maß (degree; dimensions); nach Maß; in hohem Maße.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Maß",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Maß is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Maß, zwei ___",
+      "answer": "Maße",
+      "fullAnswer": "ein Maß, zwei Maße",
+      "explanation": "The plural is Maße.",
+      "acceptedAnswers": [
+        "Maße"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Maß mean?",
+      "options": [
+        "always",
+        "measure",
+        "to sleep"
+      ],
+      "answer": "measure",
+      "explanation": "Maß: measure, degree; dimension.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'In hohem Maße' means…",
+      "options": [
+        "to a great extent",
+        "at high measure"
+      ],
+      "answer": "to a great extent",
+      "explanation": "Formal.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Die Maß' (Bavarian) is…",
+      "options": [
+        "a litre of beer",
+        "a measure"
+      ],
+      "answer": "a litre of beer",
+      "explanation": "Oktoberfest.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Made to measure:",
+      "options": [
+        "nach Maß / maßgeschneidert",
+        "auf Maß"
+      ],
+      "answer": "nach Maß / maßgeschneidert",
+      "explanation": "Tailored.",
+      "id": "q6"
+    }
+  ]
+}

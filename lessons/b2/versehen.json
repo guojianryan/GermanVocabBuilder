@@ -1,0 +1,180 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "versehen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "fer-ZAY-en",
+      "ipa": "fɛɐ̯ˈzeːən",
+      "notes": ""
+    },
+    "meaning": "to provide, equip; (sich ~) to make a mistake",
+    "shortDefinition": "To provide, equip; (sich ~) to make a mistake."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "ver",
+        "meaning": "prefix (amiss / provide)"
+      },
+      {
+        "part": "sehen",
+        "meaning": "to see"
+      }
+    ],
+    "literalMeaning": "to see (to) / see wrongly"
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "verseh|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "versieh|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "versieh|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "verseh|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "verseh|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "verseh|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat versehen"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Brief ist mit einem Stempel versehen.",
+      "english": "The letter bears a stamp.",
+      "highlight": [
+        "versehen."
+      ]
+    },
+    {
+      "german": "Sie versieht ihren Dienst.",
+      "english": "She performs her duties.",
+      "highlight": [
+        "versieht"
+      ]
+    },
+    {
+      "german": "Ich habe mich versehen.",
+      "english": "I made a mistake.",
+      "highlight": [
+        "versehen."
+      ]
+    }
+  ],
+  "forms": [
+    "Versehen",
+    "versehentlich"
+  ],
+  "memoryHook": "Versehen (mit) = provide; das Versehen = mistake; aus Versehen.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (versehen)",
+      "answer": "versieht",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: versieht.",
+      "acceptedAnswers": [
+        "versieht"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (versehen, past)",
+      "answer": "versehen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe versehen.",
+      "acceptedAnswers": [
+        "versehen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does versehen mean?",
+      "options": [
+        "always",
+        "to provide",
+        "expensive"
+      ],
+      "answer": "to provide",
+      "explanation": "versehen: to provide, equip; (sich ~) to make a mistake.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Noun 'das Versehen' means…",
+      "options": [
+        "oversight, mistake",
+        "provision"
+      ],
+      "answer": "oversight, mistake",
+      "explanation": "Mistake.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Aus Versehen' means…",
+      "options": [
+        "by mistake",
+        "on purpose"
+      ],
+      "answer": "by mistake",
+      "explanation": "Accidentally.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "er ___ (versehen):",
+      "options": [
+        "versieht",
+        "verseht"
+      ],
+      "answer": "versieht",
+      "explanation": "e → ie.",
+      "id": "q6"
+    }
+  ]
+}

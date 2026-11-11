@@ -1,0 +1,131 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Kraft",
+    "partOfSpeech": "noun, feminine (die Kraft)",
+    "pronunciation": {
+      "respelling": "KRAFT",
+      "ipa": "kʁaft",
+      "notes": "Plural: die Kräfte."
+    },
+    "meaning": "strength, power, force",
+    "shortDefinition": "Strength, power, force."
+  },
+  "wordFamily": [
+    {
+      "german": "kräftig",
+      "english": "strong",
+      "type": "adjective"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Kraft, plural die Kräfte.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Kraft"
+        },
+        {
+          "label": "More than one",
+          "value": "die Kräfte"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich habe keine Kraft mehr.",
+      "english": "I have no strength left.",
+      "highlight": [
+        "Kraft"
+      ]
+    },
+    {
+      "german": "Er hat viel Kraft.",
+      "english": "He's very strong.",
+      "highlight": [
+        "Kraft."
+      ]
+    },
+    {
+      "german": "Das Gesetz tritt morgen in Kraft.",
+      "english": "The law comes into force tomorrow.",
+      "highlight": [
+        "Kraft."
+      ]
+    }
+  ],
+  "forms": [
+    "Kräfte",
+    "die Kräfte",
+    "die Kraft"
+  ],
+  "memoryHook": "Die Kraft = strength. Kräftig = strong. In Kraft treten = come into force.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Kraft",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Kraft is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Kraft, zwei ___",
+      "answer": "Kräfte",
+      "fullAnswer": "ein Kraft, zwei Kräfte",
+      "explanation": "The plural is Kräfte.",
+      "acceptedAnswers": [
+        "Kraefte"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Kraft mean?",
+      "options": [
+        "always",
+        "strength",
+        "the bill"
+      ],
+      "answer": "strength",
+      "explanation": "Kraft: strength, power, force.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'In Kraft treten' means…",
+      "options": [
+        "to come into force",
+        "to step strongly"
+      ],
+      "answer": "to come into force",
+      "explanation": "Laws.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Adjective:",
+      "options": [
+        "kräftig",
+        "kraftig"
+      ],
+      "answer": "kräftig",
+      "explanation": "Strong.",
+      "id": "q5"
+    }
+  ]
+}

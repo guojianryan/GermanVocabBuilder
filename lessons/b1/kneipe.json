@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Kneipe",
+    "partOfSpeech": "noun, feminine (die Kneipe)",
+    "pronunciation": {
+      "respelling": "KNYE-pe",
+      "ipa": "ˈknaɪ̯pə",
+      "notes": "Plural: die Kneipen."
+    },
+    "meaning": "pub, bar",
+    "shortDefinition": "Pub, bar."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Kneipe, plural die Kneipen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Kneipe"
+        },
+        {
+          "label": "More than one",
+          "value": "die Kneipen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir gehen in die Kneipe.",
+      "english": "We're going to the pub.",
+      "highlight": [
+        "Kneipe."
+      ]
+    },
+    {
+      "german": "Die Kneipe an der Ecke ist gemütlich.",
+      "english": "The pub on the corner is cosy.",
+      "highlight": [
+        "Kneipe"
+      ]
+    },
+    {
+      "german": "In der Kneipe gibt es Bier vom Fass.",
+      "english": "The pub has draught beer.",
+      "highlight": [
+        "Kneipe"
+      ]
+    }
+  ],
+  "forms": [
+    "Kneipen",
+    "die Kneipen",
+    "die Kneipe"
+  ],
+  "memoryHook": "Die Kneipe = pub (say the k!).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Kneipe",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Kneipe is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Kneipe, zwei ___",
+      "answer": "Kneipen",
+      "fullAnswer": "ein Kneipe, zwei Kneipen",
+      "explanation": "The plural is Kneipen.",
+      "acceptedAnswers": [
+        "Kneipen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Kneipe mean?",
+      "options": [
+        "to wait",
+        "the child",
+        "pub"
+      ],
+      "answer": "pub",
+      "explanation": "Kneipe: pub, bar.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "K before n is…",
+      "options": [
+        "pronounced",
+        "silent"
+      ],
+      "answer": "pronounced",
+      "explanation": "K-NEI-pe.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonyms:",
+      "options": [
+        "die Bar, das Lokal",
+        "die Küche"
+      ],
+      "answer": "die Bar, das Lokal",
+      "explanation": "Pub.",
+      "id": "q5"
+    }
+  ]
+}

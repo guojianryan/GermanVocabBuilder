@@ -1,0 +1,202 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "full",
+  "word": {
+    "headword": "wer",
+    "partOfSpeech": "question word",
+    "pronunciation": {
+      "respelling": "VAIR",
+      "ipa": "veːɐ̯",
+      "notes": "W = v. Not 'where'!"
+    },
+    "meaning": "who",
+    "shortDefinition": "The question word for people."
+  },
+  "intro": {
+    "title": "Wer ist das?",
+    "paragraphs": [
+      "Wer = who. It's a classic trap: wer looks like English 'where', but 'where' is wo. Wer changes like der: wen (whom), wem (to whom)."
+    ]
+  },
+  "tables": [
+    {
+      "title": "Who in three forms",
+      "columns": [
+        "form",
+        "example"
+      ],
+      "rows": [
+        {
+          "label": "subject",
+          "cells": [
+            "we|r",
+            "Wer ist das?"
+          ]
+        },
+        {
+          "label": "accusative",
+          "cells": [
+            "we|n",
+            "Wen kennst du?"
+          ]
+        },
+        {
+          "label": "dative",
+          "cells": [
+            "we|m",
+            "Wem gehört das?"
+          ]
+        }
+      ],
+      "notes": [
+        "Wer, wen, wem match der, den, dem."
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "wo",
+      "english": "where",
+      "type": "question word"
+    },
+    {
+      "german": "was",
+      "english": "what",
+      "type": "question word"
+    },
+    {
+      "german": "wessen",
+      "english": "whose",
+      "type": "question word"
+    }
+  ],
+  "keyTrap": {
+    "title": "The big trap: wer is who, not where",
+    "explanation": "Wer = who. Wo = where. They look like the opposite English words.",
+    "wrong": {
+      "german": "Wer wohnst du?",
+      "verdict": "For 'where', use wo."
+    },
+    "correct": [
+      {
+        "german": "Wo wohnst du?",
+        "literal": "Where live you?",
+        "note": "Where: wo."
+      },
+      {
+        "german": "Wer wohnt hier?",
+        "literal": "Who lives here?",
+        "note": "Who: wer."
+      }
+    ]
+  },
+  "commonMistakes": [
+    {
+      "title": "Who to?",
+      "explanation": "Wem with dative verbs.",
+      "examples": [
+        {
+          "german": "Wem hilfst du?",
+          "english": "Who are you helping?",
+          "highlight": "Wem"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wer ist das auf dem Foto?",
+      "english": "Who's that in the photo?",
+      "highlight": [
+        "Wer"
+      ]
+    },
+    {
+      "german": "Wer kommt mit?",
+      "english": "Who's coming along?",
+      "highlight": [
+        "Wer"
+      ]
+    },
+    {
+      "german": "Wen hast du getroffen?",
+      "english": "Who did you meet?",
+      "highlight": [
+        "Wen"
+      ]
+    },
+    {
+      "german": "Wem gehört der Schlüssel?",
+      "english": "Whose key is this?",
+      "highlight": [
+        "Wem"
+      ]
+    }
+  ],
+  "forms": [
+    "wer",
+    "wen",
+    "wem",
+    "wessen"
+  ],
+  "memoryHook": "Wer = who (people). Wo = where. Wer, wen, wem like der, den, dem.",
+  "signOff": "Wer übt, gewinnt!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ wohnst du? (Where)",
+      "options": [
+        "Wer",
+        "Wo"
+      ],
+      "answer": "Wo",
+      "explanation": "Where: wo.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "___ ist dein Lehrer? (Who)",
+      "options": [
+        "Wer",
+        "Wo"
+      ],
+      "answer": "Wer",
+      "explanation": "Who: wer.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "___ hilfst du? (Who … to?)",
+      "options": [
+        "Wen",
+        "Wem"
+      ],
+      "answer": "Wem",
+      "explanation": "Helfen: dative.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "___ siehst du? (Who … ?)",
+      "options": [
+        "Wen",
+        "Wem"
+      ],
+      "answer": "Wen",
+      "explanation": "Sehen: accusative.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "___ hat angerufen? (Who)",
+      "answer": "Wer",
+      "fullAnswer": "Wer hat angerufen?",
+      "explanation": "Wer.",
+      "id": "q5"
+    }
+  ]
+}

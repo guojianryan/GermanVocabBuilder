@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Strom",
+    "partOfSpeech": "noun, masculine (der Strom)",
+    "pronunciation": {
+      "respelling": "SHTROHM",
+      "ipa": "ʃtʁoːm",
+      "notes": "Plural: die Ströme."
+    },
+    "meaning": "electricity; stream, current",
+    "shortDefinition": "Electricity; stream, current."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Strom, plural die Ströme.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Strom"
+        },
+        {
+          "label": "More than one",
+          "value": "die Ströme"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Strom ist ausgefallen.",
+      "english": "There's a power cut.",
+      "highlight": [
+        "Strom"
+      ]
+    },
+    {
+      "german": "Der Strom wird immer teurer.",
+      "english": "Electricity is getting more and more expensive.",
+      "highlight": [
+        "Strom"
+      ]
+    },
+    {
+      "german": "Es regnet in Strömen.",
+      "english": "It's pouring.",
+      "highlight": [
+        "Strömen."
+      ]
+    }
+  ],
+  "forms": [
+    "Ströme",
+    "die Ströme",
+    "der Strom"
+  ],
+  "memoryHook": "Der Strom: electricity; stream. Es regnet in Strömen!",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Strom",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Strom is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Strom, zwei ___",
+      "answer": "Ströme",
+      "fullAnswer": "ein Strom, zwei Ströme",
+      "explanation": "The plural is Ströme.",
+      "acceptedAnswers": [
+        "Stroeme"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Strom mean?",
+      "options": [
+        "the key",
+        "electricity",
+        "hot"
+      ],
+      "answer": "electricity",
+      "explanation": "Strom: electricity; stream, current.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Es regnet in Strömen' means…",
+      "options": [
+        "it's pouring",
+        "it's raining electricity"
+      ],
+      "answer": "it's pouring",
+      "explanation": "Idiom.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Strom usually means…",
+      "options": [
+        "electricity",
+        "river"
+      ],
+      "answer": "electricity",
+      "explanation": "Power.",
+      "id": "q5"
+    }
+  ]
+}

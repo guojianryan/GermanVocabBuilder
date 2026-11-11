@@ -1,0 +1,158 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "sagen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "ZAH-gen",
+      "ipa": "ˈzaːɡn̩",
+      "notes": ""
+    },
+    "meaning": "to say, to tell",
+    "shortDefinition": "To say, to tell."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "sag|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "sag|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "sag|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "sag|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "sag|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "sag|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gesagt"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Was hast du gesagt?",
+      "english": "What did you say?",
+      "highlight": [
+        "gesagt?"
+      ]
+    },
+    {
+      "german": "Wie sagt man das auf Deutsch?",
+      "english": "How do you say that in German?",
+      "highlight": [
+        "sagt"
+      ]
+    },
+    {
+      "german": "Sag mir bitte die Wahrheit.",
+      "english": "Please tell me the truth.",
+      "highlight": [
+        "Sag"
+      ]
+    }
+  ],
+  "forms": [
+    "sage",
+    "sagst",
+    "sagt",
+    "sagen",
+    "gesagt"
+  ],
+  "memoryHook": "Sagen = say, tell. The person told is dative: Sag mir … Sag mal = tell me.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (sagen)",
+      "answer": "sagt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: sagt.",
+      "acceptedAnswers": [
+        "sagt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (sagen, past)",
+      "answer": "gesagt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gesagt.",
+      "acceptedAnswers": [
+        "gesagt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does sagen mean?",
+      "options": [
+        "to say",
+        "the key",
+        "to wait"
+      ],
+      "answer": "to say",
+      "explanation": "sagen: to say, to tell.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Sag mal, …' at the start means…",
+      "options": [
+        "Tell me, … / Say, …",
+        "Say it again"
+      ],
+      "answer": "Tell me, … / Say, …",
+      "explanation": "A way to start a question.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Sag ___ bitte! (me)",
+      "options": [
+        "mich",
+        "mir"
+      ],
+      "answer": "mir",
+      "explanation": "The person: dative.",
+      "id": "q5"
+    }
+  ]
+}

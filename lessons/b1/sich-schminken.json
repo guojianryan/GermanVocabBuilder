@@ -1,0 +1,157 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "(sich) schminken",
+    "partOfSpeech": "reflexive verb",
+    "pronunciation": {
+      "respelling": "SHMING-ken",
+      "ipa": "ˈʃmɪŋkn̩",
+      "notes": ""
+    },
+    "meaning": "to put on make-up",
+    "shortDefinition": "To put on make-up."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "schmink|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "schmink|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "schmink|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "schmink|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "schmink|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "schmink|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat geschminkt"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Sie schminkt sich vor dem Spiegel.",
+      "english": "She's putting on make-up in front of the mirror.",
+      "highlight": [
+        "schminkt",
+        "sich"
+      ]
+    },
+    {
+      "german": "Ich schminke mich nur selten.",
+      "english": "I rarely wear make-up.",
+      "highlight": [
+        "schminke",
+        "mich"
+      ]
+    },
+    {
+      "german": "Die Schauspieler werden geschminkt.",
+      "english": "The actors are being made up.",
+      "highlight": [
+        "geschminkt."
+      ]
+    }
+  ],
+  "forms": [
+    "schminken",
+    "Schminke"
+  ],
+  "memoryHook": "Sich schminken ↔ sich abschminken.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ ((sich) schminken)",
+      "answer": "schminkt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: schminkt.",
+      "acceptedAnswers": [
+        "schminkt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe mich schon ___. ((sich) schminken, past)",
+      "answer": "geschminkt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe mich geschminkt.",
+      "acceptedAnswers": [
+        "geschminkt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does (sich) schminken mean?",
+      "options": [
+        "to learn",
+        "to help",
+        "to put on make-up"
+      ],
+      "answer": "to put on make-up",
+      "explanation": "(sich) schminken: to put on make-up.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Noun:",
+      "options": [
+        "die Schminke / das Make-up",
+        "der Schmink"
+      ],
+      "answer": "die Schminke / das Make-up",
+      "explanation": "Make-up.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Remove make-up:",
+      "options": [
+        "sich abschminken",
+        "sich entschminken"
+      ],
+      "answer": "sich abschminken",
+      "explanation": "Ab-.",
+      "id": "q5"
+    }
+  ]
+}

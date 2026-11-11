@@ -1,0 +1,134 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Wechsel",
+    "partOfSpeech": "noun, masculine (der Wechsel)",
+    "pronunciation": {
+      "respelling": "VEK-sel",
+      "ipa": "ˈvɛksl̩",
+      "notes": "The plural looks the same. Plural: die Wechsel."
+    },
+    "meaning": "change, switch; exchange",
+    "shortDefinition": "Change, switch; exchange."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Wechsel",
+        "meaning": "change, swap",
+        "emphasis": "turn"
+      }
+    ],
+    "literalMeaning": "a switch",
+    "summary": "Things swap places."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Wechsel, plural die Wechsel.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Wechsel"
+        },
+        {
+          "label": "More than one",
+          "value": "die Wechsel"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Wechsel zum neuen Job war gut.",
+      "english": "The switch to the new job was good.",
+      "highlight": [
+        "Wechsel"
+      ]
+    },
+    {
+      "german": "Der Wechsel der Jahreszeiten.",
+      "english": "The changing of the seasons.",
+      "highlight": [
+        "Wechsel"
+      ]
+    },
+    {
+      "german": "Wechsel im Spiel: Nummer 10 kommt.",
+      "english": "Substitution: number 10 is coming on.",
+      "highlight": [
+        "Wechsel"
+      ]
+    }
+  ],
+  "forms": [
+    "wechseln"
+  ],
+  "memoryHook": "Der Wechsel (change, swap); wechseln.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Wechsel",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Wechsel is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Wechsel, zwei ___",
+      "answer": "Wechsel",
+      "fullAnswer": "ein Wechsel, zwei Wechsel",
+      "explanation": "The plural is Wechsel.",
+      "acceptedAnswers": [
+        "Wechsel"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Wechsel mean?",
+      "options": [
+        "tomorrow",
+        "change",
+        "slowly"
+      ],
+      "answer": "change",
+      "explanation": "Wechsel: change, switch; exchange.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Verb:",
+      "options": [
+        "wechseln",
+        "wechselieren"
+      ],
+      "answer": "wechseln",
+      "explanation": "Change.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Bureau de change:",
+      "options": [
+        "die Wechselstube",
+        "der Wechselplatz"
+      ],
+      "answer": "die Wechselstube",
+      "explanation": "Exchange.",
+      "id": "q5"
+    }
+  ]
+}

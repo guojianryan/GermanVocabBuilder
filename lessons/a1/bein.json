@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Bein",
+    "partOfSpeech": "noun, neuter (das Bein)",
+    "pronunciation": {
+      "respelling": "BINE",
+      "ipa": "baɪ̯n",
+      "notes": "Ei sounds like 'eye'. Plural: die Beine."
+    },
+    "meaning": "leg",
+    "shortDefinition": "Leg."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Bein, plural die Beine.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Bein"
+        },
+        {
+          "label": "More than one",
+          "value": "die Beine"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Mein Bein tut weh.",
+      "english": "My leg hurts.",
+      "highlight": [
+        "Bein"
+      ]
+    },
+    {
+      "german": "Er hat sich das Bein gebrochen.",
+      "english": "He broke his leg.",
+      "highlight": [
+        "Bein"
+      ]
+    },
+    {
+      "german": "Ich habe müde Beine.",
+      "english": "My legs are tired.",
+      "highlight": [
+        "Beine."
+      ]
+    }
+  ],
+  "forms": [
+    "Beine",
+    "die Beine",
+    "das Bein"
+  ],
+  "memoryHook": "Bein = leg (it's related to English 'bone'). Ei sounds like 'eye': BINE.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Bein",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Bein is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Bein, zwei ___",
+      "answer": "Beine",
+      "fullAnswer": "ein Bein, zwei Beine",
+      "explanation": "The plural is Beine.",
+      "acceptedAnswers": [
+        "Beine"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Bein mean?",
+      "options": [
+        "to open",
+        "the flower",
+        "leg"
+      ],
+      "answer": "leg",
+      "explanation": "Bein: leg.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Arm and Bein: which is the leg?",
+      "options": [
+        "das Bein",
+        "der Arm"
+      ],
+      "answer": "das Bein",
+      "explanation": "Bein = leg.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Mein Bein ___ weh.",
+      "options": [
+        "tut",
+        "macht"
+      ],
+      "answer": "tut",
+      "explanation": "Wehtun: to hurt.",
+      "id": "q5"
+    }
+  ]
+}

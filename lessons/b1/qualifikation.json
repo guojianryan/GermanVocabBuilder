@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Qualifikation",
+    "partOfSpeech": "noun, feminine (die Qualifikation)",
+    "pronunciation": {
+      "respelling": "kva-li-fi-ka-TSYOHN",
+      "ipa": "kvalifikaˈtsi̯oːn",
+      "notes": "Plural: die Qualifikationen."
+    },
+    "meaning": "qualification",
+    "shortDefinition": "Qualification."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Qualifikation, plural die Qualifikationen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Qualifikation"
+        },
+        {
+          "label": "More than one",
+          "value": "die Qualifikationen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Welche Qualifikationen haben Sie?",
+      "english": "What qualifications do you have?",
+      "highlight": [
+        "Qualifikationen"
+      ]
+    },
+    {
+      "german": "Er hat die nötige Qualifikation.",
+      "english": "He has the necessary qualification.",
+      "highlight": [
+        "Qualifikation."
+      ]
+    },
+    {
+      "german": "Das Team hat die Qualifikation geschafft.",
+      "english": "The team qualified.",
+      "highlight": [
+        "Qualifikation"
+      ]
+    }
+  ],
+  "forms": [
+    "qualifiziert"
+  ],
+  "memoryHook": "Die Qualifikation (qu = kv). Qualifiziert = qualified.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Qualifikation",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Qualifikation is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Qualifikation, zwei ___",
+      "answer": "Qualifikationen",
+      "fullAnswer": "ein Qualifikation, zwei Qualifikationen",
+      "explanation": "The plural is Qualifikationen.",
+      "acceptedAnswers": [
+        "Qualifikationen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Qualifikation mean?",
+      "options": [
+        "qualification",
+        "the station",
+        "the flower"
+      ],
+      "answer": "qualification",
+      "explanation": "Qualifikation: qualification.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Qu sounds like…",
+      "options": [
+        "kv",
+        "kw"
+      ],
+      "answer": "kv",
+      "explanation": "kva-li-fi-ka-TSYOHN.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Adjective:",
+      "options": [
+        "qualifiziert",
+        "qualifikant"
+      ],
+      "answer": "qualifiziert",
+      "explanation": "Qualified.",
+      "id": "q5"
+    }
+  ]
+}

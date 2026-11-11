@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Regel",
+    "partOfSpeech": "noun, feminine (die Regel)",
+    "pronunciation": {
+      "respelling": "RAY-gel",
+      "ipa": "ˈʁeːɡl̩",
+      "notes": "Plural: die Regeln."
+    },
+    "meaning": "rule",
+    "shortDefinition": "Rule."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Regel, plural die Regeln.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Regel"
+        },
+        {
+          "label": "More than one",
+          "value": "die Regeln"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das ist gegen die Regeln.",
+      "english": "That's against the rules.",
+      "highlight": [
+        "Regeln."
+      ]
+    },
+    {
+      "german": "In der Regel komme ich um sechs.",
+      "english": "As a rule I come at six.",
+      "highlight": [
+        "Regel"
+      ]
+    },
+    {
+      "german": "Kennst du die Spielregeln?",
+      "english": "Do you know the rules of the game?",
+      "highlight": [
+        "Spielregeln?"
+      ]
+    }
+  ],
+  "forms": [
+    "Regeln",
+    "die Regeln",
+    "die Regel"
+  ],
+  "memoryHook": "Die Regel. In der Regel = usually.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Regel",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Regel is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Regel, zwei ___",
+      "answer": "Regeln",
+      "fullAnswer": "ein Regel, zwei Regeln",
+      "explanation": "The plural is Regeln.",
+      "acceptedAnswers": [
+        "Regeln"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Regel mean?",
+      "options": [
+        "the flower",
+        "the street",
+        "rule"
+      ],
+      "answer": "rule",
+      "explanation": "Regel: rule.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'In der Regel' means…",
+      "options": [
+        "usually, as a rule",
+        "in the rule book"
+      ],
+      "answer": "usually, as a rule",
+      "explanation": "Normally.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Regeln",
+        "Regels"
+      ],
+      "answer": "Regeln",
+      "explanation": "-n.",
+      "id": "q5"
+    }
+  ]
+}

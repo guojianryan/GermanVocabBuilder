@@ -1,0 +1,151 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Fehler",
+    "partOfSpeech": "noun, masculine (der Fehler)",
+    "pronunciation": {
+      "respelling": "FAY-ler",
+      "ipa": "ˈfeːlɐ",
+      "notes": "The plural looks the same. Plural: die Fehler."
+    },
+    "meaning": "mistake, error",
+    "shortDefinition": "Mistake, error."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Fehl",
+        "meaning": "missing, lacking",
+        "note": "From fehlen."
+      },
+      {
+        "part": "er",
+        "meaning": "noun ending"
+      }
+    ],
+    "literalMeaning": "a missing (thing)"
+  },
+  "wordFamily": [
+    {
+      "german": "fehlen",
+      "english": "to be missing",
+      "type": "verb"
+    },
+    {
+      "german": "falsch",
+      "english": "wrong",
+      "type": "adjective"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Fehler, plural die Fehler.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Fehler"
+        },
+        {
+          "label": "More than one",
+          "value": "die Fehler"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das war mein Fehler.",
+      "english": "That was my mistake.",
+      "highlight": [
+        "Fehler."
+      ]
+    },
+    {
+      "german": "Der Text hat viele Fehler.",
+      "english": "The text has lots of mistakes.",
+      "highlight": [
+        "Fehler."
+      ]
+    },
+    {
+      "german": "Kein Problem, jeder macht Fehler.",
+      "english": "No problem, everyone makes mistakes.",
+      "highlight": [
+        "Fehler."
+      ]
+    }
+  ],
+  "forms": [
+    "Fehler",
+    "die Fehler",
+    "der Fehler"
+  ],
+  "memoryHook": "Einen Fehler machen = make a mistake. The plural looks the same: zwei Fehler.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Fehler",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Fehler is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Fehler, zwei ___",
+      "answer": "Fehler",
+      "fullAnswer": "ein Fehler, zwei Fehler",
+      "explanation": "The plural is Fehler.",
+      "acceptedAnswers": [
+        "Fehler"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Fehler mean?",
+      "options": [
+        "mistake",
+        "to sing",
+        "the window"
+      ],
+      "answer": "mistake",
+      "explanation": "Fehler: mistake, error.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "You ___ einen Fehler.",
+      "options": [
+        "machst",
+        "tust"
+      ],
+      "answer": "machst",
+      "explanation": "Einen Fehler machen.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Fehler comes from…",
+      "options": [
+        "fehlen (to be missing)",
+        "fahren"
+      ],
+      "answer": "fehlen (to be missing)",
+      "explanation": "A mistake is where something's missing.",
+      "id": "q5"
+    }
+  ]
+}

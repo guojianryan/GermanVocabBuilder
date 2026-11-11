@@ -1,0 +1,164 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "abgeben",
+    "partOfSpeech": "separable verb",
+    "pronunciation": {
+      "respelling": "AHP-gay-ben",
+      "ipa": "ˈapɡeːbn̩",
+      "notes": ""
+    },
+    "meaning": "to hand in, to hand over",
+    "shortDefinition": "To hand in, to hand over."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "ab",
+        "meaning": "away, off"
+      },
+      {
+        "part": "geben",
+        "meaning": "to give"
+      }
+    ],
+    "literalMeaning": "to give away"
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "gebe … |ab"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "gibst … |ab"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "gibt … |ab"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "geben … |ab"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "gebt … |ab"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "geben … |ab"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat abgegeben",
+        "Geben changes e to i for du and er: du gibst, er gibt."
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Bitte geben Sie den Test jetzt ab.",
+      "english": "Please hand in the test now.",
+      "highlight": [
+        "geben",
+        "ab."
+      ]
+    },
+    {
+      "german": "Ich muss den Schlüssel an der Rezeption abgeben.",
+      "english": "I have to hand in the key at reception.",
+      "highlight": [
+        "abgeben."
+      ]
+    },
+    {
+      "german": "Hast du das Formular schon abgegeben?",
+      "english": "Have you handed in the form yet?",
+      "highlight": [
+        "abgegeben?"
+      ]
+    }
+  ],
+  "forms": [
+    "gebe ab",
+    "gibst ab",
+    "gibt ab",
+    "abgegeben",
+    "gab ab"
+  ],
+  "memoryHook": "Geben = give, ab = away. You give it away from you: abgeben.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich ___ den Schlüssel morgen ab.",
+      "answer": "gebe",
+      "fullAnswer": "Ich gebe den Schlüssel morgen ab.",
+      "explanation": "Geben in second place, ab at the end.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Er ___ seine Hausaufgaben ab.",
+      "answer": "gibt",
+      "fullAnswer": "Er gibt seine Hausaufgaben ab.",
+      "explanation": "Geben changes to gibt for er, sie, es.",
+      "id": "q2"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe den Brief schon ___.",
+      "answer": "abgegeben",
+      "fullAnswer": "Ich habe den Brief schon abgegeben.",
+      "explanation": "Ge goes in the middle: ab-ge-geben.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "You return your hotel key. You ___ it.",
+      "options": [
+        "abholen",
+        "abgeben"
+      ],
+      "answer": "abgeben",
+      "explanation": "Abholen means to pick up.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "Du abgibst den Test.",
+        "Du gibst den Test ab."
+      ],
+      "answer": "Du gibst den Test ab.",
+      "explanation": "Ab goes to the end.",
+      "id": "q5"
+    }
+  ]
+}

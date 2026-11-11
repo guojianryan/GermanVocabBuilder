@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Brücke",
+    "partOfSpeech": "noun, feminine (die Brücke)",
+    "pronunciation": {
+      "respelling": "BRÜK-e",
+      "ipa": "ˈbʁʏkə",
+      "notes": "Plural: die Brücken."
+    },
+    "meaning": "bridge",
+    "shortDefinition": "Bridge."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Brücke, plural die Brücken.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Brücke"
+        },
+        {
+          "label": "More than one",
+          "value": "die Brücken"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir gehen über die Brücke.",
+      "english": "We're walking across the bridge.",
+      "highlight": [
+        "Brücke."
+      ]
+    },
+    {
+      "german": "Die Brücke ist gesperrt.",
+      "english": "The bridge is closed.",
+      "highlight": [
+        "Brücke"
+      ]
+    },
+    {
+      "german": "Unter der Brücke fließt der Rhein.",
+      "english": "The Rhine flows under the bridge.",
+      "highlight": [
+        "Brücke"
+      ]
+    }
+  ],
+  "forms": [
+    "Brückentag"
+  ],
+  "memoryHook": "Die Brücke. Brückentag = the extra day off to make a long weekend.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Brücke",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Brücke is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Brücke, zwei ___",
+      "answer": "Brücken",
+      "fullAnswer": "ein Brücke, zwei Brücken",
+      "explanation": "The plural is Brücken.",
+      "acceptedAnswers": [
+        "Bruecken"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Brücke mean?",
+      "options": [
+        "the door",
+        "the child",
+        "bridge"
+      ],
+      "answer": "bridge",
+      "explanation": "Brücke: bridge.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Over the bridge':",
+      "options": [
+        "über die Brücke",
+        "auf die Brücke über"
+      ],
+      "answer": "über die Brücke",
+      "explanation": "Über.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "A 'Brückentag' is…",
+      "options": [
+        "a day off between a holiday and the weekend",
+        "bridge-building day"
+      ],
+      "answer": "a day off between a holiday and the weekend",
+      "explanation": "Long weekend.",
+      "id": "q5"
+    }
+  ]
+}

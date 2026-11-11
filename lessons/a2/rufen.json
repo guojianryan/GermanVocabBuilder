@@ -1,0 +1,171 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "rufen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "ROO-fen",
+      "ipa": "ˈʁuːfn̩",
+      "notes": ""
+    },
+    "meaning": "to call, to shout",
+    "shortDefinition": "To call, to shout."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "ruf|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "ruf|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "ruf|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "ruf|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "ruf|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "ruf|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gerufen"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "anrufen",
+      "english": "to phone",
+      "type": "verb"
+    },
+    {
+      "german": "der Ruf",
+      "english": "call; reputation",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ruf bitte ein Taxi!",
+      "english": "Please call a taxi!",
+      "highlight": [
+        "Ruf"
+      ]
+    },
+    {
+      "german": "Er ruft laut um Hilfe.",
+      "english": "He's shouting for help.",
+      "highlight": [
+        "ruft"
+      ]
+    },
+    {
+      "german": "Wir müssen die Polizei rufen.",
+      "english": "We have to call the police.",
+      "highlight": [
+        "rufen."
+      ]
+    }
+  ],
+  "forms": [
+    "rufe",
+    "rufst",
+    "ruft",
+    "rufen",
+    "gerufen",
+    "rief"
+  ],
+  "memoryHook": "Rufen = call out, summon. Anrufen = phone. Rief, gerufen.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (rufen)",
+      "answer": "ruft",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: ruft.",
+      "acceptedAnswers": [
+        "ruft"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (rufen, past)",
+      "answer": "gerufen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gerufen.",
+      "acceptedAnswers": [
+        "gerufen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does rufen mean?",
+      "options": [
+        "cheap",
+        "the evening",
+        "to call"
+      ],
+      "answer": "to call",
+      "explanation": "rufen: to call, to shout.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Rufen or anrufen? Phone someone:",
+      "options": [
+        "anrufen",
+        "rufen"
+      ],
+      "answer": "anrufen",
+      "explanation": "Anrufen = phone.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Call a doctor (to come):",
+      "options": [
+        "einen Arzt rufen",
+        "einen Arzt anrufen only"
+      ],
+      "answer": "einen Arzt rufen",
+      "explanation": "Rufen = summon.",
+      "id": "q5"
+    }
+  ]
+}

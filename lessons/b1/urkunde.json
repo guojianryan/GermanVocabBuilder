@@ -1,0 +1,138 @@
+{
+ "schemaVersion": "1.4",
+ "language": "de",
+ "explanationLanguage": "en",
+ "level": "B1",
+ "levelSource": "Goethe-Zertifikat B1 Wortliste",
+ "lessonType": "card",
+ "word": {
+  "headword": "Urkunde",
+  "partOfSpeech": "noun, feminine (die Urkunde)",
+  "pronunciation": {
+   "respelling": "OOR-koon-de",
+   "ipa": "ˈuːɐ̯ˌkʊndə",
+   "notes": "Plural: die Urkunden."
+  },
+  "meaning": "certificate, document",
+  "shortDefinition": "Certificate, document."
+ },
+ "commonMistakes": [
+  {
+   "title": "Gender and plural",
+   "explanation": "Die Urkunde, plural die Urkunden.",
+   "forms": [
+    {
+     "label": "One",
+     "value": "die Urkunde"
+    },
+    {
+     "label": "More than one",
+     "value": "die Urkunden"
+    }
+   ]
+  }
+ ],
+ "sampleSentences": [
+  {
+   "german": "Wir brauchen Ihre Geburtsurkunde.",
+   "english": "We need your birth certificate.",
+   "highlight": [
+    "Geburtsurkunde."
+   ]
+  },
+  {
+   "german": "Die Gewinner bekommen eine Urkunde.",
+   "english": "The winners get a certificate.",
+   "highlight": [
+    "Urkunde."
+   ]
+  },
+  {
+   "german": "Die Heiratsurkunde ist im Ordner.",
+   "english": "The marriage certificate is in the folder.",
+   "highlight": [
+    "Heiratsurkunde"
+   ]
+  }
+ ],
+ "forms": [
+  "Urkunden",
+  "die Urkunden",
+  "die Urkunde"
+ ],
+ "memoryHook": "Die Urkunde = official certificate.",
+ "signOff": "Gut gemacht!",
+ "quiz": [
+  {
+   "type": "choice",
+   "prompt": "___ Urkunde",
+   "options": [
+    "der",
+    "die",
+    "das"
+   ],
+   "answer": "die",
+   "explanation": "Urkunde is feminine.",
+   "id": "q1"
+  },
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "ein Urkunde, zwei ___",
+   "answer": "Urkunden",
+   "fullAnswer": "ein Urkunde, zwei Urkunden",
+   "explanation": "The plural is Urkunden.",
+   "acceptedAnswers": [
+    "Urkunden"
+   ],
+   "id": "q2"
+  },
+  {
+   "type": "choice",
+   "prompt": "What does Urkunde mean?",
+   "options": [
+    "tomorrow",
+    "cheap",
+    "certificate"
+   ],
+   "answer": "certificate",
+   "explanation": "Urkunde: certificate, document.",
+   "id": "q3"
+  },
+  {
+   "type": "choice",
+   "prompt": "Birth certificate:",
+   "options": [
+    "die Geburtsurkunde",
+    "der Geburtsschein"
+   ],
+   "answer": "die Geburtsurkunde",
+   "explanation": "Official.",
+   "id": "q4"
+  },
+  {
+   "type": "choice",
+   "prompt": "Urkunde is…",
+   "options": [
+    "an official document",
+    "a letter"
+   ],
+   "answer": "an official document",
+   "explanation": "Certificate.",
+   "id": "q5"
+  }
+ ],
+ "etymology": {
+  "title": "Where it comes from",
+  "parts": [
+   {
+    "part": "Ur",
+    "meaning": "original"
+   },
+   {
+    "part": "kunde",
+    "meaning": "knowledge"
+   }
+  ],
+  "literalMeaning": "original record"
+ }
+}

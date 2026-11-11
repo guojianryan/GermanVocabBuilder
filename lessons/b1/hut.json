@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Hut",
+    "partOfSpeech": "noun, masculine (der Hut)",
+    "pronunciation": {
+      "respelling": "HOOT",
+      "ipa": "huːt",
+      "notes": "Plural: die Hüte."
+    },
+    "meaning": "hat",
+    "shortDefinition": "Hat."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Hut, plural die Hüte.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Hut"
+        },
+        {
+          "label": "More than one",
+          "value": "die Hüte"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er trägt einen Hut.",
+      "english": "He's wearing a hat.",
+      "highlight": [
+        "Hut."
+      ]
+    },
+    {
+      "german": "Setz den Hut auf, die Sonne ist stark.",
+      "english": "Put your hat on, the sun is strong.",
+      "highlight": [
+        "Hut"
+      ]
+    },
+    {
+      "german": "Auf der Hut sein!",
+      "english": "Be on your guard!",
+      "highlight": [
+        "Hut"
+      ]
+    }
+  ],
+  "forms": [
+    "Hüte",
+    "die Hüte",
+    "der Hut"
+  ],
+  "memoryHook": "Der Hut (hat with a brim). Die Mütze = woolly hat, cap.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Hut",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Hut is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Hut, zwei ___",
+      "answer": "Hüte",
+      "fullAnswer": "ein Hut, zwei Hüte",
+      "explanation": "The plural is Hüte.",
+      "acceptedAnswers": [
+        "Huete"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Hut mean?",
+      "options": [
+        "the evening",
+        "hat",
+        "the job"
+      ],
+      "answer": "hat",
+      "explanation": "Hut: hat.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Hut or Mütze? With a brim:",
+      "options": [
+        "der Hut",
+        "die Mütze"
+      ],
+      "answer": "der Hut",
+      "explanation": "Brim.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Auf der Hut sein' means…",
+      "options": [
+        "to be on your guard",
+        "to wear a hat"
+      ],
+      "answer": "to be on your guard",
+      "explanation": "Idiom (die Hut = guard).",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Apotheke",
+    "partOfSpeech": "noun, feminine (die Apotheke)",
+    "pronunciation": {
+      "respelling": "a-po-TAY-ke",
+      "ipa": "apoˈteːkə",
+      "notes": "Plural: die Apotheken."
+    },
+    "meaning": "pharmacy, chemist's",
+    "shortDefinition": "Pharmacy, chemist's."
+  },
+  "wordFamily": [
+    {
+      "german": "der Apotheker",
+      "english": "pharmacist",
+      "type": "noun"
+    },
+    {
+      "german": "die Drogerie",
+      "english": "chemist's (toiletries)",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Apotheke, plural die Apotheken.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Apotheke"
+        },
+        {
+          "label": "More than one",
+          "value": "die Apotheken"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Medikamente bekommen Sie in der Apotheke.",
+      "english": "You can get the medicine at the pharmacy.",
+      "highlight": [
+        "Apotheke."
+      ]
+    },
+    {
+      "german": "Gibt es hier eine Apotheke?",
+      "english": "Is there a pharmacy here?",
+      "highlight": [
+        "Apotheke?"
+      ]
+    },
+    {
+      "german": "Die Apotheke hat Notdienst.",
+      "english": "The pharmacy is on emergency duty.",
+      "highlight": [
+        "Apotheke"
+      ]
+    }
+  ],
+  "forms": [
+    "Apotheken",
+    "die Apotheken",
+    "die Apotheke"
+  ],
+  "memoryHook": "Die Apotheke (medicine). Die Drogerie (shampoo, soap).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Apotheke",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Apotheke is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Apotheke, zwei ___",
+      "answer": "Apotheken",
+      "fullAnswer": "ein Apotheke, zwei Apotheken",
+      "explanation": "The plural is Apotheken.",
+      "acceptedAnswers": [
+        "Apotheken"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Apotheke mean?",
+      "options": [
+        "never",
+        "the weather",
+        "pharmacy"
+      ],
+      "answer": "pharmacy",
+      "explanation": "Apotheke: pharmacy, chemist's.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Apotheke or Drogerie? Prescription medicine:",
+      "options": [
+        "Apotheke",
+        "Drogerie"
+      ],
+      "answer": "Apotheke",
+      "explanation": "Drogerie = toiletries.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "A pharmacist:",
+      "options": [
+        "der Apotheker",
+        "der Pharmazist"
+      ],
+      "answer": "der Apotheker",
+      "explanation": "Apotheker.",
+      "id": "q5"
+    }
+  ]
+}

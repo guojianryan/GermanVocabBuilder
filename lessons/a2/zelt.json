@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Zelt",
+    "partOfSpeech": "noun, neuter (das Zelt)",
+    "pronunciation": {
+      "respelling": "TSELT",
+      "ipa": "tsɛlt",
+      "notes": "Plural: die Zelte."
+    },
+    "meaning": "tent",
+    "shortDefinition": "Tent."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Zelt, plural die Zelte.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Zelt"
+        },
+        {
+          "label": "More than one",
+          "value": "die Zelte"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir schlafen im Zelt.",
+      "english": "We're sleeping in a tent.",
+      "highlight": [
+        "Zelt."
+      ]
+    },
+    {
+      "german": "Das Zelt ist für vier Personen.",
+      "english": "The tent is for four people.",
+      "highlight": [
+        "Zelt"
+      ]
+    },
+    {
+      "german": "Wir bauen das Zelt auf.",
+      "english": "We're putting up the tent.",
+      "highlight": [
+        "Zelt"
+      ]
+    }
+  ],
+  "forms": [
+    "zelten"
+  ],
+  "memoryHook": "Das Zelt → zelten (camp).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Zelt",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Zelt is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Zelt, zwei ___",
+      "answer": "Zelte",
+      "fullAnswer": "ein Zelt, zwei Zelte",
+      "explanation": "The plural is Zelte.",
+      "acceptedAnswers": [
+        "Zelte"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Zelt mean?",
+      "options": [
+        "tent",
+        "tomorrow",
+        "to travel"
+      ],
+      "answer": "tent",
+      "explanation": "Zelt: tent.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Put up a tent:",
+      "options": [
+        "ein Zelt aufbauen",
+        "ein Zelt aufstellen only"
+      ],
+      "answer": "ein Zelt aufbauen",
+      "explanation": "Both used.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Go camping':",
+      "options": [
+        "zelten / campen",
+        "zelt machen"
+      ],
+      "answer": "zelten / campen",
+      "explanation": "Zelten.",
+      "id": "q5"
+    }
+  ]
+}

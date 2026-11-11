@@ -1,0 +1,166 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "leisten",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "LYE-sten",
+      "ipa": "ˈlaɪ̯stn̩",
+      "notes": ""
+    },
+    "meaning": "to achieve, do; (sich) afford",
+    "shortDefinition": "To achieve, do; (sich) afford."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "leist|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "leist|est"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "leist|et"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "leist|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "leist|et"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "leist|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat geleistet"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "die Leistung",
+      "english": "performance, achievement",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das kann ich mir nicht leisten.",
+      "english": "I can't afford that.",
+      "highlight": [
+        "mir",
+        "leisten."
+      ]
+    },
+    {
+      "german": "Sie hat viel geleistet.",
+      "english": "She has achieved a lot.",
+      "highlight": [
+        "geleistet."
+      ]
+    },
+    {
+      "german": "Er leistet gute Arbeit.",
+      "english": "He does good work.",
+      "highlight": [
+        "leistet"
+      ]
+    }
+  ],
+  "forms": [
+    "leiste",
+    "leistest",
+    "leistet",
+    "leisten",
+    "geleistet"
+  ],
+  "memoryHook": "Leisten = achieve. Sich (Dat) etwas leisten = afford.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (leisten)",
+      "answer": "leistet",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: leistet.",
+      "acceptedAnswers": [
+        "leistet"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (leisten, past)",
+      "answer": "geleistet",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe geleistet.",
+      "acceptedAnswers": [
+        "geleistet"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does leisten mean?",
+      "options": [
+        "the door",
+        "the bread",
+        "to achieve"
+      ],
+      "answer": "to achieve",
+      "explanation": "leisten: to achieve, do; (sich) afford.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Sich etwas leisten' means…",
+      "options": [
+        "to afford something",
+        "to achieve oneself"
+      ],
+      "answer": "to afford something",
+      "explanation": "Dative: mir.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Which pronoun? Ich kann ___ das leisten.",
+      "options": [
+        "mir",
+        "mich"
+      ],
+      "answer": "mir",
+      "explanation": "Dative.",
+      "id": "q5"
+    }
+  ]
+}

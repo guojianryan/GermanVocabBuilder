@@ -1,0 +1,107 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "juristisch",
+    "partOfSpeech": "adjective",
+    "pronunciation": {
+      "respelling": "yoo-RIS-tish",
+      "ipa": "juˈʁɪstɪʃ",
+      "notes": ""
+    },
+    "meaning": "legal, juridical",
+    "shortDefinition": "Legal, juridical."
+  },
+  "sampleSentences": [
+    {
+      "german": "Das ist ein juristisches Problem.",
+      "english": "That's a legal problem.",
+      "highlight": [
+        "juristisches"
+      ]
+    },
+    {
+      "german": "Sie hat juristische Fragen.",
+      "english": "She has legal questions.",
+      "highlight": [
+        "juristische"
+      ]
+    },
+    {
+      "german": "Juristisch ist das erlaubt.",
+      "english": "Legally, that's allowed.",
+      "highlight": [
+        "Juristisch"
+      ]
+    }
+  ],
+  "forms": [
+    "Jurist",
+    "Jura",
+    "rechtlich"
+  ],
+  "memoryHook": "Jurist → juristisch (= rechtlich); Jura studieren.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does juristisch mean?",
+      "options": [
+        "to wait",
+        "legal",
+        "always"
+      ],
+      "answer": "legal",
+      "explanation": "juristisch: legal, juridical.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Lawyer (trained):",
+      "options": [
+        "der Jurist / die Juristin",
+        "der Jurer"
+      ],
+      "answer": "der Jurist / die Juristin",
+      "explanation": "Lawyer.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Law (subject):",
+      "options": [
+        "Jura",
+        "Juris"
+      ],
+      "answer": "Jura",
+      "explanation": "Studying law.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonym:",
+      "options": [
+        "rechtlich",
+        "gerecht"
+      ],
+      "answer": "rechtlich",
+      "explanation": "Legal.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Eine ___ Beratung. (legal)",
+      "answer": "juristische",
+      "fullAnswer": "Eine juristische Beratung.",
+      "explanation": "Juristische.",
+      "acceptedAnswers": [
+        "rechtliche"
+      ],
+      "id": "q5"
+    }
+  ]
+}

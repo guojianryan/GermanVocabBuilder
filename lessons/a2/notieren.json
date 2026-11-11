@@ -1,0 +1,169 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "notieren",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "no-TEE-ren",
+      "ipa": "noˈtiːʁən",
+      "notes": ""
+    },
+    "meaning": "to note down",
+    "shortDefinition": "To note down."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "notier|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "notier|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "notier|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "notier|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "notier|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "notier|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat notiert"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "die Notiz",
+      "english": "note",
+      "type": "noun"
+    },
+    {
+      "german": "aufschreiben",
+      "english": "to write down",
+      "type": "verb"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Notieren Sie bitte die Nummer.",
+      "english": "Please note down the number.",
+      "highlight": [
+        "Notieren"
+      ]
+    },
+    {
+      "german": "Ich habe mir die Adresse notiert.",
+      "english": "I've made a note of the address.",
+      "highlight": [
+        "notiert."
+      ]
+    },
+    {
+      "german": "Hast du alles notiert?",
+      "english": "Did you write everything down?",
+      "highlight": [
+        "notiert?"
+      ]
+    }
+  ],
+  "forms": [
+    "notiere",
+    "notierst",
+    "notiert",
+    "notieren"
+  ],
+  "memoryHook": "Notieren = aufschreiben = note down. Die Notiz = note.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (notieren)",
+      "answer": "notiert",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: notiert.",
+      "acceptedAnswers": [
+        "notiert"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (notieren, past)",
+      "answer": "notiert",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe notiert.",
+      "acceptedAnswers": [
+        "notiert"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does notieren mean?",
+      "options": [
+        "to note down",
+        "to wait",
+        "expensive"
+      ],
+      "answer": "to note down",
+      "explanation": "notieren: to note down.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "hat notiert",
+        "hat genotiert"
+      ],
+      "answer": "hat notiert",
+      "explanation": "-ieren: no ge-.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "A synonym:",
+      "options": [
+        "aufschreiben",
+        "abschreiben"
+      ],
+      "answer": "aufschreiben",
+      "explanation": "Abschreiben = copy.",
+      "id": "q5"
+    }
+  ]
+}

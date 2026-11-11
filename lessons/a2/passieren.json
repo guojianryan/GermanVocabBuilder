@@ -1,0 +1,157 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "passieren",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "pa-SEE-ren",
+      "ipa": "paˈsiːʁən",
+      "notes": ""
+    },
+    "meaning": "to happen",
+    "shortDefinition": "To happen."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "passier|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "passier|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "passier|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "passier|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "passier|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "passier|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): ist passiert"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Was ist passiert?",
+      "english": "What happened?",
+      "highlight": [
+        "passiert?"
+      ]
+    },
+    {
+      "german": "Mir ist etwas Dummes passiert.",
+      "english": "Something stupid happened to me.",
+      "highlight": [
+        "passiert."
+      ]
+    },
+    {
+      "german": "Keine Angst, das passiert jedem.",
+      "english": "Don't worry, it happens to everyone.",
+      "highlight": [
+        "passiert"
+      ]
+    }
+  ],
+  "forms": [
+    "passiere",
+    "passierst",
+    "passiert",
+    "passieren"
+  ],
+  "memoryHook": "Passieren (happen) takes sein: Was ist passiert?",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (passieren)",
+      "answer": "passiert",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: passiert.",
+      "acceptedAnswers": [
+        "passiert"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich bin schon ___. (passieren, past)",
+      "answer": "passiert",
+      "fullAnswer": "",
+      "explanation": "Perfekt: bin passiert.",
+      "acceptedAnswers": [
+        "passiert"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does passieren mean?",
+      "options": [
+        "to happen",
+        "the station",
+        "to buy"
+      ],
+      "answer": "to happen",
+      "explanation": "passieren: to happen.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt with…",
+      "options": [
+        "sein",
+        "haben"
+      ],
+      "answer": "sein",
+      "explanation": "Ist passiert.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Happen TO someone:",
+      "options": [
+        "dative: mir ist … passiert",
+        "zu mir"
+      ],
+      "answer": "dative: mir ist … passiert",
+      "explanation": "Dative.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "gegenwärtig",
+    "partOfSpeech": "adjective",
+    "pronunciation": {
+      "respelling": "GAY-gen-vair-tikh",
+      "ipa": "ˈɡeːɡn̩vɛʁtɪç",
+      "notes": ""
+    },
+    "meaning": "present, current",
+    "shortDefinition": "Present, current."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "gegen",
+        "meaning": "towards, facing"
+      },
+      {
+        "part": "wärt",
+        "meaning": "turned (-wärts)"
+      },
+      {
+        "part": "ig",
+        "meaning": "adjective ending"
+      }
+    ],
+    "literalMeaning": "facing towards (now)"
+  },
+  "sampleSentences": [
+    {
+      "german": "Die gegenwärtige Lage ist schwierig.",
+      "english": "The present situation is difficult.",
+      "highlight": [
+        "gegenwärtige"
+      ]
+    },
+    {
+      "german": "Gegenwärtig gibt es keine Lösung.",
+      "english": "At present there's no solution.",
+      "highlight": [
+        "Gegenwärtig"
+      ]
+    },
+    {
+      "german": "Das ist mir nicht gegenwärtig.",
+      "english": "I can't recall that right now.",
+      "highlight": [
+        "gegenwärtig."
+      ]
+    }
+  ],
+  "forms": [
+    "Gegenwart"
+  ],
+  "memoryHook": "Gegenwart → gegenwärtig (current).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does gegenwärtig mean?",
+      "options": [
+        "the street",
+        "present",
+        "cheap"
+      ],
+      "answer": "present",
+      "explanation": "gegenwärtig: present, current.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "die Gegenwart (present)",
+        "gegen + warten"
+      ],
+      "answer": "die Gegenwart (present)",
+      "explanation": "Present.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonyms:",
+      "options": [
+        "derzeit, aktuell",
+        "früher"
+      ],
+      "answer": "derzeit, aktuell",
+      "explanation": "Current.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Opposite:",
+      "options": [
+        "vergangen / zukünftig",
+        "anwesend"
+      ],
+      "answer": "vergangen / zukünftig",
+      "explanation": "Past / future.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Die ___ Regierung. (present)",
+      "answer": "gegenwärtige",
+      "fullAnswer": "Die gegenwärtige Regierung.",
+      "explanation": "Gegenwärtige.",
+      "acceptedAnswers": [
+        "derzeitige",
+        "aktuelle"
+      ],
+      "id": "q5"
+    }
+  ]
+}

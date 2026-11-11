@@ -1,0 +1,139 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Schwerpunkt",
+    "partOfSpeech": "noun, masculine (der Schwerpunkt)",
+    "pronunciation": {
+      "respelling": "SHVAIR-poonkt",
+      "ipa": "ˈʃveːɐ̯pʊŋkt",
+      "notes": "Plural: die Schwerpunkte."
+    },
+    "meaning": "main focus, emphasis; centre of gravity",
+    "shortDefinition": "Main focus, emphasis; centre of gravity."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Schwer",
+        "meaning": "heavy"
+      },
+      {
+        "part": "punkt",
+        "meaning": "point"
+      }
+    ],
+    "literalMeaning": "heavy point",
+    "summary": "Where the weight sits."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Schwerpunkt, plural die Schwerpunkte.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Schwerpunkt"
+        },
+        {
+          "label": "More than one",
+          "value": "die Schwerpunkte"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Schwerpunkt liegt auf Grammatik.",
+      "english": "The main focus is on grammar.",
+      "highlight": [
+        "Schwerpunkt"
+      ]
+    },
+    {
+      "german": "Wir setzen andere Schwerpunkte.",
+      "english": "We're setting different priorities.",
+      "highlight": [
+        "Schwerpunkte."
+      ]
+    },
+    {
+      "german": "Der Schwerpunkt des Autos liegt tief.",
+      "english": "The car's centre of gravity is low.",
+      "highlight": [
+        "Schwerpunkt"
+      ]
+    }
+  ],
+  "forms": [
+    "Schwerpunkte",
+    "die Schwerpunkte",
+    "der Schwerpunkt"
+  ],
+  "memoryHook": "Schwer + Punkt = focus; centre of gravity.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Schwerpunkt",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Schwerpunkt is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Schwerpunkt, zwei ___",
+      "answer": "Schwerpunkte",
+      "fullAnswer": "ein Schwerpunkt, zwei Schwerpunkte",
+      "explanation": "The plural is Schwerpunkte.",
+      "acceptedAnswers": [
+        "Schwerpunkte"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Schwerpunkt mean?",
+      "options": [
+        "the job",
+        "always",
+        "main focus"
+      ],
+      "answer": "main focus",
+      "explanation": "Schwerpunkt: main focus, emphasis; centre of gravity.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "schwer (heavy) + Punkt",
+        "Schwert + Punkt"
+      ],
+      "answer": "schwer (heavy) + Punkt",
+      "explanation": "Heavy point.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Schwerpunkte setzen' means…",
+      "options": [
+        "to set priorities",
+        "to put weights"
+      ],
+      "answer": "to set priorities",
+      "explanation": "Prioritise.",
+      "id": "q5"
+    }
+  ]
+}

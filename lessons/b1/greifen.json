@@ -1,0 +1,168 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "greifen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "GRY-fen",
+      "ipa": "ˈɡʁaɪ̯fn̩",
+      "notes": ""
+    },
+    "meaning": "to grab, to reach for",
+    "shortDefinition": "To grab, to reach for."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "greif|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "greif|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "greif|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "greif|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "greif|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "greif|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gegriffen"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "begreifen",
+      "english": "to grasp, understand",
+      "type": "verb"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er greift nach dem Glas.",
+      "english": "He reaches for the glass.",
+      "highlight": [
+        "greift",
+        "nach"
+      ]
+    },
+    {
+      "german": "Greif zu!",
+      "english": "Help yourself!",
+      "highlight": [
+        "Greif",
+        "zu!"
+      ]
+    },
+    {
+      "german": "Die Polizei hat schnell eingegriffen.",
+      "english": "The police intervened quickly.",
+      "highlight": [
+        "eingegriffen."
+      ]
+    }
+  ],
+  "forms": [
+    "greife",
+    "greifst",
+    "greift",
+    "greifen",
+    "gegriffen",
+    "griff"
+  ],
+  "memoryHook": "Greifen, griff, gegriffen. Begreifen = understand (grasp!).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (greifen)",
+      "answer": "greift",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: greift.",
+      "acceptedAnswers": [
+        "greift"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (greifen, past)",
+      "answer": "gegriffen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gegriffen.",
+      "acceptedAnswers": [
+        "gegriffen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does greifen mean?",
+      "options": [
+        "tomorrow",
+        "to grab",
+        "to buy"
+      ],
+      "answer": "to grab",
+      "explanation": "greifen: to grab, to reach for.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Past:",
+      "options": [
+        "griff, gegriffen",
+        "greifte, gegreift"
+      ],
+      "answer": "griff, gegriffen",
+      "explanation": "Irregular.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Greif zu!' means…",
+      "options": [
+        "Help yourself!",
+        "Grab him!"
+      ],
+      "answer": "Help yourself!",
+      "explanation": "Food.",
+      "id": "q5"
+    }
+  ]
+}

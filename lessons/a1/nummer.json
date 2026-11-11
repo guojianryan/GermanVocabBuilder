@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Nummer",
+    "partOfSpeech": "noun, feminine (die Nummer)",
+    "pronunciation": {
+      "respelling": "NOOM-er",
+      "ipa": "ˈnʊmɐ",
+      "notes": "Plural: die Nummern."
+    },
+    "meaning": "number (phone, house, ticket)",
+    "shortDefinition": "Number (phone, house, ticket)."
+  },
+  "wordFamily": [
+    {
+      "german": "die Zahl",
+      "english": "number (amount)",
+      "type": "noun"
+    },
+    {
+      "german": "die Telefonnummer",
+      "english": "phone number",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Nummer, plural die Nummern.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Nummer"
+        },
+        {
+          "label": "More than one",
+          "value": "die Nummern"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wie ist deine Nummer?",
+      "english": "What's your number?",
+      "highlight": [
+        "Nummer?"
+      ]
+    },
+    {
+      "german": "Ich wohne in Hausnummer 12.",
+      "english": "I live at number 12.",
+      "highlight": [
+        "Hausnummer"
+      ]
+    },
+    {
+      "german": "Ziehen Sie bitte eine Nummer.",
+      "english": "Please take a number.",
+      "highlight": [
+        "Nummer."
+      ]
+    }
+  ],
+  "forms": [
+    "Nummern",
+    "die Nummern",
+    "die Nummer"
+  ],
+  "memoryHook": "Die Nummer = a number used as a label (phone, house, ticket). Zahl = number as amount.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Nummer",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Nummer is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Nummer, zwei ___",
+      "answer": "Nummern",
+      "fullAnswer": "ein Nummer, zwei Nummern",
+      "explanation": "The plural is Nummern.",
+      "acceptedAnswers": [
+        "Nummern"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Nummer mean?",
+      "options": [
+        "to buy",
+        "number (phone",
+        "the bread"
+      ],
+      "answer": "number (phone",
+      "explanation": "Nummer: number (phone, house, ticket).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "For phone numbers, you use…",
+      "options": [
+        "die Nummer",
+        "die Zahl"
+      ],
+      "answer": "die Nummer",
+      "explanation": "Zahl is the abstract number (3, 7…).",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Die Telefonnummer is…",
+      "options": [
+        "the phone number",
+        "the phone"
+      ],
+      "answer": "the phone number",
+      "explanation": "Telefon + Nummer.",
+      "id": "q5"
+    }
+  ]
+}

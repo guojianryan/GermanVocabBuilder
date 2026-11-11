@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Dollar",
+    "partOfSpeech": "noun, masculine (der Dollar)",
+    "pronunciation": {
+      "respelling": "DOL-ar",
+      "ipa": "ˈdɔlaʁ",
+      "notes": "The plural looks the same. Plural: die Dollar."
+    },
+    "meaning": "dollar",
+    "shortDefinition": "Dollar."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Dollar, plural die Dollar.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Dollar"
+        },
+        {
+          "label": "More than one",
+          "value": "die Dollar"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das kostet zehn Dollar.",
+      "english": "That costs ten dollars.",
+      "highlight": [
+        "Dollar."
+      ]
+    },
+    {
+      "german": "Der Dollar ist gestiegen.",
+      "english": "The dollar has risen.",
+      "highlight": [
+        "Dollar"
+      ]
+    },
+    {
+      "german": "Ich tausche Euro in Dollar.",
+      "english": "I'm changing euros into dollars.",
+      "highlight": [
+        "Dollar."
+      ]
+    }
+  ],
+  "forms": [
+    "Dollars"
+  ],
+  "memoryHook": "Der Dollar; zehn Dollar (no -s).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Dollar",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Dollar is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Dollar, zwei ___",
+      "answer": "Dollar",
+      "fullAnswer": "ein Dollar, zwei Dollar",
+      "explanation": "The plural is Dollar.",
+      "acceptedAnswers": [
+        "Dollar"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Dollar mean?",
+      "options": [
+        "dollar",
+        "quiet",
+        "the street"
+      ],
+      "answer": "dollar",
+      "explanation": "Dollar: dollar.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Zehn Dollar' — plural form:",
+      "options": [
+        "Dollar (no -s after numbers)",
+        "Dollars"
+      ],
+      "answer": "Dollar (no -s after numbers)",
+      "explanation": "Like zehn Euro.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gender:",
+      "options": [
+        "der",
+        "die"
+      ],
+      "answer": "der",
+      "explanation": "Der Dollar.",
+      "id": "q5"
+    }
+  ]
+}

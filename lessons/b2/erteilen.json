@@ -1,0 +1,182 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "erteilen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "er-TYE-len",
+      "ipa": "ɛɐ̯ˈtaɪ̯lən",
+      "notes": ""
+    },
+    "meaning": "to give, grant (formal)",
+    "shortDefinition": "To give, grant (formal)."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "er",
+        "meaning": "prefix"
+      },
+      {
+        "part": "teilen",
+        "meaning": "to share out"
+      }
+    ],
+    "literalMeaning": "to share out"
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "erteil|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "erteil|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "erteil|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "erteil|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "erteil|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "erteil|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat erteilt"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Sie erteilt Deutschunterricht.",
+      "english": "She gives German lessons.",
+      "highlight": [
+        "erteilt"
+      ]
+    },
+    {
+      "german": "Die Genehmigung wurde erteilt.",
+      "english": "Permission was granted.",
+      "highlight": [
+        "erteilt."
+      ]
+    },
+    {
+      "german": "Er hat mir eine Lektion erteilt.",
+      "english": "He taught me a lesson.",
+      "highlight": [
+        "erteilt."
+      ]
+    }
+  ],
+  "forms": [
+    "erteile",
+    "erteilst",
+    "erteilt",
+    "erteilen"
+  ],
+  "memoryHook": "Erteilen (formal) = give, grant (Auskunft, Erlaubnis).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (erteilen)",
+      "answer": "erteilt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: erteilt.",
+      "acceptedAnswers": [
+        "erteilt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (erteilen, past)",
+      "answer": "erteilt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe erteilt.",
+      "acceptedAnswers": [
+        "erteilt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does erteilen mean?",
+      "options": [
+        "hot",
+        "quiet",
+        "to give"
+      ],
+      "answer": "to give",
+      "explanation": "erteilen: to give, grant (formal).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Typical objects:",
+      "options": [
+        "Auskunft, Erlaubnis, Unterricht, Auftrag",
+        "Geschenk"
+      ],
+      "answer": "Auskunft, Erlaubnis, Unterricht, Auftrag",
+      "explanation": "Formal.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Register:",
+      "options": [
+        "formal",
+        "slang"
+      ],
+      "answer": "formal",
+      "explanation": "Written.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "hat erteilt",
+        "hat geerteilt"
+      ],
+      "answer": "hat erteilt",
+      "explanation": "No ge-.",
+      "id": "q6"
+    }
+  ]
+}

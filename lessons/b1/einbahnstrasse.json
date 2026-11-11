@@ -1,0 +1,143 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Einbahnstraße",
+    "partOfSpeech": "noun, feminine (die Einbahnstraße)",
+    "pronunciation": {
+      "respelling": "INE-baan-shtraa-se",
+      "ipa": "ˈaɪ̯nbaːnˌʃtʁaːsə",
+      "notes": "Plural: die Einbahnstraßen."
+    },
+    "meaning": "one-way street",
+    "shortDefinition": "One-way street."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Ein",
+        "meaning": "one"
+      },
+      {
+        "part": "bahn",
+        "meaning": "lane, track"
+      },
+      {
+        "part": "straße",
+        "meaning": "street"
+      }
+    ],
+    "literalMeaning": "one-lane street",
+    "summary": "Traffic goes one way only."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Einbahnstraße, plural die Einbahnstraßen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Einbahnstraße"
+        },
+        {
+          "label": "More than one",
+          "value": "die Einbahnstraßen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das ist eine Einbahnstraße!",
+      "english": "This is a one-way street!",
+      "highlight": [
+        "Einbahnstraße!"
+      ]
+    },
+    {
+      "german": "Du darfst hier nicht fahren, Einbahnstraße.",
+      "english": "You can't drive here, it's one-way.",
+      "highlight": [
+        "Einbahnstraße."
+      ]
+    },
+    {
+      "german": "Die Einbahnstraße geht nach links.",
+      "english": "The one-way street goes left.",
+      "highlight": [
+        "Einbahnstraße"
+      ]
+    }
+  ],
+  "forms": [
+    "Einbahnstraßen",
+    "die Einbahnstraßen",
+    "die Einbahnstraße"
+  ],
+  "memoryHook": "Ein + Bahn + Straße = one-way street.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Einbahnstraße",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Einbahnstraße is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Einbahnstraße, zwei ___",
+      "answer": "Einbahnstraßen",
+      "fullAnswer": "ein Einbahnstraße, zwei Einbahnstraßen",
+      "explanation": "The plural is Einbahnstraßen.",
+      "acceptedAnswers": [
+        "Einbahnstraßen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Einbahnstraße mean?",
+      "options": [
+        "slowly",
+        "the shop",
+        "one-way street"
+      ],
+      "answer": "one-way street",
+      "explanation": "Einbahnstraße: one-way street.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "ein + Bahn (lane) + Straße",
+        "ein + Bahnhof"
+      ],
+      "answer": "ein + Bahn (lane) + Straße",
+      "explanation": "One lane.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gender:",
+      "options": [
+        "die (die Straße)",
+        "der"
+      ],
+      "answer": "die (die Straße)",
+      "explanation": "Last word.",
+      "id": "q5"
+    }
+  ]
+}

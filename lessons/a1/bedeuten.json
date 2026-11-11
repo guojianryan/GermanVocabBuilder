@@ -1,0 +1,181 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "bedeuten",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "buh-DOY-ten",
+      "ipa": "bəˈdɔɪ̯tn̩",
+      "notes": ""
+    },
+    "meaning": "to mean",
+    "shortDefinition": "To mean."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "be",
+        "meaning": "prefix that makes a verb take an object"
+      },
+      {
+        "part": "deuten",
+        "meaning": "to point, to interpret"
+      }
+    ],
+    "literalMeaning": "to point to, to interpret"
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "bedeut|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "bedeut|est"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "bedeut|et"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "bedeut|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "bedeut|et"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "bedeut|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat bedeutet",
+        "No ge- in the past, because of the be- prefix: hat bedeutet."
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "die Bedeutung",
+      "english": "meaning",
+      "type": "noun"
+    },
+    {
+      "german": "meinen",
+      "english": "to mean (a person's intention)",
+      "type": "verb"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Was bedeutet das Wort?",
+      "english": "What does the word mean?",
+      "highlight": [
+        "bedeutet"
+      ]
+    },
+    {
+      "german": "Das Schild bedeutet: Parken verboten.",
+      "english": "The sign means: no parking.",
+      "highlight": [
+        "bedeutet:"
+      ]
+    },
+    {
+      "german": "Du bedeutest mir viel.",
+      "english": "You mean a lot to me.",
+      "highlight": [
+        "bedeutest"
+      ]
+    }
+  ],
+  "forms": [
+    "bedeute",
+    "bedeutest",
+    "bedeutet",
+    "bedeuten"
+  ],
+  "memoryHook": "Words bedeuten, people meinen: Was bedeutet das Wort? Was meinst du?",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (bedeuten)",
+      "answer": "bedeutet",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: bedeutet.",
+      "acceptedAnswers": [
+        "bedeutet"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (bedeuten, past)",
+      "answer": "bedeutet",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe bedeutet.",
+      "acceptedAnswers": [
+        "bedeutet"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does bedeuten mean?",
+      "options": [
+        "the job",
+        "to mean",
+        "the shop"
+      ],
+      "answer": "to mean",
+      "explanation": "bedeuten: to mean.",
+      "id": "q3"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Was ___ 'Gleis'? (bedeuten)",
+      "answer": "bedeutet",
+      "fullAnswer": "Was bedeutet 'Gleis'?",
+      "explanation": "Es bedeutet.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "To ask what a word means, say…",
+      "options": [
+        "Was bedeutet das?",
+        "Was meint das?"
+      ],
+      "answer": "Was bedeutet das?",
+      "explanation": "Words bedeuten; people meinen.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "bezahlen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "buh-TSAH-len",
+      "ipa": "bəˈtsaːlən",
+      "notes": ""
+    },
+    "meaning": "to pay (for)",
+    "shortDefinition": "To pay (for)."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "be",
+        "meaning": "prefix"
+      },
+      {
+        "part": "zahlen",
+        "meaning": "to pay"
+      }
+    ],
+    "literalMeaning": "to pay for"
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "bezahl|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "bezahl|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "bezahl|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "bezahl|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "bezahl|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "bezahl|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat bezahlt"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "zahlen",
+      "english": "to pay",
+      "type": "verb"
+    },
+    {
+      "german": "die Rechnung",
+      "english": "bill",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Kann ich mit Karte bezahlen?",
+      "english": "Can I pay by card?",
+      "highlight": [
+        "bezahlen?"
+      ]
+    },
+    {
+      "german": "Ich bezahle den Kaffee.",
+      "english": "I'll pay for the coffee.",
+      "highlight": [
+        "bezahle"
+      ]
+    },
+    {
+      "german": "Hast du die Rechnung schon bezahlt?",
+      "english": "Have you paid the bill yet?",
+      "highlight": [
+        "bezahlt?"
+      ]
+    }
+  ],
+  "forms": [
+    "bezahle",
+    "bezahlst",
+    "bezahlt",
+    "bezahlen"
+  ],
+  "memoryHook": "Bezahlen = pay for, with no 'für': ich bezahle das Essen. Zahlen means the same.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (bezahlen)",
+      "answer": "bezahlt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: bezahlt.",
+      "acceptedAnswers": [
+        "bezahlt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (bezahlen, past)",
+      "answer": "bezahlt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe bezahlt.",
+      "acceptedAnswers": [
+        "bezahlt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does bezahlen mean?",
+      "options": [
+        "to sleep",
+        "to pay (for)",
+        "the job"
+      ],
+      "answer": "to pay (for)",
+      "explanation": "bezahlen: to pay (for).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich bezahle ___ Essen. (for the meal)",
+      "options": [
+        "das",
+        "für das"
+      ],
+      "answer": "das",
+      "explanation": "Bezahlen + the thing directly: no für.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "In a restaurant you say: '___, bitte!'",
+      "options": [
+        "Bezahlen",
+        "Bestellen"
+      ],
+      "answer": "Bezahlen",
+      "explanation": "Or: Die Rechnung, bitte!",
+      "id": "q5"
+    }
+  ]
+}

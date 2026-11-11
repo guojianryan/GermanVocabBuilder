@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Party",
+    "partOfSpeech": "noun, feminine (die Party)",
+    "pronunciation": {
+      "respelling": "PAR-tee",
+      "ipa": "ˈpaːɐ̯ti",
+      "notes": "Plural: die Partys."
+    },
+    "meaning": "party",
+    "shortDefinition": "Party."
+  },
+  "wordFamily": [
+    {
+      "german": "feiern",
+      "english": "to celebrate",
+      "type": "verb"
+    },
+    {
+      "german": "die Feier",
+      "english": "celebration",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Party, plural die Partys.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Party"
+        },
+        {
+          "label": "More than one",
+          "value": "die Partys"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Kommst du zu meiner Party?",
+      "english": "Are you coming to my party?",
+      "highlight": [
+        "Party?"
+      ]
+    },
+    {
+      "german": "Die Party war super!",
+      "english": "The party was great!",
+      "highlight": [
+        "Party"
+      ]
+    },
+    {
+      "german": "Wir machen am Samstag eine Party.",
+      "english": "We're having a party on Saturday.",
+      "highlight": [
+        "Party."
+      ]
+    }
+  ],
+  "forms": [
+    "Partys",
+    "die Partys",
+    "die Party"
+  ],
+  "memoryHook": "Die Party, plural Partys. Eine Party machen = throw a party.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Party",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Party is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Party, zwei ___",
+      "answer": "Partys",
+      "fullAnswer": "ein Party, zwei Partys",
+      "explanation": "The plural is Partys.",
+      "acceptedAnswers": [
+        "Partys"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Party mean?",
+      "options": [
+        "the family",
+        "to sleep",
+        "party"
+      ],
+      "answer": "party",
+      "explanation": "Party: party.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Partys",
+        "Parties"
+      ],
+      "answer": "Partys",
+      "explanation": "German plural -s.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "You ___ eine Party.",
+      "options": [
+        "machst / feierst",
+        "tust"
+      ],
+      "answer": "machst / feierst",
+      "explanation": "Eine Party machen / feiern.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Zirkus",
+    "partOfSpeech": "noun, masculine (der Zirkus)",
+    "pronunciation": {
+      "respelling": "TSIR-koos",
+      "ipa": "ˈtsɪʁkʊs",
+      "notes": "Plural: die Zirkusse."
+    },
+    "meaning": "circus",
+    "shortDefinition": "Circus."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Zirkus, plural die Zirkusse.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Zirkus"
+        },
+        {
+          "label": "More than one",
+          "value": "die Zirkusse"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir gehen in den Zirkus.",
+      "english": "We're going to the circus.",
+      "highlight": [
+        "Zirkus."
+      ]
+    },
+    {
+      "german": "Der Zirkus kommt in die Stadt.",
+      "english": "The circus is coming to town.",
+      "highlight": [
+        "Zirkus"
+      ]
+    },
+    {
+      "german": "Mach nicht so einen Zirkus!",
+      "english": "Don't make such a fuss!",
+      "highlight": [
+        "Zirkus!"
+      ]
+    }
+  ],
+  "forms": [
+    "Zirkusse",
+    "die Zirkusse",
+    "der Zirkus"
+  ],
+  "memoryHook": "Der Zirkus. Mach keinen Zirkus! = don't fuss.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Zirkus",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Zirkus is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Zirkus, zwei ___",
+      "answer": "Zirkusse",
+      "fullAnswer": "ein Zirkus, zwei Zirkusse",
+      "explanation": "The plural is Zirkusse.",
+      "acceptedAnswers": [
+        "Zirkusse"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Zirkus mean?",
+      "options": [
+        "to buy",
+        "to wait",
+        "circus"
+      ],
+      "answer": "circus",
+      "explanation": "Zirkus: circus.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Zirkus machen' (informal) means…",
+      "options": [
+        "to make a fuss",
+        "to perform"
+      ],
+      "answer": "to make a fuss",
+      "explanation": "Fuss.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Z sounds like…",
+      "options": [
+        "ts",
+        "z"
+      ],
+      "answer": "ts",
+      "explanation": "TSIR-koos.",
+      "id": "q5"
+    }
+  ]
+}

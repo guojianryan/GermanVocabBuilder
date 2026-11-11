@@ -1,0 +1,133 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Front",
+    "partOfSpeech": "noun, feminine (die Front)",
+    "pronunciation": {
+      "respelling": "FRONT",
+      "ipa": "fʁɔnt",
+      "notes": "Plural: die Fronten."
+    },
+    "meaning": "front",
+    "shortDefinition": "Front."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Front, plural die Fronten.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Front"
+        },
+        {
+          "label": "More than one",
+          "value": "die Fronten"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Soldaten kämpfen an der Front.",
+      "english": "The soldiers are fighting at the front.",
+      "highlight": [
+        "Front."
+      ]
+    },
+    {
+      "german": "Eine Kaltfront zieht auf.",
+      "english": "A cold front is approaching.",
+      "highlight": [
+        "Kaltfront"
+      ]
+    },
+    {
+      "german": "Die Fronten sind verhärtet.",
+      "english": "Positions have hardened.",
+      "highlight": [
+        "Fronten"
+      ]
+    }
+  ],
+  "forms": [
+    "Kaltfront"
+  ],
+  "memoryHook": "Die Front (war; weather); Front machen gegen.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Front",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Front is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Front, zwei ___",
+      "answer": "Fronten",
+      "fullAnswer": "ein Front, zwei Fronten",
+      "explanation": "The plural is Fronten.",
+      "acceptedAnswers": [
+        "Fronten"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Front mean?",
+      "options": [
+        "the bill",
+        "front",
+        "tomorrow"
+      ],
+      "answer": "front",
+      "explanation": "Front: front.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Die Fronten sind verhärtet' means…",
+      "options": [
+        "positions have hardened",
+        "the fronts are hard"
+      ],
+      "answer": "positions have hardened",
+      "explanation": "Idiom.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Front machen gegen' means…",
+      "options": [
+        "to oppose, resist",
+        "to face forward"
+      ],
+      "answer": "to oppose, resist",
+      "explanation": "Oppose.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gender:",
+      "options": [
+        "die",
+        "der"
+      ],
+      "answer": "die",
+      "explanation": "Die Front.",
+      "id": "q6"
+    }
+  ]
+}

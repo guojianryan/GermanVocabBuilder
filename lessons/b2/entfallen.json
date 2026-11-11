@@ -1,0 +1,181 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "entfallen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "ent-FA-len",
+      "ipa": "ɛntˈfalən",
+      "notes": ""
+    },
+    "meaning": "to slip (one's mind); to be cancelled, not apply; to be allotted",
+    "shortDefinition": "To slip (one's mind); to be cancelled, not apply; to be allotted."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "ent",
+        "meaning": "away"
+      },
+      {
+        "part": "fallen",
+        "meaning": "to fall",
+        "emphasis": "release"
+      }
+    ],
+    "literalMeaning": "to fall away",
+    "summary": "It drops out and is gone."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "entfall|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "entfäll|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "entfäll|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "entfall|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "entfall|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "entfall|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): ist entfallen"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Sein Name ist mir entfallen.",
+      "english": "His name has slipped my mind.",
+      "highlight": [
+        "entfallen."
+      ]
+    },
+    {
+      "german": "Die Gebühr entfällt.",
+      "english": "There's no fee.",
+      "highlight": [
+        "entfällt."
+      ]
+    },
+    {
+      "german": "Auf jeden entfallen 50 Euro.",
+      "english": "Each person's share is 50 euros.",
+      "highlight": [
+        "entfallen"
+      ]
+    }
+  ],
+  "forms": [
+    "entfällt"
+  ],
+  "memoryHook": "Entfallen: slip one's mind; be dropped; be allotted (auf).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (entfallen)",
+      "answer": "entfällt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: entfällt.",
+      "acceptedAnswers": [
+        "entfaellt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich bin schon ___. (entfallen, past)",
+      "answer": "entfallen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: bin entfallen.",
+      "acceptedAnswers": [
+        "entfallen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does entfallen mean?",
+      "options": [
+        "the window",
+        "to slip (one's mind)",
+        "to learn"
+      ],
+      "answer": "to slip (one's mind)",
+      "explanation": "entfallen: to slip (one's mind); to be cancelled, not apply; to be allotted.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Es ist mir entfallen' means…",
+      "options": [
+        "it's slipped my mind",
+        "I fell"
+      ],
+      "answer": "it's slipped my mind",
+      "explanation": "Forget.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Entfällt' on a form means…",
+      "options": [
+        "not applicable",
+        "fallen"
+      ],
+      "answer": "not applicable",
+      "explanation": "N/A.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "ist entfallen",
+        "hat entfallen"
+      ],
+      "answer": "ist entfallen",
+      "explanation": "Sein.",
+      "id": "q6"
+    }
+  ]
+}

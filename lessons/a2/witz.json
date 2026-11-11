@@ -1,0 +1,131 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Witz",
+    "partOfSpeech": "noun, masculine (der Witz)",
+    "pronunciation": {
+      "respelling": "VITS",
+      "ipa": "vɪts",
+      "notes": "Plural: die Witze."
+    },
+    "meaning": "joke",
+    "shortDefinition": "Joke."
+  },
+  "wordFamily": [
+    {
+      "german": "witzig",
+      "english": "funny",
+      "type": "adjective"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Witz, plural die Witze.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Witz"
+        },
+        {
+          "label": "More than one",
+          "value": "die Witze"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er erzählt gern Witze.",
+      "english": "He likes telling jokes.",
+      "highlight": [
+        "Witze."
+      ]
+    },
+    {
+      "german": "Das ist doch ein Witz!",
+      "english": "You've got to be joking!",
+      "highlight": [
+        "Witz!"
+      ]
+    },
+    {
+      "german": "Kennst du den Witz?",
+      "english": "Do you know this joke?",
+      "highlight": [
+        "Witz?"
+      ]
+    }
+  ],
+  "forms": [
+    "Witze",
+    "die Witze",
+    "der Witz"
+  ],
+  "memoryHook": "Der Witz = joke (related to English 'wit').",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Witz",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Witz is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Witz, zwei ___",
+      "answer": "Witze",
+      "fullAnswer": "ein Witz, zwei Witze",
+      "explanation": "The plural is Witze.",
+      "acceptedAnswers": [
+        "Witze"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Witz mean?",
+      "options": [
+        "to sing",
+        "joke",
+        "the window"
+      ],
+      "answer": "joke",
+      "explanation": "Witz: joke.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Tell a joke':",
+      "options": [
+        "einen Witz erzählen",
+        "einen Witz machen only"
+      ],
+      "answer": "einen Witz erzählen",
+      "explanation": "Erzählen.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Das ist ein Witz!' can mean…",
+      "options": [
+        "That's ridiculous!",
+        "That's clever!"
+      ],
+      "answer": "That's ridiculous!",
+      "explanation": "Outrage.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Vorhang",
+    "partOfSpeech": "noun, masculine (der Vorhang)",
+    "pronunciation": {
+      "respelling": "FOR-hang",
+      "ipa": "ˈfoːɐ̯haŋ",
+      "notes": "Plural: die Vorhänge."
+    },
+    "meaning": "curtain",
+    "shortDefinition": "Curtain."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Vor",
+        "meaning": "in front"
+      },
+      {
+        "part": "hang",
+        "meaning": "hanging (hängen)"
+      }
+    ],
+    "literalMeaning": "hanging in front"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Vorhang, plural die Vorhänge.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Vorhang"
+        },
+        {
+          "label": "More than one",
+          "value": "die Vorhänge"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Mach bitte den Vorhang zu.",
+      "english": "Please close the curtain.",
+      "highlight": [
+        "Vorhang"
+      ]
+    },
+    {
+      "german": "Der Vorhang fällt.",
+      "english": "The curtain falls.",
+      "highlight": [
+        "Vorhang"
+      ]
+    },
+    {
+      "german": "Der Eiserne Vorhang.",
+      "english": "The Iron Curtain.",
+      "highlight": [
+        "Vorhang."
+      ]
+    }
+  ],
+  "forms": [
+    "Gardine"
+  ],
+  "memoryHook": "Vor + hängen = curtain; der Eiserne Vorhang.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Vorhang",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Vorhang is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Vorhang, zwei ___",
+      "answer": "Vorhänge",
+      "fullAnswer": "ein Vorhang, zwei Vorhänge",
+      "explanation": "The plural is Vorhänge.",
+      "acceptedAnswers": [
+        "Vorhaenge"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Vorhang mean?",
+      "options": [
+        "curtain",
+        "to wait",
+        "to travel"
+      ],
+      "answer": "curtain",
+      "explanation": "Vorhang: curtain.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "vor + hängen",
+        "Vor + Hang (slope)"
+      ],
+      "answer": "vor + hängen",
+      "explanation": "Hanging in front.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Lighter curtain:",
+      "options": [
+        "die Gardine",
+        "der Rollladen"
+      ],
+      "answer": "die Gardine",
+      "explanation": "Net curtain.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Vorhänge",
+        "Vorhange"
+      ],
+      "answer": "Vorhänge",
+      "explanation": "Umlaut.",
+      "id": "q6"
+    }
+  ]
+}

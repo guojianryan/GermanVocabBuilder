@@ -1,0 +1,133 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Riff",
+    "partOfSpeech": "noun, neuter (das Riff)",
+    "pronunciation": {
+      "respelling": "RIF",
+      "ipa": "ʁɪf",
+      "notes": "Plural: die Riffe."
+    },
+    "meaning": "reef; riff (music)",
+    "shortDefinition": "Reef; riff (music)."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Riff, plural die Riffe.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Riff"
+        },
+        {
+          "label": "More than one",
+          "value": "die Riffe"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das Riff ist voller Fische.",
+      "english": "The reef is full of fish.",
+      "highlight": [
+        "Riff"
+      ]
+    },
+    {
+      "german": "Das Great Barrier Riff.",
+      "english": "The Great Barrier Reef.",
+      "highlight": [
+        "Riff."
+      ]
+    },
+    {
+      "german": "Ein bekanntes Gitarrenriff.",
+      "english": "A famous guitar riff.",
+      "highlight": [
+        "Gitarrenriff."
+      ]
+    }
+  ],
+  "forms": [
+    "Korallenriff"
+  ],
+  "memoryHook": "Das Riff (reef; riff); Korallenriff.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Riff",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Riff is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Riff, zwei ___",
+      "answer": "Riffe",
+      "fullAnswer": "ein Riff, zwei Riffe",
+      "explanation": "The plural is Riffe.",
+      "acceptedAnswers": [
+        "Riffe"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Riff mean?",
+      "options": [
+        "tomorrow",
+        "cheap",
+        "reef"
+      ],
+      "answer": "reef",
+      "explanation": "Riff: reef; riff (music).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Coral reef:",
+      "options": [
+        "das Korallenriff",
+        "die Korallenwand"
+      ],
+      "answer": "das Korallenriff",
+      "explanation": "Compound.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gender:",
+      "options": [
+        "das",
+        "der"
+      ],
+      "answer": "das",
+      "explanation": "Das Riff.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Riffe",
+        "Riffs only"
+      ],
+      "answer": "Riffe",
+      "explanation": "-e.",
+      "id": "q6"
+    }
+  ]
+}

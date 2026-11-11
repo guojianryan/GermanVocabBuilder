@@ -1,0 +1,134 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Konsument",
+    "partOfSpeech": "noun, masculine (der Konsument)",
+    "pronunciation": {
+      "respelling": "kon-zoo-MENT",
+      "ipa": "kɔnzuˈmɛnt",
+      "notes": "Plural: die Konsumenten."
+    },
+    "meaning": "consumer",
+    "shortDefinition": "Consumer."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Konsument, plural die Konsumenten.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Konsument"
+        },
+        {
+          "label": "More than one",
+          "value": "die Konsumenten"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Konsumenten wollen günstige Preise.",
+      "english": "Consumers want low prices.",
+      "highlight": [
+        "Konsumenten"
+      ]
+    },
+    {
+      "german": "Der Konsument entscheidet.",
+      "english": "The consumer decides.",
+      "highlight": [
+        "Konsument"
+      ]
+    },
+    {
+      "german": "Sie ist eine bewusste Konsumentin.",
+      "english": "She's a conscious consumer.",
+      "highlight": [
+        "Konsumentin."
+      ]
+    }
+  ],
+  "forms": [
+    "Konsum",
+    "Verbraucher"
+  ],
+  "memoryHook": "Der Konsument (weak) = Verbraucher; der Konsum.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Konsument",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Konsument is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Konsument, zwei ___",
+      "answer": "Konsumenten",
+      "fullAnswer": "ein Konsument, zwei Konsumenten",
+      "explanation": "The plural is Konsumenten.",
+      "acceptedAnswers": [
+        "Konsumenten"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Konsument mean?",
+      "options": [
+        "always",
+        "consumer",
+        "to sleep"
+      ],
+      "answer": "consumer",
+      "explanation": "Konsument: consumer.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Weak noun: den/dem…",
+      "options": [
+        "Konsumenten",
+        "Konsument"
+      ],
+      "answer": "Konsumenten",
+      "explanation": "-ent = weak.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonym:",
+      "options": [
+        "der Verbraucher",
+        "der Hersteller"
+      ],
+      "answer": "der Verbraucher",
+      "explanation": "Consumer.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Consumption:",
+      "options": [
+        "der Konsum",
+        "die Konsumierung only"
+      ],
+      "answer": "der Konsum",
+      "explanation": "Consumption.",
+      "id": "q6"
+    }
+  ]
+}

@@ -1,0 +1,234 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "full",
+  "word": {
+    "headword": "all-",
+    "partOfSpeech": "determiner and pronoun (alle, alles)",
+    "pronunciation": {
+      "respelling": "AHL-uh, AHL-es",
+      "ipa": "ˈalə, ˈaləs",
+      "notes": "Short a, double l."
+    },
+    "meaning": "all; alle = everyone, alles = everything",
+    "shortDefinition": "The whole of something, or every one of a group."
+  },
+  "intro": {
+    "title": "Alles klar?",
+    "paragraphs": [
+      "You'll hear alles klar a dozen times a day: everything clear, all good. The word is all-, and its ending tells you what it refers to: alle for people or plural things, alles for 'everything'."
+    ]
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "summary": "All- is the same word as English 'all'. It also hides in allein: all + ein, 'all one'.",
+    "cognates": [
+      {
+        "word": "all",
+        "language": "English"
+      },
+      {
+        "word": "al, alle",
+        "language": "Dutch"
+      }
+    ]
+  },
+  "tables": [
+    {
+      "title": "Which ending?",
+      "columns": [
+        "form",
+        "meaning",
+        "example"
+      ],
+      "rows": [
+        {
+          "label": "alle",
+          "cells": [
+            "all|e",
+            "all, everyone (plural)",
+            "Alle sind da."
+          ]
+        },
+        {
+          "label": "alles",
+          "cells": [
+            "all|es",
+            "everything",
+            "Alles ist gut."
+          ]
+        },
+        {
+          "label": "allen",
+          "cells": [
+            "all|en",
+            "to/with all (dative)",
+            "mit allen Freunden"
+          ]
+        }
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "Alles klar!",
+      "english": "All right! Got it!",
+      "type": "phrase"
+    },
+    {
+      "german": "Alles Gute!",
+      "english": "All the best!",
+      "type": "phrase"
+    },
+    {
+      "german": "allein",
+      "english": "alone",
+      "literal": "all one",
+      "type": "adjective"
+    },
+    {
+      "german": "jeder",
+      "english": "each, every (singular)",
+      "type": "determiner"
+    }
+  ],
+  "keyTrap": {
+    "title": "The big trap: alle or alles?",
+    "explanation": "Alle points at a group of people or things. Alles means 'everything' and takes a singular verb.",
+    "wrong": {
+      "german": "Alle ist gut.",
+      "verdict": "'Everything is good' needs alles."
+    },
+    "correct": [
+      {
+        "german": "Alles ist gut.",
+        "literal": "Everything is good.",
+        "note": "Everything: alles, singular verb."
+      },
+      {
+        "german": "Alle sind gut.",
+        "literal": "All are good.",
+        "note": "Everyone or all of them: alle, plural verb."
+      }
+    ]
+  },
+  "commonMistakes": [
+    {
+      "title": "Every day",
+      "explanation": "For 'every' with a singular noun, use jeder. Alle needs a plural.",
+      "wrong": "alle Tag",
+      "correct": "jeden Tag / alle Tage"
+    },
+    {
+      "title": "Useful phrases",
+      "explanation": "These come up constantly.",
+      "examples": [
+        {
+          "german": "Alles Gute zum Geburtstag!",
+          "english": "Happy birthday!",
+          "highlight": "Alles"
+        },
+        {
+          "german": "Das ist alles.",
+          "english": "That's all.",
+          "highlight": "alles."
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Sind alle da?",
+      "english": "Is everyone here?",
+      "highlight": [
+        "alle"
+      ]
+    },
+    {
+      "german": "Ich habe alles verstanden.",
+      "english": "I understood everything.",
+      "highlight": [
+        "alles"
+      ]
+    },
+    {
+      "german": "Alle Kinder spielen im Garten.",
+      "english": "All the children are playing in the garden.",
+      "highlight": [
+        "Alle"
+      ]
+    },
+    {
+      "german": "Alles klar, bis morgen!",
+      "english": "All right, see you tomorrow!",
+      "highlight": [
+        "Alles"
+      ]
+    }
+  ],
+  "forms": [
+    "alle",
+    "alles",
+    "allen",
+    "aller"
+  ],
+  "memoryHook": "Alle = all of them, plural. Alles = everything, singular. Alles klar?",
+  "signOff": "Alles Gute!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ ist teuer hier. (Everything)",
+      "options": [
+        "Alle",
+        "Alles"
+      ],
+      "answer": "Alles",
+      "explanation": "Everything: alles.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "___ Freunde kommen zur Party.",
+      "options": [
+        "Alle",
+        "Alles"
+      ],
+      "answer": "Alle",
+      "explanation": "A plural group: alle.",
+      "id": "q2"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "___ Gute zum Geburtstag!",
+      "answer": "Alles",
+      "fullAnswer": "Alles Gute zum Geburtstag!",
+      "explanation": "Alles Gute: all the best.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich gehe ___ Tag joggen. (every)",
+      "options": [
+        "alle",
+        "jeden"
+      ],
+      "answer": "jeden",
+      "explanation": "Every + singular noun: jeden.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Someone asks 'Alles klar?'. It means…",
+      "options": [
+        "Is everything clear / OK?",
+        "Is everyone here?"
+      ],
+      "answer": "Is everything clear / OK?",
+      "explanation": "Alles = everything.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Stau",
+    "partOfSpeech": "noun, masculine (der Stau)",
+    "pronunciation": {
+      "respelling": "SHTOW",
+      "ipa": "ʃtaʊ̯",
+      "notes": "Plural: die Staus."
+    },
+    "meaning": "traffic jam",
+    "shortDefinition": "Traffic jam."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Stau, plural die Staus.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Stau"
+        },
+        {
+          "label": "More than one",
+          "value": "die Staus"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir stehen im Stau.",
+      "english": "We're stuck in a traffic jam.",
+      "highlight": [
+        "Stau."
+      ]
+    },
+    {
+      "german": "Auf der A8 gibt es zehn Kilometer Stau.",
+      "english": "There's a ten-kilometre tailback on the A8.",
+      "highlight": [
+        "Stau."
+      ]
+    },
+    {
+      "german": "Wegen eines Unfalls gibt es Staus.",
+      "english": "There are traffic jams because of an accident.",
+      "highlight": [
+        "Staus."
+      ]
+    }
+  ],
+  "forms": [
+    "Staus",
+    "die Staus",
+    "der Stau"
+  ],
+  "memoryHook": "Der Stau. Im Stau stehen.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Stau",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Stau is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Stau, zwei ___",
+      "answer": "Staus",
+      "fullAnswer": "ein Stau, zwei Staus",
+      "explanation": "The plural is Staus.",
+      "acceptedAnswers": [
+        "Staus"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Stau mean?",
+      "options": [
+        "traffic jam",
+        "to help",
+        "the bill"
+      ],
+      "answer": "traffic jam",
+      "explanation": "Stau: traffic jam.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Im Stau stehen' means…",
+      "options": [
+        "to be stuck in traffic",
+        "to stand in the dust"
+      ],
+      "answer": "to be stuck in traffic",
+      "explanation": "Traffic.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Staus",
+        "Staue"
+      ],
+      "answer": "Staus",
+      "explanation": "-s.",
+      "id": "q5"
+    }
+  ]
+}

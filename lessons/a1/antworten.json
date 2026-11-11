@@ -1,0 +1,212 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "antworten",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "AHNT-vor-ten",
+      "ipa": "ˈantvɔʁtn̩",
+      "notes": ""
+    },
+    "meaning": "to answer, to reply",
+    "shortDefinition": "To answer, to reply."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "ant",
+        "meaning": "against, in return",
+        "note": "An old prefix that survives only in a few words."
+      },
+      {
+        "part": "wort",
+        "meaning": "word"
+      },
+      {
+        "part": "en",
+        "meaning": "verb ending"
+      }
+    ],
+    "literalMeaning": "to give a word back"
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "antwort|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "antwort|est"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "antwort|et"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "antwort|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "antwort|et"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "antwort|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat geantwortet",
+        "The stem ends in -t, so du and er add an extra e: du antwortest, er antwortet."
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "die Antwort",
+      "english": "answer",
+      "type": "noun"
+    },
+    {
+      "german": "fragen",
+      "english": "to ask",
+      "type": "verb"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Who and what",
+      "explanation": "The person is dative; the question or message takes auf + accusative.",
+      "examples": [
+        {
+          "german": "Ich antworte dir morgen.",
+          "english": "I'll answer you tomorrow.",
+          "highlight": "dir"
+        },
+        {
+          "german": "Ich antworte auf die Frage.",
+          "english": "I answer the question.",
+          "highlight": "auf"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er antwortet nicht.",
+      "english": "He isn't answering.",
+      "highlight": [
+        "antwortet"
+      ]
+    },
+    {
+      "german": "Bitte antworten Sie mir bis Freitag.",
+      "english": "Please reply to me by Friday.",
+      "highlight": [
+        "antworten",
+        "mir"
+      ]
+    },
+    {
+      "german": "Ich habe auf deine E-Mail geantwortet.",
+      "english": "I replied to your email.",
+      "highlight": [
+        "auf",
+        "geantwortet."
+      ]
+    },
+    {
+      "german": "Er gibt leider keine Antwort.",
+      "english": "Unfortunately he isn't giving an answer.",
+      "highlight": [
+        "Antwort."
+      ]
+    }
+  ],
+  "forms": [
+    "antworte",
+    "antwortest",
+    "antwortet",
+    "geantwortet",
+    "Antwort",
+    "Antworten"
+  ],
+  "memoryHook": "Antworten: the person goes in the dative (mir), the question takes auf (auf die Frage).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Kannst du ___ antworten? (me)",
+      "options": [
+        "mich",
+        "mir"
+      ],
+      "answer": "mir",
+      "explanation": "You answer someone in the dative: mir.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich antworte ___ die Frage.",
+      "options": [
+        "auf",
+        "an"
+      ],
+      "answer": "auf",
+      "explanation": "Antworten auf + accusative.",
+      "id": "q2"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Sie hat nicht ___. (antworten, past)",
+      "answer": "geantwortet",
+      "fullAnswer": "Sie hat nicht geantwortet.",
+      "explanation": "Ge-antwort-et.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "___ Antwort",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Die Antwort, plural die Antworten.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Er ___ sofort. (antworten, er)",
+      "answer": "antwortet",
+      "fullAnswer": "Er antwortet sofort.",
+      "explanation": "Stems ending in -t add -et: antwortet.",
+      "id": "q5"
+    }
+  ]
+}

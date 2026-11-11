@@ -1,0 +1,138 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Geräusch",
+    "partOfSpeech": "noun, neuter (das Geräusch)",
+    "pronunciation": {
+      "respelling": "ge-ROYSH",
+      "ipa": "ɡəˈʁɔɪ̯ʃ",
+      "notes": "Plural: die Geräusche."
+    },
+    "meaning": "sound, noise",
+    "shortDefinition": "Sound, noise."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Ge",
+        "meaning": "collective prefix"
+      },
+      {
+        "part": "räusch",
+        "meaning": "rustle (rauschen)"
+      }
+    ],
+    "literalMeaning": "a rustling"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Geräusch, plural die Geräusche.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Geräusch"
+        },
+        {
+          "label": "More than one",
+          "value": "die Geräusche"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Hast du das Geräusch gehört?",
+      "english": "Did you hear that noise?",
+      "highlight": [
+        "Geräusch"
+      ]
+    },
+    {
+      "german": "Das Auto macht ein komisches Geräusch.",
+      "english": "The car is making a strange noise.",
+      "highlight": [
+        "Geräusch."
+      ]
+    },
+    {
+      "german": "Ich höre ein leises Geräusch.",
+      "english": "I can hear a quiet sound.",
+      "highlight": [
+        "Geräusch."
+      ]
+    }
+  ],
+  "forms": [
+    "Geräusche",
+    "die Geräusche",
+    "das Geräusch"
+  ],
+  "memoryHook": "Das Geräusch (any sound) vs der Lärm (loud noise).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Geräusch",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Geräusch is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Geräusch, zwei ___",
+      "answer": "Geräusche",
+      "fullAnswer": "ein Geräusch, zwei Geräusche",
+      "explanation": "The plural is Geräusche.",
+      "acceptedAnswers": [
+        "Geraeusche"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Geräusch mean?",
+      "options": [
+        "the shop",
+        "sound",
+        "to wait"
+      ],
+      "answer": "sound",
+      "explanation": "Geräusch: sound, noise.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Geräusch vs Lärm:",
+      "options": [
+        "Geräusch = any sound; Lärm = loud noise",
+        "same"
+      ],
+      "answer": "Geräusch = any sound; Lärm = loud noise",
+      "explanation": "Different.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Related:",
+      "options": [
+        "rauschen (rustle, roar)",
+        "rauchen"
+      ],
+      "answer": "rauschen (rustle, roar)",
+      "explanation": "Sound.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+ "schemaVersion": "1.4",
+ "language": "de",
+ "explanationLanguage": "en",
+ "level": "A1",
+ "levelSource": "Goethe-Zertifikat A1 Wortliste",
+ "lessonType": "card",
+ "word": {
+  "headword": "Geschenk",
+  "partOfSpeech": "noun, neuter (das Geschenk)",
+  "pronunciation": {
+   "respelling": "guh-SHENK",
+   "ipa": "ɡəˈʃɛŋk",
+   "notes": "Plural: die Geschenke."
+  },
+  "meaning": "present, gift",
+  "shortDefinition": "Present, gift."
+ },
+ "etymology": {
+  "title": "Where it comes from",
+  "parts": [
+   {
+    "part": "Ge",
+    "meaning": "prefix"
+   },
+   {
+    "part": "schenk",
+    "meaning": "given (schenken)"
+   }
+  ],
+  "literalMeaning": "something given",
+  "summary": "Ge- + schenk- (from schenken, to give as a present)."
+ },
+ "wordFamily": [
+  {
+   "german": "schenken",
+   "english": "to give (as a present)",
+   "type": "verb"
+  }
+ ],
+ "commonMistakes": [
+  {
+   "title": "Gender and plural",
+   "explanation": "Das Geschenk, plural die Geschenke.",
+   "forms": [
+    {
+     "label": "One",
+     "value": "das Geschenk"
+    },
+    {
+     "label": "More than one",
+     "value": "die Geschenke"
+    }
+   ]
+  },
+  {
+   "title": "False friend",
+   "explanation": "Das Gift is poison. A gift is ein Geschenk.",
+   "wrong": "ein Gift für dich",
+   "correct": "ein Geschenk für dich"
+  }
+ ],
+ "sampleSentences": [
+  {
+   "german": "Das ist ein Geschenk für dich.",
+   "english": "This is a present for you.",
+   "highlight": [
+    "Geschenk"
+   ]
+  },
+  {
+   "german": "Vielen Dank für das Geschenk!",
+   "english": "Thanks very much for the present!",
+   "highlight": [
+    "Geschenk!"
+   ]
+  },
+  {
+   "german": "Zum Geburtstag bekomme ich viele Geschenke.",
+   "english": "I get lots of presents for my birthday.",
+   "highlight": [
+    "Geschenke."
+   ]
+  }
+ ],
+ "forms": [
+  "Geschenke",
+  "die Geschenke",
+  "das Geschenk"
+ ],
+ "memoryHook": "Geschenk = present. Never say Gift: in German it means poison!",
+ "signOff": "Gut gemacht!",
+ "quiz": [
+  {
+   "type": "choice",
+   "prompt": "___ Geschenk",
+   "options": [
+    "der",
+    "die",
+    "das"
+   ],
+   "answer": "das",
+   "explanation": "Geschenk is neuter.",
+   "id": "q1"
+  },
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "ein Geschenk, zwei ___",
+   "answer": "Geschenke",
+   "fullAnswer": "ein Geschenk, zwei Geschenke",
+   "explanation": "The plural is Geschenke.",
+   "acceptedAnswers": [
+    "Geschenke"
+   ],
+   "id": "q2"
+  },
+  {
+   "type": "choice",
+   "prompt": "What does Geschenk mean?",
+   "options": [
+    "present",
+    "the child",
+    "quiet"
+   ],
+   "answer": "present",
+   "explanation": "Geschenk: present, gift.",
+   "id": "q3"
+  },
+  {
+   "type": "choice",
+   "prompt": "German 'Gift' means…",
+   "options": [
+    "poison",
+    "present"
+   ],
+   "answer": "poison",
+   "explanation": "False friend! A present is ein Geschenk.",
+   "id": "q4"
+  },
+  {
+   "type": "choice",
+   "prompt": "Schenken (the verb) means…",
+   "options": [
+    "to give as a present",
+    "to pour"
+   ],
+   "answer": "to give as a present",
+   "explanation": "Ich schenke dir ein Buch.",
+   "id": "q5"
+  }
+ ]
+}

@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Innenminister",
+    "partOfSpeech": "noun, masculine (der Innenminister)",
+    "pronunciation": {
+      "respelling": "I-nen-mi-nis-ter",
+      "ipa": "ˈɪnənmiˌnɪstɐ",
+      "notes": "The plural looks the same. Plural: die Innenminister."
+    },
+    "meaning": "interior minister, Home Secretary",
+    "shortDefinition": "Interior minister, Home Secretary."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Innen",
+        "meaning": "inside"
+      },
+      {
+        "part": "minister",
+        "meaning": "minister"
+      }
+    ],
+    "literalMeaning": "inside minister"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Innenminister, plural die Innenminister.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Innenminister"
+        },
+        {
+          "label": "More than one",
+          "value": "die Innenminister"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Innenminister ist für die Polizei zuständig.",
+      "english": "The interior minister is responsible for the police.",
+      "highlight": [
+        "Innenminister"
+      ]
+    },
+    {
+      "german": "Die Innenministerin hat ein Verbot erlassen.",
+      "english": "The interior minister has issued a ban.",
+      "highlight": [
+        "Innenministerin"
+      ]
+    },
+    {
+      "german": "Ein Treffen der Innenminister.",
+      "english": "A meeting of interior ministers.",
+      "highlight": [
+        "Innenminister."
+      ]
+    }
+  ],
+  "forms": [
+    "Innenministerin",
+    "Außenminister"
+  ],
+  "memoryHook": "Innen + Minister = interior minister ↔ Außenminister.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Innenminister",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Innenminister is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Innenminister, zwei ___",
+      "answer": "Innenminister",
+      "fullAnswer": "ein Innenminister, zwei Innenminister",
+      "explanation": "The plural is Innenminister.",
+      "acceptedAnswers": [
+        "Innenminister"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Innenminister mean?",
+      "options": [
+        "to learn",
+        "to buy",
+        "interior minister"
+      ],
+      "answer": "interior minister",
+      "explanation": "Innenminister: interior minister, Home Secretary.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "innen (inside) + Minister",
+        "inner + Minister"
+      ],
+      "answer": "innen (inside) + Minister",
+      "explanation": "Inside minister.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Counterpart:",
+      "options": [
+        "der Außenminister",
+        "der Unterminister"
+      ],
+      "answer": "der Außenminister",
+      "explanation": "Foreign.",
+      "id": "q5"
+    }
+  ]
+}

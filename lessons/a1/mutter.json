@@ -1,0 +1,141 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Mutter",
+    "partOfSpeech": "noun, feminine (die Mutter)",
+    "pronunciation": {
+      "respelling": "MOOT-er",
+      "ipa": "ˈmʊtɐ",
+      "notes": "Plural: die Mütter."
+    },
+    "meaning": "mother",
+    "shortDefinition": "Mother."
+  },
+  "wordFamily": [
+    {
+      "german": "der Vater",
+      "english": "father",
+      "type": "noun"
+    },
+    {
+      "german": "die Eltern",
+      "english": "parents",
+      "type": "noun"
+    },
+    {
+      "german": "die Muttersprache",
+      "english": "native language",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Mutter, plural die Mütter.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Mutter"
+        },
+        {
+          "label": "More than one",
+          "value": "die Mütter"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Meine Mutter ist Ärztin.",
+      "english": "My mother is a doctor.",
+      "highlight": [
+        "Mutter"
+      ]
+    },
+    {
+      "german": "Ich rufe meine Mutter jeden Sonntag an.",
+      "english": "I call my mother every Sunday.",
+      "highlight": [
+        "Mutter"
+      ]
+    },
+    {
+      "german": "Mama, kommst du?",
+      "english": "Mum, are you coming?",
+      "highlight": [
+        "Mama,"
+      ]
+    }
+  ],
+  "forms": [
+    "Mütter",
+    "die Mütter",
+    "die Mutter"
+  ],
+  "memoryHook": "Die Mutter, plural Mütter. Muttersprache = native language. At home: Mama.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Mutter",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Mutter is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Mutter, zwei ___",
+      "answer": "Mütter",
+      "fullAnswer": "ein Mutter, zwei Mütter",
+      "explanation": "The plural is Mütter.",
+      "acceptedAnswers": [
+        "Muetter"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Mutter mean?",
+      "options": [
+        "the station",
+        "mother",
+        "to wait"
+      ],
+      "answer": "mother",
+      "explanation": "Mutter: mother.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "The informal word for Mutter is…",
+      "options": [
+        "Mama",
+        "Oma"
+      ],
+      "answer": "Mama",
+      "explanation": "Mama, Papa.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Muttersprache is…",
+      "options": [
+        "mother tongue",
+        "mother's speech"
+      ],
+      "answer": "mother tongue",
+      "explanation": "Native language.",
+      "id": "q5"
+    }
+  ]
+}

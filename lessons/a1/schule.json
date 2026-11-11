@@ -1,0 +1,131 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Schule",
+    "partOfSpeech": "noun, feminine (die Schule)",
+    "pronunciation": {
+      "respelling": "SHOO-luh",
+      "ipa": "ˈʃuːlə",
+      "notes": "Plural: die Schulen."
+    },
+    "meaning": "school",
+    "shortDefinition": "School."
+  },
+  "wordFamily": [
+    {
+      "german": "der Schüler / die Schülerin",
+      "english": "pupil",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Schule, plural die Schulen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Schule"
+        },
+        {
+          "label": "More than one",
+          "value": "die Schulen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Meine Kinder gehen in die Schule.",
+      "english": "My children go to school.",
+      "highlight": [
+        "Schule."
+      ]
+    },
+    {
+      "german": "Die Schule ist um eins aus.",
+      "english": "School finishes at one.",
+      "highlight": [
+        "Schule"
+      ]
+    },
+    {
+      "german": "Er ist noch in der Schule.",
+      "english": "He's still at school.",
+      "highlight": [
+        "Schule."
+      ]
+    }
+  ],
+  "forms": [
+    "Schulen",
+    "die Schulen",
+    "die Schule"
+  ],
+  "memoryHook": "Die Schule. In die Schule gehen. Pupils: Schüler; university: Studenten.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Schule",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Schule is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Schule, zwei ___",
+      "answer": "Schulen",
+      "fullAnswer": "ein Schule, zwei Schulen",
+      "explanation": "The plural is Schulen.",
+      "acceptedAnswers": [
+        "Schulen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Schule mean?",
+      "options": [
+        "the key",
+        "school",
+        "to buy"
+      ],
+      "answer": "school",
+      "explanation": "Schule: school.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Going to school: in ___ Schule",
+      "options": [
+        "die",
+        "der"
+      ],
+      "answer": "die",
+      "explanation": "Direction: accusative.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "A pupil is…",
+      "options": [
+        "der Schüler / die Schülerin",
+        "der Student"
+      ],
+      "answer": "der Schüler / die Schülerin",
+      "explanation": "Student = university.",
+      "id": "q5"
+    }
+  ]
+}

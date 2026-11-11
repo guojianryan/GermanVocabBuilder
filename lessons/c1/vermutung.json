@@ -1,0 +1,141 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Vermutung",
+    "partOfSpeech": "noun, feminine (die Vermutung)",
+    "pronunciation": {
+      "respelling": "fer-MOO-tung",
+      "ipa": "fɛɐ̯ˈmuːtʊŋ",
+      "notes": "Plural: die Vermutungen."
+    },
+    "meaning": "assumption, suspicion, guess",
+    "shortDefinition": "Assumption, suspicion, guess."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Ver",
+        "meaning": "prefix"
+      },
+      {
+        "part": "mut",
+        "meaning": "mind, mood (Mut)"
+      },
+      {
+        "part": "ung",
+        "meaning": "noun ending"
+      }
+    ],
+    "literalMeaning": "a minding (guessing)"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Vermutung, plural die Vermutungen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Vermutung"
+        },
+        {
+          "label": "More than one",
+          "value": "die Vermutungen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das ist nur eine Vermutung.",
+      "english": "That's just a guess.",
+      "highlight": [
+        "Vermutung."
+      ]
+    },
+    {
+      "german": "Meine Vermutung hat sich bestätigt.",
+      "english": "My suspicion was confirmed.",
+      "highlight": [
+        "Vermutung"
+      ]
+    },
+    {
+      "german": "Es gibt Vermutungen über die Ursache.",
+      "english": "There's speculation about the cause.",
+      "highlight": [
+        "Vermutungen"
+      ]
+    }
+  ],
+  "forms": [
+    "vermuten",
+    "vermutlich"
+  ],
+  "memoryHook": "Vermuten → die Vermutung; vermutlich.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Vermutung",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Vermutung is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Vermutung, zwei ___",
+      "answer": "Vermutungen",
+      "fullAnswer": "ein Vermutung, zwei Vermutungen",
+      "explanation": "The plural is Vermutungen.",
+      "acceptedAnswers": [
+        "Vermutungen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Vermutung mean?",
+      "options": [
+        "assumption",
+        "to sing",
+        "to open"
+      ],
+      "answer": "assumption",
+      "explanation": "Vermutung: assumption, suspicion, guess.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "vermuten (suspect, assume)",
+        "Mut"
+      ],
+      "answer": "vermuten (suspect, assume)",
+      "explanation": "Suspect.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Adverb:",
+      "options": [
+        "vermutlich (presumably)",
+        "vermutend"
+      ],
+      "answer": "vermutlich (presumably)",
+      "explanation": "Presumably.",
+      "id": "q5"
+    }
+  ]
+}

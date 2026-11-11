@@ -1,0 +1,126 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "woher",
+    "partOfSpeech": "question word",
+    "pronunciation": {
+      "respelling": "vo-HAIR",
+      "ipa": "voˈheːɐ̯",
+      "notes": ""
+    },
+    "meaning": "where from",
+    "shortDefinition": "Where from."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "wo",
+        "meaning": "where"
+      },
+      {
+        "part": "her",
+        "meaning": "toward here, from"
+      }
+    ],
+    "literalMeaning": "where from"
+  },
+  "wordFamily": [
+    {
+      "german": "wo",
+      "english": "where",
+      "type": "question word"
+    },
+    {
+      "german": "wohin",
+      "english": "where to",
+      "type": "question word"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Woher kommen Sie?",
+      "english": "Where are you from?",
+      "highlight": [
+        "Woher"
+      ]
+    },
+    {
+      "german": "Woher weißt du das?",
+      "english": "How do you know that?",
+      "highlight": [
+        "Woher"
+      ]
+    },
+    {
+      "german": "Woher hast du die Tasche?",
+      "english": "Where did you get the bag?",
+      "highlight": [
+        "Woher"
+      ]
+    }
+  ],
+  "forms": [],
+  "memoryHook": "Woher = where from. Answer with aus or von. Woher weißt du das? = How do you know?",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does woher mean?",
+      "options": [
+        "expensive",
+        "to open",
+        "where from"
+      ],
+      "answer": "where from",
+      "explanation": "woher: where from.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Answer to 'Woher kommst du?':",
+      "options": [
+        "Aus Spanien.",
+        "Nach Spanien."
+      ],
+      "answer": "Aus Spanien.",
+      "explanation": "Origin: aus.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Woher weißt du das?' means…",
+      "options": [
+        "How do you know that?",
+        "Where do you know that?"
+      ],
+      "answer": "How do you know that?",
+      "explanation": "Source of knowledge.",
+      "id": "q3"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "___ kommst du? (Where from)",
+      "answer": "Woher",
+      "fullAnswer": "Woher kommst du?",
+      "explanation": "Woher.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Wo + her: her means…",
+      "options": [
+        "towards the speaker / from",
+        "away"
+      ],
+      "answer": "towards the speaker / from",
+      "explanation": "Her = hither.",
+      "id": "q5"
+    }
+  ]
+}

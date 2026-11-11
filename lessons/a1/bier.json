@@ -1,0 +1,116 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Bier",
+    "partOfSpeech": "noun, neuter (das Bier)",
+    "pronunciation": {
+      "respelling": "BEER",
+      "ipa": "biːɐ̯",
+      "notes": "When ordering, people say 'zwei Bier'. Biere means kinds of beer. Usually no plural."
+    },
+    "meaning": "beer",
+    "shortDefinition": "Beer."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Bier, usually no plural.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Bier"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ein Bier, bitte!",
+      "english": "A beer, please!",
+      "highlight": [
+        "Bier,"
+      ]
+    },
+    {
+      "german": "Trinkst du lieber Bier oder Wein?",
+      "english": "Do you prefer beer or wine?",
+      "highlight": [
+        "Bier"
+      ]
+    },
+    {
+      "german": "Zwei Bier, bitte.",
+      "english": "Two beers, please.",
+      "highlight": [
+        "Bier,"
+      ]
+    }
+  ],
+  "forms": [
+    "Biere",
+    "das Bier"
+  ],
+  "memoryHook": "Das Bier. In a bar: zwei Bier, bitte. The plural Biere means different kinds of beer.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Bier",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Bier is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Bier mean?",
+      "options": [
+        "cheap",
+        "beer",
+        "to sing"
+      ],
+      "answer": "beer",
+      "explanation": "Bier: beer.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "In a bar you usually order…",
+      "options": [
+        "zwei Bier",
+        "zwei Biere"
+      ],
+      "answer": "zwei Bier",
+      "explanation": "When ordering, people say zwei Bier. Biere means kinds of beer.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Bier is…",
+      "options": [
+        "neuter",
+        "masculine"
+      ],
+      "answer": "neuter",
+      "explanation": "Das Bier.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich trinke gern ___. (beer)",
+      "answer": "Bier",
+      "fullAnswer": "Ich trinke gern Bier.",
+      "explanation": "Das Bier.",
+      "id": "q5"
+    }
+  ]
+}

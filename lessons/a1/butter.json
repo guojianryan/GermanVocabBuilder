@@ -1,0 +1,115 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Butter",
+    "partOfSpeech": "noun, feminine (die Butter)",
+    "pronunciation": {
+      "respelling": "BOOT-er",
+      "ipa": "ˈbʊtɐ",
+      "notes": "Short u as in 'put'. No plural. Usually no plural."
+    },
+    "meaning": "butter",
+    "shortDefinition": "Butter."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Butter, usually no plural.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Butter"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich esse Brot mit Butter.",
+      "english": "I eat bread and butter.",
+      "highlight": [
+        "Butter."
+      ]
+    },
+    {
+      "german": "Haben wir noch Butter?",
+      "english": "Have we got any butter left?",
+      "highlight": [
+        "Butter?"
+      ]
+    },
+    {
+      "german": "Die Butter ist im Kühlschrank.",
+      "english": "The butter's in the fridge.",
+      "highlight": [
+        "Butter"
+      ]
+    }
+  ],
+  "forms": [
+    "die Butter"
+  ],
+  "memoryHook": "Die Butter: feminine. The u is short, as in 'put', not as in English 'butter'.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Butter",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Butter is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Butter mean?",
+      "options": [
+        "the job",
+        "the street",
+        "butter"
+      ],
+      "answer": "butter",
+      "explanation": "Butter: butter.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Unlike in English, Butter in German is…",
+      "options": [
+        "feminine",
+        "neuter"
+      ],
+      "answer": "feminine",
+      "explanation": "Die Butter.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "How is the u pronounced?",
+      "options": [
+        "like 'put'",
+        "like 'but'"
+      ],
+      "answer": "like 'put'",
+      "explanation": "German u is never like English 'but'.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Brot mit ___ (bread and butter)",
+      "answer": "Butter",
+      "fullAnswer": "Brot mit Butter",
+      "explanation": "Die Butter.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "schimpfen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "SHIMP-fen",
+      "ipa": "ˈʃɪmpfn̩",
+      "notes": ""
+    },
+    "meaning": "to scold; to grumble",
+    "shortDefinition": "To scold; to grumble."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "schimpf|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "schimpf|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "schimpf|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "schimpf|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "schimpf|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "schimpf|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat geschimpft"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Mutter schimpft mit dem Kind.",
+      "english": "The mother is telling the child off.",
+      "highlight": [
+        "schimpft"
+      ]
+    },
+    {
+      "german": "Er schimpft immer über das Wetter.",
+      "english": "He's always grumbling about the weather.",
+      "highlight": [
+        "schimpft",
+        "über"
+      ]
+    },
+    {
+      "german": "Schimpf nicht so!",
+      "english": "Don't moan so much!",
+      "highlight": [
+        "Schimpf"
+      ]
+    }
+  ],
+  "forms": [
+    "schimpfe",
+    "schimpfst",
+    "schimpft",
+    "schimpfen",
+    "geschimpft"
+  ],
+  "memoryHook": "Schimpfen mit (tell off), schimpfen über (moan about).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (schimpfen)",
+      "answer": "schimpft",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: schimpft.",
+      "acceptedAnswers": [
+        "schimpft"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (schimpfen, past)",
+      "answer": "geschimpft",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe geschimpft.",
+      "acceptedAnswers": [
+        "geschimpft"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does schimpfen mean?",
+      "options": [
+        "expensive",
+        "to scold",
+        "the street"
+      ],
+      "answer": "to scold",
+      "explanation": "schimpfen: to scold; to grumble.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Scold someone:",
+      "options": [
+        "mit jemandem schimpfen",
+        "jemanden schimpfen only"
+      ],
+      "answer": "mit jemandem schimpfen",
+      "explanation": "Mit.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Grumble about:",
+      "options": [
+        "über",
+        "auf only"
+      ],
+      "answer": "über",
+      "explanation": "Schimpfen über.",
+      "id": "q5"
+    }
+  ]
+}

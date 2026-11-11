@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Palästinenser",
+    "partOfSpeech": "noun, masculine (der Palästinenser)",
+    "pronunciation": {
+      "respelling": "pa-les-ti-NEN-zer",
+      "ipa": "palɛstiˈnɛnzɐ",
+      "notes": "The plural looks the same. Plural: die Palästinenser."
+    },
+    "meaning": "Palestinian (person)",
+    "shortDefinition": "Palestinian (person)."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Palästinenser, plural die Palästinenser.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Palästinenser"
+        },
+        {
+          "label": "More than one",
+          "value": "die Palästinenser"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Viele Palästinenser leben im Ausland.",
+      "english": "Many Palestinians live abroad.",
+      "highlight": [
+        "Palästinenser"
+      ]
+    },
+    {
+      "german": "Sie ist Palästinenserin.",
+      "english": "She's Palestinian.",
+      "highlight": [
+        "Palästinenserin."
+      ]
+    },
+    {
+      "german": "Ein Gespräch mit einem Palästinenser.",
+      "english": "A conversation with a Palestinian.",
+      "highlight": [
+        "Palästinenser."
+      ]
+    }
+  ],
+  "forms": [
+    "palästinensisch",
+    "Palästinenserin"
+  ],
+  "memoryHook": "Der Palästinenser, die Palästinenserin; palästinensisch.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Palästinenser",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Palästinenser is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Palästinenser, zwei ___",
+      "answer": "Palästinenser",
+      "fullAnswer": "ein Palästinenser, zwei Palästinenser",
+      "explanation": "The plural is Palästinenser.",
+      "acceptedAnswers": [
+        "Palaestinenser"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Palästinenser mean?",
+      "options": [
+        "the door",
+        "the bill",
+        "Palestinian (person)"
+      ],
+      "answer": "Palestinian (person)",
+      "explanation": "Palästinenser: Palestinian (person).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Female:",
+      "options": [
+        "die Palästinenserin",
+        "die Palästinense"
+      ],
+      "answer": "die Palästinenserin",
+      "explanation": "-in.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Adjective:",
+      "options": [
+        "palästinensisch",
+        "palästinisch"
+      ],
+      "answer": "palästinensisch",
+      "explanation": "Palestinian.",
+      "id": "q5"
+    }
+  ]
+}

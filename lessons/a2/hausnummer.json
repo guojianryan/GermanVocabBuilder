@@ -1,0 +1,138 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Momente A2.2 Kursbuch Glossar",
+  "lessonType": "card",
+  "word": {
+    "headword": "Hausnummer",
+    "partOfSpeech": "noun, feminine (die Hausnummer)",
+    "pronunciation": {
+      "respelling": "HOWS-noom-er",
+      "ipa": "ˈhaʊ̯sˌnʊmɐ",
+      "notes": "Plural: die Hausnummern."
+    },
+    "meaning": "house number",
+    "shortDefinition": "House number."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Haus",
+        "meaning": "house"
+      },
+      {
+        "part": "nummer",
+        "meaning": "number"
+      }
+    ],
+    "literalMeaning": "house number"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Hausnummer, plural die Hausnummern.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Hausnummer"
+        },
+        {
+          "label": "More than one",
+          "value": "die Hausnummern"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wie ist deine Hausnummer?",
+      "english": "What's your house number?",
+      "highlight": [
+        "Hausnummer?"
+      ]
+    },
+    {
+      "german": "Die Hausnummer fehlt auf dem Brief.",
+      "english": "The house number is missing from the letter.",
+      "highlight": [
+        "Hausnummer"
+      ]
+    },
+    {
+      "german": "Ich finde die Hausnummer nicht.",
+      "english": "I can't find the house number.",
+      "highlight": [
+        "Hausnummer"
+      ]
+    }
+  ],
+  "forms": [
+    "Hausnummern",
+    "die Hausnummern",
+    "die Hausnummer"
+  ],
+  "memoryHook": "Haus + Nummer. Street first, then number.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Hausnummer",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Hausnummer is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Hausnummer, zwei ___",
+      "answer": "Hausnummern",
+      "fullAnswer": "ein Hausnummer, zwei Hausnummern",
+      "explanation": "The plural is Hausnummern.",
+      "acceptedAnswers": [
+        "Hausnummern"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Hausnummer mean?",
+      "options": [
+        "to open",
+        "always",
+        "house number"
+      ],
+      "answer": "house number",
+      "explanation": "Hausnummer: house number.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "In an address, it comes…",
+      "options": [
+        "after the street: Hauptstraße 12",
+        "before the street"
+      ],
+      "answer": "after the street: Hauptstraße 12",
+      "explanation": "German order.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Hausnummern",
+        "Hausnummers"
+      ],
+      "answer": "Hausnummern",
+      "explanation": "-n.",
+      "id": "q5"
+    }
+  ]
+}

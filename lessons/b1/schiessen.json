@@ -1,0 +1,164 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "schießen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "SHEE-sen",
+      "ipa": "ˈʃiːsn̩",
+      "notes": ""
+    },
+    "meaning": "to shoot",
+    "shortDefinition": "To shoot."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "schieß|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "schieß|t"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "schieß|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "schieß|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "schieß|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "schieß|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat geschossen"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "der Schuss",
+      "english": "shot",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er schießt ein Tor.",
+      "english": "He scores a goal.",
+      "highlight": [
+        "schießt"
+      ]
+    },
+    {
+      "german": "Die Polizei hat geschossen.",
+      "english": "The police fired shots.",
+      "highlight": [
+        "geschossen."
+      ]
+    },
+    {
+      "german": "Ich habe viele Fotos geschossen.",
+      "english": "I took lots of photos.",
+      "highlight": [
+        "geschossen."
+      ]
+    }
+  ],
+  "forms": [
+    "schieße",
+    "schießt",
+    "schießen",
+    "geschossen"
+  ],
+  "memoryHook": "Schießen, schoss, geschossen. Ein Tor schießen.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (schießen)",
+      "answer": "schießt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: schießt.",
+      "acceptedAnswers": [
+        "schiesst"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (schießen, past)",
+      "answer": "geschossen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe geschossen.",
+      "acceptedAnswers": [
+        "geschossen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does schießen mean?",
+      "options": [
+        "the bed",
+        "to wait",
+        "to shoot"
+      ],
+      "answer": "to shoot",
+      "explanation": "schießen: to shoot.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Ein Tor schießen' means…",
+      "options": [
+        "to score a goal",
+        "to shoot a gate"
+      ],
+      "answer": "to score a goal",
+      "explanation": "Football.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "hat geschossen",
+        "hat geschießt"
+      ],
+      "answer": "hat geschossen",
+      "explanation": "Irregular.",
+      "id": "q5"
+    }
+  ]
+}

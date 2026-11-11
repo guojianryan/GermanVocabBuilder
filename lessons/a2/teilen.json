@@ -1,0 +1,170 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "teilen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "TIE-len",
+      "ipa": "ˈtaɪ̯lən",
+      "notes": ""
+    },
+    "meaning": "to share; to divide",
+    "shortDefinition": "To share; to divide."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "teil|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "teil|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "teil|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "teil|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "teil|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "teil|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat geteilt"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "der Teil",
+      "english": "part",
+      "type": "noun"
+    },
+    {
+      "german": "teilnehmen",
+      "english": "to take part",
+      "type": "verb"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir teilen uns eine Wohnung.",
+      "english": "We share a flat.",
+      "highlight": [
+        "teilen"
+      ]
+    },
+    {
+      "german": "Ich teile den Kuchen in acht Stücke.",
+      "english": "I'm cutting the cake into eight pieces.",
+      "highlight": [
+        "teile"
+      ]
+    },
+    {
+      "german": "Zehn geteilt durch zwei ist fünf.",
+      "english": "Ten divided by two is five.",
+      "highlight": [
+        "geteilt"
+      ]
+    }
+  ],
+  "forms": [
+    "teile",
+    "teilst",
+    "teilt",
+    "teilen",
+    "geteilt"
+  ],
+  "memoryHook": "Teilen = share, divide. Der Teil = part.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (teilen)",
+      "answer": "teilt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: teilt.",
+      "acceptedAnswers": [
+        "teilt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (teilen, past)",
+      "answer": "geteilt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe geteilt.",
+      "acceptedAnswers": [
+        "geteilt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does teilen mean?",
+      "options": [
+        "slowly",
+        "quiet",
+        "to share"
+      ],
+      "answer": "to share",
+      "explanation": "teilen: to share; to divide.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'We share a room':",
+      "options": [
+        "Wir teilen uns ein Zimmer.",
+        "Wir teilen ein Zimmer zusammen uns."
+      ],
+      "answer": "Wir teilen uns ein Zimmer.",
+      "explanation": "Sich (dative) teilen.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Der Teil means…",
+      "options": [
+        "part",
+        "share price"
+      ],
+      "answer": "part",
+      "explanation": "Noun.",
+      "id": "q5"
+    }
+  ]
+}

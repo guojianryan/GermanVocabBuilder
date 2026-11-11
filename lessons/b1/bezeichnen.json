@@ -1,0 +1,170 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "bezeichnen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "be-TSYEKH-nen",
+      "ipa": "bəˈtsaɪ̯çnən",
+      "notes": ""
+    },
+    "meaning": "to call, describe as; to mark",
+    "shortDefinition": "To call, describe as; to mark."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "be",
+        "meaning": "prefix"
+      },
+      {
+        "part": "zeichnen",
+        "meaning": "to mark, draw"
+      }
+    ],
+    "literalMeaning": "to mark"
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "bezeichn|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "bezeichn|est"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "bezeichn|et"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "bezeichn|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "bezeichn|et"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "bezeichn|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat bezeichnet"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Man bezeichnet ihn als Genie.",
+      "english": "He's described as a genius.",
+      "highlight": [
+        "bezeichnet",
+        "als"
+      ]
+    },
+    {
+      "german": "Wie bezeichnet man das auf Deutsch?",
+      "english": "What's that called in German?",
+      "highlight": [
+        "bezeichnet"
+      ]
+    },
+    {
+      "german": "Sie bezeichnete die Idee als Unsinn.",
+      "english": "She called the idea nonsense.",
+      "highlight": [
+        "bezeichnete",
+        "als"
+      ]
+    }
+  ],
+  "forms": [
+    "Bezeichnung"
+  ],
+  "memoryHook": "Bezeichnen als = call, describe as → die Bezeichnung.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (bezeichnen)",
+      "answer": "bezeichnet",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: bezeichnet.",
+      "acceptedAnswers": [
+        "bezeichnet"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (bezeichnen, past)",
+      "answer": "bezeichnet",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe bezeichnet.",
+      "acceptedAnswers": [
+        "bezeichnet"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does bezeichnen mean?",
+      "options": [
+        "to call",
+        "always",
+        "the bed"
+      ],
+      "answer": "to call",
+      "explanation": "bezeichnen: to call, describe as; to mark.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Bezeichnen als' means…",
+      "options": [
+        "to describe as, call",
+        "to draw as"
+      ],
+      "answer": "to describe as, call",
+      "explanation": "Label.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Noun:",
+      "options": [
+        "die Bezeichnung (name, term)",
+        "das Bezeichen"
+      ],
+      "answer": "die Bezeichnung (name, term)",
+      "explanation": "Term.",
+      "id": "q5"
+    }
+  ]
+}

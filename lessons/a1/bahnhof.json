@@ -1,0 +1,150 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Bahnhof",
+    "partOfSpeech": "noun, masculine (der Bahnhof)",
+    "pronunciation": {
+      "respelling": "BAHN-hohf",
+      "ipa": "ˈbaːnˌhoːf",
+      "notes": "Plural: die Bahnhöfe."
+    },
+    "meaning": "train station",
+    "shortDefinition": "Train station."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Bahn",
+        "meaning": "railway"
+      },
+      {
+        "part": "hof",
+        "meaning": "yard, court"
+      }
+    ],
+    "literalMeaning": "railway yard"
+  },
+  "wordFamily": [
+    {
+      "german": "der Hauptbahnhof",
+      "english": "main station",
+      "type": "noun"
+    },
+    {
+      "german": "der Bahnsteig",
+      "english": "platform",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Bahnhof, plural die Bahnhöfe.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Bahnhof"
+        },
+        {
+          "label": "More than one",
+          "value": "die Bahnhöfe"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir treffen uns am Bahnhof.",
+      "english": "Let's meet at the station.",
+      "highlight": [
+        "Bahnhof."
+      ]
+    },
+    {
+      "german": "Wie komme ich zum Bahnhof?",
+      "english": "How do I get to the station?",
+      "highlight": [
+        "Bahnhof?"
+      ]
+    },
+    {
+      "german": "Der Hauptbahnhof ist in der Stadtmitte.",
+      "english": "The main station is in the city centre.",
+      "highlight": [
+        "Hauptbahnhof"
+      ]
+    }
+  ],
+  "forms": [
+    "Bahnhöfe",
+    "die Bahnhöfe",
+    "der Bahnhof"
+  ],
+  "memoryHook": "Bahn (railway) + Hof (yard): a railway yard. Hauptbahnhof (Hbf) is the main one. 'Ich verstehe nur Bahnhof' = it's all Greek to me.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Bahnhof",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Bahnhof is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Bahnhof, zwei ___",
+      "answer": "Bahnhöfe",
+      "fullAnswer": "ein Bahnhof, zwei Bahnhöfe",
+      "explanation": "The plural is Bahnhöfe.",
+      "acceptedAnswers": [
+        "Bahnhoefe"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Bahnhof mean?",
+      "options": [
+        "the bill",
+        "train station",
+        "quiet"
+      ],
+      "answer": "train station",
+      "explanation": "Bahnhof: train station.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Wir treffen uns ___ Bahnhof.",
+      "options": [
+        "am",
+        "im"
+      ],
+      "answer": "am",
+      "explanation": "At the station: am Bahnhof.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Hbf' on a sign means…",
+      "options": [
+        "Hauptbahnhof",
+        "Hotelbahnhof"
+      ],
+      "answer": "Hauptbahnhof",
+      "explanation": "Haupt = main.",
+      "id": "q5"
+    }
+  ]
+}

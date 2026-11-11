@@ -1,0 +1,181 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "full",
+  "word": {
+    "headword": "nach",
+    "partOfSpeech": "preposition (always with the dative)",
+    "pronunciation": {
+      "respelling": "NAHKH",
+      "ipa": "naːx",
+      "notes": "Long a, throaty ch."
+    },
+    "meaning": "to (cities, countries); after; past (time)",
+    "shortDefinition": "Direction to places without an article, and 'after' in time."
+  },
+  "intro": {
+    "title": "Nach Berlin, nach dem Essen",
+    "paragraphs": [
+      "Nach is 'to' for cities and most countries (nach Berlin, nach Spanien), and for going home (nach Hause). It also means 'after': nach dem Essen, and in clock times: zehn nach drei (3:10)."
+    ]
+  },
+  "wordFamily": [
+    {
+      "german": "nach Hause",
+      "english": "home (going)",
+      "type": "phrase"
+    },
+    {
+      "german": "zu",
+      "english": "to (people, places)",
+      "type": "preposition"
+    },
+    {
+      "german": "in",
+      "english": "to (countries with an article)",
+      "type": "preposition"
+    },
+    {
+      "german": "danach",
+      "english": "afterwards",
+      "type": "adverb"
+    }
+  ],
+  "keyTrap": {
+    "title": "The big trap: nach, zu or in?",
+    "explanation": "Nach: cities, countries without an article, home. Zu: people, shops, buildings. In: countries with an article, and inside places.",
+    "wrong": {
+      "german": "Ich gehe nach dem Supermarkt.",
+      "verdict": "This means 'after the supermarket'. Going to a shop: zu."
+    },
+    "correct": [
+      {
+        "german": "Ich gehe zum Supermarkt.",
+        "literal": "I go to-the supermarket.",
+        "note": "Shops, people: zu."
+      },
+      {
+        "german": "Ich fliege nach Kanada.",
+        "literal": "I fly to Canada.",
+        "note": "Countries, cities: nach."
+      },
+      {
+        "german": "Ich fahre in die Schweiz.",
+        "literal": "I drive into the Switzerland.",
+        "note": "Countries with die: in."
+      }
+    ]
+  },
+  "commonMistakes": [
+    {
+      "title": "Telling the time",
+      "explanation": "Nach = past.",
+      "examples": [
+        {
+          "german": "Es ist zehn nach acht.",
+          "english": "It's ten past eight.",
+          "highlight": "nach"
+        }
+      ]
+    },
+    {
+      "title": "After + dative",
+      "explanation": "Nach always takes the dative.",
+      "wrong": "nach den Kurs",
+      "correct": "nach dem Kurs"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir fahren am Freitag nach Hamburg.",
+      "english": "We're going to Hamburg on Friday.",
+      "highlight": [
+        "nach"
+      ]
+    },
+    {
+      "german": "Ich gehe jetzt nach Hause.",
+      "english": "I'm going home now.",
+      "highlight": [
+        "nach"
+      ]
+    },
+    {
+      "german": "Nach dem Essen trinken wir Kaffee.",
+      "english": "After the meal we have coffee.",
+      "highlight": [
+        "Nach"
+      ]
+    },
+    {
+      "german": "Es ist Viertel nach zwei.",
+      "english": "It's quarter past two.",
+      "highlight": [
+        "nach"
+      ]
+    }
+  ],
+  "forms": [
+    "nach Hause",
+    "danach"
+  ],
+  "memoryHook": "Nach: to cities and countries, nach Hause, after, and 'past' in times. Shops and people: zu.",
+  "signOff": "Nach der Lektion: Pause!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Ich fahre ___ Frankreich.",
+      "options": [
+        "nach",
+        "zu"
+      ],
+      "answer": "nach",
+      "explanation": "Countries: nach.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich gehe ___ Arzt.",
+      "options": [
+        "nach dem",
+        "zum"
+      ],
+      "answer": "zum",
+      "explanation": "People: zu.",
+      "id": "q2"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich gehe ___ Hause. (home)",
+      "answer": "nach",
+      "fullAnswer": "Ich gehe nach Hause.",
+      "explanation": "Nach Hause.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Fünf nach drei' is…",
+      "options": [
+        "3:05",
+        "2:55"
+      ],
+      "answer": "3:05",
+      "explanation": "Nach = past.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "___ der Arbeit gehe ich joggen. (After)",
+      "options": [
+        "Nach",
+        "Seit"
+      ],
+      "answer": "Nach",
+      "explanation": "After: nach.",
+      "id": "q5"
+    }
+  ]
+}

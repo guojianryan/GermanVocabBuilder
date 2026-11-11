@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Block",
+    "partOfSpeech": "noun, masculine (der Block)",
+    "pronunciation": {
+      "respelling": "BLOK",
+      "ipa": "blɔk",
+      "notes": "Plural: die Blöcke."
+    },
+    "meaning": "block; pad",
+    "shortDefinition": "Block; pad."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Block, plural die Blöcke.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Block"
+        },
+        {
+          "label": "More than one",
+          "value": "die Blöcke"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich brauche einen Block für Notizen.",
+      "english": "I need a notepad.",
+      "highlight": [
+        "Block"
+      ]
+    },
+    {
+      "german": "Er wohnt im nächsten Block.",
+      "english": "He lives in the next block.",
+      "highlight": [
+        "Block."
+      ]
+    },
+    {
+      "german": "Ein Block aus Beton.",
+      "english": "A block of concrete.",
+      "highlight": [
+        "Block"
+      ]
+    }
+  ],
+  "forms": [
+    "Schreibblock"
+  ],
+  "memoryHook": "Der Block (die Blöcke); Schreibblock.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Block",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Block is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Block, zwei ___",
+      "answer": "Blöcke",
+      "fullAnswer": "ein Block, zwei Blöcke",
+      "explanation": "The plural is Blöcke.",
+      "acceptedAnswers": [
+        "Bloecke"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Block mean?",
+      "options": [
+        "to buy",
+        "block",
+        "the street"
+      ],
+      "answer": "block",
+      "explanation": "Block: block; pad.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Blöcke / Blocks",
+        "Blocken"
+      ],
+      "answer": "Blöcke / Blocks",
+      "explanation": "Both.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Writing pad:",
+      "options": [
+        "der Schreibblock",
+        "das Blockheft"
+      ],
+      "answer": "der Schreibblock",
+      "explanation": "Pad.",
+      "id": "q5"
+    }
+  ]
+}

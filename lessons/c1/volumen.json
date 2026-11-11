@@ -1,0 +1,133 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Volumen",
+    "partOfSpeech": "noun, neuter (das Volumen)",
+    "pronunciation": {
+      "respelling": "vo-LOO-men",
+      "ipa": "voˈluːmən",
+      "notes": "The plural is Volumen or Volumina. Plural: die Volumen."
+    },
+    "meaning": "volume; total amount",
+    "shortDefinition": "Volume; total amount."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Volumen, plural die Volumen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Volumen"
+        },
+        {
+          "label": "More than one",
+          "value": "die Volumen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das Volumen des Tanks ist 50 Liter.",
+      "english": "The tank's volume is 50 litres.",
+      "highlight": [
+        "Volumen"
+      ]
+    },
+    {
+      "german": "Das Handelsvolumen ist gestiegen.",
+      "english": "Trade volume has risen.",
+      "highlight": [
+        "Handelsvolumen"
+      ]
+    },
+    {
+      "german": "Ein Shampoo für mehr Volumen.",
+      "english": "A shampoo for more volume.",
+      "highlight": [
+        "Volumen."
+      ]
+    }
+  ],
+  "forms": [
+    "Lautstärke"
+  ],
+  "memoryHook": "Das Volumen (space; amount) ≠ Lautstärke.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Volumen",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Volumen is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Volumen, zwei ___",
+      "answer": "Volumen",
+      "fullAnswer": "ein Volumen, zwei Volumen",
+      "explanation": "The plural is Volumen.",
+      "acceptedAnswers": [
+        "Volumen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Volumen mean?",
+      "options": [
+        "volume",
+        "the evening",
+        "tomorrow"
+      ],
+      "answer": "volume",
+      "explanation": "Volumen: volume; total amount.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Sound volume (loudness):",
+      "options": [
+        "die Lautstärke",
+        "das Volumen"
+      ],
+      "answer": "die Lautstärke",
+      "explanation": "Different.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Volumen / Volumina",
+        "Volumens"
+      ],
+      "answer": "Volumen / Volumina",
+      "explanation": "Both.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "V sounds like…",
+      "options": [
+        "v",
+        "f"
+      ],
+      "answer": "v",
+      "explanation": "vo-LOO-men.",
+      "id": "q6"
+    }
+  ]
+}

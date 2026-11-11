@@ -1,0 +1,146 @@
+{
+ "schemaVersion": "1.4",
+ "language": "de",
+ "explanationLanguage": "en",
+ "level": "A1",
+ "levelSource": "Goethe-Zertifikat A1 Wortliste",
+ "lessonType": "card",
+ "word": {
+  "headword": "Fahrer",
+  "partOfSpeech": "noun, masculine (der Fahrer)",
+  "pronunciation": {
+   "respelling": "FAA-rer",
+   "ipa": "ˈfaːʁɐ",
+   "notes": "Plural: die Fahrer."
+  },
+  "meaning": "driver",
+  "shortDefinition": "Driver."
+ },
+ "wordFamily": [
+  {
+   "german": "fahren",
+   "english": "to drive, go",
+   "type": "verb"
+  }
+ ],
+ "commonMistakes": [
+  {
+   "title": "Gender and plural",
+   "explanation": "Der Fahrer, plural die Fahrer.",
+   "forms": [
+    {
+     "label": "One",
+     "value": "der Fahrer"
+    },
+    {
+     "label": "More than one",
+     "value": "die Fahrer"
+    }
+   ]
+  }
+ ],
+ "sampleSentences": [
+  {
+   "german": "Bitte nicht mit dem Fahrer sprechen!",
+   "english": "Please don't talk to the driver!",
+   "highlight": [
+    "Fahrer"
+   ]
+  },
+  {
+   "german": "Mein Bruder ist Busfahrer.",
+   "english": "My brother is a bus driver.",
+   "highlight": [
+    "Busfahrer."
+   ]
+  },
+  {
+   "german": "Sie ist eine gute Fahrerin.",
+   "english": "She's a good driver.",
+   "highlight": [
+    "Fahrerin."
+   ]
+  }
+ ],
+ "forms": [
+  "Fahrerin",
+  "Busfahrer",
+  "Taxifahrer",
+  "der Fahrer"
+ ],
+ "memoryHook": "Fahren + -er = driver. Bus, taxi, truck: Busfahrer, Taxifahrer, Lkw-Fahrer.",
+ "signOff": "Gut gemacht!",
+ "quiz": [
+  {
+   "type": "choice",
+   "prompt": "___ Fahrer",
+   "options": [
+    "der",
+    "die",
+    "das"
+   ],
+   "answer": "der",
+   "explanation": "Fahrer is masculine.",
+   "id": "q1"
+  },
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "ein Fahrer, zwei ___",
+   "answer": "Fahrer",
+   "fullAnswer": "ein Fahrer, zwei Fahrer",
+   "explanation": "The plural is Fahrer.",
+   "acceptedAnswers": [
+    "Fahrer"
+   ],
+   "id": "q2"
+  },
+  {
+   "type": "choice",
+   "prompt": "What does Fahrer mean?",
+   "options": [
+    "to sing",
+    "cheap",
+    "driver"
+   ],
+   "answer": "driver",
+   "explanation": "Fahrer: driver.",
+   "id": "q3"
+  },
+  {
+   "type": "choice",
+   "prompt": "A female driver is…",
+   "options": [
+    "die Fahrerin",
+    "die Fahrer"
+   ],
+   "answer": "die Fahrerin",
+   "explanation": "-in.",
+   "id": "q4"
+  },
+  {
+   "type": "choice",
+   "prompt": "A taxi driver is…",
+   "options": [
+    "der Taxifahrer",
+    "der Taxiführer"
+   ],
+   "answer": "der Taxifahrer",
+   "explanation": "Taxi + Fahrer.",
+   "id": "q5"
+  }
+ ],
+ "etymology": {
+  "title": "Where it comes from",
+  "parts": [
+   {
+    "part": "Fahr",
+    "meaning": "drive"
+   },
+   {
+    "part": "er",
+    "meaning": "person or thing that does it"
+   }
+  ],
+  "literalMeaning": "someone who drives"
+ }
+}

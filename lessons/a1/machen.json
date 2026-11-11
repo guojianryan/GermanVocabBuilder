@@ -1,0 +1,186 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "machen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "MAKH-en",
+      "ipa": "ˈmaxn̩",
+      "notes": ""
+    },
+    "meaning": "to do; to make",
+    "shortDefinition": "To do; to make."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "mach|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "mach|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "mach|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "mach|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "mach|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "mach|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gemacht"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "anmachen",
+      "english": "to turn on",
+      "type": "verb"
+    },
+    {
+      "german": "aufmachen",
+      "english": "to open",
+      "type": "verb"
+    },
+    {
+      "german": "Urlaub machen",
+      "english": "to go on holiday",
+      "type": "phrase"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Was machst du heute Abend?",
+      "english": "What are you doing tonight?",
+      "highlight": [
+        "machst"
+      ]
+    },
+    {
+      "german": "Ich mache einen Kuchen.",
+      "english": "I'm making a cake.",
+      "highlight": [
+        "mache"
+      ]
+    },
+    {
+      "german": "Das macht nichts.",
+      "english": "That doesn't matter.",
+      "highlight": [
+        "macht"
+      ]
+    }
+  ],
+  "forms": [
+    "mache",
+    "machst",
+    "macht",
+    "machen",
+    "gemacht"
+  ],
+  "memoryHook": "Machen = do AND make. Germans 'make' photos, holidays (Urlaub machen) and homework.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (machen)",
+      "answer": "macht",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: macht.",
+      "acceptedAnswers": [
+        "macht"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (machen, past)",
+      "answer": "gemacht",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gemacht.",
+      "acceptedAnswers": [
+        "gemacht"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does machen mean?",
+      "options": [
+        "the bed",
+        "hot",
+        "to do"
+      ],
+      "answer": "to do",
+      "explanation": "machen: to do; to make.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Das macht nichts' means…",
+      "options": [
+        "It doesn't matter.",
+        "It does nothing."
+      ],
+      "answer": "It doesn't matter.",
+      "explanation": "A fixed phrase.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "At the till, 'Das macht 5 Euro' means…",
+      "options": [
+        "That comes to 5 euros.",
+        "That makes 5 euros profit."
+      ],
+      "answer": "That comes to 5 euros.",
+      "explanation": "Machen = come to.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "'To take a photo':",
+      "options": [
+        "ein Foto machen",
+        "ein Foto nehmen"
+      ],
+      "answer": "ein Foto machen",
+      "explanation": "German makes photos.",
+      "id": "q6"
+    }
+  ]
+}

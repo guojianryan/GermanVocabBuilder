@@ -1,0 +1,205 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "group",
+  "word": {
+    "headword": "Maße und Gewichte",
+    "partOfSpeech": "word group: money, measures and weights",
+    "pronunciation": {
+      "respelling": "MAA-se unt ge-VIKH-te",
+      "ipa": "ˈmaːsə ʊnt ɡəˈvɪçtə",
+      "notes": ""
+    },
+    "meaning": "money, length, weight, temperature",
+    "shortDefinition": "Money, length, weight, temperature."
+  },
+  "members": [
+    {
+      "german": "der Euro",
+      "english": "euro",
+      "note": "Prices: zehn Euro (no plural -s)."
+    },
+    {
+      "german": "der Cent",
+      "english": "cent"
+    },
+    {
+      "german": "der Franken",
+      "english": "Swiss franc"
+    },
+    {
+      "german": "der Meter",
+      "english": "metre"
+    },
+    {
+      "german": "der Zentimeter",
+      "english": "centimetre"
+    },
+    {
+      "german": "der Kilometer",
+      "english": "kilometre"
+    },
+    {
+      "german": "der Quadratmeter",
+      "english": "square metre",
+      "note": "Flats are measured in m²."
+    },
+    {
+      "german": "das Gramm",
+      "english": "gram"
+    },
+    {
+      "german": "das Kilo",
+      "english": "kilo",
+      "note": "Short for das Kilogramm."
+    },
+    {
+      "german": "das Pfund",
+      "english": "pound (500 g)",
+      "note": "Half a kilo, not 454 g!"
+    },
+    {
+      "german": "der Liter",
+      "english": "litre"
+    },
+    {
+      "german": "das Grad",
+      "english": "degree",
+      "note": "zehn Grad = 10 °C"
+    },
+    {
+      "german": "das Prozent",
+      "english": "percent"
+    }
+  ],
+  "intro": {
+    "title": "Zwei Kilo Äpfel",
+    "paragraphs": [
+      "With numbers, measure words stay singular: zwei Euro, drei Kilo, fünf Meter, zwanzig Grad. And you don't need 'of': ein Kilo Äpfel is a kilo of apples.",
+      "Germans use the metric system. At the market a Pfund is exactly 500 grams. Prices are said with Euro in the middle: 2,50 € is zwei Euro fünfzig."
+    ]
+  },
+  "sampleSentences": [
+    {
+      "german": "Ich nehme ein Kilo Tomaten.",
+      "english": "I'll take a kilo of tomatoes.",
+      "highlight": [
+        "Kilo"
+      ]
+    },
+    {
+      "german": "Das kostet drei Euro fünfzig.",
+      "english": "That costs three euros fifty.",
+      "highlight": [
+        "Euro"
+      ]
+    },
+    {
+      "german": "Heute haben wir dreißig Grad.",
+      "english": "It's thirty degrees today.",
+      "highlight": [
+        "Grad."
+      ]
+    }
+  ],
+  "forms": [
+    "der Euro",
+    "Euro",
+    "der Cent",
+    "Cent",
+    "der Franken",
+    "Franken",
+    "der Meter",
+    "Meter",
+    "der Zentimeter",
+    "Zentimeter",
+    "der Kilometer",
+    "Kilometer",
+    "der Quadratmeter",
+    "Quadratmeter",
+    "das Gramm",
+    "Gramm",
+    "das Kilo",
+    "Kilo",
+    "das Pfund",
+    "Pfund",
+    "der Liter",
+    "Liter",
+    "das Grad",
+    "Grad",
+    "das Prozent",
+    "Prozent",
+    "Kilogramm",
+    "Rappen"
+  ],
+  "memoryHook": "Numbers keep measures singular: zwei Euro, drei Kilo, zwanzig Grad.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "'Five euros' is…",
+      "options": [
+        "fünf Euro",
+        "fünf Euros"
+      ],
+      "answer": "fünf Euro",
+      "explanation": "No plural after a number.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "'A kilo of apples':",
+      "options": [
+        "ein Kilo Äpfel",
+        "ein Kilo von Äpfeln"
+      ],
+      "answer": "ein Kilo Äpfel",
+      "explanation": "No 'of' needed.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "At a German market, ein Pfund is…",
+      "options": [
+        "500 grams",
+        "454 grams"
+      ],
+      "answer": "500 grams",
+      "explanation": "Half a kilo.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "2,50 € is said…",
+      "options": [
+        "zwei Euro fünfzig",
+        "zwei fünfzig Euro Cent"
+      ],
+      "answer": "zwei Euro fünfzig",
+      "explanation": "Euro in the middle.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Es ist kalt: minus fünf ___.",
+      "answer": "Grad",
+      "fullAnswer": "Es ist kalt: minus fünf Grad.",
+      "explanation": "Das Grad.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "The flat has 60 m². Say:",
+      "options": [
+        "sechzig Quadratmeter",
+        "sechzig Meter Quadrat"
+      ],
+      "answer": "sechzig Quadratmeter",
+      "explanation": "Quadrat + Meter.",
+      "id": "q6"
+    }
+  ]
+}

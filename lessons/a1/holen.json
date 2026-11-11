@@ -1,0 +1,165 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "holen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "HOH-len",
+      "ipa": "ˈhoːlən",
+      "notes": ""
+    },
+    "meaning": "to fetch, to get",
+    "shortDefinition": "To fetch, to get."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "hol|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "hol|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "hol|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "hol|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "hol|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "hol|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat geholt"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "abholen",
+      "english": "to pick up",
+      "type": "separable verb"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich hole schnell Brötchen.",
+      "english": "I'll quickly get some rolls.",
+      "highlight": [
+        "hole"
+      ]
+    },
+    {
+      "german": "Hol bitte den Arzt!",
+      "english": "Please get the doctor!",
+      "highlight": [
+        "Hol"
+      ]
+    },
+    {
+      "german": "Er hat mir ein Glas Wasser geholt.",
+      "english": "He fetched me a glass of water.",
+      "highlight": [
+        "geholt."
+      ]
+    }
+  ],
+  "forms": [
+    "hole",
+    "holst",
+    "holt",
+    "holen",
+    "geholt"
+  ],
+  "memoryHook": "Holen = fetch, go and get. Abholen = pick someone up.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (holen)",
+      "answer": "holt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: holt.",
+      "acceptedAnswers": [
+        "holt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (holen, past)",
+      "answer": "geholt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe geholt.",
+      "acceptedAnswers": [
+        "geholt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does holen mean?",
+      "options": [
+        "expensive",
+        "to fetch",
+        "the car"
+      ],
+      "answer": "to fetch",
+      "explanation": "holen: to fetch, to get.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Holen means…",
+      "options": [
+        "go and get",
+        "hold"
+      ],
+      "answer": "go and get",
+      "explanation": "Fetch.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Abholen means…",
+      "options": [
+        "to pick up (someone)",
+        "to hold off"
+      ],
+      "answer": "to pick up (someone)",
+      "explanation": "Ab + holen.",
+      "id": "q5"
+    }
+  ]
+}

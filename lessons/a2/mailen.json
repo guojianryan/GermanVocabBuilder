@@ -1,0 +1,158 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Momente A2.2 Kursbuch Glossar",
+  "lessonType": "card",
+  "word": {
+    "headword": "mailen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "MAY-len",
+      "ipa": "ˈmeːlən",
+      "notes": ""
+    },
+    "meaning": "to email",
+    "shortDefinition": "To email."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "mail|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "mail|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "mail|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "mail|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "mail|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "mail|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gemailt"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich maile dir die Fotos.",
+      "english": "I'll email you the photos.",
+      "highlight": [
+        "maile"
+      ]
+    },
+    {
+      "german": "Hast du ihr schon gemailt?",
+      "english": "Have you emailed her yet?",
+      "highlight": [
+        "gemailt?"
+      ]
+    },
+    {
+      "german": "Kannst du mir die Adresse mailen?",
+      "english": "Can you email me the address?",
+      "highlight": [
+        "mailen?"
+      ]
+    }
+  ],
+  "forms": [
+    "maile",
+    "mailst",
+    "mailt",
+    "mailen",
+    "gemailt"
+  ],
+  "memoryHook": "Mailen = eine E-Mail schicken.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (mailen)",
+      "answer": "mailt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: mailt.",
+      "acceptedAnswers": [
+        "mailt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (mailen, past)",
+      "answer": "gemailt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gemailt.",
+      "acceptedAnswers": [
+        "gemailt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does mailen mean?",
+      "options": [
+        "to open",
+        "always",
+        "to email"
+      ],
+      "answer": "to email",
+      "explanation": "mailen: to email.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Pronunciation:",
+      "options": [
+        "like English 'mail'",
+        "MY-len"
+      ],
+      "answer": "like English 'mail'",
+      "explanation": "English loan.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "hat gemailt",
+        "hat gemailed"
+      ],
+      "answer": "hat gemailt",
+      "explanation": "German ending.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Museum",
+    "partOfSpeech": "noun, neuter (das Museum)",
+    "pronunciation": {
+      "respelling": "moo-ZAY-oom",
+      "ipa": "muˈzeːʊm",
+      "notes": "Plural: die Museen."
+    },
+    "meaning": "museum",
+    "shortDefinition": "Museum."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Museum, plural die Museen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Museum"
+        },
+        {
+          "label": "More than one",
+          "value": "die Museen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir gehen heute ins Museum.",
+      "english": "We're going to the museum today.",
+      "highlight": [
+        "Museum."
+      ]
+    },
+    {
+      "german": "Das Museum ist montags geschlossen.",
+      "english": "The museum is closed on Mondays.",
+      "highlight": [
+        "Museum"
+      ]
+    },
+    {
+      "german": "Berlin hat viele Museen.",
+      "english": "Berlin has many museums.",
+      "highlight": [
+        "Museen."
+      ]
+    }
+  ],
+  "forms": [
+    "Museen",
+    "die Museen",
+    "das Museum"
+  ],
+  "memoryHook": "Das Museum, die Museen. Ins Museum gehen.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Museum",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Museum is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Museum, zwei ___",
+      "answer": "Museen",
+      "fullAnswer": "ein Museum, zwei Museen",
+      "explanation": "The plural is Museen.",
+      "acceptedAnswers": [
+        "Museen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Museum mean?",
+      "options": [
+        "the flower",
+        "museum",
+        "the family"
+      ],
+      "answer": "museum",
+      "explanation": "Museum: museum.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Museen",
+        "Museums"
+      ],
+      "answer": "Museen",
+      "explanation": "-um → -en.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Stress on…",
+      "options": [
+        "-SE-",
+        "MU-"
+      ],
+      "answer": "-SE-",
+      "explanation": "moo-ZAY-oom.",
+      "id": "q5"
+    }
+  ]
+}

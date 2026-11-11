@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Tipp",
+    "partOfSpeech": "noun, masculine (der Tipp)",
+    "pronunciation": {
+      "respelling": "TIP",
+      "ipa": "tɪp",
+      "notes": "Plural: die Tipps."
+    },
+    "meaning": "tip, hint",
+    "shortDefinition": "Tip, hint."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Tipp, plural die Tipps.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Tipp"
+        },
+        {
+          "label": "More than one",
+          "value": "die Tipps"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Danke für den Tipp!",
+      "english": "Thanks for the tip!",
+      "highlight": [
+        "Tipp!"
+      ]
+    },
+    {
+      "german": "Hast du einen Tipp für mich?",
+      "english": "Have you got a tip for me?",
+      "highlight": [
+        "Tipp"
+      ]
+    },
+    {
+      "german": "Hier sind ein paar Tipps zum Deutschlernen.",
+      "english": "Here are a few tips for learning German.",
+      "highlight": [
+        "Tipps"
+      ]
+    }
+  ],
+  "forms": [
+    "Trinkgeld"
+  ],
+  "memoryHook": "Der Tipp = hint. A tip for the waiter = das Trinkgeld!",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Tipp",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Tipp is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Tipp, zwei ___",
+      "answer": "Tipps",
+      "fullAnswer": "ein Tipp, zwei Tipps",
+      "explanation": "The plural is Tipps.",
+      "acceptedAnswers": [
+        "Tipps"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Tipp mean?",
+      "options": [
+        "never",
+        "tip",
+        "to sleep"
+      ],
+      "answer": "tip",
+      "explanation": "Tipp: tip, hint.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Der Tipp means…",
+      "options": [
+        "advice, hint",
+        "money for a waiter"
+      ],
+      "answer": "advice, hint",
+      "explanation": "Money: das Trinkgeld.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Spelling:",
+      "options": [
+        "Tipp (double p)",
+        "Tip"
+      ],
+      "answer": "Tipp (double p)",
+      "explanation": "Double p.",
+      "id": "q5"
+    }
+  ]
+}

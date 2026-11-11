@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Stipendium",
+    "partOfSpeech": "noun, neuter (das Stipendium)",
+    "pronunciation": {
+      "respelling": "shti-PEN-dee-oom",
+      "ipa": "ʃtiˈpɛndi̯ʊm",
+      "notes": "Plural: die Stipendien."
+    },
+    "meaning": "scholarship, grant",
+    "shortDefinition": "Scholarship, grant."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Stipendium, plural die Stipendien.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Stipendium"
+        },
+        {
+          "label": "More than one",
+          "value": "die Stipendien"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Sie hat ein Stipendium bekommen.",
+      "english": "She got a scholarship.",
+      "highlight": [
+        "Stipendium"
+      ]
+    },
+    {
+      "german": "Ohne Stipendium könnte ich nicht studieren.",
+      "english": "Without a grant I couldn't study.",
+      "highlight": [
+        "Stipendium"
+      ]
+    },
+    {
+      "german": "Ich bewerbe mich um ein Stipendium.",
+      "english": "I'm applying for a scholarship.",
+      "highlight": [
+        "Stipendium."
+      ]
+    }
+  ],
+  "forms": [
+    "Stipendien",
+    "die Stipendien",
+    "das Stipendium"
+  ],
+  "memoryHook": "Das Stipendium, die Stipendien.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Stipendium",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Stipendium is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Stipendium, zwei ___",
+      "answer": "Stipendien",
+      "fullAnswer": "ein Stipendium, zwei Stipendien",
+      "explanation": "The plural is Stipendien.",
+      "acceptedAnswers": [
+        "Stipendien"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Stipendium mean?",
+      "options": [
+        "never",
+        "quiet",
+        "scholarship"
+      ],
+      "answer": "scholarship",
+      "explanation": "Stipendium: scholarship, grant.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Stipendien",
+        "Stipendiums"
+      ],
+      "answer": "Stipendien",
+      "explanation": "-um → -ien.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Apply ___ a scholarship:",
+      "options": [
+        "um / für",
+        "auf"
+      ],
+      "answer": "um / für",
+      "explanation": "Sich bewerben um.",
+      "id": "q5"
+    }
+  ]
+}

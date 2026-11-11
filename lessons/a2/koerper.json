@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Körper",
+    "partOfSpeech": "noun, masculine (der Körper)",
+    "pronunciation": {
+      "respelling": "KÖR-per",
+      "ipa": "ˈkœʁpɐ",
+      "notes": "The plural looks the same. Plural: die Körper."
+    },
+    "meaning": "body",
+    "shortDefinition": "Body."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Körper, plural die Körper.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Körper"
+        },
+        {
+          "label": "More than one",
+          "value": "die Körper"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Sport ist gut für den Körper.",
+      "english": "Sport is good for the body.",
+      "highlight": [
+        "Körper."
+      ]
+    },
+    {
+      "german": "Mein ganzer Körper tut weh.",
+      "english": "My whole body hurts.",
+      "highlight": [
+        "Körper"
+      ]
+    },
+    {
+      "german": "Der Körper braucht Wasser.",
+      "english": "The body needs water.",
+      "highlight": [
+        "Körper"
+      ]
+    }
+  ],
+  "forms": [
+    "Körper",
+    "die Körper",
+    "der Körper"
+  ],
+  "memoryHook": "Der Körper = body (Latin corpus).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Körper",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Körper is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Körper, zwei ___",
+      "answer": "Körper",
+      "fullAnswer": "ein Körper, zwei Körper",
+      "explanation": "The plural is Körper.",
+      "acceptedAnswers": [
+        "Koerper"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Körper mean?",
+      "options": [
+        "the weather",
+        "the child",
+        "body"
+      ],
+      "answer": "body",
+      "explanation": "Körper: body.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Related to English…",
+      "options": [
+        "corpse / corps (Latin corpus)",
+        "copper"
+      ],
+      "answer": "corpse / corps (Latin corpus)",
+      "explanation": "Same root.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Körper",
+        "Körpers"
+      ],
+      "answer": "Körper",
+      "explanation": "No change.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Dialog",
+    "partOfSpeech": "noun, masculine (der Dialog)",
+    "pronunciation": {
+      "respelling": "dee-a-LOHK",
+      "ipa": "di̯aˈloːk",
+      "notes": "Plural: die Dialoge."
+    },
+    "meaning": "dialogue",
+    "shortDefinition": "Dialogue."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Dialog, plural die Dialoge.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Dialog"
+        },
+        {
+          "label": "More than one",
+          "value": "die Dialoge"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Lesen Sie den Dialog.",
+      "english": "Read the dialogue.",
+      "highlight": [
+        "Dialog."
+      ]
+    },
+    {
+      "german": "Wir schreiben einen Dialog.",
+      "english": "We're writing a dialogue.",
+      "highlight": [
+        "Dialog."
+      ]
+    },
+    {
+      "german": "Ein Dialog ist besser als Streit.",
+      "english": "Dialogue is better than arguing.",
+      "highlight": [
+        "Dialog"
+      ]
+    }
+  ],
+  "forms": [
+    "Dialoge",
+    "die Dialoge",
+    "der Dialog"
+  ],
+  "memoryHook": "Der Dialog (final g = k).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Dialog",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Dialog is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Dialog, zwei ___",
+      "answer": "Dialoge",
+      "fullAnswer": "ein Dialog, zwei Dialoge",
+      "explanation": "The plural is Dialoge.",
+      "acceptedAnswers": [
+        "Dialoge"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Dialog mean?",
+      "options": [
+        "slowly",
+        "the job",
+        "dialogue"
+      ],
+      "answer": "dialogue",
+      "explanation": "Dialog: dialogue.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Dialoge",
+        "Dialogs"
+      ],
+      "answer": "Dialoge",
+      "explanation": "-e.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Final g sounds like…",
+      "options": [
+        "k",
+        "g"
+      ],
+      "answer": "k",
+      "explanation": "dee-a-LOHK.",
+      "id": "q5"
+    }
+  ]
+}

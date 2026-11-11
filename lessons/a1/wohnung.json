@@ -1,0 +1,160 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "lessonType": "card",
+  "word": {
+    "headword": "Wohnung",
+    "partOfSpeech": "noun, feminine (die Wohnung)",
+    "pronunciation": {
+      "respelling": "VOH-noong",
+      "ipa": "ˈvoːnʊŋ",
+      "notes": "W sounds like English v. Long o. Plural: die Wohnungen."
+    },
+    "meaning": "flat, apartment",
+    "shortDefinition": "A flat or apartment."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "wohn-",
+        "meaning": "from wohnen, to live (somewhere)"
+      },
+      {
+        "part": "-ung",
+        "meaning": "noun ending",
+        "note": "Every -ung noun is feminine."
+      }
+    ],
+    "literalMeaning": "a living-place",
+    "summary": "Take the verb wohnen, add -ung, and you get the place where you live."
+  },
+  "wordFamily": [
+    {
+      "german": "wohnen",
+      "english": "to live (at an address)",
+      "type": "verb"
+    },
+    {
+      "german": "das Wohnzimmer",
+      "english": "living room",
+      "type": "noun"
+    },
+    {
+      "german": "die WG (Wohngemeinschaft)",
+      "english": "shared flat",
+      "type": "noun"
+    },
+    {
+      "german": "das Haus",
+      "english": "house",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "wohnen or leben?",
+      "explanation": "For your address or city, use wohnen. Leben is about being alive or your life in general.",
+      "wrong": "Ich lebe in der Goethestraße 5.",
+      "correct": "Ich wohne in der Goethestraße 5."
+    },
+    {
+      "title": "Gender and plural",
+      "explanation": "-ung is always feminine, and the plural adds -en.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Wohnung"
+        },
+        {
+          "label": "More than one",
+          "value": "die Wohnungen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir suchen eine Wohnung mit zwei Zimmern.",
+      "english": "We're looking for a two-room flat.",
+      "highlight": [
+        "Wohnung"
+      ]
+    },
+    {
+      "german": "Meine Wohnung ist klein, aber hell.",
+      "english": "My flat is small but bright.",
+      "highlight": [
+        "Wohnung"
+      ]
+    },
+    {
+      "german": "Wo wohnst du? – In einer WG in Köln.",
+      "english": "Where do you live? – In a shared flat in Cologne.",
+      "highlight": [
+        "wohnst"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "fill-in-the-blank",
+      "prompt": "Ich ___ in Hamburg. (wohnen)",
+      "answer": "wohne",
+      "fullAnswer": "Ich wohne in Hamburg.",
+      "explanation": "Your address or city: wohnen."
+    },
+    {
+      "type": "choice",
+      "prompt": "___ Wohnung",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Every -ung noun is feminine.",
+      "id": "q2"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "eine Wohnung, zwei ___",
+      "answer": "Wohnungen",
+      "fullAnswer": "eine Wohnung, zwei Wohnungen",
+      "explanation": "The plural adds -en.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich ___ in der Bahnhofstraße 3.",
+      "options": [
+        "lebe",
+        "wohne"
+      ],
+      "answer": "wohne",
+      "explanation": "Your address: wohnen.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "das ___zimmer (living room)",
+      "answer": "Wohn",
+      "fullAnswer": "das Wohnzimmer",
+      "explanation": "Wohnzimmer: the room you live in.",
+      "id": "q5"
+    }
+  ],
+  "forms": [
+    "Wohnungen",
+    "wohnen",
+    "wohne",
+    "wohnst",
+    "wohnt"
+  ],
+  "memoryHook": "Wohnen + -ung = Wohnung, the place where you wohnst.",
+  "signOff": "Willkommen zu Hause!",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste"
+}

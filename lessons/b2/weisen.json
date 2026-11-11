@@ -1,0 +1,167 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "weisen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "VYE-zen",
+      "ipa": "ˈvaɪ̯zn̩",
+      "notes": ""
+    },
+    "meaning": "to point, show; to refer",
+    "shortDefinition": "To point, show; to refer."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "weis|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "weis|t"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "weis|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "weis|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "weis|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "weis|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gewiesen"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er weist auf das Schild.",
+      "english": "He points to the sign.",
+      "highlight": [
+        "weist"
+      ]
+    },
+    {
+      "german": "Sie wies ihm den Weg.",
+      "english": "She showed him the way.",
+      "highlight": [
+        "wies"
+      ]
+    },
+    {
+      "german": "Das weise ich zurück.",
+      "english": "I reject that.",
+      "highlight": [
+        "weise",
+        "zurück."
+      ]
+    }
+  ],
+  "forms": [
+    "hinweisen",
+    "Ausweis"
+  ],
+  "memoryHook": "Weisen (wies, gewiesen) = point; hinweisen, Ausweis.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (weisen)",
+      "answer": "weist",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: weist.",
+      "acceptedAnswers": [
+        "weist"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (weisen, past)",
+      "answer": "gewiesen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gewiesen.",
+      "acceptedAnswers": [
+        "gewiesen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does weisen mean?",
+      "options": [
+        "to sing",
+        "to sleep",
+        "to point"
+      ],
+      "answer": "to point",
+      "explanation": "weisen: to point, show; to refer.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "hat gewiesen",
+        "hat geweist"
+      ],
+      "answer": "hat gewiesen",
+      "explanation": "Strong: wies, gewiesen.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Related:",
+      "options": [
+        "hinweisen, nachweisen, ausweisen",
+        "wissen"
+      ],
+      "answer": "hinweisen, nachweisen, ausweisen",
+      "explanation": "Family.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Don't confuse with…",
+      "options": [
+        "weise (wise)",
+        "Weise (way)"
+      ],
+      "answer": "weise (wise)",
+      "explanation": "Adjective.",
+      "id": "q6"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Muskel",
+    "partOfSpeech": "noun, masculine (der Muskel)",
+    "pronunciation": {
+      "respelling": "MOOS-kel",
+      "ipa": "ˈmʊskl̩",
+      "notes": "Plural: die Muskeln."
+    },
+    "meaning": "muscle",
+    "shortDefinition": "Muscle."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Muskel, plural die Muskeln.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Muskel"
+        },
+        {
+          "label": "More than one",
+          "value": "die Muskeln"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich habe Muskelkater.",
+      "english": "My muscles ache (after sport).",
+      "highlight": [
+        "Muskelkater."
+      ]
+    },
+    {
+      "german": "Er hat starke Muskeln.",
+      "english": "He has strong muscles.",
+      "highlight": [
+        "Muskeln."
+      ]
+    },
+    {
+      "german": "Der Muskel tut weh.",
+      "english": "The muscle hurts.",
+      "highlight": [
+        "Muskel"
+      ]
+    }
+  ],
+  "forms": [
+    "Muskeln",
+    "die Muskeln",
+    "der Muskel"
+  ],
+  "memoryHook": "Der Muskel, die Muskeln. Muskelkater = aching muscles.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Muskel",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Muskel is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Muskel, zwei ___",
+      "answer": "Muskeln",
+      "fullAnswer": "ein Muskel, zwei Muskeln",
+      "explanation": "The plural is Muskeln.",
+      "acceptedAnswers": [
+        "Muskeln"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Muskel mean?",
+      "options": [
+        "muscle",
+        "the station",
+        "the flower"
+      ],
+      "answer": "muscle",
+      "explanation": "Muskel: muscle.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Muskelkater' (muscle tomcat!) is…",
+      "options": [
+        "sore muscles after exercise",
+        "a gym cat"
+      ],
+      "answer": "sore muscles after exercise",
+      "explanation": "Fun word.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Muskeln",
+        "Muskels"
+      ],
+      "answer": "Muskeln",
+      "explanation": "-n.",
+      "id": "q5"
+    }
+  ]
+}

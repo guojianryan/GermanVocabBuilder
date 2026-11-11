@@ -1,0 +1,173 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "(sich) duschen",
+    "partOfSpeech": "verb, optionally reflexive",
+    "pronunciation": {
+      "respelling": "DOO-shen",
+      "ipa": "ˈduːʃn̩",
+      "notes": ""
+    },
+    "meaning": "to shower, to have a shower",
+    "shortDefinition": "To shower, to have a shower."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "dusch|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "dusch|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "dusch|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "dusch|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "dusch|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "dusch|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat geduscht",
+        "Du duschst: the stem ends in -sch, so du just adds -st."
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "die Dusche",
+      "english": "shower",
+      "type": "noun"
+    },
+    {
+      "german": "baden",
+      "english": "to have a bath",
+      "type": "verb"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich dusche jeden Morgen.",
+      "english": "I shower every morning.",
+      "highlight": [
+        "dusche"
+      ]
+    },
+    {
+      "german": "Er duscht sich nach dem Sport.",
+      "english": "He showers after sport.",
+      "highlight": [
+        "duscht",
+        "sich"
+      ]
+    },
+    {
+      "german": "Das Zimmer hat eine Dusche.",
+      "english": "The room has a shower.",
+      "highlight": [
+        "Dusche."
+      ]
+    }
+  ],
+  "forms": [
+    "dusche",
+    "duschst",
+    "duscht",
+    "duschen",
+    "geduscht",
+    "Dusche"
+  ],
+  "memoryHook": "Duschen = shower (die Dusche). Sich is optional: ich dusche or ich dusche mich.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ ((sich) duschen)",
+      "answer": "duscht",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: duscht.",
+      "acceptedAnswers": [
+        "duscht"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. ((sich) duschen, past)",
+      "answer": "geduscht",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe geduscht.",
+      "acceptedAnswers": [
+        "geduscht"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does (sich) duschen mean?",
+      "options": [
+        "the evening",
+        "to shower",
+        "hot"
+      ],
+      "answer": "to shower",
+      "explanation": "(sich) duschen: to shower, to have a shower.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "The noun for shower is…",
+      "options": [
+        "die Dusche",
+        "der Duscher"
+      ],
+      "answer": "die Dusche",
+      "explanation": "Die Dusche.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich bade nicht, ich ___ lieber.",
+      "options": [
+        "dusche",
+        "wasche"
+      ],
+      "answer": "dusche",
+      "explanation": "Shower rather than bath.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Kongress",
+    "partOfSpeech": "noun, masculine (der Kongress)",
+    "pronunciation": {
+      "respelling": "kon-GRES",
+      "ipa": "kɔŋˈɡʁɛs",
+      "notes": "Plural: die Kongresse."
+    },
+    "meaning": "congress, conference",
+    "shortDefinition": "Congress, conference."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Kongress, plural die Kongresse.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Kongress"
+        },
+        {
+          "label": "More than one",
+          "value": "die Kongresse"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Ärztekongress findet in Wien statt.",
+      "english": "The medical conference takes place in Vienna.",
+      "highlight": [
+        "Ärztekongress"
+      ]
+    },
+    {
+      "german": "Sie hält einen Vortrag auf dem Kongress.",
+      "english": "She's giving a talk at the conference.",
+      "highlight": [
+        "Kongress."
+      ]
+    },
+    {
+      "german": "Der US-Kongress hat abgestimmt.",
+      "english": "The US Congress has voted.",
+      "highlight": [
+        "US-Kongress"
+      ]
+    }
+  ],
+  "forms": [
+    "Kongresse",
+    "die Kongresse",
+    "der Kongress"
+  ],
+  "memoryHook": "Der Kongress = conference; US Congress.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Kongress",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Kongress is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Kongress, zwei ___",
+      "answer": "Kongresse",
+      "fullAnswer": "ein Kongress, zwei Kongresse",
+      "explanation": "The plural is Kongresse.",
+      "acceptedAnswers": [
+        "Kongresse"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Kongress mean?",
+      "options": [
+        "congress",
+        "hot",
+        "the bread"
+      ],
+      "answer": "congress",
+      "explanation": "Kongress: congress, conference.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Stress on…",
+      "options": [
+        "-GRESS",
+        "KON-"
+      ],
+      "answer": "-GRESS",
+      "explanation": "End.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonym (meeting):",
+      "options": [
+        "die Konferenz, die Tagung",
+        "die Party"
+      ],
+      "answer": "die Konferenz, die Tagung",
+      "explanation": "Conference.",
+      "id": "q5"
+    }
+  ]
+}

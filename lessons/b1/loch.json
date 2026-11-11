@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Loch",
+    "partOfSpeech": "noun, neuter (das Loch)",
+    "pronunciation": {
+      "respelling": "LOKH",
+      "ipa": "lɔx",
+      "notes": "Plural: die Löcher."
+    },
+    "meaning": "hole",
+    "shortDefinition": "Hole."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Loch, plural die Löcher.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Loch"
+        },
+        {
+          "label": "More than one",
+          "value": "die Löcher"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Meine Socke hat ein Loch.",
+      "english": "My sock has a hole in it.",
+      "highlight": [
+        "Loch."
+      ]
+    },
+    {
+      "german": "In der Straße ist ein großes Loch.",
+      "english": "There's a big hole in the road.",
+      "highlight": [
+        "Loch."
+      ]
+    },
+    {
+      "german": "Die Hose hat Löcher.",
+      "english": "The trousers have holes.",
+      "highlight": [
+        "Löcher."
+      ]
+    }
+  ],
+  "forms": [
+    "Löcher",
+    "die Löcher",
+    "das Loch"
+  ],
+  "memoryHook": "Das Loch, die Löcher (sounds like Scottish loch).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Loch",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Loch is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Loch, zwei ___",
+      "answer": "Löcher",
+      "fullAnswer": "ein Loch, zwei Löcher",
+      "explanation": "The plural is Löcher.",
+      "acceptedAnswers": [
+        "Loecher"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Loch mean?",
+      "options": [
+        "hole",
+        "cheap",
+        "the bill"
+      ],
+      "answer": "hole",
+      "explanation": "Loch: hole.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Löcher",
+        "Loche"
+      ],
+      "answer": "Löcher",
+      "explanation": "o → ö + -er.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "ch sounds like…",
+      "options": [
+        "Scottish 'loch'",
+        "k"
+      ],
+      "answer": "Scottish 'loch'",
+      "explanation": "Same word!",
+      "id": "q5"
+    }
+  ]
+}

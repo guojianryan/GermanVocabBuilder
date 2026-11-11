@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Fisch",
+    "partOfSpeech": "noun, masculine (der Fisch)",
+    "pronunciation": {
+      "respelling": "FISH",
+      "ipa": "fɪʃ",
+      "notes": "Plural: die Fische."
+    },
+    "meaning": "fish",
+    "shortDefinition": "Fish."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Fisch, plural die Fische.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Fisch"
+        },
+        {
+          "label": "More than one",
+          "value": "die Fische"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich esse gern Fisch. Fleisch mag ich nicht.",
+      "english": "I like eating fish. I don't like meat.",
+      "highlight": [
+        "Fisch."
+      ]
+    },
+    {
+      "german": "Im See gibt es viele Fische.",
+      "english": "There are lots of fish in the lake.",
+      "highlight": [
+        "Fische."
+      ]
+    },
+    {
+      "german": "Heute gibt es Fisch mit Kartoffeln.",
+      "english": "Today there's fish with potatoes.",
+      "highlight": [
+        "Fisch"
+      ]
+    }
+  ],
+  "forms": [
+    "Fische",
+    "die Fische",
+    "der Fisch"
+  ],
+  "memoryHook": "Der Fisch: the same word as English with sch for sh.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Fisch",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Fisch is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Fisch, zwei ___",
+      "answer": "Fische",
+      "fullAnswer": "ein Fisch, zwei Fische",
+      "explanation": "The plural is Fische.",
+      "acceptedAnswers": [
+        "Fische"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Fisch mean?",
+      "options": [
+        "to travel",
+        "expensive",
+        "fish"
+      ],
+      "answer": "fish",
+      "explanation": "Fisch: fish.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'I like fish' (food):",
+      "options": [
+        "Ich esse gern Fisch.",
+        "Ich esse gern einen Fisch."
+      ],
+      "answer": "Ich esse gern Fisch.",
+      "explanation": "Food in general: no article.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Sch sounds like…",
+      "options": [
+        "sh",
+        "sk"
+      ],
+      "answer": "sh",
+      "explanation": "FISH, just like English.",
+      "id": "q5"
+    }
+  ]
+}

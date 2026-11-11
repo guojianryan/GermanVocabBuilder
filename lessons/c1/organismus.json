@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Organismus",
+    "partOfSpeech": "noun, masculine (der Organismus)",
+    "pronunciation": {
+      "respelling": "or-ga-NIS-moos",
+      "ipa": "ɔʁɡaˈnɪsmʊs",
+      "notes": "Plural: die Organismen."
+    },
+    "meaning": "organism",
+    "shortDefinition": "Organism."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Organismus, plural die Organismen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Organismus"
+        },
+        {
+          "label": "More than one",
+          "value": "die Organismen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der menschliche Organismus.",
+      "english": "The human organism.",
+      "highlight": [
+        "Organismus."
+      ]
+    },
+    {
+      "german": "Genetisch veränderte Organismen.",
+      "english": "Genetically modified organisms.",
+      "highlight": [
+        "Organismen."
+      ]
+    },
+    {
+      "german": "Ein einzelliger Organismus.",
+      "english": "A single-celled organism.",
+      "highlight": [
+        "Organismus."
+      ]
+    }
+  ],
+  "forms": [
+    "Organ"
+  ],
+  "memoryHook": "Der Organismus (die Organismen).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Organismus",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Organismus is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Organismus, zwei ___",
+      "answer": "Organismen",
+      "fullAnswer": "ein Organismus, zwei Organismen",
+      "explanation": "The plural is Organismen.",
+      "acceptedAnswers": [
+        "Organismen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Organismus mean?",
+      "options": [
+        "the job",
+        "organism",
+        "to wait"
+      ],
+      "answer": "organism",
+      "explanation": "Organismus: organism.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Organismen",
+        "Organismusse"
+      ],
+      "answer": "Organismen",
+      "explanation": "-us → -en.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "-ismus words are…",
+      "options": [
+        "der",
+        "die"
+      ],
+      "answer": "der",
+      "explanation": "Masculine.",
+      "id": "q5"
+    }
+  ]
+}

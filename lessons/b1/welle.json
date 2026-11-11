@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Welle",
+    "partOfSpeech": "noun, feminine (die Welle)",
+    "pronunciation": {
+      "respelling": "VEL-e",
+      "ipa": "ˈvɛlə",
+      "notes": "Plural: die Wellen."
+    },
+    "meaning": "wave",
+    "shortDefinition": "Wave."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Welle, plural die Wellen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Welle"
+        },
+        {
+          "label": "More than one",
+          "value": "die Wellen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Wellen sind heute hoch.",
+      "english": "The waves are high today.",
+      "highlight": [
+        "Wellen"
+      ]
+    },
+    {
+      "german": "Eine Hitzewelle kommt.",
+      "english": "A heatwave is coming.",
+      "highlight": [
+        "Hitzewelle"
+      ]
+    },
+    {
+      "german": "Die zweite Welle war schlimmer.",
+      "english": "The second wave was worse.",
+      "highlight": [
+        "Welle"
+      ]
+    }
+  ],
+  "forms": [
+    "Wellen",
+    "die Wellen",
+    "die Welle"
+  ],
+  "memoryHook": "Die Welle (wave). Hitzewelle.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Welle",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Welle is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Welle, zwei ___",
+      "answer": "Wellen",
+      "fullAnswer": "ein Welle, zwei Wellen",
+      "explanation": "The plural is Wellen.",
+      "acceptedAnswers": [
+        "Wellen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Welle mean?",
+      "options": [
+        "to sleep",
+        "quiet",
+        "wave"
+      ],
+      "answer": "wave",
+      "explanation": "Welle: wave.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Heatwave:",
+      "options": [
+        "die Hitzewelle",
+        "die Wärmewelle"
+      ],
+      "answer": "die Hitzewelle",
+      "explanation": "Compound.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Wellen",
+        "Welles"
+      ],
+      "answer": "Wellen",
+      "explanation": "-n.",
+      "id": "q5"
+    }
+  ]
+}

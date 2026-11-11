@@ -1,0 +1,161 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "(sich) interessieren",
+    "partOfSpeech": "verb, often reflexive",
+    "pronunciation": {
+      "respelling": "in-te-re-SEE-ren",
+      "ipa": "ɪntəʁɛˈsiːʁən",
+      "notes": ""
+    },
+    "meaning": "to be interested (in)",
+    "shortDefinition": "To be interested (in)."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "interessier|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "interessier|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "interessier|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "interessier|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "interessier|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "interessier|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat interessiert"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich interessiere mich für Musik.",
+      "english": "I'm interested in music.",
+      "highlight": [
+        "interessiere",
+        "mich",
+        "für"
+      ]
+    },
+    {
+      "german": "Interessierst du dich für Fußball?",
+      "english": "Are you interested in football?",
+      "highlight": [
+        "Interessierst",
+        "dich",
+        "für"
+      ]
+    },
+    {
+      "german": "Das interessiert mich nicht.",
+      "english": "That doesn't interest me.",
+      "highlight": [
+        "interessiert"
+      ]
+    }
+  ],
+  "forms": [
+    "interessiere",
+    "interessierst",
+    "interessiert",
+    "interessieren"
+  ],
+  "memoryHook": "Sich interessieren FÜR (not in!). Interesse AN.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ ((sich) interessieren)",
+      "answer": "interessiert",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: interessiert.",
+      "acceptedAnswers": [
+        "interessiert"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe mich schon ___. ((sich) interessieren, past)",
+      "answer": "interessiert",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe mich interessiert.",
+      "acceptedAnswers": [
+        "interessiert"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does (sich) interessieren mean?",
+      "options": [
+        "the weather",
+        "the window",
+        "to be interested (in)"
+      ],
+      "answer": "to be interested (in)",
+      "explanation": "(sich) interessieren: to be interested (in).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Interested ___ something:",
+      "options": [
+        "für",
+        "in"
+      ],
+      "answer": "für",
+      "explanation": "Sich interessieren für.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'I'm interested in art':",
+      "options": [
+        "Ich interessiere mich für Kunst.",
+        "Ich bin interessiert in Kunst."
+      ],
+      "answer": "Ich interessiere mich für Kunst.",
+      "explanation": "Reflexive + für.",
+      "id": "q5"
+    }
+  ]
+}

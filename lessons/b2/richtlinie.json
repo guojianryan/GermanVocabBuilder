@@ -1,0 +1,138 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Richtlinie",
+    "partOfSpeech": "noun, feminine (die Richtlinie)",
+    "pronunciation": {
+      "respelling": "RIKHT-lee-nye",
+      "ipa": "ˈʁɪçtˌliːni̯ə",
+      "notes": "Plural: die Richtlinien."
+    },
+    "meaning": "guideline; directive",
+    "shortDefinition": "Guideline; directive."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Richt",
+        "meaning": "direct (richten)"
+      },
+      {
+        "part": "linie",
+        "meaning": "line"
+      }
+    ],
+    "literalMeaning": "directing line"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Richtlinie, plural die Richtlinien.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Richtlinie"
+        },
+        {
+          "label": "More than one",
+          "value": "die Richtlinien"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Bitte beachten Sie die Richtlinien.",
+      "english": "Please follow the guidelines.",
+      "highlight": [
+        "Richtlinien."
+      ]
+    },
+    {
+      "german": "Eine EU-Richtlinie zum Datenschutz.",
+      "english": "An EU directive on data protection.",
+      "highlight": [
+        "EU-Richtlinie"
+      ]
+    },
+    {
+      "german": "Neue Richtlinien für Lehrer.",
+      "english": "New guidelines for teachers.",
+      "highlight": [
+        "Richtlinien"
+      ]
+    }
+  ],
+  "forms": [
+    "Richtlinien",
+    "die Richtlinien",
+    "die Richtlinie"
+  ],
+  "memoryHook": "Richt + Linie = guideline; EU directive.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Richtlinie",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Richtlinie is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Richtlinie, zwei ___",
+      "answer": "Richtlinien",
+      "fullAnswer": "ein Richtlinie, zwei Richtlinien",
+      "explanation": "The plural is Richtlinien.",
+      "acceptedAnswers": [
+        "Richtlinien"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Richtlinie mean?",
+      "options": [
+        "guideline",
+        "to sing",
+        "the evening"
+      ],
+      "answer": "guideline",
+      "explanation": "Richtlinie: guideline; directive.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "richten (direct) + Linie (line)",
+        "Richter + Linie"
+      ],
+      "answer": "richten (direct) + Linie (line)",
+      "explanation": "Guide line.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "EU 'Richtlinie' =",
+      "options": [
+        "directive",
+        "regulation (Verordnung)"
+      ],
+      "answer": "directive",
+      "explanation": "EU law.",
+      "id": "q5"
+    }
+  ]
+}

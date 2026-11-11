@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Hof",
+    "partOfSpeech": "noun, masculine (der Hof)",
+    "pronunciation": {
+      "respelling": "HOHF",
+      "ipa": "hoːf",
+      "notes": "Plural: die Höfe."
+    },
+    "meaning": "yard, courtyard; farm",
+    "shortDefinition": "Yard, courtyard; farm."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Hof, plural die Höfe.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Hof"
+        },
+        {
+          "label": "More than one",
+          "value": "die Höfe"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Kinder spielen im Hof.",
+      "english": "The children are playing in the yard.",
+      "highlight": [
+        "Hof."
+      ]
+    },
+    {
+      "german": "Die Fahrräder stehen im Hinterhof.",
+      "english": "The bikes are in the back yard.",
+      "highlight": [
+        "Hinterhof."
+      ]
+    },
+    {
+      "german": "Er lebt auf einem Hof auf dem Land.",
+      "english": "He lives on a farm in the country.",
+      "highlight": [
+        "Hof"
+      ]
+    }
+  ],
+  "forms": [
+    "Höfe",
+    "die Höfe",
+    "der Hof"
+  ],
+  "memoryHook": "Der Hof: yard, farm. Bahnhof, Friedhof (cemetery).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Hof",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Hof is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Hof, zwei ___",
+      "answer": "Höfe",
+      "fullAnswer": "ein Hof, zwei Höfe",
+      "explanation": "The plural is Höfe.",
+      "acceptedAnswers": [
+        "Hoefe"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Hof mean?",
+      "options": [
+        "to help",
+        "always",
+        "yard"
+      ],
+      "answer": "yard",
+      "explanation": "Hof: yard, courtyard; farm.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Höfe",
+        "Hofe"
+      ],
+      "answer": "Höfe",
+      "explanation": "o → ö.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Bahnhof, Friedhof, Flughafen: Hof means…",
+      "options": [
+        "yard, court",
+        "hope"
+      ],
+      "answer": "yard, court",
+      "explanation": "Compounds.",
+      "id": "q5"
+    }
+  ]
+}

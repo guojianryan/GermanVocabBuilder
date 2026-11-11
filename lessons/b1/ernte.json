@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Ernte",
+    "partOfSpeech": "noun, feminine (die Ernte)",
+    "pronunciation": {
+      "respelling": "AIRN-te",
+      "ipa": "ˈɛʁntə",
+      "notes": "Plural: die Ernten."
+    },
+    "meaning": "harvest",
+    "shortDefinition": "Harvest."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Ernte, plural die Ernten.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Ernte"
+        },
+        {
+          "label": "More than one",
+          "value": "die Ernten"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Ernte war dieses Jahr gut.",
+      "english": "The harvest was good this year.",
+      "highlight": [
+        "Ernte"
+      ]
+    },
+    {
+      "german": "Im Herbst ist Erntezeit.",
+      "english": "Autumn is harvest time.",
+      "highlight": [
+        "Erntezeit."
+      ]
+    },
+    {
+      "german": "Die Bauern bringen die Ernte ein.",
+      "english": "The farmers bring in the harvest.",
+      "highlight": [
+        "Ernte"
+      ]
+    }
+  ],
+  "forms": [
+    "ernten"
+  ],
+  "memoryHook": "Die Ernte → ernten (harvest). Erntedankfest in autumn.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Ernte",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Ernte is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Ernte, zwei ___",
+      "answer": "Ernten",
+      "fullAnswer": "ein Ernte, zwei Ernten",
+      "explanation": "The plural is Ernten.",
+      "acceptedAnswers": [
+        "Ernten"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Ernte mean?",
+      "options": [
+        "slowly",
+        "to travel",
+        "harvest"
+      ],
+      "answer": "harvest",
+      "explanation": "Ernte: harvest.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Verb:",
+      "options": [
+        "ernten",
+        "erntern"
+      ],
+      "answer": "ernten",
+      "explanation": "To harvest.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Harvest festival:",
+      "options": [
+        "das Erntedankfest",
+        "das Erntefest only"
+      ],
+      "answer": "das Erntedankfest",
+      "explanation": "Thanksgiving.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "aus sein",
+    "partOfSpeech": "verb phrase",
+    "pronunciation": {
+      "respelling": "OWS zine",
+      "ipa": "aʊ̯s zaɪn",
+      "notes": ""
+    },
+    "meaning": "to be off (lights, machines); to be over",
+    "shortDefinition": "To be off (lights, machines); to be over."
+  },
+  "wordFamily": [
+    {
+      "german": "an sein",
+      "english": "to be on",
+      "type": "phrase"
+    },
+    {
+      "german": "ausmachen",
+      "english": "to turn off",
+      "type": "separable verb"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das Licht ist aus.",
+      "english": "The light is off.",
+      "highlight": [
+        "ist",
+        "aus."
+      ]
+    },
+    {
+      "german": "Die Schule ist um ein Uhr aus.",
+      "english": "School finishes at one.",
+      "highlight": [
+        "ist",
+        "aus."
+      ]
+    },
+    {
+      "german": "Ist der Fernseher aus?",
+      "english": "Is the TV off?",
+      "highlight": [
+        "Ist",
+        "aus?"
+      ]
+    }
+  ],
+  "forms": [
+    "ist aus",
+    "war aus"
+  ],
+  "memoryHook": "Ausmachen is what you do; aus sein is how it is afterwards. Also: the party is over, die Party ist aus.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does aus sein mean?",
+      "options": [
+        "to be off (lights",
+        "to buy",
+        "the car"
+      ],
+      "answer": "to be off (lights",
+      "explanation": "aus sein: to be off (lights, machines); to be over.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "The opposite of 'Das Radio ist aus' is…",
+      "options": [
+        "Das Radio ist an.",
+        "Das Radio ist zu."
+      ],
+      "answer": "Das Radio ist an.",
+      "explanation": "Machines: an and aus.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Der Film ist aus' means…",
+      "options": [
+        "The film is over.",
+        "The film is out of stock."
+      ],
+      "answer": "The film is over.",
+      "explanation": "Aus sein: finished.",
+      "id": "q3"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Das Licht ___ aus.",
+      "answer": "ist",
+      "fullAnswer": "Das Licht ist aus.",
+      "explanation": "Aus sein uses sein.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "You turned it off with ausmachen. Now it ___.",
+      "options": [
+        "ist aus",
+        "macht aus"
+      ],
+      "answer": "ist aus",
+      "explanation": "Ausmachen is the action; aus sein is the state.",
+      "id": "q5"
+    }
+  ]
+}

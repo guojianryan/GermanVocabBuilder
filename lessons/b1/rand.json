@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Rand",
+    "partOfSpeech": "noun, masculine (der Rand)",
+    "pronunciation": {
+      "respelling": "RANT",
+      "ipa": "ʁant",
+      "notes": "Plural: die Ränder."
+    },
+    "meaning": "edge, rim; margin",
+    "shortDefinition": "Edge, rim; margin."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Rand, plural die Ränder.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Rand"
+        },
+        {
+          "label": "More than one",
+          "value": "die Ränder"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir wohnen am Rand der Stadt.",
+      "english": "We live on the edge of town.",
+      "highlight": [
+        "Rand"
+      ]
+    },
+    {
+      "german": "Schreib das an den Rand.",
+      "english": "Write it in the margin.",
+      "highlight": [
+        "Rand."
+      ]
+    },
+    {
+      "german": "Das Glas ist bis zum Rand voll.",
+      "english": "The glass is full to the brim.",
+      "highlight": [
+        "Rand"
+      ]
+    }
+  ],
+  "forms": [
+    "Stadtrand"
+  ],
+  "memoryHook": "Der Rand, die Ränder. Am Stadtrand = outskirts.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Rand",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Rand is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Rand, zwei ___",
+      "answer": "Ränder",
+      "fullAnswer": "ein Rand, zwei Ränder",
+      "explanation": "The plural is Ränder.",
+      "acceptedAnswers": [
+        "Raender"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Rand mean?",
+      "options": [
+        "edge",
+        "to sing",
+        "to sleep"
+      ],
+      "answer": "edge",
+      "explanation": "Rand: edge, rim; margin.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Ränder",
+        "Rande"
+      ],
+      "answer": "Ränder",
+      "explanation": "a → ä + -er.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Am Stadtrand' means…",
+      "options": [
+        "on the outskirts",
+        "in the centre"
+      ],
+      "answer": "on the outskirts",
+      "explanation": "Edge.",
+      "id": "q5"
+    }
+  ]
+}

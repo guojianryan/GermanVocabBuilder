@@ -1,0 +1,157 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "(sich) wundern",
+    "partOfSpeech": "reflexive verb",
+    "pronunciation": {
+      "respelling": "VOON-dern",
+      "ipa": "ˈvʊndɐn",
+      "notes": ""
+    },
+    "meaning": "to be surprised; to wonder",
+    "shortDefinition": "To be surprised; to wonder."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "wunder|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "wunder|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "wunder|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "wunder|n"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "wunder|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "wunder|n"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gewundert"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich wundere mich über sein Verhalten.",
+      "english": "I'm surprised at his behaviour.",
+      "highlight": [
+        "wundere",
+        "mich",
+        "über"
+      ]
+    },
+    {
+      "german": "Das wundert mich nicht.",
+      "english": "That doesn't surprise me.",
+      "highlight": [
+        "wundert"
+      ]
+    },
+    {
+      "german": "Du wirst dich wundern!",
+      "english": "You'll be amazed!",
+      "highlight": [
+        "dich",
+        "wundern!"
+      ]
+    }
+  ],
+  "forms": [
+    "wundern"
+  ],
+  "memoryHook": "Sich wundern über = be surprised at. Das wundert mich.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ ((sich) wundern)",
+      "answer": "wundert",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: wundert.",
+      "acceptedAnswers": [
+        "wundert"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe mich schon ___. ((sich) wundern, past)",
+      "answer": "gewundert",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe mich gewundert.",
+      "acceptedAnswers": [
+        "gewundert"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does (sich) wundern mean?",
+      "options": [
+        "the evening",
+        "the child",
+        "to be surprised"
+      ],
+      "answer": "to be surprised",
+      "explanation": "(sich) wundern: to be surprised; to wonder.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Be surprised at:",
+      "options": [
+        "sich wundern über",
+        "sich wundern an"
+      ],
+      "answer": "sich wundern über",
+      "explanation": "Über.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Das wundert mich' means…",
+      "options": [
+        "That surprises me",
+        "I wonder at that"
+      ],
+      "answer": "That surprises me",
+      "explanation": "Non-reflexive.",
+      "id": "q5"
+    }
+  ]
+}

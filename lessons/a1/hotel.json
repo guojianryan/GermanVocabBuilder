@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Hotel",
+    "partOfSpeech": "noun, neuter (das Hotel)",
+    "pronunciation": {
+      "respelling": "hoh-TEL",
+      "ipa": "hoˈtɛl",
+      "notes": "Plural: die Hotels."
+    },
+    "meaning": "hotel",
+    "shortDefinition": "Hotel."
+  },
+  "wordFamily": [
+    {
+      "german": "die Rezeption",
+      "english": "reception",
+      "type": "noun"
+    },
+    {
+      "german": "übernachten",
+      "english": "to stay overnight",
+      "type": "verb"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Hotel, plural die Hotels.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Hotel"
+        },
+        {
+          "label": "More than one",
+          "value": "die Hotels"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir übernachten im Hotel.",
+      "english": "We're staying at a hotel.",
+      "highlight": [
+        "Hotel."
+      ]
+    },
+    {
+      "german": "Das Hotel liegt direkt am Meer.",
+      "english": "The hotel is right by the sea.",
+      "highlight": [
+        "Hotel"
+      ]
+    },
+    {
+      "german": "Können Sie mir ein Hotel empfehlen?",
+      "english": "Can you recommend a hotel?",
+      "highlight": [
+        "Hotel"
+      ]
+    }
+  ],
+  "forms": [
+    "Hotels",
+    "die Hotels",
+    "das Hotel"
+  ],
+  "memoryHook": "Das Hotel, plural Hotels. Stress the end: ho-TEL.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Hotel",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Hotel is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Hotel, zwei ___",
+      "answer": "Hotels",
+      "fullAnswer": "ein Hotel, zwei Hotels",
+      "explanation": "The plural is Hotels.",
+      "acceptedAnswers": [
+        "Hotels"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Hotel mean?",
+      "options": [
+        "to open",
+        "the shop",
+        "hotel"
+      ],
+      "answer": "hotel",
+      "explanation": "Hotel: hotel.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Where's the stress?",
+      "options": [
+        "HO-tel",
+        "ho-TEL"
+      ],
+      "answer": "ho-TEL",
+      "explanation": "Stress the end.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "At a hotel, you check in at…",
+      "options": [
+        "der Rezeption",
+        "dem Ausgang"
+      ],
+      "answer": "der Rezeption",
+      "explanation": "Die Rezeption.",
+      "id": "q5"
+    }
+  ]
+}

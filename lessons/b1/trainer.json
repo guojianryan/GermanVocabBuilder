@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Trainer",
+    "partOfSpeech": "noun, masculine (der Trainer)",
+    "pronunciation": {
+      "respelling": "TRAY-ner",
+      "ipa": "ˈtʁɛːnɐ",
+      "notes": "The plural looks the same. Plural: die Trainer."
+    },
+    "meaning": "coach, trainer",
+    "shortDefinition": "Coach, trainer."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Trainer, plural die Trainer.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Trainer"
+        },
+        {
+          "label": "More than one",
+          "value": "die Trainer"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Trainer ist zufrieden.",
+      "english": "The coach is satisfied.",
+      "highlight": [
+        "Trainer"
+      ]
+    },
+    {
+      "german": "Sie ist Fitnesstrainerin.",
+      "english": "She's a fitness trainer.",
+      "highlight": [
+        "Fitnesstrainerin."
+      ]
+    },
+    {
+      "german": "Der Verein sucht einen neuen Trainer.",
+      "english": "The club is looking for a new coach.",
+      "highlight": [
+        "Trainer."
+      ]
+    }
+  ],
+  "forms": [
+    "Trainerin"
+  ],
+  "memoryHook": "Der Trainer = coach (shoes = Turnschuhe).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Trainer",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Trainer is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Trainer, zwei ___",
+      "answer": "Trainer",
+      "fullAnswer": "ein Trainer, zwei Trainer",
+      "explanation": "The plural is Trainer.",
+      "acceptedAnswers": [
+        "Trainer"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Trainer mean?",
+      "options": [
+        "quiet",
+        "coach",
+        "the job"
+      ],
+      "answer": "coach",
+      "explanation": "Trainer: coach, trainer.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Not shoes! Trainers (shoes) =",
+      "options": [
+        "Turnschuhe / Sneaker",
+        "Trainer"
+      ],
+      "answer": "Turnschuhe / Sneaker",
+      "explanation": "False friend.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Female:",
+      "options": [
+        "die Trainerin",
+        "die Trainer"
+      ],
+      "answer": "die Trainerin",
+      "explanation": "-in.",
+      "id": "q5"
+    }
+  ]
+}

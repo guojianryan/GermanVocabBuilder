@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Komponist",
+    "partOfSpeech": "noun, masculine (der Komponist)",
+    "pronunciation": {
+      "respelling": "kom-po-NIST",
+      "ipa": "kɔmpoˈnɪst",
+      "notes": "Plural: die Komponisten."
+    },
+    "meaning": "composer",
+    "shortDefinition": "Composer."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Komponist, plural die Komponisten.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Komponist"
+        },
+        {
+          "label": "More than one",
+          "value": "die Komponisten"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Beethoven war ein berühmter Komponist.",
+      "english": "Beethoven was a famous composer.",
+      "highlight": [
+        "Komponist."
+      ]
+    },
+    {
+      "german": "Sie ist Komponistin für Filmmusik.",
+      "english": "She's a film music composer.",
+      "highlight": [
+        "Komponistin"
+      ]
+    },
+    {
+      "german": "Wer ist der Komponist?",
+      "english": "Who's the composer?",
+      "highlight": [
+        "Komponist?"
+      ]
+    }
+  ],
+  "forms": [
+    "Komponistin",
+    "komponieren"
+  ],
+  "memoryHook": "Komponieren → der Komponist (weak).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Komponist",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Komponist is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Komponist, zwei ___",
+      "answer": "Komponisten",
+      "fullAnswer": "ein Komponist, zwei Komponisten",
+      "explanation": "The plural is Komponisten.",
+      "acceptedAnswers": [
+        "Komponisten"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Komponist mean?",
+      "options": [
+        "the bill",
+        "the job",
+        "composer"
+      ],
+      "answer": "composer",
+      "explanation": "Komponist: composer.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Weak noun: den/dem…",
+      "options": [
+        "Komponisten",
+        "Komponist"
+      ],
+      "answer": "Komponisten",
+      "explanation": "-ist = weak.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Verb:",
+      "options": [
+        "komponieren",
+        "komponisten"
+      ],
+      "answer": "komponieren",
+      "explanation": "Compose.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Feierabend",
+    "partOfSpeech": "noun, masculine (der Feierabend)",
+    "pronunciation": {
+      "respelling": "FIRE-ah-bent",
+      "ipa": "ˈfaɪ̯ɐˌʔaːbn̩t",
+      "notes": "Usually no plural. Usually no plural."
+    },
+    "meaning": "end of the working day; time off after work",
+    "shortDefinition": "End of the working day; time off after work."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Feier",
+        "meaning": "celebration, rest"
+      },
+      {
+        "part": "abend",
+        "meaning": "evening"
+      }
+    ],
+    "literalMeaning": "celebration evening"
+  },
+  "wordFamily": [
+    {
+      "german": "der Feiertag",
+      "english": "public holiday",
+      "type": "noun"
+    },
+    {
+      "german": "die Feier",
+      "english": "celebration, party",
+      "type": "noun"
+    },
+    {
+      "german": "feiern",
+      "english": "to celebrate",
+      "type": "verb"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Feierabend, usually no plural.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Feierabend"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Um fünf habe ich Feierabend.",
+      "english": "I finish work at five.",
+      "highlight": [
+        "Feierabend."
+      ]
+    },
+    {
+      "german": "Schönen Feierabend!",
+      "english": "Have a nice evening! (said when leaving work)",
+      "highlight": [
+        "Feierabend!"
+      ]
+    },
+    {
+      "german": "Morgen ist ein Feiertag, die Läden sind zu.",
+      "english": "Tomorrow is a public holiday; the shops are closed.",
+      "highlight": [
+        "Feiertag,"
+      ]
+    }
+  ],
+  "forms": [
+    "Feiertag",
+    "Feiertage",
+    "Feier",
+    "der Feierabend"
+  ],
+  "memoryHook": "Feier (celebration) + Abend: the evening you've earned. Feiertag = public holiday. Both start with Feier-.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Feierabend",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Feierabend is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Feierabend mean?",
+      "options": [
+        "end of the working day",
+        "to wait",
+        "never"
+      ],
+      "answer": "end of the working day",
+      "explanation": "Feierabend: end of the working day; time off after work.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Schönen Feierabend!' is said…",
+      "options": [
+        "when colleagues leave work",
+        "at a party"
+      ],
+      "answer": "when colleagues leave work",
+      "explanation": "Enjoy your time off.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Der Feiertag is…",
+      "options": [
+        "a public holiday",
+        "a birthday"
+      ],
+      "answer": "a public holiday",
+      "explanation": "Feier + Tag.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Wann hast du heute ___? (finish work)",
+      "answer": "Feierabend",
+      "fullAnswer": "Wann hast du heute Feierabend?",
+      "explanation": "Feierabend haben.",
+      "id": "q5"
+    }
+  ]
+}

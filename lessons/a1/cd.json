@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "CD",
+    "partOfSpeech": "noun, feminine (die CD)",
+    "pronunciation": {
+      "respelling": "tsay-DAY",
+      "ipa": "tseːˈdeː",
+      "notes": "Plural: die CDs."
+    },
+    "meaning": "CD",
+    "shortDefinition": "CD."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die CD, plural die CDs.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die CD"
+        },
+        {
+          "label": "More than one",
+          "value": "die CDs"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich habe noch viele alte CDs.",
+      "english": "I still have lots of old CDs.",
+      "highlight": [
+        "CDs."
+      ]
+    },
+    {
+      "german": "Leg mal die CD ein!",
+      "english": "Put the CD in!",
+      "highlight": [
+        "CD"
+      ]
+    },
+    {
+      "german": "Die CD kostet zehn Euro.",
+      "english": "The CD costs ten euros.",
+      "highlight": [
+        "CD"
+      ]
+    }
+  ],
+  "forms": [
+    "CDs",
+    "die CDs",
+    "die CD"
+  ],
+  "memoryHook": "Spell it the German way: C (tsay) D (day). Die CD, because die Disc.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ CD",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "CD is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein CD, zwei ___",
+      "answer": "CDs",
+      "fullAnswer": "ein CD, zwei CDs",
+      "explanation": "The plural is CDs.",
+      "acceptedAnswers": [
+        "CDs"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does CD mean?",
+      "options": [
+        "CD",
+        "quiet",
+        "the window"
+      ],
+      "answer": "CD",
+      "explanation": "CD: CD.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "How do you say CD in German?",
+      "options": [
+        "tsay-day",
+        "see-dee"
+      ],
+      "answer": "tsay-day",
+      "explanation": "German letter names: C = tsay, D = day.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "CD is feminine because it stands for…",
+      "options": [
+        "die Compact Disc",
+        "das Compact Disc"
+      ],
+      "answer": "die Compact Disc",
+      "explanation": "Die Disc → die CD.",
+      "id": "q5"
+    }
+  ]
+}

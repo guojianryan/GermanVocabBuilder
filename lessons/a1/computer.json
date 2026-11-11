@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Computer",
+    "partOfSpeech": "noun, masculine (der Computer)",
+    "pronunciation": {
+      "respelling": "kom-PYOO-ter",
+      "ipa": "kɔmˈpjuːtɐ",
+      "notes": "The plural looks the same. Plural: die Computer."
+    },
+    "meaning": "computer",
+    "shortDefinition": "Computer."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Computer, plural die Computer.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Computer"
+        },
+        {
+          "label": "More than one",
+          "value": "die Computer"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Mein Computer ist zu langsam.",
+      "english": "My computer is too slow.",
+      "highlight": [
+        "Computer"
+      ]
+    },
+    {
+      "german": "Arbeitest du viel am Computer?",
+      "english": "Do you work at the computer a lot?",
+      "highlight": [
+        "Computer?"
+      ]
+    },
+    {
+      "german": "Die Computer in der Schule sind neu.",
+      "english": "The computers at school are new.",
+      "highlight": [
+        "Computer"
+      ]
+    }
+  ],
+  "forms": [
+    "Computer",
+    "die Computer",
+    "der Computer"
+  ],
+  "memoryHook": "Der Computer, pronounced the English way. The plural stays the same: die Computer.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Computer",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Computer is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Computer, zwei ___",
+      "answer": "Computer",
+      "fullAnswer": "ein Computer, zwei Computer",
+      "explanation": "The plural is Computer.",
+      "acceptedAnswers": [
+        "Computer"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Computer mean?",
+      "options": [
+        "to help",
+        "to sleep",
+        "computer"
+      ],
+      "answer": "computer",
+      "explanation": "Computer: computer.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "You work ___ Computer.",
+      "options": [
+        "am",
+        "im"
+      ],
+      "answer": "am",
+      "explanation": "Am Computer arbeiten.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Nouns ending in -er are often the same in the plural, like…",
+      "options": [
+        "der Computer, die Computer",
+        "der Computer, die Computers"
+      ],
+      "answer": "der Computer, die Computer",
+      "explanation": "No -s in German.",
+      "id": "q5"
+    }
+  ]
+}

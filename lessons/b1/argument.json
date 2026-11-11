@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Argument",
+    "partOfSpeech": "noun, neuter (das Argument)",
+    "pronunciation": {
+      "respelling": "ar-goo-MENT",
+      "ipa": "aʁɡuˈmɛnt",
+      "notes": "Plural: die Argumente."
+    },
+    "meaning": "argument (reason)",
+    "shortDefinition": "Argument (reason)."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Argument, plural die Argumente.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Argument"
+        },
+        {
+          "label": "More than one",
+          "value": "die Argumente"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das ist ein gutes Argument.",
+      "english": "That's a good argument.",
+      "highlight": [
+        "Argument."
+      ]
+    },
+    {
+      "german": "Sie hat viele Argumente dafür.",
+      "english": "She has many arguments in favour.",
+      "highlight": [
+        "Argumente"
+      ]
+    },
+    {
+      "german": "Dein Argument überzeugt mich nicht.",
+      "english": "Your argument doesn't convince me.",
+      "highlight": [
+        "Argument"
+      ]
+    }
+  ],
+  "forms": [
+    "argumentieren"
+  ],
+  "memoryHook": "Das Argument (reason, point). A quarrel = der Streit.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Argument",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Argument is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Argument, zwei ___",
+      "answer": "Argumente",
+      "fullAnswer": "ein Argument, zwei Argumente",
+      "explanation": "The plural is Argumente.",
+      "acceptedAnswers": [
+        "Argumente"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Argument mean?",
+      "options": [
+        "the street",
+        "argument (reason)",
+        "expensive"
+      ],
+      "answer": "argument (reason)",
+      "explanation": "Argument: argument (reason).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "A quarrel is…",
+      "options": [
+        "der Streit",
+        "das Argument"
+      ],
+      "answer": "der Streit",
+      "explanation": "False friend-ish.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Verb:",
+      "options": [
+        "argumentieren",
+        "argumenten"
+      ],
+      "answer": "argumentieren",
+      "explanation": "Argue (reason).",
+      "id": "q5"
+    }
+  ]
+}

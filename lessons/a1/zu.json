@@ -1,0 +1,199 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "full",
+  "word": {
+    "headword": "zu",
+    "partOfSpeech": "preposition (always with the dative); adverb",
+    "pronunciation": {
+      "respelling": "TSOO",
+      "ipa": "tsuː",
+      "notes": "Z = ts."
+    },
+    "meaning": "to (people, places); too; closed",
+    "shortDefinition": "Going to a person or place; also 'too' and 'closed'."
+  },
+  "intro": {
+    "title": "Zum Arzt, zu teuer, zu",
+    "paragraphs": [
+      "Zu has three jobs. Preposition: to (zum Arzt, zur Arbeit, zu mir). Adverb: too (zu teuer). And: closed (Die Tür ist zu). As a preposition it always takes the dative: zu dem → zum, zu der → zur."
+    ]
+  },
+  "tables": [
+    {
+      "title": "Contractions",
+      "columns": [
+        "masculine",
+        "feminine",
+        "neuter"
+      ],
+      "rows": [
+        {
+          "label": "the",
+          "cells": [
+            "zu|m| Bahnhof",
+            "zu|r| Post",
+            "zu|m| Kino"
+          ]
+        }
+      ],
+      "notes": [
+        "Zu dem → zum. Zu der → zur.",
+        "Zu Hause = at home (no article)."
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "zu Hause",
+      "english": "at home",
+      "type": "phrase"
+    },
+    {
+      "german": "zu Fuß",
+      "english": "on foot",
+      "type": "phrase"
+    },
+    {
+      "german": "nach",
+      "english": "to (cities, countries)",
+      "type": "preposition"
+    },
+    {
+      "german": "zu sein",
+      "english": "to be closed",
+      "type": "phrase"
+    }
+  ],
+  "keyTrap": {
+    "title": "The big trap: zu or nach?",
+    "explanation": "Zu: people, shops, buildings, events. Nach: cities, countries, home.",
+    "wrong": {
+      "german": "Ich fahre zu Berlin.",
+      "verdict": "Cities: nach."
+    },
+    "correct": [
+      {
+        "german": "Ich fahre nach Berlin.",
+        "literal": "I travel to Berlin.",
+        "note": "City: nach."
+      },
+      {
+        "german": "Ich gehe zum Bäcker.",
+        "literal": "I go to-the baker.",
+        "note": "Shop/person: zu."
+      }
+    ]
+  },
+  "commonMistakes": [
+    {
+      "title": "too",
+      "explanation": "Zu + adjective = too.",
+      "examples": [
+        {
+          "german": "Das ist zu teuer.",
+          "english": "That's too expensive.",
+          "highlight": "zu"
+        }
+      ]
+    },
+    {
+      "title": "zu Hause vs nach Hause",
+      "explanation": "Being at home: zu Hause. Going home: nach Hause.",
+      "wrong": "Ich gehe zu Hause.",
+      "correct": "Ich gehe nach Hause."
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich gehe zum Arzt.",
+      "english": "I'm going to the doctor.",
+      "highlight": [
+        "zum"
+      ]
+    },
+    {
+      "german": "Wie komme ich zur Post?",
+      "english": "How do I get to the post office?",
+      "highlight": [
+        "zur"
+      ]
+    },
+    {
+      "german": "Die Jacke ist mir zu klein.",
+      "english": "The jacket is too small for me.",
+      "highlight": [
+        "zu"
+      ]
+    },
+    {
+      "german": "Der Laden ist schon zu.",
+      "english": "The shop's already closed.",
+      "highlight": [
+        "zu."
+      ]
+    }
+  ],
+  "forms": [
+    "zum",
+    "zur",
+    "zu Hause",
+    "zu Fuß"
+  ],
+  "memoryHook": "Zu = to (people and places, zum/zur), too (zu teuer), closed (ist zu). Cities: nach.",
+  "signOff": "Zum Glück fast fertig!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich gehe ___ Bäcker. (to the)",
+      "answer": "zum",
+      "fullAnswer": "Ich gehe zum Bäcker.",
+      "explanation": "Zu + dem = zum.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Wie komme ich ___ Bank? (to the)",
+      "answer": "zur",
+      "fullAnswer": "Wie komme ich zur Bank?",
+      "explanation": "Zu + der = zur.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich fliege ___ London.",
+      "options": [
+        "zu",
+        "nach"
+      ],
+      "answer": "nach",
+      "explanation": "Cities: nach.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Das ist ___ teuer. (too)",
+      "options": [
+        "zu",
+        "so"
+      ],
+      "answer": "zu",
+      "explanation": "Too: zu.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Being at home:",
+      "options": [
+        "zu Hause",
+        "nach Hause"
+      ],
+      "answer": "zu Hause",
+      "explanation": "Location.",
+      "id": "q5"
+    }
+  ]
+}

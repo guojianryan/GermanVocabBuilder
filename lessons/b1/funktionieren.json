@@ -1,0 +1,157 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "funktionieren",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "foonk-tsyo-NEE-ren",
+      "ipa": "fʊŋktsi̯oˈniːʁən",
+      "notes": ""
+    },
+    "meaning": "to work, function",
+    "shortDefinition": "To work, function."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "funktionier|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "funktionier|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "funktionier|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "funktionier|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "funktionier|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "funktionier|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat funktioniert"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Heizung funktioniert nicht.",
+      "english": "The heating isn't working.",
+      "highlight": [
+        "funktioniert"
+      ]
+    },
+    {
+      "german": "Wie funktioniert das?",
+      "english": "How does this work?",
+      "highlight": [
+        "funktioniert"
+      ]
+    },
+    {
+      "german": "Hat alles funktioniert?",
+      "english": "Did everything work?",
+      "highlight": [
+        "funktioniert?"
+      ]
+    }
+  ],
+  "forms": [
+    "funktioniere",
+    "funktionierst",
+    "funktioniert",
+    "funktionieren"
+  ],
+  "memoryHook": "Machines funktionieren; people arbeiten.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (funktionieren)",
+      "answer": "funktioniert",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: funktioniert.",
+      "acceptedAnswers": [
+        "funktioniert"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (funktionieren, past)",
+      "answer": "funktioniert",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe funktioniert.",
+      "acceptedAnswers": [
+        "funktioniert"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does funktionieren mean?",
+      "options": [
+        "to work",
+        "the evening",
+        "to learn"
+      ],
+      "answer": "to work",
+      "explanation": "funktionieren: to work, function.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Machine 'works' =",
+      "options": [
+        "funktionieren",
+        "arbeiten"
+      ],
+      "answer": "funktionieren",
+      "explanation": "Not arbeiten!",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "hat funktioniert",
+        "hat gefunktioniert"
+      ],
+      "answer": "hat funktioniert",
+      "explanation": "No ge-.",
+      "id": "q5"
+    }
+  ]
+}

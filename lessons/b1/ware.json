@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Ware",
+    "partOfSpeech": "noun, feminine (die Ware)",
+    "pronunciation": {
+      "respelling": "VAA-re",
+      "ipa": "ˈvaːʁə",
+      "notes": "Plural: die Waren."
+    },
+    "meaning": "goods, product",
+    "shortDefinition": "Goods, product."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Ware, plural die Waren.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Ware"
+        },
+        {
+          "label": "More than one",
+          "value": "die Waren"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Ware wird morgen geliefert.",
+      "english": "The goods will be delivered tomorrow.",
+      "highlight": [
+        "Ware"
+      ]
+    },
+    {
+      "german": "Reduzierte Ware ist vom Umtausch ausgeschlossen.",
+      "english": "Reduced items cannot be exchanged.",
+      "highlight": [
+        "Ware"
+      ]
+    },
+    {
+      "german": "Das Geschäft hat gute Waren.",
+      "english": "The shop has good products.",
+      "highlight": [
+        "Waren."
+      ]
+    }
+  ],
+  "forms": [
+    "Waren",
+    "die Waren",
+    "die Ware"
+  ],
+  "memoryHook": "Die Ware (goods).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Ware",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Ware is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Ware, zwei ___",
+      "answer": "Waren",
+      "fullAnswer": "ein Ware, zwei Waren",
+      "explanation": "The plural is Waren.",
+      "acceptedAnswers": [
+        "Waren"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Ware mean?",
+      "options": [
+        "goods",
+        "always",
+        "the station"
+      ],
+      "answer": "goods",
+      "explanation": "Ware: goods, product.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ware is often used…",
+      "options": [
+        "as a collective singular",
+        "only plural"
+      ],
+      "answer": "as a collective singular",
+      "explanation": "Die Ware.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Department store:",
+      "options": [
+        "das Warenhaus / Kaufhaus",
+        "das Warenzimmer"
+      ],
+      "answer": "das Warenhaus / Kaufhaus",
+      "explanation": "Store.",
+      "id": "q5"
+    }
+  ]
+}

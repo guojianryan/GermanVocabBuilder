@@ -1,0 +1,166 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "werfen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "VAIR-fen",
+      "ipa": "ˈvɛʁfn̩",
+      "notes": ""
+    },
+    "meaning": "to throw",
+    "shortDefinition": "To throw."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "werf|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "wirf|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "wirf|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "werf|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "werf|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "werf|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat geworfen"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "der Wurf",
+      "english": "throw",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wirf den Ball!",
+      "english": "Throw the ball!",
+      "highlight": [
+        "Wirf"
+      ]
+    },
+    {
+      "german": "Er hat den Brief in den Briefkasten geworfen.",
+      "english": "He put the letter in the postbox.",
+      "highlight": [
+        "geworfen."
+      ]
+    },
+    {
+      "german": "Wirf einen Blick darauf.",
+      "english": "Take a look at it.",
+      "highlight": [
+        "Wirf"
+      ]
+    }
+  ],
+  "forms": [
+    "werfe",
+    "wirfst",
+    "wirft",
+    "werfen",
+    "werft",
+    "geworfen"
+  ],
+  "memoryHook": "Werfen, warf, geworfen (er wirft). Der Wurf = throw.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (werfen)",
+      "answer": "wirft",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: wirft.",
+      "acceptedAnswers": [
+        "wirft"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (werfen, past)",
+      "answer": "geworfen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe geworfen.",
+      "acceptedAnswers": [
+        "geworfen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does werfen mean?",
+      "options": [
+        "to travel",
+        "to throw",
+        "the weather"
+      ],
+      "answer": "to throw",
+      "explanation": "werfen: to throw.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "er ___ (werfen):",
+      "options": [
+        "wirft",
+        "werft"
+      ],
+      "answer": "wirft",
+      "explanation": "e → i.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Einen Blick werfen' means…",
+      "options": [
+        "to take a look",
+        "to throw a look away"
+      ],
+      "answer": "to take a look",
+      "explanation": "Glance.",
+      "id": "q5"
+    }
+  ]
+}

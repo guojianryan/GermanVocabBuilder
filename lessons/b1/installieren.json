@@ -1,0 +1,157 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "installieren",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "in-sta-LEE-ren",
+      "ipa": "ɪnstaˈliːʁən",
+      "notes": ""
+    },
+    "meaning": "to install",
+    "shortDefinition": "To install."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "installier|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "installier|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "installier|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "installier|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "installier|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "installier|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat installiert"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich installiere die App.",
+      "english": "I'm installing the app.",
+      "highlight": [
+        "installiere"
+      ]
+    },
+    {
+      "german": "Der Techniker hat die Leitung installiert.",
+      "english": "The technician installed the line.",
+      "highlight": [
+        "installiert."
+      ]
+    },
+    {
+      "german": "Installieren Sie das Update.",
+      "english": "Install the update.",
+      "highlight": [
+        "Installieren"
+      ]
+    }
+  ],
+  "forms": [
+    "installiere",
+    "installierst",
+    "installiert",
+    "installieren"
+  ],
+  "memoryHook": "Installieren (no ge-).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (installieren)",
+      "answer": "installiert",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: installiert.",
+      "acceptedAnswers": [
+        "installiert"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (installieren, past)",
+      "answer": "installiert",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe installiert.",
+      "acceptedAnswers": [
+        "installiert"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does installieren mean?",
+      "options": [
+        "to install",
+        "the family",
+        "the bill"
+      ],
+      "answer": "to install",
+      "explanation": "installieren: to install.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "hat installiert",
+        "hat geinstalliert"
+      ],
+      "answer": "hat installiert",
+      "explanation": "No ge-.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "The noun:",
+      "options": [
+        "die Installation",
+        "die Installierung only"
+      ],
+      "answer": "die Installation",
+      "explanation": "Installation.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Element",
+    "partOfSpeech": "noun, neuter (das Element)",
+    "pronunciation": {
+      "respelling": "e-le-MENT",
+      "ipa": "eləˈmɛnt",
+      "notes": "Plural: die Elemente."
+    },
+    "meaning": "element",
+    "shortDefinition": "Element."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Element, plural die Elemente.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Element"
+        },
+        {
+          "label": "More than one",
+          "value": "die Elemente"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wasser ist ein wichtiges Element.",
+      "english": "Water is an important element.",
+      "highlight": [
+        "Element."
+      ]
+    },
+    {
+      "german": "Im Wasser ist sie in ihrem Element.",
+      "english": "In the water she's in her element.",
+      "highlight": [
+        "Element."
+      ]
+    },
+    {
+      "german": "Das Periodensystem der Elemente.",
+      "english": "The periodic table of the elements.",
+      "highlight": [
+        "Elemente."
+      ]
+    }
+  ],
+  "forms": [
+    "elementar"
+  ],
+  "memoryHook": "Das Element; in seinem Element sein.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Element",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Element is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Element, zwei ___",
+      "answer": "Elemente",
+      "fullAnswer": "ein Element, zwei Elemente",
+      "explanation": "The plural is Elemente.",
+      "acceptedAnswers": [
+        "Elemente"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Element mean?",
+      "options": [
+        "the key",
+        "element",
+        "the street"
+      ],
+      "answer": "element",
+      "explanation": "Element: element.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'In seinem Element sein' means…",
+      "options": [
+        "to be in one's element",
+        "to be chemical"
+      ],
+      "answer": "to be in one's element",
+      "explanation": "Idiom.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Stress on…",
+      "options": [
+        "-MENT",
+        "E-"
+      ],
+      "answer": "-MENT",
+      "explanation": "End.",
+      "id": "q5"
+    }
+  ]
+}

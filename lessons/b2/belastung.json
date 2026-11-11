@@ -1,0 +1,141 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Belastung",
+    "partOfSpeech": "noun, feminine (die Belastung)",
+    "pronunciation": {
+      "respelling": "be-LAS-tung",
+      "ipa": "bəˈlastʊŋ",
+      "notes": "Plural: die Belastungen."
+    },
+    "meaning": "strain, burden, load; pollution",
+    "shortDefinition": "Strain, burden, load; pollution."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Be",
+        "meaning": "prefix (put on)"
+      },
+      {
+        "part": "last",
+        "meaning": "load"
+      },
+      {
+        "part": "ung",
+        "meaning": "noun ending"
+      }
+    ],
+    "literalMeaning": "a loading-on"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Belastung, plural die Belastungen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Belastung"
+        },
+        {
+          "label": "More than one",
+          "value": "die Belastungen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Arbeit ist eine große Belastung.",
+      "english": "The work is a heavy strain.",
+      "highlight": [
+        "Belastung."
+      ]
+    },
+    {
+      "german": "Die Belastung der Luft ist hoch.",
+      "english": "Air pollution is high.",
+      "highlight": [
+        "Belastung"
+      ]
+    },
+    {
+      "german": "Das ist eine Belastung für die Umwelt.",
+      "english": "That's a burden on the environment.",
+      "highlight": [
+        "Belastung"
+      ]
+    }
+  ],
+  "forms": [
+    "belasten",
+    "Entlastung"
+  ],
+  "memoryHook": "Last → belasten → die Belastung ↔ Entlastung.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Belastung",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Belastung is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Belastung, zwei ___",
+      "answer": "Belastungen",
+      "fullAnswer": "ein Belastung, zwei Belastungen",
+      "explanation": "The plural is Belastungen.",
+      "acceptedAnswers": [
+        "Belastungen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Belastung mean?",
+      "options": [
+        "the bill",
+        "the shop",
+        "strain"
+      ],
+      "answer": "strain",
+      "explanation": "Belastung: strain, burden, load; pollution.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "belasten / die Last (load)",
+        "lassen"
+      ],
+      "answer": "belasten / die Last (load)",
+      "explanation": "Load.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Opposite:",
+      "options": [
+        "die Entlastung",
+        "die Verlastung"
+      ],
+      "answer": "die Entlastung",
+      "explanation": "Relief.",
+      "id": "q5"
+    }
+  ]
+}

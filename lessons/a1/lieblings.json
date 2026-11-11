@@ -1,0 +1,105 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Lieblings-",
+    "partOfSpeech": "prefix",
+    "pronunciation": {
+      "respelling": "LEEP-lings",
+      "ipa": "ˈliːplɪŋs",
+      "notes": ""
+    },
+    "meaning": "favourite (as the first part of a noun)",
+    "shortDefinition": "Favourite (as the first part of a noun)."
+  },
+  "sampleSentences": [
+    {
+      "german": "Mein Lieblingsessen ist Pizza.",
+      "english": "My favourite food is pizza.",
+      "highlight": [
+        "Lieblingsessen"
+      ]
+    },
+    {
+      "german": "Was ist deine Lieblingsfarbe?",
+      "english": "What's your favourite colour?",
+      "highlight": [
+        "Lieblingsfarbe?"
+      ]
+    },
+    {
+      "german": "Das ist mein Lieblingslied!",
+      "english": "That's my favourite song!",
+      "highlight": [
+        "Lieblingslied!"
+      ]
+    }
+  ],
+  "forms": [
+    "Lieblingsessen",
+    "Lieblingsfarbe",
+    "Lieblingsfilm",
+    "Liebling"
+  ],
+  "memoryHook": "Lieblings- + any noun = favourite: Lieblingsfarbe, Lieblingsfilm, Lieblingsessen.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does Lieblings- mean?",
+      "options": [
+        "the job",
+        "favourite (as the first part of a noun)",
+        "to wait"
+      ],
+      "answer": "favourite (as the first part of a noun)",
+      "explanation": "Lieblings-: favourite (as the first part of a noun).",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Favourite film' is…",
+      "options": [
+        "Lieblingsfilm",
+        "favorit Film"
+      ],
+      "answer": "Lieblingsfilm",
+      "explanation": "Lieblings + noun.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "The gender follows…",
+      "options": [
+        "the last part",
+        "Lieblings-"
+      ],
+      "answer": "the last part",
+      "explanation": "Die Farbe → die Lieblingsfarbe.",
+      "id": "q3"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Was ist dein ___essen? (favourite food)",
+      "answer": "Lieblings",
+      "fullAnswer": "Was ist dein Lieblingsessen?",
+      "explanation": "Lieblings + essen.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Der Liebling means…",
+      "options": [
+        "darling, favourite",
+        "love letter"
+      ],
+      "answer": "darling, favourite",
+      "explanation": "Liebling.",
+      "id": "q5"
+    }
+  ]
+}

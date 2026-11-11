@@ -1,0 +1,169 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "sich kümmern",
+    "partOfSpeech": "reflexive verb",
+    "pronunciation": {
+      "respelling": "KUEM-ern",
+      "ipa": "ˈkʏmɐn",
+      "notes": ""
+    },
+    "meaning": "to look after, to take care of (sich kümmern um)",
+    "shortDefinition": "To look after, to take care of (sich kümmern um)."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "kümmer|e mich"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "kümmer|st dich"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "kümmer|t sich"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "kümmer|n uns"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "kümmer|t euch"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "kümmer|n sich"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat sich gekümmert",
+        "Always with um + accusative."
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich kümmere mich um die Kinder.",
+      "english": "I'm looking after the children.",
+      "highlight": [
+        "kümmere",
+        "mich",
+        "um"
+      ]
+    },
+    {
+      "german": "Kümmern Sie sich bitte um den Hund.",
+      "english": "Please take care of the dog.",
+      "highlight": [
+        "Kümmern",
+        "sich",
+        "um"
+      ]
+    },
+    {
+      "german": "Keine Sorge, ich kümmere mich darum.",
+      "english": "Don't worry, I'll deal with it.",
+      "highlight": [
+        "kümmere",
+        "mich",
+        "darum."
+      ]
+    }
+  ],
+  "forms": [
+    "kümmere mich",
+    "kümmerst dich",
+    "kümmert sich",
+    "kümmern uns",
+    "kümmert euch",
+    "kümmern sich",
+    "gekümmert",
+    "kümmere",
+    "kümmert"
+  ],
+  "memoryHook": "Sich kümmern um = take care of. Ich kümmere mich darum = I'll handle it.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (sich kümmern)",
+      "answer": "kümmert sich",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: kümmert sich.",
+      "acceptedAnswers": [
+        "kuemmert sich"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (sich kümmern, past)",
+      "answer": "gekümmert",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gekümmert.",
+      "acceptedAnswers": [
+        "gekuemmert"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does sich kümmern mean?",
+      "options": [
+        "the car",
+        "to look after",
+        "the shop"
+      ],
+      "answer": "to look after",
+      "explanation": "sich kümmern: to look after, to take care of (sich kümmern um).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Sich kümmern ___ jemanden",
+      "options": [
+        "um",
+        "für"
+      ],
+      "answer": "um",
+      "explanation": "Um + accusative.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Ich kümmere mich darum' means…",
+      "options": [
+        "I'll take care of it",
+        "I'm worried about it"
+      ],
+      "answer": "I'll take care of it",
+      "explanation": "Darum = about it.",
+      "id": "q5"
+    }
+  ]
+}

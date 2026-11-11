@@ -1,0 +1,107 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "gültig",
+    "partOfSpeech": "adjective",
+    "pronunciation": {
+      "respelling": "GUEL-tikh",
+      "ipa": "ˈɡʏltɪç",
+      "notes": ""
+    },
+    "meaning": "valid",
+    "shortDefinition": "Valid."
+  },
+  "sampleSentences": [
+    {
+      "german": "Ihr Pass ist nicht mehr gültig.",
+      "english": "Your passport is no longer valid.",
+      "highlight": [
+        "gültig."
+      ]
+    },
+    {
+      "german": "Das Ticket ist zwei Stunden gültig.",
+      "english": "The ticket is valid for two hours.",
+      "highlight": [
+        "gültig."
+      ]
+    },
+    {
+      "german": "Haben Sie einen gültigen Ausweis?",
+      "english": "Do you have valid ID?",
+      "highlight": [
+        "gültigen"
+      ]
+    }
+  ],
+  "forms": [
+    "gültige",
+    "gültigen",
+    "ungültig"
+  ],
+  "memoryHook": "Gültig = valid (tickets, passports). Ungültig = invalid.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does gültig mean?",
+      "options": [
+        "valid",
+        "the door",
+        "to open"
+      ],
+      "answer": "valid",
+      "explanation": "gültig: valid.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "The opposite of gültig is…",
+      "options": [
+        "ungültig",
+        "gültlos"
+      ],
+      "answer": "ungültig",
+      "explanation": "Un- = not.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gültig bis 2030 means…",
+      "options": [
+        "valid until 2030",
+        "valid from 2030"
+      ],
+      "answer": "valid until 2030",
+      "explanation": "Bis: until.",
+      "id": "q3"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Der Ausweis ist nicht mehr ___. (valid)",
+      "answer": "gültig",
+      "fullAnswer": "Der Ausweis ist nicht mehr gültig.",
+      "explanation": "Gültig.",
+      "acceptedAnswers": [
+        "gueltig"
+      ],
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Which is usually gültig or ungültig?",
+      "options": [
+        "a ticket",
+        "a person"
+      ],
+      "answer": "a ticket",
+      "explanation": "Documents and tickets.",
+      "id": "q5"
+    }
+  ]
+}

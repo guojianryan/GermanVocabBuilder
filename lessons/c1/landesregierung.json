@@ -1,0 +1,148 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Landesregierung",
+    "partOfSpeech": "noun, feminine (die Landesregierung)",
+    "pronunciation": {
+      "respelling": "LAN-des-re-gee-rung",
+      "ipa": "ˈlandəsʁeˌɡiːʁʊŋ",
+      "notes": "Plural: die Landesregierungen."
+    },
+    "meaning": "state government (Land)",
+    "shortDefinition": "State government (Land)."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Landes",
+        "meaning": "of the state (Land)"
+      },
+      {
+        "part": "regierung",
+        "meaning": "government"
+      }
+    ],
+    "literalMeaning": "state government"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Landesregierung, plural die Landesregierungen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Landesregierung"
+        },
+        {
+          "label": "More than one",
+          "value": "die Landesregierungen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die bayerische Landesregierung.",
+      "english": "The Bavarian state government.",
+      "highlight": [
+        "Landesregierung."
+      ]
+    },
+    {
+      "german": "Die Landesregierung ist für Schulen zuständig.",
+      "english": "The state government is responsible for schools.",
+      "highlight": [
+        "Landesregierung"
+      ]
+    },
+    {
+      "german": "Ein Sprecher der Landesregierung.",
+      "english": "A state government spokesperson.",
+      "highlight": [
+        "Landesregierung."
+      ]
+    }
+  ],
+  "forms": [
+    "Bundesregierung",
+    "Ministerpräsident"
+  ],
+  "memoryHook": "Land + Regierung = state government ↔ Bundesregierung.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Landesregierung",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Landesregierung is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Landesregierung, zwei ___",
+      "answer": "Landesregierungen",
+      "fullAnswer": "ein Landesregierung, zwei Landesregierungen",
+      "explanation": "The plural is Landesregierungen.",
+      "acceptedAnswers": [
+        "Landesregierungen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Landesregierung mean?",
+      "options": [
+        "state government (Land)",
+        "the street",
+        "the bread"
+      ],
+      "answer": "state government (Land)",
+      "explanation": "Landesregierung: state government (Land).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Refers to…",
+      "options": [
+        "a German federal state (Land)",
+        "the national government"
+      ],
+      "answer": "a German federal state (Land)",
+      "explanation": "State.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "National government:",
+      "options": [
+        "die Bundesregierung",
+        "die Staatsregierung only"
+      ],
+      "answer": "die Bundesregierung",
+      "explanation": "Federal.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Head:",
+      "options": [
+        "der Ministerpräsident / die Ministerpräsidentin",
+        "der Kanzler"
+      ],
+      "answer": "der Ministerpräsident / die Ministerpräsidentin",
+      "explanation": "Premier.",
+      "id": "q6"
+    }
+  ]
+}

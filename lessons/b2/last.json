@@ -1,0 +1,134 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Last",
+    "partOfSpeech": "noun, feminine (die Last)",
+    "pronunciation": {
+      "respelling": "LAST",
+      "ipa": "last",
+      "notes": "Plural: die Lasten."
+    },
+    "meaning": "load, burden",
+    "shortDefinition": "Load, burden."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Last, plural die Lasten.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Last"
+        },
+        {
+          "label": "More than one",
+          "value": "die Lasten"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er trägt eine schwere Last.",
+      "english": "He's carrying a heavy load.",
+      "highlight": [
+        "Last."
+      ]
+    },
+    {
+      "german": "Ich will dir nicht zur Last fallen.",
+      "english": "I don't want to be a burden to you.",
+      "highlight": [
+        "Last"
+      ]
+    },
+    {
+      "german": "Die Kosten gehen zu Lasten des Käufers.",
+      "english": "The costs are borne by the buyer.",
+      "highlight": [
+        "Lasten"
+      ]
+    }
+  ],
+  "forms": [
+    "belasten",
+    "Lastwagen"
+  ],
+  "memoryHook": "Die Last; zur Last fallen; Lastwagen; belasten.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Last",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Last is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Last, zwei ___",
+      "answer": "Lasten",
+      "fullAnswer": "ein Last, zwei Lasten",
+      "explanation": "The plural is Lasten.",
+      "acceptedAnswers": [
+        "Lasten"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Last mean?",
+      "options": [
+        "to sing",
+        "the flower",
+        "load"
+      ],
+      "answer": "load",
+      "explanation": "Last: load, burden.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Jemandem zur Last fallen' means…",
+      "options": [
+        "to be a burden to someone",
+        "to fall on someone"
+      ],
+      "answer": "to be a burden to someone",
+      "explanation": "Idiom.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Lorry:",
+      "options": [
+        "der Lastwagen (Lkw)",
+        "der Lastzug only"
+      ],
+      "answer": "der Lastwagen (Lkw)",
+      "explanation": "Load vehicle.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Zu Lasten von' means…",
+      "options": [
+        "at the expense of",
+        "in favour of"
+      ],
+      "answer": "at the expense of",
+      "explanation": "Cost.",
+      "id": "q6"
+    }
+  ]
+}

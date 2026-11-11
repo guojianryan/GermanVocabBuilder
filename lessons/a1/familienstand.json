@@ -1,0 +1,171 @@
+{
+ "schemaVersion": "1.4",
+ "language": "de",
+ "explanationLanguage": "en",
+ "level": "A1",
+ "levelSource": "Goethe-Zertifikat A1 Wortliste",
+ "lessonType": "card",
+ "word": {
+  "headword": "Familienstand",
+  "partOfSpeech": "noun, masculine (der Familienstand)",
+  "pronunciation": {
+   "respelling": "fa-MEE-lyen-shtant",
+   "ipa": "faˈmiːli̯ənˌʃtant",
+   "notes": "Usually no plural."
+  },
+  "meaning": "marital status",
+  "shortDefinition": "Marital status."
+ },
+ "wordFamily": [
+  {
+   "german": "ledig",
+   "english": "single",
+   "type": "adjective"
+  },
+  {
+   "german": "verheiratet",
+   "english": "married",
+   "type": "adjective"
+  },
+  {
+   "german": "geschieden",
+   "english": "divorced",
+   "type": "adjective"
+  },
+  {
+   "german": "getrennt",
+   "english": "separated",
+   "type": "adjective"
+  }
+ ],
+ "commonMistakes": [
+  {
+   "title": "Gender and plural",
+   "explanation": "Der Familienstand, usually no plural.",
+   "forms": [
+    {
+     "label": "One",
+     "value": "der Familienstand"
+    }
+   ]
+  }
+ ],
+ "sampleSentences": [
+  {
+   "german": "Bei „Familienstand“ musst du „ledig“ ankreuzen.",
+   "english": "For 'marital status' you have to tick 'single'.",
+   "highlight": [
+    "Familienstand“"
+   ]
+  },
+  {
+   "german": "Familienstand: verheiratet",
+   "english": "Marital status: married",
+   "highlight": [
+    "Familienstand:"
+   ]
+  },
+  {
+   "german": "Was ist Ihr Familienstand?",
+   "english": "What's your marital status?",
+   "highlight": [
+    "Familienstand?"
+   ]
+  }
+ ],
+ "forms": [
+  "der Familienstand",
+  "geschieden",
+  "getrennt"
+ ],
+ "memoryHook": "Familie + Stand (status): the box on forms for single, married, divorced.",
+ "signOff": "Gut gemacht!",
+ "quiz": [
+  {
+   "type": "choice",
+   "prompt": "___ Familienstand",
+   "options": [
+    "der",
+    "die",
+    "das"
+   ],
+   "answer": "der",
+   "explanation": "Familienstand is masculine.",
+   "id": "q1"
+  },
+  {
+   "type": "choice",
+   "prompt": "What does Familienstand mean?",
+   "options": [
+    "marital status",
+    "the window",
+    "the bread"
+   ],
+   "answer": "marital status",
+   "explanation": "Familienstand: marital status.",
+   "id": "q2"
+  },
+  {
+   "type": "choice",
+   "prompt": "Possible answers on a form:",
+   "options": [
+    "ledig, verheiratet, geschieden",
+    "jung, alt"
+   ],
+   "answer": "ledig, verheiratet, geschieden",
+   "explanation": "Single, married, divorced.",
+   "id": "q3"
+  },
+  {
+   "type": "choice",
+   "prompt": "Ledig means…",
+   "options": [
+    "single",
+    "married"
+   ],
+   "answer": "single",
+   "explanation": "Not married.",
+   "id": "q4"
+  },
+  {
+   "type": "choice",
+   "prompt": "Separated is…",
+   "options": [
+    "getrennt",
+    "geschieden"
+   ],
+   "answer": "getrennt",
+   "explanation": "Geschieden = divorced.",
+   "id": "q5"
+  },
+  {
+   "type": "choice",
+   "prompt": "Familienstand is…",
+   "options": [
+    "about whether you're married",
+    "how big your family is"
+   ],
+   "answer": "about whether you're married",
+   "explanation": "Status, not size.",
+   "id": "q6"
+  }
+ ],
+ "etymology": {
+  "title": "Where it comes from",
+  "parts": [
+   {
+    "part": "Familie",
+    "meaning": "family"
+   },
+   {
+    "part": "n",
+    "meaning": "linking letter"
+   },
+   {
+    "part": "stand",
+    "meaning": "status"
+   }
+  ],
+  "literalMeaning": "family status"
+ }
+}

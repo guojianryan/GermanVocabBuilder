@@ -1,0 +1,180 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "zugeben",
+    "partOfSpeech": "separable verb",
+    "pronunciation": {
+      "respelling": "TSOO-gay-ben",
+      "ipa": "ˈtsuːˌɡeːbn̩",
+      "notes": ""
+    },
+    "meaning": "to admit; to add",
+    "shortDefinition": "To admit; to add."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "zu",
+        "meaning": "to, in addition"
+      },
+      {
+        "part": "geben",
+        "meaning": "to give"
+      }
+    ],
+    "literalMeaning": "to give in addition"
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "geb|e … |zu"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "gib|st … |zu"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "gib|t … |zu"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "geb|en … |zu"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "geb|t … |zu"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "geb|en … |zu"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat zugegeben"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Gib es zu, du warst es!",
+      "english": "Admit it, it was you!",
+      "highlight": [
+        "Gib",
+        "zu,"
+      ]
+    },
+    {
+      "german": "Er hat seinen Fehler zugegeben.",
+      "english": "He admitted his mistake.",
+      "highlight": [
+        "zugegeben."
+      ]
+    },
+    {
+      "german": "Zugegeben, das war nicht gut.",
+      "english": "Admittedly, that wasn't good.",
+      "highlight": [
+        "Zugegeben,"
+      ]
+    }
+  ],
+  "forms": [
+    "zugegeben"
+  ],
+  "memoryHook": "Zugeben (gibt zu) = admit; zugegeben = admittedly.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ … zu (zugeben)",
+      "answer": "gibt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: gibt … zu.",
+      "acceptedAnswers": [
+        "gibt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (zugeben, past)",
+      "answer": "zugegeben",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe zugegeben.",
+      "acceptedAnswers": [
+        "zugegeben"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does zugeben mean?",
+      "options": [
+        "to admit",
+        "the job",
+        "the street"
+      ],
+      "answer": "to admit",
+      "explanation": "zugeben: to admit; to add.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Zugegeben, …' means…",
+      "options": [
+        "admittedly, …",
+        "added, …"
+      ],
+      "answer": "admittedly, …",
+      "explanation": "Concession.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "er ___ … zu:",
+      "options": [
+        "gibt",
+        "gebt"
+      ],
+      "answer": "gibt",
+      "explanation": "e → i.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonym:",
+      "options": [
+        "gestehen, einräumen",
+        "leugnen"
+      ],
+      "answer": "gestehen, einräumen",
+      "explanation": "Admit.",
+      "id": "q6"
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Unterschrift",
+    "partOfSpeech": "noun, feminine (die Unterschrift)",
+    "pronunciation": {
+      "respelling": "OON-ter-shrift",
+      "ipa": "ˈʊntɐʃʁɪft",
+      "notes": "Plural: die Unterschriften."
+    },
+    "meaning": "signature",
+    "shortDefinition": "Signature."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Unter",
+        "meaning": "under"
+      },
+      {
+        "part": "Schrift",
+        "meaning": "writing"
+      }
+    ],
+    "literalMeaning": "under-writing",
+    "summary": "Your name under a text."
+  },
+  "wordFamily": [
+    {
+      "german": "unterschreiben",
+      "english": "to sign",
+      "type": "verb"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Unterschrift, plural die Unterschriften.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Unterschrift"
+        },
+        {
+          "label": "More than one",
+          "value": "die Unterschriften"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Hier fehlt noch Ihre Unterschrift.",
+      "english": "Your signature is still missing here.",
+      "highlight": [
+        "Unterschrift."
+      ]
+    },
+    {
+      "german": "Ohne Unterschrift ist der Vertrag nicht gültig.",
+      "english": "Without a signature the contract isn't valid.",
+      "highlight": [
+        "Unterschrift"
+      ]
+    },
+    {
+      "german": "Bitte Datum und Unterschrift.",
+      "english": "Date and signature, please.",
+      "highlight": [
+        "Unterschrift."
+      ]
+    }
+  ],
+  "forms": [
+    "Unterschriften",
+    "die Unterschriften",
+    "die Unterschrift"
+  ],
+  "memoryHook": "Unter + Schrift: what you write underneath.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Unterschrift",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Unterschrift is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Unterschrift, zwei ___",
+      "answer": "Unterschriften",
+      "fullAnswer": "ein Unterschrift, zwei Unterschriften",
+      "explanation": "The plural is Unterschriften.",
+      "acceptedAnswers": [
+        "Unterschriften"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Unterschrift mean?",
+      "options": [
+        "the key",
+        "quiet",
+        "signature"
+      ],
+      "answer": "signature",
+      "explanation": "Unterschrift: signature.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "The verb:",
+      "options": [
+        "unterschreiben",
+        "unterschriften"
+      ],
+      "answer": "unterschreiben",
+      "explanation": "To sign.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Literally:",
+      "options": [
+        "under-writing",
+        "over-writing"
+      ],
+      "answer": "under-writing",
+      "explanation": "You write under the text.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Obst",
+    "partOfSpeech": "noun, neuter (das Obst)",
+    "pronunciation": {
+      "respelling": "OHPST",
+      "ipa": "oːpst",
+      "notes": "No plural. Usually no plural."
+    },
+    "meaning": "fruit",
+    "shortDefinition": "Fruit."
+  },
+  "wordFamily": [
+    {
+      "german": "das Gemüse",
+      "english": "vegetables",
+      "type": "noun"
+    },
+    {
+      "german": "die Frucht",
+      "english": "a fruit",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Obst, usually no plural.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Obst"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich esse jeden Tag Obst.",
+      "english": "I eat fruit every day.",
+      "highlight": [
+        "Obst."
+      ]
+    },
+    {
+      "german": "Obst und Gemüse gibt es auf dem Markt.",
+      "english": "You can get fruit and veg at the market.",
+      "highlight": [
+        "Obst"
+      ]
+    },
+    {
+      "german": "Möchtest du ein Stück Obst?",
+      "english": "Would you like a piece of fruit?",
+      "highlight": [
+        "Obst?"
+      ]
+    }
+  ],
+  "forms": [
+    "das Obst"
+  ],
+  "memoryHook": "Das Obst = fruit, always singular. Obst und Gemüse = fruit and veg.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Obst",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Obst is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Obst mean?",
+      "options": [
+        "to open",
+        "the station",
+        "fruit"
+      ],
+      "answer": "fruit",
+      "explanation": "Obst: fruit.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Obst is…",
+      "options": [
+        "uncountable, singular",
+        "plural"
+      ],
+      "answer": "uncountable, singular",
+      "explanation": "Das Obst.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Obst und ___ (fruit and veg)",
+      "options": [
+        "Gemüse",
+        "Fleisch"
+      ],
+      "answer": "Gemüse",
+      "explanation": "Gemüse: vegetables.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich kaufe ___ auf dem Markt. (fruit)",
+      "answer": "Obst",
+      "fullAnswer": "Ich kaufe Obst auf dem Markt.",
+      "explanation": "Das Obst.",
+      "id": "q5"
+    }
+  ]
+}

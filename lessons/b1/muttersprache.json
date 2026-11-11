@@ -1,0 +1,138 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Muttersprache",
+    "partOfSpeech": "noun, feminine (die Muttersprache)",
+    "pronunciation": {
+      "respelling": "MOO-ter-shpraa-khe",
+      "ipa": "ˈmʊtɐˌʃpʁaːxə",
+      "notes": "Plural: die Muttersprachen."
+    },
+    "meaning": "mother tongue",
+    "shortDefinition": "Mother tongue."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Mutter",
+        "meaning": "mother"
+      },
+      {
+        "part": "sprache",
+        "meaning": "language"
+      }
+    ],
+    "literalMeaning": "mother language",
+    "summary": "The language you learn from your mother."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Muttersprache, plural die Muttersprachen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Muttersprache"
+        },
+        {
+          "label": "More than one",
+          "value": "die Muttersprachen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Meine Muttersprache ist Polnisch.",
+      "english": "My mother tongue is Polish.",
+      "highlight": [
+        "Muttersprache"
+      ]
+    },
+    {
+      "german": "Sie spricht Deutsch wie eine Muttersprachlerin.",
+      "english": "She speaks German like a native.",
+      "highlight": [
+        "Muttersprachlerin."
+      ]
+    },
+    {
+      "german": "Was ist deine Muttersprache?",
+      "english": "What's your native language?",
+      "highlight": [
+        "Muttersprache?"
+      ]
+    }
+  ],
+  "forms": [
+    "Muttersprachler",
+    "Muttersprachlerin"
+  ],
+  "memoryHook": "Mutter + Sprache = mother tongue. Der Muttersprachler.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Muttersprache",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Muttersprache is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Muttersprache, zwei ___",
+      "answer": "Muttersprachen",
+      "fullAnswer": "ein Muttersprache, zwei Muttersprachen",
+      "explanation": "The plural is Muttersprachen.",
+      "acceptedAnswers": [
+        "Muttersprachen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Muttersprache mean?",
+      "options": [
+        "slowly",
+        "mother tongue",
+        "cheap"
+      ],
+      "answer": "mother tongue",
+      "explanation": "Muttersprache: mother tongue.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Native speaker:",
+      "options": [
+        "der Muttersprachler",
+        "der Muttersprecher"
+      ],
+      "answer": "der Muttersprachler",
+      "explanation": "Muttersprachler.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Mutter + Sprache",
+        "Mutter + sprechen only"
+      ],
+      "answer": "Mutter + Sprache",
+      "explanation": "Mother language.",
+      "id": "q5"
+    }
+  ]
+}

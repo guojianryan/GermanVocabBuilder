@@ -1,0 +1,145 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Hausfrau",
+    "partOfSpeech": "noun, feminine (die Hausfrau)",
+    "pronunciation": {
+      "respelling": "HOWS-frow",
+      "ipa": "ˈhaʊ̯sˌfʁaʊ̯",
+      "notes": "Plural: die Hausfrauen."
+    },
+    "meaning": "housewife",
+    "shortDefinition": "Housewife."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Haus",
+        "meaning": "house"
+      },
+      {
+        "part": "frau",
+        "meaning": "woman"
+      }
+    ],
+    "literalMeaning": "house woman"
+  },
+  "wordFamily": [
+    {
+      "german": "der Hausmann",
+      "english": "house husband",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Hausfrau, plural die Hausfrauen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Hausfrau"
+        },
+        {
+          "label": "More than one",
+          "value": "die Hausfrauen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Meine Mutter war Hausfrau.",
+      "english": "My mother was a housewife.",
+      "highlight": [
+        "Hausfrau."
+      ]
+    },
+    {
+      "german": "Er ist Hausmann und kümmert sich um die Kinder.",
+      "english": "He's a stay-at-home dad and looks after the children.",
+      "highlight": [
+        "Hausmann"
+      ]
+    },
+    {
+      "german": "Beruf: Hausfrau.",
+      "english": "Occupation: housewife.",
+      "highlight": [
+        "Hausfrau."
+      ]
+    }
+  ],
+  "forms": [
+    "Hausfrauen",
+    "Hausmann",
+    "die Hausfrau"
+  ],
+  "memoryHook": "Haus + Frau / Haus + Mann. Like all jobs: Ich bin Hausfrau, no article.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Hausfrau",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Hausfrau is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Hausfrau, zwei ___",
+      "answer": "Hausfrauen",
+      "fullAnswer": "ein Hausfrau, zwei Hausfrauen",
+      "explanation": "The plural is Hausfrauen.",
+      "acceptedAnswers": [
+        "Hausfrauen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Hausfrau mean?",
+      "options": [
+        "tomorrow",
+        "housewife",
+        "to buy"
+      ],
+      "answer": "housewife",
+      "explanation": "Hausfrau: housewife.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "A man who runs the home is…",
+      "options": [
+        "der Hausmann",
+        "der Hausherr"
+      ],
+      "answer": "der Hausmann",
+      "explanation": "Hausfrau / Hausmann.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich bin ___ Hausfrau.",
+      "options": [
+        "(no article)",
+        "eine"
+      ],
+      "answer": "(no article)",
+      "explanation": "Jobs take no article: Ich bin Hausfrau.",
+      "id": "q5"
+    }
+  ]
+}

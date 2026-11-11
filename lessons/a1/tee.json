@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Tee",
+    "partOfSpeech": "noun, masculine (der Tee)",
+    "pronunciation": {
+      "respelling": "TAY",
+      "ipa": "teː",
+      "notes": "Plural: die Tees."
+    },
+    "meaning": "tea",
+    "shortDefinition": "Tea."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Tee, plural die Tees.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Tee"
+        },
+        {
+          "label": "More than one",
+          "value": "die Tees"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Möchtest du einen Tee?",
+      "english": "Would you like a tea?",
+      "highlight": [
+        "Tee?"
+      ]
+    },
+    {
+      "german": "Ich trinke Tee mit Zitrone.",
+      "english": "I drink tea with lemon.",
+      "highlight": [
+        "Tee"
+      ]
+    },
+    {
+      "german": "Der Tee ist noch zu heiß.",
+      "english": "The tea is still too hot.",
+      "highlight": [
+        "Tee"
+      ]
+    }
+  ],
+  "forms": [
+    "Tees",
+    "die Tees",
+    "der Tee"
+  ],
+  "memoryHook": "Der Tee (like der Kaffee). Einen Tee, bitte.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Tee",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Tee is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Tee, zwei ___",
+      "answer": "Tees",
+      "fullAnswer": "ein Tee, zwei Tees",
+      "explanation": "The plural is Tees.",
+      "acceptedAnswers": [
+        "Tees"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Tee mean?",
+      "options": [
+        "hot",
+        "the evening",
+        "tea"
+      ],
+      "answer": "tea",
+      "explanation": "Tee: tea.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich trinke ___ Tee.",
+      "options": [
+        "ein",
+        "einen"
+      ],
+      "answer": "einen",
+      "explanation": "Masculine object.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Tee is…",
+      "options": [
+        "masculine",
+        "feminine"
+      ],
+      "answer": "masculine",
+      "explanation": "Der Tee, like der Kaffee.",
+      "id": "q5"
+    }
+  ]
+}

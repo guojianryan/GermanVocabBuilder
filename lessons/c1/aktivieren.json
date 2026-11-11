@@ -1,0 +1,166 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "aktivieren",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "ak-ti-VEE-ren",
+      "ipa": "aktiˈviːʁən",
+      "notes": ""
+    },
+    "meaning": "to activate, mobilise",
+    "shortDefinition": "To activate, mobilise."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "aktivier|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "aktivier|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "aktivier|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "aktivier|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "aktivier|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "aktivier|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat aktiviert"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Bitte aktivieren Sie Ihr Konto.",
+      "english": "Please activate your account.",
+      "highlight": [
+        "aktivieren"
+      ]
+    },
+    {
+      "german": "Das Programm wird automatisch aktiviert.",
+      "english": "The program is activated automatically.",
+      "highlight": [
+        "aktiviert."
+      ]
+    },
+    {
+      "german": "Sie aktiviert ihre Freunde.",
+      "english": "She's mobilising her friends.",
+      "highlight": [
+        "aktiviert"
+      ]
+    }
+  ],
+  "forms": [
+    "aktiv",
+    "deaktivieren"
+  ],
+  "memoryHook": "Aktivieren ↔ deaktivieren; aktiv.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (aktivieren)",
+      "answer": "aktiviert",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: aktiviert.",
+      "acceptedAnswers": [
+        "aktiviert"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (aktivieren, past)",
+      "answer": "aktiviert",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe aktiviert.",
+      "acceptedAnswers": [
+        "aktiviert"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does aktivieren mean?",
+      "options": [
+        "to activate",
+        "to sing",
+        "the station"
+      ],
+      "answer": "to activate",
+      "explanation": "aktivieren: to activate, mobilise.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Opposite:",
+      "options": [
+        "deaktivieren",
+        "inaktivieren only"
+      ],
+      "answer": "deaktivieren",
+      "explanation": "Deactivate.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "hat aktiviert",
+        "hat geaktiviert"
+      ],
+      "answer": "hat aktiviert",
+      "explanation": "-ieren.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Adjective:",
+      "options": [
+        "aktiv",
+        "aktivisch"
+      ],
+      "answer": "aktiv",
+      "explanation": "Active.",
+      "id": "q6"
+    }
+  ]
+}

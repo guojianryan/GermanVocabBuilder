@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Option",
+    "partOfSpeech": "noun, feminine (die Option)",
+    "pronunciation": {
+      "respelling": "op-TSYOHN",
+      "ipa": "ɔpˈtsi̯oːn",
+      "notes": "Plural: die Optionen."
+    },
+    "meaning": "option",
+    "shortDefinition": "Option."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Option, plural die Optionen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Option"
+        },
+        {
+          "label": "More than one",
+          "value": "die Optionen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir haben zwei Optionen.",
+      "english": "We have two options.",
+      "highlight": [
+        "Optionen."
+      ]
+    },
+    {
+      "german": "Das ist keine Option.",
+      "english": "That's not an option.",
+      "highlight": [
+        "Option."
+      ]
+    },
+    {
+      "german": "Die beste Option ist der Zug.",
+      "english": "The best option is the train.",
+      "highlight": [
+        "Option"
+      ]
+    }
+  ],
+  "forms": [
+    "Möglichkeit"
+  ],
+  "memoryHook": "Die Option = die Möglichkeit.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Option",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Option is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Option, zwei ___",
+      "answer": "Optionen",
+      "fullAnswer": "ein Option, zwei Optionen",
+      "explanation": "The plural is Optionen.",
+      "acceptedAnswers": [
+        "Optionen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Option mean?",
+      "options": [
+        "option",
+        "tomorrow",
+        "the station"
+      ],
+      "answer": "option",
+      "explanation": "Option: option.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "-tion sounds like…",
+      "options": [
+        "-tsyohn",
+        "-shun"
+      ],
+      "answer": "-tsyohn",
+      "explanation": "op-TSYOHN.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonym:",
+      "options": [
+        "die Möglichkeit",
+        "die Meinung"
+      ],
+      "answer": "die Möglichkeit",
+      "explanation": "Possibility.",
+      "id": "q5"
+    }
+  ]
+}

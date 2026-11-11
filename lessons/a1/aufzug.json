@@ -1,0 +1,152 @@
+{
+ "schemaVersion": "1.4",
+ "language": "de",
+ "explanationLanguage": "en",
+ "level": "A1",
+ "levelSource": "Goethe-Zertifikat A1 Wortliste",
+ "lessonType": "card",
+ "word": {
+  "headword": "Aufzug",
+  "partOfSpeech": "noun, masculine (der Aufzug)",
+  "pronunciation": {
+   "respelling": "OWF-tsook",
+   "ipa": "ˈaʊ̯fˌtsuːk",
+   "notes": "Plural: die Aufzüge."
+  },
+  "meaning": "lift, elevator",
+  "shortDefinition": "Lift, elevator."
+ },
+ "etymology": {
+  "title": "Where it comes from",
+  "parts": [
+   {
+    "part": "Auf",
+    "meaning": "up",
+    "emphasis": "rise"
+   },
+   {
+    "part": "zug",
+    "meaning": "pull",
+    "note": "From ziehen."
+   }
+  ],
+  "literalMeaning": "a pull up"
+ },
+ "wordFamily": [
+  {
+   "german": "der Fahrstuhl",
+   "english": "lift",
+   "type": "noun"
+  },
+  {
+   "german": "die Treppe",
+   "english": "stairs",
+   "type": "noun"
+  }
+ ],
+ "commonMistakes": [
+  {
+   "title": "Gender and plural",
+   "explanation": "Der Aufzug, plural die Aufzüge.",
+   "forms": [
+    {
+     "label": "One",
+     "value": "der Aufzug"
+    },
+    {
+     "label": "More than one",
+     "value": "die Aufzüge"
+    }
+   ]
+  }
+ ],
+ "sampleSentences": [
+  {
+   "german": "In diesem Haus gibt es keinen Aufzug.",
+   "english": "There's no lift in this building.",
+   "highlight": [
+    "Aufzug."
+   ]
+  },
+  {
+   "german": "Nehmen wir den Aufzug oder die Treppe?",
+   "english": "Shall we take the lift or the stairs?",
+   "highlight": [
+    "Aufzug"
+   ]
+  },
+  {
+   "german": "Der Aufzug ist leider kaputt.",
+   "english": "Unfortunately the lift is broken.",
+   "highlight": [
+    "Aufzug"
+   ]
+  }
+ ],
+ "forms": [
+  "Aufzüge",
+  "die Aufzüge",
+  "der Aufzug"
+ ],
+ "memoryHook": "Ziehen = pull, auf = up. An Aufzug pulls you up.",
+ "signOff": "Gut gemacht!",
+ "quiz": [
+  {
+   "type": "choice",
+   "prompt": "___ Aufzug",
+   "options": [
+    "der",
+    "die",
+    "das"
+   ],
+   "answer": "der",
+   "explanation": "Aufzug is masculine.",
+   "id": "q1"
+  },
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "ein Aufzug, zwei ___",
+   "answer": "Aufzüge",
+   "fullAnswer": "ein Aufzug, zwei Aufzüge",
+   "explanation": "The plural is Aufzüge.",
+   "acceptedAnswers": [
+    "Aufzuege"
+   ],
+   "id": "q2"
+  },
+  {
+   "type": "choice",
+   "prompt": "What does Aufzug mean?",
+   "options": [
+    "to sleep",
+    "to sing",
+    "lift"
+   ],
+   "answer": "lift",
+   "explanation": "Aufzug: lift, elevator.",
+   "id": "q3"
+  },
+  {
+   "type": "choice",
+   "prompt": "Another word for der Aufzug is…",
+   "options": [
+    "der Fahrstuhl",
+    "die Treppe"
+   ],
+   "answer": "der Fahrstuhl",
+   "explanation": "Fahrstuhl and Lift also mean lift.",
+   "id": "q4"
+  },
+  {
+   "type": "choice",
+   "prompt": "Es gibt keinen ___. (lift)",
+   "options": [
+    "Aufzug",
+    "Aufzüge"
+   ],
+   "answer": "Aufzug",
+   "explanation": "Keinen + singular masculine.",
+   "id": "q5"
+  }
+ ]
+}

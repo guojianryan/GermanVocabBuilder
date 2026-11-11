@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Landkreis",
+    "partOfSpeech": "noun, masculine (der Landkreis)",
+    "pronunciation": {
+      "respelling": "LANT-krice",
+      "ipa": "ˈlantkʁaɪ̯s",
+      "notes": "Plural: die Landkreise."
+    },
+    "meaning": "district (rural administrative area)",
+    "shortDefinition": "District (rural administrative area)."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Land",
+        "meaning": "land, country"
+      },
+      {
+        "part": "kreis",
+        "meaning": "circle, district"
+      }
+    ],
+    "literalMeaning": "land circle"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Landkreis, plural die Landkreise.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Landkreis"
+        },
+        {
+          "label": "More than one",
+          "value": "die Landkreise"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Landkreis München.",
+      "english": "The district of Munich.",
+      "highlight": [
+        "Landkreis"
+      ]
+    },
+    {
+      "german": "In unserem Landkreis gibt es 20 Gemeinden.",
+      "english": "There are 20 municipalities in our district.",
+      "highlight": [
+        "Landkreis"
+      ]
+    },
+    {
+      "german": "Das Landratsamt verwaltet den Landkreis.",
+      "english": "The district office administers the district.",
+      "highlight": [
+        "Landkreis."
+      ]
+    }
+  ],
+  "forms": [
+    "Kreis",
+    "Landrat"
+  ],
+  "memoryHook": "Land + Kreis = district; der Landrat.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Landkreis",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Landkreis is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Landkreis, zwei ___",
+      "answer": "Landkreise",
+      "fullAnswer": "ein Landkreis, zwei Landkreise",
+      "explanation": "The plural is Landkreise.",
+      "acceptedAnswers": [
+        "Landkreise"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Landkreis mean?",
+      "options": [
+        "district (rural administrative area)",
+        "the street",
+        "to open"
+      ],
+      "answer": "district (rural administrative area)",
+      "explanation": "Landkreis: district (rural administrative area).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Land + Kreis (circle)",
+        "Land + Kreuz"
+      ],
+      "answer": "Land + Kreis (circle)",
+      "explanation": "Land circle.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Head of a Landkreis:",
+      "options": [
+        "der Landrat",
+        "der Bürgermeister"
+      ],
+      "answer": "der Landrat",
+      "explanation": "Official.",
+      "id": "q5"
+    }
+  ]
+}

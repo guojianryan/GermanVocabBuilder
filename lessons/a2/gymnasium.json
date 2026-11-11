@@ -1,0 +1,133 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Gymnasium",
+    "partOfSpeech": "noun, neuter (das Gymnasium)",
+    "pronunciation": {
+      "respelling": "güm-NAA-zyoom",
+      "ipa": "ɡʏmˈnaːzi̯ʊm",
+      "notes": "Plural: die Gymnasien."
+    },
+    "meaning": "grammar school, academic secondary school",
+    "shortDefinition": "Grammar school, academic secondary school."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Gymnasium, plural die Gymnasien.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Gymnasium"
+        },
+        {
+          "label": "More than one",
+          "value": "die Gymnasien"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Meine Tochter geht aufs Gymnasium.",
+      "english": "My daughter goes to grammar school.",
+      "highlight": [
+        "Gymnasium."
+      ]
+    },
+    {
+      "german": "Nach dem Gymnasium macht man das Abitur.",
+      "english": "At the end of Gymnasium you take the Abitur.",
+      "highlight": [
+        "Gymnasium"
+      ]
+    },
+    {
+      "german": "Er unterrichtet an einem Gymnasium.",
+      "english": "He teaches at a grammar school.",
+      "highlight": [
+        "Gymnasium."
+      ]
+    }
+  ],
+  "forms": [
+    "Gymnasien"
+  ],
+  "memoryHook": "Das Gymnasium (academic school → Abitur), not a gym!",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Gymnasium",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Gymnasium is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Gymnasium, zwei ___",
+      "answer": "Gymnasien",
+      "fullAnswer": "ein Gymnasium, zwei Gymnasien",
+      "explanation": "The plural is Gymnasien.",
+      "acceptedAnswers": [
+        "Gymnasien"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Gymnasium mean?",
+      "options": [
+        "the car",
+        "the weather",
+        "grammar school"
+      ],
+      "answer": "grammar school",
+      "explanation": "Gymnasium: grammar school, academic secondary school.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Not a gym! A gym is…",
+      "options": [
+        "das Fitnessstudio / die Turnhalle",
+        "das Gymnasium"
+      ],
+      "answer": "das Fitnessstudio / die Turnhalle",
+      "explanation": "False friend.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Gymnasien",
+        "Gymnasiums"
+      ],
+      "answer": "Gymnasien",
+      "explanation": "Latin.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Aufs Gymnasium gehen' — preposition:",
+      "options": [
+        "auf",
+        "in"
+      ],
+      "answer": "auf",
+      "explanation": "Auf.",
+      "id": "q6"
+    }
+  ]
+}

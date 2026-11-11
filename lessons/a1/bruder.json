@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Bruder",
+    "partOfSpeech": "noun, masculine (der Bruder)",
+    "pronunciation": {
+      "respelling": "BROO-der",
+      "ipa": "ˈbʁuːdɐ",
+      "notes": "Plural: die Brüder."
+    },
+    "meaning": "brother",
+    "shortDefinition": "Brother."
+  },
+  "wordFamily": [
+    {
+      "german": "die Schwester",
+      "english": "sister",
+      "type": "noun"
+    },
+    {
+      "german": "die Geschwister",
+      "english": "siblings",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Bruder, plural die Brüder.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Bruder"
+        },
+        {
+          "label": "More than one",
+          "value": "die Brüder"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich habe einen Bruder und eine Schwester.",
+      "english": "I have a brother and a sister.",
+      "highlight": [
+        "Bruder"
+      ]
+    },
+    {
+      "german": "Mein Bruder wohnt in Hamburg.",
+      "english": "My brother lives in Hamburg.",
+      "highlight": [
+        "Bruder"
+      ]
+    },
+    {
+      "german": "Hast du Geschwister? – Ja, zwei Brüder.",
+      "english": "Do you have siblings? – Yes, two brothers.",
+      "highlight": [
+        "Brüder."
+      ]
+    }
+  ],
+  "forms": [
+    "Brüder",
+    "die Brüder",
+    "der Bruder"
+  ],
+  "memoryHook": "Bruder = brother, and the plural gets an umlaut: Brüder.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Bruder",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Bruder is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Bruder, zwei ___",
+      "answer": "Brüder",
+      "fullAnswer": "ein Bruder, zwei Brüder",
+      "explanation": "The plural is Brüder.",
+      "acceptedAnswers": [
+        "Brueder"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Bruder mean?",
+      "options": [
+        "the car",
+        "brother",
+        "the shop"
+      ],
+      "answer": "brother",
+      "explanation": "Bruder: brother.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Brothers and sisters together are…",
+      "options": [
+        "die Geschwister",
+        "die Eltern"
+      ],
+      "answer": "die Geschwister",
+      "explanation": "Geschwister: siblings.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich habe ___ Bruder.",
+      "options": [
+        "einen",
+        "ein"
+      ],
+      "answer": "einen",
+      "explanation": "Masculine accusative: einen.",
+      "id": "q5"
+    }
+  ]
+}

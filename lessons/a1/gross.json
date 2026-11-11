@@ -1,0 +1,152 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "groß",
+    "partOfSpeech": "adjective",
+    "pronunciation": {
+      "respelling": "GROHS",
+      "ipa": "ɡʁoːs",
+      "notes": ""
+    },
+    "meaning": "big, large; tall; great",
+    "shortDefinition": "Big, large; tall; great."
+  },
+  "tables": [
+    {
+      "title": "Big, bigger, biggest",
+      "columns": [
+        "form"
+      ],
+      "rows": [
+        {
+          "label": "big",
+          "cells": [
+            "groß"
+          ]
+        },
+        {
+          "label": "bigger",
+          "cells": [
+            "gr|ö|ßer"
+          ]
+        },
+        {
+          "label": "biggest",
+          "cells": [
+            "am gr|ö|ßten"
+          ]
+        }
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "klein",
+      "english": "small",
+      "type": "adjective"
+    },
+    {
+      "german": "die Größe",
+      "english": "size",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Unsere Wohnung ist groß.",
+      "english": "Our flat is big.",
+      "highlight": [
+        "groß."
+      ]
+    },
+    {
+      "german": "Mein Bruder ist größer als ich.",
+      "english": "My brother is taller than me.",
+      "highlight": [
+        "größer"
+      ]
+    },
+    {
+      "german": "Berlin ist die größte Stadt Deutschlands.",
+      "english": "Berlin is the biggest city in Germany.",
+      "highlight": [
+        "größte"
+      ]
+    }
+  ],
+  "forms": [
+    "große",
+    "großen",
+    "großer",
+    "großes",
+    "größer",
+    "größten",
+    "größte",
+    "Größe"
+  ],
+  "memoryHook": "Groß = big, and for people, tall. Großer, größer, am größten: the umlaut appears in the comparative.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does groß mean?",
+      "options": [
+        "quiet",
+        "to help",
+        "big"
+      ],
+      "answer": "big",
+      "explanation": "groß: big, large; tall; great.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "groß → ___ → am größten",
+      "options": [
+        "großer",
+        "größer"
+      ],
+      "answer": "größer",
+      "explanation": "Umlaut in the comparative.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "For people, groß means…",
+      "options": [
+        "tall",
+        "fat"
+      ],
+      "answer": "tall",
+      "explanation": "Er ist groß: he's tall.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "The opposite of groß is…",
+      "options": [
+        "klein",
+        "kurz"
+      ],
+      "answer": "klein",
+      "explanation": "Klein: small.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Wie ___ bist du? (How tall are you?)",
+      "answer": "groß",
+      "fullAnswer": "Wie groß bist du?",
+      "explanation": "Height: groß.",
+      "acceptedAnswers": [
+        "gross"
+      ],
+      "id": "q5"
+    }
+  ]
+}

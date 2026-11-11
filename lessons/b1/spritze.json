@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Spritze",
+    "partOfSpeech": "noun, feminine (die Spritze)",
+    "pronunciation": {
+      "respelling": "SHPRIT-se",
+      "ipa": "ˈʃpʁɪtsə",
+      "notes": "Plural: die Spritzen."
+    },
+    "meaning": "injection; syringe",
+    "shortDefinition": "Injection; syringe."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Spritze, plural die Spritzen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Spritze"
+        },
+        {
+          "label": "More than one",
+          "value": "die Spritzen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich habe Angst vor Spritzen.",
+      "english": "I'm afraid of injections.",
+      "highlight": [
+        "Spritzen."
+      ]
+    },
+    {
+      "german": "Der Arzt gibt mir eine Spritze.",
+      "english": "The doctor gives me an injection.",
+      "highlight": [
+        "Spritze."
+      ]
+    },
+    {
+      "german": "Die Spritze tut nicht weh.",
+      "english": "The injection doesn't hurt.",
+      "highlight": [
+        "Spritze"
+      ]
+    }
+  ],
+  "forms": [
+    "spritzen"
+  ],
+  "memoryHook": "Die Spritze (injection). Spritzen = splash.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Spritze",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Spritze is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Spritze, zwei ___",
+      "answer": "Spritzen",
+      "fullAnswer": "ein Spritze, zwei Spritzen",
+      "explanation": "The plural is Spritzen.",
+      "acceptedAnswers": [
+        "Spritzen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Spritze mean?",
+      "options": [
+        "slowly",
+        "injection",
+        "the evening"
+      ],
+      "answer": "injection",
+      "explanation": "Spritze: injection; syringe.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Eine Spritze bekommen' means…",
+      "options": [
+        "to get an injection",
+        "to get splashed"
+      ],
+      "answer": "to get an injection",
+      "explanation": "Jab.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Verb spritzen means…",
+      "options": [
+        "to splash, spray",
+        "to inject only"
+      ],
+      "answer": "to splash, spray",
+      "explanation": "Splash.",
+      "id": "q5"
+    }
+  ]
+}

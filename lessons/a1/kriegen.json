@@ -1,0 +1,170 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "kriegen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "KREE-gen",
+      "ipa": "ˈkʁiːɡn̩",
+      "notes": ""
+    },
+    "meaning": "to get (informal)",
+    "shortDefinition": "To get (informal)."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "krieg|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "krieg|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "krieg|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "krieg|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "krieg|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "krieg|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gekriegt"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "bekommen",
+      "english": "to get",
+      "type": "verb"
+    },
+    {
+      "german": "erhalten",
+      "english": "to receive",
+      "type": "verb"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Was kriegen Sie?",
+      "english": "What can I get you? / What do I owe you?",
+      "highlight": [
+        "kriegen"
+      ]
+    },
+    {
+      "german": "Ich habe eine Nachricht gekriegt.",
+      "english": "I got a message.",
+      "highlight": [
+        "gekriegt."
+      ]
+    },
+    {
+      "german": "Kriege ich noch ein Bier?",
+      "english": "Can I get another beer?",
+      "highlight": [
+        "Kriege"
+      ]
+    }
+  ],
+  "forms": [
+    "kriege",
+    "kriegst",
+    "kriegt",
+    "kriegen",
+    "gekriegt"
+  ],
+  "memoryHook": "Kriegen = get, informal. Spoken: kriegen; neutral: bekommen; formal: erhalten.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (kriegen)",
+      "answer": "kriegt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: kriegt.",
+      "acceptedAnswers": [
+        "kriegt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (kriegen, past)",
+      "answer": "gekriegt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gekriegt.",
+      "acceptedAnswers": [
+        "gekriegt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does kriegen mean?",
+      "options": [
+        "the child",
+        "tomorrow",
+        "to get (informal)"
+      ],
+      "answer": "to get (informal)",
+      "explanation": "kriegen: to get (informal).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Kriegen is a casual synonym of…",
+      "options": [
+        "bekommen",
+        "kaufen"
+      ],
+      "answer": "bekommen",
+      "explanation": "Same meaning, more informal.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "In a formal letter, use…",
+      "options": [
+        "bekommen / erhalten",
+        "kriegen"
+      ],
+      "answer": "bekommen / erhalten",
+      "explanation": "Kriegen is spoken German.",
+      "id": "q5"
+    }
+  ]
+}

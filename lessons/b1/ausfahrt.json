@@ -1,0 +1,137 @@
+{
+ "schemaVersion": "1.4",
+ "language": "de",
+ "explanationLanguage": "en",
+ "level": "B1",
+ "levelSource": "Goethe-Zertifikat B1 Wortliste",
+ "lessonType": "card",
+ "word": {
+  "headword": "Ausfahrt",
+  "partOfSpeech": "noun, feminine (die Ausfahrt)",
+  "pronunciation": {
+   "respelling": "OWS-faart",
+   "ipa": "ˈaʊ̯sfaːɐ̯t",
+   "notes": "Plural: die Ausfahrten."
+  },
+  "meaning": "exit (for vehicles)",
+  "shortDefinition": "Exit (for vehicles)."
+ },
+ "commonMistakes": [
+  {
+   "title": "Gender and plural",
+   "explanation": "Die Ausfahrt, plural die Ausfahrten.",
+   "forms": [
+    {
+     "label": "One",
+     "value": "die Ausfahrt"
+    },
+    {
+     "label": "More than one",
+     "value": "die Ausfahrten"
+    }
+   ]
+  }
+ ],
+ "sampleSentences": [
+  {
+   "german": "Nehmen Sie die nächste Ausfahrt.",
+   "english": "Take the next exit.",
+   "highlight": [
+    "Ausfahrt."
+   ]
+  },
+  {
+   "german": "Ausfahrt freihalten!",
+   "english": "Keep exit clear!",
+   "highlight": [
+    "Ausfahrt"
+   ]
+  },
+  {
+   "german": "Wir haben die Ausfahrt verpasst.",
+   "english": "We missed the exit.",
+   "highlight": [
+    "Ausfahrt"
+   ]
+  }
+ ],
+ "forms": [
+  "Einfahrt"
+ ],
+ "memoryHook": "Ausfahrt (cars) / Ausgang (people). 'Ausfahrt freihalten' = don't park here!",
+ "signOff": "Gut gemacht!",
+ "quiz": [
+  {
+   "type": "choice",
+   "prompt": "___ Ausfahrt",
+   "options": [
+    "der",
+    "die",
+    "das"
+   ],
+   "answer": "die",
+   "explanation": "Ausfahrt is feminine.",
+   "id": "q1"
+  },
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "ein Ausfahrt, zwei ___",
+   "answer": "Ausfahrten",
+   "fullAnswer": "ein Ausfahrt, zwei Ausfahrten",
+   "explanation": "The plural is Ausfahrten.",
+   "acceptedAnswers": [
+    "Ausfahrten"
+   ],
+   "id": "q2"
+  },
+  {
+   "type": "choice",
+   "prompt": "What does Ausfahrt mean?",
+   "options": [
+    "exit (for vehicles)",
+    "the job",
+    "tomorrow"
+   ],
+   "answer": "exit (for vehicles)",
+   "explanation": "Ausfahrt: exit (for vehicles).",
+   "id": "q3"
+  },
+  {
+   "type": "choice",
+   "prompt": "For people walking out:",
+   "options": [
+    "der Ausgang",
+    "die Ausfahrt"
+   ],
+   "answer": "der Ausgang",
+   "explanation": "Ausfahrt = vehicles.",
+   "id": "q4"
+  },
+  {
+   "type": "choice",
+   "prompt": "The opposite:",
+   "options": [
+    "die Einfahrt",
+    "die Abfahrt"
+   ],
+   "answer": "die Einfahrt",
+   "explanation": "Entrance (vehicles).",
+   "id": "q5"
+  }
+ ],
+ "etymology": {
+  "title": "Where it comes from",
+  "parts": [
+   {
+    "part": "Aus",
+    "meaning": "out"
+   },
+   {
+    "part": "fahrt",
+    "meaning": "drive, journey",
+    "emphasis": "release"
+   }
+  ],
+  "literalMeaning": "driving out"
+ }
+}

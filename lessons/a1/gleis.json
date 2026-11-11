@@ -1,0 +1,131 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Gleis",
+    "partOfSpeech": "noun, neuter (das Gleis)",
+    "pronunciation": {
+      "respelling": "GLICE",
+      "ipa": "ɡlaɪ̯s",
+      "notes": "Plural: die Gleise."
+    },
+    "meaning": "track, platform (at a station)",
+    "shortDefinition": "Track, platform (at a station)."
+  },
+  "wordFamily": [
+    {
+      "german": "der Bahnsteig",
+      "english": "platform",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Gleis, plural die Gleise.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Gleis"
+        },
+        {
+          "label": "More than one",
+          "value": "die Gleise"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Zug fährt von Gleis 7.",
+      "english": "The train leaves from platform 7.",
+      "highlight": [
+        "Gleis"
+      ]
+    },
+    {
+      "german": "Bitte Vorsicht an Gleis 2!",
+      "english": "Please take care at platform 2!",
+      "highlight": [
+        "Gleis"
+      ]
+    },
+    {
+      "german": "Auf welchem Gleis kommt der Zug an?",
+      "english": "Which platform does the train arrive at?",
+      "highlight": [
+        "Gleis"
+      ]
+    }
+  ],
+  "forms": [
+    "Gleise",
+    "die Gleise",
+    "das Gleis"
+  ],
+  "memoryHook": "Gleis = the track, and the platform number in announcements: Gleis 7.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Gleis",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Gleis is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Gleis, zwei ___",
+      "answer": "Gleise",
+      "fullAnswer": "ein Gleis, zwei Gleise",
+      "explanation": "The plural is Gleise.",
+      "acceptedAnswers": [
+        "Gleise"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Gleis mean?",
+      "options": [
+        "the flower",
+        "track",
+        "the family"
+      ],
+      "answer": "track",
+      "explanation": "Gleis: track, platform (at a station).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "At German stations, platforms are announced as…",
+      "options": [
+        "Gleis 5",
+        "Bahnsteig fünf"
+      ],
+      "answer": "Gleis 5",
+      "explanation": "Gleis + number.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Der Zug fährt ___ Gleis 3 ab.",
+      "options": [
+        "von",
+        "auf"
+      ],
+      "answer": "von",
+      "explanation": "Von Gleis 3.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Summe",
+    "partOfSpeech": "noun, feminine (die Summe)",
+    "pronunciation": {
+      "respelling": "ZOOM-e",
+      "ipa": "ˈzʊmə",
+      "notes": "Plural: die Summen."
+    },
+    "meaning": "sum, amount",
+    "shortDefinition": "Sum, amount."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Summe, plural die Summen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Summe"
+        },
+        {
+          "label": "More than one",
+          "value": "die Summen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Summe beträgt 500 Euro.",
+      "english": "The total comes to 500 euros.",
+      "highlight": [
+        "Summe"
+      ]
+    },
+    {
+      "german": "Das ist eine große Summe.",
+      "english": "That's a large sum.",
+      "highlight": [
+        "Summe."
+      ]
+    },
+    {
+      "german": "Er hat eine hohe Summe gewonnen.",
+      "english": "He won a large amount.",
+      "highlight": [
+        "Summe"
+      ]
+    }
+  ],
+  "forms": [
+    "Summen",
+    "die Summen",
+    "die Summe"
+  ],
+  "memoryHook": "Die Summe (= Betrag).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Summe",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Summe is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Summe, zwei ___",
+      "answer": "Summen",
+      "fullAnswer": "ein Summe, zwei Summen",
+      "explanation": "The plural is Summen.",
+      "acceptedAnswers": [
+        "Summen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Summe mean?",
+      "options": [
+        "the window",
+        "the shop",
+        "sum"
+      ],
+      "answer": "sum",
+      "explanation": "Summe: sum, amount.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonym:",
+      "options": [
+        "der Betrag",
+        "die Zahl only"
+      ],
+      "answer": "der Betrag",
+      "explanation": "Amount.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Summen",
+        "Summes"
+      ],
+      "answer": "Summen",
+      "explanation": "-n.",
+      "id": "q5"
+    }
+  ]
+}

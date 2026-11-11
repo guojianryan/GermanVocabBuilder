@@ -1,0 +1,167 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "liegen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "LEE-gen",
+      "ipa": "ˈliːɡn̩",
+      "notes": ""
+    },
+    "meaning": "to lie, to be (lying); to be located",
+    "shortDefinition": "To lie, to be (lying); to be located."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "lieg|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "lieg|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "lieg|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "lieg|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "lieg|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "lieg|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gelegen",
+        "In southern Germany and Austria: ist gelegen."
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "legen",
+      "english": "to lay, to put",
+      "type": "verb"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das Buch liegt auf dem Tisch.",
+      "english": "The book is on the table.",
+      "highlight": [
+        "liegt"
+      ]
+    },
+    {
+      "german": "Ich liege im Bett.",
+      "english": "I'm lying in bed.",
+      "highlight": [
+        "liege"
+      ]
+    },
+    {
+      "german": "Das Hotel liegt direkt am Meer.",
+      "english": "The hotel is right by the sea.",
+      "highlight": [
+        "liegt"
+      ]
+    }
+  ],
+  "forms": [
+    "liege",
+    "liegst",
+    "liegt",
+    "liegen",
+    "gelegen",
+    "lag"
+  ],
+  "memoryHook": "Liegen = lie there (state, + dative). Legen = put there (action). Places liegen: Köln liegt am Rhein.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (liegen)",
+      "answer": "liegt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: liegt.",
+      "acceptedAnswers": [
+        "liegt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (liegen, past)",
+      "answer": "gelegen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gelegen.",
+      "acceptedAnswers": [
+        "gelegen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does liegen mean?",
+      "options": [
+        "to lie",
+        "the job",
+        "always"
+      ],
+      "answer": "to lie",
+      "explanation": "liegen: to lie, to be (lying); to be located.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Das Handy liegt auf ___ Sofa.",
+      "options": [
+        "das",
+        "dem"
+      ],
+      "answer": "dem",
+      "explanation": "Liegen = where: dative.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Die Stadt liegt am Rhein' means…",
+      "options": [
+        "The town is on the Rhine",
+        "The town lies about the Rhine"
+      ],
+      "answer": "The town is on the Rhine",
+      "explanation": "Liegen = be located.",
+      "id": "q5"
+    }
+  ]
+}

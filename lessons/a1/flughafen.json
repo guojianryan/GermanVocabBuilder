@@ -1,0 +1,151 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Flughafen",
+    "partOfSpeech": "noun, masculine (der Flughafen)",
+    "pronunciation": {
+      "respelling": "FLOOK-hah-fen",
+      "ipa": "ˈfluːkˌhaːfn̩",
+      "notes": "Plural: die Flughäfen."
+    },
+    "meaning": "airport",
+    "shortDefinition": "Airport."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Flug",
+        "meaning": "flight"
+      },
+      {
+        "part": "hafen",
+        "meaning": "harbour, port"
+      }
+    ],
+    "literalMeaning": "flight harbour"
+  },
+  "wordFamily": [
+    {
+      "german": "der Abflug",
+      "english": "departure (flight)",
+      "type": "noun"
+    },
+    {
+      "german": "der Flug",
+      "english": "flight",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Flughafen, plural die Flughäfen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Flughafen"
+        },
+        {
+          "label": "More than one",
+          "value": "die Flughäfen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wie komme ich zum Flughafen?",
+      "english": "How do I get to the airport?",
+      "highlight": [
+        "Flughafen?"
+      ]
+    },
+    {
+      "german": "Ich hole dich am Flughafen ab.",
+      "english": "I'll pick you up at the airport.",
+      "highlight": [
+        "Flughafen"
+      ]
+    },
+    {
+      "german": "Der Abflug ist um 7:40 Uhr.",
+      "english": "Departure is at 7:40.",
+      "highlight": [
+        "Abflug"
+      ]
+    }
+  ],
+  "forms": [
+    "Flughäfen",
+    "die Flughäfen",
+    "der Flughafen",
+    "Abflug"
+  ],
+  "memoryHook": "Flug (flight) + Hafen (harbour): a harbour for planes. Abflug = departure, Ankunft = arrival.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Flughafen",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Flughafen is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Flughafen, zwei ___",
+      "answer": "Flughäfen",
+      "fullAnswer": "ein Flughafen, zwei Flughäfen",
+      "explanation": "The plural is Flughäfen.",
+      "acceptedAnswers": [
+        "Flughaefen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Flughafen mean?",
+      "options": [
+        "to buy",
+        "airport",
+        "the station"
+      ],
+      "answer": "airport",
+      "explanation": "Flughafen: airport.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Der Abflug is…",
+      "options": [
+        "the departure (of a flight)",
+        "the arrival"
+      ],
+      "answer": "the departure (of a flight)",
+      "explanation": "Ab + Flug.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Flughafen = Flug + Hafen. Hafen means…",
+      "options": [
+        "port, harbour",
+        "house"
+      ],
+      "answer": "port, harbour",
+      "explanation": "A port for flights.",
+      "id": "q5"
+    }
+  ]
+}

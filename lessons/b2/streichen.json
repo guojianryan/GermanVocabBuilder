@@ -1,0 +1,166 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "streichen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "SHTRY-khen",
+      "ipa": "ˈʃtʁaɪ̯çn̩",
+      "notes": ""
+    },
+    "meaning": "to paint; to spread; to cancel, cross out; to stroke",
+    "shortDefinition": "To paint; to spread; to cancel, cross out; to stroke."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "streich|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "streich|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "streich|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "streich|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "streich|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "streich|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gestrichen"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir streichen die Wand weiß.",
+      "english": "We're painting the wall white.",
+      "highlight": [
+        "streichen"
+      ]
+    },
+    {
+      "german": "Der Flug wurde gestrichen.",
+      "english": "The flight was cancelled.",
+      "highlight": [
+        "gestrichen."
+      ]
+    },
+    {
+      "german": "Sie streicht Butter aufs Brot.",
+      "english": "She spreads butter on the bread.",
+      "highlight": [
+        "streicht"
+      ]
+    }
+  ],
+  "forms": [
+    "Streichholz",
+    "Strich"
+  ],
+  "memoryHook": "Streichen (strich, gestrichen): paint, spread, cancel.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (streichen)",
+      "answer": "streicht",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: streicht.",
+      "acceptedAnswers": [
+        "streicht"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (streichen, past)",
+      "answer": "gestrichen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gestrichen.",
+      "acceptedAnswers": [
+        "gestrichen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does streichen mean?",
+      "options": [
+        "to paint",
+        "the street",
+        "never"
+      ],
+      "answer": "to paint",
+      "explanation": "streichen: to paint; to spread; to cancel, cross out; to stroke.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "hat gestrichen",
+        "hat gestreicht"
+      ],
+      "answer": "hat gestrichen",
+      "explanation": "Strong: strich, gestrichen.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Frisch gestrichen!' means…",
+      "options": [
+        "wet paint!",
+        "freshly cancelled"
+      ],
+      "answer": "wet paint!",
+      "explanation": "Sign.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Match (for fire):",
+      "options": [
+        "das Streichholz",
+        "der Streich"
+      ],
+      "answer": "das Streichholz",
+      "explanation": "Stroke-wood.",
+      "id": "q6"
+    }
+  ]
+}

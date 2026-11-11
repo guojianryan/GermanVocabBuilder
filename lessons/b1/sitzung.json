@@ -1,0 +1,138 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Sitzung",
+    "partOfSpeech": "noun, feminine (die Sitzung)",
+    "pronunciation": {
+      "respelling": "ZIT-sung",
+      "ipa": "ˈzɪtsʊŋ",
+      "notes": "Plural: die Sitzungen."
+    },
+    "meaning": "meeting, session",
+    "shortDefinition": "Meeting, session."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Sitz",
+        "meaning": "sit"
+      },
+      {
+        "part": "ung",
+        "meaning": "noun ending"
+      }
+    ],
+    "literalMeaning": "a sitting"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Sitzung, plural die Sitzungen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Sitzung"
+        },
+        {
+          "label": "More than one",
+          "value": "die Sitzungen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Sitzung beginnt um zehn.",
+      "english": "The meeting starts at ten.",
+      "highlight": [
+        "Sitzung"
+      ]
+    },
+    {
+      "german": "Er ist gerade in einer Sitzung.",
+      "english": "He's in a meeting right now.",
+      "highlight": [
+        "Sitzung."
+      ]
+    },
+    {
+      "german": "Nach fünf Sitzungen ging es mir besser.",
+      "english": "After five sessions I felt better.",
+      "highlight": [
+        "Sitzungen"
+      ]
+    }
+  ],
+  "forms": [
+    "Sitzungen",
+    "die Sitzungen",
+    "die Sitzung"
+  ],
+  "memoryHook": "Sitzen → die Sitzung (meeting, session).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Sitzung",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Sitzung is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Sitzung, zwei ___",
+      "answer": "Sitzungen",
+      "fullAnswer": "ein Sitzung, zwei Sitzungen",
+      "explanation": "The plural is Sitzungen.",
+      "acceptedAnswers": [
+        "Sitzungen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Sitzung mean?",
+      "options": [
+        "the car",
+        "meeting",
+        "the family"
+      ],
+      "answer": "meeting",
+      "explanation": "Sitzung: meeting, session.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "sitzen",
+        "setzen"
+      ],
+      "answer": "sitzen",
+      "explanation": "Sitting.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonyms:",
+      "options": [
+        "die Besprechung, das Meeting",
+        "die Sitzbank"
+      ],
+      "answer": "die Besprechung, das Meeting",
+      "explanation": "Meeting.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Station",
+    "partOfSpeech": "noun, feminine (die Station)",
+    "pronunciation": {
+      "respelling": "shta-TSYOHN",
+      "ipa": "ʃtaˈtsi̯oːn",
+      "notes": "Plural: die Stationen."
+    },
+    "meaning": "stop, station; hospital ward",
+    "shortDefinition": "Stop, station; hospital ward."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Station, plural die Stationen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Station"
+        },
+        {
+          "label": "More than one",
+          "value": "die Stationen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich steige an der nächsten Station aus.",
+      "english": "I'm getting off at the next stop.",
+      "highlight": [
+        "Station"
+      ]
+    },
+    {
+      "german": "Er liegt auf Station 3.",
+      "english": "He's on ward 3.",
+      "highlight": [
+        "Station"
+      ]
+    },
+    {
+      "german": "Die Wetterstation misst die Temperatur.",
+      "english": "The weather station measures the temperature.",
+      "highlight": [
+        "Wetterstation"
+      ]
+    }
+  ],
+  "forms": [
+    "Stationen",
+    "die Stationen",
+    "die Station"
+  ],
+  "memoryHook": "Die Station: stop; ward. A railway station = der Bahnhof.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Station",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Station is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Station, zwei ___",
+      "answer": "Stationen",
+      "fullAnswer": "ein Station, zwei Stationen",
+      "explanation": "The plural is Stationen.",
+      "acceptedAnswers": [
+        "Stationen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Station mean?",
+      "options": [
+        "stop",
+        "the bill",
+        "to open"
+      ],
+      "answer": "stop",
+      "explanation": "Station: stop, station; hospital ward.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "In a hospital, Station means…",
+      "options": [
+        "ward",
+        "reception"
+      ],
+      "answer": "ward",
+      "explanation": "Ward.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Train station (main):",
+      "options": [
+        "der Bahnhof",
+        "die Station"
+      ],
+      "answer": "der Bahnhof",
+      "explanation": "Usually Bahnhof.",
+      "id": "q5"
+    }
+  ]
+}

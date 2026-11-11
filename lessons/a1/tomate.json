@@ -1,0 +1,121 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Tomate",
+    "partOfSpeech": "noun, feminine (die Tomate)",
+    "pronunciation": {
+      "respelling": "toh-MAH-tuh",
+      "ipa": "toˈmaːtə",
+      "notes": "Plural: die Tomaten."
+    },
+    "meaning": "tomato",
+    "shortDefinition": "Tomato."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Tomate, plural die Tomaten.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Tomate"
+        },
+        {
+          "label": "More than one",
+          "value": "die Tomaten"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ein Kilo Tomaten, bitte.",
+      "english": "A kilo of tomatoes, please.",
+      "highlight": [
+        "Tomaten,"
+      ]
+    },
+    {
+      "german": "Die Tomaten sind sehr reif.",
+      "english": "The tomatoes are very ripe.",
+      "highlight": [
+        "Tomaten"
+      ]
+    },
+    {
+      "german": "Ich mache eine Tomatensuppe.",
+      "english": "I'm making tomato soup.",
+      "highlight": [
+        "Tomatensuppe."
+      ]
+    }
+  ],
+  "forms": [
+    "Tomaten",
+    "die Tomaten",
+    "die Tomate"
+  ],
+  "memoryHook": "Die Tomate, plural Tomaten.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Tomate",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Tomate is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Tomate, zwei ___",
+      "answer": "Tomaten",
+      "fullAnswer": "ein Tomate, zwei Tomaten",
+      "explanation": "The plural is Tomaten.",
+      "acceptedAnswers": [
+        "Tomaten"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Tomate mean?",
+      "options": [
+        "expensive",
+        "the evening",
+        "tomato"
+      ],
+      "answer": "tomato",
+      "explanation": "Tomate: tomato.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Where's the stress?",
+      "options": [
+        "TO-ma-te",
+        "to-MA-te"
+      ],
+      "answer": "to-MA-te",
+      "explanation": "Middle.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Salat mit ___ (tomatoes)",
+      "answer": "Tomaten",
+      "fullAnswer": "Salat mit Tomaten",
+      "explanation": "Plural.",
+      "id": "q5"
+    }
+  ]
+}

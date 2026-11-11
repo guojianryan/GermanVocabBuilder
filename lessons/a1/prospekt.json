@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Prospekt",
+    "partOfSpeech": "noun, masculine (der Prospekt)",
+    "pronunciation": {
+      "respelling": "pro-SPEKT",
+      "ipa": "pʁoˈspɛkt",
+      "notes": "Plural: die Prospekte."
+    },
+    "meaning": "brochure, leaflet",
+    "shortDefinition": "Brochure, leaflet."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Prospekt, plural die Prospekte.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Prospekt"
+        },
+        {
+          "label": "More than one",
+          "value": "die Prospekte"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Haben Sie einen Prospekt über die Stadt?",
+      "english": "Do you have a brochure about the town?",
+      "highlight": [
+        "Prospekt"
+      ]
+    },
+    {
+      "german": "Im Prospekt stehen alle Preise.",
+      "english": "All the prices are in the brochure.",
+      "highlight": [
+        "Prospekt"
+      ]
+    },
+    {
+      "german": "Ich habe viele Prospekte mitgenommen.",
+      "english": "I took lots of leaflets.",
+      "highlight": [
+        "Prospekte"
+      ]
+    }
+  ],
+  "forms": [
+    "Prospekte",
+    "die Prospekte",
+    "der Prospekt"
+  ],
+  "memoryHook": "Der Prospekt = brochure (not 'prospect'). Ask for one at the Touristeninformation.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Prospekt",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Prospekt is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Prospekt, zwei ___",
+      "answer": "Prospekte",
+      "fullAnswer": "ein Prospekt, zwei Prospekte",
+      "explanation": "The plural is Prospekte.",
+      "acceptedAnswers": [
+        "Prospekte"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Prospekt mean?",
+      "options": [
+        "to learn",
+        "hot",
+        "brochure"
+      ],
+      "answer": "brochure",
+      "explanation": "Prospekt: brochure, leaflet.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Prospekt means…",
+      "options": [
+        "brochure",
+        "prospect"
+      ],
+      "answer": "brochure",
+      "explanation": "False friend.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "You get a Prospekt at…",
+      "options": [
+        "the tourist information",
+        "the doctor's"
+      ],
+      "answer": "the tourist information",
+      "explanation": "Leaflets.",
+      "id": "q5"
+    }
+  ]
+}

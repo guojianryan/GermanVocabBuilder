@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Platte",
+    "partOfSpeech": "noun, feminine (die Platte)",
+    "pronunciation": {
+      "respelling": "PLAT-e",
+      "ipa": "ˈplatə",
+      "notes": "Plural: die Platten."
+    },
+    "meaning": "plate, board; record; hard drive",
+    "shortDefinition": "Plate, board; record; hard drive."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Platte, plural die Platten.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Platte"
+        },
+        {
+          "label": "More than one",
+          "value": "die Platten"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er hört alte Platten.",
+      "english": "He listens to old records.",
+      "highlight": [
+        "Platten."
+      ]
+    },
+    {
+      "german": "Die Festplatte ist voll.",
+      "english": "The hard drive is full.",
+      "highlight": [
+        "Festplatte"
+      ]
+    },
+    {
+      "german": "Eine Käseplatte, bitte.",
+      "english": "A cheese platter, please.",
+      "highlight": [
+        "Käseplatte,"
+      ]
+    }
+  ],
+  "forms": [
+    "Festplatte",
+    "Schallplatte"
+  ],
+  "memoryHook": "Die Platte: flat thing — record, platter, hard drive. Plate = Teller.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Platte",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Platte is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Platte, zwei ___",
+      "answer": "Platten",
+      "fullAnswer": "ein Platte, zwei Platten",
+      "explanation": "The plural is Platten.",
+      "acceptedAnswers": [
+        "Platten"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Platte mean?",
+      "options": [
+        "the flower",
+        "plate",
+        "the job"
+      ],
+      "answer": "plate",
+      "explanation": "Platte: plate, board; record; hard drive.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Platte can mean…",
+      "options": [
+        "slab, platter, record, disk",
+        "only plate for eating"
+      ],
+      "answer": "slab, platter, record, disk",
+      "explanation": "Flat thing.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Eating plate:",
+      "options": [
+        "der Teller",
+        "die Platte"
+      ],
+      "answer": "der Teller",
+      "explanation": "Different.",
+      "id": "q5"
+    }
+  ]
+}

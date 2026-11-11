@@ -1,0 +1,159 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "gelingen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "ge-LING-en",
+      "ipa": "ɡəˈlɪŋən",
+      "notes": ""
+    },
+    "meaning": "to succeed (es gelingt mir)",
+    "shortDefinition": "To succeed (es gelingt mir)."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "geling|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "geling|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "geling|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "geling|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "geling|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "geling|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): ist gelungen"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Kuchen ist mir gut gelungen.",
+      "english": "My cake turned out well.",
+      "highlight": [
+        "gelungen."
+      ]
+    },
+    {
+      "german": "Es ist mir gelungen, ihn zu überzeugen.",
+      "english": "I managed to convince him.",
+      "highlight": [
+        "gelungen,"
+      ]
+    },
+    {
+      "german": "Das Fest war sehr gelungen.",
+      "english": "The party was a great success.",
+      "highlight": [
+        "gelungen."
+      ]
+    }
+  ],
+  "forms": [
+    "gelinge",
+    "gelingst",
+    "gelingt",
+    "gelingen",
+    "gelungen",
+    "gelang"
+  ],
+  "memoryHook": "Es gelingt mir = I succeed (subject is the thing!). Gelungen = successful.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (gelingen)",
+      "answer": "gelingt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: gelingt.",
+      "acceptedAnswers": [
+        "gelingt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich bin schon ___. (gelingen, past)",
+      "answer": "gelungen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: bin gelungen.",
+      "acceptedAnswers": [
+        "gelungen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does gelingen mean?",
+      "options": [
+        "to buy",
+        "always",
+        "to succeed (es gelingt mir)"
+      ],
+      "answer": "to succeed (es gelingt mir)",
+      "explanation": "gelingen: to succeed (es gelingt mir).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Es gelingt mir' means…",
+      "options": [
+        "I manage / succeed",
+        "it rings for me"
+      ],
+      "answer": "I manage / succeed",
+      "explanation": "Dative.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "ist gelungen",
+        "hat gelingt"
+      ],
+      "answer": "ist gelungen",
+      "explanation": "Sein.",
+      "id": "q5"
+    }
+  ]
+}

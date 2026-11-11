@@ -1,0 +1,148 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Grundsatz",
+    "partOfSpeech": "noun, masculine (der Grundsatz)",
+    "pronunciation": {
+      "respelling": "GROONT-zats",
+      "ipa": "ˈɡʁʊntzats",
+      "notes": "Plural: die Grundsätze."
+    },
+    "meaning": "principle",
+    "shortDefinition": "Principle."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Grund",
+        "meaning": "ground, basis"
+      },
+      {
+        "part": "satz",
+        "meaning": "statement"
+      }
+    ],
+    "literalMeaning": "basic statement"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Grundsatz, plural die Grundsätze.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Grundsatz"
+        },
+        {
+          "label": "More than one",
+          "value": "die Grundsätze"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das ist ein Grundsatz unserer Firma.",
+      "english": "That's a principle of our company.",
+      "highlight": [
+        "Grundsatz"
+      ]
+    },
+    {
+      "german": "Er hat feste Grundsätze.",
+      "english": "He has firm principles.",
+      "highlight": [
+        "Grundsätze."
+      ]
+    },
+    {
+      "german": "Im Grundsatz stimme ich zu.",
+      "english": "In principle I agree.",
+      "highlight": [
+        "Grundsatz"
+      ]
+    }
+  ],
+  "forms": [
+    "grundsätzlich",
+    "Prinzip"
+  ],
+  "memoryHook": "Grund + Satz = principle; grundsätzlich.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Grundsatz",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Grundsatz is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Grundsatz, zwei ___",
+      "answer": "Grundsätze",
+      "fullAnswer": "ein Grundsatz, zwei Grundsätze",
+      "explanation": "The plural is Grundsätze.",
+      "acceptedAnswers": [
+        "Grundsaetze"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Grundsatz mean?",
+      "options": [
+        "principle",
+        "the bed",
+        "the family"
+      ],
+      "answer": "principle",
+      "explanation": "Grundsatz: principle.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Grund + Satz (sentence)",
+        "Grund + setzen only"
+      ],
+      "answer": "Grund + Satz (sentence)",
+      "explanation": "Basic statement.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Adjective:",
+      "options": [
+        "grundsätzlich (fundamental; in principle)",
+        "grundsatzig"
+      ],
+      "answer": "grundsätzlich (fundamental; in principle)",
+      "explanation": "Principle.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonym:",
+      "options": [
+        "das Prinzip",
+        "die Grundlage only"
+      ],
+      "answer": "das Prinzip",
+      "explanation": "Principle.",
+      "id": "q6"
+    }
+  ]
+}

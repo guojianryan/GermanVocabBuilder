@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Boden",
+    "partOfSpeech": "noun, masculine (der Boden)",
+    "pronunciation": {
+      "respelling": "BOH-den",
+      "ipa": "ˈboːdn̩",
+      "notes": "Plural: die Böden."
+    },
+    "meaning": "floor; ground; soil",
+    "shortDefinition": "Floor; ground; soil."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Boden, plural die Böden.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Boden"
+        },
+        {
+          "label": "More than one",
+          "value": "die Böden"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das Buch liegt auf dem Boden.",
+      "english": "The book is on the floor.",
+      "highlight": [
+        "Boden."
+      ]
+    },
+    {
+      "german": "Der Boden ist hier sehr gut.",
+      "english": "The soil here is very good.",
+      "highlight": [
+        "Boden"
+      ]
+    },
+    {
+      "german": "Wir legen einen neuen Holzboden.",
+      "english": "We're laying a new wooden floor.",
+      "highlight": [
+        "Holzboden."
+      ]
+    }
+  ],
+  "forms": [
+    "Dachboden",
+    "Fußboden"
+  ],
+  "memoryHook": "Der Boden: floor, ground, soil. Also 'attic' in some regions (Dachboden).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Boden",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Boden is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Boden, zwei ___",
+      "answer": "Böden",
+      "fullAnswer": "ein Boden, zwei Böden",
+      "explanation": "The plural is Böden.",
+      "acceptedAnswers": [
+        "Boeden"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Boden mean?",
+      "options": [
+        "cheap",
+        "the station",
+        "floor"
+      ],
+      "answer": "floor",
+      "explanation": "Boden: floor; ground; soil.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'On the floor':",
+      "options": [
+        "auf dem Boden",
+        "im Boden"
+      ],
+      "answer": "auf dem Boden",
+      "explanation": "Auf.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Böden",
+        "Bodens"
+      ],
+      "answer": "Böden",
+      "explanation": "o → ö.",
+      "id": "q5"
+    }
+  ]
+}

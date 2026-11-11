@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Reflexion",
+    "partOfSpeech": "noun, feminine (die Reflexion)",
+    "pronunciation": {
+      "respelling": "re-flek-SYOHN",
+      "ipa": "ʁeflɛˈksi̯oːn",
+      "notes": "Plural: die Reflexionen."
+    },
+    "meaning": "reflection",
+    "shortDefinition": "Reflection."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Reflexion, plural die Reflexionen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Reflexion"
+        },
+        {
+          "label": "More than one",
+          "value": "die Reflexionen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Reflexion des Lichts.",
+      "english": "The reflection of light.",
+      "highlight": [
+        "Reflexion"
+      ]
+    },
+    {
+      "german": "Das erfordert Reflexion.",
+      "english": "That requires reflection.",
+      "highlight": [
+        "Reflexion."
+      ]
+    },
+    {
+      "german": "Philosophische Reflexionen.",
+      "english": "Philosophical reflections.",
+      "highlight": [
+        "Reflexionen."
+      ]
+    }
+  ],
+  "forms": [
+    "reflektieren"
+  ],
+  "memoryHook": "Reflektieren → die Reflexion.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Reflexion",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Reflexion is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Reflexion, zwei ___",
+      "answer": "Reflexionen",
+      "fullAnswer": "ein Reflexion, zwei Reflexionen",
+      "explanation": "The plural is Reflexionen.",
+      "acceptedAnswers": [
+        "Reflexionen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Reflexion mean?",
+      "options": [
+        "quiet",
+        "reflection",
+        "slowly"
+      ],
+      "answer": "reflection",
+      "explanation": "Reflexion: reflection.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Verb:",
+      "options": [
+        "reflektieren",
+        "reflexionieren"
+      ],
+      "answer": "reflektieren",
+      "explanation": "Reflect.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Mirror image (everyday):",
+      "options": [
+        "das Spiegelbild",
+        "die Reflexion only"
+      ],
+      "answer": "das Spiegelbild",
+      "explanation": "Image.",
+      "id": "q5"
+    }
+  ]
+}

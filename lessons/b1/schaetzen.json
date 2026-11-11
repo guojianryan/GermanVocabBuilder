@@ -1,0 +1,164 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "schätzen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "SHET-sen",
+      "ipa": "ˈʃɛtsn̩",
+      "notes": ""
+    },
+    "meaning": "to estimate, guess; to value",
+    "shortDefinition": "To estimate, guess; to value."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "schätz|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "schätz|t"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "schätz|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "schätz|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "schätz|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "schätz|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat geschätzt"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "der Schatz",
+      "english": "treasure; darling",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich schätze, er ist 40.",
+      "english": "I'd guess he's 40.",
+      "highlight": [
+        "schätze,"
+      ]
+    },
+    {
+      "german": "Ich schätze deine Hilfe sehr.",
+      "english": "I really appreciate your help.",
+      "highlight": [
+        "schätze"
+      ]
+    },
+    {
+      "german": "Der Schaden wird auf 1.000 Euro geschätzt.",
+      "english": "The damage is estimated at 1,000 euros.",
+      "highlight": [
+        "geschätzt."
+      ]
+    }
+  ],
+  "forms": [
+    "schätze",
+    "schätzt",
+    "schätzen",
+    "geschätzt"
+  ],
+  "memoryHook": "Schätzen: guess; value (Schatz = treasure).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (schätzen)",
+      "answer": "schätzt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: schätzt.",
+      "acceptedAnswers": [
+        "schaetzt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (schätzen, past)",
+      "answer": "geschätzt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe geschätzt.",
+      "acceptedAnswers": [
+        "geschaetzt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does schätzen mean?",
+      "options": [
+        "to sleep",
+        "the shop",
+        "to estimate"
+      ],
+      "answer": "to estimate",
+      "explanation": "schätzen: to estimate, guess; to value.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Ich schätze dich' means…",
+      "options": [
+        "I value you",
+        "I estimate you"
+      ],
+      "answer": "I value you",
+      "explanation": "Appreciate.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Related to…",
+      "options": [
+        "der Schatz (treasure)",
+        "der Schatten"
+      ],
+      "answer": "der Schatz (treasure)",
+      "explanation": "Treasure → value.",
+      "id": "q5"
+    }
+  ]
+}

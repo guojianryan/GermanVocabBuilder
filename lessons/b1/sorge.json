@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Sorge",
+    "partOfSpeech": "noun, feminine (die Sorge)",
+    "pronunciation": {
+      "respelling": "ZOR-ge",
+      "ipa": "ˈzɔʁɡə",
+      "notes": "Plural: die Sorgen."
+    },
+    "meaning": "worry; care",
+    "shortDefinition": "Worry; care."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Sorge, plural die Sorgen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Sorge"
+        },
+        {
+          "label": "More than one",
+          "value": "die Sorgen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Mach dir keine Sorgen!",
+      "english": "Don't worry!",
+      "highlight": [
+        "Sorgen!"
+      ]
+    },
+    {
+      "german": "Ich habe große Sorgen.",
+      "english": "I'm very worried.",
+      "highlight": [
+        "Sorgen."
+      ]
+    },
+    {
+      "german": "Keine Sorge, das schaffen wir.",
+      "english": "No worries, we'll manage.",
+      "highlight": [
+        "Sorge,"
+      ]
+    }
+  ],
+  "forms": [
+    "Sorgen",
+    "die Sorgen",
+    "die Sorge"
+  ],
+  "memoryHook": "Die Sorge. Keine Sorge! Sich Sorgen machen um.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Sorge",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Sorge is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Sorge, zwei ___",
+      "answer": "Sorgen",
+      "fullAnswer": "ein Sorge, zwei Sorgen",
+      "explanation": "The plural is Sorgen.",
+      "acceptedAnswers": [
+        "Sorgen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Sorge mean?",
+      "options": [
+        "worry",
+        "the bed",
+        "never"
+      ],
+      "answer": "worry",
+      "explanation": "Sorge: worry; care.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Keine Sorge!' means…",
+      "options": [
+        "Don't worry!",
+        "No care!"
+      ],
+      "answer": "Don't worry!",
+      "explanation": "Reassurance.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Sich Sorgen machen um' means…",
+      "options": [
+        "to worry about",
+        "to make trouble"
+      ],
+      "answer": "to worry about",
+      "explanation": "Worry.",
+      "id": "q5"
+    }
+  ]
+}

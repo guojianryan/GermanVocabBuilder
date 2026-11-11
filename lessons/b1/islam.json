@@ -1,0 +1,119 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Islam",
+    "partOfSpeech": "noun, masculine (der Islam)",
+    "pronunciation": {
+      "respelling": "is-LAAM",
+      "ipa": "ɪsˈlaːm",
+      "notes": "Usually no plural."
+    },
+    "meaning": "Islam",
+    "shortDefinition": "Islam."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Islam, usually no plural.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Islam"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Islam ist eine Weltreligion.",
+      "english": "Islam is a world religion.",
+      "highlight": [
+        "Islam"
+      ]
+    },
+    {
+      "german": "Sie ist zum Islam konvertiert.",
+      "english": "She converted to Islam.",
+      "highlight": [
+        "Islam"
+      ]
+    },
+    {
+      "german": "Ein Buch über den Islam.",
+      "english": "A book about Islam.",
+      "highlight": [
+        "Islam."
+      ]
+    }
+  ],
+  "forms": [
+    "islamisch",
+    "Muslim"
+  ],
+  "memoryHook": "Der Islam (with article); islamisch, Muslim.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Islam",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Islam is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Islam mean?",
+      "options": [
+        "to travel",
+        "Islam",
+        "the key"
+      ],
+      "answer": "Islam",
+      "explanation": "Islam: Islam.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gender:",
+      "options": [
+        "der",
+        "die"
+      ],
+      "answer": "der",
+      "explanation": "Der Islam.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Adjective:",
+      "options": [
+        "islamisch / muslimisch",
+        "islamig"
+      ],
+      "answer": "islamisch / muslimisch",
+      "explanation": "Islamic.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Article used?",
+      "options": [
+        "yes (der Islam)",
+        "never"
+      ],
+      "answer": "yes (der Islam)",
+      "explanation": "Unlike English.",
+      "id": "q5"
+    }
+  ]
+}

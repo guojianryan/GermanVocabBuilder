@@ -1,0 +1,116 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "staatlich",
+    "partOfSpeech": "adjective",
+    "pronunciation": {
+      "respelling": "SHTAAT-likh",
+      "ipa": "ˈʃtaːtlɪç",
+      "notes": ""
+    },
+    "meaning": "state, public, national",
+    "shortDefinition": "State, public, national."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "staat",
+        "meaning": "state"
+      },
+      {
+        "part": "lich",
+        "meaning": "adjective ending"
+      }
+    ],
+    "literalMeaning": "of the state"
+  },
+  "sampleSentences": [
+    {
+      "german": "Das ist eine staatliche Schule.",
+      "english": "That's a state school.",
+      "highlight": [
+        "staatliche"
+      ]
+    },
+    {
+      "german": "Das Museum ist staatlich gefördert.",
+      "english": "The museum is state-funded.",
+      "highlight": [
+        "staatlich"
+      ]
+    },
+    {
+      "german": "Staatliche Hilfe für Familien.",
+      "english": "State aid for families.",
+      "highlight": [
+        "Staatliche"
+      ]
+    }
+  ],
+  "forms": [
+    "Staat"
+  ],
+  "memoryHook": "Staat → staatlich ↔ privat.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does staatlich mean?",
+      "options": [
+        "the key",
+        "state",
+        "cheap"
+      ],
+      "answer": "state",
+      "explanation": "staatlich: state, public, national.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "der Staat + -lich",
+        "die Stadt"
+      ],
+      "answer": "der Staat + -lich",
+      "explanation": "State.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Opposite:",
+      "options": [
+        "privat",
+        "städtisch"
+      ],
+      "answer": "privat",
+      "explanation": "Private.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Don't confuse with…",
+      "options": [
+        "städtisch (municipal)",
+        "staatlich only"
+      ],
+      "answer": "städtisch (municipal)",
+      "explanation": "City.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Eine ___ Universität. (state)",
+      "answer": "staatliche",
+      "fullAnswer": "Eine staatliche Universität.",
+      "explanation": "Staatliche.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "husten",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "HOO-sten",
+      "ipa": "ˈhuːstn̩",
+      "notes": ""
+    },
+    "meaning": "to cough",
+    "shortDefinition": "To cough."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "hust|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "hust|est"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "hust|et"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "hust|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "hust|et"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "hust|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gehustet"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er hustet die ganze Nacht.",
+      "english": "He's been coughing all night.",
+      "highlight": [
+        "hustet"
+      ]
+    },
+    {
+      "german": "Ich habe Husten.",
+      "english": "I've got a cough.",
+      "highlight": [
+        "Husten."
+      ]
+    },
+    {
+      "german": "Hast du was gegen Husten?",
+      "english": "Have you got something for a cough?",
+      "highlight": [
+        "Husten?"
+      ]
+    }
+  ],
+  "forms": [
+    "der Husten",
+    "Hustensaft"
+  ],
+  "memoryHook": "Husten = to cough; der Husten = a cough.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (husten)",
+      "answer": "hustet",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: hustet.",
+      "acceptedAnswers": [
+        "hustet"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (husten, past)",
+      "answer": "gehustet",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gehustet.",
+      "acceptedAnswers": [
+        "gehustet"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does husten mean?",
+      "options": [
+        "to cough",
+        "to buy",
+        "never"
+      ],
+      "answer": "to cough",
+      "explanation": "husten: to cough.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'I've got a cough':",
+      "options": [
+        "Ich habe Husten.",
+        "Ich bin Husten."
+      ],
+      "answer": "Ich habe Husten.",
+      "explanation": "Der Husten.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Du ___ .",
+      "options": [
+        "hustest",
+        "hust"
+      ],
+      "answer": "hustest",
+      "explanation": "Stem in -t: add -est.",
+      "id": "q5"
+    }
+  ]
+}

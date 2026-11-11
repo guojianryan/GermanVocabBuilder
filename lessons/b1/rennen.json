@@ -1,0 +1,166 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "rennen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "REN-en",
+      "ipa": "ˈʁɛnən",
+      "notes": ""
+    },
+    "meaning": "to run, race",
+    "shortDefinition": "To run, race."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "renn|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "renn|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "renn|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "renn|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "renn|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "renn|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): ist gerannt"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "das Rennen",
+      "english": "race",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Kinder rennen in den Garten.",
+      "english": "The children run into the garden.",
+      "highlight": [
+        "rennen"
+      ]
+    },
+    {
+      "german": "Ich bin zum Bus gerannt.",
+      "english": "I ran for the bus.",
+      "highlight": [
+        "bin",
+        "gerannt."
+      ]
+    },
+    {
+      "german": "Er rannte so schnell er konnte.",
+      "english": "He ran as fast as he could.",
+      "highlight": [
+        "rannte"
+      ]
+    }
+  ],
+  "forms": [
+    "renne",
+    "rennst",
+    "rennt",
+    "rennen",
+    "gerannt"
+  ],
+  "memoryHook": "Rennen, rannte, ist gerannt. Das Rennen = race.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (rennen)",
+      "answer": "rennt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: rennt.",
+      "acceptedAnswers": [
+        "rennt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich bin schon ___. (rennen, past)",
+      "answer": "gerannt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: bin gerannt.",
+      "acceptedAnswers": [
+        "gerannt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does rennen mean?",
+      "options": [
+        "to sleep",
+        "the door",
+        "to run"
+      ],
+      "answer": "to run",
+      "explanation": "rennen: to run, race.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "ist gerannt",
+        "hat gerennt"
+      ],
+      "answer": "ist gerannt",
+      "explanation": "Mixed verb + sein.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Rennen vs laufen:",
+      "options": [
+        "rennen = run fast; laufen = run / walk",
+        "same"
+      ],
+      "answer": "rennen = run fast; laufen = run / walk",
+      "explanation": "Faster.",
+      "id": "q5"
+    }
+  ]
+}

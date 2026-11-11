@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "einschließen",
+    "partOfSpeech": "separable verb",
+    "pronunciation": {
+      "respelling": "INE-shlee-sen",
+      "ipa": "ˈaɪ̯nˌʃliːsn̩",
+      "notes": ""
+    },
+    "meaning": "to lock in/up; to include; to surround",
+    "shortDefinition": "To lock in/up; to include; to surround."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "ein",
+        "meaning": "in"
+      },
+      {
+        "part": "schließen",
+        "meaning": "to close, lock",
+        "emphasis": "arrive"
+      }
+    ],
+    "literalMeaning": "to lock in",
+    "summary": "Shut inside."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "schließ|e … |ein"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "schließ|t … |ein"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "schließ|t … |ein"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "schließ|en … |ein"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "schließ|t … |ein"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "schließ|en … |ein"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat eingeschlossen"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er hat sich im Bad eingeschlossen.",
+      "english": "He's locked himself in the bathroom.",
+      "highlight": [
+        "eingeschlossen."
+      ]
+    },
+    {
+      "german": "Der Preis schließt das Frühstück ein.",
+      "english": "The price includes breakfast.",
+      "highlight": [
+        "schließt",
+        "ein."
+      ]
+    },
+    {
+      "german": "Frühstück inklusive / eingeschlossen.",
+      "english": "Breakfast included.",
+      "highlight": [
+        "eingeschlossen."
+      ]
+    }
+  ],
+  "forms": [
+    "einschließlich",
+    "ausschließen"
+  ],
+  "memoryHook": "Einschließen: lock in; include (einschließlich) ↔ ausschließen.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ … ein (einschließen)",
+      "answer": "schließt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: schließt … ein.",
+      "acceptedAnswers": [
+        "schliesst"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (einschließen, past)",
+      "answer": "eingeschlossen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe eingeschlossen.",
+      "acceptedAnswers": [
+        "eingeschlossen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does einschließen mean?",
+      "options": [
+        "to lock in/up",
+        "the shop",
+        "the weather"
+      ],
+      "answer": "to lock in/up",
+      "explanation": "einschließen: to lock in/up; to include; to surround.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Einschließlich' (preposition) means…",
+      "options": [
+        "including",
+        "locked"
+      ],
+      "answer": "including",
+      "explanation": "Including.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Opposite (include):",
+      "options": [
+        "ausschließen",
+        "abschließen"
+      ],
+      "answer": "ausschließen",
+      "explanation": "Exclude.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "hat eingeschlossen",
+        "hat eingeschließt"
+      ],
+      "answer": "hat eingeschlossen",
+      "explanation": "Strong.",
+      "id": "q6"
+    }
+  ]
+}

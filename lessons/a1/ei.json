@@ -1,0 +1,131 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Ei",
+    "partOfSpeech": "noun, neuter (das Ei)",
+    "pronunciation": {
+      "respelling": "EYE",
+      "ipa": "aɪ̯",
+      "notes": "Pronounced like English 'eye'. Plural: die Eier."
+    },
+    "meaning": "egg",
+    "shortDefinition": "Egg."
+  },
+  "wordFamily": [
+    {
+      "german": "das Spiegelei",
+      "english": "fried egg",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Ei, plural die Eier.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Ei"
+        },
+        {
+          "label": "More than one",
+          "value": "die Eier"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Zum Frühstück esse ich ein Ei.",
+      "english": "I have an egg for breakfast.",
+      "highlight": [
+        "Ei."
+      ]
+    },
+    {
+      "german": "Für den Kuchen brauchen wir drei Eier.",
+      "english": "We need three eggs for the cake.",
+      "highlight": [
+        "Eier."
+      ]
+    },
+    {
+      "german": "Ich möchte ein weich gekochtes Ei.",
+      "english": "I'd like a soft-boiled egg.",
+      "highlight": [
+        "Ei."
+      ]
+    }
+  ],
+  "forms": [
+    "Eier",
+    "die Eier",
+    "das Ei"
+  ],
+  "memoryHook": "Das Ei sounds like 'eye'. Plural Eier, like English's old 'eyren'.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Ei",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Ei is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Ei, zwei ___",
+      "answer": "Eier",
+      "fullAnswer": "ein Ei, zwei Eier",
+      "explanation": "The plural is Eier.",
+      "acceptedAnswers": [
+        "Eier"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Ei mean?",
+      "options": [
+        "the key",
+        "the job",
+        "egg"
+      ],
+      "answer": "egg",
+      "explanation": "Ei: egg.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "How is Ei pronounced?",
+      "options": [
+        "like English 'eye'",
+        "like English 'egg'"
+      ],
+      "answer": "like English 'eye'",
+      "explanation": "Ei = eye.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Spiegelei means…",
+      "options": [
+        "fried egg",
+        "boiled egg"
+      ],
+      "answer": "fried egg",
+      "explanation": "Literally 'mirror egg'.",
+      "id": "q5"
+    }
+  ]
+}

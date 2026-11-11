@@ -1,0 +1,214 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "full",
+  "word": {
+    "headword": "müssen",
+    "partOfSpeech": "modal verb",
+    "pronunciation": {
+      "respelling": "MUESS-en",
+      "ipa": "ˈmʏsn̩",
+      "notes": "Short ü."
+    },
+    "meaning": "must, to have to",
+    "shortDefinition": "Necessity and obligation."
+  },
+  "intro": {
+    "title": "Ich muss los!",
+    "paragraphs": [
+      "Müssen = must, have to: Ich muss arbeiten. Like other modal verbs, the singular changes its vowel (ich muss) and the main verb goes to the end. Careful: nicht müssen means 'don't have to', not 'mustn't'."
+    ]
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "|muss"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "|musst"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "|muss"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "müss|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "müss|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "müss|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Ich and er: muss (no ü, no -t).",
+        "Past: musste."
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "dürfen",
+      "english": "may",
+      "type": "modal verb"
+    },
+    {
+      "german": "sollen",
+      "english": "should",
+      "type": "modal verb"
+    },
+    {
+      "german": "Ich muss los.",
+      "english": "I have to go.",
+      "type": "phrase"
+    }
+  ],
+  "keyTrap": {
+    "title": "The big trap: nicht müssen ≠ mustn't",
+    "explanation": "Du musst nicht kommen = you don't have to come. 'You mustn't' is du darfst nicht.",
+    "wrong": {
+      "german": "Du musst hier nicht rauchen. (meaning: forbidden)",
+      "verdict": "This means smoking is optional."
+    },
+    "correct": [
+      {
+        "german": "Du darfst hier nicht rauchen.",
+        "literal": "You may not smoke here.",
+        "note": "Forbidden."
+      },
+      {
+        "german": "Du musst nicht kommen.",
+        "literal": "You must not come.",
+        "note": "= You don't have to come."
+      }
+    ]
+  },
+  "commonMistakes": [
+    {
+      "title": "Main verb at the end",
+      "explanation": "The infinitive goes to the very end.",
+      "wrong": "Ich muss gehen jetzt.",
+      "correct": "Ich muss jetzt gehen."
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich muss morgen früh aufstehen.",
+      "english": "I have to get up early tomorrow.",
+      "highlight": [
+        "muss"
+      ]
+    },
+    {
+      "german": "Musst du heute arbeiten?",
+      "english": "Do you have to work today?",
+      "highlight": [
+        "Musst"
+      ]
+    },
+    {
+      "german": "Wir müssen noch einkaufen.",
+      "english": "We still have to do the shopping.",
+      "highlight": [
+        "müssen"
+      ]
+    },
+    {
+      "german": "Sie müssen hier unterschreiben.",
+      "english": "You need to sign here.",
+      "highlight": [
+        "müssen"
+      ]
+    }
+  ],
+  "forms": [
+    "muss",
+    "musst",
+    "müsst",
+    "musste",
+    "mussten",
+    "gemusst"
+  ],
+  "memoryHook": "Ich muss, du musst, er muss. Nicht müssen = no need. Nicht dürfen = forbidden.",
+  "signOff": "Du musst nur weitermachen!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich ___ jetzt gehen. (müssen)",
+      "answer": "muss",
+      "fullAnswer": "Ich muss jetzt gehen.",
+      "explanation": "Ich muss.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Du ___ nicht kommen. (it's optional)",
+      "options": [
+        "musst",
+        "darfst"
+      ],
+      "answer": "musst",
+      "explanation": "No need: nicht müssen.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Hier ___ man nicht parken. (forbidden)",
+      "options": [
+        "muss",
+        "darf"
+      ],
+      "answer": "darf",
+      "explanation": "Forbidden: nicht dürfen.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Er ___ arbeiten.",
+      "options": [
+        "muss",
+        "musst"
+      ],
+      "answer": "muss",
+      "explanation": "Er muss.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Wir ___ warten.",
+      "options": [
+        "müssen",
+        "muss"
+      ],
+      "answer": "müssen",
+      "explanation": "Wir müssen.",
+      "id": "q5"
+    }
+  ]
+}

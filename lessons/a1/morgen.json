@@ -1,0 +1,121 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "morgen",
+    "partOfSpeech": "adverb",
+    "pronunciation": {
+      "respelling": "MOR-gen",
+      "ipa": "ˈmɔʁɡn̩",
+      "notes": ""
+    },
+    "meaning": "tomorrow",
+    "shortDefinition": "Tomorrow."
+  },
+  "wordFamily": [
+    {
+      "german": "der Morgen",
+      "english": "morning",
+      "type": "noun"
+    },
+    {
+      "german": "übermorgen",
+      "english": "the day after tomorrow",
+      "type": "adverb"
+    },
+    {
+      "german": "heute",
+      "english": "today",
+      "type": "adverb"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Bis morgen!",
+      "english": "See you tomorrow!",
+      "highlight": [
+        "morgen!"
+      ]
+    },
+    {
+      "german": "Morgen früh fahre ich nach Wien.",
+      "english": "Tomorrow morning I'm going to Vienna.",
+      "highlight": [
+        "Morgen"
+      ]
+    },
+    {
+      "german": "Guten Morgen!",
+      "english": "Good morning!",
+      "highlight": [
+        "Morgen!"
+      ]
+    }
+  ],
+  "forms": [
+    "morgen früh",
+    "übermorgen",
+    "Morgen"
+  ],
+  "memoryHook": "morgen = tomorrow; der Morgen = morning. Tomorrow morning: morgen früh.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does morgen mean?",
+      "options": [
+        "hot",
+        "to wait",
+        "tomorrow"
+      ],
+      "answer": "tomorrow",
+      "explanation": "morgen: tomorrow.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Small morgen means tomorrow. Capital der Morgen means…",
+      "options": [
+        "morning",
+        "tomorrow"
+      ],
+      "answer": "morning",
+      "explanation": "Guten Morgen.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Tomorrow morning' is…",
+      "options": [
+        "morgen früh",
+        "morgen Morgen"
+      ],
+      "answer": "morgen früh",
+      "explanation": "Not morgen Morgen.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Übermorgen' is…",
+      "options": [
+        "the day after tomorrow",
+        "the day before yesterday"
+      ],
+      "answer": "the day after tomorrow",
+      "explanation": "Über + morgen.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Bis ___! (See you tomorrow!)",
+      "answer": "morgen",
+      "fullAnswer": "Bis morgen!",
+      "explanation": "Morgen.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Land",
+    "partOfSpeech": "noun, neuter (das Land)",
+    "pronunciation": {
+      "respelling": "LANT",
+      "ipa": "lant",
+      "notes": "Plural: die Länder."
+    },
+    "meaning": "country; countryside",
+    "shortDefinition": "Country; countryside."
+  },
+  "wordFamily": [
+    {
+      "german": "das Ausland",
+      "english": "abroad",
+      "type": "noun"
+    },
+    {
+      "german": "das Bundesland",
+      "english": "federal state",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Land, plural die Länder.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Land"
+        },
+        {
+          "label": "More than one",
+          "value": "die Länder"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Aus welchem Land kommen Sie?",
+      "english": "Which country are you from?",
+      "highlight": [
+        "Land"
+      ]
+    },
+    {
+      "german": "Wir wohnen auf dem Land.",
+      "english": "We live in the country.",
+      "highlight": [
+        "Land."
+      ]
+    },
+    {
+      "german": "Ich habe schon viele Länder besucht.",
+      "english": "I've already visited lots of countries.",
+      "highlight": [
+        "Länder"
+      ]
+    }
+  ],
+  "forms": [
+    "Länder",
+    "die Länder",
+    "das Land"
+  ],
+  "memoryHook": "Das Land = country, and the countryside (auf dem Land). Germany has 16 Bundesländer.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Land",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Land is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Land, zwei ___",
+      "answer": "Länder",
+      "fullAnswer": "ein Land, zwei Länder",
+      "explanation": "The plural is Länder.",
+      "acceptedAnswers": [
+        "Laender"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Land mean?",
+      "options": [
+        "the bill",
+        "expensive",
+        "country"
+      ],
+      "answer": "country",
+      "explanation": "Land: country; countryside.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Auf dem Land' means…",
+      "options": [
+        "in the countryside",
+        "on the land"
+      ],
+      "answer": "in the countryside",
+      "explanation": "Not the city.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "German states (Bayern, Hessen…) are called…",
+      "options": [
+        "Bundesländer",
+        "Landkreise"
+      ],
+      "answer": "Bundesländer",
+      "explanation": "16 Bundesländer.",
+      "id": "q5"
+    }
+  ]
+}

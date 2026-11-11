@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Mann",
+    "partOfSpeech": "noun, masculine (der Mann)",
+    "pronunciation": {
+      "respelling": "MAHN",
+      "ipa": "man",
+      "notes": "Plural: die Männer."
+    },
+    "meaning": "man; husband",
+    "shortDefinition": "Man; husband."
+  },
+  "wordFamily": [
+    {
+      "german": "die Frau",
+      "english": "woman; wife",
+      "type": "noun"
+    },
+    {
+      "german": "man",
+      "english": "one, people",
+      "type": "pronoun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Mann, plural die Männer.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Mann"
+        },
+        {
+          "label": "More than one",
+          "value": "die Männer"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Mann dort ist mein Chef.",
+      "english": "The man over there is my boss.",
+      "highlight": [
+        "Mann"
+      ]
+    },
+    {
+      "german": "Mein Mann kocht heute.",
+      "english": "My husband is cooking today.",
+      "highlight": [
+        "Mann"
+      ]
+    },
+    {
+      "german": "In der Gruppe sind drei Männer.",
+      "english": "There are three men in the group.",
+      "highlight": [
+        "Männer."
+      ]
+    }
+  ],
+  "forms": [
+    "Männer",
+    "die Männer",
+    "der Mann"
+  ],
+  "memoryHook": "Der Mann = man and husband. Plural Männer. Not to be confused with man (one n).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Mann",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Mann is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Mann, zwei ___",
+      "answer": "Männer",
+      "fullAnswer": "ein Mann, zwei Männer",
+      "explanation": "The plural is Männer.",
+      "acceptedAnswers": [
+        "Maenner"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Mann mean?",
+      "options": [
+        "hot",
+        "man",
+        "the car"
+      ],
+      "answer": "man",
+      "explanation": "Mann: man; husband.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Mein Mann' usually means…",
+      "options": [
+        "my husband",
+        "my man (friend)"
+      ],
+      "answer": "my husband",
+      "explanation": "Mann = man and husband.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "man (one n) means…",
+      "options": [
+        "one, people",
+        "man"
+      ],
+      "answer": "one, people",
+      "explanation": "Different word.",
+      "id": "q5"
+    }
+  ]
+}

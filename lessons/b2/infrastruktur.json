@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Infrastruktur",
+    "partOfSpeech": "noun, feminine (die Infrastruktur)",
+    "pronunciation": {
+      "respelling": "IN-fra-shtrook-toor",
+      "ipa": "ˈɪnfʁaʃtʁʊkˌtuːɐ̯",
+      "notes": "Plural: die Infrastrukturen."
+    },
+    "meaning": "infrastructure",
+    "shortDefinition": "Infrastructure."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Infra",
+        "meaning": "below"
+      },
+      {
+        "part": "struktur",
+        "meaning": "structure"
+      }
+    ],
+    "literalMeaning": "underlying structure"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Infrastruktur, plural die Infrastrukturen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Infrastruktur"
+        },
+        {
+          "label": "More than one",
+          "value": "die Infrastrukturen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Infrastruktur muss verbessert werden.",
+      "english": "The infrastructure needs to be improved.",
+      "highlight": [
+        "Infrastruktur"
+      ]
+    },
+    {
+      "german": "Straßen und Schienen gehören zur Infrastruktur.",
+      "english": "Roads and rails are part of the infrastructure.",
+      "highlight": [
+        "Infrastruktur."
+      ]
+    },
+    {
+      "german": "Eine gute digitale Infrastruktur.",
+      "english": "Good digital infrastructure.",
+      "highlight": [
+        "Infrastruktur."
+      ]
+    }
+  ],
+  "forms": [
+    "Struktur"
+  ],
+  "memoryHook": "Infra + Struktur = infrastructure.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Infrastruktur",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Infrastruktur is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Infrastruktur, zwei ___",
+      "answer": "Infrastrukturen",
+      "fullAnswer": "ein Infrastruktur, zwei Infrastrukturen",
+      "explanation": "The plural is Infrastrukturen.",
+      "acceptedAnswers": [
+        "Infrastrukturen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Infrastruktur mean?",
+      "options": [
+        "infrastructure",
+        "to help",
+        "expensive"
+      ],
+      "answer": "infrastructure",
+      "explanation": "Infrastruktur: infrastructure.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "infra (below) + Struktur",
+        "Info + Struktur"
+      ],
+      "answer": "infra (below) + Struktur",
+      "explanation": "Below-structure.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gender:",
+      "options": [
+        "die (Struktur)",
+        "das"
+      ],
+      "answer": "die (Struktur)",
+      "explanation": "Last part.",
+      "id": "q5"
+    }
+  ]
+}

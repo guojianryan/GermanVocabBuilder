@@ -1,0 +1,127 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Post",
+    "partOfSpeech": "noun, feminine (die Post)",
+    "pronunciation": {
+      "respelling": "POST",
+      "ipa": "pɔst",
+      "notes": "No plural. Usually no plural."
+    },
+    "meaning": "post office; post, mail",
+    "shortDefinition": "Post office; post, mail."
+  },
+  "wordFamily": [
+    {
+      "german": "die Postleitzahl",
+      "english": "postcode",
+      "type": "noun"
+    },
+    {
+      "german": "der Brief",
+      "english": "letter",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Post, usually no plural.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Post"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Post ist neben der Bank.",
+      "english": "The post office is next to the bank.",
+      "highlight": [
+        "Post"
+      ]
+    },
+    {
+      "german": "Ist Post für mich da?",
+      "english": "Is there any post for me?",
+      "highlight": [
+        "Post"
+      ]
+    },
+    {
+      "german": "Ich bringe das Paket zur Post.",
+      "english": "I'm taking the parcel to the post office.",
+      "highlight": [
+        "Post."
+      ]
+    }
+  ],
+  "forms": [
+    "die Post"
+  ],
+  "memoryHook": "Die Post = post office and mail. Zur Post gehen. Postleitzahl = postcode.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Post",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Post is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Post mean?",
+      "options": [
+        "to sleep",
+        "the family",
+        "post office"
+      ],
+      "answer": "post office",
+      "explanation": "Post: post office; post, mail.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Ich gehe zur Post' means…",
+      "options": [
+        "I'm going to the post office",
+        "I'm going to post it"
+      ],
+      "answer": "I'm going to the post office",
+      "explanation": "Zur Post.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Post means both the post office and…",
+      "options": [
+        "mail",
+        "a pole"
+      ],
+      "answer": "mail",
+      "explanation": "Letters and parcels.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich muss noch zur ___. (post office)",
+      "answer": "Post",
+      "fullAnswer": "Ich muss noch zur Post.",
+      "explanation": "Die Post.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Hälfte",
+    "partOfSpeech": "noun, feminine (die Hälfte)",
+    "pronunciation": {
+      "respelling": "HELF-te",
+      "ipa": "ˈhɛlftə",
+      "notes": "Plural: die Hälften."
+    },
+    "meaning": "half",
+    "shortDefinition": "Half."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Hälfte, plural die Hälften.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Hälfte"
+        },
+        {
+          "label": "More than one",
+          "value": "die Hälften"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Hälfte des Kuchens ist weg.",
+      "english": "Half the cake is gone.",
+      "highlight": [
+        "Hälfte"
+      ]
+    },
+    {
+      "german": "Ich bezahle die Hälfte.",
+      "english": "I'll pay half.",
+      "highlight": [
+        "Hälfte."
+      ]
+    },
+    {
+      "german": "Zur Hälfte fertig.",
+      "english": "Half finished.",
+      "highlight": [
+        "Hälfte"
+      ]
+    }
+  ],
+  "forms": [
+    "Hälften",
+    "die Hälften",
+    "die Hälfte"
+  ],
+  "memoryHook": "Die Hälfte (noun) / halb (adjective): die Hälfte vom Kuchen, eine halbe Stunde.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Hälfte",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Hälfte is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Hälfte, zwei ___",
+      "answer": "Hälften",
+      "fullAnswer": "ein Hälfte, zwei Hälften",
+      "explanation": "The plural is Hälften.",
+      "acceptedAnswers": [
+        "Haelften"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Hälfte mean?",
+      "options": [
+        "half",
+        "slowly",
+        "the job"
+      ],
+      "answer": "half",
+      "explanation": "Hälfte: half.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Hälfte (noun) or halb (adjective)? 'Half the time':",
+      "options": [
+        "die Hälfte der Zeit",
+        "die halb Zeit"
+      ],
+      "answer": "die Hälfte der Zeit",
+      "explanation": "Noun.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Half an hour':",
+      "options": [
+        "eine halbe Stunde",
+        "eine Hälfte Stunde"
+      ],
+      "answer": "eine halbe Stunde",
+      "explanation": "Adjective.",
+      "id": "q5"
+    }
+  ]
+}

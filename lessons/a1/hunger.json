@@ -1,0 +1,127 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Hunger",
+    "partOfSpeech": "noun, masculine (der Hunger)",
+    "pronunciation": {
+      "respelling": "HOONG-er",
+      "ipa": "ˈhʊŋɐ",
+      "notes": "No plural. Usually no plural."
+    },
+    "meaning": "hunger",
+    "shortDefinition": "Hunger."
+  },
+  "wordFamily": [
+    {
+      "german": "der Durst",
+      "english": "thirst",
+      "type": "noun"
+    },
+    {
+      "german": "hungrig",
+      "english": "hungry",
+      "type": "adjective"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Hunger, usually no plural.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Hunger"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich habe Hunger.",
+      "english": "I'm hungry.",
+      "highlight": [
+        "Hunger."
+      ]
+    },
+    {
+      "german": "Hast du Hunger? Es gibt gleich Essen.",
+      "english": "Are you hungry? Food's nearly ready.",
+      "highlight": [
+        "Hunger?"
+      ]
+    },
+    {
+      "german": "Ich habe keinen Hunger.",
+      "english": "I'm not hungry.",
+      "highlight": [
+        "Hunger."
+      ]
+    }
+  ],
+  "forms": [
+    "der Hunger"
+  ],
+  "memoryHook": "Ich habe Hunger: you 'have' hunger. Not hungry: keinen Hunger.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Hunger",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Hunger is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Hunger mean?",
+      "options": [
+        "hunger",
+        "to sing",
+        "cheap"
+      ],
+      "answer": "hunger",
+      "explanation": "Hunger: hunger.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "'I'm hungry' is…",
+      "options": [
+        "Ich habe Hunger.",
+        "Ich bin hungrig."
+      ],
+      "answer": "Ich habe Hunger.",
+      "explanation": "Hungrig exists but Hunger haben is far more common.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'I'm not hungry' is…",
+      "options": [
+        "Ich habe keinen Hunger.",
+        "Ich habe nicht Hunger."
+      ],
+      "answer": "Ich habe keinen Hunger.",
+      "explanation": "Kein + noun.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe großen ___! (hunger)",
+      "answer": "Hunger",
+      "fullAnswer": "Ich habe großen Hunger!",
+      "explanation": "Der Hunger.",
+      "id": "q5"
+    }
+  ]
+}

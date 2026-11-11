@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Lexikon",
+    "partOfSpeech": "noun, neuter (das Lexikon)",
+    "pronunciation": {
+      "respelling": "LEK-si-kon",
+      "ipa": "ˈlɛksikɔn",
+      "notes": "Plural: die Lexika."
+    },
+    "meaning": "encyclopaedia",
+    "shortDefinition": "Encyclopaedia."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Lexikon, plural die Lexika.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Lexikon"
+        },
+        {
+          "label": "More than one",
+          "value": "die Lexika"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Schau im Lexikon nach.",
+      "english": "Look it up in the encyclopaedia.",
+      "highlight": [
+        "Lexikon"
+      ]
+    },
+    {
+      "german": "Er ist ein wandelndes Lexikon.",
+      "english": "He's a walking encyclopaedia.",
+      "highlight": [
+        "Lexikon."
+      ]
+    },
+    {
+      "german": "Heute benutzt man Online-Lexika.",
+      "english": "Today people use online encyclopaedias.",
+      "highlight": [
+        "Online-Lexika."
+      ]
+    }
+  ],
+  "forms": [
+    "Lexika",
+    "Lexiken"
+  ],
+  "memoryHook": "Das Lexikon (plural Lexika) = encyclopaedia (not a dictionary!).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Lexikon",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Lexikon is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Lexikon, zwei ___",
+      "answer": "Lexika",
+      "fullAnswer": "ein Lexikon, zwei Lexika",
+      "explanation": "The plural is Lexika.",
+      "acceptedAnswers": [
+        "Lexika"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Lexikon mean?",
+      "options": [
+        "encyclopaedia",
+        "to sleep",
+        "cheap"
+      ],
+      "answer": "encyclopaedia",
+      "explanation": "Lexikon: encyclopaedia.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Lexikon vs Wörterbuch:",
+      "options": [
+        "Lexikon = encyclopaedia; Wörterbuch = dictionary",
+        "same"
+      ],
+      "answer": "Lexikon = encyclopaedia; Wörterbuch = dictionary",
+      "explanation": "Different.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Lexika (also Lexiken)",
+        "Lexikons only"
+      ],
+      "answer": "Lexika (also Lexiken)",
+      "explanation": "Greek plural.",
+      "id": "q5"
+    }
+  ]
+}

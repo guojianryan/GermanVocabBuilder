@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Schuss",
+    "partOfSpeech": "noun, masculine (der Schuss)",
+    "pronunciation": {
+      "respelling": "SHOOS",
+      "ipa": "ʃʊs",
+      "notes": "Plural: die Schüsse."
+    },
+    "meaning": "shot",
+    "shortDefinition": "Shot."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Schuss, plural die Schüsse.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Schuss"
+        },
+        {
+          "label": "More than one",
+          "value": "die Schüsse"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Man hörte einen Schuss.",
+      "english": "A shot was heard.",
+      "highlight": [
+        "Schuss."
+      ]
+    },
+    {
+      "german": "Der Schuss ging ins Tor.",
+      "english": "The shot went in.",
+      "highlight": [
+        "Schuss"
+      ]
+    },
+    {
+      "german": "Kaffee mit einem Schuss Milch.",
+      "english": "Coffee with a dash of milk.",
+      "highlight": [
+        "Schuss"
+      ]
+    }
+  ],
+  "forms": [
+    "Schüsse",
+    "die Schüsse",
+    "der Schuss"
+  ],
+  "memoryHook": "Schießen → der Schuss (shot; dash).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Schuss",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Schuss is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Schuss, zwei ___",
+      "answer": "Schüsse",
+      "fullAnswer": "ein Schuss, zwei Schüsse",
+      "explanation": "The plural is Schüsse.",
+      "acceptedAnswers": [
+        "Schuesse"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Schuss mean?",
+      "options": [
+        "shot",
+        "the key",
+        "the weather"
+      ],
+      "answer": "shot",
+      "explanation": "Schuss: shot.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Ein Schuss Milch' means…",
+      "options": [
+        "a dash of milk",
+        "a shot of milk"
+      ],
+      "answer": "a dash of milk",
+      "explanation": "Small amount.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Verb:",
+      "options": [
+        "schießen",
+        "schussen"
+      ],
+      "answer": "schießen",
+      "explanation": "Shoot.",
+      "id": "q5"
+    }
+  ]
+}

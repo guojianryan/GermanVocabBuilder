@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Ampel",
+    "partOfSpeech": "noun, feminine (die Ampel)",
+    "pronunciation": {
+      "respelling": "AM-pel",
+      "ipa": "ˈampl̩",
+      "notes": "Plural: die Ampeln."
+    },
+    "meaning": "traffic light",
+    "shortDefinition": "Traffic light."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Ampel, plural die Ampeln.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Ampel"
+        },
+        {
+          "label": "More than one",
+          "value": "die Ampeln"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Ampel ist rot.",
+      "english": "The light is red.",
+      "highlight": [
+        "Ampel"
+      ]
+    },
+    {
+      "german": "Fahren Sie an der Ampel links.",
+      "english": "Turn left at the lights.",
+      "highlight": [
+        "Ampel"
+      ]
+    },
+    {
+      "german": "Bei Rot über die Ampel? Das ist gefährlich!",
+      "english": "Through a red light? That's dangerous!",
+      "highlight": [
+        "Ampel?"
+      ]
+    }
+  ],
+  "forms": [
+    "Ampeln",
+    "die Ampeln",
+    "die Ampel"
+  ],
+  "memoryHook": "Die Ampel: one word for the whole set of traffic lights.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Ampel",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Ampel is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Ampel, zwei ___",
+      "answer": "Ampeln",
+      "fullAnswer": "ein Ampel, zwei Ampeln",
+      "explanation": "The plural is Ampeln.",
+      "acceptedAnswers": [
+        "Ampeln"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Ampel mean?",
+      "options": [
+        "hot",
+        "always",
+        "traffic light"
+      ],
+      "answer": "traffic light",
+      "explanation": "Ampel: traffic light.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'At the lights':",
+      "options": [
+        "an der Ampel",
+        "bei die Ampel"
+      ],
+      "answer": "an der Ampel",
+      "explanation": "An + dative.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Die Ampel is…",
+      "options": [
+        "one set of traffic lights",
+        "a street lamp"
+      ],
+      "answer": "one set of traffic lights",
+      "explanation": "Singular in German.",
+      "id": "q5"
+    }
+  ]
+}

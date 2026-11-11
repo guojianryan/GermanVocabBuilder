@@ -1,0 +1,130 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Ordnung",
+    "partOfSpeech": "noun, feminine (die Ordnung)",
+    "pronunciation": {
+      "respelling": "ORT-noong",
+      "ipa": "ˈɔʁdnʊŋ",
+      "notes": "No plural in this sense. Usually no plural."
+    },
+    "meaning": "order, tidiness",
+    "shortDefinition": "Order, tidiness."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Ordn",
+        "meaning": "order",
+        "note": "From ordnen."
+      },
+      {
+        "part": "ung",
+        "meaning": "noun ending"
+      }
+    ],
+    "literalMeaning": "an ordering"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Ordnung, usually no plural.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Ordnung"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Alles in Ordnung?",
+      "english": "Is everything OK?",
+      "highlight": [
+        "Ordnung?"
+      ]
+    },
+    {
+      "german": "In meinem Zimmer ist keine Ordnung.",
+      "english": "My room is a mess.",
+      "highlight": [
+        "Ordnung."
+      ]
+    },
+    {
+      "german": "Das geht in Ordnung.",
+      "english": "That's fine.",
+      "highlight": [
+        "Ordnung."
+      ]
+    }
+  ],
+  "forms": [
+    "in Ordnung"
+  ],
+  "memoryHook": "Die Ordnung = order. In Ordnung = OK. Alles in Ordnung? = everything OK?",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Ordnung",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Ordnung is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Ordnung mean?",
+      "options": [
+        "to learn",
+        "order",
+        "the shop"
+      ],
+      "answer": "order",
+      "explanation": "Ordnung: order, tidiness.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Alles in Ordnung?' means…",
+      "options": [
+        "Is everything OK?",
+        "Is everything tidy?"
+      ],
+      "answer": "Is everything OK?",
+      "explanation": "Everyday phrase.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Das geht in Ordnung' means…",
+      "options": [
+        "That's fine / that's OK",
+        "That's in order of height"
+      ],
+      "answer": "That's fine / that's OK",
+      "explanation": "Agreement.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Alles in ___! (Everything's fine!)",
+      "answer": "Ordnung",
+      "fullAnswer": "Alles in Ordnung!",
+      "explanation": "In Ordnung.",
+      "id": "q5"
+    }
+  ]
+}

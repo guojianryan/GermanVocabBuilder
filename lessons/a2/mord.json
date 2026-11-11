@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Momente A2.2 Kursbuch Glossar",
+  "lessonType": "card",
+  "word": {
+    "headword": "Mord",
+    "partOfSpeech": "noun, masculine (der Mord)",
+    "pronunciation": {
+      "respelling": "MORT",
+      "ipa": "mɔʁt",
+      "notes": "Plural: die Morde."
+    },
+    "meaning": "murder",
+    "shortDefinition": "Murder."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Mord, plural die Morde.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Mord"
+        },
+        {
+          "label": "More than one",
+          "value": "die Morde"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Polizei untersucht einen Mord.",
+      "english": "The police are investigating a murder.",
+      "highlight": [
+        "Mord."
+      ]
+    },
+    {
+      "german": "Der Mord passierte nachts.",
+      "english": "The murder happened at night.",
+      "highlight": [
+        "Mord"
+      ]
+    },
+    {
+      "german": "Er ist wegen Mordes angeklagt.",
+      "english": "He's charged with murder.",
+      "highlight": [
+        "Mordes"
+      ]
+    }
+  ],
+  "forms": [
+    "Mörder",
+    "ermorden"
+  ],
+  "memoryHook": "Der Mord → der Mörder, ermorden.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Mord",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Mord is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Mord, zwei ___",
+      "answer": "Morde",
+      "fullAnswer": "ein Mord, zwei Morde",
+      "explanation": "The plural is Morde.",
+      "acceptedAnswers": [
+        "Morde"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Mord mean?",
+      "options": [
+        "the shop",
+        "the street",
+        "murder"
+      ],
+      "answer": "murder",
+      "explanation": "Mord: murder.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Murderer:",
+      "options": [
+        "der Mörder",
+        "der Morder"
+      ],
+      "answer": "der Mörder",
+      "explanation": "Umlaut.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Final d sounds like…",
+      "options": [
+        "t",
+        "d"
+      ],
+      "answer": "t",
+      "explanation": "MORT.",
+      "id": "q5"
+    }
+  ]
+}

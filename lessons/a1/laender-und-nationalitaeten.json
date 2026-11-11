@@ -1,0 +1,235 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "group",
+  "word": {
+    "headword": "Länder und Nationalitäten",
+    "partOfSpeech": "word group: countries, people, languages",
+    "pronunciation": {
+      "respelling": "LEN-der unt na-tsyo-na-li-TAY-ten",
+      "ipa": "ˈlɛndɐ ʊnt nat͡si̯onaliˈtɛːtn̩",
+      "notes": ""
+    },
+    "meaning": "countries, nationalities and adjectives",
+    "shortDefinition": "Countries, nationalities and adjectives."
+  },
+  "members": [
+    {
+      "german": "Deutschland",
+      "english": "Germany"
+    },
+    {
+      "german": "der Deutsche / ein Deutscher",
+      "english": "German man",
+      "note": "An adjective used as a noun: ein Deutscher, der Deutsche."
+    },
+    {
+      "german": "die Deutsche",
+      "english": "German woman"
+    },
+    {
+      "german": "deutsch",
+      "english": "German (adjective)",
+      "note": "Auf Deutsch = in German."
+    },
+    {
+      "german": "Österreich",
+      "english": "Austria"
+    },
+    {
+      "german": "der Österreicher",
+      "english": "Austrian man",
+      "plural": "Österreicher"
+    },
+    {
+      "german": "die Österreicherin",
+      "english": "Austrian woman",
+      "plural": "Österreicherinnen"
+    },
+    {
+      "german": "die Schweiz",
+      "english": "Switzerland",
+      "note": "Always with an article: in der Schweiz."
+    },
+    {
+      "german": "der Schweizer",
+      "english": "Swiss man"
+    },
+    {
+      "german": "die Schweizerin",
+      "english": "Swiss woman"
+    },
+    {
+      "german": "Europa",
+      "english": "Europe"
+    },
+    {
+      "german": "der Europäer",
+      "english": "European man"
+    },
+    {
+      "german": "europäisch",
+      "english": "European"
+    },
+    {
+      "german": "die Türkei",
+      "english": "Turkey",
+      "note": "With an article."
+    },
+    {
+      "german": "der Türke / die Türkin",
+      "english": "Turkish man / woman"
+    },
+    {
+      "german": "türkisch",
+      "english": "Turkish"
+    },
+    {
+      "german": "die Nationalität",
+      "english": "nationality",
+      "plural": "Nationalitäten"
+    }
+  ],
+  "intro": {
+    "title": "Ich bin Deutsche",
+    "paragraphs": [
+      "For each country there are three words: the country (Österreich), the person (Österreicher, Österreicherin) and the adjective (österreichisch). Women usually get -in.",
+      "Two traps. You say your nationality with no article: Ich bin Österreicher, not ein Österreicher. And a few countries need an article: die Schweiz, die Türkei, die USA. So: Ich wohne in der Schweiz."
+    ]
+  },
+  "sampleSentences": [
+    {
+      "german": "Ich bin Deutsche und wohne in Hamburg.",
+      "english": "I'm German (female) and live in Hamburg.",
+      "highlight": [
+        "Deutsche"
+      ]
+    },
+    {
+      "german": "Sie kommt aus der Schweiz.",
+      "english": "She comes from Switzerland.",
+      "highlight": [
+        "Schweiz."
+      ]
+    },
+    {
+      "german": "Sprechen Sie Deutsch?",
+      "english": "Do you speak German?",
+      "highlight": [
+        "Deutsch?"
+      ]
+    }
+  ],
+  "forms": [
+    "Deutschland",
+    "der Deutsche",
+    "Deutsche",
+    "ein Deutscher",
+    "die Deutsche",
+    "deutsch",
+    "Österreich",
+    "der Österreicher",
+    "Österreicher",
+    "die Österreicherin",
+    "Österreicherin",
+    "Österreicherinnen",
+    "die Schweiz",
+    "Schweiz",
+    "der Schweizer",
+    "Schweizer",
+    "die Schweizerin",
+    "Schweizerin",
+    "Europa",
+    "der Europäer",
+    "Europäer",
+    "europäisch",
+    "die Türkei",
+    "Türkei",
+    "der Türke",
+    "Türke",
+    "die Türkin",
+    "Türkin",
+    "türkisch",
+    "die Nationalität",
+    "Nationalität",
+    "Nationalitäten",
+    "Deutscher",
+    "österreichisch",
+    "schweizerisch",
+    "Luxemburg",
+    "Luxemburger"
+  ],
+  "memoryHook": "Country, person, adjective: Österreich, Österreicher(in), österreichisch. And no article when you say what you are.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "A woman from Austria says: Ich bin…",
+      "options": [
+        "Österreicherin",
+        "eine Österreicher"
+      ],
+      "answer": "Österreicherin",
+      "explanation": "No article, -in for women.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "'I live in Switzerland':",
+      "options": [
+        "Ich wohne in der Schweiz.",
+        "Ich wohne in Schweiz."
+      ],
+      "answer": "Ich wohne in der Schweiz.",
+      "explanation": "Die Schweiz needs its article.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "'She comes from Turkey':",
+      "options": [
+        "Sie kommt aus der Türkei.",
+        "Sie kommt aus Türkei."
+      ],
+      "answer": "Sie kommt aus der Türkei.",
+      "explanation": "Die Türkei.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "The language is written…",
+      "options": [
+        "Deutsch (Ich spreche Deutsch.)",
+        "deutsch only"
+      ],
+      "answer": "Deutsch (Ich spreche Deutsch.)",
+      "explanation": "Language as a noun: capital D.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Er ist ___ . (German man)",
+      "answer": "Deutscher",
+      "fullAnswer": "Er ist Deutscher.",
+      "explanation": "Ein Deutscher → Er ist Deutscher.",
+      "acceptedAnswers": [
+        "deutscher"
+      ],
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "The adjective for Europa:",
+      "options": [
+        "europäisch",
+        "europisch"
+      ],
+      "answer": "europäisch",
+      "explanation": "Europäer, europäisch.",
+      "id": "q6"
+    }
+  ]
+}

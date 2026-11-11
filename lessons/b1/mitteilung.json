@@ -1,0 +1,140 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Mitteilung",
+    "partOfSpeech": "noun, feminine (die Mitteilung)",
+    "pronunciation": {
+      "respelling": "MIT-tye-lung",
+      "ipa": "ˈmɪtˌtaɪ̯lʊŋ",
+      "notes": "Plural: die Mitteilungen."
+    },
+    "meaning": "message, announcement, notice",
+    "shortDefinition": "Message, announcement, notice."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Mit",
+        "meaning": "with"
+      },
+      {
+        "part": "teil",
+        "meaning": "share (teilen)"
+      },
+      {
+        "part": "ung",
+        "meaning": "noun ending"
+      }
+    ],
+    "literalMeaning": "a sharing-with"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Mitteilung, plural die Mitteilungen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Mitteilung"
+        },
+        {
+          "label": "More than one",
+          "value": "die Mitteilungen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir haben eine wichtige Mitteilung.",
+      "english": "We have an important announcement.",
+      "highlight": [
+        "Mitteilung."
+      ]
+    },
+    {
+      "german": "Sie bekommen eine schriftliche Mitteilung.",
+      "english": "You'll get a written notice.",
+      "highlight": [
+        "Mitteilung."
+      ]
+    },
+    {
+      "german": "Die Mitteilung kam per E-Mail.",
+      "english": "The message came by email.",
+      "highlight": [
+        "Mitteilung"
+      ]
+    }
+  ],
+  "forms": [
+    "mitteilen"
+  ],
+  "memoryHook": "Mitteilen → die Mitteilung.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Mitteilung",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Mitteilung is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Mitteilung, zwei ___",
+      "answer": "Mitteilungen",
+      "fullAnswer": "ein Mitteilung, zwei Mitteilungen",
+      "explanation": "The plural is Mitteilungen.",
+      "acceptedAnswers": [
+        "Mitteilungen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Mitteilung mean?",
+      "options": [
+        "to learn",
+        "message",
+        "expensive"
+      ],
+      "answer": "message",
+      "explanation": "Mitteilung: message, announcement, notice.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "mitteilen (inform)",
+        "Mitte"
+      ],
+      "answer": "mitteilen (inform)",
+      "explanation": "Inform.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Literally…",
+      "options": [
+        "sharing with (mit + teilen)",
+        "the middle"
+      ],
+      "answer": "sharing with (mit + teilen)",
+      "explanation": "Share.",
+      "id": "q5"
+    }
+  ]
+}

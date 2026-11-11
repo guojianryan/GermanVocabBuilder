@@ -1,0 +1,166 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "dienen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "DEE-nen",
+      "ipa": "ˈdiːnən",
+      "notes": ""
+    },
+    "meaning": "to serve",
+    "shortDefinition": "To serve."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "dien|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "dien|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "dien|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "dien|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "dien|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "dien|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gedient"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "der Dienst",
+      "english": "service, duty",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wozu dient das?",
+      "english": "What's that for?",
+      "highlight": [
+        "dient"
+      ]
+    },
+    {
+      "german": "Das Zimmer dient als Büro.",
+      "english": "The room serves as an office.",
+      "highlight": [
+        "dient",
+        "als"
+      ]
+    },
+    {
+      "german": "Er hat in der Armee gedient.",
+      "english": "He served in the army.",
+      "highlight": [
+        "gedient."
+      ]
+    }
+  ],
+  "forms": [
+    "diene",
+    "dienst",
+    "dient",
+    "dienen",
+    "gedient"
+  ],
+  "memoryHook": "Dienen (als) = serve (as). Der Dienst = service.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (dienen)",
+      "answer": "dient",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: dient.",
+      "acceptedAnswers": [
+        "dient"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (dienen, past)",
+      "answer": "gedient",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gedient.",
+      "acceptedAnswers": [
+        "gedient"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does dienen mean?",
+      "options": [
+        "the car",
+        "the door",
+        "to serve"
+      ],
+      "answer": "to serve",
+      "explanation": "dienen: to serve.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Dienen als' means…",
+      "options": [
+        "to serve as",
+        "to serve food"
+      ],
+      "answer": "to serve as",
+      "explanation": "Function.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Serve food in a restaurant:",
+      "options": [
+        "servieren / bedienen",
+        "dienen"
+      ],
+      "answer": "servieren / bedienen",
+      "explanation": "Different.",
+      "id": "q5"
+    }
+  ]
+}

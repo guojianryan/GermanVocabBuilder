@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Reifen",
+    "partOfSpeech": "noun, masculine (der Reifen)",
+    "pronunciation": {
+      "respelling": "RYE-fen",
+      "ipa": "ˈʁaɪ̯fn̩",
+      "notes": "The plural looks the same. Plural: die Reifen."
+    },
+    "meaning": "tyre",
+    "shortDefinition": "Tyre."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Reifen, plural die Reifen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Reifen"
+        },
+        {
+          "label": "More than one",
+          "value": "die Reifen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich habe einen platten Reifen.",
+      "english": "I've got a flat tyre.",
+      "highlight": [
+        "Reifen."
+      ]
+    },
+    {
+      "german": "Im Winter braucht man Winterreifen.",
+      "english": "In winter you need winter tyres.",
+      "highlight": [
+        "Winterreifen."
+      ]
+    },
+    {
+      "german": "Der Reifen hat ein Loch.",
+      "english": "The tyre has a hole.",
+      "highlight": [
+        "Reifen"
+      ]
+    }
+  ],
+  "forms": [
+    "Reifen",
+    "die Reifen",
+    "der Reifen"
+  ],
+  "memoryHook": "Der Reifen (tyre). In winter: Winterreifen.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Reifen",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Reifen is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Reifen, zwei ___",
+      "answer": "Reifen",
+      "fullAnswer": "ein Reifen, zwei Reifen",
+      "explanation": "The plural is Reifen.",
+      "acceptedAnswers": [
+        "Reifen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Reifen mean?",
+      "options": [
+        "the key",
+        "the bill",
+        "tyre"
+      ],
+      "answer": "tyre",
+      "explanation": "Reifen: tyre.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "A flat tyre:",
+      "options": [
+        "ein platter Reifen / ein Platten",
+        "ein flacher Reifen"
+      ],
+      "answer": "ein platter Reifen / ein Platten",
+      "explanation": "Platt.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Reif (adjective) means…",
+      "options": [
+        "ripe",
+        "round"
+      ],
+      "answer": "ripe",
+      "explanation": "Different word.",
+      "id": "q5"
+    }
+  ]
+}

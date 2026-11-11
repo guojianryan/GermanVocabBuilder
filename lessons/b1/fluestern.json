@@ -1,0 +1,158 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "flüstern",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "FLÜS-tern",
+      "ipa": "ˈflʏstɐn",
+      "notes": ""
+    },
+    "meaning": "to whisper",
+    "shortDefinition": "To whisper."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "flüster|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "flüster|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "flüster|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "flüster|n"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "flüster|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "flüster|n"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat geflüstert"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Sie flüstert ihm etwas ins Ohr.",
+      "english": "She whispers something in his ear.",
+      "highlight": [
+        "flüstert"
+      ]
+    },
+    {
+      "german": "Hier musst du flüstern.",
+      "english": "You have to whisper here.",
+      "highlight": [
+        "flüstern."
+      ]
+    },
+    {
+      "german": "Er hat mir die Antwort geflüstert.",
+      "english": "He whispered the answer to me.",
+      "highlight": [
+        "geflüstert."
+      ]
+    }
+  ],
+  "forms": [
+    "flüstere",
+    "flüsterst",
+    "flüstert",
+    "flüstern",
+    "geflüstert"
+  ],
+  "memoryHook": "Flüstern = whisper ↔ schreien.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (flüstern)",
+      "answer": "flüstert",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: flüstert.",
+      "acceptedAnswers": [
+        "fluestert"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (flüstern, past)",
+      "answer": "geflüstert",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe geflüstert.",
+      "acceptedAnswers": [
+        "gefluestert"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does flüstern mean?",
+      "options": [
+        "the window",
+        "to learn",
+        "to whisper"
+      ],
+      "answer": "to whisper",
+      "explanation": "flüstern: to whisper.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Opposite:",
+      "options": [
+        "schreien",
+        "sprechen"
+      ],
+      "answer": "schreien",
+      "explanation": "Shout.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Noun:",
+      "options": [
+        "das Flüstern",
+        "der Flüster"
+      ],
+      "answer": "das Flüstern",
+      "explanation": "Whisper.",
+      "id": "q5"
+    }
+  ]
+}

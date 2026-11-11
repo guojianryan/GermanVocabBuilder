@@ -1,0 +1,134 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Dirigent",
+    "partOfSpeech": "noun, masculine (der Dirigent)",
+    "pronunciation": {
+      "respelling": "di-ri-GENT",
+      "ipa": "diʁiˈɡɛnt",
+      "notes": "Plural: die Dirigenten."
+    },
+    "meaning": "conductor (music)",
+    "shortDefinition": "Conductor (music)."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Dirigent, plural die Dirigenten.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Dirigent"
+        },
+        {
+          "label": "More than one",
+          "value": "die Dirigenten"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Dirigent hebt den Taktstock.",
+      "english": "The conductor raises the baton.",
+      "highlight": [
+        "Dirigent"
+      ]
+    },
+    {
+      "german": "Sie ist eine berühmte Dirigentin.",
+      "english": "She's a famous conductor.",
+      "highlight": [
+        "Dirigentin."
+      ]
+    },
+    {
+      "german": "Das Orchester folgt dem Dirigenten.",
+      "english": "The orchestra follows the conductor.",
+      "highlight": [
+        "Dirigenten."
+      ]
+    }
+  ],
+  "forms": [
+    "dirigieren",
+    "Dirigentin"
+  ],
+  "memoryHook": "Dirigieren → der Dirigent (weak) ≠ Schaffner.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Dirigent",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Dirigent is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Dirigent, zwei ___",
+      "answer": "Dirigenten",
+      "fullAnswer": "ein Dirigent, zwei Dirigenten",
+      "explanation": "The plural is Dirigenten.",
+      "acceptedAnswers": [
+        "Dirigenten"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Dirigent mean?",
+      "options": [
+        "the station",
+        "hot",
+        "conductor (music)"
+      ],
+      "answer": "conductor (music)",
+      "explanation": "Dirigent: conductor (music).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Weak noun: den/dem…",
+      "options": [
+        "Dirigenten",
+        "Dirigent"
+      ],
+      "answer": "Dirigenten",
+      "explanation": "-ent = weak.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Verb:",
+      "options": [
+        "dirigieren",
+        "dirigenten"
+      ],
+      "answer": "dirigieren",
+      "explanation": "Conduct.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Train conductor:",
+      "options": [
+        "der Schaffner / Zugbegleiter",
+        "der Dirigent"
+      ],
+      "answer": "der Schaffner / Zugbegleiter",
+      "explanation": "Different.",
+      "id": "q6"
+    }
+  ]
+}

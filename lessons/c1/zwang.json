@@ -1,0 +1,134 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Zwang",
+    "partOfSpeech": "noun, masculine (der Zwang)",
+    "pronunciation": {
+      "respelling": "TSVANG",
+      "ipa": "tsvaŋ",
+      "notes": "Plural: die Zwänge."
+    },
+    "meaning": "compulsion, force, pressure",
+    "shortDefinition": "Compulsion, force, pressure."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Zwang, plural die Zwänge.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Zwang"
+        },
+        {
+          "label": "More than one",
+          "value": "die Zwänge"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Es gibt keinen Zwang.",
+      "english": "There's no compulsion.",
+      "highlight": [
+        "Zwang."
+      ]
+    },
+    {
+      "german": "Er handelte unter Zwang.",
+      "english": "He acted under duress.",
+      "highlight": [
+        "Zwang."
+      ]
+    },
+    {
+      "german": "Wirtschaftliche Zwänge.",
+      "english": "Economic constraints.",
+      "highlight": [
+        "Zwänge."
+      ]
+    }
+  ],
+  "forms": [
+    "zwingen",
+    "zwanglos"
+  ],
+  "memoryHook": "Zwingen → der Zwang; zwanglos.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Zwang",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Zwang is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Zwang, zwei ___",
+      "answer": "Zwänge",
+      "fullAnswer": "ein Zwang, zwei Zwänge",
+      "explanation": "The plural is Zwänge.",
+      "acceptedAnswers": [
+        "Zwaenge"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Zwang mean?",
+      "options": [
+        "the shop",
+        "the window",
+        "compulsion"
+      ],
+      "answer": "compulsion",
+      "explanation": "Zwang: compulsion, force, pressure.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "zwingen (force)",
+        "zwei"
+      ],
+      "answer": "zwingen (force)",
+      "explanation": "Force.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Unter Zwang' means…",
+      "options": [
+        "under duress",
+        "under pressure only"
+      ],
+      "answer": "under duress",
+      "explanation": "Forced.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Adjective 'zwanglos' means…",
+      "options": [
+        "informal, casual",
+        "forced"
+      ],
+      "answer": "informal, casual",
+      "explanation": "Relaxed.",
+      "id": "q6"
+    }
+  ]
+}

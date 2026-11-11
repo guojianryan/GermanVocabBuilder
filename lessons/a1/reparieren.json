@@ -1,0 +1,170 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "reparieren",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "reh-pa-REE-ren",
+      "ipa": "ʁepaˈʁiːʁən",
+      "notes": ""
+    },
+    "meaning": "to repair, to fix",
+    "shortDefinition": "To repair, to fix."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "reparier|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "reparier|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "reparier|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "reparier|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "reparier|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "reparier|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat repariert",
+        "-ieren verbs have no ge- in the past."
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "die Reparatur",
+      "english": "repair",
+      "type": "noun"
+    },
+    {
+      "german": "kaputt",
+      "english": "broken",
+      "type": "adjective"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Können Sie mein Fahrrad reparieren?",
+      "english": "Can you repair my bike?",
+      "highlight": [
+        "reparieren?"
+      ]
+    },
+    {
+      "german": "Der Techniker repariert die Heizung.",
+      "english": "The technician is fixing the heating.",
+      "highlight": [
+        "repariert"
+      ]
+    },
+    {
+      "german": "Ich habe die Lampe repariert.",
+      "english": "I've fixed the lamp.",
+      "highlight": [
+        "repariert."
+      ]
+    }
+  ],
+  "forms": [
+    "repariere",
+    "reparierst",
+    "repariert",
+    "reparieren"
+  ],
+  "memoryHook": "Reparieren = repair (no ge-: hat repariert). Die Reparatur = repair.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (reparieren)",
+      "answer": "repariert",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: repariert.",
+      "acceptedAnswers": [
+        "repariert"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (reparieren, past)",
+      "answer": "repariert",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe repariert.",
+      "acceptedAnswers": [
+        "repariert"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does reparieren mean?",
+      "options": [
+        "to repair",
+        "to sing",
+        "slowly"
+      ],
+      "answer": "to repair",
+      "explanation": "reparieren: to repair, to fix.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "-ieren verbs in the past have…",
+      "options": [
+        "no ge-",
+        "ge-"
+      ],
+      "answer": "no ge-",
+      "explanation": "Hat repariert.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Something that needs reparieren is…",
+      "options": [
+        "kaputt",
+        "neu"
+      ],
+      "answer": "kaputt",
+      "explanation": "Broken.",
+      "id": "q5"
+    }
+  ]
+}

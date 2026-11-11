@@ -1,0 +1,171 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "schließen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "SHLEE-sen",
+      "ipa": "ˈʃliːsn̩",
+      "notes": ""
+    },
+    "meaning": "to close, to shut",
+    "shortDefinition": "To close, to shut."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "schließ|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "schließ|t"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "schließ|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "schließ|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "schließ|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "schließ|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat geschlossen",
+        "Du schließt: the stem ends in ß, so du just adds -t."
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "der Schlüssel",
+      "english": "key",
+      "type": "noun"
+    },
+    {
+      "german": "öffnen",
+      "english": "to open",
+      "type": "verb"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Bitte schließen Sie die Tür.",
+      "english": "Please close the door.",
+      "highlight": [
+        "schließen"
+      ]
+    },
+    {
+      "german": "Der Laden schließt um 20 Uhr.",
+      "english": "The shop closes at 8pm.",
+      "highlight": [
+        "schließt"
+      ]
+    },
+    {
+      "german": "Heute geschlossen.",
+      "english": "Closed today.",
+      "highlight": [
+        "geschlossen."
+      ]
+    }
+  ],
+  "forms": [
+    "schließe",
+    "schließt",
+    "schließen",
+    "geschlossen",
+    "schloss"
+  ],
+  "memoryHook": "Schließen = close (casual: zumachen). Signs: geschlossen. Der Schlüssel (key) comes from it.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (schließen)",
+      "answer": "schließt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: schließt.",
+      "acceptedAnswers": [
+        "schliesst"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (schließen, past)",
+      "answer": "geschlossen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe geschlossen.",
+      "acceptedAnswers": [
+        "geschlossen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does schließen mean?",
+      "options": [
+        "to close",
+        "to open",
+        "quiet"
+      ],
+      "answer": "to close",
+      "explanation": "schließen: to close, to shut.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "A casual word for schließen is…",
+      "options": [
+        "zumachen",
+        "ausmachen"
+      ],
+      "answer": "zumachen",
+      "explanation": "Zumachen = close.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "On a sign, 'geschlossen' means…",
+      "options": [
+        "closed",
+        "open"
+      ],
+      "answer": "closed",
+      "explanation": "Geöffnet = open.",
+      "id": "q5"
+    }
+  ]
+}

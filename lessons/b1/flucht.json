@@ -1,0 +1,135 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Flucht",
+    "partOfSpeech": "noun, feminine (die Flucht)",
+    "pronunciation": {
+      "respelling": "FLOOKHT",
+      "ipa": "flʊxt",
+      "notes": "Plural: die Fluchten."
+    },
+    "meaning": "escape, flight",
+    "shortDefinition": "Escape, flight."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Flucht, plural die Fluchten.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Flucht"
+        },
+        {
+          "label": "More than one",
+          "value": "die Fluchten"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Flucht dauerte drei Monate.",
+      "english": "The escape took three months.",
+      "highlight": [
+        "Flucht"
+      ]
+    },
+    {
+      "german": "Sie sind auf der Flucht.",
+      "english": "They're on the run.",
+      "highlight": [
+        "Flucht."
+      ]
+    },
+    {
+      "german": "Nach seiner Flucht lebte er in Berlin.",
+      "english": "After his escape he lived in Berlin.",
+      "highlight": [
+        "Flucht"
+      ]
+    }
+  ],
+  "forms": [
+    "Fluchten",
+    "die Fluchten",
+    "die Flucht"
+  ],
+  "memoryHook": "Fliehen → die Flucht (escape). A plane flight = der Flug!",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Flucht",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Flucht is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Flucht, zwei ___",
+      "answer": "Fluchten",
+      "fullAnswer": "ein Flucht, zwei Fluchten",
+      "explanation": "The plural is Fluchten.",
+      "acceptedAnswers": [
+        "Fluchten"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Flucht mean?",
+      "options": [
+        "the child",
+        "the job",
+        "escape"
+      ],
+      "answer": "escape",
+      "explanation": "Flucht: escape, flight.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Auf der Flucht sein' means…",
+      "options": [
+        "to be on the run / fleeing",
+        "to be on a flight"
+      ],
+      "answer": "to be on the run / fleeing",
+      "explanation": "Fleeing.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "A flight (plane) is…",
+      "options": [
+        "der Flug",
+        "die Flucht"
+      ],
+      "answer": "der Flug",
+      "explanation": "Different!",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "fliehen",
+        "fliegen"
+      ],
+      "answer": "fliehen",
+      "explanation": "Flee.",
+      "id": "q6"
+    }
+  ]
+}

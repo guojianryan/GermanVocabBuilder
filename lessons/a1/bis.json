@@ -1,0 +1,172 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "full",
+  "word": {
+    "headword": "bis",
+    "partOfSpeech": "preposition / conjunction",
+    "pronunciation": {
+      "respelling": "BISS",
+      "ipa": "bɪs",
+      "notes": "Short i."
+    },
+    "meaning": "until; by; up to; to (from … to)",
+    "shortDefinition": "Marks an end point in time or space."
+  },
+  "intro": {
+    "title": "Bis morgen!",
+    "paragraphs": [
+      "Bis marks where something stops: bis morgen (until tomorrow), bis Berlin (as far as Berlin), von neun bis fünf (from nine to five). It's also in every goodbye: bis bald, bis später, bis dann."
+    ]
+  },
+  "wordFamily": [
+    {
+      "german": "bis bald / bis später / bis morgen",
+      "english": "see you soon / later / tomorrow",
+      "type": "phrases"
+    },
+    {
+      "german": "von … bis …",
+      "english": "from … to …",
+      "type": "phrase"
+    },
+    {
+      "german": "bis zu",
+      "english": "up to, as far as",
+      "type": "phrase"
+    }
+  ],
+  "keyTrap": {
+    "title": "The big trap: bis + article",
+    "explanation": "Bis on its own can't take an article. Add zu when there's a der, die or das.",
+    "wrong": {
+      "german": "Ich fahre bis den Bahnhof.",
+      "verdict": "With an article, use bis zum / bis zur."
+    },
+    "correct": [
+      {
+        "german": "Ich fahre bis zum Bahnhof.",
+        "literal": "I drive until to-the station.",
+        "note": "With an article: bis zum, bis zur."
+      },
+      {
+        "german": "Ich fahre bis Hamburg.",
+        "literal": "I drive until Hamburg.",
+        "note": "Cities and times without an article: just bis."
+      }
+    ]
+  },
+  "commonMistakes": [
+    {
+      "title": "By a deadline",
+      "explanation": "Bis also means 'by' for deadlines.",
+      "examples": [
+        {
+          "german": "Bitte antworten Sie bis Freitag.",
+          "english": "Please reply by Friday.",
+          "highlight": "bis"
+        }
+      ]
+    },
+    {
+      "title": "Opening hours",
+      "explanation": "Von … bis … for time ranges.",
+      "wrong": "von 9 zu 17 Uhr",
+      "correct": "von 9 bis 17 Uhr"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Laden ist von 8 bis 20 Uhr geöffnet.",
+      "english": "The shop is open from 8am to 8pm.",
+      "highlight": [
+        "bis"
+      ]
+    },
+    {
+      "german": "Bis morgen!",
+      "english": "See you tomorrow!",
+      "highlight": [
+        "Bis"
+      ]
+    },
+    {
+      "german": "Gehen Sie bis zur Ampel und dann links.",
+      "english": "Go as far as the traffic lights and then left.",
+      "highlight": [
+        "bis",
+        "zur"
+      ]
+    },
+    {
+      "german": "Ich warte bis sechs Uhr.",
+      "english": "I'll wait until six.",
+      "highlight": [
+        "bis"
+      ]
+    }
+  ],
+  "forms": [
+    "bis zum",
+    "bis zur"
+  ],
+  "memoryHook": "Bis = until, up to. Add zu before an article: bis zum Bahnhof. Bis bald!",
+  "signOff": "Bis bald!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "___ später! (See you later!)",
+      "answer": "Bis",
+      "fullAnswer": "Bis später!",
+      "explanation": "Bis + time word: goodbye.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gehen Sie ___ Kirche. (as far as the church)",
+      "options": [
+        "bis die",
+        "bis zur"
+      ],
+      "answer": "bis zur",
+      "explanation": "With an article: bis zur.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Das Büro ist von 9 ___ 17 Uhr offen.",
+      "options": [
+        "bis",
+        "zu"
+      ],
+      "answer": "bis",
+      "explanation": "Von … bis.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Bitte bezahlen Sie ___ Montag. (by Monday)",
+      "options": [
+        "bis",
+        "seit"
+      ],
+      "answer": "bis",
+      "explanation": "Deadlines: bis.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich fahre bis ___. (as far as Munich)",
+      "options": [
+        "München",
+        "nach München"
+      ],
+      "answer": "München",
+      "explanation": "Cities need no extra word.",
+      "id": "q5"
+    }
+  ]
+}

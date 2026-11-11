@@ -1,0 +1,185 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "entgehen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "ent-GAY-en",
+      "ipa": "ɛntˈɡeːən",
+      "notes": ""
+    },
+    "meaning": "to escape, avoid; to miss",
+    "shortDefinition": "To escape, avoid; to miss."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "ent",
+        "meaning": "away"
+      },
+      {
+        "part": "gehen",
+        "meaning": "to go",
+        "emphasis": "release"
+      }
+    ],
+    "literalMeaning": "to go away from",
+    "summary": "Slipping away."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "entgeh|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "entgeh|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "entgeh|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "entgeh|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "entgeh|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "entgeh|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): ist entgangen"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er ist knapp dem Tod entgangen.",
+      "english": "He narrowly escaped death.",
+      "highlight": [
+        "entgangen."
+      ]
+    },
+    {
+      "german": "Mir ist nichts entgangen.",
+      "english": "Nothing escaped me.",
+      "highlight": [
+        "entgangen."
+      ]
+    },
+    {
+      "german": "Lass dir das nicht entgehen!",
+      "english": "Don't miss it!",
+      "highlight": [
+        "entgehen!"
+      ]
+    }
+  ],
+  "forms": [
+    "entgehe",
+    "entgehst",
+    "entgeht",
+    "entgehen",
+    "entgangen"
+  ],
+  "memoryHook": "Entgehen (+ Dat.) = escape; sich nicht entgehen lassen = not miss.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (entgehen)",
+      "answer": "entgeht",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: entgeht.",
+      "acceptedAnswers": [
+        "entgeht"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich bin schon ___. (entgehen, past)",
+      "answer": "entgangen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: bin entgangen.",
+      "acceptedAnswers": [
+        "entgangen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does entgehen mean?",
+      "options": [
+        "to open",
+        "the bread",
+        "to escape"
+      ],
+      "answer": "to escape",
+      "explanation": "entgehen: to escape, avoid; to miss.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Sich etwas entgehen lassen' means…",
+      "options": [
+        "to miss out on something",
+        "to avoid something"
+      ],
+      "answer": "to miss out on something",
+      "explanation": "Miss.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Takes…",
+      "options": [
+        "dative",
+        "accusative"
+      ],
+      "answer": "dative",
+      "explanation": "Dative.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "ist entgangen",
+        "hat entgangen"
+      ],
+      "answer": "ist entgangen",
+      "explanation": "Sein.",
+      "id": "q6"
+    }
+  ]
+}

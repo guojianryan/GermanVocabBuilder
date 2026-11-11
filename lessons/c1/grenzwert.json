@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Grenzwert",
+    "partOfSpeech": "noun, masculine (der Grenzwert)",
+    "pronunciation": {
+      "respelling": "GRENTS-vairt",
+      "ipa": "ˈɡʁɛntsveːɐ̯t",
+      "notes": "Plural: die Grenzwerte."
+    },
+    "meaning": "limit (value), threshold",
+    "shortDefinition": "Limit (value), threshold."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Grenz",
+        "meaning": "border, limit"
+      },
+      {
+        "part": "wert",
+        "meaning": "value"
+      }
+    ],
+    "literalMeaning": "limit value"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Grenzwert, plural die Grenzwerte.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Grenzwert"
+        },
+        {
+          "label": "More than one",
+          "value": "die Grenzwerte"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Grenzwert für Feinstaub wurde überschritten.",
+      "english": "The limit for fine dust was exceeded.",
+      "highlight": [
+        "Grenzwert"
+      ]
+    },
+    {
+      "german": "Neue Grenzwerte für Abgase.",
+      "english": "New emission limits.",
+      "highlight": [
+        "Grenzwerte"
+      ]
+    },
+    {
+      "german": "Der Grenzwert liegt bei 50.",
+      "english": "The threshold is 50.",
+      "highlight": [
+        "Grenzwert"
+      ]
+    }
+  ],
+  "forms": [
+    "Grenze"
+  ],
+  "memoryHook": "Grenze + Wert = limit value.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Grenzwert",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Grenzwert is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Grenzwert, zwei ___",
+      "answer": "Grenzwerte",
+      "fullAnswer": "ein Grenzwert, zwei Grenzwerte",
+      "explanation": "The plural is Grenzwerte.",
+      "acceptedAnswers": [
+        "Grenzwerte"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Grenzwert mean?",
+      "options": [
+        "tomorrow",
+        "limit (value)",
+        "the door"
+      ],
+      "answer": "limit (value)",
+      "explanation": "Grenzwert: limit (value), threshold.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Grenze + Wert (value)",
+        "Grenz + Wort"
+      ],
+      "answer": "Grenze + Wert (value)",
+      "explanation": "Limit value.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Den Grenzwert überschreiten' means…",
+      "options": [
+        "to exceed the limit",
+        "to cross a border"
+      ],
+      "answer": "to exceed the limit",
+      "explanation": "Exceed.",
+      "id": "q5"
+    }
+  ]
+}

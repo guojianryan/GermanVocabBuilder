@@ -1,0 +1,102 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "klinisch",
+    "partOfSpeech": "adjective",
+    "pronunciation": {
+      "respelling": "KLEE-nish",
+      "ipa": "ˈkliːnɪʃ",
+      "notes": ""
+    },
+    "meaning": "clinical",
+    "shortDefinition": "Clinical."
+  },
+  "sampleSentences": [
+    {
+      "german": "Die klinische Studie läuft.",
+      "english": "The clinical trial is running.",
+      "highlight": [
+        "klinische"
+      ]
+    },
+    {
+      "german": "Er ist klinisch tot.",
+      "english": "He's clinically dead.",
+      "highlight": [
+        "klinisch"
+      ]
+    },
+    {
+      "german": "Der Raum wirkt klinisch.",
+      "english": "The room looks clinical.",
+      "highlight": [
+        "klinisch."
+      ]
+    }
+  ],
+  "forms": [
+    "Klinik"
+  ],
+  "memoryHook": "Klinik → klinisch; klinisch rein.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does klinisch mean?",
+      "options": [
+        "clinical",
+        "never",
+        "tomorrow"
+      ],
+      "answer": "clinical",
+      "explanation": "klinisch: clinical.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "die Klinik (hospital)",
+        "klein"
+      ],
+      "answer": "die Klinik (hospital)",
+      "explanation": "Clinic.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Klinisch rein' means…",
+      "options": [
+        "spotlessly clean",
+        "medically pure"
+      ],
+      "answer": "spotlessly clean",
+      "explanation": "Idiom.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Lower case?",
+      "options": [
+        "yes",
+        "no"
+      ],
+      "answer": "yes",
+      "explanation": "Adjective.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Eine ___ Untersuchung. (clinical)",
+      "answer": "klinische",
+      "fullAnswer": "Eine klinische Untersuchung.",
+      "explanation": "Klinische.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Beschäftigte",
+    "partOfSpeech": "noun, masculine (der Beschäftigte)",
+    "pronunciation": {
+      "respelling": "be-SHEF-tikh-te",
+      "ipa": "bəˈʃɛftɪçtə",
+      "notes": "Plural: die Beschäftigten."
+    },
+    "meaning": "employee",
+    "shortDefinition": "Employee."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Be",
+        "meaning": "prefix"
+      },
+      {
+        "part": "schäftig",
+        "meaning": "busy (Geschäft)"
+      },
+      {
+        "part": "te",
+        "meaning": "ending"
+      }
+    ],
+    "literalMeaning": "one kept busy"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Beschäftigte, plural die Beschäftigten.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Beschäftigte"
+        },
+        {
+          "label": "More than one",
+          "value": "die Beschäftigten"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Firma hat 500 Beschäftigte.",
+      "english": "The company has 500 employees.",
+      "highlight": [
+        "Beschäftigte."
+      ]
+    },
+    {
+      "german": "Ein Beschäftigter im öffentlichen Dienst.",
+      "english": "A public sector employee.",
+      "highlight": [
+        "Beschäftigter"
+      ]
+    },
+    {
+      "german": "Die Beschäftigten streiken.",
+      "english": "The employees are striking.",
+      "highlight": [
+        "Beschäftigten"
+      ]
+    }
+  ],
+  "forms": [
+    "die Beschäftigte",
+    "ein Beschäftigter",
+    "beschäftigen"
+  ],
+  "memoryHook": "Beschäftigen → der/die Beschäftigte (adjective noun).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Beschäftigte",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Beschäftigte is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Beschäftigte, zwei ___",
+      "answer": "Beschäftigten",
+      "fullAnswer": "ein Beschäftigte, zwei Beschäftigten",
+      "explanation": "The plural is Beschäftigten.",
+      "acceptedAnswers": [
+        "Beschaeftigten"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Beschäftigte mean?",
+      "options": [
+        "expensive",
+        "the weather",
+        "employee"
+      ],
+      "answer": "employee",
+      "explanation": "Beschäftigte: employee.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Declines like…",
+      "options": [
+        "an adjective (ein Beschäftigter)",
+        "a normal noun"
+      ],
+      "answer": "an adjective (ein Beschäftigter)",
+      "explanation": "Adjective noun.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "beschäftigen (employ, occupy)",
+        "Geschäft only"
+      ],
+      "answer": "beschäftigen (employ, occupy)",
+      "explanation": "Employ.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonym:",
+      "options": [
+        "der Arbeitnehmer / Mitarbeiter",
+        "der Arbeitgeber"
+      ],
+      "answer": "der Arbeitnehmer / Mitarbeiter",
+      "explanation": "Employee.",
+      "id": "q6"
+    }
+  ]
+}

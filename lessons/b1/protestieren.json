@@ -1,0 +1,165 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "protestieren",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "pro-tes-TEE-ren",
+      "ipa": "pʁotɛsˈtiːʁən",
+      "notes": ""
+    },
+    "meaning": "to protest",
+    "shortDefinition": "To protest."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "protestier|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "protestier|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "protestier|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "protestier|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "protestier|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "protestier|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat protestiert"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "der Protest",
+      "english": "protest",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Studenten protestieren gegen die Gebühren.",
+      "english": "The students are protesting against the fees.",
+      "highlight": [
+        "protestieren",
+        "gegen"
+      ]
+    },
+    {
+      "german": "Ich protestiere!",
+      "english": "I object!",
+      "highlight": [
+        "protestiere!"
+      ]
+    },
+    {
+      "german": "Tausende haben protestiert.",
+      "english": "Thousands protested.",
+      "highlight": [
+        "protestiert."
+      ]
+    }
+  ],
+  "forms": [
+    "protestiere",
+    "protestierst",
+    "protestiert",
+    "protestieren"
+  ],
+  "memoryHook": "Protestieren gegen → der Protest.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (protestieren)",
+      "answer": "protestiert",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: protestiert.",
+      "acceptedAnswers": [
+        "protestiert"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (protestieren, past)",
+      "answer": "protestiert",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe protestiert.",
+      "acceptedAnswers": [
+        "protestiert"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does protestieren mean?",
+      "options": [
+        "the evening",
+        "to protest",
+        "to learn"
+      ],
+      "answer": "to protest",
+      "explanation": "protestieren: to protest.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Protest against:",
+      "options": [
+        "gegen",
+        "für"
+      ],
+      "answer": "gegen",
+      "explanation": "Gegen.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "hat protestiert",
+        "hat geprotestiert"
+      ],
+      "answer": "hat protestiert",
+      "explanation": "No ge-.",
+      "id": "q5"
+    }
+  ]
+}

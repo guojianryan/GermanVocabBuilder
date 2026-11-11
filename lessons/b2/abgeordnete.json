@@ -1,0 +1,156 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Abgeordnete",
+    "partOfSpeech": "noun, masculine (der Abgeordnete)",
+    "pronunciation": {
+      "respelling": "AP-ge-ord-ne-te",
+      "ipa": "ˈapɡəˌʔɔʁdnətə",
+      "notes": "Plural: die Abgeordneten."
+    },
+    "meaning": "member of parliament",
+    "shortDefinition": "Member of parliament."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Ab",
+        "meaning": "off, away"
+      },
+      {
+        "part": "ge",
+        "meaning": "participle prefix"
+      },
+      {
+        "part": "ordne",
+        "meaning": "order, send (ordnen)"
+      },
+      {
+        "part": "te",
+        "meaning": "ending"
+      }
+    ],
+    "literalMeaning": "one sent off (delegated)"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Abgeordnete, plural die Abgeordneten.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Abgeordnete"
+        },
+        {
+          "label": "More than one",
+          "value": "die Abgeordneten"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Sie ist Abgeordnete im Bundestag.",
+      "english": "She's a member of the Bundestag.",
+      "highlight": [
+        "Abgeordnete"
+      ]
+    },
+    {
+      "german": "Die Abgeordneten stimmen ab.",
+      "english": "The MPs are voting.",
+      "highlight": [
+        "Abgeordneten"
+      ]
+    },
+    {
+      "german": "Ein Abgeordneter der SPD.",
+      "english": "An SPD member of parliament.",
+      "highlight": [
+        "Abgeordneter"
+      ]
+    }
+  ],
+  "forms": [
+    "die Abgeordnete",
+    "ein Abgeordneter"
+  ],
+  "memoryHook": "Abordnen → der/die Abgeordnete (MP; adjective noun).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Abgeordnete",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Abgeordnete is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Abgeordnete, zwei ___",
+      "answer": "Abgeordneten",
+      "fullAnswer": "ein Abgeordnete, zwei Abgeordneten",
+      "explanation": "The plural is Abgeordneten.",
+      "acceptedAnswers": [
+        "Abgeordneten"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Abgeordnete mean?",
+      "options": [
+        "to learn",
+        "slowly",
+        "member of parliament"
+      ],
+      "answer": "member of parliament",
+      "explanation": "Abgeordnete: member of parliament.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Declines like…",
+      "options": [
+        "an adjective (ein Abgeordneter)",
+        "a normal noun"
+      ],
+      "answer": "an adjective (ein Abgeordneter)",
+      "explanation": "Adjective noun.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "abordnen (delegate)",
+        "Ordnung only"
+      ],
+      "answer": "abordnen (delegate)",
+      "explanation": "Delegate.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Parliament (German):",
+      "options": [
+        "der Bundestag",
+        "das Bundesamt"
+      ],
+      "answer": "der Bundestag",
+      "explanation": "Parliament.",
+      "id": "q6"
+    }
+  ]
+}

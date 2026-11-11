@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Tuch",
+    "partOfSpeech": "noun, neuter (das Tuch)",
+    "pronunciation": {
+      "respelling": "TOOKH",
+      "ipa": "tuːx",
+      "notes": "Plural: die Tücher."
+    },
+    "meaning": "cloth; scarf",
+    "shortDefinition": "Cloth; scarf."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Tuch, plural die Tücher.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Tuch"
+        },
+        {
+          "label": "More than one",
+          "value": "die Tücher"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wisch den Tisch mit einem Tuch ab.",
+      "english": "Wipe the table with a cloth.",
+      "highlight": [
+        "Tuch"
+      ]
+    },
+    {
+      "german": "Sie trägt ein Tuch um den Hals.",
+      "english": "She's wearing a scarf round her neck.",
+      "highlight": [
+        "Tuch"
+      ]
+    },
+    {
+      "german": "Die Handtücher sind im Bad.",
+      "english": "The towels are in the bathroom.",
+      "highlight": [
+        "Handtücher"
+      ]
+    }
+  ],
+  "forms": [
+    "Tücher",
+    "die Tücher",
+    "das Tuch"
+  ],
+  "memoryHook": "Das Tuch, die Tücher. Handtuch, Taschentuch.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Tuch",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Tuch is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Tuch, zwei ___",
+      "answer": "Tücher",
+      "fullAnswer": "ein Tuch, zwei Tücher",
+      "explanation": "The plural is Tücher.",
+      "acceptedAnswers": [
+        "Tuecher"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Tuch mean?",
+      "options": [
+        "expensive",
+        "to help",
+        "cloth"
+      ],
+      "answer": "cloth",
+      "explanation": "Tuch: cloth; scarf.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Towel:",
+      "options": [
+        "das Handtuch",
+        "das Badtuch only"
+      ],
+      "answer": "das Handtuch",
+      "explanation": "Hand cloth.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Tücher",
+        "Tuche"
+      ],
+      "answer": "Tücher",
+      "explanation": "u → ü + -er.",
+      "id": "q5"
+    }
+  ]
+}

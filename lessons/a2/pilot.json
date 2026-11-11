@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Pilot",
+    "partOfSpeech": "noun, masculine (der Pilot)",
+    "pronunciation": {
+      "respelling": "pi-LOHT",
+      "ipa": "piˈloːt",
+      "notes": "Plural: die Piloten."
+    },
+    "meaning": "pilot",
+    "shortDefinition": "Pilot."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Pilot, plural die Piloten.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Pilot"
+        },
+        {
+          "label": "More than one",
+          "value": "die Piloten"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Pilot begrüßt die Passagiere.",
+      "english": "The pilot welcomes the passengers.",
+      "highlight": [
+        "Pilot"
+      ]
+    },
+    {
+      "german": "Sie ist Pilotin bei der Lufthansa.",
+      "english": "She's a pilot with Lufthansa.",
+      "highlight": [
+        "Pilotin"
+      ]
+    },
+    {
+      "german": "Ich möchte Pilot werden.",
+      "english": "I want to become a pilot.",
+      "highlight": [
+        "Pilot"
+      ]
+    }
+  ],
+  "forms": [
+    "Pilotin"
+  ],
+  "memoryHook": "Der Pilot (weak), die Pilotin.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Pilot",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Pilot is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Pilot, zwei ___",
+      "answer": "Piloten",
+      "fullAnswer": "ein Pilot, zwei Piloten",
+      "explanation": "The plural is Piloten.",
+      "acceptedAnswers": [
+        "Piloten"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Pilot mean?",
+      "options": [
+        "pilot",
+        "to buy",
+        "tomorrow"
+      ],
+      "answer": "pilot",
+      "explanation": "Pilot: pilot.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Weak noun: den/dem…",
+      "options": [
+        "Piloten",
+        "Pilot"
+      ],
+      "answer": "Piloten",
+      "explanation": "-en.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Stress on…",
+      "options": [
+        "-LOT",
+        "PI-"
+      ],
+      "answer": "-LOT",
+      "explanation": "End.",
+      "id": "q5"
+    }
+  ]
+}

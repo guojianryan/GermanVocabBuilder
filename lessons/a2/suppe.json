@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Suppe",
+    "partOfSpeech": "noun, feminine (die Suppe)",
+    "pronunciation": {
+      "respelling": "ZOOP-e",
+      "ipa": "ˈzʊpə",
+      "notes": "Plural: die Suppen."
+    },
+    "meaning": "soup",
+    "shortDefinition": "Soup."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Suppe, plural die Suppen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Suppe"
+        },
+        {
+          "label": "More than one",
+          "value": "die Suppen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Als Vorspeise nehme ich die Suppe.",
+      "english": "I'll have the soup as a starter.",
+      "highlight": [
+        "Suppe."
+      ]
+    },
+    {
+      "german": "Die Suppe ist zu heiß.",
+      "english": "The soup is too hot.",
+      "highlight": [
+        "Suppe"
+      ]
+    },
+    {
+      "german": "Ich koche eine Gemüsesuppe.",
+      "english": "I'm making a vegetable soup.",
+      "highlight": [
+        "Gemüsesuppe."
+      ]
+    }
+  ],
+  "forms": [
+    "Suppen",
+    "die Suppen",
+    "die Suppe"
+  ],
+  "memoryHook": "Die Suppe: Germans 'eat' soup.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Suppe",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Suppe is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Suppe, zwei ___",
+      "answer": "Suppen",
+      "fullAnswer": "ein Suppe, zwei Suppen",
+      "explanation": "The plural is Suppen.",
+      "acceptedAnswers": [
+        "Suppen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Suppe mean?",
+      "options": [
+        "soup",
+        "to travel",
+        "never"
+      ],
+      "answer": "soup",
+      "explanation": "Suppe: soup.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Eat soup':",
+      "options": [
+        "Suppe essen",
+        "Suppe trinken"
+      ],
+      "answer": "Suppe essen",
+      "explanation": "Essen.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Soup spoon:",
+      "options": [
+        "der Suppenlöffel",
+        "die Suppengabel"
+      ],
+      "answer": "der Suppenlöffel",
+      "explanation": "Löffel.",
+      "id": "q5"
+    }
+  ]
+}

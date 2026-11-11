@@ -1,0 +1,154 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "siezen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "ZEE-tsen",
+      "ipa": "ˈziːtsn̩",
+      "notes": ""
+    },
+    "meaning": "to address as 'Sie'",
+    "shortDefinition": "To address as 'Sie'."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "siez|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "siez|t"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "siez|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "siez|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "siez|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "siez|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gesiezt"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir siezen uns.",
+      "english": "We say 'Sie' to each other.",
+      "highlight": [
+        "siezen"
+      ]
+    },
+    {
+      "german": "Den Chef siezt man.",
+      "english": "You use 'Sie' with the boss.",
+      "highlight": [
+        "siezt"
+      ]
+    },
+    {
+      "german": "Sie hat mich gesiezt.",
+      "english": "She addressed me as 'Sie'.",
+      "highlight": [
+        "gesiezt."
+      ]
+    }
+  ],
+  "forms": [
+    "duzen"
+  ],
+  "memoryHook": "Siezen (Sie) ↔ duzen (du).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (siezen)",
+      "answer": "siezt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: siezt.",
+      "acceptedAnswers": [
+        "siezt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (siezen, past)",
+      "answer": "gesiezt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gesiezt.",
+      "acceptedAnswers": [
+        "gesiezt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does siezen mean?",
+      "options": [
+        "to address as 'Sie'",
+        "the bread",
+        "to help"
+      ],
+      "answer": "to address as 'Sie'",
+      "explanation": "siezen: to address as 'Sie'.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Opposite:",
+      "options": [
+        "duzen",
+        "ihrzen"
+      ],
+      "answer": "duzen",
+      "explanation": "Use du.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Formed from…",
+      "options": [
+        "Sie + -zen",
+        "sie + sehen"
+      ],
+      "answer": "Sie + -zen",
+      "explanation": "Like duzen.",
+      "id": "q5"
+    }
+  ]
+}

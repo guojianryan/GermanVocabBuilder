@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Naturwissenschaft",
+    "partOfSpeech": "noun, feminine (die Naturwissenschaft)",
+    "pronunciation": {
+      "respelling": "na-TOOR-vi-sen-shaft",
+      "ipa": "naˈtuːɐ̯vɪsn̩ʃaft",
+      "notes": "Plural: die Naturwissenschaften."
+    },
+    "meaning": "natural science",
+    "shortDefinition": "Natural science."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Natur",
+        "meaning": "nature"
+      },
+      {
+        "part": "wissenschaft",
+        "meaning": "science"
+      }
+    ],
+    "literalMeaning": "nature science"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Naturwissenschaft, plural die Naturwissenschaften.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Naturwissenschaft"
+        },
+        {
+          "label": "More than one",
+          "value": "die Naturwissenschaften"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Physik ist eine Naturwissenschaft.",
+      "english": "Physics is a natural science.",
+      "highlight": [
+        "Naturwissenschaft."
+      ]
+    },
+    {
+      "german": "Sie interessiert sich für Naturwissenschaften.",
+      "english": "She's interested in the sciences.",
+      "highlight": [
+        "Naturwissenschaften."
+      ]
+    },
+    {
+      "german": "Die Naturwissenschaften und die Geisteswissenschaften.",
+      "english": "The sciences and the humanities.",
+      "highlight": [
+        "Naturwissenschaften"
+      ]
+    }
+  ],
+  "forms": [
+    "Wissenschaft",
+    "Geisteswissenschaft"
+  ],
+  "memoryHook": "Natur + Wissenschaft = natural science ↔ Geisteswissenschaft.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Naturwissenschaft",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Naturwissenschaft is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Naturwissenschaft, zwei ___",
+      "answer": "Naturwissenschaften",
+      "fullAnswer": "ein Naturwissenschaft, zwei Naturwissenschaften",
+      "explanation": "The plural is Naturwissenschaften.",
+      "acceptedAnswers": [
+        "Naturwissenschaften"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Naturwissenschaft mean?",
+      "options": [
+        "quiet",
+        "natural science",
+        "to open"
+      ],
+      "answer": "natural science",
+      "explanation": "Naturwissenschaft: natural science.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Humanities:",
+      "options": [
+        "die Geisteswissenschaften",
+        "die Menschenwissenschaften"
+      ],
+      "answer": "die Geisteswissenschaften",
+      "explanation": "Arts.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Scientist:",
+      "options": [
+        "der Naturwissenschaftler",
+        "der Naturwissenschafter only"
+      ],
+      "answer": "der Naturwissenschaftler",
+      "explanation": "Person.",
+      "id": "q5"
+    }
+  ]
+}

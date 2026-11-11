@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "König",
+    "partOfSpeech": "noun, masculine (der König)",
+    "pronunciation": {
+      "respelling": "KÖ-nikh",
+      "ipa": "ˈkøːnɪç",
+      "notes": "Plural: die Könige."
+    },
+    "meaning": "king",
+    "shortDefinition": "King."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der König, plural die Könige.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der König"
+        },
+        {
+          "label": "More than one",
+          "value": "die Könige"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der König lebt im Schloss.",
+      "english": "The king lives in the palace.",
+      "highlight": [
+        "König"
+      ]
+    },
+    {
+      "german": "Die Königin von England.",
+      "english": "The Queen of England.",
+      "highlight": [
+        "Königin"
+      ]
+    },
+    {
+      "german": "Der Kunde ist König.",
+      "english": "The customer is king.",
+      "highlight": [
+        "König."
+      ]
+    }
+  ],
+  "forms": [
+    "Königin"
+  ],
+  "memoryHook": "Der König, die Königin. Der Kunde ist König!",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ König",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "König is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein König, zwei ___",
+      "answer": "Könige",
+      "fullAnswer": "ein König, zwei Könige",
+      "explanation": "The plural is Könige.",
+      "acceptedAnswers": [
+        "Koenige"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does König mean?",
+      "options": [
+        "the child",
+        "king",
+        "to wait"
+      ],
+      "answer": "king",
+      "explanation": "König: king.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Female:",
+      "options": [
+        "die Königin",
+        "die Könige"
+      ],
+      "answer": "die Königin",
+      "explanation": "Queen.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Final g sounds like…",
+      "options": [
+        "ch (as in ich)",
+        "g"
+      ],
+      "answer": "ch (as in ich)",
+      "explanation": "KÖ-nikh.",
+      "id": "q5"
+    }
+  ]
+}

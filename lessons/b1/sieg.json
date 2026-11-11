@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Sieg",
+    "partOfSpeech": "noun, masculine (der Sieg)",
+    "pronunciation": {
+      "respelling": "ZEEK",
+      "ipa": "ziːk",
+      "notes": "Plural: die Siege."
+    },
+    "meaning": "victory, win",
+    "shortDefinition": "Victory, win."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Sieg, plural die Siege.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Sieg"
+        },
+        {
+          "label": "More than one",
+          "value": "die Siege"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das war ein wichtiger Sieg.",
+      "english": "That was an important win.",
+      "highlight": [
+        "Sieg."
+      ]
+    },
+    {
+      "german": "Wir feiern den Sieg.",
+      "english": "We're celebrating the victory.",
+      "highlight": [
+        "Sieg."
+      ]
+    },
+    {
+      "german": "Die Mannschaft hat fünf Siege in Folge.",
+      "english": "The team has five wins in a row.",
+      "highlight": [
+        "Siege"
+      ]
+    }
+  ],
+  "forms": [
+    "Siege",
+    "die Siege",
+    "der Sieg"
+  ],
+  "memoryHook": "Der Sieg ↔ die Niederlage.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Sieg",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Sieg is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Sieg, zwei ___",
+      "answer": "Siege",
+      "fullAnswer": "ein Sieg, zwei Siege",
+      "explanation": "The plural is Siege.",
+      "acceptedAnswers": [
+        "Siege"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Sieg mean?",
+      "options": [
+        "victory",
+        "the bread",
+        "always"
+      ],
+      "answer": "victory",
+      "explanation": "Sieg: victory, win.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Opposite:",
+      "options": [
+        "die Niederlage",
+        "das Unentschieden"
+      ],
+      "answer": "die Niederlage",
+      "explanation": "Defeat.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Final g sounds like…",
+      "options": [
+        "k",
+        "g"
+      ],
+      "answer": "k",
+      "explanation": "ZEEK.",
+      "id": "q5"
+    }
+  ]
+}

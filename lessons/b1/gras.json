@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Gras",
+    "partOfSpeech": "noun, neuter (das Gras)",
+    "pronunciation": {
+      "respelling": "GRAAS",
+      "ipa": "ɡʁaːs",
+      "notes": "Plural: die Gräser."
+    },
+    "meaning": "grass",
+    "shortDefinition": "Grass."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Gras, plural die Gräser.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Gras"
+        },
+        {
+          "label": "More than one",
+          "value": "die Gräser"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Kinder sitzen im Gras.",
+      "english": "The children are sitting on the grass.",
+      "highlight": [
+        "Gras."
+      ]
+    },
+    {
+      "german": "Das Gras ist sehr grün.",
+      "english": "The grass is very green.",
+      "highlight": [
+        "Gras"
+      ]
+    },
+    {
+      "german": "Bitte das Gras nicht betreten.",
+      "english": "Please keep off the grass.",
+      "highlight": [
+        "Gras"
+      ]
+    }
+  ],
+  "forms": [
+    "Gräser",
+    "die Gräser",
+    "das Gras"
+  ],
+  "memoryHook": "Das Gras (grass). The lawn = der Rasen.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Gras",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Gras is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Gras, zwei ___",
+      "answer": "Gräser",
+      "fullAnswer": "ein Gras, zwei Gräser",
+      "explanation": "The plural is Gräser.",
+      "acceptedAnswers": [
+        "Graeser"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Gras mean?",
+      "options": [
+        "the evening",
+        "grass",
+        "tomorrow"
+      ],
+      "answer": "grass",
+      "explanation": "Gras: grass.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Im Gras' means…",
+      "options": [
+        "on/in the grass",
+        "in green"
+      ],
+      "answer": "on/in the grass",
+      "explanation": "Im.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Lawn:",
+      "options": [
+        "der Rasen",
+        "das Grasfeld"
+      ],
+      "answer": "der Rasen",
+      "explanation": "Rasen.",
+      "id": "q5"
+    }
+  ]
+}

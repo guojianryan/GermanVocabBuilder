@@ -1,0 +1,150 @@
+{
+ "schemaVersion": "1.4",
+ "language": "de",
+ "explanationLanguage": "en",
+ "level": "A2",
+ "levelSource": "Goethe-Zertifikat A2 Wortliste",
+ "lessonType": "card",
+ "word": {
+  "headword": "Hauptstadt",
+  "partOfSpeech": "noun, feminine (die Hauptstadt)",
+  "pronunciation": {
+   "respelling": "HOWPT-shtat",
+   "ipa": "ˈhaʊ̯ptʃtat",
+   "notes": "Plural: die Hauptstädte."
+  },
+  "meaning": "capital (city)",
+  "shortDefinition": "Capital (city)."
+ },
+ "wordFamily": [
+  {
+   "german": "der Hauptbahnhof",
+   "english": "main station",
+   "type": "noun"
+  },
+  {
+   "german": "die Hauptsache",
+   "english": "main thing",
+   "type": "noun"
+  }
+ ],
+ "commonMistakes": [
+  {
+   "title": "Gender and plural",
+   "explanation": "Die Hauptstadt, plural die Hauptstädte.",
+   "forms": [
+    {
+     "label": "One",
+     "value": "die Hauptstadt"
+    },
+    {
+     "label": "More than one",
+     "value": "die Hauptstädte"
+    }
+   ]
+  }
+ ],
+ "sampleSentences": [
+  {
+   "german": "Berlin ist die Hauptstadt von Deutschland.",
+   "english": "Berlin is the capital of Germany.",
+   "highlight": [
+    "Hauptstadt"
+   ]
+  },
+  {
+   "german": "Wien ist die Hauptstadt Österreichs.",
+   "english": "Vienna is Austria's capital.",
+   "highlight": [
+    "Hauptstadt"
+   ]
+  },
+  {
+   "german": "Was ist die Hauptstadt der Schweiz?",
+   "english": "What's the capital of Switzerland?",
+   "highlight": [
+    "Hauptstadt"
+   ]
+  }
+ ],
+ "forms": [
+  "Hauptstädte",
+  "die Hauptstädte",
+  "die Hauptstadt"
+ ],
+ "memoryHook": "Haupt (head, main) + Stadt. Hauptbahnhof, Hauptsache too.",
+ "signOff": "Gut gemacht!",
+ "quiz": [
+  {
+   "type": "choice",
+   "prompt": "___ Hauptstadt",
+   "options": [
+    "der",
+    "die",
+    "das"
+   ],
+   "answer": "die",
+   "explanation": "Hauptstadt is feminine.",
+   "id": "q1"
+  },
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "ein Hauptstadt, zwei ___",
+   "answer": "Hauptstädte",
+   "fullAnswer": "ein Hauptstadt, zwei Hauptstädte",
+   "explanation": "The plural is Hauptstädte.",
+   "acceptedAnswers": [
+    "Hauptstaedte"
+   ],
+   "id": "q2"
+  },
+  {
+   "type": "choice",
+   "prompt": "What does Hauptstadt mean?",
+   "options": [
+    "the window",
+    "the bed",
+    "capital (city)"
+   ],
+   "answer": "capital (city)",
+   "explanation": "Hauptstadt: capital (city).",
+   "id": "q3"
+  },
+  {
+   "type": "choice",
+   "prompt": "Haupt- means…",
+   "options": [
+    "main, head",
+    "house"
+   ],
+   "answer": "main, head",
+   "explanation": "Hauptbahnhof = main station.",
+   "id": "q4"
+  },
+  {
+   "type": "choice",
+   "prompt": "The Swiss capital:",
+   "options": [
+    "Bern",
+    "Zürich"
+   ],
+   "answer": "Bern",
+   "explanation": "Bern (officially 'federal city').",
+   "id": "q5"
+  }
+ ],
+ "etymology": {
+  "title": "Where it comes from",
+  "parts": [
+   {
+    "part": "Haupt",
+    "meaning": "main, head"
+   },
+   {
+    "part": "stadt",
+    "meaning": "city"
+   }
+  ],
+  "literalMeaning": "head city"
+ }
+}

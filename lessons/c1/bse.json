@@ -1,0 +1,118 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "BSE",
+    "partOfSpeech": "noun, feminine (die BSE)",
+    "pronunciation": {
+      "respelling": "bay-es-AY",
+      "ipa": "beːʔɛsˈʔeː",
+      "notes": "Usually no plural."
+    },
+    "meaning": "BSE, mad cow disease",
+    "shortDefinition": "BSE, mad cow disease."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die BSE, usually no plural.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die BSE"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "BSE war eine große Krise.",
+      "english": "BSE was a big crisis.",
+      "highlight": [
+        "BSE"
+      ]
+    },
+    {
+      "german": "Rinder werden auf BSE getestet.",
+      "english": "Cattle are tested for BSE.",
+      "highlight": [
+        "BSE"
+      ]
+    },
+    {
+      "german": "Die BSE-Krise der 1990er Jahre.",
+      "english": "The BSE crisis of the 1990s.",
+      "highlight": [
+        "BSE-Krise"
+      ]
+    }
+  ],
+  "forms": [
+    "Rinderwahn"
+  ],
+  "memoryHook": "BSE = Rinderwahn(sinn).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ BSE",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "BSE is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does BSE mean?",
+      "options": [
+        "the bill",
+        "BSE",
+        "the evening"
+      ],
+      "answer": "BSE",
+      "explanation": "BSE: BSE, mad cow disease.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Everyday name:",
+      "options": [
+        "der Rinderwahn(sinn)",
+        "die Kuhgrippe"
+      ],
+      "answer": "der Rinderwahn(sinn)",
+      "explanation": "Mad cow.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Article usually?",
+      "options": [
+        "none",
+        "der"
+      ],
+      "answer": "none",
+      "explanation": "Like a name.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Affects…",
+      "options": [
+        "cattle",
+        "pigs"
+      ],
+      "answer": "cattle",
+      "explanation": "Rinder.",
+      "id": "q5"
+    }
+  ]
+}

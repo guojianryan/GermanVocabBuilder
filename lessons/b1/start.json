@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Start",
+    "partOfSpeech": "noun, masculine (der Start)",
+    "pronunciation": {
+      "respelling": "SHTART",
+      "ipa": "ʃtaʁt",
+      "notes": "Plural: die Starts."
+    },
+    "meaning": "start; take-off",
+    "shortDefinition": "Start; take-off."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Start, plural die Starts.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Start"
+        },
+        {
+          "label": "More than one",
+          "value": "die Starts"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Beim Start ist es laut.",
+      "english": "It's loud during take-off.",
+      "highlight": [
+        "Start"
+      ]
+    },
+    {
+      "german": "Alle Läufer sind am Start.",
+      "english": "All runners are at the start.",
+      "highlight": [
+        "Start."
+      ]
+    },
+    {
+      "german": "Ein guter Start ins neue Jahr!",
+      "english": "A good start to the new year!",
+      "highlight": [
+        "Start"
+      ]
+    }
+  ],
+  "forms": [
+    "Starts",
+    "die Starts",
+    "der Start"
+  ],
+  "memoryHook": "Der Start ↔ die Landung / das Ziel.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Start",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Start is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Start, zwei ___",
+      "answer": "Starts",
+      "fullAnswer": "ein Start, zwei Starts",
+      "explanation": "The plural is Starts.",
+      "acceptedAnswers": [
+        "Starts"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Start mean?",
+      "options": [
+        "the evening",
+        "the key",
+        "start"
+      ],
+      "answer": "start",
+      "explanation": "Start: start; take-off.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Starts",
+        "Starte"
+      ],
+      "answer": "Starts",
+      "explanation": "-s.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Opposite (plane):",
+      "options": [
+        "die Landung",
+        "der Abflug"
+      ],
+      "answer": "die Landung",
+      "explanation": "Landing.",
+      "id": "q5"
+    }
+  ]
+}

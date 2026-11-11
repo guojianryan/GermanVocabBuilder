@@ -1,0 +1,158 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "zucken",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "TSOO-ken",
+      "ipa": "ˈtsʊkn̩",
+      "notes": ""
+    },
+    "meaning": "to twitch, flinch; to shrug",
+    "shortDefinition": "To twitch, flinch; to shrug."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "zuck|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "zuck|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "zuck|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "zuck|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "zuck|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "zuck|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gezuckt"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er zuckt mit den Schultern.",
+      "english": "He shrugs his shoulders.",
+      "highlight": [
+        "zuckt"
+      ]
+    },
+    {
+      "german": "Mein Auge zuckt.",
+      "english": "My eye is twitching.",
+      "highlight": [
+        "zuckt."
+      ]
+    },
+    {
+      "german": "Sie hat nicht mal gezuckt.",
+      "english": "She didn't even flinch.",
+      "highlight": [
+        "gezuckt."
+      ]
+    }
+  ],
+  "forms": [
+    "zucke",
+    "zuckst",
+    "zuckt",
+    "zucken",
+    "gezuckt"
+  ],
+  "memoryHook": "Zucken = twitch; mit den Schultern zucken = shrug.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (zucken)",
+      "answer": "zuckt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: zuckt.",
+      "acceptedAnswers": [
+        "zuckt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (zucken, past)",
+      "answer": "gezuckt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gezuckt.",
+      "acceptedAnswers": [
+        "gezuckt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does zucken mean?",
+      "options": [
+        "the shop",
+        "to twitch",
+        "tomorrow"
+      ],
+      "answer": "to twitch",
+      "explanation": "zucken: to twitch, flinch; to shrug.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Mit den Schultern zucken' means…",
+      "options": [
+        "to shrug",
+        "to sugar"
+      ],
+      "answer": "to shrug",
+      "explanation": "Shrug.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Don't confuse with…",
+      "options": [
+        "der Zucker (sugar)",
+        "zuckern"
+      ],
+      "answer": "der Zucker (sugar)",
+      "explanation": "Similar.",
+      "id": "q5"
+    }
+  ]
+}

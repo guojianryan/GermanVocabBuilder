@@ -1,0 +1,100 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "genug",
+    "partOfSpeech": "adverb",
+    "pronunciation": {
+      "respelling": "ge-NOOK",
+      "ipa": "ɡəˈnuːk",
+      "notes": ""
+    },
+    "meaning": "enough",
+    "shortDefinition": "Enough."
+  },
+  "sampleSentences": [
+    {
+      "german": "Wir haben genug Zeit.",
+      "english": "We have enough time.",
+      "highlight": [
+        "genug"
+      ]
+    },
+    {
+      "german": "Ist das groß genug?",
+      "english": "Is that big enough?",
+      "highlight": [
+        "genug?"
+      ]
+    },
+    {
+      "german": "Jetzt reicht's, genug!",
+      "english": "That's enough now!",
+      "highlight": [
+        "genug!"
+      ]
+    }
+  ],
+  "forms": [],
+  "memoryHook": "Genug = enough. After adjectives (alt genug), before nouns (genug Zeit).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does genug mean?",
+      "options": [
+        "quiet",
+        "the bed",
+        "enough"
+      ],
+      "answer": "enough",
+      "explanation": "genug: enough.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Big enough':",
+      "options": [
+        "groß genug",
+        "genug groß"
+      ],
+      "answer": "groß genug",
+      "explanation": "Genug after an adjective.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Enough money':",
+      "options": [
+        "genug Geld",
+        "Geld genug only"
+      ],
+      "answer": "genug Geld",
+      "explanation": "Before a noun.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Genug never has…",
+      "options": [
+        "endings",
+        "a g"
+      ],
+      "answer": "endings",
+      "explanation": "Always genug.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe ___ gegessen. (enough)",
+      "answer": "genug",
+      "fullAnswer": "Ich habe genug gegessen.",
+      "explanation": "Genug.",
+      "id": "q5"
+    }
+  ]
+}

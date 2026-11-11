@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Firma",
+    "partOfSpeech": "noun, feminine (die Firma)",
+    "pronunciation": {
+      "respelling": "FEER-ma",
+      "ipa": "ˈfɪʁma",
+      "notes": "Plural: die Firmen."
+    },
+    "meaning": "company, firm",
+    "shortDefinition": "Company, firm."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Firma, plural die Firmen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Firma"
+        },
+        {
+          "label": "More than one",
+          "value": "die Firmen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er arbeitet jetzt bei einer anderen Firma.",
+      "english": "He works for a different company now.",
+      "highlight": [
+        "Firma."
+      ]
+    },
+    {
+      "german": "Die Firma hat 200 Mitarbeiter.",
+      "english": "The company has 200 employees.",
+      "highlight": [
+        "Firma"
+      ]
+    },
+    {
+      "german": "Viele Firmen suchen Leute.",
+      "english": "Many companies are looking for staff.",
+      "highlight": [
+        "Firmen"
+      ]
+    }
+  ],
+  "forms": [
+    "Firmen",
+    "die Firmen",
+    "die Firma"
+  ],
+  "memoryHook": "Die Firma, die Firmen: arbeiten bei einer Firma.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Firma",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Firma is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Firma, zwei ___",
+      "answer": "Firmen",
+      "fullAnswer": "ein Firma, zwei Firmen",
+      "explanation": "The plural is Firmen.",
+      "acceptedAnswers": [
+        "Firmen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Firma mean?",
+      "options": [
+        "to open",
+        "company",
+        "quiet"
+      ],
+      "answer": "company",
+      "explanation": "Firma: company, firm.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'He works for a company':",
+      "options": [
+        "Er arbeitet bei einer Firma.",
+        "Er arbeitet für einer Firma."
+      ],
+      "answer": "Er arbeitet bei einer Firma.",
+      "explanation": "Arbeiten bei.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Firmen",
+        "Firmas"
+      ],
+      "answer": "Firmen",
+      "explanation": "-a → -en.",
+      "id": "q5"
+    }
+  ]
+}

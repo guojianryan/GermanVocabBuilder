@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Risiko",
+    "partOfSpeech": "noun, neuter (das Risiko)",
+    "pronunciation": {
+      "respelling": "REE-zi-ko",
+      "ipa": "ˈʁiːziko",
+      "notes": "Plural: die Risiken."
+    },
+    "meaning": "risk",
+    "shortDefinition": "Risk."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Risiko, plural die Risiken.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Risiko"
+        },
+        {
+          "label": "More than one",
+          "value": "die Risiken"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das Risiko ist zu groß.",
+      "english": "The risk is too great.",
+      "highlight": [
+        "Risiko"
+      ]
+    },
+    {
+      "german": "Er geht kein Risiko ein.",
+      "english": "He doesn't take any risks.",
+      "highlight": [
+        "Risiko"
+      ]
+    },
+    {
+      "german": "Zu Risiken und Nebenwirkungen fragen Sie Ihren Arzt.",
+      "english": "For risks and side effects, ask your doctor.",
+      "highlight": [
+        "Risiken"
+      ]
+    }
+  ],
+  "forms": [
+    "riskant",
+    "riskieren"
+  ],
+  "memoryHook": "Das Risiko, die Risiken. Riskant = risky.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Risiko",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Risiko is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Risiko, zwei ___",
+      "answer": "Risiken",
+      "fullAnswer": "ein Risiko, zwei Risiken",
+      "explanation": "The plural is Risiken.",
+      "acceptedAnswers": [
+        "Risiken"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Risiko mean?",
+      "options": [
+        "risk",
+        "always",
+        "to sing"
+      ],
+      "answer": "risk",
+      "explanation": "Risiko: risk.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Risiken",
+        "Risikos"
+      ],
+      "answer": "Risiken",
+      "explanation": "-o → -en.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Ein Risiko eingehen' means…",
+      "options": [
+        "to take a risk",
+        "to avoid a risk"
+      ],
+      "answer": "to take a risk",
+      "explanation": "Take.",
+      "id": "q5"
+    }
+  ]
+}

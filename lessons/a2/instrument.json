@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Instrument",
+    "partOfSpeech": "noun, neuter (das Instrument)",
+    "pronunciation": {
+      "respelling": "in-stroo-MENT",
+      "ipa": "ɪnstʁuˈmɛnt",
+      "notes": "Plural: die Instrumente."
+    },
+    "meaning": "instrument",
+    "shortDefinition": "Instrument."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Instrument, plural die Instrumente.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Instrument"
+        },
+        {
+          "label": "More than one",
+          "value": "die Instrumente"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Spielst du ein Instrument?",
+      "english": "Do you play an instrument?",
+      "highlight": [
+        "Instrument?"
+      ]
+    },
+    {
+      "german": "Klavier ist mein Lieblingsinstrument.",
+      "english": "Piano is my favourite instrument.",
+      "highlight": [
+        "Lieblingsinstrument."
+      ]
+    },
+    {
+      "german": "Er spielt drei Instrumente.",
+      "english": "He plays three instruments.",
+      "highlight": [
+        "Instrumente."
+      ]
+    }
+  ],
+  "forms": [
+    "Instrumente",
+    "die Instrumente",
+    "das Instrument"
+  ],
+  "memoryHook": "Das Instrument (stress at the end).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Instrument",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Instrument is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Instrument, zwei ___",
+      "answer": "Instrumente",
+      "fullAnswer": "ein Instrument, zwei Instrumente",
+      "explanation": "The plural is Instrumente.",
+      "acceptedAnswers": [
+        "Instrumente"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Instrument mean?",
+      "options": [
+        "to sleep",
+        "the weather",
+        "instrument"
+      ],
+      "answer": "instrument",
+      "explanation": "Instrument: instrument.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gender:",
+      "options": [
+        "das",
+        "der"
+      ],
+      "answer": "das",
+      "explanation": "Das Instrument.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Stress on…",
+      "options": [
+        "-MENT",
+        "IN-"
+      ],
+      "answer": "-MENT",
+      "explanation": "in-stroo-MENT.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "einhalten",
+    "partOfSpeech": "separable verb",
+    "pronunciation": {
+      "respelling": "INE-hal-ten",
+      "ipa": "ˈaɪ̯nˌhaltn̩",
+      "notes": ""
+    },
+    "meaning": "to keep to, observe (rules, deadlines)",
+    "shortDefinition": "To keep to, observe (rules, deadlines)."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "ein",
+        "meaning": "in"
+      },
+      {
+        "part": "halten",
+        "meaning": "to hold"
+      }
+    ],
+    "literalMeaning": "to hold in (keep within)"
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "halt|e … |ein"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "hält|st … |ein"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "hält … |ein"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "halt|en … |ein"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "halt|et … |ein"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "halt|en … |ein"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat eingehalten"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Bitte halten Sie die Frist ein.",
+      "english": "Please keep to the deadline.",
+      "highlight": [
+        "halten",
+        "ein."
+      ]
+    },
+    {
+      "german": "Er hält sein Versprechen immer ein.",
+      "english": "He always keeps his promises.",
+      "highlight": [
+        "hält",
+        "ein."
+      ]
+    },
+    {
+      "german": "Die Regeln müssen eingehalten werden.",
+      "english": "The rules must be observed.",
+      "highlight": [
+        "eingehalten"
+      ]
+    }
+  ],
+  "forms": [
+    "Einhaltung"
+  ],
+  "memoryHook": "Einhalten = keep to (Frist, Regeln); die Einhaltung.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ … ein (einhalten)",
+      "answer": "hält",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: hält … ein.",
+      "acceptedAnswers": [
+        "haelt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (einhalten, past)",
+      "answer": "eingehalten",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe eingehalten.",
+      "acceptedAnswers": [
+        "eingehalten"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does einhalten mean?",
+      "options": [
+        "expensive",
+        "to help",
+        "to keep to"
+      ],
+      "answer": "to keep to",
+      "explanation": "einhalten: to keep to, observe (rules, deadlines).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Typical objects:",
+      "options": [
+        "Frist, Regel, Termin, Versprechen",
+        "Hand"
+      ],
+      "answer": "Frist, Regel, Termin, Versprechen",
+      "explanation": "Observe.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Noun:",
+      "options": [
+        "die Einhaltung",
+        "der Einhalt only"
+      ],
+      "answer": "die Einhaltung",
+      "explanation": "Compliance.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "er ___ … ein:",
+      "options": [
+        "hält",
+        "haltet"
+      ],
+      "answer": "hält",
+      "explanation": "a → ä.",
+      "id": "q6"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Kugel",
+    "partOfSpeech": "noun, feminine (die Kugel)",
+    "pronunciation": {
+      "respelling": "KOO-gel",
+      "ipa": "ˈkuːɡl̩",
+      "notes": "Plural: die Kugeln."
+    },
+    "meaning": "ball, sphere; bullet; scoop",
+    "shortDefinition": "Ball, sphere; bullet; scoop."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Kugel, plural die Kugeln.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Kugel"
+        },
+        {
+          "label": "More than one",
+          "value": "die Kugeln"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Zwei Kugeln Eis, bitte.",
+      "english": "Two scoops of ice cream, please.",
+      "highlight": [
+        "Kugeln"
+      ]
+    },
+    {
+      "german": "Die Erde ist eine Kugel.",
+      "english": "The earth is a sphere.",
+      "highlight": [
+        "Kugel."
+      ]
+    },
+    {
+      "german": "Die Kugel traf ihn am Arm.",
+      "english": "The bullet hit him in the arm.",
+      "highlight": [
+        "Kugel"
+      ]
+    }
+  ],
+  "forms": [
+    "Kugelschreiber"
+  ],
+  "memoryHook": "Die Kugel: ball, scoop, bullet; Kugelschreiber.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Kugel",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Kugel is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Kugel, zwei ___",
+      "answer": "Kugeln",
+      "fullAnswer": "ein Kugel, zwei Kugeln",
+      "explanation": "The plural is Kugeln.",
+      "acceptedAnswers": [
+        "Kugeln"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Kugel mean?",
+      "options": [
+        "to sing",
+        "the weather",
+        "ball"
+      ],
+      "answer": "ball",
+      "explanation": "Kugel: ball, sphere; bullet; scoop.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "At an ice-cream shop, Kugel means…",
+      "options": [
+        "scoop",
+        "cone"
+      ],
+      "answer": "scoop",
+      "explanation": "Eis.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ballpoint pen:",
+      "options": [
+        "der Kugelschreiber",
+        "der Kugelstift"
+      ],
+      "answer": "der Kugelschreiber",
+      "explanation": "Kuli.",
+      "id": "q5"
+    }
+  ]
+}

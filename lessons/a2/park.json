@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Park",
+    "partOfSpeech": "noun, masculine (der Park)",
+    "pronunciation": {
+      "respelling": "PARK",
+      "ipa": "paʁk",
+      "notes": "Plural: die Parks."
+    },
+    "meaning": "park",
+    "shortDefinition": "Park."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Park, plural die Parks.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Park"
+        },
+        {
+          "label": "More than one",
+          "value": "die Parks"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir gehen im Park spazieren.",
+      "english": "We're going for a walk in the park.",
+      "highlight": [
+        "Park"
+      ]
+    },
+    {
+      "german": "Der Park ist sehr groß.",
+      "english": "The park is very big.",
+      "highlight": [
+        "Park"
+      ]
+    },
+    {
+      "german": "Die Kinder spielen im Park.",
+      "english": "The children are playing in the park.",
+      "highlight": [
+        "Park."
+      ]
+    }
+  ],
+  "forms": [
+    "Parks",
+    "die Parks",
+    "der Park"
+  ],
+  "memoryHook": "Der Park, im Park. Don't confuse with parken (to park a car).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Park",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Park is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Park, zwei ___",
+      "answer": "Parks",
+      "fullAnswer": "ein Park, zwei Parks",
+      "explanation": "The plural is Parks.",
+      "acceptedAnswers": [
+        "Parks"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Park mean?",
+      "options": [
+        "the key",
+        "park",
+        "the weather"
+      ],
+      "answer": "park",
+      "explanation": "Park: park.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'In the park':",
+      "options": [
+        "im Park",
+        "auf dem Park"
+      ],
+      "answer": "im Park",
+      "explanation": "In.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Parks",
+        "Pärke"
+      ],
+      "answer": "Parks",
+      "explanation": "-s (Swiss: Pärke).",
+      "id": "q5"
+    }
+  ]
+}

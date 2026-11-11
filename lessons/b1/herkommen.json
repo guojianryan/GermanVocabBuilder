@@ -1,0 +1,175 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "herkommen",
+    "partOfSpeech": "separable verb",
+    "pronunciation": {
+      "respelling": "HAIR-kom-en",
+      "ipa": "ˈheːɐ̯ˌkɔmən",
+      "notes": ""
+    },
+    "meaning": "to come here; to come from",
+    "shortDefinition": "To come here; to come from."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "her",
+        "meaning": "here"
+      },
+      {
+        "part": "kommen",
+        "meaning": "to come",
+        "emphasis": "arrive"
+      }
+    ],
+    "literalMeaning": "to come here"
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "komm|e … |her"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "komm|st … |her"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "komm|t … |her"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "komm|en … |her"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "komm|t … |her"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "komm|en … |her"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): ist hergekommen"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Komm mal her!",
+      "english": "Come here!",
+      "highlight": [
+        "Komm",
+        "her!"
+      ]
+    },
+    {
+      "german": "Wo kommst du her?",
+      "english": "Where do you come from?",
+      "highlight": [
+        "kommst",
+        "her?"
+      ]
+    },
+    {
+      "german": "Wie bist du hergekommen?",
+      "english": "How did you get here?",
+      "highlight": [
+        "hergekommen?"
+      ]
+    }
+  ],
+  "forms": [
+    "komme her",
+    "kommst her",
+    "kommt her",
+    "kommen her",
+    "hergekommen"
+  ],
+  "memoryHook": "Herkommen (here) ↔ hingehen (there).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ … her (herkommen)",
+      "answer": "kommt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: kommt … her.",
+      "acceptedAnswers": [
+        "kommt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich bin schon ___. (herkommen, past)",
+      "answer": "hergekommen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: bin hergekommen.",
+      "acceptedAnswers": [
+        "hergekommen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does herkommen mean?",
+      "options": [
+        "to come here",
+        "the key",
+        "the flower"
+      ],
+      "answer": "to come here",
+      "explanation": "herkommen: to come here; to come from.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Wo kommst du her?' = …",
+      "options": [
+        "Woher kommst du?",
+        "Wohin gehst du?"
+      ],
+      "answer": "Woher kommst du?",
+      "explanation": "Split woher.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Her- points…",
+      "options": [
+        "towards the speaker",
+        "away"
+      ],
+      "answer": "towards the speaker",
+      "explanation": "Here.",
+      "id": "q5"
+    }
+  ]
+}

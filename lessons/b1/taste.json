@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Taste",
+    "partOfSpeech": "noun, feminine (die Taste)",
+    "pronunciation": {
+      "respelling": "TAS-te",
+      "ipa": "ˈtastə",
+      "notes": "Plural: die Tasten."
+    },
+    "meaning": "key, button",
+    "shortDefinition": "Key, button."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Taste, plural die Tasten.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Taste"
+        },
+        {
+          "label": "More than one",
+          "value": "die Tasten"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Drücken Sie die Taste 1.",
+      "english": "Press key 1.",
+      "highlight": [
+        "Taste"
+      ]
+    },
+    {
+      "german": "Die Leertaste ist ganz unten.",
+      "english": "The space bar is at the bottom.",
+      "highlight": [
+        "Leertaste"
+      ]
+    },
+    {
+      "german": "Das Klavier hat 88 Tasten.",
+      "english": "The piano has 88 keys.",
+      "highlight": [
+        "Tasten."
+      ]
+    }
+  ],
+  "forms": [
+    "Tasten",
+    "die Tasten",
+    "die Taste"
+  ],
+  "memoryHook": "Die Taste = key, button (not taste!).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Taste",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Taste is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Taste, zwei ___",
+      "answer": "Tasten",
+      "fullAnswer": "ein Taste, zwei Tasten",
+      "explanation": "The plural is Tasten.",
+      "acceptedAnswers": [
+        "Tasten"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Taste mean?",
+      "options": [
+        "the flower",
+        "key",
+        "to sleep"
+      ],
+      "answer": "key",
+      "explanation": "Taste: key, button.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Not 'taste'! Taste (flavour) =",
+      "options": [
+        "der Geschmack",
+        "die Taste"
+      ],
+      "answer": "der Geschmack",
+      "explanation": "False friend.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Space bar:",
+      "options": [
+        "die Leertaste",
+        "die Raumtaste"
+      ],
+      "answer": "die Leertaste",
+      "explanation": "Empty key.",
+      "id": "q5"
+    }
+  ]
+}

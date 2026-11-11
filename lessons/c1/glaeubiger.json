@@ -1,0 +1,152 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Gläubiger",
+    "partOfSpeech": "noun, masculine (der Gläubiger)",
+    "pronunciation": {
+      "respelling": "GLOY-bi-ger",
+      "ipa": "ˈɡlɔɪ̯bɪɡɐ",
+      "notes": "The plural looks the same. Plural: die Gläubiger."
+    },
+    "meaning": "creditor",
+    "shortDefinition": "Creditor."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Gläub",
+        "meaning": "believe, trust"
+      },
+      {
+        "part": "ig",
+        "meaning": "adjective link"
+      },
+      {
+        "part": "er",
+        "meaning": "person who does it"
+      }
+    ],
+    "literalMeaning": "one who trusts (lends)"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Gläubiger, plural die Gläubiger.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Gläubiger"
+        },
+        {
+          "label": "More than one",
+          "value": "die Gläubiger"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Gläubiger wollen ihr Geld.",
+      "english": "The creditors want their money.",
+      "highlight": [
+        "Gläubiger"
+      ]
+    },
+    {
+      "german": "Die Bank ist der größte Gläubiger.",
+      "english": "The bank is the largest creditor.",
+      "highlight": [
+        "Gläubiger."
+      ]
+    },
+    {
+      "german": "Er verhandelt mit den Gläubigern.",
+      "english": "He's negotiating with the creditors.",
+      "highlight": [
+        "Gläubigern."
+      ]
+    }
+  ],
+  "forms": [
+    "Schuldner",
+    "Gläubige"
+  ],
+  "memoryHook": "Der Gläubiger (creditor) ↔ Schuldner; der/die Gläubige = believer.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Gläubiger",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Gläubiger is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Gläubiger, zwei ___",
+      "answer": "Gläubiger",
+      "fullAnswer": "ein Gläubiger, zwei Gläubiger",
+      "explanation": "The plural is Gläubiger.",
+      "acceptedAnswers": [
+        "Glaeubiger"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Gläubiger mean?",
+      "options": [
+        "to sing",
+        "creditor",
+        "to sleep"
+      ],
+      "answer": "creditor",
+      "explanation": "Gläubiger: creditor.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Opposite:",
+      "options": [
+        "der Schuldner (debtor)",
+        "der Gläubige"
+      ],
+      "answer": "der Schuldner (debtor)",
+      "explanation": "Debtor.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gläubiger vs Gläubige:",
+      "options": [
+        "creditor vs believer",
+        "same"
+      ],
+      "answer": "creditor vs believer",
+      "explanation": "Different.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "glauben (believe, trust)",
+        "Glück"
+      ],
+      "answer": "glauben (believe, trust)",
+      "explanation": "One who trusts.",
+      "id": "q6"
+    }
+  ]
+}

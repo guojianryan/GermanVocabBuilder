@@ -1,0 +1,167 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "melden",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "MEL-den",
+      "ipa": "ˈmɛldn̩",
+      "notes": ""
+    },
+    "meaning": "to report; (sich) to get in touch",
+    "shortDefinition": "To report; (sich) to get in touch."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "meld|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "meld|est"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "meld|et"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "meld|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "meld|et"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "meld|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gemeldet"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "die Meldung",
+      "english": "report, notification",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich melde mich morgen.",
+      "english": "I'll be in touch tomorrow.",
+      "highlight": [
+        "melde",
+        "mich"
+      ]
+    },
+    {
+      "german": "Er hat den Unfall der Polizei gemeldet.",
+      "english": "He reported the accident to the police.",
+      "highlight": [
+        "gemeldet."
+      ]
+    },
+    {
+      "german": "Melde dich, wenn du da bist!",
+      "english": "Let me know when you're there!",
+      "highlight": [
+        "Melde",
+        "dich,"
+      ]
+    }
+  ],
+  "forms": [
+    "melde",
+    "meldest",
+    "meldet",
+    "melden",
+    "gemeldet"
+  ],
+  "memoryHook": "Melden = report. Sich melden = get in touch.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (melden)",
+      "answer": "meldet",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: meldet.",
+      "acceptedAnswers": [
+        "meldet"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (melden, past)",
+      "answer": "gemeldet",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gemeldet.",
+      "acceptedAnswers": [
+        "gemeldet"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does melden mean?",
+      "options": [
+        "to report",
+        "to open",
+        "slowly"
+      ],
+      "answer": "to report",
+      "explanation": "melden: to report; (sich) to get in touch.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Sich melden' means…",
+      "options": [
+        "to get in touch",
+        "to report oneself ill only"
+      ],
+      "answer": "to get in touch",
+      "explanation": "Contact.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Sich anmelden' means…",
+      "options": [
+        "to register",
+        "to report"
+      ],
+      "answer": "to register",
+      "explanation": "Register.",
+      "id": "q5"
+    }
+  ]
+}

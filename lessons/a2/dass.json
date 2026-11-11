@@ -1,0 +1,149 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "full",
+  "word": {
+    "headword": "dass",
+    "partOfSpeech": "conjunction",
+    "pronunciation": {
+      "respelling": "DASS",
+      "ipa": "das",
+      "notes": "Sounds exactly like das."
+    },
+    "meaning": "that (joining two clauses)",
+    "shortDefinition": "That, introducing a clause."
+  },
+  "intro": {
+    "title": "Ich glaube, dass …",
+    "paragraphs": [
+      "Dass joins a second clause to the first: Ich glaube, dass er kommt. It always has a comma before it, and it sends the verb to the end.",
+      "It sounds exactly like das (the/that one). Spelling test: if you can replace it with dieses or welches, it's das. If not, it's dass."
+    ]
+  },
+  "keyTrap": {
+    "title": "The big trap: das or dass?",
+    "explanation": "Same sound, different job.",
+    "wrong": {
+      "german": "Ich weiß, das er kommt.",
+      "verdict": "Joining a clause: dass."
+    },
+    "correct": [
+      {
+        "german": "Ich weiß, dass er kommt.",
+        "literal": "I know that he comes.",
+        "note": "Clause: dass, verb at the end."
+      },
+      {
+        "german": "Das Buch, das ich lese, ist gut.",
+        "literal": "The book that I read…",
+        "note": "Which one: das."
+      }
+    ]
+  },
+  "commonMistakes": [
+    {
+      "title": "Verb to the end",
+      "explanation": "After dass the verb goes last.",
+      "wrong": "Ich hoffe, dass du kommst morgen.",
+      "correct": "Ich hoffe, dass du morgen kommst."
+    },
+    {
+      "title": "Comma",
+      "explanation": "There's always a comma before dass.",
+      "examples": [
+        {
+          "german": "Schön, dass du da bist!",
+          "english": "Great that you're here!",
+          "highlight": "dass"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich glaube, dass es morgen regnet.",
+      "english": "I think it'll rain tomorrow.",
+      "highlight": [
+        "dass",
+        "regnet."
+      ]
+    },
+    {
+      "german": "Er sagt, dass er keine Zeit hat.",
+      "english": "He says he doesn't have time.",
+      "highlight": [
+        "dass",
+        "hat."
+      ]
+    },
+    {
+      "german": "Schön, dass du da bist!",
+      "english": "Great that you're here!",
+      "highlight": [
+        "dass"
+      ]
+    }
+  ],
+  "forms": [
+    "dass"
+  ],
+  "memoryHook": "Two s's join two sentences: dass. And the verb runs to the end.",
+  "signOff": "Schön, dass du hier warst!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Ich hoffe, ___ du kommst.",
+      "options": [
+        "dass",
+        "das"
+      ],
+      "answer": "dass",
+      "explanation": "Clause: dass.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "___ Auto ist neu.",
+      "options": [
+        "Das",
+        "Dass"
+      ],
+      "answer": "Das",
+      "explanation": "Article: das.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Word order:",
+      "options": [
+        "…, dass er heute kommt.",
+        "…, dass er kommt heute."
+      ],
+      "answer": "…, dass er heute kommt.",
+      "explanation": "Verb last.",
+      "id": "q3"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich weiß, ___ du recht hast.",
+      "answer": "dass",
+      "fullAnswer": "Ich weiß, dass du recht hast.",
+      "explanation": "Dass.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "English often leaves out 'that'. German…",
+      "options": [
+        "keeps dass (or uses main order without it)",
+        "can drop dass and keep verb last"
+      ],
+      "answer": "keeps dass (or uses main order without it)",
+      "explanation": "Ich glaube, er kommt. / Ich glaube, dass er kommt.",
+      "id": "q5"
+    }
+  ]
+}

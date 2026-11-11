@@ -1,0 +1,134 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Schlag",
+    "partOfSpeech": "noun, masculine (der Schlag)",
+    "pronunciation": {
+      "respelling": "SHLAAK",
+      "ipa": "ʃlaːk",
+      "notes": "Plural: die Schläge."
+    },
+    "meaning": "blow, hit, punch; stroke",
+    "shortDefinition": "Blow, hit, punch; stroke."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Schlag, plural die Schläge.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Schlag"
+        },
+        {
+          "label": "More than one",
+          "value": "die Schläge"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er bekam einen Schlag auf den Kopf.",
+      "english": "He got a blow to the head.",
+      "highlight": [
+        "Schlag"
+      ]
+    },
+    {
+      "german": "Mit einem Schlag war alles anders.",
+      "english": "All at once everything was different.",
+      "highlight": [
+        "Schlag"
+      ]
+    },
+    {
+      "german": "Ein Kaffee mit Schlag, bitte. (Austria)",
+      "english": "A coffee with whipped cream, please.",
+      "highlight": [
+        "Schlag,"
+      ]
+    }
+  ],
+  "forms": [
+    "schlagen",
+    "Schlaganfall"
+  ],
+  "memoryHook": "Schlagen → der Schlag; mit einem Schlag; Schlaganfall.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Schlag",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Schlag is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Schlag, zwei ___",
+      "answer": "Schläge",
+      "fullAnswer": "ein Schlag, zwei Schläge",
+      "explanation": "The plural is Schläge.",
+      "acceptedAnswers": [
+        "Schlaege"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Schlag mean?",
+      "options": [
+        "the weather",
+        "blow",
+        "to travel"
+      ],
+      "answer": "blow",
+      "explanation": "Schlag: blow, hit, punch; stroke.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Mit einem Schlag' means…",
+      "options": [
+        "all at once",
+        "with one hit only"
+      ],
+      "answer": "all at once",
+      "explanation": "Suddenly.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Stroke (medical):",
+      "options": [
+        "der Schlaganfall",
+        "der Herzschlag"
+      ],
+      "answer": "der Schlaganfall",
+      "explanation": "Stroke.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "schlagen (hit)",
+        "schlagfertig"
+      ],
+      "answer": "schlagen (hit)",
+      "explanation": "Hit.",
+      "id": "q6"
+    }
+  ]
+}

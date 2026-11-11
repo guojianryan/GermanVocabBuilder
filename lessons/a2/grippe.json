@@ -1,0 +1,118 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Grippe",
+    "partOfSpeech": "noun, feminine (die Grippe)",
+    "pronunciation": {
+      "respelling": "GRIP-e",
+      "ipa": "ˈɡʁɪpə",
+      "notes": "Usually no plural."
+    },
+    "meaning": "flu",
+    "shortDefinition": "Flu."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Grippe, usually no plural.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Grippe"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich habe Grippe.",
+      "english": "I've got the flu.",
+      "highlight": [
+        "Grippe."
+      ]
+    },
+    {
+      "german": "Die Grippe dauert eine Woche.",
+      "english": "The flu lasts a week.",
+      "highlight": [
+        "Grippe"
+      ]
+    },
+    {
+      "german": "Hast du eine Grippeimpfung?",
+      "english": "Have you had a flu jab?",
+      "highlight": [
+        "Grippeimpfung?"
+      ]
+    }
+  ],
+  "forms": [
+    "die Grippe"
+  ],
+  "memoryHook": "Die Grippe (flu) is worse than eine Erkältung (cold).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Grippe",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Grippe is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Grippe mean?",
+      "options": [
+        "expensive",
+        "flu",
+        "the car"
+      ],
+      "answer": "flu",
+      "explanation": "Grippe: flu.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Grippe or Erkältung? A mild cold:",
+      "options": [
+        "Erkältung",
+        "Grippe"
+      ],
+      "answer": "Erkältung",
+      "explanation": "Grippe is serious.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'I've got flu':",
+      "options": [
+        "Ich habe Grippe.",
+        "Ich bin Grippe."
+      ],
+      "answer": "Ich habe Grippe.",
+      "explanation": "Haben.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "A flu jab:",
+      "options": [
+        "eine Grippeimpfung",
+        "eine Grippespritze only"
+      ],
+      "answer": "eine Grippeimpfung",
+      "explanation": "Impfung = vaccination.",
+      "id": "q5"
+    }
+  ]
+}

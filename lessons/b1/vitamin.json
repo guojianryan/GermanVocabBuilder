@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Vitamin",
+    "partOfSpeech": "noun, neuter (das Vitamin)",
+    "pronunciation": {
+      "respelling": "vi-ta-MEEN",
+      "ipa": "vitaˈmiːn",
+      "notes": "Plural: die Vitamine."
+    },
+    "meaning": "vitamin",
+    "shortDefinition": "Vitamin."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Vitamin, plural die Vitamine.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Vitamin"
+        },
+        {
+          "label": "More than one",
+          "value": "die Vitamine"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Obst hat viele Vitamine.",
+      "english": "Fruit has lots of vitamins.",
+      "highlight": [
+        "Vitamine."
+      ]
+    },
+    {
+      "german": "Ich nehme Vitamin D.",
+      "english": "I take vitamin D.",
+      "highlight": [
+        "Vitamin"
+      ]
+    },
+    {
+      "german": "Er hat gute Beziehungen – Vitamin B!",
+      "english": "He has good connections – 'vitamin B'!",
+      "highlight": [
+        "Vitamin"
+      ]
+    }
+  ],
+  "forms": [
+    "Vitamine",
+    "die Vitamine",
+    "das Vitamin"
+  ],
+  "memoryHook": "Das Vitamin (stress at end). Vitamin B = good contacts!",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Vitamin",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Vitamin is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Vitamin, zwei ___",
+      "answer": "Vitamine",
+      "fullAnswer": "ein Vitamin, zwei Vitamine",
+      "explanation": "The plural is Vitamine.",
+      "acceptedAnswers": [
+        "Vitamine"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Vitamin mean?",
+      "options": [
+        "vitamin",
+        "never",
+        "the street"
+      ],
+      "answer": "vitamin",
+      "explanation": "Vitamin: vitamin.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Vitamin B' (joke) means…",
+      "options": [
+        "connections (Beziehungen)",
+        "bread"
+      ],
+      "answer": "connections (Beziehungen)",
+      "explanation": "Idiom.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Stress on…",
+      "options": [
+        "-MIN",
+        "VI-"
+      ],
+      "answer": "-MIN",
+      "explanation": "End.",
+      "id": "q5"
+    }
+  ]
+}

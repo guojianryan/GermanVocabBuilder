@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "E-Mail",
+    "partOfSpeech": "noun, feminine (die E-Mail)",
+    "pronunciation": {
+      "respelling": "EE-mail",
+      "ipa": "ˈiːmeɪ̯l",
+      "notes": "Plural: die E-Mails."
+    },
+    "meaning": "email",
+    "shortDefinition": "Email."
+  },
+  "wordFamily": [
+    {
+      "german": "die E-Mail-Adresse",
+      "english": "email address",
+      "type": "noun"
+    },
+    {
+      "german": "schicken",
+      "english": "to send",
+      "type": "verb"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die E-Mail, plural die E-Mails.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die E-Mail"
+        },
+        {
+          "label": "More than one",
+          "value": "die E-Mails"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich schicke dir eine E-Mail.",
+      "english": "I'll send you an email.",
+      "highlight": [
+        "E-Mail."
+      ]
+    },
+    {
+      "german": "Wie ist Ihre E-Mail-Adresse?",
+      "english": "What's your email address?",
+      "highlight": [
+        "E-Mail-Adresse?"
+      ]
+    },
+    {
+      "german": "Ich habe Ihre E-Mail nicht bekommen.",
+      "english": "I didn't get your email.",
+      "highlight": [
+        "E-Mail"
+      ]
+    }
+  ],
+  "forms": [
+    "E-Mails",
+    "die E-Mails",
+    "die E-Mail"
+  ],
+  "memoryHook": "Die E-Mail (in Austria and Switzerland also das). Pronounced as in English.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ E-Mail",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "E-Mail is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein E-Mail, zwei ___",
+      "answer": "E-Mails",
+      "fullAnswer": "ein E-Mail, zwei E-Mails",
+      "explanation": "The plural is E-Mails.",
+      "acceptedAnswers": [
+        "E-Mails"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does E-Mail mean?",
+      "options": [
+        "slowly",
+        "email",
+        "tomorrow"
+      ],
+      "answer": "email",
+      "explanation": "E-Mail: email.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich schreibe ___ E-Mail.",
+      "options": [
+        "eine",
+        "einen"
+      ],
+      "answer": "eine",
+      "explanation": "Die E-Mail (in Germany).",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "The @ sign in German is called…",
+      "options": [
+        "at",
+        "Klammeraffe"
+      ],
+      "answer": "Klammeraffe",
+      "explanation": "'Bracket monkey' informally; most people just say 'at'.",
+      "id": "q5"
+    }
+  ]
+}

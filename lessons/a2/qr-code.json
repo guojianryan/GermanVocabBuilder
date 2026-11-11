@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Momente A2.2 Kursbuch Glossar",
+  "lessonType": "card",
+  "word": {
+    "headword": "QR-Code",
+    "partOfSpeech": "noun, masculine (der QR-Code)",
+    "pronunciation": {
+      "respelling": "koo-ER-koht",
+      "ipa": "kuːˈʔɛʁkoːt",
+      "notes": "Plural: die QR-Codes."
+    },
+    "meaning": "QR code",
+    "shortDefinition": "QR code."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der QR-Code, plural die QR-Codes.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der QR-Code"
+        },
+        {
+          "label": "More than one",
+          "value": "die QR-Codes"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Scannen Sie den QR-Code.",
+      "english": "Scan the QR code.",
+      "highlight": [
+        "QR-Code."
+      ]
+    },
+    {
+      "german": "Die Speisekarte gibt es per QR-Code.",
+      "english": "The menu is available via a QR code.",
+      "highlight": [
+        "QR-Code."
+      ]
+    },
+    {
+      "german": "Der QR-Code funktioniert nicht.",
+      "english": "The QR code doesn't work.",
+      "highlight": [
+        "QR-Code"
+      ]
+    }
+  ],
+  "forms": [
+    "QR-Codes",
+    "die QR-Codes",
+    "der QR-Code"
+  ],
+  "memoryHook": "Der QR-Code (koo-ER). Scannen.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ QR-Code",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "QR-Code is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein QR-Code, zwei ___",
+      "answer": "QR-Codes",
+      "fullAnswer": "ein QR-Code, zwei QR-Codes",
+      "explanation": "The plural is QR-Codes.",
+      "acceptedAnswers": [
+        "QR-Codes"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does QR-Code mean?",
+      "options": [
+        "QR code",
+        "to help",
+        "the flower"
+      ],
+      "answer": "QR code",
+      "explanation": "QR-Code: QR code.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "QR is pronounced…",
+      "options": [
+        "koo-ER (German letters)",
+        "kyoo-ar"
+      ],
+      "answer": "koo-ER (German letters)",
+      "explanation": "German alphabet.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gender:",
+      "options": [
+        "der (der Code)",
+        "das"
+      ],
+      "answer": "der (der Code)",
+      "explanation": "Der Code.",
+      "id": "q5"
+    }
+  ]
+}

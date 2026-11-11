@@ -1,0 +1,185 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "entnehmen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "ent-NAY-men",
+      "ipa": "ɛntˈneːmən",
+      "notes": ""
+    },
+    "meaning": "to take (from), extract; to gather, infer",
+    "shortDefinition": "To take (from), extract; to gather, infer."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "ent",
+        "meaning": "out of"
+      },
+      {
+        "part": "nehmen",
+        "meaning": "to take",
+        "emphasis": "release"
+      }
+    ],
+    "literalMeaning": "to take out of"
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "entnehm|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "entnimm|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "entnimm|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "entnehm|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "entnehm|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "entnehm|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat entnommen"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Dem Brief entnehme ich, dass …",
+      "english": "I gather from the letter that …",
+      "highlight": [
+        "entnehme"
+      ]
+    },
+    {
+      "german": "Der Arzt entnimmt eine Blutprobe.",
+      "english": "The doctor takes a blood sample.",
+      "highlight": [
+        "entnimmt"
+      ]
+    },
+    {
+      "german": "Details entnehmen Sie bitte der Anlage.",
+      "english": "Please see the attachment for details.",
+      "highlight": [
+        "entnehmen"
+      ]
+    }
+  ],
+  "forms": [
+    "entnehme",
+    "entnimmst",
+    "entnimmt",
+    "entnehmen",
+    "entnehmt",
+    "entnommen"
+  ],
+  "memoryHook": "Entnehmen (+ Dat.) = take from; gather, infer.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (entnehmen)",
+      "answer": "entnimmt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: entnimmt.",
+      "acceptedAnswers": [
+        "entnimmt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (entnehmen, past)",
+      "answer": "entnommen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe entnommen.",
+      "acceptedAnswers": [
+        "entnommen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does entnehmen mean?",
+      "options": [
+        "to take (from)",
+        "the station",
+        "the bed"
+      ],
+      "answer": "to take (from)",
+      "explanation": "entnehmen: to take (from), extract; to gather, infer.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Structure:",
+      "options": [
+        "etwas (Dat.) etwas entnehmen",
+        "von etwas entnehmen only"
+      ],
+      "answer": "etwas (Dat.) etwas entnehmen",
+      "explanation": "Dative source.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "er ___ (entnehmen):",
+      "options": [
+        "entnimmt",
+        "entnehmt"
+      ],
+      "answer": "entnimmt",
+      "explanation": "e → i.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "hat entnommen",
+        "hat entnehmt"
+      ],
+      "answer": "hat entnommen",
+      "explanation": "Strong.",
+      "id": "q6"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Handwerk",
+    "partOfSpeech": "noun, neuter (das Handwerk)",
+    "pronunciation": {
+      "respelling": "HANT-vairk",
+      "ipa": "ˈhantvɛʁk",
+      "notes": "Plural: die Handwerke."
+    },
+    "meaning": "craft, trade; skilled trades",
+    "shortDefinition": "Craft, trade; skilled trades."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Hand",
+        "meaning": "hand"
+      },
+      {
+        "part": "werk",
+        "meaning": "work"
+      }
+    ],
+    "literalMeaning": "hand work"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Handwerk, plural die Handwerke.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Handwerk"
+        },
+        {
+          "label": "More than one",
+          "value": "die Handwerke"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er hat ein Handwerk gelernt.",
+      "english": "He learned a trade.",
+      "highlight": [
+        "Handwerk"
+      ]
+    },
+    {
+      "german": "Das Handwerk sucht Nachwuchs.",
+      "english": "The skilled trades are looking for young people.",
+      "highlight": [
+        "Handwerk"
+      ]
+    },
+    {
+      "german": "Er versteht sein Handwerk.",
+      "english": "He knows his stuff.",
+      "highlight": [
+        "Handwerk."
+      ]
+    }
+  ],
+  "forms": [
+    "Handwerker"
+  ],
+  "memoryHook": "Hand + Werk = craft; der Handwerker.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Handwerk",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Handwerk is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Handwerk, zwei ___",
+      "answer": "Handwerke",
+      "fullAnswer": "ein Handwerk, zwei Handwerke",
+      "explanation": "The plural is Handwerke.",
+      "acceptedAnswers": [
+        "Handwerke"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Handwerk mean?",
+      "options": [
+        "the car",
+        "craft",
+        "the key"
+      ],
+      "answer": "craft",
+      "explanation": "Handwerk: craft, trade; skilled trades.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Hand + Werk (work)",
+        "Hand + werfen"
+      ],
+      "answer": "Hand + Werk (work)",
+      "explanation": "Hand work.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Craftsman:",
+      "options": [
+        "der Handwerker",
+        "der Handwerkler"
+      ],
+      "answer": "der Handwerker",
+      "explanation": "Person.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Sein Handwerk verstehen' means…",
+      "options": [
+        "to know one's job",
+        "to understand hands"
+      ],
+      "answer": "to know one's job",
+      "explanation": "Idiom.",
+      "id": "q6"
+    }
+  ]
+}

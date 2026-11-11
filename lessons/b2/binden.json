@@ -1,0 +1,166 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "binden",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "BIN-den",
+      "ipa": "ˈbɪndn̩",
+      "notes": ""
+    },
+    "meaning": "to tie, bind",
+    "shortDefinition": "To tie, bind."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "bind|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "bind|est"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "bind|et"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "bind|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "bind|et"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "bind|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gebunden"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er bindet die Schuhe.",
+      "english": "He ties his shoes.",
+      "highlight": [
+        "bindet"
+      ]
+    },
+    {
+      "german": "Sie will sich noch nicht binden.",
+      "english": "She doesn't want to commit yet.",
+      "highlight": [
+        "binden."
+      ]
+    },
+    {
+      "german": "Der Vertrag ist bindend.",
+      "english": "The contract is binding.",
+      "highlight": [
+        "bindend."
+      ]
+    }
+  ],
+  "forms": [
+    "Bindung",
+    "verbinden"
+  ],
+  "memoryHook": "Binden (band, gebunden) → die Bindung, das Band.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (binden)",
+      "answer": "bindet",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: bindet.",
+      "acceptedAnswers": [
+        "bindet"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (binden, past)",
+      "answer": "gebunden",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gebunden.",
+      "acceptedAnswers": [
+        "gebunden"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does binden mean?",
+      "options": [
+        "to tie",
+        "to travel",
+        "slowly"
+      ],
+      "answer": "to tie",
+      "explanation": "binden: to tie, bind.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "hat gebunden",
+        "hat gebindet"
+      ],
+      "answer": "hat gebunden",
+      "explanation": "Strong: band, gebunden.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Sich binden' means…",
+      "options": [
+        "to commit (relationship)",
+        "to bend"
+      ],
+      "answer": "to commit (relationship)",
+      "explanation": "Commit.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Noun:",
+      "options": [
+        "die Bindung / das Band",
+        "die Binde only"
+      ],
+      "answer": "die Bindung / das Band",
+      "explanation": "Bond.",
+      "id": "q6"
+    }
+  ]
+}

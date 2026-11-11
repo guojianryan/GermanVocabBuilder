@@ -1,0 +1,117 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "gestern",
+    "partOfSpeech": "adverb",
+    "pronunciation": {
+      "respelling": "GES-tern",
+      "ipa": "ˈɡɛstɐn",
+      "notes": ""
+    },
+    "meaning": "yesterday",
+    "shortDefinition": "Yesterday."
+  },
+  "wordFamily": [
+    {
+      "german": "heute",
+      "english": "today",
+      "type": "adverb"
+    },
+    {
+      "german": "morgen",
+      "english": "tomorrow",
+      "type": "adverb"
+    },
+    {
+      "german": "vorgestern",
+      "english": "the day before yesterday",
+      "type": "adverb"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Gestern war ich im Kino.",
+      "english": "Yesterday I went to the cinema.",
+      "highlight": [
+        "Gestern"
+      ]
+    },
+    {
+      "german": "Was hast du gestern gemacht?",
+      "english": "What did you do yesterday?",
+      "highlight": [
+        "gestern"
+      ]
+    },
+    {
+      "german": "Gestern Abend hat es geregnet.",
+      "english": "It rained yesterday evening.",
+      "highlight": [
+        "Gestern"
+      ]
+    }
+  ],
+  "forms": [],
+  "memoryHook": "Gestern = yesterday (English 'yester-day' is the same root). Vorgestern = the day before.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does gestern mean?",
+      "options": [
+        "to travel",
+        "the station",
+        "yesterday"
+      ],
+      "answer": "yesterday",
+      "explanation": "gestern: yesterday.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "heute, morgen, gestern: which is yesterday?",
+      "options": [
+        "gestern",
+        "morgen"
+      ],
+      "answer": "gestern",
+      "explanation": "Morgen = tomorrow.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Vorgestern' is…",
+      "options": [
+        "the day before yesterday",
+        "this morning"
+      ],
+      "answer": "the day before yesterday",
+      "explanation": "Vor + gestern.",
+      "id": "q3"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "___ Abend war ich zu Hause. (Yesterday)",
+      "answer": "Gestern",
+      "fullAnswer": "Gestern Abend war ich zu Hause.",
+      "explanation": "Gestern Abend: last night.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "Gestern ich war krank.",
+        "Gestern war ich krank."
+      ],
+      "answer": "Gestern war ich krank.",
+      "explanation": "Verb second.",
+      "id": "q5"
+    }
+  ]
+}

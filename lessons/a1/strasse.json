@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Straße",
+    "partOfSpeech": "noun, feminine (die Straße)",
+    "pronunciation": {
+      "respelling": "SHTRAH-suh",
+      "ipa": "ˈʃtʁaːsə",
+      "notes": "Plural: die Straßen."
+    },
+    "meaning": "street, road",
+    "shortDefinition": "Street, road."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Straße, plural die Straßen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Straße"
+        },
+        {
+          "label": "More than one",
+          "value": "die Straßen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich wohne in der Goethestraße.",
+      "english": "I live on Goethestraße.",
+      "highlight": [
+        "Goethestraße."
+      ]
+    },
+    {
+      "german": "Die Kinder spielen auf der Straße.",
+      "english": "The children are playing in the street.",
+      "highlight": [
+        "Straße."
+      ]
+    },
+    {
+      "german": "Gehen Sie über die Straße.",
+      "english": "Cross the street.",
+      "highlight": [
+        "Straße."
+      ]
+    }
+  ],
+  "forms": [
+    "Straßen",
+    "Str.",
+    "die Straße"
+  ],
+  "memoryHook": "Die Straße (ß = s). Addresses: in der … straße. Short: Str.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Straße",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Straße is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Straße, zwei ___",
+      "answer": "Straßen",
+      "fullAnswer": "ein Straße, zwei Straßen",
+      "explanation": "The plural is Straßen.",
+      "acceptedAnswers": [
+        "Straßen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Straße mean?",
+      "options": [
+        "street",
+        "to help",
+        "tomorrow"
+      ],
+      "answer": "street",
+      "explanation": "Straße: street, road.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "On a sign, 'Str.' means…",
+      "options": [
+        "Straße",
+        "Strand"
+      ],
+      "answer": "Straße",
+      "explanation": "Abbreviation.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "You live ___ einer Straße.",
+      "options": [
+        "in",
+        "an"
+      ],
+      "answer": "in",
+      "explanation": "In der … straße.",
+      "id": "q5"
+    }
+  ]
+}

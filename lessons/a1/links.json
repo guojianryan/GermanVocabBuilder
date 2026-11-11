@@ -1,0 +1,112 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "links",
+    "partOfSpeech": "adverb",
+    "pronunciation": {
+      "respelling": "LINKS",
+      "ipa": "lɪŋks",
+      "notes": ""
+    },
+    "meaning": "left, on the left",
+    "shortDefinition": "Left, on the left."
+  },
+  "wordFamily": [
+    {
+      "german": "rechts",
+      "english": "right",
+      "type": "adverb"
+    },
+    {
+      "german": "geradeaus",
+      "english": "straight on",
+      "type": "adverb"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Gehen Sie hier links.",
+      "english": "Turn left here.",
+      "highlight": [
+        "links."
+      ]
+    },
+    {
+      "german": "Die Bank ist links neben der Post.",
+      "english": "The bank is on the left, next to the post office.",
+      "highlight": [
+        "links"
+      ]
+    },
+    {
+      "german": "Biegen Sie an der Ampel links ab.",
+      "english": "Turn left at the lights.",
+      "highlight": [
+        "links"
+      ]
+    }
+  ],
+  "forms": [],
+  "memoryHook": "Links = left, rechts = right, geradeaus = straight on.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does links mean?",
+      "options": [
+        "quiet",
+        "the family",
+        "left"
+      ],
+      "answer": "left",
+      "explanation": "links: left, on the left.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "The opposite of links is…",
+      "options": [
+        "rechts",
+        "geradeaus"
+      ],
+      "answer": "rechts",
+      "explanation": "Rechts: right.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Nach links' means…",
+      "options": [
+        "to the left",
+        "after left"
+      ],
+      "answer": "to the left",
+      "explanation": "Direction.",
+      "id": "q3"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Die Tür ist ___. (on the left)",
+      "answer": "links",
+      "fullAnswer": "Die Tür ist links.",
+      "explanation": "Links.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Links, rechts, …",
+      "options": [
+        "geradeaus",
+        "gerade"
+      ],
+      "answer": "geradeaus",
+      "explanation": "Straight on.",
+      "id": "q5"
+    }
+  ]
+}

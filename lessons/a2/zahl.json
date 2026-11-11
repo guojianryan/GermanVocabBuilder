@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Zahl",
+    "partOfSpeech": "noun, feminine (die Zahl)",
+    "pronunciation": {
+      "respelling": "TSAAL",
+      "ipa": "tsaːl",
+      "notes": "Plural: die Zahlen."
+    },
+    "meaning": "number (figure)",
+    "shortDefinition": "Number (figure)."
+  },
+  "wordFamily": [
+    {
+      "german": "zählen",
+      "english": "to count",
+      "type": "verb"
+    },
+    {
+      "german": "zahlen",
+      "english": "to pay",
+      "type": "verb"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Zahl, plural die Zahlen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Zahl"
+        },
+        {
+          "label": "More than one",
+          "value": "die Zahlen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Sieben ist meine Glückszahl.",
+      "english": "Seven is my lucky number.",
+      "highlight": [
+        "Glückszahl."
+      ]
+    },
+    {
+      "german": "Schreiben Sie die Zahl in Worten.",
+      "english": "Write the number in words.",
+      "highlight": [
+        "Zahl"
+      ]
+    },
+    {
+      "german": "Die Zahlen sind gut.",
+      "english": "The figures are good.",
+      "highlight": [
+        "Zahlen"
+      ]
+    }
+  ],
+  "forms": [
+    "Zahlen",
+    "die Zahlen",
+    "die Zahl"
+  ],
+  "memoryHook": "Die Zahl = number, figure. Phone/room number = die Nummer.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Zahl",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Zahl is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Zahl, zwei ___",
+      "answer": "Zahlen",
+      "fullAnswer": "ein Zahl, zwei Zahlen",
+      "explanation": "The plural is Zahlen.",
+      "acceptedAnswers": [
+        "Zahlen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Zahl mean?",
+      "options": [
+        "number (figure)",
+        "the bed",
+        "tomorrow"
+      ],
+      "answer": "number (figure)",
+      "explanation": "Zahl: number (figure).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Zahl or Nummer? Phone number:",
+      "options": [
+        "die Nummer",
+        "die Zahl"
+      ],
+      "answer": "die Nummer",
+      "explanation": "Nummer = an identifier.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Zahlen (verb) means…",
+      "options": [
+        "to pay",
+        "to count"
+      ],
+      "answer": "to pay",
+      "explanation": "Different meaning.",
+      "id": "q5"
+    }
+  ]
+}

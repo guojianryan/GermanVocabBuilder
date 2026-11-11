@@ -1,0 +1,184 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "wiederholen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "vee-der-HOH-len",
+      "ipa": "viːdɐˈhoːlən",
+      "notes": ""
+    },
+    "meaning": "to repeat; to revise",
+    "shortDefinition": "To repeat; to revise."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "wieder",
+        "meaning": "again"
+      },
+      {
+        "part": "holen",
+        "meaning": "to fetch"
+      }
+    ],
+    "literalMeaning": "to fetch again"
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "wiederhol|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "wiederhol|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "wiederhol|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "wiederhol|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "wiederhol|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "wiederhol|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat wiederholt",
+        "Not separable; no ge- in the past."
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "wieder",
+      "english": "again",
+      "type": "adverb"
+    },
+    {
+      "german": "die Wiederholung",
+      "english": "repetition, revision",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Können Sie das bitte wiederholen?",
+      "english": "Could you repeat that, please?",
+      "highlight": [
+        "wiederholen?"
+      ]
+    },
+    {
+      "german": "Wir wiederholen die Wörter von gestern.",
+      "english": "We're revising yesterday's words.",
+      "highlight": [
+        "wiederholen"
+      ]
+    },
+    {
+      "german": "Ich habe die Prüfung wiederholt.",
+      "english": "I retook the exam.",
+      "highlight": [
+        "wiederholt."
+      ]
+    }
+  ],
+  "forms": [
+    "wiederhole",
+    "wiederholst",
+    "wiederholt",
+    "wiederholen"
+  ],
+  "memoryHook": "Wieder (again) + holen (fetch): fetch again, repeat. Not separable: hat wiederholt.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (wiederholen)",
+      "answer": "wiederholt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: wiederholt.",
+      "acceptedAnswers": [
+        "wiederholt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (wiederholen, past)",
+      "answer": "wiederholt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe wiederholt.",
+      "acceptedAnswers": [
+        "wiederholt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does wiederholen mean?",
+      "options": [
+        "to repeat",
+        "cheap",
+        "the job"
+      ],
+      "answer": "to repeat",
+      "explanation": "wiederholen: to repeat; to revise.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Wiederholen (repeat) is…",
+      "options": [
+        "not separable",
+        "separable"
+      ],
+      "answer": "not separable",
+      "explanation": "Ich wiederhole.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Wieder means…",
+      "options": [
+        "again",
+        "against"
+      ],
+      "answer": "again",
+      "explanation": "Wieder + holen.",
+      "id": "q5"
+    }
+  ]
+}

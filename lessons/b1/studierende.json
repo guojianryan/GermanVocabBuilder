@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Studierende",
+    "partOfSpeech": "noun, feminine (die Studierende)",
+    "pronunciation": {
+      "respelling": "shtoo-DEE-ren-de",
+      "ipa": "ʃtuˈdiːʁəndə",
+      "notes": "Plural: die Studierenden."
+    },
+    "meaning": "student",
+    "shortDefinition": "Student."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Studierende, plural die Studierenden.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Studierende"
+        },
+        {
+          "label": "More than one",
+          "value": "die Studierenden"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Studierenden protestieren.",
+      "english": "The students are protesting.",
+      "highlight": [
+        "Studierenden"
+      ]
+    },
+    {
+      "german": "Ein Studierender hat gefragt.",
+      "english": "A student asked.",
+      "highlight": [
+        "Studierender"
+      ]
+    },
+    {
+      "german": "Das Angebot gilt für alle Studierenden.",
+      "english": "The offer is for all students.",
+      "highlight": [
+        "Studierenden."
+      ]
+    }
+  ],
+  "forms": [
+    "Studierender",
+    "Studierenden"
+  ],
+  "memoryHook": "Die Studierenden (gender-neutral). Ein Studierender.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Studierende",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Studierende is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Studierende, zwei ___",
+      "answer": "Studierenden",
+      "fullAnswer": "ein Studierende, zwei Studierenden",
+      "explanation": "The plural is Studierenden.",
+      "acceptedAnswers": [
+        "Studierenden"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Studierende mean?",
+      "options": [
+        "expensive",
+        "the child",
+        "student"
+      ],
+      "answer": "student",
+      "explanation": "Studierende: student.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Studierende is…",
+      "options": [
+        "a gender-neutral word for students",
+        "a type of course"
+      ],
+      "answer": "a gender-neutral word for students",
+      "explanation": "Neutral.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'A (male) student':",
+      "options": [
+        "ein Studierender",
+        "ein Studierende"
+      ],
+      "answer": "ein Studierender",
+      "explanation": "Adjective endings.",
+      "id": "q5"
+    }
+  ]
+}

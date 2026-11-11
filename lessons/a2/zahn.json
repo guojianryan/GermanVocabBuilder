@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Zahn",
+    "partOfSpeech": "noun, masculine (der Zahn)",
+    "pronunciation": {
+      "respelling": "TSAAN",
+      "ipa": "tsaːn",
+      "notes": "Plural: die Zähne."
+    },
+    "meaning": "tooth",
+    "shortDefinition": "Tooth."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Zahn, plural die Zähne.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Zahn"
+        },
+        {
+          "label": "More than one",
+          "value": "die Zähne"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich putze mir die Zähne.",
+      "english": "I'm brushing my teeth.",
+      "highlight": [
+        "Zähne."
+      ]
+    },
+    {
+      "german": "Mein Zahn tut weh.",
+      "english": "My tooth hurts.",
+      "highlight": [
+        "Zahn"
+      ]
+    },
+    {
+      "german": "Ich muss zum Zahnarzt.",
+      "english": "I have to go to the dentist.",
+      "highlight": [
+        "Zahnarzt."
+      ]
+    }
+  ],
+  "forms": [
+    "Zahnarzt",
+    "Zahnschmerzen",
+    "Zahnbürste"
+  ],
+  "memoryHook": "Der Zahn, die Zähne. Zahnarzt, Zahnbürste, Zahnschmerzen.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Zahn",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Zahn is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Zahn, zwei ___",
+      "answer": "Zähne",
+      "fullAnswer": "ein Zahn, zwei Zähne",
+      "explanation": "The plural is Zähne.",
+      "acceptedAnswers": [
+        "Zaehne"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Zahn mean?",
+      "options": [
+        "tooth",
+        "the street",
+        "the window"
+      ],
+      "answer": "tooth",
+      "explanation": "Zahn: tooth.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "A dentist:",
+      "options": [
+        "der Zahnarzt",
+        "der Zahndoktor"
+      ],
+      "answer": "der Zahnarzt",
+      "explanation": "Tooth doctor.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Toothache:",
+      "options": [
+        "Zahnschmerzen",
+        "Zahnweh only"
+      ],
+      "answer": "Zahnschmerzen",
+      "explanation": "Schmerzen.",
+      "id": "q5"
+    }
+  ]
+}

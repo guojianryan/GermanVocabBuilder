@@ -1,0 +1,154 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "markieren",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "mar-KEE-ren",
+      "ipa": "maʁˈkiːʁən",
+      "notes": ""
+    },
+    "meaning": "to mark, to highlight",
+    "shortDefinition": "To mark, to highlight."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "markier|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "markier|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "markier|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "markier|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "markier|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "markier|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat markiert"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Markieren Sie die richtige Antwort.",
+      "english": "Mark the correct answer.",
+      "highlight": [
+        "Markieren"
+      ]
+    },
+    {
+      "german": "Ich markiere die wichtigen Wörter.",
+      "english": "I highlight the important words.",
+      "highlight": [
+        "markiere"
+      ]
+    },
+    {
+      "german": "Hast du alles markiert?",
+      "english": "Have you marked everything?",
+      "highlight": [
+        "markiert?"
+      ]
+    }
+  ],
+  "forms": [
+    "ankreuzen"
+  ],
+  "memoryHook": "Markieren = mark (an answer), highlight. Typical exam instruction.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (markieren)",
+      "answer": "markiert",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: markiert.",
+      "acceptedAnswers": [
+        "markiert"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (markieren, past)",
+      "answer": "markiert",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe markiert.",
+      "acceptedAnswers": [
+        "markiert"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does markieren mean?",
+      "options": [
+        "tomorrow",
+        "to wait",
+        "to mark"
+      ],
+      "answer": "to mark",
+      "explanation": "markieren: to mark, to highlight.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "In an exam, 'Markieren Sie' means…",
+      "options": [
+        "Mark/tick the answer",
+        "Grade it"
+      ],
+      "answer": "Mark/tick the answer",
+      "explanation": "Instruction.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "hat markiert",
+        "hat gemarkiert"
+      ],
+      "answer": "hat markiert",
+      "explanation": "-ieren: no ge-.",
+      "id": "q5"
+    }
+  ]
+}

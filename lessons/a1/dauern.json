@@ -1,0 +1,166 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "dauern",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "DOW-ern",
+      "ipa": "ˈdaʊ̯ɐn",
+      "notes": ""
+    },
+    "meaning": "to last, to take (time)",
+    "shortDefinition": "To last, to take (time)."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "dauer|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "dauer|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "dauer|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "dauer|n"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "dauer|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "dauer|n"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gedauert",
+        "Mostly used with er, sie, es: es dauert. The wir and sie forms end in -n, not -en."
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "die Dauer",
+      "english": "duration",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wie lange dauert der Kurs?",
+      "english": "How long does the course last?",
+      "highlight": [
+        "dauert"
+      ]
+    },
+    {
+      "german": "Die Fahrt dauert zwei Stunden.",
+      "english": "The journey takes two hours.",
+      "highlight": [
+        "dauert"
+      ]
+    },
+    {
+      "german": "Das hat zu lange gedauert.",
+      "english": "That took too long.",
+      "highlight": [
+        "gedauert."
+      ]
+    }
+  ],
+  "forms": [
+    "dauere",
+    "dauerst",
+    "dauert",
+    "dauern",
+    "gedauert"
+  ],
+  "memoryHook": "Dauern = to last, to take time: Wie lange dauert das? Mostly used with es or a thing as the subject.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (dauern)",
+      "answer": "dauert",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: dauert.",
+      "acceptedAnswers": [
+        "dauert"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (dauern, past)",
+      "answer": "gedauert",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gedauert.",
+      "acceptedAnswers": [
+        "gedauert"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does dauern mean?",
+      "options": [
+        "to last",
+        "the family",
+        "to buy"
+      ],
+      "answer": "to last",
+      "explanation": "dauern: to last, to take (time).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Das dauert' (on its own) means…",
+      "options": [
+        "That'll take a while.",
+        "That lasts forever."
+      ],
+      "answer": "That'll take a while.",
+      "explanation": "Common complaint.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Wie ___ dauert der Film?",
+      "options": [
+        "lange",
+        "viel"
+      ],
+      "answer": "lange",
+      "explanation": "Wie lange: how long (time).",
+      "id": "q5"
+    }
+  ]
+}

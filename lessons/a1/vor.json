@@ -1,0 +1,160 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "full",
+  "word": {
+    "headword": "vor",
+    "partOfSpeech": "preposition (dative or accusative)",
+    "pronunciation": {
+      "respelling": "FOR",
+      "ipa": "foːɐ̯",
+      "notes": "V = f."
+    },
+    "meaning": "in front of; before; ago; (time) to",
+    "shortDefinition": "In front of in space, before or ago in time."
+  },
+  "intro": {
+    "title": "Vor dem Haus, vor einer Stunde",
+    "paragraphs": [
+      "Vor = in front of (vor dem Haus), before (vor dem Essen), ago (vor zwei Tagen) and, in clock times, 'to': zehn vor acht (7:50). For time, it always takes the dative."
+    ]
+  },
+  "wordFamily": [
+    {
+      "german": "vorgestern",
+      "english": "the day before yesterday",
+      "type": "adverb"
+    },
+    {
+      "german": "nach",
+      "english": "after",
+      "type": "preposition"
+    },
+    {
+      "german": "hinter",
+      "english": "behind",
+      "type": "preposition"
+    }
+  ],
+  "keyTrap": {
+    "title": "The big trap: 'ago' goes first",
+    "explanation": "English puts 'ago' after: two days ago. German puts vor first, with the dative: vor zwei Tagen.",
+    "wrong": {
+      "german": "Ich war zwei Tage vor in Berlin.",
+      "verdict": "Vor comes first."
+    },
+    "correct": [
+      {
+        "german": "Ich war vor zwei Tagen in Berlin.",
+        "literal": "I was before two days in Berlin.",
+        "note": "Ago: vor + dative."
+      },
+      {
+        "german": "Es ist zehn vor acht.",
+        "literal": "It's ten before eight.",
+        "note": "Clock: to."
+      }
+    ]
+  },
+  "commonMistakes": [
+    {
+      "title": "Dative plural",
+      "explanation": "Vor drei Jahren (with -en).",
+      "wrong": "vor drei Jahre",
+      "correct": "vor drei Jahren"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das Taxi wartet vor dem Hotel.",
+      "english": "The taxi is waiting in front of the hotel.",
+      "highlight": [
+        "vor"
+      ]
+    },
+    {
+      "german": "Der Termin war vor einer Stunde.",
+      "english": "The appointment was an hour ago.",
+      "highlight": [
+        "vor"
+      ]
+    },
+    {
+      "german": "Wasch dir vor dem Essen die Hände.",
+      "english": "Wash your hands before eating.",
+      "highlight": [
+        "vor"
+      ]
+    },
+    {
+      "german": "Es ist Viertel vor neun.",
+      "english": "It's quarter to nine.",
+      "highlight": [
+        "vor"
+      ]
+    }
+  ],
+  "forms": [
+    "vorm",
+    "vors"
+  ],
+  "memoryHook": "Vor = in front of, before, ago (vor zwei Tagen), and 'to' in times (zehn vor acht).",
+  "signOff": "Vorwärts!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Two years ago:",
+      "options": [
+        "vor zwei Jahren",
+        "zwei Jahre vor"
+      ],
+      "answer": "vor zwei Jahren",
+      "explanation": "Vor first, dative.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Fünf vor drei' is…",
+      "options": [
+        "2:55",
+        "3:05"
+      ],
+      "answer": "2:55",
+      "explanation": "Vor = to.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Das Auto steht vor ___ Haus.",
+      "options": [
+        "dem",
+        "das"
+      ],
+      "answer": "dem",
+      "explanation": "Location: dative.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "The opposite of vor (time) is…",
+      "options": [
+        "nach",
+        "seit"
+      ],
+      "answer": "nach",
+      "explanation": "Before / after.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Er ist ___ einer Stunde gegangen. (an hour ago)",
+      "answer": "vor",
+      "fullAnswer": "vor einer Stunde",
+      "explanation": "Vor.",
+      "id": "q5"
+    }
+  ]
+}

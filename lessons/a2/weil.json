@@ -1,0 +1,187 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "full",
+  "word": {
+    "headword": "weil",
+    "partOfSpeech": "conjunction",
+    "pronunciation": {
+      "respelling": "VILE",
+      "ipa": "vaɪ̯l",
+      "notes": ""
+    },
+    "meaning": "because",
+    "shortDefinition": "Because, sending the verb to the end."
+  },
+  "intro": {
+    "title": "Weil sends the verb to the end",
+    "paragraphs": [
+      "Weil means 'because' and starts a side clause: the conjugated verb goes right to the end. Ich bleibe zu Hause, weil ich krank bin.",
+      "Denn also means 'because' but keeps normal word order: …, denn ich bin krank. And the answer to Warum? is very often Weil…"
+    ]
+  },
+  "tables": [
+    {
+      "title": "weil, denn, deshalb",
+      "columns": [
+        "word order"
+      ],
+      "rows": [
+        {
+          "label": "weil",
+          "hint": "verb last",
+          "cells": [
+            "…, weil ich krank |bin|."
+          ]
+        },
+        {
+          "label": "denn",
+          "hint": "verb second",
+          "cells": [
+            "…, denn ich |bin| krank."
+          ]
+        },
+        {
+          "label": "deshalb",
+          "hint": "verb right after",
+          "cells": [
+            "Deshalb |bleibe| ich zu Hause."
+          ]
+        }
+      ]
+    }
+  ],
+  "keyTrap": {
+    "title": "The big trap: verb order after weil",
+    "explanation": "English word order doesn't change. German does.",
+    "wrong": {
+      "german": "Ich lerne Deutsch, weil ich will in Berlin wohnen.",
+      "verdict": "After weil the conjugated verb goes last."
+    },
+    "correct": [
+      {
+        "german": "Ich lerne Deutsch, weil ich in Berlin wohnen will.",
+        "literal": "…because I in Berlin live want.",
+        "note": "Will goes to the very end."
+      }
+    ]
+  },
+  "commonMistakes": [
+    {
+      "title": "Comma",
+      "explanation": "Always a comma before weil.",
+      "examples": [
+        {
+          "german": "Ich komme nicht, weil ich arbeiten muss.",
+          "english": "I'm not coming because I have to work.",
+          "highlight": "weil"
+        }
+      ]
+    },
+    {
+      "title": "weil or wegen?",
+      "explanation": "Weil + clause, wegen + noun.",
+      "wrong": "Ich bleibe zu Hause wegen ich krank bin.",
+      "correct": "Ich bleibe zu Hause, weil ich krank bin."
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Warum kommst du nicht? – Weil ich keine Zeit habe.",
+      "english": "Why aren't you coming? – Because I don't have time.",
+      "highlight": [
+        "Weil",
+        "habe."
+      ]
+    },
+    {
+      "german": "Ich trinke Kaffee, weil ich müde bin.",
+      "english": "I'm drinking coffee because I'm tired.",
+      "highlight": [
+        "weil",
+        "bin."
+      ]
+    },
+    {
+      "german": "Weil es regnet, nehmen wir den Bus.",
+      "english": "Because it's raining, we're taking the bus.",
+      "highlight": [
+        "Weil",
+        "regnet,"
+      ]
+    }
+  ],
+  "forms": [
+    "weil"
+  ],
+  "memoryHook": "Weil kicks the verb all the way to the end of the line.",
+  "signOff": "Weil du so fleißig bist: gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Ich bin müde, weil ich wenig ___ .",
+      "options": [
+        "geschlafen habe",
+        "habe geschlafen"
+      ],
+      "answer": "geschlafen habe",
+      "explanation": "Conjugated verb last.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "…, ___ ich bin krank. (verb second)",
+      "options": [
+        "denn",
+        "weil"
+      ],
+      "answer": "denn",
+      "explanation": "Denn keeps normal order.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Warum lernst du Deutsch? – ___ ich in Wien arbeite.",
+      "options": [
+        "Weil",
+        "Wegen"
+      ],
+      "answer": "Weil",
+      "explanation": "Clause: weil.",
+      "id": "q3"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich gehe nach Hause, ___ es spät ist.",
+      "answer": "weil",
+      "fullAnswer": "Ich gehe nach Hause, weil es spät ist.",
+      "explanation": "Weil.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Weil es regnet, ___ wir zu Hause.",
+      "options": [
+        "bleiben",
+        "wir bleiben"
+      ],
+      "answer": "bleiben",
+      "explanation": "Weil-clause first: the main verb comes next.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Comma before weil?",
+      "options": [
+        "always",
+        "never"
+      ],
+      "answer": "always",
+      "explanation": "Always.",
+      "id": "q6"
+    }
+  ]
+}

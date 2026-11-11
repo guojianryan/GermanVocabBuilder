@@ -1,0 +1,152 @@
+{
+ "schemaVersion": "1.4",
+ "language": "de",
+ "explanationLanguage": "en",
+ "level": "A1",
+ "levelSource": "Goethe-Zertifikat A1 Wortliste",
+ "lessonType": "card",
+ "word": {
+  "headword": "Ausgang",
+  "partOfSpeech": "noun, masculine (der Ausgang)",
+  "pronunciation": {
+   "respelling": "OWS-gang",
+   "ipa": "ˈaʊ̯sˌɡaŋ",
+   "notes": "Plural: die Ausgänge."
+  },
+  "meaning": "exit, way out",
+  "shortDefinition": "Exit, way out."
+ },
+ "etymology": {
+  "title": "Where it comes from",
+  "parts": [
+   {
+    "part": "Aus",
+    "meaning": "out"
+   },
+   {
+    "part": "gang",
+    "meaning": "way, walk",
+    "note": "From gehen.",
+    "emphasis": "release"
+   }
+  ],
+  "literalMeaning": "a way out"
+ },
+ "wordFamily": [
+  {
+   "german": "der Eingang",
+   "english": "entrance",
+   "type": "noun"
+  },
+  {
+   "german": "der Notausgang",
+   "english": "emergency exit",
+   "type": "noun"
+  }
+ ],
+ "commonMistakes": [
+  {
+   "title": "Gender and plural",
+   "explanation": "Der Ausgang, plural die Ausgänge.",
+   "forms": [
+    {
+     "label": "One",
+     "value": "der Ausgang"
+    },
+    {
+     "label": "More than one",
+     "value": "die Ausgänge"
+    }
+   ]
+  }
+ ],
+ "sampleSentences": [
+  {
+   "german": "Wo ist der Ausgang?",
+   "english": "Where's the exit?",
+   "highlight": [
+    "Ausgang?"
+   ]
+  },
+  {
+   "german": "Der Ausgang ist links.",
+   "english": "The exit is on the left.",
+   "highlight": [
+    "Ausgang"
+   ]
+  },
+  {
+   "german": "Bitte benutzen Sie den hinteren Ausgang.",
+   "english": "Please use the rear exit.",
+   "highlight": [
+    "Ausgang."
+   ]
+  }
+ ],
+ "forms": [
+  "Ausgänge",
+  "die Ausgänge",
+  "der Ausgang"
+ ],
+ "memoryHook": "Aus + Gang (a way you go): the way out. Eingang is the way in.",
+ "signOff": "Gut gemacht!",
+ "quiz": [
+  {
+   "type": "choice",
+   "prompt": "___ Ausgang",
+   "options": [
+    "der",
+    "die",
+    "das"
+   ],
+   "answer": "der",
+   "explanation": "Ausgang is masculine.",
+   "id": "q1"
+  },
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "ein Ausgang, zwei ___",
+   "answer": "Ausgänge",
+   "fullAnswer": "ein Ausgang, zwei Ausgänge",
+   "explanation": "The plural is Ausgänge.",
+   "acceptedAnswers": [
+    "Ausgaenge"
+   ],
+   "id": "q2"
+  },
+  {
+   "type": "choice",
+   "prompt": "What does Ausgang mean?",
+   "options": [
+    "to help",
+    "to travel",
+    "exit"
+   ],
+   "answer": "exit",
+   "explanation": "Ausgang: exit, way out.",
+   "id": "q3"
+  },
+  {
+   "type": "choice",
+   "prompt": "The opposite of der Ausgang is…",
+   "options": [
+    "der Eingang",
+    "der Anfang"
+   ],
+   "answer": "der Eingang",
+   "explanation": "Eingang: entrance.",
+   "id": "q4"
+  },
+  {
+   "type": "choice",
+   "prompt": "On a sign, 'Notausgang' means…",
+   "options": [
+    "emergency exit",
+    "main entrance"
+   ],
+   "answer": "emergency exit",
+   "explanation": "Not = emergency.",
+   "id": "q5"
+  }
+ ]
+}

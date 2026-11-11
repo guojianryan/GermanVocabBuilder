@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Center",
+    "partOfSpeech": "noun, neuter (das Center)",
+    "pronunciation": {
+      "respelling": "SEN-ter",
+      "ipa": "ˈsɛntɐ",
+      "notes": "The plural looks the same. Plural: die Center."
+    },
+    "meaning": "centre (shopping, etc.)",
+    "shortDefinition": "Centre (shopping, etc.)."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Center, plural die Center.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Center"
+        },
+        {
+          "label": "More than one",
+          "value": "die Center"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir gehen ins Einkaufscenter.",
+      "english": "We're going to the shopping centre.",
+      "highlight": [
+        "Einkaufscenter."
+      ]
+    },
+    {
+      "german": "Das Fitnesscenter hat lange offen.",
+      "english": "The fitness centre is open late.",
+      "highlight": [
+        "Fitnesscenter"
+      ]
+    },
+    {
+      "german": "Das Center liegt am Stadtrand.",
+      "english": "The centre is on the edge of town.",
+      "highlight": [
+        "Center"
+      ]
+    }
+  ],
+  "forms": [
+    "Center",
+    "die Center",
+    "das Center"
+  ],
+  "memoryHook": "Das Center (Einkaufscenter) = Zentrum.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Center",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Center is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Center, zwei ___",
+      "answer": "Center",
+      "fullAnswer": "ein Center, zwei Center",
+      "explanation": "The plural is Center.",
+      "acceptedAnswers": [
+        "Center"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Center mean?",
+      "options": [
+        "centre (shopping",
+        "the key",
+        "the street"
+      ],
+      "answer": "centre (shopping",
+      "explanation": "Center: centre (shopping, etc.).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Pronunciation:",
+      "options": [
+        "English (SEN-ter)",
+        "German (TSEN-ter)"
+      ],
+      "answer": "English (SEN-ter)",
+      "explanation": "Loanword.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "German alternative:",
+      "options": [
+        "das Zentrum",
+        "die Mitte only"
+      ],
+      "answer": "das Zentrum",
+      "explanation": "Centre.",
+      "id": "q5"
+    }
+  ]
+}

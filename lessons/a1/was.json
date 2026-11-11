@@ -1,0 +1,170 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "full",
+  "word": {
+    "headword": "was",
+    "partOfSpeech": "question word; pronoun",
+    "pronunciation": {
+      "respelling": "VAHS",
+      "ipa": "vas",
+      "notes": "W = v. Short a."
+    },
+    "meaning": "what; (informally) something",
+    "shortDefinition": "The question word for things."
+  },
+  "intro": {
+    "title": "Was ist das?",
+    "paragraphs": [
+      "Was = what. Was ist das? Was machst du? It also shows up in was für ein (what kind of) and, informally, as 'something': Ich habe was für dich."
+    ]
+  },
+  "wordFamily": [
+    {
+      "german": "was für ein",
+      "english": "what kind of",
+      "type": "phrase"
+    },
+    {
+      "german": "wer",
+      "english": "who",
+      "type": "question word"
+    },
+    {
+      "german": "etwas",
+      "english": "something",
+      "type": "pronoun"
+    }
+  ],
+  "keyTrap": {
+    "title": "The big trap: was or wer?",
+    "explanation": "Was = what (things). Wer = who (people). Wer looks like 'where', but it isn't!",
+    "wrong": {
+      "german": "Was ist das? (pointing at a person)",
+      "verdict": "For people: Wer ist das?"
+    },
+    "correct": [
+      {
+        "german": "Wer ist das?",
+        "literal": "Who is that?",
+        "note": "People: wer."
+      },
+      {
+        "german": "Was ist das?",
+        "literal": "What is that?",
+        "note": "Things: was."
+      }
+    ]
+  },
+  "commonMistakes": [
+    {
+      "title": "Pardon?",
+      "explanation": "'Was?' alone can sound rude. Say 'Wie bitte?'",
+      "wrong": "Was?",
+      "correct": "Wie bitte?"
+    },
+    {
+      "title": "What's wrong?",
+      "explanation": "Was ist los? = What's up?",
+      "examples": [
+        {
+          "german": "Was ist los?",
+          "english": "What's the matter?",
+          "highlight": "Was"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Was machst du am Wochenende?",
+      "english": "What are you doing at the weekend?",
+      "highlight": [
+        "Was"
+      ]
+    },
+    {
+      "german": "Was kostet das?",
+      "english": "How much is that?",
+      "highlight": [
+        "Was"
+      ]
+    },
+    {
+      "german": "Was ist los?",
+      "english": "What's the matter?",
+      "highlight": [
+        "Was"
+      ]
+    },
+    {
+      "german": "Was möchten Sie trinken?",
+      "english": "What would you like to drink?",
+      "highlight": [
+        "Was"
+      ]
+    }
+  ],
+  "forms": [
+    "was ist los"
+  ],
+  "memoryHook": "Was = what (things). Wer = who (people). Wo = where.",
+  "signOff": "Was für ein Fortschritt!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ ist das? – Das ist mein Bruder.",
+      "options": [
+        "Was",
+        "Wer"
+      ],
+      "answer": "Wer",
+      "explanation": "People: wer.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "___ ist das? – Das ist ein Handy.",
+      "options": [
+        "Was",
+        "Wer"
+      ],
+      "answer": "Was",
+      "explanation": "Things: was.",
+      "id": "q2"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "___ kostet die Jacke? (How much)",
+      "answer": "Was",
+      "fullAnswer": "Was kostet die Jacke?",
+      "explanation": "Was kostet …?",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Politely asking someone to repeat:",
+      "options": [
+        "Wie bitte?",
+        "Was?"
+      ],
+      "answer": "Wie bitte?",
+      "explanation": "Polite.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Was ist los?' means…",
+      "options": [
+        "What's the matter?",
+        "What is lost?"
+      ],
+      "answer": "What's the matter?",
+      "explanation": "Common question.",
+      "id": "q5"
+    }
+  ]
+}

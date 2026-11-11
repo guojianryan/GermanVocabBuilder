@@ -1,0 +1,182 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "erschöpfen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "er-SHÖP-fen",
+      "ipa": "ɛɐ̯ˈʃœpfn̩",
+      "notes": ""
+    },
+    "meaning": "to exhaust, wear out",
+    "shortDefinition": "To exhaust, wear out."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "er",
+        "meaning": "to the end"
+      },
+      {
+        "part": "schöpfen",
+        "meaning": "to scoop out",
+        "emphasis": "release"
+      }
+    ],
+    "literalMeaning": "to scoop out completely",
+    "summary": "Nothing left."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "erschöpf|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "erschöpf|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "erschöpf|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "erschöpf|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "erschöpf|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "erschöpf|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat erschöpft"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich bin völlig erschöpft.",
+      "english": "I'm completely exhausted.",
+      "highlight": [
+        "erschöpft."
+      ]
+    },
+    {
+      "german": "Die Vorräte sind erschöpft.",
+      "english": "The supplies are exhausted.",
+      "highlight": [
+        "erschöpft."
+      ]
+    },
+    {
+      "german": "Die Arbeit erschöpft ihn.",
+      "english": "The work wears him out.",
+      "highlight": [
+        "erschöpft"
+      ]
+    }
+  ],
+  "forms": [
+    "erschöpft",
+    "Erschöpfung"
+  ],
+  "memoryHook": "Erschöpfen (scoop out completely) = exhaust; erschöpft.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (erschöpfen)",
+      "answer": "erschöpft",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: erschöpft.",
+      "acceptedAnswers": [
+        "erschoepft"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (erschöpfen, past)",
+      "answer": "erschöpft",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe erschöpft.",
+      "acceptedAnswers": [
+        "erschoepft"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does erschöpfen mean?",
+      "options": [
+        "tomorrow",
+        "expensive",
+        "to exhaust"
+      ],
+      "answer": "to exhaust",
+      "explanation": "erschöpfen: to exhaust, wear out.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Adjective 'erschöpft' means…",
+      "options": [
+        "exhausted",
+        "created"
+      ],
+      "answer": "exhausted",
+      "explanation": "Tired.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Noun:",
+      "options": [
+        "die Erschöpfung",
+        "der Schöpfer"
+      ],
+      "answer": "die Erschöpfung",
+      "explanation": "Exhaustion.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "schöpfen (scoop, draw)",
+        "Schöpfung"
+      ],
+      "answer": "schöpfen (scoop, draw)",
+      "explanation": "Scoop out.",
+      "id": "q6"
+    }
+  ]
+}

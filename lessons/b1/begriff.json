@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Begriff",
+    "partOfSpeech": "noun, masculine (der Begriff)",
+    "pronunciation": {
+      "respelling": "be-GRIF",
+      "ipa": "bəˈɡʁɪf",
+      "notes": "Plural: die Begriffe."
+    },
+    "meaning": "term, concept, idea",
+    "shortDefinition": "Term, concept, idea."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Be",
+        "meaning": "prefix"
+      },
+      {
+        "part": "griff",
+        "meaning": "grip, grasp"
+      }
+    ],
+    "literalMeaning": "something grasped",
+    "summary": "An idea you've got hold of."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Begriff, plural die Begriffe.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Begriff"
+        },
+        {
+          "label": "More than one",
+          "value": "die Begriffe"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Kennst du diesen Begriff?",
+      "english": "Do you know this term?",
+      "highlight": [
+        "Begriff?"
+      ]
+    },
+    {
+      "german": "Ich habe keinen Begriff davon.",
+      "english": "I have no idea about it.",
+      "highlight": [
+        "Begriff"
+      ]
+    },
+    {
+      "german": "Er ist im Begriff zu gehen.",
+      "english": "He's about to leave.",
+      "highlight": [
+        "Begriff"
+      ]
+    }
+  ],
+  "forms": [
+    "begreifen"
+  ],
+  "memoryHook": "Der Begriff (grasped idea → term). Im Begriff sein = be about to.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Begriff",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Begriff is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Begriff, zwei ___",
+      "answer": "Begriffe",
+      "fullAnswer": "ein Begriff, zwei Begriffe",
+      "explanation": "The plural is Begriffe.",
+      "acceptedAnswers": [
+        "Begriffe"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Begriff mean?",
+      "options": [
+        "cheap",
+        "term",
+        "the window"
+      ],
+      "answer": "term",
+      "explanation": "Begriff: term, concept, idea.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Im Begriff sein, etwas zu tun' means…",
+      "options": [
+        "to be about to do something",
+        "to understand"
+      ],
+      "answer": "to be about to do something",
+      "explanation": "Phrase.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Related verb:",
+      "options": [
+        "begreifen (grasp)",
+        "greifen only"
+      ],
+      "answer": "begreifen (grasp)",
+      "explanation": "Grasp.",
+      "id": "q5"
+    }
+  ]
+}

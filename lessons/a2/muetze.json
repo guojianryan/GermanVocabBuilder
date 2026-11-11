@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Mütze",
+    "partOfSpeech": "noun, feminine (die Mütze)",
+    "pronunciation": {
+      "respelling": "MÜT-se",
+      "ipa": "ˈmʏtsə",
+      "notes": "Plural: die Mützen."
+    },
+    "meaning": "woolly hat, cap",
+    "shortDefinition": "Woolly hat, cap."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Mütze, plural die Mützen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Mütze"
+        },
+        {
+          "label": "More than one",
+          "value": "die Mützen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Zieh deine Mütze an!",
+      "english": "Put your hat on!",
+      "highlight": [
+        "Mütze"
+      ]
+    },
+    {
+      "german": "Im Winter trage ich eine Mütze.",
+      "english": "In winter I wear a woolly hat.",
+      "highlight": [
+        "Mütze."
+      ]
+    },
+    {
+      "german": "Die Mütze ist aus Wolle.",
+      "english": "The hat is made of wool.",
+      "highlight": [
+        "Mütze"
+      ]
+    }
+  ],
+  "forms": [
+    "Mützen",
+    "die Mützen",
+    "die Mütze"
+  ],
+  "memoryHook": "Die Mütze (soft, woolly) vs der Hut (with a brim).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Mütze",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Mütze is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Mütze, zwei ___",
+      "answer": "Mützen",
+      "fullAnswer": "ein Mütze, zwei Mützen",
+      "explanation": "The plural is Mützen.",
+      "acceptedAnswers": [
+        "Muetzen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Mütze mean?",
+      "options": [
+        "woolly hat",
+        "cheap",
+        "the door"
+      ],
+      "answer": "woolly hat",
+      "explanation": "Mütze: woolly hat, cap.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "A hat with a brim is…",
+      "options": [
+        "ein Hut",
+        "eine Mütze"
+      ],
+      "answer": "ein Hut",
+      "explanation": "Mütze = soft hat, cap.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Put on a hat':",
+      "options": [
+        "eine Mütze aufsetzen / anziehen",
+        "eine Mütze tragen an"
+      ],
+      "answer": "eine Mütze aufsetzen / anziehen",
+      "explanation": "Aufsetzen.",
+      "id": "q5"
+    }
+  ]
+}

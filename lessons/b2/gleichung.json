@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Gleichung",
+    "partOfSpeech": "noun, feminine (die Gleichung)",
+    "pronunciation": {
+      "respelling": "GLY-khung",
+      "ipa": "ˈɡlaɪ̯çʊŋ",
+      "notes": "Plural: die Gleichungen."
+    },
+    "meaning": "equation",
+    "shortDefinition": "Equation."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Gleich",
+        "meaning": "equal"
+      },
+      {
+        "part": "ung",
+        "meaning": "noun ending"
+      }
+    ],
+    "literalMeaning": "an equalling"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Gleichung, plural die Gleichungen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Gleichung"
+        },
+        {
+          "label": "More than one",
+          "value": "die Gleichungen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Löse die Gleichung.",
+      "english": "Solve the equation.",
+      "highlight": [
+        "Gleichung."
+      ]
+    },
+    {
+      "german": "Eine Gleichung mit zwei Unbekannten.",
+      "english": "An equation with two unknowns.",
+      "highlight": [
+        "Gleichung"
+      ]
+    },
+    {
+      "german": "Die Gleichung geht nicht auf.",
+      "english": "The equation doesn't work out.",
+      "highlight": [
+        "Gleichung"
+      ]
+    }
+  ],
+  "forms": [
+    "gleich"
+  ],
+  "memoryHook": "Gleich → die Gleichung.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Gleichung",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Gleichung is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Gleichung, zwei ___",
+      "answer": "Gleichungen",
+      "fullAnswer": "ein Gleichung, zwei Gleichungen",
+      "explanation": "The plural is Gleichungen.",
+      "acceptedAnswers": [
+        "Gleichungen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Gleichung mean?",
+      "options": [
+        "equation",
+        "the bill",
+        "the bed"
+      ],
+      "answer": "equation",
+      "explanation": "Gleichung: equation.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "gleich (equal)",
+        "gleichen only"
+      ],
+      "answer": "gleich (equal)",
+      "explanation": "Equal.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Eine Gleichung lösen' means…",
+      "options": [
+        "to solve an equation",
+        "to dissolve an equation"
+      ],
+      "answer": "to solve an equation",
+      "explanation": "Maths.",
+      "id": "q5"
+    }
+  ]
+}

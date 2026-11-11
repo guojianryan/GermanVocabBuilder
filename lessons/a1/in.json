@@ -1,0 +1,210 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "full",
+  "word": {
+    "headword": "in",
+    "partOfSpeech": "preposition (dative or accusative)",
+    "pronunciation": {
+      "respelling": "IN",
+      "ipa": "ɪn",
+      "notes": "Short i."
+    },
+    "meaning": "in, inside; into",
+    "shortDefinition": "Inside something, or moving into it."
+  },
+  "intro": {
+    "title": "Im Haus, ins Haus",
+    "paragraphs": [
+      "In is a two-way preposition: dative for where something is (im Kino, in the cinema), accusative for where it's going (ins Kino, to the cinema). It also covers months, seasons and years: im Mai, im Sommer."
+    ]
+  },
+  "tables": [
+    {
+      "title": "Where or where to?",
+      "columns": [
+        "where (dative)",
+        "where to (accusative)"
+      ],
+      "rows": [
+        {
+          "label": "masculine",
+          "cells": [
+            "i|m| Park",
+            "in |den| Park"
+          ]
+        },
+        {
+          "label": "feminine",
+          "cells": [
+            "in |der| Stadt",
+            "in |die| Stadt"
+          ]
+        },
+        {
+          "label": "neuter",
+          "cells": [
+            "i|m| Kino",
+            "in|s| Kino"
+          ]
+        }
+      ],
+      "notes": [
+        "In dem → im. In das → ins.",
+        "Months and seasons: im Mai, im Winter."
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "im Moment",
+      "english": "at the moment",
+      "type": "phrase"
+    },
+    {
+      "german": "nach",
+      "english": "to (countries, cities)",
+      "type": "preposition"
+    },
+    {
+      "german": "zu",
+      "english": "to (people, places)",
+      "type": "preposition"
+    }
+  ],
+  "keyTrap": {
+    "title": "The big trap: im or ins?",
+    "explanation": "Im is for being there. Ins is for going there.",
+    "wrong": {
+      "german": "Ich gehe heute im Kino.",
+      "verdict": "Going there needs ins."
+    },
+    "correct": [
+      {
+        "german": "Ich gehe heute ins Kino.",
+        "literal": "I go today into-the cinema.",
+        "note": "Going: ins."
+      },
+      {
+        "german": "Ich bin im Kino.",
+        "literal": "I am in-the cinema.",
+        "note": "Being there: im."
+      }
+    ]
+  },
+  "commonMistakes": [
+    {
+      "title": "Countries with an article",
+      "explanation": "Most countries take nach, but those with an article take in: in die Schweiz, in die USA.",
+      "examples": [
+        {
+          "german": "Wir fahren in die Türkei.",
+          "english": "We're going to Turkey.",
+          "highlight": "in"
+        }
+      ]
+    },
+    {
+      "title": "Months",
+      "explanation": "Months take im, not am.",
+      "wrong": "am Juli",
+      "correct": "im Juli"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich wohne in Berlin.",
+      "english": "I live in Berlin.",
+      "highlight": [
+        "in"
+      ]
+    },
+    {
+      "german": "Die Kinder spielen im Garten.",
+      "english": "The children are playing in the garden.",
+      "highlight": [
+        "im"
+      ]
+    },
+    {
+      "german": "Wir gehen ins Restaurant.",
+      "english": "We're going to a restaurant.",
+      "highlight": [
+        "ins"
+      ]
+    },
+    {
+      "german": "Im August habe ich Urlaub.",
+      "english": "I'm on holiday in August.",
+      "highlight": [
+        "Im"
+      ]
+    }
+  ],
+  "forms": [
+    "im",
+    "ins",
+    "in dem",
+    "in der",
+    "in die"
+  ],
+  "memoryHook": "In: im = being there, ins = going there. Months and seasons: im Mai, im Winter.",
+  "signOff": "Bis im nächsten Kapitel!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Ich bin ___ Büro.",
+      "options": [
+        "im",
+        "ins"
+      ],
+      "answer": "im",
+      "explanation": "Location: im.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich gehe ___ Büro.",
+      "options": [
+        "im",
+        "ins"
+      ],
+      "answer": "ins",
+      "explanation": "Direction: ins.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Mein Geburtstag ist ___ Juni.",
+      "options": [
+        "am",
+        "im"
+      ],
+      "answer": "im",
+      "explanation": "Months: im.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Wir fahren ___ Schweiz.",
+      "options": [
+        "nach",
+        "in die"
+      ],
+      "answer": "in die",
+      "explanation": "Die Schweiz: in die.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Er sitzt ___ der Küche. (in)",
+      "answer": "in",
+      "fullAnswer": "Er sitzt in der Küche.",
+      "explanation": "In der.",
+      "id": "q5"
+    }
+  ]
+}

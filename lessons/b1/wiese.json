@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Wiese",
+    "partOfSpeech": "noun, feminine (die Wiese)",
+    "pronunciation": {
+      "respelling": "VEE-ze",
+      "ipa": "ˈviːzə",
+      "notes": "Plural: die Wiesen."
+    },
+    "meaning": "meadow, field (grass)",
+    "shortDefinition": "Meadow, field (grass)."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Wiese, plural die Wiesen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Wiese"
+        },
+        {
+          "label": "More than one",
+          "value": "die Wiesen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Kühe stehen auf der Wiese.",
+      "english": "The cows are in the meadow.",
+      "highlight": [
+        "Wiese."
+      ]
+    },
+    {
+      "german": "Wir machen ein Picknick auf der Wiese.",
+      "english": "We're having a picnic on the grass.",
+      "highlight": [
+        "Wiese."
+      ]
+    },
+    {
+      "german": "Das Oktoberfest ist auf der Theresienwiese.",
+      "english": "Oktoberfest is on the Theresienwiese.",
+      "highlight": [
+        "Theresienwiese."
+      ]
+    }
+  ],
+  "forms": [
+    "Wiesen",
+    "die Wiesen",
+    "die Wiese"
+  ],
+  "memoryHook": "Die Wiese (meadow). Auf der Wiese.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Wiese",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Wiese is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Wiese, zwei ___",
+      "answer": "Wiesen",
+      "fullAnswer": "ein Wiese, zwei Wiesen",
+      "explanation": "The plural is Wiesen.",
+      "acceptedAnswers": [
+        "Wiesen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Wiese mean?",
+      "options": [
+        "meadow",
+        "cheap",
+        "to help"
+      ],
+      "answer": "meadow",
+      "explanation": "Wiese: meadow, field (grass).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Auf der Wiese' — preposition:",
+      "options": [
+        "auf",
+        "in"
+      ],
+      "answer": "auf",
+      "explanation": "On.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Wiese vs Feld:",
+      "options": [
+        "Wiese = grass; Feld = crop field",
+        "same"
+      ],
+      "answer": "Wiese = grass; Feld = crop field",
+      "explanation": "Different.",
+      "id": "q5"
+    }
+  ]
+}

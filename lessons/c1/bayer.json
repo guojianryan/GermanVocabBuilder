@@ -1,0 +1,135 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Bayer",
+    "partOfSpeech": "noun, masculine (der Bayer)",
+    "pronunciation": {
+      "respelling": "BYE-er",
+      "ipa": "ˈbaɪ̯ɐ",
+      "notes": "Plural: die Bayern."
+    },
+    "meaning": "Bavarian (person)",
+    "shortDefinition": "Bavarian (person)."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Bayer, plural die Bayern.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Bayer"
+        },
+        {
+          "label": "More than one",
+          "value": "die Bayern"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er ist ein echter Bayer.",
+      "english": "He's a true Bavarian.",
+      "highlight": [
+        "Bayer."
+      ]
+    },
+    {
+      "german": "Die Bayern feiern das Oktoberfest.",
+      "english": "The Bavarians celebrate Oktoberfest.",
+      "highlight": [
+        "Bayern"
+      ]
+    },
+    {
+      "german": "Sie ist Bayerin.",
+      "english": "She's Bavarian.",
+      "highlight": [
+        "Bayerin."
+      ]
+    }
+  ],
+  "forms": [
+    "Bayerin",
+    "bayerisch",
+    "Bayern"
+  ],
+  "memoryHook": "Der Bayer (weak), die Bayerin; Bayern; bay(e)risch.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Bayer",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Bayer is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Bayer, zwei ___",
+      "answer": "Bayern",
+      "fullAnswer": "ein Bayer, zwei Bayern",
+      "explanation": "The plural is Bayern.",
+      "acceptedAnswers": [
+        "Bayern"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Bayer mean?",
+      "options": [
+        "Bavarian (person)",
+        "to open",
+        "to buy"
+      ],
+      "answer": "Bavarian (person)",
+      "explanation": "Bayer: Bavarian (person).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Weak noun: den/dem…",
+      "options": [
+        "Bayern",
+        "Bayer"
+      ],
+      "answer": "Bayern",
+      "explanation": "-n.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural 'die Bayern' also names…",
+      "options": [
+        "the state (Bayern) and FC Bayern",
+        "only people"
+      ],
+      "answer": "the state (Bayern) and FC Bayern",
+      "explanation": "Same form.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Adjective:",
+      "options": [
+        "bay(e)risch",
+        "bayernsch"
+      ],
+      "answer": "bay(e)risch",
+      "explanation": "Bavarian.",
+      "id": "q6"
+    }
+  ]
+}

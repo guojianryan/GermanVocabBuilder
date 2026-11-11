@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Sinn",
+    "partOfSpeech": "noun, masculine (der Sinn)",
+    "pronunciation": {
+      "respelling": "ZIN",
+      "ipa": "zɪn",
+      "notes": "Plural: die Sinne."
+    },
+    "meaning": "sense, meaning",
+    "shortDefinition": "Sense, meaning."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Sinn, plural die Sinne.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Sinn"
+        },
+        {
+          "label": "More than one",
+          "value": "die Sinne"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das macht keinen Sinn.",
+      "english": "That makes no sense.",
+      "highlight": [
+        "Sinn."
+      ]
+    },
+    {
+      "german": "Was ist der Sinn des Lebens?",
+      "english": "What's the meaning of life?",
+      "highlight": [
+        "Sinn"
+      ]
+    },
+    {
+      "german": "Er hat einen guten Sinn für Humor.",
+      "english": "He has a good sense of humour.",
+      "highlight": [
+        "Sinn"
+      ]
+    }
+  ],
+  "forms": [
+    "Sinne",
+    "die Sinne",
+    "der Sinn"
+  ],
+  "memoryHook": "Der Sinn: sense, meaning. Sinnlos, sinnvoll.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Sinn",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Sinn is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Sinn, zwei ___",
+      "answer": "Sinne",
+      "fullAnswer": "ein Sinn, zwei Sinne",
+      "explanation": "The plural is Sinne.",
+      "acceptedAnswers": [
+        "Sinne"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Sinn mean?",
+      "options": [
+        "sense",
+        "the door",
+        "the flower"
+      ],
+      "answer": "sense",
+      "explanation": "Sinn: sense, meaning.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Es hat keinen Sinn' means…",
+      "options": [
+        "it's pointless",
+        "it has no taste"
+      ],
+      "answer": "it's pointless",
+      "explanation": "Pointless.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "The five senses:",
+      "options": [
+        "die fünf Sinne",
+        "die fünf Sinnen"
+      ],
+      "answer": "die fünf Sinne",
+      "explanation": "Plural -e.",
+      "id": "q5"
+    }
+  ]
+}

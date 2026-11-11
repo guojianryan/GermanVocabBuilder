@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Temperatur",
+    "partOfSpeech": "noun, feminine (die Temperatur)",
+    "pronunciation": {
+      "respelling": "tem-pe-ra-TOOR",
+      "ipa": "tɛmpəʁaˈtuːɐ̯",
+      "notes": "Plural: die Temperaturen."
+    },
+    "meaning": "temperature",
+    "shortDefinition": "Temperature."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Temperatur, plural die Temperaturen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Temperatur"
+        },
+        {
+          "label": "More than one",
+          "value": "die Temperaturen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Temperatur steigt.",
+      "english": "The temperature is rising.",
+      "highlight": [
+        "Temperatur"
+      ]
+    },
+    {
+      "german": "Hast du Temperatur?",
+      "english": "Have you got a temperature?",
+      "highlight": [
+        "Temperatur?"
+      ]
+    },
+    {
+      "german": "Morgen werden Temperaturen bis 30 Grad erwartet.",
+      "english": "Temperatures of up to 30 degrees are expected tomorrow.",
+      "highlight": [
+        "Temperaturen"
+      ]
+    }
+  ],
+  "forms": [
+    "Temperaturen",
+    "die Temperaturen",
+    "die Temperatur"
+  ],
+  "memoryHook": "Die Temperatur (stress at the end).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Temperatur",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Temperatur is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Temperatur, zwei ___",
+      "answer": "Temperaturen",
+      "fullAnswer": "ein Temperatur, zwei Temperaturen",
+      "explanation": "The plural is Temperaturen.",
+      "acceptedAnswers": [
+        "Temperaturen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Temperatur mean?",
+      "options": [
+        "the station",
+        "temperature",
+        "the shop"
+      ],
+      "answer": "temperature",
+      "explanation": "Temperatur: temperature.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Stress on…",
+      "options": [
+        "-TUR",
+        "TEM-"
+      ],
+      "answer": "-TUR",
+      "explanation": "End.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Temperatur haben' means…",
+      "options": [
+        "to have a slight fever",
+        "to feel warm"
+      ],
+      "answer": "to have a slight fever",
+      "explanation": "Fever.",
+      "id": "q5"
+    }
+  ]
+}

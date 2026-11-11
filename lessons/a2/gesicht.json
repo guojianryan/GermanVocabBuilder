@@ -1,0 +1,138 @@
+{
+ "schemaVersion": "1.4",
+ "language": "de",
+ "explanationLanguage": "en",
+ "level": "A2",
+ "levelSource": "Goethe-Zertifikat A2 Wortliste",
+ "lessonType": "card",
+ "word": {
+  "headword": "Gesicht",
+  "partOfSpeech": "noun, neuter (das Gesicht)",
+  "pronunciation": {
+   "respelling": "ge-ZIKHT",
+   "ipa": "ɡəˈzɪçt",
+   "notes": "Plural: die Gesichter."
+  },
+  "meaning": "face",
+  "shortDefinition": "Face."
+ },
+ "commonMistakes": [
+  {
+   "title": "Gender and plural",
+   "explanation": "Das Gesicht, plural die Gesichter.",
+   "forms": [
+    {
+     "label": "One",
+     "value": "das Gesicht"
+    },
+    {
+     "label": "More than one",
+     "value": "die Gesichter"
+    }
+   ]
+  }
+ ],
+ "sampleSentences": [
+  {
+   "german": "Sie hat ein schönes Gesicht.",
+   "english": "She has a beautiful face.",
+   "highlight": [
+    "Gesicht."
+   ]
+  },
+  {
+   "german": "Wasch dir das Gesicht!",
+   "english": "Wash your face!",
+   "highlight": [
+    "Gesicht!"
+   ]
+  },
+  {
+   "german": "Mach nicht so ein Gesicht!",
+   "english": "Don't pull such a face!",
+   "highlight": [
+    "Gesicht!"
+   ]
+  }
+ ],
+ "forms": [
+  "Gesichter",
+  "die Gesichter",
+  "das Gesicht"
+ ],
+ "memoryHook": "Das Gesicht: from Sicht (sight). Plural Gesichter.",
+ "signOff": "Gut gemacht!",
+ "quiz": [
+  {
+   "type": "choice",
+   "prompt": "___ Gesicht",
+   "options": [
+    "der",
+    "die",
+    "das"
+   ],
+   "answer": "das",
+   "explanation": "Gesicht is neuter.",
+   "id": "q1"
+  },
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "ein Gesicht, zwei ___",
+   "answer": "Gesichter",
+   "fullAnswer": "ein Gesicht, zwei Gesichter",
+   "explanation": "The plural is Gesichter.",
+   "acceptedAnswers": [
+    "Gesichter"
+   ],
+   "id": "q2"
+  },
+  {
+   "type": "choice",
+   "prompt": "What does Gesicht mean?",
+   "options": [
+    "hot",
+    "face",
+    "slowly"
+   ],
+   "answer": "face",
+   "explanation": "Gesicht: face.",
+   "id": "q3"
+  },
+  {
+   "type": "choice",
+   "prompt": "'Wash your face' (body part with dative):",
+   "options": [
+    "Wasch dir das Gesicht!",
+    "Wasch dein Gesicht dich!"
+   ],
+   "answer": "Wasch dir das Gesicht!",
+   "explanation": "Dir + das.",
+   "id": "q4"
+  },
+  {
+   "type": "choice",
+   "prompt": "From…",
+   "options": [
+    "sehen (Sicht = sight)",
+    "sagen"
+   ],
+   "answer": "sehen (Sicht = sight)",
+   "explanation": "What you see.",
+   "id": "q5"
+  }
+ ],
+ "etymology": {
+  "title": "Where it comes from",
+  "parts": [
+   {
+    "part": "Ge",
+    "meaning": "prefix"
+   },
+   {
+    "part": "sicht",
+    "meaning": "sight"
+   }
+  ],
+  "literalMeaning": "what you see"
+ }
+}

@@ -1,0 +1,133 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Senat",
+    "partOfSpeech": "noun, masculine (der Senat)",
+    "pronunciation": {
+      "respelling": "ze-NAAT",
+      "ipa": "zeˈnaːt",
+      "notes": "Plural: die Senate."
+    },
+    "meaning": "senate",
+    "shortDefinition": "Senate."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Senat, plural die Senate.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Senat"
+        },
+        {
+          "label": "More than one",
+          "value": "die Senate"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Senat hat das Gesetz beschlossen.",
+      "english": "The senate passed the law.",
+      "highlight": [
+        "Senat"
+      ]
+    },
+    {
+      "german": "Der Berliner Senat.",
+      "english": "The Berlin Senate (city government).",
+      "highlight": [
+        "Senat."
+      ]
+    },
+    {
+      "german": "Er sitzt im US-Senat.",
+      "english": "He sits in the US Senate.",
+      "highlight": [
+        "US-Senat."
+      ]
+    }
+  ],
+  "forms": [
+    "Senator"
+  ],
+  "memoryHook": "Der Senat; der Senator.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Senat",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Senat is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Senat, zwei ___",
+      "answer": "Senate",
+      "fullAnswer": "ein Senat, zwei Senate",
+      "explanation": "The plural is Senate.",
+      "acceptedAnswers": [
+        "Senate"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Senat mean?",
+      "options": [
+        "the bed",
+        "the bread",
+        "senate"
+      ],
+      "answer": "senate",
+      "explanation": "Senat: senate.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "In Berlin, Hamburg, Bremen the Senat is…",
+      "options": [
+        "the city-state government",
+        "a court"
+      ],
+      "answer": "the city-state government",
+      "explanation": "City-state.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Member:",
+      "options": [
+        "der Senator / die Senatorin",
+        "der Senater"
+      ],
+      "answer": "der Senator / die Senatorin",
+      "explanation": "Person.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Stress on…",
+      "options": [
+        "-NAT",
+        "SE-"
+      ],
+      "answer": "-NAT",
+      "explanation": "End.",
+      "id": "q6"
+    }
+  ]
+}

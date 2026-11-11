@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Bakterie",
+    "partOfSpeech": "noun, feminine (die Bakterie)",
+    "pronunciation": {
+      "respelling": "bak-TAY-ri-e",
+      "ipa": "bakˈteːʁi̯ə",
+      "notes": "Plural: die Bakterien."
+    },
+    "meaning": "bacterium",
+    "shortDefinition": "Bacterium."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Bakterie, plural die Bakterien.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Bakterie"
+        },
+        {
+          "label": "More than one",
+          "value": "die Bakterien"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Bakterien sind sehr klein.",
+      "english": "Bacteria are very small.",
+      "highlight": [
+        "Bakterien"
+      ]
+    },
+    {
+      "german": "Diese Bakterie ist gefährlich.",
+      "english": "This bacterium is dangerous.",
+      "highlight": [
+        "Bakterie"
+      ]
+    },
+    {
+      "german": "Seife tötet Bakterien.",
+      "english": "Soap kills bacteria.",
+      "highlight": [
+        "Bakterien."
+      ]
+    }
+  ],
+  "forms": [
+    "Bakterien",
+    "die Bakterien",
+    "die Bakterie"
+  ],
+  "memoryHook": "Die Bakterie, die Bakterien.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Bakterie",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Bakterie is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Bakterie, zwei ___",
+      "answer": "Bakterien",
+      "fullAnswer": "ein Bakterie, zwei Bakterien",
+      "explanation": "The plural is Bakterien.",
+      "acceptedAnswers": [
+        "Bakterien"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Bakterie mean?",
+      "options": [
+        "bacterium",
+        "slowly",
+        "the weather"
+      ],
+      "answer": "bacterium",
+      "explanation": "Bakterie: bacterium.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Usually used in…",
+      "options": [
+        "the plural (Bakterien)",
+        "singular"
+      ],
+      "answer": "the plural (Bakterien)",
+      "explanation": "Bacteria.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Stress on…",
+      "options": [
+        "-TE-",
+        "BAK-"
+      ],
+      "answer": "-TE-",
+      "explanation": "bak-TAY-ri-e.",
+      "id": "q5"
+    }
+  ]
+}

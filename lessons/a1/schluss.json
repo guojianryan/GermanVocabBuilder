@@ -1,0 +1,130 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Schluss",
+    "partOfSpeech": "noun, masculine (der Schluss)",
+    "pronunciation": {
+      "respelling": "SHLOOS",
+      "ipa": "ʃlʊs",
+      "notes": "No plural in this sense. Usually no plural."
+    },
+    "meaning": "end; close",
+    "shortDefinition": "End; close."
+  },
+  "wordFamily": [
+    {
+      "german": "das Ende",
+      "english": "end",
+      "type": "noun"
+    },
+    {
+      "german": "schließen",
+      "english": "to close",
+      "type": "verb"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Schluss, usually no plural.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Schluss"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Zum Schluss gibt es Kaffee.",
+      "english": "At the end there's coffee.",
+      "highlight": [
+        "Schluss"
+      ]
+    },
+    {
+      "german": "Schluss für heute!",
+      "english": "That's it for today!",
+      "highlight": [
+        "Schluss"
+      ]
+    },
+    {
+      "german": "Am Schluss des Films war ich traurig.",
+      "english": "At the end of the film I was sad.",
+      "highlight": [
+        "Schluss"
+      ]
+    }
+  ],
+  "forms": [
+    "der Schluss"
+  ],
+  "memoryHook": "Der Schluss = end (from schließen). Zum Schluss = finally. Schluss! = Enough!",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Schluss",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Schluss is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Schluss mean?",
+      "options": [
+        "never",
+        "end",
+        "to open"
+      ],
+      "answer": "end",
+      "explanation": "Schluss: end; close.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Schluss für heute!' means…",
+      "options": [
+        "That's it for today!",
+        "Close today!"
+      ],
+      "answer": "That's it for today!",
+      "explanation": "End.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Zum Schluss' means…",
+      "options": [
+        "finally, at the end",
+        "to close"
+      ],
+      "answer": "finally, at the end",
+      "explanation": "Last step.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "A synonym of Schluss is…",
+      "options": [
+        "das Ende",
+        "der Anfang"
+      ],
+      "answer": "das Ende",
+      "explanation": "End.",
+      "id": "q5"
+    }
+  ]
+}

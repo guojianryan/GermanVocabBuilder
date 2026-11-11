@@ -1,0 +1,155 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "kleben",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "KLAY-ben",
+      "ipa": "ˈkleːbn̩",
+      "notes": ""
+    },
+    "meaning": "to stick, to glue",
+    "shortDefinition": "To stick, to glue."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "kleb|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "kleb|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "kleb|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "kleb|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "kleb|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "kleb|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat geklebt"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich klebe eine Briefmarke auf den Brief.",
+      "english": "I stick a stamp on the letter.",
+      "highlight": [
+        "klebe"
+      ]
+    },
+    {
+      "german": "Der Tisch klebt.",
+      "english": "The table's sticky.",
+      "highlight": [
+        "klebt."
+      ]
+    },
+    {
+      "german": "Das Foto ist ins Album geklebt.",
+      "english": "The photo is glued into the album.",
+      "highlight": [
+        "geklebt."
+      ]
+    }
+  ],
+  "forms": [
+    "Kleber",
+    "klebrig"
+  ],
+  "memoryHook": "Kleben = stick, glue. Klebrig = sticky.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (kleben)",
+      "answer": "klebt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: klebt.",
+      "acceptedAnswers": [
+        "klebt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (kleben, past)",
+      "answer": "geklebt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe geklebt.",
+      "acceptedAnswers": [
+        "geklebt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does kleben mean?",
+      "options": [
+        "to stick",
+        "to open",
+        "always"
+      ],
+      "answer": "to stick",
+      "explanation": "kleben: to stick, to glue.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Glue:",
+      "options": [
+        "der Kleber / Klebstoff",
+        "das Klebe"
+      ],
+      "answer": "der Kleber / Klebstoff",
+      "explanation": "Glue.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Sticky:",
+      "options": [
+        "klebrig",
+        "klebisch"
+      ],
+      "answer": "klebrig",
+      "explanation": "Sticky.",
+      "id": "q5"
+    }
+  ]
+}

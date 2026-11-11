@@ -1,0 +1,171 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "sitzen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "ZIT-sen",
+      "ipa": "ˈzɪtsn̩",
+      "notes": ""
+    },
+    "meaning": "to sit, to be sitting",
+    "shortDefinition": "To sit, to be sitting."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "sitz|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "sitz|t"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "sitz|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "sitz|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "sitz|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "sitz|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gesessen",
+        "Du sitzt: the stem ends in -tz, so du just adds -t. South Germany/Austria: ist gesessen."
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "sich setzen",
+      "english": "to sit down",
+      "type": "reflexive verb"
+    },
+    {
+      "german": "der Sitz",
+      "english": "seat",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir sitzen im Garten.",
+      "english": "We're sitting in the garden.",
+      "highlight": [
+        "sitzen"
+      ]
+    },
+    {
+      "german": "Ist hier noch frei? – Nein, hier sitzt schon jemand.",
+      "english": "Is this free? – No, someone's sitting here.",
+      "highlight": [
+        "sitzt"
+      ]
+    },
+    {
+      "german": "Ich habe den ganzen Tag am Computer gesessen.",
+      "english": "I sat at the computer all day.",
+      "highlight": [
+        "gesessen."
+      ]
+    }
+  ],
+  "forms": [
+    "sitze",
+    "sitzt",
+    "sitzen",
+    "gesessen",
+    "saß"
+  ],
+  "memoryHook": "Sitzen = be sitting (state, dative). Sich setzen = sit down (action). Past: gesessen.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (sitzen)",
+      "answer": "sitzt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: sitzt.",
+      "acceptedAnswers": [
+        "sitzt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (sitzen, past)",
+      "answer": "gesessen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gesessen.",
+      "acceptedAnswers": [
+        "gesessen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does sitzen mean?",
+      "options": [
+        "the bed",
+        "to sit",
+        "the bread"
+      ],
+      "answer": "to sit",
+      "explanation": "sitzen: to sit, to be sitting.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Sitzen (state) vs setzen (action): 'Sit down!' is…",
+      "options": [
+        "Setz dich!",
+        "Sitz dich!"
+      ],
+      "answer": "Setz dich!",
+      "explanation": "Action: sich setzen.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Sitzen + location takes the…",
+      "options": [
+        "dative",
+        "accusative"
+      ],
+      "answer": "dative",
+      "explanation": "Im Garten.",
+      "id": "q5"
+    }
+  ]
+}

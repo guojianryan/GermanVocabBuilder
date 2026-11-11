@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Terrorist",
+    "partOfSpeech": "noun, masculine (der Terrorist)",
+    "pronunciation": {
+      "respelling": "te-ro-RIST",
+      "ipa": "tɛʁoˈʁɪst",
+      "notes": "Plural: die Terroristen."
+    },
+    "meaning": "terrorist",
+    "shortDefinition": "Terrorist."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Terrorist, plural die Terroristen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Terrorist"
+        },
+        {
+          "label": "More than one",
+          "value": "die Terroristen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Terroristen wurden festgenommen.",
+      "english": "The terrorists were arrested.",
+      "highlight": [
+        "Terroristen"
+      ]
+    },
+    {
+      "german": "Er wird als Terrorist gesucht.",
+      "english": "He's wanted as a terrorist.",
+      "highlight": [
+        "Terrorist"
+      ]
+    },
+    {
+      "german": "Die Polizei fasste den Terroristen.",
+      "english": "The police caught the terrorist.",
+      "highlight": [
+        "Terroristen."
+      ]
+    }
+  ],
+  "forms": [
+    "Terroristin",
+    "Terrorismus"
+  ],
+  "memoryHook": "Der Terrorist (weak); der Terrorismus.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Terrorist",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Terrorist is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Terrorist, zwei ___",
+      "answer": "Terroristen",
+      "fullAnswer": "ein Terrorist, zwei Terroristen",
+      "explanation": "The plural is Terroristen.",
+      "acceptedAnswers": [
+        "Terroristen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Terrorist mean?",
+      "options": [
+        "the evening",
+        "terrorist",
+        "tomorrow"
+      ],
+      "answer": "terrorist",
+      "explanation": "Terrorist: terrorist.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Weak noun: den/dem…",
+      "options": [
+        "Terroristen",
+        "Terrorist"
+      ],
+      "answer": "Terroristen",
+      "explanation": "-ist = weak.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Female:",
+      "options": [
+        "die Terroristin",
+        "die Terroristen"
+      ],
+      "answer": "die Terroristin",
+      "explanation": "-in.",
+      "id": "q5"
+    }
+  ]
+}

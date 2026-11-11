@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Weltmeister",
+    "partOfSpeech": "noun, masculine (der Weltmeister)",
+    "pronunciation": {
+      "respelling": "VELT-mice-ter",
+      "ipa": "ˈvɛltˌmaɪ̯stɐ",
+      "notes": "The plural looks the same. Plural: die Weltmeister."
+    },
+    "meaning": "world champion",
+    "shortDefinition": "World champion."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Welt",
+        "meaning": "world"
+      },
+      {
+        "part": "meister",
+        "meaning": "master, champion"
+      }
+    ],
+    "literalMeaning": "world master"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Weltmeister, plural die Weltmeister.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Weltmeister"
+        },
+        {
+          "label": "More than one",
+          "value": "die Weltmeister"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Deutschland wurde 2014 Weltmeister.",
+      "english": "Germany became world champions in 2014.",
+      "highlight": [
+        "Weltmeister."
+      ]
+    },
+    {
+      "german": "Sie ist Weltmeisterin im Schwimmen.",
+      "english": "She's the world swimming champion.",
+      "highlight": [
+        "Weltmeisterin"
+      ]
+    },
+    {
+      "german": "Er ist Weltmeister im Zuspätkommen.",
+      "english": "He's a world champion at being late.",
+      "highlight": [
+        "Weltmeister"
+      ]
+    }
+  ],
+  "forms": [
+    "Weltmeisterin",
+    "Weltmeisterschaft"
+  ],
+  "memoryHook": "Welt + Meister = world champion; die WM.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Weltmeister",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Weltmeister is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Weltmeister, zwei ___",
+      "answer": "Weltmeister",
+      "fullAnswer": "ein Weltmeister, zwei Weltmeister",
+      "explanation": "The plural is Weltmeister.",
+      "acceptedAnswers": [
+        "Weltmeister"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Weltmeister mean?",
+      "options": [
+        "the station",
+        "world champion",
+        "the bread"
+      ],
+      "answer": "world champion",
+      "explanation": "Weltmeister: world champion.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Welt + Meister (master)",
+        "Welt + Meise"
+      ],
+      "answer": "Welt + Meister (master)",
+      "explanation": "World master.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Championship:",
+      "options": [
+        "die Weltmeisterschaft (WM)",
+        "die Weltmeisterei"
+      ],
+      "answer": "die Weltmeisterschaft (WM)",
+      "explanation": "WM.",
+      "id": "q5"
+    }
+  ]
+}

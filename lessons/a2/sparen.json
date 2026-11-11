@@ -1,0 +1,171 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "sparen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "SHPAA-ren",
+      "ipa": "ˈʃpaːʁən",
+      "notes": ""
+    },
+    "meaning": "to save (money)",
+    "shortDefinition": "To save (money)."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "spar|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "spar|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "spar|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "spar|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "spar|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "spar|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gespart"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "die Sparkasse",
+      "english": "savings bank",
+      "type": "noun"
+    },
+    {
+      "german": "speichern",
+      "english": "to save (data)",
+      "type": "verb"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich spare für ein neues Auto.",
+      "english": "I'm saving for a new car.",
+      "highlight": [
+        "spare",
+        "für"
+      ]
+    },
+    {
+      "german": "Wir müssen Geld sparen.",
+      "english": "We need to save money.",
+      "highlight": [
+        "sparen."
+      ]
+    },
+    {
+      "german": "So spart man Zeit.",
+      "english": "That's how you save time.",
+      "highlight": [
+        "spart"
+      ]
+    }
+  ],
+  "forms": [
+    "spare",
+    "sparst",
+    "spart",
+    "sparen",
+    "gespart"
+  ],
+  "memoryHook": "Sparen = save money/time. Save a file = speichern!",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (sparen)",
+      "answer": "spart",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: spart.",
+      "acceptedAnswers": [
+        "spart"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (sparen, past)",
+      "answer": "gespart",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gespart.",
+      "acceptedAnswers": [
+        "gespart"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does sparen mean?",
+      "options": [
+        "to sing",
+        "to save (money)",
+        "the bed"
+      ],
+      "answer": "to save (money)",
+      "explanation": "sparen: to save (money).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Save ___ something:",
+      "options": [
+        "für / auf",
+        "zu"
+      ],
+      "answer": "für / auf",
+      "explanation": "Sparen für.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Save a FILE:",
+      "options": [
+        "speichern",
+        "sparen"
+      ],
+      "answer": "speichern",
+      "explanation": "Speichern.",
+      "id": "q5"
+    }
+  ]
+}

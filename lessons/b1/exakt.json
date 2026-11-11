@@ -1,0 +1,105 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "exakt",
+    "partOfSpeech": "adjective",
+    "pronunciation": {
+      "respelling": "ek-SAKT",
+      "ipa": "ɛˈksakt",
+      "notes": ""
+    },
+    "meaning": "exact, precise",
+    "shortDefinition": "Exact, precise."
+  },
+  "sampleSentences": [
+    {
+      "german": "Das ist exakt richtig.",
+      "english": "That's exactly right.",
+      "highlight": [
+        "exakt"
+      ]
+    },
+    {
+      "german": "Wir brauchen exakte Zahlen.",
+      "english": "We need exact figures.",
+      "highlight": [
+        "exakte"
+      ]
+    },
+    {
+      "german": "Er arbeitet sehr exakt.",
+      "english": "He works very precisely.",
+      "highlight": [
+        "exakt."
+      ]
+    }
+  ],
+  "forms": [
+    "exakte"
+  ],
+  "memoryHook": "Exakt = genau.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does exakt mean?",
+      "options": [
+        "exact",
+        "the station",
+        "the bread"
+      ],
+      "answer": "exact",
+      "explanation": "exakt: exact, precise.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonym:",
+      "options": [
+        "genau",
+        "ungefähr"
+      ],
+      "answer": "genau",
+      "explanation": "Exact.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Opposite:",
+      "options": [
+        "ungenau",
+        "inexakt only"
+      ],
+      "answer": "ungenau",
+      "explanation": "Imprecise.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Stress on…",
+      "options": [
+        "-AKT",
+        "EX-"
+      ],
+      "answer": "-AKT",
+      "explanation": "End.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Es ist ___ zwölf Uhr. (exactly)",
+      "answer": "exakt",
+      "fullAnswer": "Es ist exakt zwölf Uhr.",
+      "explanation": "Exakt.",
+      "acceptedAnswers": [
+        "genau"
+      ],
+      "id": "q5"
+    }
+  ]
+}

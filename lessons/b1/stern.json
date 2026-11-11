@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Stern",
+    "partOfSpeech": "noun, masculine (der Stern)",
+    "pronunciation": {
+      "respelling": "SHTAIRN",
+      "ipa": "ʃtɛʁn",
+      "notes": "Plural: die Sterne."
+    },
+    "meaning": "star",
+    "shortDefinition": "Star."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Stern, plural die Sterne.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Stern"
+        },
+        {
+          "label": "More than one",
+          "value": "die Sterne"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Heute sieht man viele Sterne.",
+      "english": "You can see lots of stars tonight.",
+      "highlight": [
+        "Sterne."
+      ]
+    },
+    {
+      "german": "Das Hotel hat vier Sterne.",
+      "english": "The hotel has four stars.",
+      "highlight": [
+        "Sterne."
+      ]
+    },
+    {
+      "german": "Sie ist ein Stern am Pophimmel.",
+      "english": "She's a pop star.",
+      "highlight": [
+        "Stern"
+      ]
+    }
+  ],
+  "forms": [
+    "Sternzeichen"
+  ],
+  "memoryHook": "Der Stern (in the sky). Celebrity = der Star.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Stern",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Stern is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Stern, zwei ___",
+      "answer": "Sterne",
+      "fullAnswer": "ein Stern, zwei Sterne",
+      "explanation": "The plural is Sterne.",
+      "acceptedAnswers": [
+        "Sterne"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Stern mean?",
+      "options": [
+        "the job",
+        "star",
+        "the bill"
+      ],
+      "answer": "star",
+      "explanation": "Stern: star.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "A celebrity (star) usually:",
+      "options": [
+        "der Star",
+        "der Stern"
+      ],
+      "answer": "der Star",
+      "explanation": "English word.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Star sign:",
+      "options": [
+        "das Sternzeichen",
+        "der Sternname"
+      ],
+      "answer": "das Sternzeichen",
+      "explanation": "Zodiac.",
+      "id": "q5"
+    }
+  ]
+}

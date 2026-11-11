@@ -1,0 +1,117 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "scheinbar",
+    "partOfSpeech": "adjective / adverb",
+    "pronunciation": {
+      "respelling": "SHINE-baar",
+      "ipa": "ˈʃaɪ̯nbaːɐ̯",
+      "notes": ""
+    },
+    "meaning": "apparent(ly), seeming(ly)",
+    "shortDefinition": "Apparent(ly), seeming(ly)."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "schein",
+        "meaning": "appearance, shine"
+      },
+      {
+        "part": "bar",
+        "meaning": "adjective ending"
+      }
+    ],
+    "literalMeaning": "showing (only) an appearance"
+  },
+  "sampleSentences": [
+    {
+      "german": "Er ist scheinbar ruhig, aber innerlich nervös.",
+      "english": "He's outwardly calm but nervous inside.",
+      "highlight": [
+        "scheinbar"
+      ]
+    },
+    {
+      "german": "Das ist nur ein scheinbarer Widerspruch.",
+      "english": "That's only an apparent contradiction.",
+      "highlight": [
+        "scheinbarer"
+      ]
+    },
+    {
+      "german": "Scheinbar hat er es vergessen.",
+      "english": "Apparently he's forgotten.",
+      "highlight": [
+        "Scheinbar"
+      ]
+    }
+  ],
+  "forms": [
+    "anscheinend",
+    "Schein"
+  ],
+  "memoryHook": "Scheinbar (only seems) vs anscheinend (apparently).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does scheinbar mean?",
+      "options": [
+        "the door",
+        "apparent(ly)",
+        "to travel"
+      ],
+      "answer": "apparent(ly)",
+      "explanation": "scheinbar: apparent(ly), seeming(ly).",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Strictly, scheinbar means…",
+      "options": [
+        "seeming (but not really)",
+        "obviously true"
+      ],
+      "answer": "seeming (but not really)",
+      "explanation": "Only appears.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Compare 'anscheinend':",
+      "options": [
+        "apparently (probably true)",
+        "same strictly"
+      ],
+      "answer": "apparently (probably true)",
+      "explanation": "Nuance.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "der Schein (appearance)",
+        "scheinen only"
+      ],
+      "answer": "der Schein (appearance)",
+      "explanation": "Appearance.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Das Problem ist nur ___ einfach. (seemingly)",
+      "answer": "scheinbar",
+      "fullAnswer": "Das Problem ist nur scheinbar einfach.",
+      "explanation": "Scheinbar.",
+      "id": "q5"
+    }
+  ]
+}

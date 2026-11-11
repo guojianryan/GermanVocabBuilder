@@ -1,0 +1,187 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "loslassen",
+    "partOfSpeech": "separable verb",
+    "pronunciation": {
+      "respelling": "LOHS-la-sen",
+      "ipa": "ˈloːsˌlasn̩",
+      "notes": ""
+    },
+    "meaning": "to let go (of)",
+    "shortDefinition": "To let go (of)."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "los",
+        "meaning": "loose, free"
+      },
+      {
+        "part": "lassen",
+        "meaning": "to let",
+        "emphasis": "release"
+      }
+    ],
+    "literalMeaning": "to let loose",
+    "summary": "Letting go."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "lass|e … |los"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "läss|t … |los"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "läss|t … |los"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "lass|en … |los"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "lass|t … |los"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "lass|en … |los"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat losgelassen"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Lass mich los!",
+      "english": "Let go of me!",
+      "highlight": [
+        "Lass",
+        "los!"
+      ]
+    },
+    {
+      "german": "Sie kann die Vergangenheit nicht loslassen.",
+      "english": "She can't let go of the past.",
+      "highlight": [
+        "loslassen."
+      ]
+    },
+    {
+      "german": "Der Gedanke lässt mich nicht los.",
+      "english": "I can't stop thinking about it.",
+      "highlight": [
+        "lässt",
+        "los."
+      ]
+    }
+  ],
+  "forms": [
+    "lasse los",
+    "lässt los",
+    "lassen los",
+    "lasst los",
+    "losgelassen"
+  ],
+  "memoryHook": "Loslassen = let go; lässt mich nicht los.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ … los (loslassen)",
+      "answer": "lässt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: lässt … los.",
+      "acceptedAnswers": [
+        "laesst"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (loslassen, past)",
+      "answer": "losgelassen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe losgelassen.",
+      "acceptedAnswers": [
+        "losgelassen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does loslassen mean?",
+      "options": [
+        "to let go (of)",
+        "tomorrow",
+        "to help"
+      ],
+      "answer": "to let go (of)",
+      "explanation": "loslassen: to let go (of).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Etwas lässt mich nicht los' means…",
+      "options": [
+        "I can't stop thinking about it",
+        "it won't release me physically only"
+      ],
+      "answer": "I can't stop thinking about it",
+      "explanation": "Haunt.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "er ___ … los:",
+      "options": [
+        "lässt",
+        "lasst"
+      ],
+      "answer": "lässt",
+      "explanation": "a → ä.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "hat losgelassen",
+        "hat losgelasst"
+      ],
+      "answer": "hat losgelassen",
+      "explanation": "Strong.",
+      "id": "q6"
+    }
+  ]
+}

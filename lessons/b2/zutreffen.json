@@ -1,0 +1,181 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "zutreffen",
+    "partOfSpeech": "separable verb",
+    "pronunciation": {
+      "respelling": "TSOO-tre-fen",
+      "ipa": "ˈtsuːˌtʁɛfn̩",
+      "notes": ""
+    },
+    "meaning": "to be correct; (~ auf) to apply to",
+    "shortDefinition": "To be correct; (~ auf) to apply to."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "zu",
+        "meaning": "to"
+      },
+      {
+        "part": "treffen",
+        "meaning": "to hit"
+      }
+    ],
+    "literalMeaning": "to hit (the mark)"
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "treff|e … |zu"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "triff|st … |zu"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "triff|t … |zu"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "treff|en … |zu"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "treff|t … |zu"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "treff|en … |zu"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat zugetroffen"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das trifft nicht zu.",
+      "english": "That's not true.",
+      "highlight": [
+        "trifft",
+        "zu."
+      ]
+    },
+    {
+      "german": "Die Regel trifft auf alle zu.",
+      "english": "The rule applies to everyone.",
+      "highlight": [
+        "trifft",
+        "zu."
+      ]
+    },
+    {
+      "german": "Zutreffendes bitte ankreuzen.",
+      "english": "Please tick as applicable.",
+      "highlight": [
+        "Zutreffendes"
+      ]
+    }
+  ],
+  "forms": [
+    "zutreffend"
+  ],
+  "memoryHook": "Zutreffen (auf) = be true; apply to; zutreffend.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ … zu (zutreffen)",
+      "answer": "trifft",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: trifft … zu.",
+      "acceptedAnswers": [
+        "trifft"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (zutreffen, past)",
+      "answer": "zugetroffen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe zugetroffen.",
+      "acceptedAnswers": [
+        "zugetroffen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does zutreffen mean?",
+      "options": [
+        "the bread",
+        "to be correct",
+        "the street"
+      ],
+      "answer": "to be correct",
+      "explanation": "zutreffen: to be correct; (~ auf) to apply to.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Zutreffen auf' means…",
+      "options": [
+        "to apply to",
+        "to meet"
+      ],
+      "answer": "to apply to",
+      "explanation": "Apply.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Zutreffend' means…",
+      "options": [
+        "correct, applicable",
+        "meeting"
+      ],
+      "answer": "correct, applicable",
+      "explanation": "Accurate.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "er ___ … zu:",
+      "options": [
+        "trifft",
+        "trefft"
+      ],
+      "answer": "trifft",
+      "explanation": "e → i.",
+      "id": "q6"
+    }
+  ]
+}

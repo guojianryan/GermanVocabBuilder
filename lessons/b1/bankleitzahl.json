@@ -1,0 +1,140 @@
+{
+ "schemaVersion": "1.4",
+ "language": "de",
+ "explanationLanguage": "en",
+ "level": "B1",
+ "levelSource": "Goethe-Zertifikat B1 Wortliste",
+ "lessonType": "card",
+ "word": {
+  "headword": "Bankleitzahl",
+  "partOfSpeech": "noun, feminine (die Bankleitzahl)",
+  "pronunciation": {
+   "respelling": "BANK-lite-tsaal",
+   "ipa": "ˈbaŋklaɪ̯tˌtsaːl",
+   "notes": "Plural: die Bankleitzahlen."
+  },
+  "meaning": "bank sort code",
+  "shortDefinition": "Bank sort code."
+ },
+ "commonMistakes": [
+  {
+   "title": "Gender and plural",
+   "explanation": "Die Bankleitzahl, plural die Bankleitzahlen.",
+   "forms": [
+    {
+     "label": "One",
+     "value": "die Bankleitzahl"
+    },
+    {
+     "label": "More than one",
+     "value": "die Bankleitzahlen"
+    }
+   ]
+  }
+ ],
+ "sampleSentences": [
+  {
+   "german": "Wie ist Ihre Bankleitzahl?",
+   "english": "What's your sort code?",
+   "highlight": [
+    "Bankleitzahl?"
+   ]
+  },
+  {
+   "german": "Heute braucht man meistens die IBAN statt der Bankleitzahl.",
+   "english": "Today you mostly need the IBAN instead of the sort code.",
+   "highlight": [
+    "Bankleitzahl."
+   ]
+  },
+  {
+   "german": "Die Bankleitzahl hat acht Ziffern.",
+   "english": "The sort code has eight digits.",
+   "highlight": [
+    "Bankleitzahl"
+   ]
+  }
+ ],
+ "forms": [
+  "BLZ"
+ ],
+ "memoryHook": "Bank + Leit (route) + Zahl = sort code (BLZ).",
+ "signOff": "Gut gemacht!",
+ "quiz": [
+  {
+   "type": "choice",
+   "prompt": "___ Bankleitzahl",
+   "options": [
+    "der",
+    "die",
+    "das"
+   ],
+   "answer": "die",
+   "explanation": "Bankleitzahl is feminine.",
+   "id": "q1"
+  },
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "ein Bankleitzahl, zwei ___",
+   "answer": "Bankleitzahlen",
+   "fullAnswer": "ein Bankleitzahl, zwei Bankleitzahlen",
+   "explanation": "The plural is Bankleitzahlen.",
+   "acceptedAnswers": [
+    "Bankleitzahlen"
+   ],
+   "id": "q2"
+  },
+  {
+   "type": "choice",
+   "prompt": "What does Bankleitzahl mean?",
+   "options": [
+    "to buy",
+    "bank sort code",
+    "to help"
+   ],
+   "answer": "bank sort code",
+   "explanation": "Bankleitzahl: bank sort code.",
+   "id": "q3"
+  },
+  {
+   "type": "choice",
+   "prompt": "Short form:",
+   "options": [
+    "BLZ",
+    "BKZ"
+   ],
+   "answer": "BLZ",
+   "explanation": "B-L-Z.",
+   "id": "q4"
+  },
+  {
+   "type": "choice",
+   "prompt": "Today it's mostly replaced by…",
+   "options": [
+    "the IBAN",
+    "a PIN"
+   ],
+   "answer": "the IBAN",
+   "explanation": "IBAN.",
+   "id": "q5"
+  }
+ ],
+ "etymology": {
+  "title": "Where it comes from",
+  "parts": [
+   {
+    "part": "Bank",
+    "meaning": "bank"
+   },
+   {
+    "part": "leit",
+    "meaning": "route (leiten)"
+   },
+   {
+    "part": "zahl",
+    "meaning": "number"
+   }
+  ],
+  "literalMeaning": "bank routing number"
+ }
+}

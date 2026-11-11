@@ -1,0 +1,131 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Vater",
+    "partOfSpeech": "noun, masculine (der Vater)",
+    "pronunciation": {
+      "respelling": "FAH-ter",
+      "ipa": "ˈfaːtɐ",
+      "notes": "Plural: die Väter."
+    },
+    "meaning": "father",
+    "shortDefinition": "Father."
+  },
+  "wordFamily": [
+    {
+      "german": "die Mutter",
+      "english": "mother",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Vater, plural die Väter.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Vater"
+        },
+        {
+          "label": "More than one",
+          "value": "die Väter"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Mein Vater ist Ingenieur.",
+      "english": "My father is an engineer.",
+      "highlight": [
+        "Vater"
+      ]
+    },
+    {
+      "german": "Papa, kannst du mir helfen?",
+      "english": "Dad, can you help me?",
+      "highlight": [
+        "Papa,"
+      ]
+    },
+    {
+      "german": "Er ist Vater von drei Kindern.",
+      "english": "He's the father of three children.",
+      "highlight": [
+        "Vater"
+      ]
+    }
+  ],
+  "forms": [
+    "Väter",
+    "die Väter",
+    "der Vater"
+  ],
+  "memoryHook": "Der Vater (V = f), plural Väter. At home: Papa.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Vater",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Vater is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Vater, zwei ___",
+      "answer": "Väter",
+      "fullAnswer": "ein Vater, zwei Väter",
+      "explanation": "The plural is Väter.",
+      "acceptedAnswers": [
+        "Vaeter"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Vater mean?",
+      "options": [
+        "the bill",
+        "father",
+        "the street"
+      ],
+      "answer": "father",
+      "explanation": "Vater: father.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "V in Vater sounds like…",
+      "options": [
+        "f",
+        "v"
+      ],
+      "answer": "f",
+      "explanation": "FAH-ter.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "The informal word is…",
+      "options": [
+        "Papa",
+        "Opa"
+      ],
+      "answer": "Papa",
+      "explanation": "Mama, Papa.",
+      "id": "q5"
+    }
+  ]
+}

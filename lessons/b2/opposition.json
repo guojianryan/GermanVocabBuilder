@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Opposition",
+    "partOfSpeech": "noun, feminine (die Opposition)",
+    "pronunciation": {
+      "respelling": "o-po-zi-TSYOHN",
+      "ipa": "ɔpoziˈtsi̯oːn",
+      "notes": "Plural: die Oppositionen."
+    },
+    "meaning": "opposition",
+    "shortDefinition": "Opposition."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Opposition, plural die Oppositionen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Opposition"
+        },
+        {
+          "label": "More than one",
+          "value": "die Oppositionen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Opposition kritisiert die Regierung.",
+      "english": "The opposition criticises the government.",
+      "highlight": [
+        "Opposition"
+      ]
+    },
+    {
+      "german": "Die Partei ist jetzt in der Opposition.",
+      "english": "The party is now in opposition.",
+      "highlight": [
+        "Opposition."
+      ]
+    },
+    {
+      "german": "Es gab Opposition gegen den Plan.",
+      "english": "There was opposition to the plan.",
+      "highlight": [
+        "Opposition"
+      ]
+    }
+  ],
+  "forms": [
+    "Oppositionsführer"
+  ],
+  "memoryHook": "Die Opposition ↔ die Regierung.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Opposition",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Opposition is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Opposition, zwei ___",
+      "answer": "Oppositionen",
+      "fullAnswer": "ein Opposition, zwei Oppositionen",
+      "explanation": "The plural is Oppositionen.",
+      "acceptedAnswers": [
+        "Oppositionen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Opposition mean?",
+      "options": [
+        "to wait",
+        "opposition",
+        "the door"
+      ],
+      "answer": "opposition",
+      "explanation": "Opposition: opposition.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Opposite (politics):",
+      "options": [
+        "die Regierung",
+        "die Koalition only"
+      ],
+      "answer": "die Regierung",
+      "explanation": "Government.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Leader of the opposition:",
+      "options": [
+        "der Oppositionsführer",
+        "der Oppositor"
+      ],
+      "answer": "der Oppositionsführer",
+      "explanation": "Compound.",
+      "id": "q5"
+    }
+  ]
+}

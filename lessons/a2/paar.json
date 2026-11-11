@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Paar",
+    "partOfSpeech": "noun, neuter (das Paar)",
+    "pronunciation": {
+      "respelling": "PAAR",
+      "ipa": "paːɐ̯",
+      "notes": "Plural: die Paare."
+    },
+    "meaning": "pair; couple",
+    "shortDefinition": "Pair; couple."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Paar, plural die Paare.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Paar"
+        },
+        {
+          "label": "More than one",
+          "value": "die Paare"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich brauche ein Paar Schuhe.",
+      "english": "I need a pair of shoes.",
+      "highlight": [
+        "Paar"
+      ]
+    },
+    {
+      "german": "Sie sind ein schönes Paar.",
+      "english": "They're a lovely couple.",
+      "highlight": [
+        "Paar."
+      ]
+    },
+    {
+      "german": "Zwei Paar Socken, bitte.",
+      "english": "Two pairs of socks, please.",
+      "highlight": [
+        "Paar"
+      ]
+    }
+  ],
+  "forms": [
+    "Paare",
+    "die Paare",
+    "das Paar"
+  ],
+  "memoryHook": "Ein Paar (capital) = a pair. Ein paar (small) = a few!",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Paar",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Paar is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Paar, zwei ___",
+      "answer": "Paare",
+      "fullAnswer": "ein Paar, zwei Paare",
+      "explanation": "The plural is Paare.",
+      "acceptedAnswers": [
+        "Paare"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Paar mean?",
+      "options": [
+        "tomorrow",
+        "pair",
+        "to buy"
+      ],
+      "answer": "pair",
+      "explanation": "Paar: pair; couple.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ein Paar (capital P) means…",
+      "options": [
+        "a pair, exactly two",
+        "a few"
+      ],
+      "answer": "a pair, exactly two",
+      "explanation": "Ein paar = a few.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Two pairs of shoes':",
+      "options": [
+        "zwei Paar Schuhe",
+        "zwei Paare Schuhe"
+      ],
+      "answer": "zwei Paar Schuhe",
+      "explanation": "No plural after numbers.",
+      "id": "q5"
+    }
+  ]
+}

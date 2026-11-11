@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Name",
+    "partOfSpeech": "noun, masculine (der Name)",
+    "pronunciation": {
+      "respelling": "NAH-muh",
+      "ipa": "ˈnaːmə",
+      "notes": "It adds -n in other cases: den Namen. Plural: die Namen."
+    },
+    "meaning": "name",
+    "shortDefinition": "Name."
+  },
+  "wordFamily": [
+    {
+      "german": "der Vorname",
+      "english": "first name",
+      "type": "noun"
+    },
+    {
+      "german": "der Nachname",
+      "english": "surname",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Name, plural die Namen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Name"
+        },
+        {
+          "label": "More than one",
+          "value": "die Namen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wie ist Ihr Name?",
+      "english": "What's your name?",
+      "highlight": [
+        "Name?"
+      ]
+    },
+    {
+      "german": "Mein Name ist Ali Yilmaz.",
+      "english": "My name is Ali Yilmaz.",
+      "highlight": [
+        "Name"
+      ]
+    },
+    {
+      "german": "Schreiben Sie Ihren Namen hier.",
+      "english": "Write your name here.",
+      "highlight": [
+        "Namen"
+      ]
+    }
+  ],
+  "forms": [
+    "Namen",
+    "den Namen",
+    "der Name"
+  ],
+  "memoryHook": "Der Name, but Ihren Namen (adds -n). Vorname = first name, Nachname / Familienname = surname.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Name",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Name is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Name, zwei ___",
+      "answer": "Namen",
+      "fullAnswer": "ein Name, zwei Namen",
+      "explanation": "The plural is Namen.",
+      "acceptedAnswers": [
+        "Namen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Name mean?",
+      "options": [
+        "name",
+        "the street",
+        "hot"
+      ],
+      "answer": "name",
+      "explanation": "Name: name.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Schreiben Sie Ihren ___.",
+      "options": [
+        "Name",
+        "Namen"
+      ],
+      "answer": "Namen",
+      "explanation": "It adds -n except as the subject.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Your first name is…",
+      "options": [
+        "der Vorname",
+        "der Nachname"
+      ],
+      "answer": "der Vorname",
+      "explanation": "Vorname / Nachname.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Gesellschafter",
+    "partOfSpeech": "noun, masculine (der Gesellschafter)",
+    "pronunciation": {
+      "respelling": "ge-ZEL-shaf-ter",
+      "ipa": "ɡəˈzɛlʃaftɐ",
+      "notes": "The plural looks the same. Plural: die Gesellschafter."
+    },
+    "meaning": "partner, shareholder (in a company)",
+    "shortDefinition": "Partner, shareholder (in a company)."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Gesellschaft",
+        "meaning": "company"
+      },
+      {
+        "part": "er",
+        "meaning": "person who does it"
+      }
+    ],
+    "literalMeaning": "company member"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Gesellschafter, plural die Gesellschafter.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Gesellschafter"
+        },
+        {
+          "label": "More than one",
+          "value": "die Gesellschafter"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er ist Gesellschafter der GmbH.",
+      "english": "He's a partner in the limited company.",
+      "highlight": [
+        "Gesellschafter"
+      ]
+    },
+    {
+      "german": "Die Gesellschafter treffen sich jährlich.",
+      "english": "The shareholders meet annually.",
+      "highlight": [
+        "Gesellschafter"
+      ]
+    },
+    {
+      "german": "Sie ist eine gute Gesellschafterin.",
+      "english": "She's good company.",
+      "highlight": [
+        "Gesellschafterin."
+      ]
+    }
+  ],
+  "forms": [
+    "Gesellschafterin",
+    "Gesellschaft"
+  ],
+  "memoryHook": "Gesellschaft → der Gesellschafter (partner in a firm).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Gesellschafter",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Gesellschafter is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Gesellschafter, zwei ___",
+      "answer": "Gesellschafter",
+      "fullAnswer": "ein Gesellschafter, zwei Gesellschafter",
+      "explanation": "The plural is Gesellschafter.",
+      "acceptedAnswers": [
+        "Gesellschafter"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Gesellschafter mean?",
+      "options": [
+        "partner",
+        "always",
+        "to sing"
+      ],
+      "answer": "partner",
+      "explanation": "Gesellschafter: partner, shareholder (in a company).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "die Gesellschaft (company)",
+        "gesellig only"
+      ],
+      "answer": "die Gesellschaft (company)",
+      "explanation": "Company.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Shareholder in an AG is usually called…",
+      "options": [
+        "der Aktionär",
+        "der Gesellschafter"
+      ],
+      "answer": "der Aktionär",
+      "explanation": "AG vs GmbH.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "atmen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "AAT-men",
+      "ipa": "ˈaːtmən",
+      "notes": ""
+    },
+    "meaning": "to breathe",
+    "shortDefinition": "To breathe."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "atm|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "atm|est"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "atm|et"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "atm|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "atm|et"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "atm|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat geatmet"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "der Atem",
+      "english": "breath",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Atmen Sie tief ein.",
+      "english": "Breathe in deeply.",
+      "highlight": [
+        "Atmen"
+      ]
+    },
+    {
+      "german": "Ich kann kaum atmen.",
+      "english": "I can hardly breathe.",
+      "highlight": [
+        "atmen."
+      ]
+    },
+    {
+      "german": "Er atmet schwer.",
+      "english": "He's breathing heavily.",
+      "highlight": [
+        "atmet"
+      ]
+    }
+  ],
+  "forms": [
+    "atme",
+    "atmest",
+    "atmet",
+    "atmen",
+    "geatmet"
+  ],
+  "memoryHook": "Atmen, der Atem. Einatmen / ausatmen.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (atmen)",
+      "answer": "atmet",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: atmet.",
+      "acceptedAnswers": [
+        "atmet"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (atmen, past)",
+      "answer": "geatmet",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe geatmet.",
+      "acceptedAnswers": [
+        "geatmet"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does atmen mean?",
+      "options": [
+        "to breathe",
+        "the evening",
+        "the child"
+      ],
+      "answer": "to breathe",
+      "explanation": "atmen: to breathe.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Du ___ .",
+      "options": [
+        "atmest",
+        "atmst"
+      ],
+      "answer": "atmest",
+      "explanation": "Add -e-.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Breath:",
+      "options": [
+        "der Atem",
+        "die Atmung only"
+      ],
+      "answer": "der Atem",
+      "explanation": "Atem.",
+      "id": "q5"
+    }
+  ]
+}

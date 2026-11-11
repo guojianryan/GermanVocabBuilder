@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Gang",
+    "partOfSpeech": "noun, masculine (der Gang)",
+    "pronunciation": {
+      "respelling": "GANG",
+      "ipa": "ɡaŋ",
+      "notes": "Plural: die Gänge."
+    },
+    "meaning": "corridor; gear; course (meal); walk",
+    "shortDefinition": "Corridor; gear; course (meal); walk."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Gang, plural die Gänge.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Gang"
+        },
+        {
+          "label": "More than one",
+          "value": "die Gänge"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das Büro ist am Ende des Gangs.",
+      "english": "The office is at the end of the corridor.",
+      "highlight": [
+        "Gangs."
+      ]
+    },
+    {
+      "german": "Leg den ersten Gang ein.",
+      "english": "Put it in first gear.",
+      "highlight": [
+        "Gang"
+      ]
+    },
+    {
+      "german": "Das Menü hat drei Gänge.",
+      "english": "The menu has three courses.",
+      "highlight": [
+        "Gänge."
+      ]
+    }
+  ],
+  "forms": [
+    "Gänge",
+    "die Gänge",
+    "der Gang"
+  ],
+  "memoryHook": "Der Gang (from gehen): corridor, gear, course, walk.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Gang",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Gang is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Gang, zwei ___",
+      "answer": "Gänge",
+      "fullAnswer": "ein Gang, zwei Gänge",
+      "explanation": "The plural is Gänge.",
+      "acceptedAnswers": [
+        "Gaenge"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Gang mean?",
+      "options": [
+        "quiet",
+        "corridor",
+        "the job"
+      ],
+      "answer": "corridor",
+      "explanation": "Gang: corridor; gear; course (meal); walk.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "In a car, Gang means…",
+      "options": [
+        "gear",
+        "corridor"
+      ],
+      "answer": "gear",
+      "explanation": "Gears.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'In Gang bringen' means…",
+      "options": [
+        "to get going",
+        "to walk"
+      ],
+      "answer": "to get going",
+      "explanation": "Idiom.",
+      "id": "q5"
+    }
+  ]
+}

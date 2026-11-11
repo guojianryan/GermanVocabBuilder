@@ -1,0 +1,164 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "kopieren",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "ko-PEE-ren",
+      "ipa": "koˈpiːʁən",
+      "notes": ""
+    },
+    "meaning": "to copy",
+    "shortDefinition": "To copy."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "kopier|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "kopier|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "kopier|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "kopier|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "kopier|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "kopier|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat kopiert"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "die Kopie",
+      "english": "copy",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Kannst du das für mich kopieren?",
+      "english": "Can you copy that for me?",
+      "highlight": [
+        "kopieren?"
+      ]
+    },
+    {
+      "german": "Ich kopiere die Datei auf den Stick.",
+      "english": "I'm copying the file to the USB stick.",
+      "highlight": [
+        "kopiere"
+      ]
+    },
+    {
+      "german": "Kopieren und einfügen.",
+      "english": "Copy and paste.",
+      "highlight": [
+        "Kopieren"
+      ]
+    }
+  ],
+  "forms": [
+    "kopiere",
+    "kopierst",
+    "kopiert",
+    "kopieren"
+  ],
+  "memoryHook": "Kopieren → die Kopie, der Kopierer.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (kopieren)",
+      "answer": "kopiert",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: kopiert.",
+      "acceptedAnswers": [
+        "kopiert"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (kopieren, past)",
+      "answer": "kopiert",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe kopiert.",
+      "acceptedAnswers": [
+        "kopiert"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does kopieren mean?",
+      "options": [
+        "never",
+        "to copy",
+        "to open"
+      ],
+      "answer": "to copy",
+      "explanation": "kopieren: to copy.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "hat kopiert",
+        "hat gekopiert"
+      ],
+      "answer": "hat kopiert",
+      "explanation": "No ge-.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "The machine:",
+      "options": [
+        "der Kopierer",
+        "die Kopiermaschine (also)"
+      ],
+      "answer": "der Kopierer",
+      "explanation": "Both.",
+      "id": "q5"
+    }
+  ]
+}

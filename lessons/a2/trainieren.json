@@ -1,0 +1,169 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "trainieren",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "tre-NEE-ren",
+      "ipa": "tʁɛˈniːʁən",
+      "notes": ""
+    },
+    "meaning": "to train, to work out",
+    "shortDefinition": "To train, to work out."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "trainier|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "trainier|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "trainier|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "trainier|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "trainier|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "trainier|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat trainiert"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "der Trainer",
+      "english": "coach",
+      "type": "noun"
+    },
+    {
+      "german": "das Training",
+      "english": "training",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich trainiere dreimal pro Woche.",
+      "english": "I train three times a week.",
+      "highlight": [
+        "trainiere"
+      ]
+    },
+    {
+      "german": "Die Mannschaft trainiert heute.",
+      "english": "The team is training today.",
+      "highlight": [
+        "trainiert"
+      ]
+    },
+    {
+      "german": "Er hat hart trainiert.",
+      "english": "He trained hard.",
+      "highlight": [
+        "trainiert."
+      ]
+    }
+  ],
+  "forms": [
+    "trainiere",
+    "trainierst",
+    "trainiert",
+    "trainieren"
+  ],
+  "memoryHook": "Trainieren (ai sounds like e). Der Trainer = coach.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (trainieren)",
+      "answer": "trainiert",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: trainiert.",
+      "acceptedAnswers": [
+        "trainiert"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (trainieren, past)",
+      "answer": "trainiert",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe trainiert.",
+      "acceptedAnswers": [
+        "trainiert"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does trainieren mean?",
+      "options": [
+        "to sleep",
+        "to train",
+        "the child"
+      ],
+      "answer": "to train",
+      "explanation": "trainieren: to train, to work out.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Pronounced…",
+      "options": [
+        "tre-NEE-ren",
+        "train-EER-en"
+      ],
+      "answer": "tre-NEE-ren",
+      "explanation": "ai = e.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "A coach:",
+      "options": [
+        "der Trainer",
+        "der Lehrer"
+      ],
+      "answer": "der Trainer",
+      "explanation": "Trainer.",
+      "id": "q5"
+    }
+  ]
+}

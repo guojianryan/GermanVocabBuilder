@@ -1,0 +1,140 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Ausführung",
+    "partOfSpeech": "noun, feminine (die Ausführung)",
+    "pronunciation": {
+      "respelling": "OWS-fü-rung",
+      "ipa": "ˈaʊ̯sfyːʁʊŋ",
+      "notes": "Plural: die Ausführungen."
+    },
+    "meaning": "execution; version, model; (pl.) remarks",
+    "shortDefinition": "Execution; version, model; (pl.) remarks."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Aus",
+        "meaning": "out"
+      },
+      {
+        "part": "führ",
+        "meaning": "lead (führen)"
+      },
+      {
+        "part": "ung",
+        "meaning": "noun ending"
+      }
+    ],
+    "literalMeaning": "a carrying-out"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Ausführung, plural die Ausführungen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Ausführung"
+        },
+        {
+          "label": "More than one",
+          "value": "die Ausführungen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Ausführung des Plans war perfekt.",
+      "english": "The plan was perfectly executed.",
+      "highlight": [
+        "Ausführung"
+      ]
+    },
+    {
+      "german": "Das Auto gibt es in drei Ausführungen.",
+      "english": "The car comes in three versions.",
+      "highlight": [
+        "Ausführungen."
+      ]
+    },
+    {
+      "german": "Danke für Ihre Ausführungen.",
+      "english": "Thank you for your remarks.",
+      "highlight": [
+        "Ausführungen."
+      ]
+    }
+  ],
+  "forms": [
+    "ausführen"
+  ],
+  "memoryHook": "Ausführen → die Ausführung (execution; version; remarks).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Ausführung",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Ausführung is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Ausführung, zwei ___",
+      "answer": "Ausführungen",
+      "fullAnswer": "ein Ausführung, zwei Ausführungen",
+      "explanation": "The plural is Ausführungen.",
+      "acceptedAnswers": [
+        "Ausfuehrungen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Ausführung mean?",
+      "options": [
+        "to buy",
+        "execution",
+        "the shop"
+      ],
+      "answer": "execution",
+      "explanation": "Ausführung: execution; version, model; (pl.) remarks.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "ausführen (carry out)",
+        "führen only"
+      ],
+      "answer": "ausführen (carry out)",
+      "explanation": "Carry out.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Ausführungen' (plural) can mean…",
+      "options": [
+        "explanations, remarks",
+        "exports"
+      ],
+      "answer": "explanations, remarks",
+      "explanation": "Speech.",
+      "id": "q5"
+    }
+  ]
+}

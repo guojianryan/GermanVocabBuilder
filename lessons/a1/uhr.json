@@ -1,0 +1,131 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Uhr",
+    "partOfSpeech": "noun, feminine (die Uhr)",
+    "pronunciation": {
+      "respelling": "OOR",
+      "ipa": "uːɐ̯",
+      "notes": "Plural: die Uhren."
+    },
+    "meaning": "clock, watch; o'clock",
+    "shortDefinition": "Clock, watch; o'clock."
+  },
+  "wordFamily": [
+    {
+      "german": "die Stunde",
+      "english": "hour",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Uhr, plural die Uhren.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Uhr"
+        },
+        {
+          "label": "More than one",
+          "value": "die Uhren"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wie viel Uhr ist es?",
+      "english": "What time is it?",
+      "highlight": [
+        "Uhr"
+      ]
+    },
+    {
+      "german": "Der Kurs beginnt um neun Uhr.",
+      "english": "The course starts at nine o'clock.",
+      "highlight": [
+        "Uhr."
+      ]
+    },
+    {
+      "german": "Meine Uhr geht nach.",
+      "english": "My watch is slow.",
+      "highlight": [
+        "Uhr"
+      ]
+    }
+  ],
+  "forms": [
+    "Uhren",
+    "die Uhren",
+    "die Uhr"
+  ],
+  "memoryHook": "Die Uhr = clock, watch, and o'clock: um 8 Uhr. Duration is Stunden.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Uhr",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Uhr is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Uhr, zwei ___",
+      "answer": "Uhren",
+      "fullAnswer": "ein Uhr, zwei Uhren",
+      "explanation": "The plural is Uhren.",
+      "acceptedAnswers": [
+        "Uhren"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Uhr mean?",
+      "options": [
+        "clock",
+        "the window",
+        "to learn"
+      ],
+      "answer": "clock",
+      "explanation": "Uhr: clock, watch; o'clock.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Um acht Uhr' means…",
+      "options": [
+        "at eight o'clock",
+        "for eight hours"
+      ],
+      "answer": "at eight o'clock",
+      "explanation": "Hours: Stunden.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Asking the time:",
+      "options": [
+        "Wie viel Uhr ist es? / Wie spät ist es?",
+        "Wie viele Stunden?"
+      ],
+      "answer": "Wie viel Uhr ist es? / Wie spät ist es?",
+      "explanation": "Both work.",
+      "id": "q5"
+    }
+  ]
+}

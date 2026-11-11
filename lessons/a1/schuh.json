@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Schuh",
+    "partOfSpeech": "noun, masculine (der Schuh)",
+    "pronunciation": {
+      "respelling": "SHOO",
+      "ipa": "ʃuː",
+      "notes": "Plural: die Schuhe."
+    },
+    "meaning": "shoe",
+    "shortDefinition": "Shoe."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Schuh, plural die Schuhe.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Schuh"
+        },
+        {
+          "label": "More than one",
+          "value": "die Schuhe"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Zieh bitte die Schuhe aus.",
+      "english": "Please take your shoes off.",
+      "highlight": [
+        "Schuhe"
+      ]
+    },
+    {
+      "german": "Ich brauche neue Schuhe.",
+      "english": "I need new shoes.",
+      "highlight": [
+        "Schuhe."
+      ]
+    },
+    {
+      "german": "Welche Schuhgröße haben Sie?",
+      "english": "What shoe size are you?",
+      "highlight": [
+        "Schuhgröße"
+      ]
+    }
+  ],
+  "forms": [
+    "Schuhe",
+    "die Schuhe",
+    "der Schuh"
+  ],
+  "memoryHook": "Der Schuh (silent h), plural Schuhe. Handschuh = glove ('hand shoe').",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Schuh",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Schuh is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Schuh, zwei ___",
+      "answer": "Schuhe",
+      "fullAnswer": "ein Schuh, zwei Schuhe",
+      "explanation": "The plural is Schuhe.",
+      "acceptedAnswers": [
+        "Schuhe"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Schuh mean?",
+      "options": [
+        "the street",
+        "expensive",
+        "shoe"
+      ],
+      "answer": "shoe",
+      "explanation": "Schuh: shoe.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "The h in Schuh is…",
+      "options": [
+        "silent",
+        "pronounced"
+      ],
+      "answer": "silent",
+      "explanation": "SHOO.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Die Schuhgröße is…",
+      "options": [
+        "shoe size",
+        "shoe shop"
+      ],
+      "answer": "shoe size",
+      "explanation": "Schuh + Größe.",
+      "id": "q5"
+    }
+  ]
+}

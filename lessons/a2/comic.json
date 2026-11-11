@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Comic",
+    "partOfSpeech": "noun, masculine (der Comic)",
+    "pronunciation": {
+      "respelling": "KOM-ik",
+      "ipa": "ˈkɔmɪk",
+      "notes": "Plural: die Comics."
+    },
+    "meaning": "comic",
+    "shortDefinition": "Comic."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Comic, plural die Comics.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Comic"
+        },
+        {
+          "label": "More than one",
+          "value": "die Comics"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Mein Sohn liest gern Comics.",
+      "english": "My son likes reading comics.",
+      "highlight": [
+        "Comics."
+      ]
+    },
+    {
+      "german": "Das ist mein Lieblingscomic.",
+      "english": "That's my favourite comic.",
+      "highlight": [
+        "Lieblingscomic."
+      ]
+    },
+    {
+      "german": "Hast du den neuen Comic?",
+      "english": "Have you got the new comic?",
+      "highlight": [
+        "Comic?"
+      ]
+    }
+  ],
+  "forms": [
+    "das Comic",
+    "der Comic"
+  ],
+  "memoryHook": "Der/das Comic. Komisch = funny or weird.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Comic",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Comic is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Comic, zwei ___",
+      "answer": "Comics",
+      "fullAnswer": "ein Comic, zwei Comics",
+      "explanation": "The plural is Comics.",
+      "acceptedAnswers": [
+        "Comics"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Comic mean?",
+      "options": [
+        "comic",
+        "tomorrow",
+        "to learn"
+      ],
+      "answer": "comic",
+      "explanation": "Comic: comic.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gender:",
+      "options": [
+        "der or das",
+        "die"
+      ],
+      "answer": "der or das",
+      "explanation": "Both used.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Komisch means…",
+      "options": [
+        "funny, strange",
+        "a comic book"
+      ],
+      "answer": "funny, strange",
+      "explanation": "Different word.",
+      "id": "q5"
+    }
+  ]
+}

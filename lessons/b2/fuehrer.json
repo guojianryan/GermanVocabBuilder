@@ -1,0 +1,148 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Führer",
+    "partOfSpeech": "noun, masculine (der Führer)",
+    "pronunciation": {
+      "respelling": "FÜ-rer",
+      "ipa": "ˈfyːʁɐ",
+      "notes": "The plural looks the same. For political leaders, Anführer or Chef / Vorsitzender is usually preferred. Plural: die Führer."
+    },
+    "meaning": "leader; guide; guidebook",
+    "shortDefinition": "Leader; guide; guidebook."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Führ",
+        "meaning": "lead (führen)"
+      },
+      {
+        "part": "er",
+        "meaning": "person who does it"
+      }
+    ],
+    "literalMeaning": "one who leads"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Führer, plural die Führer.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Führer"
+        },
+        {
+          "label": "More than one",
+          "value": "die Führer"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Führer zeigt uns die Stadt.",
+      "english": "The guide shows us the town.",
+      "highlight": [
+        "Führer"
+      ]
+    },
+    {
+      "german": "Ich habe einen Reiseführer gekauft.",
+      "english": "I've bought a guidebook.",
+      "highlight": [
+        "Reiseführer"
+      ]
+    },
+    {
+      "german": "Er ist der Führer der Partei.",
+      "english": "He's the party leader.",
+      "highlight": [
+        "Führer"
+      ]
+    }
+  ],
+  "forms": [
+    "Führerschein",
+    "Reiseführer"
+  ],
+  "memoryHook": "Führen → der Führer (guide); Führerschein; Reiseführer.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Führer",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Führer is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Führer, zwei ___",
+      "answer": "Führer",
+      "fullAnswer": "ein Führer, zwei Führer",
+      "explanation": "The plural is Führer.",
+      "acceptedAnswers": [
+        "Fuehrer"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Führer mean?",
+      "options": [
+        "to wait",
+        "leader",
+        "the car"
+      ],
+      "answer": "leader",
+      "explanation": "Führer: leader; guide; guidebook.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Common compounds:",
+      "options": [
+        "Reiseführer, Stadtführer, Führerschein",
+        "Führerei"
+      ],
+      "answer": "Reiseführer, Stadtführer, Führerschein",
+      "explanation": "Compounds.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Driving licence:",
+      "options": [
+        "der Führerschein",
+        "der Fahrschein"
+      ],
+      "answer": "der Führerschein",
+      "explanation": "Licence.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Note:",
+      "options": [
+        "avoid alone for political leaders (Nazi connotation)",
+        "neutral always"
+      ],
+      "answer": "avoid alone for political leaders (Nazi connotation)",
+      "explanation": "History.",
+      "id": "q6"
+    }
+  ]
+}

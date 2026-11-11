@@ -1,0 +1,165 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "klingeln",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "KLING-eln",
+      "ipa": "ˈklɪŋl̩n",
+      "notes": ""
+    },
+    "meaning": "to ring",
+    "shortDefinition": "To ring."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "klingl|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "klingel|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "klingel|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "klingel|n"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "klingel|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "klingel|n"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat geklingelt"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "die Klingel",
+      "english": "bell",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das Telefon klingelt.",
+      "english": "The phone's ringing.",
+      "highlight": [
+        "klingelt."
+      ]
+    },
+    {
+      "german": "Es hat geklingelt.",
+      "english": "Someone rang the doorbell.",
+      "highlight": [
+        "geklingelt."
+      ]
+    },
+    {
+      "german": "Bitte zweimal klingeln.",
+      "english": "Please ring twice.",
+      "highlight": [
+        "klingeln."
+      ]
+    }
+  ],
+  "forms": [
+    "klingle",
+    "klingelst",
+    "klingelt",
+    "klingeln",
+    "geklingelt"
+  ],
+  "memoryHook": "Klingeln = ring (bell, phone). Die Klingel = doorbell.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (klingeln)",
+      "answer": "klingelt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: klingelt.",
+      "acceptedAnswers": [
+        "klingelt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (klingeln, past)",
+      "answer": "geklingelt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe geklingelt.",
+      "acceptedAnswers": [
+        "geklingelt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does klingeln mean?",
+      "options": [
+        "to open",
+        "to ring",
+        "the family"
+      ],
+      "answer": "to ring",
+      "explanation": "klingeln: to ring.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Es klingelt' means…",
+      "options": [
+        "the doorbell / phone is ringing",
+        "it sounds"
+      ],
+      "answer": "the doorbell / phone is ringing",
+      "explanation": "Ring.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "The doorbell:",
+      "options": [
+        "die Klingel",
+        "der Klingel"
+      ],
+      "answer": "die Klingel",
+      "explanation": "Bell.",
+      "id": "q5"
+    }
+  ]
+}

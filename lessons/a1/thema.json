@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Thema",
+    "partOfSpeech": "noun, neuter (das Thema)",
+    "pronunciation": {
+      "respelling": "TAY-ma",
+      "ipa": "ˈteːma",
+      "notes": "Plural: die Themen."
+    },
+    "meaning": "topic, subject",
+    "shortDefinition": "Topic, subject."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Thema, plural die Themen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Thema"
+        },
+        {
+          "label": "More than one",
+          "value": "die Themen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das Thema heute ist Familie.",
+      "english": "Today's topic is family.",
+      "highlight": [
+        "Thema"
+      ]
+    },
+    {
+      "german": "Wir sprechen über viele Themen.",
+      "english": "We talk about lots of topics.",
+      "highlight": [
+        "Themen."
+      ]
+    },
+    {
+      "german": "Das ist ein schwieriges Thema.",
+      "english": "That's a difficult subject.",
+      "highlight": [
+        "Thema."
+      ]
+    }
+  ],
+  "forms": [
+    "Themen",
+    "die Themen",
+    "das Thema"
+  ],
+  "memoryHook": "Das Thema (th = t), plural Themen. Das ist ein anderes Thema = that's another story.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Thema",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Thema is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Thema, zwei ___",
+      "answer": "Themen",
+      "fullAnswer": "ein Thema, zwei Themen",
+      "explanation": "The plural is Themen.",
+      "acceptedAnswers": [
+        "Themen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Thema mean?",
+      "options": [
+        "the bread",
+        "the flower",
+        "topic"
+      ],
+      "answer": "topic",
+      "explanation": "Thema: topic, subject.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Themen",
+        "Themas"
+      ],
+      "answer": "Themen",
+      "explanation": "Like Konto → Konten.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Th in German sounds like…",
+      "options": [
+        "t",
+        "th in 'the'"
+      ],
+      "answer": "t",
+      "explanation": "TAY-ma.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Villa",
+    "partOfSpeech": "noun, feminine (die Villa)",
+    "pronunciation": {
+      "respelling": "VIL-a",
+      "ipa": "ˈvɪla",
+      "notes": "Plural: die Villen."
+    },
+    "meaning": "villa, mansion",
+    "shortDefinition": "Villa, mansion."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Villa, plural die Villen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Villa"
+        },
+        {
+          "label": "More than one",
+          "value": "die Villen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Sie wohnen in einer Villa am See.",
+      "english": "They live in a villa by the lake.",
+      "highlight": [
+        "Villa"
+      ]
+    },
+    {
+      "german": "Die alte Villa ist jetzt ein Museum.",
+      "english": "The old villa is now a museum.",
+      "highlight": [
+        "Villa"
+      ]
+    },
+    {
+      "german": "Hier stehen viele Villen.",
+      "english": "There are many villas here.",
+      "highlight": [
+        "Villen."
+      ]
+    }
+  ],
+  "forms": [
+    "Villen",
+    "die Villen",
+    "die Villa"
+  ],
+  "memoryHook": "Die Villa (die Villen).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Villa",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Villa is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Villa, zwei ___",
+      "answer": "Villen",
+      "fullAnswer": "ein Villa, zwei Villen",
+      "explanation": "The plural is Villen.",
+      "acceptedAnswers": [
+        "Villen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Villa mean?",
+      "options": [
+        "the bill",
+        "to sing",
+        "villa"
+      ],
+      "answer": "villa",
+      "explanation": "Villa: villa, mansion.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Villen",
+        "Villas"
+      ],
+      "answer": "Villen",
+      "explanation": "-a → -en.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "V sounds like…",
+      "options": [
+        "v",
+        "f"
+      ],
+      "answer": "v",
+      "explanation": "Loanword.",
+      "id": "q5"
+    }
+  ]
+}

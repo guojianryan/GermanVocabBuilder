@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Pflanze",
+    "partOfSpeech": "noun, feminine (die Pflanze)",
+    "pronunciation": {
+      "respelling": "PFLAN-tse",
+      "ipa": "ˈpflantsə",
+      "notes": "Plural: die Pflanzen."
+    },
+    "meaning": "plant",
+    "shortDefinition": "Plant."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Pflanze, plural die Pflanzen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Pflanze"
+        },
+        {
+          "label": "More than one",
+          "value": "die Pflanzen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich gieße die Pflanzen.",
+      "english": "I'm watering the plants.",
+      "highlight": [
+        "Pflanzen."
+      ]
+    },
+    {
+      "german": "Die Pflanze braucht viel Licht.",
+      "english": "The plant needs a lot of light.",
+      "highlight": [
+        "Pflanze"
+      ]
+    },
+    {
+      "german": "Wir haben viele Pflanzen auf dem Balkon.",
+      "english": "We have lots of plants on the balcony.",
+      "highlight": [
+        "Pflanzen"
+      ]
+    }
+  ],
+  "forms": [
+    "Pflanzen",
+    "die Pflanzen",
+    "die Pflanze"
+  ],
+  "memoryHook": "Die Pflanze (pf like plant!). Gießen = water.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Pflanze",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Pflanze is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Pflanze, zwei ___",
+      "answer": "Pflanzen",
+      "fullAnswer": "ein Pflanze, zwei Pflanzen",
+      "explanation": "The plural is Pflanzen.",
+      "acceptedAnswers": [
+        "Pflanzen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Pflanze mean?",
+      "options": [
+        "to learn",
+        "plant",
+        "the weather"
+      ],
+      "answer": "plant",
+      "explanation": "Pflanze: plant.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Water the plants':",
+      "options": [
+        "die Pflanzen gießen",
+        "die Pflanzen wassern"
+      ],
+      "answer": "die Pflanzen gießen",
+      "explanation": "Gießen.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Pf sounds like…",
+      "options": [
+        "p + f",
+        "f"
+      ],
+      "answer": "p + f",
+      "explanation": "PFLAN-tse.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Link",
+    "partOfSpeech": "noun, masculine (der Link)",
+    "pronunciation": {
+      "respelling": "LINK",
+      "ipa": "lɪŋk",
+      "notes": "Plural: die Links."
+    },
+    "meaning": "link (internet)",
+    "shortDefinition": "Link (internet)."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Link, plural die Links.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Link"
+        },
+        {
+          "label": "More than one",
+          "value": "die Links"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich schicke dir den Link.",
+      "english": "I'll send you the link.",
+      "highlight": [
+        "Link."
+      ]
+    },
+    {
+      "german": "Klick auf den Link!",
+      "english": "Click on the link!",
+      "highlight": [
+        "Link!"
+      ]
+    },
+    {
+      "german": "Der Link funktioniert nicht.",
+      "english": "The link isn't working.",
+      "highlight": [
+        "Link"
+      ]
+    }
+  ],
+  "forms": [
+    "Links",
+    "die Links",
+    "der Link"
+  ],
+  "memoryHook": "Der Link (internet). Don't confuse with links (left)!",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Link",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Link is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Link, zwei ___",
+      "answer": "Links",
+      "fullAnswer": "ein Link, zwei Links",
+      "explanation": "The plural is Links.",
+      "acceptedAnswers": [
+        "Links"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Link mean?",
+      "options": [
+        "link (internet)",
+        "to wait",
+        "cheap"
+      ],
+      "answer": "link (internet)",
+      "explanation": "Link: link (internet).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Click on the link':",
+      "options": [
+        "auf den Link klicken",
+        "den Link klicken"
+      ],
+      "answer": "auf den Link klicken",
+      "explanation": "Klicken auf.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Careful: 'links' also means…",
+      "options": [
+        "left",
+        "linked"
+      ],
+      "answer": "left",
+      "explanation": "Links = left!",
+      "id": "q5"
+    }
+  ]
+}

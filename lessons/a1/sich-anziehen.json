@@ -1,0 +1,199 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "(sich) anziehen",
+    "partOfSpeech": "separable verb, often reflexive",
+    "pronunciation": {
+      "respelling": "AHN-tsee-en",
+      "ipa": "ˈantsiːən",
+      "notes": ""
+    },
+    "meaning": "to get dressed; to put on (clothes)",
+    "shortDefinition": "To get dressed; to put on (clothes)."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "an",
+        "meaning": "on"
+      },
+      {
+        "part": "ziehen",
+        "meaning": "to pull"
+      }
+    ],
+    "literalMeaning": "to pull on"
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "ziehe … |an"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "ziehst … |an"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "zieht … |an"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "ziehen … |an"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "zieht … |an"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "ziehen … |an"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat angezogen"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "(sich) ausziehen",
+      "english": "to get undressed; to take off; to move out",
+      "type": "separable verb"
+    },
+    {
+      "german": "die Kleidung",
+      "english": "clothes",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "mich or mir?",
+      "explanation": "Getting dressed: mich. Putting on a specific item: mir + the item.",
+      "examples": [
+        {
+          "german": "Ich ziehe mich an.",
+          "english": "I get dressed.",
+          "highlight": "mich"
+        },
+        {
+          "german": "Ich ziehe mir den Mantel an.",
+          "english": "I put my coat on.",
+          "highlight": "mir"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich muss mich noch anziehen.",
+      "english": "I still have to get dressed.",
+      "highlight": [
+        "mich",
+        "anziehen."
+      ]
+    },
+    {
+      "german": "Zieh eine Jacke an, es ist kalt!",
+      "english": "Put a jacket on, it's cold!",
+      "highlight": [
+        "Zieh",
+        "an,"
+      ]
+    },
+    {
+      "german": "Die Kinder ziehen sich allein an.",
+      "english": "The children get dressed on their own.",
+      "highlight": [
+        "ziehen",
+        "sich",
+        "an."
+      ]
+    }
+  ],
+  "forms": [
+    "ziehe an",
+    "zieht an",
+    "angezogen",
+    "zog an",
+    "anziehen"
+  ],
+  "memoryHook": "Ziehen = pull. Anziehen = pull it on. Ausziehen = pull it off.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "I'm getting dressed: Ich ziehe ___ an.",
+      "options": [
+        "mich",
+        "mir"
+      ],
+      "answer": "mich",
+      "explanation": "Getting yourself dressed: mich.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "___ bitte deine Schuhe an! (put on, command)",
+      "answer": "Zieh",
+      "fullAnswer": "Zieh bitte deine Schuhe an!",
+      "explanation": "Command: zieh … an.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "The opposite of anziehen is…",
+      "options": [
+        "ausziehen",
+        "aufziehen"
+      ],
+      "answer": "ausziehen",
+      "explanation": "Ausziehen: to take off, get undressed.",
+      "id": "q3"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Hast du dich schon ___?",
+      "answer": "angezogen",
+      "fullAnswer": "Hast du dich schon angezogen?",
+      "explanation": "An-ge-zogen.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich ziehe ___ die Jacke an. (for myself)",
+      "options": [
+        "mich",
+        "mir"
+      ],
+      "answer": "mir",
+      "explanation": "With a piece of clothing, the 'myself' becomes dative: mir.",
+      "id": "q5"
+    }
+  ]
+}

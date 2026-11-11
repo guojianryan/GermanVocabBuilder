@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Orientierung",
+    "partOfSpeech": "noun, feminine (die Orientierung)",
+    "pronunciation": {
+      "respelling": "o-ri-en-TEE-rung",
+      "ipa": "oʁi̯ɛnˈtiːʁʊŋ",
+      "notes": "Plural: die Orientierungen."
+    },
+    "meaning": "orientation; sense of direction",
+    "shortDefinition": "Orientation; sense of direction."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Orient",
+        "meaning": "east (sunrise)"
+      },
+      {
+        "part": "ierung",
+        "meaning": "noun ending"
+      }
+    ],
+    "literalMeaning": "an east-facing",
+    "summary": "Old maps faced the east."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Orientierung, plural die Orientierungen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Orientierung"
+        },
+        {
+          "label": "More than one",
+          "value": "die Orientierungen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich habe die Orientierung verloren.",
+      "english": "I've lost my bearings.",
+      "highlight": [
+        "Orientierung"
+      ]
+    },
+    {
+      "german": "Zur Orientierung: Der Bahnhof ist links.",
+      "english": "For your orientation: the station is on the left.",
+      "highlight": [
+        "Orientierung:"
+      ]
+    },
+    {
+      "german": "Die sexuelle Orientierung.",
+      "english": "Sexual orientation.",
+      "highlight": [
+        "Orientierung."
+      ]
+    }
+  ],
+  "forms": [
+    "orientieren"
+  ],
+  "memoryHook": "Sich orientieren → die Orientierung.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Orientierung",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Orientierung is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Orientierung, zwei ___",
+      "answer": "Orientierungen",
+      "fullAnswer": "ein Orientierung, zwei Orientierungen",
+      "explanation": "The plural is Orientierungen.",
+      "acceptedAnswers": [
+        "Orientierungen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Orientierung mean?",
+      "options": [
+        "orientation",
+        "the station",
+        "to sing"
+      ],
+      "answer": "orientation",
+      "explanation": "Orientierung: orientation; sense of direction.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "sich orientieren",
+        "der Orient only"
+      ],
+      "answer": "sich orientieren",
+      "explanation": "Orient.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Orientierungssinn' means…",
+      "options": [
+        "sense of direction",
+        "sense of East"
+      ],
+      "answer": "sense of direction",
+      "explanation": "Compound.",
+      "id": "q5"
+    }
+  ]
+}

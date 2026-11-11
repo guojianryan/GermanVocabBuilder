@@ -1,0 +1,168 @@
+{
+ "schemaVersion": "1.4",
+ "language": "de",
+ "explanationLanguage": "en",
+ "level": "B1",
+ "levelSource": "Goethe-Zertifikat B1 Wortliste",
+ "lessonType": "card",
+ "word": {
+  "headword": "verzeihen",
+  "partOfSpeech": "verb",
+  "pronunciation": {
+   "respelling": "fer-TSYE-en",
+   "ipa": "fɛɐ̯ˈtsaɪ̯ən",
+   "notes": ""
+  },
+  "meaning": "to forgive",
+  "shortDefinition": "To forgive."
+ },
+ "tables": [
+  {
+   "title": "Present tense",
+   "columns": [
+    "present"
+   ],
+   "rows": [
+    {
+     "label": "ich",
+     "cells": [
+      "verzeih|e"
+     ]
+    },
+    {
+     "label": "du",
+     "cells": [
+      "verzeih|st"
+     ]
+    },
+    {
+     "label": "er, sie, es",
+     "cells": [
+      "verzeih|t"
+     ]
+    },
+    {
+     "label": "wir",
+     "cells": [
+      "verzeih|en"
+     ]
+    },
+    {
+     "label": "ihr",
+     "cells": [
+      "verzeih|t"
+     ]
+    },
+    {
+     "label": "sie, Sie",
+     "cells": [
+      "verzeih|en"
+     ]
+    }
+   ],
+   "notes": [
+    "Past (Perfekt): hat verziehen"
+   ]
+  }
+ ],
+ "sampleSentences": [
+  {
+   "german": "Verzeih mir!",
+   "english": "Forgive me!",
+   "highlight": [
+    "Verzeih"
+   ]
+  },
+  {
+   "german": "Das kann ich ihm nicht verzeihen.",
+   "english": "I can't forgive him for that.",
+   "highlight": [
+    "verzeihen."
+   ]
+  },
+  {
+   "german": "Sie hat ihm verziehen.",
+   "english": "She forgave him.",
+   "highlight": [
+    "verziehen."
+   ]
+  }
+ ],
+ "forms": [
+  "Verzeihung"
+ ],
+ "memoryHook": "Verzeihen (+ Dat) → die Verzeihung.",
+ "signOff": "Gut gemacht!",
+ "quiz": [
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "er ___ (verzeihen)",
+   "answer": "verzeiht",
+   "fullAnswer": "",
+   "explanation": "For er, sie, es: verzeiht.",
+   "acceptedAnswers": [
+    "verzeiht"
+   ],
+   "id": "q1"
+  },
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "Ich habe schon ___. (verzeihen, past)",
+   "answer": "verziehen",
+   "fullAnswer": "",
+   "explanation": "Perfekt: habe verziehen.",
+   "acceptedAnswers": [
+    "verziehen"
+   ],
+   "id": "q2"
+  },
+  {
+   "type": "choice",
+   "prompt": "What does verzeihen mean?",
+   "options": [
+    "never",
+    "to forgive",
+    "expensive"
+   ],
+   "answer": "to forgive",
+   "explanation": "verzeihen: to forgive.",
+   "id": "q3"
+  },
+  {
+   "type": "choice",
+   "prompt": "Case: jemandem verzeihen",
+   "options": [
+    "dative",
+    "accusative"
+   ],
+   "answer": "dative",
+   "explanation": "Verzeih mir.",
+   "id": "q4"
+  },
+  {
+   "type": "choice",
+   "prompt": "Perfekt:",
+   "options": [
+    "hat verziehen",
+    "hat verzeiht"
+   ],
+   "answer": "hat verziehen",
+   "explanation": "Strong verb.",
+   "id": "q5"
+  }
+ ],
+ "etymology": {
+  "title": "Where it comes from",
+  "parts": [
+   {
+    "part": "ver",
+    "meaning": "prefix (change, away)"
+   },
+   {
+    "part": "zeihen",
+    "meaning": "to accuse (old)"
+   }
+  ],
+  "literalMeaning": "to give up accusing"
+ }
+}

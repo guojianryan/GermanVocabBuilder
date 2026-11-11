@@ -1,0 +1,138 @@
+{
+ "schemaVersion": "1.4",
+ "language": "de",
+ "explanationLanguage": "en",
+ "level": "B1",
+ "levelSource": "Goethe-Zertifikat B1 Wortliste",
+ "lessonType": "card",
+ "word": {
+  "headword": "Notruf",
+  "partOfSpeech": "noun, masculine (der Notruf)",
+  "pronunciation": {
+   "respelling": "NOHT-roof",
+   "ipa": "ˈnoːtʁuːf",
+   "notes": "Plural: die Notrufe."
+  },
+  "meaning": "emergency call / number",
+  "shortDefinition": "Emergency call / number."
+ },
+ "commonMistakes": [
+  {
+   "title": "Gender and plural",
+   "explanation": "Der Notruf, plural die Notrufe.",
+   "forms": [
+    {
+     "label": "One",
+     "value": "der Notruf"
+    },
+    {
+     "label": "More than one",
+     "value": "die Notrufe"
+    }
+   ]
+  }
+ ],
+ "sampleSentences": [
+  {
+   "german": "Der Notruf ist 112.",
+   "english": "The emergency number is 112.",
+   "highlight": [
+    "Notruf"
+   ]
+  },
+  {
+   "german": "Sie hat den Notruf gewählt.",
+   "english": "She dialled the emergency number.",
+   "highlight": [
+    "Notruf"
+   ]
+  },
+  {
+   "german": "Der Notruf ging um 3 Uhr ein.",
+   "english": "The emergency call came in at 3.",
+   "highlight": [
+    "Notruf"
+   ]
+  }
+ ],
+ "forms": [
+  "Notrufe",
+  "die Notrufe",
+  "der Notruf"
+ ],
+ "memoryHook": "Not + Ruf = emergency call (112, police 110).",
+ "signOff": "Gut gemacht!",
+ "quiz": [
+  {
+   "type": "choice",
+   "prompt": "___ Notruf",
+   "options": [
+    "der",
+    "die",
+    "das"
+   ],
+   "answer": "der",
+   "explanation": "Notruf is masculine.",
+   "id": "q1"
+  },
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "ein Notruf, zwei ___",
+   "answer": "Notrufe",
+   "fullAnswer": "ein Notruf, zwei Notrufe",
+   "explanation": "The plural is Notrufe.",
+   "acceptedAnswers": [
+    "Notrufe"
+   ],
+   "id": "q2"
+  },
+  {
+   "type": "choice",
+   "prompt": "What does Notruf mean?",
+   "options": [
+    "emergency call / number",
+    "to help",
+    "always"
+   ],
+   "answer": "emergency call / number",
+   "explanation": "Notruf: emergency call / number.",
+   "id": "q3"
+  },
+  {
+   "type": "choice",
+   "prompt": "Built from…",
+   "options": [
+    "Not + Ruf (call)",
+    "Not + rufen only"
+   ],
+   "answer": "Not + Ruf (call)",
+   "explanation": "Emergency call.",
+   "id": "q4"
+  },
+  {
+   "type": "choice",
+   "prompt": "Police number in Germany:",
+   "options": [
+    "110",
+    "112"
+   ],
+   "answer": "110",
+   "explanation": "112 = fire/ambulance.",
+   "id": "q5"
+  }
+ ],
+ "etymology": {
+  "title": "Where it comes from",
+  "parts": [
+   {
+    "part": "Not",
+    "meaning": "emergency"
+   },
+   {
+    "part": "ruf",
+    "meaning": "call"
+   }
+  ],
+  "literalMeaning": "emergency call"
+ }
+}

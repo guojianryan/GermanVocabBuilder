@@ -1,0 +1,118 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Schnupfen",
+    "partOfSpeech": "noun, masculine (der Schnupfen)",
+    "pronunciation": {
+      "respelling": "SHNOOP-fen",
+      "ipa": "ˈʃnʊpfn̩",
+      "notes": "Usually no plural."
+    },
+    "meaning": "cold, runny nose",
+    "shortDefinition": "Cold, runny nose."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Schnupfen, usually no plural.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Schnupfen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich habe Schnupfen.",
+      "english": "I've got a cold.",
+      "highlight": [
+        "Schnupfen."
+      ]
+    },
+    {
+      "german": "Der Schnupfen geht nicht weg.",
+      "english": "The cold won't go away.",
+      "highlight": [
+        "Schnupfen"
+      ]
+    },
+    {
+      "german": "Bei Schnupfen helfen Nasentropfen.",
+      "english": "Nose drops help with a cold.",
+      "highlight": [
+        "Schnupfen"
+      ]
+    }
+  ],
+  "forms": [
+    "der Schnupfen"
+  ],
+  "memoryHook": "Der Schnupfen (runny nose). Ich habe Schnupfen.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Schnupfen",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Schnupfen is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Schnupfen mean?",
+      "options": [
+        "cold",
+        "never",
+        "to help"
+      ],
+      "answer": "cold",
+      "explanation": "Schnupfen: cold, runny nose.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Schnupfen haben' — article?",
+      "options": [
+        "no article usually",
+        "einen always"
+      ],
+      "answer": "no article usually",
+      "explanation": "Ich habe Schnupfen.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Schnupfen vs Erkältung:",
+      "options": [
+        "Schnupfen = runny nose; Erkältung = cold (general)",
+        "same"
+      ],
+      "answer": "Schnupfen = runny nose; Erkältung = cold (general)",
+      "explanation": "Close.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gender:",
+      "options": [
+        "der",
+        "die"
+      ],
+      "answer": "der",
+      "explanation": "Der Schnupfen.",
+      "id": "q5"
+    }
+  ]
+}

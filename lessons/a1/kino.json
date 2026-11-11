@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Kino",
+    "partOfSpeech": "noun, neuter (das Kino)",
+    "pronunciation": {
+      "respelling": "KEE-noh",
+      "ipa": "ˈkiːno",
+      "notes": "Plural: die Kinos."
+    },
+    "meaning": "cinema",
+    "shortDefinition": "Cinema."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Kino, plural die Kinos.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Kino"
+        },
+        {
+          "label": "More than one",
+          "value": "die Kinos"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Gehen wir heute ins Kino?",
+      "english": "Shall we go to the cinema today?",
+      "highlight": [
+        "Kino?"
+      ]
+    },
+    {
+      "german": "Im Kino läuft ein neuer Film.",
+      "english": "There's a new film on at the cinema.",
+      "highlight": [
+        "Kino"
+      ]
+    },
+    {
+      "german": "Das Kino ist gleich um die Ecke.",
+      "english": "The cinema is just round the corner.",
+      "highlight": [
+        "Kino"
+      ]
+    }
+  ],
+  "forms": [
+    "Kinos",
+    "die Kinos",
+    "das Kino"
+  ],
+  "memoryHook": "Das Kino (from Kinematograph). Ins Kino gehen = go to the movies.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Kino",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Kino is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Kino, zwei ___",
+      "answer": "Kinos",
+      "fullAnswer": "ein Kino, zwei Kinos",
+      "explanation": "The plural is Kinos.",
+      "acceptedAnswers": [
+        "Kinos"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Kino mean?",
+      "options": [
+        "cheap",
+        "always",
+        "cinema"
+      ],
+      "answer": "cinema",
+      "explanation": "Kino: cinema.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Going: ___ Kino",
+      "options": [
+        "ins",
+        "im"
+      ],
+      "answer": "ins",
+      "explanation": "Direction: ins.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Being there: ___ Kino",
+      "options": [
+        "ins",
+        "im"
+      ],
+      "answer": "im",
+      "explanation": "Location: im.",
+      "id": "q5"
+    }
+  ]
+}

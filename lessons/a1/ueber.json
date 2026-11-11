@@ -1,0 +1,178 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "full",
+  "word": {
+    "headword": "über",
+    "partOfSpeech": "preposition (dative or accusative)",
+    "pronunciation": {
+      "respelling": "UE-ber",
+      "ipa": "ˈyːbɐ",
+      "notes": "Long ü."
+    },
+    "meaning": "over, above; about; via",
+    "shortDefinition": "Above something, across it, or a topic."
+  },
+  "intro": {
+    "title": "Über alles",
+    "paragraphs": [
+      "Über means 'over, above' (das Bild hängt über dem Sofa), 'across' (über die Straße), 'via' (über Frankfurt), and 'about' a topic (über Politik sprechen)."
+    ]
+  },
+  "wordFamily": [
+    {
+      "german": "übermorgen",
+      "english": "the day after tomorrow",
+      "type": "adverb"
+    },
+    {
+      "german": "übernachten",
+      "english": "to stay overnight",
+      "type": "verb"
+    },
+    {
+      "german": "unter",
+      "english": "under",
+      "type": "preposition"
+    }
+  ],
+  "keyTrap": {
+    "title": "The big trap: talking about something",
+    "explanation": "Talking or writing ABOUT something uses über + accusative, not von.",
+    "wrong": {
+      "german": "Wir sprechen von dem Film. (about the film)",
+      "verdict": "Topic: über."
+    },
+    "correct": [
+      {
+        "german": "Wir sprechen über den Film.",
+        "literal": "We speak over the film.",
+        "note": "Topic: über + accusative."
+      },
+      {
+        "german": "Die Lampe hängt über dem Tisch.",
+        "literal": "The lamp hangs over the table.",
+        "note": "Location: dative."
+      }
+    ]
+  },
+  "commonMistakes": [
+    {
+      "title": "Via",
+      "explanation": "Über for routes.",
+      "examples": [
+        {
+          "german": "Der Zug fährt über Köln.",
+          "english": "The train goes via Cologne.",
+          "highlight": "über"
+        }
+      ]
+    },
+    {
+      "title": "More than",
+      "explanation": "Über + number = more than.",
+      "examples": [
+        {
+          "german": "über 100 Leute",
+          "english": "over 100 people",
+          "highlight": "über"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Gehen Sie über die Straße.",
+      "english": "Cross the street.",
+      "highlight": [
+        "über"
+      ]
+    },
+    {
+      "german": "Das Bild hängt über dem Sofa.",
+      "english": "The picture hangs above the sofa.",
+      "highlight": [
+        "über"
+      ]
+    },
+    {
+      "german": "Wir sprechen über das Wetter.",
+      "english": "We're talking about the weather.",
+      "highlight": [
+        "über"
+      ]
+    },
+    {
+      "german": "Ich freue mich über das Geschenk.",
+      "english": "I'm pleased with the present.",
+      "highlight": [
+        "über"
+      ]
+    }
+  ],
+  "forms": [
+    "übers"
+  ],
+  "memoryHook": "Über = over, across, via, and about (a topic). Sprechen über, sich freuen über.",
+  "signOff": "Über die Hälfte geschafft!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "We talk ABOUT the trip: Wir sprechen ___ die Reise.",
+      "options": [
+        "über",
+        "von"
+      ],
+      "answer": "über",
+      "explanation": "Topic: über.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Die Lampe hängt über ___ Tisch.",
+      "options": [
+        "dem",
+        "den"
+      ],
+      "answer": "dem",
+      "explanation": "Location: dative.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Über 18' means…",
+      "options": [
+        "over 18",
+        "about 18"
+      ],
+      "answer": "over 18",
+      "explanation": "More than.",
+      "id": "q3"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Gehen Sie ___ die Brücke. (across)",
+      "answer": "über",
+      "fullAnswer": "Gehen Sie über die Brücke.",
+      "explanation": "Über.",
+      "acceptedAnswers": [
+        "ueber"
+      ],
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Übermorgen' is…",
+      "options": [
+        "the day after tomorrow",
+        "overnight"
+      ],
+      "answer": "the day after tomorrow",
+      "explanation": "Über + morgen.",
+      "id": "q5"
+    }
+  ]
+}

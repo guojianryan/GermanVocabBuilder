@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "geboren",
+    "partOfSpeech": "adjective / past participle",
+    "pronunciation": {
+      "respelling": "guh-BOH-ren",
+      "ipa": "ɡəˈboːʁən",
+      "notes": ""
+    },
+    "meaning": "born",
+    "shortDefinition": "Born."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "ge",
+        "meaning": "past participle prefix"
+      },
+      {
+        "part": "boren",
+        "meaning": "carried",
+        "note": "From the old verb gebären, to bear (a child)."
+      }
+    ],
+    "literalMeaning": "born, carried"
+  },
+  "wordFamily": [
+    {
+      "german": "die Geburt",
+      "english": "birth",
+      "type": "noun"
+    },
+    {
+      "german": "der Geburtstag",
+      "english": "birthday",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich bin 1995 in Madrid geboren.",
+      "english": "I was born in Madrid in 1995.",
+      "highlight": [
+        "geboren."
+      ]
+    },
+    {
+      "german": "Wann sind Sie geboren?",
+      "english": "When were you born?",
+      "highlight": [
+        "geboren?"
+      ]
+    },
+    {
+      "german": "Geboren am 12. März.",
+      "english": "Born on 12 March.",
+      "highlight": [
+        "Geboren"
+      ]
+    }
+  ],
+  "forms": [
+    "geb."
+  ],
+  "memoryHook": "Ich bin … geboren (present tense!) for living people. On forms: geb. = geboren.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does geboren mean?",
+      "options": [
+        "the key",
+        "born",
+        "the shop"
+      ],
+      "answer": "born",
+      "explanation": "geboren: born.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "'I was born in 1990' is…",
+      "options": [
+        "Ich bin 1990 geboren.",
+        "Ich war 1990 geboren."
+      ],
+      "answer": "Ich bin 1990 geboren.",
+      "explanation": "German uses bin for living people.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Born ON a date: geboren…",
+      "options": [
+        "am 3. Mai",
+        "im 3. Mai"
+      ],
+      "answer": "am 3. Mai",
+      "explanation": "Dates take am.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Born IN a year: just the year, or…",
+      "options": [
+        "im Jahr 1990",
+        "am Jahr 1990"
+      ],
+      "answer": "im Jahr 1990",
+      "explanation": "Im Jahr or just 1990.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Wo sind Sie ___? (born)",
+      "answer": "geboren",
+      "fullAnswer": "Wo sind Sie geboren?",
+      "explanation": "Geboren.",
+      "id": "q5"
+    }
+  ]
+}

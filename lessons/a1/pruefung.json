@@ -1,0 +1,151 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Prüfung",
+    "partOfSpeech": "noun, feminine (die Prüfung)",
+    "pronunciation": {
+      "respelling": "PRUE-foong",
+      "ipa": "ˈpʁyːfʊŋ",
+      "notes": "Plural: die Prüfungen."
+    },
+    "meaning": "exam, test",
+    "shortDefinition": "Exam, test."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Prüf",
+        "meaning": "test, check",
+        "note": "From prüfen."
+      },
+      {
+        "part": "ung",
+        "meaning": "noun ending"
+      }
+    ],
+    "literalMeaning": "a testing"
+  },
+  "wordFamily": [
+    {
+      "german": "prüfen",
+      "english": "to check, to test",
+      "type": "verb"
+    },
+    {
+      "german": "der Test",
+      "english": "test",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Prüfung, plural die Prüfungen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Prüfung"
+        },
+        {
+          "label": "More than one",
+          "value": "die Prüfungen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Morgen habe ich eine Prüfung.",
+      "english": "I have an exam tomorrow.",
+      "highlight": [
+        "Prüfung."
+      ]
+    },
+    {
+      "german": "Hast du die Prüfung bestanden?",
+      "english": "Did you pass the exam?",
+      "highlight": [
+        "Prüfung"
+      ]
+    },
+    {
+      "german": "Die Prüfung war schwer.",
+      "english": "The exam was difficult.",
+      "highlight": [
+        "Prüfung"
+      ]
+    }
+  ],
+  "forms": [
+    "Prüfungen",
+    "die Prüfungen",
+    "die Prüfung"
+  ],
+  "memoryHook": "Die Prüfung = exam. Eine Prüfung machen / bestehen (pass). Good luck: Viel Erfolg!",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Prüfung",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Prüfung is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Prüfung, zwei ___",
+      "answer": "Prüfungen",
+      "fullAnswer": "ein Prüfung, zwei Prüfungen",
+      "explanation": "The plural is Prüfungen.",
+      "acceptedAnswers": [
+        "Pruefungen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Prüfung mean?",
+      "options": [
+        "exam",
+        "to help",
+        "tomorrow"
+      ],
+      "answer": "exam",
+      "explanation": "Prüfung: exam, test.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "To pass an exam is…",
+      "options": [
+        "bestehen",
+        "passen"
+      ],
+      "answer": "bestehen",
+      "explanation": "Eine Prüfung bestehen.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Prüfung comes from prüfen, which means…",
+      "options": [
+        "to check, test",
+        "to prove"
+      ],
+      "answer": "to check, test",
+      "explanation": "Prüfen → Prüfung.",
+      "id": "q5"
+    }
+  ]
+}

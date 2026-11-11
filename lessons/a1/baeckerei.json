@@ -1,0 +1,151 @@
+{
+ "schemaVersion": "1.4",
+ "language": "de",
+ "explanationLanguage": "en",
+ "level": "A1",
+ "levelSource": "Goethe-Zertifikat A1 Wortliste",
+ "lessonType": "card",
+ "word": {
+  "headword": "Bäckerei",
+  "partOfSpeech": "noun, feminine (die Bäckerei)",
+  "pronunciation": {
+   "respelling": "beck-uh-RYE",
+   "ipa": "bɛkəˈʁaɪ̯",
+   "notes": "Nouns ending in -ei are feminine and stressed on -ei. Plural: die Bäckereien."
+  },
+  "meaning": "bakery",
+  "shortDefinition": "Bakery."
+ },
+ "etymology": {
+  "title": "Where it comes from",
+  "parts": [
+   {
+    "part": "Bäcker",
+    "meaning": "baker"
+   },
+   {
+    "part": "ei",
+    "meaning": "noun ending (place, activity)"
+   }
+  ],
+  "literalMeaning": "baker's place",
+  "summary": "Bäcker (baker) + -ei (place where it's done)."
+ },
+ "wordFamily": [
+  {
+   "german": "der Bäcker",
+   "english": "baker",
+   "type": "noun"
+  },
+  {
+   "german": "backen",
+   "english": "to bake",
+   "type": "verb"
+  }
+ ],
+ "commonMistakes": [
+  {
+   "title": "Gender and plural",
+   "explanation": "Die Bäckerei, plural die Bäckereien.",
+   "forms": [
+    {
+     "label": "One",
+     "value": "die Bäckerei"
+    },
+    {
+     "label": "More than one",
+     "value": "die Bäckereien"
+    }
+   ]
+  }
+ ],
+ "sampleSentences": [
+  {
+   "german": "Ich kaufe Brötchen in der Bäckerei.",
+   "english": "I buy rolls at the bakery.",
+   "highlight": [
+    "Bäckerei."
+   ]
+  },
+  {
+   "german": "Die Bäckerei macht um sechs Uhr auf.",
+   "english": "The bakery opens at six.",
+   "highlight": [
+    "Bäckerei"
+   ]
+  },
+  {
+   "german": "Gibt es hier eine Bäckerei?",
+   "english": "Is there a bakery here?",
+   "highlight": [
+    "Bäckerei?"
+   ]
+  }
+ ],
+ "forms": [
+  "Bäckereien",
+  "die Bäckereien",
+  "die Bäckerei"
+ ],
+ "memoryHook": "Der Bäcker (baker) + -ei = his shop. The -ei ending always takes the stress and is always feminine.",
+ "signOff": "Gut gemacht!",
+ "quiz": [
+  {
+   "type": "choice",
+   "prompt": "___ Bäckerei",
+   "options": [
+    "der",
+    "die",
+    "das"
+   ],
+   "answer": "die",
+   "explanation": "Bäckerei is feminine.",
+   "id": "q1"
+  },
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "ein Bäckerei, zwei ___",
+   "answer": "Bäckereien",
+   "fullAnswer": "ein Bäckerei, zwei Bäckereien",
+   "explanation": "The plural is Bäckereien.",
+   "acceptedAnswers": [
+    "Baeckereien"
+   ],
+   "id": "q2"
+  },
+  {
+   "type": "choice",
+   "prompt": "What does Bäckerei mean?",
+   "options": [
+    "to open",
+    "bakery",
+    "cheap"
+   ],
+   "answer": "bakery",
+   "explanation": "Bäckerei: bakery.",
+   "id": "q3"
+  },
+  {
+   "type": "choice",
+   "prompt": "Where's the stress in Bäckerei?",
+   "options": [
+    "BÄ-cke-rei",
+    "bä-cke-REI"
+   ],
+   "answer": "bä-cke-REI",
+   "explanation": "-ei at the end is always stressed.",
+   "id": "q4"
+  },
+  {
+   "type": "choice",
+   "prompt": "The person who works there is…",
+   "options": [
+    "der Bäcker",
+    "der Bauer"
+   ],
+   "answer": "der Bäcker",
+   "explanation": "Bäcker + -ei = Bäckerei.",
+   "id": "q5"
+  }
+ ]
+}

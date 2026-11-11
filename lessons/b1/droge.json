@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Droge",
+    "partOfSpeech": "noun, feminine (die Droge)",
+    "pronunciation": {
+      "respelling": "DROH-ge",
+      "ipa": "ˈdʁoːɡə",
+      "notes": "Plural: die Drogen."
+    },
+    "meaning": "drug (illegal)",
+    "shortDefinition": "Drug (illegal)."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Droge, plural die Drogen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Droge"
+        },
+        {
+          "label": "More than one",
+          "value": "die Drogen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er nimmt keine Drogen.",
+      "english": "He doesn't take drugs.",
+      "highlight": [
+        "Drogen."
+      ]
+    },
+    {
+      "german": "Drogen sind gefährlich.",
+      "english": "Drugs are dangerous.",
+      "highlight": [
+        "Drogen"
+      ]
+    },
+    {
+      "german": "Die Polizei hat Drogen gefunden.",
+      "english": "The police found drugs.",
+      "highlight": [
+        "Drogen"
+      ]
+    }
+  ],
+  "forms": [
+    "Drogen",
+    "die Drogen",
+    "die Droge"
+  ],
+  "memoryHook": "Die Droge = illegal drug. Die Drogerie sells shampoo!",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Droge",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Droge is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Droge, zwei ___",
+      "answer": "Drogen",
+      "fullAnswer": "ein Droge, zwei Drogen",
+      "explanation": "The plural is Drogen.",
+      "acceptedAnswers": [
+        "Drogen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Droge mean?",
+      "options": [
+        "drug (illegal)",
+        "the bill",
+        "the weather"
+      ],
+      "answer": "drug (illegal)",
+      "explanation": "Droge: drug (illegal).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Medicine (legal):",
+      "options": [
+        "das Medikament",
+        "die Droge"
+      ],
+      "answer": "das Medikament",
+      "explanation": "Droge = illegal drug.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Drogerie sells…",
+      "options": [
+        "toiletries",
+        "drugs"
+      ],
+      "answer": "toiletries",
+      "explanation": "False friend!",
+      "id": "q5"
+    }
+  ]
+}

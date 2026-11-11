@@ -1,0 +1,178 @@
+{
+ "schemaVersion": "1.4",
+ "language": "de",
+ "explanationLanguage": "en",
+ "level": "B1",
+ "levelSource": "Goethe-Zertifikat B1 Wortliste",
+ "lessonType": "card",
+ "word": {
+  "headword": "beschädigen",
+  "partOfSpeech": "verb",
+  "pronunciation": {
+   "respelling": "be-SHAY-di-gen",
+   "ipa": "bəˈʃɛːdɪɡn̩",
+   "notes": ""
+  },
+  "meaning": "to damage",
+  "shortDefinition": "To damage."
+ },
+ "tables": [
+  {
+   "title": "Present tense",
+   "columns": [
+    "present"
+   ],
+   "rows": [
+    {
+     "label": "ich",
+     "cells": [
+      "beschädig|e"
+     ]
+    },
+    {
+     "label": "du",
+     "cells": [
+      "beschädig|st"
+     ]
+    },
+    {
+     "label": "er, sie, es",
+     "cells": [
+      "beschädig|t"
+     ]
+    },
+    {
+     "label": "wir",
+     "cells": [
+      "beschädig|en"
+     ]
+    },
+    {
+     "label": "ihr",
+     "cells": [
+      "beschädig|t"
+     ]
+    },
+    {
+     "label": "sie, Sie",
+     "cells": [
+      "beschädig|en"
+     ]
+    }
+   ],
+   "notes": [
+    "Past (Perfekt): hat beschädigt"
+   ]
+  }
+ ],
+ "wordFamily": [
+  {
+   "german": "der Schaden",
+   "english": "damage",
+   "type": "noun"
+  }
+ ],
+ "sampleSentences": [
+  {
+   "german": "Das Paket wurde beschädigt.",
+   "english": "The parcel was damaged.",
+   "highlight": [
+    "beschädigt."
+   ]
+  },
+  {
+   "german": "Bei dem Unfall wurde das Auto beschädigt.",
+   "english": "The car was damaged in the accident.",
+   "highlight": [
+    "beschädigt."
+   ]
+  },
+  {
+   "german": "Bitte nichts beschädigen!",
+   "english": "Please don't damage anything!",
+   "highlight": [
+    "beschädigen!"
+   ]
+  }
+ ],
+ "forms": [
+  "beschädige",
+  "beschädigst",
+  "beschädigt",
+  "beschädigen"
+ ],
+ "memoryHook": "Der Schaden → beschädigen (damage).",
+ "signOff": "Gut gemacht!",
+ "quiz": [
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "er ___ (beschädigen)",
+   "answer": "beschädigt",
+   "fullAnswer": "",
+   "explanation": "For er, sie, es: beschädigt.",
+   "acceptedAnswers": [
+    "beschaedigt"
+   ],
+   "id": "q1"
+  },
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "Ich habe schon ___. (beschädigen, past)",
+   "answer": "beschädigt",
+   "fullAnswer": "",
+   "explanation": "Perfekt: habe beschädigt.",
+   "acceptedAnswers": [
+    "beschaedigt"
+   ],
+   "id": "q2"
+  },
+  {
+   "type": "choice",
+   "prompt": "What does beschädigen mean?",
+   "options": [
+    "to damage",
+    "to help",
+    "hot"
+   ],
+   "answer": "to damage",
+   "explanation": "beschädigen: to damage.",
+   "id": "q3"
+  },
+  {
+   "type": "choice",
+   "prompt": "From…",
+   "options": [
+    "der Schaden (damage)",
+    "schade only"
+   ],
+   "answer": "der Schaden (damage)",
+   "explanation": "Damage.",
+   "id": "q4"
+  },
+  {
+   "type": "choice",
+   "prompt": "'Beschädigt' means…",
+   "options": [
+    "damaged",
+    "dangerous"
+   ],
+   "answer": "damaged",
+   "explanation": "Damaged.",
+   "id": "q5"
+  }
+ ],
+ "etymology": {
+  "title": "Where it comes from",
+  "parts": [
+   {
+    "part": "be",
+    "meaning": "prefix (acts on something)"
+   },
+   {
+    "part": "schädigen",
+    "meaning": "to harm (Schaden)"
+   }
+  ],
+  "literalMeaning": "to do damage"
+ }
+}

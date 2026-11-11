@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "begehen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "be-GAY-en",
+      "ipa": "bəˈɡeːən",
+      "notes": ""
+    },
+    "meaning": "to commit (a crime, mistake); to celebrate; to walk along",
+    "shortDefinition": "To commit (a crime, mistake); to celebrate; to walk along."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "be",
+        "meaning": "prefix"
+      },
+      {
+        "part": "gehen",
+        "meaning": "to go"
+      }
+    ],
+    "literalMeaning": "to go about (do)"
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "begeh|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "begeh|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "begeh|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "begeh|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "begeh|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "begeh|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat begangen"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er hat einen Fehler begangen.",
+      "english": "He made a mistake.",
+      "highlight": [
+        "begangen."
+      ]
+    },
+    {
+      "german": "Sie hat ein Verbrechen begangen.",
+      "english": "She committed a crime.",
+      "highlight": [
+        "begangen."
+      ]
+    },
+    {
+      "german": "Wir begehen heute unser Jubiläum.",
+      "english": "Today we're celebrating our anniversary.",
+      "highlight": [
+        "begehen"
+      ]
+    }
+  ],
+  "forms": [
+    "begehe",
+    "begehst",
+    "begeht",
+    "begehen",
+    "begangen"
+  ],
+  "memoryHook": "Begehen (beging, begangen): commit (Fehler, Verbrechen); celebrate.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (begehen)",
+      "answer": "begeht",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: begeht.",
+      "acceptedAnswers": [
+        "begeht"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (begehen, past)",
+      "answer": "begangen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe begangen.",
+      "acceptedAnswers": [
+        "begangen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does begehen mean?",
+      "options": [
+        "never",
+        "to commit (a crime",
+        "expensive"
+      ],
+      "answer": "to commit (a crime",
+      "explanation": "begehen: to commit (a crime, mistake); to celebrate; to walk along.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Typical objects:",
+      "options": [
+        "Fehler, Verbrechen, Selbstmord, Jubiläum",
+        "Weg only"
+      ],
+      "answer": "Fehler, Verbrechen, Selbstmord, Jubiläum",
+      "explanation": "Commit.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "hat begangen",
+        "hat begeht"
+      ],
+      "answer": "hat begangen",
+      "explanation": "Like gehen.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Register:",
+      "options": [
+        "formal",
+        "slang"
+      ],
+      "answer": "formal",
+      "explanation": "Formal.",
+      "id": "q6"
+    }
+  ]
+}

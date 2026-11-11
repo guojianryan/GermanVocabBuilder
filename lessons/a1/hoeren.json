@@ -1,0 +1,170 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "hören",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "HUR-en",
+      "ipa": "ˈhøːʁən",
+      "notes": ""
+    },
+    "meaning": "to hear; to listen (to)",
+    "shortDefinition": "To hear; to listen (to)."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "hör|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "hör|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "hör|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "hör|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "hör|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "hör|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gehört"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "zuhören",
+      "english": "to listen (attentively)",
+      "type": "separable verb"
+    },
+    {
+      "german": "aufhören",
+      "english": "to stop",
+      "type": "separable verb"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich höre gern Musik.",
+      "english": "I like listening to music.",
+      "highlight": [
+        "höre"
+      ]
+    },
+    {
+      "german": "Hörst du mich?",
+      "english": "Can you hear me?",
+      "highlight": [
+        "Hörst"
+      ]
+    },
+    {
+      "german": "Hören Sie die Ansagen.",
+      "english": "Listen to the announcements.",
+      "highlight": [
+        "Hören"
+      ]
+    }
+  ],
+  "forms": [
+    "höre",
+    "hörst",
+    "hört",
+    "hören",
+    "gehört"
+  ],
+  "memoryHook": "Hören = hear and listen. Musik hören = listen to music. Zuhören = listen carefully.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (hören)",
+      "answer": "hört",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: hört.",
+      "acceptedAnswers": [
+        "hoert"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (hören, past)",
+      "answer": "gehört",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gehört.",
+      "acceptedAnswers": [
+        "gehoert"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does hören mean?",
+      "options": [
+        "the street",
+        "to hear",
+        "the car"
+      ],
+      "answer": "to hear",
+      "explanation": "hören: to hear; to listen (to).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Listening to music: Ich ___ Musik.",
+      "options": [
+        "höre",
+        "zuhöre"
+      ],
+      "answer": "höre",
+      "explanation": "Hören covers listen too.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "The ö sounds like…",
+      "options": [
+        "'er' in 'her' with rounded lips",
+        "'o' in 'go'"
+      ],
+      "answer": "'er' in 'her' with rounded lips",
+      "explanation": "Round your lips.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "gleichwohl",
+    "partOfSpeech": "adverb",
+    "pronunciation": {
+      "respelling": "glykh-VOHL",
+      "ipa": "ɡlaɪ̯çˈvoːl",
+      "notes": ""
+    },
+    "meaning": "nevertheless, nonetheless",
+    "shortDefinition": "Nevertheless, nonetheless."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "gleich",
+        "meaning": "same"
+      },
+      {
+        "part": "wohl",
+        "meaning": "well"
+      }
+    ],
+    "literalMeaning": "all the same"
+  },
+  "sampleSentences": [
+    {
+      "german": "Es regnete, gleichwohl gingen wir spazieren.",
+      "english": "It was raining; nevertheless we went for a walk.",
+      "highlight": [
+        "gleichwohl"
+      ]
+    },
+    {
+      "german": "Gleichwohl muss man sagen …",
+      "english": "Nonetheless, it must be said …",
+      "highlight": [
+        "Gleichwohl"
+      ]
+    },
+    {
+      "german": "Er war müde, arbeitete gleichwohl weiter.",
+      "english": "He was tired but kept working.",
+      "highlight": [
+        "gleichwohl"
+      ]
+    }
+  ],
+  "forms": [
+    "trotzdem"
+  ],
+  "memoryHook": "Gleichwohl = trotzdem (formal).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does gleichwohl mean?",
+      "options": [
+        "nevertheless",
+        "quiet",
+        "the evening"
+      ],
+      "answer": "nevertheless",
+      "explanation": "gleichwohl: nevertheless, nonetheless.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonyms:",
+      "options": [
+        "trotzdem, dennoch",
+        "deshalb"
+      ],
+      "answer": "trotzdem, dennoch",
+      "explanation": "Nevertheless.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Register:",
+      "options": [
+        "formal / literary",
+        "slang"
+      ],
+      "answer": "formal / literary",
+      "explanation": "Written.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "gleich + wohl",
+        "Gleis + wohl"
+      ],
+      "answer": "gleich + wohl",
+      "explanation": "All the same.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Das ist teuer, ___ kaufe ich es. (nevertheless)",
+      "answer": "gleichwohl",
+      "fullAnswer": "Das ist teuer, gleichwohl kaufe ich es.",
+      "explanation": "Gleichwohl.",
+      "acceptedAnswers": [
+        "trotzdem",
+        "dennoch"
+      ],
+      "id": "q5"
+    }
+  ]
+}

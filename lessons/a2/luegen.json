@@ -1,0 +1,168 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "lügen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "LÜ-gen",
+      "ipa": "ˈlyːɡn̩",
+      "notes": ""
+    },
+    "meaning": "to lie (tell lies)",
+    "shortDefinition": "To lie (tell lies)."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "lüg|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "lüg|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "lüg|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "lüg|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "lüg|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "lüg|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gelogen"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "die Lüge",
+      "english": "lie",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Du lügst!",
+      "english": "You're lying!",
+      "highlight": [
+        "lügst!"
+      ]
+    },
+    {
+      "german": "Er hat mich angelogen.",
+      "english": "He lied to me.",
+      "highlight": [
+        "angelogen."
+      ]
+    },
+    {
+      "german": "Ich lüge nie.",
+      "english": "I never lie.",
+      "highlight": [
+        "lüge"
+      ]
+    }
+  ],
+  "forms": [
+    "lüge",
+    "lügst",
+    "lügt",
+    "lügen",
+    "gelogen",
+    "log",
+    "anlügen",
+    "angelogen"
+  ],
+  "memoryHook": "Lügen, log, gelogen. Lie down = liegen (different!).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (lügen)",
+      "answer": "lügt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: lügt.",
+      "acceptedAnswers": [
+        "luegt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (lügen, past)",
+      "answer": "gelogen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gelogen.",
+      "acceptedAnswers": [
+        "gelogen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does lügen mean?",
+      "options": [
+        "to buy",
+        "to lie (tell lies)",
+        "to sleep"
+      ],
+      "answer": "to lie (tell lies)",
+      "explanation": "lügen: to lie (tell lies).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Past participle:",
+      "options": [
+        "gelogen",
+        "gelügt"
+      ],
+      "answer": "gelogen",
+      "explanation": "Irregular: log, gelogen.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Lie to someone':",
+      "options": [
+        "jemanden anlügen",
+        "zu jemandem lügen"
+      ],
+      "answer": "jemanden anlügen",
+      "explanation": "Anlügen.",
+      "id": "q5"
+    }
+  ]
+}

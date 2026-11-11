@@ -1,0 +1,143 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Verkehrsmittel",
+    "partOfSpeech": "noun, neuter (das Verkehrsmittel)",
+    "pronunciation": {
+      "respelling": "fair-KAIRS-mit-el",
+      "ipa": "fɛɐ̯ˈkeːɐ̯smɪtl̩",
+      "notes": "The plural looks the same. Plural: die Verkehrsmittel."
+    },
+    "meaning": "means of transport",
+    "shortDefinition": "Means of transport."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Verkehr",
+        "meaning": "traffic"
+      },
+      {
+        "part": "s",
+        "meaning": "linking letter"
+      },
+      {
+        "part": "Mittel",
+        "meaning": "means"
+      }
+    ],
+    "literalMeaning": "traffic means",
+    "summary": "Bus, train, tram…"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Verkehrsmittel, plural die Verkehrsmittel.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Verkehrsmittel"
+        },
+        {
+          "label": "More than one",
+          "value": "die Verkehrsmittel"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich fahre mit öffentlichen Verkehrsmitteln.",
+      "english": "I go by public transport.",
+      "highlight": [
+        "Verkehrsmitteln."
+      ]
+    },
+    {
+      "german": "Das Fahrrad ist ein gutes Verkehrsmittel.",
+      "english": "The bike is a good means of transport.",
+      "highlight": [
+        "Verkehrsmittel."
+      ]
+    },
+    {
+      "german": "Welches Verkehrsmittel nimmst du?",
+      "english": "What transport do you take?",
+      "highlight": [
+        "Verkehrsmittel"
+      ]
+    }
+  ],
+  "forms": [
+    "Verkehrsmittel",
+    "die Verkehrsmittel",
+    "das Verkehrsmittel"
+  ],
+  "memoryHook": "Verkehr + s + Mittel. Öffentliche Verkehrsmittel = public transport.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Verkehrsmittel",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Verkehrsmittel is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Verkehrsmittel, zwei ___",
+      "answer": "Verkehrsmittel",
+      "fullAnswer": "ein Verkehrsmittel, zwei Verkehrsmittel",
+      "explanation": "The plural is Verkehrsmittel.",
+      "acceptedAnswers": [
+        "Verkehrsmittel"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Verkehrsmittel mean?",
+      "options": [
+        "the shop",
+        "means of transport",
+        "to wait"
+      ],
+      "answer": "means of transport",
+      "explanation": "Verkehrsmittel: means of transport.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Public transport:",
+      "options": [
+        "öffentliche Verkehrsmittel",
+        "öffentlicher Verkehr only"
+      ],
+      "answer": "öffentliche Verkehrsmittel",
+      "explanation": "Both used.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Verkehr + s + Mittel",
+        "verkehrt + Mittel"
+      ],
+      "answer": "Verkehr + s + Mittel",
+      "explanation": "Traffic means.",
+      "id": "q5"
+    }
+  ]
+}

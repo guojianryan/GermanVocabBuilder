@@ -1,0 +1,180 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "vernehmen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "fer-NAY-men",
+      "ipa": "fɛɐ̯ˈneːmən",
+      "notes": ""
+    },
+    "meaning": "to hear, perceive; to question (police)",
+    "shortDefinition": "To hear, perceive; to question (police)."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "ver",
+        "meaning": "prefix"
+      },
+      {
+        "part": "nehmen",
+        "meaning": "to take (in)"
+      }
+    ],
+    "literalMeaning": "to take in (hear)"
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "vernehm|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "vernimm|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "vernimm|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "vernehm|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "vernehm|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "vernehm|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat vernommen"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Zeugen wurden vernommen.",
+      "english": "The witnesses were questioned.",
+      "highlight": [
+        "vernommen."
+      ]
+    },
+    {
+      "german": "Ich habe vernommen, dass du umziehst.",
+      "english": "I've heard you're moving.",
+      "highlight": [
+        "vernommen,"
+      ]
+    },
+    {
+      "german": "Sie vernahm ein Geräusch.",
+      "english": "She heard a noise.",
+      "highlight": [
+        "vernahm"
+      ]
+    }
+  ],
+  "forms": [
+    "Vernehmung",
+    "vernehmlich"
+  ],
+  "memoryHook": "Vernehmen (vernahm, vernommen): hear; question; die Vernehmung.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (vernehmen)",
+      "answer": "vernimmt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: vernimmt.",
+      "acceptedAnswers": [
+        "vernimmt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (vernehmen, past)",
+      "answer": "vernommen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe vernommen.",
+      "acceptedAnswers": [
+        "vernommen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does vernehmen mean?",
+      "options": [
+        "to hear",
+        "the window",
+        "the door"
+      ],
+      "answer": "to hear",
+      "explanation": "vernehmen: to hear, perceive; to question (police).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Police 'vernehmen' means…",
+      "options": [
+        "to question",
+        "to arrest"
+      ],
+      "answer": "to question",
+      "explanation": "Interrogate.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Noun:",
+      "options": [
+        "die Vernehmung (interrogation)",
+        "die Vernahme"
+      ],
+      "answer": "die Vernehmung (interrogation)",
+      "explanation": "Questioning.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "er ___ (vernehmen):",
+      "options": [
+        "vernimmt",
+        "vernehmt"
+      ],
+      "answer": "vernimmt",
+      "explanation": "e → i.",
+      "id": "q6"
+    }
+  ]
+}

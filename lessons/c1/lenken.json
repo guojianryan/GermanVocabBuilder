@@ -1,0 +1,179 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "lenken",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "LENG-ken",
+      "ipa": "ˈlɛŋkn̩",
+      "notes": ""
+    },
+    "meaning": "to steer; to direct",
+    "shortDefinition": "To steer; to direct."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "lenken",
+        "meaning": "to bend, steer",
+        "emphasis": "turn"
+      }
+    ],
+    "literalMeaning": "to steer",
+    "summary": "Turning the direction."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "lenk|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "lenk|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "lenk|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "lenk|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "lenk|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "lenk|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gelenkt"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er lenkt das Auto vorsichtig.",
+      "english": "He steers the car carefully.",
+      "highlight": [
+        "lenkt"
+      ]
+    },
+    {
+      "german": "Sie lenkt das Gespräch auf ein anderes Thema.",
+      "english": "She steers the conversation to another topic.",
+      "highlight": [
+        "lenkt"
+      ]
+    },
+    {
+      "german": "Das lenkt mich ab.",
+      "english": "That distracts me.",
+      "highlight": [
+        "lenkt",
+        "ab."
+      ]
+    }
+  ],
+  "forms": [
+    "Lenkrad",
+    "ablenken"
+  ],
+  "memoryHook": "Lenken = steer; Lenkrad; ablenken = distract.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (lenken)",
+      "answer": "lenkt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: lenkt.",
+      "acceptedAnswers": [
+        "lenkt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (lenken, past)",
+      "answer": "gelenkt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gelenkt.",
+      "acceptedAnswers": [
+        "gelenkt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does lenken mean?",
+      "options": [
+        "to buy",
+        "to steer",
+        "to travel"
+      ],
+      "answer": "to steer",
+      "explanation": "lenken: to steer; to direct.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Steering wheel:",
+      "options": [
+        "das Lenkrad",
+        "das Steuerrad only"
+      ],
+      "answer": "das Lenkrad",
+      "explanation": "Car.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Ablenken' means…",
+      "options": [
+        "to distract",
+        "to steer off a road"
+      ],
+      "answer": "to distract",
+      "explanation": "Distract.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Die Aufmerksamkeit lenken auf' means…",
+      "options": [
+        "to draw attention to",
+        "to steer attention away"
+      ],
+      "answer": "to draw attention to",
+      "explanation": "Direct.",
+      "id": "q6"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Alkohol",
+    "partOfSpeech": "noun, masculine (der Alkohol)",
+    "pronunciation": {
+      "respelling": "AL-ko-hol",
+      "ipa": "ˈalkohoːl",
+      "notes": "Usually no plural."
+    },
+    "meaning": "alcohol",
+    "shortDefinition": "Alcohol."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Alkohol, usually no plural.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Alkohol"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich trinke keinen Alkohol.",
+      "english": "I don't drink alcohol.",
+      "highlight": [
+        "Alkohol."
+      ]
+    },
+    {
+      "german": "Alkohol am Steuer ist verboten.",
+      "english": "Drink-driving is illegal.",
+      "highlight": [
+        "Alkohol"
+      ]
+    },
+    {
+      "german": "Gibt es auch Getränke ohne Alkohol?",
+      "english": "Are there alcohol-free drinks too?",
+      "highlight": [
+        "Alkohol?"
+      ]
+    }
+  ],
+  "forms": [
+    "alkoholfrei"
+  ],
+  "memoryHook": "Der Alkohol. Alkoholfrei = non-alcoholic.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Alkohol",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Alkohol is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Alkohol mean?",
+      "options": [
+        "alcohol",
+        "the car",
+        "to open"
+      ],
+      "answer": "alcohol",
+      "explanation": "Alkohol: alcohol.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Alcohol-free':",
+      "options": [
+        "alkoholfrei",
+        "alkohollos"
+      ],
+      "answer": "alkoholfrei",
+      "explanation": "-frei.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'No alcohol':",
+      "options": [
+        "keinen Alkohol",
+        "kein Alkohol (after trinken)"
+      ],
+      "answer": "keinen Alkohol",
+      "explanation": "Accusative der → keinen.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gender:",
+      "options": [
+        "der",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Der Alkohol.",
+      "id": "q5"
+    }
+  ]
+}

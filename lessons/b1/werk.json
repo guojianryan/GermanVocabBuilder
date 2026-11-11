@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Werk",
+    "partOfSpeech": "noun, neuter (das Werk)",
+    "pronunciation": {
+      "respelling": "VAIRK",
+      "ipa": "vɛʁk",
+      "notes": "Plural: die Werke."
+    },
+    "meaning": "work (of art); factory, plant",
+    "shortDefinition": "Work (of art); factory, plant."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Werk, plural die Werke.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Werk"
+        },
+        {
+          "label": "More than one",
+          "value": "die Werke"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das ist ein Werk von Picasso.",
+      "english": "That's a work by Picasso.",
+      "highlight": [
+        "Werk"
+      ]
+    },
+    {
+      "german": "Er arbeitet im VW-Werk.",
+      "english": "He works at the VW plant.",
+      "highlight": [
+        "VW-Werk."
+      ]
+    },
+    {
+      "german": "Goethes Werke sind berühmt.",
+      "english": "Goethe's works are famous.",
+      "highlight": [
+        "Werke"
+      ]
+    }
+  ],
+  "forms": [
+    "Werkstatt"
+  ],
+  "memoryHook": "Das Werk: work (art); factory. Die Werkstatt = workshop.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Werk",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Werk is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Werk, zwei ___",
+      "answer": "Werke",
+      "fullAnswer": "ein Werk, zwei Werke",
+      "explanation": "The plural is Werke.",
+      "acceptedAnswers": [
+        "Werke"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Werk mean?",
+      "options": [
+        "to buy",
+        "work (of art)",
+        "slowly"
+      ],
+      "answer": "work (of art)",
+      "explanation": "Werk: work (of art); factory, plant.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Werk can mean…",
+      "options": [
+        "a work (book, art) or factory",
+        "only factory"
+      ],
+      "answer": "a work (book, art) or factory",
+      "explanation": "Both.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Workshop:",
+      "options": [
+        "die Werkstatt",
+        "das Werkhaus"
+      ],
+      "answer": "die Werkstatt",
+      "explanation": "Garage, workshop.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Apartment",
+    "partOfSpeech": "noun, neuter (das Apartment)",
+    "pronunciation": {
+      "respelling": "ah-PART-ment",
+      "ipa": "aˈpaʁtmənt",
+      "notes": "Borrowed from English; the plural takes -s. Plural: die Apartments."
+    },
+    "meaning": "small flat, studio apartment",
+    "shortDefinition": "Small flat, studio apartment."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Apartment, plural die Apartments.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Apartment"
+        },
+        {
+          "label": "More than one",
+          "value": "die Apartments"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir haben ein Apartment am Meer gemietet.",
+      "english": "We've rented a small flat by the sea.",
+      "highlight": [
+        "Apartment"
+      ]
+    },
+    {
+      "german": "Das Apartment hat nur ein Zimmer.",
+      "english": "The apartment has just one room.",
+      "highlight": [
+        "Apartment"
+      ]
+    },
+    {
+      "german": "Studenten wohnen oft in kleinen Apartments.",
+      "english": "Students often live in small apartments.",
+      "highlight": [
+        "Apartments."
+      ]
+    }
+  ],
+  "forms": [
+    "Apartments"
+  ],
+  "memoryHook": "Apartment is borrowed from English, so it takes an English-style plural with -s. In German it usually means a small one.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Apartment",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Apartment is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Apartment, zwei ___",
+      "answer": "Apartments",
+      "fullAnswer": "ein Apartment, zwei Apartments",
+      "explanation": "The plural is Apartments.",
+      "acceptedAnswers": [
+        "Apartments"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "An Apartment is usually…",
+      "options": [
+        "small, often one room",
+        "a big house"
+      ],
+      "answer": "small, often one room",
+      "explanation": "Larger flats are Wohnungen.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Which word is more general for any flat?",
+      "options": [
+        "die Wohnung",
+        "das Apartment"
+      ],
+      "answer": "die Wohnung",
+      "explanation": "Wohnung covers flats of any size.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Wir mieten ein ___ für den Urlaub.",
+      "answer": "Apartment",
+      "fullAnswer": "Wir mieten ein Apartment für den Urlaub.",
+      "explanation": "Das Apartment.",
+      "id": "q5"
+    }
+  ]
+}

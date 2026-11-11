@@ -1,0 +1,139 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "ich",
+    "partOfSpeech": "pronoun (ich, mich, mir)",
+    "pronunciation": {
+      "respelling": "IKH",
+      "ipa": "ɪç",
+      "notes": ""
+    },
+    "meaning": "I",
+    "shortDefinition": "I."
+  },
+  "tables": [
+    {
+      "title": "ich in three forms",
+      "columns": [
+        "form",
+        "example"
+      ],
+      "rows": [
+        {
+          "label": "subject",
+          "cells": [
+            "|ich",
+            "Ich bin hier."
+          ]
+        },
+        {
+          "label": "accusative",
+          "cells": [
+            "|mich",
+            "Siehst du mich?"
+          ]
+        },
+        {
+          "label": "dative",
+          "cells": [
+            "|mir",
+            "Hilf mir!"
+          ]
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich heiße Anna.",
+      "english": "My name is Anna.",
+      "highlight": [
+        "Ich"
+      ]
+    },
+    {
+      "german": "Kannst du mich hören?",
+      "english": "Can you hear me?",
+      "highlight": [
+        "mich"
+      ]
+    },
+    {
+      "german": "Gib mir bitte das Buch.",
+      "english": "Please give me the book.",
+      "highlight": [
+        "mir"
+      ]
+    }
+  ],
+  "forms": [
+    "ich",
+    "mich",
+    "mir"
+  ],
+  "memoryHook": "Ich, mich, mir: I, me, to me. Lowercase unless it starts the sentence.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does ich mean?",
+      "options": [
+        "tomorrow",
+        "the job",
+        "I"
+      ],
+      "answer": "I",
+      "explanation": "ich: I.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Er sieht ___. (me)",
+      "options": [
+        "mich",
+        "mir"
+      ],
+      "answer": "mich",
+      "explanation": "Accusative: mich.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Er hilft ___. (me)",
+      "options": [
+        "mich",
+        "mir"
+      ],
+      "answer": "mir",
+      "explanation": "Helfen + dative: mir.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Unlike English 'I', ich is…",
+      "options": [
+        "lowercase",
+        "always capitalised"
+      ],
+      "answer": "lowercase",
+      "explanation": "Only at the start of a sentence: Ich.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "The ch in ich is…",
+      "options": [
+        "soft, like a whispered 'h' + 'y'",
+        "hard, like in 'Bach'"
+      ],
+      "answer": "soft, like a whispered 'h' + 'y'",
+      "explanation": "After i, ch is soft.",
+      "id": "q5"
+    }
+  ]
+}

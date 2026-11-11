@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Ufer",
+    "partOfSpeech": "noun, neuter (das Ufer)",
+    "pronunciation": {
+      "respelling": "OO-fer",
+      "ipa": "ˈuːfɐ",
+      "notes": "The plural looks the same. Plural: die Ufer."
+    },
+    "meaning": "bank, shore",
+    "shortDefinition": "Bank, shore."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Ufer, plural die Ufer.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Ufer"
+        },
+        {
+          "label": "More than one",
+          "value": "die Ufer"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir sitzen am Ufer.",
+      "english": "We're sitting on the bank.",
+      "highlight": [
+        "Ufer."
+      ]
+    },
+    {
+      "german": "Das Hotel liegt am Ufer des Sees.",
+      "english": "The hotel is on the lakeshore.",
+      "highlight": [
+        "Ufer"
+      ]
+    },
+    {
+      "german": "Er schwimmt ans andere Ufer.",
+      "english": "He swims to the other side.",
+      "highlight": [
+        "Ufer."
+      ]
+    }
+  ],
+  "forms": [
+    "Ufer",
+    "die Ufer",
+    "das Ufer"
+  ],
+  "memoryHook": "Das Ufer (river/lake bank); die Küste (sea coast).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Ufer",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Ufer is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Ufer, zwei ___",
+      "answer": "Ufer",
+      "fullAnswer": "ein Ufer, zwei Ufer",
+      "explanation": "The plural is Ufer.",
+      "acceptedAnswers": [
+        "Ufer"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Ufer mean?",
+      "options": [
+        "tomorrow",
+        "bank",
+        "to sleep"
+      ],
+      "answer": "bank",
+      "explanation": "Ufer: bank, shore.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Am Ufer' — preposition:",
+      "options": [
+        "an",
+        "auf"
+      ],
+      "answer": "an",
+      "explanation": "An.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ufer vs Küste:",
+      "options": [
+        "Ufer = river/lake bank; Küste = sea coast",
+        "same"
+      ],
+      "answer": "Ufer = river/lake bank; Küste = sea coast",
+      "explanation": "Different.",
+      "id": "q5"
+    }
+  ]
+}

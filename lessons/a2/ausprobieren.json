@@ -1,0 +1,174 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "ausprobieren",
+    "partOfSpeech": "separable verb",
+    "pronunciation": {
+      "respelling": "OWS-pro-bee-ren",
+      "ipa": "ˈaʊ̯sproˌbiːʁən",
+      "notes": ""
+    },
+    "meaning": "to try out",
+    "shortDefinition": "To try out."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "aus",
+        "meaning": "out"
+      },
+      {
+        "part": "probieren",
+        "meaning": "to try"
+      }
+    ],
+    "literalMeaning": "to try out"
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "probier|e … |aus"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "probier|st … |aus"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "probier|t … |aus"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "probier|en … |aus"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "probier|t … |aus"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "probier|en … |aus"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat ausprobiert"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich probiere das neue Rezept aus.",
+      "english": "I'm trying out the new recipe.",
+      "highlight": [
+        "probiere",
+        "aus."
+      ]
+    },
+    {
+      "german": "Hast du das Restaurant schon ausprobiert?",
+      "english": "Have you tried the restaurant yet?",
+      "highlight": [
+        "ausprobiert?"
+      ]
+    },
+    {
+      "german": "Probier es einfach aus!",
+      "english": "Just try it!",
+      "highlight": [
+        "Probier",
+        "aus!"
+      ]
+    }
+  ],
+  "forms": [
+    "probiere aus",
+    "probierst aus",
+    "probiert aus",
+    "probieren aus",
+    "ausprobiert"
+  ],
+  "memoryHook": "Ausprobieren = try out (no ge-).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ … aus (ausprobieren)",
+      "answer": "probiert",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: probiert … aus.",
+      "acceptedAnswers": [
+        "probiert"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (ausprobieren, past)",
+      "answer": "ausprobiert",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe ausprobiert.",
+      "acceptedAnswers": [
+        "ausprobiert"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does ausprobieren mean?",
+      "options": [
+        "to try out",
+        "always",
+        "tomorrow"
+      ],
+      "answer": "to try out",
+      "explanation": "ausprobieren: to try out.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "hat ausprobiert",
+        "hat ausgeprobiert"
+      ],
+      "answer": "hat ausprobiert",
+      "explanation": "-ieren: no ge-.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Separable?",
+      "options": [
+        "yes: ich probiere aus",
+        "no"
+      ],
+      "answer": "yes: ich probiere aus",
+      "explanation": "Aus- splits.",
+      "id": "q5"
+    }
+  ]
+}

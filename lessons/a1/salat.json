@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Salat",
+    "partOfSpeech": "noun, masculine (der Salat)",
+    "pronunciation": {
+      "respelling": "za-LAHT",
+      "ipa": "zaˈlaːt",
+      "notes": "Plural: die Salate."
+    },
+    "meaning": "salad; lettuce",
+    "shortDefinition": "Salad; lettuce."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Salat, plural die Salate.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Salat"
+        },
+        {
+          "label": "More than one",
+          "value": "die Salate"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich nehme einen gemischten Salat.",
+      "english": "I'll have a mixed salad.",
+      "highlight": [
+        "Salat."
+      ]
+    },
+    {
+      "german": "Der Salat ist frisch.",
+      "english": "The salad is fresh.",
+      "highlight": [
+        "Salat"
+      ]
+    },
+    {
+      "german": "Kaufst du einen Kopf Salat?",
+      "english": "Will you buy a head of lettuce?",
+      "highlight": [
+        "Salat?"
+      ]
+    }
+  ],
+  "forms": [
+    "Salate",
+    "die Salate",
+    "der Salat"
+  ],
+  "memoryHook": "Der Salat (stress the end) = salad and lettuce.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Salat",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Salat is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Salat, zwei ___",
+      "answer": "Salate",
+      "fullAnswer": "ein Salat, zwei Salate",
+      "explanation": "The plural is Salate.",
+      "acceptedAnswers": [
+        "Salate"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Salat mean?",
+      "options": [
+        "to travel",
+        "salad",
+        "the bill"
+      ],
+      "answer": "salad",
+      "explanation": "Salat: salad; lettuce.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Where's the stress?",
+      "options": [
+        "SA-lat",
+        "sa-LAT"
+      ],
+      "answer": "sa-LAT",
+      "explanation": "Stress the end.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Ein Kopf Salat' is…",
+      "options": [
+        "a head of lettuce",
+        "a salad head"
+      ],
+      "answer": "a head of lettuce",
+      "explanation": "Salat = lettuce too.",
+      "id": "q5"
+    }
+  ]
+}

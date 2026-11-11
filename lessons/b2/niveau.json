@@ -1,0 +1,133 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Niveau",
+    "partOfSpeech": "noun, neuter (das Niveau)",
+    "pronunciation": {
+      "respelling": "ni-VOH",
+      "ipa": "niˈvoː",
+      "notes": "Plural: die Niveaus."
+    },
+    "meaning": "level, standard",
+    "shortDefinition": "Level, standard."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Niveau, plural die Niveaus.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Niveau"
+        },
+        {
+          "label": "More than one",
+          "value": "die Niveaus"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Kurs ist auf B2-Niveau.",
+      "english": "The course is at B2 level.",
+      "highlight": [
+        "B2-Niveau."
+      ]
+    },
+    {
+      "german": "Das Restaurant hat Niveau.",
+      "english": "The restaurant is classy.",
+      "highlight": [
+        "Niveau."
+      ]
+    },
+    {
+      "german": "Das Niveau ist gesunken.",
+      "english": "The standard has dropped.",
+      "highlight": [
+        "Niveau"
+      ]
+    }
+  ],
+  "forms": [
+    "niveauvoll"
+  ],
+  "memoryHook": "Das Niveau (French) = level, standard.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Niveau",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Niveau is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Niveau, zwei ___",
+      "answer": "Niveaus",
+      "fullAnswer": "ein Niveau, zwei Niveaus",
+      "explanation": "The plural is Niveaus.",
+      "acceptedAnswers": [
+        "Niveaus"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Niveau mean?",
+      "options": [
+        "level",
+        "the bread",
+        "the station"
+      ],
+      "answer": "level",
+      "explanation": "Niveau: level, standard.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Pronunciation:",
+      "options": [
+        "French (ni-VOH)",
+        "German (ni-VAU)"
+      ],
+      "answer": "French (ni-VOH)",
+      "explanation": "Loanword.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Niveau haben' means…",
+      "options": [
+        "to be classy, sophisticated",
+        "to be flat"
+      ],
+      "answer": "to be classy, sophisticated",
+      "explanation": "Idiom.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Niveaus",
+        "Niveaux"
+      ],
+      "answer": "Niveaus",
+      "explanation": "-s.",
+      "id": "q6"
+    }
+  ]
+}

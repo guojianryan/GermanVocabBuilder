@@ -1,0 +1,186 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "einkaufen",
+    "partOfSpeech": "separable verb",
+    "pronunciation": {
+      "respelling": "INE-kow-fen",
+      "ipa": "ˈaɪ̯nˌkaʊ̯fn̩",
+      "notes": ""
+    },
+    "meaning": "to shop, to go shopping",
+    "shortDefinition": "To shop, to go shopping."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "ein",
+        "meaning": "in"
+      },
+      {
+        "part": "kaufen",
+        "meaning": "to buy"
+      }
+    ],
+    "literalMeaning": "to buy in"
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "kaufe … |ein"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "kaufst … |ein"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "kauft … |ein"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "kaufen … |ein"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "kauft … |ein"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "kaufen … |ein"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat eingekauft"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "kaufen",
+      "english": "to buy",
+      "type": "verb"
+    },
+    {
+      "german": "der Einkauf",
+      "english": "shopping, purchase",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich gehe einkaufen.",
+      "english": "I'm going shopping.",
+      "highlight": [
+        "einkaufen."
+      ]
+    },
+    {
+      "german": "Wir kaufen am Samstag ein.",
+      "english": "We do the shopping on Saturday.",
+      "highlight": [
+        "kaufen",
+        "ein."
+      ]
+    },
+    {
+      "german": "Hast du schon eingekauft?",
+      "english": "Have you done the shopping?",
+      "highlight": [
+        "eingekauft?"
+      ]
+    }
+  ],
+  "forms": [
+    "kaufe ein",
+    "kaufst ein",
+    "kauft ein",
+    "kaufen ein",
+    "eingekauft",
+    "einkaufen gehen"
+  ],
+  "memoryHook": "Einkaufen = do the shopping. Kaufen = buy something specific. Ich gehe einkaufen: I'm off to the shops.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ … ein (einkaufen)",
+      "answer": "kauft",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: kauft … ein.",
+      "acceptedAnswers": [
+        "kauft"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (einkaufen, past)",
+      "answer": "eingekauft",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe eingekauft.",
+      "acceptedAnswers": [
+        "eingekauft"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does einkaufen mean?",
+      "options": [
+        "to wait",
+        "the child",
+        "to shop"
+      ],
+      "answer": "to shop",
+      "explanation": "einkaufen: to shop, to go shopping.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'I'm going shopping' is…",
+      "options": [
+        "Ich gehe einkaufen.",
+        "Ich gehe zu einkaufen."
+      ],
+      "answer": "Ich gehe einkaufen.",
+      "explanation": "Gehen + infinitive, no zu.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Einkaufen vs kaufen: which is 'to buy a specific thing'?",
+      "options": [
+        "kaufen",
+        "einkaufen"
+      ],
+      "answer": "kaufen",
+      "explanation": "Ich kaufe ein Auto. Ich kaufe ein (do the shopping).",
+      "id": "q5"
+    }
+  ]
+}

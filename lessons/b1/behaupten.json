@@ -1,0 +1,164 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "behaupten",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "be-HOWP-ten",
+      "ipa": "bəˈhaʊ̯ptn̩",
+      "notes": ""
+    },
+    "meaning": "to claim, to maintain",
+    "shortDefinition": "To claim, to maintain."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "behaupt|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "behaupt|est"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "behaupt|et"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "behaupt|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "behaupt|et"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "behaupt|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat behauptet"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "die Behauptung",
+      "english": "claim",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er behauptet, dass er nichts gewusst hat.",
+      "english": "He claims he didn't know anything.",
+      "highlight": [
+        "behauptet,"
+      ]
+    },
+    {
+      "german": "Das kann man nicht behaupten.",
+      "english": "You can't say that.",
+      "highlight": [
+        "behaupten."
+      ]
+    },
+    {
+      "german": "Wer hat das behauptet?",
+      "english": "Who claimed that?",
+      "highlight": [
+        "behauptet?"
+      ]
+    }
+  ],
+  "forms": [
+    "behaupte",
+    "behauptest",
+    "behauptet",
+    "behaupten"
+  ],
+  "memoryHook": "Behaupten = claim (maybe falsely). Die Behauptung.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (behaupten)",
+      "answer": "behauptet",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: behauptet.",
+      "acceptedAnswers": [
+        "behauptet"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (behaupten, past)",
+      "answer": "behauptet",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe behauptet.",
+      "acceptedAnswers": [
+        "behauptet"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does behaupten mean?",
+      "options": [
+        "the shop",
+        "always",
+        "to claim"
+      ],
+      "answer": "to claim",
+      "explanation": "behaupten: to claim, to maintain.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Behaupten suggests…",
+      "options": [
+        "it may not be true",
+        "it's definitely true"
+      ],
+      "answer": "it may not be true",
+      "explanation": "Claim.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "The noun:",
+      "options": [
+        "die Behauptung",
+        "der Behaupt"
+      ],
+      "answer": "die Behauptung",
+      "explanation": "Claim.",
+      "id": "q5"
+    }
+  ]
+}

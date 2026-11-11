@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Dienst",
+    "partOfSpeech": "noun, masculine (der Dienst)",
+    "pronunciation": {
+      "respelling": "DEENST",
+      "ipa": "diːnst",
+      "notes": "Plural: die Dienste."
+    },
+    "meaning": "service; duty",
+    "shortDefinition": "Service; duty."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Dienst, plural die Dienste.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Dienst"
+        },
+        {
+          "label": "More than one",
+          "value": "die Dienste"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich habe heute Nachtdienst.",
+      "english": "I'm on night duty today.",
+      "highlight": [
+        "Nachtdienst."
+      ]
+    },
+    {
+      "german": "Welche Apotheke hat Notdienst?",
+      "english": "Which pharmacy is on emergency duty?",
+      "highlight": [
+        "Notdienst?"
+      ]
+    },
+    {
+      "german": "Er ist im öffentlichen Dienst.",
+      "english": "He's in the civil service.",
+      "highlight": [
+        "Dienst."
+      ]
+    }
+  ],
+  "forms": [
+    "Dienste",
+    "die Dienste",
+    "der Dienst"
+  ],
+  "memoryHook": "Der Dienst = service, duty. Dienst haben = be on duty.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Dienst",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Dienst is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Dienst, zwei ___",
+      "answer": "Dienste",
+      "fullAnswer": "ein Dienst, zwei Dienste",
+      "explanation": "The plural is Dienste.",
+      "acceptedAnswers": [
+        "Dienste"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Dienst mean?",
+      "options": [
+        "to help",
+        "service",
+        "the key"
+      ],
+      "answer": "service",
+      "explanation": "Dienst: service; duty.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Dienst haben' means…",
+      "options": [
+        "to be on duty",
+        "to have a service"
+      ],
+      "answer": "to be on duty",
+      "explanation": "Work shift.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Tuesday (related):",
+      "options": [
+        "Dienstag (not related!)",
+        "from Dienst"
+      ],
+      "answer": "Dienstag (not related!)",
+      "explanation": "Different origin.",
+      "id": "q5"
+    }
+  ]
+}

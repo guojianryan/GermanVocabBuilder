@@ -1,0 +1,115 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Salz",
+    "partOfSpeech": "noun, neuter (das Salz)",
+    "pronunciation": {
+      "respelling": "ZALTS",
+      "ipa": "zalts",
+      "notes": "No plural in everyday use. Usually no plural."
+    },
+    "meaning": "salt",
+    "shortDefinition": "Salt."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Salz, usually no plural.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Salz"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Gib mir bitte das Salz.",
+      "english": "Please pass the salt.",
+      "highlight": [
+        "Salz."
+      ]
+    },
+    {
+      "german": "Die Suppe braucht mehr Salz.",
+      "english": "The soup needs more salt.",
+      "highlight": [
+        "Salz."
+      ]
+    },
+    {
+      "german": "Salz und Pfeffer stehen auf dem Tisch.",
+      "english": "Salt and pepper are on the table.",
+      "highlight": [
+        "Salz"
+      ]
+    }
+  ],
+  "forms": [
+    "salzig"
+  ],
+  "memoryHook": "Das Salz (z = ts). Salzig = salty. Salzburg = salt castle.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Salz",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Salz is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Salz mean?",
+      "options": [
+        "salt",
+        "the window",
+        "cheap"
+      ],
+      "answer": "salt",
+      "explanation": "Salz: salt.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Salz und ___ (salt and pepper)",
+      "options": [
+        "Pfeffer",
+        "Zucker"
+      ],
+      "answer": "Pfeffer",
+      "explanation": "Salt and pepper.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Salzig means…",
+      "options": [
+        "salty",
+        "sweet"
+      ],
+      "answer": "salty",
+      "explanation": "Salz + -ig.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Kannst du mir das ___ geben? (salt)",
+      "answer": "Salz",
+      "fullAnswer": "Kannst du mir das Salz geben?",
+      "explanation": "Das Salz.",
+      "id": "q5"
+    }
+  ]
+}

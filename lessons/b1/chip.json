@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Chip",
+    "partOfSpeech": "noun, masculine (der Chip)",
+    "pronunciation": {
+      "respelling": "CHIP",
+      "ipa": "tʃɪp",
+      "notes": "Plural: die Chips."
+    },
+    "meaning": "chip; (pl.) crisps",
+    "shortDefinition": "Chip; (pl.) crisps."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Chip, plural die Chips.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Chip"
+        },
+        {
+          "label": "More than one",
+          "value": "die Chips"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir essen Chips vor dem Fernseher.",
+      "english": "We eat crisps in front of the TV.",
+      "highlight": [
+        "Chips"
+      ]
+    },
+    {
+      "german": "Der Computer hat einen neuen Chip.",
+      "english": "The computer has a new chip.",
+      "highlight": [
+        "Chip."
+      ]
+    },
+    {
+      "german": "Mein Hund hat einen Chip.",
+      "english": "My dog is microchipped.",
+      "highlight": [
+        "Chip."
+      ]
+    }
+  ],
+  "forms": [
+    "Pommes"
+  ],
+  "memoryHook": "Der Chip; Chips = crisps; Pommes = fries.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Chip",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Chip is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Chip, zwei ___",
+      "answer": "Chips",
+      "fullAnswer": "ein Chip, zwei Chips",
+      "explanation": "The plural is Chips.",
+      "acceptedAnswers": [
+        "Chips"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Chip mean?",
+      "options": [
+        "to open",
+        "chip",
+        "the car"
+      ],
+      "answer": "chip",
+      "explanation": "Chip: chip; (pl.) crisps.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "German 'Chips' are…",
+      "options": [
+        "crisps (potato chips)",
+        "chips (fries)"
+      ],
+      "answer": "crisps (potato chips)",
+      "explanation": "Fries = Pommes.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Fries in German:",
+      "options": [
+        "die Pommes (frites)",
+        "die Chips"
+      ],
+      "answer": "die Pommes (frites)",
+      "explanation": "Pommes.",
+      "id": "q5"
+    }
+  ]
+}

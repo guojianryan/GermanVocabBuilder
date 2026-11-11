@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Studio",
+    "partOfSpeech": "noun, neuter (das Studio)",
+    "pronunciation": {
+      "respelling": "SHTOO-dyo",
+      "ipa": "ˈʃtuːdi̯o",
+      "notes": "Plural: die Studios."
+    },
+    "meaning": "studio",
+    "shortDefinition": "Studio."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Studio, plural die Studios.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Studio"
+        },
+        {
+          "label": "More than one",
+          "value": "die Studios"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Band nimmt im Studio auf.",
+      "english": "The band is recording in the studio.",
+      "highlight": [
+        "Studio"
+      ]
+    },
+    {
+      "german": "Ich trainiere im Fitnessstudio.",
+      "english": "I train at the gym.",
+      "highlight": [
+        "Fitnessstudio."
+      ]
+    },
+    {
+      "german": "Das Fernsehstudio ist in Köln.",
+      "english": "The TV studio is in Cologne.",
+      "highlight": [
+        "Fernsehstudio"
+      ]
+    }
+  ],
+  "forms": [
+    "Studios",
+    "die Studios",
+    "das Studio"
+  ],
+  "memoryHook": "Das Studio. Fitnessstudio = gym.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Studio",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Studio is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Studio, zwei ___",
+      "answer": "Studios",
+      "fullAnswer": "ein Studio, zwei Studios",
+      "explanation": "The plural is Studios.",
+      "acceptedAnswers": [
+        "Studios"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Studio mean?",
+      "options": [
+        "studio",
+        "the family",
+        "the station"
+      ],
+      "answer": "studio",
+      "explanation": "Studio: studio.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gym:",
+      "options": [
+        "das Fitnessstudio",
+        "die Turnhalle"
+      ],
+      "answer": "das Fitnessstudio",
+      "explanation": "Fitness studio.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Studios",
+        "Studien"
+      ],
+      "answer": "Studios",
+      "explanation": "-s.",
+      "id": "q5"
+    }
+  ]
+}

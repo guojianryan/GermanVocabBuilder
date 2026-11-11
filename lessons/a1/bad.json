@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Bad",
+    "partOfSpeech": "noun, neuter (das Bad)",
+    "pronunciation": {
+      "respelling": "BAHT",
+      "ipa": "baːt",
+      "notes": "Plural: die Bäder."
+    },
+    "meaning": "bathroom; bath",
+    "shortDefinition": "Bathroom; bath."
+  },
+  "wordFamily": [
+    {
+      "german": "baden",
+      "english": "to bathe; to swim",
+      "type": "verb"
+    },
+    {
+      "german": "das Schwimmbad",
+      "english": "swimming pool",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Bad, plural die Bäder.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Bad"
+        },
+        {
+          "label": "More than one",
+          "value": "die Bäder"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Wohnung hat zwei Bäder.",
+      "english": "The flat has two bathrooms.",
+      "highlight": [
+        "Bäder."
+      ]
+    },
+    {
+      "german": "Das Bad ist rechts.",
+      "english": "The bathroom is on the right.",
+      "highlight": [
+        "Bad"
+      ]
+    },
+    {
+      "german": "Ich nehme ein heißes Bad.",
+      "english": "I'm taking a hot bath.",
+      "highlight": [
+        "Bad."
+      ]
+    }
+  ],
+  "forms": [
+    "Bäder",
+    "die Bäder",
+    "das Bad"
+  ],
+  "memoryHook": "Das Bad: bathroom or bath. Schwimmbad: swimming pool. The final d sounds like t.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Bad",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Bad is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Bad, zwei ___",
+      "answer": "Bäder",
+      "fullAnswer": "ein Bad, zwei Bäder",
+      "explanation": "The plural is Bäder.",
+      "acceptedAnswers": [
+        "Baeder"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Bad mean?",
+      "options": [
+        "bathroom",
+        "to wait",
+        "the bread"
+      ],
+      "answer": "bathroom",
+      "explanation": "Bad: bathroom; bath.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "The final d in Bad sounds like…",
+      "options": [
+        "t",
+        "d"
+      ],
+      "answer": "t",
+      "explanation": "At the end of a word, d sounds like t.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Das Schwimmbad is…",
+      "options": [
+        "a swimming pool",
+        "a bathtub"
+      ],
+      "answer": "a swimming pool",
+      "explanation": "Schwimmen + Bad.",
+      "id": "q5"
+    }
+  ]
+}

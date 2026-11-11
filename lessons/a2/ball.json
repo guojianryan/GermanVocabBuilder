@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Ball",
+    "partOfSpeech": "noun, masculine (der Ball)",
+    "pronunciation": {
+      "respelling": "BAL",
+      "ipa": "bal",
+      "notes": "Plural: die Bälle."
+    },
+    "meaning": "ball",
+    "shortDefinition": "Ball."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Ball, plural die Bälle.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Ball"
+        },
+        {
+          "label": "More than one",
+          "value": "die Bälle"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Kinder spielen mit dem Ball.",
+      "english": "The children are playing with the ball.",
+      "highlight": [
+        "Ball."
+      ]
+    },
+    {
+      "german": "Wirf mir den Ball!",
+      "english": "Throw me the ball!",
+      "highlight": [
+        "Ball!"
+      ]
+    },
+    {
+      "german": "Wir gehen am Samstag auf einen Ball.",
+      "english": "We're going to a ball (dance) on Saturday.",
+      "highlight": [
+        "Ball."
+      ]
+    }
+  ],
+  "forms": [
+    "Bälle",
+    "die Bälle",
+    "der Ball"
+  ],
+  "memoryHook": "Der Ball, die Bälle: for games and for dancing.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Ball",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Ball is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Ball, zwei ___",
+      "answer": "Bälle",
+      "fullAnswer": "ein Ball, zwei Bälle",
+      "explanation": "The plural is Bälle.",
+      "acceptedAnswers": [
+        "Baelle"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Ball mean?",
+      "options": [
+        "the child",
+        "ball",
+        "the bread"
+      ],
+      "answer": "ball",
+      "explanation": "Ball: ball.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Bälle",
+        "Balls"
+      ],
+      "answer": "Bälle",
+      "explanation": "a → ä + e.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Fußball, Basketball, Volleyball are all…",
+      "options": [
+        "der",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Der Ball decides.",
+      "id": "q5"
+    }
+  ]
+}

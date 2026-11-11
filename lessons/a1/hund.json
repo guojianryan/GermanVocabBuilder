@@ -1,0 +1,131 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Hund",
+    "partOfSpeech": "noun, masculine (der Hund)",
+    "pronunciation": {
+      "respelling": "HOONT",
+      "ipa": "hʊnt",
+      "notes": "Plural: die Hunde."
+    },
+    "meaning": "dog",
+    "shortDefinition": "Dog."
+  },
+  "wordFamily": [
+    {
+      "german": "die Katze",
+      "english": "cat",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Hund, plural die Hunde.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Hund"
+        },
+        {
+          "label": "More than one",
+          "value": "die Hunde"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir haben einen Hund.",
+      "english": "We have a dog.",
+      "highlight": [
+        "Hund."
+      ]
+    },
+    {
+      "german": "Der Hund bellt.",
+      "english": "The dog is barking.",
+      "highlight": [
+        "Hund"
+      ]
+    },
+    {
+      "german": "Hunde sind hier verboten.",
+      "english": "Dogs aren't allowed here.",
+      "highlight": [
+        "Hunde"
+      ]
+    }
+  ],
+  "forms": [
+    "Hunde",
+    "die Hunde",
+    "der Hund"
+  ],
+  "memoryHook": "Der Hund = dog (English 'hound'). Ich habe einen Hund: remember einen!",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Hund",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Hund is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Hund, zwei ___",
+      "answer": "Hunde",
+      "fullAnswer": "ein Hund, zwei Hunde",
+      "explanation": "The plural is Hunde.",
+      "acceptedAnswers": [
+        "Hunde"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Hund mean?",
+      "options": [
+        "the car",
+        "to wait",
+        "dog"
+      ],
+      "answer": "dog",
+      "explanation": "Hund: dog.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich habe ___ Hund.",
+      "options": [
+        "ein",
+        "einen"
+      ],
+      "answer": "einen",
+      "explanation": "Masculine object: einen.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Hund is related to English…",
+      "options": [
+        "hound",
+        "hunt"
+      ],
+      "answer": "hound",
+      "explanation": "Hund = hound.",
+      "id": "q5"
+    }
+  ]
+}

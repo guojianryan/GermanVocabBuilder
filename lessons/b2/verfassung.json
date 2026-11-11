@@ -1,0 +1,152 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Verfassung",
+    "partOfSpeech": "noun, feminine (die Verfassung)",
+    "pronunciation": {
+      "respelling": "fer-FA-sung",
+      "ipa": "fɛɐ̯ˈfasʊŋ",
+      "notes": "Plural: die Verfassungen."
+    },
+    "meaning": "constitution; state, condition",
+    "shortDefinition": "Constitution; state, condition."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Ver",
+        "meaning": "prefix"
+      },
+      {
+        "part": "fass",
+        "meaning": "grasp, set down (fassen)"
+      },
+      {
+        "part": "ung",
+        "meaning": "noun ending"
+      }
+    ],
+    "literalMeaning": "a setting-down"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Verfassung, plural die Verfassungen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Verfassung"
+        },
+        {
+          "label": "More than one",
+          "value": "die Verfassungen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das verstößt gegen die Verfassung.",
+      "english": "That violates the constitution.",
+      "highlight": [
+        "Verfassung."
+      ]
+    },
+    {
+      "german": "Er ist in guter Verfassung.",
+      "english": "He's in good shape.",
+      "highlight": [
+        "Verfassung."
+      ]
+    },
+    {
+      "german": "Das Bundesverfassungsgericht.",
+      "english": "The Federal Constitutional Court.",
+      "highlight": [
+        "Bundesverfassungsgericht."
+      ]
+    }
+  ],
+  "forms": [
+    "verfassen",
+    "Grundgesetz"
+  ],
+  "memoryHook": "Die Verfassung: constitution; condition.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Verfassung",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Verfassung is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Verfassung, zwei ___",
+      "answer": "Verfassungen",
+      "fullAnswer": "ein Verfassung, zwei Verfassungen",
+      "explanation": "The plural is Verfassungen.",
+      "acceptedAnswers": [
+        "Verfassungen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Verfassung mean?",
+      "options": [
+        "the bill",
+        "constitution",
+        "expensive"
+      ],
+      "answer": "constitution",
+      "explanation": "Verfassung: constitution; state, condition.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'In guter Verfassung sein' means…",
+      "options": [
+        "to be in good shape",
+        "to be well written"
+      ],
+      "answer": "to be in good shape",
+      "explanation": "Condition.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "verfassen (write, compose)",
+        "fassen only"
+      ],
+      "answer": "verfassen (write, compose)",
+      "explanation": "Compose.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Germany's constitution is called…",
+      "options": [
+        "das Grundgesetz",
+        "die Bundesverfassung"
+      ],
+      "answer": "das Grundgesetz",
+      "explanation": "Basic Law.",
+      "id": "q6"
+    }
+  ]
+}

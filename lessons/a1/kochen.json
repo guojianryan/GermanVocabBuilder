@@ -1,0 +1,170 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "kochen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "KOKH-en",
+      "ipa": "ˈkɔxn̩",
+      "notes": ""
+    },
+    "meaning": "to cook; to boil",
+    "shortDefinition": "To cook; to boil."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "koch|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "koch|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "koch|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "koch|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "koch|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "koch|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gekocht"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "der Koch / die Köchin",
+      "english": "cook, chef",
+      "type": "noun"
+    },
+    {
+      "german": "die Küche",
+      "english": "kitchen",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich koche heute Abend.",
+      "english": "I'm cooking tonight.",
+      "highlight": [
+        "koche"
+      ]
+    },
+    {
+      "german": "Das Wasser kocht.",
+      "english": "The water is boiling.",
+      "highlight": [
+        "kocht."
+      ]
+    },
+    {
+      "german": "Wer hat das gekocht? Es ist super!",
+      "english": "Who cooked this? It's great!",
+      "highlight": [
+        "gekocht?"
+      ]
+    }
+  ],
+  "forms": [
+    "koche",
+    "kochst",
+    "kocht",
+    "kochen",
+    "gekocht"
+  ],
+  "memoryHook": "Kochen = cook, boil. Der Koch = the chef. Die Küche = kitchen.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (kochen)",
+      "answer": "kocht",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: kocht.",
+      "acceptedAnswers": [
+        "kocht"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (kochen, past)",
+      "answer": "gekocht",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gekocht.",
+      "acceptedAnswers": [
+        "gekocht"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does kochen mean?",
+      "options": [
+        "to cook",
+        "the flower",
+        "the shop"
+      ],
+      "answer": "to cook",
+      "explanation": "kochen: to cook; to boil.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Der Koch is…",
+      "options": [
+        "the cook, chef",
+        "the kitchen"
+      ],
+      "answer": "the cook, chef",
+      "explanation": "Kochen → Koch.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Die Küche is…",
+      "options": [
+        "the kitchen",
+        "the cake"
+      ],
+      "answer": "the kitchen",
+      "explanation": "Where you kochen.",
+      "id": "q5"
+    }
+  ]
+}

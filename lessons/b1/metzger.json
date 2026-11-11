@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Metzger",
+    "partOfSpeech": "noun, masculine (der Metzger)",
+    "pronunciation": {
+      "respelling": "METS-ger",
+      "ipa": "ˈmɛt͡sɡɐ",
+      "notes": "The plural looks the same. Plural: die Metzger."
+    },
+    "meaning": "butcher",
+    "shortDefinition": "Butcher."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Metzger, plural die Metzger.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Metzger"
+        },
+        {
+          "label": "More than one",
+          "value": "die Metzger"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich kaufe Wurst beim Metzger.",
+      "english": "I buy sausage at the butcher's.",
+      "highlight": [
+        "Metzger."
+      ]
+    },
+    {
+      "german": "Der Metzger hat frisches Fleisch.",
+      "english": "The butcher has fresh meat.",
+      "highlight": [
+        "Metzger"
+      ]
+    },
+    {
+      "german": "Die Metzgerei ist um die Ecke.",
+      "english": "The butcher's shop is round the corner.",
+      "highlight": [
+        "Metzgerei"
+      ]
+    }
+  ],
+  "forms": [
+    "Metzgerei"
+  ],
+  "memoryHook": "Der Metzger (south/west) = Fleischer. Shop: die Metzgerei.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Metzger",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Metzger is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Metzger, zwei ___",
+      "answer": "Metzger",
+      "fullAnswer": "ein Metzger, zwei Metzger",
+      "explanation": "The plural is Metzger.",
+      "acceptedAnswers": [
+        "Metzger"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Metzger mean?",
+      "options": [
+        "the station",
+        "butcher",
+        "cheap"
+      ],
+      "answer": "butcher",
+      "explanation": "Metzger: butcher.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Northern synonym:",
+      "options": [
+        "der Fleischer / Schlachter",
+        "der Bäcker"
+      ],
+      "answer": "der Fleischer / Schlachter",
+      "explanation": "Regional.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "The shop:",
+      "options": [
+        "die Metzgerei",
+        "der Metzgerladen only"
+      ],
+      "answer": "die Metzgerei",
+      "explanation": "-ei.",
+      "id": "q5"
+    }
+  ]
+}

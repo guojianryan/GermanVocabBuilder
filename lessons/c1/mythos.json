@@ -1,0 +1,133 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Mythos",
+    "partOfSpeech": "noun, masculine (der Mythos)",
+    "pronunciation": {
+      "respelling": "MÜ-tos",
+      "ipa": "ˈmyːtɔs",
+      "notes": "Plural: die Mythen."
+    },
+    "meaning": "myth",
+    "shortDefinition": "Myth."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Mythos, plural die Mythen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Mythos"
+        },
+        {
+          "label": "More than one",
+          "value": "die Mythen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das ist ein weit verbreiteter Mythos.",
+      "english": "That's a widespread myth.",
+      "highlight": [
+        "Mythos."
+      ]
+    },
+    {
+      "german": "Griechische Mythen.",
+      "english": "Greek myths.",
+      "highlight": [
+        "Mythen."
+      ]
+    },
+    {
+      "german": "Er ist schon zu Lebzeiten ein Mythos.",
+      "english": "He's a legend in his own lifetime.",
+      "highlight": [
+        "Mythos."
+      ]
+    }
+  ],
+  "forms": [
+    "mythisch"
+  ],
+  "memoryHook": "Der Mythos (die Mythen); mythisch.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Mythos",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Mythos is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Mythos, zwei ___",
+      "answer": "Mythen",
+      "fullAnswer": "ein Mythos, zwei Mythen",
+      "explanation": "The plural is Mythen.",
+      "acceptedAnswers": [
+        "Mythen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Mythos mean?",
+      "options": [
+        "the shop",
+        "myth",
+        "tomorrow"
+      ],
+      "answer": "myth",
+      "explanation": "Mythos: myth.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Mythen",
+        "Mythosse"
+      ],
+      "answer": "Mythen",
+      "explanation": "-os → -en.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Y sounds like…",
+      "options": [
+        "ü",
+        "i"
+      ],
+      "answer": "ü",
+      "explanation": "MÜ-tos.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Adjective:",
+      "options": [
+        "mythisch",
+        "mythosisch"
+      ],
+      "answer": "mythisch",
+      "explanation": "Mythical.",
+      "id": "q6"
+    }
+  ]
+}

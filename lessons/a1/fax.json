@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Fax",
+    "partOfSpeech": "noun, neuter (das Fax)",
+    "pronunciation": {
+      "respelling": "FAKS",
+      "ipa": "faks",
+      "notes": "Plural: die Faxe."
+    },
+    "meaning": "fax",
+    "shortDefinition": "Fax."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Fax, plural die Faxe.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Fax"
+        },
+        {
+          "label": "More than one",
+          "value": "die Faxe"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Bitte schicken Sie das Formular per Fax.",
+      "english": "Please send the form by fax.",
+      "highlight": [
+        "Fax."
+      ]
+    },
+    {
+      "german": "Haben Sie eine Faxnummer?",
+      "english": "Do you have a fax number?",
+      "highlight": [
+        "Faxnummer?"
+      ]
+    },
+    {
+      "german": "Das Fax ist angekommen.",
+      "english": "The fax has arrived.",
+      "highlight": [
+        "Fax"
+      ]
+    }
+  ],
+  "forms": [
+    "Faxe",
+    "die Faxe",
+    "das Fax"
+  ],
+  "memoryHook": "Das Fax, plural Faxe. Some German doctors and offices still use them.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Fax",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Fax is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Fax, zwei ___",
+      "answer": "Faxe",
+      "fullAnswer": "ein Fax, zwei Faxe",
+      "explanation": "The plural is Faxe.",
+      "acceptedAnswers": [
+        "Faxe"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Fax mean?",
+      "options": [
+        "expensive",
+        "slowly",
+        "fax"
+      ],
+      "answer": "fax",
+      "explanation": "Fax: fax.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Per Fax' means…",
+      "options": [
+        "by fax",
+        "for fax"
+      ],
+      "answer": "by fax",
+      "explanation": "Per = by (means of).",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Some German offices still use…",
+      "options": [
+        "Faxe",
+        "Telegramme"
+      ],
+      "answer": "Faxe",
+      "explanation": "Faxes are still common in German offices.",
+      "id": "q5"
+    }
+  ]
+}

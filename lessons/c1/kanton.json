@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Kanton",
+    "partOfSpeech": "noun, masculine (der Kanton)",
+    "pronunciation": {
+      "respelling": "kan-TOHN",
+      "ipa": "kanˈtoːn",
+      "notes": "Plural: die Kantone."
+    },
+    "meaning": "canton (Switzerland)",
+    "shortDefinition": "Canton (Switzerland)."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Kanton, plural die Kantone.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Kanton"
+        },
+        {
+          "label": "More than one",
+          "value": "die Kantone"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Schweiz hat 26 Kantone.",
+      "english": "Switzerland has 26 cantons.",
+      "highlight": [
+        "Kantone."
+      ]
+    },
+    {
+      "german": "Im Kanton Zürich.",
+      "english": "In the canton of Zurich.",
+      "highlight": [
+        "Kanton"
+      ]
+    },
+    {
+      "german": "Jeder Kanton hat eigene Gesetze.",
+      "english": "Each canton has its own laws.",
+      "highlight": [
+        "Kanton"
+      ]
+    }
+  ],
+  "forms": [
+    "kantonal"
+  ],
+  "memoryHook": "Der Kanton (Swiss state); kantonal.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Kanton",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Kanton is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Kanton, zwei ___",
+      "answer": "Kantone",
+      "fullAnswer": "ein Kanton, zwei Kantone",
+      "explanation": "The plural is Kantone.",
+      "acceptedAnswers": [
+        "Kantone"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Kanton mean?",
+      "options": [
+        "cheap",
+        "the bread",
+        "canton (Switzerland)"
+      ],
+      "answer": "canton (Switzerland)",
+      "explanation": "Kanton: canton (Switzerland).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "German equivalent:",
+      "options": [
+        "das Bundesland",
+        "der Kreis"
+      ],
+      "answer": "das Bundesland",
+      "explanation": "State.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Adjective:",
+      "options": [
+        "kantonal",
+        "kantonisch"
+      ],
+      "answer": "kantonal",
+      "explanation": "Cantonal.",
+      "id": "q5"
+    }
+  ]
+}

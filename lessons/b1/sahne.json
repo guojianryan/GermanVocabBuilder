@@ -1,0 +1,118 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Sahne",
+    "partOfSpeech": "noun, feminine (die Sahne)",
+    "pronunciation": {
+      "respelling": "ZAA-ne",
+      "ipa": "ˈzaːnə",
+      "notes": "Usually no plural."
+    },
+    "meaning": "cream",
+    "shortDefinition": "Cream."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Sahne, usually no plural.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Sahne"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Kaffee mit Sahne, bitte.",
+      "english": "Coffee with cream, please.",
+      "highlight": [
+        "Sahne,"
+      ]
+    },
+    {
+      "german": "Möchten Sie Sahne zum Kuchen?",
+      "english": "Would you like cream with the cake?",
+      "highlight": [
+        "Sahne"
+      ]
+    },
+    {
+      "german": "Ich schlage die Sahne.",
+      "english": "I'm whipping the cream.",
+      "highlight": [
+        "Sahne."
+      ]
+    }
+  ],
+  "forms": [
+    "Schlagsahne"
+  ],
+  "memoryHook": "Die Sahne (cream). Schlagsahne = whipped cream.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Sahne",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Sahne is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Sahne mean?",
+      "options": [
+        "cream",
+        "the door",
+        "the bill"
+      ],
+      "answer": "cream",
+      "explanation": "Sahne: cream.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Whipped cream:",
+      "options": [
+        "die Schlagsahne",
+        "die Schlagcreme"
+      ],
+      "answer": "die Schlagsahne",
+      "explanation": "Schlagen = whip.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "H is…",
+      "options": [
+        "silent",
+        "pronounced"
+      ],
+      "answer": "silent",
+      "explanation": "ZAA-ne.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Austrian word:",
+      "options": [
+        "das Schlagobers",
+        "der Rahm only"
+      ],
+      "answer": "das Schlagobers",
+      "explanation": "Regional.",
+      "id": "q5"
+    }
+  ]
+}

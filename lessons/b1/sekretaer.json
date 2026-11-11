@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Sekretär",
+    "partOfSpeech": "noun, masculine (der Sekretär)",
+    "pronunciation": {
+      "respelling": "ze-kre-TAIR",
+      "ipa": "zekʁeˈtɛːɐ̯",
+      "notes": "Plural: die Sekretäre."
+    },
+    "meaning": "secretary",
+    "shortDefinition": "Secretary."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Sekretär, plural die Sekretäre.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Sekretär"
+        },
+        {
+          "label": "More than one",
+          "value": "die Sekretäre"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Sekretär vereinbart die Termine.",
+      "english": "The secretary makes the appointments.",
+      "highlight": [
+        "Sekretär"
+      ]
+    },
+    {
+      "german": "Fragen Sie die Sekretärin.",
+      "english": "Ask the secretary.",
+      "highlight": [
+        "Sekretärin."
+      ]
+    },
+    {
+      "german": "Das Sekretariat ist im ersten Stock.",
+      "english": "The office is on the first floor.",
+      "highlight": [
+        "Sekretariat"
+      ]
+    }
+  ],
+  "forms": [
+    "Sekretärin",
+    "Sekretariat"
+  ],
+  "memoryHook": "Der Sekretär, die Sekretärin, das Sekretariat.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Sekretär",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Sekretär is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Sekretär, zwei ___",
+      "answer": "Sekretäre",
+      "fullAnswer": "ein Sekretär, zwei Sekretäre",
+      "explanation": "The plural is Sekretäre.",
+      "acceptedAnswers": [
+        "Sekretaere"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Sekretär mean?",
+      "options": [
+        "the key",
+        "secretary",
+        "to buy"
+      ],
+      "answer": "secretary",
+      "explanation": "Sekretär: secretary.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Female:",
+      "options": [
+        "die Sekretärin",
+        "die Sekretäre"
+      ],
+      "answer": "die Sekretärin",
+      "explanation": "-in.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "The office:",
+      "options": [
+        "das Sekretariat",
+        "die Sekretärei"
+      ],
+      "answer": "das Sekretariat",
+      "explanation": "Office.",
+      "id": "q5"
+    }
+  ]
+}

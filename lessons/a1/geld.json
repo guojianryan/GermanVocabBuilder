@@ -1,0 +1,126 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Geld",
+    "partOfSpeech": "noun, neuter (das Geld)",
+    "pronunciation": {
+      "respelling": "GELT",
+      "ipa": "ɡɛlt",
+      "notes": "Usually no plural."
+    },
+    "meaning": "money",
+    "shortDefinition": "Money."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Geld, usually no plural.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Geld"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Hast du noch Geld?",
+      "english": "Have you got any money left?",
+      "highlight": [
+        "Geld?"
+      ]
+    },
+    {
+      "german": "Er bekommt sein Geld am Ende des Monats.",
+      "english": "He gets his money at the end of the month.",
+      "highlight": [
+        "Geld"
+      ]
+    },
+    {
+      "german": "Ich habe kein Geld dabei.",
+      "english": "I don't have any money on me.",
+      "highlight": [
+        "Geld"
+      ]
+    }
+  ],
+  "forms": [
+    "das Geld"
+  ],
+  "memoryHook": "Das Geld: always singular, like money.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Geld",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Geld is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Geld mean?",
+      "options": [
+        "the family",
+        "the door",
+        "money"
+      ],
+      "answer": "money",
+      "explanation": "Geld: money.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "'I have no money':",
+      "options": [
+        "Ich habe kein Geld.",
+        "Ich habe nicht Geld."
+      ],
+      "answer": "Ich habe kein Geld.",
+      "explanation": "Kein + noun.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Geld is…",
+      "options": [
+        "singular (das Geld)",
+        "plural (die Gelder)"
+      ],
+      "answer": "singular (das Geld)",
+      "explanation": "Like English 'money'.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'To withdraw money':",
+      "options": [
+        "Geld abheben",
+        "Geld nehmen ab"
+      ],
+      "answer": "Geld abheben",
+      "explanation": "At the cash machine.",
+      "id": "q5"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Das kostet zu viel ___ .",
+      "answer": "Geld",
+      "fullAnswer": "Das kostet zu viel Geld.",
+      "explanation": "Das Geld.",
+      "id": "q6"
+    }
+  ]
+}

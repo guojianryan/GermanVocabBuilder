@@ -1,0 +1,128 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Auge",
+    "partOfSpeech": "noun, neuter (das Auge)",
+    "pronunciation": {
+      "respelling": "OW-guh",
+      "ipa": "ˈaʊ̯ɡə",
+      "notes": "Plural: die Augen."
+    },
+    "meaning": "eye",
+    "shortDefinition": "Eye."
+  },
+  "wordFamily": [
+    {
+      "german": "der Augenblick",
+      "english": "moment (literally 'eye-glance')",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Auge, plural die Augen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Auge"
+        },
+        {
+          "label": "More than one",
+          "value": "die Augen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er hat blaue Augen.",
+      "english": "He has blue eyes.",
+      "highlight": [
+        "Augen."
+      ]
+    },
+    {
+      "german": "Mein Auge tut weh.",
+      "english": "My eye hurts.",
+      "highlight": [
+        "Auge"
+      ]
+    },
+    {
+      "german": "Mach die Augen zu!",
+      "english": "Close your eyes!",
+      "highlight": [
+        "Augen"
+      ]
+    }
+  ],
+  "forms": [
+    "Augen",
+    "die Augen",
+    "das Auge"
+  ],
+  "memoryHook": "Auge is a cousin of English 'eye'. Unter vier Augen: just the two of you.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Auge",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Auge is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Auge, zwei ___",
+      "answer": "Augen",
+      "fullAnswer": "ein Auge, zwei Augen",
+      "explanation": "The plural is Augen.",
+      "acceptedAnswers": [
+        "Augen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Auge mean?",
+      "options": [
+        "to sleep",
+        "eye",
+        "the evening"
+      ],
+      "answer": "eye",
+      "explanation": "Auge: eye.",
+      "id": "q3"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Sie hat grüne ___. (eyes)",
+      "answer": "Augen",
+      "fullAnswer": "Sie hat grüne Augen.",
+      "explanation": "Plural: Augen.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Unter vier Augen' (under four eyes) means…",
+      "options": [
+        "in private",
+        "in a crowd"
+      ],
+      "answer": "in private",
+      "explanation": "Just two people: four eyes.",
+      "id": "q5"
+    }
+  ]
+}

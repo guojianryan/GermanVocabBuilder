@@ -1,0 +1,149 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Teilchen",
+    "partOfSpeech": "noun, neuter (das Teilchen)",
+    "pronunciation": {
+      "respelling": "TILE-khen",
+      "ipa": "ˈtaɪ̯lçən",
+      "notes": "The plural looks the same. Plural: die Teilchen."
+    },
+    "meaning": "particle; (regional) pastry",
+    "shortDefinition": "Particle; (regional) pastry."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Teil",
+        "meaning": "part"
+      },
+      {
+        "part": "chen",
+        "meaning": "little"
+      }
+    ],
+    "literalMeaning": "little part"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Teilchen, plural die Teilchen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Teilchen"
+        },
+        {
+          "label": "More than one",
+          "value": "die Teilchen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Atome bestehen aus kleineren Teilchen.",
+      "english": "Atoms consist of smaller particles.",
+      "highlight": [
+        "Teilchen."
+      ]
+    },
+    {
+      "german": "Ich hole mir ein süßes Teilchen.",
+      "english": "I'm getting a sweet pastry.",
+      "highlight": [
+        "Teilchen."
+      ]
+    },
+    {
+      "german": "Feinstaub besteht aus winzigen Teilchen.",
+      "english": "Fine dust consists of tiny particles.",
+      "highlight": [
+        "Teilchen."
+      ]
+    }
+  ],
+  "forms": [
+    "Teilchen",
+    "die Teilchen",
+    "das Teilchen"
+  ],
+  "memoryHook": "Teil + -chen = particle; (bakery) pastry.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Teilchen",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Teilchen is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Teilchen, zwei ___",
+      "answer": "Teilchen",
+      "fullAnswer": "ein Teilchen, zwei Teilchen",
+      "explanation": "The plural is Teilchen.",
+      "acceptedAnswers": [
+        "Teilchen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Teilchen mean?",
+      "options": [
+        "tomorrow",
+        "particle",
+        "to help"
+      ],
+      "answer": "particle",
+      "explanation": "Teilchen: particle; (regional) pastry.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Teil + -chen (small)",
+        "Teil + Chen"
+      ],
+      "answer": "Teil + -chen (small)",
+      "explanation": "Small part.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "-chen words are…",
+      "options": [
+        "das",
+        "der"
+      ],
+      "answer": "das",
+      "explanation": "Diminutive.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Particle physics:",
+      "options": [
+        "die Teilchenphysik",
+        "die Teilphysik"
+      ],
+      "answer": "die Teilchenphysik",
+      "explanation": "Science.",
+      "id": "q6"
+    }
+  ]
+}

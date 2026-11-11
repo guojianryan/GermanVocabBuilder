@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Regierung",
+    "partOfSpeech": "noun, feminine (die Regierung)",
+    "pronunciation": {
+      "respelling": "re-GEE-rung",
+      "ipa": "ʁeˈɡiːʁʊŋ",
+      "notes": "Plural: die Regierungen."
+    },
+    "meaning": "government",
+    "shortDefinition": "Government."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Regier",
+        "meaning": "govern (regieren)"
+      },
+      {
+        "part": "ung",
+        "meaning": "noun ending"
+      }
+    ],
+    "literalMeaning": "governing"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Regierung, plural die Regierungen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Regierung"
+        },
+        {
+          "label": "More than one",
+          "value": "die Regierungen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Regierung plant neue Gesetze.",
+      "english": "The government is planning new laws.",
+      "highlight": [
+        "Regierung"
+      ]
+    },
+    {
+      "german": "Die neue Regierung ist seit Mai im Amt.",
+      "english": "The new government has been in office since May.",
+      "highlight": [
+        "Regierung"
+      ]
+    },
+    {
+      "german": "Er kritisiert die Regierung.",
+      "english": "He criticises the government.",
+      "highlight": [
+        "Regierung."
+      ]
+    }
+  ],
+  "forms": [
+    "regieren"
+  ],
+  "memoryHook": "Regieren → die Regierung.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Regierung",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Regierung is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Regierung, zwei ___",
+      "answer": "Regierungen",
+      "fullAnswer": "ein Regierung, zwei Regierungen",
+      "explanation": "The plural is Regierungen.",
+      "acceptedAnswers": [
+        "Regierungen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Regierung mean?",
+      "options": [
+        "the key",
+        "government",
+        "the door"
+      ],
+      "answer": "government",
+      "explanation": "Regierung: government.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "regieren (to govern)",
+        "Regen"
+      ],
+      "answer": "regieren (to govern)",
+      "explanation": "Govern.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Head of government (DE):",
+      "options": [
+        "der Bundeskanzler",
+        "der Präsident"
+      ],
+      "answer": "der Bundeskanzler",
+      "explanation": "Chancellor.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Schmerz",
+    "partOfSpeech": "noun, masculine (der Schmerz)",
+    "pronunciation": {
+      "respelling": "SHMAIRTS",
+      "ipa": "ʃmɛʁts",
+      "notes": "Plural: die Schmerzen."
+    },
+    "meaning": "pain",
+    "shortDefinition": "Pain."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Schmerz, plural die Schmerzen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Schmerz"
+        },
+        {
+          "label": "More than one",
+          "value": "die Schmerzen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich habe Kopfschmerzen.",
+      "english": "I've got a headache.",
+      "highlight": [
+        "Kopfschmerzen."
+      ]
+    },
+    {
+      "german": "Wo haben Sie Schmerzen?",
+      "english": "Where does it hurt?",
+      "highlight": [
+        "Schmerzen?"
+      ]
+    },
+    {
+      "german": "Der Schmerz ist weg.",
+      "english": "The pain is gone.",
+      "highlight": [
+        "Schmerz"
+      ]
+    }
+  ],
+  "forms": [
+    "Kopfschmerzen",
+    "Bauchschmerzen",
+    "Schmerzmittel"
+  ],
+  "memoryHook": "Der Schmerz, die Schmerzen. Kopf-, Bauch-, Rücken-, Halsschmerzen.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Schmerz",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Schmerz is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Schmerz, zwei ___",
+      "answer": "Schmerzen",
+      "fullAnswer": "ein Schmerz, zwei Schmerzen",
+      "explanation": "The plural is Schmerzen.",
+      "acceptedAnswers": [
+        "Schmerzen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Schmerz mean?",
+      "options": [
+        "the shop",
+        "pain",
+        "to wait"
+      ],
+      "answer": "pain",
+      "explanation": "Schmerz: pain.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Usually used in…",
+      "options": [
+        "the plural (Schmerzen)",
+        "the singular"
+      ],
+      "answer": "the plural (Schmerzen)",
+      "explanation": "Kopfschmerzen.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Stomach ache:",
+      "options": [
+        "Bauchschmerzen",
+        "Magenweh only"
+      ],
+      "answer": "Bauchschmerzen",
+      "explanation": "Bauch + Schmerzen.",
+      "id": "q5"
+    }
+  ]
+}

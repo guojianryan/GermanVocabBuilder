@@ -1,0 +1,139 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Strömung",
+    "partOfSpeech": "noun, feminine (die Strömung)",
+    "pronunciation": {
+      "respelling": "SHTRÖ-mung",
+      "ipa": "ˈʃtʁøːmʊŋ",
+      "notes": "Plural: die Strömungen."
+    },
+    "meaning": "current; trend, movement",
+    "shortDefinition": "Current; trend, movement."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Ström",
+        "meaning": "stream (Strom)",
+        "emphasis": "stretch"
+      },
+      {
+        "part": "ung",
+        "meaning": "noun ending"
+      }
+    ],
+    "literalMeaning": "a streaming",
+    "summary": "Flowing on and on."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Strömung, plural die Strömungen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Strömung"
+        },
+        {
+          "label": "More than one",
+          "value": "die Strömungen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Strömung im Fluss ist stark.",
+      "english": "The river's current is strong.",
+      "highlight": [
+        "Strömung"
+      ]
+    },
+    {
+      "german": "Politische Strömungen.",
+      "english": "Political currents.",
+      "highlight": [
+        "Strömungen."
+      ]
+    },
+    {
+      "german": "Eine neue Strömung in der Kunst.",
+      "english": "A new movement in art.",
+      "highlight": [
+        "Strömung"
+      ]
+    }
+  ],
+  "forms": [
+    "strömen",
+    "Strom"
+  ],
+  "memoryHook": "Strömen → die Strömung (current; trend).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Strömung",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Strömung is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Strömung, zwei ___",
+      "answer": "Strömungen",
+      "fullAnswer": "ein Strömung, zwei Strömungen",
+      "explanation": "The plural is Strömungen.",
+      "acceptedAnswers": [
+        "Stroemungen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Strömung mean?",
+      "options": [
+        "the key",
+        "current",
+        "to travel"
+      ],
+      "answer": "current",
+      "explanation": "Strömung: current; trend, movement.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "strömen (stream, pour)",
+        "Strom only"
+      ],
+      "answer": "strömen (stream, pour)",
+      "explanation": "Stream.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Figuratively 'Strömung' means…",
+      "options": [
+        "trend, movement",
+        "electricity"
+      ],
+      "answer": "trend, movement",
+      "explanation": "Movement.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "ärztlich",
+    "partOfSpeech": "adjective",
+    "pronunciation": {
+      "respelling": "AIRTST-likh",
+      "ipa": "ˈɛːɐ̯tstlɪç",
+      "notes": ""
+    },
+    "meaning": "medical, doctor's",
+    "shortDefinition": "Medical, doctor's."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "ärzt",
+        "meaning": "doctor (Arzt)"
+      },
+      {
+        "part": "lich",
+        "meaning": "adjective ending"
+      }
+    ],
+    "literalMeaning": "of the doctor"
+  },
+  "sampleSentences": [
+    {
+      "german": "Ich brauche eine ärztliche Bescheinigung.",
+      "english": "I need a doctor's certificate.",
+      "highlight": [
+        "ärztliche"
+      ]
+    },
+    {
+      "german": "Er ist in ärztlicher Behandlung.",
+      "english": "He's under medical treatment.",
+      "highlight": [
+        "ärztlicher"
+      ]
+    },
+    {
+      "german": "Ärztlicher Notdienst.",
+      "english": "Emergency medical service.",
+      "highlight": [
+        "Ärztlicher"
+      ]
+    }
+  ],
+  "forms": [
+    "Arzt"
+  ],
+  "memoryHook": "Arzt → ärztlich (doctor's, medical).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does ärztlich mean?",
+      "options": [
+        "the key",
+        "the flower",
+        "medical"
+      ],
+      "answer": "medical",
+      "explanation": "ärztlich: medical, doctor's.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "der Arzt (doctor)",
+        "die Arznei"
+      ],
+      "answer": "der Arzt (doctor)",
+      "explanation": "Doctor.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonym:",
+      "options": [
+        "medizinisch",
+        "ärgerlich"
+      ],
+      "answer": "medizinisch",
+      "explanation": "Medical.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Ärztliches Attest' means…",
+      "options": [
+        "doctor's note",
+        "doctor's bill"
+      ],
+      "answer": "doctor's note",
+      "explanation": "Sick note.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Eine ___ Untersuchung. (medical)",
+      "answer": "ärztliche",
+      "fullAnswer": "Eine ärztliche Untersuchung.",
+      "explanation": "Ärztliche.",
+      "acceptedAnswers": [
+        "medizinische"
+      ],
+      "id": "q5"
+    }
+  ]
+}

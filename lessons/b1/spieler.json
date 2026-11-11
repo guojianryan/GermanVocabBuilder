@@ -1,0 +1,136 @@
+{
+ "schemaVersion": "1.4",
+ "language": "de",
+ "explanationLanguage": "en",
+ "level": "B1",
+ "levelSource": "Goethe-Zertifikat B1 Wortliste",
+ "lessonType": "card",
+ "word": {
+  "headword": "Spieler",
+  "partOfSpeech": "noun, masculine (der Spieler)",
+  "pronunciation": {
+   "respelling": "SHPEE-ler",
+   "ipa": "ˈʃpiːlɐ",
+   "notes": "The plural looks the same. Plural: die Spieler."
+  },
+  "meaning": "player",
+  "shortDefinition": "Player."
+ },
+ "commonMistakes": [
+  {
+   "title": "Gender and plural",
+   "explanation": "Der Spieler, plural die Spieler.",
+   "forms": [
+    {
+     "label": "One",
+     "value": "der Spieler"
+    },
+    {
+     "label": "More than one",
+     "value": "die Spieler"
+    }
+   ]
+  }
+ ],
+ "sampleSentences": [
+  {
+   "german": "Der Spieler hat ein Tor geschossen.",
+   "english": "The player scored a goal.",
+   "highlight": [
+    "Spieler"
+   ]
+  },
+  {
+   "german": "Sie ist eine gute Schachspielerin.",
+   "english": "She's a good chess player.",
+   "highlight": [
+    "Schachspielerin."
+   ]
+  },
+  {
+   "german": "Die Mannschaft hat elf Spieler.",
+   "english": "The team has eleven players.",
+   "highlight": [
+    "Spieler."
+   ]
+  }
+ ],
+ "forms": [
+  "Spielerin"
+ ],
+ "memoryHook": "Spielen → der Spieler.",
+ "signOff": "Gut gemacht!",
+ "quiz": [
+  {
+   "type": "choice",
+   "prompt": "___ Spieler",
+   "options": [
+    "der",
+    "die",
+    "das"
+   ],
+   "answer": "der",
+   "explanation": "Spieler is masculine.",
+   "id": "q1"
+  },
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "ein Spieler, zwei ___",
+   "answer": "Spieler",
+   "fullAnswer": "ein Spieler, zwei Spieler",
+   "explanation": "The plural is Spieler.",
+   "acceptedAnswers": [
+    "Spieler"
+   ],
+   "id": "q2"
+  },
+  {
+   "type": "choice",
+   "prompt": "What does Spieler mean?",
+   "options": [
+    "the station",
+    "the bed",
+    "player"
+   ],
+   "answer": "player",
+   "explanation": "Spieler: player.",
+   "id": "q3"
+  },
+  {
+   "type": "choice",
+   "prompt": "From…",
+   "options": [
+    "spielen + -er",
+    "Spiegel"
+   ],
+   "answer": "spielen + -er",
+   "explanation": "Play.",
+   "id": "q4"
+  },
+  {
+   "type": "choice",
+   "prompt": "Female:",
+   "options": [
+    "die Spielerin",
+    "die Spieler"
+   ],
+   "answer": "die Spielerin",
+   "explanation": "-in.",
+   "id": "q5"
+  }
+ ],
+ "etymology": {
+  "title": "Where it comes from",
+  "parts": [
+   {
+    "part": "Spiel",
+    "meaning": "play"
+   },
+   {
+    "part": "er",
+    "meaning": "person or thing that does it"
+   }
+  ],
+  "literalMeaning": "someone who plays"
+ }
+}

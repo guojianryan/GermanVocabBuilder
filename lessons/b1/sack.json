@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Sack",
+    "partOfSpeech": "noun, masculine (der Sack)",
+    "pronunciation": {
+      "respelling": "ZAK",
+      "ipa": "zak",
+      "notes": "Plural: die Säcke."
+    },
+    "meaning": "sack, bag",
+    "shortDefinition": "Sack, bag."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Sack, plural die Säcke.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Sack"
+        },
+        {
+          "label": "More than one",
+          "value": "die Säcke"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ein Sack Kartoffeln.",
+      "english": "A sack of potatoes.",
+      "highlight": [
+        "Sack"
+      ]
+    },
+    {
+      "german": "Der Gelbe Sack wird morgen abgeholt.",
+      "english": "The yellow bag is collected tomorrow.",
+      "highlight": [
+        "Sack"
+      ]
+    },
+    {
+      "german": "Ich trage den Sack nach draußen.",
+      "english": "I'm carrying the bag outside.",
+      "highlight": [
+        "Sack"
+      ]
+    }
+  ],
+  "forms": [
+    "Säcke",
+    "die Säcke",
+    "der Sack"
+  ],
+  "memoryHook": "Der Sack, die Säcke. Der Gelbe Sack = recycling.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Sack",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Sack is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Sack, zwei ___",
+      "answer": "Säcke",
+      "fullAnswer": "ein Sack, zwei Säcke",
+      "explanation": "The plural is Säcke.",
+      "acceptedAnswers": [
+        "Saecke"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Sack mean?",
+      "options": [
+        "sack",
+        "to learn",
+        "the car"
+      ],
+      "answer": "sack",
+      "explanation": "Sack: sack, bag.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Säcke",
+        "Sacke"
+      ],
+      "answer": "Säcke",
+      "explanation": "a → ä.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Der Gelbe Sack is for…",
+      "options": [
+        "packaging / plastic",
+        "paper"
+      ],
+      "answer": "packaging / plastic",
+      "explanation": "Recycling.",
+      "id": "q5"
+    }
+  ]
+}

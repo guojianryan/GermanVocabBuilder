@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Experte",
+    "partOfSpeech": "noun, masculine (der Experte)",
+    "pronunciation": {
+      "respelling": "eks-PAIR-te",
+      "ipa": "ɛksˈpɛʁtə",
+      "notes": "Plural: die Experten."
+    },
+    "meaning": "expert",
+    "shortDefinition": "Expert."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Experte, plural die Experten.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Experte"
+        },
+        {
+          "label": "More than one",
+          "value": "die Experten"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er ist Experte für Computer.",
+      "english": "He's a computer expert.",
+      "highlight": [
+        "Experte"
+      ]
+    },
+    {
+      "german": "Fragen Sie einen Experten.",
+      "english": "Ask an expert.",
+      "highlight": [
+        "Experten."
+      ]
+    },
+    {
+      "german": "Sie ist Expertin auf diesem Gebiet.",
+      "english": "She's an expert in this field.",
+      "highlight": [
+        "Expertin"
+      ]
+    }
+  ],
+  "forms": [
+    "Expertin",
+    "Experten",
+    "den Experten"
+  ],
+  "memoryHook": "Der Experte, den Experten; die Expertin.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Experte",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Experte is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Experte, zwei ___",
+      "answer": "Experten",
+      "fullAnswer": "ein Experte, zwei Experten",
+      "explanation": "The plural is Experten.",
+      "acceptedAnswers": [
+        "Experten"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Experte mean?",
+      "options": [
+        "to open",
+        "expert",
+        "the family"
+      ],
+      "answer": "expert",
+      "explanation": "Experte: expert.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Accusative:",
+      "options": [
+        "einen Experten",
+        "einen Experte"
+      ],
+      "answer": "einen Experten",
+      "explanation": "-n.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Female:",
+      "options": [
+        "die Expertin",
+        "die Experte"
+      ],
+      "answer": "die Expertin",
+      "explanation": "-in.",
+      "id": "q5"
+    }
+  ]
+}

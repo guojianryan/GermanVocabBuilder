@@ -1,0 +1,141 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "er",
+    "partOfSpeech": "pronoun (er, ihn, ihm)",
+    "pronunciation": {
+      "respelling": "AIR",
+      "ipa": "eːɐ̯",
+      "notes": ""
+    },
+    "meaning": "he; it (for masculine nouns)",
+    "shortDefinition": "He; it (for masculine nouns)."
+  },
+  "tables": [
+    {
+      "title": "er in three forms",
+      "columns": [
+        "form",
+        "matches"
+      ],
+      "rows": [
+        {
+          "label": "subject",
+          "cells": [
+            "|er",
+            "d|er"
+          ]
+        },
+        {
+          "label": "accusative",
+          "cells": [
+            "ih|n",
+            "de|n"
+          ]
+        },
+        {
+          "label": "dative",
+          "cells": [
+            "ih|m",
+            "de|m"
+          ]
+        }
+      ],
+      "notes": [
+        "The endings match the article: der → er, den → ihn, dem → ihm."
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das ist mein Bruder. Er heißt Jan.",
+      "english": "That's my brother. He's called Jan.",
+      "highlight": [
+        "Er"
+      ]
+    },
+    {
+      "german": "Wo ist der Schlüssel? – Er liegt auf dem Tisch.",
+      "english": "Where's the key? – It's on the table.",
+      "highlight": [
+        "Er"
+      ]
+    },
+    {
+      "german": "Ich sehe ihn morgen und gebe ihm das Buch.",
+      "english": "I'll see him tomorrow and give him the book.",
+      "highlight": [
+        "ihn",
+        "ihm"
+      ]
+    }
+  ],
+  "forms": [
+    "er",
+    "ihn",
+    "ihm"
+  ],
+  "memoryHook": "Er = he, and also 'it' for any der-noun: der Tisch → er. Er, ihn, ihm like der, den, dem.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does er mean?",
+      "options": [
+        "the door",
+        "he",
+        "the window"
+      ],
+      "answer": "he",
+      "explanation": "er: he; it (for masculine nouns).",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Der Tisch ist neu. ___ ist schön. (It)",
+      "options": [
+        "Er",
+        "Es"
+      ],
+      "answer": "Er",
+      "explanation": "Masculine nouns: er, even for things.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich kenne ___. (him)",
+      "options": [
+        "er",
+        "ihn",
+        "ihm"
+      ],
+      "answer": "ihn",
+      "explanation": "Accusative: ihn.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich helfe ___. (him)",
+      "options": [
+        "ihn",
+        "ihm"
+      ],
+      "answer": "ihm",
+      "explanation": "Helfen + dative: ihm.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Wo ist dein Vater? – ___ ist im Garten.",
+      "answer": "Er",
+      "fullAnswer": "Er ist im Garten.",
+      "explanation": "He: er.",
+      "id": "q5"
+    }
+  ]
+}

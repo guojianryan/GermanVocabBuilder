@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Sturm",
+    "partOfSpeech": "noun, masculine (der Sturm)",
+    "pronunciation": {
+      "respelling": "SHTOORM",
+      "ipa": "ʃtʊʁm",
+      "notes": "Plural: die Stürme."
+    },
+    "meaning": "storm",
+    "shortDefinition": "Storm."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Sturm, plural die Stürme.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Sturm"
+        },
+        {
+          "label": "More than one",
+          "value": "die Stürme"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Sturm hat Bäume umgeworfen.",
+      "english": "The storm knocked trees down.",
+      "highlight": [
+        "Sturm"
+      ]
+    },
+    {
+      "german": "Heute Nacht gibt es Sturm.",
+      "english": "There's a storm tonight.",
+      "highlight": [
+        "Sturm."
+      ]
+    },
+    {
+      "german": "Die Herbststürme kommen.",
+      "english": "The autumn storms are coming.",
+      "highlight": [
+        "Herbststürme"
+      ]
+    }
+  ],
+  "forms": [
+    "stürmisch"
+  ],
+  "memoryHook": "Der Sturm (wind) vs das Gewitter (thunder).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Sturm",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Sturm is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Sturm, zwei ___",
+      "answer": "Stürme",
+      "fullAnswer": "ein Sturm, zwei Stürme",
+      "explanation": "The plural is Stürme.",
+      "acceptedAnswers": [
+        "Stuerme"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Sturm mean?",
+      "options": [
+        "storm",
+        "the weather",
+        "the window"
+      ],
+      "answer": "storm",
+      "explanation": "Sturm: storm.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Sturm vs Gewitter:",
+      "options": [
+        "Sturm = strong wind; Gewitter = thunderstorm",
+        "same"
+      ],
+      "answer": "Sturm = strong wind; Gewitter = thunderstorm",
+      "explanation": "Different.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Stürme",
+        "Sturme"
+      ],
+      "answer": "Stürme",
+      "explanation": "u → ü.",
+      "id": "q5"
+    }
+  ]
+}

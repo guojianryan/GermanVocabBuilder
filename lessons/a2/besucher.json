@@ -1,0 +1,140 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Besucher",
+    "partOfSpeech": "noun, masculine (der Besucher)",
+    "pronunciation": {
+      "respelling": "be-ZOO-kher",
+      "ipa": "bəˈzuːxɐ",
+      "notes": "The plural looks the same. Plural: die Besucher."
+    },
+    "meaning": "visitor",
+    "shortDefinition": "Visitor."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Be",
+        "meaning": "prefix"
+      },
+      {
+        "part": "such",
+        "meaning": "seek (suchen)"
+      },
+      {
+        "part": "er",
+        "meaning": "person who does it"
+      }
+    ],
+    "literalMeaning": "one who seeks out"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Besucher, plural die Besucher.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Besucher"
+        },
+        {
+          "label": "More than one",
+          "value": "die Besucher"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das Museum hat viele Besucher.",
+      "english": "The museum has lots of visitors.",
+      "highlight": [
+        "Besucher."
+      ]
+    },
+    {
+      "german": "Besucher bitte hier anmelden.",
+      "english": "Visitors please register here.",
+      "highlight": [
+        "Besucher"
+      ]
+    },
+    {
+      "german": "Sie war die erste Besucherin.",
+      "english": "She was the first visitor.",
+      "highlight": [
+        "Besucherin."
+      ]
+    }
+  ],
+  "forms": [
+    "Besucherin"
+  ],
+  "memoryHook": "Besuchen → der Besucher.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Besucher",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Besucher is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Besucher, zwei ___",
+      "answer": "Besucher",
+      "fullAnswer": "ein Besucher, zwei Besucher",
+      "explanation": "The plural is Besucher.",
+      "acceptedAnswers": [
+        "Besucher"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Besucher mean?",
+      "options": [
+        "hot",
+        "to travel",
+        "visitor"
+      ],
+      "answer": "visitor",
+      "explanation": "Besucher: visitor.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "besuchen",
+        "suchen only"
+      ],
+      "answer": "besuchen",
+      "explanation": "Visit.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Female:",
+      "options": [
+        "die Besucherin",
+        "die Besuche"
+      ],
+      "answer": "die Besucherin",
+      "explanation": "-in.",
+      "id": "q5"
+    }
+  ]
+}

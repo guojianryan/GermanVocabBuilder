@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Herd",
+    "partOfSpeech": "noun, masculine (der Herd)",
+    "pronunciation": {
+      "respelling": "HAIRT",
+      "ipa": "heːɐ̯t",
+      "notes": "The d sounds like t. Plural: die Herde."
+    },
+    "meaning": "cooker, stove",
+    "shortDefinition": "Cooker, stove."
+  },
+  "wordFamily": [
+    {
+      "german": "der Backofen",
+      "english": "oven",
+      "type": "noun"
+    },
+    {
+      "german": "die Küche",
+      "english": "kitchen",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Herd, plural die Herde.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Herd"
+        },
+        {
+          "label": "More than one",
+          "value": "die Herde"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Topf steht auf dem Herd.",
+      "english": "The pot is on the cooker.",
+      "highlight": [
+        "Herd."
+      ]
+    },
+    {
+      "german": "Hast du den Herd ausgemacht?",
+      "english": "Did you turn off the stove?",
+      "highlight": [
+        "Herd"
+      ]
+    },
+    {
+      "german": "Die Küche hat einen neuen Herd.",
+      "english": "The kitchen has a new cooker.",
+      "highlight": [
+        "Herd."
+      ]
+    }
+  ],
+  "forms": [
+    "Herde",
+    "die Herde",
+    "der Herd"
+  ],
+  "memoryHook": "Der Herd = cooker, stove. The oven inside is der Backofen.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Herd",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Herd is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Herd, zwei ___",
+      "answer": "Herde",
+      "fullAnswer": "ein Herd, zwei Herde",
+      "explanation": "The plural is Herde.",
+      "acceptedAnswers": [
+        "Herde"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Herd mean?",
+      "options": [
+        "cooker",
+        "hot",
+        "the station"
+      ],
+      "answer": "cooker",
+      "explanation": "Herd: cooker, stove.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "You cook ___ dem Herd.",
+      "options": [
+        "auf",
+        "in"
+      ],
+      "answer": "auf",
+      "explanation": "On the hob.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "The thing for baking is…",
+      "options": [
+        "der Backofen",
+        "der Herd"
+      ],
+      "answer": "der Backofen",
+      "explanation": "Backofen: oven.",
+      "id": "q5"
+    }
+  ]
+}

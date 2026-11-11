@@ -1,0 +1,117 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "teilweise",
+    "partOfSpeech": "adverb",
+    "pronunciation": {
+      "respelling": "TILE-vye-ze",
+      "ipa": "ˈtaɪ̯lvaɪ̯zə",
+      "notes": ""
+    },
+    "meaning": "partly, in part",
+    "shortDefinition": "Partly, in part."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "teil",
+        "meaning": "part"
+      },
+      {
+        "part": "weise",
+        "meaning": "way"
+      }
+    ],
+    "literalMeaning": "by way of parts"
+  },
+  "sampleSentences": [
+    {
+      "german": "Das stimmt nur teilweise.",
+      "english": "That's only partly true.",
+      "highlight": [
+        "teilweise."
+      ]
+    },
+    {
+      "german": "Die Straße ist teilweise gesperrt.",
+      "english": "The road is partly closed.",
+      "highlight": [
+        "teilweise"
+      ]
+    },
+    {
+      "german": "Teilweise regnet es.",
+      "english": "It's raining in places.",
+      "highlight": [
+        "Teilweise"
+      ]
+    }
+  ],
+  "forms": [],
+  "memoryHook": "Teil + weise = partly (= zum Teil).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does teilweise mean?",
+      "options": [
+        "the door",
+        "to wait",
+        "partly"
+      ],
+      "answer": "partly",
+      "explanation": "teilweise: partly, in part.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Teil + weise",
+        "teilen + weise only"
+      ],
+      "answer": "Teil + weise",
+      "explanation": "By parts.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Opposite:",
+      "options": [
+        "ganz, völlig",
+        "selten"
+      ],
+      "answer": "ganz, völlig",
+      "explanation": "Completely.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonym:",
+      "options": [
+        "zum Teil",
+        "zum Glück"
+      ],
+      "answer": "zum Teil",
+      "explanation": "Partly.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe den Film nur ___ gesehen. (partly)",
+      "answer": "teilweise",
+      "fullAnswer": "Ich habe den Film nur teilweise gesehen.",
+      "explanation": "Teilweise.",
+      "acceptedAnswers": [
+        "zum Teil"
+      ],
+      "id": "q5"
+    }
+  ]
+}

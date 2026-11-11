@@ -1,0 +1,133 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "These",
+    "partOfSpeech": "noun, feminine (die These)",
+    "pronunciation": {
+      "respelling": "TAY-ze",
+      "ipa": "ˈteːzə",
+      "notes": "Plural: die Thesen."
+    },
+    "meaning": "thesis, proposition",
+    "shortDefinition": "Thesis, proposition."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die These, plural die Thesen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die These"
+        },
+        {
+          "label": "More than one",
+          "value": "die Thesen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er stellt eine gewagte These auf.",
+      "english": "He puts forward a bold thesis.",
+      "highlight": [
+        "These"
+      ]
+    },
+    {
+      "german": "Diese These ist umstritten.",
+      "english": "This proposition is controversial.",
+      "highlight": [
+        "These"
+      ]
+    },
+    {
+      "german": "Luthers 95 Thesen.",
+      "english": "Luther's 95 Theses.",
+      "highlight": [
+        "Thesen."
+      ]
+    }
+  ],
+  "forms": [
+    "Dissertation"
+  ],
+  "memoryHook": "Die These = proposition (≠ Doktorarbeit).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ These",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "These is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein These, zwei ___",
+      "answer": "Thesen",
+      "fullAnswer": "ein These, zwei Thesen",
+      "explanation": "The plural is Thesen.",
+      "acceptedAnswers": [
+        "Thesen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does These mean?",
+      "options": [
+        "thesis",
+        "the shop",
+        "to buy"
+      ],
+      "answer": "thesis",
+      "explanation": "These: thesis, proposition.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Eine These aufstellen' means…",
+      "options": [
+        "to put forward a thesis",
+        "to write a dissertation"
+      ],
+      "answer": "to put forward a thesis",
+      "explanation": "Propose.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "A doctoral thesis is…",
+      "options": [
+        "die Doktorarbeit / Dissertation",
+        "die These"
+      ],
+      "answer": "die Doktorarbeit / Dissertation",
+      "explanation": "Different.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Th sounds like…",
+      "options": [
+        "t",
+        "th"
+      ],
+      "answer": "t",
+      "explanation": "TAY-ze.",
+      "id": "q6"
+    }
+  ]
+}

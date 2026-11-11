@@ -1,0 +1,131 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Zeit",
+    "partOfSpeech": "noun, feminine (die Zeit)",
+    "pronunciation": {
+      "respelling": "TSITE",
+      "ipa": "tsaɪ̯t",
+      "notes": "Plural: die Zeiten."
+    },
+    "meaning": "time",
+    "shortDefinition": "Time."
+  },
+  "wordFamily": [
+    {
+      "german": "die Freizeit",
+      "english": "free time",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Zeit, plural die Zeiten.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Zeit"
+        },
+        {
+          "label": "More than one",
+          "value": "die Zeiten"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Hast du morgen Zeit?",
+      "english": "Are you free tomorrow?",
+      "highlight": [
+        "Zeit?"
+      ]
+    },
+    {
+      "german": "Ich habe leider keine Zeit.",
+      "english": "Unfortunately I don't have time.",
+      "highlight": [
+        "Zeit."
+      ]
+    },
+    {
+      "german": "Zu welcher Zeit kommst du?",
+      "english": "What time are you coming?",
+      "highlight": [
+        "Zeit"
+      ]
+    }
+  ],
+  "forms": [
+    "Zeiten",
+    "die Zeiten",
+    "die Zeit"
+  ],
+  "memoryHook": "Die Zeit (Z = ts). Zeit haben = be free. Keine Zeit = no time.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Zeit",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Zeit is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Zeit, zwei ___",
+      "answer": "Zeiten",
+      "fullAnswer": "ein Zeit, zwei Zeiten",
+      "explanation": "The plural is Zeiten.",
+      "acceptedAnswers": [
+        "Zeiten"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Zeit mean?",
+      "options": [
+        "the station",
+        "time",
+        "to sleep"
+      ],
+      "answer": "time",
+      "explanation": "Zeit: time.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Zeit haben' means…",
+      "options": [
+        "to be free, have time",
+        "to own a watch"
+      ],
+      "answer": "to be free, have time",
+      "explanation": "Hast du Zeit?",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Z sounds like…",
+      "options": [
+        "ts",
+        "z"
+      ],
+      "answer": "ts",
+      "explanation": "TSITE.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Kunst",
+    "partOfSpeech": "noun, feminine (die Kunst)",
+    "pronunciation": {
+      "respelling": "KOONST",
+      "ipa": "kʊnst",
+      "notes": "Plural: die Künste."
+    },
+    "meaning": "art",
+    "shortDefinition": "Art."
+  },
+  "wordFamily": [
+    {
+      "german": "der Künstler",
+      "english": "artist",
+      "type": "noun"
+    },
+    {
+      "german": "künstlich",
+      "english": "artificial",
+      "type": "adjective"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Kunst, plural die Künste.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Kunst"
+        },
+        {
+          "label": "More than one",
+          "value": "die Künste"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich interessiere mich für Kunst.",
+      "english": "I'm interested in art.",
+      "highlight": [
+        "Kunst."
+      ]
+    },
+    {
+      "german": "Im Museum gibt es moderne Kunst.",
+      "english": "There's modern art in the museum.",
+      "highlight": [
+        "Kunst."
+      ]
+    },
+    {
+      "german": "Kunst ist mein Lieblingsfach.",
+      "english": "Art is my favourite subject.",
+      "highlight": [
+        "Kunst"
+      ]
+    }
+  ],
+  "forms": [
+    "Künste",
+    "die Künste",
+    "die Kunst"
+  ],
+  "memoryHook": "Die Kunst (from können: a skill). Der Künstler = artist.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Kunst",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Kunst is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Kunst, zwei ___",
+      "answer": "Künste",
+      "fullAnswer": "ein Kunst, zwei Künste",
+      "explanation": "The plural is Künste.",
+      "acceptedAnswers": [
+        "Kuenste"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Kunst mean?",
+      "options": [
+        "art",
+        "the child",
+        "to wait"
+      ],
+      "answer": "art",
+      "explanation": "Kunst: art.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "An artist:",
+      "options": [
+        "der Künstler",
+        "der Kunster"
+      ],
+      "answer": "der Künstler",
+      "explanation": "u → ü.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Das ist keine Kunst!' means…",
+      "options": [
+        "That's easy!",
+        "That's not art!"
+      ],
+      "answer": "That's easy!",
+      "explanation": "No skill needed.",
+      "id": "q5"
+    }
+  ]
+}

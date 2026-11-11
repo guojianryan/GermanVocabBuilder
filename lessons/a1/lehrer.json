@@ -1,0 +1,151 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Lehrer",
+    "partOfSpeech": "noun, masculine (der Lehrer)",
+    "pronunciation": {
+      "respelling": "LAY-rer",
+      "ipa": "ˈleːʁɐ",
+      "notes": "The plural looks the same. Plural: die Lehrer."
+    },
+    "meaning": "teacher",
+    "shortDefinition": "Teacher."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Lehr",
+        "meaning": "teach",
+        "note": "From lehren."
+      },
+      {
+        "part": "er",
+        "meaning": "person who does it"
+      }
+    ],
+    "literalMeaning": "one who teaches"
+  },
+  "wordFamily": [
+    {
+      "german": "lernen",
+      "english": "to learn",
+      "type": "verb"
+    },
+    {
+      "german": "lehren",
+      "english": "to teach",
+      "type": "verb"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Lehrer, plural die Lehrer.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Lehrer"
+        },
+        {
+          "label": "More than one",
+          "value": "die Lehrer"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Mein Lehrer kommt aus Österreich.",
+      "english": "My teacher is from Austria.",
+      "highlight": [
+        "Lehrer"
+      ]
+    },
+    {
+      "german": "Sie ist Lehrerin von Beruf.",
+      "english": "She's a teacher by profession.",
+      "highlight": [
+        "Lehrerin"
+      ]
+    },
+    {
+      "german": "Frag doch die Lehrerin!",
+      "english": "Ask the teacher!",
+      "highlight": [
+        "Lehrerin!"
+      ]
+    }
+  ],
+  "forms": [
+    "Lehrerin",
+    "Lehrerinnen",
+    "der Lehrer"
+  ],
+  "memoryHook": "Lehren (teach) + -er. Female: Lehrerin. Plural unchanged: die Lehrer.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Lehrer",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Lehrer is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Lehrer, zwei ___",
+      "answer": "Lehrer",
+      "fullAnswer": "ein Lehrer, zwei Lehrer",
+      "explanation": "The plural is Lehrer.",
+      "acceptedAnswers": [
+        "Lehrer"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Lehrer mean?",
+      "options": [
+        "the weather",
+        "teacher",
+        "cheap"
+      ],
+      "answer": "teacher",
+      "explanation": "Lehrer: teacher.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "A female teacher is…",
+      "options": [
+        "die Lehrerin",
+        "die Lehrer"
+      ],
+      "answer": "die Lehrerin",
+      "explanation": "Add -in.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich bin ___ Lehrer.",
+      "options": [
+        "(no article)",
+        "ein"
+      ],
+      "answer": "(no article)",
+      "explanation": "Jobs: no article.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Wunde",
+    "partOfSpeech": "noun, feminine (die Wunde)",
+    "pronunciation": {
+      "respelling": "VOON-de",
+      "ipa": "ˈvʊndə",
+      "notes": "Plural: die Wunden."
+    },
+    "meaning": "wound",
+    "shortDefinition": "Wound."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Wunde, plural die Wunden.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Wunde"
+        },
+        {
+          "label": "More than one",
+          "value": "die Wunden"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Wunde blutet.",
+      "english": "The wound is bleeding.",
+      "highlight": [
+        "Wunde"
+      ]
+    },
+    {
+      "german": "Die Wunde heilt gut.",
+      "english": "The wound is healing well.",
+      "highlight": [
+        "Wunde"
+      ]
+    },
+    {
+      "german": "Ich mache ein Pflaster auf die Wunde.",
+      "english": "I'm putting a plaster on the wound.",
+      "highlight": [
+        "Wunde."
+      ]
+    }
+  ],
+  "forms": [
+    "Wunden",
+    "die Wunden",
+    "die Wunde"
+  ],
+  "memoryHook": "Die Wunde (wound) ≠ das Wunder (miracle).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Wunde",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Wunde is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Wunde, zwei ___",
+      "answer": "Wunden",
+      "fullAnswer": "ein Wunde, zwei Wunden",
+      "explanation": "The plural is Wunden.",
+      "acceptedAnswers": [
+        "Wunden"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Wunde mean?",
+      "options": [
+        "always",
+        "the station",
+        "wound"
+      ],
+      "answer": "wound",
+      "explanation": "Wunde: wound.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Adjective 'sore':",
+      "options": [
+        "wund",
+        "wunder"
+      ],
+      "answer": "wund",
+      "explanation": "Sore.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Wunden",
+        "Wünde"
+      ],
+      "answer": "Wunden",
+      "explanation": "-n.",
+      "id": "q5"
+    }
+  ]
+}

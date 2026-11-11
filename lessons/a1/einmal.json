@@ -1,0 +1,131 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "einmal",
+    "partOfSpeech": "adverb",
+    "pronunciation": {
+      "respelling": "INE-mahl",
+      "ipa": "ˈaɪ̯nmaːl",
+      "notes": ""
+    },
+    "meaning": "once; one time; (when ordering) one",
+    "shortDefinition": "Once; one time; (when ordering) one."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "ein",
+        "meaning": "one"
+      },
+      {
+        "part": "mal",
+        "meaning": "time"
+      }
+    ],
+    "literalMeaning": "one time"
+  },
+  "wordFamily": [
+    {
+      "german": "zweimal, dreimal",
+      "english": "twice, three times",
+      "type": "adverbs"
+    },
+    {
+      "german": "mal",
+      "english": "times; just",
+      "type": "particle"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich war einmal in Wien.",
+      "english": "I've been to Vienna once.",
+      "highlight": [
+        "einmal"
+      ]
+    },
+    {
+      "german": "Noch einmal, bitte!",
+      "english": "Once more, please!",
+      "highlight": [
+        "einmal,"
+      ]
+    },
+    {
+      "german": "Einmal Pommes mit Ketchup, bitte.",
+      "english": "One portion of fries with ketchup, please.",
+      "highlight": [
+        "Einmal"
+      ]
+    }
+  ],
+  "forms": [
+    "einmal",
+    "noch einmal",
+    "nochmal",
+    "mal"
+  ],
+  "memoryHook": "Einmal = one time. Zweimal, dreimal… Noch einmal = again. Einmal Pommes = one portion of fries.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does einmal mean?",
+      "options": [
+        "tomorrow",
+        "once",
+        "to open"
+      ],
+      "answer": "once",
+      "explanation": "einmal: once; one time; (when ordering) one.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Noch einmal' means…",
+      "options": [
+        "once more, again",
+        "not once"
+      ],
+      "answer": "once more, again",
+      "explanation": "Can you say that noch einmal?",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ordering at a snack bar: '___ Currywurst, bitte.'",
+      "options": [
+        "Einmal",
+        "Eins"
+      ],
+      "answer": "Einmal",
+      "explanation": "Einmal, zweimal: one, two portions.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Twice is…",
+      "options": [
+        "zweimal",
+        "zweite"
+      ],
+      "answer": "zweimal",
+      "explanation": "Einmal, zweimal, dreimal.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Können Sie das noch ___ sagen? (again)",
+      "answer": "einmal",
+      "fullAnswer": "noch einmal",
+      "explanation": "Noch einmal (often: nochmal).",
+      "id": "q5"
+    }
+  ]
+}

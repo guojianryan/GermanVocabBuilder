@@ -1,0 +1,204 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "full",
+  "word": {
+    "headword": "bei",
+    "partOfSpeech": "preposition (always with the dative)",
+    "pronunciation": {
+      "respelling": "BYE",
+      "ipa": "baɪ̯",
+      "notes": "Ei sounds like English 'bye'."
+    },
+    "meaning": "at (someone's place or company); near; during, with",
+    "shortDefinition": "Where someone is staying, working or near."
+  },
+  "intro": {
+    "title": "At my place",
+    "paragraphs": [
+      "Bei has no single English match. It means 'at someone's place' (bei mir), 'at a company' (bei Siemens), 'at the doctor's' (beim Arzt) and 'near' (bei Berlin). It always takes the dative."
+    ]
+  },
+  "tables": [
+    {
+      "title": "bei + dem = beim",
+      "columns": [
+        "masculine",
+        "feminine",
+        "neuter"
+      ],
+      "rows": [
+        {
+          "label": "the",
+          "cells": [
+            "bei|m| Arzt",
+            "bei |der| Bank",
+            "bei|m| Bäcker"
+          ]
+        },
+        {
+          "label": "pronouns",
+          "cells": [
+            "bei |mir|",
+            "bei |dir|",
+            "bei |uns|"
+          ]
+        }
+      ],
+      "notes": [
+        "Bei dem almost always shortens to beim."
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "beim Arzt",
+      "english": "at the doctor's",
+      "type": "phrase"
+    },
+    {
+      "german": "bei mir",
+      "english": "at my place",
+      "type": "phrase"
+    },
+    {
+      "german": "zu",
+      "english": "to (going to someone)",
+      "type": "preposition"
+    }
+  ],
+  "keyTrap": {
+    "title": "The big trap: bei or zu?",
+    "explanation": "Bei is where you are. Zu is where you're going.",
+    "wrong": {
+      "german": "Ich gehe bei meiner Oma.",
+      "verdict": "Going there needs zu."
+    },
+    "correct": [
+      {
+        "german": "Ich gehe zu meiner Oma.",
+        "literal": "I go to my grandma.",
+        "note": "Going: zu."
+      },
+      {
+        "german": "Ich bin bei meiner Oma.",
+        "literal": "I am at my grandma.",
+        "note": "Being there: bei."
+      }
+    ]
+  },
+  "commonMistakes": [
+    {
+      "title": "Your employer",
+      "explanation": "You work bei a company, not in or an.",
+      "wrong": "Ich arbeite in Siemens.",
+      "correct": "Ich arbeite bei Siemens."
+    },
+    {
+      "title": "Near a town",
+      "explanation": "Bei also means near a place.",
+      "examples": [
+        {
+          "german": "Potsdam liegt bei Berlin.",
+          "english": "Potsdam is near Berlin.",
+          "highlight": "bei"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Morgen habe ich einen Termin beim Arzt.",
+      "english": "Tomorrow I have an appointment at the doctor's.",
+      "highlight": [
+        "beim"
+      ]
+    },
+    {
+      "german": "Sie wohnt noch bei ihren Eltern.",
+      "english": "She still lives with her parents.",
+      "highlight": [
+        "bei"
+      ]
+    },
+    {
+      "german": "Er arbeitet bei der Post.",
+      "english": "He works for the post office.",
+      "highlight": [
+        "bei"
+      ]
+    },
+    {
+      "german": "Bei Regen bleiben wir zu Hause.",
+      "english": "If it rains, we stay at home.",
+      "highlight": [
+        "Bei"
+      ]
+    }
+  ],
+  "forms": [
+    "beim",
+    "bei dem",
+    "bei der",
+    "bei mir"
+  ],
+  "memoryHook": "Bei = being at someone's: bei mir, beim Arzt, bei Siemens. Going there is zu.",
+  "signOff": "Bis bald bei dir!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Ich bin heute Abend ___ Freunden.",
+      "options": [
+        "bei",
+        "zu"
+      ],
+      "answer": "bei",
+      "explanation": "Being there: bei.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich fahre morgen ___ meinem Bruder.",
+      "options": [
+        "bei",
+        "zu"
+      ],
+      "answer": "zu",
+      "explanation": "Going there: zu.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Sie arbeitet ___ einer Bank.",
+      "options": [
+        "bei",
+        "in"
+      ],
+      "answer": "bei",
+      "explanation": "Employer: bei.",
+      "id": "q3"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich war gestern ___ Arzt. (at the)",
+      "answer": "beim",
+      "fullAnswer": "Ich war gestern beim Arzt.",
+      "explanation": "Bei + dem = beim.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Komm doch zu ___! (to my place)",
+      "options": [
+        "mir",
+        "mich"
+      ],
+      "answer": "mir",
+      "explanation": "Zu and bei both take the dative: mir.",
+      "id": "q5"
+    }
+  ]
+}

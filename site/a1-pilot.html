@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>A1 Pilot Lessons</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&display=swap" rel="stylesheet">
+<style>
+/* Layout: one left-aligned reading column on a school-exercise-book page.
+   Squared paper (Karopapier) only behind the headword; royal-blue ink for German,
+   teacher's red pen for mistakes. The headword's "weil" stretches: a long while. */
+:root {
+  --paper: #F6F8FA;
+  --ink: #18233A;
+  --muted: #56627A;
+  --blue: #2340B0;      /* Königsblau fountain-pen ink */
+  --red: #C42B2B;       /* correction pen */
+  --rule: #D3DEEA;      /* grid and table lines */
+  --tint: #E9EEF7;
+  --display: "Jost", "Futura", "Century Gothic", system-ui, sans-serif;
+  --body: "Literata", "Iowan Old Style", Georgia, serif;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #111827; --ink: #E5EAF3; --muted: #9AA6BD; --blue: #93A8FF;
+    --red: #FF8A80; --rule: #2A3650; --tint: #1A2440; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #111827; --ink: #E5EAF3; --muted: #9AA6BD; --blue: #93A8FF;
+  --red: #FF8A80; --rule: #2A3650; --tint: #1A2440; color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; background: var(--paper); color: var(--ink);
+  font-family: var(--body); font-size: 1.075rem; line-height: 1.7;
+}
+.sheet { max-width: 46rem; margin: 0 auto; padding: 0 clamp(16px, 5vw, 32px) 4rem; }
+p { margin: 0; }
+h2, h3 { font-family: var(--display); text-wrap: balance; margin: 0; line-height: 1.2; }
+h2 { font-size: 1.65rem; font-weight: 600; }
+h3 { font-size: 1.15rem; font-weight: 600; }
+.de { color: var(--blue); }
+:focus-visible { outline: 2px solid var(--blue); outline-offset: 3px; border-radius: 2px; }
+
+/* top bar */
+.bar { display: flex; flex-wrap: wrap; gap: .75rem 1rem; align-items: center; justify-content: space-between;
+  padding: 1.1rem 0; font-family: var(--display); font-size: .95rem; color: var(--muted); }
+.bar-actions { display: flex; gap: .5rem; flex-wrap: wrap; }
+.btn { font: 500 .92rem var(--display); color: var(--ink); background: transparent;
+  border: 1.5px solid var(--rule); border-radius: 6px; padding: .4rem .85rem; cursor: pointer; }
+.btn:hover { border-color: var(--blue); color: var(--blue); }
+.btn.primary { background: var(--blue); border-color: var(--blue); color: var(--paper); }
+.btn.primary:hover { filter: brightness(1.1); color: var(--paper); }
+#file { position: absolute; width: 1px; height: 1px; opacity: 0; }
+#file:focus-visible + .btn { outline: 2px solid var(--blue); outline-offset: 3px; }
+
+/* lesson picker (when the page holds several lessons) */
+.picker { display: flex; flex-wrap: wrap; gap: .35rem 1.25rem; padding: 0 0 1rem; font-family: var(--display); font-size: 1.05rem; }
+.picker[hidden] { display: none; }
+.picker a { color: var(--muted); text-decoration: none; padding: .1rem 0; border-bottom: 2px solid transparent; }
+.picker a:hover { color: var(--blue); }
+.picker a[aria-current="page"] { color: var(--blue); border-bottom-color: var(--blue); }
+.picker .card-word { font-style: italic; }
+
+/* hero */
+.hero {
+  margin: 0 calc(-1 * clamp(16px, 5vw, 32px));
+  padding: clamp(2rem, 6vw, 3.5rem) clamp(16px, 5vw, 32px) 2.5rem;
+  background-image:
+    linear-gradient(var(--rule) 1px, transparent 1px),
+    linear-gradient(90deg, var(--rule) 1px, transparent 1px);
+  background-size: 22px 22px;
+  background-position: -1px -1px;
+  border-bottom: 1px solid var(--rule);
+  display: grid; gap: .9rem;
+}
+.pos { font-family: var(--display); color: var(--muted); font-size: 1rem; }
+.headword {
+  font-family: var(--display); font-weight: 500; margin: 0;
+  font-size: clamp(3rem, 13vw, 7.25rem); line-height: 1; letter-spacing: -.02em;
+  white-space: nowrap; overflow-x: auto; padding-bottom: .1em;
+}
+.seg.stretch { color: var(--blue); letter-spacing: .32em; margin-right: -.06em;
+  animation: stretch 2.6s cubic-bezier(.45,0,.2,1) .3s both; }
+@keyframes stretch { from { letter-spacing: -.02em; } to { letter-spacing: .32em; } }
+@media (max-width: 30rem) { .seg.stretch { letter-spacing: .14em; animation-name: stretch-sm; } }
+@keyframes stretch-sm { from { letter-spacing: -.02em; } to { letter-spacing: .14em; } }
+.seg.arrive { display: inline-block; color: var(--blue);
+  animation: arrive 1.8s cubic-bezier(.15,.7,.2,1) .3s both; }
+@keyframes arrive { from { transform: translateX(1.1em); } to { transform: none; } }
+@media (prefers-reduced-motion: reduce) { .seg.stretch, .seg.arrive { animation: none; } }
+.meaning { font-size: clamp(1.5rem, 4vw, 2rem); font-style: italic; line-height: 1.3; }
+.say { display: flex; flex-wrap: wrap; gap: .4rem 1.5rem; color: var(--muted); font-size: 1rem; }
+.say b { font-family: var(--display); font-weight: 500; color: var(--ink); }
+.say-note { color: var(--muted); font-size: .95rem; max-width: 36rem; }
+
+/* sections */
+main { display: grid; gap: 3.5rem; padding-top: 2.75rem; }
+section { display: grid; gap: 1.1rem; }
+.prose { display: grid; gap: .9rem; max-width: 40rem; }
+
+/* etymology equation */
+.equation { display: flex; flex-wrap: wrap; align-items: flex-start; gap: .5rem 1rem; }
+.term { display: grid; gap: .15rem; }
+.term .word { font-family: var(--display); font-size: clamp(1.8rem, 6vw, 2.5rem); line-height: 1.1; color: var(--blue); }
+.term .gloss { font-size: .95rem; color: var(--muted); max-width: 11rem; line-height: 1.45; }
+.op { font-family: var(--display); font-size: clamp(1.8rem, 6vw, 2.5rem); line-height: 1.1; color: var(--muted); }
+.literal { font-size: 1.15rem; }
+.literal q { font-family: var(--display); font-weight: 500; color: var(--blue); quotes: "“" "”"; }
+.aside { border-left: 3px solid var(--blue); padding: .2rem 0 .2rem 1.1rem; display: grid; gap: .4rem; max-width: 40rem; }
+
+/* word family */
+.table-wrap { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; min-width: 30rem; }
+th, td { text-align: left; padding: .7rem 1rem .7rem 0; border-bottom: 1px solid var(--rule); vertical-align: top; }
+th { font-family: var(--display); font-weight: 500; color: var(--muted); font-size: .95rem; }
+td:first-child { font-family: var(--display); font-weight: 500; font-size: 1.1rem; color: var(--blue); white-space: nowrap; }
+td .lit { color: var(--muted); font-style: italic; }
+
+/* form tables (declension, conjugation) */
+.decl { min-width: 32rem; }
+.decl th[scope="row"] { font-family: var(--display); font-weight: 500; color: var(--ink); font-size: 1rem; }
+.decl th[scope="row"] span { display: block; font-family: var(--body); font-weight: 400; font-size: .85rem; color: var(--muted); }
+.decl td, .decl td:first-child { font-family: var(--display); font-size: 1.35rem; color: var(--ink); font-weight: 400; }
+.decl mark { font-weight: 500; }
+.patterns { margin: 0; padding-left: 1.2rem; display: grid; gap: .45rem; max-width: 40rem; }
+.patterns li::marker { color: var(--blue); }
+
+/* cognates */
+.cognates { display: flex; flex-wrap: wrap; gap: 1rem 2.25rem; }
+.cognate { display: grid; gap: .1rem; }
+.cognate .lang { font-size: .9rem; color: var(--muted); }
+.cognate .word { font-family: var(--display); font-size: 1.6rem; line-height: 1.15; color: var(--blue); }
+.cognate .gloss { font-size: .9rem; color: var(--muted); max-width: 12rem; line-height: 1.4; }
+
+/* headword that cycles through its forms */
+.seg.ending { color: var(--blue); }
+
+/* the trap: teacher's red pen */
+.trap { display: grid; gap: 1.25rem; padding: 1.5rem; background: var(--tint); border-radius: 4px; }
+.wrong-line { display: flex; flex-wrap: wrap; align-items: baseline; gap: .3rem 1rem; }
+.struck { font-family: var(--display); font-size: 1.6rem; text-decoration: line-through; text-decoration-color: var(--red);
+  text-decoration-thickness: 3px; }
+.red-note { color: var(--red); font-style: italic; }
+.right-list { list-style: none; margin: 0; padding: 0; display: grid; gap: .85rem; }
+.right-list li { display: grid; gap: .1rem; }
+.right-list .de { font-family: var(--display); font-size: 1.35rem; font-weight: 500; }
+.right-list .note { color: var(--muted); font-size: .97rem; }
+
+/* mistakes */
+.mistakes { display: grid; gap: 2rem; }
+.mistake { display: grid; gap: .55rem; }
+.fix { display: flex; flex-wrap: wrap; gap: .3rem 1.5rem; font-family: var(--display); font-size: 1.15rem; }
+.fix .x { text-decoration: line-through; text-decoration-color: var(--red); text-decoration-thickness: 2px; color: var(--muted); }
+.fix .ok { color: var(--blue); font-weight: 500; }
+.examples { list-style: none; padding: 0; margin: 0; display: grid; gap: .35rem; }
+.examples .de { font-family: var(--display); font-size: 1.15rem; }
+.decl mark, .examples mark { background: none; color: var(--blue); font-weight: 600; border-bottom: 2px solid var(--blue); }
+.examples .en { color: var(--muted); }
+.forms { display: flex; flex-wrap: wrap; gap: .75rem 2.25rem; }
+.forms div { display: grid; }
+.forms span { font-size: .9rem; color: var(--muted); }
+.forms b { font-family: var(--display); font-weight: 500; font-size: 1.2rem; color: var(--blue); }
+
+/* sentences */
+.sent-head { display: flex; flex-wrap: wrap; gap: .75rem; justify-content: space-between; align-items: baseline; }
+.sentences { list-style: none; margin: 0; padding: 0; display: grid; }
+.sentences li { padding: .85rem 0; border-bottom: 1px solid var(--rule); display: grid; gap: .15rem; }
+.sentences li:first-child { border-top: 1px solid var(--rule); }
+.sentences .de { font-size: 1.15rem; color: var(--ink); }
+.sentences .hl { font-weight: 600; }
+.sentences .en { color: var(--muted); font-style: italic; }
+.sentences.hide-en .en { visibility: hidden; }
+.sentences.hide-en li:hover .en, .sentences.hide-en li:focus-within .en { visibility: visible; }
+.sentences li[tabindex]:focus-visible { outline-offset: 0; }
+.hl { color: var(--blue); }
+
+/* quiz */
+.quiz { list-style: none; margin: 0; padding: 0; display: grid; gap: 1.75rem; counter-reset: q; }
+.quiz > li { display: grid; gap: .7rem; grid-template-columns: 2rem 1fr; }
+.quiz > li::before { counter-increment: q; content: counter(q); font-family: var(--display); font-weight: 600;
+  color: var(--blue); font-size: 1.2rem; line-height: 1.5; }
+.quiz .body { display: grid; gap: .7rem; }
+.row { display: flex; flex-wrap: wrap; gap: .5rem; align-items: center; }
+.row input { font: 500 1.05rem var(--display); color: var(--ink); background: var(--paper);
+  border: 1.5px solid var(--rule); border-radius: 6px; padding: .4rem .7rem; width: 9rem; }
+.row input:focus-visible { border-color: var(--blue); outline: none; box-shadow: 0 0 0 3px var(--tint); }
+.feedback { font-size: .98rem; }
+.feedback.good { color: var(--blue); }
+.feedback.bad { color: var(--red); }
+.answer { display: grid; gap: .25rem; padding-left: 1rem; border-left: 3px solid var(--blue); }
+.answer .de { font-family: var(--display); font-weight: 500; font-size: 1.15rem; }
+.answer .note { color: var(--muted); }
+.answer[hidden] { display: none; }
+
+/* hook */
+.hook { padding-top: 2.5rem; border-top: 1px solid var(--rule); display: grid; gap: 1rem; }
+.hook p.big { font-family: var(--display); font-size: clamp(1.35rem, 4vw, 1.75rem); line-height: 1.35; text-wrap: balance; }
+.signoff { color: var(--blue); font-style: italic; font-size: 1.2rem; }
+
+/* json view / errors */
+.panel { border: 1.5px solid var(--rule); border-radius: 6px; padding: 1rem; overflow: auto; max-height: 28rem;
+  font: .85rem/1.5 ui-monospace, "SF Mono", Menlo, Consolas, monospace; white-space: pre; margin: 0 0 1.5rem; }
+.panel[hidden] { display: none; }
+.error { border-left: 3px solid var(--red); padding: .5rem 1rem; color: var(--red); margin-bottom: 1.5rem; }
+
+/* Responsive reading and touch controls. Keep wide grammar tables inside their region. */
+.sheet, #lesson, main, section, .quiz .body { min-width: 0; }
+.btn, .picker a { min-height: 44px; touch-action: manipulation; }
+.btn { display: inline-flex; align-items: center; justify-content: center; line-height: 1.3; }
+.table-wrap { max-width: 100%; overscroll-behavior-x: contain; }
+.table-wrap:focus-visible { outline-offset: 2px; }
+.headword { white-space: normal; overflow-wrap: anywhere; overflow-x: visible; }
+.prose, .meaning, .say, .say-note, .term, .cognate, .trap, .fix, .hook, .feedback, .answer { overflow-wrap: anywhere; }
+.row input { min-height: 44px; max-width: 100%; }
+.picker a { display: inline-flex; align-items: center; }
+@media (max-width: 40rem) {
+  body { font-size: 1rem; line-height: 1.65; }
+  .sheet { padding-bottom: max(2.5rem, env(safe-area-inset-bottom)); }
+  .bar { gap: .65rem; padding: .85rem 0; }
+  .bar-actions { width: 100%; }
+  .bar-actions .btn { flex: 1; }
+  .picker { flex-wrap: nowrap; overflow-x: auto; gap: .5rem; padding-bottom: .85rem; overscroll-behavior-x: contain; }
+  .picker a { flex: 0 0 auto; padding: .4rem .75rem; border: 1px solid var(--rule); border-radius: 6px; }
+  .picker a[aria-current="page"] { background: var(--tint); border-color: var(--blue); }
+  .hero { padding-top: 1.75rem; padding-bottom: 1.75rem; gap: .75rem; }
+  .headword { font-size: clamp(2.25rem, 10vw, 4rem); line-height: 1.12; }
+  main { gap: 2.5rem; padding-top: 2rem; }
+  h2 { font-size: 1.4rem; }
+  section { gap: .9rem; }
+  .trap { padding: 1rem; }
+  .quiz > li { grid-template-columns: 1.25rem minmax(0, 1fr); gap: .5rem; }
+  .quiz .row input { width: 100%; flex-basis: 100%; font-size: 1rem; }
+  .quiz .row .btn { flex: 1; }
+  table:not(.decl) { min-width: 0; table-layout: fixed; }
+  table:not(.decl) th, table:not(.decl) td { overflow-wrap: anywhere; padding-right: .6rem; }
+  table:not(.decl) td:first-child { white-space: normal; }
+  .decl { min-width: 28rem; }
+  .decl td, .decl td:first-child { font-size: 1.1rem; }
+  .examples .en { display: block; }
+  .sent-head { align-items: flex-start; }
+  .sentences li { min-height: 44px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; }
+}
+
+</style>
+</head>
+<body>
+<div class="sheet">
+  <div class="bar">
+    <span id="pair">German vocabulary</span>
+    <div class="bar-actions">
+      <input type="file" id="file" accept=".json,application/json">
+      <label for="file" class="btn">Open lesson file</label>
+      <button type="button" class="btn" id="toggle-json" aria-expanded="false" aria-controls="json-view">Show JSON</button>
+    </div>
+  </div>
+  <nav id="picker" class="picker" aria-label="Lessons" hidden></nav>
+  <div id="error" class="error" role="alert" hidden></div>
+  <pre id="json-view" class="panel" hidden></pre>
+  <div id="lesson"></div>
+</div>
+
+<script type="application/json" id="lesson-data">[{"schemaVersion": "1.3", "language": "de", "explanationLanguage": "en", "level": "A1", "lessonType": "full", "word": {"headword": "anrufen", "partOfSpeech": "separable verb", "pronunciation": {"respelling": "AHN-roo-fen", "ipa": "ˈanˌʁuːfn̩", "notes": "Stress the an. The u is long, like the oo in 'food'."}, "meaning": "to call (on the phone)", "shortDefinition": "To phone someone."}, "intro": {"title": "Ring ring", "paragraphs": ["Your landlord's note says: Bitte rufen Sie mich an. You recognise rufen, and there's an an floating at the end of the sentence. Put them together and you get anrufen: please call me.", "Anrufen is one of the first separable verbs most learners meet. Once it clicks, hundreds of other verbs follow the same rule."]}, "etymology": {"title": "Where it comes from", "parts": [{"part": "an", "meaning": "at, toward", "note": "The same an as in Ankunft."}, {"part": "rufen", "meaning": "to call out, to shout", "note": "Related to the old English word 'roop', a hoarse shout."}], "literalMeaning": "to call toward", "summary": "Long before phones, anrufen meant calling out to someone. The telephone just took over the word.", "bonus": {"word": "der Anruf", "meaning": "a phone call", "literalMeaning": "a call toward", "note": "Drop the -en and you get the noun. Der Anrufbeantworter, literally 'call answerer', is an answering machine."}}, "tables": [{"title": "How it splits", "intro": "In the present tense the an breaks off and goes to the end of the sentence. In the past it comes back, with ge squeezed in the middle.", "columns": ["present tense", "past (Perfekt)"], "rows": [{"label": "ich", "cells": ["rufe … |an", "habe … |angerufen"]}, {"label": "du", "cells": ["rufst … |an", "hast … |angerufen"]}, {"label": "er, sie, es", "cells": ["ruft … |an", "hat … |angerufen"]}, {"label": "wir", "cells": ["rufen … |an", "haben … |angerufen"]}, {"label": "ihr", "cells": ["ruft … |an", "habt … |angerufen"]}, {"label": "sie, Sie", "cells": ["rufen … |an", "haben … |angerufen"]}], "notes": ["The … is where the rest of the sentence goes: Ich rufe dich morgen an.", "In the infinitive and after a modal verb it stays in one piece: Ich muss dich anrufen."]}], "wordFamily": [{"german": "der Anruf", "english": "phone call", "type": "noun"}, {"german": "der Anrufbeantworter", "english": "answering machine", "literal": "call answerer", "type": "noun"}, {"german": "zurückrufen", "english": "to call back", "type": "separable verb"}, {"german": "rufen", "english": "to call out, to shout", "type": "verb"}, {"german": "telefonieren", "english": "to talk on the phone", "type": "verb"}], "keyTrap": {"title": "The big trap: keeping it in one piece", "explanation": "In a normal sentence, anrufen splits. The rufen part takes second place and the an goes to the very end.", "wrong": {"german": "Ich anrufe dich morgen.", "verdict": "The an has to go to the end."}, "correct": [{"german": "Ich rufe dich morgen an.", "literal": "I call you tomorrow at.", "note": "Present tense: split."}, {"german": "Ich habe dich gestern angerufen.", "literal": "I have you yesterday at-called.", "note": "Past: one word again, with ge in the middle."}, {"german": "Ich will dich morgen anrufen.", "literal": "I want you tomorrow to call.", "note": "After will, kann, muss: one word at the end."}]}, "commonMistakes": [{"title": "dich, not dir", "explanation": "You call someone directly, so the person is in the accusative: mich, dich, ihn, Sie.", "wrong": "Ich rufe dir an.", "correct": "Ich rufe dich an."}, {"title": "Calling a place", "explanation": "To call a company, office or shop, use bei with the dative.", "wrong": "Ich rufe die Bank an.", "correct": "Ich rufe bei der Bank an."}, {"title": "The past participle", "explanation": "The ge goes between the two parts, never in front.", "wrong": "geanrufen", "correct": "angerufen"}], "sampleSentences": [{"german": "Rufen Sie mich bitte morgen an.", "english": "Please call me tomorrow.", "highlight": ["Rufen", "an"]}, {"german": "Wann kann ich Sie erreichen? Ich rufe nach dem Mittagessen an.", "english": "When can I reach you? I'll call after lunch.", "highlight": ["rufe", "an"]}, {"german": "Meine Mutter hat dreimal angerufen.", "english": "My mother called three times.", "highlight": ["angerufen"]}, {"german": "Ich muss noch beim Arzt anrufen.", "english": "I still have to call the doctor's office.", "highlight": ["anrufen"]}, {"german": "Danke für deinen Anruf!", "english": "Thanks for your call!", "highlight": ["Anruf!"]}], "quiz": [{"id": "q1", "type": "fill-in-the-blank", "prompt": "Ich ___ dich heute Abend an.", "answer": "rufe", "fullAnswer": "Ich rufe dich heute Abend an.", "explanation": "The verb part takes second place; an goes to the end."}, {"id": "q2", "type": "fill-in-the-blank", "prompt": "Kannst du ___ später anrufen? (me)", "answer": "mich", "fullAnswer": "Kannst du mich später anrufen?", "explanation": "Anrufen takes the accusative: mich, not mir."}, {"id": "q3", "type": "fill-in-the-blank", "prompt": "Er hat gestern nicht ___. (anrufen)", "answer": "angerufen", "fullAnswer": "Er hat gestern nicht angerufen.", "explanation": "The ge goes in the middle: an-ge-rufen."}, {"id": "q4", "type": "open", "prompt": "How do you say \"I'll call you back\"?", "acceptedAnswers": ["Ich rufe dich zurück.", "Ich rufe Sie zurück."], "explanation": "Zurückrufen splits the same way as anrufen."}], "forms": ["rufe an", "rufst an", "ruft an", "rufen an", "angerufen", "rief an", "der Anruf"], "memoryHook": "Anrufen is a phone call that hangs up early: the an always runs to the end. Ich rufe dich an.", "signOff": "Bis später!"}, {"schemaVersion": "1.3", "language": "de", "explanationLanguage": "en", "level": "A1", "lessonType": "full", "word": {"headword": "bekommen", "partOfSpeech": "verb", "pronunciation": {"respelling": "buh-KOM-en", "ipa": "bəˈkɔmən", "notes": "The be is short and unstressed, like the 'a' in 'about'. Stress kom."}, "meaning": "to get, to receive", "shortDefinition": "To get something that comes to you."}, "intro": {"title": "The word that looks like 'become'", "paragraphs": ["A tourist in a Berlin café says to the waiter: Ich bekomme ein Steak. He means 'I'll have a steak'. If he were thinking in English, it would sound like 'I become a steak.'", "Bekommen looks almost exactly like the English word 'become', but it means 'get' or 'receive'. It's the most famous false friend in German, and you'll use it every day."]}, "etymology": {"title": "Where it comes from", "parts": [{"part": "be-", "meaning": "a prefix that points at a target", "note": "It doesn't add much meaning on its own."}, {"part": "kommen", "meaning": "to come", "note": "The same kommen as in ankommen."}], "literalMeaning": "to come to", "summary": "Originally both words meant 'to come to, to reach'. In German, the meaning became 'something comes to you', so you get it. In English, 'become' drifted toward 'come to be'.", "bonus": {"word": "werden", "meaning": "to become", "note": "This is the German word you actually want for 'become': Ich werde müde, I'm getting tired."}}, "tables": [{"title": "Present tense", "intro": "Bekommen follows kommen, so it's regular in the present.", "columns": ["present", "past (Perfekt)"], "rows": [{"label": "ich", "cells": ["bekomm|e", "habe bekommen"]}, {"label": "du", "cells": ["bekomm|st", "hast bekommen"]}, {"label": "er, sie, es", "cells": ["bekomm|t", "hat bekommen"]}, {"label": "wir", "cells": ["bekomm|en", "haben bekommen"]}, {"label": "ihr", "cells": ["bekomm|t", "habt bekommen"]}, {"label": "sie, Sie", "cells": ["bekomm|en", "haben bekommen"]}], "notes": ["The past participle is bekommen, with no ge-. Verbs starting with be- never add ge."]}], "wordFamily": [{"german": "kommen", "english": "to come", "type": "verb"}, {"german": "werden", "english": "to become", "type": "verb"}, {"german": "kriegen", "english": "to get (casual)", "type": "verb"}, {"german": "erhalten", "english": "to receive (formal)", "type": "verb"}], "keyTrap": {"title": "The big trap: bekommen is not 'become'", "explanation": "When you mean 'become' or 'get' in the sense of changing, German uses werden. Bekommen is only for receiving something.", "wrong": {"german": "Ich bekomme müde.", "verdict": "This means nothing. You can't receive 'tired'."}, "correct": [{"german": "Ich werde müde.", "literal": "I become tired.", "note": "Changing state: werden."}, {"german": "Ich will Ärztin werden.", "literal": "I want doctor to become.", "note": "Becoming something: werden."}, {"german": "Ich habe deine Nachricht bekommen.", "literal": "I have your message received.", "note": "Receiving: bekommen."}]}, "commonMistakes": [{"title": "No ge- in the past", "explanation": "Verbs starting with be-, ge-, er-, ver- and zer- don't add ge in the Perfekt.", "wrong": "Ich habe es gebekommen.", "correct": "Ich habe es bekommen."}, {"title": "Ordering food", "explanation": "In a restaurant, bekommen is the polite way to order. Ich will sounds demanding.", "wrong": "Ich will einen Kaffee.", "correct": "Ich bekomme einen Kaffee, bitte."}, {"title": "Who gets what", "explanation": "From a waiter, 'Was bekommen Sie?' means 'What will you have?'. When you pay, 'Was bekommen Sie von mir?' means 'How much do I owe you?'.", "examples": [{"german": "Was bekommen Sie?", "english": "What will you have?", "highlight": "bekommen"}, {"german": "Was bekommen Sie von mir?", "english": "What do I owe you?", "highlight": "bekommen"}]}], "sampleSentences": [{"german": "Hast du meine E-Mail bekommen?", "english": "Did you get my email?", "highlight": ["bekommen?"]}, {"german": "Wir bekommen nächste Woche Besuch.", "english": "We're getting visitors next week.", "highlight": ["bekommen"]}, {"german": "Ich bekomme ein Glas Wasser, bitte.", "english": "I'll have a glass of water, please.", "highlight": ["bekomme"]}, {"german": "Das Medikament bekommen Sie in jeder Apotheke.", "english": "You can get the medicine at any pharmacy.", "highlight": ["bekommen"]}, {"german": "Sie bekommt ein Baby.", "english": "She's having a baby.", "highlight": ["bekommt"]}], "quiz": [{"id": "q1", "type": "fill-in-the-blank", "prompt": "Im Winter ___ es früh dunkel. (bekommen or werden?)", "answer": "wird", "fullAnswer": "Im Winter wird es früh dunkel.", "explanation": "Getting dark is a change of state, so it's werden."}, {"id": "q2", "type": "fill-in-the-blank", "prompt": "Ich habe dein Paket ___.", "answer": "bekommen", "fullAnswer": "Ich habe dein Paket bekommen.", "explanation": "Receiving, and no ge- in the past."}, {"id": "q3", "type": "open", "prompt": "You're in a café. How do you order a coffee politely?", "acceptedAnswers": ["Ich bekomme einen Kaffee, bitte."], "explanation": "Ich hätte gern einen Kaffee also works."}], "forms": ["bekomme", "bekommst", "bekommt", "bekam", "bekamen"], "memoryHook": "Bekommen is what comes to you. If you're changing, you werden. If something arrives, you bekommen.", "signOff": "Guten Appetit!"}, {"schemaVersion": "1.3", "language": "de", "explanationLanguage": "en", "level": "A1", "lessonType": "full", "word": {"headword": "gefallen", "partOfSpeech": "verb (with the dative)", "pronunciation": {"respelling": "guh-FAL-en", "ipa": "ɡəˈfalən", "notes": "Stress fal. The a is short."}, "meaning": "to please, to appeal to", "shortDefinition": "Used to say you like something: Das gefällt mir."}, "intro": {"title": "The Like button", "paragraphs": ["If you've used Facebook in German, you've clicked gefallen many times. The Like button says Gefällt mir: it pleases me.", "That's the whole secret of this verb. In English you like the thing. In German the thing pleases you. The sentence is built the other way round."]}, "etymology": {"title": "Where it comes from", "parts": [{"part": "ge-", "meaning": "a prefix that adds completeness"}, {"part": "fallen", "meaning": "to fall"}], "literalMeaning": "to fall out well", "summary": "Something that gefällt you is something that has fallen out the right way for you, like a lucky throw of the dice.", "bonus": {"word": "der Gefallen", "meaning": "a favour", "note": "Same spelling, but a noun: Kannst du mir einen Gefallen tun? Can you do me a favour?"}}, "tables": [{"title": "Who's who", "intro": "The thing you like is the subject, so the verb agrees with it. The person who likes it goes in the dative.", "columns": ["one thing", "several things"], "rows": [{"label": "I like", "cells": ["… gefällt |mir", "… gefallen |mir"]}, {"label": "you like", "cells": ["… gefällt |dir", "… gefallen |dir"]}, {"label": "he likes", "cells": ["… gefällt |ihm", "… gefallen |ihm"]}, {"label": "she likes", "cells": ["… gefällt |ihr", "… gefallen |ihr"]}, {"label": "we like", "cells": ["… gefällt |uns", "… gefallen |uns"]}, {"label": "you (formal) like", "cells": ["… gefällt |Ihnen", "… gefallen |Ihnen"]}], "notes": ["Das Kleid gefällt mir. Die Schuhe gefallen mir. The verb changes with the thing, not with you.", "Past: Der Film hat mir gefallen."]}], "wordFamily": [{"german": "der Gefallen", "english": "favour", "type": "noun"}, {"german": "mögen", "english": "to like", "type": "verb"}, {"german": "gern", "english": "gladly (to like doing)", "type": "adverb"}, {"german": "schmecken", "english": "to taste good", "type": "verb"}], "keyTrap": {"title": "The big trap: making yourself the subject", "explanation": "English speakers put themselves first, as the one doing the liking. With gefallen, you're the one being pleased, so you go in the dative.", "wrong": {"german": "Ich gefalle das Buch.", "verdict": "This says 'I please the book'."}, "correct": [{"german": "Das Buch gefällt mir.", "literal": "The book pleases me.", "note": "The thing is the subject."}, {"german": "Mir gefällt das Buch.", "literal": "To me pleases the book.", "note": "Same meaning, with the emphasis on you."}, {"german": "Ich mag das Buch.", "literal": "I like the book.", "note": "Or use mögen, which works like English."}]}, "commonMistakes": [{"title": "Food uses schmecken", "explanation": "Gefallen is for how something looks, sounds or feels. For taste, Germans say schmecken.", "wrong": "Die Suppe gefällt mir.", "correct": "Die Suppe schmeckt mir."}, {"title": "Plural things", "explanation": "When the thing is plural, the verb is too.", "wrong": "Die Blumen gefällt mir.", "correct": "Die Blumen gefallen mir."}, {"title": "First impressions", "explanation": "Gefallen is about first impressions. For a friend you know well, mögen sounds warmer.", "examples": [{"german": "Berlin gefällt mir.", "english": "I like Berlin (what I've seen of it).", "highlight": "gefällt"}, {"german": "Ich mag meine Kollegen.", "english": "I like my colleagues.", "highlight": "mag"}]}], "sampleSentences": [{"german": "Wie gefällt dir die neue Wohnung?", "english": "How do you like the new flat?", "highlight": ["gefällt", "dir"]}, {"german": "Die Farbe gefällt mir nicht.", "english": "I don't like the colour.", "highlight": ["gefällt", "mir"]}, {"german": "Hat Ihnen der Film gefallen?", "english": "Did you like the film?", "highlight": ["Ihnen", "gefallen?"]}, {"german": "Die Kinder gefallen der Oma sehr.", "english": "Grandma really likes the children.", "highlight": ["gefallen", "der", "Oma"]}, {"german": "Kannst du mir einen Gefallen tun?", "english": "Can you do me a favour?", "highlight": ["Gefallen"]}], "quiz": [{"id": "q1", "type": "fill-in-the-blank", "prompt": "Die Stadt gefällt ___. (me)", "answer": "mir", "fullAnswer": "Die Stadt gefällt mir.", "explanation": "The person who likes it is in the dative: mir."}, {"id": "q2", "type": "fill-in-the-blank", "prompt": "Die Schuhe ___ mir.", "answer": "gefallen", "fullAnswer": "Die Schuhe gefallen mir.", "explanation": "Schuhe is plural, so the verb is plural."}, {"id": "q3", "type": "fill-in-the-blank", "prompt": "Der Kuchen ___ mir sehr gut. (it tastes good)", "answer": "schmeckt", "fullAnswer": "Der Kuchen schmeckt mir sehr gut.", "explanation": "For food, use schmecken."}], "forms": ["gefällt", "gefiel", "gefallen", "gefällst"], "memoryHook": "Think of the Like button: Gefällt mir. The thing pleases me, so the thing comes first and I'm the mir.", "signOff": "Hat es dir gefallen?"}, {"schemaVersion": "1.3", "language": "de", "explanationLanguage": "en", "level": "A1", "lessonType": "full", "word": {"headword": "gern", "partOfSpeech": "adverb (also gerne)", "pronunciation": {"respelling": "GAIRN", "ipa": "ɡɛʁn", "notes": "Gern and gerne mean the same. Gerne is a little softer and very common in speech."}, "meaning": "gladly; used to say you like doing something", "shortDefinition": "Add it to any verb to say you enjoy doing it."}, "intro": {"title": "The easiest way to say 'I like'", "paragraphs": ["German doesn't need a special verb to say you like doing something. You just do the thing, gladly: Ich schwimme gern. I swim gladly, I like swimming.", "Gern is one of the most useful words at A1. It turns every verb you know into a preference, and it's also how Germans say 'you're welcome'."]}, "etymology": {"title": "Where it comes from", "summary": "Gern comes from an old Germanic word meaning eager or desiring. English kept the same root in the verb 'yearn'.", "cognates": [{"word": "yearn", "language": "English", "note": "to long for"}, {"word": "gern", "language": "German", "note": "eagerly, gladly"}, {"word": "begehren", "language": "German", "note": "to desire, from the same root"}]}, "tables": [{"title": "Like, prefer, like most", "intro": "Gern has irregular comparative forms, which you'll use all the time.", "columns": ["form", "example"], "rows": [{"label": "like", "cells": ["|gern", "Ich trinke gern Tee."]}, {"label": "prefer", "cells": ["|lieber", "Ich trinke lieber Kaffee."]}, {"label": "like most", "cells": ["am |liebsten", "Ich trinke am liebsten Wasser."]}], "notes": ["Never gerner. The comparative is lieber, from the same root as lieb (dear)."]}], "wordFamily": [{"german": "gern haben", "english": "to be fond of (a person)", "type": "phrase"}, {"german": "Gern geschehen!", "english": "You're welcome!", "literal": "gladly happened", "type": "phrase"}, {"german": "lieber", "english": "rather, preferably", "type": "adverb"}, {"german": "am liebsten", "english": "most of all", "type": "adverb"}, {"german": "mögen", "english": "to like (things)", "type": "verb"}], "keyTrap": {"title": "The big trap: word order", "explanation": "Gern is an adverb, not a verb, so the real verb still has to take second place. Gern comes after it.", "wrong": {"german": "Ich gern spiele Tennis.", "verdict": "The verb has to come second."}, "correct": [{"german": "Ich spiele gern Tennis.", "literal": "I play gladly tennis.", "note": "Verb second, then gern."}, {"german": "Spielst du gern Tennis?", "literal": "Play you gladly tennis?", "note": "In a question the verb comes first."}, {"german": "Ich spiele nicht gern Tennis.", "literal": "I play not gladly tennis.", "note": "Nicht goes right before gern."}]}, "commonMistakes": [{"title": "gern for doing, mögen for things", "explanation": "Use gern with a verb. With a noun, mögen is more natural.", "wrong": "Ich gern Pizza.", "correct": "Ich mag Pizza. / Ich esse gern Pizza."}, {"title": "The comparative", "explanation": "It's irregular, so there's no gerner.", "wrong": "Ich trinke gerner Tee.", "correct": "Ich trinke lieber Tee."}, {"title": "Ordering", "explanation": "Ich hätte gern … is the polite way to ask for something in a shop or café.", "examples": [{"german": "Ich hätte gern ein Brötchen.", "english": "I'd like a bread roll.", "highlight": "gern"}]}], "sampleSentences": [{"german": "Ich koche gern, aber ich spüle nicht gern.", "english": "I like cooking, but I don't like washing up.", "highlight": ["gern,", "gern."]}, {"german": "Was machst du gern am Wochenende?", "english": "What do you like doing at the weekend?", "highlight": ["gern"]}, {"german": "Danke! – Gern geschehen.", "english": "Thanks! – You're welcome.", "highlight": ["Gern"]}, {"german": "Ich fahre lieber mit dem Zug.", "english": "I'd rather take the train.", "highlight": ["lieber"]}, {"german": "Am liebsten esse ich Nudeln.", "english": "Pasta is my favourite food.", "highlight": ["liebsten"]}], "quiz": [{"id": "q1", "type": "fill-in-the-blank", "prompt": "Ich ___ gern Musik. (hören)", "answer": "höre", "acceptedAnswers": ["hoere"], "fullAnswer": "Ich höre gern Musik.", "explanation": "The verb comes second, gern follows it."}, {"id": "q2", "type": "fill-in-the-blank", "prompt": "Tee oder Kaffee? Ich trinke ___ Tee. (prefer)", "answer": "lieber", "fullAnswer": "Ich trinke lieber Tee.", "explanation": "Gern, lieber, am liebsten."}, {"id": "q3", "type": "open", "prompt": "Someone says Danke! What do you answer?", "acceptedAnswers": ["Gern geschehen!", "Gerne!", "Bitte!"], "explanation": "Gern geschehen, or just Gerne."}], "forms": ["gerne", "lieber", "am liebsten"], "memoryHook": "Gern = gladly. Do the thing, then add gern: Ich tanze gern. Better is lieber, best is am liebsten.", "signOff": "Gern geschehen!"}, {"schemaVersion": "1.3", "language": "de", "explanationLanguage": "en", "level": "A1", "lessonType": "full", "word": {"headword": "kennen", "partOfSpeech": "verb", "pronunciation": {"respelling": "KEN-en", "ipa": "ˈkɛnən", "notes": "Short e, as in 'ten'."}, "meaning": "to know (a person, place or thing)", "shortDefinition": "To be familiar with someone or something."}, "intro": {"title": "Two ways to know", "paragraphs": ["English has one verb, 'know'. German has two, and they're not interchangeable. Kennen means knowing someone or something because you've met it. Wissen means knowing a fact.", "Ich kenne Anna: I know Anna. Ich weiß, wo Anna wohnt: I know where Anna lives. Getting this right is one of the clearest signs of a learner who's past the first weeks."]}, "etymology": {"title": "Where it comes from", "summary": "Kennen shares an ancient root with English 'know' and 'can'. In Scotland the word survived almost unchanged.", "cognates": [{"word": "ken", "language": "Scots", "note": "I dinnae ken: I don't know"}, {"word": "ken", "language": "English", "note": "'beyond my ken': outside what I know"}, {"word": "kennen", "language": "Dutch", "note": "the same word and meaning"}, {"word": "können", "language": "German", "note": "originally 'to know how'"}], "bonus": {"word": "kennenlernen", "meaning": "to get to know, to meet", "literalMeaning": "to learn to know", "note": "Freut mich, Sie kennenzulernen: pleased to meet you."}}, "tables": [{"title": "kennen and wissen side by side", "intro": "Kennen is regular. Wissen is irregular in the singular.", "columns": ["kennen", "wissen"], "rows": [{"label": "ich", "cells": ["kenn|e", "|weiß"]}, {"label": "du", "cells": ["kenn|st", "|weißt"]}, {"label": "er, sie, es", "cells": ["kenn|t", "|weiß"]}, {"label": "wir", "cells": ["kenn|en", "wiss|en"]}, {"label": "ihr", "cells": ["kenn|t", "wiss|t"]}, {"label": "sie, Sie", "cells": ["kenn|en", "wiss|en"]}], "notes": ["Ich weiß and er weiß are the same, with no -t on er weiß.", "Kennen is followed by a noun. Wissen is usually followed by a clause: dass, wo, wie, wann, ob."]}], "wordFamily": [{"german": "kennenlernen", "english": "to get to know, to meet", "type": "separable verb"}, {"german": "bekannt", "english": "well known, familiar", "type": "adjective"}, {"german": "der/die Bekannte", "english": "acquaintance", "type": "noun"}, {"german": "erkennen", "english": "to recognise", "type": "verb"}, {"german": "wissen", "english": "to know (a fact)", "type": "verb"}], "keyTrap": {"title": "The big trap: kennen or wissen?", "explanation": "Ask yourself: is it a person, place or thing I've met? Use kennen. Is it a fact or the answer to a question? Use wissen.", "wrong": {"german": "Ich kenne, wo er wohnt.", "verdict": "Where he lives is a fact, so it needs wissen."}, "correct": [{"german": "Ich weiß, wo er wohnt.", "literal": "I know where he lives.", "note": "A fact: wissen."}, {"german": "Ich kenne ihn.", "literal": "I know him.", "note": "A person: kennen."}, {"german": "Kennst du Hamburg?", "literal": "Know you Hamburg?", "note": "A place: kennen."}]}, "commonMistakes": [{"title": "Knowing a city", "explanation": "Places are kennen, never wissen.", "wrong": "Ich weiß Berlin gut.", "correct": "Ich kenne Berlin gut."}, {"title": "I don't know", "explanation": "The everyday 'I don't know' is about a fact, so it's wissen.", "wrong": "Ich kenne nicht.", "correct": "Ich weiß nicht."}, {"title": "Meeting someone", "explanation": "For meeting someone for the first time, German uses kennenlernen.", "examples": [{"german": "Wir haben uns im Kurs kennengelernt.", "english": "We met on the course.", "highlight": "kennengelernt."}]}], "sampleSentences": [{"german": "Kennen Sie diesen Mann?", "english": "Do you know this man?", "highlight": ["Kennen"]}, {"german": "Ich kenne ein gutes Restaurant in der Nähe.", "english": "I know a good restaurant nearby.", "highlight": ["kenne"]}, {"german": "Weißt du, wann der Zug kommt?", "english": "Do you know when the train is coming?", "highlight": ["Weißt"]}, {"german": "Das weiß ich leider nicht.", "english": "I'm afraid I don't know.", "highlight": ["weiß"]}, {"german": "Freut mich, Sie kennenzulernen.", "english": "Pleased to meet you.", "highlight": ["kennenzulernen."]}], "quiz": [{"id": "q1", "type": "fill-in-the-blank", "prompt": "___ du meine Schwester? (kennen or wissen?)", "answer": "Kennst", "fullAnswer": "Kennst du meine Schwester?", "explanation": "A person: kennen."}, {"id": "q2", "type": "fill-in-the-blank", "prompt": "Ich ___ nicht, wie spät es ist.", "answer": "weiß", "acceptedAnswers": ["weiss"], "fullAnswer": "Ich weiß nicht, wie spät es ist.", "explanation": "A fact, followed by wie: wissen."}, {"id": "q3", "type": "fill-in-the-blank", "prompt": "Er ___ die Antwort. (wissen)", "answer": "weiß", "acceptedAnswers": ["weiss"], "fullAnswer": "Er weiß die Antwort.", "explanation": "Er weiß, with no -t."}], "forms": ["kenne", "kennst", "kennt", "kannte", "gekannt", "weiß", "weißt", "wusste", "gewusst"], "memoryHook": "Kennen is who and where you've met. Wissen is what you've learned. Ich kenne Anna, ich weiß ihre Nummer.", "signOff": "Jetzt weißt du es!"}, {"schemaVersion": "1.3", "language": "de", "explanationLanguage": "en", "level": "A1", "lessonType": "full", "word": {"headword": "mit", "partOfSpeech": "preposition (always with the dative)", "pronunciation": {"respelling": "MIT", "ipa": "mɪt", "notes": "Short i, exactly like English 'mitt'."}, "meaning": "with; by (for transport)", "shortDefinition": "Says who or what goes together, or how you travel."}, "intro": {"title": "Small word, one strict rule", "paragraphs": ["Mit means 'with', and you'll use it constantly: with friends, with milk, with the bus. The meaning is easy.", "The challenge is the grammar. Mit always takes the dative, every time, no exceptions. Learn the dative endings with mit and you've learned them for a dozen other prepositions too."]}, "etymology": {"title": "Where it comes from", "summary": "Mit is an old Germanic word for 'with'. English used to have it too: it survives in 'midwife', literally the 'with-woman' who stays with the mother.", "cognates": [{"word": "met", "language": "Dutch", "note": "with"}, {"word": "med", "language": "Swedish", "note": "with"}, {"word": "midwife", "language": "English", "note": "the 'with-woman'"}]}, "tables": [{"title": "mit + dative", "intro": "After mit, every article and possessive takes its dative ending.", "columns": ["masculine", "feminine", "neuter", "plural"], "rows": [{"label": "the", "cells": ["mit d|em", "mit d|er", "mit d|em", "mit d|en …n"]}, {"label": "a", "cells": ["mit ein|em", "mit ein|er", "mit ein|em", "mit …n"]}, {"label": "my", "cells": ["mit mein|em", "mit mein|er", "mit mein|em", "mit mein|en …n"]}], "notes": ["In the dative plural the noun itself usually gets an extra -n: mit den Kindern.", "Pronouns change too: mit mir, mit dir, mit ihm, mit ihr, mit uns, mit Ihnen."]}], "wordFamily": [{"german": "mitkommen", "english": "to come along", "type": "separable verb"}, {"german": "mitnehmen", "english": "to take along", "type": "separable verb"}, {"german": "mitbringen", "english": "to bring along", "type": "separable verb"}, {"german": "der Mitarbeiter", "english": "employee, colleague", "literal": "with-worker", "type": "noun"}, {"german": "miteinander", "english": "with each other", "type": "adverb"}], "keyTrap": {"title": "The big trap: forgetting the dative", "explanation": "Learners often use the plain form after mit. It always needs the dative ending.", "wrong": {"german": "Ich gehe mit mein Bruder ins Kino.", "verdict": "Mit takes the dative: meinem."}, "correct": [{"german": "Ich gehe mit meinem Bruder ins Kino.", "literal": "I go with my brother to the cinema.", "note": "Masculine dative: meinem."}, {"german": "Ich gehe mit meiner Schwester ins Kino.", "literal": "I go with my sister to the cinema.", "note": "Feminine dative: meiner."}, {"german": "Kommst du mit uns?", "literal": "Come you with us?", "note": "Pronouns: uns, not wir."}]}, "commonMistakes": [{"title": "Travelling 'by'", "explanation": "English says 'by train'. German says 'with the train', and it needs the article.", "wrong": "Ich fahre mit Zug.", "correct": "Ich fahre mit dem Zug."}, {"title": "On foot is different", "explanation": "Walking isn't mit anything: zu Fuß.", "wrong": "Ich gehe mit den Füßen.", "correct": "Ich gehe zu Fuß."}, {"title": "Coming along", "explanation": "Mit is also a separable prefix. At the end of a question it means 'along'.", "examples": [{"german": "Kommst du mit?", "english": "Are you coming along?", "highlight": "mit?"}]}], "sampleSentences": [{"german": "Ich trinke Kaffee mit Milch.", "english": "I drink coffee with milk.", "highlight": ["mit"]}, {"german": "Sie fährt jeden Tag mit dem Bus.", "english": "She takes the bus every day.", "highlight": ["mit", "dem"]}, {"german": "Darf ich mit Karte zahlen?", "english": "Can I pay by card?", "highlight": ["mit"]}, {"german": "Ich wohne mit zwei Freunden zusammen.", "english": "I live with two friends.", "highlight": ["mit", "Freunden"]}, {"german": "Wir gehen ins Kino. Kommst du mit?", "english": "We're going to the cinema. Are you coming?", "highlight": ["mit?"]}], "quiz": [{"id": "q1", "type": "fill-in-the-blank", "prompt": "Ich fahre mit ___ Fahrrad. (das)", "answer": "dem", "fullAnswer": "Ich fahre mit dem Fahrrad.", "explanation": "Neuter dative: dem."}, {"id": "q2", "type": "fill-in-the-blank", "prompt": "Er spricht mit ___ Lehrerin. (die)", "answer": "der", "fullAnswer": "Er spricht mit der Lehrerin.", "explanation": "Feminine dative: der."}, {"id": "q3", "type": "fill-in-the-blank", "prompt": "Möchtest du mit ___ essen? (I)", "answer": "mir", "fullAnswer": "Möchtest du mit mir essen?", "explanation": "Ich becomes mir in the dative."}], "forms": ["mitkommen", "mitnehmen", "mitbringen"], "memoryHook": "Mit is always with the dative, and the dative is always with mit: mit dem, mit der, mit dem, mit den.", "signOff": "Kommst du mit?"}, {"schemaVersion": "1.3", "language": "de", "explanationLanguage": "en", "level": "A1", "lessonType": "full", "word": {"headword": "Entschuldigung", "partOfSpeech": "noun, feminine (die Entschuldigung)", "pronunciation": {"respelling": "ent-SHOOL-dee-goong", "ipa": "ɛntˈʃʊldɪɡʊŋ", "notes": "Stress schul. The final g is a hard g, as in 'go'."}, "meaning": "excuse me; sorry; an apology", "shortDefinition": "What you say to get past someone, get attention or apologise for something small."}, "intro": {"title": "Your first useful word on the train", "paragraphs": ["The train is packed and you need to get off. You don't need a sentence. One word does the job: Entschuldigung!", "It's long, but it's built from pieces you'll keep meeting. And it has one important limit: it's for small things, not for real sympathy."]}, "etymology": {"title": "Where it comes from", "parts": [{"part": "ent-", "meaning": "away, removing", "note": "As in entfernen, to remove.", "emphasis": "none"}, {"part": "Schuld", "meaning": "guilt, blame; also debt"}, {"part": "-ig", "meaning": "adjective ending", "note": "schuldig: guilty"}, {"part": "-ung", "meaning": "noun ending", "note": "Every -ung noun is feminine."}], "literalMeaning": "an un-guilting", "summary": "When you say Entschuldigung, you're asking someone to take the guilt away from you.", "bonus": {"word": "die Schulden", "meaning": "debts", "note": "The same Schuld in the plural. In German, owing money and owing an apology come from one word."}}, "wordFamily": [{"german": "sich entschuldigen", "english": "to apologise", "type": "reflexive verb"}, {"german": "Entschuldigen Sie!", "english": "Excuse me! (formal)", "type": "phrase"}, {"german": "die Schuld", "english": "guilt, fault", "type": "noun"}, {"german": "schuldig", "english": "guilty", "type": "adjective"}, {"german": "Es tut mir leid.", "english": "I'm sorry.", "type": "phrase"}], "keyTrap": {"title": "The big trap: using it for sympathy", "explanation": "Entschuldigung is for your own small mistakes and for getting attention. When something bad happens to someone else, or you really regret something, German uses Es tut mir leid.", "wrong": {"german": "Entschuldigung, dass dein Hund krank ist.", "verdict": "This sounds like you made the dog sick."}, "correct": [{"german": "Es tut mir leid, dass dein Hund krank ist.", "literal": "It does me sorrow that your dog is ill.", "note": "Sympathy: es tut mir leid."}, {"german": "Entschuldigung, ist hier noch frei?", "literal": "Excuse me, is here still free?", "note": "Getting attention: Entschuldigung."}, {"german": "Entschuldigung, das war mein Fehler.", "literal": "Sorry, that was my mistake.", "note": "A small mistake of your own."}]}, "commonMistakes": [{"title": "Don't forget sich", "explanation": "The verb for apologising is reflexive: you excuse yourself.", "wrong": "Ich entschuldige.", "correct": "Ich entschuldige mich."}, {"title": "The gender", "explanation": "Every noun ending in -ung is feminine.", "wrong": "der Entschuldigung", "correct": "die Entschuldigung"}, {"title": "Apologising for something", "explanation": "To say what you're sorry for, use für.", "examples": [{"german": "Ich entschuldige mich für die Verspätung.", "english": "I apologise for being late.", "highlight": "für"}]}], "sampleSentences": [{"german": "Entschuldigung, wo ist der Bahnhof?", "english": "Excuse me, where is the station?", "highlight": ["Entschuldigung,"]}, {"german": "Entschuldigen Sie bitte, darf ich mal vorbei?", "english": "Excuse me, can I get past?", "highlight": ["Entschuldigen"]}, {"german": "Er hat sich bei ihr entschuldigt.", "english": "He apologised to her.", "highlight": ["entschuldigt."]}, {"german": "Das tut mir wirklich leid.", "english": "I'm really sorry about that.", "highlight": ["tut", "leid."]}, {"german": "Ich brauche eine Entschuldigung für die Schule.", "english": "I need a note excusing me from school.", "highlight": ["Entschuldigung"]}], "quiz": [{"id": "q1", "type": "fill-in-the-blank", "prompt": "Ich entschuldige ___ für den Fehler.", "answer": "mich", "fullAnswer": "Ich entschuldige mich für den Fehler.", "explanation": "Sich entschuldigen is reflexive."}, {"id": "q2", "type": "open", "prompt": "Your colleague tells you her grandmother is in hospital. What do you say?", "acceptedAnswers": ["Das tut mir leid.", "Es tut mir leid."], "explanation": "Sympathy is es tut mir leid, not Entschuldigung."}, {"id": "q3", "type": "fill-in-the-blank", "prompt": "___ Entschuldigung (der, die or das?)", "answer": "die", "fullAnswer": "die Entschuldigung", "explanation": "-ung nouns are always feminine."}], "forms": ["Entschuldigungen", "entschuldigen", "entschuldige", "entschuldigt"], "memoryHook": "Ent + Schuld = guilt away. Use it to get past, get attention or own a small mistake. For real sorrow: es tut mir leid.", "signOff": "Entschuldigung, und danke!"}, {"schemaVersion": "1.3", "language": "de", "explanationLanguage": "en", "level": "A1", "lessonType": "full", "word": {"headword": "Termin", "partOfSpeech": "noun, masculine (der Termin)", "pronunciation": {"respelling": "tair-MEEN", "ipa": "tɛʁˈmiːn", "notes": "Stress the second syllable, unlike English 'term'. Plural: die Termine."}, "meaning": "appointment; fixed date", "shortDefinition": "A booked time with a doctor, an office, a business or a client."}, "intro": {"title": "Life in Germany runs on Termine", "paragraphs": ["Want to see a doctor, register your address or open a bank account? You'll need a Termin. Germans book nearly everything in advance, so this word turns up in your first week.", "It looks like English 'term', but it means appointment. And it's mainly for official or professional appointments, not for meeting friends."]}, "etymology": {"title": "Where it comes from", "summary": "Termin comes from Latin terminus: a boundary stone, an end point. A Termin is a fixed point in time. English took the same Latin word and made 'term', 'terminal' and 'terminate' from it.", "cognates": [{"word": "terminus", "language": "Latin", "note": "boundary, end point"}, {"word": "term", "language": "English", "note": "a fixed period"}, {"word": "terminal", "language": "English", "note": "the end of the line"}]}, "wordFamily": [{"german": "der Arzttermin", "english": "doctor's appointment", "type": "noun"}, {"german": "der Terminkalender", "english": "diary, calendar", "type": "noun"}, {"german": "einen Termin vereinbaren", "english": "to arrange an appointment", "type": "phrase"}, {"german": "die Verabredung", "english": "a date or plan to meet friends", "type": "noun"}, {"german": "das Semester", "english": "term (at university)", "type": "noun"}], "keyTrap": {"title": "The big trap: a Termin with friends", "explanation": "A Termin is a booked, businesslike appointment. Meeting a friend for coffee is a Verabredung, or you can just say you're meeting.", "wrong": {"german": "Ich habe heute einen Termin mit Lisa im Café.", "verdict": "This sounds like a business meeting with Lisa."}, "correct": [{"german": "Ich bin heute mit Lisa verabredet.", "literal": "I am today with Lisa arranged.", "note": "Friends: verabredet sein."}, {"german": "Ich treffe Lisa heute im Café.", "literal": "I meet Lisa today in the café.", "note": "The simplest option."}, {"german": "Ich habe morgen einen Termin beim Zahnarzt.", "literal": "I have tomorrow an appointment at the dentist.", "note": "Doctor, office, business: Termin."}]}, "commonMistakes": [{"title": "It's not a 'term'", "explanation": "For a school or university term, German says Semester or Halbjahr. For a word or concept, it's der Begriff.", "wrong": "das neue Termin an der Uni", "correct": "das neue Semester an der Uni"}, {"title": "At the doctor's", "explanation": "With people and their practices, use bei: beim Arzt, bei der Ärztin.", "wrong": "einen Termin mit dem Arzt", "correct": "einen Termin beim Arzt"}, {"title": "The plural", "explanation": "Add -e.", "forms": [{"label": "One", "value": "der Termin"}, {"label": "More than one", "value": "die Termine"}]}], "sampleSentences": [{"german": "Ich möchte einen Termin machen.", "english": "I'd like to make an appointment.", "highlight": ["Termin"]}, {"german": "Haben Sie morgen Vormittag einen Termin frei?", "english": "Do you have a free appointment tomorrow morning?", "highlight": ["Termin"]}, {"german": "Ich muss meinen Termin leider absagen.", "english": "Unfortunately I have to cancel my appointment.", "highlight": ["Termin"]}, {"german": "Der Termin ist am Montag um zehn Uhr.", "english": "The appointment is on Monday at ten.", "highlight": ["Termin"]}, {"german": "Diese Woche habe ich viele Termine.", "english": "I've got a lot of appointments this week.", "highlight": ["Termine."]}], "quiz": [{"id": "q1", "type": "fill-in-the-blank", "prompt": "Ich habe einen Termin ___ Arzt.", "answer": "beim", "fullAnswer": "Ich habe einen Termin beim Arzt.", "explanation": "bei + dem = beim."}, {"id": "q2", "type": "fill-in-the-blank", "prompt": "Am Freitag habe ich drei ___.", "answer": "Termine", "fullAnswer": "Am Freitag habe ich drei Termine.", "explanation": "The plural adds -e."}, {"id": "q3", "type": "open", "prompt": "How do you say \"I'm meeting Tom for a drink tonight\" without using Termin?", "acceptedAnswers": ["Ich bin heute Abend mit Tom verabredet.", "Ich treffe Tom heute Abend."], "explanation": "Friends: verabredet sein or treffen."}], "forms": ["Termine", "Termins"], "memoryHook": "A Termin is a terminus: a fixed point on the calendar with someone official. Friends get a Verabredung.", "signOff": "Bis zum nächsten Termin!"}, {"schemaVersion": "1.3", "language": "de", "explanationLanguage": "en", "level": "A1", "lessonType": "card", "word": {"headword": "Tisch", "partOfSpeech": "noun, masculine (der Tisch)", "pronunciation": {"respelling": "TISH", "ipa": "tɪʃ", "notes": "Short i. Plural: die Tische."}, "meaning": "table", "shortDefinition": "A table."}, "etymology": {"title": "Where it comes from", "summary": "Tisch, English 'dish', 'desk' and 'disc' all come from Latin discus, a flat round plate. In German the plate grew into the whole table.", "cognates": [{"word": "discus", "language": "Latin", "note": "a flat plate"}, {"word": "dish", "language": "English"}, {"word": "desk", "language": "English"}]}, "commonMistakes": [{"title": "Gender and plural", "explanation": "Der Tisch, plural die Tische.", "forms": [{"label": "One", "value": "der Tisch"}, {"label": "More than one", "value": "die Tische"}]}, {"title": "at the table or on the table", "explanation": "You sit an dem Tisch (am Tisch). Things lie auf dem Tisch.", "examples": [{"german": "Wir sitzen am Tisch.", "english": "We're sitting at the table.", "highlight": "am"}, {"german": "Das Buch liegt auf dem Tisch.", "english": "The book is on the table.", "highlight": "auf"}]}], "sampleSentences": [{"german": "Das Essen steht auf dem Tisch.", "english": "Dinner's on the table.", "highlight": ["Tisch."]}, {"german": "Ich möchte einen Tisch für zwei Personen reservieren.", "english": "I'd like to book a table for two.", "highlight": ["Tisch"]}, {"german": "Bitte deck den Tisch.", "english": "Please lay the table.", "highlight": ["Tisch."]}], "quiz": [{"id": "q1", "type": "fill-in-the-blank", "prompt": "Die Schlüssel liegen ___ dem Tisch. (on)", "answer": "auf", "fullAnswer": "Die Schlüssel liegen auf dem Tisch.", "explanation": "On top of: auf."}], "forms": ["Tische", "Tisches", "Tischen"], "memoryHook": "A Tisch started life as a dish. Same word, bigger furniture.", "signOff": "Guten Appetit!"}, {"schemaVersion": "1.3", "language": "de", "explanationLanguage": "en", "level": "A1", "lessonType": "card", "word": {"headword": "Wohnung", "partOfSpeech": "noun, feminine (die Wohnung)", "pronunciation": {"respelling": "VOH-noong", "ipa": "ˈvoːnʊŋ", "notes": "W sounds like English v. Long o. Plural: die Wohnungen."}, "meaning": "flat, apartment", "shortDefinition": "A flat or apartment."}, "etymology": {"title": "Where it comes from", "parts": [{"part": "wohn-", "meaning": "from wohnen, to live (somewhere)"}, {"part": "-ung", "meaning": "noun ending", "note": "Every -ung noun is feminine."}], "literalMeaning": "a living-place", "summary": "Take the verb wohnen, add -ung, and you get the place where you live."}, "wordFamily": [{"german": "wohnen", "english": "to live (at an address)", "type": "verb"}, {"german": "das Wohnzimmer", "english": "living room", "type": "noun"}, {"german": "die WG (Wohngemeinschaft)", "english": "shared flat", "type": "noun"}, {"german": "das Haus", "english": "house", "type": "noun"}], "commonMistakes": [{"title": "wohnen or leben?", "explanation": "For your address or city, use wohnen. Leben is about being alive or your life in general.", "wrong": "Ich lebe in der Goethestraße 5.", "correct": "Ich wohne in der Goethestraße 5."}, {"title": "Gender and plural", "explanation": "-ung is always feminine, and the plural adds -en.", "forms": [{"label": "One", "value": "die Wohnung"}, {"label": "More than one", "value": "die Wohnungen"}]}], "sampleSentences": [{"german": "Wir suchen eine Wohnung mit zwei Zimmern.", "english": "We're looking for a two-room flat.", "highlight": ["Wohnung"]}, {"german": "Meine Wohnung ist klein, aber hell.", "english": "My flat is small but bright.", "highlight": ["Wohnung"]}, {"german": "Wo wohnst du? – In einer WG in Köln.", "english": "Where do you live? – In a shared flat in Cologne.", "highlight": ["wohnst"]}], "quiz": [{"id": "q1", "type": "fill-in-the-blank", "prompt": "Ich ___ in Hamburg. (wohnen)", "answer": "wohne", "fullAnswer": "Ich wohne in Hamburg.", "explanation": "Your address or city: wohnen."}], "forms": ["Wohnungen", "wohnen", "wohne", "wohnst", "wohnt"], "memoryHook": "Wohnen + -ung = Wohnung, the place where you wohnst.", "signOff": "Willkommen zu Hause!"}]</script>
+<script>
+(function () {
+  "use strict";
+
+  /* tiny element builder */
+  function h(tag, attrs) {
+    var el = document.createElement(tag);
+    if (attrs) for (var k in attrs) {
+      if (attrs[k] == null || attrs[k] === false) continue;
+      if (k === "class") el.className = attrs[k];
+      else if (k === "text") el.textContent = attrs[k];
+      else if (k.slice(0, 2) === "on") el.addEventListener(k.slice(2), attrs[k]);
+      else el.setAttribute(k, attrs[k] === true ? "" : attrs[k]);
+    }
+    for (var i = 2; i < arguments.length; i++) add(el, arguments[i]);
+    return el;
+  }
+  function add(el, c) {
+    if (c == null || c === false) return;
+    if (Array.isArray(c)) { c.forEach(function (x) { add(el, x); }); return; }
+    el.appendChild(typeof c === "string" ? document.createTextNode(c) : c);
+  }
+  function arr(x) { return Array.isArray(x) ? x : []; }
+
+  /* split the headword into the etymology parts: lang + weil + ig */
+  function segments(word, parts) {
+    var lower = word.toLowerCase(), pos = 0, out = [];
+    for (var i = 0; i < parts.length; i++) {
+      var p = String(parts[i].part || "").replace(/^-+|-+$/g, "").toLowerCase();
+      var len = 0;
+      for (var n = p.length; n > 0; n--) {
+        if (lower.substr(pos, n) === p.slice(0, n)) { len = n; break; }
+      }
+      if (!len) return [word];
+      out.push(word.substr(pos, len)); pos += len;
+    }
+    if (pos < word.length) out[out.length - 1] += word.slice(pos);
+    return out;
+  }
+
+  /* mark adjective endings: "ein langweiliger Film" + "er" */
+  function highlightEnding(text, stem, ending) {
+    if (!ending) return text;
+    var re = new RegExp("(" + stem.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + ")(" + ending + ")(?=\\s|$|[.,!?])", "i");
+    var m = text.match(re);
+    if (!m) {
+      /* not an ending: highlight the word itself, e.g. "am" in "die Ankunft am Flughafen" */
+      var w = text.split(/(\s+)/);
+      var at = w.findIndex(function (t) { return t.toLowerCase() === ending.toLowerCase(); });
+      if (at < 0) return text;
+      return [w.slice(0, at).join(""), h("mark", { text: w[at] }), w.slice(at + 1).join("")];
+    }
+    var i = m.index + m[1].length;
+    return [text.slice(0, i), h("mark", { text: m[2] }), text.slice(i + m[2].length)];
+  }
+
+  /* color every form of the headword family inside a German sentence */
+  function inkFamily(text, stems) {
+    if (!stems.length) return text;
+    var re = new RegExp("(\\S*(?:" + stems.join("|") + ")\\S*)", "gi");
+    var out = [], last = 0, m;
+    while ((m = re.exec(text))) {
+      var w = m[1].replace(/[.,!?…]+$/, "");
+      out.push(text.slice(last, m.index), h("span", { class: "hl", text: w }));
+      last = m.index + w.length;
+    }
+    out.push(text.slice(last));
+    return out;
+  }
+
+  /* color exactly the words a sentence lists in "highlight", e.g. kommst … an */
+  function inkWords(text, words) {
+    var want = words.map(function (w) { return w.toLowerCase().replace(/[.,!?…]+$/, ""); });
+    return text.split(/(\s+)/).map(function (tok) {
+      var m = tok.match(/^(.*?)([.,!?…]*)$/);
+      if (want.indexOf(m[1].toLowerCase()) < 0) return tok;
+      return [h("span", { class: "hl", text: m[1] }), m[2]];
+    });
+  }
+
+  function render(L) {
+    var root = document.getElementById("lesson");
+    root.textContent = "";
+    var W = L.word || {};
+    var ety = L.etymology || {};
+    var parts = arr(ety.parts);
+    var head = W.headword || "";
+    document.title = head ? head + " Lesson" : "Vocabulary Lesson";
+
+    var names = { de: "German", en: "English", fr: "French", es: "Spanish" };
+    document.getElementById("pair").textContent =
+      (names[L.language] || "Vocabulary") + " vocabulary" + (L.level ? ", level " + L.level : "") +
+      (L.lessonType === "card" ? ", short card" : "");
+
+    /* hero */
+    var segs = parts.length ? segments(head, parts) : [head];
+    /* which part gets the hero animation: "emphasis" in the JSON, else the middle of three */
+    var fx = segs.map(function () { return ""; });
+    if (segs.length === parts.length) parts.forEach(function (p, i) { if (p.emphasis) fx[i] = p.emphasis; });
+    if (fx.join("") === "" && segs.length >= 3) fx[1] = "stretch";
+    var P = W.pronunciation || {};
+    root.appendChild(h("header", { class: "hero" },
+      W.partOfSpeech && h("p", { class: "pos", text: W.partOfSpeech }),
+      h("h1", { class: "headword", lang: L.language || "de", "aria-label": head },
+        segs.map(function (s, i) { return h("span", { class: "seg" + (/^(stretch|arrive)$/.test(fx[i]) ? " " + fx[i] : ""), "aria-hidden": "true", text: s }); })),
+      W.meaning && h("p", { class: "meaning", text: W.meaning }),
+      (P.respelling || P.ipa) && h("p", { class: "say" },
+        P.respelling && h("span", null, "Say it ", h("b", { text: P.respelling })),
+        P.ipa && h("span", null, "IPA ", h("b", { text: "/" + P.ipa + "/" }))),
+      P.notes && h("p", { class: "say-note", text: P.notes })
+    ));
+
+    var main = h("main");
+    root.appendChild(main);
+
+    /* intro */
+    if (L.intro) main.appendChild(h("section", null,
+      h("h2", { text: L.intro.title }),
+      h("div", { class: "prose" }, arr(L.intro.paragraphs).map(function (p) { return h("p", { text: p }); }))));
+
+    /* forms cycle in the hero: ein → eine → einen … → ein */
+    var cyc = arr(W.cycle);
+    if (cyc.length > 1 && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      var h1 = root.querySelector(".headword");
+      h1.textContent = "";
+      var stemEl = h("span", { class: "seg", "aria-hidden": "true", text: head });
+      var endEl = h("span", { class: "seg ending", "aria-hidden": "true" });
+      h1.appendChild(stemEl); h1.appendChild(endEl);
+      var step = 0;
+      var timer = setInterval(function () {
+        step++;
+        var f = cyc[step] || head;
+        var stem = f.toLowerCase().indexOf(head.toLowerCase()) === 0 ? head : "";
+        stemEl.textContent = stem || f;
+        endEl.textContent = stem ? f.slice(head.length) : "";
+        if (step >= cyc.length - 1) clearInterval(timer);
+      }, 650);
+    }
+
+    /* etymology */
+    if (parts.length || ety.cognates || ety.summary) {
+      var eq = [];
+      parts.forEach(function (p, i) {
+        if (i) eq.push(h("span", { class: "op", "aria-hidden": "true", text: "+" }));
+        eq.push(h("div", { class: "term" },
+          h("span", { class: "word", lang: "de", text: p.part }),
+          h("span", { class: "gloss" }, h("b", { text: p.meaning }), p.note ? ". " + p.note : "")));
+      });
+      var b = ety.bonus;
+      main.appendChild(h("section", null,
+        h("h2", { text: ety.title || "Where it comes from" }),
+        eq.length > 0 && h("div", { class: "equation" }, eq),
+        ety.literalMeaning && h("p", { class: "literal" }, "Put together: ", h("q", { text: ety.literalMeaning }), ety.summary ? ". " + ety.summary : ""),
+        !ety.literalMeaning && ety.summary && h("p", { class: "prose", text: ety.summary }),
+        ety.cognates && h("div", { class: "cognates", "aria-label": "Related words" }, ety.cognates.map(function (c) {
+          return h("div", { class: "cognate" },
+            h("span", { class: "lang", text: c.language }),
+            h("span", { class: "word", text: c.word }),
+            c.note && h("span", { class: "gloss", text: c.note }));
+        })),
+        b && h("div", { class: "aside" },
+          h("h3", null, (b.label || "Bonus word") + ": ", h("span", { class: "de", lang: "de", text: b.word })),
+          h("p", null, h("b", { text: b.meaning }), b.literalMeaning ? ", literally “" + b.literalMeaning + "”. " : ". ", b.note || ""))));
+    }
+
+    /* form tables: a cell "ein|en" shows stem ein with the ending en highlighted */
+    arr(L.tables).forEach(function (t) {
+      var cell = function (v) {
+        var p = String(v).split("|");
+        return p.length > 1 ? [p[0], h("mark", { text: p.slice(1).join("") })] : String(v);
+      };
+      main.appendChild(h("section", null,
+        h("h2", { text: t.title }),
+        t.intro && h("p", { class: "prose", text: t.intro }),
+        h("div", { class: "table-wrap", tabindex: "0", role: "region", "aria-label": "Scrollable vocabulary table" }, h("table", { class: "decl" },
+          h("thead", null, h("tr", null, h("th", { scope: "col" }, ""),
+            arr(t.columns).map(function (c) { return h("th", { scope: "col", text: c }); }))),
+          h("tbody", null, arr(t.rows).map(function (r) {
+            return h("tr", null,
+              h("th", { scope: "row" }, r.label, r.hint && h("span", { text: r.hint })),
+              arr(r.cells).map(function (v) { return h("td", { lang: "de" }, cell(v)); }));
+          })))),
+        arr(t.notes).length > 0 && h("ul", { class: "patterns" }, t.notes.map(function (n) { return h("li", { text: n }); }))));
+    });
+
+    /* word family */
+    var fam = arr(L.wordFamily);
+    if (fam.length) main.appendChild(h("section", null,
+      h("h2", { text: "The word family" }),
+      h("div", { class: "table-wrap", tabindex: "0", role: "region", "aria-label": "Scrollable vocabulary table" }, h("table", null,
+        h("thead", null, h("tr", null, h("th", { scope: "col", text: "German" }), h("th", { scope: "col", text: "Meaning" }), h("th", { scope: "col", text: "Word type" }))),
+        h("tbody", null, fam.map(function (f) {
+          return h("tr", null,
+            h("td", { lang: "de", text: f.german }),
+            h("td", null, f.english, f.literal && h("span", { class: "lit" }, " (literally “" + f.literal + "”)")),
+            h("td", { text: f.type || "" }));
+        }))))));
+
+    /* key trap */
+    var T = L.keyTrap;
+    if (T) main.appendChild(h("section", null,
+      h("h2", { text: T.title }),
+      h("div", { class: "trap" },
+        T.wrong && h("div", { class: "wrong-line" },
+          h("span", { class: "struck", lang: "de", text: T.wrong.german }),
+          h("span", { class: "red-note", text: T.wrong.verdict || ("This means “" + T.wrong.actualMeaning + "”") })),
+        T.explanation && h("p", { text: T.explanation }),
+        h("ul", { class: "right-list", "aria-label": "Correct ways to say it" }, arr(T.correct).map(function (c) {
+          return h("li", null,
+            h("span", { class: "de", lang: "de", text: c.german }),
+            h("span", { class: "note" }, c.literal ? "Literally “" + c.literal + "” " : "", c.note || ""));
+        })))));
+
+    /* common mistakes */
+    var ms = arr(L.commonMistakes);
+    if (ms.length) main.appendChild(h("section", null,
+      h("h2", { text: T ? "Other common slip-ups" : "Good to know" }),
+      h("div", { class: "mistakes" }, ms.map(function (m) {
+        return h("div", { class: "mistake" },
+          h("h3", { text: m.title }),
+          m.explanation && h("p", { text: m.explanation }),
+          (m.wrong || m.correct) && h("p", { class: "fix", lang: "de" },
+            m.wrong && h("span", { class: "x", "aria-label": "Wrong: " + m.wrong, text: m.wrong }),
+            m.correct && h("span", { class: "ok", text: m.correct })),
+          m.examples && h("ul", { class: "examples" }, m.examples.map(function (e) {
+            return h("li", null, h("span", { class: "de", lang: "de" }, highlightEnding(e.german, head, e.highlight)),
+              h("span", { class: "en", text: "  " + e.english }));
+          })),
+          m.forms && h("div", { class: "forms" },
+            (Array.isArray(m.forms) ? m.forms.map(function (f) { return [f.value, f.label]; })
+              : [["positive", "Basic"], ["comparative", "More"], ["superlative", "Most"]].map(function (k) { return [m.forms[k[0]], k[1]]; }))
+            .map(function (k) {
+              return k[0] && h("div", null, h("span", { text: k[1] }), h("b", { lang: "de", text: k[0] }));
+            })));
+      }))));
+
+    /* sample sentences */
+    var ss = arr(L.sampleSentences);
+    if (ss.length) {
+      var stems = [];
+      if (head) stems.push(head.slice(0, Math.max(4, head.length - 2)).replace(/[^\wäöüß]/gi, ""));
+      fam.forEach(function (f) {
+        var w = String(f.german).split(" ").pop().toLowerCase();
+        if (w.length > 5) stems.push(w.slice(0, -2));
+      });
+      stems = stems.filter(function (s, i) { return s && stems.indexOf(s) === i; });
+      var list = h("ul", { class: "sentences" }, ss.map(function (s) {
+        return h("li", { tabindex: "0" },
+          h("span", { class: "de", lang: "de" }, s.highlight ? inkWords(s.german, s.highlight) : inkFamily(s.german, stems)),
+          h("span", { class: "en", text: s.english }));
+      }));
+      var tbtn = h("button", { type: "button", class: "btn", "aria-pressed": "false", onclick: function () {
+        var on = list.classList.toggle("hide-en");
+        tbtn.setAttribute("aria-pressed", String(on));
+        tbtn.textContent = on ? "Show translations" : "Hide translations";
+      } }, "Hide translations");
+      main.appendChild(h("section", null,
+        h("div", { class: "sent-head" }, h("h2", { text: "Sample sentences" }), tbtn),
+        list));
+    }
+
+    /* quiz */
+    var qs = arr(L.quiz);
+    if (qs.length) {
+      var norm = function (s) { return String(s).trim().toLowerCase().replace(/[.!?]+$/, ""); };
+      main.appendChild(h("section", null,
+        h("h2", { text: "Quick check" }),
+        h("ol", { class: "quiz" }, qs.map(function (q, qi) {
+          var id = "q-" + (q.id || qi);
+          var answer = h("div", { class: "answer", id: id + "-answer", hidden: true },
+            arr(q.acceptedAnswers).concat(q.fullAnswer ? [q.fullAnswer] : []).map(function (a) {
+              return h("span", { class: "de", lang: "de", text: a });
+            }),
+            q.explanation && h("span", { class: "note", text: q.explanation }));
+          var showBtn = h("button", { type: "button", class: "btn", "aria-controls": id + "-answer", "aria-expanded": "false", onclick: function () {
+            var open = answer.hidden;
+            answer.hidden = !open;
+            showBtn.setAttribute("aria-expanded", String(open));
+            showBtn.textContent = open ? "Hide answer" : "Show answer";
+          } }, "Show answer");
+          var body = h("div", { class: "body" }, h("p", { text: q.prompt }));
+          if (q.type === "fill-in-the-blank") {
+            var input = h("input", { id: id + "-input", type: "text", autocomplete: "off", spellcheck: "false", "aria-label": "Your answer" });
+            var fb = h("p", { class: "feedback", "aria-live": "polite" });
+            var check = function () {
+              if (!input.value.trim()) { fb.className = "feedback bad"; fb.textContent = "Type the missing ending first."; return; }
+              var ok = [q.answer, q.fullAnswer].concat(arr(q.acceptedAnswers)).filter(Boolean).map(norm);
+              if (ok.indexOf(norm(input.value)) >= 0) {
+                fb.className = "feedback good"; fb.textContent = "Richtig! " + (q.fullAnswer || "");
+              } else {
+                fb.className = "feedback bad"; fb.textContent = "Not quite. Try again, or show the answer.";
+              }
+            };
+            input.addEventListener("keydown", function (e) { if (e.key === "Enter") check(); });
+            body.appendChild(h("div", { class: "row" }, input, h("button", { type: "button", class: "btn primary", onclick: check }, "Check"), showBtn));
+            body.appendChild(fb);
+          } else {
+            body.appendChild(h("div", { class: "row" }, showBtn));
+          }
+          body.appendChild(answer);
+          return h("li", null, body);
+        }))));
+    }
+
+    /* memory hook */
+    if (L.memoryHook || L.signOff) main.appendChild(h("footer", { class: "hook" },
+      L.memoryHook && h("h2", { text: "Remember it" }),
+      L.memoryHook && h("p", { class: "big", text: L.memoryHook }),
+      L.signOff && h("p", { class: "signoff", lang: "de", text: L.signOff })));
+
+    document.getElementById("json-view").textContent = JSON.stringify(L, null, 2);
+  }
+
+  var errBox = document.getElementById("error");
+  function showError(msg) { errBox.textContent = msg; errBox.hidden = !msg; }
+
+  /* several lessons: a picker, routed on the URL hash (#anrufen) */
+  var lessons = [];
+  function slugOf(L) {
+    return String(L.word.headword).toLowerCase().replace(/ä/g, "ae").replace(/ö/g, "oe").replace(/ü/g, "ue")
+      .replace(/ß/g, "ss").replace(/[^a-z0-9-]+/g, "-");
+  }
+  function showFromHash() {
+    var want = location.hash.slice(1);
+    var L = lessons.filter(function (x) { return slugOf(x) === want; })[0] || lessons[0];
+    render(L);
+    var links = document.querySelectorAll("#picker a");
+    for (var i = 0; i < links.length; i++) {
+      if (links[i].getAttribute("href") === "#" + slugOf(L)) links[i].setAttribute("aria-current", "page");
+      else links[i].removeAttribute("aria-current");
+      if (links[i].hasAttribute("aria-current") && window.matchMedia("(max-width: 40rem)").matches) {
+        links[i].parentElement.scrollLeft = Math.max(0, links[i].offsetLeft - links[i].parentElement.offsetLeft - 8);
+      }
+    }
+  }
+  window.addEventListener("hashchange", function () { if (lessons.length > 1) { showFromHash(); window.scrollTo(0, 0); } });
+
+  function load(text, source) {
+    var data;
+    try { data = JSON.parse(text); }
+    catch (e) { showError(source + " isn't valid JSON: " + e.message + ". Fix the file and open it again."); return; }
+    var list = Array.isArray(data) ? data : [data];
+    var bad = list.filter(function (x) { return !x || !x.word || !x.word.headword; });
+    if (!list.length || bad.length) {
+      showError(source + " has a lesson without word.headword, so it can't be shown. Check it follows the lesson schema.");
+      return;
+    }
+    showError("");
+    lessons = list;
+    var nav = document.getElementById("picker");
+    nav.textContent = "";
+    nav.hidden = list.length < 2;
+    list.forEach(function (x) {
+      nav.appendChild(h("a", { href: "#" + slugOf(x), class: x.lessonType === "card" ? "card-word" : null, text: x.word.headword }));
+    });
+    showFromHash();
+  }
+
+  load(document.getElementById("lesson-data").textContent, "The built-in lesson");
+
+  document.getElementById("file").addEventListener("change", function (e) {
+    var f = e.target.files && e.target.files[0];
+    if (!f) return;
+    var r = new FileReader();
+    r.onload = function () { load(String(r.result), f.name); window.scrollTo(0, 0); };
+    r.onerror = function () { showError(f.name + " couldn't be read. Try opening it again."); };
+    r.readAsText(f);
+    e.target.value = "";
+  });
+
+  var jbtn = document.getElementById("toggle-json"), jv = document.getElementById("json-view");
+  jbtn.addEventListener("click", function () {
+    var open = jv.hidden;
+    jv.hidden = !open;
+    jbtn.setAttribute("aria-expanded", String(open));
+    jbtn.textContent = open ? "Hide JSON" : "Show JSON";
+  });
+})();
+</script>
+</body>
+</html>

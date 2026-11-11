@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Schrank",
+    "partOfSpeech": "noun, masculine (der Schrank)",
+    "pronunciation": {
+      "respelling": "SHRANK",
+      "ipa": "ʃʁaŋk",
+      "notes": "Plural: die Schränke."
+    },
+    "meaning": "cupboard, wardrobe",
+    "shortDefinition": "Cupboard, wardrobe."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Schrank, plural die Schränke.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Schrank"
+        },
+        {
+          "label": "More than one",
+          "value": "die Schränke"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Gläser stehen im Schrank.",
+      "english": "The glasses are in the cupboard.",
+      "highlight": [
+        "Schrank."
+      ]
+    },
+    {
+      "german": "Mein Kleiderschrank ist voll.",
+      "english": "My wardrobe is full.",
+      "highlight": [
+        "Kleiderschrank"
+      ]
+    },
+    {
+      "german": "Wir brauchen einen neuen Küchenschrank.",
+      "english": "We need a new kitchen cupboard.",
+      "highlight": [
+        "Küchenschrank."
+      ]
+    }
+  ],
+  "forms": [
+    "Schränke",
+    "die Schränke",
+    "der Schrank"
+  ],
+  "memoryHook": "Der Schrank: any cupboard. Kühlschrank = fridge, Kleiderschrank = wardrobe.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Schrank",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Schrank is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Schrank, zwei ___",
+      "answer": "Schränke",
+      "fullAnswer": "ein Schrank, zwei Schränke",
+      "explanation": "The plural is Schränke.",
+      "acceptedAnswers": [
+        "Schraenke"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Schrank mean?",
+      "options": [
+        "to travel",
+        "cupboard",
+        "the car"
+      ],
+      "answer": "cupboard",
+      "explanation": "Schrank: cupboard, wardrobe.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "A wardrobe is…",
+      "options": [
+        "ein Kleiderschrank",
+        "ein Kleidschrank"
+      ],
+      "answer": "ein Kleiderschrank",
+      "explanation": "Kleider + Schrank.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "A fridge is…",
+      "options": [
+        "ein Kühlschrank",
+        "ein Kaltschrank"
+      ],
+      "answer": "ein Kühlschrank",
+      "explanation": "Cool cupboard.",
+      "id": "q5"
+    }
+  ]
+}

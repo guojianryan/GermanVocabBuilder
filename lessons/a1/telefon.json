@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Telefon",
+    "partOfSpeech": "noun, neuter (das Telefon)",
+    "pronunciation": {
+      "respelling": "te-le-FOHN",
+      "ipa": "teleˈfoːn",
+      "notes": "Plural: die Telefone."
+    },
+    "meaning": "telephone",
+    "shortDefinition": "Telephone."
+  },
+  "wordFamily": [
+    {
+      "german": "telefonieren",
+      "english": "to phone",
+      "type": "verb"
+    },
+    {
+      "german": "das Handy",
+      "english": "mobile phone",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Telefon, plural die Telefone.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Telefon"
+        },
+        {
+          "label": "More than one",
+          "value": "die Telefone"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Haben Sie Telefon?",
+      "english": "Do you have a phone?",
+      "highlight": [
+        "Telefon?"
+      ]
+    },
+    {
+      "german": "Das Telefon klingelt.",
+      "english": "The phone's ringing.",
+      "highlight": [
+        "Telefon"
+      ]
+    },
+    {
+      "german": "Wie ist Ihre Telefonnummer?",
+      "english": "What's your phone number?",
+      "highlight": [
+        "Telefonnummer?"
+      ]
+    }
+  ],
+  "forms": [
+    "Telefone",
+    "die Telefone",
+    "das Telefon"
+  ],
+  "memoryHook": "Das Telefon, telefonieren, die Telefonnummer.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Telefon",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Telefon is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Telefon, zwei ___",
+      "answer": "Telefone",
+      "fullAnswer": "ein Telefon, zwei Telefone",
+      "explanation": "The plural is Telefone.",
+      "acceptedAnswers": [
+        "Telefone"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Telefon mean?",
+      "options": [
+        "the evening",
+        "telephone",
+        "always"
+      ],
+      "answer": "telephone",
+      "explanation": "Telefon: telephone.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "The verb is…",
+      "options": [
+        "telefonieren",
+        "telefonen"
+      ],
+      "answer": "telefonieren",
+      "explanation": "-ieren.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Phone number':",
+      "options": [
+        "die Telefonnummer",
+        "die Telefonzahl"
+      ],
+      "answer": "die Telefonnummer",
+      "explanation": "Nummer.",
+      "id": "q5"
+    }
+  ]
+}

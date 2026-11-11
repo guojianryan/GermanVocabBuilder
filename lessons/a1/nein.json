@@ -1,0 +1,115 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "nein",
+    "partOfSpeech": "particle",
+    "pronunciation": {
+      "respelling": "NINE",
+      "ipa": "naɪ̯n",
+      "notes": ""
+    },
+    "meaning": "no",
+    "shortDefinition": "No."
+  },
+  "wordFamily": [
+    {
+      "german": "ja",
+      "english": "yes",
+      "type": "particle"
+    },
+    {
+      "german": "doch",
+      "english": "yes (contradicting)",
+      "type": "particle"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Nein, danke.",
+      "english": "No, thank you.",
+      "highlight": [
+        "Nein,"
+      ]
+    },
+    {
+      "german": "Kommst du? – Nein, ich habe keine Zeit.",
+      "english": "Are you coming? – No, I don't have time.",
+      "highlight": [
+        "Nein,"
+      ]
+    },
+    {
+      "german": "Nein, das stimmt nicht.",
+      "english": "No, that's not right.",
+      "highlight": [
+        "Nein,"
+      ]
+    }
+  ],
+  "forms": [],
+  "memoryHook": "Nein = no (sounds like English 'nine'). The number nine is neun.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does nein mean?",
+      "options": [
+        "the key",
+        "the family",
+        "no"
+      ],
+      "answer": "no",
+      "explanation": "nein: no.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "The opposite of nein is…",
+      "options": [
+        "ja",
+        "doch"
+      ],
+      "answer": "ja",
+      "explanation": "Ja: yes.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Nein sounds like…",
+      "options": [
+        "English 'nine'",
+        "English 'neon'"
+      ],
+      "answer": "English 'nine'",
+      "explanation": "Not neun (9)!",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Nein, danke' means…",
+      "options": [
+        "No, thank you",
+        "Nine, thanks"
+      ],
+      "answer": "No, thank you",
+      "explanation": "Polite no.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Nine (the number) is…",
+      "options": [
+        "neun",
+        "nein"
+      ],
+      "answer": "neun",
+      "explanation": "Neun = 9.",
+      "id": "q5"
+    }
+  ]
+}

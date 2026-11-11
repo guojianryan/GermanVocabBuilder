@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Satz",
+    "partOfSpeech": "noun, masculine (der Satz)",
+    "pronunciation": {
+      "respelling": "ZATS",
+      "ipa": "zats",
+      "notes": "Plural: die Sätze."
+    },
+    "meaning": "sentence",
+    "shortDefinition": "Sentence."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Satz, plural die Sätze.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Satz"
+        },
+        {
+          "label": "More than one",
+          "value": "die Sätze"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Lesen Sie den Satz laut.",
+      "english": "Read the sentence aloud.",
+      "highlight": [
+        "Satz"
+      ]
+    },
+    {
+      "german": "Schreiben Sie drei Sätze.",
+      "english": "Write three sentences.",
+      "highlight": [
+        "Sätze."
+      ]
+    },
+    {
+      "german": "Den Satz verstehe ich nicht.",
+      "english": "I don't understand this sentence.",
+      "highlight": [
+        "Satz"
+      ]
+    }
+  ],
+  "forms": [
+    "Sätze",
+    "die Sätze",
+    "der Satz"
+  ],
+  "memoryHook": "Der Satz = sentence, plural Sätze. Remember: verb in position two.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Satz",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Satz is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Satz, zwei ___",
+      "answer": "Sätze",
+      "fullAnswer": "ein Satz, zwei Sätze",
+      "explanation": "The plural is Sätze.",
+      "acceptedAnswers": [
+        "Saetze"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Satz mean?",
+      "options": [
+        "the bread",
+        "sentence",
+        "always"
+      ],
+      "answer": "sentence",
+      "explanation": "Satz: sentence.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "In German sentences, the verb is usually…",
+      "options": [
+        "in second position",
+        "at the start"
+      ],
+      "answer": "in second position",
+      "explanation": "Main clauses.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Sätze",
+        "Satze"
+      ],
+      "answer": "Sätze",
+      "explanation": "Umlaut + e.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "senden",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "ZEN-den",
+      "ipa": "ˈzɛndn̩",
+      "notes": ""
+    },
+    "meaning": "to send; to broadcast",
+    "shortDefinition": "To send; to broadcast."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "send|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "send|est"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "send|et"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "send|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "send|et"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "send|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gesendet"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "der Sender",
+      "english": "station, channel",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich sende Ihnen die Unterlagen.",
+      "english": "I'll send you the documents.",
+      "highlight": [
+        "sende"
+      ]
+    },
+    {
+      "german": "Das Spiel wird live gesendet.",
+      "english": "The match is broadcast live.",
+      "highlight": [
+        "gesendet."
+      ]
+    },
+    {
+      "german": "Bitte senden Sie uns eine E-Mail.",
+      "english": "Please send us an email.",
+      "highlight": [
+        "senden"
+      ]
+    }
+  ],
+  "forms": [
+    "gesandt"
+  ],
+  "memoryHook": "Senden = schicken (formal); broadcast.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (senden)",
+      "answer": "sendet",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: sendet.",
+      "acceptedAnswers": [
+        "sendet"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (senden, past)",
+      "answer": "gesendet",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gesendet.",
+      "acceptedAnswers": [
+        "gesendet"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does senden mean?",
+      "options": [
+        "always",
+        "the bread",
+        "to send"
+      ],
+      "answer": "to send",
+      "explanation": "senden: to send; to broadcast.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt (send a letter, formal):",
+      "options": [
+        "hat gesandt / gesendet",
+        "hat gesendt"
+      ],
+      "answer": "hat gesandt / gesendet",
+      "explanation": "Both; broadcast = gesendet.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Everyday synonym:",
+      "options": [
+        "schicken",
+        "bringen"
+      ],
+      "answer": "schicken",
+      "explanation": "Send.",
+      "id": "q5"
+    }
+  ]
+}

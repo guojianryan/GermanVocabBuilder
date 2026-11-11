@@ -1,0 +1,148 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Aufgabe",
+    "partOfSpeech": "noun, feminine (die Aufgabe)",
+    "pronunciation": {
+      "respelling": "OWF-gah-buh",
+      "ipa": "ˈaʊ̯fˌɡaːbə",
+      "notes": "Plural: die Aufgaben."
+    },
+    "meaning": "task, exercise",
+    "shortDefinition": "Task, exercise."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Auf",
+        "meaning": "up, on"
+      },
+      {
+        "part": "gabe",
+        "meaning": "gift, something given",
+        "note": "From geben."
+      }
+    ],
+    "literalMeaning": "something given (to do)"
+  },
+  "wordFamily": [
+    {
+      "german": "die Hausaufgabe",
+      "english": "homework",
+      "type": "noun"
+    },
+    {
+      "german": "geben",
+      "english": "to give",
+      "type": "verb"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Aufgabe, plural die Aufgaben.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Aufgabe"
+        },
+        {
+          "label": "More than one",
+          "value": "die Aufgaben"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das ist eine schwere Aufgabe.",
+      "english": "That's a difficult task.",
+      "highlight": [
+        "Aufgabe."
+      ]
+    },
+    {
+      "german": "Lesen Sie die Aufgabe genau.",
+      "english": "Read the exercise carefully.",
+      "highlight": [
+        "Aufgabe"
+      ]
+    },
+    {
+      "german": "Hast du deine Hausaufgaben gemacht?",
+      "english": "Have you done your homework?",
+      "highlight": [
+        "Hausaufgaben"
+      ]
+    }
+  ],
+  "forms": [
+    "Aufgaben",
+    "die Aufgaben",
+    "die Aufgabe"
+  ],
+  "memoryHook": "Aufgabe = what's been 'given up' to you to do: a task. Hausaufgabe = a home task, homework.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Aufgabe",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Aufgabe is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Aufgabe, zwei ___",
+      "answer": "Aufgaben",
+      "fullAnswer": "ein Aufgabe, zwei Aufgaben",
+      "explanation": "The plural is Aufgaben.",
+      "acceptedAnswers": [
+        "Aufgaben"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Aufgabe mean?",
+      "options": [
+        "task",
+        "the bread",
+        "the job"
+      ],
+      "answer": "task",
+      "explanation": "Aufgabe: task, exercise.",
+      "id": "q3"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Die Kinder machen ihre Haus___. (homework)",
+      "answer": "aufgaben",
+      "fullAnswer": "Die Kinder machen ihre Hausaufgaben.",
+      "explanation": "Haus + Aufgaben.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "In a test, 'Aufgabe 3' means…",
+      "options": [
+        "exercise 3",
+        "page 3"
+      ],
+      "answer": "exercise 3",
+      "explanation": "Aufgabe: task, exercise.",
+      "id": "q5"
+    }
+  ]
+}

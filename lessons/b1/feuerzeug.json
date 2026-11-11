@@ -1,0 +1,138 @@
+{
+ "schemaVersion": "1.4",
+ "language": "de",
+ "explanationLanguage": "en",
+ "level": "B1",
+ "levelSource": "Goethe-Zertifikat B1 Wortliste",
+ "lessonType": "card",
+ "word": {
+  "headword": "Feuerzeug",
+  "partOfSpeech": "noun, neuter (das Feuerzeug)",
+  "pronunciation": {
+   "respelling": "FOY-er-tsoyk",
+   "ipa": "ˈfɔɪ̯ɐtsɔɪ̯k",
+   "notes": "Plural: die Feuerzeuge."
+  },
+  "meaning": "lighter",
+  "shortDefinition": "Lighter."
+ },
+ "commonMistakes": [
+  {
+   "title": "Gender and plural",
+   "explanation": "Das Feuerzeug, plural die Feuerzeuge.",
+   "forms": [
+    {
+     "label": "One",
+     "value": "das Feuerzeug"
+    },
+    {
+     "label": "More than one",
+     "value": "die Feuerzeuge"
+    }
+   ]
+  }
+ ],
+ "sampleSentences": [
+  {
+   "german": "Hast du ein Feuerzeug?",
+   "english": "Have you got a lighter?",
+   "highlight": [
+    "Feuerzeug?"
+   ]
+  },
+  {
+   "german": "Das Feuerzeug ist leer.",
+   "english": "The lighter is empty.",
+   "highlight": [
+    "Feuerzeug"
+   ]
+  },
+  {
+   "german": "Ich zünde die Kerze mit dem Feuerzeug an.",
+   "english": "I light the candle with the lighter.",
+   "highlight": [
+    "Feuerzeug"
+   ]
+  }
+ ],
+ "forms": [
+  "Feuerzeuge",
+  "die Feuerzeuge",
+  "das Feuerzeug"
+ ],
+ "memoryHook": "Feuer + Zeug = fire thing = lighter.",
+ "signOff": "Gut gemacht!",
+ "quiz": [
+  {
+   "type": "choice",
+   "prompt": "___ Feuerzeug",
+   "options": [
+    "der",
+    "die",
+    "das"
+   ],
+   "answer": "das",
+   "explanation": "Feuerzeug is neuter.",
+   "id": "q1"
+  },
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "ein Feuerzeug, zwei ___",
+   "answer": "Feuerzeuge",
+   "fullAnswer": "ein Feuerzeug, zwei Feuerzeuge",
+   "explanation": "The plural is Feuerzeuge.",
+   "acceptedAnswers": [
+    "Feuerzeuge"
+   ],
+   "id": "q2"
+  },
+  {
+   "type": "choice",
+   "prompt": "What does Feuerzeug mean?",
+   "options": [
+    "lighter",
+    "expensive",
+    "the door"
+   ],
+   "answer": "lighter",
+   "explanation": "Feuerzeug: lighter.",
+   "id": "q3"
+  },
+  {
+   "type": "choice",
+   "prompt": "Built from…",
+   "options": [
+    "Feuer + Zeug",
+    "Feuer + Zeuge"
+   ],
+   "answer": "Feuer + Zeug",
+   "explanation": "Fire thing.",
+   "id": "q4"
+  },
+  {
+   "type": "choice",
+   "prompt": "'Haben Sie Feuer?' means…",
+   "options": [
+    "Have you got a light?",
+    "Is there a fire?"
+   ],
+   "answer": "Have you got a light?",
+   "explanation": "Smokers.",
+   "id": "q5"
+  }
+ ],
+ "etymology": {
+  "title": "Where it comes from",
+  "parts": [
+   {
+    "part": "Feuer",
+    "meaning": "fire"
+   },
+   {
+    "part": "zeug",
+    "meaning": "thing, gear"
+   }
+  ],
+  "literalMeaning": "fire thing"
+ }
+}

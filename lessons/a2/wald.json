@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Wald",
+    "partOfSpeech": "noun, masculine (der Wald)",
+    "pronunciation": {
+      "respelling": "VALT",
+      "ipa": "valt",
+      "notes": "Plural: die Wälder."
+    },
+    "meaning": "forest, wood",
+    "shortDefinition": "Forest, wood."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Wald, plural die Wälder.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Wald"
+        },
+        {
+          "label": "More than one",
+          "value": "die Wälder"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir gehen im Wald spazieren.",
+      "english": "We're going for a walk in the woods.",
+      "highlight": [
+        "Wald"
+      ]
+    },
+    {
+      "german": "Der Schwarzwald ist im Südwesten.",
+      "english": "The Black Forest is in the south-west.",
+      "highlight": [
+        "Schwarzwald"
+      ]
+    },
+    {
+      "german": "Im Wald ist es kühl.",
+      "english": "It's cool in the forest.",
+      "highlight": [
+        "Wald"
+      ]
+    }
+  ],
+  "forms": [
+    "Wälder",
+    "die Wälder",
+    "der Wald"
+  ],
+  "memoryHook": "Der Wald, die Wälder. Der Schwarzwald = Black Forest.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Wald",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Wald is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Wald, zwei ___",
+      "answer": "Wälder",
+      "fullAnswer": "ein Wald, zwei Wälder",
+      "explanation": "The plural is Wälder.",
+      "acceptedAnswers": [
+        "Waelder"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Wald mean?",
+      "options": [
+        "the weather",
+        "to sing",
+        "forest"
+      ],
+      "answer": "forest",
+      "explanation": "Wald: forest, wood.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'In the forest':",
+      "options": [
+        "im Wald",
+        "am Wald"
+      ],
+      "answer": "im Wald",
+      "explanation": "Im.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Wälder",
+        "Walde"
+      ],
+      "answer": "Wälder",
+      "explanation": "a → ä + er.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Geruch",
+    "partOfSpeech": "noun, masculine (der Geruch)",
+    "pronunciation": {
+      "respelling": "ge-ROOKH",
+      "ipa": "ɡəˈʁʊx",
+      "notes": "Plural: die Gerüche."
+    },
+    "meaning": "smell",
+    "shortDefinition": "Smell."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Ge",
+        "meaning": "prefix"
+      },
+      {
+        "part": "ruch",
+        "meaning": "smell (riechen)"
+      }
+    ],
+    "literalMeaning": "a smelling"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Geruch, plural die Gerüche.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Geruch"
+        },
+        {
+          "label": "More than one",
+          "value": "die Gerüche"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Was ist das für ein Geruch?",
+      "english": "What's that smell?",
+      "highlight": [
+        "Geruch?"
+      ]
+    },
+    {
+      "german": "Ich mag den Geruch von Kaffee.",
+      "english": "I like the smell of coffee.",
+      "highlight": [
+        "Geruch"
+      ]
+    },
+    {
+      "german": "Hunde haben einen guten Geruchssinn.",
+      "english": "Dogs have a good sense of smell.",
+      "highlight": [
+        "Geruchssinn."
+      ]
+    }
+  ],
+  "forms": [
+    "Gerüche",
+    "die Gerüche",
+    "der Geruch"
+  ],
+  "memoryHook": "Riechen → der Geruch.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Geruch",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Geruch is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Geruch, zwei ___",
+      "answer": "Gerüche",
+      "fullAnswer": "ein Geruch, zwei Gerüche",
+      "explanation": "The plural is Gerüche.",
+      "acceptedAnswers": [
+        "Gerueche"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Geruch mean?",
+      "options": [
+        "the window",
+        "quiet",
+        "smell"
+      ],
+      "answer": "smell",
+      "explanation": "Geruch: smell.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "riechen (smell)",
+        "rufen"
+      ],
+      "answer": "riechen (smell)",
+      "explanation": "Smell.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Gerüche",
+        "Geruche"
+      ],
+      "answer": "Gerüche",
+      "explanation": "Umlaut.",
+      "id": "q5"
+    }
+  ]
+}

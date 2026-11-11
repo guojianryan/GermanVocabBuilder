@@ -1,0 +1,139 @@
+{
+ "schemaVersion": "1.4",
+ "language": "de",
+ "explanationLanguage": "en",
+ "level": "A1",
+ "levelSource": "Goethe-Zertifikat A1 Wortliste",
+ "lessonType": "card",
+ "word": {
+  "headword": "Mädchen",
+  "partOfSpeech": "noun, neuter (das Mädchen)",
+  "pronunciation": {
+   "respelling": "MAYT-khen",
+   "ipa": "ˈmɛːtçən",
+   "notes": "The plural looks the same. Plural: die Mädchen."
+  },
+  "meaning": "girl",
+  "shortDefinition": "Girl."
+ },
+ "etymology": {
+  "title": "Where it comes from",
+  "parts": [
+   {
+    "part": "Mäd",
+    "meaning": "maid (Magd)"
+   },
+   {
+    "part": "chen",
+    "meaning": "little (diminutive)"
+   }
+  ],
+  "literalMeaning": "little maid",
+  "summary": "From Magd (maid) + -chen (small). Originally 'little maid', which is why it's neuter."
+ },
+ "commonMistakes": [
+  {
+   "title": "Gender and plural",
+   "explanation": "Das Mädchen, plural die Mädchen.",
+   "forms": [
+    {
+     "label": "One",
+     "value": "das Mädchen"
+    },
+    {
+     "label": "More than one",
+     "value": "die Mädchen"
+    }
+   ]
+  }
+ ],
+ "sampleSentences": [
+  {
+   "german": "Das Mädchen heißt Lina.",
+   "english": "The girl's name is Lina.",
+   "highlight": [
+    "Mädchen"
+   ]
+  },
+  {
+   "german": "In der Klasse sind zwölf Mädchen.",
+   "english": "There are twelve girls in the class.",
+   "highlight": [
+    "Mädchen."
+   ]
+  },
+  {
+   "german": "Ist es ein Junge oder ein Mädchen?",
+   "english": "Is it a boy or a girl?",
+   "highlight": [
+    "Mädchen?"
+   ]
+  }
+ ],
+ "forms": [
+  "Mädchen",
+  "die Mädchen",
+  "das Mädchen"
+ ],
+ "memoryHook": "Das Mädchen: neuter because of -chen (originally 'little maid').",
+ "signOff": "Gut gemacht!",
+ "quiz": [
+  {
+   "type": "choice",
+   "prompt": "___ Mädchen",
+   "options": [
+    "der",
+    "die",
+    "das"
+   ],
+   "answer": "das",
+   "explanation": "Mädchen is neuter.",
+   "id": "q1"
+  },
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "ein Mädchen, zwei ___",
+   "answer": "Mädchen",
+   "fullAnswer": "ein Mädchen, zwei Mädchen",
+   "explanation": "The plural is Mädchen.",
+   "acceptedAnswers": [
+    "Maedchen"
+   ],
+   "id": "q2"
+  },
+  {
+   "type": "choice",
+   "prompt": "What does Mädchen mean?",
+   "options": [
+    "the bed",
+    "girl",
+    "the weather"
+   ],
+   "answer": "girl",
+   "explanation": "Mädchen: girl.",
+   "id": "q3"
+  },
+  {
+   "type": "choice",
+   "prompt": "Why is Mädchen neuter?",
+   "options": [
+    "Because of -chen",
+    "Because girls are neuter"
+   ],
+   "answer": "Because of -chen",
+   "explanation": "All -chen nouns are neuter.",
+   "id": "q4"
+  },
+  {
+   "type": "choice",
+   "prompt": "Das Mädchen ist nett. ___ ist 10.",
+   "options": [
+    "Es",
+    "Sie"
+   ],
+   "answer": "Sie",
+   "explanation": "In practice, most people say sie for a girl.",
+   "id": "q5"
+  }
+ ]
+}

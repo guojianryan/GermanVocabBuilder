@@ -1,0 +1,222 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "full",
+  "word": {
+    "headword": "nehmen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "NAY-men",
+      "ipa": "ˈneːmən",
+      "notes": "Long e."
+    },
+    "meaning": "to take; (when ordering) to have",
+    "shortDefinition": "To take, choose or order."
+  },
+  "intro": {
+    "title": "Ich nehme den Fisch",
+    "paragraphs": [
+      "Nehmen = take, and the way to order or choose: Ich nehme den Fisch (I'll have the fish). It's irregular: du nimmst, er nimmt, hat genommen."
+    ]
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "nehm|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "n|imm|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "n|imm|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "nehm|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "nehm|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "nehm|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Du nimmst, er nimmt. Past: hat genommen."
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "mitnehmen",
+      "english": "to take along",
+      "type": "separable verb"
+    },
+    {
+      "german": "teilnehmen",
+      "english": "to take part",
+      "type": "separable verb"
+    },
+    {
+      "german": "Platz nehmen",
+      "english": "to take a seat",
+      "type": "phrase"
+    }
+  ],
+  "keyTrap": {
+    "title": "The big trap: nimmst and nimmt",
+    "explanation": "The du and er forms change completely: eh → imm.",
+    "wrong": {
+      "german": "Er nehmt den Bus.",
+      "verdict": "Er nimmt."
+    },
+    "correct": [
+      {
+        "german": "Er nimmt den Bus.",
+        "literal": "He takes the bus.",
+        "note": "Er nimmt."
+      },
+      {
+        "german": "Nimmst du Zucker?",
+        "literal": "Take you sugar?",
+        "note": "Du nimmst."
+      }
+    ]
+  },
+  "commonMistakes": [
+    {
+      "title": "Ordering",
+      "explanation": "Ich nehme … is the normal way to order.",
+      "examples": [
+        {
+          "german": "Ich nehme die Suppe.",
+          "english": "I'll have the soup.",
+          "highlight": "nehme"
+        }
+      ]
+    },
+    {
+      "title": "Command",
+      "explanation": "Du-command: nimm!",
+      "wrong": "Nehme das!",
+      "correct": "Nimm das!"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich nehme ein Wasser, bitte.",
+      "english": "I'll have a water, please.",
+      "highlight": [
+        "nehme"
+      ]
+    },
+    {
+      "german": "Wir nehmen ein Taxi.",
+      "english": "We'll take a taxi.",
+      "highlight": [
+        "nehmen"
+      ]
+    },
+    {
+      "german": "Nehmen Sie bitte Platz.",
+      "english": "Please take a seat.",
+      "highlight": [
+        "Nehmen"
+      ]
+    },
+    {
+      "german": "Hast du meinen Schlüssel genommen?",
+      "english": "Did you take my key?",
+      "highlight": [
+        "genommen?"
+      ]
+    }
+  ],
+  "forms": [
+    "nehme",
+    "nimmst",
+    "nimmt",
+    "nehmt",
+    "genommen",
+    "nahm",
+    "nimm"
+  ],
+  "memoryHook": "Nehmen: du nimmst, er nimmt, nimm! Ordering: Ich nehme …",
+  "signOff": "Nimm dir eine Pause!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Er ___ den Zug. (nehmen)",
+      "answer": "nimmt",
+      "fullAnswer": "Er nimmt den Zug.",
+      "explanation": "Er nimmt.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Du ___ Milch, oder?",
+      "options": [
+        "nehmst",
+        "nimmst"
+      ],
+      "answer": "nimmst",
+      "explanation": "Du nimmst.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ordering in a restaurant:",
+      "options": [
+        "Ich nehme das Schnitzel.",
+        "Ich will das Schnitzel."
+      ],
+      "answer": "Ich nehme das Schnitzel.",
+      "explanation": "Polite and normal.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Command to a friend: '___ das Buch!'",
+      "options": [
+        "Nimm",
+        "Nehme"
+      ],
+      "answer": "Nimm",
+      "explanation": "Nimm!",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe den Bus ___. (taken)",
+      "answer": "genommen",
+      "fullAnswer": "Ich habe den Bus genommen.",
+      "explanation": "Genommen.",
+      "id": "q5"
+    }
+  ]
+}

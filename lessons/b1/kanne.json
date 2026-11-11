@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Kanne",
+    "partOfSpeech": "noun, feminine (die Kanne)",
+    "pronunciation": {
+      "respelling": "KAN-e",
+      "ipa": "ˈkanə",
+      "notes": "Plural: die Kannen."
+    },
+    "meaning": "pot, jug",
+    "shortDefinition": "Pot, jug."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Kanne, plural die Kannen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Kanne"
+        },
+        {
+          "label": "More than one",
+          "value": "die Kannen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Eine Kanne Tee, bitte.",
+      "english": "A pot of tea, please.",
+      "highlight": [
+        "Kanne"
+      ]
+    },
+    {
+      "german": "Die Kaffeekanne ist leer.",
+      "english": "The coffee pot is empty.",
+      "highlight": [
+        "Kaffeekanne"
+      ]
+    },
+    {
+      "german": "Ich gieße die Blumen mit der Gießkanne.",
+      "english": "I water the flowers with the watering can.",
+      "highlight": [
+        "Gießkanne."
+      ]
+    }
+  ],
+  "forms": [
+    "Kannen",
+    "die Kannen",
+    "die Kanne"
+  ],
+  "memoryHook": "Die Kanne: Kaffeekanne, Teekanne, Gießkanne.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Kanne",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Kanne is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Kanne, zwei ___",
+      "answer": "Kannen",
+      "fullAnswer": "ein Kanne, zwei Kannen",
+      "explanation": "The plural is Kannen.",
+      "acceptedAnswers": [
+        "Kannen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Kanne mean?",
+      "options": [
+        "pot",
+        "to sing",
+        "the weather"
+      ],
+      "answer": "pot",
+      "explanation": "Kanne: pot, jug.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Watering can:",
+      "options": [
+        "die Gießkanne",
+        "die Wasserkanne only"
+      ],
+      "answer": "die Gießkanne",
+      "explanation": "Gießen.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Eine Kanne Kaffee' means…",
+      "options": [
+        "a pot of coffee",
+        "a can of coffee"
+      ],
+      "answer": "a pot of coffee",
+      "explanation": "Pot.",
+      "id": "q5"
+    }
+  ]
+}

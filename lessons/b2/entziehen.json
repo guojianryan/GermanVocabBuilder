@@ -1,0 +1,181 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "entziehen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "ent-TSEE-en",
+      "ipa": "ɛntˈtsiːən",
+      "notes": ""
+    },
+    "meaning": "to take away, withdraw; (sich ~) to evade",
+    "shortDefinition": "To take away, withdraw; (sich ~) to evade."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "ent",
+        "meaning": "away"
+      },
+      {
+        "part": "ziehen",
+        "meaning": "to pull",
+        "emphasis": "release"
+      }
+    ],
+    "literalMeaning": "to pull away",
+    "summary": "Taken out of reach."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "entzieh|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "entzieh|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "entzieh|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "entzieh|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "entzieh|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "entzieh|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat entzogen"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ihm wurde der Führerschein entzogen.",
+      "english": "His driving licence was revoked.",
+      "highlight": [
+        "entzogen."
+      ]
+    },
+    {
+      "german": "Er entzieht sich der Verantwortung.",
+      "english": "He's evading responsibility.",
+      "highlight": [
+        "entzieht"
+      ]
+    },
+    {
+      "german": "Das entzieht sich meiner Kenntnis.",
+      "english": "I have no knowledge of that.",
+      "highlight": [
+        "entzieht"
+      ]
+    }
+  ],
+  "forms": [
+    "Entzug"
+  ],
+  "memoryHook": "Entziehen (+ Dat.) = withdraw; sich entziehen; der Entzug.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (entziehen)",
+      "answer": "entzieht",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: entzieht.",
+      "acceptedAnswers": [
+        "entzieht"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (entziehen, past)",
+      "answer": "entzogen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe entzogen.",
+      "acceptedAnswers": [
+        "entzogen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does entziehen mean?",
+      "options": [
+        "cheap",
+        "tomorrow",
+        "to take away"
+      ],
+      "answer": "to take away",
+      "explanation": "entziehen: to take away, withdraw; (sich ~) to evade.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Structure:",
+      "options": [
+        "jemandem etwas entziehen",
+        "jemanden etwas entziehen"
+      ],
+      "answer": "jemandem etwas entziehen",
+      "explanation": "Dative.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Noun (withdrawal, rehab):",
+      "options": [
+        "der Entzug",
+        "die Entziehung only"
+      ],
+      "answer": "der Entzug",
+      "explanation": "Withdrawal.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "hat entzogen",
+        "hat entziehet"
+      ],
+      "answer": "hat entzogen",
+      "explanation": "Strong.",
+      "id": "q6"
+    }
+  ]
+}

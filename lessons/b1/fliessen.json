@@ -1,0 +1,170 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "fließen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "FLEE-sen",
+      "ipa": "ˈfliːsn̩",
+      "notes": ""
+    },
+    "meaning": "to flow",
+    "shortDefinition": "To flow."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "fließ|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "fließ|t"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "fließ|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "fließ|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "fließ|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "fließ|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): ist geflossen"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "der Fluss",
+      "english": "river",
+      "type": "noun"
+    },
+    {
+      "german": "fließend",
+      "english": "fluent",
+      "type": "adjective"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Rhein fließt durch Köln.",
+      "english": "The Rhine flows through Cologne.",
+      "highlight": [
+        "fließt"
+      ]
+    },
+    {
+      "german": "Das Wasser fließt ins Meer.",
+      "english": "The water flows into the sea.",
+      "highlight": [
+        "fließt"
+      ]
+    },
+    {
+      "german": "Hier fließt kein Strom.",
+      "english": "There's no power flowing here.",
+      "highlight": [
+        "fließt"
+      ]
+    }
+  ],
+  "forms": [
+    "fließe",
+    "fließt",
+    "fließen",
+    "geflossen",
+    "floss"
+  ],
+  "memoryHook": "Fließen, floss, geflossen. Der Fluss = river.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (fließen)",
+      "answer": "fließt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: fließt.",
+      "acceptedAnswers": [
+        "fliesst"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich bin schon ___. (fließen, past)",
+      "answer": "geflossen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: bin geflossen.",
+      "acceptedAnswers": [
+        "geflossen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does fließen mean?",
+      "options": [
+        "to flow",
+        "the street",
+        "the child"
+      ],
+      "answer": "to flow",
+      "explanation": "fließen: to flow.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Past forms:",
+      "options": [
+        "floss, ist geflossen",
+        "fließte, hat gefließt"
+      ],
+      "answer": "floss, ist geflossen",
+      "explanation": "Irregular.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Running water:",
+      "options": [
+        "fließendes Wasser",
+        "laufendes Wasser only"
+      ],
+      "answer": "fließendes Wasser",
+      "explanation": "Fließend.",
+      "id": "q5"
+    }
+  ]
+}

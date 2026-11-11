@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Dolmetscher",
+    "partOfSpeech": "noun, masculine (der Dolmetscher)",
+    "pronunciation": {
+      "respelling": "DOL-met-sher",
+      "ipa": "ˈdɔlmɛtʃɐ",
+      "notes": "The plural looks the same. Plural: die Dolmetscher."
+    },
+    "meaning": "interpreter",
+    "shortDefinition": "Interpreter."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Dolmetscher, plural die Dolmetscher.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Dolmetscher"
+        },
+        {
+          "label": "More than one",
+          "value": "die Dolmetscher"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir brauchen einen Dolmetscher.",
+      "english": "We need an interpreter.",
+      "highlight": [
+        "Dolmetscher."
+      ]
+    },
+    {
+      "german": "Sie arbeitet als Dolmetscherin.",
+      "english": "She works as an interpreter.",
+      "highlight": [
+        "Dolmetscherin."
+      ]
+    },
+    {
+      "german": "Der Dolmetscher übersetzt simultan.",
+      "english": "The interpreter translates simultaneously.",
+      "highlight": [
+        "Dolmetscher"
+      ]
+    }
+  ],
+  "forms": [
+    "Dolmetscherin",
+    "dolmetschen"
+  ],
+  "memoryHook": "Der Dolmetscher (spoken); der Übersetzer (written).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Dolmetscher",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Dolmetscher is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Dolmetscher, zwei ___",
+      "answer": "Dolmetscher",
+      "fullAnswer": "ein Dolmetscher, zwei Dolmetscher",
+      "explanation": "The plural is Dolmetscher.",
+      "acceptedAnswers": [
+        "Dolmetscher"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Dolmetscher mean?",
+      "options": [
+        "hot",
+        "to wait",
+        "interpreter"
+      ],
+      "answer": "interpreter",
+      "explanation": "Dolmetscher: interpreter.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Dolmetscher vs Übersetzer:",
+      "options": [
+        "spoken vs written",
+        "same"
+      ],
+      "answer": "spoken vs written",
+      "explanation": "Interpreter vs translator.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Verb:",
+      "options": [
+        "dolmetschen",
+        "dolmetschern"
+      ],
+      "answer": "dolmetschen",
+      "explanation": "Interpret.",
+      "id": "q5"
+    }
+  ]
+}

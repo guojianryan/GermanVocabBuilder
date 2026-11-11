@@ -1,0 +1,213 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "group",
+  "word": {
+    "headword": "Wochentage",
+    "partOfSpeech": "word group: days of the week",
+    "pronunciation": {
+      "respelling": "VOKH-en-taa-ge",
+      "ipa": "ˈvɔxənˌtaːɡə",
+      "notes": ""
+    },
+    "meaning": "the days of the week",
+    "shortDefinition": "The days of the week."
+  },
+  "members": [
+    {
+      "german": "der Montag",
+      "english": "Monday",
+      "note": "Moon day."
+    },
+    {
+      "german": "der Dienstag",
+      "english": "Tuesday"
+    },
+    {
+      "german": "der Mittwoch",
+      "english": "Wednesday",
+      "note": "'Midweek': the only day without -tag."
+    },
+    {
+      "german": "der Donnerstag",
+      "english": "Thursday",
+      "note": "Thunder day: Thor."
+    },
+    {
+      "german": "der Freitag",
+      "english": "Friday"
+    },
+    {
+      "german": "der Samstag",
+      "english": "Saturday",
+      "note": "In the north also Sonnabend."
+    },
+    {
+      "german": "der Sonntag",
+      "english": "Sunday"
+    },
+    {
+      "german": "der Wochentag",
+      "english": "weekday",
+      "plural": "Wochentage"
+    },
+    {
+      "german": "das Wochenende",
+      "english": "weekend"
+    },
+    {
+      "german": "montags",
+      "english": "on Mondays",
+      "note": "Lower case + s = every Monday."
+    },
+    {
+      "german": "der Arbeitstag",
+      "english": "working day",
+      "plural": "Arbeitstage"
+    },
+    {
+      "german": "der Feiertag",
+      "english": "public holiday",
+      "plural": "Feiertage"
+    }
+  ],
+  "intro": {
+    "title": "Am Montag",
+    "paragraphs": [
+      "All seven days are masculine, and all but Mittwoch end in -tag. To say 'on Monday' use am: am Montag, am Freitag.",
+      "Add an -s and write it small and you get a habit: montags means 'on Mondays', every week. The week in Germany starts on Monday."
+    ]
+  },
+  "sampleSentences": [
+    {
+      "german": "Am Montag habe ich einen Termin.",
+      "english": "I have an appointment on Monday.",
+      "highlight": [
+        "Am",
+        "Montag"
+      ]
+    },
+    {
+      "german": "Samstags gehe ich auf den Markt.",
+      "english": "On Saturdays I go to the market.",
+      "highlight": [
+        "Samstags"
+      ]
+    },
+    {
+      "german": "Der Laden ist sonntags geschlossen.",
+      "english": "The shop is closed on Sundays.",
+      "highlight": [
+        "sonntags"
+      ]
+    }
+  ],
+  "forms": [
+    "der Montag",
+    "Montag",
+    "der Dienstag",
+    "Dienstag",
+    "der Mittwoch",
+    "Mittwoch",
+    "der Donnerstag",
+    "Donnerstag",
+    "der Freitag",
+    "Freitag",
+    "der Samstag",
+    "Samstag",
+    "der Sonntag",
+    "Sonntag",
+    "der Wochentag",
+    "Wochentag",
+    "Wochentage",
+    "das Wochenende",
+    "Wochenende",
+    "montags",
+    "der Arbeitstag",
+    "Arbeitstag",
+    "Arbeitstage",
+    "der Feiertag",
+    "Feiertag",
+    "Feiertage",
+    "Sonnabend",
+    "dienstags",
+    "mittwochs",
+    "donnerstags",
+    "freitags",
+    "samstags",
+    "sonntags",
+    "Werktag"
+  ],
+  "memoryHook": "All days are der, all take am, and Mittwoch is literally 'mid-week'.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "'On Friday' is…",
+      "options": [
+        "am Freitag",
+        "im Freitag",
+        "an Freitag"
+      ],
+      "answer": "am Freitag",
+      "explanation": "Days take am.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "___ Mittwoch",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "All days are masculine.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Every Sunday' (as a habit):",
+      "options": [
+        "sonntags",
+        "Sonntags am"
+      ],
+      "answer": "sonntags",
+      "explanation": "Small letter + s.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Which day doesn't end in -tag?",
+      "options": [
+        "Mittwoch",
+        "Donnerstag"
+      ],
+      "answer": "Mittwoch",
+      "explanation": "Mitt-woch = midweek.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Was machst du ___ Wochenende?",
+      "answer": "am",
+      "fullAnswer": "Was machst du am Wochenende?",
+      "explanation": "Am Wochenende.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Another word for Samstag (north Germany):",
+      "options": [
+        "Sonnabend",
+        "Sonntag"
+      ],
+      "answer": "Sonnabend",
+      "explanation": "Sunday eve.",
+      "id": "q6"
+    }
+  ]
+}

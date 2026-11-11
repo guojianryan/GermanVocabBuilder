@@ -1,0 +1,230 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "full",
+  "word": {
+    "headword": "dürfen",
+    "partOfSpeech": "modal verb",
+    "pronunciation": {
+      "respelling": "DUER-fen",
+      "ipa": "ˈdʏʁfn̩",
+      "notes": "Ü: say 'ee' with rounded lips."
+    },
+    "meaning": "may, to be allowed to",
+    "shortDefinition": "Says something is permitted."
+  },
+  "intro": {
+    "title": "Darf ich?",
+    "paragraphs": [
+      "Dürfen is about permission: Darf ich hier rauchen? (May I smoke here?). Like all modal verbs, it pushes the main verb to the end of the sentence. And nicht dürfen means 'must not', which surprises English speakers."
+    ]
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "|darf"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "|darfst"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "|darf"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "dürf|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "dürf|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "dürf|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Ich and er have the same form, with no ending: ich darf, er darf.",
+        "Singular forms lose the umlaut: darf, not dürf."
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "müssen",
+      "english": "must, to have to",
+      "type": "modal verb"
+    },
+    {
+      "german": "können",
+      "english": "can",
+      "type": "modal verb"
+    },
+    {
+      "german": "verboten",
+      "english": "forbidden",
+      "type": "adjective"
+    },
+    {
+      "german": "erlauben",
+      "english": "to allow",
+      "type": "verb"
+    }
+  ],
+  "keyTrap": {
+    "title": "The big trap: nicht dürfen vs nicht müssen",
+    "explanation": "Nicht dürfen = must not (forbidden). Nicht müssen = don't have to (optional).",
+    "wrong": {
+      "german": "Du musst hier nicht rauchen.",
+      "verdict": "This means smoking is optional, not forbidden."
+    },
+    "correct": [
+      {
+        "german": "Du darfst hier nicht rauchen.",
+        "literal": "You may here not smoke.",
+        "note": "Forbidden: nicht dürfen."
+      },
+      {
+        "german": "Du musst nicht kommen.",
+        "literal": "You must not come.",
+        "note": "Optional: nicht müssen = don't have to."
+      }
+    ]
+  },
+  "commonMistakes": [
+    {
+      "title": "Main verb at the end",
+      "explanation": "The second verb goes to the end, in the infinitive.",
+      "wrong": "Darf ich rauchen hier?",
+      "correct": "Darf ich hier rauchen?"
+    },
+    {
+      "title": "Polite offers",
+      "explanation": "Darf ich …? is the polite way to offer or ask.",
+      "examples": [
+        {
+          "german": "Was darf es sein?",
+          "english": "What can I get you?",
+          "highlight": "darf"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Darf ich das Fenster öffnen?",
+      "english": "May I open the window?",
+      "highlight": [
+        "Darf"
+      ]
+    },
+    {
+      "german": "Hier darf man nicht parken.",
+      "english": "You're not allowed to park here.",
+      "highlight": [
+        "darf"
+      ]
+    },
+    {
+      "german": "Kinder dürfen hier spielen.",
+      "english": "Children are allowed to play here.",
+      "highlight": [
+        "dürfen"
+      ]
+    },
+    {
+      "german": "Was darf es sein?",
+      "english": "What would you like?",
+      "highlight": [
+        "darf"
+      ]
+    }
+  ],
+  "forms": [
+    "darf",
+    "darfst",
+    "dürft",
+    "durfte",
+    "durften",
+    "gedurft"
+  ],
+  "memoryHook": "Dürfen = permission. Nicht dürfen = forbidden. Nicht müssen = no need.",
+  "signOff": "Darf ich gratulieren? Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "___ ich hier sitzen? (May)",
+      "answer": "Darf",
+      "fullAnswer": "Darf ich hier sitzen?",
+      "explanation": "Ich darf.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "In the museum you ___ nicht fotografieren. (forbidden)",
+      "options": [
+        "darfst",
+        "musst"
+      ],
+      "answer": "darfst",
+      "explanation": "Forbidden: nicht dürfen.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Morgen ist Sonntag, du ___ nicht früh aufstehen. (no need)",
+      "options": [
+        "darfst",
+        "musst"
+      ],
+      "answer": "musst",
+      "explanation": "No need: nicht müssen.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Er ___ heute länger bleiben.",
+      "options": [
+        "darf",
+        "darft"
+      ],
+      "answer": "darf",
+      "explanation": "Er darf, no -t.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "Darf ich hier parken?",
+        "Darf ich parken hier?"
+      ],
+      "answer": "Darf ich hier parken?",
+      "explanation": "Main verb at the end.",
+      "id": "q5"
+    }
+  ]
+}

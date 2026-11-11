@@ -1,0 +1,121 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "infolge",
+    "partOfSpeech": "preposition",
+    "pronunciation": {
+      "respelling": "in-FOL-ge",
+      "ipa": "ɪnˈfɔlɡə",
+      "notes": ""
+    },
+    "meaning": "as a result of",
+    "shortDefinition": "As a result of."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "in",
+        "meaning": "in"
+      },
+      {
+        "part": "folge",
+        "meaning": "consequence"
+      }
+    ],
+    "literalMeaning": "in consequence (of)"
+  },
+  "sampleSentences": [
+    {
+      "german": "Infolge des Sturms fiel der Strom aus.",
+      "english": "As a result of the storm the power went out.",
+      "highlight": [
+        "Infolge"
+      ]
+    },
+    {
+      "german": "Er starb infolge eines Unfalls.",
+      "english": "He died as a result of an accident.",
+      "highlight": [
+        "infolge"
+      ]
+    },
+    {
+      "german": "Infolgedessen wurde er entlassen.",
+      "english": "Consequently he was dismissed.",
+      "highlight": [
+        "Infolgedessen"
+      ]
+    }
+  ],
+  "forms": [
+    "infolgedessen",
+    "Folge"
+  ],
+  "memoryHook": "Infolge + Gen. = as a result of; infolgedessen.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does infolge mean?",
+      "options": [
+        "as a result of",
+        "to sleep",
+        "the bill"
+      ],
+      "answer": "as a result of",
+      "explanation": "infolge: as a result of.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Case:",
+      "options": [
+        "genitive",
+        "dative"
+      ],
+      "answer": "genitive",
+      "explanation": "Genitive.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Infolgedessen' means…",
+      "options": [
+        "consequently",
+        "in addition"
+      ],
+      "answer": "consequently",
+      "explanation": "Therefore.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonym:",
+      "options": [
+        "wegen, aufgrund",
+        "trotz"
+      ],
+      "answer": "wegen, aufgrund",
+      "explanation": "Because of.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "___ des Regens fiel das Spiel aus. (as a result of)",
+      "answer": "Infolge",
+      "fullAnswer": "Infolge des Regens fiel das Spiel aus.",
+      "explanation": "Infolge.",
+      "acceptedAnswers": [
+        "Wegen",
+        "Aufgrund"
+      ],
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Abonnement",
+    "partOfSpeech": "noun, neuter (das Abonnement)",
+    "pronunciation": {
+      "respelling": "a-bon-e-MAHNG",
+      "ipa": "abɔnəˈmɑ̃ː",
+      "notes": "Plural: die Abonnements."
+    },
+    "meaning": "subscription",
+    "shortDefinition": "Subscription."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Abonnement, plural die Abonnements.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Abonnement"
+        },
+        {
+          "label": "More than one",
+          "value": "die Abonnements"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich habe ein Abonnement für das Theater.",
+      "english": "I have a theatre subscription.",
+      "highlight": [
+        "Abonnement"
+      ]
+    },
+    {
+      "german": "Das Abo kostet 10 Euro im Monat.",
+      "english": "The subscription costs 10 euros a month.",
+      "highlight": [
+        "Abo"
+      ]
+    },
+    {
+      "german": "Ich kündige mein Abonnement.",
+      "english": "I'm cancelling my subscription.",
+      "highlight": [
+        "Abonnement."
+      ]
+    }
+  ],
+  "forms": [
+    "Abo",
+    "Abos"
+  ],
+  "memoryHook": "Das Abonnement = das Abo. Kündigen to cancel.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Abonnement",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Abonnement is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Abonnement, zwei ___",
+      "answer": "Abonnements",
+      "fullAnswer": "ein Abonnement, zwei Abonnements",
+      "explanation": "The plural is Abonnements.",
+      "acceptedAnswers": [
+        "Abonnements"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Abonnement mean?",
+      "options": [
+        "the weather",
+        "hot",
+        "subscription"
+      ],
+      "answer": "subscription",
+      "explanation": "Abonnement: subscription.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Short form:",
+      "options": [
+        "das Abo",
+        "das Abon"
+      ],
+      "answer": "das Abo",
+      "explanation": "Very common.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Cancel a subscription:",
+      "options": [
+        "ein Abo kündigen",
+        "ein Abo absagen"
+      ],
+      "answer": "ein Abo kündigen",
+      "explanation": "Kündigen.",
+      "id": "q5"
+    }
+  ]
+}

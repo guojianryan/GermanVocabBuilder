@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Annonce",
+    "partOfSpeech": "noun, feminine (die Annonce)",
+    "pronunciation": {
+      "respelling": "a-NONG-se",
+      "ipa": "aˈnɔ̃ːsə",
+      "notes": "Plural: die Annoncen."
+    },
+    "meaning": "advert (in a paper)",
+    "shortDefinition": "Advert (in a paper)."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Annonce, plural die Annoncen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Annonce"
+        },
+        {
+          "label": "More than one",
+          "value": "die Annoncen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich habe eine Annonce in der Zeitung gelesen.",
+      "english": "I read an ad in the paper.",
+      "highlight": [
+        "Annonce"
+      ]
+    },
+    {
+      "german": "Wir geben eine Annonce auf.",
+      "english": "We're placing an ad.",
+      "highlight": [
+        "Annonce"
+      ]
+    },
+    {
+      "german": "Die Annonce war sehr kurz.",
+      "english": "The ad was very short.",
+      "highlight": [
+        "Annonce"
+      ]
+    }
+  ],
+  "forms": [
+    "Anzeige",
+    "Inserat"
+  ],
+  "memoryHook": "Die Annonce (French) = die Anzeige.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Annonce",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Annonce is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Annonce, zwei ___",
+      "answer": "Annoncen",
+      "fullAnswer": "ein Annonce, zwei Annoncen",
+      "explanation": "The plural is Annoncen.",
+      "acceptedAnswers": [
+        "Annoncen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Annonce mean?",
+      "options": [
+        "to travel",
+        "advert (in a paper)",
+        "always"
+      ],
+      "answer": "advert (in a paper)",
+      "explanation": "Annonce: advert (in a paper).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonyms:",
+      "options": [
+        "Anzeige, Inserat",
+        "Ansage"
+      ],
+      "answer": "Anzeige, Inserat",
+      "explanation": "Ad.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Pronounced…",
+      "options": [
+        "French: a-NONG-se",
+        "AN-ons"
+      ],
+      "answer": "French: a-NONG-se",
+      "explanation": "French word.",
+      "id": "q5"
+    }
+  ]
+}

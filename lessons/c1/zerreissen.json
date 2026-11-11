@@ -1,0 +1,182 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "zerreißen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "tser-RYE-sen",
+      "ipa": "tsɛɐ̯ˈʁaɪ̯sn̩",
+      "notes": ""
+    },
+    "meaning": "to tear up, tear to pieces",
+    "shortDefinition": "To tear up, tear to pieces."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "zer",
+        "meaning": "to pieces"
+      },
+      {
+        "part": "reißen",
+        "meaning": "to tear",
+        "emphasis": "release"
+      }
+    ],
+    "literalMeaning": "to tear apart",
+    "summary": "Ripped into pieces."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "zerreiß|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "zerreiß|t"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "zerreiß|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "zerreiß|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "zerreiß|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "zerreiß|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat zerrissen"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Sie zerriss den Brief.",
+      "english": "She tore up the letter.",
+      "highlight": [
+        "zerriss"
+      ]
+    },
+    {
+      "german": "Die Hose ist zerrissen.",
+      "english": "The trousers are torn.",
+      "highlight": [
+        "zerrissen."
+      ]
+    },
+    {
+      "german": "Ich bin innerlich zerrissen.",
+      "english": "I'm torn inside.",
+      "highlight": [
+        "zerrissen."
+      ]
+    }
+  ],
+  "forms": [
+    "zerrissen",
+    "reißen"
+  ],
+  "memoryHook": "Zer + reißen = tear to pieces; zerrissen.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (zerreißen)",
+      "answer": "zerreißt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: zerreißt.",
+      "acceptedAnswers": [
+        "zerreisst"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (zerreißen, past)",
+      "answer": "zerrissen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe zerrissen.",
+      "acceptedAnswers": [
+        "zerrissen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does zerreißen mean?",
+      "options": [
+        "cheap",
+        "to tear up",
+        "never"
+      ],
+      "answer": "to tear up",
+      "explanation": "zerreißen: to tear up, tear to pieces.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Innerlich zerrissen' means…",
+      "options": [
+        "torn, conflicted",
+        "injured"
+      ],
+      "answer": "torn, conflicted",
+      "explanation": "Conflicted.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "hat zerrissen",
+        "hat zerreißt"
+      ],
+      "answer": "hat zerrissen",
+      "explanation": "Strong.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Zer- means…",
+      "options": [
+        "to pieces",
+        "again"
+      ],
+      "answer": "to pieces",
+      "explanation": "Apart.",
+      "id": "q6"
+    }
+  ]
+}

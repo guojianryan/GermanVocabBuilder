@@ -1,0 +1,157 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Momente A2.2 Kursbuch Glossar",
+  "lessonType": "card",
+  "word": {
+    "headword": "pflanzen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "PFLAN-tsen",
+      "ipa": "ˈpflantsn̩",
+      "notes": ""
+    },
+    "meaning": "to plant",
+    "shortDefinition": "To plant."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "pflanz|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "pflanz|t"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "pflanz|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "pflanz|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "pflanz|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "pflanz|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gepflanzt"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir pflanzen einen Baum.",
+      "english": "We're planting a tree.",
+      "highlight": [
+        "pflanzen"
+      ]
+    },
+    {
+      "german": "Im Frühling pflanze ich Blumen.",
+      "english": "In spring I plant flowers.",
+      "highlight": [
+        "pflanze"
+      ]
+    },
+    {
+      "german": "Sie hat Tomaten gepflanzt.",
+      "english": "She's planted tomatoes.",
+      "highlight": [
+        "gepflanzt."
+      ]
+    }
+  ],
+  "forms": [
+    "pflanze",
+    "pflanzt",
+    "pflanzen",
+    "gepflanzt"
+  ],
+  "memoryHook": "Die Pflanze → pflanzen.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (pflanzen)",
+      "answer": "pflanzt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: pflanzt.",
+      "acceptedAnswers": [
+        "pflanzt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (pflanzen, past)",
+      "answer": "gepflanzt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gepflanzt.",
+      "acceptedAnswers": [
+        "gepflanzt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does pflanzen mean?",
+      "options": [
+        "to plant",
+        "to travel",
+        "to sleep"
+      ],
+      "answer": "to plant",
+      "explanation": "pflanzen: to plant.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Noun:",
+      "options": [
+        "die Pflanze",
+        "der Pflanz"
+      ],
+      "answer": "die Pflanze",
+      "explanation": "Plant.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "du ___ (pflanzen):",
+      "options": [
+        "pflanzt",
+        "pflanzst"
+      ],
+      "answer": "pflanzt",
+      "explanation": "z-stem: just -t.",
+      "id": "q5"
+    }
+  ]
+}

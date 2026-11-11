@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "angehören",
+    "partOfSpeech": "separable verb",
+    "pronunciation": {
+      "respelling": "AN-ge-hö-ren",
+      "ipa": "ˈanɡəˌhøːʁən",
+      "notes": ""
+    },
+    "meaning": "to belong to, be a member of",
+    "shortDefinition": "To belong to, be a member of."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "an",
+        "meaning": "to"
+      },
+      {
+        "part": "gehören",
+        "meaning": "to belong"
+      }
+    ],
+    "literalMeaning": "to belong to"
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "gehör|e … |an"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "gehör|st … |an"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "gehör|t … |an"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "gehör|en … |an"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "gehör|t … |an"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "gehör|en … |an"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat angehört"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er gehört der Partei seit 20 Jahren an.",
+      "english": "He's been a party member for 20 years.",
+      "highlight": [
+        "gehört",
+        "an."
+      ]
+    },
+    {
+      "german": "Das gehört der Vergangenheit an.",
+      "english": "That's a thing of the past.",
+      "highlight": [
+        "gehört",
+        "an."
+      ]
+    },
+    {
+      "german": "Sie gehört einer Minderheit an.",
+      "english": "She belongs to a minority.",
+      "highlight": [
+        "gehört",
+        "an."
+      ]
+    }
+  ],
+  "forms": [
+    "Angehörige",
+    "gehören"
+  ],
+  "memoryHook": "Angehören (+ Dat.) = belong to; die Angehörigen = relatives.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ … an (angehören)",
+      "answer": "gehört",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: gehört … an.",
+      "acceptedAnswers": [
+        "gehoert"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (angehören, past)",
+      "answer": "angehört",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe angehört.",
+      "acceptedAnswers": [
+        "angehoert"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does angehören mean?",
+      "options": [
+        "to belong to",
+        "the family",
+        "to learn"
+      ],
+      "answer": "to belong to",
+      "explanation": "angehören: to belong to, be a member of.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Takes…",
+      "options": [
+        "dative (einer Gruppe angehören)",
+        "accusative"
+      ],
+      "answer": "dative (einer Gruppe angehören)",
+      "explanation": "Dative.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Der Vergangenheit angehören' means…",
+      "options": [
+        "to be a thing of the past",
+        "to hear the past"
+      ],
+      "answer": "to be a thing of the past",
+      "explanation": "Idiom.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Relative (family member):",
+      "options": [
+        "der/die Angehörige",
+        "der Angehörer"
+      ],
+      "answer": "der/die Angehörige",
+      "explanation": "Next of kin.",
+      "id": "q6"
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Papier",
+    "partOfSpeech": "noun, neuter (das Papier)",
+    "pronunciation": {
+      "respelling": "pa-PEER",
+      "ipa": "paˈpiːɐ̯",
+      "notes": "Plural: die Papiere."
+    },
+    "meaning": "paper",
+    "shortDefinition": "Paper."
+  },
+  "wordFamily": [
+    {
+      "german": "die Papiere",
+      "english": "documents",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Papier, plural die Papiere.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Papier"
+        },
+        {
+          "label": "More than one",
+          "value": "die Papiere"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Hast du ein Blatt Papier?",
+      "english": "Have you got a sheet of paper?",
+      "highlight": [
+        "Papier?"
+      ]
+    },
+    {
+      "german": "Die Tüte ist aus Papier.",
+      "english": "The bag is made of paper.",
+      "highlight": [
+        "Papier."
+      ]
+    },
+    {
+      "german": "Bitte trennen Sie Papier und Plastik.",
+      "english": "Please separate paper and plastic.",
+      "highlight": [
+        "Papier"
+      ]
+    }
+  ],
+  "forms": [
+    "Papiere",
+    "die Papiere",
+    "das Papier"
+  ],
+  "memoryHook": "Das Papier, stressed at the end. In the plural, Papiere often means documents.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Papier",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Papier is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Papier, zwei ___",
+      "answer": "Papiere",
+      "fullAnswer": "ein Papier, zwei Papiere",
+      "explanation": "The plural is Papiere.",
+      "acceptedAnswers": [
+        "Papiere"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Papier mean?",
+      "options": [
+        "paper",
+        "the bill",
+        "hot"
+      ],
+      "answer": "paper",
+      "explanation": "Papier: paper.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Ein Blatt Papier' means…",
+      "options": [
+        "a sheet of paper",
+        "a paper leaf"
+      ],
+      "answer": "a sheet of paper",
+      "explanation": "Blatt: sheet.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Where's the stress?",
+      "options": [
+        "PA-pier",
+        "pa-PIER"
+      ],
+      "answer": "pa-PIER",
+      "explanation": "Stress the end.",
+      "id": "q5"
+    }
+  ]
+}

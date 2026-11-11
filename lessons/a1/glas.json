@@ -1,0 +1,131 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Glas",
+    "partOfSpeech": "noun, neuter (das Glas)",
+    "pronunciation": {
+      "respelling": "GLAHS",
+      "ipa": "ɡlaːs",
+      "notes": "Long a. Plural: die Gläser."
+    },
+    "meaning": "glass",
+    "shortDefinition": "Glass."
+  },
+  "wordFamily": [
+    {
+      "german": "die Brille",
+      "english": "glasses, spectacles",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Glas, plural die Gläser.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Glas"
+        },
+        {
+          "label": "More than one",
+          "value": "die Gläser"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ein Glas Wasser, bitte.",
+      "english": "A glass of water, please.",
+      "highlight": [
+        "Glas"
+      ]
+    },
+    {
+      "german": "Die Gläser sind im Schrank.",
+      "english": "The glasses are in the cupboard.",
+      "highlight": [
+        "Gläser"
+      ]
+    },
+    {
+      "german": "Die Flasche ist aus Glas.",
+      "english": "The bottle is made of glass.",
+      "highlight": [
+        "Glas."
+      ]
+    }
+  ],
+  "forms": [
+    "Gläser",
+    "die Gläser",
+    "das Glas"
+  ],
+  "memoryHook": "Glas, plural Gläser. Eye glasses are something else: die Brille.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Glas",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Glas is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Glas, zwei ___",
+      "answer": "Gläser",
+      "fullAnswer": "ein Glas, zwei Gläser",
+      "explanation": "The plural is Gläser.",
+      "acceptedAnswers": [
+        "Glaeser"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Glas mean?",
+      "options": [
+        "the door",
+        "the key",
+        "glass"
+      ],
+      "answer": "glass",
+      "explanation": "Glas: glass.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Ein Glas Wein' (no 'of') means…",
+      "options": [
+        "a glass of wine",
+        "a wine glass"
+      ],
+      "answer": "a glass of wine",
+      "explanation": "No 'of' needed.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Glasses for your eyes are…",
+      "options": [
+        "die Brille",
+        "die Gläser"
+      ],
+      "answer": "die Brille",
+      "explanation": "Die Brille: spectacles.",
+      "id": "q5"
+    }
+  ]
+}

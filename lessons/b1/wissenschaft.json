@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Wissenschaft",
+    "partOfSpeech": "noun, feminine (die Wissenschaft)",
+    "pronunciation": {
+      "respelling": "VIS-en-shaft",
+      "ipa": "ˈvɪsn̩ʃaft",
+      "notes": "Plural: die Wissenschaften."
+    },
+    "meaning": "science",
+    "shortDefinition": "Science."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Wissen",
+        "meaning": "knowledge"
+      },
+      {
+        "part": "schaft",
+        "meaning": "-ship (noun suffix)"
+      }
+    ],
+    "literalMeaning": "knowledge-ship",
+    "summary": "The organised pursuit of knowing."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Wissenschaft, plural die Wissenschaften.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Wissenschaft"
+        },
+        {
+          "label": "More than one",
+          "value": "die Wissenschaften"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er interessiert sich für Wissenschaft.",
+      "english": "He's interested in science.",
+      "highlight": [
+        "Wissenschaft."
+      ]
+    },
+    {
+      "german": "Die Wissenschaft hat Fortschritte gemacht.",
+      "english": "Science has made progress.",
+      "highlight": [
+        "Wissenschaft"
+      ]
+    },
+    {
+      "german": "Sprachwissenschaft ist mein Fach.",
+      "english": "Linguistics is my subject.",
+      "highlight": [
+        "Sprachwissenschaft"
+      ]
+    }
+  ],
+  "forms": [
+    "wissenschaftlich"
+  ],
+  "memoryHook": "Wissen + schaft = science.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Wissenschaft",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Wissenschaft is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Wissenschaft, zwei ___",
+      "answer": "Wissenschaften",
+      "fullAnswer": "ein Wissenschaft, zwei Wissenschaften",
+      "explanation": "The plural is Wissenschaften.",
+      "acceptedAnswers": [
+        "Wissenschaften"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Wissenschaft mean?",
+      "options": [
+        "the shop",
+        "science",
+        "the bread"
+      ],
+      "answer": "science",
+      "explanation": "Wissenschaft: science.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "wissen (know) + -schaft",
+        "Wissen + schaffen"
+      ],
+      "answer": "wissen (know) + -schaft",
+      "explanation": "Knowledge-ship.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Adjective:",
+      "options": [
+        "wissenschaftlich",
+        "wissenschaftig"
+      ],
+      "answer": "wissenschaftlich",
+      "explanation": "Scientific.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Momente A2.2 Kursbuch Glossar",
+  "lessonType": "card",
+  "word": {
+    "headword": "gelten",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "GEL-ten",
+      "ipa": "ˈɡɛltn̩",
+      "notes": ""
+    },
+    "meaning": "to be valid, apply",
+    "shortDefinition": "To be valid, apply."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "gelt|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "gilt|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "gilt"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "gelt|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "gelt|et"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "gelt|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gegolten"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das Ticket gilt einen Tag.",
+      "english": "The ticket is valid for one day.",
+      "highlight": [
+        "gilt"
+      ]
+    },
+    {
+      "german": "Die Regel gilt für alle.",
+      "english": "The rule applies to everyone.",
+      "highlight": [
+        "gilt"
+      ]
+    },
+    {
+      "german": "Er gilt als sehr klug.",
+      "english": "He's considered very clever.",
+      "highlight": [
+        "gilt",
+        "als"
+      ]
+    }
+  ],
+  "forms": [
+    "gilt",
+    "gültig"
+  ],
+  "memoryHook": "Gelten (gilt, galt, gegolten) = be valid. Gültig = valid.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (gelten)",
+      "answer": "gilt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: gilt.",
+      "acceptedAnswers": [
+        "gilt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (gelten, past)",
+      "answer": "gegolten",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gegolten.",
+      "acceptedAnswers": [
+        "gegolten"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does gelten mean?",
+      "options": [
+        "to be valid",
+        "the car",
+        "the shop"
+      ],
+      "answer": "to be valid",
+      "explanation": "gelten: to be valid, apply.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "er ___ (gelten):",
+      "options": [
+        "gilt",
+        "geltet"
+      ],
+      "answer": "gilt",
+      "explanation": "e → i.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Gelten als' means…",
+      "options": [
+        "to be regarded as",
+        "to cost"
+      ],
+      "answer": "to be regarded as",
+      "explanation": "Reputation.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Adjective 'valid':",
+      "options": [
+        "gültig",
+        "geltig"
+      ],
+      "answer": "gültig",
+      "explanation": "Valid.",
+      "id": "q6"
+    }
+  ]
+}

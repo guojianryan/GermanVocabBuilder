@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Luft",
+    "partOfSpeech": "noun, feminine (die Luft)",
+    "pronunciation": {
+      "respelling": "LOOFT",
+      "ipa": "lʊft",
+      "notes": "Plural: die Lüfte."
+    },
+    "meaning": "air",
+    "shortDefinition": "Air."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Luft, plural die Lüfte.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Luft"
+        },
+        {
+          "label": "More than one",
+          "value": "die Lüfte"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich brauche frische Luft.",
+      "english": "I need fresh air.",
+      "highlight": [
+        "Luft."
+      ]
+    },
+    {
+      "german": "Die Luft in der Stadt ist schlecht.",
+      "english": "The air in the city is bad.",
+      "highlight": [
+        "Luft"
+      ]
+    },
+    {
+      "german": "Er hat die Luft angehalten.",
+      "english": "He held his breath.",
+      "highlight": [
+        "Luft"
+      ]
+    }
+  ],
+  "forms": [
+    "lüften"
+  ],
+  "memoryHook": "Die Luft (air) → lüften (air a room), Luftpost.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Luft",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Luft is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Luft, zwei ___",
+      "answer": "Lüfte",
+      "fullAnswer": "ein Luft, zwei Lüfte",
+      "explanation": "The plural is Lüfte.",
+      "acceptedAnswers": [
+        "Luefte"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Luft mean?",
+      "options": [
+        "air",
+        "the family",
+        "the station"
+      ],
+      "answer": "air",
+      "explanation": "Luft: air.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Airmail:",
+      "options": [
+        "die Luftpost",
+        "die Flugpost"
+      ],
+      "answer": "die Luftpost",
+      "explanation": "Luft + Post.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Lüften means…",
+      "options": [
+        "to air (a room)",
+        "to lift"
+      ],
+      "answer": "to air (a room)",
+      "explanation": "Open the windows!",
+      "id": "q5"
+    }
+  ]
+}

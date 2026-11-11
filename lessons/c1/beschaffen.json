@@ -1,0 +1,180 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "beschaffen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "be-SHA-fen",
+      "ipa": "bəˈʃafn̩",
+      "notes": ""
+    },
+    "meaning": "to obtain, get hold of",
+    "shortDefinition": "To obtain, get hold of."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "be",
+        "meaning": "prefix"
+      },
+      {
+        "part": "schaffen",
+        "meaning": "to manage, create"
+      }
+    ],
+    "literalMeaning": "to procure"
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "beschaff|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "beschaff|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "beschaff|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "beschaff|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "beschaff|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "beschaff|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat beschafft"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Kannst du mir Karten beschaffen?",
+      "english": "Can you get hold of tickets for me?",
+      "highlight": [
+        "beschaffen?"
+      ]
+    },
+    {
+      "german": "Das Geld muss noch beschafft werden.",
+      "english": "The money still has to be found.",
+      "highlight": [
+        "beschafft"
+      ]
+    },
+    {
+      "german": "Wie ist der Boden beschaffen?",
+      "english": "What's the ground like?",
+      "highlight": [
+        "beschaffen?"
+      ]
+    }
+  ],
+  "forms": [
+    "Beschaffung",
+    "Beschaffenheit"
+  ],
+  "memoryHook": "Beschaffen = obtain; Beschaffung; Beschaffenheit (nature).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (beschaffen)",
+      "answer": "beschafft",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: beschafft.",
+      "acceptedAnswers": [
+        "beschafft"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (beschaffen, past)",
+      "answer": "beschafft",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe beschafft.",
+      "acceptedAnswers": [
+        "beschafft"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does beschaffen mean?",
+      "options": [
+        "the shop",
+        "to obtain",
+        "to help"
+      ],
+      "answer": "to obtain",
+      "explanation": "beschaffen: to obtain, get hold of.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Adjective 'beschaffen' means…",
+      "options": [
+        "constituted, in a condition",
+        "obtained"
+      ],
+      "answer": "constituted, in a condition",
+      "explanation": "Nature.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Noun 'die Beschaffenheit' means…",
+      "options": [
+        "nature, composition",
+        "procurement"
+      ],
+      "answer": "nature, composition",
+      "explanation": "Nature.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Noun 'die Beschaffung' means…",
+      "options": [
+        "procurement",
+        "creation"
+      ],
+      "answer": "procurement",
+      "explanation": "Obtaining.",
+      "id": "q6"
+    }
+  ]
+}

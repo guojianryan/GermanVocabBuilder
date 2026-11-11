@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Lager",
+    "partOfSpeech": "noun, neuter (das Lager)",
+    "pronunciation": {
+      "respelling": "LAA-ger",
+      "ipa": "ˈlaːɡɐ",
+      "notes": "The plural looks the same. Plural: die Lager."
+    },
+    "meaning": "warehouse, storage; camp",
+    "shortDefinition": "Warehouse, storage; camp."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Lager, plural die Lager.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Lager"
+        },
+        {
+          "label": "More than one",
+          "value": "die Lager"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Ware ist im Lager.",
+      "english": "The goods are in the warehouse.",
+      "highlight": [
+        "Lager."
+      ]
+    },
+    {
+      "german": "Das Produkt ist nicht auf Lager.",
+      "english": "The product isn't in stock.",
+      "highlight": [
+        "Lager."
+      ]
+    },
+    {
+      "german": "Die Kinder fahren ins Ferienlager.",
+      "english": "The children are going to holiday camp.",
+      "highlight": [
+        "Ferienlager."
+      ]
+    }
+  ],
+  "forms": [
+    "Lager",
+    "die Lager",
+    "das Lager"
+  ],
+  "memoryHook": "Das Lager: store, warehouse, camp. Auf Lager = in stock.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Lager",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Lager is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Lager, zwei ___",
+      "answer": "Lager",
+      "fullAnswer": "ein Lager, zwei Lager",
+      "explanation": "The plural is Lager.",
+      "acceptedAnswers": [
+        "Lager"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Lager mean?",
+      "options": [
+        "the station",
+        "warehouse",
+        "the shop"
+      ],
+      "answer": "warehouse",
+      "explanation": "Lager: warehouse, storage; camp.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Auf Lager' means…",
+      "options": [
+        "in stock",
+        "in the camp"
+      ],
+      "answer": "in stock",
+      "explanation": "Shops.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gender:",
+      "options": [
+        "das",
+        "der"
+      ],
+      "answer": "das",
+      "explanation": "Das Lager (not the beer!).",
+      "id": "q5"
+    }
+  ]
+}

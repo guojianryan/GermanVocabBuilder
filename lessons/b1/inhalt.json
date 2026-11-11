@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Inhalt",
+    "partOfSpeech": "noun, masculine (der Inhalt)",
+    "pronunciation": {
+      "respelling": "IN-halt",
+      "ipa": "ˈɪnhalt",
+      "notes": "Plural: die Inhalte."
+    },
+    "meaning": "content(s)",
+    "shortDefinition": "Content(s)."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Inhalt, plural die Inhalte.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Inhalt"
+        },
+        {
+          "label": "More than one",
+          "value": "die Inhalte"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Was ist der Inhalt des Pakets?",
+      "english": "What are the contents of the parcel?",
+      "highlight": [
+        "Inhalt"
+      ]
+    },
+    {
+      "german": "Fassen Sie den Inhalt zusammen.",
+      "english": "Summarise the content.",
+      "highlight": [
+        "Inhalt"
+      ]
+    },
+    {
+      "german": "Der Inhalt des Films ist spannend.",
+      "english": "The plot of the film is exciting.",
+      "highlight": [
+        "Inhalt"
+      ]
+    }
+  ],
+  "forms": [
+    "Inhalte",
+    "die Inhalte",
+    "der Inhalt"
+  ],
+  "memoryHook": "In + halten = what's held inside = content.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Inhalt",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Inhalt is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Inhalt, zwei ___",
+      "answer": "Inhalte",
+      "fullAnswer": "ein Inhalt, zwei Inhalte",
+      "explanation": "The plural is Inhalte.",
+      "acceptedAnswers": [
+        "Inhalte"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Inhalt mean?",
+      "options": [
+        "content(s)",
+        "the bed",
+        "the bill"
+      ],
+      "answer": "content(s)",
+      "explanation": "Inhalt: content(s).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "in + halten (hold)",
+        "ein + Halt"
+      ],
+      "answer": "in + halten (hold)",
+      "explanation": "What it holds.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Table of contents:",
+      "options": [
+        "das Inhaltsverzeichnis",
+        "die Inhaltsliste"
+      ],
+      "answer": "das Inhaltsverzeichnis",
+      "explanation": "Books.",
+      "id": "q5"
+    }
+  ]
+}

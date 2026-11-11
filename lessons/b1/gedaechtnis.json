@@ -1,0 +1,142 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Gedächtnis",
+    "partOfSpeech": "noun, neuter (das Gedächtnis)",
+    "pronunciation": {
+      "respelling": "ge-DEKHT-nis",
+      "ipa": "ɡəˈdɛçtnɪs",
+      "notes": "Plural: die Gedächtnisse."
+    },
+    "meaning": "memory",
+    "shortDefinition": "Memory."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Ge",
+        "meaning": "prefix"
+      },
+      {
+        "part": "dächt",
+        "meaning": "thought (denken)"
+      },
+      {
+        "part": "nis",
+        "meaning": "noun ending"
+      }
+    ],
+    "literalMeaning": "what is thought of"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Gedächtnis, plural die Gedächtnisse.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Gedächtnis"
+        },
+        {
+          "label": "More than one",
+          "value": "die Gedächtnisse"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich habe ein schlechtes Gedächtnis.",
+      "english": "I have a bad memory.",
+      "highlight": [
+        "Gedächtnis."
+      ]
+    },
+    {
+      "german": "Er hat ein Gedächtnis wie ein Elefant.",
+      "english": "He has a memory like an elephant.",
+      "highlight": [
+        "Gedächtnis"
+      ]
+    },
+    {
+      "german": "Das ist mir im Gedächtnis geblieben.",
+      "english": "That stuck in my memory.",
+      "highlight": [
+        "Gedächtnis"
+      ]
+    }
+  ],
+  "forms": [
+    "Gedächtnisse",
+    "die Gedächtnisse",
+    "das Gedächtnis"
+  ],
+  "memoryHook": "Das Gedächtnis (ability to remember) vs die Erinnerung (a memory).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Gedächtnis",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Gedächtnis is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Gedächtnis, zwei ___",
+      "answer": "Gedächtnisse",
+      "fullAnswer": "ein Gedächtnis, zwei Gedächtnisse",
+      "explanation": "The plural is Gedächtnisse.",
+      "acceptedAnswers": [
+        "Gedaechtnisse"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Gedächtnis mean?",
+      "options": [
+        "the weather",
+        "memory",
+        "to help"
+      ],
+      "answer": "memory",
+      "explanation": "Gedächtnis: memory.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gedächtnis vs Erinnerung:",
+      "options": [
+        "the ability to remember vs a single memory",
+        "same"
+      ],
+      "answer": "the ability to remember vs a single memory",
+      "explanation": "Different.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "denken (dachte)",
+        "Dach"
+      ],
+      "answer": "denken (dachte)",
+      "explanation": "Think.",
+      "id": "q5"
+    }
+  ]
+}

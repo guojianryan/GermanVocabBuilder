@@ -1,0 +1,184 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "beinhalten",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "be-IN-hal-ten",
+      "ipa": "bəˈʔɪnhaltn̩",
+      "notes": ""
+    },
+    "meaning": "to contain, include, comprise",
+    "shortDefinition": "To contain, include, comprise."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "be",
+        "meaning": "prefix"
+      },
+      {
+        "part": "inhalt",
+        "meaning": "content"
+      },
+      {
+        "part": "en",
+        "meaning": "verb ending"
+      }
+    ],
+    "literalMeaning": "to have as content"
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "beinhalt|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "beinhalt|est"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "beinhalt|et"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "beinhalt|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "beinhalt|et"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "beinhalt|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat beinhaltet"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Preis beinhaltet das Frühstück.",
+      "english": "The price includes breakfast.",
+      "highlight": [
+        "beinhaltet"
+      ]
+    },
+    {
+      "german": "Was beinhaltet der Vertrag?",
+      "english": "What does the contract contain?",
+      "highlight": [
+        "beinhaltet"
+      ]
+    },
+    {
+      "german": "Das Paket beinhaltet drei Bücher.",
+      "english": "The package contains three books.",
+      "highlight": [
+        "beinhaltet"
+      ]
+    }
+  ],
+  "forms": [
+    "Inhalt",
+    "enthalten"
+  ],
+  "memoryHook": "Be + Inhalt = contain (= enthalten).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (beinhalten)",
+      "answer": "beinhaltet",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: beinhaltet.",
+      "acceptedAnswers": [
+        "beinhaltet"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (beinhalten, past)",
+      "answer": "beinhaltet",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe beinhaltet.",
+      "acceptedAnswers": [
+        "beinhaltet"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does beinhalten mean?",
+      "options": [
+        "the job",
+        "to help",
+        "to contain"
+      ],
+      "answer": "to contain",
+      "explanation": "beinhalten: to contain, include, comprise.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "der Inhalt (content)",
+        "halten only"
+      ],
+      "answer": "der Inhalt (content)",
+      "explanation": "Content.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonyms:",
+      "options": [
+        "enthalten, umfassen",
+        "ausschließen"
+      ],
+      "answer": "enthalten, umfassen",
+      "explanation": "Contain.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "hat beinhaltet",
+        "hat beingehaltet"
+      ],
+      "answer": "hat beinhaltet",
+      "explanation": "Not separable.",
+      "id": "q6"
+    }
+  ]
+}

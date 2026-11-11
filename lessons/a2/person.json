@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Person",
+    "partOfSpeech": "noun, feminine (die Person)",
+    "pronunciation": {
+      "respelling": "per-ZOHN",
+      "ipa": "pɛʁˈzoːn",
+      "notes": "Plural: die Personen."
+    },
+    "meaning": "person",
+    "shortDefinition": "Person."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Person, plural die Personen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Person"
+        },
+        {
+          "label": "More than one",
+          "value": "die Personen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ein Tisch für vier Personen, bitte.",
+      "english": "A table for four, please.",
+      "highlight": [
+        "Personen,"
+      ]
+    },
+    {
+      "german": "Das Zimmer ist für zwei Personen.",
+      "english": "The room is for two people.",
+      "highlight": [
+        "Personen."
+      ]
+    },
+    {
+      "german": "Sie ist eine wichtige Person.",
+      "english": "She's an important person.",
+      "highlight": [
+        "Person."
+      ]
+    }
+  ],
+  "forms": [
+    "Personen",
+    "die Personen",
+    "die Person"
+  ],
+  "memoryHook": "Die Person (always feminine, even for a man). Pro Person = per person.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Person",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Person is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Person, zwei ___",
+      "answer": "Personen",
+      "fullAnswer": "ein Person, zwei Personen",
+      "explanation": "The plural is Personen.",
+      "acceptedAnswers": [
+        "Personen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Person mean?",
+      "options": [
+        "the door",
+        "to open",
+        "person"
+      ],
+      "answer": "person",
+      "explanation": "Person: person.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gender (even for men):",
+      "options": [
+        "die",
+        "der"
+      ],
+      "answer": "die",
+      "explanation": "Always die Person.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'For four people':",
+      "options": [
+        "für vier Personen",
+        "für vier Leute only"
+      ],
+      "answer": "für vier Personen",
+      "explanation": "Both possible.",
+      "id": "q5"
+    }
+  ]
+}

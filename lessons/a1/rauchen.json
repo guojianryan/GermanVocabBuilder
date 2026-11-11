@@ -1,0 +1,170 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "rauchen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "ROW-khen",
+      "ipa": "ˈʁaʊ̯xn̩",
+      "notes": ""
+    },
+    "meaning": "to smoke",
+    "shortDefinition": "To smoke."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "rauch|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "rauch|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "rauch|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "rauch|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "rauch|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "rauch|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat geraucht"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "der Raucher",
+      "english": "smoker",
+      "type": "noun"
+    },
+    {
+      "german": "der Rauch",
+      "english": "smoke",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Rauchen ist hier verboten.",
+      "english": "Smoking is forbidden here.",
+      "highlight": [
+        "Rauchen"
+      ]
+    },
+    {
+      "german": "Ich rauche nicht mehr.",
+      "english": "I don't smoke any more.",
+      "highlight": [
+        "rauche"
+      ]
+    },
+    {
+      "german": "Darf man hier rauchen?",
+      "english": "Is smoking allowed here?",
+      "highlight": [
+        "rauchen?"
+      ]
+    }
+  ],
+  "forms": [
+    "rauche",
+    "rauchst",
+    "raucht",
+    "rauchen",
+    "geraucht"
+  ],
+  "memoryHook": "Rauchen = smoke. Der Raucher (smoker), Nichtraucher (non-smoker).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (rauchen)",
+      "answer": "raucht",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: raucht.",
+      "acceptedAnswers": [
+        "raucht"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (rauchen, past)",
+      "answer": "geraucht",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe geraucht.",
+      "acceptedAnswers": [
+        "geraucht"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does rauchen mean?",
+      "options": [
+        "to smoke",
+        "the door",
+        "tomorrow"
+      ],
+      "answer": "to smoke",
+      "explanation": "rauchen: to smoke.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Nichtraucher' on a sign means…",
+      "options": [
+        "non-smoking",
+        "smoker"
+      ],
+      "answer": "non-smoking",
+      "explanation": "Nicht + Raucher.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Der Rauch is…",
+      "options": [
+        "the smoke",
+        "the room"
+      ],
+      "answer": "the smoke",
+      "explanation": "Rauchen → Rauch.",
+      "id": "q5"
+    }
+  ]
+}

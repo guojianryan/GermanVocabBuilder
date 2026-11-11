@@ -1,0 +1,196 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "full",
+  "word": {
+    "headword": "doch",
+    "partOfSpeech": "particle / conjunction",
+    "pronunciation": {
+      "respelling": "DOKH",
+      "ipa": "dɔx",
+      "notes": "Ch as in Bach."
+    },
+    "meaning": "yes (contradicting a no); but; do (for emphasis)",
+    "shortDefinition": "Yes after a negative question; however; softens or stresses."
+  },
+  "intro": {
+    "title": "The word English doesn't have",
+    "paragraphs": [
+      "Doch is the 'yes' you use to contradict a negative: Kommst du nicht? – Doch! (Yes, I am!). Ja would sound like you agree with the 'not'.",
+      "It also means 'but, however', and it's a softener in requests and commands: Komm doch mit! (Oh, come along!). Setz dich doch! (Do sit down!)."
+    ]
+  },
+  "tables": [
+    {
+      "title": "Answering questions",
+      "columns": [
+        "answer"
+      ],
+      "rows": [
+        {
+          "label": "Kommst du?",
+          "hint": "yes",
+          "cells": [
+            "|Ja.|"
+          ]
+        },
+        {
+          "label": "Kommst du?",
+          "hint": "no",
+          "cells": [
+            "|Nein.|"
+          ]
+        },
+        {
+          "label": "Kommst du nicht?",
+          "hint": "yes, I am!",
+          "cells": [
+            "|Doch!|"
+          ]
+        },
+        {
+          "label": "Kommst du nicht?",
+          "hint": "no, I'm not",
+          "cells": [
+            "|Nein.|"
+          ]
+        }
+      ]
+    }
+  ],
+  "keyTrap": {
+    "title": "The big trap: ja after a negative question",
+    "explanation": "After a question with nicht or kein, 'yes' is doch.",
+    "wrong": {
+      "german": "Hast du keinen Hunger? – Ja!",
+      "verdict": "Confusing: does that mean 'yes, I'm not hungry'?"
+    },
+    "correct": [
+      {
+        "german": "Hast du keinen Hunger? – Doch!",
+        "literal": "Aren't you hungry? – Yes I am!",
+        "note": "Contradicting the negative: doch."
+      }
+    ]
+  },
+  "commonMistakes": [
+    {
+      "title": "doch as a softener",
+      "explanation": "In requests it sounds friendly, not pushy.",
+      "examples": [
+        {
+          "german": "Komm doch mit!",
+          "english": "Why don't you come along!",
+          "highlight": "doch"
+        }
+      ]
+    },
+    {
+      "title": "doch = but, however",
+      "explanation": "Like aber, but stronger.",
+      "examples": [
+        {
+          "german": "Es war teuer, doch es hat sich gelohnt.",
+          "english": "It was expensive, but it was worth it.",
+          "highlight": "doch"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Du hast keine Zeit? – Doch, ich habe Zeit!",
+      "english": "You don't have time? – Yes, I do!",
+      "highlight": [
+        "Doch,"
+      ]
+    },
+    {
+      "german": "Setz dich doch!",
+      "english": "Do sit down!",
+      "highlight": [
+        "doch!"
+      ]
+    },
+    {
+      "german": "Das stimmt doch nicht!",
+      "english": "That's just not true!",
+      "highlight": [
+        "doch"
+      ]
+    }
+  ],
+  "forms": [
+    "doch"
+  ],
+  "memoryHook": "Someone says 'not'? Hit back with Doch!",
+  "signOff": "Du kannst das doch!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Kommst du nicht mit? – ___, ich komme!",
+      "options": [
+        "Doch",
+        "Ja"
+      ],
+      "answer": "Doch",
+      "explanation": "Contradicting a negative.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Hast du Hunger? – ___!",
+      "options": [
+        "Ja",
+        "Doch"
+      ],
+      "answer": "Ja",
+      "explanation": "Positive question: ja.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Komm doch mit!' sounds…",
+      "options": [
+        "friendly, encouraging",
+        "angry"
+      ],
+      "answer": "friendly, encouraging",
+      "explanation": "Softener.",
+      "id": "q3"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Du magst keinen Kaffee? – ___ , ich mag Kaffee!",
+      "answer": "Doch",
+      "fullAnswer": "Doch, ich mag Kaffee!",
+      "explanation": "Doch.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Doch can also mean…",
+      "options": [
+        "but, however",
+        "never"
+      ],
+      "answer": "but, however",
+      "explanation": "Like aber.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Bist du nicht müde? (You ARE tired.) Answer:",
+      "options": [
+        "Doch!",
+        "Nein!"
+      ],
+      "answer": "Doch!",
+      "explanation": "Yes I am.",
+      "id": "q6"
+    }
+  ]
+}

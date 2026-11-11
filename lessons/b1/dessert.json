@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Dessert",
+    "partOfSpeech": "noun, neuter (das Dessert)",
+    "pronunciation": {
+      "respelling": "de-SAIR",
+      "ipa": "dɛˈsɛːɐ̯",
+      "notes": "Plural: die Desserts."
+    },
+    "meaning": "dessert",
+    "shortDefinition": "Dessert."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Dessert, plural die Desserts.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Dessert"
+        },
+        {
+          "label": "More than one",
+          "value": "die Desserts"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Zum Dessert gibt es Eis.",
+      "english": "There's ice cream for dessert.",
+      "highlight": [
+        "Dessert"
+      ]
+    },
+    {
+      "german": "Möchten Sie ein Dessert?",
+      "english": "Would you like a dessert?",
+      "highlight": [
+        "Dessert?"
+      ]
+    },
+    {
+      "german": "Das Dessert war fantastisch.",
+      "english": "The dessert was fantastic.",
+      "highlight": [
+        "Dessert"
+      ]
+    }
+  ],
+  "forms": [
+    "Nachtisch",
+    "Nachspeise"
+  ],
+  "memoryHook": "Das Dessert = Nachtisch = Nachspeise.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Dessert",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Dessert is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Dessert, zwei ___",
+      "answer": "Desserts",
+      "fullAnswer": "ein Dessert, zwei Desserts",
+      "explanation": "The plural is Desserts.",
+      "acceptedAnswers": [
+        "Desserts"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Dessert mean?",
+      "options": [
+        "the bed",
+        "to sing",
+        "dessert"
+      ],
+      "answer": "dessert",
+      "explanation": "Dessert: dessert.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "German synonyms:",
+      "options": [
+        "der Nachtisch, die Nachspeise",
+        "die Vorspeise"
+      ],
+      "answer": "der Nachtisch, die Nachspeise",
+      "explanation": "After the meal.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Pronounced…",
+      "options": [
+        "French: de-SAIR",
+        "DES-ert"
+      ],
+      "answer": "French: de-SAIR",
+      "explanation": "French.",
+      "id": "q5"
+    }
+  ]
+}

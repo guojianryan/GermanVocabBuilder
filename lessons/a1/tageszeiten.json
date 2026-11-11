@@ -1,0 +1,202 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "group",
+  "word": {
+    "headword": "Tageszeiten",
+    "partOfSpeech": "word group: times of day",
+    "pronunciation": {
+      "respelling": "TAA-ges-tsite-en",
+      "ipa": "ˈtaːɡəsˌtsaɪ̯tn̩",
+      "notes": ""
+    },
+    "meaning": "morning, noon, evening, night",
+    "shortDefinition": "Morning, noon, evening, night."
+  },
+  "members": [
+    {
+      "german": "der Morgen",
+      "english": "morning",
+      "note": "Not morgen (tomorrow)!"
+    },
+    {
+      "german": "der Vormittag",
+      "english": "late morning",
+      "plural": "Vormittage"
+    },
+    {
+      "german": "der Mittag",
+      "english": "midday, noon",
+      "plural": "Mittage"
+    },
+    {
+      "german": "der Nachmittag",
+      "english": "afternoon",
+      "plural": "Nachmittage"
+    },
+    {
+      "german": "der Abend",
+      "english": "evening",
+      "plural": "Abende"
+    },
+    {
+      "german": "die Nacht",
+      "english": "night",
+      "plural": "Nächte",
+      "note": "The only feminine one."
+    },
+    {
+      "german": "die Mitternacht",
+      "english": "midnight"
+    },
+    {
+      "german": "morgens",
+      "english": "in the mornings"
+    },
+    {
+      "german": "abends",
+      "english": "in the evenings"
+    },
+    {
+      "german": "nachts",
+      "english": "at night"
+    },
+    {
+      "german": "täglich",
+      "english": "daily"
+    },
+    {
+      "german": "tagsüber",
+      "english": "during the day"
+    }
+  ],
+  "intro": {
+    "title": "Am Abend, in der Nacht",
+    "paragraphs": [
+      "Morgen, Vormittag, Mittag, Nachmittag, Abend: all masculine, all with am (am Abend). Nacht is the odd one: die Nacht, in der Nacht.",
+      "Like the days, add -s and a small letter for a habit: morgens, abends, nachts. And keep der Morgen (the morning) apart from morgen (tomorrow): morgen früh is tomorrow morning."
+    ]
+  },
+  "sampleSentences": [
+    {
+      "german": "Am Nachmittag gehe ich schwimmen.",
+      "english": "In the afternoon I go swimming.",
+      "highlight": [
+        "Nachmittag"
+      ]
+    },
+    {
+      "german": "Ich arbeite abends.",
+      "english": "I work in the evenings.",
+      "highlight": [
+        "abends."
+      ]
+    },
+    {
+      "german": "Ich kann in der Nacht nicht schlafen.",
+      "english": "I can't sleep at night.",
+      "highlight": [
+        "Nacht"
+      ]
+    }
+  ],
+  "forms": [
+    "der Morgen",
+    "Morgen",
+    "der Vormittag",
+    "Vormittag",
+    "Vormittage",
+    "der Mittag",
+    "Mittag",
+    "Mittage",
+    "der Nachmittag",
+    "Nachmittag",
+    "Nachmittage",
+    "der Abend",
+    "Abend",
+    "Abende",
+    "die Nacht",
+    "Nacht",
+    "Nächte",
+    "die Mitternacht",
+    "Mitternacht",
+    "morgens",
+    "abends",
+    "nachts",
+    "täglich",
+    "tagsüber",
+    "vormittags",
+    "mittags",
+    "nachmittags"
+  ],
+  "memoryHook": "Before noon: Vormittag. After noon: Nachmittag. Night is the only lady: die Nacht.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "'In the evening' is…",
+      "options": [
+        "am Abend",
+        "im Abend"
+      ],
+      "answer": "am Abend",
+      "explanation": "Am Abend.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "'At night' is…",
+      "options": [
+        "in der Nacht",
+        "am Nacht"
+      ],
+      "answer": "in der Nacht",
+      "explanation": "Nacht is feminine: in der Nacht.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Tomorrow morning' is…",
+      "options": [
+        "morgen früh",
+        "morgen Morgen"
+      ],
+      "answer": "morgen früh",
+      "explanation": "Avoids saying morgen twice.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Vormittag is…",
+      "options": [
+        "the morning until noon",
+        "the afternoon"
+      ],
+      "answer": "the morning until noon",
+      "explanation": "Vor + Mittag = before midday.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich trinke ___ Kaffee. (in the mornings)",
+      "answer": "morgens",
+      "fullAnswer": "Ich trinke morgens Kaffee.",
+      "explanation": "Habit: morgens.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Guten Abend' is said…",
+      "options": [
+        "in the evening",
+        "at noon"
+      ],
+      "answer": "in the evening",
+      "explanation": "Evening greeting.",
+      "id": "q6"
+    }
+  ]
+}

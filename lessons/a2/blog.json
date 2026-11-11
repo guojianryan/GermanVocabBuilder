@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Blog",
+    "partOfSpeech": "noun, masculine (der Blog)",
+    "pronunciation": {
+      "respelling": "BLOK",
+      "ipa": "blɔk",
+      "notes": "Plural: die Blogs."
+    },
+    "meaning": "blog",
+    "shortDefinition": "Blog."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Blog, plural die Blogs.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Blog"
+        },
+        {
+          "label": "More than one",
+          "value": "die Blogs"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Sie schreibt einen Blog über Reisen.",
+      "english": "She writes a travel blog.",
+      "highlight": [
+        "Blog"
+      ]
+    },
+    {
+      "german": "Ich lese gern Kochblogs.",
+      "english": "I like reading cooking blogs.",
+      "highlight": [
+        "Kochblogs."
+      ]
+    },
+    {
+      "german": "Hast du meinen neuen Blog gesehen?",
+      "english": "Have you seen my new blog?",
+      "highlight": [
+        "Blog"
+      ]
+    }
+  ],
+  "forms": [
+    "das Blog",
+    "der Blog",
+    "Blogger"
+  ],
+  "memoryHook": "Der/das Blog: both genders are fine.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Blog",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Blog is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Blog, zwei ___",
+      "answer": "Blogs",
+      "fullAnswer": "ein Blog, zwei Blogs",
+      "explanation": "The plural is Blogs.",
+      "acceptedAnswers": [
+        "Blogs"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Blog mean?",
+      "options": [
+        "blog",
+        "to sing",
+        "the car"
+      ],
+      "answer": "blog",
+      "explanation": "Blog: blog.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gender:",
+      "options": [
+        "der or das (both used)",
+        "only die"
+      ],
+      "answer": "der or das (both used)",
+      "explanation": "Der/das Blog.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Someone who writes one:",
+      "options": [
+        "der Blogger",
+        "der Blogschreiber"
+      ],
+      "answer": "der Blogger",
+      "explanation": "English word.",
+      "id": "q5"
+    }
+  ]
+}

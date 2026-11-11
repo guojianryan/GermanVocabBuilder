@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Tote",
+    "partOfSpeech": "noun, feminine (die Tote)",
+    "pronunciation": {
+      "respelling": "TOH-te",
+      "ipa": "ˈtoːtə",
+      "notes": "Plural: die Toten."
+    },
+    "meaning": "dead person, fatality",
+    "shortDefinition": "Dead person, fatality."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Tote, plural die Toten.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Tote"
+        },
+        {
+          "label": "More than one",
+          "value": "die Toten"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Bei dem Unfall gab es zwei Tote.",
+      "english": "There were two fatalities in the accident.",
+      "highlight": [
+        "Tote."
+      ]
+    },
+    {
+      "german": "Der Tote wurde identifiziert.",
+      "english": "The dead man was identified.",
+      "highlight": [
+        "Tote"
+      ]
+    },
+    {
+      "german": "Wir gedenken der Toten.",
+      "english": "We remember the dead.",
+      "highlight": [
+        "Toten."
+      ]
+    }
+  ],
+  "forms": [
+    "Toter",
+    "tot"
+  ],
+  "memoryHook": "Der/die Tote (dead person). Tot = dead; der Tod = death.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Tote",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Tote is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Tote, zwei ___",
+      "answer": "Toten",
+      "fullAnswer": "ein Tote, zwei Toten",
+      "explanation": "The plural is Toten.",
+      "acceptedAnswers": [
+        "Toten"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Tote mean?",
+      "options": [
+        "dead person",
+        "to sleep",
+        "the family"
+      ],
+      "answer": "dead person",
+      "explanation": "Tote: dead person, fatality.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Adjectival noun: 'a dead man' =",
+      "options": [
+        "ein Toter",
+        "ein Tote"
+      ],
+      "answer": "ein Toter",
+      "explanation": "Adjective endings.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "tot (dead)",
+        "der Tod (death)"
+      ],
+      "answer": "tot (dead)",
+      "explanation": "Tot = adjective; Tod = noun.",
+      "id": "q5"
+    }
+  ]
+}

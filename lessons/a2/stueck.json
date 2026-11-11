@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Stück",
+    "partOfSpeech": "noun, neuter (das Stück)",
+    "pronunciation": {
+      "respelling": "SHTÜK",
+      "ipa": "ʃtʏk",
+      "notes": "Plural: die Stücke."
+    },
+    "meaning": "piece; play (theatre)",
+    "shortDefinition": "Piece; play (theatre)."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Stück, plural die Stücke.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Stück"
+        },
+        {
+          "label": "More than one",
+          "value": "die Stücke"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ein Stück Kuchen, bitte.",
+      "english": "A piece of cake, please.",
+      "highlight": [
+        "Stück"
+      ]
+    },
+    {
+      "german": "Die Äpfel kosten 50 Cent pro Stück.",
+      "english": "The apples are 50 cents each.",
+      "highlight": [
+        "Stück."
+      ]
+    },
+    {
+      "german": "Wir sehen ein Stück im Theater.",
+      "english": "We're seeing a play at the theatre.",
+      "highlight": [
+        "Stück"
+      ]
+    }
+  ],
+  "forms": [
+    "pro Stück",
+    "Theaterstück"
+  ],
+  "memoryHook": "Das Stück: piece, each (pro Stück), or a play.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Stück",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Stück is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Stück, zwei ___",
+      "answer": "Stücke",
+      "fullAnswer": "ein Stück, zwei Stücke",
+      "explanation": "The plural is Stücke.",
+      "acceptedAnswers": [
+        "Stuecke"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Stück mean?",
+      "options": [
+        "piece",
+        "the bed",
+        "never"
+      ],
+      "answer": "piece",
+      "explanation": "Stück: piece; play (theatre).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Pro Stück' means…",
+      "options": [
+        "each, per piece",
+        "per hour"
+      ],
+      "answer": "each, per piece",
+      "explanation": "Each.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Two pieces of cake':",
+      "options": [
+        "zwei Stück Kuchen",
+        "zwei Stücke von Kuchen"
+      ],
+      "answer": "zwei Stück Kuchen",
+      "explanation": "Singular after numbers.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "an sein",
+    "partOfSpeech": "verb phrase",
+    "pronunciation": {
+      "respelling": "AHN zine",
+      "ipa": "an zaɪn",
+      "notes": ""
+    },
+    "meaning": "to be on (lights, machines)",
+    "shortDefinition": "To be on (lights, machines)."
+  },
+  "wordFamily": [
+    {
+      "german": "aus sein",
+      "english": "to be off; to be over",
+      "type": "phrase"
+    },
+    {
+      "german": "anmachen",
+      "english": "to turn on",
+      "type": "separable verb"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das Licht ist noch an.",
+      "english": "The light is still on.",
+      "highlight": [
+        "ist",
+        "an."
+      ]
+    },
+    {
+      "german": "Ist der Computer an?",
+      "english": "Is the computer on?",
+      "highlight": [
+        "Ist",
+        "an?"
+      ]
+    },
+    {
+      "german": "Heute Nacht war der Fernseher die ganze Zeit an.",
+      "english": "Last night the TV was on the whole time.",
+      "highlight": [
+        "war",
+        "an."
+      ]
+    }
+  ],
+  "forms": [
+    "ist an",
+    "war an"
+  ],
+  "memoryHook": "Anmachen is the action, an sein is the result: Ich mache das Licht an. Jetzt ist es an.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Das Radio ___ an.",
+      "options": [
+        "ist",
+        "hat"
+      ],
+      "answer": "ist",
+      "explanation": "An sein: it uses sein.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "The opposite of 'Das Licht ist an' is…",
+      "options": [
+        "Das Licht ist aus.",
+        "Das Licht ist zu."
+      ],
+      "answer": "Das Licht ist aus.",
+      "explanation": "An and aus for lights.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Die Tür ist ___. (open)",
+      "options": [
+        "an",
+        "auf"
+      ],
+      "answer": "auf",
+      "explanation": "Doors are auf or zu, not an.",
+      "id": "q3"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Der Fernseher ___ gestern den ganzen Tag an. (past)",
+      "answer": "war",
+      "fullAnswer": "Der Fernseher war gestern den ganzen Tag an.",
+      "explanation": "Past of ist: war.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "You switch it on with anmachen. Then it ___.",
+      "options": [
+        "ist an",
+        "macht an"
+      ],
+      "answer": "ist an",
+      "explanation": "Anmachen is the action; an sein is the state.",
+      "id": "q5"
+    }
+  ]
+}

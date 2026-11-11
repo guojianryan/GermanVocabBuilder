@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Definition",
+    "partOfSpeech": "noun, feminine (die Definition)",
+    "pronunciation": {
+      "respelling": "de-fi-ni-TSYOHN",
+      "ipa": "definiˈtsi̯oːn",
+      "notes": "Plural: die Definitionen."
+    },
+    "meaning": "definition",
+    "shortDefinition": "Definition."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Definition, plural die Definitionen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Definition"
+        },
+        {
+          "label": "More than one",
+          "value": "die Definitionen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wie lautet die Definition?",
+      "english": "What's the definition?",
+      "highlight": [
+        "Definition?"
+      ]
+    },
+    {
+      "german": "Per Definition ist das richtig.",
+      "english": "By definition that's right.",
+      "highlight": [
+        "Definition"
+      ]
+    },
+    {
+      "german": "Es gibt keine klare Definition.",
+      "english": "There's no clear definition.",
+      "highlight": [
+        "Definition."
+      ]
+    }
+  ],
+  "forms": [
+    "definieren"
+  ],
+  "memoryHook": "Definieren → die Definition.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Definition",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Definition is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Definition, zwei ___",
+      "answer": "Definitionen",
+      "fullAnswer": "ein Definition, zwei Definitionen",
+      "explanation": "The plural is Definitionen.",
+      "acceptedAnswers": [
+        "Definitionen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Definition mean?",
+      "options": [
+        "to buy",
+        "cheap",
+        "definition"
+      ],
+      "answer": "definition",
+      "explanation": "Definition: definition.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Verb:",
+      "options": [
+        "definieren",
+        "definitionieren"
+      ],
+      "answer": "definieren",
+      "explanation": "Define.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "-tion sounds like…",
+      "options": [
+        "-tsyohn",
+        "-shun"
+      ],
+      "answer": "-tsyohn",
+      "explanation": "de-fi-ni-TSYOHN.",
+      "id": "q5"
+    }
+  ]
+}

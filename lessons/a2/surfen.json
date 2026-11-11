@@ -1,0 +1,159 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "surfen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "ZER-fen",
+      "ipa": "ˈzœʁfn̩",
+      "notes": ""
+    },
+    "meaning": "to surf (web or waves)",
+    "shortDefinition": "To surf (web or waves)."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "surf|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "surf|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "surf|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "surf|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "surf|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "surf|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gesurft"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich surfe gern im Internet.",
+      "english": "I like surfing the web.",
+      "highlight": [
+        "surfe"
+      ]
+    },
+    {
+      "german": "Im Urlaub sind wir gesurft.",
+      "english": "On holiday we went surfing.",
+      "highlight": [
+        "gesurft."
+      ]
+    },
+    {
+      "german": "Er surft jeden Tag.",
+      "english": "He surfs every day.",
+      "highlight": [
+        "surft"
+      ]
+    }
+  ],
+  "forms": [
+    "surfe",
+    "surfst",
+    "surft",
+    "surfen",
+    "gesurft",
+    "ist gesurft"
+  ],
+  "memoryHook": "Surfen (web: hat gesurft; sea: ist gesurft).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (surfen)",
+      "answer": "surft",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: surft.",
+      "acceptedAnswers": [
+        "surft"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (surfen, past)",
+      "answer": "gesurft",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gesurft.",
+      "acceptedAnswers": [
+        "gesurft"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does surfen mean?",
+      "options": [
+        "to surf (web or waves)",
+        "to open",
+        "the job"
+      ],
+      "answer": "to surf (web or waves)",
+      "explanation": "surfen: to surf (web or waves).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt (both used):",
+      "options": [
+        "hat/ist gesurft",
+        "only hat"
+      ],
+      "answer": "hat/ist gesurft",
+      "explanation": "Internet: hat; waves: ist.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Surf the internet':",
+      "options": [
+        "im Internet surfen",
+        "das Internet surfen"
+      ],
+      "answer": "im Internet surfen",
+      "explanation": "Im.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Baby",
+    "partOfSpeech": "noun, neuter (das Baby)",
+    "pronunciation": {
+      "respelling": "BAY-bee",
+      "ipa": "ˈbeːbi",
+      "notes": "Plural spelled Babys, not Babies. Plural: die Babys."
+    },
+    "meaning": "baby",
+    "shortDefinition": "Baby."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Baby, plural die Babys.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Baby"
+        },
+        {
+          "label": "More than one",
+          "value": "die Babys"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Mein Kind ist noch ein Baby.",
+      "english": "My child is still a baby.",
+      "highlight": [
+        "Baby."
+      ]
+    },
+    {
+      "german": "Sie bekommt im Mai ein Baby.",
+      "english": "She's having a baby in May.",
+      "highlight": [
+        "Baby."
+      ]
+    },
+    {
+      "german": "Das Baby schläft endlich.",
+      "english": "The baby's finally asleep.",
+      "highlight": [
+        "Baby"
+      ]
+    }
+  ],
+  "forms": [
+    "Babys",
+    "die Babys",
+    "das Baby"
+  ],
+  "memoryHook": "Borrowed from English, pronounced the English way, plural with -s: Babys (not Babies).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Baby",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Baby is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Baby, zwei ___",
+      "answer": "Babys",
+      "fullAnswer": "ein Baby, zwei Babys",
+      "explanation": "The plural is Babys.",
+      "acceptedAnswers": [
+        "Babys"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Baby mean?",
+      "options": [
+        "baby",
+        "to learn",
+        "to sing"
+      ],
+      "answer": "baby",
+      "explanation": "Baby: baby.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Baby is neuter, like…",
+      "options": [
+        "das Kind",
+        "der Mann"
+      ],
+      "answer": "das Kind",
+      "explanation": "Das Baby, das Kind.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "How is Baby pronounced?",
+      "options": [
+        "like English 'baby'",
+        "BAH-bee"
+      ],
+      "answer": "like English 'baby'",
+      "explanation": "It's borrowed from English.",
+      "id": "q5"
+    }
+  ]
+}

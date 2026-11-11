@@ -1,0 +1,106 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "ökonomisch",
+    "partOfSpeech": "adjective",
+    "pronunciation": {
+      "respelling": "ö-ko-NOH-mish",
+      "ipa": "økoˈnoːmɪʃ",
+      "notes": ""
+    },
+    "meaning": "economic; economical",
+    "shortDefinition": "Economic; economical."
+  },
+  "sampleSentences": [
+    {
+      "german": "Die ökonomische Lage ist schwierig.",
+      "english": "The economic situation is difficult.",
+      "highlight": [
+        "ökonomische"
+      ]
+    },
+    {
+      "german": "Das ist nicht ökonomisch.",
+      "english": "That's not economical.",
+      "highlight": [
+        "ökonomisch."
+      ]
+    },
+    {
+      "german": "Aus ökonomischen Gründen.",
+      "english": "For economic reasons.",
+      "highlight": [
+        "ökonomischen"
+      ]
+    }
+  ],
+  "forms": [
+    "Ökonomie",
+    "wirtschaftlich"
+  ],
+  "memoryHook": "Ökonomisch = wirtschaftlich ≠ ökologisch.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does ökonomisch mean?",
+      "options": [
+        "quiet",
+        "economic",
+        "the job"
+      ],
+      "answer": "economic",
+      "explanation": "ökonomisch: economic; economical.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Everyday synonym:",
+      "options": [
+        "wirtschaftlich",
+        "ökologisch"
+      ],
+      "answer": "wirtschaftlich",
+      "explanation": "Economic.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Don't confuse with…",
+      "options": [
+        "ökologisch (ecological)",
+        "ökonomisch only"
+      ],
+      "answer": "ökologisch (ecological)",
+      "explanation": "Different.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Noun:",
+      "options": [
+        "die Ökonomie / der Ökonom",
+        "die Ökonomik only"
+      ],
+      "answer": "die Ökonomie / der Ökonom",
+      "explanation": "Economy, economist.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Eine ___ Krise. (economic)",
+      "answer": "ökonomische",
+      "fullAnswer": "Eine ökonomische Krise.",
+      "explanation": "Ökonomische.",
+      "acceptedAnswers": [
+        "wirtschaftliche"
+      ],
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Teufel",
+    "partOfSpeech": "noun, masculine (der Teufel)",
+    "pronunciation": {
+      "respelling": "TOY-fel",
+      "ipa": "ˈtɔɪ̯fl̩",
+      "notes": "The plural looks the same. Plural: die Teufel."
+    },
+    "meaning": "devil",
+    "shortDefinition": "Devil."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Teufel, plural die Teufel.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Teufel"
+        },
+        {
+          "label": "More than one",
+          "value": "die Teufel"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er glaubt nicht an den Teufel.",
+      "english": "He doesn't believe in the devil.",
+      "highlight": [
+        "Teufel."
+      ]
+    },
+    {
+      "german": "Wenn man vom Teufel spricht!",
+      "english": "Speak of the devil!",
+      "highlight": [
+        "Teufel"
+      ]
+    },
+    {
+      "german": "Pfui Teufel!",
+      "english": "Yuck!",
+      "highlight": [
+        "Teufel!"
+      ]
+    }
+  ],
+  "forms": [
+    "Teufel",
+    "die Teufel",
+    "der Teufel"
+  ],
+  "memoryHook": "Der Teufel; wenn man vom Teufel spricht…",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Teufel",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Teufel is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Teufel, zwei ___",
+      "answer": "Teufel",
+      "fullAnswer": "ein Teufel, zwei Teufel",
+      "explanation": "The plural is Teufel.",
+      "acceptedAnswers": [
+        "Teufel"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Teufel mean?",
+      "options": [
+        "devil",
+        "to travel",
+        "slowly"
+      ],
+      "answer": "devil",
+      "explanation": "Teufel: devil.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Wenn man vom Teufel spricht' means…",
+      "options": [
+        "speak of the devil",
+        "the devil speaks"
+      ],
+      "answer": "speak of the devil",
+      "explanation": "Idiom.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Auf Teufel komm raus' means…",
+      "options": [
+        "at all costs",
+        "devil come out"
+      ],
+      "answer": "at all costs",
+      "explanation": "Idiom.",
+      "id": "q5"
+    }
+  ]
+}

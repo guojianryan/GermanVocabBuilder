@@ -1,0 +1,138 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Weltkrieg",
+    "partOfSpeech": "noun, masculine (der Weltkrieg)",
+    "pronunciation": {
+      "respelling": "VELT-kreek",
+      "ipa": "ˈvɛltkʁiːk",
+      "notes": "Plural: die Weltkriege."
+    },
+    "meaning": "world war",
+    "shortDefinition": "World war."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Welt",
+        "meaning": "world"
+      },
+      {
+        "part": "krieg",
+        "meaning": "war"
+      }
+    ],
+    "literalMeaning": "world war"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Weltkrieg, plural die Weltkriege.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Weltkrieg"
+        },
+        {
+          "label": "More than one",
+          "value": "die Weltkriege"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Zweite Weltkrieg endete 1945.",
+      "english": "The Second World War ended in 1945.",
+      "highlight": [
+        "Weltkrieg"
+      ]
+    },
+    {
+      "german": "Mein Opa war im Weltkrieg.",
+      "english": "My grandpa was in the world war.",
+      "highlight": [
+        "Weltkrieg."
+      ]
+    },
+    {
+      "german": "Nach dem Ersten Weltkrieg …",
+      "english": "After the First World War …",
+      "highlight": [
+        "Weltkrieg"
+      ]
+    }
+  ],
+  "forms": [
+    "Weltkriege",
+    "die Weltkriege",
+    "der Weltkrieg"
+  ],
+  "memoryHook": "Welt + Krieg = world war.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Weltkrieg",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Weltkrieg is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Weltkrieg, zwei ___",
+      "answer": "Weltkriege",
+      "fullAnswer": "ein Weltkrieg, zwei Weltkriege",
+      "explanation": "The plural is Weltkriege.",
+      "acceptedAnswers": [
+        "Weltkriege"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Weltkrieg mean?",
+      "options": [
+        "world war",
+        "cheap",
+        "to sing"
+      ],
+      "answer": "world war",
+      "explanation": "Weltkrieg: world war.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Welt + Krieg",
+        "Welt + kriegen"
+      ],
+      "answer": "Welt + Krieg",
+      "explanation": "World war.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Der Zweite Weltkrieg' — Zweite is…",
+      "options": [
+        "capitalised (a name)",
+        "lower case"
+      ],
+      "answer": "capitalised (a name)",
+      "explanation": "Proper name.",
+      "id": "q5"
+    }
+  ]
+}

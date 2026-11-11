@@ -1,0 +1,115 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Milch",
+    "partOfSpeech": "noun, feminine (die Milch)",
+    "pronunciation": {
+      "respelling": "MILKH",
+      "ipa": "mɪlç",
+      "notes": "No plural. Usually no plural."
+    },
+    "meaning": "milk",
+    "shortDefinition": "Milk."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Milch, usually no plural.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Milch"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Trinkst du deinen Kaffee mit Milch?",
+      "english": "Do you take milk in your coffee?",
+      "highlight": [
+        "Milch?"
+      ]
+    },
+    {
+      "german": "Wir brauchen noch Milch.",
+      "english": "We still need milk.",
+      "highlight": [
+        "Milch."
+      ]
+    },
+    {
+      "german": "Die Milch ist im Kühlschrank.",
+      "english": "The milk is in the fridge.",
+      "highlight": [
+        "Milch"
+      ]
+    }
+  ],
+  "forms": [
+    "die Milch"
+  ],
+  "memoryHook": "Die Milch: feminine, soft ch. Milchkaffee = milky coffee.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Milch",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Milch is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Milch mean?",
+      "options": [
+        "the family",
+        "cheap",
+        "milk"
+      ],
+      "answer": "milk",
+      "explanation": "Milch: milk.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Milch is…",
+      "options": [
+        "feminine",
+        "masculine"
+      ],
+      "answer": "feminine",
+      "explanation": "Die Milch.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "The ch in Milch is…",
+      "options": [
+        "soft, as in ich",
+        "hard, as in Bach"
+      ],
+      "answer": "soft, as in ich",
+      "explanation": "After l, soft ch.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Kaffee mit ___ (milk)",
+      "answer": "Milch",
+      "fullAnswer": "Kaffee mit Milch",
+      "explanation": "Die Milch.",
+      "id": "q5"
+    }
+  ]
+}

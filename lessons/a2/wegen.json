@@ -1,0 +1,103 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "wegen",
+    "partOfSpeech": "preposition (+ genitive / dative)",
+    "pronunciation": {
+      "respelling": "VAY-gen",
+      "ipa": "ˈveːɡn̩",
+      "notes": ""
+    },
+    "meaning": "because of",
+    "shortDefinition": "Because of."
+  },
+  "sampleSentences": [
+    {
+      "german": "Wegen des Regens bleiben wir zu Hause.",
+      "english": "Because of the rain we're staying in.",
+      "highlight": [
+        "Wegen"
+      ]
+    },
+    {
+      "german": "Wegen dem Stau komme ich zu spät.",
+      "english": "I'll be late because of the traffic (informal).",
+      "highlight": [
+        "Wegen"
+      ]
+    },
+    {
+      "german": "Meinetwegen!",
+      "english": "Fine by me!",
+      "highlight": [
+        "Meinetwegen!"
+      ]
+    }
+  ],
+  "forms": [
+    "meinetwegen",
+    "deswegen"
+  ],
+  "memoryHook": "Wegen + noun (wegen des Regens). Weil + clause (weil es regnet).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does wegen mean?",
+      "options": [
+        "to sleep",
+        "because of",
+        "slowly"
+      ],
+      "answer": "because of",
+      "explanation": "wegen: because of.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Wegen + …",
+      "options": [
+        "a noun (not a clause)",
+        "a clause with a verb"
+      ],
+      "answer": "a noun (not a clause)",
+      "explanation": "Clause: weil.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Because it's raining':",
+      "options": [
+        "weil es regnet",
+        "wegen es regnet"
+      ],
+      "answer": "weil es regnet",
+      "explanation": "Weil + verb.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Meinetwegen' means…",
+      "options": [
+        "fine by me / for my sake",
+        "because of mine"
+      ],
+      "answer": "fine by me / for my sake",
+      "explanation": "Idiom.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "___ der Arbeit habe ich keine Zeit. (because of)",
+      "answer": "Wegen",
+      "fullAnswer": "Wegen der Arbeit habe ich keine Zeit.",
+      "explanation": "Wegen.",
+      "id": "q5"
+    }
+  ]
+}

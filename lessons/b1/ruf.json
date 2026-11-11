@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Ruf",
+    "partOfSpeech": "noun, masculine (der Ruf)",
+    "pronunciation": {
+      "respelling": "ROOF",
+      "ipa": "ʁuːf",
+      "notes": "Plural: die Rufe."
+    },
+    "meaning": "reputation; call",
+    "shortDefinition": "Reputation; call."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Ruf, plural die Rufe.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Ruf"
+        },
+        {
+          "label": "More than one",
+          "value": "die Rufe"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das Hotel hat einen guten Ruf.",
+      "english": "The hotel has a good reputation.",
+      "highlight": [
+        "Ruf."
+      ]
+    },
+    {
+      "german": "Ich hörte einen Ruf.",
+      "english": "I heard a call.",
+      "highlight": [
+        "Ruf."
+      ]
+    },
+    {
+      "german": "Sein Ruf ist ruiniert.",
+      "english": "His reputation is ruined.",
+      "highlight": [
+        "Ruf"
+      ]
+    }
+  ],
+  "forms": [
+    "Rufe",
+    "die Rufe",
+    "der Ruf"
+  ],
+  "memoryHook": "Der Ruf: call; reputation.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Ruf",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Ruf is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Ruf, zwei ___",
+      "answer": "Rufe",
+      "fullAnswer": "ein Ruf, zwei Rufe",
+      "explanation": "The plural is Rufe.",
+      "acceptedAnswers": [
+        "Rufe"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Ruf mean?",
+      "options": [
+        "cheap",
+        "to sleep",
+        "reputation"
+      ],
+      "answer": "reputation",
+      "explanation": "Ruf: reputation; call.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Einen guten Ruf haben' means…",
+      "options": [
+        "to have a good reputation",
+        "to make a good call"
+      ],
+      "answer": "to have a good reputation",
+      "explanation": "Reputation.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "rufen (call)",
+        "Ruhe"
+      ],
+      "answer": "rufen (call)",
+      "explanation": "Call.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Streik",
+    "partOfSpeech": "noun, masculine (der Streik)",
+    "pronunciation": {
+      "respelling": "SHTRIKE",
+      "ipa": "ʃtʁaɪ̯k",
+      "notes": "Plural: die Streiks."
+    },
+    "meaning": "strike",
+    "shortDefinition": "Strike."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Streik, plural die Streiks.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Streik"
+        },
+        {
+          "label": "More than one",
+          "value": "die Streiks"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wegen des Streiks fahren keine Züge.",
+      "english": "No trains are running because of the strike.",
+      "highlight": [
+        "Streiks"
+      ]
+    },
+    {
+      "german": "Der Streik dauert eine Woche.",
+      "english": "The strike lasts a week.",
+      "highlight": [
+        "Streik"
+      ]
+    },
+    {
+      "german": "Die Gewerkschaft ruft zum Streik auf.",
+      "english": "The union is calling a strike.",
+      "highlight": [
+        "Streik"
+      ]
+    }
+  ],
+  "forms": [
+    "Streiks",
+    "die Streiks",
+    "der Streik"
+  ],
+  "memoryHook": "Der Streik, die Streiks.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Streik",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Streik is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Streik, zwei ___",
+      "answer": "Streiks",
+      "fullAnswer": "ein Streik, zwei Streiks",
+      "explanation": "The plural is Streiks.",
+      "acceptedAnswers": [
+        "Streiks"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Streik mean?",
+      "options": [
+        "the child",
+        "the window",
+        "strike"
+      ],
+      "answer": "strike",
+      "explanation": "Streik: strike.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Streiks",
+        "Streike"
+      ],
+      "answer": "Streiks",
+      "explanation": "-s.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Union:",
+      "options": [
+        "die Gewerkschaft",
+        "die Firma"
+      ],
+      "answer": "die Gewerkschaft",
+      "explanation": "Union.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "haften",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "HAF-ten",
+      "ipa": "ˈhaftn̩",
+      "notes": ""
+    },
+    "meaning": "to be liable; to stick",
+    "shortDefinition": "To be liable; to stick."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "haft|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "haft|est"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "haft|et"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "haft|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "haft|et"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "haft|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gehaftet"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Eltern haften für ihre Kinder.",
+      "english": "Parents are liable for their children.",
+      "highlight": [
+        "haften"
+      ]
+    },
+    {
+      "german": "Der Aufkleber haftet nicht.",
+      "english": "The sticker won't stick.",
+      "highlight": [
+        "haftet"
+      ]
+    },
+    {
+      "german": "Für Garderobe wird nicht gehaftet.",
+      "english": "No liability for cloakroom items.",
+      "highlight": [
+        "gehaftet."
+      ]
+    }
+  ],
+  "forms": [
+    "Haftung",
+    "Haft"
+  ],
+  "memoryHook": "Haften (für) = be liable; stick; die Haftung; GmbH = mit beschränkter Haftung.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (haften)",
+      "answer": "haftet",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: haftet.",
+      "acceptedAnswers": [
+        "haftet"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (haften, past)",
+      "answer": "gehaftet",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gehaftet.",
+      "acceptedAnswers": [
+        "gehaftet"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does haften mean?",
+      "options": [
+        "to be liable",
+        "to open",
+        "the shop"
+      ],
+      "answer": "to be liable",
+      "explanation": "haften: to be liable; to stick.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Haften für' means…",
+      "options": [
+        "to be liable for",
+        "to arrest"
+      ],
+      "answer": "to be liable for",
+      "explanation": "Liable.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Liability:",
+      "options": [
+        "die Haftung",
+        "die Haft (custody)"
+      ],
+      "answer": "die Haftung",
+      "explanation": "Liability.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Die Haft' means…",
+      "options": [
+        "custody, imprisonment",
+        "liability"
+      ],
+      "answer": "custody, imprisonment",
+      "explanation": "Prison.",
+      "id": "q6"
+    }
+  ]
+}

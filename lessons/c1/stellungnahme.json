@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Stellungnahme",
+    "partOfSpeech": "noun, feminine (die Stellungnahme)",
+    "pronunciation": {
+      "respelling": "SHTE-lung-naa-me",
+      "ipa": "ˈʃtɛlʊŋsˌnaːmə",
+      "notes": "Plural: die Stellungnahmen."
+    },
+    "meaning": "statement, comment, opinion",
+    "shortDefinition": "Statement, comment, opinion."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Stellung",
+        "meaning": "position"
+      },
+      {
+        "part": "nahme",
+        "meaning": "taking (nehmen)"
+      }
+    ],
+    "literalMeaning": "a position-taking"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Stellungnahme, plural die Stellungnahmen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Stellungnahme"
+        },
+        {
+          "label": "More than one",
+          "value": "die Stellungnahmen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Firma gab eine Stellungnahme ab.",
+      "english": "The company issued a statement.",
+      "highlight": [
+        "Stellungnahme"
+      ]
+    },
+    {
+      "german": "Er lehnte eine Stellungnahme ab.",
+      "english": "He declined to comment.",
+      "highlight": [
+        "Stellungnahme"
+      ]
+    },
+    {
+      "german": "Bitte schreiben Sie eine Stellungnahme.",
+      "english": "Please write a statement of your view.",
+      "highlight": [
+        "Stellungnahme."
+      ]
+    }
+  ],
+  "forms": [
+    "Stellung"
+  ],
+  "memoryHook": "Stellung nehmen → die Stellungnahme.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Stellungnahme",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Stellungnahme is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Stellungnahme, zwei ___",
+      "answer": "Stellungnahmen",
+      "fullAnswer": "ein Stellungnahme, zwei Stellungnahmen",
+      "explanation": "The plural is Stellungnahmen.",
+      "acceptedAnswers": [
+        "Stellungnahmen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Stellungnahme mean?",
+      "options": [
+        "statement",
+        "the door",
+        "the street"
+      ],
+      "answer": "statement",
+      "explanation": "Stellungnahme: statement, comment, opinion.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "Stellung nehmen (take a position)",
+        "stellen + nehmen"
+      ],
+      "answer": "Stellung nehmen (take a position)",
+      "explanation": "Comment.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Eine Stellungnahme abgeben' means…",
+      "options": [
+        "to issue a statement",
+        "to give up a position"
+      ],
+      "answer": "to issue a statement",
+      "explanation": "Collocation.",
+      "id": "q5"
+    }
+  ]
+}

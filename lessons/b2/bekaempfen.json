@@ -1,0 +1,180 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "bekämpfen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "be-KEMP-fen",
+      "ipa": "bəˈkɛmpfn̩",
+      "notes": ""
+    },
+    "meaning": "to fight, combat",
+    "shortDefinition": "To fight, combat."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "be",
+        "meaning": "prefix (against)"
+      },
+      {
+        "part": "kämpfen",
+        "meaning": "to fight"
+      }
+    ],
+    "literalMeaning": "to fight against"
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "bekämpf|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "bekämpf|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "bekämpf|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "bekämpf|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "bekämpf|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "bekämpf|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat bekämpft"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir müssen die Armut bekämpfen.",
+      "english": "We must fight poverty.",
+      "highlight": [
+        "bekämpfen."
+      ]
+    },
+    {
+      "german": "Das Feuer wurde schnell bekämpft.",
+      "english": "The fire was quickly tackled.",
+      "highlight": [
+        "bekämpft."
+      ]
+    },
+    {
+      "german": "Sie bekämpfen sich seit Jahren.",
+      "english": "They've been fighting each other for years.",
+      "highlight": [
+        "bekämpfen"
+      ]
+    }
+  ],
+  "forms": [
+    "kämpfen",
+    "Bekämpfung"
+  ],
+  "memoryHook": "Bekämpfen + Akk. = kämpfen gegen; die Bekämpfung.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (bekämpfen)",
+      "answer": "bekämpft",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: bekämpft.",
+      "acceptedAnswers": [
+        "bekaempft"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (bekämpfen, past)",
+      "answer": "bekämpft",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe bekämpft.",
+      "acceptedAnswers": [
+        "bekaempft"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does bekämpfen mean?",
+      "options": [
+        "to learn",
+        "to fight",
+        "the bread"
+      ],
+      "answer": "to fight",
+      "explanation": "bekämpfen: to fight, combat.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Bekämpfen vs kämpfen:",
+      "options": [
+        "takes a direct object vs kämpfen gegen",
+        "same"
+      ],
+      "answer": "takes a direct object vs kämpfen gegen",
+      "explanation": "Grammar.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Noun:",
+      "options": [
+        "die Bekämpfung",
+        "der Bekampf"
+      ],
+      "answer": "die Bekämpfung",
+      "explanation": "Fight.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "der Kampf (fight)",
+        "Kamm"
+      ],
+      "answer": "der Kampf (fight)",
+      "explanation": "Fight.",
+      "id": "q6"
+    }
+  ]
+}

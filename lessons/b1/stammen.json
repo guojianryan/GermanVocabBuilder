@@ -1,0 +1,160 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "stammen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "SHTAM-en",
+      "ipa": "ˈʃtamən",
+      "notes": ""
+    },
+    "meaning": "to come from, originate",
+    "shortDefinition": "To come from, originate."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "stamm|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "stamm|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "stamm|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "stamm|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "stamm|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "stamm|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gestammt"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er stammt aus Italien.",
+      "english": "He comes from Italy.",
+      "highlight": [
+        "stammt",
+        "aus"
+      ]
+    },
+    {
+      "german": "Das Wort stammt aus dem Lateinischen.",
+      "english": "The word comes from Latin.",
+      "highlight": [
+        "stammt",
+        "aus"
+      ]
+    },
+    {
+      "german": "Woher stammt das Bild?",
+      "english": "Where does the picture come from?",
+      "highlight": [
+        "stammt"
+      ]
+    }
+  ],
+  "forms": [
+    "stamme",
+    "stammst",
+    "stammt",
+    "stammen",
+    "gestammt"
+  ],
+  "memoryHook": "Stammen aus = come from (originally).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (stammen)",
+      "answer": "stammt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: stammt.",
+      "acceptedAnswers": [
+        "stammt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (stammen, past)",
+      "answer": "gestammt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gestammt.",
+      "acceptedAnswers": [
+        "gestammt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does stammen mean?",
+      "options": [
+        "to wait",
+        "to sleep",
+        "to come from"
+      ],
+      "answer": "to come from",
+      "explanation": "stammen: to come from, originate.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Preposition:",
+      "options": [
+        "stammen aus / von",
+        "stammen in"
+      ],
+      "answer": "stammen aus / von",
+      "explanation": "Origin.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Related noun:",
+      "options": [
+        "der Stamm (trunk, tribe)",
+        "die Stimme"
+      ],
+      "answer": "der Stamm (trunk, tribe)",
+      "explanation": "Root.",
+      "id": "q5"
+    }
+  ]
+}

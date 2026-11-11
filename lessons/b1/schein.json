@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Schein",
+    "partOfSpeech": "noun, masculine (der Schein)",
+    "pronunciation": {
+      "respelling": "SHINE",
+      "ipa": "ʃaɪ̯n",
+      "notes": "Plural: die Scheine."
+    },
+    "meaning": "banknote; certificate; light; appearance",
+    "shortDefinition": "Banknote; certificate; light; appearance."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Schein, plural die Scheine.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Schein"
+        },
+        {
+          "label": "More than one",
+          "value": "die Scheine"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Hast du einen Zehn-Euro-Schein?",
+      "english": "Have you got a ten-euro note?",
+      "highlight": [
+        "Zehn-Euro-Schein?"
+      ]
+    },
+    {
+      "german": "Der Schein trügt.",
+      "english": "Appearances are deceptive.",
+      "highlight": [
+        "Schein"
+      ]
+    },
+    {
+      "german": "Ich brauche einen Krankenschein.",
+      "english": "I need a sick note.",
+      "highlight": [
+        "Krankenschein."
+      ]
+    }
+  ],
+  "forms": [
+    "Geldschein"
+  ],
+  "memoryHook": "Der Schein: note (money), certificate, light, appearance.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Schein",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Schein is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Schein, zwei ___",
+      "answer": "Scheine",
+      "fullAnswer": "ein Schein, zwei Scheine",
+      "explanation": "The plural is Scheine.",
+      "acceptedAnswers": [
+        "Scheine"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Schein mean?",
+      "options": [
+        "the weather",
+        "never",
+        "banknote"
+      ],
+      "answer": "banknote",
+      "explanation": "Schein: banknote; certificate; light; appearance.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Der Schein trügt' means…",
+      "options": [
+        "appearances are deceptive",
+        "the note is fake"
+      ],
+      "answer": "appearances are deceptive",
+      "explanation": "Proverb.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "scheinen (shine, seem)",
+        "Schwein"
+      ],
+      "answer": "scheinen (shine, seem)",
+      "explanation": "Shine.",
+      "id": "q5"
+    }
+  ]
+}

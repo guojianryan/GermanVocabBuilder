@@ -1,0 +1,146 @@
+{
+ "schemaVersion": "1.4",
+ "language": "de",
+ "explanationLanguage": "en",
+ "level": "A1",
+ "levelSource": "Goethe-Zertifikat A1 Wortliste",
+ "lessonType": "card",
+ "word": {
+  "headword": "Hähnchen",
+  "partOfSpeech": "noun, neuter (das Hähnchen)",
+  "pronunciation": {
+   "respelling": "HAYN-khen",
+   "ipa": "ˈhɛːnçən",
+   "notes": "The plural looks the same. Plural: die Hähnchen."
+  },
+  "meaning": "chicken (as food)",
+  "shortDefinition": "Chicken (as food)."
+ },
+ "etymology": {
+  "title": "Where it comes from",
+  "parts": [
+   {
+    "part": "Hähn",
+    "meaning": "cockerel (Hahn)"
+   },
+   {
+    "part": "chen",
+    "meaning": "little (diminutive)"
+   }
+  ],
+  "literalMeaning": "little cockerel",
+  "summary": "Hahn (rooster) + -chen (small), with an umlaut."
+ },
+ "wordFamily": [
+  {
+   "german": "das Huhn",
+   "english": "hen, chicken",
+   "type": "noun"
+  }
+ ],
+ "commonMistakes": [
+  {
+   "title": "Gender and plural",
+   "explanation": "Das Hähnchen, plural die Hähnchen.",
+   "forms": [
+    {
+     "label": "One",
+     "value": "das Hähnchen"
+    },
+    {
+     "label": "More than one",
+     "value": "die Hähnchen"
+    }
+   ]
+  }
+ ],
+ "sampleSentences": [
+  {
+   "german": "Ich nehme das Hähnchen mit Pommes.",
+   "english": "I'll have the chicken with chips.",
+   "highlight": [
+    "Hähnchen"
+   ]
+  },
+  {
+   "german": "Zum Mittagessen gibt es Hähnchen.",
+   "english": "There's chicken for lunch.",
+   "highlight": [
+    "Hähnchen."
+   ]
+  },
+  {
+   "german": "Wir grillen zwei Hähnchen.",
+   "english": "We're grilling two chickens.",
+   "highlight": [
+    "Hähnchen."
+   ]
+  }
+ ],
+ "forms": [
+  "Hähnchen",
+  "die Hähnchen",
+  "das Hähnchen"
+ ],
+ "memoryHook": "Der Hahn (rooster) + -chen. On the menu it's Hähnchen; on the farm it's ein Huhn.",
+ "signOff": "Gut gemacht!",
+ "quiz": [
+  {
+   "type": "choice",
+   "prompt": "___ Hähnchen",
+   "options": [
+    "der",
+    "die",
+    "das"
+   ],
+   "answer": "das",
+   "explanation": "Hähnchen is neuter.",
+   "id": "q1"
+  },
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "ein Hähnchen, zwei ___",
+   "answer": "Hähnchen",
+   "fullAnswer": "ein Hähnchen, zwei Hähnchen",
+   "explanation": "The plural is Hähnchen.",
+   "acceptedAnswers": [
+    "Haehnchen"
+   ],
+   "id": "q2"
+  },
+  {
+   "type": "choice",
+   "prompt": "What does Hähnchen mean?",
+   "options": [
+    "chicken (as food)",
+    "the shop",
+    "tomorrow"
+   ],
+   "answer": "chicken (as food)",
+   "explanation": "Hähnchen: chicken (as food).",
+   "id": "q3"
+  },
+  {
+   "type": "choice",
+   "prompt": "Hähnchen is neuter because…",
+   "options": [
+    "it ends in -chen",
+    "chickens are neuter"
+   ],
+   "answer": "it ends in -chen",
+   "explanation": "All -chen nouns are neuter.",
+   "id": "q4"
+  },
+  {
+   "type": "choice",
+   "prompt": "A live chicken on a farm is usually…",
+   "options": [
+    "das Huhn",
+    "das Hähnchen"
+   ],
+   "answer": "das Huhn",
+   "explanation": "Hähnchen is mostly food.",
+   "id": "q5"
+  }
+ ]
+}

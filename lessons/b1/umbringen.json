@@ -1,0 +1,174 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "umbringen",
+    "partOfSpeech": "separable verb",
+    "pronunciation": {
+      "respelling": "OOM-bring-en",
+      "ipa": "ˈʊmˌbʁɪŋən",
+      "notes": ""
+    },
+    "meaning": "to kill",
+    "shortDefinition": "To kill."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "um",
+        "meaning": "over, down"
+      },
+      {
+        "part": "bringen",
+        "meaning": "to bring"
+      }
+    ],
+    "literalMeaning": "to bring down",
+    "summary": "Bringing a life to an end."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "bring|e … |um"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "bring|st … |um"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "bring|t … |um"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "bring|en … |um"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "bring|t … |um"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "bring|en … |um"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat umgebracht"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Mörder hat drei Menschen umgebracht.",
+      "english": "The murderer killed three people.",
+      "highlight": [
+        "umgebracht."
+      ]
+    },
+    {
+      "german": "Diese Hitze bringt mich um!",
+      "english": "This heat is killing me!",
+      "highlight": [
+        "bringt",
+        "um!"
+      ]
+    },
+    {
+      "german": "Ich könnte ihn umbringen!",
+      "english": "I could kill him!",
+      "highlight": [
+        "umbringen!"
+      ]
+    }
+  ],
+  "forms": [
+    "bringe um",
+    "bringst um",
+    "bringt um",
+    "bringen um",
+    "umgebracht"
+  ],
+  "memoryHook": "Umbringen (brachte um, hat umgebracht) = töten.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ … um (umbringen)",
+      "answer": "bringt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: bringt … um.",
+      "acceptedAnswers": [
+        "bringt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (umbringen, past)",
+      "answer": "umgebracht",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe umgebracht.",
+      "acceptedAnswers": [
+        "umgebracht"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does umbringen mean?",
+      "options": [
+        "the station",
+        "to travel",
+        "to kill"
+      ],
+      "answer": "to kill",
+      "explanation": "umbringen: to kill.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "hat umgebracht",
+        "hat umgebringt"
+      ],
+      "answer": "hat umgebracht",
+      "explanation": "Mixed: brachte, gebracht.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonym (formal):",
+      "options": [
+        "töten",
+        "sterben"
+      ],
+      "answer": "töten",
+      "explanation": "Kill.",
+      "id": "q5"
+    }
+  ]
+}

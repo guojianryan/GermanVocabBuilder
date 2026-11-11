@@ -1,0 +1,120 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "zugunsten",
+    "partOfSpeech": "preposition",
+    "pronunciation": {
+      "respelling": "tsoo-GOONS-ten",
+      "ipa": "tsuˈɡʊnstn̩",
+      "notes": ""
+    },
+    "meaning": "in favour of, for the benefit of",
+    "shortDefinition": "In favour of, for the benefit of."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "zu",
+        "meaning": "to"
+      },
+      {
+        "part": "gunsten",
+        "meaning": "favour (Gunst)"
+      }
+    ],
+    "literalMeaning": "to the favour of"
+  },
+  "sampleSentences": [
+    {
+      "german": "Das Konzert ist zugunsten der Kinderhilfe.",
+      "english": "The concert is in aid of children's charity.",
+      "highlight": [
+        "zugunsten"
+      ]
+    },
+    {
+      "german": "Er verzichtete zugunsten seines Bruders.",
+      "english": "He stepped aside in favour of his brother.",
+      "highlight": [
+        "zugunsten"
+      ]
+    },
+    {
+      "german": "Das Urteil fiel zugunsten des Angeklagten.",
+      "english": "The verdict went in the defendant's favour.",
+      "highlight": [
+        "zugunsten"
+      ]
+    }
+  ],
+  "forms": [
+    "Gunst"
+  ],
+  "memoryHook": "Zugunsten + Gen. = in favour of ↔ zulasten.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does zugunsten mean?",
+      "options": [
+        "to sing",
+        "in favour of",
+        "the window"
+      ],
+      "answer": "in favour of",
+      "explanation": "zugunsten: in favour of, for the benefit of.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Case:",
+      "options": [
+        "genitive",
+        "dative"
+      ],
+      "answer": "genitive",
+      "explanation": "Genitive.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Opposite:",
+      "options": [
+        "zuungunsten / zulasten",
+        "zugrunde"
+      ],
+      "answer": "zuungunsten / zulasten",
+      "explanation": "To the detriment.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Also written…",
+      "options": [
+        "zu Gunsten",
+        "zuGunsten"
+      ],
+      "answer": "zu Gunsten",
+      "explanation": "Both.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Eine Spende ___ der Opfer. (in aid of)",
+      "answer": "zugunsten",
+      "fullAnswer": "Eine Spende zugunsten der Opfer.",
+      "explanation": "Zugunsten.",
+      "acceptedAnswers": [
+        "zu Gunsten",
+        "für"
+      ],
+      "id": "q5"
+    }
+  ]
+}

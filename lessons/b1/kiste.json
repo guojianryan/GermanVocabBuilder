@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Kiste",
+    "partOfSpeech": "noun, feminine (die Kiste)",
+    "pronunciation": {
+      "respelling": "KIS-te",
+      "ipa": "ˈkɪstə",
+      "notes": "Plural: die Kisten."
+    },
+    "meaning": "box, crate",
+    "shortDefinition": "Box, crate."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Kiste, plural die Kisten.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Kiste"
+        },
+        {
+          "label": "More than one",
+          "value": "die Kisten"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Bücher sind in der Kiste.",
+      "english": "The books are in the box.",
+      "highlight": [
+        "Kiste."
+      ]
+    },
+    {
+      "german": "Ich kaufe eine Kiste Wasser.",
+      "english": "I'm buying a crate of water.",
+      "highlight": [
+        "Kiste"
+      ]
+    },
+    {
+      "german": "Wir packen alles in Kisten.",
+      "english": "We're packing everything into boxes.",
+      "highlight": [
+        "Kisten."
+      ]
+    }
+  ],
+  "forms": [
+    "Kisten",
+    "die Kisten",
+    "die Kiste"
+  ],
+  "memoryHook": "Die Kiste = box, crate.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Kiste",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Kiste is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Kiste, zwei ___",
+      "answer": "Kisten",
+      "fullAnswer": "ein Kiste, zwei Kisten",
+      "explanation": "The plural is Kisten.",
+      "acceptedAnswers": [
+        "Kisten"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Kiste mean?",
+      "options": [
+        "box",
+        "to buy",
+        "the street"
+      ],
+      "answer": "box",
+      "explanation": "Kiste: box, crate.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonyms:",
+      "options": [
+        "der Karton, die Box",
+        "die Kasse"
+      ],
+      "answer": "der Karton, die Box",
+      "explanation": "Box.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Eine Kiste Bier' is…",
+      "options": [
+        "a crate of beer",
+        "a box of beer cans only"
+      ],
+      "answer": "a crate of beer",
+      "explanation": "Crate.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Generalsekretär",
+    "partOfSpeech": "noun, masculine (der Generalsekretär)",
+    "pronunciation": {
+      "respelling": "ge-ne-RAAL-ze-kre-tair",
+      "ipa": "ɡenəˈʁaːlzekʁeˌtɛːɐ̯",
+      "notes": "Plural: die Generalsekretäre."
+    },
+    "meaning": "secretary-general",
+    "shortDefinition": "Secretary-general."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "General",
+        "meaning": "general, chief"
+      },
+      {
+        "part": "sekretär",
+        "meaning": "secretary"
+      }
+    ],
+    "literalMeaning": "chief secretary"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Generalsekretär, plural die Generalsekretäre.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Generalsekretär"
+        },
+        {
+          "label": "More than one",
+          "value": "die Generalsekretäre"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der UN-Generalsekretär besucht Berlin.",
+      "english": "The UN Secretary-General is visiting Berlin.",
+      "highlight": [
+        "UN-Generalsekretär"
+      ]
+    },
+    {
+      "german": "Sie ist Generalsekretärin der Partei.",
+      "english": "She's the party's general secretary.",
+      "highlight": [
+        "Generalsekretärin"
+      ]
+    },
+    {
+      "german": "Der neue Generalsekretär wurde gewählt.",
+      "english": "The new secretary-general was elected.",
+      "highlight": [
+        "Generalsekretär"
+      ]
+    }
+  ],
+  "forms": [
+    "Sekretär"
+  ],
+  "memoryHook": "General + Sekretär = secretary-general.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Generalsekretär",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Generalsekretär is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Generalsekretär, zwei ___",
+      "answer": "Generalsekretäre",
+      "fullAnswer": "ein Generalsekretär, zwei Generalsekretäre",
+      "explanation": "The plural is Generalsekretäre.",
+      "acceptedAnswers": [
+        "Generalsekretaere"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Generalsekretär mean?",
+      "options": [
+        "to sing",
+        "the street",
+        "secretary-general"
+      ],
+      "answer": "secretary-general",
+      "explanation": "Generalsekretär: secretary-general.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "General + Sekretär",
+        "General (army) + Sekret"
+      ],
+      "answer": "General + Sekretär",
+      "explanation": "Compound.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Generalsekretäre",
+        "Generalsekretärs"
+      ],
+      "answer": "Generalsekretäre",
+      "explanation": "-e.",
+      "id": "q5"
+    }
+  ]
+}

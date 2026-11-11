@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Amerikaner",
+    "partOfSpeech": "noun, masculine (der Amerikaner)",
+    "pronunciation": {
+      "respelling": "a-me-ri-KAA-ner",
+      "ipa": "ameʁiˈkaːnɐ",
+      "notes": "The plural looks the same. Plural: die Amerikaner."
+    },
+    "meaning": "American (person)",
+    "shortDefinition": "American (person)."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Amerikaner, plural die Amerikaner.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Amerikaner"
+        },
+        {
+          "label": "More than one",
+          "value": "die Amerikaner"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er ist Amerikaner.",
+      "english": "He's American.",
+      "highlight": [
+        "Amerikaner."
+      ]
+    },
+    {
+      "german": "Viele Amerikaner besuchen Heidelberg.",
+      "english": "Lots of Americans visit Heidelberg.",
+      "highlight": [
+        "Amerikaner"
+      ]
+    },
+    {
+      "german": "Meine Freundin ist Amerikanerin.",
+      "english": "My friend is American.",
+      "highlight": [
+        "Amerikanerin."
+      ]
+    }
+  ],
+  "forms": [
+    "Amerikanerin"
+  ],
+  "memoryHook": "Der Amerikaner, die Amerikanerin. Er ist Amerikaner.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Amerikaner",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Amerikaner is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Amerikaner, zwei ___",
+      "answer": "Amerikaner",
+      "fullAnswer": "ein Amerikaner, zwei Amerikaner",
+      "explanation": "The plural is Amerikaner.",
+      "acceptedAnswers": [
+        "Amerikaner"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Amerikaner mean?",
+      "options": [
+        "American (person)",
+        "the weather",
+        "the flower"
+      ],
+      "answer": "American (person)",
+      "explanation": "Amerikaner: American (person).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Er ist Amerikaner' — article?",
+      "options": [
+        "no article",
+        "ein"
+      ],
+      "answer": "no article",
+      "explanation": "Nationality: no article.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Female:",
+      "options": [
+        "die Amerikanerin",
+        "die Amerikanerine"
+      ],
+      "answer": "die Amerikanerin",
+      "explanation": "-in.",
+      "id": "q5"
+    }
+  ]
+}

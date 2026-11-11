@@ -1,0 +1,156 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "segeln",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "ZAY-geln",
+      "ipa": "ˈzeːɡl̩n",
+      "notes": ""
+    },
+    "meaning": "to sail",
+    "shortDefinition": "To sail."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "segl|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "segel|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "segel|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "segel|n"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "segel|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "segel|n"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): ist gesegelt"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Im Sommer segeln wir auf dem See.",
+      "english": "In summer we sail on the lake.",
+      "highlight": [
+        "segeln"
+      ]
+    },
+    {
+      "german": "Wir sind nach Dänemark gesegelt.",
+      "english": "We sailed to Denmark.",
+      "highlight": [
+        "sind",
+        "gesegelt."
+      ]
+    },
+    {
+      "german": "Kannst du segeln?",
+      "english": "Can you sail?",
+      "highlight": [
+        "segeln?"
+      ]
+    }
+  ],
+  "forms": [
+    "Segel",
+    "Segelboot"
+  ],
+  "memoryHook": "Segeln (ich segle) → das Segel, das Segelboot.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (segeln)",
+      "answer": "segelt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: segelt.",
+      "acceptedAnswers": [
+        "segelt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich bin schon ___. (segeln, past)",
+      "answer": "gesegelt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: bin gesegelt.",
+      "acceptedAnswers": [
+        "gesegelt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does segeln mean?",
+      "options": [
+        "the bread",
+        "the bill",
+        "to sail"
+      ],
+      "answer": "to sail",
+      "explanation": "segeln: to sail.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt (with a destination):",
+      "options": [
+        "ist gesegelt",
+        "hat gesegelt only"
+      ],
+      "answer": "ist gesegelt",
+      "explanation": "Movement (also hat for the activity).",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Sail (noun):",
+      "options": [
+        "das Segel",
+        "die Segel only"
+      ],
+      "answer": "das Segel",
+      "explanation": "Sail.",
+      "id": "q5"
+    }
+  ]
+}

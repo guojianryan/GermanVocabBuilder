@@ -1,0 +1,157 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "grinsen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "GRIN-zen",
+      "ipa": "ˈɡʁɪnzn̩",
+      "notes": ""
+    },
+    "meaning": "to grin",
+    "shortDefinition": "To grin."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "grins|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "grins|t"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "grins|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "grins|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "grins|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "grins|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gegrinst"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Warum grinst du so?",
+      "english": "Why are you grinning like that?",
+      "highlight": [
+        "grinst"
+      ]
+    },
+    {
+      "german": "Er hat frech gegrinst.",
+      "english": "He grinned cheekily.",
+      "highlight": [
+        "gegrinst."
+      ]
+    },
+    {
+      "german": "Sie grinst über das ganze Gesicht.",
+      "english": "She's grinning from ear to ear.",
+      "highlight": [
+        "grinst"
+      ]
+    }
+  ],
+  "forms": [
+    "grinse",
+    "grinst",
+    "grinsen",
+    "gegrinst"
+  ],
+  "memoryHook": "Grinsen = grin (cheeky); lächeln = smile.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (grinsen)",
+      "answer": "grinst",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: grinst.",
+      "acceptedAnswers": [
+        "grinst"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (grinsen, past)",
+      "answer": "gegrinst",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gegrinst.",
+      "acceptedAnswers": [
+        "gegrinst"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does grinsen mean?",
+      "options": [
+        "to grin",
+        "to sleep",
+        "to travel"
+      ],
+      "answer": "to grin",
+      "explanation": "grinsen: to grin.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Grinsen vs lächeln:",
+      "options": [
+        "grinsen = broad (often cheeky) grin",
+        "same"
+      ],
+      "answer": "grinsen = broad (often cheeky) grin",
+      "explanation": "Cheekier.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "du ___ (grinsen):",
+      "options": [
+        "grinst",
+        "grinsst"
+      ],
+      "answer": "grinst",
+      "explanation": "s-stem: just -t.",
+      "id": "q5"
+    }
+  ]
+}

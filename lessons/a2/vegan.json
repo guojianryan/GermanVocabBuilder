@@ -1,0 +1,103 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Momente A2.2 Kursbuch Glossar",
+  "lessonType": "card",
+  "word": {
+    "headword": "vegan",
+    "partOfSpeech": "adjective",
+    "pronunciation": {
+      "respelling": "ve-GAAN",
+      "ipa": "veˈɡaːn",
+      "notes": ""
+    },
+    "meaning": "vegan",
+    "shortDefinition": "Vegan."
+  },
+  "sampleSentences": [
+    {
+      "german": "Ich ernähre mich vegan.",
+      "english": "I eat a vegan diet.",
+      "highlight": [
+        "vegan."
+      ]
+    },
+    {
+      "german": "Das Restaurant hat vegane Gerichte.",
+      "english": "The restaurant has vegan dishes.",
+      "highlight": [
+        "vegane"
+      ]
+    },
+    {
+      "german": "Ist der Kuchen vegan?",
+      "english": "Is the cake vegan?",
+      "highlight": [
+        "vegan?"
+      ]
+    }
+  ],
+  "forms": [
+    "vegane",
+    "Veganer"
+  ],
+  "memoryHook": "Vegan (stress at the end); der Veganer.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does vegan mean?",
+      "options": [
+        "vegan",
+        "the weather",
+        "expensive"
+      ],
+      "answer": "vegan",
+      "explanation": "vegan: vegan.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "A vegan person:",
+      "options": [
+        "der Veganer / die Veganerin",
+        "der Vegane"
+      ],
+      "answer": "der Veganer / die Veganerin",
+      "explanation": "Person.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Stress on…",
+      "options": [
+        "-GAN",
+        "VE-"
+      ],
+      "answer": "-GAN",
+      "explanation": "End.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Vegan vs vegetarisch:",
+      "options": [
+        "vegan = no animal products at all",
+        "same"
+      ],
+      "answer": "vegan = no animal products at all",
+      "explanation": "Stricter.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Sie lebt ___ . (vegan)",
+      "answer": "vegan",
+      "fullAnswer": "Sie lebt vegan.",
+      "explanation": "Vegan.",
+      "id": "q5"
+    }
+  ]
+}

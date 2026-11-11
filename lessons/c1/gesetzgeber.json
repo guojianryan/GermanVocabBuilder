@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Gesetzgeber",
+    "partOfSpeech": "noun, masculine (der Gesetzgeber)",
+    "pronunciation": {
+      "respelling": "ge-ZETS-gay-ber",
+      "ipa": "ɡəˈzɛtsˌɡeːbɐ",
+      "notes": "The plural looks the same. Plural: die Gesetzgeber."
+    },
+    "meaning": "legislator, legislature",
+    "shortDefinition": "Legislator, legislature."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Gesetz",
+        "meaning": "law"
+      },
+      {
+        "part": "geber",
+        "meaning": "giver"
+      }
+    ],
+    "literalMeaning": "law-giver"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Gesetzgeber, plural die Gesetzgeber.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Gesetzgeber"
+        },
+        {
+          "label": "More than one",
+          "value": "die Gesetzgeber"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Gesetzgeber muss handeln.",
+      "english": "The legislature has to act.",
+      "highlight": [
+        "Gesetzgeber"
+      ]
+    },
+    {
+      "german": "Das hat der Gesetzgeber so vorgesehen.",
+      "english": "That's what the legislator intended.",
+      "highlight": [
+        "Gesetzgeber"
+      ]
+    },
+    {
+      "german": "Die Gesetzgeber in Brüssel.",
+      "english": "The lawmakers in Brussels.",
+      "highlight": [
+        "Gesetzgeber"
+      ]
+    }
+  ],
+  "forms": [
+    "Gesetzgebung"
+  ],
+  "memoryHook": "Gesetz + Geber = legislator; die Gesetzgebung.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Gesetzgeber",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Gesetzgeber is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Gesetzgeber, zwei ___",
+      "answer": "Gesetzgeber",
+      "fullAnswer": "ein Gesetzgeber, zwei Gesetzgeber",
+      "explanation": "The plural is Gesetzgeber.",
+      "acceptedAnswers": [
+        "Gesetzgeber"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Gesetzgeber mean?",
+      "options": [
+        "legislator",
+        "never",
+        "the car"
+      ],
+      "answer": "legislator",
+      "explanation": "Gesetzgeber: legislator, legislature.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Gesetz (law) + Geber (giver)",
+        "Gesetz + geben only"
+      ],
+      "answer": "Gesetz (law) + Geber (giver)",
+      "explanation": "Law-giver.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Legislation:",
+      "options": [
+        "die Gesetzgebung",
+        "die Gesetzgabe"
+      ],
+      "answer": "die Gesetzgebung",
+      "explanation": "Lawmaking.",
+      "id": "q5"
+    }
+  ]
+}

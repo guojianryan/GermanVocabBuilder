@@ -1,0 +1,106 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "schmal",
+    "partOfSpeech": "adjective",
+    "pronunciation": {
+      "respelling": "SHMAAL",
+      "ipa": "ʃmaːl",
+      "notes": ""
+    },
+    "meaning": "narrow, thin",
+    "shortDefinition": "Narrow, thin."
+  },
+  "sampleSentences": [
+    {
+      "german": "Die Straße ist sehr schmal.",
+      "english": "The road is very narrow.",
+      "highlight": [
+        "schmal."
+      ]
+    },
+    {
+      "german": "Sie hat ein schmales Gesicht.",
+      "english": "She has a narrow face.",
+      "highlight": [
+        "schmales"
+      ]
+    },
+    {
+      "german": "Das Budget ist schmal.",
+      "english": "The budget is tight.",
+      "highlight": [
+        "schmal."
+      ]
+    }
+  ],
+  "forms": [
+    "schmale",
+    "schmales"
+  ],
+  "memoryHook": "Schmal ↔ breit.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does schmal mean?",
+      "options": [
+        "to sleep",
+        "never",
+        "narrow"
+      ],
+      "answer": "narrow",
+      "explanation": "schmal: narrow, thin.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Opposite:",
+      "options": [
+        "breit",
+        "dick"
+      ],
+      "answer": "breit",
+      "explanation": "Wide.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Schmal vs eng:",
+      "options": [
+        "schmal = narrow; eng = tight/cramped",
+        "same"
+      ],
+      "answer": "schmal = narrow; eng = tight/cramped",
+      "explanation": "Close.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Comparative:",
+      "options": [
+        "schmaler (also schmäler)",
+        "only schmäler"
+      ],
+      "answer": "schmaler (also schmäler)",
+      "explanation": "Both.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Der Weg ist ___ . (narrow)",
+      "answer": "schmal",
+      "fullAnswer": "Der Weg ist schmal.",
+      "explanation": "Schmal.",
+      "acceptedAnswers": [
+        "eng"
+      ],
+      "id": "q5"
+    }
+  ]
+}

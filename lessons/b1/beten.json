@@ -1,0 +1,154 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "beten",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "BAY-ten",
+      "ipa": "ˈbeːtn̩",
+      "notes": ""
+    },
+    "meaning": "to pray",
+    "shortDefinition": "To pray."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "bet|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "bet|est"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "bet|et"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "bet|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "bet|et"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "bet|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gebetet"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Sie betet jeden Abend.",
+      "english": "She prays every evening.",
+      "highlight": [
+        "betet"
+      ]
+    },
+    {
+      "german": "Wir beten für die Opfer.",
+      "english": "We pray for the victims.",
+      "highlight": [
+        "beten"
+      ]
+    },
+    {
+      "german": "Er hat in der Kirche gebetet.",
+      "english": "He prayed in the church.",
+      "highlight": [
+        "gebetet."
+      ]
+    }
+  ],
+  "forms": [
+    "Gebet"
+  ],
+  "memoryHook": "Beten → das Gebet.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (beten)",
+      "answer": "betet",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: betet.",
+      "acceptedAnswers": [
+        "betet"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (beten, past)",
+      "answer": "gebetet",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gebetet.",
+      "acceptedAnswers": [
+        "gebetet"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does beten mean?",
+      "options": [
+        "the shop",
+        "to pray",
+        "the key"
+      ],
+      "answer": "to pray",
+      "explanation": "beten: to pray.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Noun:",
+      "options": [
+        "das Gebet",
+        "die Bete"
+      ],
+      "answer": "das Gebet",
+      "explanation": "Prayer.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Don't confuse with…",
+      "options": [
+        "bitten (ask)",
+        "beten only"
+      ],
+      "answer": "bitten (ask)",
+      "explanation": "Different.",
+      "id": "q5"
+    }
+  ]
+}

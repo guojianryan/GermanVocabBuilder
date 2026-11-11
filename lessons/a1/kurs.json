@@ -1,0 +1,131 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Kurs",
+    "partOfSpeech": "noun, masculine (der Kurs)",
+    "pronunciation": {
+      "respelling": "KOORS",
+      "ipa": "kʊʁs",
+      "notes": "Plural: die Kurse."
+    },
+    "meaning": "course, class",
+    "shortDefinition": "Course, class."
+  },
+  "wordFamily": [
+    {
+      "german": "der Unterricht",
+      "english": "lessons",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Kurs, plural die Kurse.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Kurs"
+        },
+        {
+          "label": "More than one",
+          "value": "die Kurse"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich mache einen Deutschkurs.",
+      "english": "I'm doing a German course.",
+      "highlight": [
+        "Deutschkurs."
+      ]
+    },
+    {
+      "german": "Der Kurs beginnt am Montag.",
+      "english": "The course starts on Monday.",
+      "highlight": [
+        "Kurs"
+      ]
+    },
+    {
+      "german": "Wie viele Leute sind im Kurs?",
+      "english": "How many people are on the course?",
+      "highlight": [
+        "Kurs?"
+      ]
+    }
+  ],
+  "forms": [
+    "Kurse",
+    "die Kurse",
+    "der Kurs"
+  ],
+  "memoryHook": "Der Kurs: einen Kurs machen = take a course. Deutschkurs, Sprachkurs.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Kurs",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Kurs is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Kurs, zwei ___",
+      "answer": "Kurse",
+      "fullAnswer": "ein Kurs, zwei Kurse",
+      "explanation": "The plural is Kurse.",
+      "acceptedAnswers": [
+        "Kurse"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Kurs mean?",
+      "options": [
+        "course",
+        "to buy",
+        "to sleep"
+      ],
+      "answer": "course",
+      "explanation": "Kurs: course, class.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Einen Kurs machen' means…",
+      "options": [
+        "to take a course",
+        "to make a course"
+      ],
+      "answer": "to take a course",
+      "explanation": "Machen + Kurs.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Der Wechselkurs is…",
+      "options": [
+        "the exchange rate",
+        "a change of course"
+      ],
+      "answer": "the exchange rate",
+      "explanation": "Kurs also means rate.",
+      "id": "q5"
+    }
+  ]
+}

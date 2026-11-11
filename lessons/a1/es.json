@@ -1,0 +1,178 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "full",
+  "word": {
+    "headword": "es",
+    "partOfSpeech": "pronoun",
+    "pronunciation": {
+      "respelling": "ESS",
+      "ipa": "ɛs",
+      "notes": "Short e."
+    },
+    "meaning": "it; (in fixed phrases) there",
+    "shortDefinition": "Refers to neuter nouns, and fills the subject slot in weather and other phrases."
+  },
+  "intro": {
+    "title": "Es regnet, es gibt, wie geht es?",
+    "paragraphs": [
+      "Es is 'it' for das-nouns: das Buch → es. But it also does jobs English gives to other words: es gibt (there is/are), es regnet (it's raining), wie geht es dir? (how are you?)."
+    ]
+  },
+  "wordFamily": [
+    {
+      "german": "es gibt",
+      "english": "there is, there are",
+      "type": "phrase"
+    },
+    {
+      "german": "Wie geht es dir?",
+      "english": "How are you?",
+      "type": "phrase"
+    },
+    {
+      "german": "er, sie",
+      "english": "he/it, she/it",
+      "type": "pronouns"
+    }
+  ],
+  "keyTrap": {
+    "title": "The big trap: 'there is' = es gibt",
+    "explanation": "To say something exists somewhere, use es gibt + accusative.",
+    "wrong": {
+      "german": "Da ist ein Park in meiner Straße.",
+      "verdict": "Possible, but the normal way is es gibt."
+    },
+    "correct": [
+      {
+        "german": "In meiner Straße gibt es einen Park.",
+        "literal": "In my street gives it a park.",
+        "note": "Es gibt + accusative: einen Park."
+      },
+      {
+        "german": "Gibt es hier eine Apotheke?",
+        "literal": "Gives it here a pharmacy?",
+        "note": "Asking if something exists."
+      }
+    ]
+  },
+  "commonMistakes": [
+    {
+      "title": "It for der and die nouns",
+      "explanation": "Es is only for das-nouns. Der-nouns are er, die-nouns are sie.",
+      "wrong": "Der Kaffee? Es ist kalt.",
+      "correct": "Der Kaffee? Er ist kalt."
+    },
+    {
+      "title": "Weather",
+      "explanation": "Weather always uses es.",
+      "examples": [
+        {
+          "german": "Es regnet.",
+          "english": "It's raining.",
+          "highlight": "Es"
+        },
+        {
+          "german": "Es ist kalt.",
+          "english": "It's cold.",
+          "highlight": "Es"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wie geht es Ihnen?",
+      "english": "How are you?",
+      "highlight": [
+        "es"
+      ]
+    },
+    {
+      "german": "Es gibt keine Milch mehr.",
+      "english": "There's no milk left.",
+      "highlight": [
+        "Es",
+        "gibt"
+      ]
+    },
+    {
+      "german": "Das Kind schläft. Es ist müde.",
+      "english": "The child is asleep. It's tired.",
+      "highlight": [
+        "Es"
+      ]
+    },
+    {
+      "german": "Heute ist es sehr warm.",
+      "english": "It's very warm today.",
+      "highlight": [
+        "es"
+      ]
+    }
+  ],
+  "forms": [
+    "es gibt",
+    "gibt es"
+  ],
+  "memoryHook": "Es = it for das-nouns, plus the phrases: es gibt, es regnet, wie geht es?",
+  "signOff": "Es war mir ein Vergnügen!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "In Berlin ___ viele Museen. (there are)",
+      "options": [
+        "es gibt",
+        "gibt es"
+      ],
+      "answer": "gibt es",
+      "explanation": "Verb second: In Berlin gibt es…",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Es gibt ___ Supermarkt hier.",
+      "options": [
+        "ein",
+        "einen"
+      ],
+      "answer": "einen",
+      "explanation": "Es gibt + accusative.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Das Haus ist alt. ___ ist schön.",
+      "options": [
+        "Er",
+        "Sie",
+        "Es"
+      ],
+      "answer": "Es",
+      "explanation": "Das → es.",
+      "id": "q3"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "___ regnet. (It's raining.)",
+      "answer": "Es",
+      "fullAnswer": "Es regnet.",
+      "explanation": "Weather: es.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Die Suppe? ___ ist heiß.",
+      "options": [
+        "Es",
+        "Sie"
+      ],
+      "answer": "Sie",
+      "explanation": "Die → sie.",
+      "id": "q5"
+    }
+  ]
+}

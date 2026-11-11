@@ -1,0 +1,164 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "putzen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "POOT-sen",
+      "ipa": "ˈpʊtsn̩",
+      "notes": ""
+    },
+    "meaning": "to clean",
+    "shortDefinition": "To clean."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "putz|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "putz|t"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "putz|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "putz|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "putz|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "putz|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat geputzt"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "die Putzfrau",
+      "english": "cleaner",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Am Samstag putze ich die Wohnung.",
+      "english": "On Saturday I clean the flat.",
+      "highlight": [
+        "putze"
+      ]
+    },
+    {
+      "german": "Hast du dir die Zähne geputzt?",
+      "english": "Have you brushed your teeth?",
+      "highlight": [
+        "geputzt?"
+      ]
+    },
+    {
+      "german": "Wir putzen die Fenster.",
+      "english": "We're cleaning the windows.",
+      "highlight": [
+        "putzen"
+      ]
+    }
+  ],
+  "forms": [
+    "putze",
+    "putzt",
+    "putzen",
+    "geputzt"
+  ],
+  "memoryHook": "Putzen = clean (rooms, windows, teeth!).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (putzen)",
+      "answer": "putzt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: putzt.",
+      "acceptedAnswers": [
+        "putzt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (putzen, past)",
+      "answer": "geputzt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe geputzt.",
+      "acceptedAnswers": [
+        "geputzt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does putzen mean?",
+      "options": [
+        "hot",
+        "to open",
+        "to clean"
+      ],
+      "answer": "to clean",
+      "explanation": "putzen: to clean.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Brush your teeth':",
+      "options": [
+        "sich die Zähne putzen",
+        "die Zähne bürsten only"
+      ],
+      "answer": "sich die Zähne putzen",
+      "explanation": "Putzen.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "A cleaner:",
+      "options": [
+        "die Putzfrau / Reinigungskraft",
+        "der Putzer only"
+      ],
+      "answer": "die Putzfrau / Reinigungskraft",
+      "explanation": "Cleaner.",
+      "id": "q5"
+    }
+  ]
+}

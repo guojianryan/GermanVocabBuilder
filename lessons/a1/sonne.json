@@ -1,0 +1,115 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Sonne",
+    "partOfSpeech": "noun, feminine (die Sonne)",
+    "pronunciation": {
+      "respelling": "ZON-uh",
+      "ipa": "ˈzɔnə",
+      "notes": "No plural in everyday use. Usually no plural."
+    },
+    "meaning": "sun",
+    "shortDefinition": "Sun."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Sonne, usually no plural.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Sonne"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Sonne scheint.",
+      "english": "The sun is shining.",
+      "highlight": [
+        "Sonne"
+      ]
+    },
+    {
+      "german": "Wir sitzen in der Sonne.",
+      "english": "We're sitting in the sun.",
+      "highlight": [
+        "Sonne."
+      ]
+    },
+    {
+      "german": "Morgen gibt es viel Sonne.",
+      "english": "Tomorrow will be very sunny.",
+      "highlight": [
+        "Sonne."
+      ]
+    }
+  ],
+  "forms": [
+    "sonnig"
+  ],
+  "memoryHook": "Die Sonne = sun (feminine). Sonntag = Sunday. Sonnig = sunny.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Sonne",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Sonne is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Sonne mean?",
+      "options": [
+        "to wait",
+        "sun",
+        "the street"
+      ],
+      "answer": "sun",
+      "explanation": "Sonne: sun.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Sonne is…",
+      "options": [
+        "feminine",
+        "masculine"
+      ],
+      "answer": "feminine",
+      "explanation": "Die Sonne (unlike many languages).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Sonntag means…",
+      "options": [
+        "Sunday (sun day)",
+        "sunny day"
+      ],
+      "answer": "Sunday (sun day)",
+      "explanation": "Sonne + Tag.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Die ___ scheint. (sun)",
+      "answer": "Sonne",
+      "fullAnswer": "Die Sonne scheint.",
+      "explanation": "Die Sonne.",
+      "id": "q5"
+    }
+  ]
+}

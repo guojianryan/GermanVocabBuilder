@@ -1,0 +1,151 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Volkshochschule",
+    "partOfSpeech": "noun, feminine (die Volkshochschule)",
+    "pronunciation": {
+      "respelling": "FOLKS-hohkh-shoo-le",
+      "ipa": "ˈfɔlksˌhoːxʃuːlə",
+      "notes": "Plural: die Volkshochschulen."
+    },
+    "meaning": "adult education centre",
+    "shortDefinition": "Adult education centre."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Volks",
+        "meaning": "people's"
+      },
+      {
+        "part": "hoch",
+        "meaning": "high"
+      },
+      {
+        "part": "schule",
+        "meaning": "school"
+      }
+    ],
+    "literalMeaning": "people's college"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Volkshochschule, plural die Volkshochschulen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Volkshochschule"
+        },
+        {
+          "label": "More than one",
+          "value": "die Volkshochschulen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich mache einen Kurs an der Volkshochschule.",
+      "english": "I'm doing a course at the adult education centre.",
+      "highlight": [
+        "Volkshochschule."
+      ]
+    },
+    {
+      "german": "Die Volkshochschule bietet Sprachkurse an.",
+      "english": "The adult education centre offers language courses.",
+      "highlight": [
+        "Volkshochschule"
+      ]
+    },
+    {
+      "german": "Sie unterrichtet an der VHS.",
+      "english": "She teaches at the VHS.",
+      "highlight": [
+        "VHS."
+      ]
+    }
+  ],
+  "forms": [
+    "VHS"
+  ],
+  "memoryHook": "Volk + Hochschule = adult education centre (VHS).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Volkshochschule",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Volkshochschule is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Volkshochschule, zwei ___",
+      "answer": "Volkshochschulen",
+      "fullAnswer": "ein Volkshochschule, zwei Volkshochschulen",
+      "explanation": "The plural is Volkshochschulen.",
+      "acceptedAnswers": [
+        "Volkshochschulen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Volkshochschule mean?",
+      "options": [
+        "the job",
+        "adult education centre",
+        "slowly"
+      ],
+      "answer": "adult education centre",
+      "explanation": "Volkshochschule: adult education centre.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Short form:",
+      "options": [
+        "die VHS",
+        "die VKS"
+      ],
+      "answer": "die VHS",
+      "explanation": "Abbreviation.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Volk + Hochschule",
+        "Volks + Hoch + Schule only"
+      ],
+      "answer": "Volk + Hochschule",
+      "explanation": "People's college.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Is it a university?",
+      "options": [
+        "no, adult evening classes",
+        "yes"
+      ],
+      "answer": "no, adult evening classes",
+      "explanation": "Adult ed.",
+      "id": "q6"
+    }
+  ]
+}

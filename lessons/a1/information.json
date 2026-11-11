@@ -1,0 +1,147 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Information",
+    "partOfSpeech": "noun, feminine (die Information)",
+    "pronunciation": {
+      "respelling": "in-for-ma-TSYOHN",
+      "ipa": "ɪnfɔʁmaˈtsi̯oːn",
+      "notes": "Plural: die Informationen."
+    },
+    "meaning": "information; information desk",
+    "shortDefinition": "Information; information desk."
+  },
+  "wordFamily": [
+    {
+      "german": "die Auskunft",
+      "english": "information",
+      "type": "noun"
+    },
+    {
+      "german": "informieren",
+      "english": "to inform",
+      "type": "verb"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Information, plural die Informationen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Information"
+        },
+        {
+          "label": "More than one",
+          "value": "die Informationen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich brauche mehr Informationen.",
+      "english": "I need more information.",
+      "highlight": [
+        "Informationen."
+      ]
+    },
+    {
+      "german": "Fragen Sie an der Information.",
+      "english": "Ask at the information desk.",
+      "highlight": [
+        "Information."
+      ]
+    },
+    {
+      "german": "Danke für die Information!",
+      "english": "Thanks for the information!",
+      "highlight": [
+        "Information!"
+      ]
+    }
+  ],
+  "forms": [
+    "Informationen",
+    "die Informationen",
+    "die Information"
+  ],
+  "memoryHook": "Die Information: -tion is always feminine and pronounced 'tsyohn'. Plural is common: Informationen.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Information",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Information is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Information, zwei ___",
+      "answer": "Informationen",
+      "fullAnswer": "ein Information, zwei Informationen",
+      "explanation": "The plural is Informationen.",
+      "acceptedAnswers": [
+        "Informationen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Information mean?",
+      "options": [
+        "the station",
+        "information",
+        "the shop"
+      ],
+      "answer": "information",
+      "explanation": "Information: information; information desk.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Unlike English, Information can be…",
+      "options": [
+        "plural: Informationen",
+        "only singular"
+      ],
+      "answer": "plural: Informationen",
+      "explanation": "Informationen = pieces of information.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "-tion is pronounced…",
+      "options": [
+        "tsyohn",
+        "shun"
+      ],
+      "answer": "tsyohn",
+      "explanation": "In-for-ma-TSYOHN.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "-tion nouns are always…",
+      "options": [
+        "feminine",
+        "neuter"
+      ],
+      "answer": "feminine",
+      "explanation": "Die Information, die Station.",
+      "id": "q6"
+    }
+  ]
+}

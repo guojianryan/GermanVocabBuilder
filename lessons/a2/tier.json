@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Tier",
+    "partOfSpeech": "noun, neuter (das Tier)",
+    "pronunciation": {
+      "respelling": "TEER",
+      "ipa": "tiːɐ̯",
+      "notes": "Plural: die Tiere."
+    },
+    "meaning": "animal",
+    "shortDefinition": "Animal."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Tier, plural die Tiere.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Tier"
+        },
+        {
+          "label": "More than one",
+          "value": "die Tiere"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Hast du Tiere?",
+      "english": "Have you got any pets?",
+      "highlight": [
+        "Tiere?"
+      ]
+    },
+    {
+      "german": "Im Zoo gibt es viele Tiere.",
+      "english": "There are lots of animals at the zoo.",
+      "highlight": [
+        "Tiere."
+      ]
+    },
+    {
+      "german": "Mein Lieblingstier ist der Hund.",
+      "english": "My favourite animal is the dog.",
+      "highlight": [
+        "Lieblingstier"
+      ]
+    }
+  ],
+  "forms": [
+    "Haustier",
+    "Tierarzt"
+  ],
+  "memoryHook": "Das Tier = animal (English 'deer' is related). Tierarzt = vet.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Tier",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Tier is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Tier, zwei ___",
+      "answer": "Tiere",
+      "fullAnswer": "ein Tier, zwei Tiere",
+      "explanation": "The plural is Tiere.",
+      "acceptedAnswers": [
+        "Tiere"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Tier mean?",
+      "options": [
+        "never",
+        "animal",
+        "quiet"
+      ],
+      "answer": "animal",
+      "explanation": "Tier: animal.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "A vet:",
+      "options": [
+        "der Tierarzt",
+        "der Tierdoktor only"
+      ],
+      "answer": "der Tierarzt",
+      "explanation": "Animal doctor.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Related to English…",
+      "options": [
+        "deer",
+        "tear"
+      ],
+      "answer": "deer",
+      "explanation": "Once meant any animal.",
+      "id": "q5"
+    }
+  ]
+}

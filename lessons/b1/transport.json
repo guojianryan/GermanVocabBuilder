@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Transport",
+    "partOfSpeech": "noun, masculine (der Transport)",
+    "pronunciation": {
+      "respelling": "trans-PORT",
+      "ipa": "tʁansˈpɔʁt",
+      "notes": "Plural: die Transporte."
+    },
+    "meaning": "transport",
+    "shortDefinition": "Transport."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Transport, plural die Transporte.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Transport"
+        },
+        {
+          "label": "More than one",
+          "value": "die Transporte"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Transport kostet extra.",
+      "english": "Transport costs extra.",
+      "highlight": [
+        "Transport"
+      ]
+    },
+    {
+      "german": "Beim Transport ist etwas kaputtgegangen.",
+      "english": "Something got broken in transit.",
+      "highlight": [
+        "Transport"
+      ]
+    },
+    {
+      "german": "Öffentlicher Transport ist hier gut.",
+      "english": "Public transport is good here.",
+      "highlight": [
+        "Transport"
+      ]
+    }
+  ],
+  "forms": [
+    "Transporte",
+    "die Transporte",
+    "der Transport"
+  ],
+  "memoryHook": "Der Transport (of goods). Public transport = öffentliche Verkehrsmittel.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Transport",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Transport is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Transport, zwei ___",
+      "answer": "Transporte",
+      "fullAnswer": "ein Transport, zwei Transporte",
+      "explanation": "The plural is Transporte.",
+      "acceptedAnswers": [
+        "Transporte"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Transport mean?",
+      "options": [
+        "cheap",
+        "transport",
+        "slowly"
+      ],
+      "answer": "transport",
+      "explanation": "Transport: transport.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Public transport (common):",
+      "options": [
+        "öffentliche Verkehrsmittel",
+        "der Transport"
+      ],
+      "answer": "öffentliche Verkehrsmittel",
+      "explanation": "More common.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Stress on…",
+      "options": [
+        "-PORT",
+        "TRANS-"
+      ],
+      "answer": "-PORT",
+      "explanation": "End.",
+      "id": "q5"
+    }
+  ]
+}

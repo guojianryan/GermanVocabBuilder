@@ -1,0 +1,140 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Bank",
+    "partOfSpeech": "noun, feminine (die Bank)",
+    "pronunciation": {
+      "respelling": "BAHNK",
+      "ipa": "baŋk",
+      "notes": "Plural: die Banken."
+    },
+    "meaning": "bank (money); also bench",
+    "shortDefinition": "Bank (money); also bench."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Bank, plural die Banken.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Bank"
+        },
+        {
+          "label": "More than one",
+          "value": "die Banken"
+        }
+      ]
+    },
+    {
+      "title": "Two plurals",
+      "explanation": "Money banks: Banken. Benches: Bänke.",
+      "forms": [
+        {
+          "label": "money banks",
+          "value": "die Banken"
+        },
+        {
+          "label": "benches",
+          "value": "die Bänke"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich muss zur Bank.",
+      "english": "I have to go to the bank.",
+      "highlight": [
+        "Bank."
+      ]
+    },
+    {
+      "german": "Die Bank ist neben der Post.",
+      "english": "The bank is next to the post office.",
+      "highlight": [
+        "Bank"
+      ]
+    },
+    {
+      "german": "Wir sitzen auf einer Bank im Park.",
+      "english": "We're sitting on a bench in the park.",
+      "highlight": [
+        "Bank"
+      ]
+    }
+  ],
+  "forms": [
+    "Banken",
+    "die Banken",
+    "Bänke",
+    "die Bänke",
+    "die Bank"
+  ],
+  "memoryHook": "One word, two meanings: a bank for money (plural Banken) and a bench (plural Bänke).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Bank",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Bank is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Bank, zwei ___",
+      "answer": "Banken",
+      "fullAnswer": "ein Bank, zwei Banken",
+      "explanation": "The plural is Banken.",
+      "acceptedAnswers": [
+        "Banken"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Bank mean?",
+      "options": [
+        "the child",
+        "bank (money)",
+        "the key"
+      ],
+      "answer": "bank (money)",
+      "explanation": "Bank: bank (money); also bench.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Two benches in the park are…",
+      "options": [
+        "zwei Bänke",
+        "zwei Banken"
+      ],
+      "answer": "zwei Bänke",
+      "explanation": "Bench plural: Bänke. Money bank plural: Banken.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich gehe ___ Bank.",
+      "options": [
+        "zur",
+        "zum"
+      ],
+      "answer": "zur",
+      "explanation": "Die Bank: zu + der = zur.",
+      "id": "q5"
+    }
+  ]
+}

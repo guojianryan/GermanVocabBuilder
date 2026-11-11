@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Buch",
+    "partOfSpeech": "noun, neuter (das Buch)",
+    "pronunciation": {
+      "respelling": "BOOKH",
+      "ipa": "buːx",
+      "notes": "Plural: die Bücher."
+    },
+    "meaning": "book",
+    "shortDefinition": "Book."
+  },
+  "wordFamily": [
+    {
+      "german": "buchen",
+      "english": "to book",
+      "type": "verb"
+    },
+    {
+      "german": "die Buchhandlung",
+      "english": "bookshop",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Buch, plural die Bücher.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Buch"
+        },
+        {
+          "label": "More than one",
+          "value": "die Bücher"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich lese gerade ein spannendes Buch.",
+      "english": "I'm reading an exciting book.",
+      "highlight": [
+        "Buch."
+      ]
+    },
+    {
+      "german": "Die Bücher liegen auf dem Tisch.",
+      "english": "The books are on the table.",
+      "highlight": [
+        "Bücher"
+      ]
+    },
+    {
+      "german": "Kannst du mir das Buch leihen?",
+      "english": "Can you lend me the book?",
+      "highlight": [
+        "Buch"
+      ]
+    }
+  ],
+  "forms": [
+    "Bücher",
+    "die Bücher",
+    "das Buch"
+  ],
+  "memoryHook": "Buch = book; buchen = to book. Plural Bücher: u becomes ü and -er is added.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Buch",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Buch is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Buch, zwei ___",
+      "answer": "Bücher",
+      "fullAnswer": "ein Buch, zwei Bücher",
+      "explanation": "The plural is Bücher.",
+      "acceptedAnswers": [
+        "Buecher"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Buch mean?",
+      "options": [
+        "the bill",
+        "to wait",
+        "book"
+      ],
+      "answer": "book",
+      "explanation": "Buch: book.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Buchen (the verb) means…",
+      "options": [
+        "to book",
+        "to read"
+      ],
+      "answer": "to book",
+      "explanation": "Ein Hotel buchen.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Where do you buy books?",
+      "options": [
+        "in der Buchhandlung",
+        "in der Bäckerei"
+      ],
+      "answer": "in der Buchhandlung",
+      "explanation": "Buch + Handlung (shop).",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Lauf",
+    "partOfSpeech": "noun, masculine (der Lauf)",
+    "pronunciation": {
+      "respelling": "LOWF",
+      "ipa": "laʊ̯f",
+      "notes": "Plural: die Läufe."
+    },
+    "meaning": "run; course",
+    "shortDefinition": "Run; course."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Lauf, plural die Läufe.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Lauf"
+        },
+        {
+          "label": "More than one",
+          "value": "die Läufe"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Im Laufe des Tages wird es wärmer.",
+      "english": "It'll get warmer during the day.",
+      "highlight": [
+        "Laufe"
+      ]
+    },
+    {
+      "german": "Er hat den Lauf gewonnen.",
+      "english": "He won the race.",
+      "highlight": [
+        "Lauf"
+      ]
+    },
+    {
+      "german": "Das ist der Lauf der Dinge.",
+      "english": "That's the way of the world.",
+      "highlight": [
+        "Lauf"
+      ]
+    }
+  ],
+  "forms": [
+    "Läufe",
+    "die Läufe",
+    "der Lauf"
+  ],
+  "memoryHook": "Der Lauf (run, course). Im Laufe der Zeit = over time.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Lauf",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Lauf is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Lauf, zwei ___",
+      "answer": "Läufe",
+      "fullAnswer": "ein Lauf, zwei Läufe",
+      "explanation": "The plural is Läufe.",
+      "acceptedAnswers": [
+        "Laeufe"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Lauf mean?",
+      "options": [
+        "run",
+        "the street",
+        "the bread"
+      ],
+      "answer": "run",
+      "explanation": "Lauf: run; course.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Im Laufe (+ Gen)' means…",
+      "options": [
+        "in the course of",
+        "while running"
+      ],
+      "answer": "in the course of",
+      "explanation": "Phrase.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Läufe",
+        "Laufe"
+      ],
+      "answer": "Läufe",
+      "explanation": "au → äu.",
+      "id": "q5"
+    }
+  ]
+}

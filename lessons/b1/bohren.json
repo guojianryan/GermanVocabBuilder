@@ -1,0 +1,154 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "bohren",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "BOH-ren",
+      "ipa": "ˈboːʁən",
+      "notes": ""
+    },
+    "meaning": "to drill, bore",
+    "shortDefinition": "To drill, bore."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "bohr|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "bohr|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "bohr|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "bohr|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "bohr|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "bohr|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gebohrt"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er bohrt ein Loch in die Wand.",
+      "english": "He's drilling a hole in the wall.",
+      "highlight": [
+        "bohrt"
+      ]
+    },
+    {
+      "german": "Der Zahnarzt muss bohren.",
+      "english": "The dentist has to drill.",
+      "highlight": [
+        "bohren."
+      ]
+    },
+    {
+      "german": "Nicht in der Nase bohren!",
+      "english": "Don't pick your nose!",
+      "highlight": [
+        "bohren!"
+      ]
+    }
+  ],
+  "forms": [
+    "Bohrer"
+  ],
+  "memoryHook": "Bohren → der Bohrer, die Bohrmaschine.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (bohren)",
+      "answer": "bohrt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: bohrt.",
+      "acceptedAnswers": [
+        "bohrt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (bohren, past)",
+      "answer": "gebohrt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gebohrt.",
+      "acceptedAnswers": [
+        "gebohrt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does bohren mean?",
+      "options": [
+        "the door",
+        "to learn",
+        "to drill"
+      ],
+      "answer": "to drill",
+      "explanation": "bohren: to drill, bore.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Tool:",
+      "options": [
+        "die Bohrmaschine / der Bohrer",
+        "der Bohrhammer only"
+      ],
+      "answer": "die Bohrmaschine / der Bohrer",
+      "explanation": "Drill.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'In der Nase bohren' means…",
+      "options": [
+        "to pick one's nose",
+        "to be nosy"
+      ],
+      "answer": "to pick one's nose",
+      "explanation": "Idiom.",
+      "id": "q5"
+    }
+  ]
+}

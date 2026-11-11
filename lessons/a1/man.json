@@ -1,0 +1,168 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "full",
+  "word": {
+    "headword": "man",
+    "partOfSpeech": "pronoun",
+    "pronunciation": {
+      "respelling": "MAHN",
+      "ipa": "man",
+      "notes": "One n, short a."
+    },
+    "meaning": "one, you, people (in general)",
+    "shortDefinition": "The general 'you' or 'people'."
+  },
+  "intro": {
+    "title": "Wie sagt man …?",
+    "paragraphs": [
+      "Man is the general subject: Wie sagt man das auf Deutsch? (How do you say that in German?). It always takes the er/sie/es form of the verb. Don't confuse it with der Mann (with two n's)."
+    ]
+  },
+  "wordFamily": [
+    {
+      "german": "der Mann",
+      "english": "man",
+      "type": "noun"
+    },
+    {
+      "german": "die Leute",
+      "english": "people",
+      "type": "noun"
+    },
+    {
+      "german": "jemand",
+      "english": "someone",
+      "type": "pronoun"
+    }
+  ],
+  "keyTrap": {
+    "title": "The big trap: man or Mann?",
+    "explanation": "Man (one n, lowercase) is the pronoun. Der Mann (two n's, capital) is a man.",
+    "wrong": {
+      "german": "Hier darf Mann nicht rauchen.",
+      "verdict": "This says 'a man may not smoke here'."
+    },
+    "correct": [
+      {
+        "german": "Hier darf man nicht rauchen.",
+        "literal": "Here may one not smoke.",
+        "note": "General rule: man."
+      },
+      {
+        "german": "Der Mann raucht.",
+        "literal": "The man smokes.",
+        "note": "A man: der Mann."
+      }
+    ]
+  },
+  "commonMistakes": [
+    {
+      "title": "Verb form",
+      "explanation": "Man takes the er/sie/es form.",
+      "wrong": "Man sagen das so.",
+      "correct": "Man sagt das so."
+    },
+    {
+      "title": "Signs and rules",
+      "explanation": "Man is common in rules and instructions.",
+      "examples": [
+        {
+          "german": "Hier kann man parken.",
+          "english": "You can park here.",
+          "highlight": "man"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wie sagt man das auf Deutsch?",
+      "english": "How do you say that in German?",
+      "highlight": [
+        "man"
+      ]
+    },
+    {
+      "german": "In Deutschland isst man um sieben zu Abend.",
+      "english": "In Germany people have dinner at seven.",
+      "highlight": [
+        "man"
+      ]
+    },
+    {
+      "german": "Hier darf man nicht parken.",
+      "english": "You can't park here.",
+      "highlight": [
+        "man"
+      ]
+    },
+    {
+      "german": "Das macht man nicht!",
+      "english": "You don't do that!",
+      "highlight": [
+        "man"
+      ]
+    }
+  ],
+  "forms": [],
+  "memoryHook": "Man = people in general, one n, lowercase, er-form verb: man sagt, man kann.",
+  "signOff": "Man lernt nie aus!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Wie schreibt ___ das? (one)",
+      "answer": "man",
+      "fullAnswer": "Wie schreibt man das?",
+      "explanation": "Man.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Man ___ hier gut essen.",
+      "options": [
+        "kann",
+        "können"
+      ],
+      "answer": "kann",
+      "explanation": "Man + er-form.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Which means 'a man'?",
+      "options": [
+        "der Mann",
+        "man"
+      ],
+      "answer": "der Mann",
+      "explanation": "Two n's.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Das macht man nicht' means…",
+      "options": [
+        "You don't do that",
+        "The man doesn't do that"
+      ],
+      "answer": "You don't do that",
+      "explanation": "General rule.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Wie ___ man? (How do people say?)",
+      "options": [
+        "sagt",
+        "sagen"
+      ],
+      "answer": "sagt",
+      "explanation": "Man sagt.",
+      "id": "q5"
+    }
+  ]
+}

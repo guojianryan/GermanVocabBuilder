@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Helfer",
+    "partOfSpeech": "noun, masculine (der Helfer)",
+    "pronunciation": {
+      "respelling": "HEL-fer",
+      "ipa": "ˈhɛlfɐ",
+      "notes": "The plural looks the same. Plural: die Helfer."
+    },
+    "meaning": "helper; accomplice",
+    "shortDefinition": "Helper; accomplice."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Helf",
+        "meaning": "help"
+      },
+      {
+        "part": "er",
+        "meaning": "person who does it"
+      }
+    ],
+    "literalMeaning": "one who helps"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Helfer, plural die Helfer.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Helfer"
+        },
+        {
+          "label": "More than one",
+          "value": "die Helfer"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir suchen freiwillige Helfer.",
+      "english": "We're looking for volunteer helpers.",
+      "highlight": [
+        "Helfer."
+      ]
+    },
+    {
+      "german": "Die Helferinnen verteilen Essen.",
+      "english": "The helpers are handing out food.",
+      "highlight": [
+        "Helferinnen"
+      ]
+    },
+    {
+      "german": "Der Dieb hatte einen Helfer.",
+      "english": "The thief had an accomplice.",
+      "highlight": [
+        "Helfer."
+      ]
+    }
+  ],
+  "forms": [
+    "Helferin"
+  ],
+  "memoryHook": "Helfen → der Helfer.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Helfer",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Helfer is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Helfer, zwei ___",
+      "answer": "Helfer",
+      "fullAnswer": "ein Helfer, zwei Helfer",
+      "explanation": "The plural is Helfer.",
+      "acceptedAnswers": [
+        "Helfer"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Helfer mean?",
+      "options": [
+        "helper",
+        "to buy",
+        "the window"
+      ],
+      "answer": "helper",
+      "explanation": "Helfer: helper; accomplice.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "helfen",
+        "hell"
+      ],
+      "answer": "helfen",
+      "explanation": "Help.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Female:",
+      "options": [
+        "die Helferin",
+        "die Hilfe"
+      ],
+      "answer": "die Helferin",
+      "explanation": "-in.",
+      "id": "q5"
+    }
+  ]
+}

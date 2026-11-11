@@ -1,0 +1,225 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "full",
+  "word": {
+    "headword": "möchten",
+    "partOfSpeech": "modal verb",
+    "pronunciation": {
+      "respelling": "MURKH-ten",
+      "ipa": "ˈmœçtn̩",
+      "notes": "Ö + soft ch."
+    },
+    "meaning": "would like (to)",
+    "shortDefinition": "The polite way to say what you want."
+  },
+  "intro": {
+    "title": "Ich möchte…",
+    "paragraphs": [
+      "Möchten is how you ask for things politely: Ich möchte einen Kaffee. It's softer than will (want). Use it in every shop and café."
+    ]
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "möcht|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "möcht|est"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "möcht|e"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "möcht|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "möcht|et"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "möcht|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Ich and er are the same: möchte (no -t).",
+        "Hätte gern means the same: Ich hätte gern …"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "wollen",
+      "english": "to want (more direct)",
+      "type": "modal verb"
+    },
+    {
+      "german": "Ich hätte gern …",
+      "english": "I'd like …",
+      "type": "phrase"
+    },
+    {
+      "german": "mögen",
+      "english": "to like",
+      "type": "verb"
+    }
+  ],
+  "keyTrap": {
+    "title": "The big trap: ich will sounds rude",
+    "explanation": "Ordering with ich will sounds demanding. Use möchte.",
+    "wrong": {
+      "german": "Ich will einen Tee.",
+      "verdict": "Grammatical, but sounds pushy in a café."
+    },
+    "correct": [
+      {
+        "german": "Ich möchte einen Tee, bitte.",
+        "literal": "I'd like a tea, please.",
+        "note": "Polite."
+      },
+      {
+        "german": "Ich hätte gern einen Tee.",
+        "literal": "I would have gladly a tea.",
+        "note": "Also polite."
+      }
+    ]
+  },
+  "commonMistakes": [
+    {
+      "title": "er möchte",
+      "explanation": "No -t for er/sie/es.",
+      "wrong": "Sie möchtet Wasser.",
+      "correct": "Sie möchte Wasser."
+    },
+    {
+      "title": "With another verb",
+      "explanation": "The second verb goes to the end.",
+      "examples": [
+        {
+          "german": "Ich möchte bezahlen.",
+          "english": "I'd like to pay.",
+          "highlight": "möchte"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Was möchten Sie trinken?",
+      "english": "What would you like to drink?",
+      "highlight": [
+        "möchten"
+      ]
+    },
+    {
+      "german": "Ich möchte ein Zimmer reservieren.",
+      "english": "I'd like to book a room.",
+      "highlight": [
+        "möchte"
+      ]
+    },
+    {
+      "german": "Möchtest du mitkommen?",
+      "english": "Would you like to come along?",
+      "highlight": [
+        "Möchtest"
+      ]
+    },
+    {
+      "german": "Wir möchten bitte bezahlen.",
+      "english": "We'd like to pay, please.",
+      "highlight": [
+        "möchten"
+      ]
+    }
+  ],
+  "forms": [
+    "möchte",
+    "möchtest",
+    "möchtet"
+  ],
+  "memoryHook": "Möchte = would like. Polite, safe, everywhere. Ich möchte, er möchte (no -t).",
+  "signOff": "Möchtest du weiterlernen?",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich ___ einen Kaffee, bitte.",
+      "answer": "möchte",
+      "fullAnswer": "Ich möchte einen Kaffee, bitte.",
+      "explanation": "Ich möchte.",
+      "acceptedAnswers": [
+        "moechte"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Er ___ ein Eis.",
+      "options": [
+        "möchtet",
+        "möchte"
+      ],
+      "answer": "möchte",
+      "explanation": "No -t.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Which is most polite in a shop?",
+      "options": [
+        "Ich möchte …",
+        "Ich will …"
+      ],
+      "answer": "Ich möchte …",
+      "explanation": "Möchte.",
+      "id": "q3"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "___ du etwas trinken? (Would you like)",
+      "answer": "Möchtest",
+      "fullAnswer": "Möchtest du etwas trinken?",
+      "explanation": "Du möchtest.",
+      "acceptedAnswers": [
+        "Moechtest"
+      ],
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich möchte ___ (to pay)",
+      "options": [
+        "bezahlen",
+        "bezahle"
+      ],
+      "answer": "bezahlen",
+      "explanation": "Infinitive at the end.",
+      "id": "q5"
+    }
+  ]
+}

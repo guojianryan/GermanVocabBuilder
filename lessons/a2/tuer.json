@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Tür",
+    "partOfSpeech": "noun, feminine (die Tür)",
+    "pronunciation": {
+      "respelling": "TÜR",
+      "ipa": "tyːɐ̯",
+      "notes": "Plural: die Türen."
+    },
+    "meaning": "door",
+    "shortDefinition": "Door."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Tür, plural die Türen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Tür"
+        },
+        {
+          "label": "More than one",
+          "value": "die Türen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Mach bitte die Tür zu!",
+      "english": "Please shut the door!",
+      "highlight": [
+        "Tür"
+      ]
+    },
+    {
+      "german": "Es klopft an der Tür.",
+      "english": "Someone's knocking at the door.",
+      "highlight": [
+        "Tür."
+      ]
+    },
+    {
+      "german": "Die Tür ist offen.",
+      "english": "The door is open.",
+      "highlight": [
+        "Tür"
+      ]
+    }
+  ],
+  "forms": [
+    "Türen",
+    "die Türen",
+    "die Tür"
+  ],
+  "memoryHook": "Die Tür, die Türen. Tür auf, Tür zu.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Tür",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Tür is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Tür, zwei ___",
+      "answer": "Türen",
+      "fullAnswer": "ein Tür, zwei Türen",
+      "explanation": "The plural is Türen.",
+      "acceptedAnswers": [
+        "Tueren"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Tür mean?",
+      "options": [
+        "the family",
+        "the weather",
+        "door"
+      ],
+      "answer": "door",
+      "explanation": "Tür: door.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'At the door':",
+      "options": [
+        "an der Tür",
+        "bei der Tür"
+      ],
+      "answer": "an der Tür",
+      "explanation": "An.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Vor der Tür' can mean…",
+      "options": [
+        "just around the corner (coming soon)",
+        "inside"
+      ],
+      "answer": "just around the corner (coming soon)",
+      "explanation": "Weihnachten steht vor der Tür.",
+      "id": "q5"
+    }
+  ]
+}

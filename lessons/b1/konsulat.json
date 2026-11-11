@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Konsulat",
+    "partOfSpeech": "noun, neuter (das Konsulat)",
+    "pronunciation": {
+      "respelling": "kon-zoo-LAAT",
+      "ipa": "kɔnzuˈlaːt",
+      "notes": "Plural: die Konsulate."
+    },
+    "meaning": "consulate",
+    "shortDefinition": "Consulate."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Konsulat, plural die Konsulate.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Konsulat"
+        },
+        {
+          "label": "More than one",
+          "value": "die Konsulate"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich muss zum Konsulat.",
+      "english": "I have to go to the consulate.",
+      "highlight": [
+        "Konsulat."
+      ]
+    },
+    {
+      "german": "Das Konsulat stellt Visa aus.",
+      "english": "The consulate issues visas.",
+      "highlight": [
+        "Konsulat"
+      ]
+    },
+    {
+      "german": "Wo ist das deutsche Konsulat?",
+      "english": "Where's the German consulate?",
+      "highlight": [
+        "Konsulat?"
+      ]
+    }
+  ],
+  "forms": [
+    "Konsulate",
+    "die Konsulate",
+    "das Konsulat"
+  ],
+  "memoryHook": "Das Konsulat (consulate). Embassy = die Botschaft.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Konsulat",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Konsulat is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Konsulat, zwei ___",
+      "answer": "Konsulate",
+      "fullAnswer": "ein Konsulat, zwei Konsulate",
+      "explanation": "The plural is Konsulate.",
+      "acceptedAnswers": [
+        "Konsulate"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Konsulat mean?",
+      "options": [
+        "slowly",
+        "the car",
+        "consulate"
+      ],
+      "answer": "consulate",
+      "explanation": "Konsulat: consulate.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Konsulat vs Botschaft:",
+      "options": [
+        "Botschaft = embassy (capital); Konsulat = other cities",
+        "same"
+      ],
+      "answer": "Botschaft = embassy (capital); Konsulat = other cities",
+      "explanation": "Different.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Stress on…",
+      "options": [
+        "-LAT",
+        "KON-"
+      ],
+      "answer": "-LAT",
+      "explanation": "End.",
+      "id": "q5"
+    }
+  ]
+}

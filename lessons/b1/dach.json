@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Dach",
+    "partOfSpeech": "noun, neuter (das Dach)",
+    "pronunciation": {
+      "respelling": "DAKH",
+      "ipa": "dax",
+      "notes": "Plural: die Dächer."
+    },
+    "meaning": "roof",
+    "shortDefinition": "Roof."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Dach, plural die Dächer.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Dach"
+        },
+        {
+          "label": "More than one",
+          "value": "die Dächer"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das Dach ist undicht.",
+      "english": "The roof leaks.",
+      "highlight": [
+        "Dach"
+      ]
+    },
+    {
+      "german": "Wir wohnen unter dem Dach.",
+      "english": "We live in the attic flat.",
+      "highlight": [
+        "Dach."
+      ]
+    },
+    {
+      "german": "Auf dem Dach sitzt eine Katze.",
+      "english": "There's a cat on the roof.",
+      "highlight": [
+        "Dach"
+      ]
+    }
+  ],
+  "forms": [
+    "Dachboden"
+  ],
+  "memoryHook": "Das Dach, die Dächer. Dachboden = attic.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Dach",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Dach is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Dach, zwei ___",
+      "answer": "Dächer",
+      "fullAnswer": "ein Dach, zwei Dächer",
+      "explanation": "The plural is Dächer.",
+      "acceptedAnswers": [
+        "Daecher"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Dach mean?",
+      "options": [
+        "expensive",
+        "the job",
+        "roof"
+      ],
+      "answer": "roof",
+      "explanation": "Dach: roof.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Dächer",
+        "Dache"
+      ],
+      "answer": "Dächer",
+      "explanation": "a → ä + er.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "The attic:",
+      "options": [
+        "der Dachboden",
+        "der Dachkeller"
+      ],
+      "answer": "der Dachboden",
+      "explanation": "Dach + Boden.",
+      "id": "q5"
+    }
+  ]
+}

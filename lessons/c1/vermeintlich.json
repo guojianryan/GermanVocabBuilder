@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "vermeintlich",
+    "partOfSpeech": "adjective",
+    "pronunciation": {
+      "respelling": "fer-MINE-t-likh",
+      "ipa": "fɛɐ̯ˈmaɪ̯ntlɪç",
+      "notes": ""
+    },
+    "meaning": "supposed, presumed (wrongly)",
+    "shortDefinition": "Supposed, presumed (wrongly)."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "ver",
+        "meaning": "wrongly"
+      },
+      {
+        "part": "meint",
+        "meaning": "thought (meinen)"
+      },
+      {
+        "part": "lich",
+        "meaning": "adjective ending"
+      }
+    ],
+    "literalMeaning": "wrongly thought"
+  },
+  "sampleSentences": [
+    {
+      "german": "Der vermeintliche Täter war unschuldig.",
+      "english": "The supposed culprit was innocent.",
+      "highlight": [
+        "vermeintliche"
+      ]
+    },
+    {
+      "german": "Ein vermeintlich sicheres Geschäft.",
+      "english": "A supposedly safe deal.",
+      "highlight": [
+        "vermeintlich"
+      ]
+    },
+    {
+      "german": "Die vermeintliche Lösung.",
+      "english": "The supposed solution.",
+      "highlight": [
+        "vermeintliche"
+      ]
+    }
+  ],
+  "forms": [
+    "angeblich"
+  ],
+  "memoryHook": "Vermeintlich = supposed (but wrongly).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does vermeintlich mean?",
+      "options": [
+        "supposed",
+        "slowly",
+        "the child"
+      ],
+      "answer": "supposed",
+      "explanation": "vermeintlich: supposed, presumed (wrongly).",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Implies…",
+      "options": [
+        "the belief is (probably) wrong",
+        "it is certainly true"
+      ],
+      "answer": "the belief is (probably) wrong",
+      "explanation": "Mistaken.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "vermeinen (believe wrongly)",
+        "meinen only"
+      ],
+      "answer": "vermeinen (believe wrongly)",
+      "explanation": "Believe.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Compare 'angeblich':",
+      "options": [
+        "claimed by others (doubt)",
+        "same strictly"
+      ],
+      "answer": "claimed by others (doubt)",
+      "explanation": "Nuance.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Der ___ Experte wusste nichts. (supposed)",
+      "answer": "vermeintliche",
+      "fullAnswer": "Der vermeintliche Experte wusste nichts.",
+      "explanation": "Vermeintliche.",
+      "acceptedAnswers": [
+        "angebliche"
+      ],
+      "id": "q5"
+    }
+  ]
+}

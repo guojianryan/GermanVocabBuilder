@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Frist",
+    "partOfSpeech": "noun, feminine (die Frist)",
+    "pronunciation": {
+      "respelling": "FRIST",
+      "ipa": "fʁɪst",
+      "notes": "Plural: die Fristen."
+    },
+    "meaning": "deadline, period",
+    "shortDefinition": "Deadline, period."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Frist, plural die Fristen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Frist"
+        },
+        {
+          "label": "More than one",
+          "value": "die Fristen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Frist endet am Freitag.",
+      "english": "The deadline is Friday.",
+      "highlight": [
+        "Frist"
+      ]
+    },
+    {
+      "german": "Bitte halten Sie die Frist ein.",
+      "english": "Please meet the deadline.",
+      "highlight": [
+        "Frist"
+      ]
+    },
+    {
+      "german": "Er hat die Frist verpasst.",
+      "english": "He missed the deadline.",
+      "highlight": [
+        "Frist"
+      ]
+    }
+  ],
+  "forms": [
+    "fristlos"
+  ],
+  "memoryHook": "Die Frist = deadline. Fristlos = without notice.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Frist",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Frist is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Frist, zwei ___",
+      "answer": "Fristen",
+      "fullAnswer": "ein Frist, zwei Fristen",
+      "explanation": "The plural is Fristen.",
+      "acceptedAnswers": [
+        "Fristen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Frist mean?",
+      "options": [
+        "deadline",
+        "the evening",
+        "the window"
+      ],
+      "answer": "deadline",
+      "explanation": "Frist: deadline, period.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Eine Frist einhalten' means…",
+      "options": [
+        "to meet a deadline",
+        "to stop a deadline"
+      ],
+      "answer": "to meet a deadline",
+      "explanation": "Meet.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Fristlos' (dismissal) means…",
+      "options": [
+        "without notice",
+        "on time"
+      ],
+      "answer": "without notice",
+      "explanation": "Immediately.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Arm",
+    "partOfSpeech": "noun, masculine (der Arm)",
+    "pronunciation": {
+      "respelling": "ARM",
+      "ipa": "aʁm",
+      "notes": "Plural: die Arme."
+    },
+    "meaning": "arm",
+    "shortDefinition": "Arm."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Arm, plural die Arme.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Arm"
+        },
+        {
+          "label": "More than one",
+          "value": "die Arme"
+        }
+      ]
+    },
+    {
+      "title": "Arm or arm?",
+      "explanation": "Capital Arm is the body part. Lowercase arm is the adjective 'poor'.",
+      "examples": [
+        {
+          "german": "Der Arm ist gebrochen.",
+          "english": "The arm is broken.",
+          "highlight": "Arm"
+        },
+        {
+          "german": "Die Familie ist arm.",
+          "english": "The family is poor.",
+          "highlight": "arm."
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Mein Arm tut weh.",
+      "english": "My arm hurts.",
+      "highlight": [
+        "Arm"
+      ]
+    },
+    {
+      "german": "Sie trägt das Baby auf dem Arm.",
+      "english": "She's carrying the baby in her arms.",
+      "highlight": [
+        "Arm."
+      ]
+    },
+    {
+      "german": "Er ist nicht arm, er hat viel Geld.",
+      "english": "He isn't poor, he has lots of money.",
+      "highlight": [
+        "arm,"
+      ]
+    }
+  ],
+  "forms": [
+    "Arme"
+  ],
+  "memoryHook": "Der Arm = arm, the same as English. Small arm = poor: er ist arm.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Arm",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Arm is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Arm, zwei ___",
+      "answer": "Arme",
+      "fullAnswer": "ein Arm, zwei Arme",
+      "explanation": "The plural is Arme.",
+      "acceptedAnswers": [
+        "Arme"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Mein ___ tut weh. (arm)",
+      "answer": "Arm",
+      "fullAnswer": "Mein Arm tut weh.",
+      "explanation": "Der Arm.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does the adjective arm mean?",
+      "options": [
+        "poor",
+        "strong"
+      ],
+      "answer": "poor",
+      "explanation": "Lowercase arm = poor. Capital Arm = arm.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Mein Arm ___ weh.",
+      "options": [
+        "tut",
+        "macht"
+      ],
+      "answer": "tut",
+      "explanation": "Pain: wehtun.",
+      "id": "q5"
+    }
+  ]
+}

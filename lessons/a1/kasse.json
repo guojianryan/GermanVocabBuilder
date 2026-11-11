@@ -1,0 +1,131 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Kasse",
+    "partOfSpeech": "noun, feminine (die Kasse)",
+    "pronunciation": {
+      "respelling": "KASS-uh",
+      "ipa": "ˈkasə",
+      "notes": "Plural: die Kassen."
+    },
+    "meaning": "till, checkout; cash desk",
+    "shortDefinition": "Till, checkout; cash desk."
+  },
+  "wordFamily": [
+    {
+      "german": "die Krankenkasse",
+      "english": "health insurance",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Kasse, plural die Kassen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Kasse"
+        },
+        {
+          "label": "More than one",
+          "value": "die Kassen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Bitte zahlen Sie an der Kasse.",
+      "english": "Please pay at the till.",
+      "highlight": [
+        "Kasse."
+      ]
+    },
+    {
+      "german": "An der Kasse ist eine lange Schlange.",
+      "english": "There's a long queue at the checkout.",
+      "highlight": [
+        "Kasse"
+      ]
+    },
+    {
+      "german": "Die Kasse ist geschlossen.",
+      "english": "The cash desk is closed.",
+      "highlight": [
+        "Kasse"
+      ]
+    }
+  ],
+  "forms": [
+    "Kassen",
+    "die Kassen",
+    "die Kasse"
+  ],
+  "memoryHook": "Die Kasse = till, checkout. Krankenkasse = health insurance fund.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Kasse",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Kasse is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Kasse, zwei ___",
+      "answer": "Kassen",
+      "fullAnswer": "ein Kasse, zwei Kassen",
+      "explanation": "The plural is Kassen.",
+      "acceptedAnswers": [
+        "Kassen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Kasse mean?",
+      "options": [
+        "cheap",
+        "the bread",
+        "till"
+      ],
+      "answer": "till",
+      "explanation": "Kasse: till, checkout; cash desk.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "You pay ___ der Kasse.",
+      "options": [
+        "an",
+        "in"
+      ],
+      "answer": "an",
+      "explanation": "An der Kasse.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Die Krankenkasse is…",
+      "options": [
+        "health insurance",
+        "a hospital till"
+      ],
+      "answer": "health insurance",
+      "explanation": "Kranken + Kasse.",
+      "id": "q5"
+    }
+  ]
+}

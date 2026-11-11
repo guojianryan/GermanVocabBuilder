@@ -1,0 +1,331 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "word": {
+    "headword": "ein",
+    "partOfSpeech": "indefinite article, and the number one",
+    "cycle": [
+      "ein",
+      "eine",
+      "einen",
+      "einem",
+      "einer",
+      "eines",
+      "ein"
+    ],
+    "pronunciation": {
+      "respelling": "AYN",
+      "ipa": "aɪn",
+      "notes": "It rhymes with English 'mine'. In German, ei always sounds like the English word 'eye'."
+    },
+    "meaning": "a, an; one",
+    "shortDefinition": "The German word for 'a', which is also the number one."
+  },
+  "intro": {
+    "title": "The smallest word with the most faces",
+    "paragraphs": [
+      "You learned ein on your first day of German. It's three letters long and means 'a'. Easy, right?",
+      "Then you find out it has six different forms, that it also means 'one', and that sometimes German leaves it out where English insists on it. Ein causes more everyday mistakes than almost any other word, so it deserves a proper lesson."
+    ]
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "summary": "Ein goes back to the old Germanic word for 'one'. English has the same word twice: it became 'one', and a worn-down, unstressed version became 'an' and then 'a'. German never split them, so ein still does both jobs.",
+    "cognates": [
+      {
+        "word": "one",
+        "language": "English",
+        "note": "the number"
+      },
+      {
+        "word": "a, an",
+        "language": "English",
+        "note": "the article, a worn-down 'one'"
+      },
+      {
+        "word": "een",
+        "language": "Dutch",
+        "note": "article and number"
+      },
+      {
+        "word": "un, une",
+        "language": "French",
+        "note": "a more distant cousin, from Latin unus"
+      }
+    ],
+    "bonus": {
+      "word": "allein",
+      "meaning": "alone",
+      "literalMeaning": "all one",
+      "note": "English 'alone' was built the same way, from 'all one'. And kein comes from an old phrase meaning 'not one'."
+    }
+  },
+  "tables": [
+    {
+      "title": "Six forms, one pattern",
+      "intro": "Ein changes its ending depending on the noun's gender and its job in the sentence (its case). The highlighted endings are what you need to learn.",
+      "columns": [
+        "masculine (der Hund)",
+        "feminine (die Katze)",
+        "neuter (das Kind)"
+      ],
+      "rows": [
+        {
+          "label": "Nominative",
+          "hint": "the subject",
+          "cells": [
+            "ein",
+            "ein|e",
+            "ein"
+          ]
+        },
+        {
+          "label": "Accusative",
+          "hint": "the direct object",
+          "cells": [
+            "ein|en",
+            "ein|e",
+            "ein"
+          ]
+        },
+        {
+          "label": "Dative",
+          "hint": "to or for someone, after mit, bei, von",
+          "cells": [
+            "ein|em",
+            "ein|er",
+            "ein|em"
+          ]
+        },
+        {
+          "label": "Genitive",
+          "hint": "of something, mostly in writing",
+          "cells": [
+            "ein|es",
+            "ein|er",
+            "ein|es"
+          ]
+        }
+      ],
+      "notes": [
+        "Only the masculine changes between nominative and accusative: ein Hund becomes einen Hund. Feminine and neuter stay the same.",
+        "In the dative, masculine and neuter share the same form: einem.",
+        "Masculine and neuter nominative have no ending at all, so ein Mann and ein Kind look alike.",
+        "Learn this table once and you get more for free: kein, mein, dein, sein and unser take exactly the same endings."
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "eins",
+      "english": "one (when counting)",
+      "type": "number"
+    },
+    {
+      "german": "kein",
+      "english": "no, not a",
+      "literal": "not one",
+      "type": "article"
+    },
+    {
+      "german": "einmal",
+      "english": "once; also used when ordering",
+      "literal": "one time",
+      "type": "adverb"
+    },
+    {
+      "german": "allein",
+      "english": "alone",
+      "literal": "all one",
+      "type": "adjective / adverb"
+    },
+    {
+      "german": "einzig",
+      "english": "only, single",
+      "type": "adjective"
+    },
+    {
+      "german": "einige",
+      "english": "some, a few",
+      "type": "plural determiner"
+    },
+    {
+      "german": "irgendein",
+      "english": "some, any (I don't care which)",
+      "type": "determiner"
+    }
+  ],
+  "keyTrap": {
+    "title": "The big trap: forgetting einen",
+    "explanation": "Hund is masculine. When a masculine noun is the object of the sentence, ein has to become einen. Feminine and neuter nouns never change here, which is exactly why the masculine one is so easy to forget.",
+    "wrong": {
+      "german": "Ich habe ein Hund.",
+      "verdict": "Hund is the object here, so it needs einen."
+    },
+    "correct": [
+      {
+        "german": "Ich habe einen Hund.",
+        "literal": "I have a dog.",
+        "note": "Masculine object: einen."
+      },
+      {
+        "german": "Ein Hund wohnt hier.",
+        "literal": "A dog lives here.",
+        "note": "Masculine subject: plain ein."
+      },
+      {
+        "german": "Ich habe eine Katze und ein Kind.",
+        "literal": "I have a cat and a child.",
+        "note": "Feminine and neuter objects: no change."
+      }
+    ]
+  },
+  "commonMistakes": [
+    {
+      "title": "Jobs and nationalities",
+      "explanation": "German usually leaves out ein when you say what someone is. Add it back only when there's an adjective: Er ist ein guter Lehrer.",
+      "wrong": "Ich bin ein Lehrer.",
+      "correct": "Ich bin Lehrer."
+    },
+    {
+      "title": "There's no plural",
+      "explanation": "Ein means 'one', so it can't go with a plural noun. Drop it, or use einige (some).",
+      "wrong": "ein Bücher",
+      "correct": "Bücher, einige Bücher"
+    },
+    {
+      "title": "Saying 'not a'",
+      "explanation": "German has a separate word for 'not a': kein. It takes the same endings as ein.",
+      "wrong": "Ich habe nicht ein Auto.",
+      "correct": "Ich habe kein Auto."
+    },
+    {
+      "title": "ein or eins?",
+      "explanation": "Before a noun it's ein. When you count, or when 'one' stands on its own for a neuter thing, it gets an s.",
+      "examples": [
+        {
+          "german": "eins, zwei, drei",
+          "english": "one, two, three",
+          "highlight": "s"
+        },
+        {
+          "german": "Ich möchte ein Brötchen.",
+          "english": "I'd like a bread roll."
+        },
+        {
+          "german": "Ich möchte eins.",
+          "english": "I'd like one.",
+          "highlight": "s"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich habe einen Bruder und eine Schwester.",
+      "english": "I have a brother and a sister.",
+      "highlight": [
+        "einen",
+        "eine"
+      ]
+    },
+    {
+      "german": "Ein Kaffee, bitte!",
+      "english": "A coffee, please!",
+      "highlight": [
+        "Ein"
+      ]
+    },
+    {
+      "german": "Ich wohne in einem kleinen Dorf.",
+      "english": "I live in a small village.",
+      "highlight": [
+        "einem"
+      ]
+    },
+    {
+      "german": "Sie arbeitet mit einer Freundin zusammen.",
+      "english": "She works with a friend.",
+      "highlight": [
+        "einer"
+      ]
+    },
+    {
+      "german": "Wir haben nur ein Auto, nicht zwei.",
+      "english": "We only have one car, not two. (Here ein means 'one', so you stress it.)",
+      "highlight": [
+        "ein"
+      ]
+    },
+    {
+      "german": "Das ist kein Problem.",
+      "english": "That's no problem.",
+      "highlight": [
+        "kein"
+      ]
+    },
+    {
+      "german": "Einmal Currywurst mit Pommes, bitte.",
+      "english": "One currywurst with fries, please.",
+      "highlight": [
+        "Einmal"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "fill-in-the-blank",
+      "prompt": "Ich sehe ein___ Mann.",
+      "answer": "en",
+      "acceptedAnswers": [
+        "einen"
+      ],
+      "fullAnswer": "Ich sehe einen Mann.",
+      "explanation": "Mann is masculine and the object of sehen, so it's accusative: einen."
+    },
+    {
+      "id": "q2",
+      "type": "fill-in-the-blank",
+      "prompt": "Ich fahre mit ein___ Freundin.",
+      "answer": "er",
+      "acceptedAnswers": [
+        "einer"
+      ],
+      "fullAnswer": "Ich fahre mit einer Freundin.",
+      "explanation": "Mit always takes the dative, and Freundin is feminine: einer."
+    },
+    {
+      "id": "q3",
+      "type": "fill-in-the-blank",
+      "prompt": "Das ist ___ Buch. (ein, eine or einen?)",
+      "answer": "ein",
+      "fullAnswer": "Das ist ein Buch.",
+      "explanation": "Buch is neuter, and neuter never changes in the nominative or accusative."
+    },
+    {
+      "id": "q4",
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe ___ Auto. (I don't have a car.)",
+      "answer": "kein",
+      "fullAnswer": "Ich habe kein Auto.",
+      "explanation": "'Not a' is kein, never nicht ein."
+    },
+    {
+      "id": "q5",
+      "type": "open",
+      "prompt": "How do you say \"I'm a teacher\" in German?",
+      "acceptedAnswers": [
+        "Ich bin Lehrer.",
+        "Ich bin Lehrerin."
+      ],
+      "explanation": "No ein with jobs: Lehrer for a man, Lehrerin for a woman."
+    }
+  ],
+  "memoryHook": "Ein is 'a' and 'one' at once. Only the masculine changes for the object: ein Hund wohnt hier, ich habe einen Hund.",
+  "signOff": "Eins, zwei, drei, los!",
+  "level": "A1",
+  "levelSource": "Core grammar (A1 article)",
+  "lessonType": "full"
+}

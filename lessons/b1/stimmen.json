@@ -1,0 +1,165 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "stimmen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "SHTIM-en",
+      "ipa": "ˈʃtɪmən",
+      "notes": ""
+    },
+    "meaning": "to be right; to vote",
+    "shortDefinition": "To be right; to vote."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "stimm|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "stimm|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "stimm|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "stimm|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "stimm|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "stimm|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gestimmt"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "die Stimmung",
+      "english": "mood, atmosphere",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das stimmt!",
+      "english": "That's right!",
+      "highlight": [
+        "stimmt!"
+      ]
+    },
+    {
+      "german": "Stimmt so!",
+      "english": "Keep the change!",
+      "highlight": [
+        "Stimmt"
+      ]
+    },
+    {
+      "german": "Ich habe für den Vorschlag gestimmt.",
+      "english": "I voted for the proposal.",
+      "highlight": [
+        "gestimmt."
+      ]
+    }
+  ],
+  "forms": [
+    "stimme",
+    "stimmst",
+    "stimmt",
+    "stimmen",
+    "gestimmt"
+  ],
+  "memoryHook": "Stimmt! = right. Stimmt so! = keep the change.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (stimmen)",
+      "answer": "stimmt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: stimmt.",
+      "acceptedAnswers": [
+        "stimmt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (stimmen, past)",
+      "answer": "gestimmt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gestimmt.",
+      "acceptedAnswers": [
+        "gestimmt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does stimmen mean?",
+      "options": [
+        "the window",
+        "to travel",
+        "to be right"
+      ],
+      "answer": "to be right",
+      "explanation": "stimmen: to be right; to vote.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Stimmt so!' (paying) means…",
+      "options": [
+        "Keep the change!",
+        "That's correct!"
+      ],
+      "answer": "Keep the change!",
+      "explanation": "Tip.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Was stimmt nicht?' means…",
+      "options": [
+        "What's wrong?",
+        "Who didn't vote?"
+      ],
+      "answer": "What's wrong?",
+      "explanation": "Wrong.",
+      "id": "q5"
+    }
+  ]
+}

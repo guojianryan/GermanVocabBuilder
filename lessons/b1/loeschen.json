@@ -1,0 +1,158 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "löschen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "LÖSH-en",
+      "ipa": "ˈlœʃn̩",
+      "notes": ""
+    },
+    "meaning": "to delete; to put out (fire)",
+    "shortDefinition": "To delete; to put out (fire)."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "lösch|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "lösch|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "lösch|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "lösch|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "lösch|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "lösch|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gelöscht"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich habe die Datei gelöscht.",
+      "english": "I deleted the file.",
+      "highlight": [
+        "gelöscht."
+      ]
+    },
+    {
+      "german": "Die Feuerwehr löscht das Feuer.",
+      "english": "The fire brigade puts out the fire.",
+      "highlight": [
+        "löscht"
+      ]
+    },
+    {
+      "german": "Bitte löschen Sie meine Daten.",
+      "english": "Please delete my data.",
+      "highlight": [
+        "löschen"
+      ]
+    }
+  ],
+  "forms": [
+    "lösche",
+    "löschst",
+    "löscht",
+    "löschen",
+    "gelöscht"
+  ],
+  "memoryHook": "Löschen: delete (files), put out (fire).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (löschen)",
+      "answer": "löscht",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: löscht.",
+      "acceptedAnswers": [
+        "loescht"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (löschen, past)",
+      "answer": "gelöscht",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gelöscht.",
+      "acceptedAnswers": [
+        "geloescht"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does löschen mean?",
+      "options": [
+        "to delete",
+        "to travel",
+        "cheap"
+      ],
+      "answer": "to delete",
+      "explanation": "löschen: to delete; to put out (fire).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Löschen + Feuer means…",
+      "options": [
+        "put out",
+        "light"
+      ],
+      "answer": "put out",
+      "explanation": "Extinguish.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Löschen + Datei means…",
+      "options": [
+        "delete",
+        "save"
+      ],
+      "answer": "delete",
+      "explanation": "Delete.",
+      "id": "q5"
+    }
+  ]
+}

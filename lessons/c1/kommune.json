@@ -1,0 +1,134 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Kommune",
+    "partOfSpeech": "noun, feminine (die Kommune)",
+    "pronunciation": {
+      "respelling": "ko-MOO-ne",
+      "ipa": "kɔˈmuːnə",
+      "notes": "Plural: die Kommunen."
+    },
+    "meaning": "municipality, local authority; commune",
+    "shortDefinition": "Municipality, local authority; commune."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Kommune, plural die Kommunen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Kommune"
+        },
+        {
+          "label": "More than one",
+          "value": "die Kommunen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Kommunen brauchen mehr Geld.",
+      "english": "Local authorities need more money.",
+      "highlight": [
+        "Kommunen"
+      ]
+    },
+    {
+      "german": "Er lebte in einer Kommune.",
+      "english": "He lived in a commune.",
+      "highlight": [
+        "Kommune."
+      ]
+    },
+    {
+      "german": "Kommunale Wahlen.",
+      "english": "Local elections.",
+      "highlight": [
+        "Kommunale"
+      ]
+    }
+  ],
+  "forms": [
+    "kommunal",
+    "Gemeinde"
+  ],
+  "memoryHook": "Die Kommune (= Gemeinde); kommunal.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Kommune",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Kommune is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Kommune, zwei ___",
+      "answer": "Kommunen",
+      "fullAnswer": "ein Kommune, zwei Kommunen",
+      "explanation": "The plural is Kommunen.",
+      "acceptedAnswers": [
+        "Kommunen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Kommune mean?",
+      "options": [
+        "municipality",
+        "to open",
+        "the key"
+      ],
+      "answer": "municipality",
+      "explanation": "Kommune: municipality, local authority; commune.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Adjective:",
+      "options": [
+        "kommunal",
+        "kommunisch"
+      ],
+      "answer": "kommunal",
+      "explanation": "Municipal.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonym:",
+      "options": [
+        "die Gemeinde",
+        "der Staat"
+      ],
+      "answer": "die Gemeinde",
+      "explanation": "Municipality.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Stress on…",
+      "options": [
+        "-MU-",
+        "KOM-"
+      ],
+      "answer": "-MU-",
+      "explanation": "ko-MOO-ne.",
+      "id": "q6"
+    }
+  ]
+}

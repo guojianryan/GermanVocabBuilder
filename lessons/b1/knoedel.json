@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Knödel",
+    "partOfSpeech": "noun, masculine (der Knödel)",
+    "pronunciation": {
+      "respelling": "KNÖ-del",
+      "ipa": "ˈknøːdl̩",
+      "notes": "The plural looks the same. Plural: die Knödel."
+    },
+    "meaning": "dumpling",
+    "shortDefinition": "Dumpling."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Knödel, plural die Knödel.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Knödel"
+        },
+        {
+          "label": "More than one",
+          "value": "die Knödel"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Zum Braten gibt es Knödel.",
+      "english": "There are dumplings with the roast.",
+      "highlight": [
+        "Knödel."
+      ]
+    },
+    {
+      "german": "In Bayern isst man viele Knödel.",
+      "english": "People eat a lot of dumplings in Bavaria.",
+      "highlight": [
+        "Knödel."
+      ]
+    },
+    {
+      "german": "Ich mag Semmelknödel.",
+      "english": "I like bread dumplings.",
+      "highlight": [
+        "Semmelknödel."
+      ]
+    }
+  ],
+  "forms": [
+    "Kloß",
+    "Klöße"
+  ],
+  "memoryHook": "Der Knödel (south) = der Kloß (north). Say the k!",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Knödel",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Knödel is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Knödel, zwei ___",
+      "answer": "Knödel",
+      "fullAnswer": "ein Knödel, zwei Knödel",
+      "explanation": "The plural is Knödel.",
+      "acceptedAnswers": [
+        "Knoedel"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Knödel mean?",
+      "options": [
+        "dumpling",
+        "the weather",
+        "the shop"
+      ],
+      "answer": "dumpling",
+      "explanation": "Knödel: dumpling.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "K before n is…",
+      "options": [
+        "pronounced",
+        "silent"
+      ],
+      "answer": "pronounced",
+      "explanation": "K-NÖ-del.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "North German word:",
+      "options": [
+        "der Kloß",
+        "der Klumpen"
+      ],
+      "answer": "der Kloß",
+      "explanation": "Kloß.",
+      "id": "q5"
+    }
+  ]
+}

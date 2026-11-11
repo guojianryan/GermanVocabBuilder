@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Bundesrepublik",
+    "partOfSpeech": "noun, feminine (die Bundesrepublik)",
+    "pronunciation": {
+      "respelling": "BOON-des-re-poo-bleek",
+      "ipa": "ˈbʊndəsʁepuˌbliːk",
+      "notes": "Usually no plural."
+    },
+    "meaning": "Federal Republic",
+    "shortDefinition": "Federal Republic."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Bund",
+        "meaning": "federation"
+      },
+      {
+        "part": "es",
+        "meaning": "linking letters"
+      },
+      {
+        "part": "republik",
+        "meaning": "republic"
+      }
+    ],
+    "literalMeaning": "federation republic"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Bundesrepublik, usually no plural.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Bundesrepublik"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Bundesrepublik Deutschland wurde 1949 gegründet.",
+      "english": "The Federal Republic of Germany was founded in 1949.",
+      "highlight": [
+        "Bundesrepublik"
+      ]
+    },
+    {
+      "german": "Er lebt seit 20 Jahren in der Bundesrepublik.",
+      "english": "He's lived in Germany for 20 years.",
+      "highlight": [
+        "Bundesrepublik."
+      ]
+    },
+    {
+      "german": "Die BRD hat 16 Bundesländer.",
+      "english": "The FRG has 16 federal states.",
+      "highlight": [
+        "BRD"
+      ]
+    }
+  ],
+  "forms": [
+    "BRD"
+  ],
+  "memoryHook": "Bund + Republik = Federal Republic (BRD).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Bundesrepublik",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Bundesrepublik is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Bundesrepublik mean?",
+      "options": [
+        "never",
+        "Federal Republic",
+        "to help"
+      ],
+      "answer": "Federal Republic",
+      "explanation": "Bundesrepublik: Federal Republic.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Abbreviation:",
+      "options": [
+        "BRD",
+        "BDR"
+      ],
+      "answer": "BRD",
+      "explanation": "Bundesrepublik Deutschland.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Bund + es + Republik",
+        "Bunde + Republik"
+      ],
+      "answer": "Bund + es + Republik",
+      "explanation": "Federal republic.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "The former East Germany:",
+      "options": [
+        "die DDR",
+        "die BRD"
+      ],
+      "answer": "die DDR",
+      "explanation": "GDR.",
+      "id": "q5"
+    }
+  ]
+}

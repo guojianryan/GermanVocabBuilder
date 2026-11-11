@@ -1,0 +1,180 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "verzweifeln",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "fer-TSVYE-feln",
+      "ipa": "fɛɐ̯ˈtsvaɪ̯fl̩n",
+      "notes": ""
+    },
+    "meaning": "to despair",
+    "shortDefinition": "To despair."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "ver",
+        "meaning": "utterly"
+      },
+      {
+        "part": "zweifeln",
+        "meaning": "to doubt"
+      }
+    ],
+    "literalMeaning": "to doubt utterly"
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "verzweifl|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "verzweifel|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "verzweifel|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "verzweifel|n"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "verzweifel|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "verzweifel|n"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): ist verzweifelt"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich verzweifle an dieser Aufgabe.",
+      "english": "This task is driving me to despair.",
+      "highlight": [
+        "verzweifle"
+      ]
+    },
+    {
+      "german": "Sie war völlig verzweifelt.",
+      "english": "She was in utter despair.",
+      "highlight": [
+        "verzweifelt."
+      ]
+    },
+    {
+      "german": "Nicht verzweifeln!",
+      "english": "Don't despair!",
+      "highlight": [
+        "verzweifeln!"
+      ]
+    }
+  ],
+  "forms": [
+    "Verzweiflung",
+    "Zweifel"
+  ],
+  "memoryHook": "Ver + Zweifel = despair; verzweifelt; die Verzweiflung.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (verzweifeln)",
+      "answer": "verzweifelt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: verzweifelt.",
+      "acceptedAnswers": [
+        "verzweifelt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich bin schon ___. (verzweifeln, past)",
+      "answer": "verzweifelt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: bin verzweifelt.",
+      "acceptedAnswers": [
+        "verzweifelt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does verzweifeln mean?",
+      "options": [
+        "to despair",
+        "to buy",
+        "to sleep"
+      ],
+      "answer": "to despair",
+      "explanation": "verzweifeln: to despair.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Preposition:",
+      "options": [
+        "verzweifeln an",
+        "verzweifeln über only"
+      ],
+      "answer": "verzweifeln an",
+      "explanation": "At.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Noun:",
+      "options": [
+        "die Verzweiflung",
+        "der Zweifel"
+      ],
+      "answer": "die Verzweiflung",
+      "explanation": "Despair.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "der Zweifel (doubt)",
+        "zwei only"
+      ],
+      "answer": "der Zweifel (doubt)",
+      "explanation": "Doubt.",
+      "id": "q6"
+    }
+  ]
+}

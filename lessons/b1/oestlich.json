@@ -1,0 +1,118 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "östlich",
+    "partOfSpeech": "adjective / preposition",
+    "pronunciation": {
+      "respelling": "ÖST-likh",
+      "ipa": "ˈœstlɪç",
+      "notes": ""
+    },
+    "meaning": "eastern, east of",
+    "shortDefinition": "Eastern, east of."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "öst",
+        "meaning": "east"
+      },
+      {
+        "part": "lich",
+        "meaning": "adjective ending"
+      }
+    ],
+    "literalMeaning": "eastern"
+  },
+  "sampleSentences": [
+    {
+      "german": "Östlich von Berlin liegt Polen.",
+      "english": "Poland lies east of Berlin.",
+      "highlight": [
+        "Östlich"
+      ]
+    },
+    {
+      "german": "Der Wind kommt aus östlicher Richtung.",
+      "english": "The wind is coming from the east.",
+      "highlight": [
+        "östlicher"
+      ]
+    },
+    {
+      "german": "Die östlichen Länder Europas.",
+      "english": "The eastern countries of Europe.",
+      "highlight": [
+        "östlichen"
+      ]
+    }
+  ],
+  "forms": [
+    "westlich",
+    "nördlich",
+    "südlich"
+  ],
+  "memoryHook": "Osten → östlich (von) ↔ westlich.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does östlich mean?",
+      "options": [
+        "eastern",
+        "to open",
+        "the key"
+      ],
+      "answer": "eastern",
+      "explanation": "östlich: eastern, east of.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Östlich von' + …",
+      "options": [
+        "dative (östlich von Berlin)",
+        "accusative"
+      ],
+      "answer": "dative (östlich von Berlin)",
+      "explanation": "Von + dative.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Opposite:",
+      "options": [
+        "westlich",
+        "nördlich"
+      ],
+      "answer": "westlich",
+      "explanation": "West.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "Osten + -lich",
+        "Ostern"
+      ],
+      "answer": "Osten + -lich",
+      "explanation": "East.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Das Dorf liegt ___ der Stadt. (east of)",
+      "answer": "östlich",
+      "fullAnswer": "Das Dorf liegt östlich der Stadt.",
+      "explanation": "Östlich.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "sachlich",
+    "partOfSpeech": "adjective",
+    "pronunciation": {
+      "respelling": "ZAKH-likh",
+      "ipa": "ˈzaxlɪç",
+      "notes": ""
+    },
+    "meaning": "objective, matter-of-fact; factual",
+    "shortDefinition": "Objective, matter-of-fact; factual."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "sach",
+        "meaning": "matter, thing"
+      },
+      {
+        "part": "lich",
+        "meaning": "adjective ending"
+      }
+    ],
+    "literalMeaning": "keeping to the matter"
+  },
+  "sampleSentences": [
+    {
+      "german": "Bleib bitte sachlich.",
+      "english": "Please stay objective.",
+      "highlight": [
+        "sachlich."
+      ]
+    },
+    {
+      "german": "Eine sachliche Diskussion.",
+      "english": "A factual discussion.",
+      "highlight": [
+        "sachliche"
+      ]
+    },
+    {
+      "german": "Das ist sachlich falsch.",
+      "english": "That's factually wrong.",
+      "highlight": [
+        "sachlich"
+      ]
+    }
+  ],
+  "forms": [
+    "Sache",
+    "Sachlichkeit"
+  ],
+  "memoryHook": "Sache → sachlich (objective) ↔ unsachlich, emotional.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does sachlich mean?",
+      "options": [
+        "cheap",
+        "quiet",
+        "objective"
+      ],
+      "answer": "objective",
+      "explanation": "sachlich: objective, matter-of-fact; factual.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "die Sache (matter)",
+        "sacht"
+      ],
+      "answer": "die Sache (matter)",
+      "explanation": "Matter.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Opposite:",
+      "options": [
+        "emotional, unsachlich",
+        "sachkundig"
+      ],
+      "answer": "emotional, unsachlich",
+      "explanation": "Emotional.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Noun:",
+      "options": [
+        "die Sachlichkeit",
+        "die Sachheit"
+      ],
+      "answer": "die Sachlichkeit",
+      "explanation": "Objectivity.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Eine ___ Antwort. (objective)",
+      "answer": "sachliche",
+      "fullAnswer": "Eine sachliche Antwort.",
+      "explanation": "Sachliche.",
+      "acceptedAnswers": [
+        "objektive"
+      ],
+      "id": "q5"
+    }
+  ]
+}

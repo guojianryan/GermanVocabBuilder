@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Geheimdienst",
+    "partOfSpeech": "noun, masculine (der Geheimdienst)",
+    "pronunciation": {
+      "respelling": "ge-HIME-deenst",
+      "ipa": "ɡəˈhaɪ̯mdiːnst",
+      "notes": "Plural: die Geheimdienste."
+    },
+    "meaning": "secret service, intelligence service",
+    "shortDefinition": "Secret service, intelligence service."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Geheim",
+        "meaning": "secret"
+      },
+      {
+        "part": "dienst",
+        "meaning": "service"
+      }
+    ],
+    "literalMeaning": "secret service"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Geheimdienst, plural die Geheimdienste.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Geheimdienst"
+        },
+        {
+          "label": "More than one",
+          "value": "die Geheimdienste"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er arbeitet für den Geheimdienst.",
+      "english": "He works for the secret service.",
+      "highlight": [
+        "Geheimdienst."
+      ]
+    },
+    {
+      "german": "Der deutsche Geheimdienst heißt BND.",
+      "english": "The German intelligence service is the BND.",
+      "highlight": [
+        "Geheimdienst"
+      ]
+    },
+    {
+      "german": "Geheimdienste überwachen das Internet.",
+      "english": "Intelligence services monitor the internet.",
+      "highlight": [
+        "Geheimdienste"
+      ]
+    }
+  ],
+  "forms": [
+    "geheim",
+    "Spion"
+  ],
+  "memoryHook": "Geheim + Dienst = secret service (BND).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Geheimdienst",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Geheimdienst is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Geheimdienst, zwei ___",
+      "answer": "Geheimdienste",
+      "fullAnswer": "ein Geheimdienst, zwei Geheimdienste",
+      "explanation": "The plural is Geheimdienste.",
+      "acceptedAnswers": [
+        "Geheimdienste"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Geheimdienst mean?",
+      "options": [
+        "secret service",
+        "the window",
+        "always"
+      ],
+      "answer": "secret service",
+      "explanation": "Geheimdienst: secret service, intelligence service.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "geheim (secret) + Dienst (service)",
+        "Geheimnis + Dienst"
+      ],
+      "answer": "geheim (secret) + Dienst (service)",
+      "explanation": "Secret service.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Agent:",
+      "options": [
+        "der Geheimagent / Spion",
+        "der Geheimdiener"
+      ],
+      "answer": "der Geheimagent / Spion",
+      "explanation": "Spy.",
+      "id": "q5"
+    }
+  ]
+}

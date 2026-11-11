@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Stempel",
+    "partOfSpeech": "noun, masculine (der Stempel)",
+    "pronunciation": {
+      "respelling": "SHTEM-pel",
+      "ipa": "ˈʃtɛmpl̩",
+      "notes": "The plural looks the same. Plural: die Stempel."
+    },
+    "meaning": "stamp (rubber)",
+    "shortDefinition": "Stamp (rubber)."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Stempel, plural die Stempel.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Stempel"
+        },
+        {
+          "label": "More than one",
+          "value": "die Stempel"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich brauche einen Stempel auf dem Formular.",
+      "english": "I need a stamp on the form.",
+      "highlight": [
+        "Stempel"
+      ]
+    },
+    {
+      "german": "Der Stempel zeigt das Datum.",
+      "english": "The stamp shows the date.",
+      "highlight": [
+        "Stempel"
+      ]
+    },
+    {
+      "german": "Ohne Stempel ist das ungültig.",
+      "english": "Without a stamp it's invalid.",
+      "highlight": [
+        "Stempel"
+      ]
+    }
+  ],
+  "forms": [
+    "stempeln"
+  ],
+  "memoryHook": "Der Stempel (rubber stamp); Briefmarke = postage stamp.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Stempel",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Stempel is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Stempel, zwei ___",
+      "answer": "Stempel",
+      "fullAnswer": "ein Stempel, zwei Stempel",
+      "explanation": "The plural is Stempel.",
+      "acceptedAnswers": [
+        "Stempel"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Stempel mean?",
+      "options": [
+        "stamp (rubber)",
+        "to sing",
+        "the shop"
+      ],
+      "answer": "stamp (rubber)",
+      "explanation": "Stempel: stamp (rubber).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Stempel vs Briefmarke:",
+      "options": [
+        "Stempel = rubber stamp; Briefmarke = postage stamp",
+        "same"
+      ],
+      "answer": "Stempel = rubber stamp; Briefmarke = postage stamp",
+      "explanation": "Different.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Verb:",
+      "options": [
+        "stempeln",
+        "stempen"
+      ],
+      "answer": "stempeln",
+      "explanation": "Stamp.",
+      "id": "q5"
+    }
+  ]
+}

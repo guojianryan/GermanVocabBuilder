@@ -1,0 +1,142 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Behandlung",
+    "partOfSpeech": "noun, feminine (die Behandlung)",
+    "pronunciation": {
+      "respelling": "be-HAND-lung",
+      "ipa": "bəˈhandlʊŋ",
+      "notes": "Plural: die Behandlungen."
+    },
+    "meaning": "treatment",
+    "shortDefinition": "Treatment."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Be",
+        "meaning": "prefix"
+      },
+      {
+        "part": "handl",
+        "meaning": "handle (handeln)"
+      },
+      {
+        "part": "ung",
+        "meaning": "noun ending"
+      }
+    ],
+    "literalMeaning": "a handling"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Behandlung, plural die Behandlungen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Behandlung"
+        },
+        {
+          "label": "More than one",
+          "value": "die Behandlungen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Behandlung dauert drei Wochen.",
+      "english": "The treatment lasts three weeks.",
+      "highlight": [
+        "Behandlung"
+      ]
+    },
+    {
+      "german": "Er ist in ärztlicher Behandlung.",
+      "english": "He's under medical treatment.",
+      "highlight": [
+        "Behandlung."
+      ]
+    },
+    {
+      "german": "Ich finde die Behandlung unfair.",
+      "english": "I find the treatment unfair.",
+      "highlight": [
+        "Behandlung"
+      ]
+    }
+  ],
+  "forms": [
+    "Behandlungen",
+    "die Behandlungen",
+    "die Behandlung"
+  ],
+  "memoryHook": "Behandeln → die Behandlung.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Behandlung",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Behandlung is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Behandlung, zwei ___",
+      "answer": "Behandlungen",
+      "fullAnswer": "ein Behandlung, zwei Behandlungen",
+      "explanation": "The plural is Behandlungen.",
+      "acceptedAnswers": [
+        "Behandlungen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Behandlung mean?",
+      "options": [
+        "treatment",
+        "tomorrow",
+        "to wait"
+      ],
+      "answer": "treatment",
+      "explanation": "Behandlung: treatment.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "behandeln (treat)",
+        "Hand only"
+      ],
+      "answer": "behandeln (treat)",
+      "explanation": "Treat.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'In Behandlung sein' means…",
+      "options": [
+        "to be receiving treatment",
+        "to be handled"
+      ],
+      "answer": "to be receiving treatment",
+      "explanation": "Medical.",
+      "id": "q5"
+    }
+  ]
+}

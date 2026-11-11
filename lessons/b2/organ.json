@@ -1,0 +1,133 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Organ",
+    "partOfSpeech": "noun, neuter (das Organ)",
+    "pronunciation": {
+      "respelling": "or-GAAN",
+      "ipa": "ɔʁˈɡaːn",
+      "notes": "Plural: die Organe."
+    },
+    "meaning": "organ (body); body (institution)",
+    "shortDefinition": "Organ (body); body (institution)."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Organ, plural die Organe.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Organ"
+        },
+        {
+          "label": "More than one",
+          "value": "die Organe"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das Herz ist ein Organ.",
+      "english": "The heart is an organ.",
+      "highlight": [
+        "Organ."
+      ]
+    },
+    {
+      "german": "Er ist Organspender.",
+      "english": "He's an organ donor.",
+      "highlight": [
+        "Organspender."
+      ]
+    },
+    {
+      "german": "Das Parlament ist ein Organ des Staates.",
+      "english": "Parliament is a body of the state.",
+      "highlight": [
+        "Organ"
+      ]
+    }
+  ],
+  "forms": [
+    "Organspender"
+  ],
+  "memoryHook": "Das Organ (body part; institution) ≠ die Orgel.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Organ",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Organ is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Organ, zwei ___",
+      "answer": "Organe",
+      "fullAnswer": "ein Organ, zwei Organe",
+      "explanation": "The plural is Organe.",
+      "acceptedAnswers": [
+        "Organe"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Organ mean?",
+      "options": [
+        "organ (body)",
+        "the weather",
+        "the street"
+      ],
+      "answer": "organ (body)",
+      "explanation": "Organ: organ (body); body (institution).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "The musical organ is…",
+      "options": [
+        "die Orgel",
+        "das Organ"
+      ],
+      "answer": "die Orgel",
+      "explanation": "Different.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Stress on…",
+      "options": [
+        "-GAN",
+        "OR-"
+      ],
+      "answer": "-GAN",
+      "explanation": "End.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Organ donor:",
+      "options": [
+        "der Organspender",
+        "der Organgeber"
+      ],
+      "answer": "der Organspender",
+      "explanation": "Compound.",
+      "id": "q6"
+    }
+  ]
+}

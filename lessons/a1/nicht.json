@@ -1,0 +1,171 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "full",
+  "word": {
+    "headword": "nicht",
+    "partOfSpeech": "adverb",
+    "pronunciation": {
+      "respelling": "NIKHT",
+      "ipa": "nɪçt",
+      "notes": "Soft ch, as in ich."
+    },
+    "meaning": "not",
+    "shortDefinition": "Negates verbs, adjectives and nouns with der/die/das."
+  },
+  "intro": {
+    "title": "Nicht or kein?",
+    "paragraphs": [
+      "Nicht is 'not'. It negates verbs (ich komme nicht), adjectives (nicht teuer) and nouns that have der, die, das or a possessive. For nouns with ein or no article, use kein."
+    ]
+  },
+  "wordFamily": [
+    {
+      "german": "kein",
+      "english": "no, not a",
+      "type": "article"
+    },
+    {
+      "german": "nichts",
+      "english": "nothing",
+      "type": "pronoun"
+    },
+    {
+      "german": "noch nicht",
+      "english": "not yet",
+      "type": "phrase"
+    },
+    {
+      "german": "nicht mehr",
+      "english": "no longer",
+      "type": "phrase"
+    }
+  ],
+  "keyTrap": {
+    "title": "The big trap: where nicht goes",
+    "explanation": "Nicht usually goes at the end of the sentence, but before adjectives, places and the second verb.",
+    "wrong": {
+      "german": "Ich nicht komme morgen.",
+      "verdict": "Nicht doesn't go before the conjugated verb."
+    },
+    "correct": [
+      {
+        "german": "Ich komme morgen nicht.",
+        "literal": "I come tomorrow not.",
+        "note": "Negating the whole sentence: end."
+      },
+      {
+        "german": "Das ist nicht teuer.",
+        "literal": "That is not expensive.",
+        "note": "Before an adjective."
+      },
+      {
+        "german": "Ich kann nicht kommen.",
+        "literal": "I can not come.",
+        "note": "Before the second verb."
+      }
+    ]
+  },
+  "commonMistakes": [
+    {
+      "title": "kein for nouns",
+      "explanation": "Nouns with ein or no article take kein.",
+      "wrong": "Ich habe nicht Auto.",
+      "correct": "Ich habe kein Auto."
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich verstehe das nicht.",
+      "english": "I don't understand that.",
+      "highlight": [
+        "nicht."
+      ]
+    },
+    {
+      "german": "Das ist nicht mein Koffer.",
+      "english": "That's not my suitcase.",
+      "highlight": [
+        "nicht"
+      ]
+    },
+    {
+      "german": "Er wohnt nicht mehr hier.",
+      "english": "He doesn't live here any more.",
+      "highlight": [
+        "nicht"
+      ]
+    },
+    {
+      "german": "Ich bin noch nicht fertig.",
+      "english": "I'm not finished yet.",
+      "highlight": [
+        "nicht"
+      ]
+    }
+  ],
+  "forms": [
+    "noch nicht",
+    "nicht mehr",
+    "gar nicht"
+  ],
+  "memoryHook": "Nicht = not, usually near the end. Nouns with ein? Use kein.",
+  "signOff": "Nicht schlecht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Ich spreche ___ Französisch.",
+      "options": [
+        "nicht",
+        "kein"
+      ],
+      "answer": "kein",
+      "explanation": "Languages without article: kein (nicht also heard).",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Which is correct?",
+      "options": [
+        "Ich arbeite heute nicht.",
+        "Ich nicht arbeite heute."
+      ],
+      "answer": "Ich arbeite heute nicht.",
+      "explanation": "Nicht near the end.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Das Essen ist ___ gut.",
+      "options": [
+        "nicht",
+        "kein"
+      ],
+      "answer": "nicht",
+      "explanation": "Adjective: nicht.",
+      "id": "q3"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Er ist noch ___ da. (not yet)",
+      "answer": "nicht",
+      "fullAnswer": "Er ist noch nicht da.",
+      "explanation": "Noch nicht.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Nicht mehr' means…",
+      "options": [
+        "no longer",
+        "not more"
+      ],
+      "answer": "no longer",
+      "explanation": "Ich rauche nicht mehr.",
+      "id": "q5"
+    }
+  ]
+}

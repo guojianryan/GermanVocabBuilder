@@ -1,0 +1,161 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "brechen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "BREKH-en",
+      "ipa": "ˈbʁɛçn̩",
+      "notes": ""
+    },
+    "meaning": "to break; to vomit",
+    "shortDefinition": "To break; to vomit."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "brech|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "br|i|chst"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "br|i|cht"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "brech|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "brech|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "brech|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gebrochen",
+        "e → i for du and er."
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er hat sich das Bein gebrochen.",
+      "english": "He broke his leg.",
+      "highlight": [
+        "gebrochen."
+      ]
+    },
+    {
+      "german": "Sie hat ihr Versprechen gebrochen.",
+      "english": "She broke her promise.",
+      "highlight": [
+        "gebrochen."
+      ]
+    },
+    {
+      "german": "Mir ist schlecht, ich muss brechen.",
+      "english": "I feel sick, I'm going to throw up.",
+      "highlight": [
+        "brechen."
+      ]
+    }
+  ],
+  "forms": [
+    "breche",
+    "brichst",
+    "bricht",
+    "brechen",
+    "brecht",
+    "gebrochen",
+    "brach"
+  ],
+  "memoryHook": "Brechen, brach, gebrochen. Er bricht.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (brechen)",
+      "answer": "bricht",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: bricht.",
+      "acceptedAnswers": [
+        "bricht"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (brechen, past)",
+      "answer": "gebrochen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gebrochen.",
+      "acceptedAnswers": [
+        "gebrochen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does brechen mean?",
+      "options": [
+        "to break",
+        "the bread",
+        "slowly"
+      ],
+      "answer": "to break",
+      "explanation": "brechen: to break; to vomit.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Break a leg' (injury):",
+      "options": [
+        "sich das Bein brechen",
+        "das Bein kaputt machen"
+      ],
+      "answer": "sich das Bein brechen",
+      "explanation": "Dative sich.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Past forms:",
+      "options": [
+        "brach, gebrochen",
+        "brechte, gebrecht"
+      ],
+      "answer": "brach, gebrochen",
+      "explanation": "Irregular.",
+      "id": "q5"
+    }
+  ]
+}

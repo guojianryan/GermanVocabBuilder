@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Bibliothek",
+    "partOfSpeech": "noun, feminine (die Bibliothek)",
+    "pronunciation": {
+      "respelling": "bib-lee-oh-TAYK",
+      "ipa": "bibli̯oˈteːk",
+      "notes": "Plural: die Bibliotheken."
+    },
+    "meaning": "library",
+    "shortDefinition": "Library."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Bibliothek, plural die Bibliotheken.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Bibliothek"
+        },
+        {
+          "label": "More than one",
+          "value": "die Bibliotheken"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich lerne in der Bibliothek.",
+      "english": "I study in the library.",
+      "highlight": [
+        "Bibliothek."
+      ]
+    },
+    {
+      "german": "Die Bibliothek ist bis 20 Uhr geöffnet.",
+      "english": "The library is open until 8 pm.",
+      "highlight": [
+        "Bibliothek"
+      ]
+    },
+    {
+      "german": "Ich leihe mir Bücher in der Bibliothek.",
+      "english": "I borrow books from the library.",
+      "highlight": [
+        "Bibliothek."
+      ]
+    }
+  ],
+  "forms": [
+    "Bibliotheken",
+    "die Bibliotheken",
+    "die Bibliothek"
+  ],
+  "memoryHook": "Die Bibliothek = library (not a bookshop, that's die Buchhandlung).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Bibliothek",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Bibliothek is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Bibliothek, zwei ___",
+      "answer": "Bibliotheken",
+      "fullAnswer": "ein Bibliothek, zwei Bibliotheken",
+      "explanation": "The plural is Bibliotheken.",
+      "acceptedAnswers": [
+        "Bibliotheken"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Bibliothek mean?",
+      "options": [
+        "to buy",
+        "library",
+        "the bed"
+      ],
+      "answer": "library",
+      "explanation": "Bibliothek: library.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Bibliothek or Buchhandlung? Where you borrow books:",
+      "options": [
+        "Bibliothek",
+        "Buchhandlung"
+      ],
+      "answer": "Bibliothek",
+      "explanation": "Buy them in a Buchhandlung.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Stress on…",
+      "options": [
+        "-THEK",
+        "BI-"
+      ],
+      "answer": "-THEK",
+      "explanation": "bib-lee-oh-TAYK.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Traum",
+    "partOfSpeech": "noun, masculine (der Traum)",
+    "pronunciation": {
+      "respelling": "TROWM",
+      "ipa": "tʁaʊ̯m",
+      "notes": "Plural: die Träume."
+    },
+    "meaning": "dream",
+    "shortDefinition": "Dream."
+  },
+  "wordFamily": [
+    {
+      "german": "träumen",
+      "english": "to dream",
+      "type": "verb"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Traum, plural die Träume.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Traum"
+        },
+        {
+          "label": "More than one",
+          "value": "die Träume"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich hatte einen komischen Traum.",
+      "english": "I had a strange dream.",
+      "highlight": [
+        "Traum."
+      ]
+    },
+    {
+      "german": "Das ist mein Traumhaus!",
+      "english": "That's my dream house!",
+      "highlight": [
+        "Traumhaus!"
+      ]
+    },
+    {
+      "german": "Schöne Träume!",
+      "english": "Sweet dreams!",
+      "highlight": [
+        "Träume!"
+      ]
+    }
+  ],
+  "forms": [
+    "Träume",
+    "die Träume",
+    "der Traum"
+  ],
+  "memoryHook": "Der Traum, die Träume. Traumjob = dream job.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Traum",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Traum is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Traum, zwei ___",
+      "answer": "Träume",
+      "fullAnswer": "ein Traum, zwei Träume",
+      "explanation": "The plural is Träume.",
+      "acceptedAnswers": [
+        "Traeume"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Traum mean?",
+      "options": [
+        "to learn",
+        "dream",
+        "cheap"
+      ],
+      "answer": "dream",
+      "explanation": "Traum: dream.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Träume",
+        "Traums"
+      ],
+      "answer": "Träume",
+      "explanation": "au → äu.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Traum-' at the start means…",
+      "options": [
+        "dream ___ (perfect)",
+        "terrible"
+      ],
+      "answer": "dream ___ (perfect)",
+      "explanation": "Traumjob, Traumhaus.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "ob",
+    "partOfSpeech": "conjunction",
+    "pronunciation": {
+      "respelling": "OP",
+      "ipa": "ɔp",
+      "notes": ""
+    },
+    "meaning": "whether, if",
+    "shortDefinition": "Whether, if."
+  },
+  "sampleSentences": [
+    {
+      "german": "Ich weiß nicht, ob er kommt.",
+      "english": "I don't know whether he's coming.",
+      "highlight": [
+        "ob",
+        "kommt."
+      ]
+    },
+    {
+      "german": "Weißt du, ob der Laden offen ist?",
+      "english": "Do you know if the shop is open?",
+      "highlight": [
+        "ob",
+        "ist?"
+      ]
+    },
+    {
+      "german": "Er fragt, ob wir Zeit haben.",
+      "english": "He's asking whether we have time.",
+      "highlight": [
+        "ob",
+        "haben."
+      ]
+    }
+  ],
+  "forms": [],
+  "memoryHook": "Ob = whether (yes/no). Wenn = if (condition).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does ob mean?",
+      "options": [
+        "the bill",
+        "the car",
+        "whether"
+      ],
+      "answer": "whether",
+      "explanation": "ob: whether, if.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Verb position after ob:",
+      "options": [
+        "at the end",
+        "second"
+      ],
+      "answer": "at the end",
+      "explanation": "Subordinate clause.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "'If' as a condition is…",
+      "options": [
+        "wenn",
+        "ob"
+      ],
+      "answer": "wenn",
+      "explanation": "Ob = whether.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ob introduces…",
+      "options": [
+        "indirect yes/no questions",
+        "reasons"
+      ],
+      "answer": "indirect yes/no questions",
+      "explanation": "Whether.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich frage, ___ du mitkommst. (whether)",
+      "answer": "ob",
+      "fullAnswer": "Ich frage, ob du mitkommst.",
+      "explanation": "Ob.",
+      "id": "q5"
+    }
+  ]
+}

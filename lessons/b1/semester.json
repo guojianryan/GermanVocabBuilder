@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Semester",
+    "partOfSpeech": "noun, neuter (das Semester)",
+    "pronunciation": {
+      "respelling": "ze-MES-ter",
+      "ipa": "zeˈmɛstɐ",
+      "notes": "The plural looks the same. Plural: die Semester."
+    },
+    "meaning": "semester, term (uni)",
+    "shortDefinition": "Semester, term (uni)."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Semester, plural die Semester.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Semester"
+        },
+        {
+          "label": "More than one",
+          "value": "die Semester"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich bin im dritten Semester.",
+      "english": "I'm in my third semester.",
+      "highlight": [
+        "Semester."
+      ]
+    },
+    {
+      "german": "Das Semester beginnt im Oktober.",
+      "english": "The semester starts in October.",
+      "highlight": [
+        "Semester"
+      ]
+    },
+    {
+      "german": "In den Semesterferien arbeite ich.",
+      "english": "I work during the university holidays.",
+      "highlight": [
+        "Semesterferien"
+      ]
+    }
+  ],
+  "forms": [
+    "Semester",
+    "die Semester",
+    "das Semester"
+  ],
+  "memoryHook": "Das Semester (uni term). Semesterferien.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Semester",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Semester is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Semester, zwei ___",
+      "answer": "Semester",
+      "fullAnswer": "ein Semester, zwei Semester",
+      "explanation": "The plural is Semester.",
+      "acceptedAnswers": [
+        "Semester"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Semester mean?",
+      "options": [
+        "semester",
+        "to sleep",
+        "to learn"
+      ],
+      "answer": "semester",
+      "explanation": "Semester: semester, term (uni).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gender:",
+      "options": [
+        "das",
+        "der"
+      ],
+      "answer": "das",
+      "explanation": "Das Semester.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Semester",
+        "Semestern"
+      ],
+      "answer": "Semester",
+      "explanation": "No change.",
+      "id": "q5"
+    }
+  ]
+}

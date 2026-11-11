@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Gott",
+    "partOfSpeech": "noun, masculine (der Gott)",
+    "pronunciation": {
+      "respelling": "GOT",
+      "ipa": "ɡɔt",
+      "notes": "Plural: die Götter."
+    },
+    "meaning": "God, god",
+    "shortDefinition": "God, god."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Gott, plural die Götter.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Gott"
+        },
+        {
+          "label": "More than one",
+          "value": "die Götter"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Gott sei Dank!",
+      "english": "Thank God!",
+      "highlight": [
+        "Gott"
+      ]
+    },
+    {
+      "german": "Oh mein Gott!",
+      "english": "Oh my God!",
+      "highlight": [
+        "Gott!"
+      ]
+    },
+    {
+      "german": "Grüß Gott!",
+      "english": "Hello! (southern Germany/Austria)",
+      "highlight": [
+        "Gott!"
+      ]
+    }
+  ],
+  "forms": [
+    "Grüß Gott",
+    "Gott sei Dank"
+  ],
+  "memoryHook": "Der Gott. Gott sei Dank! Grüß Gott! (hello in the south).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Gott",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Gott is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Gott, zwei ___",
+      "answer": "Götter",
+      "fullAnswer": "ein Gott, zwei Götter",
+      "explanation": "The plural is Götter.",
+      "acceptedAnswers": [
+        "Goetter"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Gott mean?",
+      "options": [
+        "God",
+        "to sing",
+        "expensive"
+      ],
+      "answer": "God",
+      "explanation": "Gott: God, god.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Grüß Gott!' is…",
+      "options": [
+        "a greeting in the south",
+        "a prayer"
+      ],
+      "answer": "a greeting in the south",
+      "explanation": "Bavaria, Austria.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Gott sei Dank!' means…",
+      "options": [
+        "Thank God!",
+        "God be thanked for food"
+      ],
+      "answer": "Thank God!",
+      "explanation": "Relief.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Visum",
+    "partOfSpeech": "noun, neuter (das Visum)",
+    "pronunciation": {
+      "respelling": "VEE-zoom",
+      "ipa": "ˈviːzʊm",
+      "notes": "Plural: die Visa."
+    },
+    "meaning": "visa",
+    "shortDefinition": "Visa."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Visum, plural die Visa.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Visum"
+        },
+        {
+          "label": "More than one",
+          "value": "die Visa"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Brauche ich ein Visum?",
+      "english": "Do I need a visa?",
+      "highlight": [
+        "Visum?"
+      ]
+    },
+    {
+      "german": "Das Visum ist ein Jahr gültig.",
+      "english": "The visa is valid for a year.",
+      "highlight": [
+        "Visum"
+      ]
+    },
+    {
+      "german": "Sie hat ihr Visum verlängert.",
+      "english": "She extended her visa.",
+      "highlight": [
+        "Visum"
+      ]
+    }
+  ],
+  "forms": [
+    "Visa",
+    "Visen"
+  ],
+  "memoryHook": "Das Visum, die Visa.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Visum",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Visum is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Visum, zwei ___",
+      "answer": "Visa",
+      "fullAnswer": "ein Visum, zwei Visa",
+      "explanation": "The plural is Visa.",
+      "acceptedAnswers": [
+        "Visa"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Visum mean?",
+      "options": [
+        "never",
+        "visa",
+        "the car"
+      ],
+      "answer": "visa",
+      "explanation": "Visum: visa.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Visa (also Visen)",
+        "Visums"
+      ],
+      "answer": "Visa (also Visen)",
+      "explanation": "Latin.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Where to apply:",
+      "options": [
+        "Botschaft / Konsulat",
+        "Bank"
+      ],
+      "answer": "Botschaft / Konsulat",
+      "explanation": "Embassy.",
+      "id": "q5"
+    }
+  ]
+}

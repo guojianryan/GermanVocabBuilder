@@ -1,0 +1,138 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Wahlkampf",
+    "partOfSpeech": "noun, masculine (der Wahlkampf)",
+    "pronunciation": {
+      "respelling": "VAAL-kampf",
+      "ipa": "ˈvaːlkampf",
+      "notes": "Plural: die Wahlkämpfe."
+    },
+    "meaning": "election campaign",
+    "shortDefinition": "Election campaign."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Wahl",
+        "meaning": "election"
+      },
+      {
+        "part": "kampf",
+        "meaning": "fight"
+      }
+    ],
+    "literalMeaning": "election fight"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Wahlkampf, plural die Wahlkämpfe.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Wahlkampf"
+        },
+        {
+          "label": "More than one",
+          "value": "die Wahlkämpfe"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Wahlkampf hat begonnen.",
+      "english": "The election campaign has begun.",
+      "highlight": [
+        "Wahlkampf"
+      ]
+    },
+    {
+      "german": "Im Wahlkampf versprechen alle viel.",
+      "english": "Everyone promises a lot during the campaign.",
+      "highlight": [
+        "Wahlkampf"
+      ]
+    },
+    {
+      "german": "Ein harter Wahlkampf.",
+      "english": "A tough campaign.",
+      "highlight": [
+        "Wahlkampf."
+      ]
+    }
+  ],
+  "forms": [
+    "Wahlkämpfe",
+    "die Wahlkämpfe",
+    "der Wahlkampf"
+  ],
+  "memoryHook": "Wahl + Kampf = election campaign.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Wahlkampf",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Wahlkampf is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Wahlkampf, zwei ___",
+      "answer": "Wahlkämpfe",
+      "fullAnswer": "ein Wahlkampf, zwei Wahlkämpfe",
+      "explanation": "The plural is Wahlkämpfe.",
+      "acceptedAnswers": [
+        "Wahlkaempfe"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Wahlkampf mean?",
+      "options": [
+        "election campaign",
+        "the window",
+        "the shop"
+      ],
+      "answer": "election campaign",
+      "explanation": "Wahlkampf: election campaign.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Wahl (election) + Kampf (fight)",
+        "Wal + Kampf"
+      ],
+      "answer": "Wahl (election) + Kampf (fight)",
+      "explanation": "Election fight.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Wahlkämpfe",
+        "Wahlkampfe"
+      ],
+      "answer": "Wahlkämpfe",
+      "explanation": "Umlaut.",
+      "id": "q5"
+    }
+  ]
+}

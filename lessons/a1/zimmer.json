@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Zimmer",
+    "partOfSpeech": "noun, neuter (das Zimmer)",
+    "pronunciation": {
+      "respelling": "TSIM-er",
+      "ipa": "ˈtsɪmɐ",
+      "notes": "The plural looks the same. Plural: die Zimmer."
+    },
+    "meaning": "room",
+    "shortDefinition": "Room."
+  },
+  "wordFamily": [
+    {
+      "german": "das Wohnzimmer",
+      "english": "living room",
+      "type": "noun"
+    },
+    {
+      "german": "das Schlafzimmer",
+      "english": "bedroom",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Zimmer, plural die Zimmer.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Zimmer"
+        },
+        {
+          "label": "More than one",
+          "value": "die Zimmer"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Wohnung hat drei Zimmer.",
+      "english": "The flat has three rooms.",
+      "highlight": [
+        "Zimmer."
+      ]
+    },
+    {
+      "german": "Haben Sie noch ein Zimmer frei?",
+      "english": "Do you have a room available?",
+      "highlight": [
+        "Zimmer"
+      ]
+    },
+    {
+      "german": "Mein Zimmer ist oben.",
+      "english": "My room is upstairs.",
+      "highlight": [
+        "Zimmer"
+      ]
+    }
+  ],
+  "forms": [
+    "Zimmer",
+    "die Zimmer",
+    "das Zimmer"
+  ],
+  "memoryHook": "Das Zimmer, plural unchanged. Wohnzimmer, Schlafzimmer, Badezimmer, Einzelzimmer.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Zimmer",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Zimmer is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Zimmer, zwei ___",
+      "answer": "Zimmer",
+      "fullAnswer": "ein Zimmer, zwei Zimmer",
+      "explanation": "The plural is Zimmer.",
+      "acceptedAnswers": [
+        "Zimmer"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Zimmer mean?",
+      "options": [
+        "room",
+        "to travel",
+        "slowly"
+      ],
+      "answer": "room",
+      "explanation": "Zimmer: room.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Wohnzimmer, Schlafzimmer, Badezimmer are…",
+      "options": [
+        "living room, bedroom, bathroom",
+        "three kinds of hotel"
+      ],
+      "answer": "living room, bedroom, bathroom",
+      "explanation": "Room words.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Zimmer",
+        "Zimmers"
+      ],
+      "answer": "Zimmer",
+      "explanation": "Same as singular.",
+      "id": "q5"
+    }
+  ]
+}

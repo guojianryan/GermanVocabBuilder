@@ -1,0 +1,104 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "wahr",
+    "partOfSpeech": "adjective",
+    "pronunciation": {
+      "respelling": "VAAR",
+      "ipa": "vaːɐ̯",
+      "notes": ""
+    },
+    "meaning": "true",
+    "shortDefinition": "True."
+  },
+  "sampleSentences": [
+    {
+      "german": "Das ist nicht wahr!",
+      "english": "That's not true!",
+      "highlight": [
+        "wahr!"
+      ]
+    },
+    {
+      "german": "Ist das wirklich wahr?",
+      "english": "Is that really true?",
+      "highlight": [
+        "wahr?"
+      ]
+    },
+    {
+      "german": "Du kommst doch, nicht wahr?",
+      "english": "You're coming, aren't you?",
+      "highlight": [
+        "wahr?"
+      ]
+    }
+  ],
+  "forms": [
+    "wahre",
+    "nicht wahr",
+    "Wahrheit"
+  ],
+  "memoryHook": "Wahr = true (with h). War = was. Nicht wahr? = isn't it?",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does wahr mean?",
+      "options": [
+        "the street",
+        "true",
+        "the door"
+      ],
+      "answer": "true",
+      "explanation": "wahr: true.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Nicht wahr?' at the end means…",
+      "options": [
+        "isn't it? / aren't you?",
+        "not true"
+      ],
+      "answer": "isn't it? / aren't you?",
+      "explanation": "Question tag.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Wahr or war? 'True':",
+      "options": [
+        "wahr",
+        "war"
+      ],
+      "answer": "wahr",
+      "explanation": "War = was.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "The opposite:",
+      "options": [
+        "falsch / gelogen",
+        "richtig"
+      ],
+      "answer": "falsch / gelogen",
+      "explanation": "False.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Das ist eine ___ Geschichte. (true)",
+      "answer": "wahre",
+      "fullAnswer": "Das ist eine wahre Geschichte.",
+      "explanation": "Eine wahre.",
+      "id": "q5"
+    }
+  ]
+}

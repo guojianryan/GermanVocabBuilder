@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Version",
+    "partOfSpeech": "noun, feminine (die Version)",
+    "pronunciation": {
+      "respelling": "ver-ZYOHN",
+      "ipa": "vɛʁˈzi̯oːn",
+      "notes": "Plural: die Versionen."
+    },
+    "meaning": "version",
+    "shortDefinition": "Version."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Version, plural die Versionen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Version"
+        },
+        {
+          "label": "More than one",
+          "value": "die Versionen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Gibt es eine neue Version?",
+      "english": "Is there a new version?",
+      "highlight": [
+        "Version?"
+      ]
+    },
+    {
+      "german": "Das ist die deutsche Version des Films.",
+      "english": "That's the German version of the film.",
+      "highlight": [
+        "Version"
+      ]
+    },
+    {
+      "german": "Er erzählt eine andere Version.",
+      "english": "He tells a different version.",
+      "highlight": [
+        "Version."
+      ]
+    }
+  ],
+  "forms": [
+    "Versionen",
+    "die Versionen",
+    "die Version"
+  ],
+  "memoryHook": "Die Version (v = v, -ion = die).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Version",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Version is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Version, zwei ___",
+      "answer": "Versionen",
+      "fullAnswer": "ein Version, zwei Versionen",
+      "explanation": "The plural is Versionen.",
+      "acceptedAnswers": [
+        "Versionen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Version mean?",
+      "options": [
+        "hot",
+        "version",
+        "quiet"
+      ],
+      "answer": "version",
+      "explanation": "Version: version.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "V sounds like…",
+      "options": [
+        "v",
+        "f"
+      ],
+      "answer": "v",
+      "explanation": "ver-ZYOHN.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Versionen",
+        "Versions"
+      ],
+      "answer": "Versionen",
+      "explanation": "-en.",
+      "id": "q5"
+    }
+  ]
+}

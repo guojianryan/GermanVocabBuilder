@@ -1,0 +1,149 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Zeitraum",
+    "partOfSpeech": "noun, masculine (der Zeitraum)",
+    "pronunciation": {
+      "respelling": "TSITE-rowm",
+      "ipa": "ˈtsaɪ̯tʁaʊ̯m",
+      "notes": "Plural: die Zeiträume."
+    },
+    "meaning": "period (of time)",
+    "shortDefinition": "Period (of time)."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Zeit",
+        "meaning": "time",
+        "emphasis": "stretch"
+      },
+      {
+        "part": "raum",
+        "meaning": "space"
+      }
+    ],
+    "literalMeaning": "time space",
+    "summary": "A stretch of time."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Zeitraum, plural die Zeiträume.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Zeitraum"
+        },
+        {
+          "label": "More than one",
+          "value": "die Zeiträume"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Über einen Zeitraum von fünf Jahren.",
+      "english": "Over a period of five years.",
+      "highlight": [
+        "Zeitraum"
+      ]
+    },
+    {
+      "german": "Im gleichen Zeitraum stiegen die Preise.",
+      "english": "In the same period prices rose.",
+      "highlight": [
+        "Zeitraum"
+      ]
+    },
+    {
+      "german": "Ein kurzer Zeitraum.",
+      "english": "A short period.",
+      "highlight": [
+        "Zeitraum."
+      ]
+    }
+  ],
+  "forms": [
+    "Zeitpunkt"
+  ],
+  "memoryHook": "Zeit + Raum = period of time (≠ Zeitpunkt).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Zeitraum",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Zeitraum is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Zeitraum, zwei ___",
+      "answer": "Zeiträume",
+      "fullAnswer": "ein Zeitraum, zwei Zeiträume",
+      "explanation": "The plural is Zeiträume.",
+      "acceptedAnswers": [
+        "Zeitraeume"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Zeitraum mean?",
+      "options": [
+        "cheap",
+        "period (of time)",
+        "slowly"
+      ],
+      "answer": "period (of time)",
+      "explanation": "Zeitraum: period (of time).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Zeit + Raum (space)",
+        "Zeit + Traum"
+      ],
+      "answer": "Zeit + Raum (space)",
+      "explanation": "Time space.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonym:",
+      "options": [
+        "die Zeitspanne, die Periode",
+        "der Zeitpunkt"
+      ],
+      "answer": "die Zeitspanne, die Periode",
+      "explanation": "Span.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Zeitraum vs Zeitpunkt:",
+      "options": [
+        "period vs point in time",
+        "same"
+      ],
+      "answer": "period vs point in time",
+      "explanation": "Different.",
+      "id": "q6"
+    }
+  ]
+}

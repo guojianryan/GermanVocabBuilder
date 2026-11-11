@@ -1,0 +1,118 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Zoll",
+    "partOfSpeech": "noun, masculine (der Zoll)",
+    "pronunciation": {
+      "respelling": "TSOL",
+      "ipa": "tsɔl",
+      "notes": "No plural in this sense. Usually no plural."
+    },
+    "meaning": "customs",
+    "shortDefinition": "Customs."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Zoll, usually no plural.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Zoll"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Am Flughafen müssen wir durch den Zoll.",
+      "english": "At the airport we have to go through customs.",
+      "highlight": [
+        "Zoll."
+      ]
+    },
+    {
+      "german": "Haben Sie etwas zu verzollen?",
+      "english": "Do you have anything to declare?",
+      "highlight": [
+        "verzollen?"
+      ]
+    },
+    {
+      "german": "Der Zoll hat das Paket geöffnet.",
+      "english": "Customs opened the parcel.",
+      "highlight": [
+        "Zoll"
+      ]
+    }
+  ],
+  "forms": [
+    "der Zoll"
+  ],
+  "memoryHook": "Der Zoll = customs (and, separately, an inch). Etwas verzollen = declare something.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Zoll",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Zoll is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Zoll mean?",
+      "options": [
+        "cheap",
+        "the door",
+        "customs"
+      ],
+      "answer": "customs",
+      "explanation": "Zoll: customs.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Durch den Zoll gehen' means…",
+      "options": [
+        "to go through customs",
+        "to go through a toll"
+      ],
+      "answer": "to go through customs",
+      "explanation": "Customs.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Z sounds like…",
+      "options": [
+        "ts",
+        "z"
+      ],
+      "answer": "ts",
+      "explanation": "TSOL.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Zoll is also a measurement…",
+      "options": [
+        "inch",
+        "metre"
+      ],
+      "answer": "inch",
+      "explanation": "A 27-Zoll screen.",
+      "id": "q5"
+    }
+  ]
+}

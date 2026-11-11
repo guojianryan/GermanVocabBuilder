@@ -1,0 +1,177 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "verstehen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "fair-SHTAY-en",
+      "ipa": "fɛɐ̯ˈʃteːən",
+      "notes": ""
+    },
+    "meaning": "to understand",
+    "shortDefinition": "To understand."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "ver",
+        "meaning": "prefix"
+      },
+      {
+        "part": "stehen",
+        "meaning": "to stand",
+        "note": "Originally 'to stand in front of' something to grasp it."
+      }
+    ],
+    "literalMeaning": "to stand before"
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "versteh|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "versteh|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "versteh|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "versteh|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "versteh|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "versteh|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat verstanden",
+        "Past: hat verstanden (no ge-)."
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich verstehe das nicht.",
+      "english": "I don't understand that.",
+      "highlight": [
+        "verstehe"
+      ]
+    },
+    {
+      "german": "Haben Sie mich verstanden?",
+      "english": "Did you understand me?",
+      "highlight": [
+        "verstanden?"
+      ]
+    },
+    {
+      "german": "Wir verstehen uns gut.",
+      "english": "We get on well.",
+      "highlight": [
+        "verstehen",
+        "uns"
+      ]
+    }
+  ],
+  "forms": [
+    "verstehe",
+    "verstehst",
+    "versteht",
+    "verstehen",
+    "verstanden",
+    "verstand"
+  ],
+  "memoryHook": "Verstehen = understand (hat verstanden). Sich gut verstehen = get on well.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (verstehen)",
+      "answer": "versteht",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: versteht.",
+      "acceptedAnswers": [
+        "versteht"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (verstehen, past)",
+      "answer": "verstanden",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe verstanden.",
+      "acceptedAnswers": [
+        "verstanden"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does verstehen mean?",
+      "options": [
+        "hot",
+        "to understand",
+        "expensive"
+      ],
+      "answer": "to understand",
+      "explanation": "verstehen: to understand.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Wir verstehen uns gut' means…",
+      "options": [
+        "We get on well",
+        "We understand ourselves"
+      ],
+      "answer": "We get on well",
+      "explanation": "Sich verstehen.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Past participle:",
+      "options": [
+        "verstanden",
+        "versteht",
+        "geversteht"
+      ],
+      "answer": "verstanden",
+      "explanation": "Irregular, no ge-.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "vortragen",
+    "partOfSpeech": "separable verb",
+    "pronunciation": {
+      "respelling": "FOR-traa-gen",
+      "ipa": "ˈfoːɐ̯ˌtʁaːɡn̩",
+      "notes": ""
+    },
+    "meaning": "to present, perform, recite",
+    "shortDefinition": "To present, perform, recite."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "vor",
+        "meaning": "in front"
+      },
+      {
+        "part": "tragen",
+        "meaning": "to carry"
+      }
+    ],
+    "literalMeaning": "to carry before (an audience)"
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "trag|e … |vor"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "träg|st … |vor"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "träg|t … |vor"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "trag|en … |vor"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "trag|t … |vor"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "trag|en … |vor"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat vorgetragen"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Sie trägt ein Gedicht vor.",
+      "english": "She recites a poem.",
+      "highlight": [
+        "trägt",
+        "vor."
+      ]
+    },
+    {
+      "german": "Er hat seine Ergebnisse vorgetragen.",
+      "english": "He presented his findings.",
+      "highlight": [
+        "vorgetragen."
+      ]
+    },
+    {
+      "german": "Tragen Sie Ihr Anliegen vor.",
+      "english": "State your request.",
+      "highlight": [
+        "Tragen",
+        "vor."
+      ]
+    }
+  ],
+  "forms": [
+    "Vortrag"
+  ],
+  "memoryHook": "Vortragen = present, recite; der Vortrag.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ … vor (vortragen)",
+      "answer": "trägt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: trägt … vor.",
+      "acceptedAnswers": [
+        "traegt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (vortragen, past)",
+      "answer": "vorgetragen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe vorgetragen.",
+      "acceptedAnswers": [
+        "vorgetragen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does vortragen mean?",
+      "options": [
+        "to present",
+        "to buy",
+        "the job"
+      ],
+      "answer": "to present",
+      "explanation": "vortragen: to present, perform, recite.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Noun:",
+      "options": [
+        "der Vortrag (talk, lecture)",
+        "die Vortragung"
+      ],
+      "answer": "der Vortrag (talk, lecture)",
+      "explanation": "Talk.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "er ___ … vor:",
+      "options": [
+        "trägt",
+        "tragt"
+      ],
+      "answer": "trägt",
+      "explanation": "a → ä.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Einen Vortrag halten' means…",
+      "options": [
+        "to give a talk",
+        "to hold a lecture hall"
+      ],
+      "answer": "to give a talk",
+      "explanation": "Lecture.",
+      "id": "q6"
+    }
+  ]
+}

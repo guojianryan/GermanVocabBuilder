@@ -1,0 +1,107 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "gesamt",
+    "partOfSpeech": "adjective",
+    "pronunciation": {
+      "respelling": "ge-ZAMT",
+      "ipa": "ɡəˈzamt",
+      "notes": ""
+    },
+    "meaning": "whole, entire, total",
+    "shortDefinition": "Whole, entire, total."
+  },
+  "sampleSentences": [
+    {
+      "german": "Die gesamte Familie kommt.",
+      "english": "The whole family is coming.",
+      "highlight": [
+        "gesamte"
+      ]
+    },
+    {
+      "german": "Die Gesamtkosten betragen 500 Euro.",
+      "english": "The total cost is 500 euros.",
+      "highlight": [
+        "Gesamtkosten"
+      ]
+    },
+    {
+      "german": "Insgesamt waren es 50 Leute.",
+      "english": "There were 50 people in total.",
+      "highlight": [
+        "Insgesamt"
+      ]
+    }
+  ],
+  "forms": [
+    "gesamte",
+    "Gesamt-",
+    "insgesamt"
+  ],
+  "memoryHook": "Gesamt = whole, total. Insgesamt = in total.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does gesamt mean?",
+      "options": [
+        "always",
+        "whole",
+        "never"
+      ],
+      "answer": "whole",
+      "explanation": "gesamt: whole, entire, total.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Insgesamt' means…",
+      "options": [
+        "in total",
+        "inside"
+      ],
+      "answer": "in total",
+      "explanation": "Total.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonym:",
+      "options": [
+        "ganz",
+        "halb"
+      ],
+      "answer": "ganz",
+      "explanation": "Whole.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gesamt- in compounds:",
+      "options": [
+        "Gesamtpreis, Gesamtschule",
+        "Gesamtzimmer only"
+      ],
+      "answer": "Gesamtpreis, Gesamtschule",
+      "explanation": "Prefix.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Die ___ Stadt feiert. (whole)",
+      "answer": "gesamte",
+      "fullAnswer": "Die gesamte Stadt feiert.",
+      "explanation": "Gesamte.",
+      "acceptedAnswers": [
+        "ganze"
+      ],
+      "id": "q5"
+    }
+  ]
+}

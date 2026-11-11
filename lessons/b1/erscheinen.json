@@ -1,0 +1,182 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "erscheinen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "er-SHYE-nen",
+      "ipa": "ɛɐ̯ˈʃaɪ̯nən",
+      "notes": ""
+    },
+    "meaning": "to appear; to be published",
+    "shortDefinition": "To appear; to be published."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "er",
+        "meaning": "prefix (come to)"
+      },
+      {
+        "part": "scheinen",
+        "meaning": "to shine",
+        "emphasis": "arrive"
+      }
+    ],
+    "literalMeaning": "to shine out, come into view",
+    "summary": "Something shows up."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "erschein|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "erschein|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "erschein|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "erschein|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "erschein|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "erschein|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): ist erschienen"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "die Erscheinung",
+      "english": "appearance",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das Buch erscheint im Mai.",
+      "english": "The book comes out in May.",
+      "highlight": [
+        "erscheint"
+      ]
+    },
+    {
+      "german": "Er ist nicht zur Arbeit erschienen.",
+      "english": "He didn't turn up for work.",
+      "highlight": [
+        "ist",
+        "erschienen."
+      ]
+    },
+    {
+      "german": "Das erscheint mir seltsam.",
+      "english": "That seems strange to me.",
+      "highlight": [
+        "erscheint"
+      ]
+    }
+  ],
+  "forms": [
+    "erscheine",
+    "erscheinst",
+    "erscheint",
+    "erscheinen",
+    "erschienen"
+  ],
+  "memoryHook": "Erscheinen (erschien, ist erschienen): appear; be published.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (erscheinen)",
+      "answer": "erscheint",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: erscheint.",
+      "acceptedAnswers": [
+        "erscheint"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich bin schon ___. (erscheinen, past)",
+      "answer": "erschienen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: bin erschienen.",
+      "acceptedAnswers": [
+        "erschienen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does erscheinen mean?",
+      "options": [
+        "to appear",
+        "the key",
+        "cheap"
+      ],
+      "answer": "to appear",
+      "explanation": "erscheinen: to appear; to be published.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "ist erschienen",
+        "hat erscheint"
+      ],
+      "answer": "ist erschienen",
+      "explanation": "Strong + sein.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Die Zeitung erscheint täglich' means…",
+      "options": [
+        "it's published daily",
+        "it appears in a dream"
+      ],
+      "answer": "it's published daily",
+      "explanation": "Published.",
+      "id": "q5"
+    }
+  ]
+}

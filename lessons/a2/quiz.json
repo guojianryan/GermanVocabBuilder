@@ -1,0 +1,118 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Quiz",
+    "partOfSpeech": "noun, neuter (das Quiz)",
+    "pronunciation": {
+      "respelling": "KVIS",
+      "ipa": "kvɪs",
+      "notes": "Usually no plural."
+    },
+    "meaning": "quiz",
+    "shortDefinition": "Quiz."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Quiz, usually no plural.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Quiz"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir machen ein Quiz.",
+      "english": "We're doing a quiz.",
+      "highlight": [
+        "Quiz."
+      ]
+    },
+    {
+      "german": "Er sieht gern Quizsendungen.",
+      "english": "He likes watching quiz shows.",
+      "highlight": [
+        "Quizsendungen."
+      ]
+    },
+    {
+      "german": "Wer hat das Quiz gewonnen?",
+      "english": "Who won the quiz?",
+      "highlight": [
+        "Quiz"
+      ]
+    }
+  ],
+  "forms": [
+    "Quizsendung"
+  ],
+  "memoryHook": "Das Quiz (say kvis).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Quiz",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Quiz is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Quiz mean?",
+      "options": [
+        "slowly",
+        "the key",
+        "quiz"
+      ],
+      "answer": "quiz",
+      "explanation": "Quiz: quiz.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Pronounced…",
+      "options": [
+        "kvis",
+        "kwiz"
+      ],
+      "answer": "kvis",
+      "explanation": "Qu = kv.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gender:",
+      "options": [
+        "das",
+        "der"
+      ],
+      "answer": "das",
+      "explanation": "Das Quiz.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "A quiz show:",
+      "options": [
+        "eine Quizsendung",
+        "eine Quizshow only"
+      ],
+      "answer": "eine Quizsendung",
+      "explanation": "Sendung = show.",
+      "id": "q5"
+    }
+  ]
+}

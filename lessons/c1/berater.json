@@ -1,0 +1,142 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Berater",
+    "partOfSpeech": "noun, masculine (der Berater)",
+    "pronunciation": {
+      "respelling": "be-RAA-ter",
+      "ipa": "bəˈʁaːtɐ",
+      "notes": "The plural looks the same. Plural: die Berater."
+    },
+    "meaning": "adviser, consultant",
+    "shortDefinition": "Adviser, consultant."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Be",
+        "meaning": "prefix"
+      },
+      {
+        "part": "rat",
+        "meaning": "advice (raten)"
+      },
+      {
+        "part": "er",
+        "meaning": "person who does it"
+      }
+    ],
+    "literalMeaning": "one who advises"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Berater, plural die Berater.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Berater"
+        },
+        {
+          "label": "More than one",
+          "value": "die Berater"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er arbeitet als Unternehmensberater.",
+      "english": "He works as a management consultant.",
+      "highlight": [
+        "Unternehmensberater."
+      ]
+    },
+    {
+      "german": "Ihr Berater bei der Bank.",
+      "english": "Your adviser at the bank.",
+      "highlight": [
+        "Berater"
+      ]
+    },
+    {
+      "german": "Die Beraterin hat mir geholfen.",
+      "english": "The adviser helped me.",
+      "highlight": [
+        "Beraterin"
+      ]
+    }
+  ],
+  "forms": [
+    "Beraterin",
+    "beraten",
+    "Beratung"
+  ],
+  "memoryHook": "Beraten → der Berater, die Beratung.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Berater",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Berater is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Berater, zwei ___",
+      "answer": "Berater",
+      "fullAnswer": "ein Berater, zwei Berater",
+      "explanation": "The plural is Berater.",
+      "acceptedAnswers": [
+        "Berater"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Berater mean?",
+      "options": [
+        "the flower",
+        "adviser",
+        "the child"
+      ],
+      "answer": "adviser",
+      "explanation": "Berater: adviser, consultant.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "beraten (advise)",
+        "raten only"
+      ],
+      "answer": "beraten (advise)",
+      "explanation": "Advise.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Advice (session):",
+      "options": [
+        "die Beratung",
+        "der Rat only"
+      ],
+      "answer": "die Beratung",
+      "explanation": "Consultation.",
+      "id": "q5"
+    }
+  ]
+}

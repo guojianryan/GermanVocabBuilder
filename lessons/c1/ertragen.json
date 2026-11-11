@@ -1,0 +1,182 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "ertragen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "er-TRAA-gen",
+      "ipa": "ɛɐ̯ˈtʁaːɡn̩",
+      "notes": ""
+    },
+    "meaning": "to bear, endure",
+    "shortDefinition": "To bear, endure."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "er",
+        "meaning": "through"
+      },
+      {
+        "part": "tragen",
+        "meaning": "to carry",
+        "emphasis": "stretch"
+      }
+    ],
+    "literalMeaning": "to carry through",
+    "summary": "Holding up under the weight."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "ertrag|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "erträg|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "erträg|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "ertrag|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "ertrag|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "ertrag|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat ertragen"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich kann den Lärm nicht ertragen.",
+      "english": "I can't stand the noise.",
+      "highlight": [
+        "ertragen."
+      ]
+    },
+    {
+      "german": "Sie erträgt die Schmerzen tapfer.",
+      "english": "She bears the pain bravely.",
+      "highlight": [
+        "erträgt"
+      ]
+    },
+    {
+      "german": "Er ist schwer zu ertragen.",
+      "english": "He's hard to put up with.",
+      "highlight": [
+        "ertragen."
+      ]
+    }
+  ],
+  "forms": [
+    "erträglich",
+    "unerträglich"
+  ],
+  "memoryHook": "Ertragen (erträgt) = bear; (un)erträglich.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (ertragen)",
+      "answer": "erträgt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: erträgt.",
+      "acceptedAnswers": [
+        "ertraegt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (ertragen, past)",
+      "answer": "ertragen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe ertragen.",
+      "acceptedAnswers": [
+        "ertragen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does ertragen mean?",
+      "options": [
+        "to help",
+        "to bear",
+        "the door"
+      ],
+      "answer": "to bear",
+      "explanation": "ertragen: to bear, endure.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "er ___ (ertragen):",
+      "options": [
+        "erträgt",
+        "ertragt"
+      ],
+      "answer": "erträgt",
+      "explanation": "a → ä.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Adjective 'erträglich' means…",
+      "options": [
+        "bearable",
+        "productive"
+      ],
+      "answer": "bearable",
+      "explanation": "Bearable.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Opposite adjective:",
+      "options": [
+        "unerträglich",
+        "ertraglos"
+      ],
+      "answer": "unerträglich",
+      "explanation": "Unbearable.",
+      "id": "q6"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Klingel",
+    "partOfSpeech": "noun, feminine (die Klingel)",
+    "pronunciation": {
+      "respelling": "KLING-el",
+      "ipa": "ˈklɪŋl̩",
+      "notes": "Plural: die Klingeln."
+    },
+    "meaning": "bell, doorbell",
+    "shortDefinition": "Bell, doorbell."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Klingel, plural die Klingeln.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Klingel"
+        },
+        {
+          "label": "More than one",
+          "value": "die Klingeln"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Klingel ist kaputt.",
+      "english": "The doorbell's broken.",
+      "highlight": [
+        "Klingel"
+      ]
+    },
+    {
+      "german": "Drück auf die Klingel!",
+      "english": "Press the bell!",
+      "highlight": [
+        "Klingel!"
+      ]
+    },
+    {
+      "german": "Mein Fahrrad hat keine Klingel.",
+      "english": "My bike has no bell.",
+      "highlight": [
+        "Klingel."
+      ]
+    }
+  ],
+  "forms": [
+    "Klingeln",
+    "die Klingeln",
+    "die Klingel"
+  ],
+  "memoryHook": "Die Klingel → klingeln.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Klingel",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Klingel is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Klingel, zwei ___",
+      "answer": "Klingeln",
+      "fullAnswer": "ein Klingel, zwei Klingeln",
+      "explanation": "The plural is Klingeln.",
+      "acceptedAnswers": [
+        "Klingeln"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Klingel mean?",
+      "options": [
+        "bell",
+        "the family",
+        "to sing"
+      ],
+      "answer": "bell",
+      "explanation": "Klingel: bell, doorbell.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Verb:",
+      "options": [
+        "klingeln",
+        "klingen (sound)"
+      ],
+      "answer": "klingeln",
+      "explanation": "Ring.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gender:",
+      "options": [
+        "die",
+        "der"
+      ],
+      "answer": "die",
+      "explanation": "Die Klingel.",
+      "id": "q5"
+    }
+  ]
+}

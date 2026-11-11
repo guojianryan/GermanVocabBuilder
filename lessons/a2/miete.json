@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Miete",
+    "partOfSpeech": "noun, feminine (die Miete)",
+    "pronunciation": {
+      "respelling": "MEE-te",
+      "ipa": "ˈmiːtə",
+      "notes": "Plural: die Mieten."
+    },
+    "meaning": "rent",
+    "shortDefinition": "Rent."
+  },
+  "wordFamily": [
+    {
+      "german": "mieten",
+      "english": "to rent",
+      "type": "verb"
+    },
+    {
+      "german": "der Vermieter",
+      "english": "landlord",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Miete, plural die Mieten.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Miete"
+        },
+        {
+          "label": "More than one",
+          "value": "die Mieten"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Miete ist sehr hoch.",
+      "english": "The rent is very high.",
+      "highlight": [
+        "Miete"
+      ]
+    },
+    {
+      "german": "Wie viel Miete zahlst du?",
+      "english": "How much rent do you pay?",
+      "highlight": [
+        "Miete"
+      ]
+    },
+    {
+      "german": "Wir wohnen zur Miete.",
+      "english": "We rent (our home).",
+      "highlight": [
+        "Miete."
+      ]
+    }
+  ],
+  "forms": [
+    "Mieten",
+    "die Mieten",
+    "die Miete"
+  ],
+  "memoryHook": "Die Miete. Kaltmiete vs Warmmiete (with heating).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Miete",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Miete is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Miete, zwei ___",
+      "answer": "Mieten",
+      "fullAnswer": "ein Miete, zwei Mieten",
+      "explanation": "The plural is Mieten.",
+      "acceptedAnswers": [
+        "Mieten"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Miete mean?",
+      "options": [
+        "rent",
+        "to travel",
+        "quiet"
+      ],
+      "answer": "rent",
+      "explanation": "Miete: rent.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Warm rent (Warmmiete) includes…",
+      "options": [
+        "heating",
+        "only the flat"
+      ],
+      "answer": "heating",
+      "explanation": "Kaltmiete = without heating.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Zur Miete wohnen' means…",
+      "options": [
+        "to rent",
+        "to own"
+      ],
+      "answer": "to rent",
+      "explanation": "Rent, don't own.",
+      "id": "q5"
+    }
+  ]
+}

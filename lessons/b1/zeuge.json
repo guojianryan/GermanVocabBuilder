@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Zeuge",
+    "partOfSpeech": "noun, masculine (der Zeuge)",
+    "pronunciation": {
+      "respelling": "TSOY-ge",
+      "ipa": "ˈtsɔɪ̯ɡə",
+      "notes": "Plural: die Zeugen."
+    },
+    "meaning": "witness",
+    "shortDefinition": "Witness."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Zeuge, plural die Zeugen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Zeuge"
+        },
+        {
+          "label": "More than one",
+          "value": "die Zeugen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Gab es Zeugen?",
+      "english": "Were there any witnesses?",
+      "highlight": [
+        "Zeugen?"
+      ]
+    },
+    {
+      "german": "Der Zeuge hat alles gesehen.",
+      "english": "The witness saw everything.",
+      "highlight": [
+        "Zeuge"
+      ]
+    },
+    {
+      "german": "Die Polizei sucht Zeugen.",
+      "english": "The police are looking for witnesses.",
+      "highlight": [
+        "Zeugen."
+      ]
+    }
+  ],
+  "forms": [
+    "Zeugin"
+  ],
+  "memoryHook": "Der Zeuge (weak noun), die Zeugin.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Zeuge",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Zeuge is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Zeuge, zwei ___",
+      "answer": "Zeugen",
+      "fullAnswer": "ein Zeuge, zwei Zeugen",
+      "explanation": "The plural is Zeugen.",
+      "acceptedAnswers": [
+        "Zeugen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Zeuge mean?",
+      "options": [
+        "the family",
+        "to wait",
+        "witness"
+      ],
+      "answer": "witness",
+      "explanation": "Zeuge: witness.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Weak noun: den/dem…",
+      "options": [
+        "Zeugen",
+        "Zeuge"
+      ],
+      "answer": "Zeugen",
+      "explanation": "-n.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Female:",
+      "options": [
+        "die Zeugin",
+        "die Zeuge"
+      ],
+      "answer": "die Zeugin",
+      "explanation": "-in.",
+      "id": "q5"
+    }
+  ]
+}

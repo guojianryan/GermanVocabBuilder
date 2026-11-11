@@ -1,0 +1,131 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Ticket",
+    "partOfSpeech": "noun, neuter (das Ticket)",
+    "pronunciation": {
+      "respelling": "TIK-et",
+      "ipa": "ˈtɪkət",
+      "notes": "Plural: die Tickets."
+    },
+    "meaning": "ticket",
+    "shortDefinition": "Ticket."
+  },
+  "wordFamily": [
+    {
+      "german": "die Fahrkarte",
+      "english": "ticket",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Ticket, plural die Tickets.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Ticket"
+        },
+        {
+          "label": "More than one",
+          "value": "die Tickets"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich habe zwei Tickets für das Konzert.",
+      "english": "I have two tickets for the concert.",
+      "highlight": [
+        "Tickets"
+      ]
+    },
+    {
+      "german": "Das Ticket gilt einen Tag.",
+      "english": "The ticket is valid for one day.",
+      "highlight": [
+        "Ticket"
+      ]
+    },
+    {
+      "german": "Wo kann ich ein Ticket kaufen?",
+      "english": "Where can I buy a ticket?",
+      "highlight": [
+        "Ticket"
+      ]
+    }
+  ],
+  "forms": [
+    "Tickets",
+    "die Tickets",
+    "das Ticket"
+  ],
+  "memoryHook": "Das Ticket, plural Tickets. For trains also Fahrkarte.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Ticket",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Ticket is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Ticket, zwei ___",
+      "answer": "Tickets",
+      "fullAnswer": "ein Ticket, zwei Tickets",
+      "explanation": "The plural is Tickets.",
+      "acceptedAnswers": [
+        "Tickets"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Ticket mean?",
+      "options": [
+        "ticket",
+        "slowly",
+        "the key"
+      ],
+      "answer": "ticket",
+      "explanation": "Ticket: ticket.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ticket is…",
+      "options": [
+        "neuter",
+        "masculine"
+      ],
+      "answer": "neuter",
+      "explanation": "Das Ticket.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "A synonym for a train Ticket is…",
+      "options": [
+        "die Fahrkarte",
+        "die Rechnung"
+      ],
+      "answer": "die Fahrkarte",
+      "explanation": "Fahrkarte.",
+      "id": "q5"
+    }
+  ]
+}

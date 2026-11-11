@@ -1,0 +1,173 @@
+{
+ "schemaVersion": "1.4",
+ "language": "de",
+ "explanationLanguage": "en",
+ "level": "B1",
+ "levelSource": "Goethe-Zertifikat B1 Wortliste",
+ "lessonType": "card",
+ "word": {
+  "headword": "erkennen",
+  "partOfSpeech": "verb",
+  "pronunciation": {
+   "respelling": "air-KEN-en",
+   "ipa": "ɛɐ̯ˈkɛnən",
+   "notes": ""
+  },
+  "meaning": "to recognise",
+  "shortDefinition": "To recognise."
+ },
+ "tables": [
+  {
+   "title": "Present tense",
+   "columns": [
+    "present"
+   ],
+   "rows": [
+    {
+     "label": "ich",
+     "cells": [
+      "erkenn|e"
+     ]
+    },
+    {
+     "label": "du",
+     "cells": [
+      "erkenn|st"
+     ]
+    },
+    {
+     "label": "er, sie, es",
+     "cells": [
+      "erkenn|t"
+     ]
+    },
+    {
+     "label": "wir",
+     "cells": [
+      "erkenn|en"
+     ]
+    },
+    {
+     "label": "ihr",
+     "cells": [
+      "erkenn|t"
+     ]
+    },
+    {
+     "label": "sie, Sie",
+     "cells": [
+      "erkenn|en"
+     ]
+    }
+   ],
+   "notes": [
+    "Past (Perfekt): hat erkannt"
+   ]
+  }
+ ],
+ "sampleSentences": [
+  {
+   "german": "Ich habe dich nicht erkannt!",
+   "english": "I didn't recognise you!",
+   "highlight": [
+    "erkannt!"
+   ]
+  },
+  {
+   "german": "Erkennst du mich?",
+   "english": "Do you recognise me?",
+   "highlight": [
+    "Erkennst"
+   ]
+  },
+  {
+   "german": "Er hat den Fehler erkannt.",
+   "english": "He realised the mistake.",
+   "highlight": [
+    "erkannt."
+   ]
+  }
+ ],
+ "forms": [
+  "erkenne",
+  "erkennst",
+  "erkennt",
+  "erkennen",
+  "erkannt",
+  "erkannte"
+ ],
+ "memoryHook": "Erkennen = recognise, realise (kennen + er-).",
+ "signOff": "Gut gemacht!",
+ "quiz": [
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "er ___ (erkennen)",
+   "answer": "erkennt",
+   "fullAnswer": "",
+   "explanation": "For er, sie, es: erkennt.",
+   "acceptedAnswers": [
+    "erkennt"
+   ],
+   "id": "q1"
+  },
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "Ich habe schon ___. (erkennen, past)",
+   "answer": "erkannt",
+   "fullAnswer": "",
+   "explanation": "Perfekt: habe erkannt.",
+   "acceptedAnswers": [
+    "erkannt"
+   ],
+   "id": "q2"
+  },
+  {
+   "type": "choice",
+   "prompt": "What does erkennen mean?",
+   "options": [
+    "to recognise",
+    "hot",
+    "the car"
+   ],
+   "answer": "to recognise",
+   "explanation": "erkennen: to recognise.",
+   "id": "q3"
+  },
+  {
+   "type": "choice",
+   "prompt": "Past forms:",
+   "options": [
+    "erkannte, erkannt",
+    "erkennte, erkennt"
+   ],
+   "answer": "erkannte, erkannt",
+   "explanation": "Like kennen.",
+   "id": "q4"
+  },
+  {
+   "type": "choice",
+   "prompt": "'Einen Fehler erkennen' means…",
+   "options": [
+    "to realise/spot a mistake",
+    "to know a mistake well"
+   ],
+   "answer": "to realise/spot a mistake",
+   "explanation": "Realise.",
+   "id": "q5"
+  }
+ ],
+ "etymology": {
+  "title": "Where it comes from",
+  "parts": [
+   {
+    "part": "er",
+    "meaning": "prefix (achieve, get)"
+   },
+   {
+    "part": "kennen",
+    "meaning": "to know"
+   }
+  ],
+  "literalMeaning": "to come to know"
+ }
+}

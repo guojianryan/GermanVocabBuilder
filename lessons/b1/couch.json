@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Couch",
+    "partOfSpeech": "noun, feminine (die Couch)",
+    "pronunciation": {
+      "respelling": "KOWCH",
+      "ipa": "kaʊ̯tʃ",
+      "notes": "Plural: die Couches."
+    },
+    "meaning": "couch, sofa",
+    "shortDefinition": "Couch, sofa."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Couch, plural die Couches.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Couch"
+        },
+        {
+          "label": "More than one",
+          "value": "die Couches"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich liege auf der Couch.",
+      "english": "I'm lying on the couch.",
+      "highlight": [
+        "Couch."
+      ]
+    },
+    {
+      "german": "Die Couch ist sehr bequem.",
+      "english": "The couch is very comfortable.",
+      "highlight": [
+        "Couch"
+      ]
+    },
+    {
+      "german": "Du kannst auf der Couch schlafen.",
+      "english": "You can sleep on the couch.",
+      "highlight": [
+        "Couch"
+      ]
+    }
+  ],
+  "forms": [
+    "Couches",
+    "die Couches",
+    "die Couch"
+  ],
+  "memoryHook": "Die Couch = das Sofa.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Couch",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Couch is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Couch, zwei ___",
+      "answer": "Couches",
+      "fullAnswer": "ein Couch, zwei Couches",
+      "explanation": "The plural is Couches.",
+      "acceptedAnswers": [
+        "Couches"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Couch mean?",
+      "options": [
+        "couch",
+        "to sing",
+        "tomorrow"
+      ],
+      "answer": "couch",
+      "explanation": "Couch: couch, sofa.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonym:",
+      "options": [
+        "das Sofa",
+        "der Stuhl"
+      ],
+      "answer": "das Sofa",
+      "explanation": "Sofa.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gender (Germany):",
+      "options": [
+        "die",
+        "der"
+      ],
+      "answer": "die",
+      "explanation": "Die Couch (Swiss: der).",
+      "id": "q5"
+    }
+  ]
+}

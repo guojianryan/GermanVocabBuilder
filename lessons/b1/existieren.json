@@ -1,0 +1,154 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "existieren",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "ek-sis-TEE-ren",
+      "ipa": "ɛksɪsˈtiːʁən",
+      "notes": ""
+    },
+    "meaning": "to exist",
+    "shortDefinition": "To exist."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "existier|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "existier|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "existier|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "existier|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "existier|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "existier|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat existiert"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Gibt es Geister? Sie existieren nicht.",
+      "english": "Are there ghosts? They don't exist.",
+      "highlight": [
+        "existieren"
+      ]
+    },
+    {
+      "german": "Die Firma existiert seit 1950.",
+      "english": "The company has existed since 1950.",
+      "highlight": [
+        "existiert"
+      ]
+    },
+    {
+      "german": "Das Problem existiert schon lange.",
+      "english": "The problem has existed for a long time.",
+      "highlight": [
+        "existiert"
+      ]
+    }
+  ],
+  "forms": [
+    "Existenz"
+  ],
+  "memoryHook": "Existieren (= es gibt) → die Existenz.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (existieren)",
+      "answer": "existiert",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: existiert.",
+      "acceptedAnswers": [
+        "existiert"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (existieren, past)",
+      "answer": "existiert",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe existiert.",
+      "acceptedAnswers": [
+        "existiert"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does existieren mean?",
+      "options": [
+        "to exist",
+        "the key",
+        "the shop"
+      ],
+      "answer": "to exist",
+      "explanation": "existieren: to exist.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Everyday synonym:",
+      "options": [
+        "es gibt",
+        "es geht"
+      ],
+      "answer": "es gibt",
+      "explanation": "There is.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Noun:",
+      "options": [
+        "die Existenz",
+        "die Existierung"
+      ],
+      "answer": "die Existenz",
+      "explanation": "Existence.",
+      "id": "q5"
+    }
+  ]
+}

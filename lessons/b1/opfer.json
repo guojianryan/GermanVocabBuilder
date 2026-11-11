@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Opfer",
+    "partOfSpeech": "noun, neuter (das Opfer)",
+    "pronunciation": {
+      "respelling": "OP-fer",
+      "ipa": "ˈɔpfɐ",
+      "notes": "The plural looks the same. Plural: die Opfer."
+    },
+    "meaning": "victim; sacrifice",
+    "shortDefinition": "Victim; sacrifice."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Opfer, plural die Opfer.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Opfer"
+        },
+        {
+          "label": "More than one",
+          "value": "die Opfer"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er war das Opfer eines Unfalls.",
+      "english": "He was the victim of an accident.",
+      "highlight": [
+        "Opfer"
+      ]
+    },
+    {
+      "german": "Der Sturm forderte viele Opfer.",
+      "english": "The storm claimed many victims.",
+      "highlight": [
+        "Opfer."
+      ]
+    },
+    {
+      "german": "Sie hat große Opfer gebracht.",
+      "english": "She made great sacrifices.",
+      "highlight": [
+        "Opfer"
+      ]
+    }
+  ],
+  "forms": [
+    "Opfer",
+    "die Opfer",
+    "das Opfer"
+  ],
+  "memoryHook": "Das Opfer: victim; sacrifice.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Opfer",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Opfer is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Opfer, zwei ___",
+      "answer": "Opfer",
+      "fullAnswer": "ein Opfer, zwei Opfer",
+      "explanation": "The plural is Opfer.",
+      "acceptedAnswers": [
+        "Opfer"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Opfer mean?",
+      "options": [
+        "the bill",
+        "the street",
+        "victim"
+      ],
+      "answer": "victim",
+      "explanation": "Opfer: victim; sacrifice.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gender (even for people):",
+      "options": [
+        "das",
+        "der"
+      ],
+      "answer": "das",
+      "explanation": "Das Opfer.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Opfer can also mean…",
+      "options": [
+        "sacrifice",
+        "offer"
+      ],
+      "answer": "sacrifice",
+      "explanation": "Both.",
+      "id": "q5"
+    }
+  ]
+}

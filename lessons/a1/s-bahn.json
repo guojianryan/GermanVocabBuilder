@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "S-Bahn",
+    "partOfSpeech": "noun, feminine (die S-Bahn)",
+    "pronunciation": {
+      "respelling": "ESS-bahn",
+      "ipa": "ˈɛsbaːn",
+      "notes": "Plural: die S-Bahnen."
+    },
+    "meaning": "suburban train, city rail",
+    "shortDefinition": "Suburban train, city rail."
+  },
+  "wordFamily": [
+    {
+      "german": "die U-Bahn",
+      "english": "underground",
+      "type": "noun"
+    },
+    {
+      "german": "die Straßenbahn",
+      "english": "tram",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die S-Bahn, plural die S-Bahnen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die S-Bahn"
+        },
+        {
+          "label": "More than one",
+          "value": "die S-Bahnen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich fahre mit der S-Bahn zur Arbeit.",
+      "english": "I take the S-Bahn to work.",
+      "highlight": [
+        "S-Bahn"
+      ]
+    },
+    {
+      "german": "Die S-Bahn fährt alle zehn Minuten.",
+      "english": "The S-Bahn runs every ten minutes.",
+      "highlight": [
+        "S-Bahn"
+      ]
+    },
+    {
+      "german": "Nehmen Sie die S1 bis zum Hauptbahnhof.",
+      "english": "Take the S1 to the main station.",
+      "highlight": [
+        "S1"
+      ]
+    }
+  ],
+  "forms": [
+    "S-Bahnen",
+    "die S-Bahnen",
+    "die S-Bahn"
+  ],
+  "memoryHook": "S-Bahn = city and suburban train. U-Bahn = underground. Both: die Bahn.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ S-Bahn",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "S-Bahn is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein S-Bahn, zwei ___",
+      "answer": "S-Bahnen",
+      "fullAnswer": "ein S-Bahn, zwei S-Bahnen",
+      "explanation": "The plural is S-Bahnen.",
+      "acceptedAnswers": [
+        "S-Bahnen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does S-Bahn mean?",
+      "options": [
+        "the bread",
+        "the bill",
+        "suburban train"
+      ],
+      "answer": "suburban train",
+      "explanation": "S-Bahn: suburban train, city rail.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "The S-Bahn connects…",
+      "options": [
+        "the city and suburbs",
+        "countries"
+      ],
+      "answer": "the city and suburbs",
+      "explanation": "Schnellbahn / Stadtbahn.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "The underground is…",
+      "options": [
+        "die U-Bahn",
+        "die S-Bahn"
+      ],
+      "answer": "die U-Bahn",
+      "explanation": "U = Untergrund.",
+      "id": "q5"
+    }
+  ]
+}

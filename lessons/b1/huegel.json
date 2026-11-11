@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Hügel",
+    "partOfSpeech": "noun, masculine (der Hügel)",
+    "pronunciation": {
+      "respelling": "HÜ-gel",
+      "ipa": "ˈhyːɡl̩",
+      "notes": "The plural looks the same. Plural: die Hügel."
+    },
+    "meaning": "hill",
+    "shortDefinition": "Hill."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Hügel, plural die Hügel.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Hügel"
+        },
+        {
+          "label": "More than one",
+          "value": "die Hügel"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das Haus steht auf einem Hügel.",
+      "english": "The house is on a hill.",
+      "highlight": [
+        "Hügel."
+      ]
+    },
+    {
+      "german": "Wir wandern über die Hügel.",
+      "english": "We hike over the hills.",
+      "highlight": [
+        "Hügel."
+      ]
+    },
+    {
+      "german": "Hinter dem Hügel liegt ein See.",
+      "english": "There's a lake behind the hill.",
+      "highlight": [
+        "Hügel"
+      ]
+    }
+  ],
+  "forms": [
+    "Hügel",
+    "die Hügel",
+    "der Hügel"
+  ],
+  "memoryHook": "Der Hügel (hill) < der Berg (mountain).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Hügel",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Hügel is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Hügel, zwei ___",
+      "answer": "Hügel",
+      "fullAnswer": "ein Hügel, zwei Hügel",
+      "explanation": "The plural is Hügel.",
+      "acceptedAnswers": [
+        "Huegel"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Hügel mean?",
+      "options": [
+        "hill",
+        "to wait",
+        "the door"
+      ],
+      "answer": "hill",
+      "explanation": "Hügel: hill.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Hügel vs Berg:",
+      "options": [
+        "Hügel = small; Berg = mountain",
+        "same"
+      ],
+      "answer": "Hügel = small; Berg = mountain",
+      "explanation": "Size.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Hügel",
+        "Hügeln"
+      ],
+      "answer": "Hügel",
+      "explanation": "No change.",
+      "id": "q5"
+    }
+  ]
+}

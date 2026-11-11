@@ -1,0 +1,183 @@
+{
+ "schemaVersion": "1.4",
+ "language": "de",
+ "explanationLanguage": "en",
+ "level": "A2",
+ "levelSource": "Goethe-Zertifikat A2 Wortliste",
+ "lessonType": "card",
+ "word": {
+  "headword": "(sich) erinnern",
+  "partOfSpeech": "verb, often reflexive",
+  "pronunciation": {
+   "respelling": "air-IN-ern",
+   "ipa": "ɛɐ̯ˈʔɪnɐn",
+   "notes": ""
+  },
+  "meaning": "to remember; to remind",
+  "shortDefinition": "To remember; to remind."
+ },
+ "tables": [
+  {
+   "title": "Present tense",
+   "columns": [
+    "present"
+   ],
+   "rows": [
+    {
+     "label": "ich",
+     "cells": [
+      "erinner|e"
+     ]
+    },
+    {
+     "label": "du",
+     "cells": [
+      "erinner|st"
+     ]
+    },
+    {
+     "label": "er, sie, es",
+     "cells": [
+      "erinner|t"
+     ]
+    },
+    {
+     "label": "wir",
+     "cells": [
+      "erinner|n"
+     ]
+    },
+    {
+     "label": "ihr",
+     "cells": [
+      "erinner|t"
+     ]
+    },
+    {
+     "label": "sie, Sie",
+     "cells": [
+      "erinner|n"
+     ]
+    }
+   ],
+   "notes": [
+    "Past (Perfekt): hat erinnert"
+   ]
+  }
+ ],
+ "wordFamily": [
+  {
+   "german": "die Erinnerung",
+   "english": "memory",
+   "type": "noun"
+  }
+ ],
+ "sampleSentences": [
+  {
+   "german": "Ich erinnere mich gut an meine Kindheit.",
+   "english": "I remember my childhood well.",
+   "highlight": [
+    "erinnere",
+    "mich",
+    "an"
+   ]
+  },
+  {
+   "german": "Erinnerst du dich an ihn?",
+   "english": "Do you remember him?",
+   "highlight": [
+    "Erinnerst",
+    "dich",
+    "an"
+   ]
+  },
+  {
+   "german": "Erinnere mich bitte an den Termin.",
+   "english": "Please remind me about the appointment.",
+   "highlight": [
+    "Erinnere",
+    "an"
+   ]
+  }
+ ],
+ "forms": [
+  "erinnere",
+  "erinnerst",
+  "erinnert",
+  "erinnern"
+ ],
+ "memoryHook": "Sich erinnern an = remember. Jemanden an etwas erinnern = remind.",
+ "signOff": "Gut gemacht!",
+ "quiz": [
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "er ___ ((sich) erinnern)",
+   "answer": "erinnert",
+   "fullAnswer": "",
+   "explanation": "For er, sie, es: erinnert.",
+   "acceptedAnswers": [
+    "erinnert"
+   ],
+   "id": "q1"
+  },
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "Ich habe mich schon ___. ((sich) erinnern, past)",
+   "answer": "erinnert",
+   "fullAnswer": "",
+   "explanation": "Perfekt: habe mich erinnert.",
+   "acceptedAnswers": [
+    "erinnert"
+   ],
+   "id": "q2"
+  },
+  {
+   "type": "choice",
+   "prompt": "What does (sich) erinnern mean?",
+   "options": [
+    "to remember",
+    "the bed",
+    "the bill"
+   ],
+   "answer": "to remember",
+   "explanation": "(sich) erinnern: to remember; to remind.",
+   "id": "q3"
+  },
+  {
+   "type": "choice",
+   "prompt": "'I remember it':",
+   "options": [
+    "Ich erinnere mich daran.",
+    "Ich erinnere es."
+   ],
+   "answer": "Ich erinnere mich daran.",
+   "explanation": "Sich erinnern an.",
+   "id": "q4"
+  },
+  {
+   "type": "choice",
+   "prompt": "'Remind me!' (no sich):",
+   "options": [
+    "Erinnere mich!",
+    "Erinnere dich!"
+   ],
+   "answer": "Erinnere mich!",
+   "explanation": "Jemanden erinnern = remind someone.",
+   "id": "q5"
+  }
+ ],
+ "etymology": {
+  "title": "Where it comes from",
+  "parts": [
+   {
+    "part": "er",
+    "meaning": "prefix (achieve, get)"
+   },
+   {
+    "part": "innern",
+    "meaning": "to make inner"
+   }
+  ],
+  "literalMeaning": "to bring inside (your mind)"
+ }
+}

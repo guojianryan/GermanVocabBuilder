@@ -1,0 +1,145 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Einzelzimmer",
+    "partOfSpeech": "noun, neuter (das Einzelzimmer)",
+    "pronunciation": {
+      "respelling": "INE-tsel-tsim-er",
+      "ipa": "ˈaɪ̯ntsl̩ˌtsɪmɐ",
+      "notes": "The plural looks the same. Plural: die Einzelzimmer."
+    },
+    "meaning": "single room",
+    "shortDefinition": "Single room."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Einzel",
+        "meaning": "single"
+      },
+      {
+        "part": "zimmer",
+        "meaning": "room"
+      }
+    ],
+    "literalMeaning": "single room"
+  },
+  "wordFamily": [
+    {
+      "german": "das Doppelzimmer",
+      "english": "double room",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Einzelzimmer, plural die Einzelzimmer.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Einzelzimmer"
+        },
+        {
+          "label": "More than one",
+          "value": "die Einzelzimmer"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Haben Sie ein Einzelzimmer frei?",
+      "english": "Do you have a single room available?",
+      "highlight": [
+        "Einzelzimmer"
+      ]
+    },
+    {
+      "german": "Das Einzelzimmer kostet 65 Euro pro Nacht.",
+      "english": "The single room costs 65 euros a night.",
+      "highlight": [
+        "Einzelzimmer"
+      ]
+    },
+    {
+      "german": "Ich hätte gern ein Einzelzimmer mit Dusche.",
+      "english": "I'd like a single room with a shower.",
+      "highlight": [
+        "Einzelzimmer"
+      ]
+    }
+  ],
+  "forms": [
+    "Einzelzimmer",
+    "die Einzelzimmer",
+    "das Einzelzimmer"
+  ],
+  "memoryHook": "Einzel (single) + Zimmer. Partner word: Doppelzimmer.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Einzelzimmer",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Einzelzimmer is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Einzelzimmer, zwei ___",
+      "answer": "Einzelzimmer",
+      "fullAnswer": "ein Einzelzimmer, zwei Einzelzimmer",
+      "explanation": "The plural is Einzelzimmer.",
+      "acceptedAnswers": [
+        "Einzelzimmer"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Einzelzimmer mean?",
+      "options": [
+        "single room",
+        "the door",
+        "the evening"
+      ],
+      "answer": "single room",
+      "explanation": "Einzelzimmer: single room.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "For two people you book…",
+      "options": [
+        "ein Doppelzimmer",
+        "ein Einzelzimmer"
+      ],
+      "answer": "ein Doppelzimmer",
+      "explanation": "Doppel = double.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Einzel means…",
+      "options": [
+        "single",
+        "inside"
+      ],
+      "answer": "single",
+      "explanation": "Einzel: single, individual.",
+      "id": "q5"
+    }
+  ]
+}

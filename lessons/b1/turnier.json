@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Turnier",
+    "partOfSpeech": "noun, neuter (das Turnier)",
+    "pronunciation": {
+      "respelling": "toor-NEER",
+      "ipa": "tʊʁˈniːɐ̯",
+      "notes": "Plural: die Turniere."
+    },
+    "meaning": "tournament",
+    "shortDefinition": "Tournament."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Turnier, plural die Turniere.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Turnier"
+        },
+        {
+          "label": "More than one",
+          "value": "die Turniere"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das Turnier beginnt am Samstag.",
+      "english": "The tournament starts on Saturday.",
+      "highlight": [
+        "Turnier"
+      ]
+    },
+    {
+      "german": "Sie hat das Tennisturnier gewonnen.",
+      "english": "She won the tennis tournament.",
+      "highlight": [
+        "Tennisturnier"
+      ]
+    },
+    {
+      "german": "Wir spielen bei einem Turnier mit.",
+      "english": "We're taking part in a tournament.",
+      "highlight": [
+        "Turnier"
+      ]
+    }
+  ],
+  "forms": [
+    "Turniere",
+    "die Turniere",
+    "das Turnier"
+  ],
+  "memoryHook": "Das Turnier (stress at end).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Turnier",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Turnier is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Turnier, zwei ___",
+      "answer": "Turniere",
+      "fullAnswer": "ein Turnier, zwei Turniere",
+      "explanation": "The plural is Turniere.",
+      "acceptedAnswers": [
+        "Turniere"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Turnier mean?",
+      "options": [
+        "to open",
+        "tournament",
+        "never"
+      ],
+      "answer": "tournament",
+      "explanation": "Turnier: tournament.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Stress on…",
+      "options": [
+        "-NIER",
+        "TUR-"
+      ],
+      "answer": "-NIER",
+      "explanation": "End.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gender:",
+      "options": [
+        "das",
+        "der"
+      ],
+      "answer": "das",
+      "explanation": "Das Turnier.",
+      "id": "q5"
+    }
+  ]
+}

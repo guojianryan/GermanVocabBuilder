@@ -1,0 +1,148 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Volkswirtschaft",
+    "partOfSpeech": "noun, feminine (die Volkswirtschaft)",
+    "pronunciation": {
+      "respelling": "FOLKS-virt-shaft",
+      "ipa": "ˈfɔlksvɪʁtʃaft",
+      "notes": "Plural: die Volkswirtschaften."
+    },
+    "meaning": "national economy; economics",
+    "shortDefinition": "National economy; economics."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Volks",
+        "meaning": "people's, national"
+      },
+      {
+        "part": "wirtschaft",
+        "meaning": "economy"
+      }
+    ],
+    "literalMeaning": "people's economy"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Volkswirtschaft, plural die Volkswirtschaften.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Volkswirtschaft"
+        },
+        {
+          "label": "More than one",
+          "value": "die Volkswirtschaften"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die deutsche Volkswirtschaft wächst.",
+      "english": "The German economy is growing.",
+      "highlight": [
+        "Volkswirtschaft"
+      ]
+    },
+    {
+      "german": "Er studiert Volkswirtschaft.",
+      "english": "He's studying economics.",
+      "highlight": [
+        "Volkswirtschaft."
+      ]
+    },
+    {
+      "german": "Die größten Volkswirtschaften der Welt.",
+      "english": "The world's largest economies.",
+      "highlight": [
+        "Volkswirtschaften"
+      ]
+    }
+  ],
+  "forms": [
+    "Betriebswirtschaft",
+    "Wirtschaft"
+  ],
+  "memoryHook": "Volk + Wirtschaft = national economy; VWL = economics.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Volkswirtschaft",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Volkswirtschaft is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Volkswirtschaft, zwei ___",
+      "answer": "Volkswirtschaften",
+      "fullAnswer": "ein Volkswirtschaft, zwei Volkswirtschaften",
+      "explanation": "The plural is Volkswirtschaften.",
+      "acceptedAnswers": [
+        "Volkswirtschaften"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Volkswirtschaft mean?",
+      "options": [
+        "the door",
+        "never",
+        "national economy"
+      ],
+      "answer": "national economy",
+      "explanation": "Volkswirtschaft: national economy; economics.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "As a university subject it means…",
+      "options": [
+        "economics",
+        "business"
+      ],
+      "answer": "economics",
+      "explanation": "VWL.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Business studies:",
+      "options": [
+        "die Betriebswirtschaft (BWL)",
+        "die Volkswirtschaft"
+      ],
+      "answer": "die Betriebswirtschaft (BWL)",
+      "explanation": "Business.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Abbreviation (subject):",
+      "options": [
+        "VWL",
+        "VWS"
+      ],
+      "answer": "VWL",
+      "explanation": "Volkswirtschaftslehre.",
+      "id": "q6"
+    }
+  ]
+}

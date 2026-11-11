@@ -1,0 +1,118 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "krank",
+    "partOfSpeech": "adjective",
+    "pronunciation": {
+      "respelling": "KRANK",
+      "ipa": "kʁaŋk",
+      "notes": ""
+    },
+    "meaning": "ill, sick",
+    "shortDefinition": "Ill, sick."
+  },
+  "wordFamily": [
+    {
+      "german": "gesund",
+      "english": "healthy",
+      "type": "adjective"
+    },
+    {
+      "german": "das Krankenhaus",
+      "english": "hospital",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich bin krank und bleibe zu Hause.",
+      "english": "I'm ill and staying at home.",
+      "highlight": [
+        "krank"
+      ]
+    },
+    {
+      "german": "Mein Sohn ist schon seit drei Tagen krank.",
+      "english": "My son has been ill for three days.",
+      "highlight": [
+        "krank."
+      ]
+    },
+    {
+      "german": "Sie ist krank geschrieben.",
+      "english": "She's on sick leave.",
+      "highlight": [
+        "krank"
+      ]
+    }
+  ],
+  "forms": [
+    "kranke",
+    "kranken",
+    "kranker",
+    "krankes",
+    "Krankenhaus"
+  ],
+  "memoryHook": "Krank = ill. Krankenhaus = hospital. Gesund = healthy. Gute Besserung! = Get well soon!",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does krank mean?",
+      "options": [
+        "the evening",
+        "ill",
+        "hot"
+      ],
+      "answer": "ill",
+      "explanation": "krank: ill, sick.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "The opposite of krank is…",
+      "options": [
+        "gesund",
+        "glücklich"
+      ],
+      "answer": "gesund",
+      "explanation": "Gesund: healthy.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Das Krankenhaus is…",
+      "options": [
+        "the hospital",
+        "the sick house for animals"
+      ],
+      "answer": "the hospital",
+      "explanation": "Kranken + Haus.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "When someone is ill, you say:",
+      "options": [
+        "Gute Besserung!",
+        "Viel Glück!"
+      ],
+      "answer": "Gute Besserung!",
+      "explanation": "Get well soon.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich kann nicht kommen, ich bin ___. (ill)",
+      "answer": "krank",
+      "fullAnswer": "ich bin krank",
+      "explanation": "Krank.",
+      "id": "q5"
+    }
+  ]
+}

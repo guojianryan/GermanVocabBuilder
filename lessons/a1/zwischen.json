@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "zwischen",
+    "partOfSpeech": "preposition (dative or accusative)",
+    "pronunciation": {
+      "respelling": "TSVISH-en",
+      "ipa": "ˈtsvɪʃn̩",
+      "notes": ""
+    },
+    "meaning": "between",
+    "shortDefinition": "Between."
+  },
+  "wordFamily": [
+    {
+      "german": "die Mitte",
+      "english": "middle",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Zwischen 8 und 10 Uhr bin ich zu Hause.",
+      "english": "I'm home between 8 and 10.",
+      "highlight": [
+        "Zwischen"
+      ]
+    },
+    {
+      "german": "Die Bank liegt zwischen der Post und dem Café.",
+      "english": "The bank is between the post office and the café.",
+      "highlight": [
+        "zwischen"
+      ]
+    },
+    {
+      "german": "Stell den Stuhl zwischen die Tische.",
+      "english": "Put the chair between the tables.",
+      "highlight": [
+        "zwischen",
+        "die"
+      ]
+    }
+  ],
+  "forms": [],
+  "memoryHook": "Zwischen = between (dative for where, accusative for where to). Zw = 'tsv'.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does zwischen mean?",
+      "options": [
+        "to sing",
+        "between",
+        "the street"
+      ],
+      "answer": "between",
+      "explanation": "zwischen: between.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Location (where): zwischen ___ Häusern",
+      "options": [
+        "den",
+        "die"
+      ],
+      "answer": "den",
+      "explanation": "Dative plural.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Direction (where to): zwischen ___ Bücher",
+      "options": [
+        "den",
+        "die"
+      ],
+      "answer": "die",
+      "explanation": "Accusative.",
+      "id": "q3"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Das Hotel ist ___ Bahnhof und Markt. (between)",
+      "answer": "zwischen",
+      "fullAnswer": "zwischen Bahnhof und Markt",
+      "explanation": "Zwischen.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Zw sounds like…",
+      "options": [
+        "tsv",
+        "zw"
+      ],
+      "answer": "tsv",
+      "explanation": "TSVISH-en.",
+      "id": "q5"
+    }
+  ]
+}

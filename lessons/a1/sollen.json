@@ -1,0 +1,213 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "full",
+  "word": {
+    "headword": "sollen",
+    "partOfSpeech": "modal verb",
+    "pronunciation": {
+      "respelling": "ZOL-en",
+      "ipa": "ˈzɔlən",
+      "notes": "Short o."
+    },
+    "meaning": "should, to be supposed to",
+    "shortDefinition": "What someone else wants or advises you to do."
+  },
+  "intro": {
+    "title": "Soll ich…?",
+    "paragraphs": [
+      "Sollen is 'should' or 'be supposed to', often passing on someone else's wish: Der Arzt sagt, ich soll mehr schlafen. In questions it offers help: Soll ich das Fenster aufmachen?"
+    ]
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "|soll"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "soll|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "|soll"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "soll|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "soll|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "soll|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Ich and er: soll (no -t).",
+        "Sollte (should, advice): Du solltest zum Arzt gehen."
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "müssen",
+      "english": "must",
+      "type": "modal verb"
+    },
+    {
+      "german": "sollte",
+      "english": "should (advice)",
+      "type": "modal verb"
+    }
+  ],
+  "keyTrap": {
+    "title": "The big trap: soll vs muss",
+    "explanation": "Muss = must (necessity). Soll = someone wants/expects it.",
+    "wrong": {
+      "german": "Der Arzt sagt, ich muss mehr trinken. (just reporting advice)",
+      "verdict": "Possible, but soll fits better for passing on advice."
+    },
+    "correct": [
+      {
+        "german": "Der Arzt sagt, ich soll mehr trinken.",
+        "literal": "The doctor says I should drink more.",
+        "note": "Someone's advice: soll."
+      },
+      {
+        "german": "Soll ich dir helfen?",
+        "literal": "Shall I help you?",
+        "note": "Offering: soll ich …?"
+      }
+    ]
+  },
+  "commonMistakes": [
+    {
+      "title": "Offering help",
+      "explanation": "Soll ich …? = Shall I …?",
+      "examples": [
+        {
+          "german": "Soll ich das Licht anmachen?",
+          "english": "Shall I turn on the light?",
+          "highlight": "Soll"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Soll ich aufstehen?",
+      "english": "Should I stand up?",
+      "highlight": [
+        "Soll"
+      ]
+    },
+    {
+      "german": "Du sollst mich anrufen.",
+      "english": "You're supposed to call me.",
+      "highlight": [
+        "sollst"
+      ]
+    },
+    {
+      "german": "Was soll ich mitbringen?",
+      "english": "What should I bring?",
+      "highlight": [
+        "soll"
+      ]
+    },
+    {
+      "german": "Morgen soll es regnen.",
+      "english": "It's supposed to rain tomorrow.",
+      "highlight": [
+        "soll"
+      ]
+    }
+  ],
+  "forms": [
+    "soll",
+    "sollst",
+    "sollt",
+    "sollte",
+    "sollten"
+  ],
+  "memoryHook": "Soll = should, supposed to. Soll ich …? = Shall I …?",
+  "signOff": "Du sollst stolz auf dich sein!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "___ ich dir helfen? (Shall)",
+      "answer": "Soll",
+      "fullAnswer": "Soll ich dir helfen?",
+      "explanation": "Soll ich.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Er ___ morgen kommen.",
+      "options": [
+        "soll",
+        "sollt"
+      ],
+      "answer": "soll",
+      "explanation": "Er soll.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Morgen soll es schneien' means…",
+      "options": [
+        "It's supposed to snow tomorrow",
+        "It must snow"
+      ],
+      "answer": "It's supposed to snow tomorrow",
+      "explanation": "Forecast.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Advice: Du ___ weniger arbeiten.",
+      "options": [
+        "solltest",
+        "musst"
+      ],
+      "answer": "solltest",
+      "explanation": "Sollte: should.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Wir ___ um acht da sein.",
+      "options": [
+        "sollen",
+        "soll"
+      ],
+      "answer": "sollen",
+      "explanation": "Wir sollen.",
+      "id": "q5"
+    }
+  ]
+}

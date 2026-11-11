@@ -1,0 +1,132 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Besitz",
+    "partOfSpeech": "noun, masculine (der Besitz)",
+    "pronunciation": {
+      "respelling": "be-ZITS",
+      "ipa": "bəˈzɪts",
+      "notes": "Usually no plural."
+    },
+    "meaning": "possession, property",
+    "shortDefinition": "Possession, property."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Be",
+        "meaning": "prefix"
+      },
+      {
+        "part": "sitz",
+        "meaning": "sit (sitzen)"
+      }
+    ],
+    "literalMeaning": "what you sit on"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Besitz, usually no plural.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Besitz"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das Haus ist in Familienbesitz.",
+      "english": "The house is family-owned.",
+      "highlight": [
+        "Familienbesitz."
+      ]
+    },
+    {
+      "german": "Er ist im Besitz eines Führerscheins.",
+      "english": "He holds a driving licence.",
+      "highlight": [
+        "Besitz"
+      ]
+    },
+    {
+      "german": "Besitz macht nicht glücklich.",
+      "english": "Possessions don't make you happy.",
+      "highlight": [
+        "Besitz"
+      ]
+    }
+  ],
+  "forms": [
+    "besitzen"
+  ],
+  "memoryHook": "Besitzen → der Besitz, der Besitzer.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Besitz",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Besitz is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Besitz mean?",
+      "options": [
+        "possession",
+        "the door",
+        "the flower"
+      ],
+      "answer": "possession",
+      "explanation": "Besitz: possession, property.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Verb:",
+      "options": [
+        "besitzen",
+        "besetzen"
+      ],
+      "answer": "besitzen",
+      "explanation": "Own.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Im Besitz sein von' means…",
+      "options": [
+        "to be in possession of",
+        "to sit by"
+      ],
+      "answer": "to be in possession of",
+      "explanation": "Formal.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Owner:",
+      "options": [
+        "der Besitzer",
+        "der Besitz"
+      ],
+      "answer": "der Besitzer",
+      "explanation": "Person.",
+      "id": "q5"
+    }
+  ]
+}

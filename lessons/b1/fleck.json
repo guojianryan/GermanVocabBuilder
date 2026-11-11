@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Fleck",
+    "partOfSpeech": "noun, masculine (der Fleck)",
+    "pronunciation": {
+      "respelling": "FLEK",
+      "ipa": "flɛk",
+      "notes": "Plural: die Flecken."
+    },
+    "meaning": "stain, spot",
+    "shortDefinition": "Stain, spot."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Fleck, plural die Flecken.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Fleck"
+        },
+        {
+          "label": "More than one",
+          "value": "die Flecken"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Auf dem Hemd ist ein Fleck.",
+      "english": "There's a stain on the shirt.",
+      "highlight": [
+        "Fleck."
+      ]
+    },
+    {
+      "german": "Der Fleck geht nicht weg.",
+      "english": "The stain won't come out.",
+      "highlight": [
+        "Fleck"
+      ]
+    },
+    {
+      "german": "Ich habe einen blauen Fleck am Bein.",
+      "english": "I've got a bruise on my leg.",
+      "highlight": [
+        "Fleck"
+      ]
+    }
+  ],
+  "forms": [
+    "Flecke"
+  ],
+  "memoryHook": "Der Fleck = stain. Blauer Fleck = bruise.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Fleck",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Fleck is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Fleck, zwei ___",
+      "answer": "Flecken",
+      "fullAnswer": "ein Fleck, zwei Flecken",
+      "explanation": "The plural is Flecken.",
+      "acceptedAnswers": [
+        "Flecken"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Fleck mean?",
+      "options": [
+        "the door",
+        "stain",
+        "to open"
+      ],
+      "answer": "stain",
+      "explanation": "Fleck: stain, spot.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Ein blauer Fleck' is…",
+      "options": [
+        "a bruise",
+        "a blue stain only"
+      ],
+      "answer": "a bruise",
+      "explanation": "Bruise.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Flecken / Flecke",
+        "Flecks"
+      ],
+      "answer": "Flecken / Flecke",
+      "explanation": "Both.",
+      "id": "q5"
+    }
+  ]
+}

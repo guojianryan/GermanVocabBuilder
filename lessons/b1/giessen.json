@@ -1,0 +1,159 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "gießen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "GEE-sen",
+      "ipa": "ˈɡiːsn̩",
+      "notes": ""
+    },
+    "meaning": "to water (plants); to pour",
+    "shortDefinition": "To water (plants); to pour."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "gieß|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "gieß|t"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "gieß|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "gieß|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "gieß|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "gieß|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gegossen"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Kannst du die Blumen gießen?",
+      "english": "Can you water the flowers?",
+      "highlight": [
+        "gießen?"
+      ]
+    },
+    {
+      "german": "Er gießt Wasser in das Glas.",
+      "english": "He pours water into the glass.",
+      "highlight": [
+        "gießt"
+      ]
+    },
+    {
+      "german": "Es gießt in Strömen.",
+      "english": "It's pouring with rain.",
+      "highlight": [
+        "gießt"
+      ]
+    }
+  ],
+  "forms": [
+    "gieße",
+    "gießt",
+    "gießen",
+    "gegossen",
+    "goss",
+    "Gießkanne"
+  ],
+  "memoryHook": "Gießen, goss, gegossen = water (plants), pour. Die Gießkanne = watering can.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (gießen)",
+      "answer": "gießt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: gießt.",
+      "acceptedAnswers": [
+        "giesst"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (gießen, past)",
+      "answer": "gegossen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gegossen.",
+      "acceptedAnswers": [
+        "gegossen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does gießen mean?",
+      "options": [
+        "the shop",
+        "to water (plants)",
+        "the evening"
+      ],
+      "answer": "to water (plants)",
+      "explanation": "gießen: to water (plants); to pour.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Es gießt' means…",
+      "options": [
+        "it's pouring with rain",
+        "it's watering"
+      ],
+      "answer": "it's pouring with rain",
+      "explanation": "Rain.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Past:",
+      "options": [
+        "goss, gegossen",
+        "gießte, gegießt"
+      ],
+      "answer": "goss, gegossen",
+      "explanation": "Irregular.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Schwester",
+    "partOfSpeech": "noun, feminine (die Schwester)",
+    "pronunciation": {
+      "respelling": "SHVES-ter",
+      "ipa": "ˈʃvɛstɐ",
+      "notes": "Plural: die Schwestern."
+    },
+    "meaning": "sister; nurse",
+    "shortDefinition": "Sister; nurse."
+  },
+  "wordFamily": [
+    {
+      "german": "der Bruder",
+      "english": "brother",
+      "type": "noun"
+    },
+    {
+      "german": "die Geschwister",
+      "english": "siblings",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Schwester, plural die Schwestern.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Schwester"
+        },
+        {
+          "label": "More than one",
+          "value": "die Schwestern"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Meine Schwester wohnt in London.",
+      "english": "My sister lives in London.",
+      "highlight": [
+        "Schwester"
+      ]
+    },
+    {
+      "german": "Ich habe zwei Schwestern.",
+      "english": "I have two sisters.",
+      "highlight": [
+        "Schwestern."
+      ]
+    },
+    {
+      "german": "Die Krankenschwester hilft dem Arzt.",
+      "english": "The nurse helps the doctor.",
+      "highlight": [
+        "Krankenschwester"
+      ]
+    }
+  ],
+  "forms": [
+    "Schwestern",
+    "die Schwestern",
+    "die Schwester"
+  ],
+  "memoryHook": "Die Schwester = sister (and nurse: Krankenschwester). Plural Schwestern.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Schwester",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Schwester is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Schwester, zwei ___",
+      "answer": "Schwestern",
+      "fullAnswer": "ein Schwester, zwei Schwestern",
+      "explanation": "The plural is Schwestern.",
+      "acceptedAnswers": [
+        "Schwestern"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Schwester mean?",
+      "options": [
+        "the key",
+        "sister",
+        "the car"
+      ],
+      "answer": "sister",
+      "explanation": "Schwester: sister; nurse.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Die Krankenschwester is…",
+      "options": [
+        "a nurse",
+        "an ill sister"
+      ],
+      "answer": "a nurse",
+      "explanation": "Kranken + Schwester.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Brothers and sisters together:",
+      "options": [
+        "Geschwister",
+        "Schwestern"
+      ],
+      "answer": "Geschwister",
+      "explanation": "Siblings.",
+      "id": "q5"
+    }
+  ]
+}

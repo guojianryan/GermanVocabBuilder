@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Messe",
+    "partOfSpeech": "noun, feminine (die Messe)",
+    "pronunciation": {
+      "respelling": "MES-e",
+      "ipa": "ˈmɛsə",
+      "notes": "Plural: die Messen."
+    },
+    "meaning": "trade fair; mass (church)",
+    "shortDefinition": "Trade fair; mass (church)."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Messe, plural die Messen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Messe"
+        },
+        {
+          "label": "More than one",
+          "value": "die Messen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Buchmesse ist in Frankfurt.",
+      "english": "The book fair is in Frankfurt.",
+      "highlight": [
+        "Buchmesse"
+      ]
+    },
+    {
+      "german": "Wir haben einen Stand auf der Messe.",
+      "english": "We have a stand at the trade fair.",
+      "highlight": [
+        "Messe."
+      ]
+    },
+    {
+      "german": "Am Sonntag gehen sie zur Messe.",
+      "english": "On Sunday they go to mass.",
+      "highlight": [
+        "Messe."
+      ]
+    }
+  ],
+  "forms": [
+    "Messen",
+    "die Messen",
+    "die Messe"
+  ],
+  "memoryHook": "Die Messe: trade fair (Frankfurt, Hanover) or church mass.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Messe",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Messe is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Messe, zwei ___",
+      "answer": "Messen",
+      "fullAnswer": "ein Messe, zwei Messen",
+      "explanation": "The plural is Messen.",
+      "acceptedAnswers": [
+        "Messen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Messe mean?",
+      "options": [
+        "trade fair",
+        "tomorrow",
+        "the evening"
+      ],
+      "answer": "trade fair",
+      "explanation": "Messe: trade fair; mass (church).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'At the trade fair':",
+      "options": [
+        "auf der Messe",
+        "in der Messe"
+      ],
+      "answer": "auf der Messe",
+      "explanation": "Auf.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Messe or Messer?",
+      "options": [
+        "Messe = fair, Messer = knife",
+        "same thing"
+      ],
+      "answer": "Messe = fair, Messer = knife",
+      "explanation": "One letter!",
+      "id": "q5"
+    }
+  ]
+}

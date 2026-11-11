@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Schere",
+    "partOfSpeech": "noun, feminine (die Schere)",
+    "pronunciation": {
+      "respelling": "SHAY-re",
+      "ipa": "ˈʃeːʁə",
+      "notes": "Plural: die Scheren."
+    },
+    "meaning": "scissors",
+    "shortDefinition": "Scissors."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Schere, plural die Scheren.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Schere"
+        },
+        {
+          "label": "More than one",
+          "value": "die Scheren"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Hast du eine Schere?",
+      "english": "Have you got some scissors?",
+      "highlight": [
+        "Schere?"
+      ]
+    },
+    {
+      "german": "Die Schere ist in der Schublade.",
+      "english": "The scissors are in the drawer.",
+      "highlight": [
+        "Schere"
+      ]
+    },
+    {
+      "german": "Schneid das mit der Schere.",
+      "english": "Cut it with the scissors.",
+      "highlight": [
+        "Schere."
+      ]
+    }
+  ],
+  "forms": [
+    "Scheren",
+    "die Scheren",
+    "die Schere"
+  ],
+  "memoryHook": "Eine Schere = one pair of scissors (singular, like Brille, Hose).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Schere",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Schere is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Schere, zwei ___",
+      "answer": "Scheren",
+      "fullAnswer": "ein Schere, zwei Scheren",
+      "explanation": "The plural is Scheren.",
+      "acceptedAnswers": [
+        "Scheren"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Schere mean?",
+      "options": [
+        "scissors",
+        "to wait",
+        "the key"
+      ],
+      "answer": "scissors",
+      "explanation": "Schere: scissors.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'A pair of scissors':",
+      "options": [
+        "eine Schere",
+        "ein Paar Scheren"
+      ],
+      "answer": "eine Schere",
+      "explanation": "Singular in German.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Die Schere ___ scharf.",
+      "options": [
+        "ist",
+        "sind"
+      ],
+      "answer": "ist",
+      "explanation": "Singular.",
+      "id": "q5"
+    }
+  ]
+}

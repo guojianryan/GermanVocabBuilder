@@ -1,0 +1,154 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "stehlen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "SHTAY-len",
+      "ipa": "ˈʃteːlən",
+      "notes": ""
+    },
+    "meaning": "to steal",
+    "shortDefinition": "To steal."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "stehl|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "stiehl|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "stiehl|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "stehl|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "stehl|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "stehl|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gestohlen"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Mein Fahrrad wurde gestohlen.",
+      "english": "My bike was stolen.",
+      "highlight": [
+        "gestohlen."
+      ]
+    },
+    {
+      "german": "Er stiehlt Geld.",
+      "english": "He steals money.",
+      "highlight": [
+        "stiehlt"
+      ]
+    },
+    {
+      "german": "Jemand hat mir das Handy gestohlen.",
+      "english": "Someone stole my phone.",
+      "highlight": [
+        "gestohlen."
+      ]
+    }
+  ],
+  "forms": [
+    "Diebstahl"
+  ],
+  "memoryHook": "Stehlen, stahl, gestohlen (er stiehlt). Der Diebstahl = theft.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (stehlen)",
+      "answer": "stiehlt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: stiehlt.",
+      "acceptedAnswers": [
+        "stiehlt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (stehlen, past)",
+      "answer": "gestohlen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gestohlen.",
+      "acceptedAnswers": [
+        "gestohlen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does stehlen mean?",
+      "options": [
+        "the door",
+        "the flower",
+        "to steal"
+      ],
+      "answer": "to steal",
+      "explanation": "stehlen: to steal.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "er ___ (stehlen):",
+      "options": [
+        "stiehlt",
+        "stehlt"
+      ],
+      "answer": "stiehlt",
+      "explanation": "e → ie.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "hat gestohlen",
+        "hat gestehlt"
+      ],
+      "answer": "hat gestohlen",
+      "explanation": "Strong verb.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Vorstand",
+    "partOfSpeech": "noun, masculine (der Vorstand)",
+    "pronunciation": {
+      "respelling": "FOR-shtant",
+      "ipa": "ˈfoːɐ̯ʃtant",
+      "notes": "Plural: die Vorstände."
+    },
+    "meaning": "board (of directors); chairperson",
+    "shortDefinition": "Board (of directors); chairperson."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Vor",
+        "meaning": "in front"
+      },
+      {
+        "part": "stand",
+        "meaning": "standing"
+      }
+    ],
+    "literalMeaning": "those standing in front"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Vorstand, plural die Vorstände.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Vorstand"
+        },
+        {
+          "label": "More than one",
+          "value": "die Vorstände"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Vorstand trifft sich monatlich.",
+      "english": "The board meets monthly.",
+      "highlight": [
+        "Vorstand"
+      ]
+    },
+    {
+      "german": "Sie sitzt im Vorstand der Firma.",
+      "english": "She's on the company's board.",
+      "highlight": [
+        "Vorstand"
+      ]
+    },
+    {
+      "german": "Der Vorstandsvorsitzende.",
+      "english": "The CEO / chairman of the board.",
+      "highlight": [
+        "Vorstandsvorsitzende."
+      ]
+    }
+  ],
+  "forms": [
+    "vorstehen",
+    "Vorstandsvorsitzende"
+  ],
+  "memoryHook": "Vorstehen → der Vorstand (board).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Vorstand",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Vorstand is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Vorstand, zwei ___",
+      "answer": "Vorstände",
+      "fullAnswer": "ein Vorstand, zwei Vorstände",
+      "explanation": "The plural is Vorstände.",
+      "acceptedAnswers": [
+        "Vorstaende"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Vorstand mean?",
+      "options": [
+        "the car",
+        "the child",
+        "board (of directors)"
+      ],
+      "answer": "board (of directors)",
+      "explanation": "Vorstand: board (of directors); chairperson.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "vor + stehen (stand before)",
+        "vor + Stand (stall)"
+      ],
+      "answer": "vor + stehen (stand before)",
+      "explanation": "Stand in front.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Head of the board:",
+      "options": [
+        "der/die Vorstandsvorsitzende",
+        "der Vorstandsführer"
+      ],
+      "answer": "der/die Vorstandsvorsitzende",
+      "explanation": "CEO.",
+      "id": "q5"
+    }
+  ]
+}

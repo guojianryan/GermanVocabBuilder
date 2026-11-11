@@ -1,0 +1,131 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "verheiratet",
+    "partOfSpeech": "adjective",
+    "pronunciation": {
+      "respelling": "fair-HY-rah-tet",
+      "ipa": "fɛɐ̯ˈhaɪ̯ʁaːtət",
+      "notes": ""
+    },
+    "meaning": "married",
+    "shortDefinition": "Married."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "ver",
+        "meaning": "prefix"
+      },
+      {
+        "part": "heirat",
+        "meaning": "marriage",
+        "note": "Die Heirat."
+      },
+      {
+        "part": "et",
+        "meaning": "participle ending"
+      }
+    ],
+    "literalMeaning": "married"
+  },
+  "wordFamily": [
+    {
+      "german": "heiraten",
+      "english": "to marry",
+      "type": "verb"
+    },
+    {
+      "german": "ledig",
+      "english": "single",
+      "type": "adjective"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Sind Sie verheiratet?",
+      "english": "Are you married?",
+      "highlight": [
+        "verheiratet?"
+      ]
+    },
+    {
+      "german": "Ich bin seit zehn Jahren verheiratet.",
+      "english": "I've been married for ten years.",
+      "highlight": [
+        "verheiratet."
+      ]
+    },
+    {
+      "german": "Familienstand: verheiratet",
+      "english": "Marital status: married",
+      "highlight": [
+        "verheiratet"
+      ]
+    }
+  ],
+  "forms": [],
+  "memoryHook": "Verheiratet (mit) = married (to). Ledig = single, geschieden = divorced.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does verheiratet mean?",
+      "options": [
+        "the family",
+        "the street",
+        "married"
+      ],
+      "answer": "married",
+      "explanation": "verheiratet: married.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Married TO someone:",
+      "options": [
+        "verheiratet mit",
+        "verheiratet zu"
+      ],
+      "answer": "verheiratet mit",
+      "explanation": "Mit + dative.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "The opposite (never married) is…",
+      "options": [
+        "ledig",
+        "geschieden"
+      ],
+      "answer": "ledig",
+      "explanation": "Single.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Verheiratet comes from…",
+      "options": [
+        "heiraten",
+        "heißen"
+      ],
+      "answer": "heiraten",
+      "explanation": "To marry.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Sie ist ___ mit Tom. (married)",
+      "answer": "verheiratet",
+      "fullAnswer": "Sie ist verheiratet mit Tom.",
+      "explanation": "Verheiratet.",
+      "id": "q5"
+    }
+  ]
+}

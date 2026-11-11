@@ -1,0 +1,165 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "ordnen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "ORD-nen",
+      "ipa": "ˈɔʁdnən",
+      "notes": ""
+    },
+    "meaning": "to arrange, put in order",
+    "shortDefinition": "To arrange, put in order."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "ordn|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "ordn|est"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "ordn|et"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "ordn|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "ordn|et"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "ordn|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat geordnet"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "die Ordnung",
+      "english": "order",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich ordne die Papiere.",
+      "english": "I'm sorting the papers.",
+      "highlight": [
+        "ordne"
+      ]
+    },
+    {
+      "german": "Die Bücher sind alphabetisch geordnet.",
+      "english": "The books are arranged alphabetically.",
+      "highlight": [
+        "geordnet."
+      ]
+    },
+    {
+      "german": "Ordnen Sie die Wörter.",
+      "english": "Put the words in order.",
+      "highlight": [
+        "Ordnen"
+      ]
+    }
+  ],
+  "forms": [
+    "ordne",
+    "ordnest",
+    "ordnet",
+    "ordnen",
+    "geordnet"
+  ],
+  "memoryHook": "Ordnen → die Ordnung, der Ordner.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (ordnen)",
+      "answer": "ordnet",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: ordnet.",
+      "acceptedAnswers": [
+        "ordnet"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (ordnen, past)",
+      "answer": "geordnet",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe geordnet.",
+      "acceptedAnswers": [
+        "geordnet"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does ordnen mean?",
+      "options": [
+        "to sleep",
+        "tomorrow",
+        "to arrange"
+      ],
+      "answer": "to arrange",
+      "explanation": "ordnen: to arrange, put in order.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "du ___ (ordnen):",
+      "options": [
+        "ordnest",
+        "ordnst"
+      ],
+      "answer": "ordnest",
+      "explanation": "Extra e after dn.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Related:",
+      "options": [
+        "die Ordnung, der Ordner",
+        "der Orden only"
+      ],
+      "answer": "die Ordnung, der Ordner",
+      "explanation": "Order, folder.",
+      "id": "q5"
+    }
+  ]
+}

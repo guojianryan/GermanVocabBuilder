@@ -1,0 +1,138 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Schreibtisch",
+    "partOfSpeech": "noun, masculine (der Schreibtisch)",
+    "pronunciation": {
+      "respelling": "SHRIPE-tish",
+      "ipa": "ˈʃʁaɪ̯ptɪʃ",
+      "notes": "Plural: die Schreibtische."
+    },
+    "meaning": "desk",
+    "shortDefinition": "Desk."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Schreib",
+        "meaning": "write"
+      },
+      {
+        "part": "tisch",
+        "meaning": "table"
+      }
+    ],
+    "literalMeaning": "writing table"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Schreibtisch, plural die Schreibtische.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Schreibtisch"
+        },
+        {
+          "label": "More than one",
+          "value": "die Schreibtische"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Laptop liegt auf dem Schreibtisch.",
+      "english": "The laptop is on the desk.",
+      "highlight": [
+        "Schreibtisch."
+      ]
+    },
+    {
+      "german": "Ich sitze den ganzen Tag am Schreibtisch.",
+      "english": "I sit at my desk all day.",
+      "highlight": [
+        "Schreibtisch."
+      ]
+    },
+    {
+      "german": "Mein Schreibtisch ist chaotisch.",
+      "english": "My desk is a mess.",
+      "highlight": [
+        "Schreibtisch"
+      ]
+    }
+  ],
+  "forms": [
+    "Schreibtische",
+    "die Schreibtische",
+    "der Schreibtisch"
+  ],
+  "memoryHook": "Schreib + Tisch = desk.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Schreibtisch",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Schreibtisch is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Schreibtisch, zwei ___",
+      "answer": "Schreibtische",
+      "fullAnswer": "ein Schreibtisch, zwei Schreibtische",
+      "explanation": "The plural is Schreibtische.",
+      "acceptedAnswers": [
+        "Schreibtische"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Schreibtisch mean?",
+      "options": [
+        "desk",
+        "expensive",
+        "the evening"
+      ],
+      "answer": "desk",
+      "explanation": "Schreibtisch: desk.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "schreiben + Tisch",
+        "Schrei + Tisch"
+      ],
+      "answer": "schreiben + Tisch",
+      "explanation": "Writing table.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Am Schreibtisch sitzen' — preposition:",
+      "options": [
+        "an",
+        "auf"
+      ],
+      "answer": "an",
+      "explanation": "At the desk.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Schicksal",
+    "partOfSpeech": "noun, neuter (das Schicksal)",
+    "pronunciation": {
+      "respelling": "SHIK-zaal",
+      "ipa": "ˈʃɪkzaːl",
+      "notes": "Plural: die Schicksale."
+    },
+    "meaning": "fate, destiny",
+    "shortDefinition": "Fate, destiny."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Schick",
+        "meaning": "send (schicken)"
+      },
+      {
+        "part": "sal",
+        "meaning": "noun ending"
+      }
+    ],
+    "literalMeaning": "what is sent",
+    "summary": "Your fate is what life sends you."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Schicksal, plural die Schicksale.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Schicksal"
+        },
+        {
+          "label": "More than one",
+          "value": "die Schicksale"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das war Schicksal.",
+      "english": "That was fate.",
+      "highlight": [
+        "Schicksal."
+      ]
+    },
+    {
+      "german": "Sie hatte ein schweres Schicksal.",
+      "english": "She had a hard life.",
+      "highlight": [
+        "Schicksal."
+      ]
+    },
+    {
+      "german": "Er überlässt nichts dem Schicksal.",
+      "english": "He leaves nothing to chance.",
+      "highlight": [
+        "Schicksal."
+      ]
+    }
+  ],
+  "forms": [
+    "Schicksale",
+    "die Schicksale",
+    "das Schicksal"
+  ],
+  "memoryHook": "Das Schicksal = what is sent (schicken) to you: fate.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Schicksal",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Schicksal is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Schicksal, zwei ___",
+      "answer": "Schicksale",
+      "fullAnswer": "ein Schicksal, zwei Schicksale",
+      "explanation": "The plural is Schicksale.",
+      "acceptedAnswers": [
+        "Schicksale"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Schicksal mean?",
+      "options": [
+        "to buy",
+        "fate",
+        "quiet"
+      ],
+      "answer": "fate",
+      "explanation": "Schicksal: fate, destiny.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "schicken (send) + -sal",
+        "Schick + Saal"
+      ],
+      "answer": "schicken (send) + -sal",
+      "explanation": "What is sent to you.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gender:",
+      "options": [
+        "das",
+        "der"
+      ],
+      "answer": "das",
+      "explanation": "Das Schicksal.",
+      "id": "q5"
+    }
+  ]
+}

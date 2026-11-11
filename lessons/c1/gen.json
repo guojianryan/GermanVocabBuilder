@@ -1,0 +1,134 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Gen",
+    "partOfSpeech": "noun, neuter (das Gen)",
+    "pronunciation": {
+      "respelling": "GAYN",
+      "ipa": "ɡeːn",
+      "notes": "Plural: die Gene."
+    },
+    "meaning": "gene",
+    "shortDefinition": "Gene."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Gen, plural die Gene.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Gen"
+        },
+        {
+          "label": "More than one",
+          "value": "die Gene"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das liegt in den Genen.",
+      "english": "It's in the genes.",
+      "highlight": [
+        "Genen."
+      ]
+    },
+    {
+      "german": "Ein defektes Gen.",
+      "english": "A faulty gene.",
+      "highlight": [
+        "Gen."
+      ]
+    },
+    {
+      "german": "Gentechnik ist umstritten.",
+      "english": "Genetic engineering is controversial.",
+      "highlight": [
+        "Gentechnik"
+      ]
+    }
+  ],
+  "forms": [
+    "genetisch",
+    "Gentechnik"
+  ],
+  "memoryHook": "Das Gen; Gentechnik; genetisch.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Gen",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Gen is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Gen, zwei ___",
+      "answer": "Gene",
+      "fullAnswer": "ein Gen, zwei Gene",
+      "explanation": "The plural is Gene.",
+      "acceptedAnswers": [
+        "Gene"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Gen mean?",
+      "options": [
+        "cheap",
+        "never",
+        "gene"
+      ],
+      "answer": "gene",
+      "explanation": "Gen: gene.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "G sounds like…",
+      "options": [
+        "hard g",
+        "j"
+      ],
+      "answer": "hard g",
+      "explanation": "GAYN.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Genetic engineering:",
+      "options": [
+        "die Gentechnik",
+        "die Genkunst"
+      ],
+      "answer": "die Gentechnik",
+      "explanation": "Compound.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Gene",
+        "Gens"
+      ],
+      "answer": "Gene",
+      "explanation": "-e.",
+      "id": "q6"
+    }
+  ]
+}

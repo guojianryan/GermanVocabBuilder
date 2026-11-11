@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Schnitzel",
+    "partOfSpeech": "noun, neuter (das Schnitzel)",
+    "pronunciation": {
+      "respelling": "SHNIT-sel",
+      "ipa": "ˈʃnɪtsl̩",
+      "notes": "The plural looks the same. Plural: die Schnitzel."
+    },
+    "meaning": "schnitzel, escalope",
+    "shortDefinition": "Schnitzel, escalope."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Schnitzel, plural die Schnitzel.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Schnitzel"
+        },
+        {
+          "label": "More than one",
+          "value": "die Schnitzel"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich nehme ein Wiener Schnitzel.",
+      "english": "I'll have a Wiener schnitzel.",
+      "highlight": [
+        "Schnitzel."
+      ]
+    },
+    {
+      "german": "Das Schnitzel ist mit Pommes.",
+      "english": "The schnitzel comes with chips.",
+      "highlight": [
+        "Schnitzel"
+      ]
+    },
+    {
+      "german": "Die Schnitzel sind riesig.",
+      "english": "The schnitzels are huge.",
+      "highlight": [
+        "Schnitzel"
+      ]
+    }
+  ],
+  "forms": [
+    "Schnitzel",
+    "die Schnitzel",
+    "das Schnitzel"
+  ],
+  "memoryHook": "Das Schnitzel (Wiener Schnitzel = veal).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Schnitzel",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Schnitzel is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Schnitzel, zwei ___",
+      "answer": "Schnitzel",
+      "fullAnswer": "ein Schnitzel, zwei Schnitzel",
+      "explanation": "The plural is Schnitzel.",
+      "acceptedAnswers": [
+        "Schnitzel"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Schnitzel mean?",
+      "options": [
+        "schnitzel",
+        "the station",
+        "the car"
+      ],
+      "answer": "schnitzel",
+      "explanation": "Schnitzel: schnitzel, escalope.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "A real Wiener Schnitzel is made of…",
+      "options": [
+        "veal",
+        "pork"
+      ],
+      "answer": "veal",
+      "explanation": "Pork: Schnitzel Wiener Art.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gender:",
+      "options": [
+        "das",
+        "der"
+      ],
+      "answer": "das",
+      "explanation": "Das Schnitzel.",
+      "id": "q5"
+    }
+  ]
+}

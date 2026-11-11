@@ -1,0 +1,177 @@
+{
+ "schemaVersion": "1.4",
+ "language": "de",
+ "explanationLanguage": "en",
+ "level": "A2",
+ "levelSource": "Goethe-Zertifikat A2 Wortliste",
+ "lessonType": "card",
+ "word": {
+  "headword": "verpassen",
+  "partOfSpeech": "verb",
+  "pronunciation": {
+   "respelling": "fair-PAS-en",
+   "ipa": "fɛɐ̯ˈpasn̩",
+   "notes": ""
+  },
+  "meaning": "to miss (a bus, a chance)",
+  "shortDefinition": "To miss (a bus, a chance)."
+ },
+ "tables": [
+  {
+   "title": "Present tense",
+   "columns": [
+    "present"
+   ],
+   "rows": [
+    {
+     "label": "ich",
+     "cells": [
+      "verpass|e"
+     ]
+    },
+    {
+     "label": "du",
+     "cells": [
+      "verpass|t"
+     ]
+    },
+    {
+     "label": "er, sie, es",
+     "cells": [
+      "verpass|t"
+     ]
+    },
+    {
+     "label": "wir",
+     "cells": [
+      "verpass|en"
+     ]
+    },
+    {
+     "label": "ihr",
+     "cells": [
+      "verpass|t"
+     ]
+    },
+    {
+     "label": "sie, Sie",
+     "cells": [
+      "verpass|en"
+     ]
+    }
+   ],
+   "notes": [
+    "Past (Perfekt): hat verpasst"
+   ]
+  }
+ ],
+ "wordFamily": [
+  {
+   "german": "vermissen",
+   "english": "to miss (someone)",
+   "type": "verb"
+  }
+ ],
+ "sampleSentences": [
+  {
+   "german": "Ich habe den Bus verpasst.",
+   "english": "I missed the bus.",
+   "highlight": [
+    "verpasst."
+   ]
+  },
+  {
+   "german": "Beeil dich, sonst verpassen wir den Film!",
+   "english": "Hurry up or we'll miss the film!",
+   "highlight": [
+    "verpassen"
+   ]
+  },
+  {
+   "german": "Du hast nichts verpasst.",
+   "english": "You didn't miss anything.",
+   "highlight": [
+    "verpasst."
+   ]
+  }
+ ],
+ "forms": [
+  "verpasse",
+  "verpasst",
+  "verpassen"
+ ],
+ "memoryHook": "Verpassen = miss (train, chance). Vermissen = miss (a person).",
+ "signOff": "Gut gemacht!",
+ "quiz": [
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "er ___ (verpassen)",
+   "answer": "verpasst",
+   "fullAnswer": "",
+   "explanation": "For er, sie, es: verpasst.",
+   "acceptedAnswers": [
+    "verpasst"
+   ],
+   "id": "q1"
+  },
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "Ich habe schon ___. (verpassen, past)",
+   "answer": "verpasst",
+   "fullAnswer": "",
+   "explanation": "Perfekt: habe verpasst.",
+   "acceptedAnswers": [
+    "verpasst"
+   ],
+   "id": "q2"
+  },
+  {
+   "type": "choice",
+   "prompt": "What does verpassen mean?",
+   "options": [
+    "to miss (a bus",
+    "to sleep",
+    "slowly"
+   ],
+   "answer": "to miss (a bus",
+   "explanation": "verpassen: to miss (a bus, a chance).",
+   "id": "q3"
+  },
+  {
+   "type": "choice",
+   "prompt": "Miss a PERSON (emotionally):",
+   "options": [
+    "vermissen",
+    "verpassen"
+   ],
+   "answer": "vermissen",
+   "explanation": "Ich vermisse dich.",
+   "id": "q4"
+  },
+  {
+   "type": "choice",
+   "prompt": "Miss a train:",
+   "options": [
+    "verpassen",
+    "vermissen"
+   ],
+   "answer": "verpassen",
+   "explanation": "Too late.",
+   "id": "q5"
+  }
+ ],
+ "etymology": {
+  "title": "Where it comes from",
+  "parts": [
+   {
+    "part": "ver",
+    "meaning": "wrong"
+   },
+   {
+    "part": "passen",
+    "meaning": "to fit"
+   }
+  ],
+  "literalMeaning": "to miss the fit"
+ }
+}

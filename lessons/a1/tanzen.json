@@ -1,0 +1,158 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "tanzen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "TAN-tsen",
+      "ipa": "ˈtantsn̩",
+      "notes": ""
+    },
+    "meaning": "to dance",
+    "shortDefinition": "To dance."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "tanz|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "tanz|t"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "tanz|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "tanz|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "tanz|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "tanz|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat getanzt",
+        "The stem ends in -z, so du just adds -t."
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Tanzen Sie gern?",
+      "english": "Do you like dancing?",
+      "highlight": [
+        "Tanzen"
+      ]
+    },
+    {
+      "german": "Wir haben die ganze Nacht getanzt.",
+      "english": "We danced all night.",
+      "highlight": [
+        "getanzt."
+      ]
+    },
+    {
+      "german": "Sie tanzt sehr gut.",
+      "english": "She dances very well.",
+      "highlight": [
+        "tanzt"
+      ]
+    }
+  ],
+  "forms": [
+    "tanze",
+    "tanzt",
+    "tanzen",
+    "getanzt"
+  ],
+  "memoryHook": "Tanzen = dance. Du tanzt (not tanzst).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (tanzen)",
+      "answer": "tanzt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: tanzt.",
+      "acceptedAnswers": [
+        "tanzt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (tanzen, past)",
+      "answer": "getanzt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe getanzt.",
+      "acceptedAnswers": [
+        "getanzt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does tanzen mean?",
+      "options": [
+        "the bread",
+        "to dance",
+        "to buy"
+      ],
+      "answer": "to dance",
+      "explanation": "tanzen: to dance.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Du ___ gern.",
+      "options": [
+        "tanzst",
+        "tanzt"
+      ],
+      "answer": "tanzt",
+      "explanation": "Stem ends in -z: du tanzt.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Der Tanz is…",
+      "options": [
+        "the dance",
+        "the dancer"
+      ],
+      "answer": "the dance",
+      "explanation": "Tanzen → Tanz.",
+      "id": "q5"
+    }
+  ]
+}

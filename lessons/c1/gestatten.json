@@ -1,0 +1,165 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "gestatten",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "ge-SHTA-ten",
+      "ipa": "ɡəˈʃtatn̩",
+      "notes": ""
+    },
+    "meaning": "to permit, allow",
+    "shortDefinition": "To permit, allow."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "gestatt|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "gestatt|est"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "gestatt|et"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "gestatt|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "gestatt|et"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "gestatt|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gestattet"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Rauchen ist nicht gestattet.",
+      "english": "Smoking is not permitted.",
+      "highlight": [
+        "gestattet."
+      ]
+    },
+    {
+      "german": "Gestatten Sie, dass ich mich vorstelle?",
+      "english": "May I introduce myself?",
+      "highlight": [
+        "Gestatten"
+      ]
+    },
+    {
+      "german": "Gestatten: Müller.",
+      "english": "Allow me: Müller.",
+      "highlight": [
+        "Gestatten:"
+      ]
+    }
+  ],
+  "forms": [
+    "erlauben"
+  ],
+  "memoryHook": "Gestatten (formal) = erlauben.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (gestatten)",
+      "answer": "gestattet",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: gestattet.",
+      "acceptedAnswers": [
+        "gestattet"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (gestatten, past)",
+      "answer": "gestattet",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gestattet.",
+      "acceptedAnswers": [
+        "gestattet"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does gestatten mean?",
+      "options": [
+        "to permit",
+        "to buy",
+        "to sleep"
+      ],
+      "answer": "to permit",
+      "explanation": "gestatten: to permit, allow.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Register:",
+      "options": [
+        "formal (= erlauben)",
+        "slang"
+      ],
+      "answer": "formal (= erlauben)",
+      "explanation": "Polite.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Gestatten?' (asking to pass) means…",
+      "options": [
+        "may I?",
+        "watch out!"
+      ],
+      "answer": "may I?",
+      "explanation": "Polite.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "hat gestattet",
+        "hat gegestattet"
+      ],
+      "answer": "hat gestattet",
+      "explanation": "Ge- already.",
+      "id": "q6"
+    }
+  ]
+}

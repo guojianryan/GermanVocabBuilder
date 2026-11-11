@@ -1,0 +1,131 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Fluss",
+    "partOfSpeech": "noun, masculine (der Fluss)",
+    "pronunciation": {
+      "respelling": "FLOOS",
+      "ipa": "flʊs",
+      "notes": "Plural: die Flüsse."
+    },
+    "meaning": "river",
+    "shortDefinition": "River."
+  },
+  "wordFamily": [
+    {
+      "german": "fließen",
+      "english": "to flow",
+      "type": "verb"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Fluss, plural die Flüsse.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Fluss"
+        },
+        {
+          "label": "More than one",
+          "value": "die Flüsse"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Köln liegt am Rhein, einem großen Fluss.",
+      "english": "Cologne is on the Rhine, a big river.",
+      "highlight": [
+        "Fluss."
+      ]
+    },
+    {
+      "german": "Im Fluss kann man nicht schwimmen.",
+      "english": "You can't swim in the river.",
+      "highlight": [
+        "Fluss"
+      ]
+    },
+    {
+      "german": "Wir wandern am Fluss entlang.",
+      "english": "We're hiking along the river.",
+      "highlight": [
+        "Fluss"
+      ]
+    }
+  ],
+  "forms": [
+    "Flüsse",
+    "die Flüsse",
+    "der Fluss"
+  ],
+  "memoryHook": "Der Fluss: from fließen (to flow).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Fluss",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Fluss is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Fluss, zwei ___",
+      "answer": "Flüsse",
+      "fullAnswer": "ein Fluss, zwei Flüsse",
+      "explanation": "The plural is Flüsse.",
+      "acceptedAnswers": [
+        "Fluesse"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Fluss mean?",
+      "options": [
+        "river",
+        "tomorrow",
+        "the evening"
+      ],
+      "answer": "river",
+      "explanation": "Fluss: river.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'On the river' (a town):",
+      "options": [
+        "am Fluss",
+        "auf dem Fluss"
+      ],
+      "answer": "am Fluss",
+      "explanation": "Next to it.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Flüsse",
+        "Flusse"
+      ],
+      "answer": "Flüsse",
+      "explanation": "u → ü.",
+      "id": "q5"
+    }
+  ]
+}

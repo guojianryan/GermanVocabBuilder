@@ -1,0 +1,119 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Schutz",
+    "partOfSpeech": "noun, masculine (der Schutz)",
+    "pronunciation": {
+      "respelling": "SHOOTS",
+      "ipa": "ʃʊts",
+      "notes": "Usually no plural."
+    },
+    "meaning": "protection",
+    "shortDefinition": "Protection."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Schutz, usually no plural.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Schutz"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Helm ist zum Schutz.",
+      "english": "The helmet is for protection.",
+      "highlight": [
+        "Schutz."
+      ]
+    },
+    {
+      "german": "Sie suchten Schutz vor dem Regen.",
+      "english": "They sought shelter from the rain.",
+      "highlight": [
+        "Schutz"
+      ]
+    },
+    {
+      "german": "Der Umweltschutz ist wichtig.",
+      "english": "Environmental protection is important.",
+      "highlight": [
+        "Umweltschutz"
+      ]
+    }
+  ],
+  "forms": [
+    "Umweltschutz",
+    "Datenschutz"
+  ],
+  "memoryHook": "Der Schutz vor. Umweltschutz, Datenschutz.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Schutz",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Schutz is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Schutz mean?",
+      "options": [
+        "the window",
+        "to learn",
+        "protection"
+      ],
+      "answer": "protection",
+      "explanation": "Schutz: protection.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Protection against:",
+      "options": [
+        "Schutz vor",
+        "Schutz für"
+      ],
+      "answer": "Schutz vor",
+      "explanation": "Vor.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Environmental protection:",
+      "options": [
+        "der Umweltschutz",
+        "die Umweltschützung"
+      ],
+      "answer": "der Umweltschutz",
+      "explanation": "Compound.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gender:",
+      "options": [
+        "der",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Der Schutz.",
+      "id": "q5"
+    }
+  ]
+}

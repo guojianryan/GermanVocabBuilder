@@ -1,0 +1,171 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "reisen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "RY-zen",
+      "ipa": "ˈʁaɪ̯zn̩",
+      "notes": ""
+    },
+    "meaning": "to travel",
+    "shortDefinition": "To travel."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "reis|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "reis|t"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "reis|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "reis|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "reis|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "reis|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): ist gereist",
+        "Du reist: the stem ends in -s, so du just adds -t."
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "die Reise",
+      "english": "journey, trip",
+      "type": "noun"
+    },
+    {
+      "german": "der Reiseführer",
+      "english": "guidebook; tour guide",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich reise gern.",
+      "english": "I like travelling.",
+      "highlight": [
+        "reise"
+      ]
+    },
+    {
+      "german": "Wir reisen im Sommer nach Japan.",
+      "english": "We're travelling to Japan in summer.",
+      "highlight": [
+        "reisen"
+      ]
+    },
+    {
+      "german": "Sie ist viel gereist.",
+      "english": "She's travelled a lot.",
+      "highlight": [
+        "gereist."
+      ]
+    }
+  ],
+  "forms": [
+    "reise",
+    "reist",
+    "reisen",
+    "gereist",
+    "Reise"
+  ],
+  "memoryHook": "Reisen = travel (ist gereist). Die Reise = journey. Gute Reise!",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (reisen)",
+      "answer": "reist",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: reist.",
+      "acceptedAnswers": [
+        "reist"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich bin schon ___. (reisen, past)",
+      "answer": "gereist",
+      "fullAnswer": "",
+      "explanation": "Perfekt: bin gereist.",
+      "acceptedAnswers": [
+        "gereist"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does reisen mean?",
+      "options": [
+        "the street",
+        "hot",
+        "to travel"
+      ],
+      "answer": "to travel",
+      "explanation": "reisen: to travel.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Die Reise is…",
+      "options": [
+        "the trip, journey",
+        "the rice"
+      ],
+      "answer": "the trip, journey",
+      "explanation": "Reisen → Reise.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gute Reise! means…",
+      "options": [
+        "Have a good trip!",
+        "Good rice!"
+      ],
+      "answer": "Have a good trip!",
+      "explanation": "Wish for travellers.",
+      "id": "q5"
+    }
+  ]
+}

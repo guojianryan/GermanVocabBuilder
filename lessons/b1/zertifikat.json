@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Zertifikat",
+    "partOfSpeech": "noun, neuter (das Zertifikat)",
+    "pronunciation": {
+      "respelling": "tser-ti-fi-KAAT",
+      "ipa": "tsɛʁtifiˈkaːt",
+      "notes": "Plural: die Zertifikate."
+    },
+    "meaning": "certificate",
+    "shortDefinition": "Certificate."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Zertifikat, plural die Zertifikate.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Zertifikat"
+        },
+        {
+          "label": "More than one",
+          "value": "die Zertifikate"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich habe das Zertifikat B1 bestanden.",
+      "english": "I passed the B1 certificate.",
+      "highlight": [
+        "Zertifikat"
+      ]
+    },
+    {
+      "german": "Nach dem Kurs bekommen Sie ein Zertifikat.",
+      "english": "You get a certificate after the course.",
+      "highlight": [
+        "Zertifikat."
+      ]
+    },
+    {
+      "german": "Bitte legen Sie Ihre Zertifikate bei.",
+      "english": "Please enclose your certificates.",
+      "highlight": [
+        "Zertifikate"
+      ]
+    }
+  ],
+  "forms": [
+    "Zertifikate",
+    "die Zertifikate",
+    "das Zertifikat"
+  ],
+  "memoryHook": "Das Zertifikat (z = ts, stress at the end).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Zertifikat",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Zertifikat is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Zertifikat, zwei ___",
+      "answer": "Zertifikate",
+      "fullAnswer": "ein Zertifikat, zwei Zertifikate",
+      "explanation": "The plural is Zertifikate.",
+      "acceptedAnswers": [
+        "Zertifikate"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Zertifikat mean?",
+      "options": [
+        "the window",
+        "the flower",
+        "certificate"
+      ],
+      "answer": "certificate",
+      "explanation": "Zertifikat: certificate.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Z sounds like…",
+      "options": [
+        "ts",
+        "z"
+      ],
+      "answer": "ts",
+      "explanation": "tser-ti-fi-KAAT.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Stress on…",
+      "options": [
+        "-KAT",
+        "ZER-"
+      ],
+      "answer": "-KAT",
+      "explanation": "End.",
+      "id": "q5"
+    }
+  ]
+}

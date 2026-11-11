@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Saft",
+    "partOfSpeech": "noun, masculine (der Saft)",
+    "pronunciation": {
+      "respelling": "ZAFT",
+      "ipa": "zaft",
+      "notes": "Plural: die Säfte."
+    },
+    "meaning": "juice",
+    "shortDefinition": "Juice."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Saft, plural die Säfte.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Saft"
+        },
+        {
+          "label": "More than one",
+          "value": "die Säfte"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Einen Orangensaft, bitte.",
+      "english": "An orange juice, please.",
+      "highlight": [
+        "Orangensaft,"
+      ]
+    },
+    {
+      "german": "Der Saft ist im Kühlschrank.",
+      "english": "The juice is in the fridge.",
+      "highlight": [
+        "Saft"
+      ]
+    },
+    {
+      "german": "Die Kinder trinken Apfelsaft.",
+      "english": "The children are drinking apple juice.",
+      "highlight": [
+        "Apfelsaft."
+      ]
+    }
+  ],
+  "forms": [
+    "Säfte",
+    "die Säfte",
+    "der Saft"
+  ],
+  "memoryHook": "Der Saft = juice. Apfelsaft, Orangensaft. Saftschorle = juice with fizzy water.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Saft",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Saft is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Saft, zwei ___",
+      "answer": "Säfte",
+      "fullAnswer": "ein Saft, zwei Säfte",
+      "explanation": "The plural is Säfte.",
+      "acceptedAnswers": [
+        "Saefte"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Saft mean?",
+      "options": [
+        "juice",
+        "to sing",
+        "the key"
+      ],
+      "answer": "juice",
+      "explanation": "Saft: juice.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "S at the start sounds like…",
+      "options": [
+        "z",
+        "s"
+      ],
+      "answer": "z",
+      "explanation": "ZAFT.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Apfelschorle is…",
+      "options": [
+        "apple juice with sparkling water",
+        "apple cider"
+      ],
+      "answer": "apple juice with sparkling water",
+      "explanation": "A German favourite.",
+      "id": "q5"
+    }
+  ]
+}

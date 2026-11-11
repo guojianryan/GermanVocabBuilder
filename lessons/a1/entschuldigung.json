@@ -1,0 +1,232 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "lessonType": "full",
+  "word": {
+    "headword": "Entschuldigung",
+    "partOfSpeech": "noun, feminine (die Entschuldigung)",
+    "pronunciation": {
+      "respelling": "ent-SHOOL-dee-goong",
+      "ipa": "ɛntˈʃʊldɪɡʊŋ",
+      "notes": "Stress schul. The final g is a hard g, as in 'go'."
+    },
+    "meaning": "excuse me; sorry; an apology",
+    "shortDefinition": "What you say to get past someone, get attention or apologise for something small."
+  },
+  "intro": {
+    "title": "Your first useful word on the train",
+    "paragraphs": [
+      "The train is packed and you need to get off. You don't need a sentence. One word does the job: Entschuldigung!",
+      "It's long, but it's built from pieces you'll keep meeting. And it has one important limit: it's for small things, not for real sympathy."
+    ]
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "ent-",
+        "meaning": "away, removing",
+        "note": "As in entfernen, to remove."
+      },
+      {
+        "part": "Schuld",
+        "meaning": "guilt, blame; also debt",
+        "emphasis": "release"
+      },
+      {
+        "part": "-ig",
+        "meaning": "adjective ending",
+        "note": "schuldig: guilty"
+      },
+      {
+        "part": "-ung",
+        "meaning": "noun ending",
+        "note": "Every -ung noun is feminine."
+      }
+    ],
+    "literalMeaning": "an un-guilting",
+    "summary": "When you say Entschuldigung, you're asking someone to take the guilt away from you.",
+    "bonus": {
+      "word": "die Schulden",
+      "meaning": "debts",
+      "note": "The same Schuld in the plural. In German, owing money and owing an apology come from one word."
+    }
+  },
+  "wordFamily": [
+    {
+      "german": "sich entschuldigen",
+      "english": "to apologise",
+      "type": "reflexive verb"
+    },
+    {
+      "german": "Entschuldigen Sie!",
+      "english": "Excuse me! (formal)",
+      "type": "phrase"
+    },
+    {
+      "german": "die Schuld",
+      "english": "guilt, fault",
+      "type": "noun"
+    },
+    {
+      "german": "schuldig",
+      "english": "guilty",
+      "type": "adjective"
+    },
+    {
+      "german": "Es tut mir leid.",
+      "english": "I'm sorry.",
+      "type": "phrase"
+    }
+  ],
+  "keyTrap": {
+    "title": "The big trap: using it for sympathy",
+    "explanation": "Entschuldigung is for your own small mistakes and for getting attention. When something bad happens to someone else, or you really regret something, German uses Es tut mir leid.",
+    "wrong": {
+      "german": "Entschuldigung, dass dein Hund krank ist.",
+      "verdict": "This sounds like you made the dog sick."
+    },
+    "correct": [
+      {
+        "german": "Es tut mir leid, dass dein Hund krank ist.",
+        "literal": "It does me sorrow that your dog is ill.",
+        "note": "Sympathy: es tut mir leid."
+      },
+      {
+        "german": "Entschuldigung, ist hier noch frei?",
+        "literal": "Excuse me, is here still free?",
+        "note": "Getting attention: Entschuldigung."
+      },
+      {
+        "german": "Entschuldigung, das war mein Fehler.",
+        "literal": "Sorry, that was my mistake.",
+        "note": "A small mistake of your own."
+      }
+    ]
+  },
+  "commonMistakes": [
+    {
+      "title": "Don't forget sich",
+      "explanation": "The verb for apologising is reflexive: you excuse yourself.",
+      "wrong": "Ich entschuldige.",
+      "correct": "Ich entschuldige mich."
+    },
+    {
+      "title": "The gender",
+      "explanation": "Every noun ending in -ung is feminine.",
+      "wrong": "der Entschuldigung",
+      "correct": "die Entschuldigung"
+    },
+    {
+      "title": "Apologising for something",
+      "explanation": "To say what you're sorry for, use für.",
+      "examples": [
+        {
+          "german": "Ich entschuldige mich für die Verspätung.",
+          "english": "I apologise for being late.",
+          "highlight": "für"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Entschuldigung, wo ist der Bahnhof?",
+      "english": "Excuse me, where is the station?",
+      "highlight": [
+        "Entschuldigung,"
+      ]
+    },
+    {
+      "german": "Entschuldigen Sie bitte, darf ich mal vorbei?",
+      "english": "Excuse me, can I get past?",
+      "highlight": [
+        "Entschuldigen"
+      ]
+    },
+    {
+      "german": "Er hat sich bei ihr entschuldigt.",
+      "english": "He apologised to her.",
+      "highlight": [
+        "entschuldigt."
+      ]
+    },
+    {
+      "german": "Das tut mir wirklich leid.",
+      "english": "I'm really sorry about that.",
+      "highlight": [
+        "tut",
+        "leid."
+      ]
+    },
+    {
+      "german": "Ich brauche eine Entschuldigung für die Schule.",
+      "english": "I need a note excusing me from school.",
+      "highlight": [
+        "Entschuldigung"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "fill-in-the-blank",
+      "prompt": "Ich entschuldige ___ für den Fehler.",
+      "answer": "mich",
+      "fullAnswer": "Ich entschuldige mich für den Fehler.",
+      "explanation": "Sich entschuldigen is reflexive."
+    },
+    {
+      "id": "q2",
+      "type": "open",
+      "prompt": "Your colleague tells you her grandmother is in hospital. What do you say?",
+      "acceptedAnswers": [
+        "Das tut mir leid.",
+        "Es tut mir leid."
+      ],
+      "explanation": "Sympathy is es tut mir leid, not Entschuldigung."
+    },
+    {
+      "id": "q3",
+      "type": "fill-in-the-blank",
+      "prompt": "___ Entschuldigung (der, die or das?)",
+      "answer": "die",
+      "fullAnswer": "die Entschuldigung",
+      "explanation": "-ung nouns are always feminine."
+    },
+    {
+      "type": "choice",
+      "prompt": "You bump into someone on the train. What do you say?",
+      "options": [
+        "Entschuldigung!",
+        "Gern geschehen!",
+        "Guten Appetit!"
+      ],
+      "answer": "Entschuldigung!",
+      "explanation": "A small mistake of your own.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich entschuldige mich ___ die Verspätung.",
+      "answer": "für",
+      "fullAnswer": "Ich entschuldige mich für die Verspätung.",
+      "explanation": "You apologise für something.",
+      "acceptedAnswers": [
+        "fuer"
+      ],
+      "id": "q5"
+    }
+  ],
+  "forms": [
+    "Entschuldigungen",
+    "entschuldigen",
+    "entschuldige",
+    "entschuldigt"
+  ],
+  "memoryHook": "Ent + Schuld = guilt away. Use it to get past, get attention or own a small mistake. For real sorrow: es tut mir leid.",
+  "signOff": "Entschuldigung, und danke!",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste"
+}

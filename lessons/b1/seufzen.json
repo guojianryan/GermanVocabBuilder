@@ -1,0 +1,154 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "seufzen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "ZOYF-tsen",
+      "ipa": "ˈzɔɪ̯ft͡sn̩",
+      "notes": ""
+    },
+    "meaning": "to sigh",
+    "shortDefinition": "To sigh."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "seufz|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "seufz|t"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "seufz|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "seufz|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "seufz|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "seufz|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat geseufzt"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Sie seufzt tief.",
+      "english": "She sighs deeply.",
+      "highlight": [
+        "seufzt"
+      ]
+    },
+    {
+      "german": "„Na gut“, seufzte er.",
+      "english": "'Oh, all right,' he sighed.",
+      "highlight": [
+        "seufzte"
+      ]
+    },
+    {
+      "german": "Warum seufzt du so?",
+      "english": "Why are you sighing like that?",
+      "highlight": [
+        "seufzt"
+      ]
+    }
+  ],
+  "forms": [
+    "Seufzer"
+  ],
+  "memoryHook": "Seufzen → der Seufzer.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (seufzen)",
+      "answer": "seufzt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: seufzt.",
+      "acceptedAnswers": [
+        "seufzt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (seufzen, past)",
+      "answer": "geseufzt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe geseufzt.",
+      "acceptedAnswers": [
+        "geseufzt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does seufzen mean?",
+      "options": [
+        "to sigh",
+        "to help",
+        "the window"
+      ],
+      "answer": "to sigh",
+      "explanation": "seufzen: to sigh.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "du ___ (seufzen):",
+      "options": [
+        "seufzt",
+        "seufzst"
+      ],
+      "answer": "seufzt",
+      "explanation": "z-stem.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Noun:",
+      "options": [
+        "der Seufzer",
+        "die Seufze"
+      ],
+      "answer": "der Seufzer",
+      "explanation": "Sigh.",
+      "id": "q5"
+    }
+  ]
+}

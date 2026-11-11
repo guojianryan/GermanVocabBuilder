@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Behörde",
+    "partOfSpeech": "noun, feminine (die Behörde)",
+    "pronunciation": {
+      "respelling": "be-HÖR-de",
+      "ipa": "bəˈhøːɐ̯də",
+      "notes": "Plural: die Behörden."
+    },
+    "meaning": "(public) authority, office",
+    "shortDefinition": "(public) authority, office."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Behörde, plural die Behörden.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Behörde"
+        },
+        {
+          "label": "More than one",
+          "value": "die Behörden"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Sie müssen zur Behörde gehen.",
+      "english": "You have to go to the authorities.",
+      "highlight": [
+        "Behörde"
+      ]
+    },
+    {
+      "german": "Die Behörden haben die Straße gesperrt.",
+      "english": "The authorities have closed the road.",
+      "highlight": [
+        "Behörden"
+      ]
+    },
+    {
+      "german": "Welche Behörde ist zuständig?",
+      "english": "Which authority is responsible?",
+      "highlight": [
+        "Behörde"
+      ]
+    }
+  ],
+  "forms": [
+    "Behörden",
+    "die Behörden",
+    "die Behörde"
+  ],
+  "memoryHook": "Die Behörde = public authority (like das Amt).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Behörde",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Behörde is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Behörde, zwei ___",
+      "answer": "Behörden",
+      "fullAnswer": "ein Behörde, zwei Behörden",
+      "explanation": "The plural is Behörden.",
+      "acceptedAnswers": [
+        "Behoerden"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Behörde mean?",
+      "options": [
+        "(public) authority",
+        "the child",
+        "slowly"
+      ],
+      "answer": "(public) authority",
+      "explanation": "Behörde: (public) authority, office.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Examples:",
+      "options": [
+        "Rathaus, Finanzamt, Ausländerbehörde",
+        "Supermarkt, Kino"
+      ],
+      "answer": "Rathaus, Finanzamt, Ausländerbehörde",
+      "explanation": "Public offices.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonym:",
+      "options": [
+        "das Amt",
+        "die Bank"
+      ],
+      "answer": "das Amt",
+      "explanation": "Office.",
+      "id": "q5"
+    }
+  ]
+}

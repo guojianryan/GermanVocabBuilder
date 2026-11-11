@@ -1,0 +1,146 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Bahnsteig",
+    "partOfSpeech": "noun, masculine (der Bahnsteig)",
+    "pronunciation": {
+      "respelling": "BAHN-shtyk",
+      "ipa": "ˈbaːnˌʃtaɪ̯k",
+      "notes": "The final g sounds like k. Plural: die Bahnsteige."
+    },
+    "meaning": "platform",
+    "shortDefinition": "Platform."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Bahn",
+        "meaning": "railway"
+      },
+      {
+        "part": "steig",
+        "meaning": "path, step",
+        "note": "From steigen, to climb."
+      }
+    ],
+    "literalMeaning": "railway step-up"
+  },
+  "wordFamily": [
+    {
+      "german": "das Gleis",
+      "english": "track, platform",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Bahnsteig, plural die Bahnsteige.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Bahnsteig"
+        },
+        {
+          "label": "More than one",
+          "value": "die Bahnsteige"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Zug fährt von Bahnsteig 4 ab.",
+      "english": "The train leaves from platform 4.",
+      "highlight": [
+        "Bahnsteig"
+      ]
+    },
+    {
+      "german": "Ich warte auf dem Bahnsteig.",
+      "english": "I'm waiting on the platform.",
+      "highlight": [
+        "Bahnsteig."
+      ]
+    },
+    {
+      "german": "Bitte zurückbleiben am Bahnsteig 2!",
+      "english": "Please stand back on platform 2!",
+      "highlight": [
+        "Bahnsteig"
+      ]
+    }
+  ],
+  "forms": [
+    "Bahnsteige",
+    "die Bahnsteige",
+    "der Bahnsteig"
+  ],
+  "memoryHook": "Bahn + steigen (climb): where you climb onto the train. Announcements usually say Gleis instead.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Bahnsteig",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Bahnsteig is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Bahnsteig, zwei ___",
+      "answer": "Bahnsteige",
+      "fullAnswer": "ein Bahnsteig, zwei Bahnsteige",
+      "explanation": "The plural is Bahnsteige.",
+      "acceptedAnswers": [
+        "Bahnsteige"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Bahnsteig mean?",
+      "options": [
+        "quiet",
+        "platform",
+        "to travel"
+      ],
+      "answer": "platform",
+      "explanation": "Bahnsteig: platform.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "On signs, platforms are usually numbered as…",
+      "options": [
+        "Gleis",
+        "Ausgang"
+      ],
+      "answer": "Gleis",
+      "explanation": "Gleis 4 = track/platform 4.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich warte ___ dem Bahnsteig.",
+      "options": [
+        "auf",
+        "in"
+      ],
+      "answer": "auf",
+      "explanation": "On the platform: auf.",
+      "id": "q5"
+    }
+  ]
+}

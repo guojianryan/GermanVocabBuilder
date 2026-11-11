@@ -1,0 +1,165 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "sichern",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "ZIKH-ern",
+      "ipa": "ˈzɪçɐn",
+      "notes": ""
+    },
+    "meaning": "to secure; to back up (data)",
+    "shortDefinition": "To secure; to back up (data)."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "sicher|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "sicher|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "sicher|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "sicher|n"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "sicher|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "sicher|n"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gesichert"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "die Sicherung",
+      "english": "backup; fuse",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Bitte sichern Sie Ihre Daten.",
+      "english": "Please back up your data.",
+      "highlight": [
+        "sichern"
+      ]
+    },
+    {
+      "german": "Die Polizei sichert den Tatort.",
+      "english": "The police are securing the crime scene.",
+      "highlight": [
+        "sichert"
+      ]
+    },
+    {
+      "german": "Ich habe die Datei gesichert.",
+      "english": "I've saved the file.",
+      "highlight": [
+        "gesichert."
+      ]
+    }
+  ],
+  "forms": [
+    "sichere",
+    "sicherst",
+    "sichert",
+    "sichern",
+    "gesichert"
+  ],
+  "memoryHook": "Sicher → sichern (secure, back up). Die Sicherung.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (sichern)",
+      "answer": "sichert",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: sichert.",
+      "acceptedAnswers": [
+        "sichert"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (sichern, past)",
+      "answer": "gesichert",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gesichert.",
+      "acceptedAnswers": [
+        "gesichert"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does sichern mean?",
+      "options": [
+        "to secure",
+        "to wait",
+        "to buy"
+      ],
+      "answer": "to secure",
+      "explanation": "sichern: to secure; to back up (data).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "sicher (safe)",
+        "sichtbar"
+      ],
+      "answer": "sicher (safe)",
+      "explanation": "Make safe.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Backup:",
+      "options": [
+        "die Sicherung / Datensicherung",
+        "die Sicherheit"
+      ],
+      "answer": "die Sicherung / Datensicherung",
+      "explanation": "Backup.",
+      "id": "q5"
+    }
+  ]
+}

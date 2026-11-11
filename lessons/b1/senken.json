@@ -1,0 +1,158 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "senken",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "ZENG-ken",
+      "ipa": "ˈzɛŋkn̩",
+      "notes": ""
+    },
+    "meaning": "to lower, reduce",
+    "shortDefinition": "To lower, reduce."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "senk|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "senk|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "senk|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "senk|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "senk|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "senk|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gesenkt"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Firma senkt die Preise.",
+      "english": "The company is lowering prices.",
+      "highlight": [
+        "senkt"
+      ]
+    },
+    {
+      "german": "Er senkte den Kopf.",
+      "english": "He lowered his head.",
+      "highlight": [
+        "senkte"
+      ]
+    },
+    {
+      "german": "Wir müssen die Kosten senken.",
+      "english": "We have to cut costs.",
+      "highlight": [
+        "senken."
+      ]
+    }
+  ],
+  "forms": [
+    "senke",
+    "senkst",
+    "senkt",
+    "senken",
+    "gesenkt"
+  ],
+  "memoryHook": "Senken (lower sth) vs sinken (go down).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (senken)",
+      "answer": "senkt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: senkt.",
+      "acceptedAnswers": [
+        "senkt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (senken, past)",
+      "answer": "gesenkt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gesenkt.",
+      "acceptedAnswers": [
+        "gesenkt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does senken mean?",
+      "options": [
+        "to lower",
+        "the street",
+        "the weather"
+      ],
+      "answer": "to lower",
+      "explanation": "senken: to lower, reduce.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Senken vs sinken:",
+      "options": [
+        "senken = lower something; sinken = go down",
+        "same"
+      ],
+      "answer": "senken = lower something; sinken = go down",
+      "explanation": "Transitive vs not.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Opposite:",
+      "options": [
+        "erhöhen",
+        "erniedrigen"
+      ],
+      "answer": "erhöhen",
+      "explanation": "Raise.",
+      "id": "q5"
+    }
+  ]
+}

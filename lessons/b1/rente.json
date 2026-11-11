@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Rente",
+    "partOfSpeech": "noun, feminine (die Rente)",
+    "pronunciation": {
+      "respelling": "REN-te",
+      "ipa": "ˈʁɛntə",
+      "notes": "Plural: die Renten."
+    },
+    "meaning": "pension; retirement",
+    "shortDefinition": "Pension; retirement."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Rente, plural die Renten.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Rente"
+        },
+        {
+          "label": "More than one",
+          "value": "die Renten"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Mein Opa ist in Rente.",
+      "english": "My grandpa is retired.",
+      "highlight": [
+        "Rente."
+      ]
+    },
+    {
+      "german": "Die Rente reicht kaum zum Leben.",
+      "english": "The pension is barely enough to live on.",
+      "highlight": [
+        "Rente"
+      ]
+    },
+    {
+      "german": "Sie geht nächstes Jahr in Rente.",
+      "english": "She's retiring next year.",
+      "highlight": [
+        "Rente."
+      ]
+    }
+  ],
+  "forms": [
+    "Rentner",
+    "Rentnerin"
+  ],
+  "memoryHook": "Die Rente (pension). In Rente gehen = retire. Der Rentner.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Rente",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Rente is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Rente, zwei ___",
+      "answer": "Renten",
+      "fullAnswer": "ein Rente, zwei Renten",
+      "explanation": "The plural is Renten.",
+      "acceptedAnswers": [
+        "Renten"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Rente mean?",
+      "options": [
+        "pension",
+        "the door",
+        "the family"
+      ],
+      "answer": "pension",
+      "explanation": "Rente: pension; retirement.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'In Rente gehen' means…",
+      "options": [
+        "to retire",
+        "to rent"
+      ],
+      "answer": "to retire",
+      "explanation": "Retire.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "A pensioner:",
+      "options": [
+        "der Rentner",
+        "der Rentier"
+      ],
+      "answer": "der Rentner",
+      "explanation": "Das Rentier = reindeer!",
+      "id": "q5"
+    }
+  ]
+}

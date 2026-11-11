@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Momente A2.2 Kursbuch Glossar",
+  "lessonType": "card",
+  "word": {
+    "headword": "Tutorial",
+    "partOfSpeech": "noun, neuter (das Tutorial)",
+    "pronunciation": {
+      "respelling": "tyoo-TOH-ree-al",
+      "ipa": "tjuˈtoːʁi̯əl",
+      "notes": "Plural: die Tutorials."
+    },
+    "meaning": "tutorial (video)",
+    "shortDefinition": "Tutorial (video)."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Tutorial, plural die Tutorials.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Tutorial"
+        },
+        {
+          "label": "More than one",
+          "value": "die Tutorials"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich habe ein Tutorial auf YouTube gesehen.",
+      "english": "I watched a tutorial on YouTube.",
+      "highlight": [
+        "Tutorial"
+      ]
+    },
+    {
+      "german": "Das Tutorial erklärt alles genau.",
+      "english": "The tutorial explains everything exactly.",
+      "highlight": [
+        "Tutorial"
+      ]
+    },
+    {
+      "german": "Mit Tutorials lerne ich kochen.",
+      "english": "I'm learning to cook with tutorials.",
+      "highlight": [
+        "Tutorials"
+      ]
+    }
+  ],
+  "forms": [
+    "Tutorials",
+    "die Tutorials",
+    "das Tutorial"
+  ],
+  "memoryHook": "Das Tutorial (how-to video).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Tutorial",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Tutorial is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Tutorial, zwei ___",
+      "answer": "Tutorials",
+      "fullAnswer": "ein Tutorial, zwei Tutorials",
+      "explanation": "The plural is Tutorials.",
+      "acceptedAnswers": [
+        "Tutorials"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Tutorial mean?",
+      "options": [
+        "the evening",
+        "tutorial (video)",
+        "the door"
+      ],
+      "answer": "tutorial (video)",
+      "explanation": "Tutorial: tutorial (video).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gender:",
+      "options": [
+        "das",
+        "der"
+      ],
+      "answer": "das",
+      "explanation": "Das Tutorial.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Tutorials",
+        "Tutoriale"
+      ],
+      "answer": "Tutorials",
+      "explanation": "-s.",
+      "id": "q5"
+    }
+  ]
+}

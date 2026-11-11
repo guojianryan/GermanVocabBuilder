@@ -1,0 +1,172 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "vergehen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "fer-GAY-en",
+      "ipa": "fɛɐ̯ˈɡeːən",
+      "notes": ""
+    },
+    "meaning": "to pass (time); to fade",
+    "shortDefinition": "To pass (time); to fade."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "ver",
+        "meaning": "away (prefix)"
+      },
+      {
+        "part": "gehen",
+        "meaning": "to go",
+        "emphasis": "release"
+      }
+    ],
+    "literalMeaning": "to go away",
+    "summary": "Time slips away."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "vergeh|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "vergeh|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "vergeh|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "vergeh|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "vergeh|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "vergeh|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): ist vergangen"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Zeit vergeht schnell.",
+      "english": "Time passes quickly.",
+      "highlight": [
+        "vergeht"
+      ]
+    },
+    {
+      "german": "Der Schmerz ist vergangen.",
+      "english": "The pain has gone.",
+      "highlight": [
+        "ist",
+        "vergangen."
+      ]
+    },
+    {
+      "german": "Mir ist der Appetit vergangen.",
+      "english": "I've lost my appetite.",
+      "highlight": [
+        "vergangen."
+      ]
+    }
+  ],
+  "forms": [
+    "vergangen",
+    "Vergangenheit"
+  ],
+  "memoryHook": "Vergehen (time passes) → vergangen, die Vergangenheit.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (vergehen)",
+      "answer": "vergeht",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: vergeht.",
+      "acceptedAnswers": [
+        "vergeht"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich bin schon ___. (vergehen, past)",
+      "answer": "vergangen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: bin vergangen.",
+      "acceptedAnswers": [
+        "vergangen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does vergehen mean?",
+      "options": [
+        "to sleep",
+        "to pass (time)",
+        "tomorrow"
+      ],
+      "answer": "to pass (time)",
+      "explanation": "vergehen: to pass (time); to fade.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "ist vergangen",
+        "hat vergeht"
+      ],
+      "answer": "ist vergangen",
+      "explanation": "Like gehen.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Adjective 'past':",
+      "options": [
+        "vergangen (letzte Woche)",
+        "vergehend"
+      ],
+      "answer": "vergangen (letzte Woche)",
+      "explanation": "Vergangene Woche.",
+      "id": "q5"
+    }
+  ]
+}

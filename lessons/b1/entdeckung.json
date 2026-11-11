@@ -1,0 +1,142 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Entdeckung",
+    "partOfSpeech": "noun, feminine (die Entdeckung)",
+    "pronunciation": {
+      "respelling": "ent-DEK-ung",
+      "ipa": "ɛntˈdɛkʊŋ",
+      "notes": "Plural: die Entdeckungen."
+    },
+    "meaning": "discovery",
+    "shortDefinition": "Discovery."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Ent",
+        "meaning": "away, off"
+      },
+      {
+        "part": "deck",
+        "meaning": "cover (decken)",
+        "emphasis": "release"
+      },
+      {
+        "part": "ung",
+        "meaning": "noun ending"
+      }
+    ],
+    "literalMeaning": "an uncovering",
+    "summary": "Pulling the cover off."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Entdeckung, plural die Entdeckungen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Entdeckung"
+        },
+        {
+          "label": "More than one",
+          "value": "die Entdeckungen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das war eine wichtige Entdeckung.",
+      "english": "That was an important discovery.",
+      "highlight": [
+        "Entdeckung."
+      ]
+    },
+    {
+      "german": "Die Entdeckung Amerikas 1492.",
+      "english": "The discovery of America in 1492.",
+      "highlight": [
+        "Entdeckung"
+      ]
+    },
+    {
+      "german": "Er machte eine überraschende Entdeckung.",
+      "english": "He made a surprising discovery.",
+      "highlight": [
+        "Entdeckung."
+      ]
+    }
+  ],
+  "forms": [
+    "entdecken"
+  ],
+  "memoryHook": "Ent + decken (uncover) → die Entdeckung.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Entdeckung",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Entdeckung is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Entdeckung, zwei ___",
+      "answer": "Entdeckungen",
+      "fullAnswer": "ein Entdeckung, zwei Entdeckungen",
+      "explanation": "The plural is Entdeckungen.",
+      "acceptedAnswers": [
+        "Entdeckungen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Entdeckung mean?",
+      "options": [
+        "to help",
+        "discovery",
+        "the job"
+      ],
+      "answer": "discovery",
+      "explanation": "Entdeckung: discovery.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "entdecken (discover)",
+        "Decke only"
+      ],
+      "answer": "entdecken (discover)",
+      "explanation": "Discover.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Literally…",
+      "options": [
+        "un-covering (ent + decken)",
+        "covering"
+      ],
+      "answer": "un-covering (ent + decken)",
+      "explanation": "Ent- = remove.",
+      "id": "q5"
+    }
+  ]
+}

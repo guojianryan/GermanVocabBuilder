@@ -1,0 +1,127 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Fleisch",
+    "partOfSpeech": "noun, neuter (das Fleisch)",
+    "pronunciation": {
+      "respelling": "FLYSH",
+      "ipa": "flaɪ̯ʃ",
+      "notes": "Usually no plural. Usually no plural."
+    },
+    "meaning": "meat",
+    "shortDefinition": "Meat."
+  },
+  "wordFamily": [
+    {
+      "german": "der Metzger",
+      "english": "butcher",
+      "type": "noun"
+    },
+    {
+      "german": "der Fisch",
+      "english": "fish",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Fleisch, usually no plural.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Fleisch"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich esse kein Fleisch.",
+      "english": "I don't eat meat.",
+      "highlight": [
+        "Fleisch."
+      ]
+    },
+    {
+      "german": "Das Fleisch ist sehr zart.",
+      "english": "The meat is very tender.",
+      "highlight": [
+        "Fleisch"
+      ]
+    },
+    {
+      "german": "Ich esse gern Fisch. Fleisch mag ich nicht.",
+      "english": "I like eating fish. I don't like meat.",
+      "highlight": [
+        "Fleisch"
+      ]
+    }
+  ],
+  "forms": [
+    "das Fleisch"
+  ],
+  "memoryHook": "Das Fleisch = meat (related to English 'flesh'). Ich esse kein Fleisch = I'm vegetarian.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Fleisch",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Fleisch is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Fleisch mean?",
+      "options": [
+        "meat",
+        "always",
+        "never"
+      ],
+      "answer": "meat",
+      "explanation": "Fleisch: meat.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Someone who eats no meat is…",
+      "options": [
+        "Vegetarier",
+        "Metzger"
+      ],
+      "answer": "Vegetarier",
+      "explanation": "Der Metzger is the butcher.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich esse ___ Fleisch. (no meat)",
+      "options": [
+        "nicht",
+        "kein"
+      ],
+      "answer": "kein",
+      "explanation": "Kein + noun.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Möchtest du Fisch oder ___? (meat)",
+      "answer": "Fleisch",
+      "fullAnswer": "Fisch oder Fleisch?",
+      "explanation": "Das Fleisch.",
+      "id": "q5"
+    }
+  ]
+}

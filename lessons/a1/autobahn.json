@@ -1,0 +1,138 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Autobahn",
+    "partOfSpeech": "noun, feminine (die Autobahn)",
+    "pronunciation": {
+      "respelling": "OW-toh-bahn",
+      "ipa": "ˈaʊ̯toˌbaːn",
+      "notes": "Plural: die Autobahnen."
+    },
+    "meaning": "motorway, highway",
+    "shortDefinition": "Motorway, highway."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Auto",
+        "meaning": "car"
+      },
+      {
+        "part": "bahn",
+        "meaning": "track, road"
+      }
+    ],
+    "literalMeaning": "car track"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Autobahn, plural die Autobahnen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Autobahn"
+        },
+        {
+          "label": "More than one",
+          "value": "die Autobahnen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wo geht's hier bitte zur Autobahn?",
+      "english": "Which way to the motorway, please?",
+      "highlight": [
+        "Autobahn?"
+      ]
+    },
+    {
+      "german": "Auf der Autobahn ist viel Verkehr.",
+      "english": "There's a lot of traffic on the motorway.",
+      "highlight": [
+        "Autobahn"
+      ]
+    },
+    {
+      "german": "Wir fahren über die Autobahn nach München.",
+      "english": "We're taking the motorway to Munich.",
+      "highlight": [
+        "Autobahn"
+      ]
+    }
+  ],
+  "forms": [
+    "Autobahnen",
+    "die Autobahnen",
+    "die Autobahn"
+  ],
+  "memoryHook": "Auto + Bahn (track): a track for cars. English borrowed it as 'autobahn'.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Autobahn",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Autobahn is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Autobahn, zwei ___",
+      "answer": "Autobahnen",
+      "fullAnswer": "ein Autobahn, zwei Autobahnen",
+      "explanation": "The plural is Autobahnen.",
+      "acceptedAnswers": [
+        "Autobahnen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Autobahn mean?",
+      "options": [
+        "the bed",
+        "motorway",
+        "the evening"
+      ],
+      "answer": "motorway",
+      "explanation": "Autobahn: motorway, highway.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Compound nouns take the gender of the last part. Die Bahn, so…",
+      "options": [
+        "die Autobahn",
+        "das Autobahn"
+      ],
+      "answer": "die Autobahn",
+      "explanation": "Auto + die Bahn.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "You drive ___ der Autobahn.",
+      "options": [
+        "auf",
+        "in"
+      ],
+      "answer": "auf",
+      "explanation": "On the motorway: auf der Autobahn.",
+      "id": "q5"
+    }
+  ]
+}

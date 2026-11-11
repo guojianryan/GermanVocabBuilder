@@ -1,0 +1,131 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Lied",
+    "partOfSpeech": "noun, neuter (das Lied)",
+    "pronunciation": {
+      "respelling": "LEET",
+      "ipa": "liːt",
+      "notes": "Plural: die Lieder."
+    },
+    "meaning": "song",
+    "shortDefinition": "Song."
+  },
+  "wordFamily": [
+    {
+      "german": "singen",
+      "english": "to sing",
+      "type": "verb"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Lied, plural die Lieder.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Lied"
+        },
+        {
+          "label": "More than one",
+          "value": "die Lieder"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Kennst du dieses Lied?",
+      "english": "Do you know this song?",
+      "highlight": [
+        "Lied?"
+      ]
+    },
+    {
+      "german": "Wir singen ein Lied zum Geburtstag.",
+      "english": "We're singing a birthday song.",
+      "highlight": [
+        "Lied"
+      ]
+    },
+    {
+      "german": "Das ist mein Lieblingslied.",
+      "english": "That's my favourite song.",
+      "highlight": [
+        "Lieblingslied."
+      ]
+    }
+  ],
+  "forms": [
+    "Lieder",
+    "die Lieder",
+    "das Lied"
+  ],
+  "memoryHook": "Das Lied = song, plural Lieder. (English uses 'Lied' for classical German songs.)",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Lied",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Lied is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Lied, zwei ___",
+      "answer": "Lieder",
+      "fullAnswer": "ein Lied, zwei Lieder",
+      "explanation": "The plural is Lieder.",
+      "acceptedAnswers": [
+        "Lieder"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Lied mean?",
+      "options": [
+        "song",
+        "the door",
+        "never"
+      ],
+      "answer": "song",
+      "explanation": "Lied: song.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Lied is NOT 'lied' (told lies). It means…",
+      "options": [
+        "song",
+        "light"
+      ],
+      "answer": "song",
+      "explanation": "Das Lied.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "You ___ ein Lied.",
+      "options": [
+        "singst",
+        "spielst nur"
+      ],
+      "answer": "singst",
+      "explanation": "Singen.",
+      "id": "q5"
+    }
+  ]
+}

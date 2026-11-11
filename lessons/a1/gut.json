@@ -1,0 +1,216 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "full",
+  "word": {
+    "headword": "gut",
+    "partOfSpeech": "adjective / adverb",
+    "pronunciation": {
+      "respelling": "GOOT",
+      "ipa": "ɡuːt",
+      "notes": "Long u, as in 'boot'."
+    },
+    "meaning": "good; well",
+    "shortDefinition": "Good, and also 'well' (German doesn't distinguish)."
+  },
+  "intro": {
+    "title": "Gut, besser, am besten",
+    "paragraphs": [
+      "Gut means both 'good' and 'well': das Essen ist gut, du sprichst gut Deutsch. Its comparison is irregular, just like in English: gut, besser, am besten."
+    ]
+  },
+  "tables": [
+    {
+      "title": "Good, better, best",
+      "columns": [
+        "form"
+      ],
+      "rows": [
+        {
+          "label": "good",
+          "cells": [
+            "gut"
+          ]
+        },
+        {
+          "label": "better",
+          "cells": [
+            "|besser"
+          ]
+        },
+        {
+          "label": "best",
+          "cells": [
+            "am |besten"
+          ]
+        }
+      ],
+      "notes": [
+        "Never guter as a comparative: it's besser."
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "Guten Tag! / Guten Morgen!",
+      "english": "Hello! / Good morning!",
+      "type": "phrases"
+    },
+    {
+      "german": "Alles Gute!",
+      "english": "All the best!",
+      "type": "phrase"
+    },
+    {
+      "german": "besser, best-",
+      "english": "better, best",
+      "type": "adjectives"
+    },
+    {
+      "german": "schlecht",
+      "english": "bad",
+      "type": "adjective"
+    }
+  ],
+  "keyTrap": {
+    "title": "The big trap: I'm good / I'm well",
+    "explanation": "When saying how you are, use Mir geht es gut. Ich bin gut means you're good at something, or a good person.",
+    "wrong": {
+      "german": "Wie geht's? – Ich bin gut.",
+      "verdict": "This sounds like 'I am a good person'."
+    },
+    "correct": [
+      {
+        "german": "Wie geht's? – Mir geht es gut.",
+        "literal": "To me goes it good.",
+        "note": "How you are: mir geht es gut."
+      },
+      {
+        "german": "Danke, gut!",
+        "literal": "Thanks, good!",
+        "note": "The short answer."
+      }
+    ]
+  },
+  "commonMistakes": [
+    {
+      "title": "Greetings take endings",
+      "explanation": "Guten Tag, guten Morgen, gute Nacht: the ending matches the noun.",
+      "examples": [
+        {
+          "german": "Guten Morgen!",
+          "english": "Good morning!",
+          "highlight": "Guten"
+        },
+        {
+          "german": "Gute Nacht!",
+          "english": "Good night!",
+          "highlight": "Gute"
+        }
+      ]
+    },
+    {
+      "title": "Well = gut",
+      "explanation": "German has no separate word for 'well'.",
+      "wrong": "Du sprichst wohl Deutsch.",
+      "correct": "Du sprichst gut Deutsch."
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das Essen schmeckt sehr gut.",
+      "english": "The food tastes very good.",
+      "highlight": [
+        "gut."
+      ]
+    },
+    {
+      "german": "Mir geht es heute nicht so gut.",
+      "english": "I'm not feeling so good today.",
+      "highlight": [
+        "gut."
+      ]
+    },
+    {
+      "german": "Sie spricht gut Englisch.",
+      "english": "She speaks English well.",
+      "highlight": [
+        "gut"
+      ]
+    },
+    {
+      "german": "Gut, dann machen wir das so.",
+      "english": "OK, then let's do it that way.",
+      "highlight": [
+        "Gut,"
+      ]
+    }
+  ],
+  "forms": [
+    "gute",
+    "guten",
+    "guter",
+    "gutes",
+    "besser",
+    "am besten"
+  ],
+  "memoryHook": "Gut = good and well. Gut, besser, am besten. How are you? Mir geht es gut.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Wie geht es dir? – ___",
+      "options": [
+        "Mir geht es gut.",
+        "Ich bin gut."
+      ],
+      "answer": "Mir geht es gut.",
+      "explanation": "How you are: mir geht es gut.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Er spricht sehr ___ Deutsch. (well)",
+      "answer": "gut",
+      "fullAnswer": "Er spricht sehr gut Deutsch.",
+      "explanation": "Well = gut.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "gut, besser, am ___",
+      "options": [
+        "besten",
+        "gutesten"
+      ],
+      "answer": "besten",
+      "explanation": "Irregular.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "___ Morgen!",
+      "options": [
+        "Gut",
+        "Guten"
+      ],
+      "answer": "Guten",
+      "explanation": "Guten Morgen.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "The opposite of gut is…",
+      "options": [
+        "schlecht",
+        "schwer"
+      ],
+      "answer": "schlecht",
+      "explanation": "Schlecht: bad.",
+      "id": "q5"
+    }
+  ]
+}

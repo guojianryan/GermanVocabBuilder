@@ -1,0 +1,166 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "stechen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "SHTEKH-en",
+      "ipa": "ˈʃtɛçn̩",
+      "notes": ""
+    },
+    "meaning": "to sting, prick, stab",
+    "shortDefinition": "To sting, prick, stab."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "stech|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "stich|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "stich|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "stech|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "stech|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "stech|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gestochen"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "der Stich",
+      "english": "sting, stitch",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Mich hat eine Biene gestochen.",
+      "english": "A bee stung me.",
+      "highlight": [
+        "gestochen."
+      ]
+    },
+    {
+      "german": "Die Mücken stechen.",
+      "english": "The mosquitoes are biting.",
+      "highlight": [
+        "stechen."
+      ]
+    },
+    {
+      "german": "Ich habe mich an der Nadel gestochen.",
+      "english": "I pricked myself on the needle.",
+      "highlight": [
+        "gestochen."
+      ]
+    }
+  ],
+  "forms": [
+    "steche",
+    "stichst",
+    "sticht",
+    "stechen",
+    "stecht",
+    "gestochen"
+  ],
+  "memoryHook": "Stechen, stach, gestochen (er sticht). Der Stich = sting.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (stechen)",
+      "answer": "sticht",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: sticht.",
+      "acceptedAnswers": [
+        "sticht"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (stechen, past)",
+      "answer": "gestochen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gestochen.",
+      "acceptedAnswers": [
+        "gestochen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does stechen mean?",
+      "options": [
+        "the child",
+        "to wait",
+        "to sting"
+      ],
+      "answer": "to sting",
+      "explanation": "stechen: to sting, prick, stab.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "er ___ (stechen):",
+      "options": [
+        "sticht",
+        "stecht"
+      ],
+      "answer": "sticht",
+      "explanation": "e → i.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Mosquitoes in German…",
+      "options": [
+        "stechen (sting)",
+        "beißen"
+      ],
+      "answer": "stechen (sting)",
+      "explanation": "Sting.",
+      "id": "q5"
+    }
+  ]
+}

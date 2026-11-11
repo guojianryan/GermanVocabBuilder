@@ -1,0 +1,179 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "gestehen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "ge-SHTAY-en",
+      "ipa": "ɡəˈʃteːən",
+      "notes": ""
+    },
+    "meaning": "to confess, admit",
+    "shortDefinition": "To confess, admit."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "ge",
+        "meaning": "prefix"
+      },
+      {
+        "part": "stehen",
+        "meaning": "to stand"
+      }
+    ],
+    "literalMeaning": "to stand (to the truth)"
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "gesteh|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "gesteh|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "gesteh|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "gesteh|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "gesteh|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "gesteh|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gestanden"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Täter hat gestanden.",
+      "english": "The culprit has confessed.",
+      "highlight": [
+        "gestanden."
+      ]
+    },
+    {
+      "german": "Ich muss dir etwas gestehen.",
+      "english": "I have to confess something to you.",
+      "highlight": [
+        "gestehen."
+      ]
+    },
+    {
+      "german": "Er gestand ihr seine Liebe.",
+      "english": "He declared his love to her.",
+      "highlight": [
+        "gestand"
+      ]
+    }
+  ],
+  "forms": [
+    "Geständnis"
+  ],
+  "memoryHook": "Gestehen (gestand, gestanden); das Geständnis; offen gestanden.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (gestehen)",
+      "answer": "gesteht",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: gesteht.",
+      "acceptedAnswers": [
+        "gesteht"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (gestehen, past)",
+      "answer": "gestanden",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gestanden.",
+      "acceptedAnswers": [
+        "gestanden"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does gestehen mean?",
+      "options": [
+        "the flower",
+        "to confess",
+        "to open"
+      ],
+      "answer": "to confess",
+      "explanation": "gestehen: to confess, admit.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "hat gestanden",
+        "hat gestehet"
+      ],
+      "answer": "hat gestanden",
+      "explanation": "Like stehen.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Noun:",
+      "options": [
+        "das Geständnis",
+        "die Gestehung"
+      ],
+      "answer": "das Geständnis",
+      "explanation": "Confession.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Offen gestanden' means…",
+      "options": [
+        "frankly speaking",
+        "standing openly"
+      ],
+      "answer": "frankly speaking",
+      "explanation": "Phrase.",
+      "id": "q6"
+    }
+  ]
+}

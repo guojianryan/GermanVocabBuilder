@@ -1,0 +1,141 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Erzähler",
+    "partOfSpeech": "noun, masculine (der Erzähler)",
+    "pronunciation": {
+      "respelling": "er-TSAY-ler",
+      "ipa": "ɛɐ̯ˈtsɛːlɐ",
+      "notes": "The plural looks the same. Plural: die Erzähler."
+    },
+    "meaning": "narrator, storyteller",
+    "shortDefinition": "Narrator, storyteller."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Er",
+        "meaning": "prefix"
+      },
+      {
+        "part": "zähl",
+        "meaning": "tell, count (zählen)"
+      },
+      {
+        "part": "er",
+        "meaning": "person who does it"
+      }
+    ],
+    "literalMeaning": "one who recounts"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Erzähler, plural die Erzähler.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Erzähler"
+        },
+        {
+          "label": "More than one",
+          "value": "die Erzähler"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Erzähler spricht direkt zum Leser.",
+      "english": "The narrator speaks directly to the reader.",
+      "highlight": [
+        "Erzähler"
+      ]
+    },
+    {
+      "german": "Sie ist eine gute Erzählerin.",
+      "english": "She's a good storyteller.",
+      "highlight": [
+        "Erzählerin."
+      ]
+    },
+    {
+      "german": "Wer ist der Erzähler der Geschichte?",
+      "english": "Who's the narrator of the story?",
+      "highlight": [
+        "Erzähler"
+      ]
+    }
+  ],
+  "forms": [
+    "Erzählerin",
+    "Erzählung"
+  ],
+  "memoryHook": "Erzählen → der Erzähler, die Erzählung.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Erzähler",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Erzähler is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Erzähler, zwei ___",
+      "answer": "Erzähler",
+      "fullAnswer": "ein Erzähler, zwei Erzähler",
+      "explanation": "The plural is Erzähler.",
+      "acceptedAnswers": [
+        "Erzaehler"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Erzähler mean?",
+      "options": [
+        "to sleep",
+        "narrator",
+        "to wait"
+      ],
+      "answer": "narrator",
+      "explanation": "Erzähler: narrator, storyteller.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "erzählen",
+        "zählen only"
+      ],
+      "answer": "erzählen",
+      "explanation": "Tell.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Female:",
+      "options": [
+        "die Erzählerin",
+        "die Erzählung"
+      ],
+      "answer": "die Erzählerin",
+      "explanation": "-in.",
+      "id": "q5"
+    }
+  ]
+}

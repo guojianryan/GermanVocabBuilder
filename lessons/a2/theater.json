@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Theater",
+    "partOfSpeech": "noun, neuter (das Theater)",
+    "pronunciation": {
+      "respelling": "te-AA-ter",
+      "ipa": "teˈaːtɐ",
+      "notes": "The plural looks the same. Plural: die Theater."
+    },
+    "meaning": "theatre",
+    "shortDefinition": "Theatre."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Theater, plural die Theater.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Theater"
+        },
+        {
+          "label": "More than one",
+          "value": "die Theater"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir gehen heute Abend ins Theater.",
+      "english": "We're going to the theatre tonight.",
+      "highlight": [
+        "Theater."
+      ]
+    },
+    {
+      "german": "Das Theater ist sehr alt.",
+      "english": "The theatre is very old.",
+      "highlight": [
+        "Theater"
+      ]
+    },
+    {
+      "german": "Mach kein Theater!",
+      "english": "Don't make a fuss!",
+      "highlight": [
+        "Theater!"
+      ]
+    }
+  ],
+  "forms": [
+    "Theater",
+    "die Theater",
+    "das Theater"
+  ],
+  "memoryHook": "Das Theater (th = t). Ins Theater gehen.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Theater",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Theater is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Theater, zwei ___",
+      "answer": "Theater",
+      "fullAnswer": "ein Theater, zwei Theater",
+      "explanation": "The plural is Theater.",
+      "acceptedAnswers": [
+        "Theater"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Theater mean?",
+      "options": [
+        "slowly",
+        "theatre",
+        "the flower"
+      ],
+      "answer": "theatre",
+      "explanation": "Theater: theatre.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Mach kein Theater!' means…",
+      "options": [
+        "Don't make a fuss!",
+        "Don't act!"
+      ],
+      "answer": "Don't make a fuss!",
+      "explanation": "Idiom.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Th sounds like…",
+      "options": [
+        "t",
+        "th"
+      ],
+      "answer": "t",
+      "explanation": "te-AA-ter.",
+      "id": "q5"
+    }
+  ]
+}

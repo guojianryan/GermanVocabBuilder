@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Öl",
+    "partOfSpeech": "noun, neuter (das Öl)",
+    "pronunciation": {
+      "respelling": "URL",
+      "ipa": "øːl",
+      "notes": "Plural: die Öle."
+    },
+    "meaning": "oil",
+    "shortDefinition": "Oil."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Öl, plural die Öle.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Öl"
+        },
+        {
+          "label": "More than one",
+          "value": "die Öle"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir brauchen Öl und Essig für den Salat.",
+      "english": "We need oil and vinegar for the salad.",
+      "highlight": [
+        "Öl"
+      ]
+    },
+    {
+      "german": "Ich brate das Fleisch in Öl.",
+      "english": "I fry the meat in oil.",
+      "highlight": [
+        "Öl."
+      ]
+    },
+    {
+      "german": "Das Auto braucht neues Öl.",
+      "english": "The car needs new oil.",
+      "highlight": [
+        "Öl."
+      ]
+    }
+  ],
+  "forms": [
+    "Öle",
+    "die Öle",
+    "das Öl"
+  ],
+  "memoryHook": "Das Öl = oil (Ö sounds like the vowel in 'bird'). Olivenöl = olive oil.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Öl",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Öl is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Öl, zwei ___",
+      "answer": "Öle",
+      "fullAnswer": "ein Öl, zwei Öle",
+      "explanation": "The plural is Öle.",
+      "acceptedAnswers": [
+        "Öle"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Öl mean?",
+      "options": [
+        "oil",
+        "to sleep",
+        "to learn"
+      ],
+      "answer": "oil",
+      "explanation": "Öl: oil.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Öl is related to English…",
+      "options": [
+        "oil",
+        "old"
+      ],
+      "answer": "oil",
+      "explanation": "Same root (Latin oleum).",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Olivenöl is…",
+      "options": [
+        "olive oil",
+        "an olive"
+      ],
+      "answer": "olive oil",
+      "explanation": "Oliven + Öl.",
+      "id": "q5"
+    }
+  ]
+}

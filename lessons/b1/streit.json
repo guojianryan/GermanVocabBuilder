@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Streit",
+    "partOfSpeech": "noun, masculine (der Streit)",
+    "pronunciation": {
+      "respelling": "SHTRITE",
+      "ipa": "ʃtʁaɪ̯t",
+      "notes": "Plural: die Streitigkeiten."
+    },
+    "meaning": "argument, quarrel",
+    "shortDefinition": "Argument, quarrel."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Streit, plural die Streitigkeiten.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Streit"
+        },
+        {
+          "label": "More than one",
+          "value": "die Streitigkeiten"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Sie hatten einen Streit.",
+      "english": "They had an argument.",
+      "highlight": [
+        "Streit."
+      ]
+    },
+    {
+      "german": "Ich will keinen Streit.",
+      "english": "I don't want an argument.",
+      "highlight": [
+        "Streit."
+      ]
+    },
+    {
+      "german": "Der Streit ging um Geld.",
+      "english": "The argument was about money.",
+      "highlight": [
+        "Streit"
+      ]
+    }
+  ],
+  "forms": [
+    "streiten"
+  ],
+  "memoryHook": "Der Streit (argument); sich streiten.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Streit",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Streit is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Streit, zwei ___",
+      "answer": "Streitigkeiten",
+      "fullAnswer": "ein Streit, zwei Streitigkeiten",
+      "explanation": "The plural is Streitigkeiten.",
+      "acceptedAnswers": [
+        "Streitigkeiten"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Streit mean?",
+      "options": [
+        "never",
+        "quiet",
+        "argument"
+      ],
+      "answer": "argument",
+      "explanation": "Streit: argument, quarrel.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Verb:",
+      "options": [
+        "(sich) streiten",
+        "streiten only"
+      ],
+      "answer": "(sich) streiten",
+      "explanation": "Argue.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural (usual):",
+      "options": [
+        "Streitigkeiten",
+        "Streite"
+      ],
+      "answer": "Streitigkeiten",
+      "explanation": "Disputes.",
+      "id": "q5"
+    }
+  ]
+}

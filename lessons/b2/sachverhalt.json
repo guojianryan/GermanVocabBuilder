@@ -1,0 +1,138 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Sachverhalt",
+    "partOfSpeech": "noun, masculine (der Sachverhalt)",
+    "pronunciation": {
+      "respelling": "ZAKH-fer-halt",
+      "ipa": "ˈzaxfɛɐ̯ˌhalt",
+      "notes": "Plural: die Sachverhalte."
+    },
+    "meaning": "facts, circumstances",
+    "shortDefinition": "Facts, circumstances."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Sach",
+        "meaning": "matter, thing"
+      },
+      {
+        "part": "verhalt",
+        "meaning": "state (verhalten)"
+      }
+    ],
+    "literalMeaning": "how the matter stands"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Sachverhalt, plural die Sachverhalte.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Sachverhalt"
+        },
+        {
+          "label": "More than one",
+          "value": "die Sachverhalte"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Bitte schildern Sie den Sachverhalt.",
+      "english": "Please describe the facts of the matter.",
+      "highlight": [
+        "Sachverhalt."
+      ]
+    },
+    {
+      "german": "Der Sachverhalt ist kompliziert.",
+      "english": "The situation is complicated.",
+      "highlight": [
+        "Sachverhalt"
+      ]
+    },
+    {
+      "german": "Wir prüfen den Sachverhalt.",
+      "english": "We're looking into the matter.",
+      "highlight": [
+        "Sachverhalt."
+      ]
+    }
+  ],
+  "forms": [
+    "Sachverhalte",
+    "die Sachverhalte",
+    "der Sachverhalt"
+  ],
+  "memoryHook": "Sache + Verhalt = the facts of the matter.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Sachverhalt",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Sachverhalt is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Sachverhalt, zwei ___",
+      "answer": "Sachverhalte",
+      "fullAnswer": "ein Sachverhalt, zwei Sachverhalte",
+      "explanation": "The plural is Sachverhalte.",
+      "acceptedAnswers": [
+        "Sachverhalte"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Sachverhalt mean?",
+      "options": [
+        "facts",
+        "the bed",
+        "to buy"
+      ],
+      "answer": "facts",
+      "explanation": "Sachverhalt: facts, circumstances.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Sache + Verhalt (how it stands)",
+        "Sach + verhalten"
+      ],
+      "answer": "Sache + Verhalt (how it stands)",
+      "explanation": "How the matter stands.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Register:",
+      "options": [
+        "formal / legal",
+        "slang"
+      ],
+      "answer": "formal / legal",
+      "explanation": "Legal.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+ "schemaVersion": "1.4",
+ "language": "de",
+ "explanationLanguage": "en",
+ "level": "B1",
+ "levelSource": "Goethe-Zertifikat B1 Wortliste",
+ "lessonType": "card",
+ "word": {
+  "headword": "Hallenbad",
+  "partOfSpeech": "noun, neuter (das Hallenbad)",
+  "pronunciation": {
+   "respelling": "HAL-en-baat",
+   "ipa": "ˈhalənbaːt",
+   "notes": "Plural: die Hallenbäder."
+  },
+  "meaning": "indoor swimming pool",
+  "shortDefinition": "Indoor swimming pool."
+ },
+ "commonMistakes": [
+  {
+   "title": "Gender and plural",
+   "explanation": "Das Hallenbad, plural die Hallenbäder.",
+   "forms": [
+    {
+     "label": "One",
+     "value": "das Hallenbad"
+    },
+    {
+     "label": "More than one",
+     "value": "die Hallenbäder"
+    }
+   ]
+  }
+ ],
+ "sampleSentences": [
+  {
+   "german": "Im Winter gehe ich ins Hallenbad.",
+   "english": "In winter I go to the indoor pool.",
+   "highlight": [
+    "Hallenbad."
+   ]
+  },
+  {
+   "german": "Das Hallenbad hat eine Sauna.",
+   "english": "The indoor pool has a sauna.",
+   "highlight": [
+    "Hallenbad"
+   ]
+  },
+  {
+   "german": "Das Hallenbad ist heute geschlossen.",
+   "english": "The indoor pool is closed today.",
+   "highlight": [
+    "Hallenbad"
+   ]
+  }
+ ],
+ "forms": [
+  "Freibad"
+ ],
+ "memoryHook": "Halle + Bad = indoor pool. Outdoor: Freibad.",
+ "signOff": "Gut gemacht!",
+ "quiz": [
+  {
+   "type": "choice",
+   "prompt": "___ Hallenbad",
+   "options": [
+    "der",
+    "die",
+    "das"
+   ],
+   "answer": "das",
+   "explanation": "Hallenbad is neuter.",
+   "id": "q1"
+  },
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "ein Hallenbad, zwei ___",
+   "answer": "Hallenbäder",
+   "fullAnswer": "ein Hallenbad, zwei Hallenbäder",
+   "explanation": "The plural is Hallenbäder.",
+   "acceptedAnswers": [
+    "Hallenbaeder"
+   ],
+   "id": "q2"
+  },
+  {
+   "type": "choice",
+   "prompt": "What does Hallenbad mean?",
+   "options": [
+    "tomorrow",
+    "the shop",
+    "indoor swimming pool"
+   ],
+   "answer": "indoor swimming pool",
+   "explanation": "Hallenbad: indoor swimming pool.",
+   "id": "q3"
+  },
+  {
+   "type": "choice",
+   "prompt": "Outdoor pool:",
+   "options": [
+    "das Freibad",
+    "das Außenbad"
+   ],
+   "answer": "das Freibad",
+   "explanation": "Frei.",
+   "id": "q4"
+  },
+  {
+   "type": "choice",
+   "prompt": "Built from…",
+   "options": [
+    "Halle + n + Bad",
+    "Hallo + Bad"
+   ],
+   "answer": "Halle + n + Bad",
+   "explanation": "Hall bath.",
+   "id": "q5"
+  }
+ ],
+ "etymology": {
+  "title": "Where it comes from",
+  "parts": [
+   {
+    "part": "Halle",
+    "meaning": "hall"
+   },
+   {
+    "part": "n",
+    "meaning": "linking letter"
+   },
+   {
+    "part": "bad",
+    "meaning": "bath"
+   }
+  ],
+  "literalMeaning": "hall bath"
+ }
+}

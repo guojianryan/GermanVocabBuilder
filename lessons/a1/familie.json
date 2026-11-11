@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Familie",
+    "partOfSpeech": "noun, feminine (die Familie)",
+    "pronunciation": {
+      "respelling": "fa-MEE-lyuh",
+      "ipa": "faˈmiːli̯ə",
+      "notes": "The ending -ie sounds like 'yuh'. Plural: die Familien."
+    },
+    "meaning": "family",
+    "shortDefinition": "Family."
+  },
+  "wordFamily": [
+    {
+      "german": "der Familienname",
+      "english": "surname",
+      "type": "noun"
+    },
+    {
+      "german": "der Familienstand",
+      "english": "marital status",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Familie, plural die Familien.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Familie"
+        },
+        {
+          "label": "More than one",
+          "value": "die Familien"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich habe eine große Familie.",
+      "english": "I have a big family.",
+      "highlight": [
+        "Familie."
+      ]
+    },
+    {
+      "german": "Wie geht es deiner Familie?",
+      "english": "How's your family?",
+      "highlight": [
+        "Familie?"
+      ]
+    },
+    {
+      "german": "Am Sonntag essen wir mit der ganzen Familie.",
+      "english": "On Sundays we eat with the whole family.",
+      "highlight": [
+        "Familie."
+      ]
+    }
+  ],
+  "forms": [
+    "Familien",
+    "die Familien",
+    "die Familie"
+  ],
+  "memoryHook": "Familie: stress the middle, and the ending sounds like 'lyuh': fa-MEE-lyuh.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Familie",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Familie is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Familie, zwei ___",
+      "answer": "Familien",
+      "fullAnswer": "ein Familie, zwei Familien",
+      "explanation": "The plural is Familien.",
+      "acceptedAnswers": [
+        "Familien"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Familie mean?",
+      "options": [
+        "family",
+        "the window",
+        "quiet"
+      ],
+      "answer": "family",
+      "explanation": "Familie: family.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Where's the stress in Familie?",
+      "options": [
+        "FA-mi-lie",
+        "fa-MI-lie"
+      ],
+      "answer": "fa-MI-lie",
+      "explanation": "Stress the middle.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Your Familienname is…",
+      "options": [
+        "your surname",
+        "your first name"
+      ],
+      "answer": "your surname",
+      "explanation": "Familienname = Nachname.",
+      "id": "q5"
+    }
+  ]
+}

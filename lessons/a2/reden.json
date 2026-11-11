@@ -1,0 +1,170 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "reden",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "RAY-den",
+      "ipa": "ˈʁeːdn̩",
+      "notes": ""
+    },
+    "meaning": "to talk",
+    "shortDefinition": "To talk."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "red|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "red|est"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "red|et"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "red|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "red|et"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "red|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat geredet"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "sprechen",
+      "english": "to speak",
+      "type": "verb"
+    },
+    {
+      "german": "die Rede",
+      "english": "speech",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir müssen reden.",
+      "english": "We need to talk.",
+      "highlight": [
+        "reden."
+      ]
+    },
+    {
+      "german": "Sie redet die ganze Zeit.",
+      "english": "She talks all the time.",
+      "highlight": [
+        "redet"
+      ]
+    },
+    {
+      "german": "Worüber habt ihr geredet?",
+      "english": "What were you talking about?",
+      "highlight": [
+        "geredet?"
+      ]
+    }
+  ],
+  "forms": [
+    "rede",
+    "redest",
+    "redet",
+    "reden",
+    "geredet"
+  ],
+  "memoryHook": "Reden = talk (informal for sprechen). Die Rede = speech.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (reden)",
+      "answer": "redet",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: redet.",
+      "acceptedAnswers": [
+        "redet"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (reden, past)",
+      "answer": "geredet",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe geredet.",
+      "acceptedAnswers": [
+        "geredet"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does reden mean?",
+      "options": [
+        "to talk",
+        "the evening",
+        "expensive"
+      ],
+      "answer": "to talk",
+      "explanation": "reden: to talk.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Talk ___ something:",
+      "options": [
+        "über",
+        "von only"
+      ],
+      "answer": "über",
+      "explanation": "Reden über.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "A speech:",
+      "options": [
+        "die Rede",
+        "das Reden only"
+      ],
+      "answer": "die Rede",
+      "explanation": "Eine Rede halten.",
+      "id": "q5"
+    }
+  ]
+}

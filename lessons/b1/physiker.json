@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Physiker",
+    "partOfSpeech": "noun, masculine (der Physiker)",
+    "pronunciation": {
+      "respelling": "FÜ-zi-ker",
+      "ipa": "ˈfyːzɪkɐ",
+      "notes": "The plural looks the same. Plural: die Physiker."
+    },
+    "meaning": "physicist",
+    "shortDefinition": "Physicist."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Physiker, plural die Physiker.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Physiker"
+        },
+        {
+          "label": "More than one",
+          "value": "die Physiker"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Einstein war ein berühmter Physiker.",
+      "english": "Einstein was a famous physicist.",
+      "highlight": [
+        "Physiker."
+      ]
+    },
+    {
+      "german": "Sie ist Physikerin und Politikerin.",
+      "english": "She's a physicist and a politician.",
+      "highlight": [
+        "Physikerin"
+      ]
+    },
+    {
+      "german": "Die Physiker forschen am CERN.",
+      "english": "The physicists do research at CERN.",
+      "highlight": [
+        "Physiker"
+      ]
+    }
+  ],
+  "forms": [
+    "Physikerin",
+    "Physik"
+  ],
+  "memoryHook": "Die Physik → der Physiker.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Physiker",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Physiker is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Physiker, zwei ___",
+      "answer": "Physiker",
+      "fullAnswer": "ein Physiker, zwei Physiker",
+      "explanation": "The plural is Physiker.",
+      "acceptedAnswers": [
+        "Physiker"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Physiker mean?",
+      "options": [
+        "quiet",
+        "the car",
+        "physicist"
+      ],
+      "answer": "physicist",
+      "explanation": "Physiker: physicist.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Physiker vs Physik:",
+      "options": [
+        "the person vs the subject",
+        "same"
+      ],
+      "answer": "the person vs the subject",
+      "explanation": "Different.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ph / y sound like…",
+      "options": [
+        "f / ü",
+        "p / i"
+      ],
+      "answer": "f / ü",
+      "explanation": "FÜ-zi-ker.",
+      "id": "q5"
+    }
+  ]
+}

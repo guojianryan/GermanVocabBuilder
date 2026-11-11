@@ -1,0 +1,133 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Kern",
+    "partOfSpeech": "noun, masculine (der Kern)",
+    "pronunciation": {
+      "respelling": "KAIRN",
+      "ipa": "kɛʁn",
+      "notes": "Plural: die Kerne."
+    },
+    "meaning": "core; pip, stone; nucleus",
+    "shortDefinition": "Core; pip, stone; nucleus."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Kern, plural die Kerne.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Kern"
+        },
+        {
+          "label": "More than one",
+          "value": "die Kerne"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Kirschen haben Kerne.",
+      "english": "Cherries have stones.",
+      "highlight": [
+        "Kerne."
+      ]
+    },
+    {
+      "german": "Das ist der Kern des Problems.",
+      "english": "That's the heart of the problem.",
+      "highlight": [
+        "Kern"
+      ]
+    },
+    {
+      "german": "Im Kern hast du recht.",
+      "english": "Essentially you're right.",
+      "highlight": [
+        "Kern"
+      ]
+    }
+  ],
+  "forms": [
+    "Kernkraft"
+  ],
+  "memoryHook": "Der Kern: pip; core; nucleus (Kernkraft); im Kern.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Kern",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Kern is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Kern, zwei ___",
+      "answer": "Kerne",
+      "fullAnswer": "ein Kern, zwei Kerne",
+      "explanation": "The plural is Kerne.",
+      "acceptedAnswers": [
+        "Kerne"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Kern mean?",
+      "options": [
+        "to wait",
+        "the car",
+        "core"
+      ],
+      "answer": "core",
+      "explanation": "Kern: core; pip, stone; nucleus.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Im Kern' means…",
+      "options": [
+        "essentially, at heart",
+        "in the pip"
+      ],
+      "answer": "essentially, at heart",
+      "explanation": "Essentially.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Nuclear power:",
+      "options": [
+        "die Kernkraft / Kernenergie",
+        "die Kernmacht"
+      ],
+      "answer": "die Kernkraft / Kernenergie",
+      "explanation": "Nucleus.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Core business:",
+      "options": [
+        "das Kerngeschäft",
+        "das Kernbusiness"
+      ],
+      "answer": "das Kerngeschäft",
+      "explanation": "Compound.",
+      "id": "q6"
+    }
+  ]
+}

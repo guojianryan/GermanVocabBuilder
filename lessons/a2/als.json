@@ -1,0 +1,190 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "full",
+  "word": {
+    "headword": "als",
+    "partOfSpeech": "conjunction / preposition",
+    "pronunciation": {
+      "respelling": "ALS",
+      "ipa": "als",
+      "notes": ""
+    },
+    "meaning": "as; than; when (once, in the past)",
+    "shortDefinition": "As, than, or when (for one past event)."
+  },
+  "intro": {
+    "title": "Three jobs for one little word",
+    "paragraphs": [
+      "Als does three different jobs. It means 'as' for a role: Ich arbeite als Kellner. It means 'than' in comparisons: Er ist älter als ich. And it means 'when' for a single event in the past: Als ich ein Kind war, …",
+      "That last one fights with wenn. The rule: one time in the past → als. Every time, or in the present and future → wenn."
+    ]
+  },
+  "tables": [
+    {
+      "title": "als or wenn?",
+      "columns": [
+        "word"
+      ],
+      "rows": [
+        {
+          "label": "once, in the past",
+          "hint": "Als ich 10 war…",
+          "cells": [
+            "|als"
+          ]
+        },
+        {
+          "label": "every time (past)",
+          "hint": "Immer wenn es regnete…",
+          "cells": [
+            "|wenn"
+          ]
+        },
+        {
+          "label": "present / future",
+          "hint": "Wenn du kommst…",
+          "cells": [
+            "|wenn"
+          ]
+        }
+      ]
+    }
+  ],
+  "keyTrap": {
+    "title": "The big trap: als or wenn?",
+    "explanation": "English uses 'when' for everything. German splits it.",
+    "wrong": {
+      "german": "Wenn ich ein Kind war, wohnte ich in Wien.",
+      "verdict": "One period in the past: als."
+    },
+    "correct": [
+      {
+        "german": "Als ich ein Kind war, wohnte ich in Wien.",
+        "literal": "When I was a child…",
+        "note": "Once, past: als."
+      },
+      {
+        "german": "Wenn ich Zeit habe, besuche ich dich.",
+        "literal": "When I have time…",
+        "note": "Present/future: wenn."
+      }
+    ]
+  },
+  "commonMistakes": [
+    {
+      "title": "than: als, not wie",
+      "explanation": "Comparisons with -er take als. Wie is for 'as … as'.",
+      "wrong": "Er ist größer wie ich.",
+      "correct": "Er ist größer als ich."
+    },
+    {
+      "title": "as a job: no article",
+      "explanation": "Als + job takes no article.",
+      "examples": [
+        {
+          "german": "Sie arbeitet als Ärztin.",
+          "english": "She works as a doctor.",
+          "highlight": "als"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich arbeite als Kellner.",
+      "english": "I work as a waiter.",
+      "highlight": [
+        "als"
+      ]
+    },
+    {
+      "german": "Berlin ist größer als München.",
+      "english": "Berlin is bigger than Munich.",
+      "highlight": [
+        "als"
+      ]
+    },
+    {
+      "german": "Als ich nach Hause kam, war niemand da.",
+      "english": "When I got home, nobody was there.",
+      "highlight": [
+        "Als"
+      ]
+    }
+  ],
+  "forms": [
+    "als"
+  ],
+  "memoryHook": "Als: as, than, and 'that one time when'. Everything else 'when' is wenn.",
+  "signOff": "Besser als nichts!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Er ist älter ___ ich.",
+      "options": [
+        "als",
+        "wie",
+        "wenn"
+      ],
+      "answer": "als",
+      "explanation": "Comparison: als.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "___ ich jung war, spielte ich Fußball.",
+      "options": [
+        "Als",
+        "Wenn"
+      ],
+      "answer": "Als",
+      "explanation": "One period in the past.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "___ es regnet, bleibe ich zu Hause.",
+      "options": [
+        "Wenn",
+        "Als"
+      ],
+      "answer": "Wenn",
+      "explanation": "Present: wenn.",
+      "id": "q3"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Sie arbeitet ___ Lehrerin.",
+      "answer": "als",
+      "fullAnswer": "Sie arbeitet als Lehrerin.",
+      "explanation": "Role: als.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Er ist so groß ___ ich.",
+      "options": [
+        "wie",
+        "als"
+      ],
+      "answer": "wie",
+      "explanation": "So … wie = as … as.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "After 'als' meaning when, the verb goes…",
+      "options": [
+        "to the end",
+        "second"
+      ],
+      "answer": "to the end",
+      "explanation": "Als ich nach Hause kam.",
+      "id": "q6"
+    }
+  ]
+}

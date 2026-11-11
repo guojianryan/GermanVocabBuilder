@@ -1,0 +1,100 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "und",
+    "partOfSpeech": "conjunction",
+    "pronunciation": {
+      "respelling": "OONT",
+      "ipa": "ʊnt",
+      "notes": ""
+    },
+    "meaning": "and",
+    "shortDefinition": "And."
+  },
+  "sampleSentences": [
+    {
+      "german": "Peter und Helmut sind meine Söhne.",
+      "english": "Peter and Helmut are my sons.",
+      "highlight": [
+        "und"
+      ]
+    },
+    {
+      "german": "Ich trinke Kaffee und esse ein Brötchen.",
+      "english": "I drink coffee and eat a roll.",
+      "highlight": [
+        "und"
+      ]
+    },
+    {
+      "german": "Und du?",
+      "english": "And you?",
+      "highlight": [
+        "Und"
+      ]
+    }
+  ],
+  "forms": [],
+  "memoryHook": "Und = and. It doesn't move the verb: Ich bin müde und ich gehe nach Hause.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does und mean?",
+      "options": [
+        "the bill",
+        "and",
+        "cheap"
+      ],
+      "answer": "and",
+      "explanation": "und: and.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "After und, the verb…",
+      "options": [
+        "stays in second place",
+        "goes to the end"
+      ],
+      "answer": "stays in second place",
+      "explanation": "Und doesn't change word order.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "'And you?' (asking back):",
+      "options": [
+        "Und du?",
+        "Auch du?"
+      ],
+      "answer": "Und du?",
+      "explanation": "Und dir? after Wie geht's?",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Wie geht's? – Gut, danke. ___?'",
+      "options": [
+        "Und dir?",
+        "Und du?"
+      ],
+      "answer": "Und dir?",
+      "explanation": "Es geht dir gut → und dir?",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich spreche Deutsch ___ Englisch.",
+      "answer": "und",
+      "fullAnswer": "Ich spreche Deutsch und Englisch.",
+      "explanation": "Und.",
+      "id": "q5"
+    }
+  ]
+}

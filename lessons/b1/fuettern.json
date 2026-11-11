@@ -1,0 +1,165 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "füttern",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "FÜT-ern",
+      "ipa": "ˈfʏtɐn",
+      "notes": ""
+    },
+    "meaning": "to feed",
+    "shortDefinition": "To feed."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "fütter|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "fütter|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "fütter|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "fütter|n"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "fütter|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "fütter|n"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gefüttert"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "das Futter",
+      "english": "animal feed",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Bitte die Tiere nicht füttern!",
+      "english": "Please don't feed the animals!",
+      "highlight": [
+        "füttern!"
+      ]
+    },
+    {
+      "german": "Ich füttere die Katze.",
+      "english": "I'm feeding the cat.",
+      "highlight": [
+        "füttere"
+      ]
+    },
+    {
+      "german": "Sie füttert das Baby.",
+      "english": "She's feeding the baby.",
+      "highlight": [
+        "füttert"
+      ]
+    }
+  ],
+  "forms": [
+    "füttere",
+    "fütterst",
+    "füttert",
+    "füttern",
+    "gefüttert"
+  ],
+  "memoryHook": "Das Futter → füttern (feed).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (füttern)",
+      "answer": "füttert",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: füttert.",
+      "acceptedAnswers": [
+        "fuettert"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (füttern, past)",
+      "answer": "gefüttert",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gefüttert.",
+      "acceptedAnswers": [
+        "gefuettert"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does füttern mean?",
+      "options": [
+        "always",
+        "to feed",
+        "to help"
+      ],
+      "answer": "to feed",
+      "explanation": "füttern: to feed.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Animal food:",
+      "options": [
+        "das Futter",
+        "die Fütterung"
+      ],
+      "answer": "das Futter",
+      "explanation": "Feed.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Nicht füttern!' on a sign means…",
+      "options": [
+        "Don't feed!",
+        "Don't touch!"
+      ],
+      "answer": "Don't feed!",
+      "explanation": "Zoo.",
+      "id": "q5"
+    }
+  ]
+}

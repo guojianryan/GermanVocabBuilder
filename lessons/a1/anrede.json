@@ -1,0 +1,159 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Anrede",
+    "partOfSpeech": "noun, feminine (die Anrede)",
+    "pronunciation": {
+      "respelling": "AHN-ray-duh",
+      "ipa": "ˈanʁeːdə",
+      "notes": "Plural: die Anreden."
+    },
+    "meaning": "form of address (how you greet someone, especially in writing)",
+    "shortDefinition": "Form of address (how you greet someone, especially in writing)."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "An",
+        "meaning": "to"
+      },
+      {
+        "part": "rede",
+        "meaning": "speech",
+        "note": "Die Rede, from reden, to talk."
+      }
+    ],
+    "literalMeaning": "speech to someone"
+  },
+  "wordFamily": [
+    {
+      "german": "reden",
+      "english": "to talk",
+      "type": "verb"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Anrede, plural die Anreden.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Anrede"
+        },
+        {
+          "label": "More than one",
+          "value": "die Anreden"
+        }
+      ]
+    },
+    {
+      "title": "Formal or friendly?",
+      "explanation": "Formal letters: Sehr geehrte Frau …, Sehr geehrter Herr … . Friends: Liebe …, Lieber … .",
+      "examples": [
+        {
+          "german": "Sehr geehrter Herr Klein,",
+          "english": "Dear Mr Klein,",
+          "highlight": "geehrter"
+        },
+        {
+          "german": "Liebe Maria,",
+          "english": "Dear Maria,",
+          "highlight": "Liebe"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Vergessen Sie die Anrede nicht.",
+      "english": "Don't forget the greeting.",
+      "highlight": [
+        "Anrede"
+      ]
+    },
+    {
+      "german": "Im Brief steht als Anrede: Sehr geehrte Frau Weber.",
+      "english": "The letter opens: Dear Ms Weber.",
+      "highlight": [
+        "Anrede:"
+      ]
+    },
+    {
+      "german": "Mit Freunden ist die Anrede einfach: Liebe Anna.",
+      "english": "With friends the greeting is simple: Dear Anna.",
+      "highlight": [
+        "Anrede"
+      ]
+    }
+  ],
+  "forms": [
+    "Anreden"
+  ],
+  "memoryHook": "Anrede = what you an-reden someone with: the words you address them with.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Anrede",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Anrede is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Anrede, zwei ___",
+      "answer": "Anreden",
+      "fullAnswer": "ein Anrede, zwei Anreden",
+      "explanation": "The plural is Anreden.",
+      "acceptedAnswers": [
+        "Anreden"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "A formal letter to Frau Weber begins:",
+      "options": [
+        "Sehr geehrte Frau Weber,",
+        "Hallo Weber,"
+      ],
+      "answer": "Sehr geehrte Frau Weber,",
+      "explanation": "Formal: Sehr geehrte/r.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "An email to your friend Tom begins:",
+      "options": [
+        "Lieber Tom,",
+        "Liebe Tom,"
+      ],
+      "answer": "Lieber Tom,",
+      "explanation": "Masculine: Lieber. Feminine: Liebe.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "For a stranger or your boss, the usual Anrede is…",
+      "options": [
+        "du",
+        "Sie"
+      ],
+      "answer": "Sie",
+      "explanation": "Sie is the formal 'you'.",
+      "id": "q5"
+    }
+  ]
+}

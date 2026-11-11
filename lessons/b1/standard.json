@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Standard",
+    "partOfSpeech": "noun, masculine (der Standard)",
+    "pronunciation": {
+      "respelling": "SHTAN-dart",
+      "ipa": "ˈʃtandaʁt",
+      "notes": "Plural: die Standards."
+    },
+    "meaning": "standard",
+    "shortDefinition": "Standard."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Standard, plural die Standards.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Standard"
+        },
+        {
+          "label": "More than one",
+          "value": "die Standards"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das Hotel hat einen hohen Standard.",
+      "english": "The hotel has a high standard.",
+      "highlight": [
+        "Standard."
+      ]
+    },
+    {
+      "german": "Das ist heute Standard.",
+      "english": "That's standard today.",
+      "highlight": [
+        "Standard."
+      ]
+    },
+    {
+      "german": "Hochdeutsch ist die Standardsprache.",
+      "english": "High German is the standard language.",
+      "highlight": [
+        "Standardsprache."
+      ]
+    }
+  ],
+  "forms": [
+    "Standards",
+    "die Standards",
+    "der Standard"
+  ],
+  "memoryHook": "Der Standard (st = sht).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Standard",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Standard is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Standard, zwei ___",
+      "answer": "Standards",
+      "fullAnswer": "ein Standard, zwei Standards",
+      "explanation": "The plural is Standards.",
+      "acceptedAnswers": [
+        "Standards"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Standard mean?",
+      "options": [
+        "the station",
+        "standard",
+        "tomorrow"
+      ],
+      "answer": "standard",
+      "explanation": "Standard: standard.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "St sounds like…",
+      "options": [
+        "sht",
+        "st"
+      ],
+      "answer": "sht",
+      "explanation": "SHTAN-dart.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Standards",
+        "Standarde"
+      ],
+      "answer": "Standards",
+      "explanation": "-s.",
+      "id": "q5"
+    }
+  ]
+}

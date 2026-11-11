@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Momente A2.2 Kursbuch Glossar",
+  "lessonType": "card",
+  "word": {
+    "headword": "Song",
+    "partOfSpeech": "noun, masculine (der Song)",
+    "pronunciation": {
+      "respelling": "SONG",
+      "ipa": "zɔŋ",
+      "notes": "Plural: die Songs."
+    },
+    "meaning": "song (pop)",
+    "shortDefinition": "Song (pop)."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Song, plural die Songs.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Song"
+        },
+        {
+          "label": "More than one",
+          "value": "die Songs"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das ist mein Lieblingssong.",
+      "english": "That's my favourite song.",
+      "highlight": [
+        "Lieblingssong."
+      ]
+    },
+    {
+      "german": "Die Band spielt neue Songs.",
+      "english": "The band is playing new songs.",
+      "highlight": [
+        "Songs."
+      ]
+    },
+    {
+      "german": "Kennst du den Song?",
+      "english": "Do you know the song?",
+      "highlight": [
+        "Song?"
+      ]
+    }
+  ],
+  "forms": [
+    "Songs",
+    "die Songs",
+    "der Song"
+  ],
+  "memoryHook": "Der Song (pop) = das Lied.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Song",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Song is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Song, zwei ___",
+      "answer": "Songs",
+      "fullAnswer": "ein Song, zwei Songs",
+      "explanation": "The plural is Songs.",
+      "acceptedAnswers": [
+        "Songs"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Song mean?",
+      "options": [
+        "song (pop)",
+        "to open",
+        "the bread"
+      ],
+      "answer": "song (pop)",
+      "explanation": "Song: song (pop).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "German word:",
+      "options": [
+        "das Lied",
+        "der Gesang"
+      ],
+      "answer": "das Lied",
+      "explanation": "Lied = song.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Songs",
+        "Songe"
+      ],
+      "answer": "Songs",
+      "explanation": "-s.",
+      "id": "q5"
+    }
+  ]
+}

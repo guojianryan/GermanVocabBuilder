@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Quelle",
+    "partOfSpeech": "noun, feminine (die Quelle)",
+    "pronunciation": {
+      "respelling": "KVEL-e",
+      "ipa": "ˈkvɛlə",
+      "notes": "Plural: die Quellen."
+    },
+    "meaning": "source; spring",
+    "shortDefinition": "Source; spring."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Quelle, plural die Quellen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Quelle"
+        },
+        {
+          "label": "More than one",
+          "value": "die Quellen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Aus welcher Quelle hast du das?",
+      "english": "What's your source for that?",
+      "highlight": [
+        "Quelle"
+      ]
+    },
+    {
+      "german": "Das Wasser kommt aus einer Quelle.",
+      "english": "The water comes from a spring.",
+      "highlight": [
+        "Quelle."
+      ]
+    },
+    {
+      "german": "Bitte nennen Sie Ihre Quellen.",
+      "english": "Please cite your sources.",
+      "highlight": [
+        "Quellen."
+      ]
+    }
+  ],
+  "forms": [
+    "Quellen",
+    "die Quellen",
+    "die Quelle"
+  ],
+  "memoryHook": "Die Quelle: spring; source.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Quelle",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Quelle is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Quelle, zwei ___",
+      "answer": "Quellen",
+      "fullAnswer": "ein Quelle, zwei Quellen",
+      "explanation": "The plural is Quellen.",
+      "acceptedAnswers": [
+        "Quellen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Quelle mean?",
+      "options": [
+        "expensive",
+        "the window",
+        "source"
+      ],
+      "answer": "source",
+      "explanation": "Quelle: source; spring.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Qu sounds like…",
+      "options": [
+        "kv",
+        "kw"
+      ],
+      "answer": "kv",
+      "explanation": "KVEL-e.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Quelle can be…",
+      "options": [
+        "a spring or a source of information",
+        "only water"
+      ],
+      "answer": "a spring or a source of information",
+      "explanation": "Both.",
+      "id": "q5"
+    }
+  ]
+}

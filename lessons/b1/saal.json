@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Saal",
+    "partOfSpeech": "noun, masculine (der Saal)",
+    "pronunciation": {
+      "respelling": "ZAAL",
+      "ipa": "zaːl",
+      "notes": "Plural: die Säle."
+    },
+    "meaning": "hall, large room",
+    "shortDefinition": "Hall, large room."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Saal, plural die Säle.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Saal"
+        },
+        {
+          "label": "More than one",
+          "value": "die Säle"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Saal ist voll.",
+      "english": "The hall is full.",
+      "highlight": [
+        "Saal"
+      ]
+    },
+    {
+      "german": "Die Hochzeit findet im großen Saal statt.",
+      "english": "The wedding takes place in the large hall.",
+      "highlight": [
+        "Saal"
+      ]
+    },
+    {
+      "german": "Das Hotel hat drei Säle.",
+      "english": "The hotel has three function rooms.",
+      "highlight": [
+        "Säle."
+      ]
+    }
+  ],
+  "forms": [
+    "Hörsaal"
+  ],
+  "memoryHook": "Der Saal, die Säle (one ä!). Hörsaal.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Saal",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Saal is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Saal, zwei ___",
+      "answer": "Säle",
+      "fullAnswer": "ein Saal, zwei Säle",
+      "explanation": "The plural is Säle.",
+      "acceptedAnswers": [
+        "Saele"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Saal mean?",
+      "options": [
+        "the car",
+        "the family",
+        "hall"
+      ],
+      "answer": "hall",
+      "explanation": "Saal: hall, large room.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Säle",
+        "Saale"
+      ],
+      "answer": "Säle",
+      "explanation": "aa → ä (one a).",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Lecture hall:",
+      "options": [
+        "der Hörsaal",
+        "der Lernsaal"
+      ],
+      "answer": "der Hörsaal",
+      "explanation": "Hear hall.",
+      "id": "q5"
+    }
+  ]
+}

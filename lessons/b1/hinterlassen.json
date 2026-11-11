@@ -1,0 +1,174 @@
+{
+ "schemaVersion": "1.4",
+ "language": "de",
+ "explanationLanguage": "en",
+ "level": "B1",
+ "levelSource": "Goethe-Zertifikat B1 Wortliste",
+ "lessonType": "card",
+ "word": {
+  "headword": "hinterlassen",
+  "partOfSpeech": "verb",
+  "pronunciation": {
+   "respelling": "hin-ter-LAS-en",
+   "ipa": "hɪntɐˈlasn̩",
+   "notes": ""
+  },
+  "meaning": "to leave (behind)",
+  "shortDefinition": "To leave (behind)."
+ },
+ "tables": [
+  {
+   "title": "Present tense",
+   "columns": [
+    "present"
+   ],
+   "rows": [
+    {
+     "label": "ich",
+     "cells": [
+      "hinterlass|e"
+     ]
+    },
+    {
+     "label": "du",
+     "cells": [
+      "hinterl|ä|sst"
+     ]
+    },
+    {
+     "label": "er, sie, es",
+     "cells": [
+      "hinterl|ä|sst"
+     ]
+    },
+    {
+     "label": "wir",
+     "cells": [
+      "hinterlass|en"
+     ]
+    },
+    {
+     "label": "ihr",
+     "cells": [
+      "hinterlass|t"
+     ]
+    },
+    {
+     "label": "sie, Sie",
+     "cells": [
+      "hinterlass|en"
+     ]
+    }
+   ],
+   "notes": [
+    "Past (Perfekt): hat hinterlassen",
+    "a → ä for du and er."
+   ]
+  }
+ ],
+ "sampleSentences": [
+  {
+   "german": "Bitte hinterlassen Sie eine Nachricht.",
+   "english": "Please leave a message.",
+   "highlight": [
+    "hinterlassen"
+   ]
+  },
+  {
+   "german": "Er hat keine Adresse hinterlassen.",
+   "english": "He didn't leave an address.",
+   "highlight": [
+    "hinterlassen."
+   ]
+  },
+  {
+   "german": "Sie hat einen guten Eindruck hinterlassen.",
+   "english": "She left a good impression.",
+   "highlight": [
+    "hinterlassen."
+   ]
+  }
+ ],
+ "forms": [
+  "hinterlasse",
+  "hinterlässt",
+  "hinterlassen",
+  "hinterlasst",
+  "hinterließ"
+ ],
+ "memoryHook": "Hinterlassen = leave behind (message, impression).",
+ "signOff": "Gut gemacht!",
+ "quiz": [
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "er ___ (hinterlassen)",
+   "answer": "hinterlässt",
+   "fullAnswer": "",
+   "explanation": "For er, sie, es: hinterlässt.",
+   "acceptedAnswers": [
+    "hinterlaesst"
+   ],
+   "id": "q1"
+  },
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "Ich habe schon ___. (hinterlassen, past)",
+   "answer": "hinterlassen",
+   "fullAnswer": "",
+   "explanation": "Perfekt: habe hinterlassen.",
+   "acceptedAnswers": [
+    "hinterlassen"
+   ],
+   "id": "q2"
+  },
+  {
+   "type": "choice",
+   "prompt": "What does hinterlassen mean?",
+   "options": [
+    "to leave (behind)",
+    "to travel",
+    "to learn"
+   ],
+   "answer": "to leave (behind)",
+   "explanation": "hinterlassen: to leave (behind).",
+   "id": "q3"
+  },
+  {
+   "type": "choice",
+   "prompt": "On voicemail, 'hinterlassen Sie eine Nachricht' means…",
+   "options": [
+    "leave a message",
+    "listen to a message"
+   ],
+   "answer": "leave a message",
+   "explanation": "Voicemail.",
+   "id": "q4"
+  },
+  {
+   "type": "choice",
+   "prompt": "Separable?",
+   "options": [
+    "No (stress on -las-)",
+    "Yes"
+   ],
+   "answer": "No (stress on -las-)",
+   "explanation": "Inseparable.",
+   "id": "q5"
+  }
+ ],
+ "etymology": {
+  "title": "Where it comes from",
+  "parts": [
+   {
+    "part": "hinter",
+    "meaning": "behind"
+   },
+   {
+    "part": "lassen",
+    "meaning": "to let",
+    "emphasis": "release"
+   }
+  ],
+  "literalMeaning": "to leave behind"
+ }
+}

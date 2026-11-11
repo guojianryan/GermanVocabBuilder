@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Schild",
+    "partOfSpeech": "noun, neuter (das Schild)",
+    "pronunciation": {
+      "respelling": "SHILT",
+      "ipa": "ʃɪlt",
+      "notes": "Plural: die Schilder."
+    },
+    "meaning": "sign",
+    "shortDefinition": "Sign."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Schild, plural die Schilder.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Schild"
+        },
+        {
+          "label": "More than one",
+          "value": "die Schilder"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Was steht auf dem Schild?",
+      "english": "What does the sign say?",
+      "highlight": [
+        "Schild?"
+      ]
+    },
+    {
+      "german": "Das Schild zeigt den Weg zum Bahnhof.",
+      "english": "The sign shows the way to the station.",
+      "highlight": [
+        "Schild"
+      ]
+    },
+    {
+      "german": "Achten Sie auf die Schilder.",
+      "english": "Watch out for the signs.",
+      "highlight": [
+        "Schilder."
+      ]
+    }
+  ],
+  "forms": [
+    "Schilder",
+    "die Schilder",
+    "das Schild"
+  ],
+  "memoryHook": "Das Schild = sign (plural Schilder). Was steht auf dem Schild? = What does the sign say?",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Schild",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Schild is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Schild, zwei ___",
+      "answer": "Schilder",
+      "fullAnswer": "ein Schild, zwei Schilder",
+      "explanation": "The plural is Schilder.",
+      "acceptedAnswers": [
+        "Schilder"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Schild mean?",
+      "options": [
+        "sign",
+        "never",
+        "always"
+      ],
+      "answer": "sign",
+      "explanation": "Schild: sign.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "On a sign, 'Ausgang' means…",
+      "options": [
+        "exit",
+        "entrance"
+      ],
+      "answer": "exit",
+      "explanation": "Common sign.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Schilder",
+        "Schilde"
+      ],
+      "answer": "Schilder",
+      "explanation": "Das Schild → Schilder.",
+      "id": "q5"
+    }
+  ]
+}

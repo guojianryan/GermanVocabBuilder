@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Krimi",
+    "partOfSpeech": "noun, masculine (der Krimi)",
+    "pronunciation": {
+      "respelling": "KREE-mee",
+      "ipa": "ˈkʁiːmi",
+      "notes": "Plural: die Krimis."
+    },
+    "meaning": "crime novel, crime show",
+    "shortDefinition": "Crime novel, crime show."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Krimi, plural die Krimis.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Krimi"
+        },
+        {
+          "label": "More than one",
+          "value": "die Krimis"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Am Sonntag sehe ich immer den Krimi.",
+      "english": "On Sundays I always watch the crime show.",
+      "highlight": [
+        "Krimi."
+      ]
+    },
+    {
+      "german": "Ich lese gern Krimis.",
+      "english": "I like reading crime novels.",
+      "highlight": [
+        "Krimis."
+      ]
+    },
+    {
+      "german": "Der Krimi war sehr spannend.",
+      "english": "The crime novel was very exciting.",
+      "highlight": [
+        "Krimi"
+      ]
+    }
+  ],
+  "forms": [
+    "Kriminalroman",
+    "Tatort"
+  ],
+  "memoryHook": "Der Krimi: Germany's favourite TV genre (Tatort on Sundays!).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Krimi",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Krimi is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Krimi, zwei ___",
+      "answer": "Krimis",
+      "fullAnswer": "ein Krimi, zwei Krimis",
+      "explanation": "The plural is Krimis.",
+      "acceptedAnswers": [
+        "Krimis"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Krimi mean?",
+      "options": [
+        "expensive",
+        "crime novel",
+        "to wait"
+      ],
+      "answer": "crime novel",
+      "explanation": "Krimi: crime novel, crime show.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Short for…",
+      "options": [
+        "Kriminalroman / Kriminalfilm",
+        "Kriminal"
+      ],
+      "answer": "Kriminalroman / Kriminalfilm",
+      "explanation": "Crime story.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Krimis",
+        "Krimen"
+      ],
+      "answer": "Krimis",
+      "explanation": "-s.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Krankenhaus",
+    "partOfSpeech": "noun, neuter (das Krankenhaus)",
+    "pronunciation": {
+      "respelling": "KRANK-en-hows",
+      "ipa": "ˈkʁaŋkn̩haʊ̯s",
+      "notes": "Plural: die Krankenhäuser."
+    },
+    "meaning": "hospital",
+    "shortDefinition": "Hospital."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Kranken",
+        "meaning": "the sick (krank)"
+      },
+      {
+        "part": "haus",
+        "meaning": "house"
+      }
+    ],
+    "literalMeaning": "sick people's house",
+    "summary": "Hospital."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Krankenhaus, plural die Krankenhäuser.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Krankenhaus"
+        },
+        {
+          "label": "More than one",
+          "value": "die Krankenhäuser"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er liegt im Krankenhaus.",
+      "english": "He's in hospital.",
+      "highlight": [
+        "Krankenhaus."
+      ]
+    },
+    {
+      "german": "Wir müssen ins Krankenhaus.",
+      "english": "We have to go to hospital.",
+      "highlight": [
+        "Krankenhaus."
+      ]
+    },
+    {
+      "german": "Das Krankenhaus ist in der Nähe.",
+      "english": "The hospital is nearby.",
+      "highlight": [
+        "Krankenhaus"
+      ]
+    }
+  ],
+  "forms": [
+    "Krankenhäuser",
+    "die Krankenhäuser",
+    "das Krankenhaus"
+  ],
+  "memoryHook": "Kranken + Haus = house for the sick.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Krankenhaus",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Krankenhaus is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Krankenhaus, zwei ___",
+      "answer": "Krankenhäuser",
+      "fullAnswer": "ein Krankenhaus, zwei Krankenhäuser",
+      "explanation": "The plural is Krankenhäuser.",
+      "acceptedAnswers": [
+        "Krankenhaeuser"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Krankenhaus mean?",
+      "options": [
+        "hospital",
+        "the job",
+        "the bread"
+      ],
+      "answer": "hospital",
+      "explanation": "Krankenhaus: hospital.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'In hospital':",
+      "options": [
+        "im Krankenhaus",
+        "in Krankenhaus"
+      ],
+      "answer": "im Krankenhaus",
+      "explanation": "Article needed.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Literally:",
+      "options": [
+        "house of the sick",
+        "sick house of money"
+      ],
+      "answer": "house of the sick",
+      "explanation": "Kranke + Haus.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Another word:",
+      "options": [
+        "die Klinik",
+        "das Hospiz only"
+      ],
+      "answer": "die Klinik",
+      "explanation": "Klinik.",
+      "id": "q6"
+    }
+  ]
+}

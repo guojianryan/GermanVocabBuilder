@@ -1,0 +1,135 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Winkel",
+    "partOfSpeech": "noun, masculine (der Winkel)",
+    "pronunciation": {
+      "respelling": "VING-kel",
+      "ipa": "ˈvɪŋkl̩",
+      "notes": "The plural looks the same. Plural: die Winkel."
+    },
+    "meaning": "angle; corner",
+    "shortDefinition": "Angle; corner."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Winkel, plural die Winkel.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Winkel"
+        },
+        {
+          "label": "More than one",
+          "value": "die Winkel"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ein rechter Winkel hat 90 Grad.",
+      "english": "A right angle is 90 degrees.",
+      "highlight": [
+        "Winkel"
+      ]
+    },
+    {
+      "german": "Im hintersten Winkel des Gartens.",
+      "english": "In the farthest corner of the garden.",
+      "highlight": [
+        "Winkel"
+      ]
+    },
+    {
+      "german": "Aus diesem Winkel sieht es anders aus.",
+      "english": "From this angle it looks different.",
+      "highlight": [
+        "Winkel"
+      ]
+    }
+  ],
+  "forms": [
+    "Winkel",
+    "die Winkel",
+    "der Winkel"
+  ],
+  "memoryHook": "Der Winkel: angle; corner, nook.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Winkel",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Winkel is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Winkel, zwei ___",
+      "answer": "Winkel",
+      "fullAnswer": "ein Winkel, zwei Winkel",
+      "explanation": "The plural is Winkel.",
+      "acceptedAnswers": [
+        "Winkel"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Winkel mean?",
+      "options": [
+        "slowly",
+        "hot",
+        "angle"
+      ],
+      "answer": "angle",
+      "explanation": "Winkel: angle; corner.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Right angle:",
+      "options": [
+        "der rechte Winkel",
+        "der richtige Winkel"
+      ],
+      "answer": "der rechte Winkel",
+      "explanation": "Maths.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Winkel",
+        "Winkeln"
+      ],
+      "answer": "Winkel",
+      "explanation": "No change.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Remote corner:",
+      "options": [
+        "der Winkel",
+        "die Ecke only"
+      ],
+      "answer": "der Winkel",
+      "explanation": "Nook.",
+      "id": "q6"
+    }
+  ]
+}

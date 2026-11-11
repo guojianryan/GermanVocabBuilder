@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Kategorie",
+    "partOfSpeech": "noun, feminine (die Kategorie)",
+    "pronunciation": {
+      "respelling": "ka-te-go-REE",
+      "ipa": "kateɡoˈʁiː",
+      "notes": "Plural: die Kategorien."
+    },
+    "meaning": "category",
+    "shortDefinition": "Category."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Kategorie, plural die Kategorien.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Kategorie"
+        },
+        {
+          "label": "More than one",
+          "value": "die Kategorien"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "In welche Kategorie gehört das?",
+      "english": "Which category does that belong to?",
+      "highlight": [
+        "Kategorie"
+      ]
+    },
+    {
+      "german": "Der Preis für die beste Kategorie.",
+      "english": "The award for the best category.",
+      "highlight": [
+        "Kategorie."
+      ]
+    },
+    {
+      "german": "Hotels der gehobenen Kategorie.",
+      "english": "Upmarket hotels.",
+      "highlight": [
+        "Kategorie."
+      ]
+    }
+  ],
+  "forms": [
+    "Kategorien",
+    "die Kategorien",
+    "die Kategorie"
+  ],
+  "memoryHook": "Die Kategorie (-ie stressed).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Kategorie",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Kategorie is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Kategorie, zwei ___",
+      "answer": "Kategorien",
+      "fullAnswer": "ein Kategorie, zwei Kategorien",
+      "explanation": "The plural is Kategorien.",
+      "acceptedAnswers": [
+        "Kategorien"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Kategorie mean?",
+      "options": [
+        "the car",
+        "quiet",
+        "category"
+      ],
+      "answer": "category",
+      "explanation": "Kategorie: category.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Kategorien",
+        "Kategories"
+      ],
+      "answer": "Kategorien",
+      "explanation": "-n.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Stress on…",
+      "options": [
+        "-RIE",
+        "KA-"
+      ],
+      "answer": "-RIE",
+      "explanation": "End.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Gitarre",
+    "partOfSpeech": "noun, feminine (die Gitarre)",
+    "pronunciation": {
+      "respelling": "gi-TAR-e",
+      "ipa": "ɡiˈtaʁə",
+      "notes": "Plural: die Gitarren."
+    },
+    "meaning": "guitar",
+    "shortDefinition": "Guitar."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Gitarre, plural die Gitarren.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Gitarre"
+        },
+        {
+          "label": "More than one",
+          "value": "die Gitarren"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich spiele Gitarre.",
+      "english": "I play the guitar.",
+      "highlight": [
+        "Gitarre."
+      ]
+    },
+    {
+      "german": "Er nimmt Gitarrenunterricht.",
+      "english": "He's taking guitar lessons.",
+      "highlight": [
+        "Gitarrenunterricht."
+      ]
+    },
+    {
+      "german": "Die Gitarre ist zu laut.",
+      "english": "The guitar is too loud.",
+      "highlight": [
+        "Gitarre"
+      ]
+    }
+  ],
+  "forms": [
+    "Gitarren",
+    "die Gitarren",
+    "die Gitarre"
+  ],
+  "memoryHook": "Ich spiele Gitarre (no article). Spelled with G-i.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Gitarre",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Gitarre is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Gitarre, zwei ___",
+      "answer": "Gitarren",
+      "fullAnswer": "ein Gitarre, zwei Gitarren",
+      "explanation": "The plural is Gitarren.",
+      "acceptedAnswers": [
+        "Gitarren"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Gitarre mean?",
+      "options": [
+        "to sleep",
+        "never",
+        "guitar"
+      ],
+      "answer": "guitar",
+      "explanation": "Gitarre: guitar.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'I play the guitar':",
+      "options": [
+        "Ich spiele Gitarre.",
+        "Ich spiele die Gitarre."
+      ],
+      "answer": "Ich spiele Gitarre.",
+      "explanation": "No article for instruments.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Spelling:",
+      "options": [
+        "Gitarre",
+        "Guitarre"
+      ],
+      "answer": "Gitarre",
+      "explanation": "No u.",
+      "id": "q5"
+    }
+  ]
+}

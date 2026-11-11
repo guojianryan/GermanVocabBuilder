@@ -1,0 +1,180 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "überweisen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "ue-ber-VY-zen",
+      "ipa": "yːbɐˈvaɪ̯zn̩",
+      "notes": ""
+    },
+    "meaning": "to transfer (money)",
+    "shortDefinition": "To transfer (money)."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "über",
+        "meaning": "over, across"
+      },
+      {
+        "part": "weisen",
+        "meaning": "to direct, to show"
+      }
+    ],
+    "literalMeaning": "to direct across"
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "überweis|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "überweis|t"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "überweis|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "überweis|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "überweis|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "überweis|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat überwiesen",
+        "Not separable; past: hat überwiesen."
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "die Überweisung",
+      "english": "bank transfer; referral",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Bitte überweisen Sie den Betrag bis Montag.",
+      "english": "Please transfer the amount by Monday.",
+      "highlight": [
+        "überweisen"
+      ]
+    },
+    {
+      "german": "Ich habe dir das Geld überwiesen.",
+      "english": "I've transferred the money to you.",
+      "highlight": [
+        "überwiesen."
+      ]
+    },
+    {
+      "german": "Ich überweise die Miete jeden Monat.",
+      "english": "I transfer the rent every month.",
+      "highlight": [
+        "überweise"
+      ]
+    }
+  ],
+  "forms": [
+    "überweise",
+    "überweist",
+    "überweisen",
+    "überwiesen"
+  ],
+  "memoryHook": "Überweisen = transfer money (no ge-: hat überwiesen). Die Überweisung = transfer; also a doctor's referral.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (überweisen)",
+      "answer": "überweist",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: überweist.",
+      "acceptedAnswers": [
+        "ueberweist"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (überweisen, past)",
+      "answer": "überwiesen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe überwiesen.",
+      "acceptedAnswers": [
+        "ueberwiesen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does überweisen mean?",
+      "options": [
+        "to transfer (money)",
+        "quiet",
+        "the bread"
+      ],
+      "answer": "to transfer (money)",
+      "explanation": "überweisen: to transfer (money).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Die Überweisung is…",
+      "options": [
+        "a bank transfer",
+        "a referral (only)"
+      ],
+      "answer": "a bank transfer",
+      "explanation": "Also a doctor's referral.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Past participle:",
+      "options": [
+        "überwiesen",
+        "überweist",
+        "übergewiesen"
+      ],
+      "answer": "überwiesen",
+      "explanation": "Not separable, irregular.",
+      "id": "q5"
+    }
+  ]
+}

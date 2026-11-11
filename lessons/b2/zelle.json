@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Zelle",
+    "partOfSpeech": "noun, feminine (die Zelle)",
+    "pronunciation": {
+      "respelling": "TSEL-e",
+      "ipa": "ˈtsɛlə",
+      "notes": "Plural: die Zellen."
+    },
+    "meaning": "cell",
+    "shortDefinition": "Cell."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Zelle, plural die Zellen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Zelle"
+        },
+        {
+          "label": "More than one",
+          "value": "die Zellen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Körper besteht aus Zellen.",
+      "english": "The body is made up of cells.",
+      "highlight": [
+        "Zellen."
+      ]
+    },
+    {
+      "german": "Der Gefangene sitzt in seiner Zelle.",
+      "english": "The prisoner sits in his cell.",
+      "highlight": [
+        "Zelle."
+      ]
+    },
+    {
+      "german": "Früher gab es überall Telefonzellen.",
+      "english": "There used to be phone boxes everywhere.",
+      "highlight": [
+        "Telefonzellen."
+      ]
+    }
+  ],
+  "forms": [
+    "Telefonzelle"
+  ],
+  "memoryHook": "Die Zelle (cell; Telefonzelle).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Zelle",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Zelle is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Zelle, zwei ___",
+      "answer": "Zellen",
+      "fullAnswer": "ein Zelle, zwei Zellen",
+      "explanation": "The plural is Zellen.",
+      "acceptedAnswers": [
+        "Zellen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Zelle mean?",
+      "options": [
+        "slowly",
+        "always",
+        "cell"
+      ],
+      "answer": "cell",
+      "explanation": "Zelle: cell.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Phone box:",
+      "options": [
+        "die Telefonzelle",
+        "das Telefonhaus"
+      ],
+      "answer": "die Telefonzelle",
+      "explanation": "Compound.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Z sounds like…",
+      "options": [
+        "ts",
+        "s"
+      ],
+      "answer": "ts",
+      "explanation": "TSEL-e.",
+      "id": "q5"
+    }
+  ]
+}

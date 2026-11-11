@@ -1,0 +1,165 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "wechseln",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "VEK-seln",
+      "ipa": "ˈvɛksl̩n",
+      "notes": ""
+    },
+    "meaning": "to change, exchange",
+    "shortDefinition": "To change, exchange."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "wechsl|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "wechsel|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "wechsel|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "wechsel|n"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "wechsel|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "wechsel|n"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gewechselt"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "ändern",
+      "english": "to change, alter",
+      "type": "verb"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wo kann ich Geld wechseln?",
+      "english": "Where can I change money?",
+      "highlight": [
+        "wechseln?"
+      ]
+    },
+    {
+      "german": "Ich muss die Batterie wechseln.",
+      "english": "I need to change the battery.",
+      "highlight": [
+        "wechseln."
+      ]
+    },
+    {
+      "german": "Er hat den Job gewechselt.",
+      "english": "He changed jobs.",
+      "highlight": [
+        "gewechselt."
+      ]
+    }
+  ],
+  "forms": [
+    "wechsle",
+    "wechselst",
+    "wechselt",
+    "wechseln",
+    "gewechselt"
+  ],
+  "memoryHook": "Wechseln = swap for another (money, job, tyres). Ändern = alter.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (wechseln)",
+      "answer": "wechselt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: wechselt.",
+      "acceptedAnswers": [
+        "wechselt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (wechseln, past)",
+      "answer": "gewechselt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gewechselt.",
+      "acceptedAnswers": [
+        "gewechselt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does wechseln mean?",
+      "options": [
+        "to sleep",
+        "to sing",
+        "to change"
+      ],
+      "answer": "to change",
+      "explanation": "wechseln: to change, exchange.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Change something for another:",
+      "options": [
+        "wechseln",
+        "ändern"
+      ],
+      "answer": "wechseln",
+      "explanation": "Replace.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich-form:",
+      "options": [
+        "wechsle",
+        "wechsel"
+      ],
+      "answer": "wechsle",
+      "explanation": "The e drops.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Aktiengesellschaft",
+    "partOfSpeech": "noun, feminine (die Aktiengesellschaft)",
+    "pronunciation": {
+      "respelling": "AK-tsyen-ge-zel-shaft",
+      "ipa": "ˈaktsi̯ənɡəˌzɛlʃaft",
+      "notes": "Plural: die Aktiengesellschaften."
+    },
+    "meaning": "public limited company (AG)",
+    "shortDefinition": "Public limited company (AG)."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Aktien",
+        "meaning": "shares"
+      },
+      {
+        "part": "gesellschaft",
+        "meaning": "company"
+      }
+    ],
+    "literalMeaning": "share company"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Aktiengesellschaft, plural die Aktiengesellschaften.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Aktiengesellschaft"
+        },
+        {
+          "label": "More than one",
+          "value": "die Aktiengesellschaften"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Firma ist eine Aktiengesellschaft.",
+      "english": "The firm is a public limited company.",
+      "highlight": [
+        "Aktiengesellschaft."
+      ]
+    },
+    {
+      "german": "Siemens AG ist eine Aktiengesellschaft.",
+      "english": "Siemens AG is a public company.",
+      "highlight": [
+        "Aktiengesellschaft."
+      ]
+    },
+    {
+      "german": "Die Aktiengesellschaft geht an die Börse.",
+      "english": "The company is going public.",
+      "highlight": [
+        "Aktiengesellschaft"
+      ]
+    }
+  ],
+  "forms": [
+    "AG",
+    "Aktie"
+  ],
+  "memoryHook": "Aktien + Gesellschaft = AG (public limited company).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Aktiengesellschaft",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Aktiengesellschaft is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Aktiengesellschaft, zwei ___",
+      "answer": "Aktiengesellschaften",
+      "fullAnswer": "ein Aktiengesellschaft, zwei Aktiengesellschaften",
+      "explanation": "The plural is Aktiengesellschaften.",
+      "acceptedAnswers": [
+        "Aktiengesellschaften"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Aktiengesellschaft mean?",
+      "options": [
+        "to sing",
+        "the bill",
+        "public limited company (AG)"
+      ],
+      "answer": "public limited company (AG)",
+      "explanation": "Aktiengesellschaft: public limited company (AG).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Abbreviation:",
+      "options": [
+        "AG",
+        "GmbH"
+      ],
+      "answer": "AG",
+      "explanation": "AG.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Aktien (shares) + Gesellschaft",
+        "Aktion + Gesellschaft"
+      ],
+      "answer": "Aktien (shares) + Gesellschaft",
+      "explanation": "Share company.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Smaller company type:",
+      "options": [
+        "GmbH (limited company)",
+        "AG"
+      ],
+      "answer": "GmbH (limited company)",
+      "explanation": "Limited.",
+      "id": "q6"
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "staubsaugen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "SHTOWP-zow-gen",
+      "ipa": "ˈʃtaʊ̯pˌzaʊ̯ɡn̩",
+      "notes": ""
+    },
+    "meaning": "to vacuum, hoover",
+    "shortDefinition": "To vacuum, hoover."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "staub",
+        "meaning": "dust"
+      },
+      {
+        "part": "saug",
+        "meaning": "suck"
+      },
+      {
+        "part": "en",
+        "meaning": "verb ending"
+      }
+    ],
+    "literalMeaning": "dust-suck",
+    "summary": "Sucking up the dust."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "staubsaug|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "staubsaug|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "staubsaug|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "staubsaug|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "staubsaug|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "staubsaug|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gestaubsaugt"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich staubsauge das Wohnzimmer.",
+      "english": "I'm vacuuming the living room.",
+      "highlight": [
+        "staubsauge"
+      ]
+    },
+    {
+      "german": "Hast du schon gestaubsaugt?",
+      "english": "Have you vacuumed yet?",
+      "highlight": [
+        "gestaubsaugt?"
+      ]
+    },
+    {
+      "german": "Am Samstag sauge ich Staub.",
+      "english": "I vacuum on Saturdays.",
+      "highlight": [
+        "sauge",
+        "Staub."
+      ]
+    }
+  ],
+  "forms": [
+    "Staub saugen",
+    "Staubsauger"
+  ],
+  "memoryHook": "Staub + saugen (suck) = vacuum. Der Staubsauger.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (staubsaugen)",
+      "answer": "staubsaugt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: staubsaugt.",
+      "acceptedAnswers": [
+        "staubsaugt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (staubsaugen, past)",
+      "answer": "gestaubsaugt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gestaubsaugt.",
+      "acceptedAnswers": [
+        "gestaubsaugt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does staubsaugen mean?",
+      "options": [
+        "to travel",
+        "expensive",
+        "to vacuum"
+      ],
+      "answer": "to vacuum",
+      "explanation": "staubsaugen: to vacuum, hoover.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Two correct ways:",
+      "options": [
+        "ich staubsauge / ich sauge Staub",
+        "only ich sauge Staub"
+      ],
+      "answer": "ich staubsauge / ich sauge Staub",
+      "explanation": "Both.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "The machine:",
+      "options": [
+        "der Staubsauger",
+        "die Staubmaschine"
+      ],
+      "answer": "der Staubsauger",
+      "explanation": "Vacuum cleaner.",
+      "id": "q5"
+    }
+  ]
+}

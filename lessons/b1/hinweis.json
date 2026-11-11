@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Hinweis",
+    "partOfSpeech": "noun, masculine (der Hinweis)",
+    "pronunciation": {
+      "respelling": "HIN-vise",
+      "ipa": "ˈhɪnvaɪ̯s",
+      "notes": "Plural: die Hinweise."
+    },
+    "meaning": "hint, tip; note",
+    "shortDefinition": "Hint, tip; note."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Hin",
+        "meaning": "there"
+      },
+      {
+        "part": "weis",
+        "meaning": "show (weisen)"
+      }
+    ],
+    "literalMeaning": "a showing there"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Hinweis, plural die Hinweise.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Hinweis"
+        },
+        {
+          "label": "More than one",
+          "value": "die Hinweise"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Danke für den Hinweis.",
+      "english": "Thanks for the tip.",
+      "highlight": [
+        "Hinweis."
+      ]
+    },
+    {
+      "german": "Die Polizei bittet um Hinweise.",
+      "english": "The police are asking for information.",
+      "highlight": [
+        "Hinweise."
+      ]
+    },
+    {
+      "german": "Bitte beachten Sie die Hinweise.",
+      "english": "Please note the instructions.",
+      "highlight": [
+        "Hinweise."
+      ]
+    }
+  ],
+  "forms": [
+    "hinweisen"
+  ],
+  "memoryHook": "Hinweisen → der Hinweis (tip, note).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Hinweis",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Hinweis is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Hinweis, zwei ___",
+      "answer": "Hinweise",
+      "fullAnswer": "ein Hinweis, zwei Hinweise",
+      "explanation": "The plural is Hinweise.",
+      "acceptedAnswers": [
+        "Hinweise"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Hinweis mean?",
+      "options": [
+        "hint",
+        "to help",
+        "the street"
+      ],
+      "answer": "hint",
+      "explanation": "Hinweis: hint, tip; note.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Verb:",
+      "options": [
+        "hinweisen (auf)",
+        "hinwiesen"
+      ],
+      "answer": "hinweisen (auf)",
+      "explanation": "Point out.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "hin (there) + Weis (show)",
+        "hin + weiß"
+      ],
+      "answer": "hin (there) + Weis (show)",
+      "explanation": "Pointing there.",
+      "id": "q5"
+    }
+  ]
+}

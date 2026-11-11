@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "U-Bahn",
+    "partOfSpeech": "noun, feminine (die U-Bahn)",
+    "pronunciation": {
+      "respelling": "OO-baan",
+      "ipa": "ˈuːbaːn",
+      "notes": "Plural: die U-Bahnen."
+    },
+    "meaning": "underground, subway",
+    "shortDefinition": "Underground, subway."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die U-Bahn, plural die U-Bahnen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die U-Bahn"
+        },
+        {
+          "label": "More than one",
+          "value": "die U-Bahnen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich fahre mit der U-Bahn zur Arbeit.",
+      "english": "I take the underground to work.",
+      "highlight": [
+        "U-Bahn"
+      ]
+    },
+    {
+      "german": "Die U-Bahn kommt alle fünf Minuten.",
+      "english": "The tube comes every five minutes.",
+      "highlight": [
+        "U-Bahn"
+      ]
+    },
+    {
+      "german": "Wo ist die nächste U-Bahn-Station?",
+      "english": "Where's the nearest underground station?",
+      "highlight": [
+        "U-Bahn-Station?"
+      ]
+    }
+  ],
+  "forms": [
+    "U-Bahn-Station"
+  ],
+  "memoryHook": "U-Bahn (underground), S-Bahn (suburban rail), Straßenbahn (tram).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ U-Bahn",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "U-Bahn is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein U-Bahn, zwei ___",
+      "answer": "U-Bahnen",
+      "fullAnswer": "ein U-Bahn, zwei U-Bahnen",
+      "explanation": "The plural is U-Bahnen.",
+      "acceptedAnswers": [
+        "U-Bahnen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does U-Bahn mean?",
+      "options": [
+        "underground",
+        "to buy",
+        "the bread"
+      ],
+      "answer": "underground",
+      "explanation": "U-Bahn: underground, subway.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "U stands for…",
+      "options": [
+        "Untergrund",
+        "Umwelt"
+      ],
+      "answer": "Untergrund",
+      "explanation": "Underground.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Suburban train:",
+      "options": [
+        "die S-Bahn",
+        "die O-Bahn"
+      ],
+      "answer": "die S-Bahn",
+      "explanation": "Schnellbahn.",
+      "id": "q5"
+    }
+  ]
+}

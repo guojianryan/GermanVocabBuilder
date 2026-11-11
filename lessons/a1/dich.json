@@ -1,0 +1,147 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "dich",
+    "partOfSpeech": "pronoun (accusative of du)",
+    "pronunciation": {
+      "respelling": "DIKH",
+      "ipa": "dɪç",
+      "notes": ""
+    },
+    "meaning": "you (as the object, informal)",
+    "shortDefinition": "You (as the object, informal)."
+  },
+  "tables": [
+    {
+      "title": "du in three forms",
+      "columns": [
+        "form",
+        "example"
+      ],
+      "rows": [
+        {
+          "label": "subject",
+          "cells": [
+            "d|u",
+            "Du bist nett."
+          ]
+        },
+        {
+          "label": "accusative",
+          "cells": [
+            "d|ich",
+            "Ich sehe dich."
+          ]
+        },
+        {
+          "label": "dative",
+          "cells": [
+            "d|ir",
+            "Ich helfe dir."
+          ]
+        }
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "du",
+      "english": "you",
+      "type": "pronoun"
+    },
+    {
+      "german": "dir",
+      "english": "(to) you, dative",
+      "type": "pronoun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich liebe dich.",
+      "english": "I love you.",
+      "highlight": [
+        "dich."
+      ]
+    },
+    {
+      "german": "Ich rufe dich morgen an.",
+      "english": "I'll call you tomorrow.",
+      "highlight": [
+        "dich"
+      ]
+    },
+    {
+      "german": "Freust du dich?",
+      "english": "Are you pleased?",
+      "highlight": [
+        "dich?"
+      ]
+    }
+  ],
+  "forms": [],
+  "memoryHook": "Du → dich (accusative) → dir (dative). Same pattern as ich → mich → mir.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does dich mean?",
+      "options": [
+        "the door",
+        "you (as the object",
+        "the family"
+      ],
+      "answer": "you (as the object",
+      "explanation": "dich: you (as the object, informal).",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich sehe ___. (you)",
+      "options": [
+        "dich",
+        "dir"
+      ],
+      "answer": "dich",
+      "explanation": "Sehen + accusative: dich.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich helfe ___. (you)",
+      "options": [
+        "dich",
+        "dir"
+      ],
+      "answer": "dir",
+      "explanation": "Helfen takes the dative: dir.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Das ist für ___. (you)",
+      "options": [
+        "dich",
+        "dir"
+      ],
+      "answer": "dich",
+      "explanation": "Für + accusative: dich.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "du → dich is like…",
+      "options": [
+        "ich → mich",
+        "ich → mir"
+      ],
+      "answer": "ich → mich",
+      "explanation": "Accusative: mich, dich.",
+      "id": "q5"
+    }
+  ]
+}

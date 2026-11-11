@@ -1,0 +1,104 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "elektrisch",
+    "partOfSpeech": "adjective",
+    "pronunciation": {
+      "respelling": "e-LEK-trish",
+      "ipa": "eˈlɛktʁɪʃ",
+      "notes": ""
+    },
+    "meaning": "electric(al)",
+    "shortDefinition": "Electric(al)."
+  },
+  "sampleSentences": [
+    {
+      "german": "Ich fahre ein elektrisches Auto.",
+      "english": "I drive an electric car.",
+      "highlight": [
+        "elektrisches"
+      ]
+    },
+    {
+      "german": "Das Gerät ist elektrisch.",
+      "english": "The device is electric.",
+      "highlight": [
+        "elektrisch."
+      ]
+    },
+    {
+      "german": "Die elektrische Zahnbürste ist kaputt.",
+      "english": "The electric toothbrush is broken.",
+      "highlight": [
+        "elektrische"
+      ]
+    }
+  ],
+  "forms": [
+    "Elektro-",
+    "E-Auto",
+    "Elektriker"
+  ],
+  "memoryHook": "Elektrisch = electric. Strom = electricity. Elektro- in compounds.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does elektrisch mean?",
+      "options": [
+        "the car",
+        "electric(al)",
+        "the flower"
+      ],
+      "answer": "electric(al)",
+      "explanation": "elektrisch: electric(al).",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "An electric car (short):",
+      "options": [
+        "das E-Auto",
+        "das Elektroauto (also)"
+      ],
+      "answer": "das E-Auto",
+      "explanation": "Both used.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Electricity:",
+      "options": [
+        "der Strom / die Elektrizität",
+        "die Elektrik only"
+      ],
+      "answer": "der Strom / die Elektrizität",
+      "explanation": "Strom.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "An electrician:",
+      "options": [
+        "der Elektriker",
+        "der Elektrist"
+      ],
+      "answer": "der Elektriker",
+      "explanation": "Elektriker.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Das Fahrrad ist ___ . (electric)",
+      "answer": "elektrisch",
+      "fullAnswer": "Das Fahrrad ist elektrisch.",
+      "explanation": "Elektrisch.",
+      "id": "q5"
+    }
+  ]
+}

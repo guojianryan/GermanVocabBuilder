@@ -1,0 +1,135 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Jurist",
+    "partOfSpeech": "noun, masculine (der Jurist)",
+    "pronunciation": {
+      "respelling": "yoo-RIST",
+      "ipa": "juˈʁɪst",
+      "notes": "Plural: die Juristen."
+    },
+    "meaning": "lawyer, jurist; law student",
+    "shortDefinition": "Lawyer, jurist; law student."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Jurist, plural die Juristen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Jurist"
+        },
+        {
+          "label": "More than one",
+          "value": "die Juristen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er ist Jurist bei einer Bank.",
+      "english": "He's a lawyer at a bank.",
+      "highlight": [
+        "Jurist"
+      ]
+    },
+    {
+      "german": "Sie ist Juristin.",
+      "english": "She's a lawyer.",
+      "highlight": [
+        "Juristin."
+      ]
+    },
+    {
+      "german": "Juristen sind sich uneinig.",
+      "english": "Legal experts disagree.",
+      "highlight": [
+        "Juristen"
+      ]
+    }
+  ],
+  "forms": [
+    "Juristin",
+    "Jura",
+    "juristisch"
+  ],
+  "memoryHook": "Der Jurist (weak); Jura; juristisch.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Jurist",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Jurist is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Jurist, zwei ___",
+      "answer": "Juristen",
+      "fullAnswer": "ein Jurist, zwei Juristen",
+      "explanation": "The plural is Juristen.",
+      "acceptedAnswers": [
+        "Juristen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Jurist mean?",
+      "options": [
+        "the street",
+        "lawyer",
+        "hot"
+      ],
+      "answer": "lawyer",
+      "explanation": "Jurist: lawyer, jurist; law student.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Weak noun: den/dem…",
+      "options": [
+        "Juristen",
+        "Jurist"
+      ],
+      "answer": "Juristen",
+      "explanation": "-ist = weak.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Jurist vs Anwalt:",
+      "options": [
+        "any law graduate vs practising lawyer",
+        "same"
+      ],
+      "answer": "any law graduate vs practising lawyer",
+      "explanation": "Nuance.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Law (subject):",
+      "options": [
+        "Jura",
+        "die Juristik"
+      ],
+      "answer": "Jura",
+      "explanation": "Studying law.",
+      "id": "q6"
+    }
+  ]
+}

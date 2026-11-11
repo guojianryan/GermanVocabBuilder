@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Strand",
+    "partOfSpeech": "noun, masculine (der Strand)",
+    "pronunciation": {
+      "respelling": "SHTRANT",
+      "ipa": "ʃtʁant",
+      "notes": "Plural: die Strände."
+    },
+    "meaning": "beach",
+    "shortDefinition": "Beach."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Strand, plural die Strände.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Strand"
+        },
+        {
+          "label": "More than one",
+          "value": "die Strände"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir liegen den ganzen Tag am Strand.",
+      "english": "We lie on the beach all day.",
+      "highlight": [
+        "Strand."
+      ]
+    },
+    {
+      "german": "Der Strand ist sehr voll.",
+      "english": "The beach is very crowded.",
+      "highlight": [
+        "Strand"
+      ]
+    },
+    {
+      "german": "Gehen wir an den Strand!",
+      "english": "Let's go to the beach!",
+      "highlight": [
+        "Strand!"
+      ]
+    }
+  ],
+  "forms": [
+    "Strände",
+    "die Strände",
+    "der Strand"
+  ],
+  "memoryHook": "Der Strand: am Strand (at), an den Strand (to).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Strand",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Strand is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Strand, zwei ___",
+      "answer": "Strände",
+      "fullAnswer": "ein Strand, zwei Strände",
+      "explanation": "The plural is Strände.",
+      "acceptedAnswers": [
+        "Straende"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Strand mean?",
+      "options": [
+        "beach",
+        "the weather",
+        "the station"
+      ],
+      "answer": "beach",
+      "explanation": "Strand: beach.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'On the beach':",
+      "options": [
+        "am Strand",
+        "auf dem Strand"
+      ],
+      "answer": "am Strand",
+      "explanation": "Am.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'To the beach':",
+      "options": [
+        "an den Strand",
+        "zum Strand only"
+      ],
+      "answer": "an den Strand",
+      "explanation": "Accusative.",
+      "id": "q5"
+    }
+  ]
+}

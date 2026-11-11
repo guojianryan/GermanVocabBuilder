@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Mister",
+    "partOfSpeech": "noun, masculine (der Mister)",
+    "pronunciation": {
+      "respelling": "MIS-ter",
+      "ipa": "ˈmɪstɐ",
+      "notes": "The plural looks the same. Plural: die Mister."
+    },
+    "meaning": "Mister, Mr (also: winner of a male beauty contest)",
+    "shortDefinition": "Mister, Mr (also: winner of a male beauty contest)."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Mister, plural die Mister.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Mister"
+        },
+        {
+          "label": "More than one",
+          "value": "die Mister"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Mister Smith ist hier.",
+      "english": "Mr Smith is here.",
+      "highlight": [
+        "Mister"
+      ]
+    },
+    {
+      "german": "Er wurde Mister Germany.",
+      "english": "He became Mister Germany.",
+      "highlight": [
+        "Mister"
+      ]
+    },
+    {
+      "german": "Hallo, Mister!",
+      "english": "Hello, mister!",
+      "highlight": [
+        "Mister!"
+      ]
+    }
+  ],
+  "forms": [
+    "Mr."
+  ],
+  "memoryHook": "Mister (English) = Herr.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Mister",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Mister is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Mister, zwei ___",
+      "answer": "Mister",
+      "fullAnswer": "ein Mister, zwei Mister",
+      "explanation": "The plural is Mister.",
+      "acceptedAnswers": [
+        "Mister"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Mister mean?",
+      "options": [
+        "the flower",
+        "the child",
+        "Mister"
+      ],
+      "answer": "Mister",
+      "explanation": "Mister: Mister, Mr (also: winner of a male beauty contest).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "German equivalent:",
+      "options": [
+        "Herr",
+        "Mann"
+      ],
+      "answer": "Herr",
+      "explanation": "Herr Müller.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Mister is used…",
+      "options": [
+        "for English speakers or contests",
+        "for Germans"
+      ],
+      "answer": "for English speakers or contests",
+      "explanation": "Loan.",
+      "id": "q5"
+    }
+  ]
+}

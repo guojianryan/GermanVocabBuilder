@@ -1,0 +1,125 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "bezüglich",
+    "partOfSpeech": "preposition",
+    "pronunciation": {
+      "respelling": "be-TSÜK-likh",
+      "ipa": "bəˈtsyːklɪç",
+      "notes": ""
+    },
+    "meaning": "regarding, concerning",
+    "shortDefinition": "Regarding, concerning."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "be",
+        "meaning": "prefix"
+      },
+      {
+        "part": "züg",
+        "meaning": "draw (Zug)"
+      },
+      {
+        "part": "lich",
+        "meaning": "adjective ending"
+      }
+    ],
+    "literalMeaning": "relating to"
+  },
+  "sampleSentences": [
+    {
+      "german": "Bezüglich Ihrer Anfrage …",
+      "english": "Regarding your enquiry …",
+      "highlight": [
+        "Bezüglich"
+      ]
+    },
+    {
+      "german": "Haben Sie Fragen bezüglich des Vertrags?",
+      "english": "Do you have questions about the contract?",
+      "highlight": [
+        "bezüglich"
+      ]
+    },
+    {
+      "german": "Bezüglich der Kosten gibt es Neuigkeiten.",
+      "english": "There's news concerning the costs.",
+      "highlight": [
+        "Bezüglich"
+      ]
+    }
+  ],
+  "forms": [
+    "Bezug",
+    "bzgl."
+  ],
+  "memoryHook": "Bezug → bezüglich + Gen. (bzgl.) = regarding.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does bezüglich mean?",
+      "options": [
+        "regarding",
+        "the evening",
+        "to open"
+      ],
+      "answer": "regarding",
+      "explanation": "bezüglich: regarding, concerning.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Case:",
+      "options": [
+        "genitive",
+        "dative"
+      ],
+      "answer": "genitive",
+      "explanation": "Formal.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Abbreviation:",
+      "options": [
+        "bzgl.",
+        "bzw."
+      ],
+      "answer": "bzgl.",
+      "explanation": "Bzw. = beziehungsweise.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "der Bezug",
+        "der Zug"
+      ],
+      "answer": "der Bezug",
+      "explanation": "Reference.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "___ des Termins: Montag passt. (regarding)",
+      "answer": "Bezüglich",
+      "fullAnswer": "Bezüglich des Termins: Montag passt.",
+      "explanation": "Bezüglich.",
+      "acceptedAnswers": [
+        "Hinsichtlich",
+        "Wegen"
+      ],
+      "id": "q5"
+    }
+  ]
+}

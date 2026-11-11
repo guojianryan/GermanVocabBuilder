@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Tor",
+    "partOfSpeech": "noun, neuter (das Tor)",
+    "pronunciation": {
+      "respelling": "TOHR",
+      "ipa": "toːɐ̯",
+      "notes": "Plural: die Tore."
+    },
+    "meaning": "gate; goal",
+    "shortDefinition": "Gate; goal."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Tor, plural die Tore.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Tor"
+        },
+        {
+          "label": "More than one",
+          "value": "die Tore"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das Tor ist geschlossen.",
+      "english": "The gate is closed.",
+      "highlight": [
+        "Tor"
+      ]
+    },
+    {
+      "german": "Tor! Deutschland führt 1:0.",
+      "english": "Goal! Germany lead 1-0.",
+      "highlight": [
+        "Tor!"
+      ]
+    },
+    {
+      "german": "Das Brandenburger Tor ist in Berlin.",
+      "english": "The Brandenburg Gate is in Berlin.",
+      "highlight": [
+        "Tor"
+      ]
+    }
+  ],
+  "forms": [
+    "Tore",
+    "die Tore",
+    "das Tor"
+  ],
+  "memoryHook": "Das Tor: gate; goal (football).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Tor",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Tor is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Tor, zwei ___",
+      "answer": "Tore",
+      "fullAnswer": "ein Tor, zwei Tore",
+      "explanation": "The plural is Tore.",
+      "acceptedAnswers": [
+        "Tore"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Tor mean?",
+      "options": [
+        "gate",
+        "slowly",
+        "the shop"
+      ],
+      "answer": "gate",
+      "explanation": "Tor: gate; goal.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "In football, Tor means…",
+      "options": [
+        "goal",
+        "gate only"
+      ],
+      "answer": "goal",
+      "explanation": "Goal.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Der Tor (masculine) means…",
+      "options": [
+        "fool (old)",
+        "goal"
+      ],
+      "answer": "fool (old)",
+      "explanation": "Rare.",
+      "id": "q5"
+    }
+  ]
+}

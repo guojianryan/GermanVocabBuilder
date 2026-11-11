@@ -1,0 +1,140 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Bestellung",
+    "partOfSpeech": "noun, feminine (die Bestellung)",
+    "pronunciation": {
+      "respelling": "be-SHTEL-ung",
+      "ipa": "bəˈʃtɛlʊŋ",
+      "notes": "Plural: die Bestellungen."
+    },
+    "meaning": "order, reservation",
+    "shortDefinition": "Order, reservation."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Be",
+        "meaning": "prefix"
+      },
+      {
+        "part": "stell",
+        "meaning": "place (stellen)"
+      },
+      {
+        "part": "ung",
+        "meaning": "noun ending"
+      }
+    ],
+    "literalMeaning": "a placing (of an order)"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Bestellung, plural die Bestellungen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Bestellung"
+        },
+        {
+          "label": "More than one",
+          "value": "die Bestellungen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ihre Bestellung ist angekommen.",
+      "english": "Your order has arrived.",
+      "highlight": [
+        "Bestellung"
+      ]
+    },
+    {
+      "german": "Kann ich Ihre Bestellung aufnehmen?",
+      "english": "Can I take your order?",
+      "highlight": [
+        "Bestellung"
+      ]
+    },
+    {
+      "german": "Die Bestellung dauert drei Tage.",
+      "english": "The order takes three days.",
+      "highlight": [
+        "Bestellung"
+      ]
+    }
+  ],
+  "forms": [
+    "bestellen"
+  ],
+  "memoryHook": "Bestellen → die Bestellung.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Bestellung",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Bestellung is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Bestellung, zwei ___",
+      "answer": "Bestellungen",
+      "fullAnswer": "ein Bestellung, zwei Bestellungen",
+      "explanation": "The plural is Bestellungen.",
+      "acceptedAnswers": [
+        "Bestellungen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Bestellung mean?",
+      "options": [
+        "the family",
+        "order",
+        "cheap"
+      ],
+      "answer": "order",
+      "explanation": "Bestellung: order, reservation.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "bestellen",
+        "stellen only"
+      ],
+      "answer": "bestellen",
+      "explanation": "Order.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Eine Bestellung aufnehmen' means…",
+      "options": [
+        "to take an order",
+        "to record an order"
+      ],
+      "answer": "to take an order",
+      "explanation": "Waiter.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Franzose",
+    "partOfSpeech": "noun, masculine (der Franzose)",
+    "pronunciation": {
+      "respelling": "fran-TSOH-ze",
+      "ipa": "fʁanˈtsoːzə",
+      "notes": "Plural: die Franzosen."
+    },
+    "meaning": "Frenchman",
+    "shortDefinition": "Frenchman."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Franzose, plural die Franzosen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Franzose"
+        },
+        {
+          "label": "More than one",
+          "value": "die Franzosen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er ist Franzose.",
+      "english": "He's French.",
+      "highlight": [
+        "Franzose."
+      ]
+    },
+    {
+      "german": "Meine Nachbarin ist Französin.",
+      "english": "My neighbour is French.",
+      "highlight": [
+        "Französin."
+      ]
+    },
+    {
+      "german": "Die Franzosen essen spät.",
+      "english": "The French eat late.",
+      "highlight": [
+        "Franzosen"
+      ]
+    }
+  ],
+  "forms": [
+    "Französin",
+    "französisch"
+  ],
+  "memoryHook": "Der Franzose (weak), die Französin, französisch.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Franzose",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Franzose is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Franzose, zwei ___",
+      "answer": "Franzosen",
+      "fullAnswer": "ein Franzose, zwei Franzosen",
+      "explanation": "The plural is Franzosen.",
+      "acceptedAnswers": [
+        "Franzosen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Franzose mean?",
+      "options": [
+        "the station",
+        "always",
+        "Frenchman"
+      ],
+      "answer": "Frenchman",
+      "explanation": "Franzose: Frenchman.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Female:",
+      "options": [
+        "die Französin",
+        "die Franzosin"
+      ],
+      "answer": "die Französin",
+      "explanation": "With ö!",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Adjective:",
+      "options": [
+        "französisch",
+        "franzosisch"
+      ],
+      "answer": "französisch",
+      "explanation": "French.",
+      "id": "q5"
+    }
+  ]
+}

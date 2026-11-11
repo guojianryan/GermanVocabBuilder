@@ -1,0 +1,120 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "jetzig",
+    "partOfSpeech": "adjective",
+    "pronunciation": {
+      "respelling": "YET-sikh",
+      "ipa": "ˈjɛtsɪç",
+      "notes": ""
+    },
+    "meaning": "current, present",
+    "shortDefinition": "Current, present."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "jetz",
+        "meaning": "now (jetzt)"
+      },
+      {
+        "part": "ig",
+        "meaning": "adjective ending"
+      }
+    ],
+    "literalMeaning": "of now"
+  },
+  "sampleSentences": [
+    {
+      "german": "Die jetzige Situation ist schwierig.",
+      "english": "The current situation is difficult.",
+      "highlight": [
+        "jetzige"
+      ]
+    },
+    {
+      "german": "Mein jetziger Chef ist nett.",
+      "english": "My current boss is nice.",
+      "highlight": [
+        "jetziger"
+      ]
+    },
+    {
+      "german": "Zum jetzigen Zeitpunkt.",
+      "english": "At the present time.",
+      "highlight": [
+        "jetzigen"
+      ]
+    }
+  ],
+  "forms": [
+    "jetzt"
+  ],
+  "memoryHook": "Jetzt → jetzig (current) ↔ damalig.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does jetzig mean?",
+      "options": [
+        "always",
+        "the station",
+        "current"
+      ],
+      "answer": "current",
+      "explanation": "jetzig: current, present.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "jetzt (now)",
+        "jetzig only"
+      ],
+      "answer": "jetzt (now)",
+      "explanation": "Now.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Used…",
+      "options": [
+        "only before nouns",
+        "after sein"
+      ],
+      "answer": "only before nouns",
+      "explanation": "Attributive.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonyms:",
+      "options": [
+        "derzeitig, aktuell",
+        "damalig"
+      ],
+      "answer": "derzeitig, aktuell",
+      "explanation": "Current.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Die ___ Wohnung ist zu klein. (current)",
+      "answer": "jetzige",
+      "fullAnswer": "Die jetzige Wohnung ist zu klein.",
+      "explanation": "Jetzige.",
+      "acceptedAnswers": [
+        "aktuelle",
+        "derzeitige"
+      ],
+      "id": "q5"
+    }
+  ]
+}

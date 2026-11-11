@@ -1,0 +1,184 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "lächeln",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "LEKH-eln",
+      "ipa": "ˈlɛçl̩n",
+      "notes": ""
+    },
+    "meaning": "to smile",
+    "shortDefinition": "To smile."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "läch",
+        "meaning": "laugh (lachen)"
+      },
+      {
+        "part": "el",
+        "meaning": "a little (diminutive)"
+      },
+      {
+        "part": "n",
+        "meaning": "verb ending"
+      }
+    ],
+    "literalMeaning": "laugh a little",
+    "summary": "A smile is a small laugh."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "lächl|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "lächel|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "lächel|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "lächel|n"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "lächel|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "lächel|n"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gelächelt"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "das Lächeln",
+      "english": "smile",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Sie lächelt immer.",
+      "english": "She always smiles.",
+      "highlight": [
+        "lächelt"
+      ]
+    },
+    {
+      "german": "Bitte lächeln!",
+      "english": "Smile, please!",
+      "highlight": [
+        "lächeln!"
+      ]
+    },
+    {
+      "german": "Er hat mich freundlich angelächelt.",
+      "english": "He smiled at me in a friendly way.",
+      "highlight": [
+        "angelächelt."
+      ]
+    }
+  ],
+  "forms": [
+    "lächle",
+    "lächelst",
+    "lächelt",
+    "lächeln",
+    "gelächelt"
+  ],
+  "memoryHook": "Lachen (laugh) → lächeln (smile: a little laugh).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (lächeln)",
+      "answer": "lächelt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: lächelt.",
+      "acceptedAnswers": [
+        "laechelt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (lächeln, past)",
+      "answer": "gelächelt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gelächelt.",
+      "acceptedAnswers": [
+        "gelaechelt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does lächeln mean?",
+      "options": [
+        "the key",
+        "to wait",
+        "to smile"
+      ],
+      "answer": "to smile",
+      "explanation": "lächeln: to smile.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Lächeln vs lachen:",
+      "options": [
+        "lächeln = smile; lachen = laugh",
+        "same"
+      ],
+      "answer": "lächeln = smile; lachen = laugh",
+      "explanation": "Smile is the small laugh.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "ich ___ (lächeln):",
+      "options": [
+        "lächle",
+        "lächele only"
+      ],
+      "answer": "lächle",
+      "explanation": "-el verbs drop the e.",
+      "id": "q5"
+    }
+  ]
+}

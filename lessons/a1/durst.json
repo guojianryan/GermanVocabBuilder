@@ -1,0 +1,127 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Durst",
+    "partOfSpeech": "noun, masculine (der Durst)",
+    "pronunciation": {
+      "respelling": "DOORST",
+      "ipa": "dʊʁst",
+      "notes": "Usually no plural. Usually no plural."
+    },
+    "meaning": "thirst",
+    "shortDefinition": "Thirst."
+  },
+  "wordFamily": [
+    {
+      "german": "durstig",
+      "english": "thirsty",
+      "type": "adjective"
+    },
+    {
+      "german": "der Hunger",
+      "english": "hunger",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Durst, usually no plural.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Durst"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich habe Durst.",
+      "english": "I'm thirsty.",
+      "highlight": [
+        "Durst."
+      ]
+    },
+    {
+      "german": "Hast du Durst? Möchtest du Wasser?",
+      "english": "Are you thirsty? Would you like water?",
+      "highlight": [
+        "Durst?"
+      ]
+    },
+    {
+      "german": "Nach dem Sport habe ich großen Durst.",
+      "english": "After sport I'm very thirsty.",
+      "highlight": [
+        "Durst."
+      ]
+    }
+  ],
+  "forms": [
+    "der Durst"
+  ],
+  "memoryHook": "In German you 'have' thirst: Ich habe Durst. Same with hunger: Ich habe Hunger.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Durst",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Durst is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Durst mean?",
+      "options": [
+        "to sing",
+        "thirst",
+        "the key"
+      ],
+      "answer": "thirst",
+      "explanation": "Durst: thirst.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "'I'm thirsty' in German is…",
+      "options": [
+        "Ich habe Durst.",
+        "Ich bin Durst."
+      ],
+      "answer": "Ich habe Durst.",
+      "explanation": "German has thirst.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'I'm hungry' works the same way:",
+      "options": [
+        "Ich habe Hunger.",
+        "Ich bin Hunger."
+      ],
+      "answer": "Ich habe Hunger.",
+      "explanation": "Hunger haben.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Hast du ___? (Are you thirsty?)",
+      "answer": "Durst",
+      "fullAnswer": "Hast du Durst?",
+      "explanation": "Durst haben.",
+      "id": "q5"
+    }
+  ]
+}

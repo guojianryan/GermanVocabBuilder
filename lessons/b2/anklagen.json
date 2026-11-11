@@ -1,0 +1,181 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "anklagen",
+    "partOfSpeech": "separable verb",
+    "pronunciation": {
+      "respelling": "AN-klaa-gen",
+      "ipa": "ˈanˌklaːɡn̩",
+      "notes": ""
+    },
+    "meaning": "to accuse, charge",
+    "shortDefinition": "To accuse, charge."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "an",
+        "meaning": "against"
+      },
+      {
+        "part": "klagen",
+        "meaning": "to complain, sue"
+      }
+    ],
+    "literalMeaning": "to complain against"
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "klag|e … |an"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "klag|st … |an"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "klag|t … |an"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "klag|en … |an"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "klag|t … |an"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "klag|en … |an"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat angeklagt"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er wurde wegen Mordes angeklagt.",
+      "english": "He was charged with murder.",
+      "highlight": [
+        "angeklagt."
+      ]
+    },
+    {
+      "german": "Sie klagt die Regierung an.",
+      "english": "She's accusing the government.",
+      "highlight": [
+        "klagt",
+        "an."
+      ]
+    },
+    {
+      "german": "Der Angeklagte schweigt.",
+      "english": "The defendant remains silent.",
+      "highlight": [
+        "Angeklagte"
+      ]
+    }
+  ],
+  "forms": [
+    "Anklage",
+    "Angeklagte"
+  ],
+  "memoryHook": "Anklagen (wegen) = charge; die Anklage; der/die Angeklagte.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ … an (anklagen)",
+      "answer": "klagt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: klagt … an.",
+      "acceptedAnswers": [
+        "klagt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (anklagen, past)",
+      "answer": "angeklagt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe angeklagt.",
+      "acceptedAnswers": [
+        "angeklagt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does anklagen mean?",
+      "options": [
+        "hot",
+        "to accuse",
+        "to sing"
+      ],
+      "answer": "to accuse",
+      "explanation": "anklagen: to accuse, charge.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Defendant:",
+      "options": [
+        "der/die Angeklagte",
+        "der Ankläger"
+      ],
+      "answer": "der/die Angeklagte",
+      "explanation": "Accused.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Noun (indictment):",
+      "options": [
+        "die Anklage",
+        "die Klage only"
+      ],
+      "answer": "die Anklage",
+      "explanation": "Charge.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Anklagen wegen' + …",
+      "options": [
+        "genitive (wegen Mordes)",
+        "accusative"
+      ],
+      "answer": "genitive (wegen Mordes)",
+      "explanation": "Wegen.",
+      "id": "q6"
+    }
+  ]
+}

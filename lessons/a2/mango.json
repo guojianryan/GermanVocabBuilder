@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Momente A2.2 Kursbuch Glossar",
+  "lessonType": "card",
+  "word": {
+    "headword": "Mango",
+    "partOfSpeech": "noun, feminine (die Mango)",
+    "pronunciation": {
+      "respelling": "MANG-go",
+      "ipa": "ˈmaŋɡo",
+      "notes": "Plural: die Mangos."
+    },
+    "meaning": "mango",
+    "shortDefinition": "Mango."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Mango, plural die Mangos.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Mango"
+        },
+        {
+          "label": "More than one",
+          "value": "die Mangos"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Mango ist reif.",
+      "english": "The mango is ripe.",
+      "highlight": [
+        "Mango"
+      ]
+    },
+    {
+      "german": "Ich mache einen Mango-Smoothie.",
+      "english": "I'm making a mango smoothie.",
+      "highlight": [
+        "Mango-Smoothie."
+      ]
+    },
+    {
+      "german": "Mangos kommen aus warmen Ländern.",
+      "english": "Mangos come from warm countries.",
+      "highlight": [
+        "Mangos"
+      ]
+    }
+  ],
+  "forms": [
+    "Mangos",
+    "die Mangos",
+    "die Mango"
+  ],
+  "memoryHook": "Die Mango, die Mangos.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Mango",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Mango is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Mango, zwei ___",
+      "answer": "Mangos",
+      "fullAnswer": "ein Mango, zwei Mangos",
+      "explanation": "The plural is Mangos.",
+      "acceptedAnswers": [
+        "Mangos"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Mango mean?",
+      "options": [
+        "hot",
+        "mango",
+        "the street"
+      ],
+      "answer": "mango",
+      "explanation": "Mango: mango.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gender:",
+      "options": [
+        "die",
+        "der"
+      ],
+      "answer": "die",
+      "explanation": "Die Mango.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Mangos",
+        "Mangen"
+      ],
+      "answer": "Mangos",
+      "explanation": "-s.",
+      "id": "q5"
+    }
+  ]
+}

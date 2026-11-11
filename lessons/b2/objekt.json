@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Objekt",
+    "partOfSpeech": "noun, neuter (das Objekt)",
+    "pronunciation": {
+      "respelling": "op-YEKT",
+      "ipa": "ɔpˈjɛkt",
+      "notes": "Plural: die Objekte."
+    },
+    "meaning": "object; property",
+    "shortDefinition": "Object; property."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Objekt, plural die Objekte.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Objekt"
+        },
+        {
+          "label": "More than one",
+          "value": "die Objekte"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das Museum zeigt seltene Objekte.",
+      "english": "The museum shows rare objects.",
+      "highlight": [
+        "Objekte."
+      ]
+    },
+    {
+      "german": "Im Satz ist 'den Hund' das Objekt.",
+      "english": "In the sentence 'den Hund' is the object.",
+      "highlight": [
+        "Objekt."
+      ]
+    },
+    {
+      "german": "Das Objekt liegt in guter Lage.",
+      "english": "The property is in a good location.",
+      "highlight": [
+        "Objekt"
+      ]
+    }
+  ],
+  "forms": [
+    "objektiv"
+  ],
+  "memoryHook": "Das Objekt; objektiv ↔ subjektiv.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Objekt",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Objekt is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Objekt, zwei ___",
+      "answer": "Objekte",
+      "fullAnswer": "ein Objekt, zwei Objekte",
+      "explanation": "The plural is Objekte.",
+      "acceptedAnswers": [
+        "Objekte"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Objekt mean?",
+      "options": [
+        "the child",
+        "object",
+        "always"
+      ],
+      "answer": "object",
+      "explanation": "Objekt: object; property.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Adjective:",
+      "options": [
+        "objektiv",
+        "objektisch"
+      ],
+      "answer": "objektiv",
+      "explanation": "Objective.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Opposite (grammar):",
+      "options": [
+        "das Subjekt",
+        "das Prädikat"
+      ],
+      "answer": "das Subjekt",
+      "explanation": "Subject.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+ "schemaVersion": "1.4",
+ "language": "de",
+ "explanationLanguage": "en",
+ "level": "B1",
+ "levelSource": "Goethe-Zertifikat B1 Wortliste",
+ "lessonType": "card",
+ "word": {
+  "headword": "Motorrad",
+  "partOfSpeech": "noun, neuter (das Motorrad)",
+  "pronunciation": {
+   "respelling": "MOH-tor-raat",
+   "ipa": "ˈmoːtoːɐ̯ˌʁaːt",
+   "notes": "Plural: die Motorräder."
+  },
+  "meaning": "motorbike",
+  "shortDefinition": "Motorbike."
+ },
+ "commonMistakes": [
+  {
+   "title": "Gender and plural",
+   "explanation": "Das Motorrad, plural die Motorräder.",
+   "forms": [
+    {
+     "label": "One",
+     "value": "das Motorrad"
+    },
+    {
+     "label": "More than one",
+     "value": "die Motorräder"
+    }
+   ]
+  }
+ ],
+ "sampleSentences": [
+  {
+   "german": "Er fährt Motorrad.",
+   "english": "He rides a motorbike.",
+   "highlight": [
+    "Motorrad."
+   ]
+  },
+  {
+   "german": "Das Motorrad ist laut.",
+   "english": "The motorbike is loud.",
+   "highlight": [
+    "Motorrad"
+   ]
+  },
+  {
+   "german": "Ich mache den Motorradführerschein.",
+   "english": "I'm getting my motorbike licence.",
+   "highlight": [
+    "Motorradführerschein."
+   ]
+  }
+ ],
+ "forms": [
+  "Motorräder",
+  "die Motorräder",
+  "das Motorrad"
+ ],
+ "memoryHook": "Motor + Rad = motorbike, die Motorräder.",
+ "signOff": "Gut gemacht!",
+ "quiz": [
+  {
+   "type": "choice",
+   "prompt": "___ Motorrad",
+   "options": [
+    "der",
+    "die",
+    "das"
+   ],
+   "answer": "das",
+   "explanation": "Motorrad is neuter.",
+   "id": "q1"
+  },
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "ein Motorrad, zwei ___",
+   "answer": "Motorräder",
+   "fullAnswer": "ein Motorrad, zwei Motorräder",
+   "explanation": "The plural is Motorräder.",
+   "acceptedAnswers": [
+    "Motorraeder"
+   ],
+   "id": "q2"
+  },
+  {
+   "type": "choice",
+   "prompt": "What does Motorrad mean?",
+   "options": [
+    "never",
+    "the weather",
+    "motorbike"
+   ],
+   "answer": "motorbike",
+   "explanation": "Motorrad: motorbike.",
+   "id": "q3"
+  },
+  {
+   "type": "choice",
+   "prompt": "Built from…",
+   "options": [
+    "Motor + Rad (wheel, bike)",
+    "Motor + Rat"
+   ],
+   "answer": "Motor + Rad (wheel, bike)",
+   "explanation": "Motor bike.",
+   "id": "q4"
+  },
+  {
+   "type": "choice",
+   "prompt": "Plural:",
+   "options": [
+    "Motorräder",
+    "Motorrads"
+   ],
+   "answer": "Motorräder",
+   "explanation": "Rad → Räder.",
+   "id": "q5"
+  }
+ ],
+ "etymology": {
+  "title": "Where it comes from",
+  "parts": [
+   {
+    "part": "Motor",
+    "meaning": "motor"
+   },
+   {
+    "part": "rad",
+    "meaning": "wheel, bike"
+   }
+  ],
+  "literalMeaning": "motor bike"
+ }
+}

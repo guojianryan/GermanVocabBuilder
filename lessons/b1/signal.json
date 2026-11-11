@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Signal",
+    "partOfSpeech": "noun, neuter (das Signal)",
+    "pronunciation": {
+      "respelling": "zig-NAAL",
+      "ipa": "zɪɡˈnaːl",
+      "notes": "Plural: die Signale."
+    },
+    "meaning": "signal",
+    "shortDefinition": "Signal."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Signal, plural die Signale.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Signal"
+        },
+        {
+          "label": "More than one",
+          "value": "die Signale"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich habe hier kein Signal.",
+      "english": "I've got no signal here.",
+      "highlight": [
+        "Signal."
+      ]
+    },
+    {
+      "german": "Das ist ein gutes Signal.",
+      "english": "That's a good sign.",
+      "highlight": [
+        "Signal."
+      ]
+    },
+    {
+      "german": "Das Signal steht auf Rot.",
+      "english": "The signal is on red.",
+      "highlight": [
+        "Signal"
+      ]
+    }
+  ],
+  "forms": [
+    "Signale",
+    "die Signale",
+    "das Signal"
+  ],
+  "memoryHook": "Das Signal (stress at end).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Signal",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Signal is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Signal, zwei ___",
+      "answer": "Signale",
+      "fullAnswer": "ein Signal, zwei Signale",
+      "explanation": "The plural is Signale.",
+      "acceptedAnswers": [
+        "Signale"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Signal mean?",
+      "options": [
+        "to help",
+        "the window",
+        "signal"
+      ],
+      "answer": "signal",
+      "explanation": "Signal: signal.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Stress on…",
+      "options": [
+        "-NAL",
+        "SIG-"
+      ],
+      "answer": "-NAL",
+      "explanation": "End.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Phone signal (everyday):",
+      "options": [
+        "Empfang / Netz",
+        "Signal only"
+      ],
+      "answer": "Empfang / Netz",
+      "explanation": "Both.",
+      "id": "q5"
+    }
+  ]
+}

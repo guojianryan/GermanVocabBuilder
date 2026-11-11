@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Auto",
+    "partOfSpeech": "noun, neuter (das Auto)",
+    "pronunciation": {
+      "respelling": "OW-toh",
+      "ipa": "ˈaʊ̯to",
+      "notes": "The plural adds -s. Plural: die Autos."
+    },
+    "meaning": "car",
+    "shortDefinition": "Car."
+  },
+  "wordFamily": [
+    {
+      "german": "Auto fahren",
+      "english": "to drive",
+      "type": "phrase"
+    },
+    {
+      "german": "der Wagen",
+      "english": "car (also)",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Auto, plural die Autos.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Auto"
+        },
+        {
+          "label": "More than one",
+          "value": "die Autos"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er kommt mit dem Auto.",
+      "english": "He's coming by car.",
+      "highlight": [
+        "Auto."
+      ]
+    },
+    {
+      "german": "Unser Auto ist schon zehn Jahre alt.",
+      "english": "Our car is already ten years old.",
+      "highlight": [
+        "Auto"
+      ]
+    },
+    {
+      "german": "Kannst du Auto fahren?",
+      "english": "Can you drive?",
+      "highlight": [
+        "Auto"
+      ]
+    }
+  ],
+  "forms": [
+    "Autos",
+    "die Autos",
+    "das Auto"
+  ],
+  "memoryHook": "Das Auto, short for Automobil. Ending in -o, it takes an -s plural: Autos.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Auto",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Auto is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Auto, zwei ___",
+      "answer": "Autos",
+      "fullAnswer": "ein Auto, zwei Autos",
+      "explanation": "The plural is Autos.",
+      "acceptedAnswers": [
+        "Autos"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Auto mean?",
+      "options": [
+        "the door",
+        "car",
+        "the family"
+      ],
+      "answer": "car",
+      "explanation": "Auto: car.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich fahre ___ Auto zur Arbeit.",
+      "options": [
+        "mit dem",
+        "mit der"
+      ],
+      "answer": "mit dem",
+      "explanation": "Das Auto, dative: dem.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Auto fahren' means…",
+      "options": [
+        "to drive",
+        "to buy a car"
+      ],
+      "answer": "to drive",
+      "explanation": "Kannst du Auto fahren? Can you drive?",
+      "id": "q5"
+    }
+  ]
+}

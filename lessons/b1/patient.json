@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Patient",
+    "partOfSpeech": "noun, masculine (der Patient)",
+    "pronunciation": {
+      "respelling": "pa-TSYENT",
+      "ipa": "paˈtsi̯ɛnt",
+      "notes": "Plural: die Patienten."
+    },
+    "meaning": "patient",
+    "shortDefinition": "Patient."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Patient, plural die Patienten.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Patient"
+        },
+        {
+          "label": "More than one",
+          "value": "die Patienten"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Patient wartet im Wartezimmer.",
+      "english": "The patient is waiting in the waiting room.",
+      "highlight": [
+        "Patient"
+      ]
+    },
+    {
+      "german": "Der Arzt untersucht den Patienten.",
+      "english": "The doctor examines the patient.",
+      "highlight": [
+        "Patienten."
+      ]
+    },
+    {
+      "german": "Die Patientin hat Fieber.",
+      "english": "The (female) patient has a fever.",
+      "highlight": [
+        "Patientin"
+      ]
+    }
+  ],
+  "forms": [
+    "Patientin"
+  ],
+  "memoryHook": "Der Patient (weak: den Patienten), die Patientin.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Patient",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Patient is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Patient, zwei ___",
+      "answer": "Patienten",
+      "fullAnswer": "ein Patient, zwei Patienten",
+      "explanation": "The plural is Patienten.",
+      "acceptedAnswers": [
+        "Patienten"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Patient mean?",
+      "options": [
+        "patient",
+        "to sleep",
+        "tomorrow"
+      ],
+      "answer": "patient",
+      "explanation": "Patient: patient.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Weak noun: den/dem…",
+      "options": [
+        "Patienten",
+        "Patient"
+      ],
+      "answer": "Patienten",
+      "explanation": "-en.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "T sounds like…",
+      "options": [
+        "ts",
+        "sh"
+      ],
+      "answer": "ts",
+      "explanation": "pa-TSYENT.",
+      "id": "q5"
+    }
+  ]
+}

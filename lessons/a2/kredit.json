@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Kredit",
+    "partOfSpeech": "noun, masculine (der Kredit)",
+    "pronunciation": {
+      "respelling": "kre-DEET",
+      "ipa": "kʁeˈdiːt",
+      "notes": "Plural: die Kredite."
+    },
+    "meaning": "loan, credit",
+    "shortDefinition": "Loan, credit."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Kredit, plural die Kredite.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Kredit"
+        },
+        {
+          "label": "More than one",
+          "value": "die Kredite"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir brauchen einen Kredit für das Haus.",
+      "english": "We need a loan for the house.",
+      "highlight": [
+        "Kredit"
+      ]
+    },
+    {
+      "german": "Die Bank gibt mir keinen Kredit.",
+      "english": "The bank won't give me a loan.",
+      "highlight": [
+        "Kredit."
+      ]
+    },
+    {
+      "german": "Kann ich mit Kreditkarte zahlen?",
+      "english": "Can I pay by credit card?",
+      "highlight": [
+        "Kreditkarte"
+      ]
+    }
+  ],
+  "forms": [
+    "Kreditkarte"
+  ],
+  "memoryHook": "Der Kredit = bank loan. Die Kreditkarte = credit card.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Kredit",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Kredit is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Kredit, zwei ___",
+      "answer": "Kredite",
+      "fullAnswer": "ein Kredit, zwei Kredite",
+      "explanation": "The plural is Kredite.",
+      "acceptedAnswers": [
+        "Kredite"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Kredit mean?",
+      "options": [
+        "loan",
+        "slowly",
+        "quiet"
+      ],
+      "answer": "loan",
+      "explanation": "Kredit: loan, credit.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Der Kredit usually means…",
+      "options": [
+        "a bank loan",
+        "praise"
+      ],
+      "answer": "a bank loan",
+      "explanation": "Loan.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Stress on…",
+      "options": [
+        "-DIT",
+        "KRE-"
+      ],
+      "answer": "-DIT",
+      "explanation": "kre-DEET.",
+      "id": "q5"
+    }
+  ]
+}

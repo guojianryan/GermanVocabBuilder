@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Zigarette",
+    "partOfSpeech": "noun, feminine (die Zigarette)",
+    "pronunciation": {
+      "respelling": "tsee-ga-RET-uh",
+      "ipa": "tsiɡaˈʁɛtə",
+      "notes": "Plural: die Zigaretten."
+    },
+    "meaning": "cigarette",
+    "shortDefinition": "Cigarette."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Zigarette, plural die Zigaretten.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Zigarette"
+        },
+        {
+          "label": "More than one",
+          "value": "die Zigaretten"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er raucht zehn Zigaretten am Tag.",
+      "english": "He smokes ten cigarettes a day.",
+      "highlight": [
+        "Zigaretten"
+      ]
+    },
+    {
+      "german": "Am Kiosk gibt es Zigaretten.",
+      "english": "You can get cigarettes at the kiosk.",
+      "highlight": [
+        "Zigaretten."
+      ]
+    },
+    {
+      "german": "Darf ich hier eine Zigarette rauchen?",
+      "english": "May I smoke a cigarette here?",
+      "highlight": [
+        "Zigarette"
+      ]
+    }
+  ],
+  "forms": [
+    "Zigaretten",
+    "die Zigaretten",
+    "die Zigarette"
+  ],
+  "memoryHook": "Die Zigarette (Z = ts, stress on RET).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Zigarette",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Zigarette is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Zigarette, zwei ___",
+      "answer": "Zigaretten",
+      "fullAnswer": "ein Zigarette, zwei Zigaretten",
+      "explanation": "The plural is Zigaretten.",
+      "acceptedAnswers": [
+        "Zigaretten"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Zigarette mean?",
+      "options": [
+        "expensive",
+        "always",
+        "cigarette"
+      ],
+      "answer": "cigarette",
+      "explanation": "Zigarette: cigarette.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Z sounds like…",
+      "options": [
+        "ts",
+        "z"
+      ],
+      "answer": "ts",
+      "explanation": "Tsee-ga-RET-te.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Where's the stress?",
+      "options": [
+        "ZI-ga-ret-te",
+        "zi-ga-RET-te"
+      ],
+      "answer": "zi-ga-RET-te",
+      "explanation": "French-style.",
+      "id": "q5"
+    }
+  ]
+}

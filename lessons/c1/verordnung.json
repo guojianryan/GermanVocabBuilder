@@ -1,0 +1,140 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Verordnung",
+    "partOfSpeech": "noun, feminine (die Verordnung)",
+    "pronunciation": {
+      "respelling": "fer-ORD-nung",
+      "ipa": "fɛɐ̯ˈʔɔʁdnʊŋ",
+      "notes": "Plural: die Verordnungen."
+    },
+    "meaning": "regulation, ordinance; prescription",
+    "shortDefinition": "Regulation, ordinance; prescription."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Ver",
+        "meaning": "prefix"
+      },
+      {
+        "part": "ordn",
+        "meaning": "order"
+      },
+      {
+        "part": "ung",
+        "meaning": "noun ending"
+      }
+    ],
+    "literalMeaning": "an ordering"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Verordnung, plural die Verordnungen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Verordnung"
+        },
+        {
+          "label": "More than one",
+          "value": "die Verordnungen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Eine neue EU-Verordnung.",
+      "english": "A new EU regulation.",
+      "highlight": [
+        "EU-Verordnung."
+      ]
+    },
+    {
+      "german": "Auf ärztliche Verordnung.",
+      "english": "On doctor's prescription.",
+      "highlight": [
+        "Verordnung."
+      ]
+    },
+    {
+      "german": "Die Verordnung tritt im Mai in Kraft.",
+      "english": "The regulation comes into force in May.",
+      "highlight": [
+        "Verordnung"
+      ]
+    }
+  ],
+  "forms": [
+    "verordnen"
+  ],
+  "memoryHook": "Verordnen → die Verordnung (regulation; prescription).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Verordnung",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Verordnung is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Verordnung, zwei ___",
+      "answer": "Verordnungen",
+      "fullAnswer": "ein Verordnung, zwei Verordnungen",
+      "explanation": "The plural is Verordnungen.",
+      "acceptedAnswers": [
+        "Verordnungen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Verordnung mean?",
+      "options": [
+        "the bill",
+        "regulation",
+        "the station"
+      ],
+      "answer": "regulation",
+      "explanation": "Verordnung: regulation, ordinance; prescription.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "verordnen (prescribe, decree)",
+        "Ordnung only"
+      ],
+      "answer": "verordnen (prescribe, decree)",
+      "explanation": "Prescribe.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonym (rule):",
+      "options": [
+        "die Vorschrift, die Regelung",
+        "die Unordnung"
+      ],
+      "answer": "die Vorschrift, die Regelung",
+      "explanation": "Rule.",
+      "id": "q5"
+    }
+  ]
+}

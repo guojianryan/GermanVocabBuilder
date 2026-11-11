@@ -1,0 +1,131 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Lüge",
+    "partOfSpeech": "noun, feminine (die Lüge)",
+    "pronunciation": {
+      "respelling": "LÜ-ge",
+      "ipa": "ˈlyːɡə",
+      "notes": "Plural: die Lügen."
+    },
+    "meaning": "lie",
+    "shortDefinition": "Lie."
+  },
+  "wordFamily": [
+    {
+      "german": "lügen",
+      "english": "to lie",
+      "type": "verb"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Lüge, plural die Lügen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Lüge"
+        },
+        {
+          "label": "More than one",
+          "value": "die Lügen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das ist eine Lüge!",
+      "english": "That's a lie!",
+      "highlight": [
+        "Lüge!"
+      ]
+    },
+    {
+      "german": "Lügen haben kurze Beine.",
+      "english": "Lies don't get you far. (Lies have short legs.)",
+      "highlight": [
+        "Lügen"
+      ]
+    },
+    {
+      "german": "Er erzählt immer Lügen.",
+      "english": "He's always telling lies.",
+      "highlight": [
+        "Lügen."
+      ]
+    }
+  ],
+  "forms": [
+    "Lügen",
+    "die Lügen",
+    "die Lüge"
+  ],
+  "memoryHook": "Die Lüge. Lügen haben kurze Beine!",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Lüge",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Lüge is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Lüge, zwei ___",
+      "answer": "Lügen",
+      "fullAnswer": "ein Lüge, zwei Lügen",
+      "explanation": "The plural is Lügen.",
+      "acceptedAnswers": [
+        "Luegen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Lüge mean?",
+      "options": [
+        "lie",
+        "the station",
+        "expensive"
+      ],
+      "answer": "lie",
+      "explanation": "Lüge: lie.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Lügen haben kurze Beine' means…",
+      "options": [
+        "Lies are soon found out.",
+        "Liars are short."
+      ],
+      "answer": "Lies are soon found out.",
+      "explanation": "Proverb.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "A liar:",
+      "options": [
+        "der Lügner",
+        "der Lüger"
+      ],
+      "answer": "der Lügner",
+      "explanation": "Lügner.",
+      "id": "q5"
+    }
+  ]
+}

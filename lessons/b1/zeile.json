@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Zeile",
+    "partOfSpeech": "noun, feminine (die Zeile)",
+    "pronunciation": {
+      "respelling": "TSYE-le",
+      "ipa": "ˈtsaɪ̯lə",
+      "notes": "Plural: die Zeilen."
+    },
+    "meaning": "line (of text)",
+    "shortDefinition": "Line (of text)."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Zeile, plural die Zeilen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Zeile"
+        },
+        {
+          "label": "More than one",
+          "value": "die Zeilen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Lies die erste Zeile.",
+      "english": "Read the first line.",
+      "highlight": [
+        "Zeile."
+      ]
+    },
+    {
+      "german": "Schreib mir ein paar Zeilen.",
+      "english": "Drop me a line.",
+      "highlight": [
+        "Zeilen."
+      ]
+    },
+    {
+      "german": "Der Text hat 20 Zeilen.",
+      "english": "The text has 20 lines.",
+      "highlight": [
+        "Zeilen."
+      ]
+    }
+  ],
+  "forms": [
+    "Zeilen",
+    "die Zeilen",
+    "die Zeile"
+  ],
+  "memoryHook": "Die Zeile (line of text) vs die Linie (drawn line).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Zeile",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Zeile is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Zeile, zwei ___",
+      "answer": "Zeilen",
+      "fullAnswer": "ein Zeile, zwei Zeilen",
+      "explanation": "The plural is Zeilen.",
+      "acceptedAnswers": [
+        "Zeilen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Zeile mean?",
+      "options": [
+        "line (of text)",
+        "tomorrow",
+        "expensive"
+      ],
+      "answer": "line (of text)",
+      "explanation": "Zeile: line (of text).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Zeile vs Linie:",
+      "options": [
+        "Zeile = line of text; Linie = drawn line",
+        "same"
+      ],
+      "answer": "Zeile = line of text; Linie = drawn line",
+      "explanation": "Different.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Zeilen",
+        "Zeiles"
+      ],
+      "answer": "Zeilen",
+      "explanation": "-n.",
+      "id": "q5"
+    }
+  ]
+}

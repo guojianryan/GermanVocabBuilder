@@ -1,0 +1,150 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Doppelzimmer",
+    "partOfSpeech": "noun, neuter (das Doppelzimmer)",
+    "pronunciation": {
+      "respelling": "DOP-el-tsim-er",
+      "ipa": "ˈdɔpl̩ˌtsɪmɐ",
+      "notes": "The plural looks the same. Plural: die Doppelzimmer."
+    },
+    "meaning": "double room",
+    "shortDefinition": "Double room."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Doppel",
+        "meaning": "double"
+      },
+      {
+        "part": "zimmer",
+        "meaning": "room"
+      }
+    ],
+    "literalMeaning": "double room"
+  },
+  "wordFamily": [
+    {
+      "german": "das Einzelzimmer",
+      "english": "single room",
+      "type": "noun"
+    },
+    {
+      "german": "das Zimmer",
+      "english": "room",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Doppelzimmer, plural die Doppelzimmer.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Doppelzimmer"
+        },
+        {
+          "label": "More than one",
+          "value": "die Doppelzimmer"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich hätte gern ein Doppelzimmer für zwei Nächte.",
+      "english": "I'd like a double room for two nights.",
+      "highlight": [
+        "Doppelzimmer"
+      ]
+    },
+    {
+      "german": "Das Doppelzimmer kostet 90 Euro.",
+      "english": "The double room costs 90 euros.",
+      "highlight": [
+        "Doppelzimmer"
+      ]
+    },
+    {
+      "german": "Haben Sie noch ein Doppelzimmer frei?",
+      "english": "Do you have a double room available?",
+      "highlight": [
+        "Doppelzimmer"
+      ]
+    }
+  ],
+  "forms": [
+    "Doppelzimmer",
+    "die Doppelzimmer",
+    "das Doppelzimmer"
+  ],
+  "memoryHook": "Doppel (double) + Zimmer (room). Its partner is das Einzelzimmer.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Doppelzimmer",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Doppelzimmer is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Doppelzimmer, zwei ___",
+      "answer": "Doppelzimmer",
+      "fullAnswer": "ein Doppelzimmer, zwei Doppelzimmer",
+      "explanation": "The plural is Doppelzimmer.",
+      "acceptedAnswers": [
+        "Doppelzimmer"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Doppelzimmer mean?",
+      "options": [
+        "double room",
+        "slowly",
+        "never"
+      ],
+      "answer": "double room",
+      "explanation": "Doppelzimmer: double room.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "A room for one person is…",
+      "options": [
+        "das Einzelzimmer",
+        "das Doppelzimmer"
+      ],
+      "answer": "das Einzelzimmer",
+      "explanation": "Einzel = single.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Compounds take the last part's gender: das Zimmer, so…",
+      "options": [
+        "das Doppelzimmer",
+        "der Doppelzimmer"
+      ],
+      "answer": "das Doppelzimmer",
+      "explanation": "Das Zimmer.",
+      "id": "q5"
+    }
+  ]
+}

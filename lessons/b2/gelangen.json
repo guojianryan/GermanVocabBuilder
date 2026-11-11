@@ -1,0 +1,184 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "gelangen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "ge-LANG-en",
+      "ipa": "ɡəˈlaŋən",
+      "notes": ""
+    },
+    "meaning": "to reach, get to, arrive at",
+    "shortDefinition": "To reach, get to, arrive at."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "ge",
+        "meaning": "prefix"
+      },
+      {
+        "part": "langen",
+        "meaning": "to reach",
+        "emphasis": "arrive"
+      }
+    ],
+    "literalMeaning": "to reach",
+    "summary": "Getting all the way there."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "gelang|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "gelang|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "gelang|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "gelang|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "gelang|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "gelang|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): ist gelangt"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wie gelange ich zum Bahnhof?",
+      "english": "How do I get to the station?",
+      "highlight": [
+        "gelange"
+      ]
+    },
+    {
+      "german": "Wir sind zu einem Ergebnis gelangt.",
+      "english": "We've arrived at a result.",
+      "highlight": [
+        "gelangt."
+      ]
+    },
+    {
+      "german": "Die Information gelangte an die Presse.",
+      "english": "The information reached the press.",
+      "highlight": [
+        "gelangte"
+      ]
+    }
+  ],
+  "forms": [
+    "gelange",
+    "gelangst",
+    "gelangt",
+    "gelangen"
+  ],
+  "memoryHook": "Gelangen (ist gelangt) = reach, get to.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (gelangen)",
+      "answer": "gelangt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: gelangt.",
+      "acceptedAnswers": [
+        "gelangt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich bin schon ___. (gelangen, past)",
+      "answer": "gelangt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: bin gelangt.",
+      "acceptedAnswers": [
+        "gelangt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does gelangen mean?",
+      "options": [
+        "to reach",
+        "the door",
+        "the flower"
+      ],
+      "answer": "to reach",
+      "explanation": "gelangen: to reach, get to, arrive at.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "ist gelangt",
+        "hat gelangen"
+      ],
+      "answer": "ist gelangt",
+      "explanation": "Weak + sein.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Register:",
+      "options": [
+        "formal",
+        "slang"
+      ],
+      "answer": "formal",
+      "explanation": "Written.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Zu der Überzeugung gelangen' means…",
+      "options": [
+        "to come to the conviction",
+        "to be convinced late"
+      ],
+      "answer": "to come to the conviction",
+      "explanation": "Phrase.",
+      "id": "q6"
+    }
+  ]
+}

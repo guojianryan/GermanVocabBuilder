@@ -1,0 +1,133 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Bube",
+    "partOfSpeech": "noun, masculine (der Bube)",
+    "pronunciation": {
+      "respelling": "BOO-be",
+      "ipa": "ˈbuːbə",
+      "notes": "Plural: die Buben."
+    },
+    "meaning": "boy (southern); jack (cards)",
+    "shortDefinition": "Boy (southern); jack (cards)."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Bube, plural die Buben.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Bube"
+        },
+        {
+          "label": "More than one",
+          "value": "die Buben"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Bube spielt draußen.",
+      "english": "The boy is playing outside.",
+      "highlight": [
+        "Bube"
+      ]
+    },
+    {
+      "german": "Ich habe den Herzbuben.",
+      "english": "I've got the jack of hearts.",
+      "highlight": [
+        "Herzbuben."
+      ]
+    },
+    {
+      "german": "Zwei Buben und ein Mädchen.",
+      "english": "Two boys and a girl.",
+      "highlight": [
+        "Buben"
+      ]
+    }
+  ],
+  "forms": [
+    "Junge"
+  ],
+  "memoryHook": "Der Bube (south: boy; cards: jack), weak noun.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Bube",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Bube is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Bube, zwei ___",
+      "answer": "Buben",
+      "fullAnswer": "ein Bube, zwei Buben",
+      "explanation": "The plural is Buben.",
+      "acceptedAnswers": [
+        "Buben"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Bube mean?",
+      "options": [
+        "to sing",
+        "boy (southern)",
+        "the window"
+      ],
+      "answer": "boy (southern)",
+      "explanation": "Bube: boy (southern); jack (cards).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Weak noun: den/dem…",
+      "options": [
+        "Buben",
+        "Bube"
+      ],
+      "answer": "Buben",
+      "explanation": "-n.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Standard 'boy':",
+      "options": [
+        "der Junge",
+        "der Bube"
+      ],
+      "answer": "der Junge",
+      "explanation": "North / standard.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "In cards, der Bube is…",
+      "options": [
+        "the jack",
+        "the king"
+      ],
+      "answer": "the jack",
+      "explanation": "Cards.",
+      "id": "q6"
+    }
+  ]
+}

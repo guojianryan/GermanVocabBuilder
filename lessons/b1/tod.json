@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Tod",
+    "partOfSpeech": "noun, masculine (der Tod)",
+    "pronunciation": {
+      "respelling": "TOHT",
+      "ipa": "toːt",
+      "notes": "Plural: die Tode."
+    },
+    "meaning": "death",
+    "shortDefinition": "Death."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Tod, plural die Tode.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Tod"
+        },
+        {
+          "label": "More than one",
+          "value": "die Tode"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Nach dem Tod ihres Vaters zog sie um.",
+      "english": "After her father's death she moved.",
+      "highlight": [
+        "Tod"
+      ]
+    },
+    {
+      "german": "Ich habe mich zu Tode erschreckt.",
+      "english": "I was scared to death.",
+      "highlight": [
+        "Tode"
+      ]
+    },
+    {
+      "german": "Das ist eine Frage von Leben und Tod.",
+      "english": "That's a matter of life and death.",
+      "highlight": [
+        "Tod."
+      ]
+    }
+  ],
+  "forms": [
+    "tödlich"
+  ],
+  "memoryHook": "Der Tod (noun) / tot (adj). Tödlich = fatal.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Tod",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Tod is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Tod, zwei ___",
+      "answer": "Tode",
+      "fullAnswer": "ein Tod, zwei Tode",
+      "explanation": "The plural is Tode.",
+      "acceptedAnswers": [
+        "Tode"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Tod mean?",
+      "options": [
+        "to wait",
+        "death",
+        "expensive"
+      ],
+      "answer": "death",
+      "explanation": "Tod: death.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Tod vs tot:",
+      "options": [
+        "Tod = death (noun); tot = dead",
+        "same"
+      ],
+      "answer": "Tod = death (noun); tot = dead",
+      "explanation": "d vs t.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Adjective 'deadly':",
+      "options": [
+        "tödlich",
+        "todlich"
+      ],
+      "answer": "tödlich",
+      "explanation": "o → ö.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Angst",
+    "partOfSpeech": "noun, feminine (die Angst)",
+    "pronunciation": {
+      "respelling": "ANGST",
+      "ipa": "aŋst",
+      "notes": "Plural: die Ängste."
+    },
+    "meaning": "fear",
+    "shortDefinition": "Fear."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Angst, plural die Ängste.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Angst"
+        },
+        {
+          "label": "More than one",
+          "value": "die Ängste"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Hab keine Angst!",
+      "english": "Don't be afraid!",
+      "highlight": [
+        "Angst!"
+      ]
+    },
+    {
+      "german": "Ich habe Angst vor Hunden.",
+      "english": "I'm afraid of dogs.",
+      "highlight": [
+        "Angst",
+        "vor"
+      ]
+    },
+    {
+      "german": "Sie hat Angst, allein zu sein.",
+      "english": "She's afraid of being alone.",
+      "highlight": [
+        "Angst,"
+      ]
+    }
+  ],
+  "forms": [
+    "Ängste",
+    "die Ängste",
+    "die Angst"
+  ],
+  "memoryHook": "Angst haben vor = to be afraid of. English borrowed the word for a deeper worry.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Angst",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Angst is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Angst, zwei ___",
+      "answer": "Ängste",
+      "fullAnswer": "ein Angst, zwei Ängste",
+      "explanation": "The plural is Ängste.",
+      "acceptedAnswers": [
+        "Ängste"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Angst mean?",
+      "options": [
+        "fear",
+        "the flower",
+        "the bed"
+      ],
+      "answer": "fear",
+      "explanation": "Angst: fear.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'I'm afraid of spiders':",
+      "options": [
+        "Ich habe Angst vor Spinnen.",
+        "Ich bin Angst von Spinnen."
+      ],
+      "answer": "Ich habe Angst vor Spinnen.",
+      "explanation": "Angst haben vor + dative.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Don't worry!' (be afraid)",
+      "options": [
+        "Keine Angst!",
+        "Nicht Angst!"
+      ],
+      "answer": "Keine Angst!",
+      "explanation": "Kein + noun.",
+      "id": "q5"
+    }
+  ]
+}

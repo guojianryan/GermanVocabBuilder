@@ -1,0 +1,119 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "BGB",
+    "partOfSpeech": "noun, neuter (das BGB)",
+    "pronunciation": {
+      "respelling": "bay-gay-BAY",
+      "ipa": "beːɡeːˈbeː",
+      "notes": "Usually no plural."
+    },
+    "meaning": "German Civil Code (Bürgerliches Gesetzbuch)",
+    "shortDefinition": "German Civil Code (Bürgerliches Gesetzbuch)."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das BGB, usually no plural.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das BGB"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das steht im BGB.",
+      "english": "That's in the Civil Code.",
+      "highlight": [
+        "BGB."
+      ]
+    },
+    {
+      "german": "Nach § 433 BGB …",
+      "english": "Under section 433 of the Civil Code …",
+      "highlight": [
+        "BGB"
+      ]
+    },
+    {
+      "german": "Das BGB trat 1900 in Kraft.",
+      "english": "The Civil Code came into force in 1900.",
+      "highlight": [
+        "BGB"
+      ]
+    }
+  ],
+  "forms": [
+    "Bürgerliches Gesetzbuch",
+    "StGB"
+  ],
+  "memoryHook": "BGB = Bürgerliches Gesetzbuch (civil code, 1900).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ BGB",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "BGB is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does BGB mean?",
+      "options": [
+        "the job",
+        "German Civil Code (Bürgerliches Gesetzbuch)",
+        "the car"
+      ],
+      "answer": "German Civil Code (Bürgerliches Gesetzbuch)",
+      "explanation": "BGB: German Civil Code (Bürgerliches Gesetzbuch).",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Stands for…",
+      "options": [
+        "Bürgerliches Gesetzbuch",
+        "Bundesgesetzbuch"
+      ],
+      "answer": "Bürgerliches Gesetzbuch",
+      "explanation": "Civil Code.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Covers…",
+      "options": [
+        "private / civil law (contracts, family)",
+        "criminal law"
+      ],
+      "answer": "private / civil law (contracts, family)",
+      "explanation": "Civil.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Criminal code:",
+      "options": [
+        "das StGB (Strafgesetzbuch)",
+        "das BGB"
+      ],
+      "answer": "das StGB (Strafgesetzbuch)",
+      "explanation": "Criminal.",
+      "id": "q5"
+    }
+  ]
+}

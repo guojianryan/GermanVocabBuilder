@@ -1,0 +1,145 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Verein",
+    "partOfSpeech": "noun, masculine (der Verein)",
+    "pronunciation": {
+      "respelling": "fair-INE",
+      "ipa": "fɛɐ̯ˈʔaɪ̯n",
+      "notes": "Plural: die Vereine."
+    },
+    "meaning": "club, association",
+    "shortDefinition": "Club, association."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Ver",
+        "meaning": "prefix"
+      },
+      {
+        "part": "ein",
+        "meaning": "one"
+      }
+    ],
+    "literalMeaning": "a making into one"
+  },
+  "wordFamily": [
+    {
+      "german": "das Mitglied",
+      "english": "member",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Verein, plural die Vereine.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Verein"
+        },
+        {
+          "label": "More than one",
+          "value": "die Vereine"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich spiele in einem Fußballverein.",
+      "english": "I play in a football club.",
+      "highlight": [
+        "Fußballverein."
+      ]
+    },
+    {
+      "german": "Er ist Mitglied im Sportverein.",
+      "english": "He's a member of the sports club.",
+      "highlight": [
+        "Sportverein."
+      ]
+    },
+    {
+      "german": "In Deutschland gibt es viele Vereine.",
+      "english": "There are lots of clubs in Germany.",
+      "highlight": [
+        "Vereine."
+      ]
+    }
+  ],
+  "forms": [
+    "Vereine",
+    "die Vereine",
+    "der Verein"
+  ],
+  "memoryHook": "Der Verein = club. Germany is famous for its Vereine: sport, music, gardening.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Verein",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Verein is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Verein, zwei ___",
+      "answer": "Vereine",
+      "fullAnswer": "ein Verein, zwei Vereine",
+      "explanation": "The plural is Vereine.",
+      "acceptedAnswers": [
+        "Vereine"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Verein mean?",
+      "options": [
+        "club",
+        "to open",
+        "tomorrow"
+      ],
+      "answer": "club",
+      "explanation": "Verein: club, association.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "A member of a club is…",
+      "options": [
+        "ein Mitglied",
+        "ein Vereiner"
+      ],
+      "answer": "ein Mitglied",
+      "explanation": "Das Mitglied.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Verein comes from vereinen, which means…",
+      "options": [
+        "to unite",
+        "to verify"
+      ],
+      "answer": "to unite",
+      "explanation": "Ver + ein: make one.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Sand",
+    "partOfSpeech": "noun, masculine (der Sand)",
+    "pronunciation": {
+      "respelling": "ZANT",
+      "ipa": "zant",
+      "notes": "Usually no plural."
+    },
+    "meaning": "sand",
+    "shortDefinition": "Sand."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Sand, usually no plural.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Sand"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Kinder spielen im Sand.",
+      "english": "The children are playing in the sand.",
+      "highlight": [
+        "Sand."
+      ]
+    },
+    {
+      "german": "Ich habe Sand in den Schuhen.",
+      "english": "I've got sand in my shoes.",
+      "highlight": [
+        "Sand"
+      ]
+    },
+    {
+      "german": "Der Strand hat weißen Sand.",
+      "english": "The beach has white sand.",
+      "highlight": [
+        "Sand."
+      ]
+    }
+  ],
+  "forms": [
+    "der Sand"
+  ],
+  "memoryHook": "Der Sand (s = z, d = t). Sandkasten.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Sand",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Sand is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Sand mean?",
+      "options": [
+        "sand",
+        "the flower",
+        "to sing"
+      ],
+      "answer": "sand",
+      "explanation": "Sand: sand.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Final d sounds like…",
+      "options": [
+        "t",
+        "d"
+      ],
+      "answer": "t",
+      "explanation": "ZANT.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "S at the start sounds like…",
+      "options": [
+        "z",
+        "s"
+      ],
+      "answer": "z",
+      "explanation": "ZANT.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Sandbox (children's):",
+      "options": [
+        "der Sandkasten",
+        "die Sandbox"
+      ],
+      "answer": "der Sandkasten",
+      "explanation": "Sand box.",
+      "id": "q5"
+    }
+  ]
+}

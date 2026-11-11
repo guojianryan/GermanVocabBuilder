@@ -1,0 +1,125 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Interesse",
+    "partOfSpeech": "noun, neuter (das Interesse)",
+    "pronunciation": {
+      "respelling": "in-te-RES-e",
+      "ipa": "ɪntəˈʁɛsə",
+      "notes": "Plural: die Interessen."
+    },
+    "meaning": "interest",
+    "shortDefinition": "Interest."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Interesse, plural die Interessen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Interesse"
+        },
+        {
+          "label": "More than one",
+          "value": "die Interessen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Danke für Ihr Interesse.",
+      "english": "Thank you for your interest.",
+      "highlight": [
+        "Interesse."
+      ]
+    },
+    {
+      "german": "Ich habe großes Interesse an Kunst.",
+      "english": "I'm very interested in art.",
+      "highlight": [
+        "Interesse",
+        "an"
+      ]
+    },
+    {
+      "german": "Was sind deine Interessen?",
+      "english": "What are your interests?",
+      "highlight": [
+        "Interessen?"
+      ]
+    }
+  ],
+  "forms": [
+    "Interessen",
+    "die Interessen",
+    "das Interesse"
+  ],
+  "memoryHook": "Das Interesse an + dative. Danke für Ihr Interesse.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Interesse",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Interesse is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Interesse, zwei ___",
+      "answer": "Interessen",
+      "fullAnswer": "ein Interesse, zwei Interessen",
+      "explanation": "The plural is Interessen.",
+      "acceptedAnswers": [
+        "Interessen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Interesse mean?",
+      "options": [
+        "to help",
+        "to open",
+        "interest"
+      ],
+      "answer": "interest",
+      "explanation": "Interesse: interest.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Interest ___ something:",
+      "options": [
+        "an",
+        "in"
+      ],
+      "answer": "an",
+      "explanation": "Interesse an.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gender:",
+      "options": [
+        "das",
+        "der"
+      ],
+      "answer": "das",
+      "explanation": "Das Interesse.",
+      "id": "q5"
+    }
+  ]
+}

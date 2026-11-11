@@ -1,0 +1,145 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Beteiligung",
+    "partOfSpeech": "noun, feminine (die Beteiligung)",
+    "pronunciation": {
+      "respelling": "be-TYE-li-gung",
+      "ipa": "bəˈtaɪ̯lɪɡʊŋ",
+      "notes": "Plural: die Beteiligungen."
+    },
+    "meaning": "participation; stake",
+    "shortDefinition": "Participation; stake."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Be",
+        "meaning": "prefix"
+      },
+      {
+        "part": "teil",
+        "meaning": "part"
+      },
+      {
+        "part": "ig",
+        "meaning": "adjective link"
+      },
+      {
+        "part": "ung",
+        "meaning": "noun ending"
+      }
+    ],
+    "literalMeaning": "a taking part"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Beteiligung, plural die Beteiligungen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Beteiligung"
+        },
+        {
+          "label": "More than one",
+          "value": "die Beteiligungen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Beteiligung an der Wahl war hoch.",
+      "english": "Turnout for the election was high.",
+      "highlight": [
+        "Beteiligung"
+      ]
+    },
+    {
+      "german": "Er hat eine Beteiligung an der Firma.",
+      "english": "He has a stake in the company.",
+      "highlight": [
+        "Beteiligung"
+      ]
+    },
+    {
+      "german": "Unter Beteiligung vieler Bürger.",
+      "english": "With the participation of many citizens.",
+      "highlight": [
+        "Beteiligung"
+      ]
+    }
+  ],
+  "forms": [
+    "beteiligen",
+    "Wahlbeteiligung"
+  ],
+  "memoryHook": "Sich beteiligen an → die Beteiligung.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Beteiligung",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Beteiligung is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Beteiligung, zwei ___",
+      "answer": "Beteiligungen",
+      "fullAnswer": "ein Beteiligung, zwei Beteiligungen",
+      "explanation": "The plural is Beteiligungen.",
+      "acceptedAnswers": [
+        "Beteiligungen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Beteiligung mean?",
+      "options": [
+        "cheap",
+        "participation",
+        "expensive"
+      ],
+      "answer": "participation",
+      "explanation": "Beteiligung: participation; stake.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "(sich) beteiligen (take part)",
+        "Teil only"
+      ],
+      "answer": "(sich) beteiligen (take part)",
+      "explanation": "Participate.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Turnout:",
+      "options": [
+        "die Wahlbeteiligung",
+        "die Wählerbeteiligung only"
+      ],
+      "answer": "die Wahlbeteiligung",
+      "explanation": "Election.",
+      "id": "q5"
+    }
+  ]
+}

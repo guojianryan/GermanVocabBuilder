@@ -1,0 +1,166 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "schwimmen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "SHVIM-en",
+      "ipa": "ˈʃvɪmən",
+      "notes": ""
+    },
+    "meaning": "to swim",
+    "shortDefinition": "To swim."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "schwimm|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "schwimm|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "schwimm|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "schwimm|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "schwimm|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "schwimm|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): ist geschwommen"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "das Schwimmbad",
+      "english": "swimming pool",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Kannst du schwimmen?",
+      "english": "Can you swim?",
+      "highlight": [
+        "schwimmen?"
+      ]
+    },
+    {
+      "german": "Im Sommer schwimme ich im See.",
+      "english": "In summer I swim in the lake.",
+      "highlight": [
+        "schwimme"
+      ]
+    },
+    {
+      "german": "Wir sind gestern geschwommen.",
+      "english": "We went swimming yesterday.",
+      "highlight": [
+        "geschwommen."
+      ]
+    }
+  ],
+  "forms": [
+    "schwimme",
+    "schwimmst",
+    "schwimmt",
+    "schwimmen",
+    "geschwommen",
+    "schwamm"
+  ],
+  "memoryHook": "Schwimmen, ist geschwommen. Schwimmen gehen = go swimming. Schwimmbad = pool.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (schwimmen)",
+      "answer": "schwimmt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: schwimmt.",
+      "acceptedAnswers": [
+        "schwimmt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich bin schon ___. (schwimmen, past)",
+      "answer": "geschwommen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: bin geschwommen.",
+      "acceptedAnswers": [
+        "geschwommen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does schwimmen mean?",
+      "options": [
+        "to swim",
+        "the shop",
+        "hot"
+      ],
+      "answer": "to swim",
+      "explanation": "schwimmen: to swim.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Going swimming:",
+      "options": [
+        "schwimmen gehen",
+        "zu schwimmen gehen"
+      ],
+      "answer": "schwimmen gehen",
+      "explanation": "Gehen + infinitive.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Das Schwimmbad is…",
+      "options": [
+        "the swimming pool",
+        "the bathroom"
+      ],
+      "answer": "the swimming pool",
+      "explanation": "Schwimm + Bad.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Arbeitnehmer",
+    "partOfSpeech": "noun, masculine (der Arbeitnehmer)",
+    "pronunciation": {
+      "respelling": "AR-bite-nay-mer",
+      "ipa": "ˈaʁbaɪ̯tˌneːmɐ",
+      "notes": "The plural looks the same. Plural: die Arbeitnehmer."
+    },
+    "meaning": "employee",
+    "shortDefinition": "Employee."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Arbeit",
+        "meaning": "work"
+      },
+      {
+        "part": "nehmer",
+        "meaning": "taker"
+      }
+    ],
+    "literalMeaning": "work taker"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Arbeitnehmer, plural die Arbeitnehmer.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Arbeitnehmer"
+        },
+        {
+          "label": "More than one",
+          "value": "die Arbeitnehmer"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Arbeitnehmer haben Rechte.",
+      "english": "Employees have rights.",
+      "highlight": [
+        "Arbeitnehmer"
+      ]
+    },
+    {
+      "german": "Die Firma hat 200 Arbeitnehmer.",
+      "english": "The company has 200 employees.",
+      "highlight": [
+        "Arbeitnehmer."
+      ]
+    },
+    {
+      "german": "Sie ist Arbeitnehmerin bei Siemens.",
+      "english": "She's an employee at Siemens.",
+      "highlight": [
+        "Arbeitnehmerin"
+      ]
+    }
+  ],
+  "forms": [
+    "Arbeitnehmerin"
+  ],
+  "memoryHook": "Arbeit + Nehmer = employee ↔ Arbeitgeber.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Arbeitnehmer",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Arbeitnehmer is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Arbeitnehmer, zwei ___",
+      "answer": "Arbeitnehmer",
+      "fullAnswer": "ein Arbeitnehmer, zwei Arbeitnehmer",
+      "explanation": "The plural is Arbeitnehmer.",
+      "acceptedAnswers": [
+        "Arbeitnehmer"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Arbeitnehmer mean?",
+      "options": [
+        "employee",
+        "the shop",
+        "the family"
+      ],
+      "answer": "employee",
+      "explanation": "Arbeitnehmer: employee.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Arbeit + Nehmer (taker)",
+        "Arbeit + nehmen only"
+      ],
+      "answer": "Arbeit + Nehmer (taker)",
+      "explanation": "Work taker.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Opposite:",
+      "options": [
+        "der Arbeitgeber",
+        "der Arbeiter"
+      ],
+      "answer": "der Arbeitgeber",
+      "explanation": "Employer.",
+      "id": "q5"
+    }
+  ]
+}

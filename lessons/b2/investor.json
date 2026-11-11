@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Investor",
+    "partOfSpeech": "noun, masculine (der Investor)",
+    "pronunciation": {
+      "respelling": "in-VES-tor",
+      "ipa": "ɪnˈvɛstoːɐ̯",
+      "notes": "In the plural the stress moves: In-ves-TOH-ren. Plural: die Investoren."
+    },
+    "meaning": "investor",
+    "shortDefinition": "Investor."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Investor, plural die Investoren.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Investor"
+        },
+        {
+          "label": "More than one",
+          "value": "die Investoren"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Firma sucht Investoren.",
+      "english": "The company is looking for investors.",
+      "highlight": [
+        "Investoren."
+      ]
+    },
+    {
+      "german": "Ein ausländischer Investor kauft das Hotel.",
+      "english": "A foreign investor is buying the hotel.",
+      "highlight": [
+        "Investor"
+      ]
+    },
+    {
+      "german": "Die Investorin ist zufrieden.",
+      "english": "The investor is satisfied.",
+      "highlight": [
+        "Investorin"
+      ]
+    }
+  ],
+  "forms": [
+    "investieren",
+    "Investorin"
+  ],
+  "memoryHook": "Investieren → der Investor (die Investoren).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Investor",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Investor is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Investor, zwei ___",
+      "answer": "Investoren",
+      "fullAnswer": "ein Investor, zwei Investoren",
+      "explanation": "The plural is Investoren.",
+      "acceptedAnswers": [
+        "Investoren"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Investor mean?",
+      "options": [
+        "investor",
+        "quiet",
+        "to help"
+      ],
+      "answer": "investor",
+      "explanation": "Investor: investor.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Investoren",
+        "Investors"
+      ],
+      "answer": "Investoren",
+      "explanation": "-en, stress shifts.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Verb:",
+      "options": [
+        "investieren",
+        "investoren"
+      ],
+      "answer": "investieren",
+      "explanation": "Invest.",
+      "id": "q5"
+    }
+  ]
+}

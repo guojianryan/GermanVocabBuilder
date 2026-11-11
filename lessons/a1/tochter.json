@@ -1,0 +1,131 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Tochter",
+    "partOfSpeech": "noun, feminine (die Tochter)",
+    "pronunciation": {
+      "respelling": "TOKH-ter",
+      "ipa": "ˈtɔxtɐ",
+      "notes": "Plural: die Töchter."
+    },
+    "meaning": "daughter",
+    "shortDefinition": "Daughter."
+  },
+  "wordFamily": [
+    {
+      "german": "der Sohn",
+      "english": "son",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Tochter, plural die Töchter.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Tochter"
+        },
+        {
+          "label": "More than one",
+          "value": "die Töchter"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Meine Tochter geht in die erste Klasse.",
+      "english": "My daughter is in first grade.",
+      "highlight": [
+        "Tochter"
+      ]
+    },
+    {
+      "german": "Sie haben zwei Töchter.",
+      "english": "They have two daughters.",
+      "highlight": [
+        "Töchter."
+      ]
+    },
+    {
+      "german": "Das ist unsere Tochter Mia.",
+      "english": "This is our daughter Mia.",
+      "highlight": [
+        "Tochter"
+      ]
+    }
+  ],
+  "forms": [
+    "Töchter",
+    "die Töchter",
+    "die Tochter"
+  ],
+  "memoryHook": "Die Tochter (English 'daughter'), plural Töchter.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Tochter",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Tochter is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Tochter, zwei ___",
+      "answer": "Töchter",
+      "fullAnswer": "ein Tochter, zwei Töchter",
+      "explanation": "The plural is Töchter.",
+      "acceptedAnswers": [
+        "Toechter"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Tochter mean?",
+      "options": [
+        "the family",
+        "never",
+        "daughter"
+      ],
+      "answer": "daughter",
+      "explanation": "Tochter: daughter.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "The opposite of Tochter is…",
+      "options": [
+        "der Sohn",
+        "der Bruder"
+      ],
+      "answer": "der Sohn",
+      "explanation": "Son / daughter.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Tochter is related to English…",
+      "options": [
+        "daughter",
+        "doctor"
+      ],
+      "answer": "daughter",
+      "explanation": "Same root.",
+      "id": "q5"
+    }
+  ]
+}

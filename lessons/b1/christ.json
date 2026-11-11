@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Christ",
+    "partOfSpeech": "noun, masculine (der Christ)",
+    "pronunciation": {
+      "respelling": "KRIST",
+      "ipa": "kʁɪst",
+      "notes": "Plural: die Christen."
+    },
+    "meaning": "Christian (person)",
+    "shortDefinition": "Christian (person)."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Christ, plural die Christen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Christ"
+        },
+        {
+          "label": "More than one",
+          "value": "die Christen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er ist überzeugter Christ.",
+      "english": "He's a committed Christian.",
+      "highlight": [
+        "Christ."
+      ]
+    },
+    {
+      "german": "Viele Christen feiern Ostern.",
+      "english": "Many Christians celebrate Easter.",
+      "highlight": [
+        "Christen"
+      ]
+    },
+    {
+      "german": "Sie ist Christin.",
+      "english": "She's a Christian.",
+      "highlight": [
+        "Christin."
+      ]
+    }
+  ],
+  "forms": [
+    "Christin",
+    "christlich"
+  ],
+  "memoryHook": "Der Christ (weak), die Christin; christlich.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Christ",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Christ is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Christ, zwei ___",
+      "answer": "Christen",
+      "fullAnswer": "ein Christ, zwei Christen",
+      "explanation": "The plural is Christen.",
+      "acceptedAnswers": [
+        "Christen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Christ mean?",
+      "options": [
+        "the shop",
+        "Christian (person)",
+        "cheap"
+      ],
+      "answer": "Christian (person)",
+      "explanation": "Christ: Christian (person).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Weak noun: den/dem…",
+      "options": [
+        "Christen",
+        "Christ"
+      ],
+      "answer": "Christen",
+      "explanation": "-en.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ch sounds like…",
+      "options": [
+        "k",
+        "ch"
+      ],
+      "answer": "k",
+      "explanation": "KRIST.",
+      "id": "q5"
+    }
+  ]
+}

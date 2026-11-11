@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Parteitag",
+    "partOfSpeech": "noun, masculine (der Parteitag)",
+    "pronunciation": {
+      "respelling": "par-TYE-taak",
+      "ipa": "paʁˈtaɪ̯taːk",
+      "notes": "Plural: die Parteitage."
+    },
+    "meaning": "party conference",
+    "shortDefinition": "Party conference."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Partei",
+        "meaning": "party"
+      },
+      {
+        "part": "tag",
+        "meaning": "assembly, day"
+      }
+    ],
+    "literalMeaning": "party assembly"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Parteitag, plural die Parteitage.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Parteitag"
+        },
+        {
+          "label": "More than one",
+          "value": "die Parteitage"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Auf dem Parteitag wird gewählt.",
+      "english": "There's a vote at the party conference.",
+      "highlight": [
+        "Parteitag"
+      ]
+    },
+    {
+      "german": "Der Parteitag beginnt morgen.",
+      "english": "The party conference starts tomorrow.",
+      "highlight": [
+        "Parteitag"
+      ]
+    },
+    {
+      "german": "Sie hielt eine Rede auf dem Parteitag.",
+      "english": "She gave a speech at the party conference.",
+      "highlight": [
+        "Parteitag."
+      ]
+    }
+  ],
+  "forms": [
+    "Bundestag"
+  ],
+  "memoryHook": "Partei + Tag = party conference (Tag = assembly).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Parteitag",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Parteitag is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Parteitag, zwei ___",
+      "answer": "Parteitage",
+      "fullAnswer": "ein Parteitag, zwei Parteitage",
+      "explanation": "The plural is Parteitage.",
+      "acceptedAnswers": [
+        "Parteitage"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Parteitag mean?",
+      "options": [
+        "to sleep",
+        "to buy",
+        "party conference"
+      ],
+      "answer": "party conference",
+      "explanation": "Parteitag: party conference.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Partei + Tag (day / assembly)",
+        "Party + Tag"
+      ],
+      "answer": "Partei + Tag (day / assembly)",
+      "explanation": "Party assembly.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Tag' here means…",
+      "options": [
+        "assembly (like Bundestag)",
+        "day only"
+      ],
+      "answer": "assembly (like Bundestag)",
+      "explanation": "Assembly.",
+      "id": "q5"
+    }
+  ]
+}

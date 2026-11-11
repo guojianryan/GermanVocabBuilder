@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "General",
+    "partOfSpeech": "noun, masculine (der General)",
+    "pronunciation": {
+      "respelling": "ge-ne-RAAL",
+      "ipa": "ɡenəˈʁaːl",
+      "notes": "Plural: die Generäle."
+    },
+    "meaning": "general",
+    "shortDefinition": "General."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der General, plural die Generäle.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der General"
+        },
+        {
+          "label": "More than one",
+          "value": "die Generäle"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der General gibt Befehle.",
+      "english": "The general gives orders.",
+      "highlight": [
+        "General"
+      ]
+    },
+    {
+      "german": "Er wurde zum General befördert.",
+      "english": "He was promoted to general.",
+      "highlight": [
+        "General"
+      ]
+    },
+    {
+      "german": "Die Generäle trafen sich.",
+      "english": "The generals met.",
+      "highlight": [
+        "Generäle"
+      ]
+    }
+  ],
+  "forms": [
+    "generell"
+  ],
+  "memoryHook": "Der General (die Generäle).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ General",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "General is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein General, zwei ___",
+      "answer": "Generäle",
+      "fullAnswer": "ein General, zwei Generäle",
+      "explanation": "The plural is Generäle.",
+      "acceptedAnswers": [
+        "Generaele"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does General mean?",
+      "options": [
+        "the door",
+        "expensive",
+        "general"
+      ],
+      "answer": "general",
+      "explanation": "General: general.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "G sounds like…",
+      "options": [
+        "hard g",
+        "j"
+      ],
+      "answer": "hard g",
+      "explanation": "ge-ne-RAAL.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Generäle",
+        "Generals"
+      ],
+      "answer": "Generäle",
+      "explanation": "Umlaut.",
+      "id": "q5"
+    }
+  ]
+}

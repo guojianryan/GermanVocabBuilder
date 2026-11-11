@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Liste",
+    "partOfSpeech": "noun, feminine (die Liste)",
+    "pronunciation": {
+      "respelling": "LIS-te",
+      "ipa": "ˈlɪstə",
+      "notes": "Plural: die Listen."
+    },
+    "meaning": "list",
+    "shortDefinition": "List."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Liste, plural die Listen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Liste"
+        },
+        {
+          "label": "More than one",
+          "value": "die Listen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich schreibe eine Einkaufsliste.",
+      "english": "I'm writing a shopping list.",
+      "highlight": [
+        "Einkaufsliste."
+      ]
+    },
+    {
+      "german": "Steht mein Name auf der Liste?",
+      "english": "Is my name on the list?",
+      "highlight": [
+        "Liste?"
+      ]
+    },
+    {
+      "german": "Die Liste ist lang.",
+      "english": "The list is long.",
+      "highlight": [
+        "Liste"
+      ]
+    }
+  ],
+  "forms": [
+    "Listen",
+    "die Listen",
+    "die Liste"
+  ],
+  "memoryHook": "Die Liste. Auf der Liste stehen.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Liste",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Liste is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Liste, zwei ___",
+      "answer": "Listen",
+      "fullAnswer": "ein Liste, zwei Listen",
+      "explanation": "The plural is Listen.",
+      "acceptedAnswers": [
+        "Listen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Liste mean?",
+      "options": [
+        "the job",
+        "always",
+        "list"
+      ],
+      "answer": "list",
+      "explanation": "Liste: list.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'On the list':",
+      "options": [
+        "auf der Liste",
+        "in der Liste"
+      ],
+      "answer": "auf der Liste",
+      "explanation": "Auf.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Listen",
+        "Lists"
+      ],
+      "answer": "Listen",
+      "explanation": "-n.",
+      "id": "q5"
+    }
+  ]
+}

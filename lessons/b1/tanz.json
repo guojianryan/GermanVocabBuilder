@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Tanz",
+    "partOfSpeech": "noun, masculine (der Tanz)",
+    "pronunciation": {
+      "respelling": "TANTS",
+      "ipa": "tants",
+      "notes": "Plural: die Tänze."
+    },
+    "meaning": "dance",
+    "shortDefinition": "Dance."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Tanz, plural die Tänze.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Tanz"
+        },
+        {
+          "label": "More than one",
+          "value": "die Tänze"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Darf ich um diesen Tanz bitten?",
+      "english": "May I have this dance?",
+      "highlight": [
+        "Tanz"
+      ]
+    },
+    {
+      "german": "Der Walzer ist ein bekannter Tanz.",
+      "english": "The waltz is a well-known dance.",
+      "highlight": [
+        "Tanz."
+      ]
+    },
+    {
+      "german": "Wir lernen neue Tänze.",
+      "english": "We're learning new dances.",
+      "highlight": [
+        "Tänze."
+      ]
+    }
+  ],
+  "forms": [
+    "Tänze",
+    "die Tänze",
+    "der Tanz"
+  ],
+  "memoryHook": "Der Tanz, die Tänze; tanzen.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Tanz",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Tanz is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Tanz, zwei ___",
+      "answer": "Tänze",
+      "fullAnswer": "ein Tanz, zwei Tänze",
+      "explanation": "The plural is Tänze.",
+      "acceptedAnswers": [
+        "Taenze"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Tanz mean?",
+      "options": [
+        "the door",
+        "to wait",
+        "dance"
+      ],
+      "answer": "dance",
+      "explanation": "Tanz: dance.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Tänze",
+        "Tanze"
+      ],
+      "answer": "Tänze",
+      "explanation": "a → ä.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Dance class:",
+      "options": [
+        "der Tanzkurs",
+        "die Tanzklasse only"
+      ],
+      "answer": "der Tanzkurs",
+      "explanation": "Course.",
+      "id": "q5"
+    }
+  ]
+}

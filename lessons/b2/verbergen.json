@@ -1,0 +1,180 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "verbergen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "fer-BAIR-gen",
+      "ipa": "fɛɐ̯ˈbɛʁɡn̩",
+      "notes": ""
+    },
+    "meaning": "to hide, conceal",
+    "shortDefinition": "To hide, conceal."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "ver",
+        "meaning": "away"
+      },
+      {
+        "part": "bergen",
+        "meaning": "to shelter"
+      }
+    ],
+    "literalMeaning": "to shelter away"
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "verberg|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "verbirg|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "verbirg|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "verberg|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "verberg|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "verberg|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat verborgen"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er verbirgt etwas vor uns.",
+      "english": "He's hiding something from us.",
+      "highlight": [
+        "verbirgt"
+      ]
+    },
+    {
+      "german": "Sie konnte ihre Freude nicht verbergen.",
+      "english": "She couldn't hide her joy.",
+      "highlight": [
+        "verbergen."
+      ]
+    },
+    {
+      "german": "Das Geld war im Keller verborgen.",
+      "english": "The money was hidden in the cellar.",
+      "highlight": [
+        "verborgen."
+      ]
+    }
+  ],
+  "forms": [
+    "verborgen",
+    "verstecken"
+  ],
+  "memoryHook": "Verbergen (verbirgt, verbarg, verborgen) = verstecken.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (verbergen)",
+      "answer": "verbirgt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: verbirgt.",
+      "acceptedAnswers": [
+        "verbirgt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (verbergen, past)",
+      "answer": "verborgen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe verborgen.",
+      "acceptedAnswers": [
+        "verborgen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does verbergen mean?",
+      "options": [
+        "the window",
+        "slowly",
+        "to hide"
+      ],
+      "answer": "to hide",
+      "explanation": "verbergen: to hide, conceal.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "er ___ (verbergen):",
+      "options": [
+        "verbirgt",
+        "verbergt"
+      ],
+      "answer": "verbirgt",
+      "explanation": "e → i.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "hat verborgen",
+        "hat verbergt"
+      ],
+      "answer": "hat verborgen",
+      "explanation": "Strong.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Everyday synonym:",
+      "options": [
+        "verstecken",
+        "zeigen"
+      ],
+      "answer": "verstecken",
+      "explanation": "Hide.",
+      "id": "q6"
+    }
+  ]
+}

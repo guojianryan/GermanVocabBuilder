@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Grab",
+    "partOfSpeech": "noun, neuter (das Grab)",
+    "pronunciation": {
+      "respelling": "GRAAP",
+      "ipa": "ɡʁaːp",
+      "notes": "Plural: die Gräber."
+    },
+    "meaning": "grave",
+    "shortDefinition": "Grave."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Grab, plural die Gräber.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Grab"
+        },
+        {
+          "label": "More than one",
+          "value": "die Gräber"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir besuchen das Grab der Oma.",
+      "english": "We're visiting grandma's grave.",
+      "highlight": [
+        "Grab"
+      ]
+    },
+    {
+      "german": "Er nahm das Geheimnis mit ins Grab.",
+      "english": "He took the secret to his grave.",
+      "highlight": [
+        "Grab."
+      ]
+    },
+    {
+      "german": "Auf dem Friedhof gibt es viele Gräber.",
+      "english": "There are many graves in the cemetery.",
+      "highlight": [
+        "Gräber."
+      ]
+    }
+  ],
+  "forms": [
+    "graben"
+  ],
+  "memoryHook": "Graben (dig) → das Grab (die Gräber).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Grab",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Grab is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Grab, zwei ___",
+      "answer": "Gräber",
+      "fullAnswer": "ein Grab, zwei Gräber",
+      "explanation": "The plural is Gräber.",
+      "acceptedAnswers": [
+        "Graeber"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Grab mean?",
+      "options": [
+        "grave",
+        "to wait",
+        "expensive"
+      ],
+      "answer": "grave",
+      "explanation": "Grab: grave.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "graben (dig)",
+        "grau"
+      ],
+      "answer": "graben (dig)",
+      "explanation": "Dug.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Gräber",
+        "Grabe"
+      ],
+      "answer": "Gräber",
+      "explanation": "-er + umlaut.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "laufen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "LOW-fen",
+      "ipa": "ˈlaʊ̯fn̩",
+      "notes": ""
+    },
+    "meaning": "to run; to walk; to be on (film)",
+    "shortDefinition": "To run; to walk; to be on (film)."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "lauf|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "l|äu|fst"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "l|äu|ft"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "lauf|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "lauf|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "lauf|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): ist gelaufen",
+        "Au becomes äu for du and er."
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "gehen",
+      "english": "to walk",
+      "type": "verb"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich laufe jeden Morgen fünf Kilometer.",
+      "english": "I run five kilometres every morning.",
+      "highlight": [
+        "laufe"
+      ]
+    },
+    {
+      "german": "Wir sind nach Hause gelaufen.",
+      "english": "We walked home.",
+      "highlight": [
+        "gelaufen."
+      ]
+    },
+    {
+      "german": "Was läuft heute im Kino?",
+      "english": "What's on at the cinema today?",
+      "highlight": [
+        "läuft"
+      ]
+    }
+  ],
+  "forms": [
+    "laufe",
+    "läufst",
+    "läuft",
+    "laufen",
+    "lauft",
+    "gelaufen",
+    "lief"
+  ],
+  "memoryHook": "Laufen = run, also walk (casual), and 'be on' (films). Er läuft, ist gelaufen.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (laufen)",
+      "answer": "läuft",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: läuft.",
+      "acceptedAnswers": [
+        "laeuft"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich bin schon ___. (laufen, past)",
+      "answer": "gelaufen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: bin gelaufen.",
+      "acceptedAnswers": [
+        "gelaufen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does laufen mean?",
+      "options": [
+        "to run",
+        "the car",
+        "to open"
+      ],
+      "answer": "to run",
+      "explanation": "laufen: to run; to walk; to be on (film).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Was läuft im Kino?' means…",
+      "options": [
+        "What's on at the cinema?",
+        "Who's running in the cinema?"
+      ],
+      "answer": "What's on at the cinema?",
+      "explanation": "Laufen = be showing.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Er ___ sehr schnell.",
+      "options": [
+        "lauft",
+        "läuft"
+      ],
+      "answer": "läuft",
+      "explanation": "Au → äu.",
+      "id": "q5"
+    }
+  ]
+}

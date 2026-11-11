@@ -1,0 +1,180 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "erzeugen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "er-TSOY-gen",
+      "ipa": "ɛɐ̯ˈtsɔɪ̯ɡn̩",
+      "notes": ""
+    },
+    "meaning": "to produce, generate, create",
+    "shortDefinition": "To produce, generate, create."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "er",
+        "meaning": "bring about"
+      },
+      {
+        "part": "zeugen",
+        "meaning": "to beget, produce"
+      }
+    ],
+    "literalMeaning": "to bring forth"
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "erzeug|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "erzeug|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "erzeug|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "erzeug|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "erzeug|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "erzeug|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat erzeugt"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Windräder erzeugen Strom.",
+      "english": "Wind turbines generate electricity.",
+      "highlight": [
+        "erzeugen"
+      ]
+    },
+    {
+      "german": "Das erzeugt Stress.",
+      "english": "That creates stress.",
+      "highlight": [
+        "erzeugt"
+      ]
+    },
+    {
+      "german": "Hier werden Lebensmittel erzeugt.",
+      "english": "Food is produced here.",
+      "highlight": [
+        "erzeugt."
+      ]
+    }
+  ],
+  "forms": [
+    "Erzeugnis",
+    "Erzeuger"
+  ],
+  "memoryHook": "Erzeugen = produce, generate; Erzeugnis, Erzeuger.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (erzeugen)",
+      "answer": "erzeugt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: erzeugt.",
+      "acceptedAnswers": [
+        "erzeugt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (erzeugen, past)",
+      "answer": "erzeugt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe erzeugt.",
+      "acceptedAnswers": [
+        "erzeugt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does erzeugen mean?",
+      "options": [
+        "the child",
+        "to produce",
+        "the bread"
+      ],
+      "answer": "to produce",
+      "explanation": "erzeugen: to produce, generate, create.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Noun (product):",
+      "options": [
+        "das Erzeugnis / die Erzeugung",
+        "der Zeuge"
+      ],
+      "answer": "das Erzeugnis / die Erzeugung",
+      "explanation": "Product.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Producer:",
+      "options": [
+        "der Erzeuger",
+        "der Erzeug"
+      ],
+      "answer": "der Erzeuger",
+      "explanation": "Producer.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "hat erzeugt",
+        "hat geerzeugt"
+      ],
+      "answer": "hat erzeugt",
+      "explanation": "No ge-.",
+      "id": "q6"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "nie",
+    "partOfSpeech": "adverb",
+    "pronunciation": {
+      "respelling": "NEE",
+      "ipa": "niː",
+      "notes": ""
+    },
+    "meaning": "never",
+    "shortDefinition": "Never."
+  },
+  "wordFamily": [
+    {
+      "german": "niemals",
+      "english": "never ever",
+      "type": "adverb"
+    },
+    {
+      "german": "immer",
+      "english": "always",
+      "type": "adverb"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er kommt nie pünktlich.",
+      "english": "He's never on time.",
+      "highlight": [
+        "nie"
+      ]
+    },
+    {
+      "german": "Ich war noch nie in Wien.",
+      "english": "I've never been to Vienna.",
+      "highlight": [
+        "nie"
+      ]
+    },
+    {
+      "german": "Nie wieder!",
+      "english": "Never again!",
+      "highlight": [
+        "Nie"
+      ]
+    }
+  ],
+  "forms": [],
+  "memoryHook": "Nie = never. Noch nie = never yet. Nie wieder = never again.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does nie mean?",
+      "options": [
+        "the car",
+        "expensive",
+        "never"
+      ],
+      "answer": "never",
+      "explanation": "nie: never.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Never again':",
+      "options": [
+        "nie wieder",
+        "nicht wieder"
+      ],
+      "answer": "nie wieder",
+      "explanation": "Nie wieder.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "'I've never been to Vienna':",
+      "options": [
+        "Ich war noch nie in Wien.",
+        "Ich war nie noch in Wien."
+      ],
+      "answer": "Ich war noch nie in Wien.",
+      "explanation": "Noch nie = never (so far).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "The opposite:",
+      "options": [
+        "immer",
+        "oft"
+      ],
+      "answer": "immer",
+      "explanation": "Always.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Er raucht ___ . (never)",
+      "answer": "nie",
+      "fullAnswer": "Er raucht nie.",
+      "explanation": "Nie.",
+      "id": "q5"
+    }
+  ]
+}

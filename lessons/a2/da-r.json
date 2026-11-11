@@ -1,0 +1,171 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "da(r)-",
+    "partOfSpeech": "prefix (da + preposition)",
+    "pronunciation": {
+      "respelling": "DAA / DAAR",
+      "ipa": "daː / daːʁ",
+      "notes": ""
+    },
+    "meaning": "it, that (with prepositions: damit, darauf, darüber…)",
+    "shortDefinition": "It, that (with prepositions: damit, darauf, darüber…)."
+  },
+  "tables": [
+    {
+      "title": "Common da-words",
+      "columns": [
+        "word"
+      ],
+      "rows": [
+        {
+          "label": "mit",
+          "cells": [
+            "da|mit|"
+          ]
+        },
+        {
+          "label": "für",
+          "cells": [
+            "da|für|"
+          ]
+        },
+        {
+          "label": "auf",
+          "cells": [
+            "dar|auf|"
+          ]
+        },
+        {
+          "label": "über",
+          "cells": [
+            "dar|über|"
+          ]
+        },
+        {
+          "label": "an",
+          "cells": [
+            "dar|an|"
+          ]
+        },
+        {
+          "label": "von",
+          "cells": [
+            "da|von|"
+          ]
+        }
+      ],
+      "notes": [
+        "Only for things and ideas. For people: mit ihm, für sie."
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich freue mich darauf.",
+      "english": "I'm looking forward to it.",
+      "highlight": [
+        "darauf."
+      ]
+    },
+    {
+      "german": "Was machst du damit?",
+      "english": "What are you doing with it?",
+      "highlight": [
+        "damit?"
+      ]
+    },
+    {
+      "german": "Wir haben lange darüber gesprochen.",
+      "english": "We talked about it for a long time.",
+      "highlight": [
+        "darüber"
+      ]
+    }
+  ],
+  "forms": [
+    "damit",
+    "dafür",
+    "darauf",
+    "darüber",
+    "daran",
+    "davon",
+    "dazu",
+    "darin",
+    "dabei",
+    "dagegen"
+  ],
+  "memoryHook": "Preposition + it = da + preposition: damit, dafür, darauf, darüber. Add -r- before a vowel.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does da(r)- mean?",
+      "options": [
+        "to help",
+        "it",
+        "the bed"
+      ],
+      "answer": "it",
+      "explanation": "da(r)-: it, that (with prepositions: damit, darauf, darüber…).",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "'With it' (a thing):",
+      "options": [
+        "damit",
+        "mit es"
+      ],
+      "answer": "damit",
+      "explanation": "Never mit es.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "When does it become dar-?",
+      "options": [
+        "before a vowel: darauf, darüber",
+        "always"
+      ],
+      "answer": "before a vowel: darauf, darüber",
+      "explanation": "Da + r + vowel.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'I'm thinking about it' (a plan):",
+      "options": [
+        "Ich denke darüber nach.",
+        "Ich denke über es nach."
+      ],
+      "answer": "Ich denke darüber nach.",
+      "explanation": "Darüber.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "For a PERSON, use…",
+      "options": [
+        "mit ihm (not damit)",
+        "damit"
+      ],
+      "answer": "mit ihm (not damit)",
+      "explanation": "Da- is only for things.",
+      "id": "q5"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich warte ___ . (for it: warten auf)",
+      "answer": "darauf",
+      "fullAnswer": "Ich warte darauf.",
+      "explanation": "Da + r + auf.",
+      "id": "q6"
+    }
+  ]
+}

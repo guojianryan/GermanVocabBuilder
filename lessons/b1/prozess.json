@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Prozess",
+    "partOfSpeech": "noun, masculine (der Prozess)",
+    "pronunciation": {
+      "respelling": "pro-TSES",
+      "ipa": "pʁoˈtsɛs",
+      "notes": "Plural: die Prozesse."
+    },
+    "meaning": "process; trial",
+    "shortDefinition": "Process; trial."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Prozess, plural die Prozesse.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Prozess"
+        },
+        {
+          "label": "More than one",
+          "value": "die Prozesse"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das ist ein langer Prozess.",
+      "english": "It's a long process.",
+      "highlight": [
+        "Prozess."
+      ]
+    },
+    {
+      "german": "Der Prozess beginnt morgen.",
+      "english": "The trial begins tomorrow.",
+      "highlight": [
+        "Prozess"
+      ]
+    },
+    {
+      "german": "Sie hat den Prozess gewonnen.",
+      "english": "She won the case.",
+      "highlight": [
+        "Prozess"
+      ]
+    }
+  ],
+  "forms": [
+    "Prozesse",
+    "die Prozesse",
+    "der Prozess"
+  ],
+  "memoryHook": "Der Prozess: process; trial (court).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Prozess",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Prozess is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Prozess, zwei ___",
+      "answer": "Prozesse",
+      "fullAnswer": "ein Prozess, zwei Prozesse",
+      "explanation": "The plural is Prozesse.",
+      "acceptedAnswers": [
+        "Prozesse"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Prozess mean?",
+      "options": [
+        "the bread",
+        "cheap",
+        "process"
+      ],
+      "answer": "process",
+      "explanation": "Prozess: process; trial.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "In court, Prozess means…",
+      "options": [
+        "trial, lawsuit",
+        "process"
+      ],
+      "answer": "trial, lawsuit",
+      "explanation": "Court.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Z sounds like…",
+      "options": [
+        "ts",
+        "z"
+      ],
+      "answer": "ts",
+      "explanation": "pro-TSES.",
+      "id": "q5"
+    }
+  ]
+}

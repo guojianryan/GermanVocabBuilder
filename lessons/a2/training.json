@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Training",
+    "partOfSpeech": "noun, neuter (das Training)",
+    "pronunciation": {
+      "respelling": "TRAY-ning",
+      "ipa": "ˈtʁɛːnɪŋ",
+      "notes": "Plural: die Trainings."
+    },
+    "meaning": "training, practice",
+    "shortDefinition": "Training, practice."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Training, plural die Trainings.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Training"
+        },
+        {
+          "label": "More than one",
+          "value": "die Trainings"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das Training beginnt um 18 Uhr.",
+      "english": "Training starts at 6 pm.",
+      "highlight": [
+        "Training"
+      ]
+    },
+    {
+      "german": "Ich gehe zweimal pro Woche zum Training.",
+      "english": "I go to training twice a week.",
+      "highlight": [
+        "Training."
+      ]
+    },
+    {
+      "german": "Nach dem Training bin ich müde.",
+      "english": "I'm tired after training.",
+      "highlight": [
+        "Training"
+      ]
+    }
+  ],
+  "forms": [
+    "Trainings",
+    "die Trainings",
+    "das Training"
+  ],
+  "memoryHook": "Das Training (English word). Trainieren = to train.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Training",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Training is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Training, zwei ___",
+      "answer": "Trainings",
+      "fullAnswer": "ein Training, zwei Trainings",
+      "explanation": "The plural is Trainings.",
+      "acceptedAnswers": [
+        "Trainings"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Training mean?",
+      "options": [
+        "the bill",
+        "the street",
+        "training"
+      ],
+      "answer": "training",
+      "explanation": "Training: training, practice.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gender:",
+      "options": [
+        "das",
+        "die"
+      ],
+      "answer": "das",
+      "explanation": "Das Training.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Go to training':",
+      "options": [
+        "zum Training gehen",
+        "ins Training gehen only"
+      ],
+      "answer": "zum Training gehen",
+      "explanation": "Zum.",
+      "id": "q5"
+    }
+  ]
+}

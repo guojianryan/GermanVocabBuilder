@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Gemeinde",
+    "partOfSpeech": "noun, feminine (die Gemeinde)",
+    "pronunciation": {
+      "respelling": "ge-MINE-de",
+      "ipa": "ɡəˈmaɪ̯ndə",
+      "notes": "Plural: die Gemeinden."
+    },
+    "meaning": "municipality; community; parish",
+    "shortDefinition": "Municipality; community; parish."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Gemeinde, plural die Gemeinden.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Gemeinde"
+        },
+        {
+          "label": "More than one",
+          "value": "die Gemeinden"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Gemeinde hat 5.000 Einwohner.",
+      "english": "The municipality has 5,000 inhabitants.",
+      "highlight": [
+        "Gemeinde"
+      ]
+    },
+    {
+      "german": "Melde dich bei der Gemeinde an.",
+      "english": "Register with the local council.",
+      "highlight": [
+        "Gemeinde"
+      ]
+    },
+    {
+      "german": "Die ganze Gemeinde kam zum Fest.",
+      "english": "The whole community came to the festival.",
+      "highlight": [
+        "Gemeinde"
+      ]
+    }
+  ],
+  "forms": [
+    "Gemeinden",
+    "die Gemeinden",
+    "die Gemeinde"
+  ],
+  "memoryHook": "Die Gemeinde (local community, council, parish).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Gemeinde",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Gemeinde is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Gemeinde, zwei ___",
+      "answer": "Gemeinden",
+      "fullAnswer": "ein Gemeinde, zwei Gemeinden",
+      "explanation": "The plural is Gemeinden.",
+      "acceptedAnswers": [
+        "Gemeinden"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Gemeinde mean?",
+      "options": [
+        "the car",
+        "the job",
+        "municipality"
+      ],
+      "answer": "municipality",
+      "explanation": "Gemeinde: municipality; community; parish.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gemeinde can mean…",
+      "options": [
+        "local council, community, parish",
+        "only church"
+      ],
+      "answer": "local council, community, parish",
+      "explanation": "Broad.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Related:",
+      "options": [
+        "gemeinsam (together)",
+        "gemein only"
+      ],
+      "answer": "gemeinsam (together)",
+      "explanation": "Common.",
+      "id": "q5"
+    }
+  ]
+}

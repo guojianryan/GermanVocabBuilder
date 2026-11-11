@@ -1,0 +1,150 @@
+{
+ "schemaVersion": "1.4",
+ "language": "de",
+ "explanationLanguage": "en",
+ "level": "A2",
+ "levelSource": "Goethe-Zertifikat A2 Wortliste",
+ "lessonType": "card",
+ "word": {
+  "headword": "Gewitter",
+  "partOfSpeech": "noun, neuter (das Gewitter)",
+  "pronunciation": {
+   "respelling": "ge-VIT-er",
+   "ipa": "ɡəˈvɪtɐ",
+   "notes": "The plural looks the same. Plural: die Gewitter."
+  },
+  "meaning": "thunderstorm",
+  "shortDefinition": "Thunderstorm."
+ },
+ "wordFamily": [
+  {
+   "german": "der Blitz",
+   "english": "lightning",
+   "type": "noun"
+  },
+  {
+   "german": "der Donner",
+   "english": "thunder",
+   "type": "noun"
+  }
+ ],
+ "commonMistakes": [
+  {
+   "title": "Gender and plural",
+   "explanation": "Das Gewitter, plural die Gewitter.",
+   "forms": [
+    {
+     "label": "One",
+     "value": "das Gewitter"
+    },
+    {
+     "label": "More than one",
+     "value": "die Gewitter"
+    }
+   ]
+  }
+ ],
+ "sampleSentences": [
+  {
+   "german": "Heute Abend gibt es ein Gewitter.",
+   "english": "There'll be a thunderstorm this evening.",
+   "highlight": [
+    "Gewitter."
+   ]
+  },
+  {
+   "german": "Bei Gewitter nicht schwimmen!",
+   "english": "Don't swim during a thunderstorm!",
+   "highlight": [
+    "Gewitter"
+   ]
+  },
+  {
+   "german": "Das Gewitter war sehr laut.",
+   "english": "The thunderstorm was very loud.",
+   "highlight": [
+    "Gewitter"
+   ]
+  }
+ ],
+ "forms": [
+  "Gewitter",
+  "die Gewitter",
+  "das Gewitter"
+ ],
+ "memoryHook": "Ge + Wetter: a big weather event. Donner und Blitz.",
+ "signOff": "Gut gemacht!",
+ "quiz": [
+  {
+   "type": "choice",
+   "prompt": "___ Gewitter",
+   "options": [
+    "der",
+    "die",
+    "das"
+   ],
+   "answer": "das",
+   "explanation": "Gewitter is neuter.",
+   "id": "q1"
+  },
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "ein Gewitter, zwei ___",
+   "answer": "Gewitter",
+   "fullAnswer": "ein Gewitter, zwei Gewitter",
+   "explanation": "The plural is Gewitter.",
+   "acceptedAnswers": [
+    "Gewitter"
+   ],
+   "id": "q2"
+  },
+  {
+   "type": "choice",
+   "prompt": "What does Gewitter mean?",
+   "options": [
+    "to wait",
+    "the window",
+    "thunderstorm"
+   ],
+   "answer": "thunderstorm",
+   "explanation": "Gewitter: thunderstorm.",
+   "id": "q3"
+  },
+  {
+   "type": "choice",
+   "prompt": "Thunder is…",
+   "options": [
+    "der Donner",
+    "der Blitz"
+   ],
+   "answer": "der Donner",
+   "explanation": "Lightning = der Blitz.",
+   "id": "q4"
+  },
+  {
+   "type": "choice",
+   "prompt": "Related to…",
+   "options": [
+    "das Wetter",
+    "der Witz"
+   ],
+   "answer": "das Wetter",
+   "explanation": "Ge- + Wetter.",
+   "id": "q5"
+  }
+ ],
+ "etymology": {
+  "title": "Where it comes from",
+  "parts": [
+   {
+    "part": "Ge",
+    "meaning": "prefix"
+   },
+   {
+    "part": "witter",
+    "meaning": "weather (Wetter)"
+   }
+  ],
+  "literalMeaning": "weather together"
+ }
+}

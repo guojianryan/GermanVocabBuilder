@@ -1,0 +1,150 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Absender",
+    "partOfSpeech": "noun, masculine (der Absender)",
+    "pronunciation": {
+      "respelling": "AHP-zen-der",
+      "ipa": "ˈapzɛndɐ",
+      "notes": "The plural looks the same. Plural: die Absender."
+    },
+    "meaning": "sender (on a letter or parcel)",
+    "shortDefinition": "Sender (on a letter or parcel)."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Ab",
+        "meaning": "away"
+      },
+      {
+        "part": "send",
+        "meaning": "send",
+        "note": "From senden."
+      },
+      {
+        "part": "er",
+        "meaning": "person who does it"
+      }
+    ],
+    "literalMeaning": "the one who sends away"
+  },
+  "wordFamily": [
+    {
+      "german": "senden",
+      "english": "to send",
+      "type": "verb"
+    },
+    {
+      "german": "der Empfänger",
+      "english": "recipient",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Absender, plural die Absender.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Absender"
+        },
+        {
+          "label": "More than one",
+          "value": "die Absender"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Auf dem Brief steht kein Absender.",
+      "english": "There's no sender on the letter.",
+      "highlight": [
+        "Absender."
+      ]
+    },
+    {
+      "german": "Bitte schreiben Sie den Absender oben links.",
+      "english": "Please write the sender's address at the top left.",
+      "highlight": [
+        "Absender"
+      ]
+    },
+    {
+      "german": "Das Paket geht zurück an den Absender.",
+      "english": "The parcel is going back to the sender.",
+      "highlight": [
+        "Absender."
+      ]
+    }
+  ],
+  "forms": [
+    "Absenders"
+  ],
+  "memoryHook": "Ab + senden = the one who sends it away. Its partner is der Empfänger, the receiver.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Absender",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Absender is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Absender, zwei ___",
+      "answer": "Absender",
+      "fullAnswer": "ein Absender, zwei Absender",
+      "explanation": "The plural is Absender.",
+      "acceptedAnswers": [
+        "Absender"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "The person who receives a letter is the…",
+      "options": [
+        "Absender",
+        "Empfänger"
+      ],
+      "answer": "Empfänger",
+      "explanation": "Absender sends, Empfänger receives.",
+      "id": "q3"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Das Paket geht zurück an den ___.",
+      "answer": "Absender",
+      "fullAnswer": "Das Paket geht zurück an den Absender.",
+      "explanation": "Back to the sender.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Absender is built from ab + senden. Senden means…",
+      "options": [
+        "to send",
+        "to read",
+        "to write"
+      ],
+      "answer": "to send",
+      "explanation": "Ab-sender: the one who sends it away.",
+      "id": "q5"
+    }
+  ]
+}

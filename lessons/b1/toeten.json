@@ -1,0 +1,154 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "töten",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "TÖ-ten",
+      "ipa": "ˈtøːtn̩",
+      "notes": ""
+    },
+    "meaning": "to kill",
+    "shortDefinition": "To kill."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "töt|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "töt|est"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "töt|et"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "töt|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "töt|et"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "töt|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat getötet"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Bei dem Unfall wurden zwei Menschen getötet.",
+      "english": "Two people were killed in the accident.",
+      "highlight": [
+        "getötet."
+      ]
+    },
+    {
+      "german": "Die Katze tötet eine Maus.",
+      "english": "The cat kills a mouse.",
+      "highlight": [
+        "tötet"
+      ]
+    },
+    {
+      "german": "Du sollst nicht töten.",
+      "english": "Thou shalt not kill.",
+      "highlight": [
+        "töten."
+      ]
+    }
+  ],
+  "forms": [
+    "umbringen"
+  ],
+  "memoryHook": "Töten (tot, Tod). Informal: umbringen.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (töten)",
+      "answer": "tötet",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: tötet.",
+      "acceptedAnswers": [
+        "toetet"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (töten, past)",
+      "answer": "getötet",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe getötet.",
+      "acceptedAnswers": [
+        "getoetet"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does töten mean?",
+      "options": [
+        "to kill",
+        "the station",
+        "the car"
+      ],
+      "answer": "to kill",
+      "explanation": "töten: to kill.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Related:",
+      "options": [
+        "tot (dead), der Tod (death)",
+        "Tat"
+      ],
+      "answer": "tot (dead), der Tod (death)",
+      "explanation": "Death.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Informal synonym:",
+      "options": [
+        "umbringen",
+        "umgehen"
+      ],
+      "answer": "umbringen",
+      "explanation": "Kill.",
+      "id": "q5"
+    }
+  ]
+}

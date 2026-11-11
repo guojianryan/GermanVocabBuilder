@@ -1,0 +1,178 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "danken",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "DAHNK-en",
+      "ipa": "ˈdaŋkn̩",
+      "notes": ""
+    },
+    "meaning": "to thank",
+    "shortDefinition": "To thank."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "dank|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "dank|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "dank|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "dank|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "dank|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "dank|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gedankt"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "danke",
+      "english": "thanks",
+      "type": "particle"
+    },
+    {
+      "german": "der Dank",
+      "english": "thanks",
+      "type": "noun"
+    },
+    {
+      "german": "Vielen Dank!",
+      "english": "Many thanks!",
+      "type": "phrase"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich danke Ihnen für Ihre Hilfe.",
+      "english": "Thank you for your help.",
+      "highlight": [
+        "danke",
+        "Ihnen"
+      ]
+    },
+    {
+      "german": "Danke schön!",
+      "english": "Thank you very much!",
+      "highlight": [
+        "Danke"
+      ]
+    },
+    {
+      "german": "Vielen Dank für die Einladung!",
+      "english": "Many thanks for the invitation!",
+      "highlight": [
+        "Dank"
+      ]
+    }
+  ],
+  "forms": [
+    "danke",
+    "dankst",
+    "dankt",
+    "danken",
+    "gedankt",
+    "Dank",
+    "Vielen Dank"
+  ],
+  "memoryHook": "Danken + dative: ich danke dir, ich danke Ihnen. Danke für … for the reason. Vielen Dank = many thanks.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (danken)",
+      "answer": "dankt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: dankt.",
+      "acceptedAnswers": [
+        "dankt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (danken, past)",
+      "answer": "gedankt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gedankt.",
+      "acceptedAnswers": [
+        "gedankt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does danken mean?",
+      "options": [
+        "slowly",
+        "to thank",
+        "the door"
+      ],
+      "answer": "to thank",
+      "explanation": "danken: to thank.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich danke ___. (you, formal)",
+      "options": [
+        "Sie",
+        "Ihnen"
+      ],
+      "answer": "Ihnen",
+      "explanation": "Danken takes the dative.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "You thank someone ___ something.",
+      "options": [
+        "für",
+        "von"
+      ],
+      "answer": "für",
+      "explanation": "Danke für die Blumen.",
+      "id": "q5"
+    }
+  ]
+}

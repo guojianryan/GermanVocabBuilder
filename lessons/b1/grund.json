@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Grund",
+    "partOfSpeech": "noun, masculine (der Grund)",
+    "pronunciation": {
+      "respelling": "GROONT",
+      "ipa": "ɡʁʊnt",
+      "notes": "Plural: die Gründe."
+    },
+    "meaning": "reason; ground",
+    "shortDefinition": "Reason; ground."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Grund, plural die Gründe.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Grund"
+        },
+        {
+          "label": "More than one",
+          "value": "die Gründe"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Was ist der Grund dafür?",
+      "english": "What's the reason for it?",
+      "highlight": [
+        "Grund"
+      ]
+    },
+    {
+      "german": "Ich habe keinen Grund, mich zu beschweren.",
+      "english": "I have no reason to complain.",
+      "highlight": [
+        "Grund,"
+      ]
+    },
+    {
+      "german": "Im Grunde hast du recht.",
+      "english": "Basically you're right.",
+      "highlight": [
+        "Grunde"
+      ]
+    }
+  ],
+  "forms": [
+    "Gründe",
+    "im Grunde",
+    "grundsätzlich"
+  ],
+  "memoryHook": "Der Grund = reason (and ground). Im Grunde = basically.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Grund",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Grund is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Grund, zwei ___",
+      "answer": "Gründe",
+      "fullAnswer": "ein Grund, zwei Gründe",
+      "explanation": "The plural is Gründe.",
+      "acceptedAnswers": [
+        "Gruende"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Grund mean?",
+      "options": [
+        "reason",
+        "the key",
+        "expensive"
+      ],
+      "answer": "reason",
+      "explanation": "Grund: reason; ground.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Aus diesem Grund' means…",
+      "options": [
+        "for this reason",
+        "from this ground"
+      ],
+      "answer": "for this reason",
+      "explanation": "Reason.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Im Grunde' means…",
+      "options": [
+        "basically",
+        "on the ground"
+      ],
+      "answer": "basically",
+      "explanation": "Idiom.",
+      "id": "q5"
+    }
+  ]
+}

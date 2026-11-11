@@ -1,0 +1,160 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "full",
+  "word": {
+    "headword": "wie",
+    "partOfSpeech": "question word; conjunction",
+    "pronunciation": {
+      "respelling": "VEE",
+      "ipa": "viː",
+      "notes": "W = v, long ee."
+    },
+    "meaning": "how; like, as",
+    "shortDefinition": "How? and comparisons (so … wie)."
+  },
+  "intro": {
+    "title": "Wie geht's?",
+    "paragraphs": [
+      "Wie = how: Wie geht's? Wie heißt du? Wie alt bist du? It also compares equal things: so groß wie (as tall as). For 'than', use als."
+    ]
+  },
+  "wordFamily": [
+    {
+      "german": "wie viel / wie viele",
+      "english": "how much / how many",
+      "type": "question words"
+    },
+    {
+      "german": "Wie bitte?",
+      "english": "Pardon?",
+      "type": "phrase"
+    },
+    {
+      "german": "als",
+      "english": "than",
+      "type": "conjunction"
+    }
+  ],
+  "keyTrap": {
+    "title": "The big trap: wie or als?",
+    "explanation": "Equal: so … wie. Unequal (comparative): -er als.",
+    "wrong": {
+      "german": "Er ist größer wie ich.",
+      "verdict": "After a comparative, use als."
+    },
+    "correct": [
+      {
+        "german": "Er ist größer als ich.",
+        "literal": "He is taller than I.",
+        "note": "Comparative: als."
+      },
+      {
+        "german": "Er ist so groß wie ich.",
+        "literal": "He is as tall as I.",
+        "note": "Equal: so … wie."
+      }
+    ]
+  },
+  "commonMistakes": [
+    {
+      "title": "What's your name?",
+      "explanation": "Wie heißt du? (literally 'how are you called')",
+      "wrong": "Was ist dein Name? (OK but less common)",
+      "correct": "Wie heißt du?"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wie heißen Sie?",
+      "english": "What's your name?",
+      "highlight": [
+        "Wie"
+      ]
+    },
+    {
+      "german": "Wie alt ist dein Sohn?",
+      "english": "How old is your son?",
+      "highlight": [
+        "Wie"
+      ]
+    },
+    {
+      "german": "Wie komme ich zum Bahnhof?",
+      "english": "How do I get to the station?",
+      "highlight": [
+        "Wie"
+      ]
+    },
+    {
+      "german": "Sie singt wie ein Profi.",
+      "english": "She sings like a pro.",
+      "highlight": [
+        "wie"
+      ]
+    }
+  ],
+  "forms": [
+    "wie bitte",
+    "wie viel"
+  ],
+  "memoryHook": "Wie = how / like. So … wie = as … as. Comparative + als.",
+  "signOff": "Wie toll, du bist fast fertig!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "___ geht es dir? (How)",
+      "answer": "Wie",
+      "fullAnswer": "Wie geht es dir?",
+      "explanation": "Wie.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Sie ist älter ___ ich.",
+      "options": [
+        "wie",
+        "als"
+      ],
+      "answer": "als",
+      "explanation": "Comparative: als.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Er ist so alt ___ ich.",
+      "options": [
+        "wie",
+        "als"
+      ],
+      "answer": "wie",
+      "explanation": "Equal: so … wie.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'What's your name?' is usually…",
+      "options": [
+        "Wie heißt du?",
+        "Was heißt du?"
+      ],
+      "answer": "Wie heißt du?",
+      "explanation": "Wie heißt du.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Asking someone to repeat:",
+      "options": [
+        "Wie bitte?",
+        "Wie was?"
+      ],
+      "answer": "Wie bitte?",
+      "explanation": "Pardon?",
+      "id": "q5"
+    }
+  ]
+}

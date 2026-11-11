@@ -1,0 +1,171 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "singen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "ZING-en",
+      "ipa": "ˈzɪŋən",
+      "notes": ""
+    },
+    "meaning": "to sing",
+    "shortDefinition": "To sing."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "sing|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "sing|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "sing|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "sing|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "sing|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "sing|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gesungen"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "der Sänger",
+      "english": "singer",
+      "type": "noun"
+    },
+    {
+      "german": "das Lied",
+      "english": "song",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Sie singt im Chor.",
+      "english": "She sings in a choir.",
+      "highlight": [
+        "singt"
+      ]
+    },
+    {
+      "german": "Wir haben Geburtstagslieder gesungen.",
+      "english": "We sang birthday songs.",
+      "highlight": [
+        "gesungen."
+      ]
+    },
+    {
+      "german": "Ich singe gern unter der Dusche.",
+      "english": "I like singing in the shower.",
+      "highlight": [
+        "singe"
+      ]
+    }
+  ],
+  "forms": [
+    "singe",
+    "singst",
+    "singt",
+    "singen",
+    "gesungen",
+    "sang"
+  ],
+  "memoryHook": "Singen, sang, gesungen (sing, sang, sung!).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (singen)",
+      "answer": "singt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: singt.",
+      "acceptedAnswers": [
+        "singt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (singen, past)",
+      "answer": "gesungen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gesungen.",
+      "acceptedAnswers": [
+        "gesungen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does singen mean?",
+      "options": [
+        "the family",
+        "the door",
+        "to sing"
+      ],
+      "answer": "to sing",
+      "explanation": "singen: to sing.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Past forms:",
+      "options": [
+        "sang, gesungen",
+        "singte, gesingt"
+      ],
+      "answer": "sang, gesungen",
+      "explanation": "Like English!",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "A singer:",
+      "options": [
+        "der Sänger / die Sängerin",
+        "der Singer"
+      ],
+      "answer": "der Sänger / die Sängerin",
+      "explanation": "Umlaut.",
+      "id": "q5"
+    }
+  ]
+}

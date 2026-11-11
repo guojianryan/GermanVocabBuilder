@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Gruß",
+    "partOfSpeech": "noun, masculine (der Gruß)",
+    "pronunciation": {
+      "respelling": "GROOS",
+      "ipa": "ɡʁuːs",
+      "notes": "Plural: die Grüße."
+    },
+    "meaning": "greeting, regards",
+    "shortDefinition": "Greeting, regards."
+  },
+  "wordFamily": [
+    {
+      "german": "grüßen",
+      "english": "to greet",
+      "type": "verb"
+    },
+    {
+      "german": "Grüß Gott!",
+      "english": "Hello! (South Germany, Austria)",
+      "type": "phrase"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Gruß, plural die Grüße.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Gruß"
+        },
+        {
+          "label": "More than one",
+          "value": "die Grüße"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Viele Grüße an deine Familie!",
+      "english": "Give my regards to your family!",
+      "highlight": [
+        "Grüße"
+      ]
+    },
+    {
+      "german": "Mit freundlichen Grüßen, Anna Klein",
+      "english": "Yours sincerely, Anna Klein",
+      "highlight": [
+        "Grüßen,"
+      ]
+    },
+    {
+      "german": "Liebe Grüße aus Hamburg!",
+      "english": "Love from Hamburg!",
+      "highlight": [
+        "Grüße"
+      ]
+    }
+  ],
+  "forms": [
+    "Grüße",
+    "Grüßen",
+    "grüßen"
+  ],
+  "memoryHook": "Grüße end every message: Liebe Grüße (friends), Mit freundlichen Grüßen (formal).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Gruß",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Gruß is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Gruß, zwei ___",
+      "answer": "Grüße",
+      "fullAnswer": "ein Gruß, zwei Grüße",
+      "explanation": "The plural is Grüße.",
+      "acceptedAnswers": [
+        "Grueße"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Gruß mean?",
+      "options": [
+        "expensive",
+        "greeting",
+        "tomorrow"
+      ],
+      "answer": "greeting",
+      "explanation": "Gruß: greeting, regards.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "A formal letter ends with…",
+      "options": [
+        "Mit freundlichen Grüßen",
+        "Liebe Grüße"
+      ],
+      "answer": "Mit freundlichen Grüßen",
+      "explanation": "Formal sign-off.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Grüßen (the verb) means…",
+      "options": [
+        "to greet, to say hello",
+        "to grow"
+      ],
+      "answer": "to greet, to say hello",
+      "explanation": "Grüß deine Mutter!",
+      "id": "q5"
+    }
+  ]
+}

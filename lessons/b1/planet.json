@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Planet",
+    "partOfSpeech": "noun, masculine (der Planet)",
+    "pronunciation": {
+      "respelling": "pla-NAYT",
+      "ipa": "plaˈneːt",
+      "notes": "Plural: die Planeten."
+    },
+    "meaning": "planet",
+    "shortDefinition": "Planet."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Planet, plural die Planeten.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Planet"
+        },
+        {
+          "label": "More than one",
+          "value": "die Planeten"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Erde ist ein Planet.",
+      "english": "The earth is a planet.",
+      "highlight": [
+        "Planet."
+      ]
+    },
+    {
+      "german": "Wir müssen den Planeten schützen.",
+      "english": "We have to protect the planet.",
+      "highlight": [
+        "Planeten"
+      ]
+    },
+    {
+      "german": "Mars ist der rote Planet.",
+      "english": "Mars is the red planet.",
+      "highlight": [
+        "Planet."
+      ]
+    }
+  ],
+  "forms": [
+    "Planeten",
+    "die Planeten",
+    "der Planet"
+  ],
+  "memoryHook": "Der Planet (weak: den Planeten).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Planet",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Planet is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Planet, zwei ___",
+      "answer": "Planeten",
+      "fullAnswer": "ein Planet, zwei Planeten",
+      "explanation": "The plural is Planeten.",
+      "acceptedAnswers": [
+        "Planeten"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Planet mean?",
+      "options": [
+        "planet",
+        "the window",
+        "to travel"
+      ],
+      "answer": "planet",
+      "explanation": "Planet: planet.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Weak noun: den/dem…",
+      "options": [
+        "Planeten",
+        "Planet"
+      ],
+      "answer": "Planeten",
+      "explanation": "-en.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Stress on…",
+      "options": [
+        "-NET",
+        "PLA-"
+      ],
+      "answer": "-NET",
+      "explanation": "End.",
+      "id": "q5"
+    }
+  ]
+}

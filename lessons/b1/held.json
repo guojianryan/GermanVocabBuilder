@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Held",
+    "partOfSpeech": "noun, masculine (der Held)",
+    "pronunciation": {
+      "respelling": "HELT",
+      "ipa": "hɛlt",
+      "notes": "Plural: die Helden."
+    },
+    "meaning": "hero",
+    "shortDefinition": "Hero."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Held, plural die Helden.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Held"
+        },
+        {
+          "label": "More than one",
+          "value": "die Helden"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er ist mein Held!",
+      "english": "He's my hero!",
+      "highlight": [
+        "Held!"
+      ]
+    },
+    {
+      "german": "Die Heldin des Films ist sehr mutig.",
+      "english": "The film's heroine is very brave.",
+      "highlight": [
+        "Heldin"
+      ]
+    },
+    {
+      "german": "Die Feuerwehrleute sind echte Helden.",
+      "english": "The firefighters are real heroes.",
+      "highlight": [
+        "Helden."
+      ]
+    }
+  ],
+  "forms": [
+    "Heldin",
+    "Helden",
+    "den Helden"
+  ],
+  "memoryHook": "Der Held, den Helden; die Heldin.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Held",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Held is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Held, zwei ___",
+      "answer": "Helden",
+      "fullAnswer": "ein Held, zwei Helden",
+      "explanation": "The plural is Helden.",
+      "acceptedAnswers": [
+        "Helden"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Held mean?",
+      "options": [
+        "the bill",
+        "the window",
+        "hero"
+      ],
+      "answer": "hero",
+      "explanation": "Held: hero.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Accusative:",
+      "options": [
+        "den Helden",
+        "den Held"
+      ],
+      "answer": "den Helden",
+      "explanation": "-en.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Female:",
+      "options": [
+        "die Heldin",
+        "die Heldine"
+      ],
+      "answer": "die Heldin",
+      "explanation": "-in.",
+      "id": "q5"
+    }
+  ]
+}

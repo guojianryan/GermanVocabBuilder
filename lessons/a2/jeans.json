@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Jeans",
+    "partOfSpeech": "noun, feminine (die Jeans)",
+    "pronunciation": {
+      "respelling": "JEENS",
+      "ipa": "dʒiːns",
+      "notes": "Plural: die Jeans."
+    },
+    "meaning": "jeans",
+    "shortDefinition": "Jeans."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Jeans, plural die Jeans.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Jeans"
+        },
+        {
+          "label": "More than one",
+          "value": "die Jeans"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich trage gern Jeans.",
+      "english": "I like wearing jeans.",
+      "highlight": [
+        "Jeans."
+      ]
+    },
+    {
+      "german": "Die Jeans ist zu eng.",
+      "english": "The jeans are too tight.",
+      "highlight": [
+        "Jeans"
+      ]
+    },
+    {
+      "german": "Er hat drei Jeans.",
+      "english": "He has three pairs of jeans.",
+      "highlight": [
+        "Jeans."
+      ]
+    }
+  ],
+  "forms": [
+    "die Jeans"
+  ],
+  "memoryHook": "Eine Jeans = one pair (like eine Hose).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Jeans",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Jeans is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Jeans, zwei ___",
+      "answer": "Jeans",
+      "fullAnswer": "ein Jeans, zwei Jeans",
+      "explanation": "The plural is Jeans.",
+      "acceptedAnswers": [
+        "Jeans"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Jeans mean?",
+      "options": [
+        "the bread",
+        "jeans",
+        "to buy"
+      ],
+      "answer": "jeans",
+      "explanation": "Jeans: jeans.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'One pair of jeans':",
+      "options": [
+        "eine Jeans",
+        "ein Paar Jeans"
+      ],
+      "answer": "eine Jeans",
+      "explanation": "Singular, like Hose.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Die Jeans ___ neu. (one pair)",
+      "options": [
+        "ist",
+        "sind"
+      ],
+      "answer": "ist",
+      "explanation": "Singular.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Schüssel",
+    "partOfSpeech": "noun, feminine (die Schüssel)",
+    "pronunciation": {
+      "respelling": "SHÜS-el",
+      "ipa": "ˈʃʏsl̩",
+      "notes": "Plural: die Schüsseln."
+    },
+    "meaning": "bowl",
+    "shortDefinition": "Bowl."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Schüssel, plural die Schüsseln.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Schüssel"
+        },
+        {
+          "label": "More than one",
+          "value": "die Schüsseln"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Gib die Salatschüssel herum.",
+      "english": "Pass the salad bowl round.",
+      "highlight": [
+        "Salatschüssel"
+      ]
+    },
+    {
+      "german": "Ich esse Müsli aus der Schüssel.",
+      "english": "I eat muesli out of the bowl.",
+      "highlight": [
+        "Schüssel."
+      ]
+    },
+    {
+      "german": "Stell die Schüssel in den Kühlschrank.",
+      "english": "Put the bowl in the fridge.",
+      "highlight": [
+        "Schüssel"
+      ]
+    }
+  ],
+  "forms": [
+    "Schüsseln",
+    "die Schüsseln",
+    "die Schüssel"
+  ],
+  "memoryHook": "Die Schüssel (bowl) ≠ der Schlüssel (key)!",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Schüssel",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Schüssel is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Schüssel, zwei ___",
+      "answer": "Schüsseln",
+      "fullAnswer": "ein Schüssel, zwei Schüsseln",
+      "explanation": "The plural is Schüsseln.",
+      "acceptedAnswers": [
+        "Schuesseln"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Schüssel mean?",
+      "options": [
+        "bowl",
+        "the child",
+        "the family"
+      ],
+      "answer": "bowl",
+      "explanation": "Schüssel: bowl.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Don't confuse with…",
+      "options": [
+        "der Schlüssel (key)",
+        "die Schule"
+      ],
+      "answer": "der Schlüssel (key)",
+      "explanation": "Similar!",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Schüsseln",
+        "Schüssels"
+      ],
+      "answer": "Schüsseln",
+      "explanation": "-n.",
+      "id": "q5"
+    }
+  ]
+}

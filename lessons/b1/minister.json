@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Minister",
+    "partOfSpeech": "noun, masculine (der Minister)",
+    "pronunciation": {
+      "respelling": "mi-NIS-ter",
+      "ipa": "miˈnɪstɐ",
+      "notes": "The plural looks the same. Plural: die Minister."
+    },
+    "meaning": "minister",
+    "shortDefinition": "Minister."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Minister, plural die Minister.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Minister"
+        },
+        {
+          "label": "More than one",
+          "value": "die Minister"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Minister gibt eine Pressekonferenz.",
+      "english": "The minister is giving a press conference.",
+      "highlight": [
+        "Minister"
+      ]
+    },
+    {
+      "german": "Sie ist Ministerin für Bildung.",
+      "english": "She's the education minister.",
+      "highlight": [
+        "Ministerin"
+      ]
+    },
+    {
+      "german": "Der Finanzminister plant Steuersenkungen.",
+      "english": "The finance minister is planning tax cuts.",
+      "highlight": [
+        "Finanzminister"
+      ]
+    }
+  ],
+  "forms": [
+    "Ministerin",
+    "Ministerium"
+  ],
+  "memoryHook": "Der Minister, das Ministerium.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Minister",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Minister is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Minister, zwei ___",
+      "answer": "Minister",
+      "fullAnswer": "ein Minister, zwei Minister",
+      "explanation": "The plural is Minister.",
+      "acceptedAnswers": [
+        "Minister"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Minister mean?",
+      "options": [
+        "minister",
+        "hot",
+        "the car"
+      ],
+      "answer": "minister",
+      "explanation": "Minister: minister.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Female:",
+      "options": [
+        "die Ministerin",
+        "die Ministra"
+      ],
+      "answer": "die Ministerin",
+      "explanation": "-in.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ministry:",
+      "options": [
+        "das Ministerium",
+        "die Ministerei"
+      ],
+      "answer": "das Ministerium",
+      "explanation": "Ministry.",
+      "id": "q5"
+    }
+  ]
+}

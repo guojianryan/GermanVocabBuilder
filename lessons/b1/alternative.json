@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Alternative",
+    "partOfSpeech": "noun, feminine (die Alternative)",
+    "pronunciation": {
+      "respelling": "al-ter-na-TEE-ve",
+      "ipa": "altɐnaˈtiːvə",
+      "notes": "Plural: die Alternativen."
+    },
+    "meaning": "alternative",
+    "shortDefinition": "Alternative."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Alternative, plural die Alternativen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Alternative"
+        },
+        {
+          "label": "More than one",
+          "value": "die Alternativen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Es gibt keine Alternative.",
+      "english": "There's no alternative.",
+      "highlight": [
+        "Alternative."
+      ]
+    },
+    {
+      "german": "Das Fahrrad ist eine gute Alternative zum Auto.",
+      "english": "The bike is a good alternative to the car.",
+      "highlight": [
+        "Alternative"
+      ]
+    },
+    {
+      "german": "Welche Alternativen haben wir?",
+      "english": "What alternatives do we have?",
+      "highlight": [
+        "Alternativen"
+      ]
+    }
+  ],
+  "forms": [
+    "Alternativen",
+    "die Alternativen",
+    "die Alternative"
+  ],
+  "memoryHook": "Die Alternative zu…",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Alternative",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Alternative is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Alternative, zwei ___",
+      "answer": "Alternativen",
+      "fullAnswer": "ein Alternative, zwei Alternativen",
+      "explanation": "The plural is Alternativen.",
+      "acceptedAnswers": [
+        "Alternativen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Alternative mean?",
+      "options": [
+        "the key",
+        "always",
+        "alternative"
+      ],
+      "answer": "alternative",
+      "explanation": "Alternative: alternative.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "An alternative ___ the car:",
+      "options": [
+        "zum (zu + dem)",
+        "für"
+      ],
+      "answer": "zum (zu + dem)",
+      "explanation": "Alternative zu.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gender:",
+      "options": [
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Die Alternative.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "(sich) wehren",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "VAIR-en",
+      "ipa": "ˈveːʁən",
+      "notes": ""
+    },
+    "meaning": "to defend oneself, resist",
+    "shortDefinition": "To defend oneself, resist."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "wehr|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "wehr|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "wehr|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "wehr|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "wehr|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "wehr|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gewehrt"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Sie wehrt sich gegen die Vorwürfe.",
+      "english": "She's fighting the accusations.",
+      "highlight": [
+        "wehrt"
+      ]
+    },
+    {
+      "german": "Er hat sich nicht gewehrt.",
+      "english": "He didn't fight back.",
+      "highlight": [
+        "gewehrt."
+      ]
+    },
+    {
+      "german": "Wehr dich!",
+      "english": "Stand up for yourself!",
+      "highlight": [
+        "Wehr"
+      ]
+    }
+  ],
+  "forms": [
+    "Feuerwehr",
+    "Bundeswehr"
+  ],
+  "memoryHook": "Sich wehren gegen; Feuerwehr, Bundeswehr.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ ((sich) wehren)",
+      "answer": "wehrt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: wehrt.",
+      "acceptedAnswers": [
+        "wehrt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe mich schon ___. ((sich) wehren, past)",
+      "answer": "gewehrt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe mich gewehrt.",
+      "acceptedAnswers": [
+        "gewehrt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does (sich) wehren mean?",
+      "options": [
+        "to learn",
+        "to defend oneself",
+        "to buy"
+      ],
+      "answer": "to defend oneself",
+      "explanation": "(sich) wehren: to defend oneself, resist.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Preposition:",
+      "options": [
+        "sich wehren gegen",
+        "sich wehren von"
+      ],
+      "answer": "sich wehren gegen",
+      "explanation": "Against.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Fire brigade:",
+      "options": [
+        "die Feuerwehr",
+        "die Feuerwache only"
+      ],
+      "answer": "die Feuerwehr",
+      "explanation": "Fire-defence.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "German armed forces:",
+      "options": [
+        "die Bundeswehr",
+        "das Bundesheer"
+      ],
+      "answer": "die Bundeswehr",
+      "explanation": "Same root.",
+      "id": "q6"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Magen",
+    "partOfSpeech": "noun, masculine (der Magen)",
+    "pronunciation": {
+      "respelling": "MAA-gen",
+      "ipa": "ˈmaːɡn̩",
+      "notes": "Plural: die Mägen."
+    },
+    "meaning": "stomach",
+    "shortDefinition": "Stomach."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Magen, plural die Mägen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Magen"
+        },
+        {
+          "label": "More than one",
+          "value": "die Mägen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Mir tut der Magen weh.",
+      "english": "My stomach hurts.",
+      "highlight": [
+        "Magen"
+      ]
+    },
+    {
+      "german": "Ich habe Magenschmerzen.",
+      "english": "I've got stomach ache.",
+      "highlight": [
+        "Magenschmerzen."
+      ]
+    },
+    {
+      "german": "Nicht mit leerem Magen schwimmen!",
+      "english": "Don't swim on an empty stomach!",
+      "highlight": [
+        "Magen"
+      ]
+    }
+  ],
+  "forms": [
+    "Mägen",
+    "die Mägen",
+    "der Magen"
+  ],
+  "memoryHook": "Der Magen (organ). Magenschmerzen = stomach ache.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Magen",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Magen is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Magen, zwei ___",
+      "answer": "Mägen",
+      "fullAnswer": "ein Magen, zwei Mägen",
+      "explanation": "The plural is Mägen.",
+      "acceptedAnswers": [
+        "Maegen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Magen mean?",
+      "options": [
+        "always",
+        "stomach",
+        "the door"
+      ],
+      "answer": "stomach",
+      "explanation": "Magen: stomach.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Mägen (also Magen)",
+        "Magens"
+      ],
+      "answer": "Mägen (also Magen)",
+      "explanation": "Both.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Magen vs Bauch:",
+      "options": [
+        "Magen = stomach (organ); Bauch = belly",
+        "same"
+      ],
+      "answer": "Magen = stomach (organ); Bauch = belly",
+      "explanation": "Organ.",
+      "id": "q5"
+    }
+  ]
+}

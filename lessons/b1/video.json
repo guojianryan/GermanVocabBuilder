@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Video",
+    "partOfSpeech": "noun, neuter (das Video)",
+    "pronunciation": {
+      "respelling": "VEE-deh-o",
+      "ipa": "ˈviːdeo",
+      "notes": "Plural: die Videos."
+    },
+    "meaning": "video",
+    "shortDefinition": "Video."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Video, plural die Videos.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Video"
+        },
+        {
+          "label": "More than one",
+          "value": "die Videos"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich schaue ein Video.",
+      "english": "I'm watching a video.",
+      "highlight": [
+        "Video."
+      ]
+    },
+    {
+      "german": "Das Video hat viele Klicks.",
+      "english": "The video has lots of views.",
+      "highlight": [
+        "Video"
+      ]
+    },
+    {
+      "german": "Wir machen eine Videokonferenz.",
+      "english": "We're having a video conference.",
+      "highlight": [
+        "Videokonferenz."
+      ]
+    }
+  ],
+  "forms": [
+    "Videos",
+    "die Videos",
+    "das Video"
+  ],
+  "memoryHook": "Das Video, die Videos.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Video",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Video is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Video, zwei ___",
+      "answer": "Videos",
+      "fullAnswer": "ein Video, zwei Videos",
+      "explanation": "The plural is Videos.",
+      "acceptedAnswers": [
+        "Videos"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Video mean?",
+      "options": [
+        "video",
+        "always",
+        "the window"
+      ],
+      "answer": "video",
+      "explanation": "Video: video.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "V sounds like…",
+      "options": [
+        "v",
+        "f"
+      ],
+      "answer": "v",
+      "explanation": "VEE-deh-o.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Videos",
+        "Videen"
+      ],
+      "answer": "Videos",
+      "explanation": "-s.",
+      "id": "q5"
+    }
+  ]
+}

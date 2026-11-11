@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Passagier",
+    "partOfSpeech": "noun, masculine (der Passagier)",
+    "pronunciation": {
+      "respelling": "pa-sa-ZHEER",
+      "ipa": "pasaˈʒiːɐ̯",
+      "notes": "Plural: die Passagiere."
+    },
+    "meaning": "passenger",
+    "shortDefinition": "Passenger."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Passagier, plural die Passagiere.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Passagier"
+        },
+        {
+          "label": "More than one",
+          "value": "die Passagiere"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Alle Passagiere bitte einsteigen.",
+      "english": "All passengers please board.",
+      "highlight": [
+        "Passagiere"
+      ]
+    },
+    {
+      "german": "Das Flugzeug hat 200 Passagiere.",
+      "english": "The plane has 200 passengers.",
+      "highlight": [
+        "Passagiere."
+      ]
+    },
+    {
+      "german": "Die Passagierin sitzt am Fenster.",
+      "english": "The (female) passenger is sitting by the window.",
+      "highlight": [
+        "Passagierin"
+      ]
+    }
+  ],
+  "forms": [
+    "Passagierin"
+  ],
+  "memoryHook": "Der Passagier (French g). Buses: der Fahrgast.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Passagier",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Passagier is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Passagier, zwei ___",
+      "answer": "Passagiere",
+      "fullAnswer": "ein Passagier, zwei Passagiere",
+      "explanation": "The plural is Passagiere.",
+      "acceptedAnswers": [
+        "Passagiere"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Passagier mean?",
+      "options": [
+        "always",
+        "passenger",
+        "to open"
+      ],
+      "answer": "passenger",
+      "explanation": "Passagier: passenger.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "G sounds like…",
+      "options": [
+        "zh (French)",
+        "g"
+      ],
+      "answer": "zh (French)",
+      "explanation": "pa-sa-ZHEER.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Used for…",
+      "options": [
+        "planes, ships",
+        "buses mainly"
+      ],
+      "answer": "planes, ships",
+      "explanation": "Bus: Fahrgast.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Industrieland",
+    "partOfSpeech": "noun, neuter (das Industrieland)",
+    "pronunciation": {
+      "respelling": "in-doos-TREE-lant",
+      "ipa": "ɪndʊsˈtʁiːˌlant",
+      "notes": "Plural: die Industrieländer."
+    },
+    "meaning": "industrialised country",
+    "shortDefinition": "Industrialised country."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Industrie",
+        "meaning": "industry"
+      },
+      {
+        "part": "land",
+        "meaning": "country"
+      }
+    ],
+    "literalMeaning": "industry country"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Industrieland, plural die Industrieländer.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Industrieland"
+        },
+        {
+          "label": "More than one",
+          "value": "die Industrieländer"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Deutschland ist ein Industrieland.",
+      "english": "Germany is an industrialised country.",
+      "highlight": [
+        "Industrieland."
+      ]
+    },
+    {
+      "german": "Die führenden Industrieländer.",
+      "english": "The leading industrial nations.",
+      "highlight": [
+        "Industrieländer."
+      ]
+    },
+    {
+      "german": "Industrieländer und Entwicklungsländer.",
+      "english": "Industrialised and developing countries.",
+      "highlight": [
+        "Industrieländer"
+      ]
+    }
+  ],
+  "forms": [
+    "Entwicklungsland"
+  ],
+  "memoryHook": "Industrie + Land = industrialised country ↔ Entwicklungsland.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Industrieland",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Industrieland is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Industrieland, zwei ___",
+      "answer": "Industrieländer",
+      "fullAnswer": "ein Industrieland, zwei Industrieländer",
+      "explanation": "The plural is Industrieländer.",
+      "acceptedAnswers": [
+        "Industrielaender"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Industrieland mean?",
+      "options": [
+        "to buy",
+        "industrialised country",
+        "expensive"
+      ],
+      "answer": "industrialised country",
+      "explanation": "Industrieland: industrialised country.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Opposite:",
+      "options": [
+        "das Entwicklungsland",
+        "das Agrarland only"
+      ],
+      "answer": "das Entwicklungsland",
+      "explanation": "Developing.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Industrieländer",
+        "Industrielande"
+      ],
+      "answer": "Industrieländer",
+      "explanation": "Umlaut + -er.",
+      "id": "q5"
+    }
+  ]
+}

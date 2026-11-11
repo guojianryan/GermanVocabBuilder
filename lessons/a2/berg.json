@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Berg",
+    "partOfSpeech": "noun, masculine (der Berg)",
+    "pronunciation": {
+      "respelling": "BAIRK",
+      "ipa": "bɛʁk",
+      "notes": "Plural: die Berge."
+    },
+    "meaning": "mountain",
+    "shortDefinition": "Mountain."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Berg, plural die Berge.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Berg"
+        },
+        {
+          "label": "More than one",
+          "value": "die Berge"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Im Urlaub fahren wir in die Berge.",
+      "english": "We're going to the mountains on holiday.",
+      "highlight": [
+        "Berge."
+      ]
+    },
+    {
+      "german": "Die Zugspitze ist der höchste Berg Deutschlands.",
+      "english": "The Zugspitze is Germany's highest mountain.",
+      "highlight": [
+        "Berg"
+      ]
+    },
+    {
+      "german": "Wir wandern auf den Berg.",
+      "english": "We're hiking up the mountain.",
+      "highlight": [
+        "Berg."
+      ]
+    }
+  ],
+  "forms": [
+    "Berge",
+    "die Berge",
+    "der Berg"
+  ],
+  "memoryHook": "Der Berg: mountain. -berg names sit on hills; -burg names had castles.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Berg",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Berg is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Berg, zwei ___",
+      "answer": "Berge",
+      "fullAnswer": "ein Berg, zwei Berge",
+      "explanation": "The plural is Berge.",
+      "acceptedAnswers": [
+        "Berge"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Berg mean?",
+      "options": [
+        "mountain",
+        "to help",
+        "the bread"
+      ],
+      "answer": "mountain",
+      "explanation": "Berg: mountain.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'To the mountains':",
+      "options": [
+        "in die Berge",
+        "zu den Bergen"
+      ],
+      "answer": "in die Berge",
+      "explanation": "Into the mountains.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Many town names end in -berg: Heidelberg, Nürnberg. -berg means…",
+      "options": [
+        "mountain",
+        "town"
+      ],
+      "answer": "mountain",
+      "explanation": "-burg = castle/town.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Bund",
+    "partOfSpeech": "noun, masculine (der Bund)",
+    "pronunciation": {
+      "respelling": "BOONT",
+      "ipa": "bʊnt",
+      "notes": "Plural: die Bünde."
+    },
+    "meaning": "federation; federal government; alliance",
+    "shortDefinition": "Federation; federal government; alliance."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Bund, plural die Bünde.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Bund"
+        },
+        {
+          "label": "More than one",
+          "value": "die Bünde"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Bund zahlt die Hälfte.",
+      "english": "The federal government pays half.",
+      "highlight": [
+        "Bund"
+      ]
+    },
+    {
+      "german": "Die Länder und der Bund arbeiten zusammen.",
+      "english": "The states and the federation work together.",
+      "highlight": [
+        "Bund"
+      ]
+    },
+    {
+      "german": "Sie schlossen einen Bund.",
+      "english": "They formed an alliance.",
+      "highlight": [
+        "Bund."
+      ]
+    }
+  ],
+  "forms": [
+    "Bundes-"
+  ],
+  "memoryHook": "Der Bund = federation (Bundes-…). Das Bund = bunch.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Bund",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Bund is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Bund, zwei ___",
+      "answer": "Bünde",
+      "fullAnswer": "ein Bund, zwei Bünde",
+      "explanation": "The plural is Bünde.",
+      "acceptedAnswers": [
+        "Buende"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Bund mean?",
+      "options": [
+        "expensive",
+        "federation",
+        "to sing"
+      ],
+      "answer": "federation",
+      "explanation": "Bund: federation; federal government; alliance.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "In Germany 'der Bund' usually means…",
+      "options": [
+        "the federal government",
+        "a bundle"
+      ],
+      "answer": "the federal government",
+      "explanation": "Politics.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Das Bund (neuter) means…",
+      "options": [
+        "a bunch (of keys)",
+        "a union"
+      ],
+      "answer": "a bunch (of keys)",
+      "explanation": "Schlüsselbund.",
+      "id": "q5"
+    }
+  ]
+}

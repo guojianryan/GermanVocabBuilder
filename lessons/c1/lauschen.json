@@ -1,0 +1,165 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "lauschen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "LOW-shen",
+      "ipa": "ˈlaʊ̯ʃn̩",
+      "notes": ""
+    },
+    "meaning": "to listen (intently); to eavesdrop",
+    "shortDefinition": "To listen (intently); to eavesdrop."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "lausch|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "lausch|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "lausch|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "lausch|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "lausch|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "lausch|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gelauscht"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Kinder lauschen der Geschichte.",
+      "english": "The children listen to the story.",
+      "highlight": [
+        "lauschen"
+      ]
+    },
+    {
+      "german": "Er lauschte an der Tür.",
+      "english": "He eavesdropped at the door.",
+      "highlight": [
+        "lauschte"
+      ]
+    },
+    {
+      "german": "Sie lauscht dem Regen.",
+      "english": "She listens to the rain.",
+      "highlight": [
+        "lauscht"
+      ]
+    }
+  ],
+  "forms": [
+    "zuhören"
+  ],
+  "memoryHook": "Lauschen (+ Dat.) = listen intently; eavesdrop.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (lauschen)",
+      "answer": "lauscht",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: lauscht.",
+      "acceptedAnswers": [
+        "lauscht"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (lauschen, past)",
+      "answer": "gelauscht",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gelauscht.",
+      "acceptedAnswers": [
+        "gelauscht"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does lauschen mean?",
+      "options": [
+        "to listen (intently)",
+        "quiet",
+        "the flower"
+      ],
+      "answer": "to listen (intently)",
+      "explanation": "lauschen: to listen (intently); to eavesdrop.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Takes…",
+      "options": [
+        "dative (der Musik lauschen)",
+        "accusative"
+      ],
+      "answer": "dative (der Musik lauschen)",
+      "explanation": "Dative.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Register:",
+      "options": [
+        "literary (= zuhören)",
+        "slang"
+      ],
+      "answer": "literary (= zuhören)",
+      "explanation": "Poetic.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Eavesdropper:",
+      "options": [
+        "der Lauscher",
+        "der Laus"
+      ],
+      "answer": "der Lauscher",
+      "explanation": "Person.",
+      "id": "q6"
+    }
+  ]
+}

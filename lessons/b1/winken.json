@@ -1,0 +1,158 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "winken",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "VING-ken",
+      "ipa": "ˈvɪŋkn̩",
+      "notes": ""
+    },
+    "meaning": "to wave",
+    "shortDefinition": "To wave."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "wink|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "wink|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "wink|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "wink|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "wink|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "wink|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gewinkt"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Sie winkt zum Abschied.",
+      "english": "She waves goodbye.",
+      "highlight": [
+        "winkt"
+      ]
+    },
+    {
+      "german": "Er hat mir zugewinkt.",
+      "english": "He waved to me.",
+      "highlight": [
+        "zugewinkt."
+      ]
+    },
+    {
+      "german": "Wink mal dem Taxi!",
+      "english": "Wave down the taxi!",
+      "highlight": [
+        "Wink"
+      ]
+    }
+  ],
+  "forms": [
+    "winke",
+    "winkst",
+    "winkt",
+    "winken",
+    "gewinkt"
+  ],
+  "memoryHook": "Winken = wave (wink = zwinkern).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (winken)",
+      "answer": "winkt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: winkt.",
+      "acceptedAnswers": [
+        "winkt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (winken, past)",
+      "answer": "gewinkt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gewinkt.",
+      "acceptedAnswers": [
+        "gewinkt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does winken mean?",
+      "options": [
+        "the evening",
+        "to wave",
+        "never"
+      ],
+      "answer": "to wave",
+      "explanation": "winken: to wave.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "hat gewinkt (also gewunken)",
+        "hat gewunkt"
+      ],
+      "answer": "hat gewinkt (also gewunken)",
+      "explanation": "Both heard.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Not 'wink' (eye)! Wink =",
+      "options": [
+        "zwinkern",
+        "winken"
+      ],
+      "answer": "zwinkern",
+      "explanation": "False friend.",
+      "id": "q5"
+    }
+  ]
+}

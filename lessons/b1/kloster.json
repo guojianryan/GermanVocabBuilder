@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Kloster",
+    "partOfSpeech": "noun, neuter (das Kloster)",
+    "pronunciation": {
+      "respelling": "KLOHS-ter",
+      "ipa": "ˈkloːstɐ",
+      "notes": "Plural: die Klöster."
+    },
+    "meaning": "monastery, convent",
+    "shortDefinition": "Monastery, convent."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Kloster, plural die Klöster.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Kloster"
+        },
+        {
+          "label": "More than one",
+          "value": "die Klöster"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das Kloster ist 800 Jahre alt.",
+      "english": "The monastery is 800 years old.",
+      "highlight": [
+        "Kloster"
+      ]
+    },
+    {
+      "german": "Sie ist ins Kloster gegangen.",
+      "english": "She became a nun.",
+      "highlight": [
+        "Kloster"
+      ]
+    },
+    {
+      "german": "Mönche leben im Kloster.",
+      "english": "Monks live in the monastery.",
+      "highlight": [
+        "Kloster."
+      ]
+    }
+  ],
+  "forms": [
+    "Klöster",
+    "die Klöster",
+    "das Kloster"
+  ],
+  "memoryHook": "Das Kloster (die Klöster) = cloister.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Kloster",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Kloster is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Kloster, zwei ___",
+      "answer": "Klöster",
+      "fullAnswer": "ein Kloster, zwei Klöster",
+      "explanation": "The plural is Klöster.",
+      "acceptedAnswers": [
+        "Kloester"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Kloster mean?",
+      "options": [
+        "monastery",
+        "the bill",
+        "slowly"
+      ],
+      "answer": "monastery",
+      "explanation": "Kloster: monastery, convent.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Klöster",
+        "Klostern"
+      ],
+      "answer": "Klöster",
+      "explanation": "Umlaut.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Related to…",
+      "options": [
+        "cloister (closed off)",
+        "Klo"
+      ],
+      "answer": "cloister (closed off)",
+      "explanation": "Latin claustrum.",
+      "id": "q5"
+    }
+  ]
+}

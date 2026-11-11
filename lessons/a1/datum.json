@@ -1,0 +1,135 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Datum",
+    "partOfSpeech": "noun, neuter (das Datum)",
+    "pronunciation": {
+      "respelling": "DAH-toom",
+      "ipa": "ˈdaːtʊm",
+      "notes": "The plural Daten also means 'data'. Plural: die Daten."
+    },
+    "meaning": "date (on the calendar)",
+    "shortDefinition": "Date (on the calendar)."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Datum, plural die Daten.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Datum"
+        },
+        {
+          "label": "More than one",
+          "value": "die Daten"
+        }
+      ]
+    },
+    {
+      "title": "Writing dates",
+      "explanation": "Day first, then month, with full stops.",
+      "examples": [
+        {
+          "german": "Heute ist der 3. Mai.",
+          "english": "Today is the 3rd of May.",
+          "highlight": "3."
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Welches Datum ist heute?",
+      "english": "What's the date today?",
+      "highlight": [
+        "Datum"
+      ]
+    },
+    {
+      "german": "Bitte schreiben Sie das Datum oben rechts.",
+      "english": "Please write the date at the top right.",
+      "highlight": [
+        "Datum"
+      ]
+    },
+    {
+      "german": "Das Datum steht auf der Rechnung.",
+      "english": "The date is on the invoice.",
+      "highlight": [
+        "Datum"
+      ]
+    }
+  ],
+  "forms": [
+    "Daten",
+    "die Daten",
+    "das Datum"
+  ],
+  "memoryHook": "Das Datum is only a calendar date. The plural Daten also means 'data'.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Datum",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Datum is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Datum, zwei ___",
+      "answer": "Daten",
+      "fullAnswer": "ein Datum, zwei Daten",
+      "explanation": "The plural is Daten.",
+      "acceptedAnswers": [
+        "Daten"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Datum mean?",
+      "options": [
+        "the child",
+        "date (on the calendar)",
+        "the evening"
+      ],
+      "answer": "date (on the calendar)",
+      "explanation": "Datum: date (on the calendar).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Dates are written day first: 3.5. means…",
+      "options": [
+        "3rd May",
+        "5th March"
+      ],
+      "answer": "3rd May",
+      "explanation": "Day, then month.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "A romantic date is NOT ein Datum. It's…",
+      "options": [
+        "ein Date / eine Verabredung",
+        "ein Termin"
+      ],
+      "answer": "ein Date / eine Verabredung",
+      "explanation": "Datum is only for calendars.",
+      "id": "q5"
+    }
+  ]
+}

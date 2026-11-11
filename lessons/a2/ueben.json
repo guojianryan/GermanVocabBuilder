@@ -1,0 +1,165 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "üben",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "Ü-ben",
+      "ipa": "ˈyːbn̩",
+      "notes": ""
+    },
+    "meaning": "to practise",
+    "shortDefinition": "To practise."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "üb|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "üb|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "üb|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "üb|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "üb|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "üb|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat geübt"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "die Übung",
+      "english": "exercise, practice",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich übe jeden Tag Klavier.",
+      "english": "I practise the piano every day.",
+      "highlight": [
+        "übe"
+      ]
+    },
+    {
+      "german": "Wir müssen noch mehr üben.",
+      "english": "We need to practise more.",
+      "highlight": [
+        "üben."
+      ]
+    },
+    {
+      "german": "Übung macht den Meister.",
+      "english": "Practice makes perfect.",
+      "highlight": [
+        "Übung"
+      ]
+    }
+  ],
+  "forms": [
+    "übe",
+    "übst",
+    "übt",
+    "üben",
+    "geübt"
+  ],
+  "memoryHook": "Üben = practise. Übung macht den Meister!",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (üben)",
+      "answer": "übt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: übt.",
+      "acceptedAnswers": [
+        "uebt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (üben, past)",
+      "answer": "geübt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe geübt.",
+      "acceptedAnswers": [
+        "geuebt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does üben mean?",
+      "options": [
+        "the evening",
+        "to practise",
+        "the flower"
+      ],
+      "answer": "to practise",
+      "explanation": "üben: to practise.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "The noun 'exercise':",
+      "options": [
+        "die Übung",
+        "das Üben only"
+      ],
+      "answer": "die Übung",
+      "explanation": "Übung.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Übung macht den Meister' means…",
+      "options": [
+        "Practice makes perfect.",
+        "Exercise makes you strong."
+      ],
+      "answer": "Practice makes perfect.",
+      "explanation": "Proverb.",
+      "id": "q5"
+    }
+  ]
+}

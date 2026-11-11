@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Waffe",
+    "partOfSpeech": "noun, feminine (die Waffe)",
+    "pronunciation": {
+      "respelling": "VAF-e",
+      "ipa": "ˈvafə",
+      "notes": "Plural: die Waffen."
+    },
+    "meaning": "weapon",
+    "shortDefinition": "Weapon."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Waffe, plural die Waffen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Waffe"
+        },
+        {
+          "label": "More than one",
+          "value": "die Waffen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Polizei fand eine Waffe.",
+      "english": "The police found a weapon.",
+      "highlight": [
+        "Waffe."
+      ]
+    },
+    {
+      "german": "Waffen sind hier verboten.",
+      "english": "Weapons are prohibited here.",
+      "highlight": [
+        "Waffen"
+      ]
+    },
+    {
+      "german": "Humor ist seine beste Waffe.",
+      "english": "Humour is his best weapon.",
+      "highlight": [
+        "Waffe."
+      ]
+    }
+  ],
+  "forms": [
+    "Waffen",
+    "die Waffen",
+    "die Waffe"
+  ],
+  "memoryHook": "Die Waffe (weapon) ≠ die Waffel (waffle).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Waffe",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Waffe is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Waffe, zwei ___",
+      "answer": "Waffen",
+      "fullAnswer": "ein Waffe, zwei Waffen",
+      "explanation": "The plural is Waffen.",
+      "acceptedAnswers": [
+        "Waffen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Waffe mean?",
+      "options": [
+        "the key",
+        "weapon",
+        "hot"
+      ],
+      "answer": "weapon",
+      "explanation": "Waffe: weapon.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Waffen",
+        "Waffes"
+      ],
+      "answer": "Waffen",
+      "explanation": "-n.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Not 'waffle'! Waffle =",
+      "options": [
+        "die Waffel",
+        "die Waffe"
+      ],
+      "answer": "die Waffel",
+      "explanation": "Careful!",
+      "id": "q5"
+    }
+  ]
+}

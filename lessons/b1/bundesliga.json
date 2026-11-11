@@ -1,0 +1,138 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Bundesliga",
+    "partOfSpeech": "noun, feminine (die Bundesliga)",
+    "pronunciation": {
+      "respelling": "BOON-des-lee-ga",
+      "ipa": "ˈbʊndəsˌliːɡa",
+      "notes": "Plural: die Bundesligen."
+    },
+    "meaning": "national league (top division)",
+    "shortDefinition": "National league (top division)."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Bundes",
+        "meaning": "federal (Bund)"
+      },
+      {
+        "part": "liga",
+        "meaning": "league"
+      }
+    ],
+    "literalMeaning": "federal league"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Bundesliga, plural die Bundesligen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Bundesliga"
+        },
+        {
+          "label": "More than one",
+          "value": "die Bundesligen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er spielt in der Bundesliga.",
+      "english": "He plays in the Bundesliga.",
+      "highlight": [
+        "Bundesliga."
+      ]
+    },
+    {
+      "german": "Der Verein ist in die Bundesliga aufgestiegen.",
+      "english": "The club has been promoted to the Bundesliga.",
+      "highlight": [
+        "Bundesliga"
+      ]
+    },
+    {
+      "german": "Am Samstag ist Bundesliga.",
+      "english": "There's Bundesliga on Saturday.",
+      "highlight": [
+        "Bundesliga."
+      ]
+    }
+  ],
+  "forms": [
+    "Bundesligen",
+    "die Bundesligen",
+    "die Bundesliga"
+  ],
+  "memoryHook": "Bund + Liga = the federal (national) league.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Bundesliga",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Bundesliga is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Bundesliga, zwei ___",
+      "answer": "Bundesligen",
+      "fullAnswer": "ein Bundesliga, zwei Bundesligen",
+      "explanation": "The plural is Bundesligen.",
+      "acceptedAnswers": [
+        "Bundesligen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Bundesliga mean?",
+      "options": [
+        "to open",
+        "national league (top division)",
+        "hot"
+      ],
+      "answer": "national league (top division)",
+      "explanation": "Bundesliga: national league (top division).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Bund (federation) + Liga",
+        "Bunde + Liga"
+      ],
+      "answer": "Bund (federation) + Liga",
+      "explanation": "Federal league.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Usually refers to…",
+      "options": [
+        "football",
+        "only tennis"
+      ],
+      "answer": "football",
+      "explanation": "Fußball.",
+      "id": "q5"
+    }
+  ]
+}

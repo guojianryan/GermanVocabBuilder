@@ -1,0 +1,178 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "biegen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "BEE-gen",
+      "ipa": "ˈbiːɡn̩",
+      "notes": ""
+    },
+    "meaning": "to bend; to turn (a corner)",
+    "shortDefinition": "To bend; to turn (a corner)."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "biegen",
+        "meaning": "to bend",
+        "emphasis": "turn"
+      }
+    ],
+    "literalMeaning": "to bend",
+    "summary": "Changing direction."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "bieg|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "bieg|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "bieg|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "bieg|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "bieg|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "bieg|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gebogen"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Biegen Sie an der Ampel links ab.",
+      "english": "Turn left at the lights.",
+      "highlight": [
+        "Biegen",
+        "ab."
+      ]
+    },
+    {
+      "german": "Er biegt den Draht.",
+      "english": "He bends the wire.",
+      "highlight": [
+        "biegt"
+      ]
+    },
+    {
+      "german": "Das Auto ist um die Ecke gebogen.",
+      "english": "The car turned the corner.",
+      "highlight": [
+        "gebogen."
+      ]
+    }
+  ],
+  "forms": [
+    "abbiegen"
+  ],
+  "memoryHook": "Biegen (bog, gebogen); abbiegen = turn off.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (biegen)",
+      "answer": "biegt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: biegt.",
+      "acceptedAnswers": [
+        "biegt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (biegen, past)",
+      "answer": "gebogen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gebogen.",
+      "acceptedAnswers": [
+        "gebogen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does biegen mean?",
+      "options": [
+        "to bend",
+        "the weather",
+        "to sing"
+      ],
+      "answer": "to bend",
+      "explanation": "biegen: to bend; to turn (a corner).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt (bend something):",
+      "options": [
+        "hat gebogen",
+        "hat gebiegt"
+      ],
+      "answer": "hat gebogen",
+      "explanation": "Strong: bog, gebogen.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Turning a corner takes…",
+      "options": [
+        "ist gebogen",
+        "hat gebogen"
+      ],
+      "answer": "ist gebogen",
+      "explanation": "Movement.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Abbiegen' means…",
+      "options": [
+        "to turn off",
+        "to bend down"
+      ],
+      "answer": "to turn off",
+      "explanation": "Driving.",
+      "id": "q6"
+    }
+  ]
+}

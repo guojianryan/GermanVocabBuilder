@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Protein",
+    "partOfSpeech": "noun, neuter (das Protein)",
+    "pronunciation": {
+      "respelling": "pro-te-EEN",
+      "ipa": "pʁoteˈiːn",
+      "notes": "Plural: die Proteine."
+    },
+    "meaning": "protein",
+    "shortDefinition": "Protein."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Protein, plural die Proteine.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Protein"
+        },
+        {
+          "label": "More than one",
+          "value": "die Proteine"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Eier enthalten viel Protein.",
+      "english": "Eggs contain a lot of protein.",
+      "highlight": [
+        "Protein."
+      ]
+    },
+    {
+      "german": "Pflanzliche Proteine.",
+      "english": "Plant proteins.",
+      "highlight": [
+        "Proteine."
+      ]
+    },
+    {
+      "german": "Ein Proteinshake nach dem Training.",
+      "english": "A protein shake after training.",
+      "highlight": [
+        "Proteinshake"
+      ]
+    }
+  ],
+  "forms": [
+    "Eiweiß"
+  ],
+  "memoryHook": "Das Protein = Eiweiß.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Protein",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Protein is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Protein, zwei ___",
+      "answer": "Proteine",
+      "fullAnswer": "ein Protein, zwei Proteine",
+      "explanation": "The plural is Proteine.",
+      "acceptedAnswers": [
+        "Proteine"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Protein mean?",
+      "options": [
+        "cheap",
+        "protein",
+        "expensive"
+      ],
+      "answer": "protein",
+      "explanation": "Protein: protein.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "German synonym:",
+      "options": [
+        "das Eiweiß",
+        "das Fett"
+      ],
+      "answer": "das Eiweiß",
+      "explanation": "Egg white.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Stress on…",
+      "options": [
+        "-IN",
+        "PRO-"
+      ],
+      "answer": "-IN",
+      "explanation": "pro-te-EEN.",
+      "id": "q5"
+    }
+  ]
+}

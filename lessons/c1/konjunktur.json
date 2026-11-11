@@ -1,0 +1,133 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Konjunktur",
+    "partOfSpeech": "noun, feminine (die Konjunktur)",
+    "pronunciation": {
+      "respelling": "kon-yoonk-TOOR",
+      "ipa": "kɔnjʊŋkˈtuːɐ̯",
+      "notes": "Plural: die Konjunkturen."
+    },
+    "meaning": "economic situation, economy",
+    "shortDefinition": "Economic situation, economy."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Konjunktur, plural die Konjunkturen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Konjunktur"
+        },
+        {
+          "label": "More than one",
+          "value": "die Konjunkturen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Konjunktur schwächt sich ab.",
+      "english": "The economy is slowing down.",
+      "highlight": [
+        "Konjunktur"
+      ]
+    },
+    {
+      "german": "Ein Konjunkturpaket.",
+      "english": "An economic stimulus package.",
+      "highlight": [
+        "Konjunkturpaket."
+      ]
+    },
+    {
+      "german": "Hochkonjunktur.",
+      "english": "Boom.",
+      "highlight": [
+        "Hochkonjunktur."
+      ]
+    }
+  ],
+  "forms": [
+    "Hochkonjunktur"
+  ],
+  "memoryHook": "Die Konjunktur (economic cycle); Hochkonjunktur = boom.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Konjunktur",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Konjunktur is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Konjunktur, zwei ___",
+      "answer": "Konjunkturen",
+      "fullAnswer": "ein Konjunktur, zwei Konjunkturen",
+      "explanation": "The plural is Konjunkturen.",
+      "acceptedAnswers": [
+        "Konjunkturen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Konjunktur mean?",
+      "options": [
+        "economic situation",
+        "to sing",
+        "the bill"
+      ],
+      "answer": "economic situation",
+      "explanation": "Konjunktur: economic situation, economy.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Hochkonjunktur haben' means…",
+      "options": [
+        "to be booming",
+        "to be in crisis"
+      ],
+      "answer": "to be booming",
+      "explanation": "Boom.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Means…",
+      "options": [
+        "state of the economy / business cycle",
+        "conjunction"
+      ],
+      "answer": "state of the economy / business cycle",
+      "explanation": "Economy.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Stress on…",
+      "options": [
+        "-TUR",
+        "KON-"
+      ],
+      "answer": "-TUR",
+      "explanation": "End.",
+      "id": "q6"
+    }
+  ]
+}

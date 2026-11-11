@@ -1,0 +1,201 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "full",
+  "word": {
+    "headword": "sie",
+    "partOfSpeech": "pronoun",
+    "pronunciation": {
+      "respelling": "ZEE",
+      "ipa": "ziː",
+      "notes": "S like z; long ee."
+    },
+    "meaning": "she; it (die-nouns); they",
+    "shortDefinition": "She, it for feminine nouns, and they."
+  },
+  "intro": {
+    "title": "She, it or they?",
+    "paragraphs": [
+      "Lowercase sie means she, it (for die-nouns) or they. The verb tells you which: sie ist (she/it is) vs sie sind (they are). Capital Sie is the formal 'you', with its own lesson."
+    ]
+  },
+  "tables": [
+    {
+      "title": "Forms",
+      "columns": [
+        "she / it",
+        "they"
+      ],
+      "rows": [
+        {
+          "label": "subject",
+          "cells": [
+            "s|ie| ist",
+            "s|ie| sind"
+          ]
+        },
+        {
+          "label": "accusative",
+          "cells": [
+            "sie",
+            "sie"
+          ]
+        },
+        {
+          "label": "dative",
+          "cells": [
+            "|ihr",
+            "|ihnen"
+          ]
+        }
+      ],
+      "notes": [
+        "The verb ending shows singular or plural."
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "Sie",
+      "english": "you (formal)",
+      "type": "pronoun"
+    },
+    {
+      "german": "ihr (possessive)",
+      "english": "her; their",
+      "type": "possessive"
+    },
+    {
+      "german": "er, es",
+      "english": "he/it, it",
+      "type": "pronouns"
+    }
+  ],
+  "keyTrap": {
+    "title": "The big trap: die-nouns are sie",
+    "explanation": "Any feminine noun becomes sie, even a thing.",
+    "wrong": {
+      "german": "Die Lampe? Es ist kaputt.",
+      "verdict": "Die Lampe → sie."
+    },
+    "correct": [
+      {
+        "german": "Die Lampe? Sie ist kaputt.",
+        "literal": "The lamp? She is broken.",
+        "note": "Die-noun: sie."
+      },
+      {
+        "german": "Die Kinder? Sie sind im Garten.",
+        "literal": "The children? They are in the garden.",
+        "note": "Plural: sie sind."
+      }
+    ]
+  },
+  "commonMistakes": [
+    {
+      "title": "Dative",
+      "explanation": "To her: ihr. To them: ihnen.",
+      "examples": [
+        {
+          "german": "Ich helfe ihr.",
+          "english": "I'm helping her.",
+          "highlight": "ihr."
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das ist Maria. Sie kommt aus Spanien.",
+      "english": "This is Maria. She's from Spain.",
+      "highlight": [
+        "Sie"
+      ]
+    },
+    {
+      "german": "Wo ist die Tasche? – Sie liegt auf dem Stuhl.",
+      "english": "Where's the bag? – It's on the chair.",
+      "highlight": [
+        "Sie"
+      ]
+    },
+    {
+      "german": "Meine Eltern? Sie wohnen in Bonn.",
+      "english": "My parents? They live in Bonn.",
+      "highlight": [
+        "Sie"
+      ]
+    },
+    {
+      "german": "Ich sehe sie morgen.",
+      "english": "I'll see her/them tomorrow.",
+      "highlight": [
+        "sie"
+      ]
+    }
+  ],
+  "forms": [
+    "sie",
+    "ihr",
+    "ihnen"
+  ],
+  "memoryHook": "Sie ist = she/it is. Sie sind = they are. Die-nouns are always sie.",
+  "signOff": "Sie schaffen das!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Die Uhr ist neu. ___ ist schön.",
+      "options": [
+        "Es",
+        "Sie"
+      ],
+      "answer": "Sie",
+      "explanation": "Die Uhr → sie.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Sie ___ in Berlin. (they live)",
+      "options": [
+        "wohnt",
+        "wohnen"
+      ],
+      "answer": "wohnen",
+      "explanation": "They: plural verb.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich gebe ___ das Buch. (her)",
+      "options": [
+        "sie",
+        "ihr"
+      ],
+      "answer": "ihr",
+      "explanation": "Dative: ihr.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich danke ___. (them)",
+      "options": [
+        "sie",
+        "ihnen"
+      ],
+      "answer": "ihnen",
+      "explanation": "Dative plural: ihnen.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Anna? ___ ist krank. (She)",
+      "answer": "Sie",
+      "fullAnswer": "Sie ist krank.",
+      "explanation": "She: sie.",
+      "id": "q5"
+    }
+  ]
+}

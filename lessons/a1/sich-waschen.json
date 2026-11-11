@@ -1,0 +1,170 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "(sich) waschen",
+    "partOfSpeech": "verb, often reflexive",
+    "pronunciation": {
+      "respelling": "VASH-en",
+      "ipa": "ˈvaʃn̩",
+      "notes": ""
+    },
+    "meaning": "to wash",
+    "shortDefinition": "To wash."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "wasch|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "w|ä|schst"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "w|ä|scht"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "wasch|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "wasch|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "wasch|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gewaschen",
+        "A → ä for du and er."
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "die Waschmaschine",
+      "english": "washing machine",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich wasche mir die Hände.",
+      "english": "I'm washing my hands.",
+      "highlight": [
+        "wasche",
+        "mir"
+      ]
+    },
+    {
+      "german": "Er wäscht das Auto.",
+      "english": "He's washing the car.",
+      "highlight": [
+        "wäscht"
+      ]
+    },
+    {
+      "german": "Wasch dich bitte!",
+      "english": "Please have a wash!",
+      "highlight": [
+        "Wasch",
+        "dich"
+      ]
+    }
+  ],
+  "forms": [
+    "wasche",
+    "wäschst",
+    "wäscht",
+    "waschen",
+    "wascht",
+    "gewaschen",
+    "wusch"
+  ],
+  "memoryHook": "Waschen: du wäschst, er wäscht. Sich waschen = wash yourself; sich die Hände waschen = wash your hands.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ ((sich) waschen)",
+      "answer": "wäscht",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: wäscht.",
+      "acceptedAnswers": [
+        "waescht"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. ((sich) waschen, past)",
+      "answer": "gewaschen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gewaschen.",
+      "acceptedAnswers": [
+        "gewaschen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does (sich) waschen mean?",
+      "options": [
+        "tomorrow",
+        "the weather",
+        "to wash"
+      ],
+      "answer": "to wash",
+      "explanation": "(sich) waschen: to wash.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Washing your hands: Ich wasche ___ die Hände.",
+      "options": [
+        "mich",
+        "mir"
+      ],
+      "answer": "mir",
+      "explanation": "With a body part: mir.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Die Waschmaschine is…",
+      "options": [
+        "the washing machine",
+        "the washbasin"
+      ],
+      "answer": "the washing machine",
+      "explanation": "Wasch + Maschine.",
+      "id": "q5"
+    }
+  ]
+}

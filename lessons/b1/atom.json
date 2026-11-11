@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Atom",
+    "partOfSpeech": "noun, neuter (das Atom)",
+    "pronunciation": {
+      "respelling": "a-TOHM",
+      "ipa": "aˈtoːm",
+      "notes": "Plural: die Atome."
+    },
+    "meaning": "atom",
+    "shortDefinition": "Atom."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Atom, plural die Atome.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Atom"
+        },
+        {
+          "label": "More than one",
+          "value": "die Atome"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ein Atom ist sehr klein.",
+      "english": "An atom is very small.",
+      "highlight": [
+        "Atom"
+      ]
+    },
+    {
+      "german": "Deutschland steigt aus der Atomkraft aus.",
+      "english": "Germany is phasing out nuclear power.",
+      "highlight": [
+        "Atomkraft"
+      ]
+    },
+    {
+      "german": "Wasser besteht aus Atomen.",
+      "english": "Water is made of atoms.",
+      "highlight": [
+        "Atomen."
+      ]
+    }
+  ],
+  "forms": [
+    "Atomkraft"
+  ],
+  "memoryHook": "Das Atom; Atomkraft = nuclear power.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Atom",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Atom is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Atom, zwei ___",
+      "answer": "Atome",
+      "fullAnswer": "ein Atom, zwei Atome",
+      "explanation": "The plural is Atome.",
+      "acceptedAnswers": [
+        "Atome"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Atom mean?",
+      "options": [
+        "tomorrow",
+        "atom",
+        "the door"
+      ],
+      "answer": "atom",
+      "explanation": "Atom: atom.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Atomkraft means…",
+      "options": [
+        "nuclear power",
+        "atomic force only"
+      ],
+      "answer": "nuclear power",
+      "explanation": "Energy.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Stress on…",
+      "options": [
+        "-TOM",
+        "A-"
+      ],
+      "answer": "-TOM",
+      "explanation": "End.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "derzeit",
+    "partOfSpeech": "adverb",
+    "pronunciation": {
+      "respelling": "DAIR-tsite",
+      "ipa": "ˈdeːɐ̯tsaɪ̯t",
+      "notes": ""
+    },
+    "meaning": "at the moment, currently",
+    "shortDefinition": "At the moment, currently."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "der",
+        "meaning": "the (of)"
+      },
+      {
+        "part": "zeit",
+        "meaning": "time"
+      }
+    ],
+    "literalMeaning": "of the time"
+  },
+  "sampleSentences": [
+    {
+      "german": "Er ist derzeit im Urlaub.",
+      "english": "He's on holiday at the moment.",
+      "highlight": [
+        "derzeit"
+      ]
+    },
+    {
+      "german": "Derzeit gibt es keine Tickets.",
+      "english": "There are no tickets currently.",
+      "highlight": [
+        "Derzeit"
+      ]
+    },
+    {
+      "german": "Die derzeitige Lage ist schwierig.",
+      "english": "The current situation is difficult.",
+      "highlight": [
+        "derzeitige"
+      ]
+    }
+  ],
+  "forms": [
+    "derzeitig"
+  ],
+  "memoryHook": "Derzeit = zurzeit, momentan.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does derzeit mean?",
+      "options": [
+        "the door",
+        "at the moment",
+        "the car"
+      ],
+      "answer": "at the moment",
+      "explanation": "derzeit: at the moment, currently.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonyms:",
+      "options": [
+        "zurzeit, momentan, aktuell",
+        "damals"
+      ],
+      "answer": "zurzeit, momentan, aktuell",
+      "explanation": "Now.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Adjective:",
+      "options": [
+        "derzeitig",
+        "derzeitlich"
+      ],
+      "answer": "derzeitig",
+      "explanation": "Current.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "der + Zeit",
+        "dar + Zeit"
+      ],
+      "answer": "der + Zeit",
+      "explanation": "Of the time.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Das Büro ist ___ geschlossen. (currently)",
+      "answer": "derzeit",
+      "fullAnswer": "Das Büro ist derzeit geschlossen.",
+      "explanation": "Derzeit.",
+      "acceptedAnswers": [
+        "zurzeit",
+        "momentan"
+      ],
+      "id": "q5"
+    }
+  ]
+}

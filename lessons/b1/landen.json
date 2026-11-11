@@ -1,0 +1,166 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "landen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "LAN-den",
+      "ipa": "ˈlandn̩",
+      "notes": ""
+    },
+    "meaning": "to land",
+    "shortDefinition": "To land."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "land|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "land|est"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "land|et"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "land|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "land|et"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "land|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): ist gelandet"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "die Landung",
+      "english": "landing",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das Flugzeug landet um 10 Uhr.",
+      "english": "The plane lands at 10.",
+      "highlight": [
+        "landet"
+      ]
+    },
+    {
+      "german": "Wir sind pünktlich gelandet.",
+      "english": "We landed on time.",
+      "highlight": [
+        "sind",
+        "gelandet."
+      ]
+    },
+    {
+      "german": "Der Brief ist im Müll gelandet.",
+      "english": "The letter ended up in the bin.",
+      "highlight": [
+        "gelandet."
+      ]
+    }
+  ],
+  "forms": [
+    "lande",
+    "landest",
+    "landet",
+    "landen",
+    "gelandet"
+  ],
+  "memoryHook": "Landen (ist gelandet) → die Landung.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (landen)",
+      "answer": "landet",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: landet.",
+      "acceptedAnswers": [
+        "landet"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich bin schon ___. (landen, past)",
+      "answer": "gelandet",
+      "fullAnswer": "",
+      "explanation": "Perfekt: bin gelandet.",
+      "acceptedAnswers": [
+        "gelandet"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does landen mean?",
+      "options": [
+        "to sing",
+        "to land",
+        "hot"
+      ],
+      "answer": "to land",
+      "explanation": "landen: to land.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt auxiliary:",
+      "options": [
+        "sein",
+        "haben"
+      ],
+      "answer": "sein",
+      "explanation": "Movement.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Opposite:",
+      "options": [
+        "starten / abfliegen",
+        "fliegen"
+      ],
+      "answer": "starten / abfliegen",
+      "explanation": "Take off.",
+      "id": "q5"
+    }
+  ]
+}

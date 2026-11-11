@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Parlament",
+    "partOfSpeech": "noun, neuter (das Parlament)",
+    "pronunciation": {
+      "respelling": "par-la-MENT",
+      "ipa": "paʁlaˈmɛnt",
+      "notes": "Plural: die Parlamente."
+    },
+    "meaning": "parliament",
+    "shortDefinition": "Parliament."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Parlament, plural die Parlamente.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Parlament"
+        },
+        {
+          "label": "More than one",
+          "value": "die Parlamente"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das Parlament stimmt heute ab.",
+      "english": "Parliament votes today.",
+      "highlight": [
+        "Parlament"
+      ]
+    },
+    {
+      "german": "Sie sitzt im Europäischen Parlament.",
+      "english": "She's a member of the European Parliament.",
+      "highlight": [
+        "Parlament."
+      ]
+    },
+    {
+      "german": "Das Parlament wird alle vier Jahre gewählt.",
+      "english": "Parliament is elected every four years.",
+      "highlight": [
+        "Parlament"
+      ]
+    }
+  ],
+  "forms": [
+    "Parlamente",
+    "die Parlamente",
+    "das Parlament"
+  ],
+  "memoryHook": "Das Parlament (stress at end). German: der Bundestag.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Parlament",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Parlament is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Parlament, zwei ___",
+      "answer": "Parlamente",
+      "fullAnswer": "ein Parlament, zwei Parlamente",
+      "explanation": "The plural is Parlamente.",
+      "acceptedAnswers": [
+        "Parlamente"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Parlament mean?",
+      "options": [
+        "to buy",
+        "parliament",
+        "slowly"
+      ],
+      "answer": "parliament",
+      "explanation": "Parlament: parliament.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "The German parliament:",
+      "options": [
+        "der Bundestag",
+        "die Bundesregierung"
+      ],
+      "answer": "der Bundestag",
+      "explanation": "Parliament.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Stress on…",
+      "options": [
+        "-MENT",
+        "PAR-"
+      ],
+      "answer": "-MENT",
+      "explanation": "End.",
+      "id": "q5"
+    }
+  ]
+}

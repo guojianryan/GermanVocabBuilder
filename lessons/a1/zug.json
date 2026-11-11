@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Zug",
+    "partOfSpeech": "noun, masculine (der Zug)",
+    "pronunciation": {
+      "respelling": "TSOOK",
+      "ipa": "tsuːk",
+      "notes": "The g sounds like k. Plural: die Züge."
+    },
+    "meaning": "train",
+    "shortDefinition": "Train."
+  },
+  "wordFamily": [
+    {
+      "german": "die Bahn",
+      "english": "railway",
+      "type": "noun"
+    },
+    {
+      "german": "der Bahnhof",
+      "english": "station",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Zug, plural die Züge.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Zug"
+        },
+        {
+          "label": "More than one",
+          "value": "die Züge"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich fahre gern mit dem Zug.",
+      "english": "I like travelling by train.",
+      "highlight": [
+        "Zug."
+      ]
+    },
+    {
+      "german": "Der Zug hat zehn Minuten Verspätung.",
+      "english": "The train is ten minutes late.",
+      "highlight": [
+        "Zug"
+      ]
+    },
+    {
+      "german": "Wann fährt der nächste Zug nach Köln?",
+      "english": "When's the next train to Cologne?",
+      "highlight": [
+        "Zug"
+      ]
+    }
+  ],
+  "forms": [
+    "Züge",
+    "die Züge",
+    "der Zug"
+  ],
+  "memoryHook": "Der Zug (from ziehen, pull), plural Züge. Mit dem Zug fahren.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Zug",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Zug is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Zug, zwei ___",
+      "answer": "Züge",
+      "fullAnswer": "ein Zug, zwei Züge",
+      "explanation": "The plural is Züge.",
+      "acceptedAnswers": [
+        "Zuege"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Zug mean?",
+      "options": [
+        "train",
+        "the child",
+        "to learn"
+      ],
+      "answer": "train",
+      "explanation": "Zug: train.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich fahre ___ Zug.",
+      "options": [
+        "mit dem",
+        "mit der"
+      ],
+      "answer": "mit dem",
+      "explanation": "Der Zug.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Zug comes from ziehen, which means…",
+      "options": [
+        "to pull",
+        "to go"
+      ],
+      "answer": "to pull",
+      "explanation": "Pulled carriages.",
+      "id": "q5"
+    }
+  ]
+}

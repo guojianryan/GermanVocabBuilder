@@ -1,0 +1,140 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Zusammensetzung",
+    "partOfSpeech": "noun, feminine (die Zusammensetzung)",
+    "pronunciation": {
+      "respelling": "tsoo-ZA-men-zet-sung",
+      "ipa": "tsuˈzamənˌzɛtsʊŋ",
+      "notes": "Plural: die Zusammensetzungen."
+    },
+    "meaning": "composition, make-up; compound",
+    "shortDefinition": "Composition, make-up; compound."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Zusammen",
+        "meaning": "together"
+      },
+      {
+        "part": "setz",
+        "meaning": "set"
+      },
+      {
+        "part": "ung",
+        "meaning": "noun ending"
+      }
+    ],
+    "literalMeaning": "a setting together"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Zusammensetzung, plural die Zusammensetzungen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Zusammensetzung"
+        },
+        {
+          "label": "More than one",
+          "value": "die Zusammensetzungen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Zusammensetzung des Teams.",
+      "english": "The make-up of the team.",
+      "highlight": [
+        "Zusammensetzung"
+      ]
+    },
+    {
+      "german": "Die chemische Zusammensetzung.",
+      "english": "The chemical composition.",
+      "highlight": [
+        "Zusammensetzung."
+      ]
+    },
+    {
+      "german": "'Haustür' ist eine Zusammensetzung.",
+      "english": "'Haustür' is a compound.",
+      "highlight": [
+        "Zusammensetzung."
+      ]
+    }
+  ],
+  "forms": [
+    "zusammensetzen"
+  ],
+  "memoryHook": "Zusammensetzen → die Zusammensetzung.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Zusammensetzung",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Zusammensetzung is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Zusammensetzung, zwei ___",
+      "answer": "Zusammensetzungen",
+      "fullAnswer": "ein Zusammensetzung, zwei Zusammensetzungen",
+      "explanation": "The plural is Zusammensetzungen.",
+      "acceptedAnswers": [
+        "Zusammensetzungen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Zusammensetzung mean?",
+      "options": [
+        "composition",
+        "to wait",
+        "the door"
+      ],
+      "answer": "composition",
+      "explanation": "Zusammensetzung: composition, make-up; compound.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "zusammensetzen (compose)",
+        "setzen only"
+      ],
+      "answer": "zusammensetzen (compose)",
+      "explanation": "Compose.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Grammar 'Zusammensetzung' =",
+      "options": [
+        "compound word",
+        "sentence"
+      ],
+      "answer": "compound word",
+      "explanation": "Compound.",
+      "id": "q5"
+    }
+  ]
+}

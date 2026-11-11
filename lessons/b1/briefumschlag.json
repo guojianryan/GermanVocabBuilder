@@ -1,0 +1,141 @@
+{
+ "schemaVersion": "1.4",
+ "language": "de",
+ "explanationLanguage": "en",
+ "level": "B1",
+ "levelSource": "Goethe-Zertifikat B1 Wortliste",
+ "lessonType": "card",
+ "word": {
+  "headword": "Briefumschlag",
+  "partOfSpeech": "noun, masculine (der Briefumschlag)",
+  "pronunciation": {
+   "respelling": "BREEF-oom-shlaak",
+   "ipa": "ˈbʁiːfʔʊmʃlaːk",
+   "notes": "Plural: die Briefumschläge."
+  },
+  "meaning": "envelope",
+  "shortDefinition": "Envelope."
+ },
+ "commonMistakes": [
+  {
+   "title": "Gender and plural",
+   "explanation": "Der Briefumschlag, plural die Briefumschläge.",
+   "forms": [
+    {
+     "label": "One",
+     "value": "der Briefumschlag"
+    },
+    {
+     "label": "More than one",
+     "value": "die Briefumschläge"
+    }
+   ]
+  }
+ ],
+ "sampleSentences": [
+  {
+   "german": "Ich brauche einen Briefumschlag.",
+   "english": "I need an envelope.",
+   "highlight": [
+    "Briefumschlag."
+   ]
+  },
+  {
+   "german": "Schreib die Adresse auf den Briefumschlag.",
+   "english": "Write the address on the envelope.",
+   "highlight": [
+    "Briefumschlag."
+   ]
+  },
+  {
+   "german": "Der Umschlag ist zu klein.",
+   "english": "The envelope is too small.",
+   "highlight": [
+    "Umschlag"
+   ]
+  }
+ ],
+ "forms": [
+  "Umschlag",
+  "Kuvert"
+ ],
+ "memoryHook": "Brief + Umschlag (wrapping) = envelope. In Austria: das Kuvert.",
+ "signOff": "Gut gemacht!",
+ "quiz": [
+  {
+   "type": "choice",
+   "prompt": "___ Briefumschlag",
+   "options": [
+    "der",
+    "die",
+    "das"
+   ],
+   "answer": "der",
+   "explanation": "Briefumschlag is masculine.",
+   "id": "q1"
+  },
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "ein Briefumschlag, zwei ___",
+   "answer": "Briefumschläge",
+   "fullAnswer": "ein Briefumschlag, zwei Briefumschläge",
+   "explanation": "The plural is Briefumschläge.",
+   "acceptedAnswers": [
+    "Briefumschlaege"
+   ],
+   "id": "q2"
+  },
+  {
+   "type": "choice",
+   "prompt": "What does Briefumschlag mean?",
+   "options": [
+    "the shop",
+    "expensive",
+    "envelope"
+   ],
+   "answer": "envelope",
+   "explanation": "Briefumschlag: envelope.",
+   "id": "q3"
+  },
+  {
+   "type": "choice",
+   "prompt": "Short form:",
+   "options": [
+    "der Umschlag",
+    "der Schlag"
+   ],
+   "answer": "der Umschlag",
+   "explanation": "Umschlag.",
+   "id": "q4"
+  },
+  {
+   "type": "choice",
+   "prompt": "Literally:",
+   "options": [
+    "letter wrap-around",
+    "letter hit"
+   ],
+   "answer": "letter wrap-around",
+   "explanation": "Um + schlagen.",
+   "id": "q5"
+  }
+ ],
+ "etymology": {
+  "title": "Where it comes from",
+  "parts": [
+   {
+    "part": "Brief",
+    "meaning": "letter"
+   },
+   {
+    "part": "um",
+    "meaning": "around"
+   },
+   {
+    "part": "schlag",
+    "meaning": "wrap"
+   }
+  ],
+  "literalMeaning": "letter wrap"
+ }
+}

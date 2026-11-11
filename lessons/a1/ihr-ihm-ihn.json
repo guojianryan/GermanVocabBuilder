@@ -1,0 +1,152 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "ihr / ihm / ihn",
+    "partOfSpeech": "pronouns",
+    "pronunciation": {
+      "respelling": "EER / EEM / EEN",
+      "ipa": "iːɐ̯, iːm, iːn",
+      "notes": ""
+    },
+    "meaning": "ihr: you (plural) / (to) her; ihm: (to) him; ihn: him",
+    "shortDefinition": "Ihr: you (plural) / (to) her; ihm: (to) him; ihn: him."
+  },
+  "tables": [
+    {
+      "title": "Who's who",
+      "columns": [
+        "accusative",
+        "dative"
+      ],
+      "rows": [
+        {
+          "label": "er",
+          "cells": [
+            "ih|n",
+            "ih|m"
+          ]
+        },
+        {
+          "label": "sie (she)",
+          "cells": [
+            "sie",
+            "ih|r"
+          ]
+        },
+        {
+          "label": "ihr (you all)",
+          "cells": [
+            "euch",
+            "euch"
+          ]
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Kommt ihr heute Abend?",
+      "english": "Are you (all) coming tonight?",
+      "highlight": [
+        "ihr"
+      ]
+    },
+    {
+      "german": "Ich gebe ihr das Geschenk.",
+      "english": "I'm giving her the present.",
+      "highlight": [
+        "ihr"
+      ]
+    },
+    {
+      "german": "Ich kenne ihn, aber ich helfe ihm nicht.",
+      "english": "I know him, but I'm not helping him.",
+      "highlight": [
+        "ihn,",
+        "ihm"
+      ]
+    }
+  ],
+  "forms": [
+    "ihr",
+    "ihm",
+    "ihn",
+    "euch"
+  ],
+  "memoryHook": "Ihn = den-form (him), ihm = dem-form (to him). Ihr = you all, or 'to her'.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does ihr / ihm / ihn mean?",
+      "options": [
+        "ihr: you (plural) / (to) her",
+        "to help",
+        "never"
+      ],
+      "answer": "ihr: you (plural) / (to) her",
+      "explanation": "ihr / ihm / ihn: ihr: you (plural) / (to) her; ihm: (to) him; ihn: him.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Talking to two friends: '___ seid toll!'",
+      "options": [
+        "Ihr",
+        "Sie"
+      ],
+      "answer": "Ihr",
+      "explanation": "Ihr: you all (informal).",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich sehe ___. (him)",
+      "options": [
+        "ihn",
+        "ihm"
+      ],
+      "answer": "ihn",
+      "explanation": "Accusative: ihn.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich danke ___. (him)",
+      "options": [
+        "ihn",
+        "ihm"
+      ],
+      "answer": "ihm",
+      "explanation": "Danken + dative: ihm.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich helfe ___. (her)",
+      "options": [
+        "sie",
+        "ihr"
+      ],
+      "answer": "ihr",
+      "explanation": "Dative of sie: ihr.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ihn and ihm match the article…",
+      "options": [
+        "den and dem",
+        "der and die"
+      ],
+      "answer": "den and dem",
+      "explanation": "-n like den, -m like dem.",
+      "id": "q6"
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "nähen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "NAY-en",
+      "ipa": "ˈnɛːən",
+      "notes": ""
+    },
+    "meaning": "to sew",
+    "shortDefinition": "To sew."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "näh|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "näh|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "näh|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "näh|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "näh|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "näh|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat genäht"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Sie näht ein Kleid.",
+      "english": "She's sewing a dress.",
+      "highlight": [
+        "näht"
+      ]
+    },
+    {
+      "german": "Kannst du den Knopf annähen?",
+      "english": "Can you sew the button on?",
+      "highlight": [
+        "annähen?"
+      ]
+    },
+    {
+      "german": "Die Wunde wurde genäht.",
+      "english": "The wound was stitched.",
+      "highlight": [
+        "genäht."
+      ]
+    }
+  ],
+  "forms": [
+    "Nähmaschine"
+  ],
+  "memoryHook": "Nähen (sew). Don't confuse with nah/Nähe!",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (nähen)",
+      "answer": "näht",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: näht.",
+      "acceptedAnswers": [
+        "naeht"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (nähen, past)",
+      "answer": "genäht",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe genäht.",
+      "acceptedAnswers": [
+        "genaeht"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does nähen mean?",
+      "options": [
+        "to sleep",
+        "the car",
+        "to sew"
+      ],
+      "answer": "to sew",
+      "explanation": "nähen: to sew.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "H is…",
+      "options": [
+        "silent",
+        "pronounced"
+      ],
+      "answer": "silent",
+      "explanation": "NAY-en.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Sewing machine:",
+      "options": [
+        "die Nähmaschine",
+        "die Nähenmaschine"
+      ],
+      "answer": "die Nähmaschine",
+      "explanation": "Stem + Maschine.",
+      "id": "q5"
+    }
+  ]
+}

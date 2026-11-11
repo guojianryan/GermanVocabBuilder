@@ -1,0 +1,166 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "beugen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "BOY-gen",
+      "ipa": "ˈbɔɪ̯ɡn̩",
+      "notes": ""
+    },
+    "meaning": "to bend; (sich ~) to bow, submit; to inflect",
+    "shortDefinition": "To bend; (sich ~) to bow, submit; to inflect."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "beug|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "beug|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "beug|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "beug|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "beug|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "beug|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gebeugt"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er beugt sich über den Tisch.",
+      "english": "He leans over the table.",
+      "highlight": [
+        "beugt"
+      ]
+    },
+    {
+      "german": "Sie beugte sich dem Druck.",
+      "english": "She gave in to the pressure.",
+      "highlight": [
+        "beugte"
+      ]
+    },
+    {
+      "german": "Verben werden gebeugt.",
+      "english": "Verbs are conjugated.",
+      "highlight": [
+        "gebeugt."
+      ]
+    }
+  ],
+  "forms": [
+    "vorbeugen",
+    "Beugung"
+  ],
+  "memoryHook": "Beugen: bend; sich beugen (submit); vorbeugen (prevent).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (beugen)",
+      "answer": "beugt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: beugt.",
+      "acceptedAnswers": [
+        "beugt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (beugen, past)",
+      "answer": "gebeugt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gebeugt.",
+      "acceptedAnswers": [
+        "gebeugt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does beugen mean?",
+      "options": [
+        "the weather",
+        "to bend",
+        "the bread"
+      ],
+      "answer": "to bend",
+      "explanation": "beugen: to bend; (sich ~) to bow, submit; to inflect.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Sich dem Druck beugen' means…",
+      "options": [
+        "to give in to pressure",
+        "to lean on pressure"
+      ],
+      "answer": "to give in to pressure",
+      "explanation": "Submit.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Grammar 'beugen' =",
+      "options": [
+        "conjugate / decline",
+        "translate"
+      ],
+      "answer": "conjugate / decline",
+      "explanation": "Inflect.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Vorbeugen' means…",
+      "options": [
+        "to prevent; to lean forward",
+        "to bend back"
+      ],
+      "answer": "to prevent; to lean forward",
+      "explanation": "Prevent.",
+      "id": "q6"
+    }
+  ]
+}

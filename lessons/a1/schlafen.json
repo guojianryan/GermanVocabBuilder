@@ -1,0 +1,174 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "schlafen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "SHLAH-fen",
+      "ipa": "ˈʃlaːfn̩",
+      "notes": ""
+    },
+    "meaning": "to sleep",
+    "shortDefinition": "To sleep."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "schlaf|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "schl|ä|fst"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "schl|ä|ft"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "schlaf|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "schlaf|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "schlaf|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat geschlafen",
+        "A → ä for du and er."
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "das Schlafzimmer",
+      "english": "bedroom",
+      "type": "noun"
+    },
+    {
+      "german": "müde",
+      "english": "tired",
+      "type": "adjective"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Hast du gut geschlafen?",
+      "english": "Did you sleep well?",
+      "highlight": [
+        "geschlafen?"
+      ]
+    },
+    {
+      "german": "Das Baby schläft.",
+      "english": "The baby is sleeping.",
+      "highlight": [
+        "schläft."
+      ]
+    },
+    {
+      "german": "Ich schlafe am Wochenende lange.",
+      "english": "At the weekend I sleep in.",
+      "highlight": [
+        "schlafe"
+      ]
+    }
+  ],
+  "forms": [
+    "schlafe",
+    "schläfst",
+    "schläft",
+    "schlafen",
+    "schlaft",
+    "geschlafen",
+    "schlief",
+    "Schlaf"
+  ],
+  "memoryHook": "Schlafen: du schläfst, er schläft. Schlaf gut! Das Schlafzimmer = bedroom.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (schlafen)",
+      "answer": "schläft",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: schläft.",
+      "acceptedAnswers": [
+        "schlaeft"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (schlafen, past)",
+      "answer": "geschlafen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe geschlafen.",
+      "acceptedAnswers": [
+        "geschlafen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does schlafen mean?",
+      "options": [
+        "to sleep",
+        "the family",
+        "to buy"
+      ],
+      "answer": "to sleep",
+      "explanation": "schlafen: to sleep.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Er ___ schon.",
+      "options": [
+        "schlaft",
+        "schläft"
+      ],
+      "answer": "schläft",
+      "explanation": "A → ä.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Schlaf gut!' means…",
+      "options": [
+        "Sleep well!",
+        "Bad sleep!"
+      ],
+      "answer": "Sleep well!",
+      "explanation": "Good night wish.",
+      "id": "q5"
+    }
+  ]
+}

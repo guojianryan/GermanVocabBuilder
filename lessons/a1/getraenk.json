@@ -1,0 +1,151 @@
+{
+ "schemaVersion": "1.4",
+ "language": "de",
+ "explanationLanguage": "en",
+ "level": "A1",
+ "levelSource": "Goethe-Zertifikat A1 Wortliste",
+ "lessonType": "card",
+ "word": {
+  "headword": "Getränk",
+  "partOfSpeech": "noun, neuter (das Getränk)",
+  "pronunciation": {
+   "respelling": "guh-TRENK",
+   "ipa": "ɡəˈtʁɛŋk",
+   "notes": "Plural: die Getränke."
+  },
+  "meaning": "drink, beverage",
+  "shortDefinition": "Drink, beverage."
+ },
+ "etymology": {
+  "title": "Where it comes from",
+  "parts": [
+   {
+    "part": "Ge",
+    "meaning": "prefix"
+   },
+   {
+    "part": "tränk",
+    "meaning": "drink (trinken)"
+   }
+  ],
+  "literalMeaning": "something to drink",
+  "summary": "Ge- (noun prefix) + tränk (from trinken, to drink), with the vowel changing to ä."
+ },
+ "wordFamily": [
+  {
+   "german": "trinken",
+   "english": "to drink",
+   "type": "verb"
+  },
+  {
+   "german": "die Getränkekarte",
+   "english": "drinks menu",
+   "type": "noun"
+  }
+ ],
+ "commonMistakes": [
+  {
+   "title": "Gender and plural",
+   "explanation": "Das Getränk, plural die Getränke.",
+   "forms": [
+    {
+     "label": "One",
+     "value": "das Getränk"
+    },
+    {
+     "label": "More than one",
+     "value": "die Getränke"
+    }
+   ]
+  }
+ ],
+ "sampleSentences": [
+  {
+   "german": "Möchten Sie ein Getränk?",
+   "english": "Would you like a drink?",
+   "highlight": [
+    "Getränk?"
+   ]
+  },
+  {
+   "german": "Die Getränke stehen im Kühlschrank.",
+   "english": "The drinks are in the fridge.",
+   "highlight": [
+    "Getränke"
+   ]
+  },
+  {
+   "german": "Am Kiosk gibt es Getränke.",
+   "english": "You can get drinks at the kiosk.",
+   "highlight": [
+    "Getränke."
+   ]
+  }
+ ],
+ "forms": [
+  "Getränke",
+  "die Getränke",
+  "das Getränk"
+ ],
+ "memoryHook": "Getränk from trinken. On a menu: Speisen (food) and Getränke (drinks).",
+ "signOff": "Gut gemacht!",
+ "quiz": [
+  {
+   "type": "choice",
+   "prompt": "___ Getränk",
+   "options": [
+    "der",
+    "die",
+    "das"
+   ],
+   "answer": "das",
+   "explanation": "Getränk is neuter.",
+   "id": "q1"
+  },
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "ein Getränk, zwei ___",
+   "answer": "Getränke",
+   "fullAnswer": "ein Getränk, zwei Getränke",
+   "explanation": "The plural is Getränke.",
+   "acceptedAnswers": [
+    "Getraenke"
+   ],
+   "id": "q2"
+  },
+  {
+   "type": "choice",
+   "prompt": "What does Getränk mean?",
+   "options": [
+    "drink",
+    "the family",
+    "slowly"
+   ],
+   "answer": "drink",
+   "explanation": "Getränk: drink, beverage.",
+   "id": "q3"
+  },
+  {
+   "type": "choice",
+   "prompt": "Getränk comes from…",
+   "options": [
+    "trinken",
+    "tragen"
+   ],
+   "answer": "trinken",
+   "explanation": "Ge + tränk: something to drink.",
+   "id": "q4"
+  },
+  {
+   "type": "choice",
+   "prompt": "On a menu, 'Getränke' is the list of…",
+   "options": [
+    "drinks",
+    "desserts"
+   ],
+   "answer": "drinks",
+   "explanation": "Die Getränkekarte.",
+   "id": "q5"
+  }
+ ]
+}

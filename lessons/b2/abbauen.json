@@ -1,0 +1,184 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "abbauen",
+    "partOfSpeech": "separable verb",
+    "pronunciation": {
+      "respelling": "AP-bow-en",
+      "ipa": "ˈapˌbaʊ̯ən",
+      "notes": ""
+    },
+    "meaning": "to dismantle; to reduce; to break down; to mine",
+    "shortDefinition": "To dismantle; to reduce; to break down; to mine."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "ab",
+        "meaning": "off, down"
+      },
+      {
+        "part": "bauen",
+        "meaning": "to build",
+        "emphasis": "release"
+      }
+    ],
+    "literalMeaning": "to build down",
+    "summary": "Taking it apart piece by piece."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "bau|e … |ab"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "bau|st … |ab"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "bau|t … |ab"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "bau|en … |ab"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "bau|t … |ab"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "bau|en … |ab"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat abgebaut"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir bauen das Zelt ab.",
+      "english": "We're taking down the tent.",
+      "highlight": [
+        "bauen",
+        "ab."
+      ]
+    },
+    {
+      "german": "Die Firma baut Stellen ab.",
+      "english": "The company is cutting jobs.",
+      "highlight": [
+        "baut",
+        "ab."
+      ]
+    },
+    {
+      "german": "Sport hilft, Stress abzubauen.",
+      "english": "Exercise helps reduce stress.",
+      "highlight": [
+        "abzubauen."
+      ]
+    }
+  ],
+  "forms": [
+    "Abbau",
+    "abbaubar"
+  ],
+  "memoryHook": "Abbauen ↔ aufbauen; Stress abbauen; abbaubar.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ … ab (abbauen)",
+      "answer": "baut",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: baut … ab.",
+      "acceptedAnswers": [
+        "baut"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (abbauen, past)",
+      "answer": "abgebaut",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe abgebaut.",
+      "acceptedAnswers": [
+        "abgebaut"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does abbauen mean?",
+      "options": [
+        "quiet",
+        "to open",
+        "to dismantle"
+      ],
+      "answer": "to dismantle",
+      "explanation": "abbauen: to dismantle; to reduce; to break down; to mine.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Stellen abbauen' means…",
+      "options": [
+        "to cut jobs",
+        "to build jobs"
+      ],
+      "answer": "to cut jobs",
+      "explanation": "Reduce.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Opposite:",
+      "options": [
+        "aufbauen",
+        "einbauen"
+      ],
+      "answer": "aufbauen",
+      "explanation": "Build up.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Biologisch abbaubar' means…",
+      "options": [
+        "biodegradable",
+        "biologically built"
+      ],
+      "answer": "biodegradable",
+      "explanation": "Break down.",
+      "id": "q6"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Anwalt",
+    "partOfSpeech": "noun, masculine (der Anwalt)",
+    "pronunciation": {
+      "respelling": "AN-valt",
+      "ipa": "ˈanvalt",
+      "notes": "Plural: die Anwälte."
+    },
+    "meaning": "lawyer",
+    "shortDefinition": "Lawyer."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Anwalt, plural die Anwälte.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Anwalt"
+        },
+        {
+          "label": "More than one",
+          "value": "die Anwälte"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich brauche einen Anwalt.",
+      "english": "I need a lawyer.",
+      "highlight": [
+        "Anwalt."
+      ]
+    },
+    {
+      "german": "Meine Schwester ist Anwältin.",
+      "english": "My sister is a lawyer.",
+      "highlight": [
+        "Anwältin."
+      ]
+    },
+    {
+      "german": "Der Anwalt hat den Vertrag geprüft.",
+      "english": "The lawyer checked the contract.",
+      "highlight": [
+        "Anwalt"
+      ]
+    }
+  ],
+  "forms": [
+    "Anwältin",
+    "Rechtsanwalt",
+    "der Anwalt"
+  ],
+  "memoryHook": "Der (Rechts)anwalt, die Anwältin.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Anwalt",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Anwalt is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Anwalt, zwei ___",
+      "answer": "Anwälte",
+      "fullAnswer": "ein Anwalt, zwei Anwälte",
+      "explanation": "The plural is Anwälte.",
+      "acceptedAnswers": [
+        "Anwaelte"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Anwalt mean?",
+      "options": [
+        "the door",
+        "lawyer",
+        "to buy"
+      ],
+      "answer": "lawyer",
+      "explanation": "Anwalt: lawyer.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Female:",
+      "options": [
+        "die Anwältin",
+        "die Anwaltin"
+      ],
+      "answer": "die Anwältin",
+      "explanation": "a → ä + in.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Full form:",
+      "options": [
+        "der Rechtsanwalt",
+        "der Gesetzanwalt"
+      ],
+      "answer": "der Rechtsanwalt",
+      "explanation": "Rechtsanwalt.",
+      "id": "q5"
+    }
+  ]
+}

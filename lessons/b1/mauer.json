@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Mauer",
+    "partOfSpeech": "noun, feminine (die Mauer)",
+    "pronunciation": {
+      "respelling": "MOW-er",
+      "ipa": "ˈmaʊ̯ɐ",
+      "notes": "Plural: die Mauern."
+    },
+    "meaning": "wall (outside, stone)",
+    "shortDefinition": "Wall (outside, stone)."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Mauer, plural die Mauern.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Mauer"
+        },
+        {
+          "label": "More than one",
+          "value": "die Mauern"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Berliner Mauer fiel 1989.",
+      "english": "The Berlin Wall fell in 1989.",
+      "highlight": [
+        "Mauer"
+      ]
+    },
+    {
+      "german": "Um den Garten steht eine Mauer.",
+      "english": "There's a wall around the garden.",
+      "highlight": [
+        "Mauer."
+      ]
+    },
+    {
+      "german": "Die Mauer ist aus Stein.",
+      "english": "The wall is made of stone.",
+      "highlight": [
+        "Mauer"
+      ]
+    }
+  ],
+  "forms": [
+    "Mauern",
+    "die Mauern",
+    "die Mauer"
+  ],
+  "memoryHook": "Die Mauer (outside wall, Berlin Wall) vs die Wand (room wall).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Mauer",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Mauer is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Mauer, zwei ___",
+      "answer": "Mauern",
+      "fullAnswer": "ein Mauer, zwei Mauern",
+      "explanation": "The plural is Mauern.",
+      "acceptedAnswers": [
+        "Mauern"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Mauer mean?",
+      "options": [
+        "to sing",
+        "wall (outside",
+        "the key"
+      ],
+      "answer": "wall (outside",
+      "explanation": "Mauer: wall (outside, stone).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Mauer vs Wand:",
+      "options": [
+        "Mauer = free-standing/outer wall; Wand = wall of a room",
+        "same"
+      ],
+      "answer": "Mauer = free-standing/outer wall; Wand = wall of a room",
+      "explanation": "Different.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Mauern",
+        "Mäuer"
+      ],
+      "answer": "Mauern",
+      "explanation": "-n.",
+      "id": "q5"
+    }
+  ]
+}

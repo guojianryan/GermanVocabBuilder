@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Bürste",
+    "partOfSpeech": "noun, feminine (die Bürste)",
+    "pronunciation": {
+      "respelling": "BÜR-ste",
+      "ipa": "ˈbʏʁstə",
+      "notes": "Plural: die Bürsten."
+    },
+    "meaning": "brush",
+    "shortDefinition": "Brush."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Bürste, plural die Bürsten.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Bürste"
+        },
+        {
+          "label": "More than one",
+          "value": "die Bürsten"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich brauche eine neue Haarbürste.",
+      "english": "I need a new hairbrush.",
+      "highlight": [
+        "Haarbürste."
+      ]
+    },
+    {
+      "german": "Wo ist die Zahnbürste?",
+      "english": "Where's the toothbrush?",
+      "highlight": [
+        "Zahnbürste?"
+      ]
+    },
+    {
+      "german": "Mit der Bürste geht es besser.",
+      "english": "It's easier with the brush.",
+      "highlight": [
+        "Bürste"
+      ]
+    }
+  ],
+  "forms": [
+    "bürsten",
+    "Zahnbürste",
+    "Haarbürste"
+  ],
+  "memoryHook": "Die Bürste: Haarbürste, Zahnbürste.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Bürste",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Bürste is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Bürste, zwei ___",
+      "answer": "Bürsten",
+      "fullAnswer": "ein Bürste, zwei Bürsten",
+      "explanation": "The plural is Bürsten.",
+      "acceptedAnswers": [
+        "Buersten"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Bürste mean?",
+      "options": [
+        "expensive",
+        "brush",
+        "the job"
+      ],
+      "answer": "brush",
+      "explanation": "Bürste: brush.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Toothbrush:",
+      "options": [
+        "die Zahnbürste",
+        "der Zahnpinsel"
+      ],
+      "answer": "die Zahnbürste",
+      "explanation": "Zahn + Bürste.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Verb 'to brush':",
+      "options": [
+        "bürsten",
+        "pinseln"
+      ],
+      "answer": "bürsten",
+      "explanation": "Bürsten.",
+      "id": "q5"
+    }
+  ]
+}

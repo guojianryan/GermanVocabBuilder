@@ -1,0 +1,170 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "herauskommen",
+    "partOfSpeech": "separable verb",
+    "pronunciation": {
+      "respelling": "he-ROWS-kom-en",
+      "ipa": "hɛˈʁaʊ̯sˌkɔmən",
+      "notes": ""
+    },
+    "meaning": "to come out",
+    "shortDefinition": "To come out."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "heraus",
+        "meaning": "out (towards here)"
+      },
+      {
+        "part": "kommen",
+        "meaning": "to come",
+        "emphasis": "arrive"
+      }
+    ],
+    "literalMeaning": "to come out here"
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "komm|e … |heraus"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "komm|st … |heraus"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "komm|t … |heraus"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "komm|en … |heraus"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "komm|t … |heraus"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "komm|en … |heraus"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): ist herausgekommen"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Komm aus dem Wasser heraus!",
+      "english": "Come out of the water!",
+      "highlight": [
+        "Komm",
+        "heraus!"
+      ]
+    },
+    {
+      "german": "Das Buch ist letztes Jahr herausgekommen.",
+      "english": "The book came out last year.",
+      "highlight": [
+        "herausgekommen."
+      ]
+    },
+    {
+      "german": "Was ist dabei rausgekommen?",
+      "english": "What came of it?",
+      "highlight": [
+        "rausgekommen?"
+      ]
+    }
+  ],
+  "forms": [
+    "rauskommen"
+  ],
+  "memoryHook": "Herauskommen (rauskommen) = come out; be published.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ … heraus (herauskommen)",
+      "answer": "kommt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: kommt … heraus.",
+      "acceptedAnswers": [
+        "kommt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich bin schon ___. (herauskommen, past)",
+      "answer": "herausgekommen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: bin herausgekommen.",
+      "acceptedAnswers": [
+        "herausgekommen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does herauskommen mean?",
+      "options": [
+        "to come out",
+        "quiet",
+        "the shop"
+      ],
+      "answer": "to come out",
+      "explanation": "herauskommen: to come out.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Spoken short form:",
+      "options": [
+        "rauskommen",
+        "auskommen"
+      ],
+      "answer": "rauskommen",
+      "explanation": "Informal.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Ein Buch kommt heraus' means…",
+      "options": [
+        "a book is published",
+        "a book falls out"
+      ],
+      "answer": "a book is published",
+      "explanation": "Published.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "schmecken",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "SHMEK-en",
+      "ipa": "ˈʃmɛkn̩",
+      "notes": ""
+    },
+    "meaning": "to taste (good)",
+    "shortDefinition": "To taste (good)."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "schmeck|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "schmeck|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "schmeck|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "schmeck|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "schmeck|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "schmeck|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat geschmeckt"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "der Geschmack",
+      "english": "taste",
+      "type": "noun"
+    },
+    {
+      "german": "lecker",
+      "english": "tasty",
+      "type": "adjective"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das schmeckt gut!",
+      "english": "That tastes good!",
+      "highlight": [
+        "schmeckt"
+      ]
+    },
+    {
+      "german": "Hat es Ihnen geschmeckt?",
+      "english": "Did you enjoy your meal?",
+      "highlight": [
+        "geschmeckt?"
+      ]
+    },
+    {
+      "german": "Die Suppe schmeckt mir nicht.",
+      "english": "I don't like the soup.",
+      "highlight": [
+        "schmeckt"
+      ]
+    }
+  ],
+  "forms": [
+    "schmecke",
+    "schmeckst",
+    "schmeckt",
+    "schmecken",
+    "geschmeckt"
+  ],
+  "memoryHook": "Schmecken = taste (good). Das schmeckt mir = I like the taste. For food, not gefallen.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (schmecken)",
+      "answer": "schmeckt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: schmeckt.",
+      "acceptedAnswers": [
+        "schmeckt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (schmecken, past)",
+      "answer": "geschmeckt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe geschmeckt.",
+      "acceptedAnswers": [
+        "geschmeckt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does schmecken mean?",
+      "options": [
+        "the flower",
+        "the weather",
+        "to taste (good)"
+      ],
+      "answer": "to taste (good)",
+      "explanation": "schmecken: to taste (good).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "The waiter asks 'Hat es geschmeckt?'. He means…",
+      "options": [
+        "Did you enjoy the food?",
+        "Did you taste it?"
+      ],
+      "answer": "Did you enjoy the food?",
+      "explanation": "Standard question.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Die Suppe schmeckt ___. (to me)",
+      "options": [
+        "mich",
+        "mir"
+      ],
+      "answer": "mir",
+      "explanation": "Dative, like gefallen.",
+      "id": "q5"
+    }
+  ]
+}

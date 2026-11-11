@@ -1,0 +1,174 @@
+{
+ "schemaVersion": "1.4",
+ "language": "de",
+ "explanationLanguage": "en",
+ "level": "A2",
+ "levelSource": "Goethe-Zertifikat A2 Wortliste",
+ "lessonType": "card",
+ "word": {
+  "headword": "vergessen",
+  "partOfSpeech": "verb",
+  "pronunciation": {
+   "respelling": "fair-GES-en",
+   "ipa": "fɛɐ̯ˈɡɛsn̩",
+   "notes": ""
+  },
+  "meaning": "to forget",
+  "shortDefinition": "To forget."
+ },
+ "tables": [
+  {
+   "title": "Present tense",
+   "columns": [
+    "present"
+   ],
+   "rows": [
+    {
+     "label": "ich",
+     "cells": [
+      "vergess|e"
+     ]
+    },
+    {
+     "label": "du",
+     "cells": [
+      "verg|i|sst"
+     ]
+    },
+    {
+     "label": "er, sie, es",
+     "cells": [
+      "verg|i|sst"
+     ]
+    },
+    {
+     "label": "wir",
+     "cells": [
+      "vergess|en"
+     ]
+    },
+    {
+     "label": "ihr",
+     "cells": [
+      "vergess|t"
+     ]
+    },
+    {
+     "label": "sie, Sie",
+     "cells": [
+      "vergess|en"
+     ]
+    }
+   ],
+   "notes": [
+    "Past (Perfekt): hat vergessen",
+    "e → i for du and er."
+   ]
+  }
+ ],
+ "sampleSentences": [
+  {
+   "german": "Ich habe meinen Schlüssel vergessen.",
+   "english": "I've forgotten my key.",
+   "highlight": [
+    "vergessen."
+   ]
+  },
+  {
+   "german": "Vergiss nicht, Brot zu kaufen!",
+   "english": "Don't forget to buy bread!",
+   "highlight": [
+    "Vergiss"
+   ]
+  },
+  {
+   "german": "Er vergisst immer meinen Geburtstag.",
+   "english": "He always forgets my birthday.",
+   "highlight": [
+    "vergisst"
+   ]
+  }
+ ],
+ "forms": [
+  "vergesse",
+  "vergisst",
+  "vergessen",
+  "vergesst",
+  "vergaß",
+  "vergiss"
+ ],
+ "memoryHook": "Vergessen, vergaß, vergessen. Vergiss es! = forget it!",
+ "signOff": "Gut gemacht!",
+ "quiz": [
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "er ___ (vergessen)",
+   "answer": "vergisst",
+   "fullAnswer": "",
+   "explanation": "For er, sie, es: vergisst.",
+   "acceptedAnswers": [
+    "vergisst"
+   ],
+   "id": "q1"
+  },
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "Ich habe schon ___. (vergessen, past)",
+   "answer": "vergessen",
+   "fullAnswer": "",
+   "explanation": "Perfekt: habe vergessen.",
+   "acceptedAnswers": [
+    "vergessen"
+   ],
+   "id": "q2"
+  },
+  {
+   "type": "choice",
+   "prompt": "What does vergessen mean?",
+   "options": [
+    "to forget",
+    "to sing",
+    "the street"
+   ],
+   "answer": "to forget",
+   "explanation": "vergessen: to forget.",
+   "id": "q3"
+  },
+  {
+   "type": "choice",
+   "prompt": "'Don't forget!' (du):",
+   "options": [
+    "Vergiss nicht!",
+    "Vergess nicht!"
+   ],
+   "answer": "Vergiss nicht!",
+   "explanation": "e → i.",
+   "id": "q4"
+  },
+  {
+   "type": "choice",
+   "prompt": "Past participle:",
+   "options": [
+    "vergessen",
+    "vergesst"
+   ],
+   "answer": "vergessen",
+   "explanation": "Same as infinitive.",
+   "id": "q5"
+  }
+ ],
+ "etymology": {
+  "title": "Where it comes from",
+  "parts": [
+   {
+    "part": "ver",
+    "meaning": "away"
+   },
+   {
+    "part": "gessen",
+    "meaning": "got (old)"
+   }
+  ],
+  "literalMeaning": "to lose hold of"
+ }
+}

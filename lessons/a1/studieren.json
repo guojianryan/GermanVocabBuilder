@@ -1,0 +1,169 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "studieren",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "shtoo-DEE-ren",
+      "ipa": "ʃtuˈdiːʁən",
+      "notes": ""
+    },
+    "meaning": "to study (at university)",
+    "shortDefinition": "To study (at university)."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "studier|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "studier|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "studier|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "studier|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "studier|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "studier|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat studiert"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "das Studium",
+      "english": "studies (degree)",
+      "type": "noun"
+    },
+    {
+      "german": "der Student / die Studentin",
+      "english": "university student",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich studiere Medizin in Wien.",
+      "english": "I'm studying medicine in Vienna.",
+      "highlight": [
+        "studiere"
+      ]
+    },
+    {
+      "german": "Was hast du studiert?",
+      "english": "What did you study?",
+      "highlight": [
+        "studiert?"
+      ]
+    },
+    {
+      "german": "Sie studiert an der Uni Köln.",
+      "english": "She's studying at Cologne University.",
+      "highlight": [
+        "studiert"
+      ]
+    }
+  ],
+  "forms": [
+    "studiere",
+    "studierst",
+    "studiert",
+    "studieren"
+  ],
+  "memoryHook": "Studieren = study at university (no ge-: hat studiert). Lernen = learn, revise.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (studieren)",
+      "answer": "studiert",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: studiert.",
+      "acceptedAnswers": [
+        "studiert"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (studieren, past)",
+      "answer": "studiert",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe studiert.",
+      "acceptedAnswers": [
+        "studiert"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does studieren mean?",
+      "options": [
+        "the window",
+        "to study (at university)",
+        "the evening"
+      ],
+      "answer": "to study (at university)",
+      "explanation": "studieren: to study (at university).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Studying for a test at school is…",
+      "options": [
+        "lernen",
+        "studieren"
+      ],
+      "answer": "lernen",
+      "explanation": "Studieren = university.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Der Student / die Studentin is…",
+      "options": [
+        "a university student",
+        "a school pupil"
+      ],
+      "answer": "a university student",
+      "explanation": "Pupil: Schüler.",
+      "id": "q5"
+    }
+  ]
+}

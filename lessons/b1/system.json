@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "System",
+    "partOfSpeech": "noun, neuter (das System)",
+    "pronunciation": {
+      "respelling": "züs-TAYM",
+      "ipa": "zʏsˈteːm",
+      "notes": "Plural: die Systeme."
+    },
+    "meaning": "system",
+    "shortDefinition": "System."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das System, plural die Systeme.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das System"
+        },
+        {
+          "label": "More than one",
+          "value": "die Systeme"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das System ist abgestürzt.",
+      "english": "The system has crashed.",
+      "highlight": [
+        "System"
+      ]
+    },
+    {
+      "german": "Das Schulsystem in Deutschland ist komplex.",
+      "english": "The school system in Germany is complex.",
+      "highlight": [
+        "Schulsystem"
+      ]
+    },
+    {
+      "german": "Er hat ein eigenes System.",
+      "english": "He has his own system.",
+      "highlight": [
+        "System."
+      ]
+    }
+  ],
+  "forms": [
+    "Systeme",
+    "die Systeme",
+    "das System"
+  ],
+  "memoryHook": "Das System (stress at the end).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ System",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "System is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein System, zwei ___",
+      "answer": "Systeme",
+      "fullAnswer": "ein System, zwei Systeme",
+      "explanation": "The plural is Systeme.",
+      "acceptedAnswers": [
+        "Systeme"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does System mean?",
+      "options": [
+        "system",
+        "quiet",
+        "to sleep"
+      ],
+      "answer": "system",
+      "explanation": "System: system.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Stress on…",
+      "options": [
+        "-TEM",
+        "SYS-"
+      ],
+      "answer": "-TEM",
+      "explanation": "End.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Systeme",
+        "Systems"
+      ],
+      "answer": "Systeme",
+      "explanation": "-e.",
+      "id": "q5"
+    }
+  ]
+}

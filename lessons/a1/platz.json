@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Platz",
+    "partOfSpeech": "noun, masculine (der Platz)",
+    "pronunciation": {
+      "respelling": "PLATS",
+      "ipa": "plats",
+      "notes": "Plural: die Plätze."
+    },
+    "meaning": "seat; space, room; square",
+    "shortDefinition": "Seat; space, room; square."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Platz, plural die Plätze.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Platz"
+        },
+        {
+          "label": "More than one",
+          "value": "die Plätze"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ist hier noch ein Platz frei?",
+      "english": "Is there a seat free here?",
+      "highlight": [
+        "Platz"
+      ]
+    },
+    {
+      "german": "Nehmen Sie bitte Platz.",
+      "english": "Please take a seat.",
+      "highlight": [
+        "Platz."
+      ]
+    },
+    {
+      "german": "Wir treffen uns am Marktplatz.",
+      "english": "We'll meet in the market square.",
+      "highlight": [
+        "Marktplatz."
+      ]
+    }
+  ],
+  "forms": [
+    "Plätze",
+    "die Plätze",
+    "der Platz"
+  ],
+  "memoryHook": "Der Platz: a seat, space, or square. Nehmen Sie Platz = please sit down.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Platz",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Platz is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Platz, zwei ___",
+      "answer": "Plätze",
+      "fullAnswer": "ein Platz, zwei Plätze",
+      "explanation": "The plural is Plätze.",
+      "acceptedAnswers": [
+        "Plaetze"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Platz mean?",
+      "options": [
+        "the bill",
+        "the key",
+        "seat"
+      ],
+      "answer": "seat",
+      "explanation": "Platz: seat; space, room; square.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Platz nehmen' means…",
+      "options": [
+        "to sit down",
+        "to take space"
+      ],
+      "answer": "to sit down",
+      "explanation": "Polite.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Der Marktplatz is…",
+      "options": [
+        "the market square",
+        "a market stall"
+      ],
+      "answer": "the market square",
+      "explanation": "Markt + Platz.",
+      "id": "q5"
+    }
+  ]
+}

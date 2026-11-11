@@ -1,0 +1,178 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "bestellen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "buh-SHTEL-en",
+      "ipa": "bəˈʃtɛlən",
+      "notes": ""
+    },
+    "meaning": "to order",
+    "shortDefinition": "To order."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "be",
+        "meaning": "prefix"
+      },
+      {
+        "part": "stellen",
+        "meaning": "to put, to place"
+      }
+    ],
+    "literalMeaning": "to place (an order)"
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "bestell|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "bestell|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "bestell|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "bestell|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "bestell|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "bestell|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat bestellt"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "die Bestellung",
+      "english": "order",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Möchten Sie jetzt bestellen?",
+      "english": "Would you like to order now?",
+      "highlight": [
+        "bestellen?"
+      ]
+    },
+    {
+      "german": "Ich bestelle eine Pizza und ein Wasser.",
+      "english": "I'll order a pizza and a water.",
+      "highlight": [
+        "bestelle"
+      ]
+    },
+    {
+      "german": "Ich habe das Buch im Internet bestellt.",
+      "english": "I ordered the book online.",
+      "highlight": [
+        "bestellt."
+      ]
+    }
+  ],
+  "forms": [
+    "bestelle",
+    "bestellst",
+    "bestellt",
+    "bestellen"
+  ],
+  "memoryHook": "Bestellen = order: food, things online, a taxi. Then you bezahlen.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (bestellen)",
+      "answer": "bestellt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: bestellt.",
+      "acceptedAnswers": [
+        "bestellt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (bestellen, past)",
+      "answer": "bestellt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe bestellt.",
+      "acceptedAnswers": [
+        "bestellt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does bestellen mean?",
+      "options": [
+        "quiet",
+        "the job",
+        "to order"
+      ],
+      "answer": "to order",
+      "explanation": "bestellen: to order.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Waiter: 'Was darf ich Ihnen bringen?' You ___.",
+      "options": [
+        "bestellen",
+        "bezahlen"
+      ],
+      "answer": "bestellen",
+      "explanation": "First you order, then you pay.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Bestellen also works for…",
+      "options": [
+        "booking a taxi",
+        "visiting a friend"
+      ],
+      "answer": "booking a taxi",
+      "explanation": "Ein Taxi bestellen.",
+      "id": "q5"
+    }
+  ]
+}

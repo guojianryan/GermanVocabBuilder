@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Kandidat",
+    "partOfSpeech": "noun, masculine (der Kandidat)",
+    "pronunciation": {
+      "respelling": "kan-di-DAAT",
+      "ipa": "kandiˈdaːt",
+      "notes": "Plural: die Kandidaten."
+    },
+    "meaning": "candidate",
+    "shortDefinition": "Candidate."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Kandidat, plural die Kandidaten.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Kandidat"
+        },
+        {
+          "label": "More than one",
+          "value": "die Kandidaten"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er ist ein guter Kandidat für den Job.",
+      "english": "He's a good candidate for the job.",
+      "highlight": [
+        "Kandidat"
+      ]
+    },
+    {
+      "german": "Welchen Kandidaten wählst du?",
+      "english": "Which candidate are you voting for?",
+      "highlight": [
+        "Kandidaten"
+      ]
+    },
+    {
+      "german": "Sie ist Kandidatin bei der Wahl.",
+      "english": "She's standing in the election.",
+      "highlight": [
+        "Kandidatin"
+      ]
+    }
+  ],
+  "forms": [
+    "Kandidatin",
+    "Kandidaten"
+  ],
+  "memoryHook": "Der Kandidat, den Kandidaten; die Kandidatin.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Kandidat",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Kandidat is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Kandidat, zwei ___",
+      "answer": "Kandidaten",
+      "fullAnswer": "ein Kandidat, zwei Kandidaten",
+      "explanation": "The plural is Kandidaten.",
+      "acceptedAnswers": [
+        "Kandidaten"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Kandidat mean?",
+      "options": [
+        "candidate",
+        "the key",
+        "to sing"
+      ],
+      "answer": "candidate",
+      "explanation": "Kandidat: candidate.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Accusative:",
+      "options": [
+        "den Kandidaten",
+        "den Kandidat"
+      ],
+      "answer": "den Kandidaten",
+      "explanation": "-en.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Female:",
+      "options": [
+        "die Kandidatin",
+        "die Kandidate"
+      ],
+      "answer": "die Kandidatin",
+      "explanation": "-in.",
+      "id": "q5"
+    }
+  ]
+}

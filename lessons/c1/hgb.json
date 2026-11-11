@@ -1,0 +1,119 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "HGB",
+    "partOfSpeech": "noun, neuter (das HGB)",
+    "pronunciation": {
+      "respelling": "ha-gay-BAY",
+      "ipa": "haːɡeːˈbeː",
+      "notes": "Usually no plural."
+    },
+    "meaning": "German Commercial Code (Handelsgesetzbuch)",
+    "shortDefinition": "German Commercial Code (Handelsgesetzbuch)."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das HGB, usually no plural.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das HGB"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Kaufleute unterliegen dem HGB.",
+      "english": "Merchants are subject to the Commercial Code.",
+      "highlight": [
+        "HGB."
+      ]
+    },
+    {
+      "german": "Nach HGB muss die Firma Bücher führen.",
+      "english": "Under the Commercial Code the firm must keep accounts.",
+      "highlight": [
+        "HGB"
+      ]
+    },
+    {
+      "german": "Das HGB regelt das Handelsrecht.",
+      "english": "The HGB governs commercial law.",
+      "highlight": [
+        "HGB"
+      ]
+    }
+  ],
+  "forms": [
+    "Handelsgesetzbuch",
+    "BGB"
+  ],
+  "memoryHook": "HGB = Handelsgesetzbuch (commercial code).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ HGB",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "HGB is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does HGB mean?",
+      "options": [
+        "German Commercial Code (Handelsgesetzbuch)",
+        "to open",
+        "the street"
+      ],
+      "answer": "German Commercial Code (Handelsgesetzbuch)",
+      "explanation": "HGB: German Commercial Code (Handelsgesetzbuch).",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Stands for…",
+      "options": [
+        "Handelsgesetzbuch",
+        "Hauptgesetzbuch"
+      ],
+      "answer": "Handelsgesetzbuch",
+      "explanation": "Commercial Code.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Covers…",
+      "options": [
+        "commercial law",
+        "family law"
+      ],
+      "answer": "commercial law",
+      "explanation": "Business.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Related to…",
+      "options": [
+        "der Handel (trade)",
+        "die Hand"
+      ],
+      "answer": "der Handel (trade)",
+      "explanation": "Trade.",
+      "id": "q5"
+    }
+  ]
+}

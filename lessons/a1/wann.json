@@ -1,0 +1,112 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "wann",
+    "partOfSpeech": "question word",
+    "pronunciation": {
+      "respelling": "VAHN",
+      "ipa": "van",
+      "notes": ""
+    },
+    "meaning": "when",
+    "shortDefinition": "When."
+  },
+  "wordFamily": [
+    {
+      "german": "wenn",
+      "english": "when, if",
+      "type": "conjunction"
+    },
+    {
+      "german": "wo, wer, was, wie",
+      "english": "where, who, what, how",
+      "type": "question words"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wann kommst du?",
+      "english": "When are you coming?",
+      "highlight": [
+        "Wann"
+      ]
+    },
+    {
+      "german": "Wann beginnt der Film?",
+      "english": "When does the film start?",
+      "highlight": [
+        "Wann"
+      ]
+    },
+    {
+      "german": "Seit wann wohnen Sie hier?",
+      "english": "How long have you lived here?",
+      "highlight": [
+        "wann"
+      ]
+    }
+  ],
+  "forms": [],
+  "memoryHook": "Wann = when? (questions). Wenn = when/if in a clause. Seit wann? Bis wann?",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does wann mean?",
+      "options": [
+        "the bread",
+        "the window",
+        "when"
+      ],
+      "answer": "when",
+      "explanation": "wann: when.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Wann vs wenn:",
+      "options": [
+        "wann = when (question); wenn = when/if (clause)",
+        "the same"
+      ],
+      "answer": "wann = when (question); wenn = when/if (clause)",
+      "explanation": "Different words.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "After wann, the verb comes…",
+      "options": [
+        "next",
+        "at the end"
+      ],
+      "answer": "next",
+      "explanation": "Wann kommst du?",
+      "id": "q3"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "___ fährt der Bus? (When)",
+      "answer": "Wann",
+      "fullAnswer": "Wann fährt der Bus?",
+      "explanation": "Wann.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Bis wann?' means…",
+      "options": [
+        "Until when?",
+        "Since when?"
+      ],
+      "answer": "Until when?",
+      "explanation": "Bis wann.",
+      "id": "q5"
+    }
+  ]
+}

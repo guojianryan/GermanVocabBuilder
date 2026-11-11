@@ -1,0 +1,153 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Postleitzahl",
+    "partOfSpeech": "noun, feminine (die Postleitzahl)",
+    "pronunciation": {
+      "respelling": "POST-lite-tsahl",
+      "ipa": "ˈpɔstlaɪ̯tˌtsaːl",
+      "notes": "Plural: die Postleitzahlen."
+    },
+    "meaning": "postcode, zip code",
+    "shortDefinition": "Postcode, zip code."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Post",
+        "meaning": "post"
+      },
+      {
+        "part": "leit",
+        "meaning": "guide",
+        "note": "From leiten."
+      },
+      {
+        "part": "zahl",
+        "meaning": "number"
+      }
+    ],
+    "literalMeaning": "post-guiding number"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Postleitzahl, plural die Postleitzahlen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Postleitzahl"
+        },
+        {
+          "label": "More than one",
+          "value": "die Postleitzahlen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wie ist Ihre Postleitzahl?",
+      "english": "What's your postcode?",
+      "highlight": [
+        "Postleitzahl?"
+      ]
+    },
+    {
+      "german": "Die Postleitzahl hat fünf Ziffern.",
+      "english": "The postcode has five digits.",
+      "highlight": [
+        "Postleitzahl"
+      ]
+    },
+    {
+      "german": "Schreiben Sie die PLZ vor den Ort.",
+      "english": "Write the postcode before the town.",
+      "highlight": [
+        "PLZ"
+      ]
+    }
+  ],
+  "forms": [
+    "PLZ",
+    "Postleitzahlen"
+  ],
+  "memoryHook": "Post + leiten (guide) + Zahl (number): the number that guides the post. Short: PLZ. It goes before the town.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Postleitzahl",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Postleitzahl is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Postleitzahl, zwei ___",
+      "answer": "Postleitzahlen",
+      "fullAnswer": "ein Postleitzahl, zwei Postleitzahlen",
+      "explanation": "The plural is Postleitzahlen.",
+      "acceptedAnswers": [
+        "Postleitzahlen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Postleitzahl mean?",
+      "options": [
+        "postcode",
+        "to help",
+        "the door"
+      ],
+      "answer": "postcode",
+      "explanation": "Postleitzahl: postcode, zip code.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "The short form is…",
+      "options": [
+        "PLZ",
+        "PZL"
+      ],
+      "answer": "PLZ",
+      "explanation": "Post-Leit-Zahl.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "German postcodes have…",
+      "options": [
+        "5 digits",
+        "6 characters with letters"
+      ],
+      "answer": "5 digits",
+      "explanation": "E.g. 10115 Berlin.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "In an address, the PLZ comes…",
+      "options": [
+        "before the town",
+        "after the town"
+      ],
+      "answer": "before the town",
+      "explanation": "10115 Berlin.",
+      "id": "q6"
+    }
+  ]
+}

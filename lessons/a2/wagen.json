@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Wagen",
+    "partOfSpeech": "noun, masculine (der Wagen)",
+    "pronunciation": {
+      "respelling": "VAA-gen",
+      "ipa": "ˈvaːɡn̩",
+      "notes": "The plural looks the same. Plural: die Wagen."
+    },
+    "meaning": "car; carriage (train)",
+    "shortDefinition": "Car; carriage (train)."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Wagen, plural die Wagen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Wagen"
+        },
+        {
+          "label": "More than one",
+          "value": "die Wagen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir fahren mit dem Wagen.",
+      "english": "We're going by car.",
+      "highlight": [
+        "Wagen."
+      ]
+    },
+    {
+      "german": "Ihr Platz ist in Wagen 12.",
+      "english": "Your seat is in coach 12.",
+      "highlight": [
+        "Wagen"
+      ]
+    },
+    {
+      "german": "Der Kinderwagen steht im Flur.",
+      "english": "The pram is in the hall.",
+      "highlight": [
+        "Kinderwagen"
+      ]
+    }
+  ],
+  "forms": [
+    "Kinderwagen"
+  ],
+  "memoryHook": "Der Wagen: car (Volkswagen!) or train carriage.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Wagen",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Wagen is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Wagen, zwei ___",
+      "answer": "Wagen",
+      "fullAnswer": "ein Wagen, zwei Wagen",
+      "explanation": "The plural is Wagen.",
+      "acceptedAnswers": [
+        "Wagen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Wagen mean?",
+      "options": [
+        "to help",
+        "car",
+        "to sing"
+      ],
+      "answer": "car",
+      "explanation": "Wagen: car; carriage (train).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "On a train ticket, 'Wagen 7' is…",
+      "options": [
+        "carriage 7",
+        "car park 7"
+      ],
+      "answer": "carriage 7",
+      "explanation": "Coach.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "A pram:",
+      "options": [
+        "der Kinderwagen",
+        "das Babyauto"
+      ],
+      "answer": "der Kinderwagen",
+      "explanation": "Child car.",
+      "id": "q5"
+    }
+  ]
+}

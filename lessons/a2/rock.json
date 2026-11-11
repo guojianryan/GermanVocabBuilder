@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Rock",
+    "partOfSpeech": "noun, masculine (der Rock)",
+    "pronunciation": {
+      "respelling": "ROK",
+      "ipa": "ʁɔk",
+      "notes": "Plural: die Röcke."
+    },
+    "meaning": "skirt; rock (music)",
+    "shortDefinition": "Skirt; rock (music)."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Rock, plural die Röcke.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Rock"
+        },
+        {
+          "label": "More than one",
+          "value": "die Röcke"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Sie trägt einen kurzen Rock.",
+      "english": "She's wearing a short skirt.",
+      "highlight": [
+        "Rock."
+      ]
+    },
+    {
+      "german": "Der Rock passt gut zur Bluse.",
+      "english": "The skirt goes well with the blouse.",
+      "highlight": [
+        "Rock"
+      ]
+    },
+    {
+      "german": "Ich höre gern Rock.",
+      "english": "I like listening to rock.",
+      "highlight": [
+        "Rock."
+      ]
+    }
+  ],
+  "forms": [
+    "Röcke",
+    "die Röcke",
+    "der Rock"
+  ],
+  "memoryHook": "Der Rock = skirt (and rock music). A stone = der Stein.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Rock",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Rock is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Rock, zwei ___",
+      "answer": "Röcke",
+      "fullAnswer": "ein Rock, zwei Röcke",
+      "explanation": "The plural is Röcke.",
+      "acceptedAnswers": [
+        "Roecke"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Rock mean?",
+      "options": [
+        "slowly",
+        "skirt",
+        "the key"
+      ],
+      "answer": "skirt",
+      "explanation": "Rock: skirt; rock (music).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Der Rock (clothing) is…",
+      "options": [
+        "a skirt",
+        "a coat"
+      ],
+      "answer": "a skirt",
+      "explanation": "False friend!",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Röcke",
+        "Rocks"
+      ],
+      "answer": "Röcke",
+      "explanation": "o → ö.",
+      "id": "q5"
+    }
+  ]
+}

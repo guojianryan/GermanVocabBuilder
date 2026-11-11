@@ -1,0 +1,138 @@
+{
+ "schemaVersion": "1.4",
+ "language": "de",
+ "explanationLanguage": "en",
+ "level": "B1",
+ "levelSource": "Goethe-Zertifikat B1 Wortliste",
+ "lessonType": "card",
+ "word": {
+  "headword": "Laufwerk",
+  "partOfSpeech": "noun, neuter (das Laufwerk)",
+  "pronunciation": {
+   "respelling": "LOWF-vairk",
+   "ipa": "ˈlaʊ̯fvɛʁk",
+   "notes": "Plural: die Laufwerke."
+  },
+  "meaning": "(disk) drive",
+  "shortDefinition": "(disk) drive."
+ },
+ "commonMistakes": [
+  {
+   "title": "Gender and plural",
+   "explanation": "Das Laufwerk, plural die Laufwerke.",
+   "forms": [
+    {
+     "label": "One",
+     "value": "das Laufwerk"
+    },
+    {
+     "label": "More than one",
+     "value": "die Laufwerke"
+    }
+   ]
+  }
+ ],
+ "sampleSentences": [
+  {
+   "german": "Speichere die Datei auf Laufwerk C.",
+   "english": "Save the file on drive C.",
+   "highlight": [
+    "Laufwerk"
+   ]
+  },
+  {
+   "german": "Das Laufwerk ist voll.",
+   "english": "The drive is full.",
+   "highlight": [
+    "Laufwerk"
+   ]
+  },
+  {
+   "german": "Wir haben ein gemeinsames Netzlaufwerk.",
+   "english": "We have a shared network drive.",
+   "highlight": [
+    "Netzlaufwerk."
+   ]
+  }
+ ],
+ "forms": [
+  "Laufwerke",
+  "die Laufwerke",
+  "das Laufwerk"
+ ],
+ "memoryHook": "Laufen + Werk = drive (computer).",
+ "signOff": "Gut gemacht!",
+ "quiz": [
+  {
+   "type": "choice",
+   "prompt": "___ Laufwerk",
+   "options": [
+    "der",
+    "die",
+    "das"
+   ],
+   "answer": "das",
+   "explanation": "Laufwerk is neuter.",
+   "id": "q1"
+  },
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "ein Laufwerk, zwei ___",
+   "answer": "Laufwerke",
+   "fullAnswer": "ein Laufwerk, zwei Laufwerke",
+   "explanation": "The plural is Laufwerke.",
+   "acceptedAnswers": [
+    "Laufwerke"
+   ],
+   "id": "q2"
+  },
+  {
+   "type": "choice",
+   "prompt": "What does Laufwerk mean?",
+   "options": [
+    "never",
+    "the car",
+    "(disk) drive"
+   ],
+   "answer": "(disk) drive",
+   "explanation": "Laufwerk: (disk) drive.",
+   "id": "q3"
+  },
+  {
+   "type": "choice",
+   "prompt": "Built from…",
+   "options": [
+    "laufen (run) + Werk (mechanism)",
+    "Lauf + Wort"
+   ],
+   "answer": "laufen (run) + Werk (mechanism)",
+   "explanation": "Running mechanism.",
+   "id": "q4"
+  },
+  {
+   "type": "choice",
+   "prompt": "Gender:",
+   "options": [
+    "das (das Werk)",
+    "der"
+   ],
+   "answer": "das (das Werk)",
+   "explanation": "Last part.",
+   "id": "q5"
+  }
+ ],
+ "etymology": {
+  "title": "Where it comes from",
+  "parts": [
+   {
+    "part": "Lauf",
+    "meaning": "run"
+   },
+   {
+    "part": "werk",
+    "meaning": "mechanism"
+   }
+  ],
+  "literalMeaning": "running mechanism"
+ }
+}

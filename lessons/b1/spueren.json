@@ -1,0 +1,158 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "spüren",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "SHPÜ-ren",
+      "ipa": "ˈʃpyːʁən",
+      "notes": ""
+    },
+    "meaning": "to feel, sense",
+    "shortDefinition": "To feel, sense."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "spür|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "spür|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "spür|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "spür|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "spür|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "spür|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gespürt"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich spüre den Wind.",
+      "english": "I feel the wind.",
+      "highlight": [
+        "spüre"
+      ]
+    },
+    {
+      "german": "Sie hat gespürt, dass etwas nicht stimmt.",
+      "english": "She sensed something was wrong.",
+      "highlight": [
+        "gespürt,"
+      ]
+    },
+    {
+      "german": "Ich spüre meine Beine nicht mehr.",
+      "english": "I can't feel my legs any more.",
+      "highlight": [
+        "spüre"
+      ]
+    }
+  ],
+  "forms": [
+    "spüre",
+    "spürst",
+    "spürt",
+    "spüren",
+    "gespürt"
+  ],
+  "memoryHook": "Spüren = feel, sense (follow a Spur).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (spüren)",
+      "answer": "spürt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: spürt.",
+      "acceptedAnswers": [
+        "spuert"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (spüren, past)",
+      "answer": "gespürt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gespürt.",
+      "acceptedAnswers": [
+        "gespuert"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does spüren mean?",
+      "options": [
+        "the station",
+        "the shop",
+        "to feel"
+      ],
+      "answer": "to feel",
+      "explanation": "spüren: to feel, sense.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Spüren vs fühlen:",
+      "options": [
+        "similar; spüren = physical/sense",
+        "spüren = touch only"
+      ],
+      "answer": "similar; spüren = physical/sense",
+      "explanation": "Close.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Related noun:",
+      "options": [
+        "die Spur (trace)",
+        "der Spür"
+      ],
+      "answer": "die Spur (trace)",
+      "explanation": "Follow a trace.",
+      "id": "q5"
+    }
+  ]
+}

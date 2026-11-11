@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Teller",
+    "partOfSpeech": "noun, masculine (der Teller)",
+    "pronunciation": {
+      "respelling": "TEL-er",
+      "ipa": "ˈtɛlɐ",
+      "notes": "The plural looks the same. Plural: die Teller."
+    },
+    "meaning": "plate",
+    "shortDefinition": "Plate."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Teller, plural die Teller.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Teller"
+        },
+        {
+          "label": "More than one",
+          "value": "die Teller"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Stell die Teller auf den Tisch.",
+      "english": "Put the plates on the table.",
+      "highlight": [
+        "Teller"
+      ]
+    },
+    {
+      "german": "Der Teller ist leer.",
+      "english": "The plate is empty.",
+      "highlight": [
+        "Teller"
+      ]
+    },
+    {
+      "german": "Ich hätte gern einen Teller Suppe.",
+      "english": "I'd like a bowl of soup.",
+      "highlight": [
+        "Teller"
+      ]
+    }
+  ],
+  "forms": [
+    "Teller",
+    "die Teller",
+    "der Teller"
+  ],
+  "memoryHook": "Der Teller, die Teller. Teller, Tasse, Glas.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Teller",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Teller is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Teller, zwei ___",
+      "answer": "Teller",
+      "fullAnswer": "ein Teller, zwei Teller",
+      "explanation": "The plural is Teller.",
+      "acceptedAnswers": [
+        "Teller"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Teller mean?",
+      "options": [
+        "the bread",
+        "plate",
+        "to buy"
+      ],
+      "answer": "plate",
+      "explanation": "Teller: plate.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Teller",
+        "Tellers"
+      ],
+      "answer": "Teller",
+      "explanation": "No change.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gender:",
+      "options": [
+        "der",
+        "die"
+      ],
+      "answer": "der",
+      "explanation": "Der Teller.",
+      "id": "q5"
+    }
+  ]
+}

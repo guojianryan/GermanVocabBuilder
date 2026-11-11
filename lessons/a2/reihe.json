@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Reihe",
+    "partOfSpeech": "noun, feminine (die Reihe)",
+    "pronunciation": {
+      "respelling": "RYE-e",
+      "ipa": "ˈʁaɪ̯ə",
+      "notes": "Plural: die Reihen."
+    },
+    "meaning": "row; turn",
+    "shortDefinition": "Row; turn."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Reihe, plural die Reihen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Reihe"
+        },
+        {
+          "label": "More than one",
+          "value": "die Reihen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir sitzen in der ersten Reihe.",
+      "english": "We're sitting in the front row.",
+      "highlight": [
+        "Reihe."
+      ]
+    },
+    {
+      "german": "Wer ist an der Reihe?",
+      "english": "Whose turn is it?",
+      "highlight": [
+        "Reihe?"
+      ]
+    },
+    {
+      "german": "Sie sind jetzt dran / an der Reihe.",
+      "english": "It's your turn now.",
+      "highlight": [
+        "Reihe."
+      ]
+    }
+  ],
+  "forms": [
+    "an der Reihe",
+    "der Reihe nach"
+  ],
+  "memoryHook": "Die Reihe: row, and 'an der Reihe sein' = be your turn.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Reihe",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Reihe is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Reihe, zwei ___",
+      "answer": "Reihen",
+      "fullAnswer": "ein Reihe, zwei Reihen",
+      "explanation": "The plural is Reihen.",
+      "acceptedAnswers": [
+        "Reihen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Reihe mean?",
+      "options": [
+        "expensive",
+        "the flower",
+        "row"
+      ],
+      "answer": "row",
+      "explanation": "Reihe: row; turn.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Whose turn is it?':",
+      "options": [
+        "Wer ist an der Reihe?",
+        "Wer hat die Reihe?"
+      ],
+      "answer": "Wer ist an der Reihe?",
+      "explanation": "An der Reihe sein.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'In the first row':",
+      "options": [
+        "in der ersten Reihe",
+        "auf der ersten Reihe"
+      ],
+      "answer": "in der ersten Reihe",
+      "explanation": "In.",
+      "id": "q5"
+    }
+  ]
+}

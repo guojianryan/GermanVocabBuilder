@@ -1,0 +1,131 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Foto",
+    "partOfSpeech": "noun, neuter (das Foto)",
+    "pronunciation": {
+      "respelling": "FOH-toh",
+      "ipa": "ˈfoːto",
+      "notes": "Plural: die Fotos."
+    },
+    "meaning": "photo",
+    "shortDefinition": "Photo."
+  },
+  "wordFamily": [
+    {
+      "german": "fotografieren",
+      "english": "to photograph",
+      "type": "verb"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Foto, plural die Fotos.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Foto"
+        },
+        {
+          "label": "More than one",
+          "value": "die Fotos"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Darf ich ein Foto machen?",
+      "english": "May I take a photo?",
+      "highlight": [
+        "Foto"
+      ]
+    },
+    {
+      "german": "Schick mir die Fotos!",
+      "english": "Send me the photos!",
+      "highlight": [
+        "Fotos!"
+      ]
+    },
+    {
+      "german": "Auf dem Foto sind meine Eltern.",
+      "english": "My parents are in the photo.",
+      "highlight": [
+        "Foto"
+      ]
+    }
+  ],
+  "forms": [
+    "Fotos",
+    "die Fotos",
+    "das Foto"
+  ],
+  "memoryHook": "Ein Foto machen (make a photo). German spells it with F.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Foto",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Foto is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Foto, zwei ___",
+      "answer": "Fotos",
+      "fullAnswer": "ein Foto, zwei Fotos",
+      "explanation": "The plural is Fotos.",
+      "acceptedAnswers": [
+        "Fotos"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Foto mean?",
+      "options": [
+        "the job",
+        "photo",
+        "the window"
+      ],
+      "answer": "photo",
+      "explanation": "Foto: photo.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Take a photo' in German is ein Foto…",
+      "options": [
+        "machen",
+        "nehmen"
+      ],
+      "answer": "machen",
+      "explanation": "Ein Foto machen.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Spelling: German uses…",
+      "options": [
+        "F: Foto",
+        "Ph: Photo"
+      ],
+      "answer": "F: Foto",
+      "explanation": "Modern spelling: Foto.",
+      "id": "q5"
+    }
+  ]
+}

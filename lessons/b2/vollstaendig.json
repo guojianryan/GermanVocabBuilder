@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "vollständig",
+    "partOfSpeech": "adjective",
+    "pronunciation": {
+      "respelling": "FOL-shten-dikh",
+      "ipa": "ˈfɔlʃtɛndɪç",
+      "notes": ""
+    },
+    "meaning": "complete, full",
+    "shortDefinition": "Complete, full."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "voll",
+        "meaning": "full"
+      },
+      {
+        "part": "ständ",
+        "meaning": "standing, state (Stand)"
+      },
+      {
+        "part": "ig",
+        "meaning": "adjective ending"
+      }
+    ],
+    "literalMeaning": "fully standing"
+  },
+  "sampleSentences": [
+    {
+      "german": "Bitte füllen Sie das Formular vollständig aus.",
+      "english": "Please fill out the form completely.",
+      "highlight": [
+        "vollständig"
+      ]
+    },
+    {
+      "german": "Die Unterlagen sind nicht vollständig.",
+      "english": "The documents are incomplete.",
+      "highlight": [
+        "vollständig."
+      ]
+    },
+    {
+      "german": "Er hat sich vollständig erholt.",
+      "english": "He's fully recovered.",
+      "highlight": [
+        "vollständig"
+      ]
+    }
+  ],
+  "forms": [
+    "unvollständig"
+  ],
+  "memoryHook": "Voll + Stand + -ig = complete ↔ unvollständig.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does vollständig mean?",
+      "options": [
+        "the shop",
+        "complete",
+        "the street"
+      ],
+      "answer": "complete",
+      "explanation": "vollständig: complete, full.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "voll + Stand + -ig",
+        "voll + ständig (constantly)"
+      ],
+      "answer": "voll + Stand + -ig",
+      "explanation": "Full state.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Opposite:",
+      "options": [
+        "unvollständig",
+        "vollkommen"
+      ],
+      "answer": "unvollständig",
+      "explanation": "Incomplete.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonym:",
+      "options": [
+        "komplett, ganz",
+        "teilweise"
+      ],
+      "answer": "komplett, ganz",
+      "explanation": "Complete.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Die Liste ist ___ . (complete)",
+      "answer": "vollständig",
+      "fullAnswer": "Die Liste ist vollständig.",
+      "explanation": "Vollständig.",
+      "acceptedAnswers": [
+        "komplett"
+      ],
+      "id": "q5"
+    }
+  ]
+}

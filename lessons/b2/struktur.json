@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Struktur",
+    "partOfSpeech": "noun, feminine (die Struktur)",
+    "pronunciation": {
+      "respelling": "shtrook-TOOR",
+      "ipa": "ʃtʁʊkˈtuːɐ̯",
+      "notes": "Plural: die Strukturen."
+    },
+    "meaning": "structure",
+    "shortDefinition": "Structure."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Struktur, plural die Strukturen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Struktur"
+        },
+        {
+          "label": "More than one",
+          "value": "die Strukturen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Text hat eine klare Struktur.",
+      "english": "The text has a clear structure.",
+      "highlight": [
+        "Struktur."
+      ]
+    },
+    {
+      "german": "Die Strukturen der Firma sind alt.",
+      "english": "The company's structures are old.",
+      "highlight": [
+        "Strukturen"
+      ]
+    },
+    {
+      "german": "Mir fehlt die Struktur im Alltag.",
+      "english": "I lack structure in my daily life.",
+      "highlight": [
+        "Struktur"
+      ]
+    }
+  ],
+  "forms": [
+    "strukturieren"
+  ],
+  "memoryHook": "Die Struktur; strukturieren.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Struktur",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Struktur is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Struktur, zwei ___",
+      "answer": "Strukturen",
+      "fullAnswer": "ein Struktur, zwei Strukturen",
+      "explanation": "The plural is Strukturen.",
+      "acceptedAnswers": [
+        "Strukturen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Struktur mean?",
+      "options": [
+        "the job",
+        "structure",
+        "the bread"
+      ],
+      "answer": "structure",
+      "explanation": "Struktur: structure.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Stress on…",
+      "options": [
+        "-TUR",
+        "STRUK-"
+      ],
+      "answer": "-TUR",
+      "explanation": "End.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Verb:",
+      "options": [
+        "strukturieren",
+        "strukturen"
+      ],
+      "answer": "strukturieren",
+      "explanation": "Structure.",
+      "id": "q5"
+    }
+  ]
+}

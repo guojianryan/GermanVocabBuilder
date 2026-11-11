@@ -1,0 +1,182 @@
+{
+ "schemaVersion": "1.4",
+ "language": "de",
+ "explanationLanguage": "en",
+ "level": "B1",
+ "levelSource": "Goethe-Zertifikat B1 Wortliste",
+ "lessonType": "card",
+ "word": {
+  "headword": "besprechen",
+  "partOfSpeech": "verb",
+  "pronunciation": {
+   "respelling": "be-SHPREKH-en",
+   "ipa": "bəˈʃpʁɛçn̩",
+   "notes": ""
+  },
+  "meaning": "to discuss",
+  "shortDefinition": "To discuss."
+ },
+ "tables": [
+  {
+   "title": "Present tense",
+   "columns": [
+    "present"
+   ],
+   "rows": [
+    {
+     "label": "ich",
+     "cells": [
+      "besprech|e"
+     ]
+    },
+    {
+     "label": "du",
+     "cells": [
+      "bespr|i|chst"
+     ]
+    },
+    {
+     "label": "er, sie, es",
+     "cells": [
+      "bespr|i|cht"
+     ]
+    },
+    {
+     "label": "wir",
+     "cells": [
+      "besprech|en"
+     ]
+    },
+    {
+     "label": "ihr",
+     "cells": [
+      "besprech|t"
+     ]
+    },
+    {
+     "label": "sie, Sie",
+     "cells": [
+      "besprech|en"
+     ]
+    }
+   ],
+   "notes": [
+    "Past (Perfekt): hat besprochen",
+    "e → i for du and er."
+   ]
+  }
+ ],
+ "wordFamily": [
+  {
+   "german": "die Besprechung",
+   "english": "meeting",
+   "type": "noun"
+  }
+ ],
+ "sampleSentences": [
+  {
+   "german": "Das müssen wir noch besprechen.",
+   "english": "We still need to discuss that.",
+   "highlight": [
+    "besprechen."
+   ]
+  },
+  {
+   "german": "Wir besprechen den Plan morgen.",
+   "english": "We'll discuss the plan tomorrow.",
+   "highlight": [
+    "besprechen"
+   ]
+  },
+  {
+   "german": "Hast du das mit deinem Chef besprochen?",
+   "english": "Have you talked it over with your boss?",
+   "highlight": [
+    "besprochen?"
+   ]
+  }
+ ],
+ "forms": [
+  "bespreche",
+  "besprichst",
+  "bespricht",
+  "besprechen",
+  "besprecht",
+  "besprochen",
+  "besprach"
+ ],
+ "memoryHook": "Besprechen + accusative = sprechen über. Die Besprechung = meeting.",
+ "signOff": "Gut gemacht!",
+ "quiz": [
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "er ___ (besprechen)",
+   "answer": "bespricht",
+   "fullAnswer": "",
+   "explanation": "For er, sie, es: bespricht.",
+   "acceptedAnswers": [
+    "bespricht"
+   ],
+   "id": "q1"
+  },
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "Ich habe schon ___. (besprechen, past)",
+   "answer": "besprochen",
+   "fullAnswer": "",
+   "explanation": "Perfekt: habe besprochen.",
+   "acceptedAnswers": [
+    "besprochen"
+   ],
+   "id": "q2"
+  },
+  {
+   "type": "choice",
+   "prompt": "What does besprechen mean?",
+   "options": [
+    "to discuss",
+    "always",
+    "the child"
+   ],
+   "answer": "to discuss",
+   "explanation": "besprechen: to discuss.",
+   "id": "q3"
+  },
+  {
+   "type": "choice",
+   "prompt": "Besprechen takes…",
+   "options": [
+    "a direct object (no über)",
+    "über"
+   ],
+   "answer": "a direct object (no über)",
+   "explanation": "Etwas besprechen.",
+   "id": "q4"
+  },
+  {
+   "type": "choice",
+   "prompt": "Er ___ das Problem.",
+   "options": [
+    "bespricht",
+    "besprecht"
+   ],
+   "answer": "bespricht",
+   "explanation": "e → i.",
+   "id": "q5"
+  }
+ ],
+ "etymology": {
+  "title": "Where it comes from",
+  "parts": [
+   {
+    "part": "be",
+    "meaning": "prefix (acts on something)"
+   },
+   {
+    "part": "sprechen",
+    "meaning": "to speak"
+   }
+  ],
+  "literalMeaning": "to speak about"
+ }
+}

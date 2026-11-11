@@ -1,0 +1,138 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Einzelfall",
+    "partOfSpeech": "noun, masculine (der Einzelfall)",
+    "pronunciation": {
+      "respelling": "INE-tsel-fal",
+      "ipa": "ˈaɪ̯ntsl̩fal",
+      "notes": "Plural: die Einzelfälle."
+    },
+    "meaning": "individual case, isolated case",
+    "shortDefinition": "Individual case, isolated case."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Einzel",
+        "meaning": "single"
+      },
+      {
+        "part": "fall",
+        "meaning": "case"
+      }
+    ],
+    "literalMeaning": "single case"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Einzelfall, plural die Einzelfälle.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Einzelfall"
+        },
+        {
+          "label": "More than one",
+          "value": "die Einzelfälle"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das ist kein Einzelfall.",
+      "english": "That's not an isolated case.",
+      "highlight": [
+        "Einzelfall."
+      ]
+    },
+    {
+      "german": "Wir entscheiden im Einzelfall.",
+      "english": "We decide on a case-by-case basis.",
+      "highlight": [
+        "Einzelfall."
+      ]
+    },
+    {
+      "german": "Nur in Einzelfällen.",
+      "english": "Only in individual cases.",
+      "highlight": [
+        "Einzelfällen."
+      ]
+    }
+  ],
+  "forms": [
+    "Einzelfälle",
+    "die Einzelfälle",
+    "der Einzelfall"
+  ],
+  "memoryHook": "Einzel + Fall = isolated case; im Einzelfall.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Einzelfall",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Einzelfall is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Einzelfall, zwei ___",
+      "answer": "Einzelfälle",
+      "fullAnswer": "ein Einzelfall, zwei Einzelfälle",
+      "explanation": "The plural is Einzelfälle.",
+      "acceptedAnswers": [
+        "Einzelfaelle"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Einzelfall mean?",
+      "options": [
+        "hot",
+        "the bread",
+        "individual case"
+      ],
+      "answer": "individual case",
+      "explanation": "Einzelfall: individual case, isolated case.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "einzeln + Fall",
+        "Einzel + fallen"
+      ],
+      "answer": "einzeln + Fall",
+      "explanation": "Single case.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Im Einzelfall' means…",
+      "options": [
+        "case by case",
+        "in one case only"
+      ],
+      "answer": "case by case",
+      "explanation": "Individually.",
+      "id": "q5"
+    }
+  ]
+}

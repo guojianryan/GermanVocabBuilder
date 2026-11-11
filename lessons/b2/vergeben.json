@@ -1,0 +1,180 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "vergeben",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "fer-GAY-ben",
+      "ipa": "fɛɐ̯ˈɡeːbn̩",
+      "notes": ""
+    },
+    "meaning": "to forgive; to award, allocate; to waste (a chance)",
+    "shortDefinition": "To forgive; to award, allocate; to waste (a chance)."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "ver",
+        "meaning": "away"
+      },
+      {
+        "part": "geben",
+        "meaning": "to give"
+      }
+    ],
+    "literalMeaning": "to give away"
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "vergeb|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "vergib|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "vergib|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "vergeb|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "vergeb|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "vergeb|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat vergeben"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Kannst du mir vergeben?",
+      "english": "Can you forgive me?",
+      "highlight": [
+        "vergeben?"
+      ]
+    },
+    {
+      "german": "Der Preis wird jährlich vergeben.",
+      "english": "The prize is awarded every year.",
+      "highlight": [
+        "vergeben."
+      ]
+    },
+    {
+      "german": "Er hat eine große Chance vergeben.",
+      "english": "He wasted a big chance.",
+      "highlight": [
+        "vergeben."
+      ]
+    }
+  ],
+  "forms": [
+    "Vergebung",
+    "Vergabe"
+  ],
+  "memoryHook": "Vergeben: forgive; award (Vergabe); waste; vergeben sein = taken.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (vergeben)",
+      "answer": "vergibt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: vergibt.",
+      "acceptedAnswers": [
+        "vergibt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (vergeben, past)",
+      "answer": "vergeben",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe vergeben.",
+      "acceptedAnswers": [
+        "vergeben"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does vergeben mean?",
+      "options": [
+        "to forgive",
+        "never",
+        "to sing"
+      ],
+      "answer": "to forgive",
+      "explanation": "vergeben: to forgive; to award, allocate; to waste (a chance).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Vergeben sein' (person) means…",
+      "options": [
+        "to be taken (in a relationship)",
+        "to be forgiven"
+      ],
+      "answer": "to be taken (in a relationship)",
+      "explanation": "Taken.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Noun (forgiveness):",
+      "options": [
+        "die Vergebung",
+        "die Vergabe only"
+      ],
+      "answer": "die Vergebung",
+      "explanation": "Forgiveness.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "er ___ (vergeben):",
+      "options": [
+        "vergibt",
+        "vergebt"
+      ],
+      "answer": "vergibt",
+      "explanation": "e → i.",
+      "id": "q6"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Fraktion",
+    "partOfSpeech": "noun, feminine (die Fraktion)",
+    "pronunciation": {
+      "respelling": "frak-TSYOHN",
+      "ipa": "fʁakˈtsi̯oːn",
+      "notes": "Plural: die Fraktionen."
+    },
+    "meaning": "parliamentary group",
+    "shortDefinition": "Parliamentary group."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Fraktion, plural die Fraktionen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Fraktion"
+        },
+        {
+          "label": "More than one",
+          "value": "die Fraktionen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Fraktion stimmt geschlossen ab.",
+      "english": "The parliamentary group votes as a bloc.",
+      "highlight": [
+        "Fraktion"
+      ]
+    },
+    {
+      "german": "Er ist Fraktionsvorsitzender.",
+      "english": "He's the group leader.",
+      "highlight": [
+        "Fraktionsvorsitzender."
+      ]
+    },
+    {
+      "german": "Alle Fraktionen im Bundestag.",
+      "english": "All parties in the Bundestag.",
+      "highlight": [
+        "Fraktionen"
+      ]
+    }
+  ],
+  "forms": [
+    "Partei"
+  ],
+  "memoryHook": "Die Fraktion (party's MPs) ≠ Partei; maths fraction = Bruch.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Fraktion",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Fraktion is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Fraktion, zwei ___",
+      "answer": "Fraktionen",
+      "fullAnswer": "ein Fraktion, zwei Fraktionen",
+      "explanation": "The plural is Fraktionen.",
+      "acceptedAnswers": [
+        "Fraktionen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Fraktion mean?",
+      "options": [
+        "the door",
+        "the bread",
+        "parliamentary group"
+      ],
+      "answer": "parliamentary group",
+      "explanation": "Fraktion: parliamentary group.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Fraktion vs Partei:",
+      "options": [
+        "MPs of a party vs the party itself",
+        "same"
+      ],
+      "answer": "MPs of a party vs the party itself",
+      "explanation": "Parliament.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "False friend? 'fraction' (maths) is…",
+      "options": [
+        "der Bruch",
+        "die Fraktion"
+      ],
+      "answer": "der Bruch",
+      "explanation": "Maths.",
+      "id": "q5"
+    }
+  ]
+}

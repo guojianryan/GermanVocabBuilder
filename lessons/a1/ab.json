@@ -1,0 +1,196 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "full",
+  "word": {
+    "headword": "ab",
+    "partOfSpeech": "preposition and separable prefix",
+    "pronunciation": {
+      "respelling": "AHP",
+      "ipa": "ap",
+      "notes": "The b sounds like p at the end of a word."
+    },
+    "meaning": "from (a point in time or place); off, away",
+    "shortDefinition": "Marks a starting point, or something moving away."
+  },
+  "intro": {
+    "title": "From now on",
+    "paragraphs": [
+      "Ab is a tiny word with two jobs. On its own it marks a starting point: ab Montag, from Monday. As a prefix it means 'off' or 'away', and it's inside dozens of A1 verbs: abfahren, abholen, abgeben."
+    ]
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "summary": "Ab is the German cousin of English 'off' and 'of'. Both once meant 'away from'.",
+    "cognates": [
+      {
+        "word": "off",
+        "language": "English"
+      },
+      {
+        "word": "of",
+        "language": "English"
+      },
+      {
+        "word": "af",
+        "language": "Dutch"
+      }
+    ]
+  },
+  "wordFamily": [
+    {
+      "german": "abfahren",
+      "english": "to depart",
+      "type": "separable verb"
+    },
+    {
+      "german": "abholen",
+      "english": "to pick up",
+      "type": "separable verb"
+    },
+    {
+      "german": "ab und zu",
+      "english": "now and then",
+      "type": "phrase"
+    },
+    {
+      "german": "seit",
+      "english": "since (until now)",
+      "type": "preposition"
+    }
+  ],
+  "keyTrap": {
+    "title": "The big trap: ab or seit?",
+    "explanation": "Ab looks forward from a starting point. Seit looks back at something that started in the past and is still going on.",
+    "wrong": {
+      "german": "Ich wohne ab 2020 in Berlin.",
+      "verdict": "You've lived there since 2020, so it's seit."
+    },
+    "correct": [
+      {
+        "german": "Ich wohne seit 2020 in Berlin.",
+        "literal": "I live since 2020 in Berlin.",
+        "note": "Started in the past, still true: seit."
+      },
+      {
+        "german": "Ab Montag arbeite ich in Berlin.",
+        "literal": "From Monday I work in Berlin.",
+        "note": "Starting from a point: ab."
+      }
+    ]
+  },
+  "commonMistakes": [
+    {
+      "title": "As a verb prefix it splits",
+      "explanation": "Ab- verbs are separable, so ab goes to the end of the sentence.",
+      "wrong": "Der Zug abfährt um acht.",
+      "correct": "Der Zug fährt um acht ab."
+    },
+    {
+      "title": "Prices and ages",
+      "explanation": "Ab also means 'from … up' for prices and ages.",
+      "examples": [
+        {
+          "german": "Zimmer ab 50 Euro",
+          "english": "rooms from 50 euros",
+          "highlight": "ab"
+        },
+        {
+          "german": "ab 18 Jahren",
+          "english": "for ages 18 and up",
+          "highlight": "ab"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ab morgen habe ich Urlaub.",
+      "english": "From tomorrow I'm on holiday.",
+      "highlight": [
+        "Ab"
+      ]
+    },
+    {
+      "german": "Der Bus fährt um 7 Uhr ab.",
+      "english": "The bus leaves at 7.",
+      "highlight": [
+        "fährt",
+        "ab."
+      ]
+    },
+    {
+      "german": "Ab und zu gehe ich ins Kino.",
+      "english": "I go to the cinema now and then.",
+      "highlight": [
+        "Ab"
+      ]
+    },
+    {
+      "german": "Ab hier müssen Sie zu Fuß gehen.",
+      "english": "From here you have to walk.",
+      "highlight": [
+        "Ab"
+      ]
+    }
+  ],
+  "forms": [
+    "ab und zu"
+  ],
+  "memoryHook": "Ab = off, away, from here on. Ab Montag looks forward; seit Montag looks back.",
+  "signOff": "Ab jetzt weißt du es!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Ich lerne ___ drei Monaten Deutsch.",
+      "options": [
+        "ab",
+        "seit"
+      ],
+      "answer": "seit",
+      "explanation": "Started in the past and still going: seit.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "___ nächster Woche habe ich einen neuen Job.",
+      "options": [
+        "Ab",
+        "Seit"
+      ],
+      "answer": "Ab",
+      "explanation": "Starting from a future point: ab.",
+      "id": "q2"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Der Zug fährt um 9 Uhr ___.",
+      "answer": "ab",
+      "fullAnswer": "Der Zug fährt um 9 Uhr ab.",
+      "explanation": "Abfahren splits; ab goes to the end.",
+      "id": "q3"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "___ und zu trinke ich Kaffee. (now and then)",
+      "answer": "Ab",
+      "fullAnswer": "Ab und zu trinke ich Kaffee.",
+      "explanation": "Ab und zu: now and then.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does 'Tickets ab 10 Euro' mean?",
+      "options": [
+        "tickets up to 10 euros",
+        "tickets from 10 euros"
+      ],
+      "answer": "tickets from 10 euros",
+      "explanation": "Ab = starting from.",
+      "id": "q5"
+    }
+  ]
+}

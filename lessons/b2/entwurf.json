@@ -1,0 +1,147 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Entwurf",
+    "partOfSpeech": "noun, masculine (der Entwurf)",
+    "pronunciation": {
+      "respelling": "ent-VOORF",
+      "ipa": "ɛntˈvʊʁf",
+      "notes": "Plural: die Entwürfe."
+    },
+    "meaning": "draft, design, sketch",
+    "shortDefinition": "Draft, design, sketch."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Ent",
+        "meaning": "out, forth"
+      },
+      {
+        "part": "wurf",
+        "meaning": "throw (werfen)"
+      }
+    ],
+    "literalMeaning": "a throwing-out (of ideas)"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Entwurf, plural die Entwürfe.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Entwurf"
+        },
+        {
+          "label": "More than one",
+          "value": "die Entwürfe"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das ist nur ein erster Entwurf.",
+      "english": "That's just a first draft.",
+      "highlight": [
+        "Entwurf."
+      ]
+    },
+    {
+      "german": "Der Architekt zeigt seine Entwürfe.",
+      "english": "The architect shows his designs.",
+      "highlight": [
+        "Entwürfe."
+      ]
+    },
+    {
+      "german": "Ein Gesetzentwurf.",
+      "english": "A draft bill.",
+      "highlight": [
+        "Gesetzentwurf."
+      ]
+    }
+  ],
+  "forms": [
+    "entwerfen"
+  ],
+  "memoryHook": "Entwerfen → der Entwurf (draft, design).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Entwurf",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Entwurf is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Entwurf, zwei ___",
+      "answer": "Entwürfe",
+      "fullAnswer": "ein Entwurf, zwei Entwürfe",
+      "explanation": "The plural is Entwürfe.",
+      "acceptedAnswers": [
+        "Entwuerfe"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Entwurf mean?",
+      "options": [
+        "the window",
+        "draft",
+        "the door"
+      ],
+      "answer": "draft",
+      "explanation": "Entwurf: draft, design, sketch.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "entwerfen (design, draft)",
+        "werfen only"
+      ],
+      "answer": "entwerfen (design, draft)",
+      "explanation": "Design.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Entwürfe",
+        "Entwurfe"
+      ],
+      "answer": "Entwürfe",
+      "explanation": "Umlaut.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Draft bill:",
+      "options": [
+        "der Gesetzentwurf",
+        "der Gesetzplan"
+      ],
+      "answer": "der Gesetzentwurf",
+      "explanation": "Politics.",
+      "id": "q6"
+    }
+  ]
+}

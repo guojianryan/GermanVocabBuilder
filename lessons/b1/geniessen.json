@@ -1,0 +1,158 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "genießen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "ge-NEE-sen",
+      "ipa": "ɡəˈniːsn̩",
+      "notes": ""
+    },
+    "meaning": "to enjoy",
+    "shortDefinition": "To enjoy."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "genieß|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "genieß|t"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "genieß|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "genieß|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "genieß|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "genieß|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat genossen"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich genieße die Sonne.",
+      "english": "I'm enjoying the sun.",
+      "highlight": [
+        "genieße"
+      ]
+    },
+    {
+      "german": "Genieß deinen Urlaub!",
+      "english": "Enjoy your holiday!",
+      "highlight": [
+        "Genieß"
+      ]
+    },
+    {
+      "german": "Wir haben den Abend genossen.",
+      "english": "We enjoyed the evening.",
+      "highlight": [
+        "genossen."
+      ]
+    }
+  ],
+  "forms": [
+    "genieße",
+    "genießt",
+    "genießen",
+    "genossen",
+    "genoss"
+  ],
+  "memoryHook": "Genießen, genoss, genossen = enjoy (no sich!).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (genießen)",
+      "answer": "genießt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: genießt.",
+      "acceptedAnswers": [
+        "geniesst"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (genießen, past)",
+      "answer": "genossen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe genossen.",
+      "acceptedAnswers": [
+        "genossen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does genießen mean?",
+      "options": [
+        "the key",
+        "to enjoy",
+        "to learn"
+      ],
+      "answer": "to enjoy",
+      "explanation": "genießen: to enjoy.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Past forms:",
+      "options": [
+        "genoss, genossen",
+        "genießte, genießt"
+      ],
+      "answer": "genoss, genossen",
+      "explanation": "Irregular.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Genießen takes…",
+      "options": [
+        "an accusative object",
+        "a reflexive"
+      ],
+      "answer": "an accusative object",
+      "explanation": "No sich.",
+      "id": "q5"
+    }
+  ]
+}

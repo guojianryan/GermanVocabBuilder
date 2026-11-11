@@ -1,0 +1,167 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "bergen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "BAIR-gen",
+      "ipa": "ˈbɛʁɡn̩",
+      "notes": ""
+    },
+    "meaning": "to rescue, recover; to hold, harbour (risks)",
+    "shortDefinition": "To rescue, recover; to hold, harbour (risks)."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "berg|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "birg|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "birg|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "berg|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "berg|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "berg|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat geborgen"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Opfer wurden geborgen.",
+      "english": "The victims were recovered.",
+      "highlight": [
+        "geborgen."
+      ]
+    },
+    {
+      "german": "Das birgt große Risiken.",
+      "english": "That holds great risks.",
+      "highlight": [
+        "birgt"
+      ]
+    },
+    {
+      "german": "Bei ihr fühle ich mich geborgen.",
+      "english": "I feel safe with her.",
+      "highlight": [
+        "geborgen."
+      ]
+    }
+  ],
+  "forms": [
+    "geborgen",
+    "Geborgenheit",
+    "verbergen"
+  ],
+  "memoryHook": "Bergen (birgt, barg, geborgen): rescue; hold (Risiken); geborgen = safe.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (bergen)",
+      "answer": "birgt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: birgt.",
+      "acceptedAnswers": [
+        "birgt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (bergen, past)",
+      "answer": "geborgen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe geborgen.",
+      "acceptedAnswers": [
+        "geborgen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does bergen mean?",
+      "options": [
+        "the weather",
+        "the bread",
+        "to rescue"
+      ],
+      "answer": "to rescue",
+      "explanation": "bergen: to rescue, recover; to hold, harbour (risks).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Adjective 'geborgen' means…",
+      "options": [
+        "safe, secure (emotionally)",
+        "borrowed"
+      ],
+      "answer": "safe, secure (emotionally)",
+      "explanation": "Secure.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "er ___ (bergen):",
+      "options": [
+        "birgt",
+        "bergt"
+      ],
+      "answer": "birgt",
+      "explanation": "e → i.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Risiken bergen' means…",
+      "options": [
+        "to involve risks",
+        "to rescue risks"
+      ],
+      "answer": "to involve risks",
+      "explanation": "Hold.",
+      "id": "q6"
+    }
+  ]
+}

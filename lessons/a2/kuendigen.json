@@ -1,0 +1,165 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "kündigen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "KÜN-di-gen",
+      "ipa": "ˈkʏndɪɡn̩",
+      "notes": ""
+    },
+    "meaning": "to cancel (a contract); to quit / dismiss",
+    "shortDefinition": "To cancel (a contract); to quit / dismiss."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "kündig|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "kündig|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "kündig|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "kündig|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "kündig|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "kündig|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gekündigt"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "die Kündigung",
+      "english": "notice, termination",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich habe meine Wohnung gekündigt.",
+      "english": "I've given notice on my flat.",
+      "highlight": [
+        "gekündigt."
+      ]
+    },
+    {
+      "german": "Er hat seinen Job gekündigt.",
+      "english": "He quit his job.",
+      "highlight": [
+        "gekündigt."
+      ]
+    },
+    {
+      "german": "Die Firma hat ihm gekündigt.",
+      "english": "The company fired him.",
+      "highlight": [
+        "gekündigt."
+      ]
+    }
+  ],
+  "forms": [
+    "kündige",
+    "kündigst",
+    "kündigt",
+    "kündigen",
+    "gekündigt"
+  ],
+  "memoryHook": "Kündigen: end a contract (job, flat, phone). Die Kündigung = notice.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (kündigen)",
+      "answer": "kündigt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: kündigt.",
+      "acceptedAnswers": [
+        "kuendigt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (kündigen, past)",
+      "answer": "gekündigt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gekündigt.",
+      "acceptedAnswers": [
+        "gekuendigt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does kündigen mean?",
+      "options": [
+        "to cancel (a contract)",
+        "the street",
+        "to learn"
+      ],
+      "answer": "to cancel (a contract)",
+      "explanation": "kündigen: to cancel (a contract); to quit / dismiss.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Ihm wurde gekündigt' means…",
+      "options": [
+        "He was fired.",
+        "He quit."
+      ],
+      "answer": "He was fired.",
+      "explanation": "Someone else did it.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "The noun:",
+      "options": [
+        "die Kündigung",
+        "die Kündung"
+      ],
+      "answer": "die Kündigung",
+      "explanation": "Notice.",
+      "id": "q5"
+    }
+  ]
+}

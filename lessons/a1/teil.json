@@ -1,0 +1,131 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Teil",
+    "partOfSpeech": "noun, masculine (der Teil)",
+    "pronunciation": {
+      "respelling": "TILE",
+      "ipa": "taɪ̯l",
+      "notes": "Plural: die Teile."
+    },
+    "meaning": "part, piece",
+    "shortDefinition": "Part, piece."
+  },
+  "wordFamily": [
+    {
+      "german": "teilen",
+      "english": "to share, to divide",
+      "type": "verb"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Teil, plural die Teile.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Teil"
+        },
+        {
+          "label": "More than one",
+          "value": "die Teile"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der erste Teil des Films war gut.",
+      "english": "The first part of the film was good.",
+      "highlight": [
+        "Teil"
+      ]
+    },
+    {
+      "german": "Das ist nur ein Teil der Lösung.",
+      "english": "That's only part of the solution.",
+      "highlight": [
+        "Teil"
+      ]
+    },
+    {
+      "german": "Zum Teil hast du recht.",
+      "english": "You're partly right.",
+      "highlight": [
+        "Teil"
+      ]
+    }
+  ],
+  "forms": [
+    "Teile",
+    "die Teile",
+    "der Teil"
+  ],
+  "memoryHook": "Der Teil = part. Zum Teil = partly. Teilen = share.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Teil",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Teil is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Teil, zwei ___",
+      "answer": "Teile",
+      "fullAnswer": "ein Teil, zwei Teile",
+      "explanation": "The plural is Teile.",
+      "acceptedAnswers": [
+        "Teile"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Teil mean?",
+      "options": [
+        "tomorrow",
+        "expensive",
+        "part"
+      ],
+      "answer": "part",
+      "explanation": "Teil: part, piece.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Zum Teil' means…",
+      "options": [
+        "partly",
+        "to the part"
+      ],
+      "answer": "partly",
+      "explanation": "Partially.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Teilen (the verb) means…",
+      "options": [
+        "to share, divide",
+        "to tell"
+      ],
+      "answer": "to share, divide",
+      "explanation": "Teil → teilen.",
+      "id": "q5"
+    }
+  ]
+}

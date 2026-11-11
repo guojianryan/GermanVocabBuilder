@@ -1,0 +1,167 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "glauben",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "GLOW-ben",
+      "ipa": "ˈɡlaʊ̯bn̩",
+      "notes": ""
+    },
+    "meaning": "to believe; to think",
+    "shortDefinition": "To believe; to think."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "glaub|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "glaub|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "glaub|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "glaub|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "glaub|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "glaub|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat geglaubt"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Believing a person",
+      "explanation": "The person is in the dative.",
+      "wrong": "Ich glaube dich.",
+      "correct": "Ich glaube dir."
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich glaube, er kommt nicht.",
+      "english": "I think he isn't coming.",
+      "highlight": [
+        "glaube,"
+      ]
+    },
+    {
+      "german": "Das glaube ich nicht!",
+      "english": "I don't believe it!",
+      "highlight": [
+        "glaube"
+      ]
+    },
+    {
+      "german": "Glaubst du mir?",
+      "english": "Do you believe me?",
+      "highlight": [
+        "Glaubst",
+        "mir?"
+      ]
+    }
+  ],
+  "forms": [
+    "glaube",
+    "glaubst",
+    "glaubt",
+    "glauben",
+    "geglaubt"
+  ],
+  "memoryHook": "Glauben = believe or think. Believe someone: dative (ich glaube dir). Believe in: glauben an.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (glauben)",
+      "answer": "glaubt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: glaubt.",
+      "acceptedAnswers": [
+        "glaubt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (glauben, past)",
+      "answer": "geglaubt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe geglaubt.",
+      "acceptedAnswers": [
+        "geglaubt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does glauben mean?",
+      "options": [
+        "to sleep",
+        "to sing",
+        "to believe"
+      ],
+      "answer": "to believe",
+      "explanation": "glauben: to believe; to think.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich glaube ___. (you)",
+      "options": [
+        "dich",
+        "dir"
+      ],
+      "answer": "dir",
+      "explanation": "Believing a person: dative.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Ich glaube, ja' means…",
+      "options": [
+        "I think so",
+        "I believe in yes"
+      ],
+      "answer": "I think so",
+      "explanation": "Glauben = think, suppose.",
+      "id": "q5"
+    }
+  ]
+}

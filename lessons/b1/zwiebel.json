@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Zwiebel",
+    "partOfSpeech": "noun, feminine (die Zwiebel)",
+    "pronunciation": {
+      "respelling": "TSVEE-bel",
+      "ipa": "ˈtsviːbl̩",
+      "notes": "Plural: die Zwiebeln."
+    },
+    "meaning": "onion",
+    "shortDefinition": "Onion."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Zwiebel, plural die Zwiebeln.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Zwiebel"
+        },
+        {
+          "label": "More than one",
+          "value": "die Zwiebeln"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Schneide die Zwiebeln klein.",
+      "english": "Chop the onions finely.",
+      "highlight": [
+        "Zwiebeln"
+      ]
+    },
+    {
+      "german": "Ich muss beim Zwiebelschneiden weinen.",
+      "english": "Chopping onions makes me cry.",
+      "highlight": [
+        "Zwiebelschneiden"
+      ]
+    },
+    {
+      "german": "Eine Zwiebel und zwei Knoblauchzehen.",
+      "english": "One onion and two cloves of garlic.",
+      "highlight": [
+        "Zwiebel"
+      ]
+    }
+  ],
+  "forms": [
+    "Zwiebeln",
+    "die Zwiebeln",
+    "die Zwiebel"
+  ],
+  "memoryHook": "Die Zwiebel, die Zwiebeln (zw = tsv).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Zwiebel",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Zwiebel is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Zwiebel, zwei ___",
+      "answer": "Zwiebeln",
+      "fullAnswer": "ein Zwiebel, zwei Zwiebeln",
+      "explanation": "The plural is Zwiebeln.",
+      "acceptedAnswers": [
+        "Zwiebeln"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Zwiebel mean?",
+      "options": [
+        "to travel",
+        "onion",
+        "the bread"
+      ],
+      "answer": "onion",
+      "explanation": "Zwiebel: onion.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Zwiebeln",
+        "Zwiebels"
+      ],
+      "answer": "Zwiebeln",
+      "explanation": "-n.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Zw sounds like…",
+      "options": [
+        "tsv",
+        "sw"
+      ],
+      "answer": "tsv",
+      "explanation": "TSVEE-bel.",
+      "id": "q5"
+    }
+  ]
+}

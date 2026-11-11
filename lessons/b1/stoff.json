@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Stoff",
+    "partOfSpeech": "noun, masculine (der Stoff)",
+    "pronunciation": {
+      "respelling": "SHTOF",
+      "ipa": "ʃtɔf",
+      "notes": "Plural: die Stoffe."
+    },
+    "meaning": "material, fabric; substance",
+    "shortDefinition": "Material, fabric; substance."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Stoff, plural die Stoffe.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Stoff"
+        },
+        {
+          "label": "More than one",
+          "value": "die Stoffe"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Stoff ist aus Baumwolle.",
+      "english": "The fabric is cotton.",
+      "highlight": [
+        "Stoff"
+      ]
+    },
+    {
+      "german": "Das ist ein gefährlicher Stoff.",
+      "english": "That's a dangerous substance.",
+      "highlight": [
+        "Stoff."
+      ]
+    },
+    {
+      "german": "Wir haben viel Stoff gelernt.",
+      "english": "We've covered a lot of material.",
+      "highlight": [
+        "Stoff"
+      ]
+    }
+  ],
+  "forms": [
+    "Stoffe",
+    "die Stoffe",
+    "der Stoff"
+  ],
+  "memoryHook": "Der Stoff: fabric; substance; subject matter.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Stoff",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Stoff is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Stoff, zwei ___",
+      "answer": "Stoffe",
+      "fullAnswer": "ein Stoff, zwei Stoffe",
+      "explanation": "The plural is Stoffe.",
+      "acceptedAnswers": [
+        "Stoffe"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Stoff mean?",
+      "options": [
+        "the flower",
+        "the weather",
+        "material"
+      ],
+      "answer": "material",
+      "explanation": "Stoff: material, fabric; substance.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Stoff can mean…",
+      "options": [
+        "fabric, substance, subject matter",
+        "only fabric"
+      ],
+      "answer": "fabric, substance, subject matter",
+      "explanation": "Broad.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plastic:",
+      "options": [
+        "der Kunststoff",
+        "der Plaststoff"
+      ],
+      "answer": "der Kunststoff",
+      "explanation": "Artificial material.",
+      "id": "q5"
+    }
+  ]
+}

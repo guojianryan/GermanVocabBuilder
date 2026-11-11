@@ -1,0 +1,155 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "füllen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "FÜL-en",
+      "ipa": "ˈfʏlən",
+      "notes": ""
+    },
+    "meaning": "to fill",
+    "shortDefinition": "To fill."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "füll|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "füll|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "füll|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "füll|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "füll|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "füll|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gefüllt"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Füll bitte die Flasche.",
+      "english": "Please fill the bottle.",
+      "highlight": [
+        "Füll"
+      ]
+    },
+    {
+      "german": "Der Saal füllt sich.",
+      "english": "The hall is filling up.",
+      "highlight": [
+        "füllt",
+        "sich."
+      ]
+    },
+    {
+      "german": "Ich habe die Gläser gefüllt.",
+      "english": "I've filled the glasses.",
+      "highlight": [
+        "gefüllt."
+      ]
+    }
+  ],
+  "forms": [
+    "ausfüllen"
+  ],
+  "memoryHook": "Füllen (voll = full). Ausfüllen = fill in.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (füllen)",
+      "answer": "füllt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: füllt.",
+      "acceptedAnswers": [
+        "fuellt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (füllen, past)",
+      "answer": "gefüllt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gefüllt.",
+      "acceptedAnswers": [
+        "gefuellt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does füllen mean?",
+      "options": [
+        "to sleep",
+        "to wait",
+        "to fill"
+      ],
+      "answer": "to fill",
+      "explanation": "füllen: to fill.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Related to…",
+      "options": [
+        "voll (full)",
+        "fallen"
+      ],
+      "answer": "voll (full)",
+      "explanation": "Make full.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Fill in a form:",
+      "options": [
+        "ausfüllen",
+        "einfüllen"
+      ],
+      "answer": "ausfüllen",
+      "explanation": "Forms.",
+      "id": "q5"
+    }
+  ]
+}

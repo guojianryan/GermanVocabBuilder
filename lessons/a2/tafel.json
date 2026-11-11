@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Tafel",
+    "partOfSpeech": "noun, feminine (die Tafel)",
+    "pronunciation": {
+      "respelling": "TAA-fel",
+      "ipa": "ˈtaːfl̩",
+      "notes": "Plural: die Tafeln."
+    },
+    "meaning": "board, blackboard; bar (chocolate)",
+    "shortDefinition": "Board, blackboard; bar (chocolate)."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Tafel, plural die Tafeln.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Tafel"
+        },
+        {
+          "label": "More than one",
+          "value": "die Tafeln"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Lehrer schreibt an die Tafel.",
+      "english": "The teacher writes on the board.",
+      "highlight": [
+        "Tafel."
+      ]
+    },
+    {
+      "german": "Eine Tafel Schokolade, bitte.",
+      "english": "A bar of chocolate, please.",
+      "highlight": [
+        "Tafel"
+      ]
+    },
+    {
+      "german": "Die Infotafel ist am Eingang.",
+      "english": "The information board is at the entrance.",
+      "highlight": [
+        "Infotafel"
+      ]
+    }
+  ],
+  "forms": [
+    "Tafeln",
+    "die Tafeln",
+    "die Tafel"
+  ],
+  "memoryHook": "Die Tafel: school board, info board, bar of chocolate.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Tafel",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Tafel is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Tafel, zwei ___",
+      "answer": "Tafeln",
+      "fullAnswer": "ein Tafel, zwei Tafeln",
+      "explanation": "The plural is Tafeln.",
+      "acceptedAnswers": [
+        "Tafeln"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Tafel mean?",
+      "options": [
+        "board",
+        "the flower",
+        "the shop"
+      ],
+      "answer": "board",
+      "explanation": "Tafel: board, blackboard; bar (chocolate).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'On the board' (writing):",
+      "options": [
+        "an die Tafel / an der Tafel",
+        "auf der Tafel"
+      ],
+      "answer": "an die Tafel / an der Tafel",
+      "explanation": "An.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Eine Tafel Schokolade' is…",
+      "options": [
+        "a bar of chocolate",
+        "a chocolate board"
+      ],
+      "answer": "a bar of chocolate",
+      "explanation": "Bar.",
+      "id": "q5"
+    }
+  ]
+}

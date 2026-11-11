@@ -1,0 +1,253 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "full",
+  "word": {
+    "headword": "anfangen",
+    "partOfSpeech": "separable verb",
+    "pronunciation": {
+      "respelling": "AHN-fahng-en",
+      "ipa": "ˈanfaŋən",
+      "notes": "The ng is one sound, as in 'singer', not 'finger'."
+    },
+    "meaning": "to begin, to start",
+    "shortDefinition": "To start something, or for something to start."
+  },
+  "intro": {
+    "title": "Wann fängt der Film an?",
+    "paragraphs": [
+      "Anfangen is the everyday word for 'to start'. It splits like every an- verb, and it has an umlaut surprise: du fängst, er fängt."
+    ]
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "an",
+        "meaning": "at, on"
+      },
+      {
+        "part": "fangen",
+        "meaning": "to catch"
+      }
+    ],
+    "literalMeaning": "to catch on to",
+    "summary": "You start a task by catching hold of it.",
+    "bonus": {
+      "word": "der Anfang",
+      "meaning": "the beginning",
+      "note": "Am Anfang: at the beginning. Anfang Juli: at the beginning of July."
+    }
+  },
+  "tables": [
+    {
+      "title": "How it splits",
+      "columns": [
+        "present",
+        "past (Perfekt)"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "fange … |an",
+            "habe … |angefangen"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "fängst … |an",
+            "hast … |angefangen"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "fängt … |an",
+            "hat … |angefangen"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "fangen … |an",
+            "haben … |angefangen"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "fangt … |an",
+            "habt … |angefangen"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "fangen … |an",
+            "haben … |angefangen"
+          ]
+        }
+      ],
+      "notes": [
+        "Du fängst and er fängt get an umlaut."
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "der Anfang",
+      "english": "beginning",
+      "type": "noun"
+    },
+    {
+      "german": "beginnen",
+      "english": "to begin (a bit more formal)",
+      "type": "verb"
+    },
+    {
+      "german": "aufhören",
+      "english": "to stop",
+      "type": "separable verb"
+    }
+  ],
+  "keyTrap": {
+    "title": "The big trap: starting with something",
+    "explanation": "To say what you're starting, German often uses mit + dative.",
+    "wrong": {
+      "german": "Ich anfange um acht mit der Arbeit.",
+      "verdict": "The an has to go to the end."
+    },
+    "correct": [
+      {
+        "german": "Ich fange um acht mit der Arbeit an.",
+        "literal": "I catch at eight with the work on.",
+        "note": "Starting an activity: mit + dative."
+      },
+      {
+        "german": "Der Kurs fängt am Montag an.",
+        "literal": "The course catches on Monday on.",
+        "note": "Something starts: no object."
+      }
+    ]
+  },
+  "commonMistakes": [
+    {
+      "title": "Don't forget the umlaut",
+      "explanation": "For du and er, sie, es: fängst, fängt.",
+      "wrong": "Er fangt an.",
+      "correct": "Er fängt an."
+    },
+    {
+      "title": "Beginning of a month",
+      "explanation": "Anfang + month, without a preposition.",
+      "examples": [
+        {
+          "german": "Anfang Mai fahre ich weg.",
+          "english": "I'm going away at the beginning of May.",
+          "highlight": "Anfang"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wann fängt der Film an?",
+      "english": "When does the film start?",
+      "highlight": [
+        "fängt",
+        "an?"
+      ]
+    },
+    {
+      "german": "Der Unterricht fängt gleich an.",
+      "english": "The lesson is about to start.",
+      "highlight": [
+        "fängt",
+        "an."
+      ]
+    },
+    {
+      "german": "Ich habe mit dem Sport angefangen.",
+      "english": "I've started doing sport.",
+      "highlight": [
+        "angefangen."
+      ]
+    },
+    {
+      "german": "Am Anfang war alles neu.",
+      "english": "At the beginning everything was new.",
+      "highlight": [
+        "Anfang"
+      ]
+    }
+  ],
+  "forms": [
+    "fange an",
+    "fängst an",
+    "fängt an",
+    "angefangen",
+    "fing an",
+    "Anfang"
+  ],
+  "memoryHook": "An + fangen = catch on to it. Er fängt an: he's catching on, he's starting.",
+  "signOff": "Fang einfach an!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Der Film ___ um 20 Uhr an.",
+      "answer": "fängt",
+      "fullAnswer": "Der Film fängt um 20 Uhr an.",
+      "explanation": "Fangen gets an umlaut for er, sie, es.",
+      "acceptedAnswers": [
+        "faengt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Wann hast du mit dem Deutschkurs ___?",
+      "answer": "angefangen",
+      "fullAnswer": "Wann hast du mit dem Deutschkurs angefangen?",
+      "explanation": "An-ge-fangen.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "___ Juli habe ich Urlaub. (At the beginning of July)",
+      "options": [
+        "Anfang",
+        "Am Anfang"
+      ],
+      "answer": "Anfang",
+      "explanation": "Anfang + month, no preposition.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "The opposite of anfangen is…",
+      "options": [
+        "aufhören",
+        "aufstehen"
+      ],
+      "answer": "aufhören",
+      "explanation": "Aufhören: to stop.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich fange morgen ___ dem Training an.",
+      "options": [
+        "mit",
+        "von"
+      ],
+      "answer": "mit",
+      "explanation": "Starting an activity: mit + dative.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "erklären",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "air-KLAIR-en",
+      "ipa": "ɛɐ̯ˈklɛːʁən",
+      "notes": ""
+    },
+    "meaning": "to explain",
+    "shortDefinition": "To explain."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "er",
+        "meaning": "prefix: bring about"
+      },
+      {
+        "part": "klär",
+        "meaning": "clear",
+        "note": "From klar."
+      },
+      {
+        "part": "en",
+        "meaning": "verb ending"
+      }
+    ],
+    "literalMeaning": "to make clear"
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "erklär|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "erklär|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "erklär|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "erklär|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "erklär|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "erklär|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat erklärt",
+        "Verbs starting with er- have no ge- in the past."
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "klar",
+      "english": "clear",
+      "type": "adjective"
+    },
+    {
+      "german": "die Erklärung",
+      "english": "explanation",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Können Sie das bitte noch einmal erklären?",
+      "english": "Could you explain that again, please?",
+      "highlight": [
+        "erklären?"
+      ]
+    },
+    {
+      "german": "Die Lehrerin erklärt die Grammatik.",
+      "english": "The teacher explains the grammar.",
+      "highlight": [
+        "erklärt"
+      ]
+    },
+    {
+      "german": "Er hat mir den Weg erklärt.",
+      "english": "He explained the way to me.",
+      "highlight": [
+        "erklärt."
+      ]
+    }
+  ],
+  "forms": [
+    "erkläre",
+    "erklärst",
+    "erklärt",
+    "erklären"
+  ],
+  "memoryHook": "Er + klar + en: to make clear, explain. No ge- in the past: hat erklärt.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (erklären)",
+      "answer": "erklärt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: erklärt.",
+      "acceptedAnswers": [
+        "erklaert"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (erklären, past)",
+      "answer": "erklärt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe erklärt.",
+      "acceptedAnswers": [
+        "erklaert"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does erklären mean?",
+      "options": [
+        "to sing",
+        "cheap",
+        "to explain"
+      ],
+      "answer": "to explain",
+      "explanation": "erklären: to explain.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Erklären is built from klar, which means…",
+      "options": [
+        "clear",
+        "class"
+      ],
+      "answer": "clear",
+      "explanation": "Er-klär-en: make clear.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Erklär ___ das bitte! (to me)",
+      "options": [
+        "mich",
+        "mir"
+      ],
+      "answer": "mir",
+      "explanation": "The person gets the dative.",
+      "id": "q5"
+    }
+  ]
+}

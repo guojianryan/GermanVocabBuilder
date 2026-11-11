@@ -1,0 +1,138 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Friedhof",
+    "partOfSpeech": "noun, masculine (der Friedhof)",
+    "pronunciation": {
+      "respelling": "FREET-hohf",
+      "ipa": "ˈfʁiːthoːf",
+      "notes": "Plural: die Friedhöfe."
+    },
+    "meaning": "cemetery",
+    "shortDefinition": "Cemetery."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Fried",
+        "meaning": "peace, enclosure"
+      },
+      {
+        "part": "hof",
+        "meaning": "yard"
+      }
+    ],
+    "literalMeaning": "peace yard"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Friedhof, plural die Friedhöfe.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Friedhof"
+        },
+        {
+          "label": "More than one",
+          "value": "die Friedhöfe"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Friedhof ist hinter der Kirche.",
+      "english": "The cemetery is behind the church.",
+      "highlight": [
+        "Friedhof"
+      ]
+    },
+    {
+      "german": "Wir besuchen das Grab auf dem Friedhof.",
+      "english": "We're visiting the grave at the cemetery.",
+      "highlight": [
+        "Friedhof."
+      ]
+    },
+    {
+      "german": "Der Friedhof ist sehr ruhig.",
+      "english": "The cemetery is very quiet.",
+      "highlight": [
+        "Friedhof"
+      ]
+    }
+  ],
+  "forms": [
+    "Friedhöfe",
+    "die Friedhöfe",
+    "der Friedhof"
+  ],
+  "memoryHook": "Fried(e) + Hof = cemetery (peaceful yard).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Friedhof",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Friedhof is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Friedhof, zwei ___",
+      "answer": "Friedhöfe",
+      "fullAnswer": "ein Friedhof, zwei Friedhöfe",
+      "explanation": "The plural is Friedhöfe.",
+      "acceptedAnswers": [
+        "Friedhoefe"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Friedhof mean?",
+      "options": [
+        "the family",
+        "to wait",
+        "cemetery"
+      ],
+      "answer": "cemetery",
+      "explanation": "Friedhof: cemetery.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Fried (peace, enclosure) + Hof (yard)",
+        "frieren + Hof"
+      ],
+      "answer": "Fried (peace, enclosure) + Hof (yard)",
+      "explanation": "Peaceful yard.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Auf dem Friedhof' — preposition:",
+      "options": [
+        "auf",
+        "in"
+      ],
+      "answer": "auf",
+      "explanation": "Auf.",
+      "id": "q5"
+    }
+  ]
+}

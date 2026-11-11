@@ -1,0 +1,181 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "scheitern",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "SHY-tern",
+      "ipa": "ˈʃaɪ̯tɐn",
+      "notes": ""
+    },
+    "meaning": "to fail, founder",
+    "shortDefinition": "To fail, founder."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "scheiter",
+        "meaning": "break into logs (Scheit)",
+        "emphasis": "release"
+      },
+      {
+        "part": "n",
+        "meaning": "verb ending"
+      }
+    ],
+    "literalMeaning": "to break into pieces",
+    "summary": "The ship breaks up."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "scheiter|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "scheiter|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "scheiter|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "scheiter|n"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "scheiter|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "scheiter|n"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): ist gescheitert"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Verhandlungen sind gescheitert.",
+      "english": "The negotiations have failed.",
+      "highlight": [
+        "gescheitert."
+      ]
+    },
+    {
+      "german": "Er scheiterte an der Prüfung.",
+      "english": "He failed the exam.",
+      "highlight": [
+        "scheiterte"
+      ]
+    },
+    {
+      "german": "Das Projekt ist zum Scheitern verurteilt.",
+      "english": "The project is doomed to failure.",
+      "highlight": [
+        "Scheitern"
+      ]
+    }
+  ],
+  "forms": [
+    "Scheitern"
+  ],
+  "memoryHook": "Scheitern (ist gescheitert) an …",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (scheitern)",
+      "answer": "scheitert",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: scheitert.",
+      "acceptedAnswers": [
+        "scheitert"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich bin schon ___. (scheitern, past)",
+      "answer": "gescheitert",
+      "fullAnswer": "",
+      "explanation": "Perfekt: bin gescheitert.",
+      "acceptedAnswers": [
+        "gescheitert"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does scheitern mean?",
+      "options": [
+        "the bed",
+        "to fail",
+        "cheap"
+      ],
+      "answer": "to fail",
+      "explanation": "scheitern: to fail, founder.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "ist gescheitert",
+        "hat gescheitert"
+      ],
+      "answer": "ist gescheitert",
+      "explanation": "Sein.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Scheitern an' means…",
+      "options": [
+        "to fail at / because of",
+        "to fail on"
+      ],
+      "answer": "to fail at / because of",
+      "explanation": "An.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Originally:",
+      "options": [
+        "a ship breaking into pieces (Scheit = log)",
+        "a scheme"
+      ],
+      "answer": "a ship breaking into pieces (Scheit = log)",
+      "explanation": "Wreck.",
+      "id": "q6"
+    }
+  ]
+}

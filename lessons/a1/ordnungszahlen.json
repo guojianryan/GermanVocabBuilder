@@ -1,0 +1,255 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "group",
+  "word": {
+    "headword": "Ordnungszahlen",
+    "partOfSpeech": "word group: ordinal numbers and dates",
+    "pronunciation": {
+      "respelling": "ORD-nungs-tsaa-len",
+      "ipa": "ˈɔʁdnʊŋsˌtsaːlən",
+      "notes": ""
+    },
+    "meaning": "first, second, third … and saying the date",
+    "shortDefinition": "First, second, third … and saying the date."
+  },
+  "members": [
+    {
+      "german": "erste",
+      "english": "first",
+      "note": "Irregular."
+    },
+    {
+      "german": "zweite",
+      "english": "second"
+    },
+    {
+      "german": "dritte",
+      "english": "third",
+      "note": "Irregular."
+    },
+    {
+      "german": "vierte",
+      "english": "fourth"
+    },
+    {
+      "german": "siebte",
+      "english": "seventh",
+      "note": "Not siebente in everyday speech."
+    },
+    {
+      "german": "achte",
+      "english": "eighth",
+      "note": "Only one t."
+    },
+    {
+      "german": "zwanzigste",
+      "english": "twentieth",
+      "note": "From 20: add -ste."
+    },
+    {
+      "german": "einundzwanzigste",
+      "english": "twenty-first"
+    },
+    {
+      "german": "das Datum",
+      "english": "the date",
+      "plural": "Daten"
+    },
+    {
+      "german": "einmal",
+      "english": "once"
+    },
+    {
+      "german": "zweimal",
+      "english": "twice"
+    },
+    {
+      "german": "dreimal",
+      "english": "three times"
+    },
+    {
+      "german": "erstens",
+      "english": "firstly"
+    },
+    {
+      "german": "zweitens",
+      "english": "secondly"
+    }
+  ],
+  "intro": {
+    "title": "Der erste März",
+    "paragraphs": [
+      "Up to 19 you add -te to the number (vier → vierte), from 20 you add -ste (zwanzig → zwanzigste). Erste, dritte, siebte and achte are the odd ones out.",
+      "In writing, an ordinal is just the number with a point: der 3. Mai reads 'der dritte Mai'. Dates follow day, month, year, and you can even say the month as a number: der dritte Fünfte."
+    ]
+  },
+  "tables": [
+    {
+      "title": "Ordinals",
+      "columns": [
+        "form"
+      ],
+      "rows": [
+        {
+          "label": "1.",
+          "cells": [
+            "|erste"
+          ]
+        },
+        {
+          "label": "2.",
+          "cells": [
+            "zwei|te"
+          ]
+        },
+        {
+          "label": "3.",
+          "cells": [
+            "|dritte"
+          ]
+        },
+        {
+          "label": "4.",
+          "cells": [
+            "vier|te"
+          ]
+        },
+        {
+          "label": "7.",
+          "cells": [
+            "|siebte"
+          ]
+        },
+        {
+          "label": "20.",
+          "cells": [
+            "zwanzig|ste"
+          ]
+        }
+      ],
+      "notes": [
+        "Ordinals take adjective endings: am ersten Mai, im dritten Stock."
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Heute ist der erste März.",
+      "english": "Today is the first of March.",
+      "highlight": [
+        "erste"
+      ]
+    },
+    {
+      "german": "Ich habe am zwölften Mai Geburtstag.",
+      "english": "My birthday is on the twelfth of May.",
+      "highlight": [
+        "zwölften"
+      ]
+    },
+    {
+      "german": "Wir wohnen im dritten Stock.",
+      "english": "We live on the third floor.",
+      "highlight": [
+        "dritten"
+      ]
+    }
+  ],
+  "forms": [
+    "erste",
+    "zweite",
+    "dritte",
+    "vierte",
+    "siebte",
+    "achte",
+    "zwanzigste",
+    "einundzwanzigste",
+    "das Datum",
+    "Datum",
+    "Daten",
+    "einmal",
+    "zweimal",
+    "dreimal",
+    "erstens",
+    "zweitens",
+    "ersten",
+    "zweiten",
+    "dritten",
+    "erster",
+    "dritter",
+    "viertens",
+    "drittens",
+    "viermal"
+  ],
+  "memoryHook": "Up to 19: -te. From 20: -ste. Remember the odd ones: erste, dritte, siebte, achte.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "'der 1. Mai' is read…",
+      "options": [
+        "der erste Mai",
+        "der einste Mai"
+      ],
+      "answer": "der erste Mai",
+      "explanation": "Erste is irregular.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "3rd is…",
+      "options": [
+        "dritte",
+        "dreite"
+      ],
+      "answer": "dritte",
+      "explanation": "Irregular.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "20th is…",
+      "options": [
+        "zwanzigste",
+        "zwanzigte"
+      ],
+      "answer": "zwanzigste",
+      "explanation": "From 20 on: -ste.",
+      "id": "q3"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe am ___ Juni Geburtstag. (2.)",
+      "answer": "zweiten",
+      "fullAnswer": "Ich habe am zweiten Juni Geburtstag.",
+      "explanation": "Am + date: -en ending.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Once' is…",
+      "options": [
+        "einmal",
+        "erstmal"
+      ],
+      "answer": "einmal",
+      "explanation": "Ein + mal. Twice: zweimal.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Which order does a German date use?",
+      "options": [
+        "day.month.year",
+        "month/day/year"
+      ],
+      "answer": "day.month.year",
+      "explanation": "12.4.2002 = 12 April 2002.",
+      "id": "q6"
+    }
+  ]
+}

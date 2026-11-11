@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Bindung",
+    "partOfSpeech": "noun, feminine (die Bindung)",
+    "pronunciation": {
+      "respelling": "BIN-dung",
+      "ipa": "ˈbɪndʊŋ",
+      "notes": "Plural: die Bindungen."
+    },
+    "meaning": "bond, attachment, commitment; binding",
+    "shortDefinition": "Bond, attachment, commitment; binding."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Bind",
+        "meaning": "bind"
+      },
+      {
+        "part": "ung",
+        "meaning": "noun ending"
+      }
+    ],
+    "literalMeaning": "a binding"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Bindung, plural die Bindungen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Bindung"
+        },
+        {
+          "label": "More than one",
+          "value": "die Bindungen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Bindung zwischen Mutter und Kind.",
+      "english": "The bond between mother and child.",
+      "highlight": [
+        "Bindung"
+      ]
+    },
+    {
+      "german": "Er hat Angst vor einer festen Bindung.",
+      "english": "He's afraid of commitment.",
+      "highlight": [
+        "Bindung."
+      ]
+    },
+    {
+      "german": "Die Skibindung ist kaputt.",
+      "english": "The ski binding is broken.",
+      "highlight": [
+        "Skibindung"
+      ]
+    }
+  ],
+  "forms": [
+    "binden"
+  ],
+  "memoryHook": "Binden → die Bindung; Bindungsangst.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Bindung",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Bindung is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Bindung, zwei ___",
+      "answer": "Bindungen",
+      "fullAnswer": "ein Bindung, zwei Bindungen",
+      "explanation": "The plural is Bindungen.",
+      "acceptedAnswers": [
+        "Bindungen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Bindung mean?",
+      "options": [
+        "expensive",
+        "bond",
+        "the weather"
+      ],
+      "answer": "bond",
+      "explanation": "Bindung: bond, attachment, commitment; binding.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "binden (bind)",
+        "Binde"
+      ],
+      "answer": "binden (bind)",
+      "explanation": "Bind.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Fear of commitment:",
+      "options": [
+        "die Bindungsangst",
+        "die Bindungsfurcht"
+      ],
+      "answer": "die Bindungsangst",
+      "explanation": "Compound.",
+      "id": "q5"
+    }
+  ]
+}

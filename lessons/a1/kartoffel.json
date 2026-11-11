@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Kartoffel",
+    "partOfSpeech": "noun, feminine (die Kartoffel)",
+    "pronunciation": {
+      "respelling": "kar-TOF-el",
+      "ipa": "kaʁˈtɔfl̩",
+      "notes": "Plural: die Kartoffeln."
+    },
+    "meaning": "potato",
+    "shortDefinition": "Potato."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Kartoffel, plural die Kartoffeln.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Kartoffel"
+        },
+        {
+          "label": "More than one",
+          "value": "die Kartoffeln"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich esse gern Kartoffeln.",
+      "english": "I like potatoes.",
+      "highlight": [
+        "Kartoffeln."
+      ]
+    },
+    {
+      "german": "Es gibt Fisch mit Kartoffeln.",
+      "english": "There's fish with potatoes.",
+      "highlight": [
+        "Kartoffeln."
+      ]
+    },
+    {
+      "german": "Kartoffelsalat ist typisch deutsch.",
+      "english": "Potato salad is typically German.",
+      "highlight": [
+        "Kartoffelsalat"
+      ]
+    }
+  ],
+  "forms": [
+    "Kartoffeln",
+    "die Kartoffeln",
+    "die Kartoffel"
+  ],
+  "memoryHook": "Die Kartoffel, plural Kartoffeln. Kartoffelsalat, Bratkartoffeln: a German staple.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Kartoffel",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Kartoffel is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Kartoffel, zwei ___",
+      "answer": "Kartoffeln",
+      "fullAnswer": "ein Kartoffel, zwei Kartoffeln",
+      "explanation": "The plural is Kartoffeln.",
+      "acceptedAnswers": [
+        "Kartoffeln"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Kartoffel mean?",
+      "options": [
+        "the weather",
+        "hot",
+        "potato"
+      ],
+      "answer": "potato",
+      "explanation": "Kartoffel: potato.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Where's the stress?",
+      "options": [
+        "KAR-tof-fel",
+        "kar-TOF-fel"
+      ],
+      "answer": "kar-TOF-fel",
+      "explanation": "Stress the middle.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Pommes frites are made from…",
+      "options": [
+        "Kartoffeln",
+        "Äpfeln"
+      ],
+      "answer": "Kartoffeln",
+      "explanation": "Potatoes.",
+      "id": "q5"
+    }
+  ]
+}

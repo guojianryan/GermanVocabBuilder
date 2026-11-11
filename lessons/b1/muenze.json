@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Münze",
+    "partOfSpeech": "noun, feminine (die Münze)",
+    "pronunciation": {
+      "respelling": "MÜN-tse",
+      "ipa": "ˈmʏntsə",
+      "notes": "Plural: die Münzen."
+    },
+    "meaning": "coin",
+    "shortDefinition": "Coin."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Münze, plural die Münzen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Münze"
+        },
+        {
+          "label": "More than one",
+          "value": "die Münzen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Hast du eine Münze für den Automaten?",
+      "english": "Have you got a coin for the machine?",
+      "highlight": [
+        "Münze"
+      ]
+    },
+    {
+      "german": "Er sammelt alte Münzen.",
+      "english": "He collects old coins.",
+      "highlight": [
+        "Münzen."
+      ]
+    },
+    {
+      "german": "Der Automat nimmt nur Münzen.",
+      "english": "The machine only takes coins.",
+      "highlight": [
+        "Münzen."
+      ]
+    }
+  ],
+  "forms": [
+    "Münzen",
+    "die Münzen",
+    "die Münze"
+  ],
+  "memoryHook": "Die Münze (coin); der Schein (note).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Münze",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Münze is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Münze, zwei ___",
+      "answer": "Münzen",
+      "fullAnswer": "ein Münze, zwei Münzen",
+      "explanation": "The plural is Münzen.",
+      "acceptedAnswers": [
+        "Muenzen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Münze mean?",
+      "options": [
+        "never",
+        "slowly",
+        "coin"
+      ],
+      "answer": "coin",
+      "explanation": "Münze: coin.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Coins vs notes:",
+      "options": [
+        "Münzen / Scheine",
+        "Münzen / Karten"
+      ],
+      "answer": "Münzen / Scheine",
+      "explanation": "Notes = Scheine.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Collective word:",
+      "options": [
+        "das Kleingeld",
+        "das Münzgeld only"
+      ],
+      "answer": "das Kleingeld",
+      "explanation": "Change.",
+      "id": "q5"
+    }
+  ]
+}

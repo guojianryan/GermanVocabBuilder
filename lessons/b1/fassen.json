@@ -1,0 +1,169 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "fassen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "FAS-en",
+      "ipa": "ˈfasn̩",
+      "notes": ""
+    },
+    "meaning": "to grasp, hold; to catch; to hold (capacity)",
+    "shortDefinition": "To grasp, hold; to catch; to hold (capacity)."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "fass|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "fass|t"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "fass|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "fass|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "fass|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "fass|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gefasst"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "anfassen",
+      "english": "to touch",
+      "type": "verb"
+    },
+    {
+      "german": "zusammenfassen",
+      "english": "to summarise",
+      "type": "verb"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er fasst mich am Arm.",
+      "english": "He grabs me by the arm.",
+      "highlight": [
+        "fasst"
+      ]
+    },
+    {
+      "german": "Die Polizei hat den Dieb gefasst.",
+      "english": "The police caught the thief.",
+      "highlight": [
+        "gefasst."
+      ]
+    },
+    {
+      "german": "Ich kann es nicht fassen!",
+      "english": "I can't believe it!",
+      "highlight": [
+        "fassen!"
+      ]
+    }
+  ],
+  "forms": [
+    "fasse",
+    "fasst",
+    "fassen",
+    "gefasst"
+  ],
+  "memoryHook": "Fassen = grasp (with hands or mind). Nicht zu fassen! = unbelievable!",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (fassen)",
+      "answer": "fasst",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: fasst.",
+      "acceptedAnswers": [
+        "fasst"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (fassen, past)",
+      "answer": "gefasst",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gefasst.",
+      "acceptedAnswers": [
+        "gefasst"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does fassen mean?",
+      "options": [
+        "the bed",
+        "to grasp",
+        "to help"
+      ],
+      "answer": "to grasp",
+      "explanation": "fassen: to grasp, hold; to catch; to hold (capacity).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Ich kann es nicht fassen!' means…",
+      "options": [
+        "I can't believe it!",
+        "I can't hold it!"
+      ],
+      "answer": "I can't believe it!",
+      "explanation": "Idiom.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Einen Entschluss fassen' means…",
+      "options": [
+        "to make a decision",
+        "to catch a decision"
+      ],
+      "answer": "to make a decision",
+      "explanation": "Idiom.",
+      "id": "q5"
+    }
+  ]
+}

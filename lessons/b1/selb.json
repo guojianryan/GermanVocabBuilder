@@ -1,0 +1,105 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "selb-",
+    "partOfSpeech": "pronoun / determiner",
+    "pronunciation": {
+      "respelling": "ZELP-",
+      "ipa": "zɛlp",
+      "notes": ""
+    },
+    "meaning": "same (derselbe, dieselbe, dasselbe)",
+    "shortDefinition": "Same (derselbe, dieselbe, dasselbe)."
+  },
+  "sampleSentences": [
+    {
+      "german": "Wir haben dasselbe Auto.",
+      "english": "We have the same car.",
+      "highlight": [
+        "dasselbe"
+      ]
+    },
+    {
+      "german": "Sie wohnt im selben Haus.",
+      "english": "She lives in the same building.",
+      "highlight": [
+        "selben"
+      ]
+    },
+    {
+      "german": "Das ist derselbe Mann.",
+      "english": "That's the same man.",
+      "highlight": [
+        "derselbe"
+      ]
+    }
+  ],
+  "forms": [
+    "derselbe",
+    "dieselbe",
+    "dasselbe",
+    "selben"
+  ],
+  "memoryHook": "Selb-: derselbe, dieselbe, dasselbe; im selben.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does selb- mean?",
+      "options": [
+        "the family",
+        "expensive",
+        "same (derselbe"
+      ],
+      "answer": "same (derselbe",
+      "explanation": "selb-: same (derselbe, dieselbe, dasselbe).",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Der gleiche' vs 'derselbe':",
+      "options": [
+        "same kind vs the very same one",
+        "always identical"
+      ],
+      "answer": "same kind vs the very same one",
+      "explanation": "Strictly.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Written…",
+      "options": [
+        "as one word with the article (dasselbe)",
+        "das selbe"
+      ],
+      "answer": "as one word with the article (dasselbe)",
+      "explanation": "One word.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Im selben' = …",
+      "options": [
+        "in dem selben",
+        "in selb"
+      ],
+      "answer": "in dem selben",
+      "explanation": "Contracted.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Wir gehen in ___ Schule. (the same)",
+      "answer": "dieselbe",
+      "fullAnswer": "Wir gehen in dieselbe Schule.",
+      "explanation": "Dieselbe.",
+      "id": "q5"
+    }
+  ]
+}

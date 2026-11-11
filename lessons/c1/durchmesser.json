@@ -1,0 +1,139 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Durchmesser",
+    "partOfSpeech": "noun, masculine (der Durchmesser)",
+    "pronunciation": {
+      "respelling": "DOORKH-me-ser",
+      "ipa": "ˈdʊʁçmɛsɐ",
+      "notes": "The plural looks the same. Plural: die Durchmesser."
+    },
+    "meaning": "diameter",
+    "shortDefinition": "Diameter."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Durch",
+        "meaning": "through"
+      },
+      {
+        "part": "messer",
+        "meaning": "measure"
+      }
+    ],
+    "literalMeaning": "measure through",
+    "summary": "Straight across the middle."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Durchmesser, plural die Durchmesser.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Durchmesser"
+        },
+        {
+          "label": "More than one",
+          "value": "die Durchmesser"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Kreis hat einen Durchmesser von 10 cm.",
+      "english": "The circle has a diameter of 10 cm.",
+      "highlight": [
+        "Durchmesser"
+      ]
+    },
+    {
+      "german": "Ein Rohr mit großem Durchmesser.",
+      "english": "A pipe with a large diameter.",
+      "highlight": [
+        "Durchmesser."
+      ]
+    },
+    {
+      "german": "Den Durchmesser berechnen.",
+      "english": "To calculate the diameter.",
+      "highlight": [
+        "Durchmesser"
+      ]
+    }
+  ],
+  "forms": [
+    "Durchmesser",
+    "die Durchmesser",
+    "der Durchmesser"
+  ],
+  "memoryHook": "Durch + messen = diameter.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Durchmesser",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Durchmesser is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Durchmesser, zwei ___",
+      "answer": "Durchmesser",
+      "fullAnswer": "ein Durchmesser, zwei Durchmesser",
+      "explanation": "The plural is Durchmesser.",
+      "acceptedAnswers": [
+        "Durchmesser"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Durchmesser mean?",
+      "options": [
+        "diameter",
+        "the weather",
+        "the window"
+      ],
+      "answer": "diameter",
+      "explanation": "Durchmesser: diameter.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "durch (through) + messen",
+        "durch + Messer (knife)"
+      ],
+      "answer": "durch (through) + messen",
+      "explanation": "Measure through.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Radius:",
+      "options": [
+        "der Radius / Halbmesser",
+        "der Halbdurchmesser"
+      ],
+      "answer": "der Radius / Halbmesser",
+      "explanation": "Half.",
+      "id": "q5"
+    }
+  ]
+}

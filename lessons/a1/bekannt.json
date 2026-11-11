@@ -1,0 +1,135 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "bekannt",
+    "partOfSpeech": "adjective",
+    "pronunciation": {
+      "respelling": "buh-KAHNT",
+      "ipa": "bəˈkant",
+      "notes": ""
+    },
+    "meaning": "well known, famous; familiar",
+    "shortDefinition": "Well known, famous; familiar."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "be",
+        "meaning": "prefix"
+      },
+      {
+        "part": "kannt",
+        "meaning": "known",
+        "note": "From kennen."
+      }
+    ],
+    "literalMeaning": "known"
+  },
+  "wordFamily": [
+    {
+      "german": "der/die Bekannte",
+      "english": "acquaintance",
+      "type": "noun"
+    },
+    {
+      "german": "kennen",
+      "english": "to know",
+      "type": "verb"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Kölner Dom ist sehr bekannt.",
+      "english": "Cologne Cathedral is very well known.",
+      "highlight": [
+        "bekannt."
+      ]
+    },
+    {
+      "german": "Das kommt mir bekannt vor.",
+      "english": "That seems familiar to me.",
+      "highlight": [
+        "bekannt"
+      ]
+    },
+    {
+      "german": "Das ist ein Bekannter von mir.",
+      "english": "That's an acquaintance of mine.",
+      "highlight": [
+        "Bekannter"
+      ]
+    }
+  ],
+  "forms": [
+    "bekannte",
+    "bekannten",
+    "bekannter",
+    "bekanntes",
+    "Bekannte",
+    "Bekannter",
+    "Bekannten"
+  ],
+  "memoryHook": "Bekannt = known, from kennen. Ein Bekannter is someone you know.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does bekannt mean?",
+      "options": [
+        "hot",
+        "to learn",
+        "well known"
+      ],
+      "answer": "well known",
+      "explanation": "bekannt: well known, famous; familiar.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Der/die Bekannte is…",
+      "options": [
+        "an acquaintance",
+        "a famous person"
+      ],
+      "answer": "an acquaintance",
+      "explanation": "Someone you know, but not a close friend.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Bekannt comes from…",
+      "options": [
+        "kennen",
+        "können"
+      ],
+      "answer": "kennen",
+      "explanation": "Bekannt = known.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Das ist ___ von mir. (a male acquaintance)",
+      "options": [
+        "ein Bekannter",
+        "ein Bekannte"
+      ],
+      "answer": "ein Bekannter",
+      "explanation": "Like Beamter: ein Bekannter.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Die Stadt ist ___ für ihr Bier. (known)",
+      "answer": "bekannt",
+      "fullAnswer": "Die Stadt ist bekannt für ihr Bier.",
+      "explanation": "Bekannt für: known for.",
+      "id": "q5"
+    }
+  ]
+}

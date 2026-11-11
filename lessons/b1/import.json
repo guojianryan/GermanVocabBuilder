@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Import",
+    "partOfSpeech": "noun, masculine (der Import)",
+    "pronunciation": {
+      "respelling": "im-PORT",
+      "ipa": "ɪmˈpɔʁt",
+      "notes": "Plural: die Importe."
+    },
+    "meaning": "import",
+    "shortDefinition": "Import."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Import, plural die Importe.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Import"
+        },
+        {
+          "label": "More than one",
+          "value": "die Importe"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Import von Obst ist gestiegen.",
+      "english": "Fruit imports have risen.",
+      "highlight": [
+        "Import"
+      ]
+    },
+    {
+      "german": "Er arbeitet in einer Import-Export-Firma.",
+      "english": "He works in an import-export company.",
+      "highlight": [
+        "Import-Export-Firma."
+      ]
+    },
+    {
+      "german": "Das ist ein Import aus Japan.",
+      "english": "That's an import from Japan.",
+      "highlight": [
+        "Import"
+      ]
+    }
+  ],
+  "forms": [
+    "importieren",
+    "Einfuhr"
+  ],
+  "memoryHook": "Der Import (= Einfuhr). Importieren.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Import",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Import is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Import, zwei ___",
+      "answer": "Importe",
+      "fullAnswer": "ein Import, zwei Importe",
+      "explanation": "The plural is Importe.",
+      "acceptedAnswers": [
+        "Importe"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Import mean?",
+      "options": [
+        "to help",
+        "the evening",
+        "import"
+      ],
+      "answer": "import",
+      "explanation": "Import: import.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "The opposite:",
+      "options": [
+        "der Export",
+        "der Report"
+      ],
+      "answer": "der Export",
+      "explanation": "Export.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "German word:",
+      "options": [
+        "die Einfuhr",
+        "die Einfahrt"
+      ],
+      "answer": "die Einfuhr",
+      "explanation": "In-carry.",
+      "id": "q5"
+    }
+  ]
+}

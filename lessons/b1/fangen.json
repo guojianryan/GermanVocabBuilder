@@ -1,0 +1,161 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "fangen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "FANG-en",
+      "ipa": "ˈfaŋən",
+      "notes": ""
+    },
+    "meaning": "to catch",
+    "shortDefinition": "To catch."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "fang|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "f|ä|ngst"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "f|ä|ngt"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "fang|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "fang|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "fang|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gefangen",
+        "a → ä for du and er."
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Fang den Ball!",
+      "english": "Catch the ball!",
+      "highlight": [
+        "Fang"
+      ]
+    },
+    {
+      "german": "Die Katze fängt eine Maus.",
+      "english": "The cat catches a mouse.",
+      "highlight": [
+        "fängt"
+      ]
+    },
+    {
+      "german": "Wir haben drei Fische gefangen.",
+      "english": "We caught three fish.",
+      "highlight": [
+        "gefangen."
+      ]
+    }
+  ],
+  "forms": [
+    "fange",
+    "fängst",
+    "fängt",
+    "fangen",
+    "fangt",
+    "gefangen",
+    "fing"
+  ],
+  "memoryHook": "Fangen, fing, gefangen. Anfangen = begin (catch on!).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (fangen)",
+      "answer": "fängt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: fängt.",
+      "acceptedAnswers": [
+        "faengt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (fangen, past)",
+      "answer": "gefangen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gefangen.",
+      "acceptedAnswers": [
+        "gefangen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does fangen mean?",
+      "options": [
+        "the window",
+        "to catch",
+        "the car"
+      ],
+      "answer": "to catch",
+      "explanation": "fangen: to catch.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Er ___ den Ball.",
+      "options": [
+        "fängt",
+        "fangt"
+      ],
+      "answer": "fängt",
+      "explanation": "a → ä.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Past:",
+      "options": [
+        "fing, gefangen",
+        "fangte, gefangt"
+      ],
+      "answer": "fing, gefangen",
+      "explanation": "Irregular.",
+      "id": "q5"
+    }
+  ]
+}

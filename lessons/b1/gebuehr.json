@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Gebühr",
+    "partOfSpeech": "noun, feminine (die Gebühr)",
+    "pronunciation": {
+      "respelling": "ge-BÜR",
+      "ipa": "ɡəˈbyːɐ̯",
+      "notes": "Plural: die Gebühren."
+    },
+    "meaning": "fee, charge",
+    "shortDefinition": "Fee, charge."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Gebühr, plural die Gebühren.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Gebühr"
+        },
+        {
+          "label": "More than one",
+          "value": "die Gebühren"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Gebühr beträgt 10 Euro.",
+      "english": "The fee is 10 euros.",
+      "highlight": [
+        "Gebühr"
+      ]
+    },
+    {
+      "german": "Für die Karte gibt es keine Gebühren.",
+      "english": "There are no fees for the card.",
+      "highlight": [
+        "Gebühren."
+      ]
+    },
+    {
+      "german": "Die Gebühren werden jährlich bezahlt.",
+      "english": "The fees are paid annually.",
+      "highlight": [
+        "Gebühren"
+      ]
+    }
+  ],
+  "forms": [
+    "gebührenfrei"
+  ],
+  "memoryHook": "Die Gebühr = fee (bank, authority). Gebührenfrei = no charge.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Gebühr",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Gebühr is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Gebühr, zwei ___",
+      "answer": "Gebühren",
+      "fullAnswer": "ein Gebühr, zwei Gebühren",
+      "explanation": "The plural is Gebühren.",
+      "acceptedAnswers": [
+        "Gebuehren"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Gebühr mean?",
+      "options": [
+        "fee",
+        "to sing",
+        "to learn"
+      ],
+      "answer": "fee",
+      "explanation": "Gebühr: fee, charge.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Gebührenfrei' means…",
+      "options": [
+        "free of charge",
+        "fee included"
+      ],
+      "answer": "free of charge",
+      "explanation": "-frei.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gebühr is used for…",
+      "options": [
+        "official charges (bank, office)",
+        "salaries"
+      ],
+      "answer": "official charges (bank, office)",
+      "explanation": "Fees.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "leihen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "LYE-en",
+      "ipa": "ˈlaɪ̯ən",
+      "notes": ""
+    },
+    "meaning": "to lend; to borrow (sich etwas leihen)",
+    "shortDefinition": "To lend; to borrow (sich etwas leihen)."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "leih|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "leih|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "leih|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "leih|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "leih|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "leih|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat geliehen"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "ausleihen",
+      "english": "to borrow, lend out",
+      "type": "verb"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Kannst du mir dein Fahrrad leihen?",
+      "english": "Can you lend me your bike?",
+      "highlight": [
+        "leihen?"
+      ]
+    },
+    {
+      "german": "Ich leihe mir ein Buch in der Bibliothek.",
+      "english": "I'm borrowing a book from the library.",
+      "highlight": [
+        "leihe",
+        "mir"
+      ]
+    },
+    {
+      "german": "Er hat mir 20 Euro geliehen.",
+      "english": "He lent me 20 euros.",
+      "highlight": [
+        "geliehen."
+      ]
+    }
+  ],
+  "forms": [
+    "leihe",
+    "leihst",
+    "leiht",
+    "leihen",
+    "geliehen",
+    "lieh"
+  ],
+  "memoryHook": "Leihen = lend. Sich etwas leihen = borrow. Past: lieh, geliehen.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (leihen)",
+      "answer": "leiht",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: leiht.",
+      "acceptedAnswers": [
+        "leiht"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (leihen, past)",
+      "answer": "geliehen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe geliehen.",
+      "acceptedAnswers": [
+        "geliehen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does leihen mean?",
+      "options": [
+        "always",
+        "to lend",
+        "the evening"
+      ],
+      "answer": "to lend",
+      "explanation": "leihen: to lend; to borrow (sich etwas leihen).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Lend me…':",
+      "options": [
+        "Leih mir…",
+        "Leih dir…"
+      ],
+      "answer": "Leih mir…",
+      "explanation": "Jemandem etwas leihen.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'I'm borrowing it':",
+      "options": [
+        "Ich leihe es mir.",
+        "Ich leihe es."
+      ],
+      "answer": "Ich leihe es mir.",
+      "explanation": "Sich leihen = borrow.",
+      "id": "q5"
+    }
+  ]
+}

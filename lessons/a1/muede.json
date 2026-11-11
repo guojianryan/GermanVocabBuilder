@@ -1,0 +1,113 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "müde",
+    "partOfSpeech": "adjective",
+    "pronunciation": {
+      "respelling": "MUE-duh",
+      "ipa": "ˈmyːdə",
+      "notes": ""
+    },
+    "meaning": "tired",
+    "shortDefinition": "Tired."
+  },
+  "wordFamily": [
+    {
+      "german": "schlafen",
+      "english": "to sleep",
+      "type": "verb"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich bin sehr müde.",
+      "english": "I'm very tired.",
+      "highlight": [
+        "müde."
+      ]
+    },
+    {
+      "german": "Du siehst müde aus.",
+      "english": "You look tired.",
+      "highlight": [
+        "müde"
+      ]
+    },
+    {
+      "german": "Nach der Arbeit sind wir immer müde.",
+      "english": "We're always tired after work.",
+      "highlight": [
+        "müde."
+      ]
+    }
+  ],
+  "forms": [
+    "müden",
+    "müder"
+  ],
+  "memoryHook": "Müde = tired. Ich bin müde (with sein). Opposite: wach (awake).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does müde mean?",
+      "options": [
+        "tired",
+        "tomorrow",
+        "to wait"
+      ],
+      "answer": "tired",
+      "explanation": "müde: tired.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "'I'm tired' is…",
+      "options": [
+        "Ich bin müde.",
+        "Ich habe müde."
+      ],
+      "answer": "Ich bin müde.",
+      "explanation": "Sein + müde.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ü sounds like…",
+      "options": [
+        "'ee' with rounded lips",
+        "'oo'"
+      ],
+      "answer": "'ee' with rounded lips",
+      "explanation": "MUE-duh.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "The opposite of müde is…",
+      "options": [
+        "wach",
+        "krank"
+      ],
+      "answer": "wach",
+      "explanation": "Wach: awake.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich gehe ins Bett, ich bin ___. (tired)",
+      "answer": "müde",
+      "fullAnswer": "ich bin müde",
+      "explanation": "Müde.",
+      "acceptedAnswers": [
+        "muede"
+      ],
+      "id": "q5"
+    }
+  ]
+}

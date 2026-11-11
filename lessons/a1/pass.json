@@ -1,0 +1,131 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Pass",
+    "partOfSpeech": "noun, masculine (der Pass)",
+    "pronunciation": {
+      "respelling": "PAHS",
+      "ipa": "pas",
+      "notes": "Plural: die Pässe."
+    },
+    "meaning": "passport",
+    "shortDefinition": "Passport."
+  },
+  "wordFamily": [
+    {
+      "german": "der Ausweis",
+      "english": "ID card",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Pass, plural die Pässe.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Pass"
+        },
+        {
+          "label": "More than one",
+          "value": "die Pässe"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Hier ist mein Pass.",
+      "english": "Here's my passport.",
+      "highlight": [
+        "Pass."
+      ]
+    },
+    {
+      "german": "Mein Pass ist abgelaufen.",
+      "english": "My passport has expired.",
+      "highlight": [
+        "Pass"
+      ]
+    },
+    {
+      "german": "Für die Reise brauchen Sie einen Pass.",
+      "english": "You need a passport for the trip.",
+      "highlight": [
+        "Pass."
+      ]
+    }
+  ],
+  "forms": [
+    "Pässe",
+    "die Pässe",
+    "der Pass"
+  ],
+  "memoryHook": "Der Pass (Reisepass) = passport. Plural Pässe.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Pass",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Pass is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Pass, zwei ___",
+      "answer": "Pässe",
+      "fullAnswer": "ein Pass, zwei Pässe",
+      "explanation": "The plural is Pässe.",
+      "acceptedAnswers": [
+        "Paesse"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Pass mean?",
+      "options": [
+        "the bed",
+        "to open",
+        "passport"
+      ],
+      "answer": "passport",
+      "explanation": "Pass: passport.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "The full word is…",
+      "options": [
+        "der Reisepass",
+        "der Passport"
+      ],
+      "answer": "der Reisepass",
+      "explanation": "Reise + Pass.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich brauche ___ Pass.",
+      "options": [
+        "einen",
+        "ein"
+      ],
+      "answer": "einen",
+      "explanation": "Masculine accusative.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "sich",
+    "partOfSpeech": "reflexive pronoun",
+    "pronunciation": {
+      "respelling": "ZIKH",
+      "ipa": "zɪç",
+      "notes": ""
+    },
+    "meaning": "oneself, himself, herself, itself, themselves",
+    "shortDefinition": "Oneself, himself, herself, itself, themselves."
+  },
+  "tables": [
+    {
+      "title": "Reflexive pronouns",
+      "columns": [
+        "accusative"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "|mich"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "|dich"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "|sich"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "|uns"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "|euch"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "|sich"
+          ]
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er wäscht sich.",
+      "english": "He's washing (himself).",
+      "highlight": [
+        "sich."
+      ]
+    },
+    {
+      "german": "Sie freut sich auf den Urlaub.",
+      "english": "She's looking forward to the holiday.",
+      "highlight": [
+        "sich"
+      ]
+    },
+    {
+      "german": "Setzen Sie sich bitte.",
+      "english": "Please sit down.",
+      "highlight": [
+        "sich"
+      ]
+    }
+  ],
+  "forms": [
+    "sich",
+    "mich",
+    "dich",
+    "uns",
+    "euch"
+  ],
+  "memoryHook": "Sich = 'self' for er, sie, es, sie, Sie. Ich → mich, du → dich, wir → uns, ihr → euch.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does sich mean?",
+      "options": [
+        "cheap",
+        "oneself",
+        "the door"
+      ],
+      "answer": "oneself",
+      "explanation": "sich: oneself, himself, herself, itself, themselves.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich freue ___.",
+      "options": [
+        "sich",
+        "mich"
+      ],
+      "answer": "mich",
+      "explanation": "Ich → mich.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Sich is used for…",
+      "options": [
+        "er, sie, es, sie (plural), Sie",
+        "ich and du"
+      ],
+      "answer": "er, sie, es, sie (plural), Sie",
+      "explanation": "3rd person + formal.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Wir treffen ___ um acht.",
+      "options": [
+        "sich",
+        "uns"
+      ],
+      "answer": "uns",
+      "explanation": "Wir → uns.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Setzen Sie sich' means…",
+      "options": [
+        "Please sit down",
+        "Sit yourself"
+      ],
+      "answer": "Please sit down",
+      "explanation": "Formal.",
+      "id": "q5"
+    }
+  ]
+}

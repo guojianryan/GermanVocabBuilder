@@ -1,0 +1,131 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Garten",
+    "partOfSpeech": "noun, masculine (der Garten)",
+    "pronunciation": {
+      "respelling": "GAR-ten",
+      "ipa": "ˈɡaʁtn̩",
+      "notes": "Plural: die Gärten."
+    },
+    "meaning": "garden",
+    "shortDefinition": "Garden."
+  },
+  "wordFamily": [
+    {
+      "german": "der Kindergarten",
+      "english": "nursery school",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Garten, plural die Gärten.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Garten"
+        },
+        {
+          "label": "More than one",
+          "value": "die Gärten"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir haben einen kleinen Garten.",
+      "english": "We have a small garden.",
+      "highlight": [
+        "Garten."
+      ]
+    },
+    {
+      "german": "Die Kinder spielen im Garten.",
+      "english": "The children are playing in the garden.",
+      "highlight": [
+        "Garten."
+      ]
+    },
+    {
+      "german": "Im Sommer grillen wir im Garten.",
+      "english": "In summer we barbecue in the garden.",
+      "highlight": [
+        "Garten"
+      ]
+    }
+  ],
+  "forms": [
+    "Gärten",
+    "die Gärten",
+    "der Garten"
+  ],
+  "memoryHook": "Garten = garden (English borrowed Kindergarten from it). Plural Gärten.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Garten",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Garten is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Garten, zwei ___",
+      "answer": "Gärten",
+      "fullAnswer": "ein Garten, zwei Gärten",
+      "explanation": "The plural is Gärten.",
+      "acceptedAnswers": [
+        "Gaerten"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Garten mean?",
+      "options": [
+        "garden",
+        "the car",
+        "the child"
+      ],
+      "answer": "garden",
+      "explanation": "Garten: garden.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Der Kindergarten is…",
+      "options": [
+        "nursery school",
+        "a garden for children"
+      ],
+      "answer": "nursery school",
+      "explanation": "English borrowed it!",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Im Garten means…",
+      "options": [
+        "in the garden",
+        "into the garden"
+      ],
+      "answer": "in the garden",
+      "explanation": "Im = in dem: location.",
+      "id": "q5"
+    }
+  ]
+}

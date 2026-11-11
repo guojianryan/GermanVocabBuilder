@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Schrift",
+    "partOfSpeech": "noun, feminine (die Schrift)",
+    "pronunciation": {
+      "respelling": "SHRIFT",
+      "ipa": "ʃʁɪft",
+      "notes": "Plural: die Schriften."
+    },
+    "meaning": "writing, handwriting; font",
+    "shortDefinition": "Writing, handwriting; font."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Schrift, plural die Schriften.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Schrift"
+        },
+        {
+          "label": "More than one",
+          "value": "die Schriften"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich kann deine Schrift nicht lesen.",
+      "english": "I can't read your handwriting.",
+      "highlight": [
+        "Schrift"
+      ]
+    },
+    {
+      "german": "Welche Schrift benutzt du?",
+      "english": "What font are you using?",
+      "highlight": [
+        "Schrift"
+      ]
+    },
+    {
+      "german": "Bitte in Druckschrift ausfüllen.",
+      "english": "Please fill in using block capitals.",
+      "highlight": [
+        "Druckschrift"
+      ]
+    }
+  ],
+  "forms": [
+    "schriftlich",
+    "Handschrift"
+  ],
+  "memoryHook": "Schreiben → die Schrift → schriftlich.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Schrift",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Schrift is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Schrift, zwei ___",
+      "answer": "Schriften",
+      "fullAnswer": "ein Schrift, zwei Schriften",
+      "explanation": "The plural is Schriften.",
+      "acceptedAnswers": [
+        "Schriften"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Schrift mean?",
+      "options": [
+        "hot",
+        "writing",
+        "the street"
+      ],
+      "answer": "writing",
+      "explanation": "Schrift: writing, handwriting; font.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "schreiben",
+        "Schritt"
+      ],
+      "answer": "schreiben",
+      "explanation": "Write.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Adjective 'in writing':",
+      "options": [
+        "schriftlich",
+        "schriftig"
+      ],
+      "answer": "schriftlich",
+      "explanation": "Written.",
+      "id": "q5"
+    }
+  ]
+}

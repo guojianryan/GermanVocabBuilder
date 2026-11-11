@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Dichter",
+    "partOfSpeech": "noun, masculine (der Dichter)",
+    "pronunciation": {
+      "respelling": "DIKH-ter",
+      "ipa": "ˈdɪçtɐ",
+      "notes": "The plural looks the same. Plural: die Dichter."
+    },
+    "meaning": "poet, writer",
+    "shortDefinition": "Poet, writer."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Dichter, plural die Dichter.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Dichter"
+        },
+        {
+          "label": "More than one",
+          "value": "die Dichter"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Goethe ist ein großer Dichter.",
+      "english": "Goethe is a great poet.",
+      "highlight": [
+        "Dichter."
+      ]
+    },
+    {
+      "german": "Deutschland, das Land der Dichter und Denker.",
+      "english": "Germany, land of poets and thinkers.",
+      "highlight": [
+        "Dichter"
+      ]
+    },
+    {
+      "german": "Sie ist Dichterin.",
+      "english": "She's a poet.",
+      "highlight": [
+        "Dichterin."
+      ]
+    }
+  ],
+  "forms": [
+    "Dichterin",
+    "dichten"
+  ],
+  "memoryHook": "Dichten → der Dichter, das Gedicht.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Dichter",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Dichter is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Dichter, zwei ___",
+      "answer": "Dichter",
+      "fullAnswer": "ein Dichter, zwei Dichter",
+      "explanation": "The plural is Dichter.",
+      "acceptedAnswers": [
+        "Dichter"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Dichter mean?",
+      "options": [
+        "the door",
+        "poet",
+        "the child"
+      ],
+      "answer": "poet",
+      "explanation": "Dichter: poet, writer.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Verb:",
+      "options": [
+        "dichten (write poetry)",
+        "dicht machen"
+      ],
+      "answer": "dichten (write poetry)",
+      "explanation": "Compose.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "A poem:",
+      "options": [
+        "das Gedicht",
+        "die Dichtung only"
+      ],
+      "answer": "das Gedicht",
+      "explanation": "Poem.",
+      "id": "q5"
+    }
+  ]
+}

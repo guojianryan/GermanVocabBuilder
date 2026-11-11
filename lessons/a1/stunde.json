@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Stunde",
+    "partOfSpeech": "noun, feminine (die Stunde)",
+    "pronunciation": {
+      "respelling": "SHTOON-duh",
+      "ipa": "ˈʃtʊndə",
+      "notes": "Plural: die Stunden."
+    },
+    "meaning": "hour; lesson",
+    "shortDefinition": "Hour; lesson."
+  },
+  "wordFamily": [
+    {
+      "german": "die Uhr",
+      "english": "clock; o'clock",
+      "type": "noun"
+    },
+    {
+      "german": "die Minute",
+      "english": "minute",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Stunde, plural die Stunden.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Stunde"
+        },
+        {
+          "label": "More than one",
+          "value": "die Stunden"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Fahrt dauert zwei Stunden.",
+      "english": "The journey takes two hours.",
+      "highlight": [
+        "Stunden."
+      ]
+    },
+    {
+      "german": "Ich habe heute vier Stunden Deutsch.",
+      "english": "I have four German lessons today.",
+      "highlight": [
+        "Stunden"
+      ]
+    },
+    {
+      "german": "In einer halben Stunde bin ich da.",
+      "english": "I'll be there in half an hour.",
+      "highlight": [
+        "Stunde"
+      ]
+    }
+  ],
+  "forms": [
+    "Stunden",
+    "die Stunden",
+    "die Stunde"
+  ],
+  "memoryHook": "Die Stunde = hour (duration) and school lesson. Zwei Uhr = two o'clock; zwei Stunden = two hours.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Stunde",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Stunde is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Stunde, zwei ___",
+      "answer": "Stunden",
+      "fullAnswer": "ein Stunde, zwei Stunden",
+      "explanation": "The plural is Stunden.",
+      "acceptedAnswers": [
+        "Stunden"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Stunde mean?",
+      "options": [
+        "to wait",
+        "the bread",
+        "hour"
+      ],
+      "answer": "hour",
+      "explanation": "Stunde: hour; lesson.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Stunde vs Uhr: 'two hours' (duration) is…",
+      "options": [
+        "zwei Stunden",
+        "zwei Uhr"
+      ],
+      "answer": "zwei Stunden",
+      "explanation": "Uhr = o'clock.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Eine halbe Stunde' is…",
+      "options": [
+        "30 minutes",
+        "half past"
+      ],
+      "answer": "30 minutes",
+      "explanation": "Half an hour.",
+      "id": "q5"
+    }
+  ]
+}

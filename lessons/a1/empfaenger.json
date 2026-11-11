@@ -1,0 +1,155 @@
+{
+ "schemaVersion": "1.4",
+ "language": "de",
+ "explanationLanguage": "en",
+ "level": "A1",
+ "levelSource": "Goethe-Zertifikat A1 Wortliste",
+ "lessonType": "card",
+ "word": {
+  "headword": "Empfänger",
+  "partOfSpeech": "noun, masculine (der Empfänger)",
+  "pronunciation": {
+   "respelling": "em-PFENG-er",
+   "ipa": "ɛmˈpfɛŋɐ",
+   "notes": "The plural looks the same. Plural: die Empfänger."
+  },
+  "meaning": "recipient, addressee",
+  "shortDefinition": "Recipient, addressee."
+ },
+ "etymology": {
+  "title": "Where it comes from",
+  "parts": [
+   {
+    "part": "Emp",
+    "meaning": "towards"
+   },
+   {
+    "part": "fäng",
+    "meaning": "catch (fangen)"
+   },
+   {
+    "part": "er",
+    "meaning": "person or thing that does it"
+   }
+  ],
+  "literalMeaning": "someone who receives",
+  "summary": "From empfangen (to receive) + -er (person), with a → ä."
+ },
+ "wordFamily": [
+  {
+   "german": "der Absender",
+   "english": "sender",
+   "type": "noun"
+  },
+  {
+   "german": "der Empfang",
+   "english": "reception",
+   "type": "noun"
+  }
+ ],
+ "commonMistakes": [
+  {
+   "title": "Gender and plural",
+   "explanation": "Der Empfänger, plural die Empfänger.",
+   "forms": [
+    {
+     "label": "One",
+     "value": "der Empfänger"
+    },
+    {
+     "label": "More than one",
+     "value": "die Empfänger"
+    }
+   ]
+  }
+ ],
+ "sampleSentences": [
+  {
+   "german": "Der Empfänger ist unbekannt.",
+   "english": "The addressee is unknown.",
+   "highlight": [
+    "Empfänger"
+   ]
+  },
+  {
+   "german": "Schreiben Sie den Empfänger in die Mitte.",
+   "english": "Write the recipient's address in the middle.",
+   "highlight": [
+    "Empfänger"
+   ]
+  },
+  {
+   "german": "Absender und Empfänger stehen auf dem Paket.",
+   "english": "Sender and recipient are on the parcel.",
+   "highlight": [
+    "Empfänger"
+   ]
+  }
+ ],
+ "forms": [
+  "Empfänger",
+  "die Empfänger",
+  "der Empfänger"
+ ],
+ "memoryHook": "Empfangen = receive. Der Empfänger receives; der Absender sends.",
+ "signOff": "Gut gemacht!",
+ "quiz": [
+  {
+   "type": "choice",
+   "prompt": "___ Empfänger",
+   "options": [
+    "der",
+    "die",
+    "das"
+   ],
+   "answer": "der",
+   "explanation": "Empfänger is masculine.",
+   "id": "q1"
+  },
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "ein Empfänger, zwei ___",
+   "answer": "Empfänger",
+   "fullAnswer": "ein Empfänger, zwei Empfänger",
+   "explanation": "The plural is Empfänger.",
+   "acceptedAnswers": [
+    "Empfaenger"
+   ],
+   "id": "q2"
+  },
+  {
+   "type": "choice",
+   "prompt": "What does Empfänger mean?",
+   "options": [
+    "slowly",
+    "recipient",
+    "cheap"
+   ],
+   "answer": "recipient",
+   "explanation": "Empfänger: recipient, addressee.",
+   "id": "q3"
+  },
+  {
+   "type": "choice",
+   "prompt": "The opposite of Empfänger is…",
+   "options": [
+    "Absender",
+    "Anschluss"
+   ],
+   "answer": "Absender",
+   "explanation": "Sender and recipient.",
+   "id": "q4"
+  },
+  {
+   "type": "choice",
+   "prompt": "Empfänger comes from empfangen, which means…",
+   "options": [
+    "to receive",
+    "to send"
+   ],
+   "answer": "to receive",
+   "explanation": "Empfangen: receive.",
+   "id": "q5"
+  }
+ ]
+}

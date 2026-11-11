@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Wirt",
+    "partOfSpeech": "noun, masculine (der Wirt)",
+    "pronunciation": {
+      "respelling": "VIRT",
+      "ipa": "vɪʁt",
+      "notes": "Plural: die Wirte."
+    },
+    "meaning": "landlord (pub), innkeeper",
+    "shortDefinition": "Landlord (pub), innkeeper."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Wirt, plural die Wirte.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Wirt"
+        },
+        {
+          "label": "More than one",
+          "value": "die Wirte"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Wirt bringt das Bier.",
+      "english": "The landlord brings the beer.",
+      "highlight": [
+        "Wirt"
+      ]
+    },
+    {
+      "german": "Die Wirtin kocht selbst.",
+      "english": "The landlady cooks herself.",
+      "highlight": [
+        "Wirtin"
+      ]
+    },
+    {
+      "german": "Er ist Wirt einer Kneipe.",
+      "english": "He runs a pub.",
+      "highlight": [
+        "Wirt"
+      ]
+    }
+  ],
+  "forms": [
+    "Wirtin",
+    "Wirtshaus"
+  ],
+  "memoryHook": "Der Wirt (pub landlord); das Wirtshaus.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Wirt",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Wirt is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Wirt, zwei ___",
+      "answer": "Wirte",
+      "fullAnswer": "ein Wirt, zwei Wirte",
+      "explanation": "The plural is Wirte.",
+      "acceptedAnswers": [
+        "Wirte"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Wirt mean?",
+      "options": [
+        "landlord (pub)",
+        "tomorrow",
+        "to open"
+      ],
+      "answer": "landlord (pub)",
+      "explanation": "Wirt: landlord (pub), innkeeper.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Pub (southern):",
+      "options": [
+        "das Wirtshaus",
+        "die Wirtschaft only"
+      ],
+      "answer": "das Wirtshaus",
+      "explanation": "Inn.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Female:",
+      "options": [
+        "die Wirtin",
+        "die Wirte"
+      ],
+      "answer": "die Wirtin",
+      "explanation": "-in.",
+      "id": "q5"
+    }
+  ]
+}

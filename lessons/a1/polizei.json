@@ -1,0 +1,125 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Polizei",
+    "partOfSpeech": "noun, feminine (die Polizei)",
+    "pronunciation": {
+      "respelling": "po-lee-TSY",
+      "ipa": "poliˈtsaɪ̯",
+      "notes": "No plural. Usually no plural."
+    },
+    "meaning": "police",
+    "shortDefinition": "Police."
+  },
+  "wordFamily": [
+    {
+      "german": "der Polizist / die Polizistin",
+      "english": "police officer",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Polizei, usually no plural.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Polizei"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ruf die Polizei!",
+      "english": "Call the police!",
+      "highlight": [
+        "Polizei!"
+      ]
+    },
+    {
+      "german": "Die Polizei ist schon da.",
+      "english": "The police are already here.",
+      "highlight": [
+        "Polizei"
+      ]
+    },
+    {
+      "german": "Die Nummer der Polizei ist 110.",
+      "english": "The police number is 110.",
+      "highlight": [
+        "Polizei"
+      ]
+    }
+  ],
+  "forms": [
+    "die Polizei"
+  ],
+  "memoryHook": "Die Polizei (stress on -ZEI), singular verb. Call 110. A police officer: der Polizist / die Polizistin.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Polizei",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Polizei is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Polizei mean?",
+      "options": [
+        "the child",
+        "slowly",
+        "police"
+      ],
+      "answer": "police",
+      "explanation": "Polizei: police.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Polizei takes a…",
+      "options": [
+        "singular verb",
+        "plural verb"
+      ],
+      "answer": "singular verb",
+      "explanation": "Die Polizei ist…",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "The police emergency number in Germany is…",
+      "options": [
+        "110",
+        "999"
+      ],
+      "answer": "110",
+      "explanation": "112 for fire and ambulance.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Where's the stress?",
+      "options": [
+        "PO-li-zei",
+        "po-li-ZEI"
+      ],
+      "answer": "po-li-ZEI",
+      "explanation": "-ei is stressed.",
+      "id": "q5"
+    }
+  ]
+}

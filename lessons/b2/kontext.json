@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Kontext",
+    "partOfSpeech": "noun, masculine (der Kontext)",
+    "pronunciation": {
+      "respelling": "KON-tekst",
+      "ipa": "ˈkɔntɛkst",
+      "notes": "Plural: die Kontexte."
+    },
+    "meaning": "context",
+    "shortDefinition": "Context."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Kontext, plural die Kontexte.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Kontext"
+        },
+        {
+          "label": "More than one",
+          "value": "die Kontexte"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Im Kontext ist das klar.",
+      "english": "In context that's clear.",
+      "highlight": [
+        "Kontext"
+      ]
+    },
+    {
+      "german": "Man muss das im historischen Kontext sehen.",
+      "english": "You have to see it in its historical context.",
+      "highlight": [
+        "Kontext"
+      ]
+    },
+    {
+      "german": "Ohne Kontext versteht man das nicht.",
+      "english": "Without context you can't understand it.",
+      "highlight": [
+        "Kontext"
+      ]
+    }
+  ],
+  "forms": [
+    "Zusammenhang"
+  ],
+  "memoryHook": "Der Kontext = Zusammenhang.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Kontext",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Kontext is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Kontext, zwei ___",
+      "answer": "Kontexte",
+      "fullAnswer": "ein Kontext, zwei Kontexte",
+      "explanation": "The plural is Kontexte.",
+      "acceptedAnswers": [
+        "Kontexte"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Kontext mean?",
+      "options": [
+        "context",
+        "slowly",
+        "the bread"
+      ],
+      "answer": "context",
+      "explanation": "Kontext: context.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonym:",
+      "options": [
+        "der Zusammenhang",
+        "der Text only"
+      ],
+      "answer": "der Zusammenhang",
+      "explanation": "Context.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Kontexte",
+        "Kontexts"
+      ],
+      "answer": "Kontexte",
+      "explanation": "-e.",
+      "id": "q5"
+    }
+  ]
+}

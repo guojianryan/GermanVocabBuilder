@@ -1,0 +1,131 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Laden",
+    "partOfSpeech": "noun, masculine (der Laden)",
+    "pronunciation": {
+      "respelling": "LAH-den",
+      "ipa": "ˈlaːdn̩",
+      "notes": "Plural: die Läden."
+    },
+    "meaning": "shop",
+    "shortDefinition": "Shop."
+  },
+  "wordFamily": [
+    {
+      "german": "das Geschäft",
+      "english": "shop",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Laden, plural die Läden.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Laden"
+        },
+        {
+          "label": "More than one",
+          "value": "die Läden"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Laden macht um acht zu.",
+      "english": "The shop closes at eight.",
+      "highlight": [
+        "Laden"
+      ]
+    },
+    {
+      "german": "Hier kaufe ich nichts. Der Laden gefällt mir nicht.",
+      "english": "I'm not buying anything here. I don't like the shop.",
+      "highlight": [
+        "Laden"
+      ]
+    },
+    {
+      "german": "In der Straße gibt es viele kleine Läden.",
+      "english": "There are lots of little shops in the street.",
+      "highlight": [
+        "Läden."
+      ]
+    }
+  ],
+  "forms": [
+    "Läden",
+    "die Läden",
+    "der Laden"
+  ],
+  "memoryHook": "Der Laden = shop; plural Läden. Ladenschluss = closing time.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Laden",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Laden is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Laden, zwei ___",
+      "answer": "Läden",
+      "fullAnswer": "ein Laden, zwei Läden",
+      "explanation": "The plural is Läden.",
+      "acceptedAnswers": [
+        "Laeden"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Laden mean?",
+      "options": [
+        "shop",
+        "the job",
+        "slowly"
+      ],
+      "answer": "shop",
+      "explanation": "Laden: shop.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Another word for Laden is…",
+      "options": [
+        "das Geschäft",
+        "der Markt"
+      ],
+      "answer": "das Geschäft",
+      "explanation": "Both mean shop.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Läden",
+        "Ladens"
+      ],
+      "answer": "Läden",
+      "explanation": "Umlaut, no ending.",
+      "id": "q5"
+    }
+  ]
+}

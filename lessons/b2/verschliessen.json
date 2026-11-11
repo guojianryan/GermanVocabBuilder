@@ -1,0 +1,180 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "verschließen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "fer-SHLEE-sen",
+      "ipa": "fɛɐ̯ˈʃliːsn̩",
+      "notes": ""
+    },
+    "meaning": "to lock, close, seal",
+    "shortDefinition": "To lock, close, seal."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "ver",
+        "meaning": "fully"
+      },
+      {
+        "part": "schließen",
+        "meaning": "to close"
+      }
+    ],
+    "literalMeaning": "to close fully"
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "verschließ|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "verschließ|t"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "verschließ|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "verschließ|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "verschließ|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "verschließ|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat verschlossen"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Bitte verschließen Sie die Tür.",
+      "english": "Please lock the door.",
+      "highlight": [
+        "verschließen"
+      ]
+    },
+    {
+      "german": "Das Glas ist gut verschlossen.",
+      "english": "The jar is sealed tight.",
+      "highlight": [
+        "verschlossen."
+      ]
+    },
+    {
+      "german": "Er verschließt die Augen vor der Wahrheit.",
+      "english": "He closes his eyes to the truth.",
+      "highlight": [
+        "verschließt"
+      ]
+    }
+  ],
+  "forms": [
+    "verschlossen",
+    "Verschluss"
+  ],
+  "memoryHook": "Verschließen (verschloss, verschlossen) = lock; verschlossen = reserved.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (verschließen)",
+      "answer": "verschließt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: verschließt.",
+      "acceptedAnswers": [
+        "verschliesst"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (verschließen, past)",
+      "answer": "verschlossen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe verschlossen.",
+      "acceptedAnswers": [
+        "verschlossen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does verschließen mean?",
+      "options": [
+        "hot",
+        "the bread",
+        "to lock"
+      ],
+      "answer": "to lock",
+      "explanation": "verschließen: to lock, close, seal.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Adjective 'verschlossen' (person):",
+      "options": [
+        "reserved, withdrawn",
+        "locked up"
+      ],
+      "answer": "reserved, withdrawn",
+      "explanation": "Reserved.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Lid, cap:",
+      "options": [
+        "der Verschluss",
+        "die Verschließe"
+      ],
+      "answer": "der Verschluss",
+      "explanation": "Closure.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "hat verschlossen",
+        "hat verschließt"
+      ],
+      "answer": "hat verschlossen",
+      "explanation": "Strong.",
+      "id": "q6"
+    }
+  ]
+}

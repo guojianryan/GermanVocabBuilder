@@ -1,0 +1,141 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Apfel",
+    "partOfSpeech": "noun, masculine (der Apfel)",
+    "pronunciation": {
+      "respelling": "AHP-fel",
+      "ipa": "ˈapfl̩",
+      "notes": "Pf: say both sounds. Plural: die Äpfel."
+    },
+    "meaning": "apple",
+    "shortDefinition": "Apple."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "summary": "The same word as English 'apple'. German shifted the p to pf.",
+    "cognates": [
+      {
+        "word": "apple",
+        "language": "English"
+      },
+      {
+        "word": "appel",
+        "language": "Dutch"
+      }
+    ]
+  },
+  "wordFamily": [
+    {
+      "german": "der Apfelsaft",
+      "english": "apple juice",
+      "type": "noun"
+    },
+    {
+      "german": "der Apfelkuchen",
+      "english": "apple cake",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Apfel, plural die Äpfel.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Apfel"
+        },
+        {
+          "label": "More than one",
+          "value": "die Äpfel"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ein Kilo Äpfel, bitte.",
+      "english": "A kilo of apples, please.",
+      "highlight": [
+        "Äpfel,"
+      ]
+    },
+    {
+      "german": "Ich esse jeden Tag einen Apfel.",
+      "english": "I eat an apple every day.",
+      "highlight": [
+        "Apfel."
+      ]
+    },
+    {
+      "german": "Möchtest du Apfelsaft oder Wasser?",
+      "english": "Would you like apple juice or water?",
+      "highlight": [
+        "Apfelsaft"
+      ]
+    }
+  ],
+  "forms": [
+    "Äpfel"
+  ],
+  "memoryHook": "Apfel is English 'apple' with the German pf. Many English p's became pf or f in German: Pfund (pound), Pfeffer (pepper).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Apfel",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Apfel is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Apfel, zwei ___",
+      "answer": "Äpfel",
+      "fullAnswer": "ein Apfel, zwei Äpfel",
+      "explanation": "The plural is Äpfel.",
+      "acceptedAnswers": [
+        "Äpfel"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "The pf in Apfel sounds like…",
+      "options": [
+        "p and f together",
+        "just f"
+      ],
+      "answer": "p and f together",
+      "explanation": "Say both: ap-fel.",
+      "id": "q3"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich esse einen ___. (apple)",
+      "answer": "Apfel",
+      "fullAnswer": "Ich esse einen Apfel.",
+      "explanation": "Masculine accusative: einen Apfel.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "der ___saft (apple juice)",
+      "answer": "Apfel",
+      "fullAnswer": "der Apfelsaft",
+      "explanation": "Apfel + Saft.",
+      "id": "q5"
+    }
+  ]
+}

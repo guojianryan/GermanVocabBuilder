@@ -1,0 +1,158 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "zittern",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "TSIT-ern",
+      "ipa": "ˈtsɪtɐn",
+      "notes": ""
+    },
+    "meaning": "to tremble, shake",
+    "shortDefinition": "To tremble, shake."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "zitter|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "zitter|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "zitter|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "zitter|n"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "zitter|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "zitter|n"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gezittert"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich zittere vor Kälte.",
+      "english": "I'm shivering with cold.",
+      "highlight": [
+        "zittere"
+      ]
+    },
+    {
+      "german": "Ihre Hände zittern.",
+      "english": "Her hands are shaking.",
+      "highlight": [
+        "zittern."
+      ]
+    },
+    {
+      "german": "Er zitterte vor Angst.",
+      "english": "He trembled with fear.",
+      "highlight": [
+        "zitterte"
+      ]
+    }
+  ],
+  "forms": [
+    "zittere",
+    "zitterst",
+    "zittert",
+    "zittern",
+    "gezittert"
+  ],
+  "memoryHook": "Zittern vor (Kälte, Angst).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (zittern)",
+      "answer": "zittert",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: zittert.",
+      "acceptedAnswers": [
+        "zittert"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (zittern, past)",
+      "answer": "gezittert",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gezittert.",
+      "acceptedAnswers": [
+        "gezittert"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does zittern mean?",
+      "options": [
+        "always",
+        "to tremble",
+        "hot"
+      ],
+      "answer": "to tremble",
+      "explanation": "zittern: to tremble, shake.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Shiver with cold:",
+      "options": [
+        "vor Kälte zittern",
+        "von Kälte zittern"
+      ],
+      "answer": "vor Kälte zittern",
+      "explanation": "Vor + cause.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonym:",
+      "options": [
+        "beben",
+        "lachen"
+      ],
+      "answer": "beben",
+      "explanation": "Tremble.",
+      "id": "q5"
+    }
+  ]
+}

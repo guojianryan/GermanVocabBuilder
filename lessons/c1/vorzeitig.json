@@ -1,0 +1,121 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "vorzeitig",
+    "partOfSpeech": "adjective",
+    "pronunciation": {
+      "respelling": "FOR-tsye-tikh",
+      "ipa": "ˈfoːɐ̯tsaɪ̯tɪç",
+      "notes": ""
+    },
+    "meaning": "premature, early",
+    "shortDefinition": "Premature, early."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "vor",
+        "meaning": "before"
+      },
+      {
+        "part": "zeit",
+        "meaning": "time"
+      },
+      {
+        "part": "ig",
+        "meaning": "adjective ending"
+      }
+    ],
+    "literalMeaning": "before (its) time"
+  },
+  "sampleSentences": [
+    {
+      "german": "Er ging vorzeitig in Rente.",
+      "english": "He took early retirement.",
+      "highlight": [
+        "vorzeitig"
+      ]
+    },
+    {
+      "german": "Eine vorzeitige Entlassung.",
+      "english": "An early release.",
+      "highlight": [
+        "vorzeitige"
+      ]
+    },
+    {
+      "german": "Das Spiel wurde vorzeitig beendet.",
+      "english": "The match was ended early.",
+      "highlight": [
+        "vorzeitig"
+      ]
+    }
+  ],
+  "forms": [],
+  "memoryHook": "Vor + Zeit = premature, early.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does vorzeitig mean?",
+      "options": [
+        "the car",
+        "premature",
+        "to sing"
+      ],
+      "answer": "premature",
+      "explanation": "vorzeitig: premature, early.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "vor + Zeit + -ig",
+        "vorzeigen"
+      ],
+      "answer": "vor + Zeit + -ig",
+      "explanation": "Before time.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonyms:",
+      "options": [
+        "verfrüht, früher als geplant",
+        "verspätet"
+      ],
+      "answer": "verfrüht, früher als geplant",
+      "explanation": "Early.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Opposite:",
+      "options": [
+        "verspätet",
+        "rechtzeitig"
+      ],
+      "answer": "verspätet",
+      "explanation": "Late.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Eine ___ Geburt. (premature)",
+      "answer": "vorzeitige",
+      "fullAnswer": "Eine vorzeitige Geburt.",
+      "explanation": "Vorzeitige.",
+      "acceptedAnswers": [
+        "verfrühte"
+      ],
+      "id": "q5"
+    }
+  ]
+}

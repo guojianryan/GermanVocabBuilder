@@ -1,0 +1,180 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "belasten",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "be-LAS-ten",
+      "ipa": "bəˈlastn̩",
+      "notes": ""
+    },
+    "meaning": "to burden, strain; to pollute; to incriminate",
+    "shortDefinition": "To burden, strain; to pollute; to incriminate."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "be",
+        "meaning": "put on"
+      },
+      {
+        "part": "lasten",
+        "meaning": "load (Last)"
+      }
+    ],
+    "literalMeaning": "to put a load on"
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "belast|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "belast|est"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "belast|et"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "belast|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "belast|et"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "belast|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat belastet"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Sorgen belasten ihn sehr.",
+      "english": "The worries weigh heavily on him.",
+      "highlight": [
+        "belasten"
+      ]
+    },
+    {
+      "german": "Autos belasten die Umwelt.",
+      "english": "Cars pollute the environment.",
+      "highlight": [
+        "belasten"
+      ]
+    },
+    {
+      "german": "Die Aussage belastet den Angeklagten.",
+      "english": "The statement incriminates the accused.",
+      "highlight": [
+        "belastet"
+      ]
+    }
+  ],
+  "forms": [
+    "Belastung",
+    "entlasten"
+  ],
+  "memoryHook": "Be + Last = burden ↔ entlasten; die Belastung.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (belasten)",
+      "answer": "belastet",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: belastet.",
+      "acceptedAnswers": [
+        "belastet"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (belasten, past)",
+      "answer": "belastet",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe belastet.",
+      "acceptedAnswers": [
+        "belastet"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does belasten mean?",
+      "options": [
+        "the child",
+        "to burden",
+        "the evening"
+      ],
+      "answer": "to burden",
+      "explanation": "belasten: to burden, strain; to pollute; to incriminate.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "die Last (load)",
+        "lassen"
+      ],
+      "answer": "die Last (load)",
+      "explanation": "Load.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Opposite:",
+      "options": [
+        "entlasten",
+        "verlasten"
+      ],
+      "answer": "entlasten",
+      "explanation": "Relieve.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "hat belastet",
+        "hat gebelastet"
+      ],
+      "answer": "hat belastet",
+      "explanation": "No ge-.",
+      "id": "q6"
+    }
+  ]
+}

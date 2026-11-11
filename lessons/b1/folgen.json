@@ -1,0 +1,170 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "folgen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "FOL-gen",
+      "ipa": "ˈfɔlɡn̩",
+      "notes": ""
+    },
+    "meaning": "to follow",
+    "shortDefinition": "To follow."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "folg|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "folg|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "folg|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "folg|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "folg|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "folg|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): ist gefolgt"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "die Folge",
+      "english": "consequence; episode",
+      "type": "noun"
+    },
+    {
+      "german": "folgend",
+      "english": "following",
+      "type": "adjective"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Folgen Sie mir bitte!",
+      "english": "Please follow me!",
+      "highlight": [
+        "Folgen"
+      ]
+    },
+    {
+      "german": "Ich folge dir auf Instagram.",
+      "english": "I follow you on Instagram.",
+      "highlight": [
+        "folge"
+      ]
+    },
+    {
+      "german": "Daraus folgt, dass …",
+      "english": "It follows that …",
+      "highlight": [
+        "folgt,"
+      ]
+    }
+  ],
+  "forms": [
+    "folge",
+    "folgst",
+    "folgt",
+    "folgen",
+    "gefolgt"
+  ],
+  "memoryHook": "Folgen + dative. Die Folge = consequence; folgend = following.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (folgen)",
+      "answer": "folgt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: folgt.",
+      "acceptedAnswers": [
+        "folgt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich bin schon ___. (folgen, past)",
+      "answer": "gefolgt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: bin gefolgt.",
+      "acceptedAnswers": [
+        "gefolgt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does folgen mean?",
+      "options": [
+        "the family",
+        "the child",
+        "to follow"
+      ],
+      "answer": "to follow",
+      "explanation": "folgen: to follow.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Folgen takes…",
+      "options": [
+        "dative",
+        "accusative"
+      ],
+      "answer": "dative",
+      "explanation": "Folgen Sie mir.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt with…",
+      "options": [
+        "sein (follow someone)",
+        "haben"
+      ],
+      "answer": "sein (follow someone)",
+      "explanation": "Ist gefolgt.",
+      "id": "q5"
+    }
+  ]
+}

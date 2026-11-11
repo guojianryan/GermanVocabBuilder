@@ -1,0 +1,154 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Geburtsort",
+    "partOfSpeech": "noun, masculine (der Geburtsort)",
+    "pronunciation": {
+      "respelling": "guh-BOORTS-ort",
+      "ipa": "ɡəˈbuːɐ̯tsˌʔɔʁt",
+      "notes": "Plural: die Geburtsorte."
+    },
+    "meaning": "place of birth",
+    "shortDefinition": "Place of birth."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Geburt",
+        "meaning": "birth"
+      },
+      {
+        "part": "s",
+        "meaning": "linking s"
+      },
+      {
+        "part": "ort",
+        "meaning": "place"
+      }
+    ],
+    "literalMeaning": "birth place"
+  },
+  "wordFamily": [
+    {
+      "german": "das Geburtsdatum",
+      "english": "date of birth",
+      "type": "noun"
+    },
+    {
+      "german": "der Wohnort",
+      "english": "place of residence",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Geburtsort, plural die Geburtsorte.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Geburtsort"
+        },
+        {
+          "label": "More than one",
+          "value": "die Geburtsorte"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Geburtsort: Istanbul.",
+      "english": "Place of birth: Istanbul.",
+      "highlight": [
+        "Geburtsort:"
+      ]
+    },
+    {
+      "german": "Wie heißt Ihr Geburtsort?",
+      "english": "What's your place of birth?",
+      "highlight": [
+        "Geburtsort?"
+      ]
+    },
+    {
+      "german": "Mein Geburtsort ist ein kleines Dorf.",
+      "english": "My birthplace is a small village.",
+      "highlight": [
+        "Geburtsort"
+      ]
+    }
+  ],
+  "forms": [
+    "Geburtsorte",
+    "die Geburtsorte",
+    "der Geburtsort"
+  ],
+  "memoryHook": "Geburt + s + Ort (place). On forms next to Geburtsdatum (date of birth).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Geburtsort",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Geburtsort is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Geburtsort, zwei ___",
+      "answer": "Geburtsorte",
+      "fullAnswer": "ein Geburtsort, zwei Geburtsorte",
+      "explanation": "The plural is Geburtsorte.",
+      "acceptedAnswers": [
+        "Geburtsorte"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Geburtsort mean?",
+      "options": [
+        "expensive",
+        "place of birth",
+        "the bread"
+      ],
+      "answer": "place of birth",
+      "explanation": "Geburtsort: place of birth.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Der Ort means…",
+      "options": [
+        "place",
+        "word"
+      ],
+      "answer": "place",
+      "explanation": "Geburt + s + Ort.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "On a form, Geburtsort asks for…",
+      "options": [
+        "the town where you were born",
+        "your birthday"
+      ],
+      "answer": "the town where you were born",
+      "explanation": "Ort: place.",
+      "id": "q5"
+    }
+  ]
+}

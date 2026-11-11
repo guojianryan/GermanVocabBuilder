@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Ministerium",
+    "partOfSpeech": "noun, neuter (das Ministerium)",
+    "pronunciation": {
+      "respelling": "mi-nis-TAY-ri-oom",
+      "ipa": "minɪsˈteːʁi̯ʊm",
+      "notes": "Plural: die Ministerien."
+    },
+    "meaning": "ministry, department",
+    "shortDefinition": "Ministry, department."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Ministerium, plural die Ministerien.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Ministerium"
+        },
+        {
+          "label": "More than one",
+          "value": "die Ministerien"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Sie arbeitet im Ministerium.",
+      "english": "She works at the ministry.",
+      "highlight": [
+        "Ministerium."
+      ]
+    },
+    {
+      "german": "Das Gesundheitsministerium warnt.",
+      "english": "The Ministry of Health is warning.",
+      "highlight": [
+        "Gesundheitsministerium"
+      ]
+    },
+    {
+      "german": "Die Ministerien sind in Berlin.",
+      "english": "The ministries are in Berlin.",
+      "highlight": [
+        "Ministerien"
+      ]
+    }
+  ],
+  "forms": [
+    "Minister"
+  ],
+  "memoryHook": "Der Minister → das Ministerium (die Ministerien).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Ministerium",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Ministerium is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Ministerium, zwei ___",
+      "answer": "Ministerien",
+      "fullAnswer": "ein Ministerium, zwei Ministerien",
+      "explanation": "The plural is Ministerien.",
+      "acceptedAnswers": [
+        "Ministerien"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Ministerium mean?",
+      "options": [
+        "ministry",
+        "cheap",
+        "the car"
+      ],
+      "answer": "ministry",
+      "explanation": "Ministerium: ministry, department.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Ministerien",
+        "Ministeriums"
+      ],
+      "answer": "Ministerien",
+      "explanation": "-um → -en.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Head:",
+      "options": [
+        "der Minister / die Ministerin",
+        "der Ministerer"
+      ],
+      "answer": "der Minister / die Ministerin",
+      "explanation": "Minister.",
+      "id": "q5"
+    }
+  ]
+}

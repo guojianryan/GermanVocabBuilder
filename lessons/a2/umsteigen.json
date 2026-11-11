@@ -1,0 +1,186 @@
+{
+ "schemaVersion": "1.4",
+ "language": "de",
+ "explanationLanguage": "en",
+ "level": "A2",
+ "levelSource": "Goethe-Zertifikat A2 Wortliste",
+ "lessonType": "card",
+ "word": {
+  "headword": "umsteigen",
+  "partOfSpeech": "separable verb",
+  "pronunciation": {
+   "respelling": "OOM-shtye-gen",
+   "ipa": "ˈʊmʃtaɪ̯ɡn̩",
+   "notes": ""
+  },
+  "meaning": "to change (trains, buses)",
+  "shortDefinition": "To change (trains, buses)."
+ },
+ "tables": [
+  {
+   "title": "Present tense",
+   "columns": [
+    "present"
+   ],
+   "rows": [
+    {
+     "label": "ich",
+     "cells": [
+      "steig|e … |um"
+     ]
+    },
+    {
+     "label": "du",
+     "cells": [
+      "steig|st … |um"
+     ]
+    },
+    {
+     "label": "er, sie, es",
+     "cells": [
+      "steig|t … |um"
+     ]
+    },
+    {
+     "label": "wir",
+     "cells": [
+      "steig|en … |um"
+     ]
+    },
+    {
+     "label": "ihr",
+     "cells": [
+      "steig|t … |um"
+     ]
+    },
+    {
+     "label": "sie, Sie",
+     "cells": [
+      "steig|en … |um"
+     ]
+    }
+   ],
+   "notes": [
+    "Past (Perfekt): ist umgestiegen"
+   ]
+  }
+ ],
+ "wordFamily": [
+  {
+   "german": "einsteigen",
+   "english": "to get on",
+   "type": "verb"
+  },
+  {
+   "german": "aussteigen",
+   "english": "to get off",
+   "type": "verb"
+  }
+ ],
+ "sampleSentences": [
+  {
+   "german": "In Köln müssen Sie umsteigen.",
+   "english": "You have to change in Cologne.",
+   "highlight": [
+    "umsteigen."
+   ]
+  },
+  {
+   "german": "Wo steige ich um?",
+   "english": "Where do I change?",
+   "highlight": [
+    "steige",
+    "um?"
+   ]
+  },
+  {
+   "german": "Wir sind in Frankfurt umgestiegen.",
+   "english": "We changed in Frankfurt.",
+   "highlight": [
+    "umgestiegen."
+   ]
+  }
+ ],
+ "forms": [
+  "steige um",
+  "steigst um",
+  "steigt um",
+  "steigen um",
+  "umgestiegen"
+ ],
+ "memoryHook": "Ein-, aus-, umsteigen: on, off, change.",
+ "signOff": "Gut gemacht!",
+ "quiz": [
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "er ___ … um (umsteigen)",
+   "answer": "steigt",
+   "fullAnswer": "",
+   "explanation": "For er, sie, es: steigt … um.",
+   "acceptedAnswers": [
+    "steigt"
+   ],
+   "id": "q1"
+  },
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "Ich bin schon ___. (umsteigen, past)",
+   "answer": "umgestiegen",
+   "fullAnswer": "",
+   "explanation": "Perfekt: bin umgestiegen.",
+   "acceptedAnswers": [
+    "umgestiegen"
+   ],
+   "id": "q2"
+  },
+  {
+   "type": "choice",
+   "prompt": "What does umsteigen mean?",
+   "options": [
+    "to change (trains",
+    "the car",
+    "to learn"
+   ],
+   "answer": "to change (trains",
+   "explanation": "umsteigen: to change (trains, buses).",
+   "id": "q3"
+  },
+  {
+   "type": "choice",
+   "prompt": "Perfekt with…",
+   "options": [
+    "sein",
+    "haben"
+   ],
+   "answer": "sein",
+   "explanation": "Movement.",
+   "id": "q4"
+  },
+  {
+   "type": "choice",
+   "prompt": "Get on, get off, change:",
+   "options": [
+    "einsteigen, aussteigen, umsteigen",
+    "einsteigen, absteigen, umsteigen"
+   ],
+   "answer": "einsteigen, aussteigen, umsteigen",
+   "explanation": "Three steigen verbs.",
+   "id": "q5"
+  }
+ ],
+ "etymology": {
+  "title": "Where it comes from",
+  "parts": [
+   {
+    "part": "um",
+    "meaning": "around; change",
+    "emphasis": "turn"
+   },
+   {
+    "part": "steigen",
+    "meaning": "to climb"
+   }
+  ],
+  "literalMeaning": "to climb over (to another train)"
+ }
+}

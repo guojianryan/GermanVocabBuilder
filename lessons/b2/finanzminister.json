@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Finanzminister",
+    "partOfSpeech": "noun, masculine (der Finanzminister)",
+    "pronunciation": {
+      "respelling": "fi-NANTS-mi-nis-ter",
+      "ipa": "fiˈnantsmiˌnɪstɐ",
+      "notes": "The plural looks the same. Plural: die Finanzminister."
+    },
+    "meaning": "finance minister",
+    "shortDefinition": "Finance minister."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Finanz",
+        "meaning": "finance"
+      },
+      {
+        "part": "minister",
+        "meaning": "minister"
+      }
+    ],
+    "literalMeaning": "finance minister"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Finanzminister, plural die Finanzminister.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Finanzminister"
+        },
+        {
+          "label": "More than one",
+          "value": "die Finanzminister"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Finanzminister stellt den Haushalt vor.",
+      "english": "The finance minister presents the budget.",
+      "highlight": [
+        "Finanzminister"
+      ]
+    },
+    {
+      "german": "Die Finanzministerin will sparen.",
+      "english": "The finance minister wants to save.",
+      "highlight": [
+        "Finanzministerin"
+      ]
+    },
+    {
+      "german": "Ein Treffen der Finanzminister.",
+      "english": "A meeting of finance ministers.",
+      "highlight": [
+        "Finanzminister."
+      ]
+    }
+  ],
+  "forms": [
+    "Finanzministerin",
+    "Finanzministerium"
+  ],
+  "memoryHook": "Finanz + Minister = finance minister.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Finanzminister",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Finanzminister is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Finanzminister, zwei ___",
+      "answer": "Finanzminister",
+      "fullAnswer": "ein Finanzminister, zwei Finanzminister",
+      "explanation": "The plural is Finanzminister.",
+      "acceptedAnswers": [
+        "Finanzminister"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Finanzminister mean?",
+      "options": [
+        "finance minister",
+        "always",
+        "cheap"
+      ],
+      "answer": "finance minister",
+      "explanation": "Finanzminister: finance minister.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Finanz + Minister",
+        "Finanzen + Ministerium"
+      ],
+      "answer": "Finanz + Minister",
+      "explanation": "Compound.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ministry:",
+      "options": [
+        "das Finanzministerium",
+        "das Finanzamt"
+      ],
+      "answer": "das Finanzministerium",
+      "explanation": "Finanzamt = tax office.",
+      "id": "q5"
+    }
+  ]
+}

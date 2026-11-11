@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Frisur",
+    "partOfSpeech": "noun, feminine (die Frisur)",
+    "pronunciation": {
+      "respelling": "fri-ZOOR",
+      "ipa": "fʁiˈzuːɐ̯",
+      "notes": "Plural: die Frisuren."
+    },
+    "meaning": "hairstyle",
+    "shortDefinition": "Hairstyle."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Frisur, plural die Frisuren.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Frisur"
+        },
+        {
+          "label": "More than one",
+          "value": "die Frisuren"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Du hast eine neue Frisur!",
+      "english": "You've got a new hairstyle!",
+      "highlight": [
+        "Frisur!"
+      ]
+    },
+    {
+      "german": "Die Frisur steht dir gut.",
+      "english": "The hairstyle suits you.",
+      "highlight": [
+        "Frisur"
+      ]
+    },
+    {
+      "german": "Er hat eine komische Frisur.",
+      "english": "He has a funny haircut.",
+      "highlight": [
+        "Frisur."
+      ]
+    }
+  ],
+  "forms": [
+    "Frisuren",
+    "die Frisuren",
+    "die Frisur"
+  ],
+  "memoryHook": "Der Friseur makes die Frisur.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Frisur",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Frisur is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Frisur, zwei ___",
+      "answer": "Frisuren",
+      "fullAnswer": "ein Frisur, zwei Frisuren",
+      "explanation": "The plural is Frisuren.",
+      "acceptedAnswers": [
+        "Frisuren"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Frisur mean?",
+      "options": [
+        "hairstyle",
+        "to learn",
+        "the bed"
+      ],
+      "answer": "hairstyle",
+      "explanation": "Frisur: hairstyle.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Related to…",
+      "options": [
+        "der Friseur (hairdresser)",
+        "frisch"
+      ],
+      "answer": "der Friseur (hairdresser)",
+      "explanation": "Hair.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Steht dir gut' means…",
+      "options": [
+        "suits you",
+        "stands well"
+      ],
+      "answer": "suits you",
+      "explanation": "Compliment.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Tour",
+    "partOfSpeech": "noun, feminine (die Tour)",
+    "pronunciation": {
+      "respelling": "TOOR",
+      "ipa": "tuːɐ̯",
+      "notes": "Plural: die Touren."
+    },
+    "meaning": "tour, trip",
+    "shortDefinition": "Tour, trip."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Tour, plural die Touren.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Tour"
+        },
+        {
+          "label": "More than one",
+          "value": "die Touren"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir machen eine Tour durch die Stadt.",
+      "english": "We're doing a tour of the city.",
+      "highlight": [
+        "Tour"
+      ]
+    },
+    {
+      "german": "Die Radtour war super.",
+      "english": "The bike tour was great.",
+      "highlight": [
+        "Radtour"
+      ]
+    },
+    {
+      "german": "Die Band ist auf Tour.",
+      "english": "The band is on tour.",
+      "highlight": [
+        "Tour."
+      ]
+    }
+  ],
+  "forms": [
+    "Touren",
+    "die Touren",
+    "die Tour"
+  ],
+  "memoryHook": "Die Tour: Radtour, Stadttour, auf Tour.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Tour",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Tour is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Tour, zwei ___",
+      "answer": "Touren",
+      "fullAnswer": "ein Tour, zwei Touren",
+      "explanation": "The plural is Touren.",
+      "acceptedAnswers": [
+        "Touren"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Tour mean?",
+      "options": [
+        "the weather",
+        "tour",
+        "slowly"
+      ],
+      "answer": "tour",
+      "explanation": "Tour: tour, trip.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "A bike tour:",
+      "options": [
+        "eine Radtour",
+        "eine Radreise only"
+      ],
+      "answer": "eine Radtour",
+      "explanation": "Rad + Tour.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gender:",
+      "options": [
+        "die",
+        "der"
+      ],
+      "answer": "die",
+      "explanation": "Die Tour.",
+      "id": "q5"
+    }
+  ]
+}

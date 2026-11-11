@@ -1,0 +1,158 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "tanken",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "TANG-ken",
+      "ipa": "ˈtaŋkn̩",
+      "notes": ""
+    },
+    "meaning": "to fill up (with fuel)",
+    "shortDefinition": "To fill up (with fuel)."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "tank|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "tank|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "tank|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "tank|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "tank|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "tank|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat getankt"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich muss noch tanken.",
+      "english": "I still need to get petrol.",
+      "highlight": [
+        "tanken."
+      ]
+    },
+    {
+      "german": "Wir haben in Österreich getankt.",
+      "english": "We filled up in Austria.",
+      "highlight": [
+        "getankt."
+      ]
+    },
+    {
+      "german": "Ich tanke Sonne im Urlaub.",
+      "english": "I soak up the sun on holiday.",
+      "highlight": [
+        "tanke"
+      ]
+    }
+  ],
+  "forms": [
+    "tanke",
+    "tankst",
+    "tankt",
+    "tanken",
+    "getankt"
+  ],
+  "memoryHook": "Tanken → die Tankstelle.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (tanken)",
+      "answer": "tankt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: tankt.",
+      "acceptedAnswers": [
+        "tankt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (tanken, past)",
+      "answer": "getankt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe getankt.",
+      "acceptedAnswers": [
+        "getankt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does tanken mean?",
+      "options": [
+        "to fill up (with fuel)",
+        "the flower",
+        "the car"
+      ],
+      "answer": "to fill up (with fuel)",
+      "explanation": "tanken: to fill up (with fuel).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Petrol station:",
+      "options": [
+        "die Tankstelle",
+        "die Benzinstelle"
+      ],
+      "answer": "die Tankstelle",
+      "explanation": "Tank place.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Sonne tanken' means…",
+      "options": [
+        "to soak up the sun",
+        "to buy solar"
+      ],
+      "answer": "to soak up the sun",
+      "explanation": "Figurative.",
+      "id": "q5"
+    }
+  ]
+}

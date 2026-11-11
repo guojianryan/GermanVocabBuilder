@@ -1,0 +1,175 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "zahlen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "TSAH-len",
+      "ipa": "ˈtsaːlən",
+      "notes": ""
+    },
+    "meaning": "to pay",
+    "shortDefinition": "To pay."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "zahl|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "zahl|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "zahl|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "zahl|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "zahl|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "zahl|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gezahlt"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "bezahlen",
+      "english": "to pay (for)",
+      "type": "verb"
+    },
+    {
+      "german": "die Zahl",
+      "english": "number",
+      "type": "noun"
+    },
+    {
+      "german": "zählen",
+      "english": "to count",
+      "type": "verb"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Zahlen, bitte!",
+      "english": "The bill, please!",
+      "highlight": [
+        "Zahlen,"
+      ]
+    },
+    {
+      "german": "Kann ich mit Karte zahlen?",
+      "english": "Can I pay by card?",
+      "highlight": [
+        "zahlen?"
+      ]
+    },
+    {
+      "german": "Das macht zusammen 2 Euro 80.",
+      "english": "That comes to 2 euros 80 altogether.",
+      "highlight": [
+        "zusammen"
+      ]
+    }
+  ],
+  "forms": [
+    "zahle",
+    "zahlst",
+    "zahlt",
+    "zahlen",
+    "gezahlt"
+  ],
+  "memoryHook": "Zahlen = pay (zählen with ä = count). Zahlen, bitte! = The bill, please. Zusammen oder getrennt?",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (zahlen)",
+      "answer": "zahlt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: zahlt.",
+      "acceptedAnswers": [
+        "zahlt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (zahlen, past)",
+      "answer": "gezahlt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gezahlt.",
+      "acceptedAnswers": [
+        "gezahlt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does zahlen mean?",
+      "options": [
+        "to pay",
+        "the bed",
+        "the bread"
+      ],
+      "answer": "to pay",
+      "explanation": "zahlen: to pay.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Zahlen vs bezahlen:",
+      "options": [
+        "both mean pay",
+        "zahlen = count"
+      ],
+      "answer": "both mean pay",
+      "explanation": "Counting is zählen.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Zusammen oder getrennt?' asks if you pay…",
+      "options": [
+        "together or separately",
+        "now or later"
+      ],
+      "answer": "together or separately",
+      "explanation": "Common in restaurants.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Prinz",
+    "partOfSpeech": "noun, masculine (der Prinz)",
+    "pronunciation": {
+      "respelling": "PRINTS",
+      "ipa": "pʁɪnts",
+      "notes": "Plural: die Prinzen."
+    },
+    "meaning": "prince",
+    "shortDefinition": "Prince."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Prinz, plural die Prinzen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Prinz"
+        },
+        {
+          "label": "More than one",
+          "value": "die Prinzen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Prinz heiratet die Prinzessin.",
+      "english": "The prince marries the princess.",
+      "highlight": [
+        "Prinz"
+      ]
+    },
+    {
+      "german": "Sie wartet auf ihren Prinzen.",
+      "english": "She's waiting for her prince.",
+      "highlight": [
+        "Prinzen."
+      ]
+    },
+    {
+      "german": "Der kleine Prinz.",
+      "english": "The Little Prince.",
+      "highlight": [
+        "Prinz."
+      ]
+    }
+  ],
+  "forms": [
+    "Prinzessin"
+  ],
+  "memoryHook": "Der Prinz (weak), die Prinzessin.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Prinz",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Prinz is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Prinz, zwei ___",
+      "answer": "Prinzen",
+      "fullAnswer": "ein Prinz, zwei Prinzen",
+      "explanation": "The plural is Prinzen.",
+      "acceptedAnswers": [
+        "Prinzen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Prinz mean?",
+      "options": [
+        "the shop",
+        "prince",
+        "the car"
+      ],
+      "answer": "prince",
+      "explanation": "Prinz: prince.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Weak noun: den/dem…",
+      "options": [
+        "Prinzen",
+        "Prinz"
+      ],
+      "answer": "Prinzen",
+      "explanation": "-en.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Female:",
+      "options": [
+        "die Prinzessin",
+        "die Prinzin"
+      ],
+      "answer": "die Prinzessin",
+      "explanation": "-essin.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Gewehr",
+    "partOfSpeech": "noun, neuter (das Gewehr)",
+    "pronunciation": {
+      "respelling": "ge-VAIR",
+      "ipa": "ɡəˈveːɐ̯",
+      "notes": "Plural: die Gewehre."
+    },
+    "meaning": "rifle, gun",
+    "shortDefinition": "Rifle, gun."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Gewehr, plural die Gewehre.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Gewehr"
+        },
+        {
+          "label": "More than one",
+          "value": "die Gewehre"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Jäger hat ein Gewehr.",
+      "english": "The hunter has a rifle.",
+      "highlight": [
+        "Gewehr."
+      ]
+    },
+    {
+      "german": "Die Soldaten tragen Gewehre.",
+      "english": "The soldiers carry rifles.",
+      "highlight": [
+        "Gewehre."
+      ]
+    },
+    {
+      "german": "Gewehr bei Fuß stehen.",
+      "english": "To be at the ready.",
+      "highlight": [
+        "Gewehr"
+      ]
+    }
+  ],
+  "forms": [
+    "Pistole"
+  ],
+  "memoryHook": "Das Gewehr (rifle); sich wehren.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Gewehr",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Gewehr is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Gewehr, zwei ___",
+      "answer": "Gewehre",
+      "fullAnswer": "ein Gewehr, zwei Gewehre",
+      "explanation": "The plural is Gewehre.",
+      "acceptedAnswers": [
+        "Gewehre"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Gewehr mean?",
+      "options": [
+        "tomorrow",
+        "the bed",
+        "rifle"
+      ],
+      "answer": "rifle",
+      "explanation": "Gewehr: rifle, gun.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gewehr vs Pistole:",
+      "options": [
+        "long gun vs handgun",
+        "same"
+      ],
+      "answer": "long gun vs handgun",
+      "explanation": "Size.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Related:",
+      "options": [
+        "sich wehren (defend oneself)",
+        "wehen"
+      ],
+      "answer": "sich wehren (defend oneself)",
+      "explanation": "Defence.",
+      "id": "q5"
+    }
+  ]
+}

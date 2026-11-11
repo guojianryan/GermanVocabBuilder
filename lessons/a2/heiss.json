@@ -1,0 +1,115 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "heiß",
+    "partOfSpeech": "adjective",
+    "pronunciation": {
+      "respelling": "HICE",
+      "ipa": "haɪ̯s",
+      "notes": ""
+    },
+    "meaning": "hot",
+    "shortDefinition": "Hot."
+  },
+  "commonMistakes": [
+    {
+      "title": "Mir ist heiß",
+      "explanation": "Feeling hot or cold uses mir.",
+      "wrong": "Ich bin heiß.",
+      "correct": "Mir ist heiß."
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Heute ist es sehr heiß.",
+      "english": "It's very hot today.",
+      "highlight": [
+        "heiß."
+      ]
+    },
+    {
+      "german": "Vorsicht, der Kaffee ist heiß!",
+      "english": "Careful, the coffee is hot!",
+      "highlight": [
+        "heiß!"
+      ]
+    },
+    {
+      "german": "Ich hätte gern eine heiße Schokolade.",
+      "english": "I'd like a hot chocolate.",
+      "highlight": [
+        "heiße"
+      ]
+    }
+  ],
+  "forms": [
+    "heiße",
+    "heißer",
+    "heißen"
+  ],
+  "memoryHook": "Mir ist heiß = I'm hot (never 'ich bin heiß'!). Spicy = scharf.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does heiß mean?",
+      "options": [
+        "tomorrow",
+        "hot",
+        "always"
+      ],
+      "answer": "hot",
+      "explanation": "heiß: hot.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Heiß or scharf? Spicy food:",
+      "options": [
+        "scharf",
+        "heiß"
+      ],
+      "answer": "scharf",
+      "explanation": "Heiß = temperature only.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "'I'm hot':",
+      "options": [
+        "Mir ist heiß.",
+        "Ich bin heiß."
+      ],
+      "answer": "Mir ist heiß.",
+      "explanation": "'Ich bin heiß' sounds sexual!",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Heiß or heißen? 'My name is':",
+      "options": [
+        "Ich heiße…",
+        "Ich heiß…"
+      ],
+      "answer": "Ich heiße…",
+      "explanation": "Different word.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Es ist ___ draußen. (hot)",
+      "answer": "heiß",
+      "fullAnswer": "Es ist heiß draußen.",
+      "explanation": "Heiß.",
+      "acceptedAnswers": [
+        "heiss"
+      ],
+      "id": "q5"
+    }
+  ]
+}

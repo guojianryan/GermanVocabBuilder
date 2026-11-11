@@ -1,0 +1,158 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "suchen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "ZOO-khen",
+      "ipa": "ˈzuːxn̩",
+      "notes": ""
+    },
+    "meaning": "to look for, to search",
+    "shortDefinition": "To look for, to search."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "such|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "such|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "such|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "such|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "such|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "such|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gesucht"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich suche meinen Schlüssel.",
+      "english": "I'm looking for my key.",
+      "highlight": [
+        "suche"
+      ]
+    },
+    {
+      "german": "Wir suchen eine Wohnung.",
+      "english": "We're looking for a flat.",
+      "highlight": [
+        "suchen"
+      ]
+    },
+    {
+      "german": "Er sucht Arbeit.",
+      "english": "He's looking for work.",
+      "highlight": [
+        "sucht"
+      ]
+    }
+  ],
+  "forms": [
+    "suche",
+    "suchst",
+    "sucht",
+    "suchen",
+    "gesucht"
+  ],
+  "memoryHook": "Suchen + accusative, no 'for': Ich suche den Bahnhof.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (suchen)",
+      "answer": "sucht",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: sucht.",
+      "acceptedAnswers": [
+        "sucht"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (suchen, past)",
+      "answer": "gesucht",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gesucht.",
+      "acceptedAnswers": [
+        "gesucht"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does suchen mean?",
+      "options": [
+        "the car",
+        "to look for",
+        "the child"
+      ],
+      "answer": "to look for",
+      "explanation": "suchen: to look for, to search.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Looking FOR' needs…",
+      "options": [
+        "no preposition: Ich suche den Bus.",
+        "für: Ich suche für den Bus."
+      ],
+      "answer": "no preposition: Ich suche den Bus.",
+      "explanation": "Suchen + accusative.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Searching and finding: suchen and…",
+      "options": [
+        "finden",
+        "fahren"
+      ],
+      "answer": "finden",
+      "explanation": "Suchen und finden.",
+      "id": "q5"
+    }
+  ]
+}

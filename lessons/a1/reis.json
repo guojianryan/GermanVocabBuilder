@@ -1,0 +1,115 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Reis",
+    "partOfSpeech": "noun, masculine (der Reis)",
+    "pronunciation": {
+      "respelling": "RICE",
+      "ipa": "ʁaɪ̯s",
+      "notes": "No plural. Usually no plural."
+    },
+    "meaning": "rice",
+    "shortDefinition": "Rice."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Reis, usually no plural.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Reis"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich esse gern Reis.",
+      "english": "I like rice.",
+      "highlight": [
+        "Reis."
+      ]
+    },
+    {
+      "german": "Es gibt Hähnchen mit Reis.",
+      "english": "There's chicken with rice.",
+      "highlight": [
+        "Reis."
+      ]
+    },
+    {
+      "german": "Der Reis ist noch nicht fertig.",
+      "english": "The rice isn't ready yet.",
+      "highlight": [
+        "Reis"
+      ]
+    }
+  ],
+  "forms": [
+    "der Reis"
+  ],
+  "memoryHook": "Der Reis = rice (sounds the same). Die Reise = journey.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Reis",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Reis is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Reis mean?",
+      "options": [
+        "the flower",
+        "never",
+        "rice"
+      ],
+      "answer": "rice",
+      "explanation": "Reis: rice.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Reis sounds like…",
+      "options": [
+        "English 'rice'",
+        "English 'race'"
+      ],
+      "answer": "English 'rice'",
+      "explanation": "Ei = 'eye'.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Reis (rice) vs die Reise (trip):",
+      "options": [
+        "different words",
+        "the same"
+      ],
+      "answer": "different words",
+      "explanation": "Reise: journey.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Hähnchen mit ___ (rice)",
+      "answer": "Reis",
+      "fullAnswer": "Hähnchen mit Reis",
+      "explanation": "Der Reis.",
+      "id": "q5"
+    }
+  ]
+}

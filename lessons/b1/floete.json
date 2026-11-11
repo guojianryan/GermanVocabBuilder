@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Flöte",
+    "partOfSpeech": "noun, feminine (die Flöte)",
+    "pronunciation": {
+      "respelling": "FLÖ-te",
+      "ipa": "ˈfløːtə",
+      "notes": "Plural: die Flöten."
+    },
+    "meaning": "flute; recorder",
+    "shortDefinition": "Flute; recorder."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Flöte, plural die Flöten.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Flöte"
+        },
+        {
+          "label": "More than one",
+          "value": "die Flöten"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Meine Tochter lernt Flöte.",
+      "english": "My daughter is learning the recorder.",
+      "highlight": [
+        "Flöte."
+      ]
+    },
+    {
+      "german": "Er spielt Querflöte im Orchester.",
+      "english": "He plays flute in the orchestra.",
+      "highlight": [
+        "Querflöte"
+      ]
+    },
+    {
+      "german": "Die Flöte klingt schön.",
+      "english": "The flute sounds lovely.",
+      "highlight": [
+        "Flöte"
+      ]
+    }
+  ],
+  "forms": [
+    "Flöten",
+    "die Flöten",
+    "die Flöte"
+  ],
+  "memoryHook": "Die Flöte: Blockflöte (recorder), Querflöte (flute).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Flöte",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Flöte is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Flöte, zwei ___",
+      "answer": "Flöten",
+      "fullAnswer": "ein Flöte, zwei Flöten",
+      "explanation": "The plural is Flöten.",
+      "acceptedAnswers": [
+        "Floeten"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Flöte mean?",
+      "options": [
+        "flute",
+        "the key",
+        "tomorrow"
+      ],
+      "answer": "flute",
+      "explanation": "Flöte: flute; recorder.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "A recorder is…",
+      "options": [
+        "die Blockflöte",
+        "die Querflöte"
+      ],
+      "answer": "die Blockflöte",
+      "explanation": "Block.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Flöte spielen' (no article):",
+      "options": [
+        "correct",
+        "wrong"
+      ],
+      "answer": "correct",
+      "explanation": "Instruments.",
+      "id": "q5"
+    }
+  ]
+}

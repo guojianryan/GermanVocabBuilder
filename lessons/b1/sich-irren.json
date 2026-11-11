@@ -1,0 +1,167 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "(sich) irren",
+    "partOfSpeech": "reflexive verb",
+    "pronunciation": {
+      "respelling": "EER-en",
+      "ipa": "ˈɪʁən",
+      "notes": ""
+    },
+    "meaning": "to be wrong, to make a mistake",
+    "shortDefinition": "To be wrong, to make a mistake."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "irr|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "irr|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "irr|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "irr|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "irr|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "irr|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat geirrt"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "der Irrtum",
+      "english": "error",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Da irrst du dich!",
+      "english": "You're wrong there!",
+      "highlight": [
+        "irrst",
+        "dich!"
+      ]
+    },
+    {
+      "german": "Ich habe mich in der Zeit geirrt.",
+      "english": "I got the time wrong.",
+      "highlight": [
+        "mich",
+        "geirrt."
+      ]
+    },
+    {
+      "german": "Irren ist menschlich.",
+      "english": "To err is human.",
+      "highlight": [
+        "Irren"
+      ]
+    }
+  ],
+  "forms": [
+    "irre",
+    "irrst",
+    "irrt",
+    "irren",
+    "geirrt"
+  ],
+  "memoryHook": "Sich irren = be wrong. Der Irrtum = mistake. Irre = crazy!",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ ((sich) irren)",
+      "answer": "irrt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: irrt.",
+      "acceptedAnswers": [
+        "irrt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe mich schon ___. ((sich) irren, past)",
+      "answer": "geirrt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe mich geirrt.",
+      "acceptedAnswers": [
+        "geirrt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does (sich) irren mean?",
+      "options": [
+        "the door",
+        "to be wrong",
+        "the family"
+      ],
+      "answer": "to be wrong",
+      "explanation": "(sich) irren: to be wrong, to make a mistake.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Ich habe mich geirrt' means…",
+      "options": [
+        "I was wrong",
+        "I got lost"
+      ],
+      "answer": "I was wrong",
+      "explanation": "Mistaken.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Irren ist menschlich' means…",
+      "options": [
+        "to err is human",
+        "humans are mad"
+      ],
+      "answer": "to err is human",
+      "explanation": "Proverb.",
+      "id": "q5"
+    }
+  ]
+}

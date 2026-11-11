@@ -1,0 +1,170 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "buchen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "BOO-khen",
+      "ipa": "ˈbuːxn̩",
+      "notes": ""
+    },
+    "meaning": "to book",
+    "shortDefinition": "To book."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "buch|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "buch|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "buch|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "buch|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "buch|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "buch|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gebucht"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "die Buchung",
+      "english": "booking",
+      "type": "noun"
+    },
+    {
+      "german": "reservieren",
+      "english": "to reserve",
+      "type": "verb"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich habe einen Flug nach Rom gebucht.",
+      "english": "I've booked a flight to Rome.",
+      "highlight": [
+        "gebucht."
+      ]
+    },
+    {
+      "german": "Wir buchen das Hotel online.",
+      "english": "We're booking the hotel online.",
+      "highlight": [
+        "buchen"
+      ]
+    },
+    {
+      "german": "Ist der Tisch schon gebucht?",
+      "english": "Is the table already booked?",
+      "highlight": [
+        "gebucht?"
+      ]
+    }
+  ],
+  "forms": [
+    "buche",
+    "buchst",
+    "bucht",
+    "buchen",
+    "gebucht"
+  ],
+  "memoryHook": "Buchen = book (a trip). Die Buchung = booking. Ausgebucht = full.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (buchen)",
+      "answer": "bucht",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: bucht.",
+      "acceptedAnswers": [
+        "bucht"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (buchen, past)",
+      "answer": "gebucht",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gebucht.",
+      "acceptedAnswers": [
+        "gebucht"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does buchen mean?",
+      "options": [
+        "the bread",
+        "the flower",
+        "to book"
+      ],
+      "answer": "to book",
+      "explanation": "buchen: to book.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "The noun:",
+      "options": [
+        "die Buchung",
+        "das Buch"
+      ],
+      "answer": "die Buchung",
+      "explanation": "Booking.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Ausgebucht' means…",
+      "options": [
+        "fully booked",
+        "booked out of a hotel"
+      ],
+      "answer": "fully booked",
+      "explanation": "No rooms left.",
+      "id": "q5"
+    }
+  ]
+}

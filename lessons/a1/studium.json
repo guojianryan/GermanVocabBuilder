@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Studium",
+    "partOfSpeech": "noun, neuter (das Studium)",
+    "pronunciation": {
+      "respelling": "SHTOO-dee-oom",
+      "ipa": "ˈʃtuːdi̯ʊm",
+      "notes": "Plural: die Studien."
+    },
+    "meaning": "studies, university course",
+    "shortDefinition": "Studies, university course."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Studium, plural die Studien.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Studium"
+        },
+        {
+          "label": "More than one",
+          "value": "die Studien"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Mein Studium dauert drei Jahre.",
+      "english": "My degree takes three years.",
+      "highlight": [
+        "Studium"
+      ]
+    },
+    {
+      "german": "Nach dem Studium möchte ich im Ausland arbeiten.",
+      "english": "After my degree I'd like to work abroad.",
+      "highlight": [
+        "Studium"
+      ]
+    },
+    {
+      "german": "Wie finanzierst du dein Studium?",
+      "english": "How do you finance your studies?",
+      "highlight": [
+        "Studium?"
+      ]
+    }
+  ],
+  "forms": [
+    "Studien",
+    "die Studien",
+    "das Studium"
+  ],
+  "memoryHook": "Das Studium = your university studies (singular). Plural Studien means studies/research.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Studium",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Studium is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Studium, zwei ___",
+      "answer": "Studien",
+      "fullAnswer": "ein Studium, zwei Studien",
+      "explanation": "The plural is Studien.",
+      "acceptedAnswers": [
+        "Studien"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Studium mean?",
+      "options": [
+        "the car",
+        "studies",
+        "the bread"
+      ],
+      "answer": "studies",
+      "explanation": "Studium: studies, university course.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Das Studium means…",
+      "options": [
+        "university studies",
+        "a study room"
+      ],
+      "answer": "university studies",
+      "explanation": "A study room: das Arbeitszimmer.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Studien",
+        "Studiums"
+      ],
+      "answer": "Studien",
+      "explanation": "Latin-style.",
+      "id": "q5"
+    }
+  ]
+}

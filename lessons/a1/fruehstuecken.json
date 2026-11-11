@@ -1,0 +1,190 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "frühstücken",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "FRUE-shtuek-en",
+      "ipa": "ˈfʁyːʃtʏkn̩",
+      "notes": ""
+    },
+    "meaning": "to have breakfast",
+    "shortDefinition": "To have breakfast."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "früh",
+        "meaning": "early"
+      },
+      {
+        "part": "stück",
+        "meaning": "piece",
+        "note": "Das Stück."
+      },
+      {
+        "part": "en",
+        "meaning": "verb ending"
+      }
+    ],
+    "literalMeaning": "to have an early piece"
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "frühstück|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "frühstück|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "frühstück|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "frühstück|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "frühstück|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "frühstück|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gefrühstückt"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "das Frühstück",
+      "english": "breakfast",
+      "type": "noun"
+    },
+    {
+      "german": "das Mittagessen",
+      "english": "lunch",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Am Sonntag frühstücke ich gern im Bett.",
+      "english": "On Sundays I like having breakfast in bed.",
+      "highlight": [
+        "frühstücke"
+      ]
+    },
+    {
+      "german": "Hast du schon gefrühstückt?",
+      "english": "Have you had breakfast yet?",
+      "highlight": [
+        "gefrühstückt?"
+      ]
+    },
+    {
+      "german": "Das Frühstück ist von 7 bis 10 Uhr.",
+      "english": "Breakfast is from 7 to 10.",
+      "highlight": [
+        "Frühstück"
+      ]
+    }
+  ],
+  "forms": [
+    "frühstücke",
+    "frühstückst",
+    "frühstückt",
+    "frühstücken",
+    "gefrühstückt",
+    "Frühstück"
+  ],
+  "memoryHook": "Früh (early) + Stück (piece): an early bite. It doesn't split: ich frühstücke.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (frühstücken)",
+      "answer": "frühstückt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: frühstückt.",
+      "acceptedAnswers": [
+        "fruehstueckt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (frühstücken, past)",
+      "answer": "gefrühstückt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gefrühstückt.",
+      "acceptedAnswers": [
+        "gefruehstueckt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does frühstücken mean?",
+      "options": [
+        "to have breakfast",
+        "to wait",
+        "to sleep"
+      ],
+      "answer": "to have breakfast",
+      "explanation": "frühstücken: to have breakfast.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Frühstücken is…",
+      "options": [
+        "not separable",
+        "separable"
+      ],
+      "answer": "not separable",
+      "explanation": "Ich frühstücke, not ich stücke früh.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Frühstück = früh + Stück. Stück means…",
+      "options": [
+        "piece",
+        "bread"
+      ],
+      "answer": "piece",
+      "explanation": "An early piece (of bread).",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Umfeld",
+    "partOfSpeech": "noun, neuter (das Umfeld)",
+    "pronunciation": {
+      "respelling": "OOM-felt",
+      "ipa": "ˈʊmfɛlt",
+      "notes": "Plural: die Umfelder."
+    },
+    "meaning": "environment, surroundings, circle",
+    "shortDefinition": "Environment, surroundings, circle."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Um",
+        "meaning": "around"
+      },
+      {
+        "part": "feld",
+        "meaning": "field"
+      }
+    ],
+    "literalMeaning": "field around"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Umfeld, plural die Umfelder.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Umfeld"
+        },
+        {
+          "label": "More than one",
+          "value": "die Umfelder"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er lebt in einem schwierigen Umfeld.",
+      "english": "He lives in a difficult environment.",
+      "highlight": [
+        "Umfeld."
+      ]
+    },
+    {
+      "german": "Im Umfeld des Ministers.",
+      "english": "In the minister's circle.",
+      "highlight": [
+        "Umfeld"
+      ]
+    },
+    {
+      "german": "Das berufliche Umfeld.",
+      "english": "The professional environment.",
+      "highlight": [
+        "Umfeld."
+      ]
+    }
+  ],
+  "forms": [
+    "Umwelt"
+  ],
+  "memoryHook": "Um + Feld = surroundings, circle (≠ Umwelt).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Umfeld",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Umfeld is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Umfeld, zwei ___",
+      "answer": "Umfelder",
+      "fullAnswer": "ein Umfeld, zwei Umfelder",
+      "explanation": "The plural is Umfelder.",
+      "acceptedAnswers": [
+        "Umfelder"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Umfeld mean?",
+      "options": [
+        "the flower",
+        "the weather",
+        "environment"
+      ],
+      "answer": "environment",
+      "explanation": "Umfeld: environment, surroundings, circle.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "um (around) + Feld (field)",
+        "Umwelt"
+      ],
+      "answer": "um (around) + Feld (field)",
+      "explanation": "Field around.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Umfeld vs Umwelt:",
+      "options": [
+        "social surroundings vs environment (nature)",
+        "same"
+      ],
+      "answer": "social surroundings vs environment (nature)",
+      "explanation": "Nuance.",
+      "id": "q5"
+    }
+  ]
+}

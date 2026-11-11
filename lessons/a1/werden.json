@@ -1,0 +1,218 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "full",
+  "word": {
+    "headword": "werden",
+    "partOfSpeech": "verb (also future helper)",
+    "pronunciation": {
+      "respelling": "VAIR-den",
+      "ipa": "ˈveːɐ̯dn̩",
+      "notes": "W = v."
+    },
+    "meaning": "to become, to get; (future) will",
+    "shortDefinition": "Change of state, and the future tense."
+  },
+  "intro": {
+    "title": "Ich werde müde",
+    "paragraphs": [
+      "Werden = become, get: Es wird kalt (It's getting cold). With an infinitive it makes the future: Ich werde kommen. It's irregular: du wirst, er wird. And remember: bekommen is NOT become!"
+    ]
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "werd|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "|wirst"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "|wird"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "werd|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "werd|et"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "werd|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Du wirst, er wird: irregular.",
+        "Past: ist geworden."
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "bekommen",
+      "english": "to get, receive (NOT become)",
+      "type": "verb"
+    },
+    {
+      "german": "sein",
+      "english": "to be",
+      "type": "verb"
+    }
+  ],
+  "keyTrap": {
+    "title": "The big trap: becoming a job",
+    "explanation": "Becoming something: werden, with no article.",
+    "wrong": {
+      "german": "Ich will Arzt bekommen.",
+      "verdict": "Bekommen = get. Become: werden."
+    },
+    "correct": [
+      {
+        "german": "Ich will Arzt werden.",
+        "literal": "I want doctor to become.",
+        "note": "No article for jobs."
+      },
+      {
+        "german": "Es wird dunkel.",
+        "literal": "It becomes dark.",
+        "note": "Change of state."
+      }
+    ]
+  },
+  "commonMistakes": [
+    {
+      "title": "du wirst, er wird",
+      "explanation": "Not 'du werdst'.",
+      "wrong": "Er werdet müde.",
+      "correct": "Er wird müde."
+    },
+    {
+      "title": "Future",
+      "explanation": "Werden + infinitive at the end.",
+      "examples": [
+        {
+          "german": "Morgen wird es regnen.",
+          "english": "It'll rain tomorrow.",
+          "highlight": "wird"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Im Winter wird es früh dunkel.",
+      "english": "It gets dark early in winter.",
+      "highlight": [
+        "wird"
+      ]
+    },
+    {
+      "german": "Sie wird nächstes Jahr 30.",
+      "english": "She'll be 30 next year.",
+      "highlight": [
+        "wird"
+      ]
+    },
+    {
+      "german": "Was willst du später werden?",
+      "english": "What do you want to be when you grow up?",
+      "highlight": [
+        "werden?"
+      ]
+    },
+    {
+      "german": "Er ist Lehrer geworden.",
+      "english": "He became a teacher.",
+      "highlight": [
+        "geworden."
+      ]
+    }
+  ],
+  "forms": [
+    "werde",
+    "wirst",
+    "wird",
+    "werdet",
+    "geworden",
+    "wurde",
+    "wurden"
+  ],
+  "memoryHook": "Werden = become (du wirst, er wird). Bekommen = get. Ich werde müde.",
+  "signOff": "Du wirst immer besser!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Es ___ kalt. (werden)",
+      "answer": "wird",
+      "fullAnswer": "Es wird kalt.",
+      "explanation": "Er/es wird.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Du ___ müde. (werden)",
+      "answer": "wirst",
+      "fullAnswer": "Du wirst müde.",
+      "explanation": "Du wirst.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "'I want to become a teacher':",
+      "options": [
+        "Ich will Lehrer werden.",
+        "Ich will Lehrer bekommen."
+      ],
+      "answer": "Ich will Lehrer werden.",
+      "explanation": "Werden.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Past: Er ___ krank geworden.",
+      "options": [
+        "hat",
+        "ist"
+      ],
+      "answer": "ist",
+      "explanation": "Werden uses sein.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Ich werde kommen' is…",
+      "options": [
+        "future",
+        "past"
+      ],
+      "answer": "future",
+      "explanation": "Werden + infinitive.",
+      "id": "q5"
+    }
+  ]
+}

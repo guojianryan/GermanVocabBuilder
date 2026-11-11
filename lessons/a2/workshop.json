@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Workshop",
+    "partOfSpeech": "noun, masculine (der Workshop)",
+    "pronunciation": {
+      "respelling": "VERK-shop",
+      "ipa": "ˈvœʁkʃɔp",
+      "notes": "Plural: die Workshops."
+    },
+    "meaning": "workshop (course)",
+    "shortDefinition": "Workshop (course)."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Workshop, plural die Workshops.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Workshop"
+        },
+        {
+          "label": "More than one",
+          "value": "die Workshops"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich mache einen Workshop zum Thema Fotografie.",
+      "english": "I'm doing a photography workshop.",
+      "highlight": [
+        "Workshop"
+      ]
+    },
+    {
+      "german": "Der Workshop dauert zwei Tage.",
+      "english": "The workshop lasts two days.",
+      "highlight": [
+        "Workshop"
+      ]
+    },
+    {
+      "german": "Es gibt noch Plätze im Workshop.",
+      "english": "There are still places in the workshop.",
+      "highlight": [
+        "Workshop."
+      ]
+    }
+  ],
+  "forms": [
+    "Workshops",
+    "die Workshops",
+    "der Workshop"
+  ],
+  "memoryHook": "Der Workshop (course). A repair workshop = die Werkstatt.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Workshop",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Workshop is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Workshop, zwei ___",
+      "answer": "Workshops",
+      "fullAnswer": "ein Workshop, zwei Workshops",
+      "explanation": "The plural is Workshops.",
+      "acceptedAnswers": [
+        "Workshops"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Workshop mean?",
+      "options": [
+        "always",
+        "to travel",
+        "workshop (course)"
+      ],
+      "answer": "workshop (course)",
+      "explanation": "Workshop: workshop (course).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Workshop means…",
+      "options": [
+        "a short course",
+        "a repair shop"
+      ],
+      "answer": "a short course",
+      "explanation": "Repairs: Werkstatt.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gender:",
+      "options": [
+        "der",
+        "die"
+      ],
+      "answer": "der",
+      "explanation": "Der Workshop.",
+      "id": "q5"
+    }
+  ]
+}

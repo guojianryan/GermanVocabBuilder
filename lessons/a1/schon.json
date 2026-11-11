@@ -1,0 +1,175 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "full",
+  "word": {
+    "headword": "schon",
+    "partOfSpeech": "adverb / particle",
+    "pronunciation": {
+      "respelling": "SHOHN",
+      "ipa": "ʃoːn",
+      "notes": "Long o. Don't confuse with schön (ö)."
+    },
+    "meaning": "already; yet (in questions)",
+    "shortDefinition": "Something has happened sooner than expected, or at all."
+  },
+  "intro": {
+    "title": "Schon fertig?",
+    "paragraphs": [
+      "Schon = already: Ich bin schon da. In questions it's 'yet' or 'ever': Hast du schon gegessen? Warst du schon mal in Berlin? It's often confused with schön (beautiful)."
+    ]
+  },
+  "wordFamily": [
+    {
+      "german": "noch nicht",
+      "english": "not yet",
+      "type": "phrase"
+    },
+    {
+      "german": "schon mal",
+      "english": "ever, before",
+      "type": "phrase"
+    },
+    {
+      "german": "schön",
+      "english": "beautiful, nice",
+      "type": "adjective"
+    }
+  ],
+  "keyTrap": {
+    "title": "The big trap: schon or schön?",
+    "explanation": "Schon (o) = already. Schön (ö) = beautiful.",
+    "wrong": {
+      "german": "Das ist schon. (meaning: that's nice)",
+      "verdict": "You need the umlaut: schön."
+    },
+    "correct": [
+      {
+        "german": "Das ist schön.",
+        "literal": "That is beautiful.",
+        "note": "Schön with ö."
+      },
+      {
+        "german": "Ich bin schon fertig.",
+        "literal": "I am already finished.",
+        "note": "Already: schon."
+      }
+    ]
+  },
+  "commonMistakes": [
+    {
+      "title": "The answer 'not yet'",
+      "explanation": "Hast du schon …? – Nein, noch nicht.",
+      "examples": [
+        {
+          "german": "Hast du schon gegessen? – Noch nicht.",
+          "english": "Have you eaten yet? – Not yet.",
+          "highlight": "schon"
+        }
+      ]
+    },
+    {
+      "title": "Ever",
+      "explanation": "Schon mal = ever, before.",
+      "examples": [
+        {
+          "german": "Warst du schon mal in Wien?",
+          "english": "Have you ever been to Vienna?",
+          "highlight": "schon"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Zug ist schon weg.",
+      "english": "The train has already gone.",
+      "highlight": [
+        "schon"
+      ]
+    },
+    {
+      "german": "Bist du schon fertig?",
+      "english": "Are you finished already?",
+      "highlight": [
+        "schon"
+      ]
+    },
+    {
+      "german": "Ich wohne schon zwei Jahre hier.",
+      "english": "I've been living here for two years.",
+      "highlight": [
+        "schon"
+      ]
+    },
+    {
+      "german": "Das wird schon!",
+      "english": "It'll be fine!",
+      "highlight": [
+        "schon!"
+      ]
+    }
+  ],
+  "forms": [
+    "schon mal"
+  ],
+  "memoryHook": "Schon = already (plain o). Schön = beautiful (ö with dots, like a pretty face).",
+  "signOff": "Schon geschafft!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Already: Ich bin ___ da.",
+      "options": [
+        "schon",
+        "schön"
+      ],
+      "answer": "schon",
+      "explanation": "Plain o.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Beautiful: Das Wetter ist ___.",
+      "options": [
+        "schon",
+        "schön"
+      ],
+      "answer": "schön",
+      "explanation": "With ö.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Hast du schon gegessen? – Nein, ___",
+      "options": [
+        "noch nicht",
+        "schon nicht"
+      ],
+      "answer": "noch nicht",
+      "explanation": "Not yet.",
+      "id": "q3"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Warst du ___ mal in Paris? (ever)",
+      "answer": "schon",
+      "fullAnswer": "Warst du schon mal in Paris?",
+      "explanation": "Schon mal.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Das wird schon!' means…",
+      "options": [
+        "It'll be fine!",
+        "It's already done!"
+      ],
+      "answer": "It'll be fine!",
+      "explanation": "Reassurance.",
+      "id": "q5"
+    }
+  ]
+}

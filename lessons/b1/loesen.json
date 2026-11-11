@@ -1,0 +1,164 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "lösen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "LÖ-zen",
+      "ipa": "ˈløːzn̩",
+      "notes": ""
+    },
+    "meaning": "to solve; to loosen; to buy (a ticket)",
+    "shortDefinition": "To solve; to loosen; to buy (a ticket)."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "lös|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "lös|t"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "lös|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "lös|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "lös|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "lös|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gelöst"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "die Lösung",
+      "english": "solution",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir müssen das Problem lösen.",
+      "english": "We need to solve the problem.",
+      "highlight": [
+        "lösen."
+      ]
+    },
+    {
+      "german": "Ich habe die Aufgabe gelöst.",
+      "english": "I've solved the exercise.",
+      "highlight": [
+        "gelöst."
+      ]
+    },
+    {
+      "german": "Lösen Sie die Fahrkarte am Automaten.",
+      "english": "Buy your ticket at the machine.",
+      "highlight": [
+        "Lösen"
+      ]
+    }
+  ],
+  "forms": [
+    "löse",
+    "löst",
+    "lösen",
+    "gelöst"
+  ],
+  "memoryHook": "Lösen (make loose) → solve. Die Lösung = solution.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (lösen)",
+      "answer": "löst",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: löst.",
+      "acceptedAnswers": [
+        "loest"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (lösen, past)",
+      "answer": "gelöst",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gelöst.",
+      "acceptedAnswers": [
+        "geloest"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does lösen mean?",
+      "options": [
+        "the weather",
+        "the car",
+        "to solve"
+      ],
+      "answer": "to solve",
+      "explanation": "lösen: to solve; to loosen; to buy (a ticket).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "The noun:",
+      "options": [
+        "die Lösung",
+        "die Lose"
+      ],
+      "answer": "die Lösung",
+      "explanation": "Solution.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Related to…",
+      "options": [
+        "los (loose, off)",
+        "lesen"
+      ],
+      "answer": "los (loose, off)",
+      "explanation": "Make loose.",
+      "id": "q5"
+    }
+  ]
+}

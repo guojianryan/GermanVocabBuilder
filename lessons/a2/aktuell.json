@@ -1,0 +1,112 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "aktuell",
+    "partOfSpeech": "adjective",
+    "pronunciation": {
+      "respelling": "ak-too-EL",
+      "ipa": "akˈtu̯ɛl",
+      "notes": ""
+    },
+    "meaning": "current, up to date",
+    "shortDefinition": "Current, up to date."
+  },
+  "commonMistakes": [
+    {
+      "title": "False friend",
+      "explanation": "Aktuell means current, not actually.",
+      "wrong": "Aktuell bin ich Lehrer. (meaning 'Actually I'm a teacher')",
+      "correct": "Eigentlich bin ich Lehrer."
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das ist eine aktuelle Information.",
+      "english": "That's current information.",
+      "highlight": [
+        "aktuelle"
+      ]
+    },
+    {
+      "german": "Die aktuellen Nachrichten kommen um acht.",
+      "english": "The latest news is at eight.",
+      "highlight": [
+        "aktuellen"
+      ]
+    },
+    {
+      "german": "Ist der Fahrplan noch aktuell?",
+      "english": "Is the timetable still up to date?",
+      "highlight": [
+        "aktuell?"
+      ]
+    }
+  ],
+  "forms": [
+    "aktuelle",
+    "aktuellen",
+    "aktueller"
+  ],
+  "memoryHook": "Aktuell ≠ actually! Aktuell = current. Actually = eigentlich.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does aktuell mean?",
+      "options": [
+        "the key",
+        "current",
+        "the car"
+      ],
+      "answer": "current",
+      "explanation": "aktuell: current, up to date.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Aktuell means…",
+      "options": [
+        "current",
+        "actually"
+      ],
+      "answer": "current",
+      "explanation": "False friend!",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Actually' in German is…",
+      "options": [
+        "eigentlich",
+        "aktuell"
+      ],
+      "answer": "eigentlich",
+      "explanation": "Eigentlich.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Is the price still up to date?'",
+      "options": [
+        "Ist der Preis noch aktuell?",
+        "Ist der Preis noch eigentlich?"
+      ],
+      "answer": "Ist der Preis noch aktuell?",
+      "explanation": "Aktuell.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Das sind die ___ Nachrichten. (latest)",
+      "answer": "aktuellen",
+      "fullAnswer": "Das sind die aktuellen Nachrichten.",
+      "explanation": "Die aktuellen.",
+      "id": "q5"
+    }
+  ]
+}

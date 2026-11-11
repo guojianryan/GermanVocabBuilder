@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Therapie",
+    "partOfSpeech": "noun, feminine (die Therapie)",
+    "pronunciation": {
+      "respelling": "te-ra-PEE",
+      "ipa": "teʁaˈpiː",
+      "notes": "Plural: die Therapien."
+    },
+    "meaning": "therapy",
+    "shortDefinition": "Therapy."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Therapie, plural die Therapien.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Therapie"
+        },
+        {
+          "label": "More than one",
+          "value": "die Therapien"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Sie macht eine Therapie.",
+      "english": "She's in therapy.",
+      "highlight": [
+        "Therapie."
+      ]
+    },
+    {
+      "german": "Die Therapie hat geholfen.",
+      "english": "The therapy helped.",
+      "highlight": [
+        "Therapie"
+      ]
+    },
+    {
+      "german": "Der Arzt verschreibt eine Physiotherapie.",
+      "english": "The doctor prescribes physiotherapy.",
+      "highlight": [
+        "Physiotherapie."
+      ]
+    }
+  ],
+  "forms": [
+    "Therapeut",
+    "Therapeutin"
+  ],
+  "memoryHook": "Die Therapie; der Therapeut.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Therapie",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Therapie is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Therapie, zwei ___",
+      "answer": "Therapien",
+      "fullAnswer": "ein Therapie, zwei Therapien",
+      "explanation": "The plural is Therapien.",
+      "acceptedAnswers": [
+        "Therapien"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Therapie mean?",
+      "options": [
+        "quiet",
+        "therapy",
+        "the family"
+      ],
+      "answer": "therapy",
+      "explanation": "Therapie: therapy.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Stress on…",
+      "options": [
+        "-PIE (last)",
+        "THE-"
+      ],
+      "answer": "-PIE (last)",
+      "explanation": "te-ra-PEE.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "A therapist:",
+      "options": [
+        "der Therapeut",
+        "der Therapist"
+      ],
+      "answer": "der Therapeut",
+      "explanation": "Therapeut.",
+      "id": "q5"
+    }
+  ]
+}

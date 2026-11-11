@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Maschine",
+    "partOfSpeech": "noun, feminine (die Maschine)",
+    "pronunciation": {
+      "respelling": "ma-SHEE-nuh",
+      "ipa": "maˈʃiːnə",
+      "notes": "Plural: die Maschinen."
+    },
+    "meaning": "machine",
+    "shortDefinition": "Machine."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Maschine, plural die Maschinen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Maschine"
+        },
+        {
+          "label": "More than one",
+          "value": "die Maschinen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Maschine ist kaputt.",
+      "english": "The machine is broken.",
+      "highlight": [
+        "Maschine"
+      ]
+    },
+    {
+      "german": "Hast du die Waschmaschine angemacht?",
+      "english": "Did you switch on the washing machine?",
+      "highlight": [
+        "Waschmaschine"
+      ]
+    },
+    {
+      "german": "Die Maschine nach Rom ist voll.",
+      "english": "The plane to Rome is full.",
+      "highlight": [
+        "Maschine"
+      ]
+    }
+  ],
+  "forms": [
+    "Maschinen",
+    "die Maschinen",
+    "die Maschine"
+  ],
+  "memoryHook": "Die Maschine: stress the middle, sch = sh. Waschmaschine = washing machine.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Maschine",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Maschine is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Maschine, zwei ___",
+      "answer": "Maschinen",
+      "fullAnswer": "ein Maschine, zwei Maschinen",
+      "explanation": "The plural is Maschinen.",
+      "acceptedAnswers": [
+        "Maschinen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Maschine mean?",
+      "options": [
+        "always",
+        "machine",
+        "quiet"
+      ],
+      "answer": "machine",
+      "explanation": "Maschine: machine.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Sch in Maschine sounds like…",
+      "options": [
+        "sh",
+        "sk"
+      ],
+      "answer": "sh",
+      "explanation": "ma-SHEE-nuh.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "At an airport, 'die Maschine' can mean…",
+      "options": [
+        "the plane",
+        "the luggage belt"
+      ],
+      "answer": "the plane",
+      "explanation": "Pilots and staff say it.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "full",
+  "word": {
+    "headword": "lassen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "LAS-en",
+      "ipa": "ˈlasn̩",
+      "notes": ""
+    },
+    "meaning": "to let; to leave; to have something done",
+    "shortDefinition": "To let, leave, or get something done by someone else."
+  },
+  "intro": {
+    "title": "Let, leave, and get done",
+    "paragraphs": [
+      "Lassen has three main jobs. Let: Lass mich in Ruhe! (Leave me alone / let me be.) Leave: Ich lasse das Auto zu Hause. And 'have something done': Ich lasse mir die Haare schneiden (I'm having my hair cut).",
+      "That last one surprises English speakers. You don't cut your own hair – you let someone do it: lassen + infinitive."
+    ]
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "lass|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "l|ä|sst"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "l|ä|sst"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "lass|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "lass|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "lass|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past: ließ, hat gelassen. With an infinitive: hat … machen lassen."
+      ]
+    }
+  ],
+  "keyTrap": {
+    "title": "The big trap: 'have something done'",
+    "explanation": "English uses 'have/get + participle'. German uses lassen + infinitive.",
+    "wrong": {
+      "german": "Ich habe meine Haare geschnitten.",
+      "verdict": "That means you cut them yourself."
+    },
+    "correct": [
+      {
+        "german": "Ich habe mir die Haare schneiden lassen.",
+        "literal": "I let my hair be cut.",
+        "note": "Someone else did it."
+      },
+      {
+        "german": "Wir lassen das Auto reparieren.",
+        "literal": "We let the car repair.",
+        "note": "The garage does it."
+      }
+    ]
+  },
+  "commonMistakes": [
+    {
+      "title": "du/er lässt",
+      "explanation": "a → ä.",
+      "wrong": "Er lasst mich nicht schlafen.",
+      "correct": "Er lässt mich nicht schlafen."
+    },
+    {
+      "title": "Let's…",
+      "explanation": "Lass uns… is a friendly suggestion.",
+      "examples": [
+        {
+          "german": "Lass uns ins Kino gehen!",
+          "english": "Let's go to the cinema!",
+          "highlight": "Lass"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Lass mich in Ruhe!",
+      "english": "Leave me alone!",
+      "highlight": [
+        "Lass"
+      ]
+    },
+    {
+      "german": "Ich lasse meinen Schirm im Auto.",
+      "english": "I'm leaving my umbrella in the car.",
+      "highlight": [
+        "lasse"
+      ]
+    },
+    {
+      "german": "Wo lässt du dein Fahrrad reparieren?",
+      "english": "Where do you get your bike repaired?",
+      "highlight": [
+        "lässt",
+        "reparieren?"
+      ]
+    }
+  ],
+  "forms": [
+    "lasse",
+    "lässt",
+    "lasst",
+    "lassen",
+    "ließ",
+    "ließen",
+    "gelassen",
+    "lass"
+  ],
+  "memoryHook": "Lassen: let it be, leave it there, or let someone else do it.",
+  "signOff": "Lass es dir gut gehen!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "'I'm having my car repaired':",
+      "options": [
+        "Ich lasse mein Auto reparieren.",
+        "Ich habe mein Auto repariert."
+      ],
+      "answer": "Ich lasse mein Auto reparieren.",
+      "explanation": "Lassen + infinitive.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Er ___ das Handy zu Hause.",
+      "options": [
+        "lässt",
+        "lasst"
+      ],
+      "answer": "lässt",
+      "explanation": "a → ä.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Let's go!'",
+      "options": [
+        "Lass uns gehen!",
+        "Lassen wir gehen uns!"
+      ],
+      "answer": "Lass uns gehen!",
+      "explanation": "Lass uns…",
+      "id": "q3"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "___ mich bitte in Ruhe! (du)",
+      "answer": "Lass",
+      "fullAnswer": "Lass mich bitte in Ruhe!",
+      "explanation": "Imperative: lass.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Past of lassen:",
+      "options": [
+        "ließ",
+        "lasste"
+      ],
+      "answer": "ließ",
+      "explanation": "Irregular.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Ich lasse dich schlafen' means…",
+      "options": [
+        "I'll let you sleep.",
+        "I'll leave you asleep forever."
+      ],
+      "answer": "I'll let you sleep.",
+      "explanation": "Let.",
+      "id": "q6"
+    }
+  ]
+}

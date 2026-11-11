@@ -1,0 +1,248 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "full",
+  "word": {
+    "headword": "an",
+    "partOfSpeech": "preposition (dative or accusative); separable prefix",
+    "pronunciation": {
+      "respelling": "AHN",
+      "ipa": "an",
+      "notes": "Short a."
+    },
+    "meaning": "at, on (a vertical surface or edge); on (days and dates)",
+    "shortDefinition": "Says where something is next to or touching, and when something happens."
+  },
+  "intro": {
+    "title": "At the station, on Monday",
+    "paragraphs": [
+      "An covers a lot of what English does with 'at' and 'on': am Bahnhof (at the station), an der Wand (on the wall), am Montag (on Monday). It's also one of the most common verb prefixes: anrufen, ankommen, anfangen."
+    ]
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "summary": "An is the same word as English 'on', and a close cousin of 'at' in many uses.",
+    "cognates": [
+      {
+        "word": "on",
+        "language": "English"
+      },
+      {
+        "word": "aan",
+        "language": "Dutch"
+      }
+    ]
+  },
+  "tables": [
+    {
+      "title": "an + dem = am",
+      "intro": "With masculine and neuter nouns in the dative, an and dem merge into am. You'll see am far more often than an dem.",
+      "columns": [
+        "where (dative)",
+        "where to (accusative)"
+      ],
+      "rows": [
+        {
+          "label": "masculine",
+          "cells": [
+            "a|m| Tisch",
+            "an |den| Tisch"
+          ]
+        },
+        {
+          "label": "feminine",
+          "cells": [
+            "an |der| Wand",
+            "an |die| Wand"
+          ]
+        },
+        {
+          "label": "neuter",
+          "cells": [
+            "a|m| Fenster",
+            "an|s| Fenster"
+          ]
+        }
+      ],
+      "notes": [
+        "Where something is: dative (am, an der). Where it's going: accusative (an den, an die, ans).",
+        "Days, parts of the day and dates always use am: am Montag, am Abend, am 3. Mai."
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "am Montag",
+      "english": "on Monday",
+      "type": "phrase"
+    },
+    {
+      "german": "am Abend",
+      "english": "in the evening",
+      "type": "phrase"
+    },
+    {
+      "german": "an sein",
+      "english": "to be on (light, TV)",
+      "type": "phrase"
+    },
+    {
+      "german": "anrufen, ankommen, anfangen",
+      "english": "verbs with the prefix an-",
+      "type": "separable verbs"
+    }
+  ],
+  "keyTrap": {
+    "title": "The big trap: in, an or auf for days and places?",
+    "explanation": "English says 'on Monday' and 'at the station'. German uses am for both, but in for months and seasons.",
+    "wrong": {
+      "german": "Ich komme an Montag.",
+      "verdict": "Days need am, the short form of an dem."
+    },
+    "correct": [
+      {
+        "german": "Ich komme am Montag.",
+        "literal": "I come on-the Monday.",
+        "note": "Days: am."
+      },
+      {
+        "german": "Wir treffen uns am Bahnhof.",
+        "literal": "We meet at-the station.",
+        "note": "At a place you stand next to: am."
+      },
+      {
+        "german": "Ich habe im Mai Urlaub.",
+        "literal": "I have in-the May holiday.",
+        "note": "Months: im, not am."
+      }
+    ]
+  },
+  "commonMistakes": [
+    {
+      "title": "an or auf?",
+      "explanation": "An is for vertical surfaces and edges, auf for horizontal surfaces you can put things on.",
+      "examples": [
+        {
+          "german": "Das Bild hängt an der Wand.",
+          "english": "The picture is hanging on the wall.",
+          "highlight": "an"
+        },
+        {
+          "german": "Das Buch liegt auf dem Tisch.",
+          "english": "The book is on the table.",
+          "highlight": "auf"
+        }
+      ]
+    },
+    {
+      "title": "Near water",
+      "explanation": "By the sea, a lake or a river is an: am Meer, am See, am Rhein.",
+      "wrong": "Wir machen Urlaub bei dem Meer.",
+      "correct": "Wir machen Urlaub am Meer."
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Fahren Sie an der nächsten Ampel rechts.",
+      "english": "Turn right at the next traffic lights.",
+      "highlight": [
+        "an"
+      ]
+    },
+    {
+      "german": "Am Wochenende habe ich frei.",
+      "english": "I'm off at the weekend.",
+      "highlight": [
+        "Am"
+      ]
+    },
+    {
+      "german": "Er sitzt am Fenster.",
+      "english": "He's sitting by the window.",
+      "highlight": [
+        "am"
+      ]
+    },
+    {
+      "german": "Ich hänge das Foto an die Wand.",
+      "english": "I'm hanging the photo on the wall.",
+      "highlight": [
+        "an",
+        "die"
+      ]
+    },
+    {
+      "german": "Mach bitte das Licht an.",
+      "english": "Please turn the light on.",
+      "highlight": [
+        "an."
+      ]
+    }
+  ],
+  "forms": [
+    "am",
+    "ans",
+    "an dem",
+    "an der"
+  ],
+  "memoryHook": "An = on, at, next to. Days and places you stand at take am: am Montag, am Bahnhof.",
+  "signOff": "Bis am Montag!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Ich habe ___ Freitag Zeit.",
+      "options": [
+        "an",
+        "am",
+        "im"
+      ],
+      "answer": "am",
+      "explanation": "Days: am.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Wir fahren im Sommer ___ Meer.",
+      "options": [
+        "ans",
+        "am"
+      ],
+      "answer": "ans",
+      "explanation": "Where to (moving): accusative, an + das = ans.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Wir wohnen direkt ___ Meer.",
+      "options": [
+        "ans",
+        "am"
+      ],
+      "answer": "am",
+      "explanation": "Where (location): dative, an + dem = am.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Das Poster hängt ___ der Wand.",
+      "options": [
+        "an",
+        "auf"
+      ],
+      "answer": "an",
+      "explanation": "A vertical surface: an.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich komme ___ 5. Juni. (on the 5th of June)",
+      "answer": "am",
+      "fullAnswer": "Ich komme am 5. Juni.",
+      "explanation": "Dates use am.",
+      "id": "q5"
+    }
+  ]
+}

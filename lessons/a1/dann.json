@@ -1,0 +1,170 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "full",
+  "word": {
+    "headword": "dann",
+    "partOfSpeech": "adverb",
+    "pronunciation": {
+      "respelling": "DAHN",
+      "ipa": "dan",
+      "notes": "Short a."
+    },
+    "meaning": "then; in that case",
+    "shortDefinition": "What comes next, or what follows from something."
+  },
+  "intro": {
+    "title": "First this, then that",
+    "paragraphs": [
+      "Dann puts things in order (Zuerst Kaffee, dann Arbeit) and draws conclusions (Dann bis morgen! So, see you tomorrow then!). Watch out for denn, which looks almost the same and means 'because'."
+    ]
+  },
+  "wordFamily": [
+    {
+      "german": "zuerst … dann … danach",
+      "english": "first … then … after that",
+      "type": "phrase"
+    },
+    {
+      "german": "bis dann",
+      "english": "see you then",
+      "type": "phrase"
+    },
+    {
+      "german": "denn",
+      "english": "because",
+      "type": "conjunction"
+    }
+  ],
+  "keyTrap": {
+    "title": "The big trap: dann or denn?",
+    "explanation": "Dann = then. Denn = because. One letter apart, completely different jobs.",
+    "wrong": {
+      "german": "Ich bleibe zu Hause, dann ich bin krank.",
+      "verdict": "You mean 'because': denn."
+    },
+    "correct": [
+      {
+        "german": "Ich bleibe zu Hause, denn ich bin krank.",
+        "literal": "…because I am ill.",
+        "note": "Reason: denn."
+      },
+      {
+        "german": "Ich esse und dann gehe ich.",
+        "literal": "I eat and then go I.",
+        "note": "Sequence: dann."
+      }
+    ]
+  },
+  "commonMistakes": [
+    {
+      "title": "Verb comes next",
+      "explanation": "Dann counts as the first position, so the verb follows straight away.",
+      "wrong": "Dann wir gehen ins Kino.",
+      "correct": "Dann gehen wir ins Kino."
+    },
+    {
+      "title": "In that case",
+      "explanation": "Dann also means 'in that case'.",
+      "examples": [
+        {
+          "german": "Du bist müde? Dann schlaf doch!",
+          "english": "You're tired? Then go to sleep!",
+          "highlight": "Dann"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Zuerst gehe ich einkaufen, dann koche ich.",
+      "english": "First I'll go shopping, then I'll cook.",
+      "highlight": [
+        "dann"
+      ]
+    },
+    {
+      "german": "Gut, dann bis morgen!",
+      "english": "OK, see you tomorrow then!",
+      "highlight": [
+        "dann"
+      ]
+    },
+    {
+      "german": "Gehen Sie geradeaus und dann links.",
+      "english": "Go straight on and then left.",
+      "highlight": [
+        "dann"
+      ]
+    },
+    {
+      "german": "Wenn es regnet, dann bleiben wir zu Hause.",
+      "english": "If it rains, then we'll stay at home.",
+      "highlight": [
+        "dann"
+      ]
+    }
+  ],
+  "forms": [
+    "bis dann"
+  ],
+  "memoryHook": "Dann = then (a for 'and then'). Denn = because (e for 'explanation').",
+  "signOff": "Bis dann!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Ich frühstücke, ___ fahre ich zur Arbeit.",
+      "options": [
+        "dann",
+        "denn"
+      ],
+      "answer": "dann",
+      "explanation": "Sequence: dann.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich komme nicht, ___ ich habe keine Zeit.",
+      "options": [
+        "dann",
+        "denn"
+      ],
+      "answer": "denn",
+      "explanation": "Reason: denn.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "Dann wir essen.",
+        "Dann essen wir."
+      ],
+      "answer": "Dann essen wir.",
+      "explanation": "Verb second.",
+      "id": "q3"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Bis ___! (See you then!)",
+      "answer": "dann",
+      "fullAnswer": "Bis dann!",
+      "explanation": "Bis dann.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Zuerst links, ___ rechts.",
+      "options": [
+        "dann",
+        "denn"
+      ],
+      "answer": "dann",
+      "explanation": "Directions in order: dann.",
+      "id": "q5"
+    }
+  ]
+}

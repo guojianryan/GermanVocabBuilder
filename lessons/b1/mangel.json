@@ -1,0 +1,126 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Mangel",
+    "partOfSpeech": "noun, masculine (der Mangel)",
+    "pronunciation": {
+      "respelling": "MANG-el",
+      "ipa": "ˈmaŋl̩",
+      "notes": "Plural: die Mängel."
+    },
+    "meaning": "lack, shortage; defect",
+    "shortDefinition": "Lack, shortage; defect."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Mangel, plural die Mängel.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Mangel"
+        },
+        {
+          "label": "More than one",
+          "value": "die Mängel"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Es gibt einen Mangel an Ärzten.",
+      "english": "There's a shortage of doctors.",
+      "highlight": [
+        "Mangel",
+        "an"
+      ]
+    },
+    {
+      "german": "Das Auto hat mehrere Mängel.",
+      "english": "The car has several defects.",
+      "highlight": [
+        "Mängel."
+      ]
+    },
+    {
+      "german": "Aus Mangel an Zeit konnte ich nicht kommen.",
+      "english": "For lack of time I couldn't come.",
+      "highlight": [
+        "Mangel",
+        "an"
+      ]
+    }
+  ],
+  "forms": [
+    "Mängel",
+    "die Mängel",
+    "der Mangel"
+  ],
+  "memoryHook": "Der Mangel an (lack of); Mängel = defects.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Mangel",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Mangel is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Mangel, zwei ___",
+      "answer": "Mängel",
+      "fullAnswer": "ein Mangel, zwei Mängel",
+      "explanation": "The plural is Mängel.",
+      "acceptedAnswers": [
+        "Maengel"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Mangel mean?",
+      "options": [
+        "lack",
+        "the street",
+        "to learn"
+      ],
+      "answer": "lack",
+      "explanation": "Mangel: lack, shortage; defect.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Lack ___ something:",
+      "options": [
+        "an",
+        "von"
+      ],
+      "answer": "an",
+      "explanation": "Mangel an.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural Mängel means…",
+      "options": [
+        "defects",
+        "shortages only"
+      ],
+      "answer": "defects",
+      "explanation": "Faults.",
+      "id": "q5"
+    }
+  ]
+}

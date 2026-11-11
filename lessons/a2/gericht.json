@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Gericht",
+    "partOfSpeech": "noun, neuter (das Gericht)",
+    "pronunciation": {
+      "respelling": "ge-RIKHT",
+      "ipa": "ɡəˈʁɪçt",
+      "notes": "Plural: die Gerichte."
+    },
+    "meaning": "dish (food); court (law)",
+    "shortDefinition": "Dish (food); court (law)."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Gericht, plural die Gerichte.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Gericht"
+        },
+        {
+          "label": "More than one",
+          "value": "die Gerichte"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Was ist dein Lieblingsgericht?",
+      "english": "What's your favourite dish?",
+      "highlight": [
+        "Lieblingsgericht?"
+      ]
+    },
+    {
+      "german": "Das Gericht des Tages ist Fisch.",
+      "english": "The dish of the day is fish.",
+      "highlight": [
+        "Gericht"
+      ]
+    },
+    {
+      "german": "Der Fall kommt vor Gericht.",
+      "english": "The case is going to court.",
+      "highlight": [
+        "Gericht."
+      ]
+    }
+  ],
+  "forms": [
+    "Gerichte",
+    "die Gerichte",
+    "das Gericht"
+  ],
+  "memoryHook": "Das Gericht: a dish on the menu, or a court of law.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Gericht",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Gericht is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Gericht, zwei ___",
+      "answer": "Gerichte",
+      "fullAnswer": "ein Gericht, zwei Gerichte",
+      "explanation": "The plural is Gerichte.",
+      "acceptedAnswers": [
+        "Gerichte"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Gericht mean?",
+      "options": [
+        "never",
+        "dish (food)",
+        "to help"
+      ],
+      "answer": "dish (food)",
+      "explanation": "Gericht: dish (food); court (law).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "On a menu, Gericht means…",
+      "options": [
+        "dish",
+        "court"
+      ],
+      "answer": "dish",
+      "explanation": "Context!",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Vor Gericht gehen' means…",
+      "options": [
+        "to go to court",
+        "to go to dinner"
+      ],
+      "answer": "to go to court",
+      "explanation": "Court.",
+      "id": "q5"
+    }
+  ]
+}

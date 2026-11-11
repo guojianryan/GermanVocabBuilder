@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Blitz",
+    "partOfSpeech": "noun, masculine (der Blitz)",
+    "pronunciation": {
+      "respelling": "BLITS",
+      "ipa": "blɪts",
+      "notes": "Plural: die Blitze."
+    },
+    "meaning": "lightning; flash (camera)",
+    "shortDefinition": "Lightning; flash (camera)."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Blitz, plural die Blitze.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Blitz"
+        },
+        {
+          "label": "More than one",
+          "value": "die Blitze"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Blitz hat in den Baum eingeschlagen.",
+      "english": "Lightning struck the tree.",
+      "highlight": [
+        "Blitz"
+      ]
+    },
+    {
+      "german": "Bitte ohne Blitz fotografieren.",
+      "english": "Please take photos without flash.",
+      "highlight": [
+        "Blitz"
+      ]
+    },
+    {
+      "german": "Das ging blitzschnell.",
+      "english": "That was lightning fast.",
+      "highlight": [
+        "blitzschnell."
+      ]
+    }
+  ],
+  "forms": [
+    "blitzschnell"
+  ],
+  "memoryHook": "Der Blitz: lightning or camera flash. Blitzschnell!",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Blitz",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Blitz is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Blitz, zwei ___",
+      "answer": "Blitze",
+      "fullAnswer": "ein Blitz, zwei Blitze",
+      "explanation": "The plural is Blitze.",
+      "acceptedAnswers": [
+        "Blitze"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Blitz mean?",
+      "options": [
+        "the child",
+        "lightning",
+        "expensive"
+      ],
+      "answer": "lightning",
+      "explanation": "Blitz: lightning; flash (camera).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Blitzschnell' means…",
+      "options": [
+        "lightning fast",
+        "very bright"
+      ],
+      "answer": "lightning fast",
+      "explanation": "Fast.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Thunder:",
+      "options": [
+        "der Donner",
+        "der Blitz"
+      ],
+      "answer": "der Donner",
+      "explanation": "Donner.",
+      "id": "q5"
+    }
+  ]
+}

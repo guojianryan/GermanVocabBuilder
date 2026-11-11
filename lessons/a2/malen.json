@@ -1,0 +1,170 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "malen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "MAA-len",
+      "ipa": "ˈmaːlən",
+      "notes": ""
+    },
+    "meaning": "to paint",
+    "shortDefinition": "To paint."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "mal|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "mal|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "mal|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "mal|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "mal|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "mal|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gemalt"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "der Maler",
+      "english": "painter",
+      "type": "noun"
+    },
+    {
+      "german": "die Malerei",
+      "english": "painting",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Kinder malen ein Bild.",
+      "english": "The children are painting a picture.",
+      "highlight": [
+        "malen"
+      ]
+    },
+    {
+      "german": "Er malt gern Landschaften.",
+      "english": "He likes painting landscapes.",
+      "highlight": [
+        "malt"
+      ]
+    },
+    {
+      "german": "Wer hat das gemalt?",
+      "english": "Who painted that?",
+      "highlight": [
+        "gemalt?"
+      ]
+    }
+  ],
+  "forms": [
+    "male",
+    "malst",
+    "malt",
+    "malen",
+    "gemalt"
+  ],
+  "memoryHook": "Malen (colours) vs zeichnen (pencil). Der Maler = painter.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (malen)",
+      "answer": "malt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: malt.",
+      "acceptedAnswers": [
+        "malt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (malen, past)",
+      "answer": "gemalt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gemalt.",
+      "acceptedAnswers": [
+        "gemalt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does malen mean?",
+      "options": [
+        "quiet",
+        "to paint",
+        "the family"
+      ],
+      "answer": "to paint",
+      "explanation": "malen: to paint.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Malen or zeichnen? With a pencil:",
+      "options": [
+        "zeichnen",
+        "malen"
+      ],
+      "answer": "zeichnen",
+      "explanation": "Malen = with colours.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "A painter (artist):",
+      "options": [
+        "der Maler",
+        "der Maller"
+      ],
+      "answer": "der Maler",
+      "explanation": "Also a house painter.",
+      "id": "q5"
+    }
+  ]
+}

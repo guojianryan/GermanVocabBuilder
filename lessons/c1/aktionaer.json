@@ -1,0 +1,134 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Aktionär",
+    "partOfSpeech": "noun, masculine (der Aktionär)",
+    "pronunciation": {
+      "respelling": "ak-tsyo-NAIR",
+      "ipa": "aktsi̯oˈnɛːɐ̯",
+      "notes": "Plural: die Aktionäre."
+    },
+    "meaning": "shareholder",
+    "shortDefinition": "Shareholder."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Aktionär, plural die Aktionäre.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Aktionär"
+        },
+        {
+          "label": "More than one",
+          "value": "die Aktionäre"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Aktionäre bekommen eine Dividende.",
+      "english": "The shareholders receive a dividend.",
+      "highlight": [
+        "Aktionäre"
+      ]
+    },
+    {
+      "german": "Er ist der größte Aktionär.",
+      "english": "He's the largest shareholder.",
+      "highlight": [
+        "Aktionär."
+      ]
+    },
+    {
+      "german": "Die Hauptversammlung der Aktionäre.",
+      "english": "The shareholders' general meeting.",
+      "highlight": [
+        "Aktionäre."
+      ]
+    }
+  ],
+  "forms": [
+    "Aktie",
+    "Aktionärin"
+  ],
+  "memoryHook": "Aktie → der Aktionär.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Aktionär",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Aktionär is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Aktionär, zwei ___",
+      "answer": "Aktionäre",
+      "fullAnswer": "ein Aktionär, zwei Aktionäre",
+      "explanation": "The plural is Aktionäre.",
+      "acceptedAnswers": [
+        "Aktionaere"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Aktionär mean?",
+      "options": [
+        "always",
+        "shareholder",
+        "the station"
+      ],
+      "answer": "shareholder",
+      "explanation": "Aktionär: shareholder.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "die Aktie (share)",
+        "die Aktion"
+      ],
+      "answer": "die Aktie (share)",
+      "explanation": "Share.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Female:",
+      "options": [
+        "die Aktionärin",
+        "die Aktionäre"
+      ],
+      "answer": "die Aktionärin",
+      "explanation": "-in.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Stress on…",
+      "options": [
+        "-NÄR",
+        "AK-"
+      ],
+      "answer": "-NÄR",
+      "explanation": "End.",
+      "id": "q6"
+    }
+  ]
+}

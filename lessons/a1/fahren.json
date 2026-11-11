@@ -1,0 +1,234 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "full",
+  "word": {
+    "headword": "fahren",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "FAH-ren",
+      "ipa": "ˈfaːʁən",
+      "notes": "Long a; the h just lengthens it."
+    },
+    "meaning": "to go, to travel (by vehicle); to drive",
+    "shortDefinition": "Any movement using wheels, rails or water."
+  },
+  "intro": {
+    "title": "Fahren, not gehen",
+    "paragraphs": [
+      "German separates going on foot (gehen) from going by vehicle (fahren). If there's a car, bus, train, bike or boat involved, it's fahren. Ich fahre nach Berlin: I'm going to Berlin (by train or car)."
+    ]
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "fahr|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "f|ä|hrst"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "f|ä|hrt"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "fahr|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "fahr|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "fahr|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Du and er get an umlaut: fährst, fährt.",
+        "Past (Perfekt): ist gefahren (movement uses sein)."
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "die Fahrt",
+      "english": "journey, ride",
+      "type": "noun"
+    },
+    {
+      "german": "die Fahrkarte",
+      "english": "ticket",
+      "type": "noun"
+    },
+    {
+      "german": "das Fahrrad",
+      "english": "bicycle",
+      "type": "noun"
+    },
+    {
+      "german": "abfahren",
+      "english": "to depart",
+      "type": "separable verb"
+    },
+    {
+      "german": "Gute Fahrt!",
+      "english": "Have a good trip! (by car)",
+      "type": "phrase"
+    }
+  ],
+  "keyTrap": {
+    "title": "The big trap: gehen or fahren?",
+    "explanation": "Gehen is on foot. If you're travelling to another city, you almost certainly fahren (or fliegen).",
+    "wrong": {
+      "german": "Morgen gehe ich nach München.",
+      "verdict": "This sounds like you're walking to Munich."
+    },
+    "correct": [
+      {
+        "german": "Morgen fahre ich nach München.",
+        "literal": "Tomorrow I travel to Munich.",
+        "note": "By train or car: fahren."
+      },
+      {
+        "german": "Ich gehe zum Bäcker.",
+        "literal": "I walk to the baker's.",
+        "note": "On foot: gehen."
+      }
+    ]
+  },
+  "commonMistakes": [
+    {
+      "title": "mit + vehicle",
+      "explanation": "How you travel takes mit + dative.",
+      "wrong": "Ich fahre bei Bus.",
+      "correct": "Ich fahre mit dem Bus."
+    },
+    {
+      "title": "sein in the past",
+      "explanation": "Fahren is movement, so it uses sein.",
+      "wrong": "Ich habe nach Hamburg gefahren.",
+      "correct": "Ich bin nach Hamburg gefahren."
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich fahre jeden Tag mit dem Fahrrad zur Arbeit.",
+      "english": "I cycle to work every day.",
+      "highlight": [
+        "fahre"
+      ]
+    },
+    {
+      "german": "Fährst du am Wochenende weg?",
+      "english": "Are you going away at the weekend?",
+      "highlight": [
+        "Fährst"
+      ]
+    },
+    {
+      "german": "Wir sind mit dem Zug nach Wien gefahren.",
+      "english": "We went to Vienna by train.",
+      "highlight": [
+        "gefahren."
+      ]
+    },
+    {
+      "german": "Kannst du Auto fahren?",
+      "english": "Can you drive?",
+      "highlight": [
+        "fahren?"
+      ]
+    }
+  ],
+  "forms": [
+    "fahre",
+    "fährst",
+    "fährt",
+    "fahrt",
+    "gefahren",
+    "fuhr",
+    "fuhren"
+  ],
+  "memoryHook": "Wheels = fahren. Feet = gehen. Er fährt, du fährst, and ich bin gefahren.",
+  "signOff": "Gute Fahrt!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Wir ___ im Sommer nach Italien. (by car)",
+      "options": [
+        "gehen",
+        "fahren"
+      ],
+      "answer": "fahren",
+      "explanation": "By vehicle: fahren.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Er ___ mit dem Bus. (fahren)",
+      "answer": "fährt",
+      "fullAnswer": "Er fährt mit dem Bus.",
+      "explanation": "Er fährt, with an umlaut.",
+      "acceptedAnswers": [
+        "faehrt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich ___ gestern nach Köln gefahren.",
+      "options": [
+        "habe",
+        "bin"
+      ],
+      "answer": "bin",
+      "explanation": "Movement: sein.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich fahre ___ Zug.",
+      "options": [
+        "mit dem",
+        "bei dem"
+      ],
+      "answer": "mit dem",
+      "explanation": "Mit + vehicle.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Your friend is driving off on holiday. You say:",
+      "options": [
+        "Gute Fahrt!",
+        "Guten Appetit!"
+      ],
+      "answer": "Gute Fahrt!",
+      "explanation": "Have a good trip.",
+      "id": "q5"
+    }
+  ]
+}

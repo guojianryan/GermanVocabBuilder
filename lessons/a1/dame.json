@@ -1,0 +1,131 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Dame",
+    "partOfSpeech": "noun, feminine (die Dame)",
+    "pronunciation": {
+      "respelling": "DAA-me",
+      "ipa": "ˈdaːmə",
+      "notes": "Plural: die Damen."
+    },
+    "meaning": "lady",
+    "shortDefinition": "Lady."
+  },
+  "wordFamily": [
+    {
+      "german": "der Herr",
+      "english": "gentleman, Mr",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Dame, plural die Damen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Dame"
+        },
+        {
+          "label": "More than one",
+          "value": "die Damen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Sehr geehrte Damen und Herren!",
+      "english": "Ladies and gentlemen!",
+      "highlight": [
+        "Damen"
+      ]
+    },
+    {
+      "german": "Die Dame an der Kasse ist sehr nett.",
+      "english": "The lady at the till is very nice.",
+      "highlight": [
+        "Dame"
+      ]
+    },
+    {
+      "german": "Damen (on a toilet door)",
+      "english": "Ladies",
+      "highlight": [
+        "Damen"
+      ]
+    }
+  ],
+  "forms": [
+    "Damen",
+    "die Damen",
+    "die Dame"
+  ],
+  "memoryHook": "Damen und Herren = ladies and gentlemen.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Dame",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Dame is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Dame, zwei ___",
+      "answer": "Damen",
+      "fullAnswer": "ein Dame, zwei Damen",
+      "explanation": "The plural is Damen.",
+      "acceptedAnswers": [
+        "Damen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Dame mean?",
+      "options": [
+        "lady",
+        "slowly",
+        "to help"
+      ],
+      "answer": "lady",
+      "explanation": "Dame: lady.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Dear Sir or Madam' in a letter:",
+      "options": [
+        "Sehr geehrte Damen und Herren",
+        "Liebe Dame"
+      ],
+      "answer": "Sehr geehrte Damen und Herren",
+      "explanation": "Formal letter opening.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "On a toilet door, Damen means…",
+      "options": [
+        "ladies",
+        "gentlemen"
+      ],
+      "answer": "ladies",
+      "explanation": "Gentlemen: Herren.",
+      "id": "q5"
+    }
+  ]
+}

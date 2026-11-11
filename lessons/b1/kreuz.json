@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Kreuz",
+    "partOfSpeech": "noun, neuter (das Kreuz)",
+    "pronunciation": {
+      "respelling": "KROYTS",
+      "ipa": "kʁɔɪ̯ts",
+      "notes": "Plural: die Kreuze."
+    },
+    "meaning": "cross; lower back",
+    "shortDefinition": "Cross; lower back."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Kreuz, plural die Kreuze.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Kreuz"
+        },
+        {
+          "label": "More than one",
+          "value": "die Kreuze"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Machen Sie ein Kreuz an der richtigen Stelle.",
+      "english": "Put a cross in the right place.",
+      "highlight": [
+        "Kreuz"
+      ]
+    },
+    {
+      "german": "Auf der Kirche steht ein Kreuz.",
+      "english": "There's a cross on the church.",
+      "highlight": [
+        "Kreuz."
+      ]
+    },
+    {
+      "german": "Ich habe Schmerzen im Kreuz.",
+      "english": "I've got lower back pain.",
+      "highlight": [
+        "Kreuz."
+      ]
+    }
+  ],
+  "forms": [
+    "ankreuzen",
+    "Kreuzung"
+  ],
+  "memoryHook": "Das Kreuz: cross. Ankreuzen = tick (on forms). Kreuzung = crossroads.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Kreuz",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Kreuz is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Kreuz, zwei ___",
+      "answer": "Kreuze",
+      "fullAnswer": "ein Kreuz, zwei Kreuze",
+      "explanation": "The plural is Kreuze.",
+      "acceptedAnswers": [
+        "Kreuze"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Kreuz mean?",
+      "options": [
+        "to sleep",
+        "to help",
+        "cross"
+      ],
+      "answer": "cross",
+      "explanation": "Kreuz: cross; lower back.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Ankreuzen' means…",
+      "options": [
+        "to tick / mark with a cross",
+        "to cross a street"
+      ],
+      "answer": "to tick / mark with a cross",
+      "explanation": "Forms.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Das Rote Kreuz is…",
+      "options": [
+        "the Red Cross",
+        "a red mark"
+      ],
+      "answer": "the Red Cross",
+      "explanation": "Charity.",
+      "id": "q5"
+    }
+  ]
+}

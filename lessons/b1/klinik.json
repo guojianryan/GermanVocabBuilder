@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Klinik",
+    "partOfSpeech": "noun, feminine (die Klinik)",
+    "pronunciation": {
+      "respelling": "KLEE-nik",
+      "ipa": "ˈkliːnɪk",
+      "notes": "Plural: die Kliniken."
+    },
+    "meaning": "clinic, hospital",
+    "shortDefinition": "Clinic, hospital."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Klinik, plural die Kliniken.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Klinik"
+        },
+        {
+          "label": "More than one",
+          "value": "die Kliniken"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er liegt in einer Klinik.",
+      "english": "He's in hospital.",
+      "highlight": [
+        "Klinik."
+      ]
+    },
+    {
+      "german": "Die Klinik ist auf Herzkrankheiten spezialisiert.",
+      "english": "The clinic specialises in heart disease.",
+      "highlight": [
+        "Klinik"
+      ]
+    },
+    {
+      "german": "Sie arbeitet in der Uniklinik.",
+      "english": "She works at the university hospital.",
+      "highlight": [
+        "Uniklinik."
+      ]
+    }
+  ],
+  "forms": [
+    "Kliniken",
+    "die Kliniken",
+    "die Klinik"
+  ],
+  "memoryHook": "Die Klinik = hospital (often specialised).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Klinik",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Klinik is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Klinik, zwei ___",
+      "answer": "Kliniken",
+      "fullAnswer": "ein Klinik, zwei Kliniken",
+      "explanation": "The plural is Kliniken.",
+      "acceptedAnswers": [
+        "Kliniken"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Klinik mean?",
+      "options": [
+        "to sing",
+        "clinic",
+        "to travel"
+      ],
+      "answer": "clinic",
+      "explanation": "Klinik: clinic, hospital.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonym:",
+      "options": [
+        "das Krankenhaus",
+        "die Praxis"
+      ],
+      "answer": "das Krankenhaus",
+      "explanation": "Hospital.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Kliniken",
+        "Kliniks"
+      ],
+      "answer": "Kliniken",
+      "explanation": "-en.",
+      "id": "q5"
+    }
+  ]
+}

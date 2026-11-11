@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Gestalt",
+    "partOfSpeech": "noun, feminine (die Gestalt)",
+    "pronunciation": {
+      "respelling": "ge-SHTALT",
+      "ipa": "ɡəˈʃtalt",
+      "notes": "Plural: die Gestalten."
+    },
+    "meaning": "form, shape, figure",
+    "shortDefinition": "Form, shape, figure."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Gestalt, plural die Gestalten.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Gestalt"
+        },
+        {
+          "label": "More than one",
+          "value": "die Gestalten"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Eine dunkle Gestalt stand an der Tür.",
+      "english": "A dark figure stood at the door.",
+      "highlight": [
+        "Gestalt"
+      ]
+    },
+    {
+      "german": "Das Projekt nimmt Gestalt an.",
+      "english": "The project is taking shape.",
+      "highlight": [
+        "Gestalt"
+      ]
+    },
+    {
+      "german": "In Gestalt eines Briefes.",
+      "english": "In the form of a letter.",
+      "highlight": [
+        "Gestalt"
+      ]
+    }
+  ],
+  "forms": [
+    "gestalten"
+  ],
+  "memoryHook": "Die Gestalt → gestalten; Gestalt annehmen.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Gestalt",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Gestalt is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Gestalt, zwei ___",
+      "answer": "Gestalten",
+      "fullAnswer": "ein Gestalt, zwei Gestalten",
+      "explanation": "The plural is Gestalten.",
+      "acceptedAnswers": [
+        "Gestalten"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Gestalt mean?",
+      "options": [
+        "quiet",
+        "tomorrow",
+        "form"
+      ],
+      "answer": "form",
+      "explanation": "Gestalt: form, shape, figure.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Gestalt annehmen' means…",
+      "options": [
+        "to take shape",
+        "to accept a figure"
+      ],
+      "answer": "to take shape",
+      "explanation": "Idiom.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Verb:",
+      "options": [
+        "gestalten (shape, design)",
+        "gestellen"
+      ],
+      "answer": "gestalten (shape, design)",
+      "explanation": "Shape.",
+      "id": "q5"
+    }
+  ]
+}

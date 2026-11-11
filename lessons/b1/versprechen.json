@@ -1,0 +1,168 @@
+{
+ "schemaVersion": "1.4",
+ "language": "de",
+ "explanationLanguage": "en",
+ "level": "B1",
+ "levelSource": "Goethe-Zertifikat B1 Wortliste",
+ "lessonType": "card",
+ "word": {
+  "headword": "versprechen",
+  "partOfSpeech": "verb",
+  "pronunciation": {
+   "respelling": "fer-SHPREKH-en",
+   "ipa": "fɛɐ̯ˈʃpʁɛçn̩",
+   "notes": ""
+  },
+  "meaning": "to promise",
+  "shortDefinition": "To promise."
+ },
+ "tables": [
+  {
+   "title": "Present tense",
+   "columns": [
+    "present"
+   ],
+   "rows": [
+    {
+     "label": "ich",
+     "cells": [
+      "versprech|e"
+     ]
+    },
+    {
+     "label": "du",
+     "cells": [
+      "versprich|st"
+     ]
+    },
+    {
+     "label": "er, sie, es",
+     "cells": [
+      "versprich|t"
+     ]
+    },
+    {
+     "label": "wir",
+     "cells": [
+      "versprech|en"
+     ]
+    },
+    {
+     "label": "ihr",
+     "cells": [
+      "versprech|t"
+     ]
+    },
+    {
+     "label": "sie, Sie",
+     "cells": [
+      "versprech|en"
+     ]
+    }
+   ],
+   "notes": [
+    "Past (Perfekt): hat versprochen"
+   ]
+  }
+ ],
+ "sampleSentences": [
+  {
+   "german": "Ich verspreche es dir.",
+   "english": "I promise.",
+   "highlight": [
+    "verspreche"
+   ]
+  },
+  {
+   "german": "Er hat versprochen zu kommen.",
+   "english": "He promised to come.",
+   "highlight": [
+    "versprochen"
+   ]
+  },
+  {
+   "german": "Ich habe mich versprochen.",
+   "english": "I misspoke.",
+   "highlight": [
+    "versprochen."
+   ]
+  }
+ ],
+ "forms": [
+  "Versprechen"
+ ],
+ "memoryHook": "Versprechen (verspricht, versprochen); das Versprechen = promise.",
+ "signOff": "Gut gemacht!",
+ "quiz": [
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "er ___ (versprechen)",
+   "answer": "verspricht",
+   "fullAnswer": "",
+   "explanation": "For er, sie, es: verspricht.",
+   "acceptedAnswers": [
+    "verspricht"
+   ],
+   "id": "q1"
+  },
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "Ich habe schon ___. (versprechen, past)",
+   "answer": "versprochen",
+   "fullAnswer": "",
+   "explanation": "Perfekt: habe versprochen.",
+   "acceptedAnswers": [
+    "versprochen"
+   ],
+   "id": "q2"
+  },
+  {
+   "type": "choice",
+   "prompt": "What does versprechen mean?",
+   "options": [
+    "the family",
+    "to promise",
+    "slowly"
+   ],
+   "answer": "to promise",
+   "explanation": "versprechen: to promise.",
+   "id": "q3"
+  },
+  {
+   "type": "choice",
+   "prompt": "er ___ (versprechen):",
+   "options": [
+    "verspricht",
+    "versprecht"
+   ],
+   "answer": "verspricht",
+   "explanation": "e → i.",
+   "id": "q4"
+  },
+  {
+   "type": "choice",
+   "prompt": "'Sich versprechen' means…",
+   "options": [
+    "to make a slip of the tongue",
+    "to get engaged"
+   ],
+   "answer": "to make a slip of the tongue",
+   "explanation": "Misspeak.",
+   "id": "q5"
+  }
+ ],
+ "etymology": {
+  "title": "Where it comes from",
+  "parts": [
+   {
+    "part": "ver",
+    "meaning": "prefix (change, away)"
+   },
+   {
+    "part": "sprechen",
+    "meaning": "to speak"
+   }
+  ],
+  "literalMeaning": "to speak for (the future)"
+ }
+}

@@ -1,0 +1,166 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "schützen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "SHÜT-sen",
+      "ipa": "ˈʃʏtsn̩",
+      "notes": ""
+    },
+    "meaning": "to protect",
+    "shortDefinition": "To protect."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "schütz|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "schütz|t"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "schütz|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "schütz|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "schütz|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "schütz|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat geschützt"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "der Schutz",
+      "english": "protection",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Creme schützt vor der Sonne.",
+      "english": "The cream protects against the sun.",
+      "highlight": [
+        "schützt",
+        "vor"
+      ]
+    },
+    {
+      "german": "Wir müssen die Umwelt schützen.",
+      "english": "We have to protect the environment.",
+      "highlight": [
+        "schützen."
+      ]
+    },
+    {
+      "german": "Schütze dich vor Viren!",
+      "english": "Protect yourself against viruses!",
+      "highlight": [
+        "Schütze",
+        "vor"
+      ]
+    }
+  ],
+  "forms": [
+    "schütze",
+    "schützt",
+    "schützen",
+    "geschützt"
+  ],
+  "memoryHook": "Schützen vor → der Schutz.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (schützen)",
+      "answer": "schützt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: schützt.",
+      "acceptedAnswers": [
+        "schuetzt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (schützen, past)",
+      "answer": "geschützt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe geschützt.",
+      "acceptedAnswers": [
+        "geschuetzt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does schützen mean?",
+      "options": [
+        "to protect",
+        "quiet",
+        "tomorrow"
+      ],
+      "answer": "to protect",
+      "explanation": "schützen: to protect.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Protect against:",
+      "options": [
+        "schützen vor (+ Dat)",
+        "schützen gegen only"
+      ],
+      "answer": "schützen vor (+ Dat)",
+      "explanation": "Vor.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Noun:",
+      "options": [
+        "der Schutz",
+        "die Schützung"
+      ],
+      "answer": "der Schutz",
+      "explanation": "Protection.",
+      "id": "q5"
+    }
+  ]
+}

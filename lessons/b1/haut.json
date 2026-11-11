@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Haut",
+    "partOfSpeech": "noun, feminine (die Haut)",
+    "pronunciation": {
+      "respelling": "HOWT",
+      "ipa": "haʊ̯t",
+      "notes": "Plural: die Häute."
+    },
+    "meaning": "skin",
+    "shortDefinition": "Skin."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Haut, plural die Häute.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Haut"
+        },
+        {
+          "label": "More than one",
+          "value": "die Häute"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich habe trockene Haut.",
+      "english": "I have dry skin.",
+      "highlight": [
+        "Haut."
+      ]
+    },
+    {
+      "german": "Die Sonne ist schlecht für die Haut.",
+      "english": "The sun is bad for your skin.",
+      "highlight": [
+        "Haut."
+      ]
+    },
+    {
+      "german": "Ich bin nass bis auf die Haut.",
+      "english": "I'm soaked to the skin.",
+      "highlight": [
+        "Haut."
+      ]
+    }
+  ],
+  "forms": [
+    "Hautarzt"
+  ],
+  "memoryHook": "Die Haut (skin). Hautarzt = dermatologist.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Haut",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Haut is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Haut, zwei ___",
+      "answer": "Häute",
+      "fullAnswer": "ein Haut, zwei Häute",
+      "explanation": "The plural is Häute.",
+      "acceptedAnswers": [
+        "Haeute"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Haut mean?",
+      "options": [
+        "the car",
+        "the street",
+        "skin"
+      ],
+      "answer": "skin",
+      "explanation": "Haut: skin.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Bis auf die Haut nass' means…",
+      "options": [
+        "soaked to the skin",
+        "skin wet"
+      ],
+      "answer": "soaked to the skin",
+      "explanation": "Idiom.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "A dermatologist:",
+      "options": [
+        "der Hautarzt",
+        "der Hautdoktor"
+      ],
+      "answer": "der Hautarzt",
+      "explanation": "Skin doctor.",
+      "id": "q5"
+    }
+  ]
+}

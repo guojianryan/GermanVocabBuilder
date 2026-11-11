@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "full",
+  "word": {
+    "headword": "bitte",
+    "partOfSpeech": "particle",
+    "pronunciation": {
+      "respelling": "BIT-uh",
+      "ipa": "ˈbɪtə",
+      "notes": "Short i, double t."
+    },
+    "meaning": "please; you're welcome; here you are; pardon?",
+    "shortDefinition": "A polite word with four everyday jobs."
+  },
+  "intro": {
+    "title": "One word, four jobs",
+    "paragraphs": [
+      "Bitte is the busiest polite word in German. It means please when you ask, you're welcome when someone thanks you, here you are when you hand something over, and Bitte? means 'Pardon?' when you didn't catch something."
+    ]
+  },
+  "wordFamily": [
+    {
+      "german": "Bitte schön! / Bitte sehr!",
+      "english": "Here you are! You're welcome!",
+      "type": "phrase"
+    },
+    {
+      "german": "Wie bitte?",
+      "english": "Pardon?",
+      "type": "phrase"
+    },
+    {
+      "german": "bitten",
+      "english": "to ask (for)",
+      "type": "verb"
+    },
+    {
+      "german": "danke",
+      "english": "thank you",
+      "type": "particle"
+    }
+  ],
+  "keyTrap": {
+    "title": "The big trap: answering danke",
+    "explanation": "When someone says danke, the usual reply is bitte, not danke again.",
+    "wrong": {
+      "german": "Danke! – Danke!",
+      "verdict": "Thanking back sounds odd. Say bitte."
+    },
+    "correct": [
+      {
+        "german": "Danke! – Bitte!",
+        "literal": "Thanks! – You're welcome!",
+        "note": "The standard reply."
+      },
+      {
+        "german": "Danke schön! – Bitte schön!",
+        "literal": "Thank you very much! – You're very welcome!",
+        "note": "Matching the politeness."
+      }
+    ]
+  },
+  "commonMistakes": [
+    {
+      "title": "Where bitte goes",
+      "explanation": "Bitte can go at the start, after the verb, or at the end, separated by a comma.",
+      "examples": [
+        {
+          "german": "Bitte setzen Sie sich.",
+          "english": "Please sit down.",
+          "highlight": "Bitte"
+        },
+        {
+          "german": "Ein Wasser, bitte.",
+          "english": "A water, please.",
+          "highlight": "bitte."
+        }
+      ]
+    },
+    {
+      "title": "Pardon?",
+      "explanation": "To ask someone to repeat, say 'Wie bitte?' rather than 'Was?', which sounds rude.",
+      "wrong": "Was?",
+      "correct": "Wie bitte?"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Einen Kaffee, bitte.",
+      "english": "A coffee, please.",
+      "highlight": [
+        "bitte."
+      ]
+    },
+    {
+      "german": "Danke! – Bitte schön!",
+      "english": "Thanks! – You're welcome!",
+      "highlight": [
+        "Bitte"
+      ]
+    },
+    {
+      "german": "Hier, bitte. Ihr Schlüssel.",
+      "english": "Here you are. Your key.",
+      "highlight": [
+        "bitte."
+      ]
+    },
+    {
+      "german": "Wie bitte? Können Sie das wiederholen?",
+      "english": "Pardon? Could you repeat that?",
+      "highlight": [
+        "bitte?"
+      ]
+    }
+  ],
+  "forms": [
+    "bitte schön",
+    "bitte sehr",
+    "wie bitte"
+  ],
+  "memoryHook": "Bitte = please, you're welcome, here you are, and pardon? When in doubt, say bitte.",
+  "signOff": "Bitte schön!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Someone says 'Danke!'. You answer:",
+      "options": [
+        "Bitte!",
+        "Danke!",
+        "Hallo!"
+      ],
+      "answer": "Bitte!",
+      "explanation": "You're welcome: bitte.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "You didn't hear what someone said. You say:",
+      "options": [
+        "Wie bitte?",
+        "Was?"
+      ],
+      "answer": "Wie bitte?",
+      "explanation": "Polite: Wie bitte?",
+      "id": "q2"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ein Bier, ___. (please)",
+      "answer": "bitte",
+      "fullAnswer": "Ein Bier, bitte.",
+      "explanation": "Please: bitte.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "You hand someone their coffee. You say:",
+      "options": [
+        "Bitte schön!",
+        "Danke schön!"
+      ],
+      "answer": "Bitte schön!",
+      "explanation": "Here you are: bitte schön.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "The verb 'to ask for something' is…",
+      "options": [
+        "bitten",
+        "fragen"
+      ],
+      "answer": "bitten",
+      "explanation": "Bitten um: ask for. Fragen: ask a question.",
+      "id": "q5"
+    }
+  ]
+}

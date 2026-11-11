@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Beschluss",
+    "partOfSpeech": "noun, masculine (der Beschluss)",
+    "pronunciation": {
+      "respelling": "be-SHLOOS",
+      "ipa": "bəˈʃlʊs",
+      "notes": "Plural: die Beschlüsse."
+    },
+    "meaning": "decision, resolution",
+    "shortDefinition": "Decision, resolution."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Be",
+        "meaning": "prefix"
+      },
+      {
+        "part": "schluss",
+        "meaning": "close, end (schließen)"
+      }
+    ],
+    "literalMeaning": "a closing (of debate)"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Beschluss, plural die Beschlüsse.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Beschluss"
+        },
+        {
+          "label": "More than one",
+          "value": "die Beschlüsse"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Beschluss wurde einstimmig gefasst.",
+      "english": "The decision was unanimous.",
+      "highlight": [
+        "Beschluss"
+      ]
+    },
+    {
+      "german": "Das ist ein Beschluss des Gerichts.",
+      "english": "That's a court ruling.",
+      "highlight": [
+        "Beschluss"
+      ]
+    },
+    {
+      "german": "Die Beschlüsse des Parlaments.",
+      "english": "The resolutions of parliament.",
+      "highlight": [
+        "Beschlüsse"
+      ]
+    }
+  ],
+  "forms": [
+    "beschließen"
+  ],
+  "memoryHook": "Beschließen → der Beschluss.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Beschluss",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Beschluss is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Beschluss, zwei ___",
+      "answer": "Beschlüsse",
+      "fullAnswer": "ein Beschluss, zwei Beschlüsse",
+      "explanation": "The plural is Beschlüsse.",
+      "acceptedAnswers": [
+        "Beschluesse"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Beschluss mean?",
+      "options": [
+        "decision",
+        "the shop",
+        "the window"
+      ],
+      "answer": "decision",
+      "explanation": "Beschluss: decision, resolution.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "beschließen (decide)",
+        "schließen only"
+      ],
+      "answer": "beschließen (decide)",
+      "explanation": "Decide.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Einen Beschluss fassen' means…",
+      "options": [
+        "to pass a resolution",
+        "to grasp a decision"
+      ],
+      "answer": "to pass a resolution",
+      "explanation": "Collocation.",
+      "id": "q5"
+    }
+  ]
+}

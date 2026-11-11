@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Täter",
+    "partOfSpeech": "noun, masculine (der Täter)",
+    "pronunciation": {
+      "respelling": "TAY-ter",
+      "ipa": "ˈtɛːtɐ",
+      "notes": "The plural looks the same. Plural: die Täter."
+    },
+    "meaning": "culprit, perpetrator",
+    "shortDefinition": "Culprit, perpetrator."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Täter, plural die Täter.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Täter"
+        },
+        {
+          "label": "More than one",
+          "value": "die Täter"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Polizei sucht den Täter.",
+      "english": "The police are looking for the culprit.",
+      "highlight": [
+        "Täter."
+      ]
+    },
+    {
+      "german": "Der Täter ist geflohen.",
+      "english": "The perpetrator escaped.",
+      "highlight": [
+        "Täter"
+      ]
+    },
+    {
+      "german": "Die Täterin wurde verhaftet.",
+      "english": "The culprit was arrested.",
+      "highlight": [
+        "Täterin"
+      ]
+    }
+  ],
+  "forms": [
+    "Täterin"
+  ],
+  "memoryHook": "Die Tat → der Täter (culprit) ↔ das Opfer.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Täter",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Täter is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Täter, zwei ___",
+      "answer": "Täter",
+      "fullAnswer": "ein Täter, zwei Täter",
+      "explanation": "The plural is Täter.",
+      "acceptedAnswers": [
+        "Taeter"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Täter mean?",
+      "options": [
+        "the car",
+        "to travel",
+        "culprit"
+      ],
+      "answer": "culprit",
+      "explanation": "Täter: culprit, perpetrator.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "die Tat (deed)",
+        "der Tag"
+      ],
+      "answer": "die Tat (deed)",
+      "explanation": "Doer.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Opposite:",
+      "options": [
+        "das Opfer",
+        "der Zeuge"
+      ],
+      "answer": "das Opfer",
+      "explanation": "Victim.",
+      "id": "q5"
+    }
+  ]
+}

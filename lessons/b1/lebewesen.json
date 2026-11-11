@@ -1,0 +1,138 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Lebewesen",
+    "partOfSpeech": "noun, neuter (das Lebewesen)",
+    "pronunciation": {
+      "respelling": "LAY-be-vay-zen",
+      "ipa": "ˈleːbəˌveːzn̩",
+      "notes": "The plural looks the same. Plural: die Lebewesen."
+    },
+    "meaning": "living being, organism",
+    "shortDefinition": "Living being, organism."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Lebe",
+        "meaning": "live"
+      },
+      {
+        "part": "wesen",
+        "meaning": "being"
+      }
+    ],
+    "literalMeaning": "living being"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Lebewesen, plural die Lebewesen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Lebewesen"
+        },
+        {
+          "label": "More than one",
+          "value": "die Lebewesen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Alle Lebewesen brauchen Wasser.",
+      "english": "All living things need water.",
+      "highlight": [
+        "Lebewesen"
+      ]
+    },
+    {
+      "german": "Gibt es Lebewesen auf dem Mars?",
+      "english": "Are there living beings on Mars?",
+      "highlight": [
+        "Lebewesen"
+      ]
+    },
+    {
+      "german": "Ein kleines Lebewesen.",
+      "english": "A small creature.",
+      "highlight": [
+        "Lebewesen."
+      ]
+    }
+  ],
+  "forms": [
+    "Lebewesen",
+    "die Lebewesen",
+    "das Lebewesen"
+  ],
+  "memoryHook": "Leben + Wesen = living being.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Lebewesen",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Lebewesen is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Lebewesen, zwei ___",
+      "answer": "Lebewesen",
+      "fullAnswer": "ein Lebewesen, zwei Lebewesen",
+      "explanation": "The plural is Lebewesen.",
+      "acceptedAnswers": [
+        "Lebewesen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Lebewesen mean?",
+      "options": [
+        "to wait",
+        "living being",
+        "slowly"
+      ],
+      "answer": "living being",
+      "explanation": "Lebewesen: living being, organism.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "leben + Wesen (being)",
+        "Leber + Wesen"
+      ],
+      "answer": "leben + Wesen (being)",
+      "explanation": "Living being.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Lebewesen",
+        "Lebewesens"
+      ],
+      "answer": "Lebewesen",
+      "explanation": "No change.",
+      "id": "q5"
+    }
+  ]
+}

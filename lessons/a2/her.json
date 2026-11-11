@@ -1,0 +1,142 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "her",
+    "partOfSpeech": "adverb / prefix",
+    "pronunciation": {
+      "respelling": "HAIR",
+      "ipa": "heːɐ̯",
+      "notes": ""
+    },
+    "meaning": "here, towards the speaker (her-, -her)",
+    "shortDefinition": "Here, towards the speaker (her-, -her)."
+  },
+  "tables": [
+    {
+      "title": "her vs hin",
+      "columns": [
+        "example"
+      ],
+      "rows": [
+        {
+          "label": "towards me",
+          "cells": [
+            "Komm |her|!"
+          ]
+        },
+        {
+          "label": "away from me",
+          "cells": [
+            "Geh |hin|!"
+          ]
+        },
+        {
+          "label": "where from?",
+          "cells": [
+            "wo|her|?"
+          ]
+        },
+        {
+          "label": "where to?",
+          "cells": [
+            "wo|hin|?"
+          ]
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Komm her!",
+      "english": "Come here!",
+      "highlight": [
+        "her!"
+      ]
+    },
+    {
+      "german": "Wo kommst du her?",
+      "english": "Where are you from?",
+      "highlight": [
+        "her?"
+      ]
+    },
+    {
+      "german": "Das ist lange her.",
+      "english": "That was a long time ago.",
+      "highlight": [
+        "her."
+      ]
+    }
+  ],
+  "forms": [
+    "her-",
+    "-her",
+    "woher",
+    "hierher"
+  ],
+  "memoryHook": "Her = towards me, hin = away from me. Woher? Wohin?",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does her mean?",
+      "options": [
+        "the shop",
+        "here",
+        "the key"
+      ],
+      "answer": "here",
+      "explanation": "her: here, towards the speaker (her-, -her).",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Her = movement…",
+      "options": [
+        "towards me",
+        "away from me"
+      ],
+      "answer": "towards me",
+      "explanation": "Hin = away.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Komm her!' or 'Geh hin!'? 'Come here':",
+      "options": [
+        "Komm her!",
+        "Geh hin!"
+      ],
+      "answer": "Komm her!",
+      "explanation": "Towards me.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Das ist lange her' means…",
+      "options": [
+        "That was long ago.",
+        "That's here for long."
+      ],
+      "answer": "That was long ago.",
+      "explanation": "Idiom.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Woher' asks…",
+      "options": [
+        "where from",
+        "where to"
+      ],
+      "answer": "where from",
+      "explanation": "Wohin = where to.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Garage",
+    "partOfSpeech": "noun, feminine (die Garage)",
+    "pronunciation": {
+      "respelling": "ga-RAA-zhe",
+      "ipa": "ɡaˈʁaːʒə",
+      "notes": "Plural: die Garagen."
+    },
+    "meaning": "garage",
+    "shortDefinition": "Garage."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Garage, plural die Garagen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Garage"
+        },
+        {
+          "label": "More than one",
+          "value": "die Garagen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das Auto steht in der Garage.",
+      "english": "The car is in the garage.",
+      "highlight": [
+        "Garage."
+      ]
+    },
+    {
+      "german": "Wir haben ein Haus mit Garage.",
+      "english": "We have a house with a garage.",
+      "highlight": [
+        "Garage."
+      ]
+    },
+    {
+      "german": "Die Fahrräder sind in der Garage.",
+      "english": "The bikes are in the garage.",
+      "highlight": [
+        "Garage."
+      ]
+    }
+  ],
+  "forms": [
+    "Garagen",
+    "die Garagen",
+    "die Garage"
+  ],
+  "memoryHook": "Die Garage (French sound) = where you park. Repairs: die Werkstatt.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Garage",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Garage is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Garage, zwei ___",
+      "answer": "Garagen",
+      "fullAnswer": "ein Garage, zwei Garagen",
+      "explanation": "The plural is Garagen.",
+      "acceptedAnswers": [
+        "Garagen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Garage mean?",
+      "options": [
+        "the window",
+        "garage",
+        "the job"
+      ],
+      "answer": "garage",
+      "explanation": "Garage: garage.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Pronounced…",
+      "options": [
+        "the French way: ga-RAA-zhe",
+        "GAR-age"
+      ],
+      "answer": "the French way: ga-RAA-zhe",
+      "explanation": "French word.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Where cars are repaired:",
+      "options": [
+        "die Werkstatt",
+        "die Garage"
+      ],
+      "answer": "die Werkstatt",
+      "explanation": "Garage = for parking.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Ertrag",
+    "partOfSpeech": "noun, masculine (der Ertrag)",
+    "pronunciation": {
+      "respelling": "er-TRAAK",
+      "ipa": "ɛɐ̯ˈtʁaːk",
+      "notes": "Plural: die Erträge."
+    },
+    "meaning": "yield, return, proceeds",
+    "shortDefinition": "Yield, return, proceeds."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Er",
+        "meaning": "out, forth"
+      },
+      {
+        "part": "trag",
+        "meaning": "carry (tragen)"
+      }
+    ],
+    "literalMeaning": "what is brought forth"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Ertrag, plural die Erträge.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Ertrag"
+        },
+        {
+          "label": "More than one",
+          "value": "die Erträge"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Ertrag der Ernte war gut.",
+      "english": "The harvest yield was good.",
+      "highlight": [
+        "Ertrag"
+      ]
+    },
+    {
+      "german": "Die Investition bringt hohe Erträge.",
+      "english": "The investment brings high returns.",
+      "highlight": [
+        "Erträge."
+      ]
+    },
+    {
+      "german": "Ertrag und Aufwand.",
+      "english": "Income and expenditure.",
+      "highlight": [
+        "Ertrag"
+      ]
+    }
+  ],
+  "forms": [
+    "ertragreich"
+  ],
+  "memoryHook": "Ertragen → der Ertrag (yield); ertragreich.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Ertrag",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Ertrag is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Ertrag, zwei ___",
+      "answer": "Erträge",
+      "fullAnswer": "ein Ertrag, zwei Erträge",
+      "explanation": "The plural is Erträge.",
+      "acceptedAnswers": [
+        "Ertraege"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Ertrag mean?",
+      "options": [
+        "the child",
+        "the weather",
+        "yield"
+      ],
+      "answer": "yield",
+      "explanation": "Ertrag: yield, return, proceeds.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "ertragen (bear; yield)",
+        "tragen only"
+      ],
+      "answer": "ertragen (bear; yield)",
+      "explanation": "Bear.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Adjective:",
+      "options": [
+        "ertragreich (productive)",
+        "erträglich (bearable)"
+      ],
+      "answer": "ertragreich (productive)",
+      "explanation": "Productive.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Erträge",
+        "Ertrage"
+      ],
+      "answer": "Erträge",
+      "explanation": "Umlaut.",
+      "id": "q6"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Zusammenhang",
+    "partOfSpeech": "noun, masculine (der Zusammenhang)",
+    "pronunciation": {
+      "respelling": "tsoo-ZAM-en-hang",
+      "ipa": "tsuˈzamənhaŋ",
+      "notes": "Plural: die Zusammenhänge."
+    },
+    "meaning": "connection, context",
+    "shortDefinition": "Connection, context."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Zusammen",
+        "meaning": "together"
+      },
+      {
+        "part": "hang",
+        "meaning": "hang (hängen)"
+      }
+    ],
+    "literalMeaning": "hanging together",
+    "summary": "How things hang together."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Zusammenhang, plural die Zusammenhänge.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Zusammenhang"
+        },
+        {
+          "label": "More than one",
+          "value": "die Zusammenhänge"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "In diesem Zusammenhang möchte ich sagen …",
+      "english": "In this context I'd like to say …",
+      "highlight": [
+        "Zusammenhang"
+      ]
+    },
+    {
+      "german": "Es gibt einen Zusammenhang zwischen Stress und Krankheit.",
+      "english": "There's a link between stress and illness.",
+      "highlight": [
+        "Zusammenhang"
+      ]
+    },
+    {
+      "german": "Ich verstehe die Zusammenhänge nicht.",
+      "english": "I don't understand how it all fits together.",
+      "highlight": [
+        "Zusammenhänge"
+      ]
+    }
+  ],
+  "forms": [
+    "Zusammenhänge",
+    "die Zusammenhänge",
+    "der Zusammenhang"
+  ],
+  "memoryHook": "Zusammen + hängen = connection, context.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Zusammenhang",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Zusammenhang is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Zusammenhang, zwei ___",
+      "answer": "Zusammenhänge",
+      "fullAnswer": "ein Zusammenhang, zwei Zusammenhänge",
+      "explanation": "The plural is Zusammenhänge.",
+      "acceptedAnswers": [
+        "Zusammenhaenge"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Zusammenhang mean?",
+      "options": [
+        "the station",
+        "connection",
+        "the bed"
+      ],
+      "answer": "connection",
+      "explanation": "Zusammenhang: connection, context.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "zusammen + hängen (hang)",
+        "zusammen + Hand"
+      ],
+      "answer": "zusammen + hängen (hang)",
+      "explanation": "Hanging together.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Im Zusammenhang mit' means…",
+      "options": [
+        "in connection with",
+        "together with"
+      ],
+      "answer": "in connection with",
+      "explanation": "Link.",
+      "id": "q5"
+    }
+  ]
+}

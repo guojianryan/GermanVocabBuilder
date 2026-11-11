@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Zweck",
+    "partOfSpeech": "noun, masculine (der Zweck)",
+    "pronunciation": {
+      "respelling": "TSVEK",
+      "ipa": "tsvɛk",
+      "notes": "Plural: die Zwecke."
+    },
+    "meaning": "purpose",
+    "shortDefinition": "Purpose."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Zweck, plural die Zwecke.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Zweck"
+        },
+        {
+          "label": "More than one",
+          "value": "die Zwecke"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Zu welchem Zweck brauchen Sie das?",
+      "english": "What do you need it for?",
+      "highlight": [
+        "Zweck"
+      ]
+    },
+    {
+      "german": "Das hat keinen Zweck.",
+      "english": "There's no point.",
+      "highlight": [
+        "Zweck."
+      ]
+    },
+    {
+      "german": "Der Zweck heiligt die Mittel.",
+      "english": "The end justifies the means.",
+      "highlight": [
+        "Zweck"
+      ]
+    }
+  ],
+  "forms": [
+    "zwecklos"
+  ],
+  "memoryHook": "Der Zweck (purpose). Zwecklos = pointless.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Zweck",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Zweck is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Zweck, zwei ___",
+      "answer": "Zwecke",
+      "fullAnswer": "ein Zweck, zwei Zwecke",
+      "explanation": "The plural is Zwecke.",
+      "acceptedAnswers": [
+        "Zwecke"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Zweck mean?",
+      "options": [
+        "purpose",
+        "the weather",
+        "the bill"
+      ],
+      "answer": "purpose",
+      "explanation": "Zweck: purpose.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Es hat keinen Zweck' means…",
+      "options": [
+        "there's no point",
+        "it has no purpose (machine)"
+      ],
+      "answer": "there's no point",
+      "explanation": "Pointless.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Adjective 'pointless':",
+      "options": [
+        "zwecklos",
+        "zweckvoll"
+      ],
+      "answer": "zwecklos",
+      "explanation": "-los.",
+      "id": "q5"
+    }
+  ]
+}

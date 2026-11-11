@@ -1,0 +1,141 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Ermittlung",
+    "partOfSpeech": "noun, feminine (die Ermittlung)",
+    "pronunciation": {
+      "respelling": "er-MIT-lung",
+      "ipa": "ɛɐ̯ˈmɪtlʊŋ",
+      "notes": "Plural: die Ermittlungen."
+    },
+    "meaning": "investigation; determination",
+    "shortDefinition": "Investigation; determination."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Er",
+        "meaning": "find out"
+      },
+      {
+        "part": "mittl",
+        "meaning": "middle (Mitte)"
+      },
+      {
+        "part": "ung",
+        "meaning": "noun ending"
+      }
+    ],
+    "literalMeaning": "a finding-out"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Ermittlung, plural die Ermittlungen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Ermittlung"
+        },
+        {
+          "label": "More than one",
+          "value": "die Ermittlungen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Ermittlungen laufen noch.",
+      "english": "The investigation is still ongoing.",
+      "highlight": [
+        "Ermittlungen"
+      ]
+    },
+    {
+      "german": "Die Polizei hat die Ermittlungen eingestellt.",
+      "english": "The police have dropped the investigation.",
+      "highlight": [
+        "Ermittlungen"
+      ]
+    },
+    {
+      "german": "Die Ermittlung des Siegers.",
+      "english": "Determining the winner.",
+      "highlight": [
+        "Ermittlung"
+      ]
+    }
+  ],
+  "forms": [
+    "ermitteln",
+    "Ermittler"
+  ],
+  "memoryHook": "Ermitteln → die Ermittlungen.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Ermittlung",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Ermittlung is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Ermittlung, zwei ___",
+      "answer": "Ermittlungen",
+      "fullAnswer": "ein Ermittlung, zwei Ermittlungen",
+      "explanation": "The plural is Ermittlungen.",
+      "acceptedAnswers": [
+        "Ermittlungen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Ermittlung mean?",
+      "options": [
+        "investigation",
+        "the shop",
+        "the flower"
+      ],
+      "answer": "investigation",
+      "explanation": "Ermittlung: investigation; determination.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Usually used in…",
+      "options": [
+        "the plural (die Ermittlungen)",
+        "singular"
+      ],
+      "answer": "the plural (die Ermittlungen)",
+      "explanation": "Investigation.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "ermitteln (investigate)",
+        "Mittel"
+      ],
+      "answer": "ermitteln (investigate)",
+      "explanation": "Investigate.",
+      "id": "q5"
+    }
+  ]
+}

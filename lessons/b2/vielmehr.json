@@ -1,0 +1,103 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "vielmehr",
+    "partOfSpeech": "adverb",
+    "pronunciation": {
+      "respelling": "feel-MAIR",
+      "ipa": "fiːlˈmeːɐ̯",
+      "notes": ""
+    },
+    "meaning": "rather, on the contrary",
+    "shortDefinition": "Rather, on the contrary."
+  },
+  "sampleSentences": [
+    {
+      "german": "Das ist kein Problem, vielmehr eine Chance.",
+      "english": "That's not a problem, rather an opportunity.",
+      "highlight": [
+        "vielmehr"
+      ]
+    },
+    {
+      "german": "Er ist nicht faul, vielmehr müde.",
+      "english": "He's not lazy, but rather tired.",
+      "highlight": [
+        "vielmehr"
+      ]
+    },
+    {
+      "german": "Vielmehr geht es um Geld.",
+      "english": "Rather, it's about money.",
+      "highlight": [
+        "Vielmehr"
+      ]
+    }
+  ],
+  "forms": [],
+  "memoryHook": "Vielmehr = rather (correcting); viel mehr = much more.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does vielmehr mean?",
+      "options": [
+        "the station",
+        "rather",
+        "to learn"
+      ],
+      "answer": "rather",
+      "explanation": "vielmehr: rather, on the contrary.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Follows a negation like…",
+      "options": [
+        "nicht X, vielmehr Y",
+        "X und vielmehr Y"
+      ],
+      "answer": "nicht X, vielmehr Y",
+      "explanation": "Correction.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonym:",
+      "options": [
+        "eher, sondern",
+        "auch"
+      ],
+      "answer": "eher, sondern",
+      "explanation": "Rather.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Vielmehr vs viel mehr:",
+      "options": [
+        "rather vs much more",
+        "same"
+      ],
+      "answer": "rather vs much more",
+      "explanation": "Spacing matters.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Das ist kein Zufall, ___ Absicht. (rather)",
+      "answer": "vielmehr",
+      "fullAnswer": "Das ist kein Zufall, vielmehr Absicht.",
+      "explanation": "Vielmehr.",
+      "acceptedAnswers": [
+        "sondern"
+      ],
+      "id": "q5"
+    }
+  ]
+}

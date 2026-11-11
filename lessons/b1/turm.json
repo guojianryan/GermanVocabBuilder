@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Turm",
+    "partOfSpeech": "noun, masculine (der Turm)",
+    "pronunciation": {
+      "respelling": "TOORM",
+      "ipa": "tʊʁm",
+      "notes": "Plural: die Türme."
+    },
+    "meaning": "tower",
+    "shortDefinition": "Tower."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Turm, plural die Türme.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Turm"
+        },
+        {
+          "label": "More than one",
+          "value": "die Türme"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Turm ist 100 Meter hoch.",
+      "english": "The tower is 100 metres high.",
+      "highlight": [
+        "Turm"
+      ]
+    },
+    {
+      "german": "Wir steigen auf den Kirchturm.",
+      "english": "We're climbing the church tower.",
+      "highlight": [
+        "Kirchturm."
+      ]
+    },
+    {
+      "german": "Der Berliner Fernsehturm ist berühmt.",
+      "english": "Berlin's TV tower is famous.",
+      "highlight": [
+        "Fernsehturm"
+      ]
+    }
+  ],
+  "forms": [
+    "Türme",
+    "die Türme",
+    "der Turm"
+  ],
+  "memoryHook": "Der Turm, die Türme.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Turm",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Turm is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Turm, zwei ___",
+      "answer": "Türme",
+      "fullAnswer": "ein Turm, zwei Türme",
+      "explanation": "The plural is Türme.",
+      "acceptedAnswers": [
+        "Tuerme"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Turm mean?",
+      "options": [
+        "tower",
+        "the job",
+        "to sleep"
+      ],
+      "answer": "tower",
+      "explanation": "Turm: tower.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Türme",
+        "Turme"
+      ],
+      "answer": "Türme",
+      "explanation": "u → ü.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gender:",
+      "options": [
+        "der",
+        "die"
+      ],
+      "answer": "der",
+      "explanation": "Der Turm.",
+      "id": "q5"
+    }
+  ]
+}

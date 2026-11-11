@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "abgrenzen",
+    "partOfSpeech": "separable verb",
+    "pronunciation": {
+      "respelling": "AP-gren-tsen",
+      "ipa": "ˈapˌɡʁɛntsn̩",
+      "notes": ""
+    },
+    "meaning": "to delimit, demarcate; (sich ~) to distance oneself",
+    "shortDefinition": "To delimit, demarcate; (sich ~) to distance oneself."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "ab",
+        "meaning": "off"
+      },
+      {
+        "part": "grenzen",
+        "meaning": "to border",
+        "emphasis": "release"
+      }
+    ],
+    "literalMeaning": "to border off",
+    "summary": "Drawing a line and stepping back."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "grenz|e … |ab"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "grenz|t … |ab"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "grenz|t … |ab"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "grenz|en … |ab"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "grenz|t … |ab"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "grenz|en … |ab"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat abgegrenzt"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er grenzt sich von der Partei ab.",
+      "english": "He distances himself from the party.",
+      "highlight": [
+        "grenzt",
+        "ab."
+      ]
+    },
+    {
+      "german": "Das Gelände ist mit einem Zaun abgegrenzt.",
+      "english": "The site is fenced off.",
+      "highlight": [
+        "abgegrenzt."
+      ]
+    },
+    {
+      "german": "Die Begriffe lassen sich schwer abgrenzen.",
+      "english": "The terms are hard to distinguish.",
+      "highlight": [
+        "abgrenzen."
+      ]
+    }
+  ],
+  "forms": [
+    "Abgrenzung",
+    "Grenze"
+  ],
+  "memoryHook": "Abgrenzen (sich ~ von) = demarcate; distance oneself.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ … ab (abgrenzen)",
+      "answer": "grenzt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: grenzt … ab.",
+      "acceptedAnswers": [
+        "grenzt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (abgrenzen, past)",
+      "answer": "abgegrenzt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe abgegrenzt.",
+      "acceptedAnswers": [
+        "abgegrenzt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does abgrenzen mean?",
+      "options": [
+        "the station",
+        "to delimit",
+        "the door"
+      ],
+      "answer": "to delimit",
+      "explanation": "abgrenzen: to delimit, demarcate; (sich ~) to distance oneself.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Sich abgrenzen von' means…",
+      "options": [
+        "to distance oneself from",
+        "to border on"
+      ],
+      "answer": "to distance oneself from",
+      "explanation": "Distance.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Noun:",
+      "options": [
+        "die Abgrenzung",
+        "der Abgrenz"
+      ],
+      "answer": "die Abgrenzung",
+      "explanation": "Demarcation.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "die Grenze (border)",
+        "grenzen only"
+      ],
+      "answer": "die Grenze (border)",
+      "explanation": "Border.",
+      "id": "q6"
+    }
+  ]
+}

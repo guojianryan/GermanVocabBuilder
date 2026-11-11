@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Brille",
+    "partOfSpeech": "noun, feminine (die Brille)",
+    "pronunciation": {
+      "respelling": "BRIL-e",
+      "ipa": "ˈbʁɪlə",
+      "notes": "Plural: die Brillen."
+    },
+    "meaning": "glasses",
+    "shortDefinition": "Glasses."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Brille, plural die Brillen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Brille"
+        },
+        {
+          "label": "More than one",
+          "value": "die Brillen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich brauche eine neue Brille.",
+      "english": "I need new glasses.",
+      "highlight": [
+        "Brille."
+      ]
+    },
+    {
+      "german": "Wo ist meine Brille?",
+      "english": "Where are my glasses?",
+      "highlight": [
+        "Brille?"
+      ]
+    },
+    {
+      "german": "Er trägt eine Sonnenbrille.",
+      "english": "He's wearing sunglasses.",
+      "highlight": [
+        "Sonnenbrille."
+      ]
+    }
+  ],
+  "forms": [
+    "Brillen",
+    "die Brillen",
+    "die Brille"
+  ],
+  "memoryHook": "Eine Brille = one pair of glasses (singular!).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Brille",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Brille is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Brille, zwei ___",
+      "answer": "Brillen",
+      "fullAnswer": "ein Brille, zwei Brillen",
+      "explanation": "The plural is Brillen.",
+      "acceptedAnswers": [
+        "Brillen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Brille mean?",
+      "options": [
+        "cheap",
+        "always",
+        "glasses"
+      ],
+      "answer": "glasses",
+      "explanation": "Brille: glasses.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Brille is…",
+      "options": [
+        "singular (one pair)",
+        "plural"
+      ],
+      "answer": "singular (one pair)",
+      "explanation": "Eine Brille = a pair of glasses.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'My glasses ARE…' → Meine Brille ___ …",
+      "options": [
+        "ist",
+        "sind"
+      ],
+      "answer": "ist",
+      "explanation": "Singular.",
+      "id": "q5"
+    }
+  ]
+}

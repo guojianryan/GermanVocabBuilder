@@ -1,0 +1,116 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Grad (Celsius)",
+    "partOfSpeech": "noun, masculine (der Grad)",
+    "pronunciation": {
+      "respelling": "GRAHT",
+      "ipa": "ɡʁaːt",
+      "notes": ""
+    },
+    "meaning": "degree(s) (temperature)",
+    "shortDefinition": "Degree(s) (temperature)."
+  },
+  "sampleSentences": [
+    {
+      "german": "Heute sind es 25 Grad.",
+      "english": "It's 25 degrees today.",
+      "highlight": [
+        "Grad."
+      ]
+    },
+    {
+      "german": "In der Nacht ist es minus 5 Grad.",
+      "english": "At night it's minus five.",
+      "highlight": [
+        "Grad."
+      ]
+    },
+    {
+      "german": "Das Kind hat 39 Grad Fieber.",
+      "english": "The child has a temperature of 39 degrees.",
+      "highlight": [
+        "Grad"
+      ]
+    }
+  ],
+  "forms": [
+    "Grad",
+    "Grad Celsius",
+    "der Grad"
+  ],
+  "memoryHook": "Es sind 20 Grad: no plural ending after numbers. Always Celsius.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does Grad (Celsius) mean?",
+      "options": [
+        "the evening",
+        "degree(s) (temperature)",
+        "to buy"
+      ],
+      "answer": "degree(s) (temperature)",
+      "explanation": "Grad (Celsius): degree(s) (temperature).",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Grad mean?",
+      "options": [
+        "always",
+        "slowly",
+        "degree(s)"
+      ],
+      "answer": "degree(s)",
+      "explanation": "Grad: degree(s).",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "'30 degrees' in German is…",
+      "options": [
+        "30 Grad",
+        "30 Grade"
+      ],
+      "answer": "30 Grad",
+      "explanation": "No plural ending after a number.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Germany measures temperature in…",
+      "options": [
+        "Celsius",
+        "Fahrenheit"
+      ],
+      "answer": "Celsius",
+      "explanation": "Grad Celsius.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Minus 5 Grad' is…",
+      "options": [
+        "cold",
+        "hot"
+      ],
+      "answer": "cold",
+      "explanation": "Below zero.",
+      "id": "q5"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Es ist sehr heiß, 35 ___!",
+      "answer": "Grad",
+      "fullAnswer": "35 Grad",
+      "explanation": "Grad.",
+      "id": "q6"
+    }
+  ]
+}

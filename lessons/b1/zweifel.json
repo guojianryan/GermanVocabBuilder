@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Zweifel",
+    "partOfSpeech": "noun, masculine (der Zweifel)",
+    "pronunciation": {
+      "respelling": "TSVYE-fel",
+      "ipa": "ˈtsvaɪ̯fl̩",
+      "notes": "The plural looks the same. Plural: die Zweifel."
+    },
+    "meaning": "doubt",
+    "shortDefinition": "Doubt."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Zweifel, plural die Zweifel.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Zweifel"
+        },
+        {
+          "label": "More than one",
+          "value": "die Zweifel"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ohne Zweifel ist das richtig.",
+      "english": "Without doubt that's right.",
+      "highlight": [
+        "Zweifel"
+      ]
+    },
+    {
+      "german": "Ich habe meine Zweifel.",
+      "english": "I have my doubts.",
+      "highlight": [
+        "Zweifel."
+      ]
+    },
+    {
+      "german": "Im Zweifel frag lieber nach.",
+      "english": "If in doubt, ask.",
+      "highlight": [
+        "Zweifel"
+      ]
+    }
+  ],
+  "forms": [
+    "zweifelhaft"
+  ],
+  "memoryHook": "Der Zweifel. Ohne Zweifel; im Zweifel.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Zweifel",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Zweifel is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Zweifel, zwei ___",
+      "answer": "Zweifel",
+      "fullAnswer": "ein Zweifel, zwei Zweifel",
+      "explanation": "The plural is Zweifel.",
+      "acceptedAnswers": [
+        "Zweifel"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Zweifel mean?",
+      "options": [
+        "quiet",
+        "the weather",
+        "doubt"
+      ],
+      "answer": "doubt",
+      "explanation": "Zweifel: doubt.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Ohne Zweifel' means…",
+      "options": [
+        "without doubt",
+        "without two"
+      ],
+      "answer": "without doubt",
+      "explanation": "Certainly.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Adjective 'doubtful':",
+      "options": [
+        "zweifelhaft",
+        "zweifelig"
+      ],
+      "answer": "zweifelhaft",
+      "explanation": "Doubtful.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Job",
+    "partOfSpeech": "noun, masculine (der Job)",
+    "pronunciation": {
+      "respelling": "JOP",
+      "ipa": "dʒɔp",
+      "notes": "Plural: die Jobs."
+    },
+    "meaning": "job",
+    "shortDefinition": "Job."
+  },
+  "wordFamily": [
+    {
+      "german": "der Beruf",
+      "english": "profession",
+      "type": "noun"
+    },
+    {
+      "german": "die Arbeit",
+      "english": "work",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Job, plural die Jobs.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Job"
+        },
+        {
+          "label": "More than one",
+          "value": "die Jobs"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich suche einen neuen Job.",
+      "english": "I'm looking for a new job.",
+      "highlight": [
+        "Job."
+      ]
+    },
+    {
+      "german": "Er hat einen Job in einer Bar.",
+      "english": "He has a job in a bar.",
+      "highlight": [
+        "Job"
+      ]
+    },
+    {
+      "german": "Mein Job macht mir Spaß.",
+      "english": "I enjoy my job.",
+      "highlight": [
+        "Job"
+      ]
+    }
+  ],
+  "forms": [
+    "Jobs",
+    "die Jobs",
+    "der Job"
+  ],
+  "memoryHook": "Der Job: borrowed from English, pronounced the English way. Your profession is der Beruf.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Job",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Job is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Job, zwei ___",
+      "answer": "Jobs",
+      "fullAnswer": "ein Job, zwei Jobs",
+      "explanation": "The plural is Jobs.",
+      "acceptedAnswers": [
+        "Jobs"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Job mean?",
+      "options": [
+        "to learn",
+        "to sing",
+        "job"
+      ],
+      "answer": "job",
+      "explanation": "Job: job.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Job vs Beruf: which is your profession?",
+      "options": [
+        "der Beruf",
+        "der Job"
+      ],
+      "answer": "der Beruf",
+      "explanation": "Job is more casual: a job, often temporary.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Here J is pronounced…",
+      "options": [
+        "as in English",
+        "as y"
+      ],
+      "answer": "as in English",
+      "explanation": "Borrowed words keep English J.",
+      "id": "q5"
+    }
+  ]
+}

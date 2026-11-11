@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Roman",
+    "partOfSpeech": "noun, masculine (der Roman)",
+    "pronunciation": {
+      "respelling": "ro-MAAN",
+      "ipa": "ʁoˈmaːn",
+      "notes": "Plural: die Romane."
+    },
+    "meaning": "novel",
+    "shortDefinition": "Novel."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Roman, plural die Romane.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Roman"
+        },
+        {
+          "label": "More than one",
+          "value": "die Romane"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich lese einen spannenden Roman.",
+      "english": "I'm reading an exciting novel.",
+      "highlight": [
+        "Roman."
+      ]
+    },
+    {
+      "german": "Sie hat drei Romane geschrieben.",
+      "english": "She has written three novels.",
+      "highlight": [
+        "Romane"
+      ]
+    },
+    {
+      "german": "Der Roman wurde verfilmt.",
+      "english": "The novel was made into a film.",
+      "highlight": [
+        "Roman"
+      ]
+    }
+  ],
+  "forms": [
+    "Romane",
+    "die Romane",
+    "der Roman"
+  ],
+  "memoryHook": "Der Roman = novel (a Roman = der Römer!).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Roman",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Roman is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Roman, zwei ___",
+      "answer": "Romane",
+      "fullAnswer": "ein Roman, zwei Romane",
+      "explanation": "The plural is Romane.",
+      "acceptedAnswers": [
+        "Romane"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Roman mean?",
+      "options": [
+        "novel",
+        "to wait",
+        "the bill"
+      ],
+      "answer": "novel",
+      "explanation": "Roman: novel.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "A Roman (person) is…",
+      "options": [
+        "der Römer",
+        "der Roman"
+      ],
+      "answer": "der Römer",
+      "explanation": "False friend!",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Stress on…",
+      "options": [
+        "-MAN",
+        "RO-"
+      ],
+      "answer": "-MAN",
+      "explanation": "End.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "heiraten",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "HY-rah-ten",
+      "ipa": "ˈhaɪ̯ʁaːtn̩",
+      "notes": ""
+    },
+    "meaning": "to marry, to get married",
+    "shortDefinition": "To marry, to get married."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "heirat|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "heirat|est"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "heirat|et"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "heirat|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "heirat|et"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "heirat|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat geheiratet",
+        "The stem ends in -t, so du and er add an e."
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "verheiratet",
+      "english": "married",
+      "type": "adjective"
+    },
+    {
+      "german": "die Hochzeit",
+      "english": "wedding",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir heiraten im Mai.",
+      "english": "We're getting married in May.",
+      "highlight": [
+        "heiraten"
+      ]
+    },
+    {
+      "german": "Sie hat ihren Freund geheiratet.",
+      "english": "She married her boyfriend.",
+      "highlight": [
+        "geheiratet."
+      ]
+    },
+    {
+      "german": "Willst du mich heiraten?",
+      "english": "Will you marry me?",
+      "highlight": [
+        "heiraten?"
+      ]
+    }
+  ],
+  "forms": [
+    "heirate",
+    "heiratest",
+    "heiratet",
+    "heiraten",
+    "geheiratet"
+  ],
+  "memoryHook": "Heiraten + accusative, no 'with': Ich heirate dich. Married = verheiratet. Wedding = die Hochzeit.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (heiraten)",
+      "answer": "heiratet",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: heiratet.",
+      "acceptedAnswers": [
+        "heiratet"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (heiraten, past)",
+      "answer": "geheiratet",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe geheiratet.",
+      "acceptedAnswers": [
+        "geheiratet"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does heiraten mean?",
+      "options": [
+        "to marry",
+        "expensive",
+        "to sleep"
+      ],
+      "answer": "to marry",
+      "explanation": "heiraten: to marry, to get married.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'She married him' is…",
+      "options": [
+        "Sie hat ihn geheiratet.",
+        "Sie hat mit ihm geheiratet."
+      ],
+      "answer": "Sie hat ihn geheiratet.",
+      "explanation": "No 'mit': heiraten + accusative.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Die Hochzeit is…",
+      "options": [
+        "the wedding",
+        "the honeymoon"
+      ],
+      "answer": "the wedding",
+      "explanation": "Heiraten → Hochzeit.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "wandeln",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "VAN-deln",
+      "ipa": "ˈvandl̩n",
+      "notes": ""
+    },
+    "meaning": "to change, transform; (lit.) to stroll",
+    "shortDefinition": "To change, transform; (lit.) to stroll."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "wandel",
+        "meaning": "turn, change",
+        "emphasis": "turn"
+      },
+      {
+        "part": "n",
+        "meaning": "verb ending"
+      }
+    ],
+    "literalMeaning": "to turn",
+    "summary": "Becoming something else."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "wandl|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "wandel|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "wandel|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "wandel|n"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "wandel|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "wandel|n"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gewandelt"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Zeiten wandeln sich.",
+      "english": "Times are changing.",
+      "highlight": [
+        "wandeln"
+      ]
+    },
+    {
+      "german": "Er hat sich zum Positiven gewandelt.",
+      "english": "He's changed for the better.",
+      "highlight": [
+        "gewandelt."
+      ]
+    },
+    {
+      "german": "Sie ist ein wandelndes Lexikon.",
+      "english": "She's a walking encyclopaedia.",
+      "highlight": [
+        "wandelndes"
+      ]
+    }
+  ],
+  "forms": [
+    "Wandel",
+    "verwandeln"
+  ],
+  "memoryHook": "Wandeln (sich ~) = change; der Wandel; verwandeln.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (wandeln)",
+      "answer": "wandelt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: wandelt.",
+      "acceptedAnswers": [
+        "wandelt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (wandeln, past)",
+      "answer": "gewandelt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gewandelt.",
+      "acceptedAnswers": [
+        "gewandelt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does wandeln mean?",
+      "options": [
+        "to buy",
+        "the key",
+        "to change"
+      ],
+      "answer": "to change",
+      "explanation": "wandeln: to change, transform; (lit.) to stroll.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Noun:",
+      "options": [
+        "der Wandel",
+        "die Wandlung only"
+      ],
+      "answer": "der Wandel",
+      "explanation": "Change.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Ein wandelndes Lexikon' means…",
+      "options": [
+        "a walking encyclopaedia",
+        "a changing dictionary"
+      ],
+      "answer": "a walking encyclopaedia",
+      "explanation": "Idiom.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Related:",
+      "options": [
+        "verwandeln (transform)",
+        "wandern"
+      ],
+      "answer": "verwandeln (transform)",
+      "explanation": "Family.",
+      "id": "q6"
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "zielen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "TSEE-len",
+      "ipa": "ˈtsiːlən",
+      "notes": ""
+    },
+    "meaning": "to aim",
+    "shortDefinition": "To aim."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "ziel",
+        "meaning": "target",
+        "emphasis": "arrive"
+      },
+      {
+        "part": "en",
+        "meaning": "verb ending"
+      }
+    ],
+    "literalMeaning": "to target",
+    "summary": "Straight for the mark."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "ziel|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "ziel|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "ziel|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "ziel|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "ziel|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "ziel|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gezielt"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er zielte auf das Tor.",
+      "english": "He aimed at the goal.",
+      "highlight": [
+        "zielte"
+      ]
+    },
+    {
+      "german": "Die Kampagne zielt auf junge Leute.",
+      "english": "The campaign targets young people.",
+      "highlight": [
+        "zielt"
+      ]
+    },
+    {
+      "german": "Worauf zielt die Frage ab?",
+      "english": "What's the question getting at?",
+      "highlight": [
+        "zielt"
+      ]
+    }
+  ],
+  "forms": [
+    "Ziel",
+    "gezielt"
+  ],
+  "memoryHook": "Zielen auf = aim at; das Ziel; abzielen auf.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (zielen)",
+      "answer": "zielt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: zielt.",
+      "acceptedAnswers": [
+        "zielt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (zielen, past)",
+      "answer": "gezielt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gezielt.",
+      "acceptedAnswers": [
+        "gezielt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does zielen mean?",
+      "options": [
+        "the evening",
+        "to aim",
+        "the door"
+      ],
+      "answer": "to aim",
+      "explanation": "zielen: to aim.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Preposition:",
+      "options": [
+        "zielen auf",
+        "zielen nach"
+      ],
+      "answer": "zielen auf",
+      "explanation": "At.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Noun:",
+      "options": [
+        "das Ziel (goal, target)",
+        "die Zielung"
+      ],
+      "answer": "das Ziel (goal, target)",
+      "explanation": "Target.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Abzielen auf' means…",
+      "options": [
+        "to be aimed at",
+        "to aim down"
+      ],
+      "answer": "to be aimed at",
+      "explanation": "Target.",
+      "id": "q6"
+    }
+  ]
+}

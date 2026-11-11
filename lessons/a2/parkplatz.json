@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Momente A2.2 Kursbuch Glossar",
+  "lessonType": "card",
+  "word": {
+    "headword": "Parkplatz",
+    "partOfSpeech": "noun, masculine (der Parkplatz)",
+    "pronunciation": {
+      "respelling": "PARK-plats",
+      "ipa": "ˈpaʁkplats",
+      "notes": "Plural: die Parkplätze."
+    },
+    "meaning": "car park; parking space",
+    "shortDefinition": "Car park; parking space."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Park",
+        "meaning": "park (parken)"
+      },
+      {
+        "part": "platz",
+        "meaning": "place"
+      }
+    ],
+    "literalMeaning": "parking place"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Parkplatz, plural die Parkplätze.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Parkplatz"
+        },
+        {
+          "label": "More than one",
+          "value": "die Parkplätze"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich suche einen Parkplatz.",
+      "english": "I'm looking for a parking space.",
+      "highlight": [
+        "Parkplatz."
+      ]
+    },
+    {
+      "german": "Der Parkplatz ist voll.",
+      "english": "The car park is full.",
+      "highlight": [
+        "Parkplatz"
+      ]
+    },
+    {
+      "german": "Hier gibt es kaum Parkplätze.",
+      "english": "There are hardly any parking spaces here.",
+      "highlight": [
+        "Parkplätze."
+      ]
+    }
+  ],
+  "forms": [
+    "Parkhaus"
+  ],
+  "memoryHook": "Park + Platz = parking space. Parkhaus = multi-storey.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Parkplatz",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Parkplatz is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Parkplatz, zwei ___",
+      "answer": "Parkplätze",
+      "fullAnswer": "ein Parkplatz, zwei Parkplätze",
+      "explanation": "The plural is Parkplätze.",
+      "acceptedAnswers": [
+        "Parkplaetze"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Parkplatz mean?",
+      "options": [
+        "car park",
+        "the key",
+        "to learn"
+      ],
+      "answer": "car park",
+      "explanation": "Parkplatz: car park; parking space.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "parken + Platz",
+        "Park + Platz (garden)"
+      ],
+      "answer": "parken + Platz",
+      "explanation": "Parking place.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Multi-storey car park:",
+      "options": [
+        "das Parkhaus",
+        "der Parkturm"
+      ],
+      "answer": "das Parkhaus",
+      "explanation": "Parkhaus.",
+      "id": "q5"
+    }
+  ]
+}

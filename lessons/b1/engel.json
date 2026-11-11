@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Engel",
+    "partOfSpeech": "noun, masculine (der Engel)",
+    "pronunciation": {
+      "respelling": "ENG-el",
+      "ipa": "ˈɛŋl̩",
+      "notes": "The plural looks the same. Plural: die Engel."
+    },
+    "meaning": "angel",
+    "shortDefinition": "Angel."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Engel, plural die Engel.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Engel"
+        },
+        {
+          "label": "More than one",
+          "value": "die Engel"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Du bist ein Engel!",
+      "english": "You're an angel!",
+      "highlight": [
+        "Engel!"
+      ]
+    },
+    {
+      "german": "Am Weihnachtsbaum hängt ein Engel.",
+      "english": "There's an angel on the Christmas tree.",
+      "highlight": [
+        "Engel."
+      ]
+    },
+    {
+      "german": "Sie singt wie ein Engel.",
+      "english": "She sings like an angel.",
+      "highlight": [
+        "Engel."
+      ]
+    }
+  ],
+  "forms": [
+    "Schutzengel"
+  ],
+  "memoryHook": "Der Engel; Schutzengel.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Engel",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Engel is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Engel, zwei ___",
+      "answer": "Engel",
+      "fullAnswer": "ein Engel, zwei Engel",
+      "explanation": "The plural is Engel.",
+      "acceptedAnswers": [
+        "Engel"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Engel mean?",
+      "options": [
+        "the station",
+        "expensive",
+        "angel"
+      ],
+      "answer": "angel",
+      "explanation": "Engel: angel.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gender (even 'she is an angel'):",
+      "options": [
+        "der",
+        "die"
+      ],
+      "answer": "der",
+      "explanation": "Der Engel.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Guardian angel:",
+      "options": [
+        "der Schutzengel",
+        "der Wachengel"
+      ],
+      "answer": "der Schutzengel",
+      "explanation": "Protector.",
+      "id": "q5"
+    }
+  ]
+}

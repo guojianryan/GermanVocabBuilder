@@ -1,0 +1,234 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "full",
+  "word": {
+    "headword": "der, die, das",
+    "partOfSpeech": "definite articles",
+    "pronunciation": {
+      "respelling": "DAIR, DEE, DAHS",
+      "ipa": "deːɐ̯, diː, das",
+      "notes": "Das has a short a."
+    },
+    "meaning": "the",
+    "shortDefinition": "German's three words for 'the', one per gender, plus changes by case."
+  },
+  "intro": {
+    "title": "Three ways to say 'the'",
+    "paragraphs": [
+      "Every German noun is masculine (der), feminine (die) or neuter (das), and the article changes with the noun's job in the sentence. That's why every noun lesson here starts with its article.",
+      "There are some reliable clues: -ung, -heit, -keit, -ei are always die; -chen and -lein are always das; days, months and seasons are der."
+    ]
+  },
+  "tables": [
+    {
+      "title": "The article table",
+      "columns": [
+        "masculine",
+        "feminine",
+        "neuter",
+        "plural"
+      ],
+      "rows": [
+        {
+          "label": "Nominative",
+          "hint": "subject",
+          "cells": [
+            "d|er",
+            "d|ie",
+            "d|as",
+            "d|ie"
+          ]
+        },
+        {
+          "label": "Accusative",
+          "hint": "direct object",
+          "cells": [
+            "d|en",
+            "d|ie",
+            "d|as",
+            "d|ie"
+          ]
+        },
+        {
+          "label": "Dative",
+          "hint": "after mit, bei, von, zu…",
+          "cells": [
+            "d|em",
+            "d|er",
+            "d|em",
+            "d|en …n"
+          ]
+        }
+      ],
+      "notes": [
+        "Only masculine changes from nominative to accusative: der → den.",
+        "Plural is always die (nominative and accusative), whatever the gender.",
+        "Learn every noun with its article: der Tisch, not just Tisch."
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "ein, eine",
+      "english": "a, an",
+      "type": "article"
+    },
+    {
+      "german": "dies-",
+      "english": "this",
+      "type": "determiner"
+    },
+    {
+      "german": "kein",
+      "english": "no, not a",
+      "type": "article"
+    }
+  ],
+  "keyTrap": {
+    "title": "The big trap: der can be feminine",
+    "explanation": "Der is also the dative of die. After mit, bei, von or zu, a feminine noun takes der.",
+    "wrong": {
+      "german": "Ich fahre mit die Bahn.",
+      "verdict": "Mit takes the dative: der."
+    },
+    "correct": [
+      {
+        "german": "Ich fahre mit der Bahn.",
+        "literal": "I travel with the train.",
+        "note": "Feminine dative: der."
+      },
+      {
+        "german": "Ich sehe den Mann.",
+        "literal": "I see the man.",
+        "note": "Masculine accusative: den."
+      }
+    ]
+  },
+  "commonMistakes": [
+    {
+      "title": "Compound nouns",
+      "explanation": "A compound takes the gender of its last part.",
+      "examples": [
+        {
+          "german": "das Haus + die Tür = die Haustür",
+          "english": "front door",
+          "highlight": "die"
+        }
+      ]
+    },
+    {
+      "title": "Natural gender doesn't always win",
+      "explanation": "Das Mädchen (girl) is neuter because of -chen.",
+      "wrong": "die Mädchen (one girl)",
+      "correct": "das Mädchen"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Bus kommt.",
+      "english": "The bus is coming.",
+      "highlight": [
+        "Der"
+      ]
+    },
+    {
+      "german": "Ich nehme den Bus.",
+      "english": "I'm taking the bus.",
+      "highlight": [
+        "den"
+      ]
+    },
+    {
+      "german": "Die Bank ist neben der Post.",
+      "english": "The bank is next to the post office.",
+      "highlight": [
+        "Die",
+        "der"
+      ]
+    },
+    {
+      "german": "Das Kind spielt mit dem Hund.",
+      "english": "The child is playing with the dog.",
+      "highlight": [
+        "Das",
+        "dem"
+      ]
+    }
+  ],
+  "forms": [
+    "der",
+    "die",
+    "das",
+    "den",
+    "dem",
+    "des"
+  ],
+  "memoryHook": "Der, die, das, die. Only der changes to den. In the dative: dem, der, dem, den.",
+  "signOff": "Der, die, das: geschafft!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Zeitung (newspaper, -ung)",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "-ung is always feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "___ Mädchen",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "-chen is always neuter.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich sehe ___ Hund. (der Hund)",
+      "options": [
+        "der",
+        "den",
+        "dem"
+      ],
+      "answer": "den",
+      "explanation": "Masculine object: den.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich spreche mit ___ Lehrerin.",
+      "options": [
+        "die",
+        "der",
+        "den"
+      ],
+      "answer": "der",
+      "explanation": "Feminine dative: der.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural nouns in the nominative always take…",
+      "options": [
+        "die",
+        "der",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Die Kinder, die Männer, die Frauen.",
+      "id": "q5"
+    }
+  ]
+}

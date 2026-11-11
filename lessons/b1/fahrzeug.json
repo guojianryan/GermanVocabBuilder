@@ -1,0 +1,138 @@
+{
+ "schemaVersion": "1.4",
+ "language": "de",
+ "explanationLanguage": "en",
+ "level": "B1",
+ "levelSource": "Goethe-Zertifikat B1 Wortliste",
+ "lessonType": "card",
+ "word": {
+  "headword": "Fahrzeug",
+  "partOfSpeech": "noun, neuter (das Fahrzeug)",
+  "pronunciation": {
+   "respelling": "FAAR-tsoyk",
+   "ipa": "ˈfaːɐ̯tsɔɪ̯k",
+   "notes": "Plural: die Fahrzeuge."
+  },
+  "meaning": "vehicle",
+  "shortDefinition": "Vehicle."
+ },
+ "commonMistakes": [
+  {
+   "title": "Gender and plural",
+   "explanation": "Das Fahrzeug, plural die Fahrzeuge.",
+   "forms": [
+    {
+     "label": "One",
+     "value": "das Fahrzeug"
+    },
+    {
+     "label": "More than one",
+     "value": "die Fahrzeuge"
+    }
+   ]
+  }
+ ],
+ "sampleSentences": [
+  {
+   "german": "Bitte parken Sie Ihr Fahrzeug hier.",
+   "english": "Please park your vehicle here.",
+   "highlight": [
+    "Fahrzeug"
+   ]
+  },
+  {
+   "german": "Das Fahrzeug war zu schnell.",
+   "english": "The vehicle was going too fast.",
+   "highlight": [
+    "Fahrzeug"
+   ]
+  },
+  {
+   "german": "Hier dürfen keine Fahrzeuge fahren.",
+   "english": "No vehicles allowed here.",
+   "highlight": [
+    "Fahrzeuge"
+   ]
+  }
+ ],
+ "forms": [
+  "Fahrzeuge",
+  "die Fahrzeuge",
+  "das Fahrzeug"
+ ],
+ "memoryHook": "Fahr + Zeug = vehicle (also Flugzeug, Spielzeug, Werkzeug).",
+ "signOff": "Gut gemacht!",
+ "quiz": [
+  {
+   "type": "choice",
+   "prompt": "___ Fahrzeug",
+   "options": [
+    "der",
+    "die",
+    "das"
+   ],
+   "answer": "das",
+   "explanation": "Fahrzeug is neuter.",
+   "id": "q1"
+  },
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "ein Fahrzeug, zwei ___",
+   "answer": "Fahrzeuge",
+   "fullAnswer": "ein Fahrzeug, zwei Fahrzeuge",
+   "explanation": "The plural is Fahrzeuge.",
+   "acceptedAnswers": [
+    "Fahrzeuge"
+   ],
+   "id": "q2"
+  },
+  {
+   "type": "choice",
+   "prompt": "What does Fahrzeug mean?",
+   "options": [
+    "the car",
+    "to sleep",
+    "vehicle"
+   ],
+   "answer": "vehicle",
+   "explanation": "Fahrzeug: vehicle.",
+   "id": "q3"
+  },
+  {
+   "type": "choice",
+   "prompt": "Built from…",
+   "options": [
+    "fahren + Zeug (stuff)",
+    "Fahr + Zug"
+   ],
+   "answer": "fahren + Zeug (stuff)",
+   "explanation": "Driving thing.",
+   "id": "q4"
+  },
+  {
+   "type": "choice",
+   "prompt": "Gender:",
+   "options": [
+    "das (das Zeug)",
+    "der"
+   ],
+   "answer": "das (das Zeug)",
+   "explanation": "Last word.",
+   "id": "q5"
+  }
+ ],
+ "etymology": {
+  "title": "Where it comes from",
+  "parts": [
+   {
+    "part": "Fahr",
+    "meaning": "drive"
+   },
+   {
+    "part": "zeug",
+    "meaning": "thing, gear"
+   }
+  ],
+  "literalMeaning": "driving thing"
+ }
+}

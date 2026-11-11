@@ -1,0 +1,167 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "deuten",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "DOY-ten",
+      "ipa": "ˈdɔɪ̯tn̩",
+      "notes": ""
+    },
+    "meaning": "to interpret; to point; to indicate",
+    "shortDefinition": "To interpret; to point; to indicate."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "deut|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "deut|est"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "deut|et"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "deut|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "deut|et"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "deut|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gedeutet"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er deutet auf das Haus.",
+      "english": "He points to the house.",
+      "highlight": [
+        "deutet"
+      ]
+    },
+    {
+      "german": "Wie deutest du den Traum?",
+      "english": "How do you interpret the dream?",
+      "highlight": [
+        "deutest"
+      ]
+    },
+    {
+      "german": "Alles deutet darauf hin, dass …",
+      "english": "Everything indicates that …",
+      "highlight": [
+        "deutet"
+      ]
+    }
+  ],
+  "forms": [
+    "Deutung",
+    "deutlich",
+    "Bedeutung"
+  ],
+  "memoryHook": "Deuten (auf) = point, interpret; deutlich, Bedeutung.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (deuten)",
+      "answer": "deutet",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: deutet.",
+      "acceptedAnswers": [
+        "deutet"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (deuten, past)",
+      "answer": "gedeutet",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gedeutet.",
+      "acceptedAnswers": [
+        "gedeutet"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does deuten mean?",
+      "options": [
+        "to open",
+        "to wait",
+        "to interpret"
+      ],
+      "answer": "to interpret",
+      "explanation": "deuten: to interpret; to point; to indicate.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Hindeuten auf' means…",
+      "options": [
+        "to indicate, suggest",
+        "to point away"
+      ],
+      "answer": "to indicate, suggest",
+      "explanation": "Suggest.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Noun:",
+      "options": [
+        "die Deutung (interpretation)",
+        "die Deute"
+      ],
+      "answer": "die Deutung (interpretation)",
+      "explanation": "Interpretation.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Clear:",
+      "options": [
+        "deutlich",
+        "deutsch"
+      ],
+      "answer": "deutlich",
+      "explanation": "Related.",
+      "id": "q6"
+    }
+  ]
+}

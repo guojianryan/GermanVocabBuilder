@@ -1,0 +1,180 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "zuordnen",
+    "partOfSpeech": "separable verb",
+    "pronunciation": {
+      "respelling": "TSOO-ord-nen",
+      "ipa": "ˈtsuːˌʔɔʁdnən",
+      "notes": ""
+    },
+    "meaning": "to assign, match, classify",
+    "shortDefinition": "To assign, match, classify."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "zu",
+        "meaning": "to"
+      },
+      {
+        "part": "ordnen",
+        "meaning": "to put in order"
+      }
+    ],
+    "literalMeaning": "to put in order to"
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "ordn|e … |zu"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "ordn|est … |zu"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "ordn|et … |zu"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "ordn|en … |zu"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "ordn|et … |zu"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "ordn|en … |zu"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat zugeordnet"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ordnen Sie die Wörter den Bildern zu.",
+      "english": "Match the words to the pictures.",
+      "highlight": [
+        "Ordnen",
+        "zu."
+      ]
+    },
+    {
+      "german": "Die Kosten werden dem Projekt zugeordnet.",
+      "english": "The costs are assigned to the project.",
+      "highlight": [
+        "zugeordnet."
+      ]
+    },
+    {
+      "german": "Ich kann ihn nicht zuordnen.",
+      "english": "I can't place him.",
+      "highlight": [
+        "zuordnen."
+      ]
+    }
+  ],
+  "forms": [
+    "Zuordnung"
+  ],
+  "memoryHook": "Zuordnen (+ Dat.) = assign, match; die Zuordnung.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ … zu (zuordnen)",
+      "answer": "ordnet",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: ordnet … zu.",
+      "acceptedAnswers": [
+        "ordnet"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (zuordnen, past)",
+      "answer": "zugeordnet",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe zugeordnet.",
+      "acceptedAnswers": [
+        "zugeordnet"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does zuordnen mean?",
+      "options": [
+        "to assign",
+        "the window",
+        "to sing"
+      ],
+      "answer": "to assign",
+      "explanation": "zuordnen: to assign, match, classify.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Jemanden nicht zuordnen können' means…",
+      "options": [
+        "can't place someone",
+        "can't order someone"
+      ],
+      "answer": "can't place someone",
+      "explanation": "Recognise.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Structure:",
+      "options": [
+        "etwas (Akk.) etwas (Dat.) zuordnen",
+        "etwas zu etwas ordnen only"
+      ],
+      "answer": "etwas (Akk.) etwas (Dat.) zuordnen",
+      "explanation": "Dative target.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Noun:",
+      "options": [
+        "die Zuordnung",
+        "der Zuorder"
+      ],
+      "answer": "die Zuordnung",
+      "explanation": "Assignment.",
+      "id": "q6"
+    }
+  ]
+}

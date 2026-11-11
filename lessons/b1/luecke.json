@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Lücke",
+    "partOfSpeech": "noun, feminine (die Lücke)",
+    "pronunciation": {
+      "respelling": "LÜ-ke",
+      "ipa": "ˈlʏkə",
+      "notes": "Plural: die Lücken."
+    },
+    "meaning": "gap",
+    "shortDefinition": "Gap."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Lücke, plural die Lücken.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Lücke"
+        },
+        {
+          "label": "More than one",
+          "value": "die Lücken"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Bitte füllen Sie die Lücken.",
+      "english": "Please fill in the gaps.",
+      "highlight": [
+        "Lücken."
+      ]
+    },
+    {
+      "german": "Er hat eine Lücke im Lebenslauf.",
+      "english": "He has a gap in his CV.",
+      "highlight": [
+        "Lücke"
+      ]
+    },
+    {
+      "german": "Ich finde keine Parklücke.",
+      "english": "I can't find a parking space.",
+      "highlight": [
+        "Parklücke."
+      ]
+    }
+  ],
+  "forms": [
+    "Lückentext"
+  ],
+  "memoryHook": "Die Lücke; Lückentext, Parklücke.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Lücke",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Lücke is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Lücke, zwei ___",
+      "answer": "Lücken",
+      "fullAnswer": "ein Lücke, zwei Lücken",
+      "explanation": "The plural is Lücken.",
+      "acceptedAnswers": [
+        "Luecken"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Lücke mean?",
+      "options": [
+        "the job",
+        "the bill",
+        "gap"
+      ],
+      "answer": "gap",
+      "explanation": "Lücke: gap.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Parking space:",
+      "options": [
+        "die Parklücke",
+        "der Parkloch"
+      ],
+      "answer": "die Parklücke",
+      "explanation": "Gap to park.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Exercise type:",
+      "options": [
+        "der Lückentext",
+        "das Lückenheft"
+      ],
+      "answer": "der Lückentext",
+      "explanation": "Fill-in-the-gaps.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Arzneimittel",
+    "partOfSpeech": "noun, neuter (das Arzneimittel)",
+    "pronunciation": {
+      "respelling": "ARTS-nye-mi-tel",
+      "ipa": "ˈaːɐ̯tsnaɪ̯ˌmɪtl̩",
+      "notes": "The plural looks the same. Plural: die Arzneimittel."
+    },
+    "meaning": "medicine, medication",
+    "shortDefinition": "Medicine, medication."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Arznei",
+        "meaning": "medicine"
+      },
+      {
+        "part": "mittel",
+        "meaning": "means, remedy"
+      }
+    ],
+    "literalMeaning": "medicine means"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Arzneimittel, plural die Arzneimittel.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Arzneimittel"
+        },
+        {
+          "label": "More than one",
+          "value": "die Arzneimittel"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Arzneimittel gibt es in der Apotheke.",
+      "english": "Medicines are available at the pharmacy.",
+      "highlight": [
+        "Arzneimittel"
+      ]
+    },
+    {
+      "german": "Das Arzneimittel ist verschreibungspflichtig.",
+      "english": "The medication is prescription-only.",
+      "highlight": [
+        "Arzneimittel"
+      ]
+    },
+    {
+      "german": "Arzneimittel für Kinder unzugänglich aufbewahren.",
+      "english": "Keep medicines out of reach of children.",
+      "highlight": [
+        "Arzneimittel"
+      ]
+    }
+  ],
+  "forms": [
+    "Medikament",
+    "Arznei"
+  ],
+  "memoryHook": "Arznei + Mittel = medicine (= Medikament).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Arzneimittel",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Arzneimittel is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Arzneimittel, zwei ___",
+      "answer": "Arzneimittel",
+      "fullAnswer": "ein Arzneimittel, zwei Arzneimittel",
+      "explanation": "The plural is Arzneimittel.",
+      "acceptedAnswers": [
+        "Arzneimittel"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Arzneimittel mean?",
+      "options": [
+        "medicine",
+        "never",
+        "expensive"
+      ],
+      "answer": "medicine",
+      "explanation": "Arzneimittel: medicine, medication.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Register:",
+      "options": [
+        "formal / official",
+        "slang"
+      ],
+      "answer": "formal / official",
+      "explanation": "Packaging language.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Everyday synonym:",
+      "options": [
+        "das Medikament",
+        "die Apotheke"
+      ],
+      "answer": "das Medikament",
+      "explanation": "Medicine.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Related:",
+      "options": [
+        "der Arzt (doctor)",
+        "die Arznei only"
+      ],
+      "answer": "der Arzt (doctor)",
+      "explanation": "Same root.",
+      "id": "q6"
+    }
+  ]
+}

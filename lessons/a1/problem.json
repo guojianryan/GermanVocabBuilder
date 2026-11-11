@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Problem",
+    "partOfSpeech": "noun, neuter (das Problem)",
+    "pronunciation": {
+      "respelling": "pro-BLAYM",
+      "ipa": "pʁoˈbleːm",
+      "notes": "Plural: die Probleme."
+    },
+    "meaning": "problem",
+    "shortDefinition": "Problem."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Problem, plural die Probleme.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Problem"
+        },
+        {
+          "label": "More than one",
+          "value": "die Probleme"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Kein Problem!",
+      "english": "No problem!",
+      "highlight": [
+        "Problem!"
+      ]
+    },
+    {
+      "german": "Wir haben ein Problem mit der Heizung.",
+      "english": "We have a problem with the heating.",
+      "highlight": [
+        "Problem"
+      ]
+    },
+    {
+      "german": "Das ist nicht mein Problem.",
+      "english": "That's not my problem.",
+      "highlight": [
+        "Problem."
+      ]
+    }
+  ],
+  "forms": [
+    "Probleme",
+    "die Probleme",
+    "das Problem"
+  ],
+  "memoryHook": "Das Problem (stress the end). Kein Problem! = No problem!",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Problem",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Problem is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Problem, zwei ___",
+      "answer": "Probleme",
+      "fullAnswer": "ein Problem, zwei Probleme",
+      "explanation": "The plural is Probleme.",
+      "acceptedAnswers": [
+        "Probleme"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Problem mean?",
+      "options": [
+        "hot",
+        "problem",
+        "the door"
+      ],
+      "answer": "problem",
+      "explanation": "Problem: problem.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Problem is…",
+      "options": [
+        "neuter",
+        "masculine"
+      ],
+      "answer": "neuter",
+      "explanation": "Das Problem.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Where's the stress?",
+      "options": [
+        "PRO-blem",
+        "pro-BLEM"
+      ],
+      "answer": "pro-BLEM",
+      "explanation": "Stress the end.",
+      "id": "q5"
+    }
+  ]
+}

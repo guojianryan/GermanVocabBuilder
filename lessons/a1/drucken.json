@@ -1,0 +1,170 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "drucken",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "DROOK-en",
+      "ipa": "ˈdʁʊkn̩",
+      "notes": ""
+    },
+    "meaning": "to print",
+    "shortDefinition": "To print."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "druck|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "druck|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "druck|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "druck|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "druck|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "druck|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gedruckt"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "der Drucker",
+      "english": "printer",
+      "type": "noun"
+    },
+    {
+      "german": "ausdrucken",
+      "english": "to print out",
+      "type": "separable verb"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Kannst du das Dokument drucken?",
+      "english": "Can you print the document?",
+      "highlight": [
+        "drucken?"
+      ]
+    },
+    {
+      "german": "Der Drucker druckt nicht.",
+      "english": "The printer isn't printing.",
+      "highlight": [
+        "druckt"
+      ]
+    },
+    {
+      "german": "Ich habe die Fahrkarte schon gedruckt.",
+      "english": "I've already printed the ticket.",
+      "highlight": [
+        "gedruckt."
+      ]
+    }
+  ],
+  "forms": [
+    "drucke",
+    "druckst",
+    "druckt",
+    "drucken",
+    "gedruckt"
+  ],
+  "memoryHook": "Drucken = print (der Drucker = printer). With an umlaut, drücken = press, push. One dot pair changes everything.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (drucken)",
+      "answer": "druckt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: druckt.",
+      "acceptedAnswers": [
+        "druckt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (drucken, past)",
+      "answer": "gedruckt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gedruckt.",
+      "acceptedAnswers": [
+        "gedruckt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does drucken mean?",
+      "options": [
+        "never",
+        "to wait",
+        "to print"
+      ],
+      "answer": "to print",
+      "explanation": "drucken: to print.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "drucken (no umlaut) or drücken (umlaut): which is 'to print'?",
+      "options": [
+        "drucken",
+        "drücken"
+      ],
+      "answer": "drucken",
+      "explanation": "Drücken: to press, push.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "The machine that prints is…",
+      "options": [
+        "der Drucker",
+        "der Drücker"
+      ],
+      "answer": "der Drucker",
+      "explanation": "Drucken → Drucker.",
+      "id": "q5"
+    }
+  ]
+}

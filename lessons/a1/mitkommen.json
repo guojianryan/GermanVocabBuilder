@@ -1,0 +1,174 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "mitkommen",
+    "partOfSpeech": "separable verb",
+    "pronunciation": {
+      "respelling": "MIT-kom-en",
+      "ipa": "ˈmɪtˌkɔmən",
+      "notes": ""
+    },
+    "meaning": "to come along",
+    "shortDefinition": "To come along."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "mit",
+        "meaning": "with, along"
+      },
+      {
+        "part": "kommen",
+        "meaning": "to come"
+      }
+    ],
+    "literalMeaning": "to come with"
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "komme … |mit"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "kommst … |mit"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "kommt … |mit"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "kommen … |mit"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "kommt … |mit"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "kommen … |mit"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): ist mitgekommen"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Kommst du mit?",
+      "english": "Are you coming along?",
+      "highlight": [
+        "Kommst",
+        "mit?"
+      ]
+    },
+    {
+      "german": "Ich komme gern mit!",
+      "english": "I'd love to come!",
+      "highlight": [
+        "komme",
+        "mit!"
+      ]
+    },
+    {
+      "german": "Sie ist leider nicht mitgekommen.",
+      "english": "Unfortunately she didn't come along.",
+      "highlight": [
+        "mitgekommen."
+      ]
+    }
+  ],
+  "forms": [
+    "komme mit",
+    "kommst mit",
+    "kommt mit",
+    "kommen mit",
+    "mitgekommen"
+  ],
+  "memoryHook": "Kommst du mit? = Are you coming along? The mit goes to the end.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ … mit (mitkommen)",
+      "answer": "kommt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: kommt … mit.",
+      "acceptedAnswers": [
+        "kommt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich bin schon ___. (mitkommen, past)",
+      "answer": "mitgekommen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: bin mitgekommen.",
+      "acceptedAnswers": [
+        "mitgekommen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does mitkommen mean?",
+      "options": [
+        "the window",
+        "to come along",
+        "expensive"
+      ],
+      "answer": "to come along",
+      "explanation": "mitkommen: to come along.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Sie ___ nicht mitgekommen.",
+      "options": [
+        "hat",
+        "ist"
+      ],
+      "answer": "ist",
+      "explanation": "Movement: sein.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Which question means 'Are you coming too?'",
+      "options": [
+        "Kommst du mit?",
+        "Mitkommst du?"
+      ],
+      "answer": "Kommst du mit?",
+      "explanation": "Mit at the end.",
+      "id": "q5"
+    }
+  ]
+}

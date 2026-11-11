@@ -1,0 +1,159 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "nennen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "NEN-en",
+      "ipa": "ˈnɛnən",
+      "notes": ""
+    },
+    "meaning": "to name, to call",
+    "shortDefinition": "To name, to call."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "nenn|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "nenn|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "nenn|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "nenn|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "nenn|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "nenn|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat genannt"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Sie nennen ihr Baby Lena.",
+      "english": "They're calling their baby Lena.",
+      "highlight": [
+        "nennen"
+      ]
+    },
+    {
+      "german": "Nenn mich einfach Tom.",
+      "english": "Just call me Tom.",
+      "highlight": [
+        "Nenn"
+      ]
+    },
+    {
+      "german": "Können Sie ein Beispiel nennen?",
+      "english": "Can you give an example?",
+      "highlight": [
+        "nennen?"
+      ]
+    }
+  ],
+  "forms": [
+    "nenne",
+    "nennst",
+    "nennt",
+    "nennen",
+    "genannt",
+    "nannte"
+  ],
+  "memoryHook": "Nennen, nannte, genannt (like kennen, kannte, gekannt).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (nennen)",
+      "answer": "nennt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: nennt.",
+      "acceptedAnswers": [
+        "nennt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (nennen, past)",
+      "answer": "genannt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe genannt.",
+      "acceptedAnswers": [
+        "genannt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does nennen mean?",
+      "options": [
+        "hot",
+        "the car",
+        "to name"
+      ],
+      "answer": "to name",
+      "explanation": "nennen: to name, to call.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Past participle:",
+      "options": [
+        "genannt",
+        "genennt"
+      ],
+      "answer": "genannt",
+      "explanation": "Irregular: nannte, genannt.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Ein Beispiel nennen' means…",
+      "options": [
+        "to give an example",
+        "to call an example"
+      ],
+      "answer": "to give an example",
+      "explanation": "Name it.",
+      "id": "q5"
+    }
+  ]
+}

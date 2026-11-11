@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "auslegen",
+    "partOfSpeech": "separable verb",
+    "pronunciation": {
+      "respelling": "OWS-lay-gen",
+      "ipa": "ˈaʊ̯sˌleːɡn̩",
+      "notes": ""
+    },
+    "meaning": "to lay out, display; to interpret; to lend (money); to design",
+    "shortDefinition": "To lay out, display; to interpret; to lend (money); to design."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "aus",
+        "meaning": "out"
+      },
+      {
+        "part": "legen",
+        "meaning": "to lay",
+        "emphasis": "stretch"
+      }
+    ],
+    "literalMeaning": "to lay out",
+    "summary": "Spreading it out to view."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "leg|e … |aus"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "leg|st … |aus"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "leg|t … |aus"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "leg|en … |aus"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "leg|t … |aus"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "leg|en … |aus"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat ausgelegt"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wie legst du das Gesetz aus?",
+      "english": "How do you interpret the law?",
+      "highlight": [
+        "legst",
+        "aus?"
+      ]
+    },
+    {
+      "german": "Kannst du mir das Geld auslegen?",
+      "english": "Can you lend me the money for now?",
+      "highlight": [
+        "auslegen?"
+      ]
+    },
+    {
+      "german": "Der Saal ist für 500 Personen ausgelegt.",
+      "english": "The hall is designed for 500 people.",
+      "highlight": [
+        "ausgelegt."
+      ]
+    }
+  ],
+  "forms": [
+    "Auslegung",
+    "Auslage"
+  ],
+  "memoryHook": "Auslegen: lay out; interpret (Auslegung); advance money; be designed for.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ … aus (auslegen)",
+      "answer": "legt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: legt … aus.",
+      "acceptedAnswers": [
+        "legt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (auslegen, past)",
+      "answer": "ausgelegt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe ausgelegt.",
+      "acceptedAnswers": [
+        "ausgelegt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does auslegen mean?",
+      "options": [
+        "to lay out",
+        "the key",
+        "the window"
+      ],
+      "answer": "to lay out",
+      "explanation": "auslegen: to lay out, display; to interpret; to lend (money); to design.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Noun (interpretation; display):",
+      "options": [
+        "die Auslegung / die Auslage",
+        "der Ausleger only"
+      ],
+      "answer": "die Auslegung / die Auslage",
+      "explanation": "Interpretation.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Geld auslegen' means…",
+      "options": [
+        "to pay for someone (to be repaid)",
+        "to spread money"
+      ],
+      "answer": "to pay for someone (to be repaid)",
+      "explanation": "Advance.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Ausgelegt sein für' means…",
+      "options": [
+        "to be designed for",
+        "to be laid out on"
+      ],
+      "answer": "to be designed for",
+      "explanation": "Design.",
+      "id": "q6"
+    }
+  ]
+}

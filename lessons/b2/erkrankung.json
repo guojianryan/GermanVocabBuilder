@@ -1,0 +1,152 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Erkrankung",
+    "partOfSpeech": "noun, feminine (die Erkrankung)",
+    "pronunciation": {
+      "respelling": "er-KRANG-kung",
+      "ipa": "ɛɐ̯ˈkʁaŋkʊŋ",
+      "notes": "Plural: die Erkrankungen."
+    },
+    "meaning": "illness, disease",
+    "shortDefinition": "Illness, disease."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Er",
+        "meaning": "become"
+      },
+      {
+        "part": "krank",
+        "meaning": "ill"
+      },
+      {
+        "part": "ung",
+        "meaning": "noun ending"
+      }
+    ],
+    "literalMeaning": "a becoming ill"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Erkrankung, plural die Erkrankungen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Erkrankung"
+        },
+        {
+          "label": "More than one",
+          "value": "die Erkrankungen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er leidet an einer seltenen Erkrankung.",
+      "english": "He suffers from a rare illness.",
+      "highlight": [
+        "Erkrankung."
+      ]
+    },
+    {
+      "german": "Herz-Kreislauf-Erkrankungen sind häufig.",
+      "english": "Cardiovascular diseases are common.",
+      "highlight": [
+        "Herz-Kreislauf-Erkrankungen"
+      ]
+    },
+    {
+      "german": "Bei Erkrankung bitte melden.",
+      "english": "In case of illness please report it.",
+      "highlight": [
+        "Erkrankung"
+      ]
+    }
+  ],
+  "forms": [
+    "erkranken",
+    "Krankheit"
+  ],
+  "memoryHook": "Erkranken → die Erkrankung (= Krankheit, formal).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Erkrankung",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Erkrankung is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Erkrankung, zwei ___",
+      "answer": "Erkrankungen",
+      "fullAnswer": "ein Erkrankung, zwei Erkrankungen",
+      "explanation": "The plural is Erkrankungen.",
+      "acceptedAnswers": [
+        "Erkrankungen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Erkrankung mean?",
+      "options": [
+        "illness",
+        "to help",
+        "the station"
+      ],
+      "answer": "illness",
+      "explanation": "Erkrankung: illness, disease.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "erkranken (fall ill)",
+        "krank only"
+      ],
+      "answer": "erkranken (fall ill)",
+      "explanation": "Fall ill.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Register:",
+      "options": [
+        "formal / medical",
+        "slang"
+      ],
+      "answer": "formal / medical",
+      "explanation": "Formal.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Everyday synonym:",
+      "options": [
+        "die Krankheit",
+        "der Kranke"
+      ],
+      "answer": "die Krankheit",
+      "explanation": "Illness.",
+      "id": "q6"
+    }
+  ]
+}

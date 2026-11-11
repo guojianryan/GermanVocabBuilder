@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Krieg",
+    "partOfSpeech": "noun, masculine (der Krieg)",
+    "pronunciation": {
+      "respelling": "KREEK",
+      "ipa": "kʁiːk",
+      "notes": "Plural: die Kriege."
+    },
+    "meaning": "war",
+    "shortDefinition": "War."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Krieg, plural die Kriege.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Krieg"
+        },
+        {
+          "label": "More than one",
+          "value": "die Kriege"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Krieg dauerte sechs Jahre.",
+      "english": "The war lasted six years.",
+      "highlight": [
+        "Krieg"
+      ]
+    },
+    {
+      "german": "Viele Menschen fliehen vor dem Krieg.",
+      "english": "Many people are fleeing the war.",
+      "highlight": [
+        "Krieg."
+      ]
+    },
+    {
+      "german": "Nach dem Krieg wurde alles neu gebaut.",
+      "english": "After the war everything was rebuilt.",
+      "highlight": [
+        "Krieg"
+      ]
+    }
+  ],
+  "forms": [
+    "Kriege",
+    "die Kriege",
+    "der Krieg"
+  ],
+  "memoryHook": "Der Krieg (war) / der Frieden (peace).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Krieg",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Krieg is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Krieg, zwei ___",
+      "answer": "Kriege",
+      "fullAnswer": "ein Krieg, zwei Kriege",
+      "explanation": "The plural is Kriege.",
+      "acceptedAnswers": [
+        "Kriege"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Krieg mean?",
+      "options": [
+        "the job",
+        "the bed",
+        "war"
+      ],
+      "answer": "war",
+      "explanation": "Krieg: war.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "The opposite:",
+      "options": [
+        "der Frieden",
+        "die Freiheit"
+      ],
+      "answer": "der Frieden",
+      "explanation": "Peace.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Final g sounds like…",
+      "options": [
+        "k",
+        "g"
+      ],
+      "answer": "k",
+      "explanation": "KREEK.",
+      "id": "q5"
+    }
+  ]
+}

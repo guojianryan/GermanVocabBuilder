@@ -1,0 +1,139 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Haltestelle",
+    "partOfSpeech": "noun, feminine (die Haltestelle)",
+    "pronunciation": {
+      "respelling": "HAL-tuh-shtel-uh",
+      "ipa": "ˈhaltəˌʃtɛlə",
+      "notes": "Plural: die Haltestellen."
+    },
+    "meaning": "stop (bus, tram)",
+    "shortDefinition": "Stop (bus, tram)."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Halte",
+        "meaning": "stop",
+        "note": "From halten."
+      },
+      {
+        "part": "stelle",
+        "meaning": "place, spot"
+      }
+    ],
+    "literalMeaning": "stopping place"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Haltestelle, plural die Haltestellen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Haltestelle"
+        },
+        {
+          "label": "More than one",
+          "value": "die Haltestellen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wo ist die nächste Haltestelle?",
+      "english": "Where's the nearest stop?",
+      "highlight": [
+        "Haltestelle?"
+      ]
+    },
+    {
+      "german": "Ich steige an der nächsten Haltestelle aus.",
+      "english": "I'm getting off at the next stop.",
+      "highlight": [
+        "Haltestelle"
+      ]
+    },
+    {
+      "german": "Wir warten an der Haltestelle.",
+      "english": "We're waiting at the stop.",
+      "highlight": [
+        "Haltestelle."
+      ]
+    }
+  ],
+  "forms": [
+    "Haltestellen",
+    "die Haltestellen",
+    "die Haltestelle"
+  ],
+  "memoryHook": "Halte (stop) + Stelle (place): where the bus stops. You wait an der Haltestelle.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Haltestelle",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Haltestelle is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Haltestelle, zwei ___",
+      "answer": "Haltestellen",
+      "fullAnswer": "ein Haltestelle, zwei Haltestellen",
+      "explanation": "The plural is Haltestellen.",
+      "acceptedAnswers": [
+        "Haltestellen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Haltestelle mean?",
+      "options": [
+        "to buy",
+        "stop (bus",
+        "to sleep"
+      ],
+      "answer": "stop (bus",
+      "explanation": "Haltestelle: stop (bus, tram).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "You wait ___ der Haltestelle.",
+      "options": [
+        "an",
+        "in"
+      ],
+      "answer": "an",
+      "explanation": "An der Haltestelle.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Haltestelle = halten + Stelle. Stelle means…",
+      "options": [
+        "place, spot",
+        "star"
+      ],
+      "answer": "place, spot",
+      "explanation": "The place where it stops.",
+      "id": "q5"
+    }
+  ]
+}

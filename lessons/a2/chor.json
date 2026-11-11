@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Chor",
+    "partOfSpeech": "noun, masculine (der Chor)",
+    "pronunciation": {
+      "respelling": "KOHR",
+      "ipa": "koːɐ̯",
+      "notes": "Plural: die Chöre."
+    },
+    "meaning": "choir",
+    "shortDefinition": "Choir."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Chor, plural die Chöre.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Chor"
+        },
+        {
+          "label": "More than one",
+          "value": "die Chöre"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Sie singt im Chor.",
+      "english": "She sings in a choir.",
+      "highlight": [
+        "Chor."
+      ]
+    },
+    {
+      "german": "Der Kirchenchor probt am Donnerstag.",
+      "english": "The church choir rehearses on Thursday.",
+      "highlight": [
+        "Kirchenchor"
+      ]
+    },
+    {
+      "german": "Alle riefen im Chor: Ja!",
+      "english": "Everyone shouted in chorus: Yes!",
+      "highlight": [
+        "Chor:"
+      ]
+    }
+  ],
+  "forms": [
+    "Chöre",
+    "die Chöre",
+    "der Chor"
+  ],
+  "memoryHook": "Der Chor (ch = k), die Chöre.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Chor",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Chor is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Chor, zwei ___",
+      "answer": "Chöre",
+      "fullAnswer": "ein Chor, zwei Chöre",
+      "explanation": "The plural is Chöre.",
+      "acceptedAnswers": [
+        "Choere"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Chor mean?",
+      "options": [
+        "cheap",
+        "to wait",
+        "choir"
+      ],
+      "answer": "choir",
+      "explanation": "Chor: choir.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ch sounds like…",
+      "options": [
+        "k",
+        "ch as in ich"
+      ],
+      "answer": "k",
+      "explanation": "KOHR.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Chöre",
+        "Chors"
+      ],
+      "answer": "Chöre",
+      "explanation": "o → ö.",
+      "id": "q5"
+    }
+  ]
+}

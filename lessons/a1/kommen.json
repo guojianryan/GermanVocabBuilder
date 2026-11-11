@@ -1,0 +1,231 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "full",
+  "word": {
+    "headword": "kommen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "KOM-en",
+      "ipa": "ˈkɔmən",
+      "notes": "Short o."
+    },
+    "meaning": "to come",
+    "shortDefinition": "To come, arrive, or come from somewhere."
+  },
+  "intro": {
+    "title": "Woher kommst du?",
+    "paragraphs": [
+      "Kommen is regular in the present and irregular in the past (ist gekommen). It's the base of many verbs: ankommen, mitkommen, bekommen. And woher kommst du? is the first question you'll be asked."
+    ]
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "komm|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "komm|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "komm|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "komm|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "komm|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "komm|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): ist gekommen. Simple past: kam."
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "ankommen",
+      "english": "to arrive",
+      "type": "separable verb"
+    },
+    {
+      "german": "mitkommen",
+      "english": "to come along",
+      "type": "separable verb"
+    },
+    {
+      "german": "bekommen",
+      "english": "to get",
+      "type": "verb"
+    },
+    {
+      "german": "die Zukunft",
+      "english": "future",
+      "type": "noun"
+    }
+  ],
+  "keyTrap": {
+    "title": "The big trap: where you're from",
+    "explanation": "Your country or city takes aus, not von.",
+    "wrong": {
+      "german": "Ich komme von Japan.",
+      "verdict": "Origin: aus."
+    },
+    "correct": [
+      {
+        "german": "Ich komme aus Japan.",
+        "literal": "I come out of Japan.",
+        "note": "Origin: aus."
+      },
+      {
+        "german": "Ich komme gerade vom Arzt.",
+        "literal": "I come just from-the doctor.",
+        "note": "Coming back from somewhere: von."
+      }
+    ]
+  },
+  "commonMistakes": [
+    {
+      "title": "sein in the past",
+      "explanation": "Kommen is movement.",
+      "wrong": "Er hat gekommen.",
+      "correct": "Er ist gekommen."
+    },
+    {
+      "title": "Coming along",
+      "explanation": "Mitkommen splits.",
+      "examples": [
+        {
+          "german": "Kommst du mit?",
+          "english": "Are you coming along?",
+          "highlight": "mit?"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Woher kommen Sie? – Ich komme aus Brasilien.",
+      "english": "Where are you from? – I'm from Brazil.",
+      "highlight": [
+        "kommen",
+        "komme"
+      ]
+    },
+    {
+      "german": "Der Bus kommt gleich.",
+      "english": "The bus is coming in a moment.",
+      "highlight": [
+        "kommt"
+      ]
+    },
+    {
+      "german": "Wann bist du nach Hause gekommen?",
+      "english": "When did you get home?",
+      "highlight": [
+        "gekommen?"
+      ]
+    },
+    {
+      "german": "Komm schnell!",
+      "english": "Come quickly!",
+      "highlight": [
+        "Komm"
+      ]
+    }
+  ],
+  "forms": [
+    "komme",
+    "kommst",
+    "kommt",
+    "gekommen",
+    "kam",
+    "kamen",
+    "komm"
+  ],
+  "memoryHook": "Kommen: aus for origin, sein in the past. Woher kommst du? Ich komme aus …",
+  "signOff": "Komm gut nach Hause!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Ich komme ___ Italien.",
+      "options": [
+        "von",
+        "aus"
+      ],
+      "answer": "aus",
+      "explanation": "Origin: aus.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Sie ___ gestern gekommen.",
+      "options": [
+        "hat",
+        "ist"
+      ],
+      "answer": "ist",
+      "explanation": "Kommen uses sein.",
+      "id": "q2"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "___ kommst du? (Where from?)",
+      "answer": "Woher",
+      "fullAnswer": "Woher kommst du?",
+      "explanation": "Woher: from where.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Command to a friend: '___ her!' (Come here!)",
+      "options": [
+        "Komm",
+        "Kommst"
+      ],
+      "answer": "Komm",
+      "explanation": "Du-command: komm.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Kommst du mit?' means…",
+      "options": [
+        "Are you coming along?",
+        "Are you coming with it?"
+      ],
+      "answer": "Are you coming along?",
+      "explanation": "Mitkommen.",
+      "id": "q5"
+    }
+  ]
+}

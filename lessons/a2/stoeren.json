@@ -1,0 +1,165 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "stören",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "SHTÖ-ren",
+      "ipa": "ˈʃtøːʁən",
+      "notes": ""
+    },
+    "meaning": "to disturb, to bother",
+    "shortDefinition": "To disturb, to bother."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "stör|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "stör|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "stör|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "stör|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "stör|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "stör|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gestört"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "die Störung",
+      "english": "disruption, fault",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Entschuldigung, darf ich kurz stören?",
+      "english": "Sorry to bother you, have you got a moment?",
+      "highlight": [
+        "stören?"
+      ]
+    },
+    {
+      "german": "Stört es Sie, wenn ich rauche?",
+      "english": "Do you mind if I smoke?",
+      "highlight": [
+        "Stört"
+      ]
+    },
+    {
+      "german": "Bitte nicht stören!",
+      "english": "Please do not disturb!",
+      "highlight": [
+        "stören!"
+      ]
+    }
+  ],
+  "forms": [
+    "störe",
+    "störst",
+    "stört",
+    "stören",
+    "gestört"
+  ],
+  "memoryHook": "Stören = disturb. Bitte nicht stören!",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (stören)",
+      "answer": "stört",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: stört.",
+      "acceptedAnswers": [
+        "stoert"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (stören, past)",
+      "answer": "gestört",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gestört.",
+      "acceptedAnswers": [
+        "gestoert"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does stören mean?",
+      "options": [
+        "the street",
+        "slowly",
+        "to disturb"
+      ],
+      "answer": "to disturb",
+      "explanation": "stören: to disturb, to bother.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Bitte nicht stören!' on a hotel door means…",
+      "options": [
+        "Do not disturb!",
+        "Please clean!"
+      ],
+      "answer": "Do not disturb!",
+      "explanation": "Sign.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Does it bother you?':",
+      "options": [
+        "Stört es dich?",
+        "Stört es dir?"
+      ],
+      "answer": "Stört es dich?",
+      "explanation": "Accusative.",
+      "id": "q5"
+    }
+  ]
+}

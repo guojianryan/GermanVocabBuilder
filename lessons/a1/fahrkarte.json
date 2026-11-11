@@ -1,0 +1,151 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Fahrkarte",
+    "partOfSpeech": "noun, feminine (die Fahrkarte)",
+    "pronunciation": {
+      "respelling": "FAR-kar-tuh",
+      "ipa": "ˈfaːɐ̯ˌkaʁtə",
+      "notes": "Plural: die Fahrkarten."
+    },
+    "meaning": "ticket (for transport)",
+    "shortDefinition": "Ticket (for transport)."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Fahr",
+        "meaning": "travel",
+        "note": "From fahren."
+      },
+      {
+        "part": "karte",
+        "meaning": "card, ticket"
+      }
+    ],
+    "literalMeaning": "travel card"
+  },
+  "wordFamily": [
+    {
+      "german": "das Ticket",
+      "english": "ticket",
+      "type": "noun"
+    },
+    {
+      "german": "der Fahrschein",
+      "english": "ticket (formal)",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Fahrkarte, plural die Fahrkarten.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Fahrkarte"
+        },
+        {
+          "label": "More than one",
+          "value": "die Fahrkarten"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wo kann ich eine Fahrkarte kaufen?",
+      "english": "Where can I buy a ticket?",
+      "highlight": [
+        "Fahrkarte"
+      ]
+    },
+    {
+      "german": "Die Fahrkarten gibt es am Automaten.",
+      "english": "You can get tickets from the machine.",
+      "highlight": [
+        "Fahrkarten"
+      ]
+    },
+    {
+      "german": "Ihre Fahrkarte, bitte!",
+      "english": "Your ticket, please!",
+      "highlight": [
+        "Fahrkarte,"
+      ]
+    }
+  ],
+  "forms": [
+    "Fahrkarten",
+    "die Fahrkarten",
+    "die Fahrkarte"
+  ],
+  "memoryHook": "Fahr(en) + Karte: a card for travelling. Also called Ticket or Fahrschein.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Fahrkarte",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Fahrkarte is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Fahrkarte, zwei ___",
+      "answer": "Fahrkarten",
+      "fullAnswer": "ein Fahrkarte, zwei Fahrkarten",
+      "explanation": "The plural is Fahrkarten.",
+      "acceptedAnswers": [
+        "Fahrkarten"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Fahrkarte mean?",
+      "options": [
+        "to help",
+        "ticket (for transport)",
+        "to buy"
+      ],
+      "answer": "ticket (for transport)",
+      "explanation": "Fahrkarte: ticket (for transport).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "A ticket for the cinema or a museum is usually…",
+      "options": [
+        "eine Eintrittskarte",
+        "eine Fahrkarte"
+      ],
+      "answer": "eine Eintrittskarte",
+      "explanation": "Fahrkarte is only for travel.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Another common word for Fahrkarte is…",
+      "options": [
+        "das Ticket",
+        "die Rechnung"
+      ],
+      "answer": "das Ticket",
+      "explanation": "Ticket is used a lot too.",
+      "id": "q5"
+    }
+  ]
+}

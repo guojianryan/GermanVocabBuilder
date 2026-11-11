@@ -1,0 +1,178 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "leiden",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "LYE-den",
+      "ipa": "ˈlaɪ̯dn̩",
+      "notes": ""
+    },
+    "meaning": "to suffer",
+    "shortDefinition": "To suffer."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "leid|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "leid|est"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "leid|et"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "leid|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "leid|et"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "leid|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gelitten"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "das Leid",
+      "english": "suffering",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er leidet an einer Allergie.",
+      "english": "He suffers from an allergy.",
+      "highlight": [
+        "leidet",
+        "an"
+      ]
+    },
+    {
+      "german": "Ich kann ihn nicht leiden.",
+      "english": "I can't stand him.",
+      "highlight": [
+        "leiden."
+      ]
+    },
+    {
+      "german": "Sie hat sehr unter der Trennung gelitten.",
+      "english": "She suffered a lot from the break-up.",
+      "highlight": [
+        "unter",
+        "gelitten."
+      ]
+    }
+  ],
+  "forms": [
+    "leide",
+    "leidest",
+    "leidet",
+    "leiden",
+    "gelitten"
+  ],
+  "memoryHook": "Leiden, litt, gelitten. Leiden an (illness) / unter (a situation).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (leiden)",
+      "answer": "leidet",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: leidet.",
+      "acceptedAnswers": [
+        "leidet"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (leiden, past)",
+      "answer": "gelitten",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gelitten.",
+      "acceptedAnswers": [
+        "gelitten"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does leiden mean?",
+      "options": [
+        "the key",
+        "the car",
+        "to suffer"
+      ],
+      "answer": "to suffer",
+      "explanation": "leiden: to suffer.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Jemanden nicht leiden können' means…",
+      "options": [
+        "to not be able to stand someone",
+        "to not suffer"
+      ],
+      "answer": "to not be able to stand someone",
+      "explanation": "Idiom.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "hat gelitten",
+        "hat geleidet"
+      ],
+      "answer": "hat gelitten",
+      "explanation": "Irregular.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Suffer from an illness:",
+      "options": [
+        "leiden an",
+        "leiden von"
+      ],
+      "answer": "leiden an",
+      "explanation": "An (illness); unter (situation).",
+      "id": "q6"
+    }
+  ]
+}

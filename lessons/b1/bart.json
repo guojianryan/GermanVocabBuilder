@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Bart",
+    "partOfSpeech": "noun, masculine (der Bart)",
+    "pronunciation": {
+      "respelling": "BAART",
+      "ipa": "baːɐ̯t",
+      "notes": "Plural: die Bärte."
+    },
+    "meaning": "beard",
+    "shortDefinition": "Beard."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Bart, plural die Bärte.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Bart"
+        },
+        {
+          "label": "More than one",
+          "value": "die Bärte"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er hat einen langen Bart.",
+      "english": "He has a long beard.",
+      "highlight": [
+        "Bart."
+      ]
+    },
+    {
+      "german": "Ich lasse mir einen Bart wachsen.",
+      "english": "I'm growing a beard.",
+      "highlight": [
+        "Bart"
+      ]
+    },
+    {
+      "german": "Der Weihnachtsmann hat einen weißen Bart.",
+      "english": "Father Christmas has a white beard.",
+      "highlight": [
+        "Bart."
+      ]
+    }
+  ],
+  "forms": [
+    "Bärte",
+    "die Bärte",
+    "der Bart"
+  ],
+  "memoryHook": "Der Bart (beard). Schnurrbart = moustache.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Bart",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Bart is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Bart, zwei ___",
+      "answer": "Bärte",
+      "fullAnswer": "ein Bart, zwei Bärte",
+      "explanation": "The plural is Bärte.",
+      "acceptedAnswers": [
+        "Baerte"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Bart mean?",
+      "options": [
+        "the door",
+        "beard",
+        "to learn"
+      ],
+      "answer": "beard",
+      "explanation": "Bart: beard.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Bärte",
+        "Barte"
+      ],
+      "answer": "Bärte",
+      "explanation": "a → ä.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Moustache:",
+      "options": [
+        "der Schnurrbart",
+        "der Mundbart"
+      ],
+      "answer": "der Schnurrbart",
+      "explanation": "Schnurr + Bart.",
+      "id": "q5"
+    }
+  ]
+}

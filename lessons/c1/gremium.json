@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Gremium",
+    "partOfSpeech": "noun, neuter (das Gremium)",
+    "pronunciation": {
+      "respelling": "GRAY-mi-oom",
+      "ipa": "ˈɡʁeːmi̯ʊm",
+      "notes": "Plural: die Gremien."
+    },
+    "meaning": "committee, body",
+    "shortDefinition": "Committee, body."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Gremium, plural die Gremien.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Gremium"
+        },
+        {
+          "label": "More than one",
+          "value": "die Gremien"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das Gremium tagt monatlich.",
+      "english": "The committee meets monthly.",
+      "highlight": [
+        "Gremium"
+      ]
+    },
+    {
+      "german": "In welchen Gremien sitzt sie?",
+      "english": "Which committees does she sit on?",
+      "highlight": [
+        "Gremien"
+      ]
+    },
+    {
+      "german": "Ein beratendes Gremium.",
+      "english": "An advisory body.",
+      "highlight": [
+        "Gremium."
+      ]
+    }
+  ],
+  "forms": [
+    "Ausschuss"
+  ],
+  "memoryHook": "Das Gremium (die Gremien) = Ausschuss.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Gremium",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Gremium is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Gremium, zwei ___",
+      "answer": "Gremien",
+      "fullAnswer": "ein Gremium, zwei Gremien",
+      "explanation": "The plural is Gremien.",
+      "acceptedAnswers": [
+        "Gremien"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Gremium mean?",
+      "options": [
+        "committee",
+        "to open",
+        "the bill"
+      ],
+      "answer": "committee",
+      "explanation": "Gremium: committee, body.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Gremien",
+        "Gremiums"
+      ],
+      "answer": "Gremien",
+      "explanation": "-um → -en.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonym:",
+      "options": [
+        "der Ausschuss, die Kommission",
+        "das Team only"
+      ],
+      "answer": "der Ausschuss, die Kommission",
+      "explanation": "Committee.",
+      "id": "q5"
+    }
+  ]
+}

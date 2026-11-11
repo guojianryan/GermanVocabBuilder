@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Ofen",
+    "partOfSpeech": "noun, masculine (der Ofen)",
+    "pronunciation": {
+      "respelling": "OH-fen",
+      "ipa": "ˈoːfn̩",
+      "notes": "Plural: die Öfen."
+    },
+    "meaning": "oven; stove, heater",
+    "shortDefinition": "Oven; stove, heater."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Ofen, plural die Öfen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Ofen"
+        },
+        {
+          "label": "More than one",
+          "value": "die Öfen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Kuchen ist im Ofen.",
+      "english": "The cake is in the oven.",
+      "highlight": [
+        "Ofen."
+      ]
+    },
+    {
+      "german": "Heiz den Ofen auf 180 Grad vor.",
+      "english": "Preheat the oven to 180 degrees.",
+      "highlight": [
+        "Ofen"
+      ]
+    },
+    {
+      "german": "Im Winter heizen wir mit einem Holzofen.",
+      "english": "In winter we heat with a wood stove.",
+      "highlight": [
+        "Holzofen."
+      ]
+    }
+  ],
+  "forms": [
+    "Backofen"
+  ],
+  "memoryHook": "Der Ofen, die Öfen. Backofen = oven.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Ofen",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Ofen is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Ofen, zwei ___",
+      "answer": "Öfen",
+      "fullAnswer": "ein Ofen, zwei Öfen",
+      "explanation": "The plural is Öfen.",
+      "acceptedAnswers": [
+        "Öfen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Ofen mean?",
+      "options": [
+        "never",
+        "oven",
+        "hot"
+      ],
+      "answer": "oven",
+      "explanation": "Ofen: oven; stove, heater.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Öfen",
+        "Ofen"
+      ],
+      "answer": "Öfen",
+      "explanation": "O → Ö.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Oven (formal):",
+      "options": [
+        "der Backofen",
+        "der Kochofen"
+      ],
+      "answer": "der Backofen",
+      "explanation": "Baking oven.",
+      "id": "q5"
+    }
+  ]
+}

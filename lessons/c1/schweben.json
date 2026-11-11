@@ -1,0 +1,177 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "schweben",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "SHVAY-ben",
+      "ipa": "ˈʃveːbn̩",
+      "notes": ""
+    },
+    "meaning": "to float, hover; to be pending",
+    "shortDefinition": "To float, hover; to be pending."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "schweben",
+        "meaning": "to hover",
+        "emphasis": "rise"
+      }
+    ],
+    "literalMeaning": "to hover",
+    "summary": "Held up in the air."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "schweb|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "schweb|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "schweb|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "schweb|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "schweb|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "schweb|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat geschwebt"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Ballon schwebt über der Stadt.",
+      "english": "The balloon floats over the town.",
+      "highlight": [
+        "schwebt"
+      ]
+    },
+    {
+      "german": "Er schwebt in Lebensgefahr.",
+      "english": "His life is in danger.",
+      "highlight": [
+        "schwebt"
+      ]
+    },
+    {
+      "german": "Sie schwebt auf Wolke sieben.",
+      "english": "She's on cloud nine.",
+      "highlight": [
+        "schwebt"
+      ]
+    }
+  ],
+  "forms": [
+    "schwebend"
+  ],
+  "memoryHook": "Schweben = float, hover; in Gefahr schweben.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (schweben)",
+      "answer": "schwebt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: schwebt.",
+      "acceptedAnswers": [
+        "schwebt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (schweben, past)",
+      "answer": "geschwebt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe geschwebt.",
+      "acceptedAnswers": [
+        "geschwebt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does schweben mean?",
+      "options": [
+        "the job",
+        "to float",
+        "to travel"
+      ],
+      "answer": "to float",
+      "explanation": "schweben: to float, hover; to be pending.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Auf Wolke sieben schweben' means…",
+      "options": [
+        "to be on cloud nine",
+        "to fly"
+      ],
+      "answer": "to be on cloud nine",
+      "explanation": "Idiom.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'In Gefahr schweben' means…",
+      "options": [
+        "to be in danger",
+        "to float dangerously"
+      ],
+      "answer": "to be in danger",
+      "explanation": "Idiom.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt (location):",
+      "options": [
+        "hat geschwebt",
+        "ist geschwebt only"
+      ],
+      "answer": "hat geschwebt",
+      "explanation": "Haben (moving: ist).",
+      "id": "q6"
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Schilling",
+    "partOfSpeech": "noun, masculine (der Schilling)",
+    "pronunciation": {
+      "respelling": "SHI-ling",
+      "ipa": "ˈʃɪlɪŋ",
+      "notes": "After numbers the plural is Schilling. Plural: die Schilling."
+    },
+    "meaning": "schilling (former Austrian currency)",
+    "shortDefinition": "Schilling (former Austrian currency)."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Schilling, plural die Schilling.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Schilling"
+        },
+        {
+          "label": "More than one",
+          "value": "die Schilling"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Früher zahlte man in Österreich mit Schilling.",
+      "english": "In Austria people used to pay in schillings.",
+      "highlight": [
+        "Schilling."
+      ]
+    },
+    {
+      "german": "Das kostete hundert Schilling.",
+      "english": "That cost a hundred schillings.",
+      "highlight": [
+        "Schilling."
+      ]
+    },
+    {
+      "german": "Der Schilling wurde 2002 abgeschafft.",
+      "english": "The schilling was abolished in 2002.",
+      "highlight": [
+        "Schilling"
+      ]
+    }
+  ],
+  "forms": [
+    "Schilling",
+    "die Schilling",
+    "der Schilling"
+  ],
+  "memoryHook": "Der Schilling (Austria, until 2002).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Schilling",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Schilling is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Schilling, zwei ___",
+      "answer": "Schilling",
+      "fullAnswer": "ein Schilling, zwei Schilling",
+      "explanation": "The plural is Schilling.",
+      "acceptedAnswers": [
+        "Schilling"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Schilling mean?",
+      "options": [
+        "the bed",
+        "hot",
+        "schilling (former Austrian currency)"
+      ],
+      "answer": "schilling (former Austrian currency)",
+      "explanation": "Schilling: schilling (former Austrian currency).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Country:",
+      "options": [
+        "Austria",
+        "Switzerland"
+      ],
+      "answer": "Austria",
+      "explanation": "Austria.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural with numbers:",
+      "options": [
+        "hundert Schilling",
+        "hundert Schillinge"
+      ],
+      "answer": "hundert Schilling",
+      "explanation": "Unchanged.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Replaced by…",
+      "options": [
+        "the euro (2002)",
+        "the Mark"
+      ],
+      "answer": "the euro (2002)",
+      "explanation": "Euro.",
+      "id": "q6"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "oder",
+    "partOfSpeech": "conjunction",
+    "pronunciation": {
+      "respelling": "OH-der",
+      "ipa": "ˈoːdɐ",
+      "notes": ""
+    },
+    "meaning": "or; (at the end) right?",
+    "shortDefinition": "Or; (at the end) right?."
+  },
+  "wordFamily": [
+    {
+      "german": "und",
+      "english": "and",
+      "type": "conjunction"
+    },
+    {
+      "german": "entweder … oder",
+      "english": "either … or",
+      "type": "conjunction"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Tee oder Kaffee?",
+      "english": "Tea or coffee?",
+      "highlight": [
+        "oder"
+      ]
+    },
+    {
+      "german": "Kommst du heute oder morgen?",
+      "english": "Are you coming today or tomorrow?",
+      "highlight": [
+        "oder"
+      ]
+    },
+    {
+      "german": "Du kommst doch, oder?",
+      "english": "You're coming, aren't you?",
+      "highlight": [
+        "oder?"
+      ]
+    }
+  ],
+  "forms": [],
+  "memoryHook": "Oder = or. At the end of a sentence it means 'right?': Das ist gut, oder?",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does oder mean?",
+      "options": [
+        "or",
+        "the car",
+        "the station"
+      ],
+      "answer": "or",
+      "explanation": "oder: or; (at the end) right?.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "'…, oder?' at the end of a sentence means…",
+      "options": [
+        "…, right?",
+        "or else?"
+      ],
+      "answer": "…, right?",
+      "explanation": "Tag question.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "After oder, the word order is…",
+      "options": [
+        "normal (no change)",
+        "verb at the end"
+      ],
+      "answer": "normal (no change)",
+      "explanation": "Like und, aber.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Entweder … oder' means…",
+      "options": [
+        "either … or",
+        "neither … nor"
+      ],
+      "answer": "either … or",
+      "explanation": "Entweder Tee oder Kaffee.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Bier ___ Wein? (or)",
+      "answer": "oder",
+      "fullAnswer": "Bier oder Wein?",
+      "explanation": "Oder.",
+      "id": "q5"
+    }
+  ]
+}

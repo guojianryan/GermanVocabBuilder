@@ -1,0 +1,192 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "group",
+  "word": {
+    "headword": "Uhrzeit",
+    "partOfSpeech": "word group: telling the time",
+    "pronunciation": {
+      "respelling": "OOR-tsite",
+      "ipa": "ˈuːɐ̯ˌtsaɪ̯t",
+      "notes": ""
+    },
+    "meaning": "telling the time",
+    "shortDefinition": "Telling the time."
+  },
+  "members": [
+    {
+      "german": "Wie spät ist es?",
+      "english": "What time is it?"
+    },
+    {
+      "german": "Wie viel Uhr ist es?",
+      "english": "What time is it?"
+    },
+    {
+      "german": "ein Uhr",
+      "english": "one o'clock",
+      "note": "Ein Uhr, but es ist eins."
+    },
+    {
+      "german": "Viertel nach",
+      "english": "quarter past"
+    },
+    {
+      "german": "Viertel vor",
+      "english": "quarter to"
+    },
+    {
+      "german": "halb",
+      "english": "half (to the next hour)",
+      "note": "halb drei = 2:30!"
+    },
+    {
+      "german": "fünf nach",
+      "english": "five past"
+    },
+    {
+      "german": "zehn vor",
+      "english": "ten to"
+    },
+    {
+      "german": "um",
+      "english": "at (a time)",
+      "note": "um acht Uhr = at eight o'clock"
+    },
+    {
+      "german": "die Uhr",
+      "english": "clock, watch; o'clock"
+    },
+    {
+      "german": "die Minute",
+      "english": "minute",
+      "plural": "Minuten"
+    }
+  ],
+  "intro": {
+    "title": "Halb drei is half past two",
+    "paragraphs": [
+      "There are two ways to tell the time. The official way, used for trains and appointments, is the 24-hour clock: 14.30 Uhr is vierzehn Uhr dreißig. The everyday way uses vor, nach, Viertel and halb.",
+      "The trap is halb. Germans count towards the next hour, so halb drei means 'half way to three': 2:30, not 3:30."
+    ]
+  },
+  "commonMistakes": [
+    {
+      "title": "The halb trap",
+      "explanation": "Halb + next hour.",
+      "wrong": "halb drei = 3:30",
+      "correct": "halb drei = 2:30"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Es ist halb acht.",
+      "english": "It's half past seven.",
+      "highlight": [
+        "halb"
+      ]
+    },
+    {
+      "german": "Der Zug fährt um vierzehn Uhr zehn.",
+      "english": "The train leaves at 14:10.",
+      "highlight": [
+        "um"
+      ]
+    },
+    {
+      "german": "Wir treffen uns um Viertel nach sechs.",
+      "english": "We're meeting at quarter past six.",
+      "highlight": [
+        "Viertel",
+        "nach"
+      ]
+    }
+  ],
+  "forms": [
+    "ein Uhr",
+    "Viertel nach",
+    "Viertel vor",
+    "halb",
+    "fünf nach",
+    "zehn vor",
+    "um",
+    "die Uhr",
+    "Uhr",
+    "die Minute",
+    "Minute",
+    "Minuten",
+    "Uhrzeit",
+    "Viertel",
+    "spät"
+  ],
+  "memoryHook": "Halb drei: you're half way TO three. Germans look ahead to the next hour.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "'halb drei' is…",
+      "options": [
+        "2:30",
+        "3:30"
+      ],
+      "answer": "2:30",
+      "explanation": "Half way to three.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Viertel vor sieben' is…",
+      "options": [
+        "6:45",
+        "7:15"
+      ],
+      "answer": "6:45",
+      "explanation": "Quarter before seven.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "'At eight o'clock' is…",
+      "options": [
+        "um acht Uhr",
+        "an acht Uhr"
+      ],
+      "answer": "um acht Uhr",
+      "explanation": "Times take um.",
+      "id": "q3"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Es ist ___ zwölf. (11:30)",
+      "answer": "halb",
+      "fullAnswer": "Es ist halb zwölf.",
+      "explanation": "Half way to twelve.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "20:40 in everyday speech:",
+      "options": [
+        "zwanzig vor neun",
+        "zwanzig nach acht"
+      ],
+      "answer": "zwanzig vor neun",
+      "explanation": "8:40 = twenty to nine.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Which is right?",
+      "options": [
+        "Es ist ein Uhr.",
+        "Es ist eins Uhr."
+      ],
+      "answer": "Es ist ein Uhr.",
+      "explanation": "Ein Uhr, or just es ist eins.",
+      "id": "q6"
+    }
+  ]
+}

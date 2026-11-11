@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Kapitän",
+    "partOfSpeech": "noun, masculine (der Kapitän)",
+    "pronunciation": {
+      "respelling": "ka-pi-TEN",
+      "ipa": "kapiˈtɛːn",
+      "notes": "Plural: die Kapitäne."
+    },
+    "meaning": "captain",
+    "shortDefinition": "Captain."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Kapitän, plural die Kapitäne.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Kapitän"
+        },
+        {
+          "label": "More than one",
+          "value": "die Kapitäne"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Kapitän begrüßt die Passagiere.",
+      "english": "The captain welcomes the passengers.",
+      "highlight": [
+        "Kapitän"
+      ]
+    },
+    {
+      "german": "Er ist Kapitän der Mannschaft.",
+      "english": "He's the team captain.",
+      "highlight": [
+        "Kapitän"
+      ]
+    },
+    {
+      "german": "Hier spricht Ihr Kapitän.",
+      "english": "This is your captain speaking.",
+      "highlight": [
+        "Kapitän."
+      ]
+    }
+  ],
+  "forms": [
+    "Kapitänin"
+  ],
+  "memoryHook": "Der Kapitän (stress at end).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Kapitän",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Kapitän is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Kapitän, zwei ___",
+      "answer": "Kapitäne",
+      "fullAnswer": "ein Kapitän, zwei Kapitäne",
+      "explanation": "The plural is Kapitäne.",
+      "acceptedAnswers": [
+        "Kapitaene"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Kapitän mean?",
+      "options": [
+        "always",
+        "captain",
+        "the evening"
+      ],
+      "answer": "captain",
+      "explanation": "Kapitän: captain.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Stress on…",
+      "options": [
+        "-TÄN",
+        "KA-"
+      ],
+      "answer": "-TÄN",
+      "explanation": "End.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Kapitäne",
+        "Kapitäns"
+      ],
+      "answer": "Kapitäne",
+      "explanation": "-e.",
+      "id": "q5"
+    }
+  ]
+}

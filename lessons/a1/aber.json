@@ -1,0 +1,168 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "full",
+  "word": {
+    "headword": "aber",
+    "partOfSpeech": "conjunction; also a particle",
+    "pronunciation": {
+      "respelling": "AH-ber",
+      "ipa": "ˈaːbɐ",
+      "notes": "Long a. The -er at the end sounds like a soft 'uh'."
+    },
+    "meaning": "but; (as a particle) really",
+    "shortDefinition": "Joins two ideas that contrast."
+  },
+  "intro": {
+    "title": "But…",
+    "paragraphs": [
+      "Aber is your everyday 'but': Ich bin müde, aber glücklich. It also has a second life as a small emotional word: Das ist aber schön! means 'That's really nice!'"
+    ]
+  },
+  "wordFamily": [
+    {
+      "german": "sondern",
+      "english": "but rather (after a negative)",
+      "type": "conjunction"
+    },
+    {
+      "german": "doch",
+      "english": "but still; yes (contradicting)",
+      "type": "particle"
+    },
+    {
+      "german": "trotzdem",
+      "english": "nevertheless",
+      "type": "adverb"
+    }
+  ],
+  "keyTrap": {
+    "title": "The big trap: aber or sondern?",
+    "explanation": "After nicht or kein, when you replace one thing with another, German uses sondern, not aber.",
+    "wrong": {
+      "german": "Das ist nicht rot, aber blau.",
+      "verdict": "You're correcting rot to blau, so it's sondern."
+    },
+    "correct": [
+      {
+        "german": "Das ist nicht rot, sondern blau.",
+        "literal": "That's not red but rather blue.",
+        "note": "Correction after nicht: sondern."
+      },
+      {
+        "german": "Das Auto ist alt, aber gut.",
+        "literal": "The car is old but good.",
+        "note": "A contrast: aber."
+      }
+    ]
+  },
+  "commonMistakes": [
+    {
+      "title": "Word order stays normal",
+      "explanation": "Aber doesn't count as a sentence position, so the subject and verb come straight after it in their usual order.",
+      "wrong": "Ich bin müde, aber muss ich arbeiten.",
+      "correct": "Ich bin müde, aber ich muss arbeiten."
+    },
+    {
+      "title": "aber as a feeling word",
+      "explanation": "Inside a sentence, aber adds surprise or emphasis.",
+      "examples": [
+        {
+          "german": "Du bist aber groß geworden!",
+          "english": "My, you've grown!",
+          "highlight": "aber"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Wohnung ist schön, aber teuer.",
+      "english": "The flat is nice, but expensive.",
+      "highlight": [
+        "aber"
+      ]
+    },
+    {
+      "german": "Ich möchte kommen, aber ich habe keine Zeit.",
+      "english": "I'd like to come, but I don't have time.",
+      "highlight": [
+        "aber"
+      ]
+    },
+    {
+      "german": "Das ist aber nett von Ihnen!",
+      "english": "That's really kind of you!",
+      "highlight": [
+        "aber"
+      ]
+    },
+    {
+      "german": "Er spricht nicht Englisch, sondern Deutsch.",
+      "english": "He doesn't speak English, but German.",
+      "highlight": [
+        "sondern"
+      ]
+    }
+  ],
+  "forms": [],
+  "memoryHook": "Aber = but. If you're correcting a nicht, switch to sondern.",
+  "signOff": "Aber gern!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Ich habe Hunger, ___ kein Geld.",
+      "options": [
+        "aber",
+        "sondern"
+      ],
+      "answer": "aber",
+      "explanation": "A contrast: aber.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Das ist kein Tee, ___ Kaffee.",
+      "options": [
+        "aber",
+        "sondern"
+      ],
+      "answer": "sondern",
+      "explanation": "Correcting after kein: sondern.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "Es regnet, aber wir gehen spazieren.",
+        "Es regnet, aber gehen wir spazieren."
+      ],
+      "answer": "Es regnet, aber wir gehen spazieren.",
+      "explanation": "Aber doesn't change the word order.",
+      "id": "q3"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Das Essen ist gut, ___ zu salzig. (but)",
+      "answer": "aber",
+      "fullAnswer": "Das Essen ist gut, aber zu salzig.",
+      "explanation": "Aber joins the contrast.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does 'Das ist aber schön!' mean?",
+      "options": [
+        "That's really nice!",
+        "But that's nice."
+      ],
+      "answer": "That's really nice!",
+      "explanation": "Here aber adds emphasis.",
+      "id": "q5"
+    }
+  ]
+}

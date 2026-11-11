@@ -1,0 +1,141 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Vorgänger",
+    "partOfSpeech": "noun, masculine (der Vorgänger)",
+    "pronunciation": {
+      "respelling": "FOR-geng-er",
+      "ipa": "ˈfoːɐ̯ɡɛŋɐ",
+      "notes": "The plural looks the same. Plural: die Vorgänger."
+    },
+    "meaning": "predecessor",
+    "shortDefinition": "Predecessor."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Vor",
+        "meaning": "before"
+      },
+      {
+        "part": "gäng",
+        "meaning": "go (Gang)"
+      },
+      {
+        "part": "er",
+        "meaning": "person who does it"
+      }
+    ],
+    "literalMeaning": "one who went before"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Vorgänger, plural die Vorgänger.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Vorgänger"
+        },
+        {
+          "label": "More than one",
+          "value": "die Vorgänger"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Mein Vorgänger hat viel erreicht.",
+      "english": "My predecessor achieved a lot.",
+      "highlight": [
+        "Vorgänger"
+      ]
+    },
+    {
+      "german": "Das Modell ist besser als sein Vorgänger.",
+      "english": "The model is better than its predecessor.",
+      "highlight": [
+        "Vorgänger."
+      ]
+    },
+    {
+      "german": "Ihre Vorgängerin ist in Rente.",
+      "english": "Her predecessor has retired.",
+      "highlight": [
+        "Vorgängerin"
+      ]
+    }
+  ],
+  "forms": [
+    "Nachfolger",
+    "Vorgängerin"
+  ],
+  "memoryHook": "Vorgehen → der Vorgänger ↔ Nachfolger.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Vorgänger",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Vorgänger is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Vorgänger, zwei ___",
+      "answer": "Vorgänger",
+      "fullAnswer": "ein Vorgänger, zwei Vorgänger",
+      "explanation": "The plural is Vorgänger.",
+      "acceptedAnswers": [
+        "Vorgaenger"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Vorgänger mean?",
+      "options": [
+        "to sleep",
+        "the door",
+        "predecessor"
+      ],
+      "answer": "predecessor",
+      "explanation": "Vorgänger: predecessor.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Opposite:",
+      "options": [
+        "der Nachfolger",
+        "der Nachgänger"
+      ],
+      "answer": "der Nachfolger",
+      "explanation": "Successor.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "vorgehen (go before)",
+        "Gang only"
+      ],
+      "answer": "vorgehen (go before)",
+      "explanation": "Go before.",
+      "id": "q5"
+    }
+  ]
+}

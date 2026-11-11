@@ -1,0 +1,138 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Immunsystem",
+    "partOfSpeech": "noun, neuter (das Immunsystem)",
+    "pronunciation": {
+      "respelling": "i-MOON-züs-taym",
+      "ipa": "ɪˈmuːnzʏsˌteːm",
+      "notes": "Plural: die Immunsysteme."
+    },
+    "meaning": "immune system",
+    "shortDefinition": "Immune system."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Immun",
+        "meaning": "immune"
+      },
+      {
+        "part": "system",
+        "meaning": "system"
+      }
+    ],
+    "literalMeaning": "immune system"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Immunsystem, plural die Immunsysteme.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Immunsystem"
+        },
+        {
+          "label": "More than one",
+          "value": "die Immunsysteme"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Vitamine stärken das Immunsystem.",
+      "english": "Vitamins strengthen the immune system.",
+      "highlight": [
+        "Immunsystem."
+      ]
+    },
+    {
+      "german": "Sein Immunsystem ist geschwächt.",
+      "english": "His immune system is weakened.",
+      "highlight": [
+        "Immunsystem"
+      ]
+    },
+    {
+      "german": "Ein starkes Immunsystem.",
+      "english": "A strong immune system.",
+      "highlight": [
+        "Immunsystem."
+      ]
+    }
+  ],
+  "forms": [
+    "Immunsysteme",
+    "die Immunsysteme",
+    "das Immunsystem"
+  ],
+  "memoryHook": "Immun + System = immune system; das Abwehrsystem.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Immunsystem",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Immunsystem is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Immunsystem, zwei ___",
+      "answer": "Immunsysteme",
+      "fullAnswer": "ein Immunsystem, zwei Immunsysteme",
+      "explanation": "The plural is Immunsysteme.",
+      "acceptedAnswers": [
+        "Immunsysteme"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Immunsystem mean?",
+      "options": [
+        "the bill",
+        "expensive",
+        "immune system"
+      ],
+      "answer": "immune system",
+      "explanation": "Immunsystem: immune system.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "immun + System",
+        "Immo + System"
+      ],
+      "answer": "immun + System",
+      "explanation": "Compound.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gender:",
+      "options": [
+        "das (System)",
+        "die"
+      ],
+      "answer": "das (System)",
+      "explanation": "Last part.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Produkt",
+    "partOfSpeech": "noun, neuter (das Produkt)",
+    "pronunciation": {
+      "respelling": "pro-DOOKT",
+      "ipa": "pʁoˈdʊkt",
+      "notes": "Plural: die Produkte."
+    },
+    "meaning": "product",
+    "shortDefinition": "Product."
+  },
+  "wordFamily": [
+    {
+      "german": "produzieren",
+      "english": "to produce",
+      "type": "verb"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Produkt, plural die Produkte.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Produkt"
+        },
+        {
+          "label": "More than one",
+          "value": "die Produkte"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das ist ein neues Produkt.",
+      "english": "That's a new product.",
+      "highlight": [
+        "Produkt."
+      ]
+    },
+    {
+      "german": "Wir kaufen nur Produkte aus der Region.",
+      "english": "We only buy local products.",
+      "highlight": [
+        "Produkte"
+      ]
+    },
+    {
+      "german": "Die Firma verkauft ihre Produkte online.",
+      "english": "The company sells its products online.",
+      "highlight": [
+        "Produkte"
+      ]
+    }
+  ],
+  "forms": [
+    "Produkte",
+    "die Produkte",
+    "das Produkt"
+  ],
+  "memoryHook": "Das Produkt (stress at the end). Herstellen = produce.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Produkt",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Produkt is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Produkt, zwei ___",
+      "answer": "Produkte",
+      "fullAnswer": "ein Produkt, zwei Produkte",
+      "explanation": "The plural is Produkte.",
+      "acceptedAnswers": [
+        "Produkte"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Produkt mean?",
+      "options": [
+        "product",
+        "to travel",
+        "expensive"
+      ],
+      "answer": "product",
+      "explanation": "Produkt: product.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gender:",
+      "options": [
+        "das",
+        "der"
+      ],
+      "answer": "das",
+      "explanation": "Das Produkt.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Stress on…",
+      "options": [
+        "-DUKT",
+        "PRO-"
+      ],
+      "answer": "-DUKT",
+      "explanation": "pro-DOOKT.",
+      "id": "q5"
+    }
+  ]
+}

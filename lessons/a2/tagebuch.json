@@ -1,0 +1,142 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Tagebuch",
+    "partOfSpeech": "noun, neuter (das Tagebuch)",
+    "pronunciation": {
+      "respelling": "TAA-ge-bookh",
+      "ipa": "ˈtaːɡəbuːx",
+      "notes": "Plural: die Tagebücher."
+    },
+    "meaning": "diary",
+    "shortDefinition": "Diary."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Tag",
+        "meaning": "day"
+      },
+      {
+        "part": "e",
+        "meaning": "linking letter"
+      },
+      {
+        "part": "buch",
+        "meaning": "book"
+      }
+    ],
+    "literalMeaning": "day book"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Tagebuch, plural die Tagebücher.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Tagebuch"
+        },
+        {
+          "label": "More than one",
+          "value": "die Tagebücher"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Sie schreibt jeden Abend Tagebuch.",
+      "english": "She writes in her diary every evening.",
+      "highlight": [
+        "Tagebuch."
+      ]
+    },
+    {
+      "german": "Das Tagebuch der Anne Frank ist berühmt.",
+      "english": "The diary of Anne Frank is famous.",
+      "highlight": [
+        "Tagebuch"
+      ]
+    },
+    {
+      "german": "Ich habe mein altes Tagebuch gefunden.",
+      "english": "I've found my old diary.",
+      "highlight": [
+        "Tagebuch"
+      ]
+    }
+  ],
+  "forms": [
+    "Tagebücher",
+    "die Tagebücher",
+    "das Tagebuch"
+  ],
+  "memoryHook": "Tag + Buch = (personal) diary. Appointments: Terminkalender.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Tagebuch",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Tagebuch is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Tagebuch, zwei ___",
+      "answer": "Tagebücher",
+      "fullAnswer": "ein Tagebuch, zwei Tagebücher",
+      "explanation": "The plural is Tagebücher.",
+      "acceptedAnswers": [
+        "Tagebuecher"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Tagebuch mean?",
+      "options": [
+        "the bill",
+        "the window",
+        "diary"
+      ],
+      "answer": "diary",
+      "explanation": "Tagebuch: diary.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Tag + e + Buch",
+        "Tage + buchen"
+      ],
+      "answer": "Tag + e + Buch",
+      "explanation": "Day book.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Appointments diary:",
+      "options": [
+        "der Terminkalender",
+        "das Tagebuch"
+      ],
+      "answer": "der Terminkalender",
+      "explanation": "Different!",
+      "id": "q5"
+    }
+  ]
+}

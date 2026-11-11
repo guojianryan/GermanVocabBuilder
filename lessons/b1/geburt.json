@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Geburt",
+    "partOfSpeech": "noun, feminine (die Geburt)",
+    "pronunciation": {
+      "respelling": "ge-BOORT",
+      "ipa": "ɡəˈbuːɐ̯t",
+      "notes": "Plural: die Geburten."
+    },
+    "meaning": "birth",
+    "shortDefinition": "Birth."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Geburt, plural die Geburten.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Geburt"
+        },
+        {
+          "label": "More than one",
+          "value": "die Geburten"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Herzlichen Glückwunsch zur Geburt!",
+      "english": "Congratulations on the birth!",
+      "highlight": [
+        "Geburt!"
+      ]
+    },
+    {
+      "german": "Bei der Geburt wog sie drei Kilo.",
+      "english": "She weighed three kilos at birth.",
+      "highlight": [
+        "Geburt"
+      ]
+    },
+    {
+      "german": "Wann ist der Geburtstermin?",
+      "english": "When's the due date?",
+      "highlight": [
+        "Geburtstermin?"
+      ]
+    }
+  ],
+  "forms": [
+    "Geburten",
+    "die Geburten",
+    "die Geburt"
+  ],
+  "memoryHook": "Die Geburt: Geburtstag, Geburtsort, Geburtsjahr.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Geburt",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Geburt is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Geburt, zwei ___",
+      "answer": "Geburten",
+      "fullAnswer": "ein Geburt, zwei Geburten",
+      "explanation": "The plural is Geburten.",
+      "acceptedAnswers": [
+        "Geburten"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Geburt mean?",
+      "options": [
+        "to sleep",
+        "expensive",
+        "birth"
+      ],
+      "answer": "birth",
+      "explanation": "Geburt: birth.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Birthday:",
+      "options": [
+        "der Geburtstag",
+        "der Geburtsdag"
+      ],
+      "answer": "der Geburtstag",
+      "explanation": "Birth day.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Related verb form:",
+      "options": [
+        "geboren",
+        "gebären only"
+      ],
+      "answer": "geboren",
+      "explanation": "Born.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Haar",
+    "partOfSpeech": "noun, neuter (das Haar)",
+    "pronunciation": {
+      "respelling": "HAHR",
+      "ipa": "haːɐ̯",
+      "notes": "Plural: die Haare."
+    },
+    "meaning": "hair",
+    "shortDefinition": "Hair."
+  },
+  "wordFamily": [
+    {
+      "german": "der Friseur / die Friseurin",
+      "english": "hairdresser",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Haar, plural die Haare.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Haar"
+        },
+        {
+          "label": "More than one",
+          "value": "die Haare"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Sie hat lange, blonde Haare.",
+      "english": "She has long blonde hair.",
+      "highlight": [
+        "Haare."
+      ]
+    },
+    {
+      "german": "Ich muss mir die Haare waschen.",
+      "english": "I need to wash my hair.",
+      "highlight": [
+        "Haare"
+      ]
+    },
+    {
+      "german": "Da ist ein Haar in der Suppe!",
+      "english": "There's a hair in the soup!",
+      "highlight": [
+        "Haar"
+      ]
+    }
+  ],
+  "forms": [
+    "Haare",
+    "die Haare",
+    "das Haar"
+  ],
+  "memoryHook": "German usually counts hair: Sie hat lange Haare (plural). One hair: ein Haar.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Haar",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Haar is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Haar, zwei ___",
+      "answer": "Haare",
+      "fullAnswer": "ein Haar, zwei Haare",
+      "explanation": "The plural is Haare.",
+      "acceptedAnswers": [
+        "Haare"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Haar mean?",
+      "options": [
+        "the weather",
+        "hair",
+        "slowly"
+      ],
+      "answer": "hair",
+      "explanation": "Haar: hair.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'She has brown hair' usually uses…",
+      "options": [
+        "die Haare (plural)",
+        "das Haar (singular)"
+      ],
+      "answer": "die Haare (plural)",
+      "explanation": "Sie hat braune Haare.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "A hairdresser is…",
+      "options": [
+        "der Friseur",
+        "der Haarmann"
+      ],
+      "answer": "der Friseur",
+      "explanation": "Zum Friseur gehen.",
+      "id": "q5"
+    }
+  ]
+}

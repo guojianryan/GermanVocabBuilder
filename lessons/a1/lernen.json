@@ -1,0 +1,170 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "lernen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "LAIR-nen",
+      "ipa": "ˈlɛʁnən",
+      "notes": ""
+    },
+    "meaning": "to learn; to study",
+    "shortDefinition": "To learn; to study."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "lern|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "lern|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "lern|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "lern|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "lern|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "lern|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gelernt"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "kennenlernen",
+      "english": "to get to know",
+      "type": "separable verb"
+    },
+    {
+      "german": "studieren",
+      "english": "to study (at uni)",
+      "type": "verb"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich lerne seit einem Jahr Deutsch.",
+      "english": "I've been learning German for a year.",
+      "highlight": [
+        "lerne"
+      ]
+    },
+    {
+      "german": "Morgen ist der Test, ich muss lernen.",
+      "english": "The test is tomorrow, I have to study.",
+      "highlight": [
+        "lernen."
+      ]
+    },
+    {
+      "german": "Wo hast du so gut Deutsch gelernt?",
+      "english": "Where did you learn German so well?",
+      "highlight": [
+        "gelernt?"
+      ]
+    }
+  ],
+  "forms": [
+    "lerne",
+    "lernst",
+    "lernt",
+    "lernen",
+    "gelernt"
+  ],
+  "memoryHook": "Lernen = learn, study (for a test). Studieren = study at university. Kennenlernen = get to know.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (lernen)",
+      "answer": "lernt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: lernt.",
+      "acceptedAnswers": [
+        "lernt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (lernen, past)",
+      "answer": "gelernt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gelernt.",
+      "acceptedAnswers": [
+        "gelernt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does lernen mean?",
+      "options": [
+        "to learn",
+        "the bread",
+        "the job"
+      ],
+      "answer": "to learn",
+      "explanation": "lernen: to learn; to study.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Learning for an exam is…",
+      "options": [
+        "lernen",
+        "studieren"
+      ],
+      "answer": "lernen",
+      "explanation": "Studieren = at university.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Teach is…",
+      "options": [
+        "lehren / unterrichten",
+        "lernen"
+      ],
+      "answer": "lehren / unterrichten",
+      "explanation": "Lernen is only learn.",
+      "id": "q5"
+    }
+  ]
+}

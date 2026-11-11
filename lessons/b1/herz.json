@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Herz",
+    "partOfSpeech": "noun, neuter (das Herz)",
+    "pronunciation": {
+      "respelling": "HAIRTS",
+      "ipa": "hɛʁts",
+      "notes": "Plural: die Herzen."
+    },
+    "meaning": "heart",
+    "shortDefinition": "Heart."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Herz, plural die Herzen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Herz"
+        },
+        {
+          "label": "More than one",
+          "value": "die Herzen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er hat ein gutes Herz.",
+      "english": "He has a good heart.",
+      "highlight": [
+        "Herz."
+      ]
+    },
+    {
+      "german": "Mein Herz schlägt schnell.",
+      "english": "My heart's beating fast.",
+      "highlight": [
+        "Herz"
+      ]
+    },
+    {
+      "german": "Herzlichen Glückwunsch!",
+      "english": "Congratulations!",
+      "highlight": [
+        "Herzlichen"
+      ]
+    }
+  ],
+  "forms": [
+    "herzlich",
+    "Herzen"
+  ],
+  "memoryHook": "Das Herz (dem Herzen). Herzlich = warmly.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Herz",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Herz is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Herz, zwei ___",
+      "answer": "Herzen",
+      "fullAnswer": "ein Herz, zwei Herzen",
+      "explanation": "The plural is Herzen.",
+      "acceptedAnswers": [
+        "Herzen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Herz mean?",
+      "options": [
+        "heart",
+        "the car",
+        "to sing"
+      ],
+      "answer": "heart",
+      "explanation": "Herz: heart.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Herzlich' means…",
+      "options": [
+        "warm, sincere",
+        "heart-shaped"
+      ],
+      "answer": "warm, sincere",
+      "explanation": "Herzlich willkommen!",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Dative singular:",
+      "options": [
+        "dem Herzen",
+        "dem Herz"
+      ],
+      "answer": "dem Herzen",
+      "explanation": "Irregular.",
+      "id": "q5"
+    }
+  ]
+}

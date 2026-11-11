@@ -1,0 +1,138 @@
+{
+ "schemaVersion": "1.4",
+ "language": "de",
+ "explanationLanguage": "en",
+ "level": "B1",
+ "levelSource": "Goethe-Zertifikat B1 Wortliste",
+ "lessonType": "card",
+ "word": {
+  "headword": "Tierpark",
+  "partOfSpeech": "noun, masculine (der Tierpark)",
+  "pronunciation": {
+   "respelling": "TEER-park",
+   "ipa": "ˈtiːɐ̯paʁk",
+   "notes": "Plural: die Tierparks."
+  },
+  "meaning": "zoo, wildlife park",
+  "shortDefinition": "Zoo, wildlife park."
+ },
+ "commonMistakes": [
+  {
+   "title": "Gender and plural",
+   "explanation": "Der Tierpark, plural die Tierparks.",
+   "forms": [
+    {
+     "label": "One",
+     "value": "der Tierpark"
+    },
+    {
+     "label": "More than one",
+     "value": "die Tierparks"
+    }
+   ]
+  }
+ ],
+ "sampleSentences": [
+  {
+   "german": "Wir gehen in den Tierpark.",
+   "english": "We're going to the zoo.",
+   "highlight": [
+    "Tierpark."
+   ]
+  },
+  {
+   "german": "Im Tierpark gibt es Bären.",
+   "english": "There are bears at the wildlife park.",
+   "highlight": [
+    "Tierpark"
+   ]
+  },
+  {
+   "german": "Der Tierpark ist am Wochenende voll.",
+   "english": "The zoo is packed at weekends.",
+   "highlight": [
+    "Tierpark"
+   ]
+  }
+ ],
+ "forms": [
+  "Tierparks",
+  "die Tierparks",
+  "der Tierpark"
+ ],
+ "memoryHook": "Tier + Park = zoo (Zoo, Tiergarten).",
+ "signOff": "Gut gemacht!",
+ "quiz": [
+  {
+   "type": "choice",
+   "prompt": "___ Tierpark",
+   "options": [
+    "der",
+    "die",
+    "das"
+   ],
+   "answer": "der",
+   "explanation": "Tierpark is masculine.",
+   "id": "q1"
+  },
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "ein Tierpark, zwei ___",
+   "answer": "Tierparks",
+   "fullAnswer": "ein Tierpark, zwei Tierparks",
+   "explanation": "The plural is Tierparks.",
+   "acceptedAnswers": [
+    "Tierparks"
+   ],
+   "id": "q2"
+  },
+  {
+   "type": "choice",
+   "prompt": "What does Tierpark mean?",
+   "options": [
+    "the door",
+    "the bill",
+    "zoo"
+   ],
+   "answer": "zoo",
+   "explanation": "Tierpark: zoo, wildlife park.",
+   "id": "q3"
+  },
+  {
+   "type": "choice",
+   "prompt": "Synonym:",
+   "options": [
+    "der Zoo",
+    "der Bauernhof"
+   ],
+   "answer": "der Zoo",
+   "explanation": "Zoo.",
+   "id": "q4"
+  },
+  {
+   "type": "choice",
+   "prompt": "Built from…",
+   "options": [
+    "Tier (animal) + Park",
+    "Tür + Park"
+   ],
+   "answer": "Tier (animal) + Park",
+   "explanation": "Animal park.",
+   "id": "q5"
+  }
+ ],
+ "etymology": {
+  "title": "Where it comes from",
+  "parts": [
+   {
+    "part": "Tier",
+    "meaning": "animal"
+   },
+   {
+    "part": "park",
+    "meaning": "park"
+   }
+  ],
+  "literalMeaning": "animal park"
+ }
+}

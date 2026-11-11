@@ -1,0 +1,118 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Jazz",
+    "partOfSpeech": "noun, masculine (der Jazz)",
+    "pronunciation": {
+      "respelling": "JES",
+      "ipa": "dʒɛs",
+      "notes": "Usually no plural."
+    },
+    "meaning": "jazz",
+    "shortDefinition": "Jazz."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Jazz, usually no plural.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Jazz"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich höre gern Jazz.",
+      "english": "I like listening to jazz.",
+      "highlight": [
+        "Jazz."
+      ]
+    },
+    {
+      "german": "Er spielt Jazz auf dem Saxofon.",
+      "english": "He plays jazz on the saxophone.",
+      "highlight": [
+        "Jazz"
+      ]
+    },
+    {
+      "german": "Das Jazzfestival ist im Sommer.",
+      "english": "The jazz festival is in summer.",
+      "highlight": [
+        "Jazzfestival"
+      ]
+    }
+  ],
+  "forms": [
+    "der Jazz"
+  ],
+  "memoryHook": "Der Jazz (English pronunciation).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Jazz",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Jazz is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Jazz mean?",
+      "options": [
+        "to buy",
+        "jazz",
+        "to learn"
+      ],
+      "answer": "jazz",
+      "explanation": "Jazz: jazz.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gender:",
+      "options": [
+        "der",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Der Jazz.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Pronunciation:",
+      "options": [
+        "English (dʒ)",
+        "German (j)"
+      ],
+      "answer": "English (dʒ)",
+      "explanation": "Loanword.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Article usually?",
+      "options": [
+        "none (Ich höre Jazz)",
+        "always der"
+      ],
+      "answer": "none (Ich höre Jazz)",
+      "explanation": "Like other genres.",
+      "id": "q5"
+    }
+  ]
+}

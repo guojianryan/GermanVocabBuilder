@@ -1,0 +1,154 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "group",
+  "word": {
+    "headword": "Himmelsrichtungen",
+    "partOfSpeech": "word group: points of the compass",
+    "pronunciation": {
+      "respelling": "HIM-els-rikh-tung-en",
+      "ipa": "ˈhɪml̩sˌʁɪçtʊŋən",
+      "notes": ""
+    },
+    "meaning": "north, south, east, west",
+    "shortDefinition": "North, south, east, west."
+  },
+  "members": [
+    {
+      "german": "der Norden",
+      "english": "north"
+    },
+    {
+      "german": "der Süden",
+      "english": "south"
+    },
+    {
+      "german": "der Osten",
+      "english": "east"
+    },
+    {
+      "german": "der Westen",
+      "english": "west"
+    },
+    {
+      "german": "Norddeutschland",
+      "english": "northern Germany"
+    },
+    {
+      "german": "nördlich",
+      "english": "north of, northern"
+    },
+    {
+      "german": "südlich",
+      "english": "south of, southern"
+    }
+  ],
+  "intro": {
+    "title": "Im Norden",
+    "paragraphs": [
+      "The four directions are masculine and take im: Hamburg liegt im Norden. In compounds they shrink: Nord-, Süd-, Ost-, West- (Norddeutschland, Südamerika, die Ostsee).",
+      "Himmelsrichtung is literally 'sky direction'."
+    ]
+  },
+  "sampleSentences": [
+    {
+      "german": "Hamburg liegt im Norden.",
+      "english": "Hamburg is in the north.",
+      "highlight": [
+        "Norden."
+      ]
+    },
+    {
+      "german": "Der Wind kommt aus Westen.",
+      "english": "The wind is coming from the west.",
+      "highlight": [
+        "Westen."
+      ]
+    },
+    {
+      "german": "Wir fahren an die Ostsee.",
+      "english": "We're going to the Baltic Sea.",
+      "highlight": [
+        "Ostsee."
+      ]
+    }
+  ],
+  "forms": [
+    "der Norden",
+    "Norden",
+    "der Süden",
+    "Süden",
+    "der Osten",
+    "Osten",
+    "der Westen",
+    "Westen",
+    "Norddeutschland",
+    "nördlich",
+    "südlich",
+    "Nordsee",
+    "Ostsee"
+  ],
+  "memoryHook": "Nord, Süd, Ost, West: add -en for the direction and der for the gender.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "'In the south' is…",
+      "options": [
+        "im Süden",
+        "am Süden"
+      ],
+      "answer": "im Süden",
+      "explanation": "Im + direction.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Der Osten is…",
+      "options": [
+        "the east",
+        "the west"
+      ],
+      "answer": "the east",
+      "explanation": "Ost = east.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "___ Norden",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "All four are masculine.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Die Ostsee is…",
+      "options": [
+        "the Baltic Sea",
+        "the North Sea"
+      ],
+      "answer": "the Baltic Sea",
+      "explanation": "The 'east sea'. The North Sea is die Nordsee.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "München liegt im ___ . (south)",
+      "answer": "Süden",
+      "fullAnswer": "München liegt im Süden.",
+      "explanation": "Der Süden.",
+      "acceptedAnswers": [
+        "Sueden"
+      ],
+      "id": "q5"
+    }
+  ]
+}

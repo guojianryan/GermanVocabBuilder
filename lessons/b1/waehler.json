@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Wähler",
+    "partOfSpeech": "noun, masculine (der Wähler)",
+    "pronunciation": {
+      "respelling": "VAY-ler",
+      "ipa": "ˈvɛːlɐ",
+      "notes": "The plural looks the same. Plural: die Wähler."
+    },
+    "meaning": "voter",
+    "shortDefinition": "Voter."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Wähl",
+        "meaning": "choose, vote"
+      },
+      {
+        "part": "er",
+        "meaning": "person who does it"
+      }
+    ],
+    "literalMeaning": "one who votes"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Wähler, plural die Wähler.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Wähler"
+        },
+        {
+          "label": "More than one",
+          "value": "die Wähler"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Wähler haben entschieden.",
+      "english": "The voters have decided.",
+      "highlight": [
+        "Wähler"
+      ]
+    },
+    {
+      "german": "Viele Wählerinnen und Wähler blieben zu Hause.",
+      "english": "Many voters stayed at home.",
+      "highlight": [
+        "Wählerinnen",
+        "Wähler"
+      ]
+    },
+    {
+      "german": "Er will neue Wähler gewinnen.",
+      "english": "He wants to win new voters.",
+      "highlight": [
+        "Wähler"
+      ]
+    }
+  ],
+  "forms": [
+    "Wählerin"
+  ],
+  "memoryHook": "Wählen → der Wähler.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Wähler",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Wähler is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Wähler, zwei ___",
+      "answer": "Wähler",
+      "fullAnswer": "ein Wähler, zwei Wähler",
+      "explanation": "The plural is Wähler.",
+      "acceptedAnswers": [
+        "Waehler"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Wähler mean?",
+      "options": [
+        "to open",
+        "voter",
+        "to learn"
+      ],
+      "answer": "voter",
+      "explanation": "Wähler: voter.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "wählen (vote, choose)",
+        "Wahl only"
+      ],
+      "answer": "wählen (vote, choose)",
+      "explanation": "Vote.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Female:",
+      "options": [
+        "die Wählerin",
+        "die Wahl"
+      ],
+      "answer": "die Wählerin",
+      "explanation": "-in.",
+      "id": "q5"
+    }
+  ]
+}

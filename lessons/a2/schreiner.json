@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Momente A2.2 Kursbuch Glossar",
+  "lessonType": "card",
+  "word": {
+    "headword": "Schreiner",
+    "partOfSpeech": "noun, masculine (der Schreiner)",
+    "pronunciation": {
+      "respelling": "SHRYE-ner",
+      "ipa": "ˈʃʁaɪ̯nɐ",
+      "notes": "The plural looks the same. Plural: die Schreiner."
+    },
+    "meaning": "carpenter, joiner",
+    "shortDefinition": "Carpenter, joiner."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Schreiner, plural die Schreiner.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Schreiner"
+        },
+        {
+          "label": "More than one",
+          "value": "die Schreiner"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Schreiner baut einen Tisch.",
+      "english": "The carpenter is making a table.",
+      "highlight": [
+        "Schreiner"
+      ]
+    },
+    {
+      "german": "Sie macht eine Ausbildung zur Schreinerin.",
+      "english": "She's training as a carpenter.",
+      "highlight": [
+        "Schreinerin."
+      ]
+    },
+    {
+      "german": "Wir lassen die Küche vom Schreiner machen.",
+      "english": "We're having the kitchen made by a carpenter.",
+      "highlight": [
+        "Schreiner"
+      ]
+    }
+  ],
+  "forms": [
+    "Schreinerin",
+    "Schreinerei",
+    "Tischler"
+  ],
+  "memoryHook": "Der Schreiner (south) = Tischler (north). Die Schreinerei.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Schreiner",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Schreiner is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Schreiner, zwei ___",
+      "answer": "Schreiner",
+      "fullAnswer": "ein Schreiner, zwei Schreiner",
+      "explanation": "The plural is Schreiner.",
+      "acceptedAnswers": [
+        "Schreiner"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Schreiner mean?",
+      "options": [
+        "carpenter",
+        "the bed",
+        "quiet"
+      ],
+      "answer": "carpenter",
+      "explanation": "Schreiner: carpenter, joiner.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Northern synonym:",
+      "options": [
+        "der Tischler",
+        "der Maurer"
+      ],
+      "answer": "der Tischler",
+      "explanation": "Regional.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Workshop:",
+      "options": [
+        "die Schreinerei",
+        "die Schreinerstube"
+      ],
+      "answer": "die Schreinerei",
+      "explanation": "-ei.",
+      "id": "q5"
+    }
+  ]
+}

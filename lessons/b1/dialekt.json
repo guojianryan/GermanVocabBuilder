@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Dialekt",
+    "partOfSpeech": "noun, masculine (der Dialekt)",
+    "pronunciation": {
+      "respelling": "dee-a-LEKT",
+      "ipa": "di̯aˈlɛkt",
+      "notes": "Plural: die Dialekte."
+    },
+    "meaning": "dialect",
+    "shortDefinition": "Dialect."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Dialekt, plural die Dialekte.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Dialekt"
+        },
+        {
+          "label": "More than one",
+          "value": "die Dialekte"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "In Bayern spricht man Dialekt.",
+      "english": "In Bavaria people speak dialect.",
+      "highlight": [
+        "Dialekt."
+      ]
+    },
+    {
+      "german": "Ich verstehe den Dialekt nicht.",
+      "english": "I don't understand the dialect.",
+      "highlight": [
+        "Dialekt"
+      ]
+    },
+    {
+      "german": "Sie spricht Hochdeutsch und Schweizer Dialekt.",
+      "english": "She speaks standard German and Swiss dialect.",
+      "highlight": [
+        "Dialekt."
+      ]
+    }
+  ],
+  "forms": [
+    "Hochdeutsch"
+  ],
+  "memoryHook": "Der Dialekt vs Hochdeutsch (standard German).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Dialekt",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Dialekt is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Dialekt, zwei ___",
+      "answer": "Dialekte",
+      "fullAnswer": "ein Dialekt, zwei Dialekte",
+      "explanation": "The plural is Dialekte.",
+      "acceptedAnswers": [
+        "Dialekte"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Dialekt mean?",
+      "options": [
+        "dialect",
+        "to buy",
+        "to travel"
+      ],
+      "answer": "dialect",
+      "explanation": "Dialekt: dialect.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Standard German:",
+      "options": [
+        "Hochdeutsch",
+        "Normaldeutsch"
+      ],
+      "answer": "Hochdeutsch",
+      "explanation": "High German.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gender:",
+      "options": [
+        "der",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Der Dialekt.",
+      "id": "q5"
+    }
+  ]
+}

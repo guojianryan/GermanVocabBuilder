@@ -1,0 +1,138 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Briefmarke",
+    "partOfSpeech": "noun, feminine (die Briefmarke)",
+    "pronunciation": {
+      "respelling": "BREEF-mar-kuh",
+      "ipa": "ˈbʁiːfˌmaʁkə",
+      "notes": "Plural: die Briefmarken."
+    },
+    "meaning": "stamp",
+    "shortDefinition": "Stamp."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Brief",
+        "meaning": "letter"
+      },
+      {
+        "part": "marke",
+        "meaning": "mark, label"
+      }
+    ],
+    "literalMeaning": "letter mark"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Briefmarke, plural die Briefmarken.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Briefmarke"
+        },
+        {
+          "label": "More than one",
+          "value": "die Briefmarken"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich brauche eine Briefmarke für diesen Brief.",
+      "english": "I need a stamp for this letter.",
+      "highlight": [
+        "Briefmarke"
+      ]
+    },
+    {
+      "german": "Zehn Briefmarken, bitte.",
+      "english": "Ten stamps, please.",
+      "highlight": [
+        "Briefmarken,"
+      ]
+    },
+    {
+      "german": "Mein Opa sammelt Briefmarken.",
+      "english": "My grandpa collects stamps.",
+      "highlight": [
+        "Briefmarken."
+      ]
+    }
+  ],
+  "forms": [
+    "Briefmarken",
+    "die Briefmarken",
+    "die Briefmarke"
+  ],
+  "memoryHook": "Brief (letter) + Marke (mark): the mark that pays for the letter.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Briefmarke",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Briefmarke is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Briefmarke, zwei ___",
+      "answer": "Briefmarken",
+      "fullAnswer": "ein Briefmarke, zwei Briefmarken",
+      "explanation": "The plural is Briefmarken.",
+      "acceptedAnswers": [
+        "Briefmarken"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Briefmarke mean?",
+      "options": [
+        "the flower",
+        "the child",
+        "stamp"
+      ],
+      "answer": "stamp",
+      "explanation": "Briefmarke: stamp.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Briefmarke is built from…",
+      "options": [
+        "Brief + Marke",
+        "Brief + Markt"
+      ],
+      "answer": "Brief + Marke",
+      "explanation": "Marke: mark, label.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Compounds take the gender of the last part: die Marke, so…",
+      "options": [
+        "die Briefmarke",
+        "der Briefmarke"
+      ],
+      "answer": "die Briefmarke",
+      "explanation": "Die Marke → die Briefmarke.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "hoffen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "HOF-en",
+      "ipa": "ˈhɔfn̩",
+      "notes": ""
+    },
+    "meaning": "to hope",
+    "shortDefinition": "To hope."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "hoff|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "hoff|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "hoff|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "hoff|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "hoff|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "hoff|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gehofft"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "die Hoffnung",
+      "english": "hope",
+      "type": "noun"
+    },
+    {
+      "german": "hoffentlich",
+      "english": "hopefully",
+      "type": "adverb"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich hoffe, dass du kommst.",
+      "english": "I hope you're coming.",
+      "highlight": [
+        "hoffe,"
+      ]
+    },
+    {
+      "german": "Wir hoffen auf gutes Wetter.",
+      "english": "We're hoping for good weather.",
+      "highlight": [
+        "hoffen",
+        "auf"
+      ]
+    },
+    {
+      "german": "Ich hoffe es.",
+      "english": "I hope so.",
+      "highlight": [
+        "hoffe"
+      ]
+    }
+  ],
+  "forms": [
+    "hoffe",
+    "hoffst",
+    "hofft",
+    "hoffen",
+    "gehofft"
+  ],
+  "memoryHook": "Hoffen auf = hope for. Die Hoffnung = hope.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (hoffen)",
+      "answer": "hofft",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: hofft.",
+      "acceptedAnswers": [
+        "hofft"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (hoffen, past)",
+      "answer": "gehofft",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gehofft.",
+      "acceptedAnswers": [
+        "gehofft"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does hoffen mean?",
+      "options": [
+        "the car",
+        "to travel",
+        "to hope"
+      ],
+      "answer": "to hope",
+      "explanation": "hoffen: to hope.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Hope ___ something:",
+      "options": [
+        "auf",
+        "für"
+      ],
+      "answer": "auf",
+      "explanation": "Hoffen auf.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'I hope so':",
+      "options": [
+        "Ich hoffe es.",
+        "Ich hoffe so."
+      ],
+      "answer": "Ich hoffe es.",
+      "explanation": "Es, not so.",
+      "id": "q5"
+    }
+  ]
+}

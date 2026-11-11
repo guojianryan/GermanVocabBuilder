@@ -1,0 +1,180 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "verarbeiten",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "fer-AR-bye-ten",
+      "ipa": "fɛɐ̯ˈʔaʁbaɪ̯tn̩",
+      "notes": ""
+    },
+    "meaning": "to process; to come to terms with; to use",
+    "shortDefinition": "To process; to come to terms with; to use."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "ver",
+        "meaning": "change, through"
+      },
+      {
+        "part": "arbeiten",
+        "meaning": "to work"
+      }
+    ],
+    "literalMeaning": "to work through",
+    "summary": "Working it into another form."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "verarbeit|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "verarbeit|est"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "verarbeit|et"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "verarbeit|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "verarbeit|et"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "verarbeit|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat verarbeitet"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Hier wird Holz verarbeitet.",
+      "english": "Wood is processed here.",
+      "highlight": [
+        "verarbeitet."
+      ]
+    },
+    {
+      "german": "Sie muss den Verlust erst verarbeiten.",
+      "english": "She first has to come to terms with the loss.",
+      "highlight": [
+        "verarbeiten."
+      ]
+    },
+    {
+      "german": "Ihre Daten werden verarbeitet.",
+      "english": "Your data is being processed.",
+      "highlight": [
+        "verarbeitet."
+      ]
+    }
+  ],
+  "forms": [
+    "Verarbeitung"
+  ],
+  "memoryHook": "Verarbeiten: process (Holz, Daten); come to terms with.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (verarbeiten)",
+      "answer": "verarbeitet",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: verarbeitet.",
+      "acceptedAnswers": [
+        "verarbeitet"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (verarbeiten, past)",
+      "answer": "verarbeitet",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe verarbeitet.",
+      "acceptedAnswers": [
+        "verarbeitet"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does verarbeiten mean?",
+      "options": [
+        "hot",
+        "the window",
+        "to process"
+      ],
+      "answer": "to process",
+      "explanation": "verarbeiten: to process; to come to terms with; to use.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Emotionally, 'verarbeiten' means…",
+      "options": [
+        "to come to terms with",
+        "to work too much"
+      ],
+      "answer": "to come to terms with",
+      "explanation": "Process.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Noun:",
+      "options": [
+        "die Verarbeitung",
+        "der Verarbeit"
+      ],
+      "answer": "die Verarbeitung",
+      "explanation": "Processing.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "hat verarbeitet",
+        "hat geverarbeitet"
+      ],
+      "answer": "hat verarbeitet",
+      "explanation": "No ge-.",
+      "id": "q6"
+    }
+  ]
+}

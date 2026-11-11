@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Drittel",
+    "partOfSpeech": "noun, neuter (das Drittel)",
+    "pronunciation": {
+      "respelling": "DRIT-el",
+      "ipa": "ˈdʁɪtl̩",
+      "notes": "The plural looks the same. Plural: die Drittel."
+    },
+    "meaning": "third",
+    "shortDefinition": "Third."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Dritt",
+        "meaning": "third"
+      },
+      {
+        "part": "el",
+        "meaning": "part (from Teil)"
+      }
+    ],
+    "literalMeaning": "third part"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Drittel, plural die Drittel.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Drittel"
+        },
+        {
+          "label": "More than one",
+          "value": "die Drittel"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ein Drittel der Schüler ist krank.",
+      "english": "A third of the pupils are ill.",
+      "highlight": [
+        "Drittel"
+      ]
+    },
+    {
+      "german": "Zwei Drittel stimmten dafür.",
+      "english": "Two thirds voted in favour.",
+      "highlight": [
+        "Drittel"
+      ]
+    },
+    {
+      "german": "Ich esse nur ein Drittel.",
+      "english": "I'm only eating a third.",
+      "highlight": [
+        "Drittel."
+      ]
+    }
+  ],
+  "forms": [
+    "Viertel"
+  ],
+  "memoryHook": "Das Drittel (third), das Viertel (quarter).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Drittel",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Drittel is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Drittel, zwei ___",
+      "answer": "Drittel",
+      "fullAnswer": "ein Drittel, zwei Drittel",
+      "explanation": "The plural is Drittel.",
+      "acceptedAnswers": [
+        "Drittel"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Drittel mean?",
+      "options": [
+        "cheap",
+        "third",
+        "the job"
+      ],
+      "answer": "third",
+      "explanation": "Drittel: third.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "dritt (third) + Teil (part)",
+        "drei + Tal"
+      ],
+      "answer": "dritt (third) + Teil (part)",
+      "explanation": "Third part.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "A quarter:",
+      "options": [
+        "das Viertel",
+        "das Vierdel"
+      ],
+      "answer": "das Viertel",
+      "explanation": "Same pattern.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "schütteln",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "SHÜT-eln",
+      "ipa": "ˈʃʏtl̩n",
+      "notes": ""
+    },
+    "meaning": "to shake",
+    "shortDefinition": "To shake."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "schüttl|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "schüttel|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "schüttel|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "schüttel|n"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "schüttel|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "schüttel|n"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat geschüttelt"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Vor Gebrauch schütteln!",
+      "english": "Shake before use!",
+      "highlight": [
+        "schütteln!"
+      ]
+    },
+    {
+      "german": "Er schüttelt den Kopf.",
+      "english": "He shakes his head.",
+      "highlight": [
+        "schüttelt"
+      ]
+    },
+    {
+      "german": "Wir haben uns die Hände geschüttelt.",
+      "english": "We shook hands.",
+      "highlight": [
+        "geschüttelt."
+      ]
+    }
+  ],
+  "forms": [
+    "schüttle",
+    "schüttelst",
+    "schüttelt",
+    "schütteln",
+    "geschüttelt"
+  ],
+  "memoryHook": "Schütteln (ich schüttle). Den Kopf schütteln.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (schütteln)",
+      "answer": "schüttelt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: schüttelt.",
+      "acceptedAnswers": [
+        "schuettelt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (schütteln, past)",
+      "answer": "geschüttelt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe geschüttelt.",
+      "acceptedAnswers": [
+        "geschuettelt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does schütteln mean?",
+      "options": [
+        "the flower",
+        "to shake",
+        "the window"
+      ],
+      "answer": "to shake",
+      "explanation": "schütteln: to shake.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "ich ___ (schütteln):",
+      "options": [
+        "schüttle",
+        "schüttele only"
+      ],
+      "answer": "schüttle",
+      "explanation": "-el verbs.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Den Kopf schütteln' means…",
+      "options": [
+        "to shake your head (no)",
+        "to nod"
+      ],
+      "answer": "to shake your head (no)",
+      "explanation": "No.",
+      "id": "q5"
+    }
+  ]
+}

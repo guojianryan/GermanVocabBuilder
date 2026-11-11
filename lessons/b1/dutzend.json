@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Dutzend",
+    "partOfSpeech": "noun, neuter (das Dutzend)",
+    "pronunciation": {
+      "respelling": "DOOT-sent",
+      "ipa": "ˈdʊtsn̩t",
+      "notes": "Plural: die Dutzende."
+    },
+    "meaning": "dozen",
+    "shortDefinition": "Dozen."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Dutzend, plural die Dutzende.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Dutzend"
+        },
+        {
+          "label": "More than one",
+          "value": "die Dutzende"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ein Dutzend Eier, bitte.",
+      "english": "A dozen eggs, please.",
+      "highlight": [
+        "Dutzend"
+      ]
+    },
+    {
+      "german": "Dutzende Menschen warteten.",
+      "english": "Dozens of people were waiting.",
+      "highlight": [
+        "Dutzende"
+      ]
+    },
+    {
+      "german": "Er hat ein Dutzend Bücher geschrieben.",
+      "english": "He's written a dozen books.",
+      "highlight": [
+        "Dutzend"
+      ]
+    }
+  ],
+  "forms": [
+    "Dutzende",
+    "die Dutzende",
+    "das Dutzend"
+  ],
+  "memoryHook": "Das Dutzend (12); Dutzende = dozens.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Dutzend",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Dutzend is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Dutzend, zwei ___",
+      "answer": "Dutzende",
+      "fullAnswer": "ein Dutzend, zwei Dutzende",
+      "explanation": "The plural is Dutzende.",
+      "acceptedAnswers": [
+        "Dutzende"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Dutzend mean?",
+      "options": [
+        "dozen",
+        "the car",
+        "the street"
+      ],
+      "answer": "dozen",
+      "explanation": "Dutzend: dozen.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "How many?",
+      "options": [
+        "12",
+        "10"
+      ],
+      "answer": "12",
+      "explanation": "Dozen.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Dutzende' means…",
+      "options": [
+        "dozens",
+        "twelve"
+      ],
+      "answer": "dozens",
+      "explanation": "Many.",
+      "id": "q5"
+    }
+  ]
+}

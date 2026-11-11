@@ -1,0 +1,130 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Glück",
+    "partOfSpeech": "noun, neuter (das Glück)",
+    "pronunciation": {
+      "respelling": "GLUEK",
+      "ipa": "ɡlʏk",
+      "notes": "No plural. Usually no plural."
+    },
+    "meaning": "luck; happiness",
+    "shortDefinition": "Luck; happiness."
+  },
+  "wordFamily": [
+    {
+      "german": "glücklich",
+      "english": "happy",
+      "type": "adjective"
+    },
+    {
+      "german": "das Pech",
+      "english": "bad luck",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Glück, usually no plural.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Glück"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Viel Glück!",
+      "english": "Good luck!",
+      "highlight": [
+        "Glück!"
+      ]
+    },
+    {
+      "german": "Da hast du Glück gehabt!",
+      "english": "You were lucky there!",
+      "highlight": [
+        "Glück"
+      ]
+    },
+    {
+      "german": "Zum Glück ist nichts passiert.",
+      "english": "Luckily nothing happened.",
+      "highlight": [
+        "Glück"
+      ]
+    }
+  ],
+  "forms": [
+    "das Glück"
+  ],
+  "memoryHook": "Glück = luck and happiness. Viel Glück! = Good luck. Zum Glück = luckily. Glück haben = be lucky.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Glück",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Glück is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Glück mean?",
+      "options": [
+        "luck",
+        "to sleep",
+        "quiet"
+      ],
+      "answer": "luck",
+      "explanation": "Glück: luck; happiness.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Viel Glück!' means…",
+      "options": [
+        "Good luck!",
+        "Much happiness!"
+      ],
+      "answer": "Good luck!",
+      "explanation": "Said before an exam.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Zum Glück' means…",
+      "options": [
+        "luckily",
+        "for luck"
+      ],
+      "answer": "luckily",
+      "explanation": "Zum Glück = fortunately.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Glück haben' means…",
+      "options": [
+        "to be lucky",
+        "to be happy"
+      ],
+      "answer": "to be lucky",
+      "explanation": "Happy is glücklich.",
+      "id": "q5"
+    }
+  ]
+}

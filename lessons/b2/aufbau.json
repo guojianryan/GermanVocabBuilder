@@ -1,0 +1,135 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Aufbau",
+    "partOfSpeech": "noun, masculine (der Aufbau)",
+    "pronunciation": {
+      "respelling": "OWF-bow",
+      "ipa": "ˈaʊ̯fbaʊ̯",
+      "notes": "Usually no plural."
+    },
+    "meaning": "construction, setting up; structure",
+    "shortDefinition": "Construction, setting up; structure."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Auf",
+        "meaning": "up"
+      },
+      {
+        "part": "bau",
+        "meaning": "build",
+        "emphasis": "rise"
+      }
+    ],
+    "literalMeaning": "a building-up",
+    "summary": "Rising piece by piece."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Aufbau, usually no plural.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Aufbau"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Aufbau der Bühne dauert drei Stunden.",
+      "english": "Setting up the stage takes three hours.",
+      "highlight": [
+        "Aufbau"
+      ]
+    },
+    {
+      "german": "Der Aufbau des Textes ist logisch.",
+      "english": "The structure of the text is logical.",
+      "highlight": [
+        "Aufbau"
+      ]
+    },
+    {
+      "german": "Der Wiederaufbau nach dem Krieg.",
+      "english": "Post-war reconstruction.",
+      "highlight": [
+        "Wiederaufbau"
+      ]
+    }
+  ],
+  "forms": [
+    "aufbauen",
+    "Wiederaufbau"
+  ],
+  "memoryHook": "Aufbauen → der Aufbau ↔ Abbau.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Aufbau",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Aufbau is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Aufbau mean?",
+      "options": [
+        "never",
+        "the station",
+        "construction"
+      ],
+      "answer": "construction",
+      "explanation": "Aufbau: construction, setting up; structure.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "aufbauen",
+        "Bau only"
+      ],
+      "answer": "aufbauen",
+      "explanation": "Build up.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Opposite:",
+      "options": [
+        "der Abbau",
+        "der Umbau"
+      ],
+      "answer": "der Abbau",
+      "explanation": "Dismantling.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Reconstruction:",
+      "options": [
+        "der Wiederaufbau",
+        "der Neuaufbau only"
+      ],
+      "answer": "der Wiederaufbau",
+      "explanation": "Rebuild.",
+      "id": "q5"
+    }
+  ]
+}

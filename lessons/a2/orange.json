@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Orange",
+    "partOfSpeech": "noun, feminine (die Orange)",
+    "pronunciation": {
+      "respelling": "o-RAHN-zhe",
+      "ipa": "oˈʁɑ̃ːʒə",
+      "notes": "Plural: die Orangen."
+    },
+    "meaning": "orange (fruit)",
+    "shortDefinition": "Orange (fruit)."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Orange, plural die Orangen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Orange"
+        },
+        {
+          "label": "More than one",
+          "value": "die Orangen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich esse jeden Tag eine Orange.",
+      "english": "I eat an orange every day.",
+      "highlight": [
+        "Orange."
+      ]
+    },
+    {
+      "german": "Ein Glas Orangensaft, bitte.",
+      "english": "A glass of orange juice, please.",
+      "highlight": [
+        "Orangensaft,"
+      ]
+    },
+    {
+      "german": "Die Orangen kommen aus Spanien.",
+      "english": "The oranges come from Spain.",
+      "highlight": [
+        "Orangen"
+      ]
+    }
+  ],
+  "forms": [
+    "Apfelsine",
+    "Orangensaft"
+  ],
+  "memoryHook": "Die Orange (French sound). Also: Apfelsine.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Orange",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Orange is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Orange, zwei ___",
+      "answer": "Orangen",
+      "fullAnswer": "ein Orange, zwei Orangen",
+      "explanation": "The plural is Orangen.",
+      "acceptedAnswers": [
+        "Orangen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Orange mean?",
+      "options": [
+        "to help",
+        "orange (fruit)",
+        "the weather"
+      ],
+      "answer": "orange (fruit)",
+      "explanation": "Orange: orange (fruit).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Pronounced…",
+      "options": [
+        "the French way: o-RAHN-zhe",
+        "OR-ange"
+      ],
+      "answer": "the French way: o-RAHN-zhe",
+      "explanation": "French.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Another word (north Germany):",
+      "options": [
+        "die Apfelsine",
+        "die Orangine"
+      ],
+      "answer": "die Apfelsine",
+      "explanation": "Chinese apple.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Zulassung",
+    "partOfSpeech": "noun, feminine (die Zulassung)",
+    "pronunciation": {
+      "respelling": "TSOO-la-sung",
+      "ipa": "ˈtsuːlasʊŋ",
+      "notes": "Plural: die Zulassungen."
+    },
+    "meaning": "admission; licence, registration",
+    "shortDefinition": "Admission; licence, registration."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Zu",
+        "meaning": "to, in"
+      },
+      {
+        "part": "lass",
+        "meaning": "let (lassen)",
+        "emphasis": "arrive"
+      },
+      {
+        "part": "ung",
+        "meaning": "noun ending"
+      }
+    ],
+    "literalMeaning": "a letting in",
+    "summary": "Allowed inside."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Zulassung, plural die Zulassungen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Zulassung"
+        },
+        {
+          "label": "More than one",
+          "value": "die Zulassungen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Zulassung zum Studium.",
+      "english": "Admission to university.",
+      "highlight": [
+        "Zulassung"
+      ]
+    },
+    {
+      "german": "Die Zulassung des Autos läuft ab.",
+      "english": "The car's registration is expiring.",
+      "highlight": [
+        "Zulassung"
+      ]
+    },
+    {
+      "german": "Das Medikament hat keine Zulassung.",
+      "english": "The drug isn't licensed.",
+      "highlight": [
+        "Zulassung."
+      ]
+    }
+  ],
+  "forms": [
+    "zulassen"
+  ],
+  "memoryHook": "Zulassen → die Zulassung (admission; licence).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Zulassung",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Zulassung is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Zulassung, zwei ___",
+      "answer": "Zulassungen",
+      "fullAnswer": "ein Zulassung, zwei Zulassungen",
+      "explanation": "The plural is Zulassungen.",
+      "acceptedAnswers": [
+        "Zulassungen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Zulassung mean?",
+      "options": [
+        "to open",
+        "admission",
+        "the window"
+      ],
+      "answer": "admission",
+      "explanation": "Zulassung: admission; licence, registration.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "zulassen (admit, license)",
+        "lassen only"
+      ],
+      "answer": "zulassen (admit, license)",
+      "explanation": "Admit.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Car registration office:",
+      "options": [
+        "die Zulassungsstelle",
+        "das Zulassungsamt only"
+      ],
+      "answer": "die Zulassungsstelle",
+      "explanation": "Office.",
+      "id": "q5"
+    }
+  ]
+}

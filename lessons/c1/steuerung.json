@@ -1,0 +1,138 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Steuerung",
+    "partOfSpeech": "noun, feminine (die Steuerung)",
+    "pronunciation": {
+      "respelling": "SHTOY-e-rung",
+      "ipa": "ˈʃtɔɪ̯əʁʊŋ",
+      "notes": "Plural: die Steuerungen."
+    },
+    "meaning": "control; steering",
+    "shortDefinition": "Control; steering."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Steuer",
+        "meaning": "rudder, wheel"
+      },
+      {
+        "part": "ung",
+        "meaning": "noun ending",
+        "emphasis": "turn"
+      }
+    ],
+    "literalMeaning": "a steering",
+    "summary": "Turning the wheel."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Steuerung, plural die Steuerungen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Steuerung"
+        },
+        {
+          "label": "More than one",
+          "value": "die Steuerungen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Steuerung des Systems ist einfach.",
+      "english": "The system is easy to control.",
+      "highlight": [
+        "Steuerung"
+      ]
+    },
+    {
+      "german": "Er verlor die Steuerung über das Auto.",
+      "english": "He lost control of the car.",
+      "highlight": [
+        "Steuerung"
+      ]
+    },
+    {
+      "german": "Die Fernsteuerung ist kaputt.",
+      "english": "The remote control is broken.",
+      "highlight": [
+        "Fernsteuerung"
+      ]
+    }
+  ],
+  "forms": [
+    "steuern"
+  ],
+  "memoryHook": "Steuern → die Steuerung (control).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Steuerung",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Steuerung is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Steuerung, zwei ___",
+      "answer": "Steuerungen",
+      "fullAnswer": "ein Steuerung, zwei Steuerungen",
+      "explanation": "The plural is Steuerungen.",
+      "acceptedAnswers": [
+        "Steuerungen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Steuerung mean?",
+      "options": [
+        "to travel",
+        "control",
+        "the bed"
+      ],
+      "answer": "control",
+      "explanation": "Steuerung: control; steering.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "steuern (steer, control)",
+        "Steuer (tax) only"
+      ],
+      "answer": "steuern (steer, control)",
+      "explanation": "Steer.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Remote control:",
+      "options": [
+        "die Fernsteuerung / Fernbedienung",
+        "die Fernsteuer"
+      ],
+      "answer": "die Fernsteuerung / Fernbedienung",
+      "explanation": "Remote.",
+      "id": "q5"
+    }
+  ]
+}

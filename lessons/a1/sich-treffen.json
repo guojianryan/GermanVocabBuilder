@@ -1,0 +1,169 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "(sich) treffen",
+    "partOfSpeech": "verb, often reflexive",
+    "pronunciation": {
+      "respelling": "TREF-en",
+      "ipa": "ˈtʁɛfn̩",
+      "notes": ""
+    },
+    "meaning": "to meet",
+    "shortDefinition": "To meet."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "treff|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "tr|i|ffst"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "tr|i|fft"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "treff|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "treff|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "treff|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat getroffen",
+        "E → i for du and er."
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "das Treffen",
+      "english": "meeting",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir treffen uns um acht am Kino.",
+      "english": "We're meeting at eight at the cinema.",
+      "highlight": [
+        "treffen",
+        "uns"
+      ]
+    },
+    {
+      "german": "Ich treffe heute meine Freundin.",
+      "english": "I'm meeting my girlfriend today.",
+      "highlight": [
+        "treffe"
+      ]
+    },
+    {
+      "german": "Er trifft seine Kollegen im Café.",
+      "english": "He's meeting his colleagues at the café.",
+      "highlight": [
+        "trifft"
+      ]
+    }
+  ],
+  "forms": [
+    "treffe",
+    "triffst",
+    "trifft",
+    "treffen",
+    "trefft",
+    "getroffen",
+    "traf"
+  ],
+  "memoryHook": "Treffen: du triffst, er trifft. Sich treffen = meet up. Kennenlernen = meet for the first time.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ ((sich) treffen)",
+      "answer": "trifft",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: trifft.",
+      "acceptedAnswers": [
+        "trifft"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. ((sich) treffen, past)",
+      "answer": "getroffen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe getroffen.",
+      "acceptedAnswers": [
+        "getroffen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does (sich) treffen mean?",
+      "options": [
+        "to sing",
+        "to meet",
+        "the door"
+      ],
+      "answer": "to meet",
+      "explanation": "(sich) treffen: to meet.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Wir treffen uns' means…",
+      "options": [
+        "We're meeting (each other)",
+        "We hit ourselves"
+      ],
+      "answer": "We're meeting (each other)",
+      "explanation": "Reflexive.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Er ___ seine Freunde.",
+      "options": [
+        "trefft",
+        "trifft"
+      ],
+      "answer": "trifft",
+      "explanation": "E → i.",
+      "id": "q5"
+    }
+  ]
+}

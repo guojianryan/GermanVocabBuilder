@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Pause",
+    "partOfSpeech": "noun, feminine (die Pause)",
+    "pronunciation": {
+      "respelling": "POW-zuh",
+      "ipa": "ˈpaʊ̯zə",
+      "notes": "Plural: die Pausen."
+    },
+    "meaning": "break",
+    "shortDefinition": "Break."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Pause, plural die Pausen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Pause"
+        },
+        {
+          "label": "More than one",
+          "value": "die Pausen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir machen zehn Minuten Pause.",
+      "english": "We're taking a ten-minute break.",
+      "highlight": [
+        "Pause."
+      ]
+    },
+    {
+      "german": "In der Pause trinke ich Kaffee.",
+      "english": "I drink coffee during the break.",
+      "highlight": [
+        "Pause"
+      ]
+    },
+    {
+      "german": "Ich brauche eine Pause.",
+      "english": "I need a break.",
+      "highlight": [
+        "Pause."
+      ]
+    }
+  ],
+  "forms": [
+    "Pausen",
+    "die Pausen",
+    "die Pause"
+  ],
+  "memoryHook": "Die Pause = break. Pause machen = take a break. Mittagspause = lunch break.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Pause",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Pause is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Pause, zwei ___",
+      "answer": "Pausen",
+      "fullAnswer": "ein Pause, zwei Pausen",
+      "explanation": "The plural is Pausen.",
+      "acceptedAnswers": [
+        "Pausen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Pause mean?",
+      "options": [
+        "the window",
+        "break",
+        "the weather"
+      ],
+      "answer": "break",
+      "explanation": "Pause: break.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Pause machen' means…",
+      "options": [
+        "to take a break",
+        "to pause music"
+      ],
+      "answer": "to take a break",
+      "explanation": "Eine Pause machen.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Die Mittagspause is…",
+      "options": [
+        "the lunch break",
+        "midday"
+      ],
+      "answer": "the lunch break",
+      "explanation": "Mittag + Pause.",
+      "id": "q5"
+    }
+  ]
+}

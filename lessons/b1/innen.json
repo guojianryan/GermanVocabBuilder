@@ -1,0 +1,103 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "innen",
+    "partOfSpeech": "adverb",
+    "pronunciation": {
+      "respelling": "IN-en",
+      "ipa": "ˈɪnən",
+      "notes": ""
+    },
+    "meaning": "inside",
+    "shortDefinition": "Inside."
+  },
+  "sampleSentences": [
+    {
+      "german": "Das Haus ist innen sehr modern.",
+      "english": "The house is very modern inside.",
+      "highlight": [
+        "innen"
+      ]
+    },
+    {
+      "german": "Die Tür geht nach innen auf.",
+      "english": "The door opens inwards.",
+      "highlight": [
+        "innen"
+      ]
+    },
+    {
+      "german": "Von innen sieht es größer aus.",
+      "english": "It looks bigger from the inside.",
+      "highlight": [
+        "innen"
+      ]
+    }
+  ],
+  "forms": [
+    "Innenstadt",
+    "außen"
+  ],
+  "memoryHook": "Innen (inside) / außen (outside). Innenstadt = city centre.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does innen mean?",
+      "options": [
+        "the bread",
+        "inside",
+        "never"
+      ],
+      "answer": "inside",
+      "explanation": "innen: inside.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "The opposite:",
+      "options": [
+        "außen",
+        "draußen only"
+      ],
+      "answer": "außen",
+      "explanation": "Outside.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Nach innen' means…",
+      "options": [
+        "inwards",
+        "after inside"
+      ],
+      "answer": "inwards",
+      "explanation": "Direction.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Innenstadt means…",
+      "options": [
+        "city centre",
+        "inside the house"
+      ],
+      "answer": "city centre",
+      "explanation": "Inner city.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Von außen ist es alt, von ___ neu. (inside)",
+      "answer": "innen",
+      "fullAnswer": "Von außen ist es alt, von innen neu.",
+      "explanation": "Innen.",
+      "id": "q5"
+    }
+  ]
+}

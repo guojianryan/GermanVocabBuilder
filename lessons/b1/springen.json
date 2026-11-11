@@ -1,0 +1,166 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "springen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "SHPRING-en",
+      "ipa": "ˈʃpʁɪŋən",
+      "notes": ""
+    },
+    "meaning": "to jump",
+    "shortDefinition": "To jump."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "spring|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "spring|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "spring|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "spring|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "spring|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "spring|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): ist gesprungen"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "der Sprung",
+      "english": "jump",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Hund springt über den Zaun.",
+      "english": "The dog jumps over the fence.",
+      "highlight": [
+        "springt"
+      ]
+    },
+    {
+      "german": "Sie ist ins Wasser gesprungen.",
+      "english": "She jumped into the water.",
+      "highlight": [
+        "ist",
+        "gesprungen."
+      ]
+    },
+    {
+      "german": "Die Ampel springt auf Rot.",
+      "english": "The light changes to red.",
+      "highlight": [
+        "springt"
+      ]
+    }
+  ],
+  "forms": [
+    "springe",
+    "springst",
+    "springt",
+    "springen",
+    "gesprungen"
+  ],
+  "memoryHook": "Springen, sprang, ist gesprungen. Der Sprung = jump.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (springen)",
+      "answer": "springt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: springt.",
+      "acceptedAnswers": [
+        "springt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich bin schon ___. (springen, past)",
+      "answer": "gesprungen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: bin gesprungen.",
+      "acceptedAnswers": [
+        "gesprungen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does springen mean?",
+      "options": [
+        "to jump",
+        "to help",
+        "the door"
+      ],
+      "answer": "to jump",
+      "explanation": "springen: to jump.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "ist gesprungen",
+        "hat gespringt"
+      ],
+      "answer": "ist gesprungen",
+      "explanation": "Strong + sein.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Not 'spring' (season): spring =",
+      "options": [
+        "der Frühling",
+        "der Sprung"
+      ],
+      "answer": "der Frühling",
+      "explanation": "False friend.",
+      "id": "q5"
+    }
+  ]
+}

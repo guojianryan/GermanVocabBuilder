@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Strumpf",
+    "partOfSpeech": "noun, masculine (der Strumpf)",
+    "pronunciation": {
+      "respelling": "SHTROOMPF",
+      "ipa": "ʃtʁʊmpf",
+      "notes": "Plural: die Strümpfe."
+    },
+    "meaning": "stocking, sock",
+    "shortDefinition": "Stocking, sock."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Strumpf, plural die Strümpfe.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Strumpf"
+        },
+        {
+          "label": "More than one",
+          "value": "die Strümpfe"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Sie trägt schwarze Strümpfe.",
+      "english": "She's wearing black stockings.",
+      "highlight": [
+        "Strümpfe."
+      ]
+    },
+    {
+      "german": "Ich habe ein Loch im Strumpf.",
+      "english": "I've got a hole in my stocking.",
+      "highlight": [
+        "Strumpf."
+      ]
+    },
+    {
+      "german": "Die Strumpfhose ist kaputt.",
+      "english": "The tights are laddered.",
+      "highlight": [
+        "Strumpfhose"
+      ]
+    }
+  ],
+  "forms": [
+    "Strumpfhose"
+  ],
+  "memoryHook": "Der Strumpf, die Strümpfe. Strumpfhose = tights.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Strumpf",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Strumpf is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Strumpf, zwei ___",
+      "answer": "Strümpfe",
+      "fullAnswer": "ein Strumpf, zwei Strümpfe",
+      "explanation": "The plural is Strümpfe.",
+      "acceptedAnswers": [
+        "Struempfe"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Strumpf mean?",
+      "options": [
+        "to sing",
+        "the bread",
+        "stocking"
+      ],
+      "answer": "stocking",
+      "explanation": "Strumpf: stocking, sock.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Tights:",
+      "options": [
+        "die Strumpfhose",
+        "die Strumpfsocke"
+      ],
+      "answer": "die Strumpfhose",
+      "explanation": "Stocking trousers.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Strümpfe",
+        "Strumpfe"
+      ],
+      "answer": "Strümpfe",
+      "explanation": "u → ü.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "stoppen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "SHTOP-en",
+      "ipa": "ˈʃtɔpn̩",
+      "notes": ""
+    },
+    "meaning": "to stop",
+    "shortDefinition": "To stop."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "stopp|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "stopp|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "stopp|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "stopp|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "stopp|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "stopp|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gestoppt"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Polizei stoppt das Auto.",
+      "english": "The police stop the car.",
+      "highlight": [
+        "stoppt"
+      ]
+    },
+    {
+      "german": "Stopp!",
+      "english": "Stop!",
+      "highlight": [
+        "Stopp!"
+      ]
+    },
+    {
+      "german": "Ich habe die Zeit gestoppt.",
+      "english": "I timed it.",
+      "highlight": [
+        "gestoppt."
+      ]
+    }
+  ],
+  "forms": [
+    "stoppe",
+    "stoppst",
+    "stoppt",
+    "stoppen",
+    "gestoppt"
+  ],
+  "memoryHook": "Stoppen (pp). Stopp! Also: anhalten.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (stoppen)",
+      "answer": "stoppt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: stoppt.",
+      "acceptedAnswers": [
+        "stoppt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (stoppen, past)",
+      "answer": "gestoppt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gestoppt.",
+      "acceptedAnswers": [
+        "gestoppt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does stoppen mean?",
+      "options": [
+        "to buy",
+        "to stop",
+        "the weather"
+      ],
+      "answer": "to stop",
+      "explanation": "stoppen: to stop.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Spelling of the interjection:",
+      "options": [
+        "Stopp!",
+        "Stop!"
+      ],
+      "answer": "Stopp!",
+      "explanation": "pp (sign: STOP).",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Die Zeit stoppen' means…",
+      "options": [
+        "to time something",
+        "to stop time"
+      ],
+      "answer": "to time something",
+      "explanation": "Stopwatch.",
+      "id": "q5"
+    }
+  ]
+}

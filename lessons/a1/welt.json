@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Welt",
+    "partOfSpeech": "noun, feminine (die Welt)",
+    "pronunciation": {
+      "respelling": "VELT",
+      "ipa": "vɛlt",
+      "notes": "Plural: die Welten."
+    },
+    "meaning": "world",
+    "shortDefinition": "World."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Welt, plural die Welten.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Welt"
+        },
+        {
+          "label": "More than one",
+          "value": "die Welten"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich möchte die Welt sehen.",
+      "english": "I'd like to see the world.",
+      "highlight": [
+        "Welt"
+      ]
+    },
+    {
+      "german": "Das ist der höchste Berg der Welt.",
+      "english": "That's the highest mountain in the world.",
+      "highlight": [
+        "Welt."
+      ]
+    },
+    {
+      "german": "Er ist um die ganze Welt gereist.",
+      "english": "He travelled around the whole world.",
+      "highlight": [
+        "Welt"
+      ]
+    }
+  ],
+  "forms": [
+    "Welten",
+    "die Welten",
+    "die Welt"
+  ],
+  "memoryHook": "Die Welt = world (W = v). Weltmeisterschaft (WM) = world cup.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Welt",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Welt is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Welt, zwei ___",
+      "answer": "Welten",
+      "fullAnswer": "ein Welt, zwei Welten",
+      "explanation": "The plural is Welten.",
+      "acceptedAnswers": [
+        "Welten"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Welt mean?",
+      "options": [
+        "the child",
+        "world",
+        "the job"
+      ],
+      "answer": "world",
+      "explanation": "Welt: world.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Die Weltmeisterschaft is…",
+      "options": [
+        "the world championship",
+        "the world master"
+      ],
+      "answer": "the world championship",
+      "explanation": "WM.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Auf der Welt' means…",
+      "options": [
+        "in the world",
+        "on the world"
+      ],
+      "answer": "in the world",
+      "explanation": "Fixed phrase.",
+      "id": "q5"
+    }
+  ]
+}

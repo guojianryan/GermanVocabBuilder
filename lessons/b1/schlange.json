@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Schlange",
+    "partOfSpeech": "noun, feminine (die Schlange)",
+    "pronunciation": {
+      "respelling": "SHLANG-e",
+      "ipa": "ˈʃlaŋə",
+      "notes": "Plural: die Schlangen."
+    },
+    "meaning": "snake; queue",
+    "shortDefinition": "Snake; queue."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Schlange, plural die Schlangen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Schlange"
+        },
+        {
+          "label": "More than one",
+          "value": "die Schlangen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Im Zoo gibt es Schlangen.",
+      "english": "There are snakes at the zoo.",
+      "highlight": [
+        "Schlangen."
+      ]
+    },
+    {
+      "german": "Wir mussten Schlange stehen.",
+      "english": "We had to queue.",
+      "highlight": [
+        "Schlange"
+      ]
+    },
+    {
+      "german": "Die Schlange an der Kasse ist lang.",
+      "english": "The queue at the till is long.",
+      "highlight": [
+        "Schlange"
+      ]
+    }
+  ],
+  "forms": [
+    "Schlangen",
+    "die Schlangen",
+    "die Schlange"
+  ],
+  "memoryHook": "Die Schlange: snake; queue. Schlange stehen.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Schlange",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Schlange is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Schlange, zwei ___",
+      "answer": "Schlangen",
+      "fullAnswer": "ein Schlange, zwei Schlangen",
+      "explanation": "The plural is Schlangen.",
+      "acceptedAnswers": [
+        "Schlangen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Schlange mean?",
+      "options": [
+        "the bread",
+        "cheap",
+        "snake"
+      ],
+      "answer": "snake",
+      "explanation": "Schlange: snake; queue.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Schlange stehen' means…",
+      "options": [
+        "to queue",
+        "to stand like a snake"
+      ],
+      "answer": "to queue",
+      "explanation": "Queue.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Schlangen",
+        "Schlänge"
+      ],
+      "answer": "Schlangen",
+      "explanation": "-n.",
+      "id": "q5"
+    }
+  ]
+}

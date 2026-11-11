@@ -1,0 +1,199 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "full",
+  "word": {
+    "headword": "mein",
+    "partOfSpeech": "possessive (mein, meine, meinen …)",
+    "pronunciation": {
+      "respelling": "MINE",
+      "ipa": "maɪ̯n",
+      "notes": "Sounds like English 'mine'."
+    },
+    "meaning": "my",
+    "shortDefinition": "Says something belongs to me."
+  },
+  "intro": {
+    "title": "My",
+    "paragraphs": [
+      "Mein means 'my' and takes the same endings as ein: mein Bruder, meine Schwester, meinen Hund. Once you know mein, you know dein, sein and unser too."
+    ]
+  },
+  "tables": [
+    {
+      "title": "Same endings as ein",
+      "columns": [
+        "masculine",
+        "feminine",
+        "neuter",
+        "plural"
+      ],
+      "rows": [
+        {
+          "label": "subject",
+          "cells": [
+            "mein",
+            "mein|e",
+            "mein",
+            "mein|e"
+          ]
+        },
+        {
+          "label": "object",
+          "cells": [
+            "mein|en",
+            "mein|e",
+            "mein",
+            "mein|e"
+          ]
+        },
+        {
+          "label": "dative",
+          "cells": [
+            "mein|em",
+            "mein|er",
+            "mein|em",
+            "mein|en"
+          ]
+        }
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "dein, sein, ihr",
+      "english": "your, his, her",
+      "type": "possessives"
+    },
+    {
+      "german": "unser, euer, Ihr",
+      "english": "our, your (pl.), your (formal)",
+      "type": "possessives"
+    }
+  ],
+  "keyTrap": {
+    "title": "The big trap: the ending follows the thing owned",
+    "explanation": "The ending depends on the gender of the noun, not on who owns it.",
+    "wrong": {
+      "german": "Das ist mein Tasche.",
+      "verdict": "Die Tasche → meine."
+    },
+    "correct": [
+      {
+        "german": "Das ist meine Tasche.",
+        "literal": "That is my bag.",
+        "note": "Die Tasche: meine."
+      },
+      {
+        "german": "Ich suche meinen Schlüssel.",
+        "literal": "I search my key.",
+        "note": "Masculine object: meinen."
+      }
+    ]
+  },
+  "commonMistakes": [
+    {
+      "title": "Plural",
+      "explanation": "All plurals: meine.",
+      "wrong": "mein Kinder",
+      "correct": "meine Kinder"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das ist mein Mann.",
+      "english": "This is my husband.",
+      "highlight": [
+        "mein"
+      ]
+    },
+    {
+      "german": "Meine Eltern wohnen in Bonn.",
+      "english": "My parents live in Bonn.",
+      "highlight": [
+        "Meine"
+      ]
+    },
+    {
+      "german": "Ich habe meinen Pass vergessen.",
+      "english": "I've forgotten my passport.",
+      "highlight": [
+        "meinen"
+      ]
+    },
+    {
+      "german": "Ich fahre mit meiner Freundin.",
+      "english": "I'm going with my girlfriend.",
+      "highlight": [
+        "meiner"
+      ]
+    }
+  ],
+  "forms": [
+    "mein",
+    "meine",
+    "meinen",
+    "meinem",
+    "meiner",
+    "meines"
+  ],
+  "memoryHook": "Mein follows ein: mein, meine, meinen. The ending matches the thing, not the owner.",
+  "signOff": "Meine Glückwünsche!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Das ist ___ Schwester.",
+      "options": [
+        "mein",
+        "meine"
+      ],
+      "answer": "meine",
+      "explanation": "Die Schwester → meine.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich rufe ___ Vater an.",
+      "options": [
+        "mein",
+        "meinen"
+      ],
+      "answer": "meinen",
+      "explanation": "Masculine object.",
+      "id": "q2"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich wohne bei ___ Eltern. (my)",
+      "answer": "meinen",
+      "fullAnswer": "bei meinen Eltern",
+      "explanation": "Dative plural.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "___ Auto ist rot.",
+      "options": [
+        "Mein",
+        "Meine"
+      ],
+      "answer": "Mein",
+      "explanation": "Das Auto → mein.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Mit ___ Bruder (with my brother)",
+      "options": [
+        "meinem",
+        "meinen"
+      ],
+      "answer": "meinem",
+      "explanation": "Mit + dative masculine.",
+      "id": "q5"
+    }
+  ]
+}

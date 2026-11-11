@@ -1,0 +1,185 @@
+{
+ "schemaVersion": "1.4",
+ "language": "de",
+ "explanationLanguage": "en",
+ "level": "A2",
+ "levelSource": "Goethe-Zertifikat A2 Wortliste",
+ "lessonType": "card",
+ "word": {
+  "headword": "beraten",
+  "partOfSpeech": "verb",
+  "pronunciation": {
+   "respelling": "be-RAA-ten",
+   "ipa": "bəˈʁaːtn̩",
+   "notes": ""
+  },
+  "meaning": "to advise",
+  "shortDefinition": "To advise."
+ },
+ "tables": [
+  {
+   "title": "Present tense",
+   "columns": [
+    "present"
+   ],
+   "rows": [
+    {
+     "label": "ich",
+     "cells": [
+      "berat|e"
+     ]
+    },
+    {
+     "label": "du",
+     "cells": [
+      "ber|ä|tst"
+     ]
+    },
+    {
+     "label": "er, sie, es",
+     "cells": [
+      "ber|ä|t"
+     ]
+    },
+    {
+     "label": "wir",
+     "cells": [
+      "berat|en"
+     ]
+    },
+    {
+     "label": "ihr",
+     "cells": [
+      "berat|et"
+     ]
+    },
+    {
+     "label": "sie, Sie",
+     "cells": [
+      "berat|en"
+     ]
+    }
+   ],
+   "notes": [
+    "Past (Perfekt): hat beraten",
+    "a → ä for du and er."
+   ]
+  }
+ ],
+ "wordFamily": [
+  {
+   "german": "der Rat",
+   "english": "advice",
+   "type": "noun"
+  },
+  {
+   "german": "raten",
+   "english": "to guess, advise",
+   "type": "verb"
+  }
+ ],
+ "sampleSentences": [
+  {
+   "german": "Kann ich Sie beraten?",
+   "english": "Can I help you? (in a shop)",
+   "highlight": [
+    "beraten?"
+   ]
+  },
+  {
+   "german": "Der Arzt hat mich gut beraten.",
+   "english": "The doctor gave me good advice.",
+   "highlight": [
+    "beraten."
+   ]
+  },
+  {
+   "german": "Sie berät Kunden bei der Bank.",
+   "english": "She advises customers at the bank.",
+   "highlight": [
+    "berät"
+   ]
+  }
+ ],
+ "forms": [
+  "berate",
+  "berätst",
+  "berät",
+  "beraten",
+  "beratet"
+ ],
+ "memoryHook": "Der Rat (advice) → beraten. Die Beratung = advice service.",
+ "signOff": "Gut gemacht!",
+ "quiz": [
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "er ___ (beraten)",
+   "answer": "berät",
+   "fullAnswer": "",
+   "explanation": "For er, sie, es: berät.",
+   "acceptedAnswers": [
+    "beraet"
+   ],
+   "id": "q1"
+  },
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "Ich habe schon ___. (beraten, past)",
+   "answer": "beraten",
+   "fullAnswer": "",
+   "explanation": "Perfekt: habe beraten.",
+   "acceptedAnswers": [
+    "beraten"
+   ],
+   "id": "q2"
+  },
+  {
+   "type": "choice",
+   "prompt": "What does beraten mean?",
+   "options": [
+    "expensive",
+    "the shop",
+    "to advise"
+   ],
+   "answer": "to advise",
+   "explanation": "beraten: to advise.",
+   "id": "q3"
+  },
+  {
+   "type": "choice",
+   "prompt": "In a shop, 'Kann ich Sie beraten?' means…",
+   "options": [
+    "Can I help you?",
+    "Can I guess?"
+   ],
+   "answer": "Can I help you?",
+   "explanation": "Advise you.",
+   "id": "q4"
+  },
+  {
+   "type": "choice",
+   "prompt": "A consultation is…",
+   "options": [
+    "die Beratung",
+    "der Berat"
+   ],
+   "answer": "die Beratung",
+   "explanation": "-ung.",
+   "id": "q5"
+  }
+ ],
+ "etymology": {
+  "title": "Where it comes from",
+  "parts": [
+   {
+    "part": "be",
+    "meaning": "prefix (acts on something)"
+   },
+   {
+    "part": "raten",
+    "meaning": "to advise"
+   }
+  ],
+  "literalMeaning": "to advise"
+ }
+}

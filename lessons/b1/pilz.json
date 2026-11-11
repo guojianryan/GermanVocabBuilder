@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Pilz",
+    "partOfSpeech": "noun, masculine (der Pilz)",
+    "pronunciation": {
+      "respelling": "PILTS",
+      "ipa": "pɪlts",
+      "notes": "Plural: die Pilze."
+    },
+    "meaning": "mushroom; fungus",
+    "shortDefinition": "Mushroom; fungus."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Pilz, plural die Pilze.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Pilz"
+        },
+        {
+          "label": "More than one",
+          "value": "die Pilze"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir sammeln Pilze im Wald.",
+      "english": "We collect mushrooms in the woods.",
+      "highlight": [
+        "Pilze"
+      ]
+    },
+    {
+      "german": "Die Pizza ist mit Pilzen.",
+      "english": "The pizza has mushrooms on it.",
+      "highlight": [
+        "Pilzen."
+      ]
+    },
+    {
+      "german": "Manche Pilze sind giftig.",
+      "english": "Some mushrooms are poisonous.",
+      "highlight": [
+        "Pilze"
+      ]
+    }
+  ],
+  "forms": [
+    "Pilze",
+    "die Pilze",
+    "der Pilz"
+  ],
+  "memoryHook": "Der Pilz (mushroom). Champignons = button mushrooms.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Pilz",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Pilz is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Pilz, zwei ___",
+      "answer": "Pilze",
+      "fullAnswer": "ein Pilz, zwei Pilze",
+      "explanation": "The plural is Pilze.",
+      "acceptedAnswers": [
+        "Pilze"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Pilz mean?",
+      "options": [
+        "hot",
+        "to open",
+        "mushroom"
+      ],
+      "answer": "mushroom",
+      "explanation": "Pilz: mushroom; fungus.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Button mushrooms:",
+      "options": [
+        "die Champignons",
+        "die Pilzchen"
+      ],
+      "answer": "die Champignons",
+      "explanation": "French word.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Pilze",
+        "Pilzen"
+      ],
+      "answer": "Pilze",
+      "explanation": "-e.",
+      "id": "q5"
+    }
+  ]
+}

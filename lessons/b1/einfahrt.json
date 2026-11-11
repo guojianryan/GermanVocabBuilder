@@ -1,0 +1,140 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Einfahrt",
+    "partOfSpeech": "noun, feminine (die Einfahrt)",
+    "pronunciation": {
+      "respelling": "INE-faart",
+      "ipa": "ˈaɪ̯nfaːɐ̯t",
+      "notes": "Plural: die Einfahrten."
+    },
+    "meaning": "entrance (for vehicles), driveway",
+    "shortDefinition": "Entrance (for vehicles), driveway."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Ein",
+        "meaning": "in"
+      },
+      {
+        "part": "fahrt",
+        "meaning": "drive, journey",
+        "emphasis": "arrive"
+      }
+    ],
+    "literalMeaning": "driving in",
+    "summary": "Where vehicles come in (and trains arrive)."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Einfahrt, plural die Einfahrten.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Einfahrt"
+        },
+        {
+          "label": "More than one",
+          "value": "die Einfahrten"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Einfahrt freihalten!",
+      "english": "Keep the driveway clear!",
+      "highlight": [
+        "Einfahrt"
+      ]
+    },
+    {
+      "german": "Der Zug hat Einfahrt auf Gleis 3.",
+      "english": "The train is arriving at platform 3.",
+      "highlight": [
+        "Einfahrt"
+      ]
+    },
+    {
+      "german": "Die Einfahrt ist rechts.",
+      "english": "The entrance is on the right.",
+      "highlight": [
+        "Einfahrt"
+      ]
+    }
+  ],
+  "forms": [
+    "Einfahrten",
+    "die Einfahrten",
+    "die Einfahrt"
+  ],
+  "memoryHook": "Ein + Fahrt = drive in. Watch the Fahrt arrive!",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Einfahrt",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Einfahrt is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Einfahrt, zwei ___",
+      "answer": "Einfahrten",
+      "fullAnswer": "ein Einfahrt, zwei Einfahrten",
+      "explanation": "The plural is Einfahrten.",
+      "acceptedAnswers": [
+        "Einfahrten"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Einfahrt mean?",
+      "options": [
+        "slowly",
+        "to sing",
+        "entrance (for vehicles)"
+      ],
+      "answer": "entrance (for vehicles)",
+      "explanation": "Einfahrt: entrance (for vehicles), driveway.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "The opposite:",
+      "options": [
+        "die Ausfahrt",
+        "die Abfahrt"
+      ],
+      "answer": "die Ausfahrt",
+      "explanation": "Exit.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "For pedestrians:",
+      "options": [
+        "der Eingang",
+        "die Einfahrt"
+      ],
+      "answer": "der Eingang",
+      "explanation": "Walk in.",
+      "id": "q5"
+    }
+  ]
+}

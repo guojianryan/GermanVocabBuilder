@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Hose",
+    "partOfSpeech": "noun, feminine (die Hose)",
+    "pronunciation": {
+      "respelling": "HOH-ze",
+      "ipa": "ˈhoːzə",
+      "notes": "Plural: die Hosen."
+    },
+    "meaning": "trousers, pants",
+    "shortDefinition": "Trousers, pants."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Hose, plural die Hosen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Hose"
+        },
+        {
+          "label": "More than one",
+          "value": "die Hosen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Hose ist zu lang.",
+      "english": "The trousers are too long.",
+      "highlight": [
+        "Hose"
+      ]
+    },
+    {
+      "german": "Ich brauche eine neue Hose.",
+      "english": "I need some new trousers.",
+      "highlight": [
+        "Hose."
+      ]
+    },
+    {
+      "german": "Im Sommer trage ich kurze Hosen.",
+      "english": "In summer I wear shorts.",
+      "highlight": [
+        "Hosen."
+      ]
+    }
+  ],
+  "forms": [
+    "Hosen",
+    "die Hosen",
+    "die Hose"
+  ],
+  "memoryHook": "Eine Hose = one pair of trousers (singular!). Shorts = kurze Hose.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Hose",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Hose is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Hose, zwei ___",
+      "answer": "Hosen",
+      "fullAnswer": "ein Hose, zwei Hosen",
+      "explanation": "The plural is Hosen.",
+      "acceptedAnswers": [
+        "Hosen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Hose mean?",
+      "options": [
+        "to sleep",
+        "the key",
+        "trousers"
+      ],
+      "answer": "trousers",
+      "explanation": "Hose: trousers, pants.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'A pair of trousers':",
+      "options": [
+        "eine Hose",
+        "ein Paar Hosen"
+      ],
+      "answer": "eine Hose",
+      "explanation": "Singular in German.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Die Hose ___ zu lang.",
+      "options": [
+        "ist",
+        "sind"
+      ],
+      "answer": "ist",
+      "explanation": "Singular verb.",
+      "id": "q5"
+    }
+  ]
+}

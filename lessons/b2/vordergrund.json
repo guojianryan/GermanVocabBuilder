@@ -1,0 +1,129 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Vordergrund",
+    "partOfSpeech": "noun, masculine (der Vordergrund)",
+    "pronunciation": {
+      "respelling": "FOR-der-groont",
+      "ipa": "ˈfɔʁdɐɡʁʊnt",
+      "notes": "Usually no plural."
+    },
+    "meaning": "foreground",
+    "shortDefinition": "Foreground."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Vorder",
+        "meaning": "front"
+      },
+      {
+        "part": "grund",
+        "meaning": "ground"
+      }
+    ],
+    "literalMeaning": "front ground"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Vordergrund, usually no plural.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Vordergrund"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Im Vordergrund steht die Sicherheit.",
+      "english": "Safety is the priority.",
+      "highlight": [
+        "Vordergrund"
+      ]
+    },
+    {
+      "german": "Im Vordergrund des Bildes sieht man einen Baum.",
+      "english": "In the foreground of the picture you see a tree.",
+      "highlight": [
+        "Vordergrund"
+      ]
+    },
+    {
+      "german": "Er drängt sich immer in den Vordergrund.",
+      "english": "He always pushes himself forward.",
+      "highlight": [
+        "Vordergrund."
+      ]
+    }
+  ],
+  "forms": [
+    "Hintergrund"
+  ],
+  "memoryHook": "Vorder + Grund = foreground ↔ Hintergrund.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Vordergrund",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Vordergrund is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Vordergrund mean?",
+      "options": [
+        "foreground",
+        "to sleep",
+        "never"
+      ],
+      "answer": "foreground",
+      "explanation": "Vordergrund: foreground.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Im Vordergrund stehen' means…",
+      "options": [
+        "to be the priority / focus",
+        "to stand in front"
+      ],
+      "answer": "to be the priority / focus",
+      "explanation": "Focus.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Opposite:",
+      "options": [
+        "der Hintergrund",
+        "der Untergrund"
+      ],
+      "answer": "der Hintergrund",
+      "explanation": "Background.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Die Kinder stehen im ___ . (foreground)",
+      "answer": "Vordergrund",
+      "fullAnswer": "Die Kinder stehen im Vordergrund.",
+      "explanation": "Vordergrund.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Mehrwertsteuer",
+    "partOfSpeech": "noun, feminine (die Mehrwertsteuer)",
+    "pronunciation": {
+      "respelling": "MAIR-vairt-shtoy-er",
+      "ipa": "ˈmeːɐ̯veːɐ̯tˌʃtɔɪ̯ɐ",
+      "notes": "Usually no plural."
+    },
+    "meaning": "VAT",
+    "shortDefinition": "VAT."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Mehr",
+        "meaning": "more"
+      },
+      {
+        "part": "wert",
+        "meaning": "value"
+      },
+      {
+        "part": "steuer",
+        "meaning": "tax"
+      }
+    ],
+    "literalMeaning": "more-value tax",
+    "summary": "A tax on the value added."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Mehrwertsteuer, usually no plural.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Mehrwertsteuer"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Preis enthält 19 % Mehrwertsteuer.",
+      "english": "The price includes 19% VAT.",
+      "highlight": [
+        "Mehrwertsteuer."
+      ]
+    },
+    {
+      "german": "Ist die MwSt. inklusive?",
+      "english": "Is VAT included?",
+      "highlight": [
+        "MwSt."
+      ]
+    },
+    {
+      "german": "Die Mehrwertsteuer auf Lebensmittel ist niedriger.",
+      "english": "VAT on food is lower.",
+      "highlight": [
+        "Mehrwertsteuer"
+      ]
+    }
+  ],
+  "forms": [
+    "MwSt."
+  ],
+  "memoryHook": "Mehrwert + Steuer = VAT (MwSt.).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Mehrwertsteuer",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Mehrwertsteuer is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Mehrwertsteuer mean?",
+      "options": [
+        "VAT",
+        "the key",
+        "never"
+      ],
+      "answer": "VAT",
+      "explanation": "Mehrwertsteuer: VAT.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Abbreviation:",
+      "options": [
+        "MwSt.",
+        "MWS"
+      ],
+      "answer": "MwSt.",
+      "explanation": "On receipts.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Mehr + Wert + Steuer",
+        "Mehr + Wort + Steuer"
+      ],
+      "answer": "Mehr + Wert + Steuer",
+      "explanation": "Added-value tax.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gender:",
+      "options": [
+        "die (die Steuer)",
+        "der"
+      ],
+      "answer": "die (die Steuer)",
+      "explanation": "Last part.",
+      "id": "q5"
+    }
+  ]
+}

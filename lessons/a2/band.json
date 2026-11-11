@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Band",
+    "partOfSpeech": "noun, feminine (die Band)",
+    "pronunciation": {
+      "respelling": "BENT",
+      "ipa": "bɛnt",
+      "notes": "Plural: die Bands."
+    },
+    "meaning": "band (music)",
+    "shortDefinition": "Band (music)."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Band, plural die Bands.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Band"
+        },
+        {
+          "label": "More than one",
+          "value": "die Bands"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Meine Lieblingsband spielt heute Abend.",
+      "english": "My favourite band is playing tonight.",
+      "highlight": [
+        "Lieblingsband"
+      ]
+    },
+    {
+      "german": "Er spielt Gitarre in einer Band.",
+      "english": "He plays guitar in a band.",
+      "highlight": [
+        "Band."
+      ]
+    },
+    {
+      "german": "Die Band hat ein neues Album.",
+      "english": "The band has a new album.",
+      "highlight": [
+        "Band"
+      ]
+    }
+  ],
+  "forms": [
+    "Bands",
+    "die Bands",
+    "die Band"
+  ],
+  "memoryHook": "Die Band (music, English sound). Das Band = ribbon. Der Band = a volume (book)!",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Band",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Band is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Band, zwei ___",
+      "answer": "Bands",
+      "fullAnswer": "ein Band, zwei Bands",
+      "explanation": "The plural is Bands.",
+      "acceptedAnswers": [
+        "Bands"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Band mean?",
+      "options": [
+        "band (music)",
+        "the window",
+        "to sleep"
+      ],
+      "answer": "band (music)",
+      "explanation": "Band: band (music).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Die Band (music) is said…",
+      "options": [
+        "like English 'band'",
+        "BAHNT"
+      ],
+      "answer": "like English 'band'",
+      "explanation": "English sound.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Das Band (BAHNT) means…",
+      "options": [
+        "a ribbon, tape",
+        "a music group"
+      ],
+      "answer": "a ribbon, tape",
+      "explanation": "Different word, different gender.",
+      "id": "q5"
+    }
+  ]
+}

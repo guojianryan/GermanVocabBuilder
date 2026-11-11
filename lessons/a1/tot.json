@@ -1,0 +1,112 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "tot",
+    "partOfSpeech": "adjective",
+    "pronunciation": {
+      "respelling": "TOHT",
+      "ipa": "toːt",
+      "notes": ""
+    },
+    "meaning": "dead",
+    "shortDefinition": "Dead."
+  },
+  "wordFamily": [
+    {
+      "german": "sterben",
+      "english": "to die",
+      "type": "verb"
+    },
+    {
+      "german": "der Tod",
+      "english": "death",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Mein Großvater ist schon lange tot.",
+      "english": "My grandfather died a long time ago.",
+      "highlight": [
+        "tot."
+      ]
+    },
+    {
+      "german": "Die Pflanze ist tot.",
+      "english": "The plant is dead.",
+      "highlight": [
+        "tot."
+      ]
+    },
+    {
+      "german": "Der Akku ist tot.",
+      "english": "The battery is dead.",
+      "highlight": [
+        "tot."
+      ]
+    }
+  ],
+  "forms": [],
+  "memoryHook": "Tot = dead. Der Tod = death. Sterben, ist gestorben = die, died.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does tot mean?",
+      "options": [
+        "dead",
+        "to help",
+        "the shop"
+      ],
+      "answer": "dead",
+      "explanation": "tot: dead.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Tot (adjective) vs gestorben (past of sterben):",
+      "options": [
+        "dead vs died",
+        "the same"
+      ],
+      "answer": "dead vs died",
+      "explanation": "Er ist tot. Er ist gestorben.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "The opposite of tot is…",
+      "options": [
+        "lebendig",
+        "krank"
+      ],
+      "answer": "lebendig",
+      "explanation": "Alive.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Der Tod means…",
+      "options": [
+        "death",
+        "dead person"
+      ],
+      "answer": "death",
+      "explanation": "Tot → der Tod.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Die Blume ist ___. (dead)",
+      "answer": "tot",
+      "fullAnswer": "Die Blume ist tot.",
+      "explanation": "Tot.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,262 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "lessonType": "full",
+  "word": {
+    "headword": "mit",
+    "partOfSpeech": "preposition (always with the dative)",
+    "pronunciation": {
+      "respelling": "MIT",
+      "ipa": "mɪt",
+      "notes": "Short i, exactly like English 'mitt'."
+    },
+    "meaning": "with; by (for transport)",
+    "shortDefinition": "Says who or what goes together, or how you travel."
+  },
+  "intro": {
+    "title": "Small word, one strict rule",
+    "paragraphs": [
+      "Mit means 'with', and you'll use it constantly: with friends, with milk, with the bus. The meaning is easy.",
+      "The challenge is the grammar. Mit always takes the dative, every time, no exceptions. Learn the dative endings with mit and you've learned them for a dozen other prepositions too."
+    ]
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "summary": "Mit is an old Germanic word for 'with'. English used to have it too: it survives in 'midwife', literally the 'with-woman' who stays with the mother.",
+    "cognates": [
+      {
+        "word": "met",
+        "language": "Dutch",
+        "note": "with"
+      },
+      {
+        "word": "med",
+        "language": "Swedish",
+        "note": "with"
+      },
+      {
+        "word": "midwife",
+        "language": "English",
+        "note": "the 'with-woman'"
+      }
+    ]
+  },
+  "tables": [
+    {
+      "title": "mit + dative",
+      "intro": "After mit, every article and possessive takes its dative ending.",
+      "columns": [
+        "masculine",
+        "feminine",
+        "neuter",
+        "plural"
+      ],
+      "rows": [
+        {
+          "label": "the",
+          "cells": [
+            "mit d|em",
+            "mit d|er",
+            "mit d|em",
+            "mit d|en …n"
+          ]
+        },
+        {
+          "label": "a",
+          "cells": [
+            "mit ein|em",
+            "mit ein|er",
+            "mit ein|em",
+            "mit …n"
+          ]
+        },
+        {
+          "label": "my",
+          "cells": [
+            "mit mein|em",
+            "mit mein|er",
+            "mit mein|em",
+            "mit mein|en …n"
+          ]
+        }
+      ],
+      "notes": [
+        "In the dative plural the noun itself usually gets an extra -n: mit den Kindern.",
+        "Pronouns change too: mit mir, mit dir, mit ihm, mit ihr, mit uns, mit Ihnen."
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "mitkommen",
+      "english": "to come along",
+      "type": "separable verb"
+    },
+    {
+      "german": "mitnehmen",
+      "english": "to take along",
+      "type": "separable verb"
+    },
+    {
+      "german": "mitbringen",
+      "english": "to bring along",
+      "type": "separable verb"
+    },
+    {
+      "german": "der Mitarbeiter",
+      "english": "employee, colleague",
+      "literal": "with-worker",
+      "type": "noun"
+    },
+    {
+      "german": "miteinander",
+      "english": "with each other",
+      "type": "adverb"
+    }
+  ],
+  "keyTrap": {
+    "title": "The big trap: forgetting the dative",
+    "explanation": "Learners often use the plain form after mit. It always needs the dative ending.",
+    "wrong": {
+      "german": "Ich gehe mit mein Bruder ins Kino.",
+      "verdict": "Mit takes the dative: meinem."
+    },
+    "correct": [
+      {
+        "german": "Ich gehe mit meinem Bruder ins Kino.",
+        "literal": "I go with my brother to the cinema.",
+        "note": "Masculine dative: meinem."
+      },
+      {
+        "german": "Ich gehe mit meiner Schwester ins Kino.",
+        "literal": "I go with my sister to the cinema.",
+        "note": "Feminine dative: meiner."
+      },
+      {
+        "german": "Kommst du mit uns?",
+        "literal": "Come you with us?",
+        "note": "Pronouns: uns, not wir."
+      }
+    ]
+  },
+  "commonMistakes": [
+    {
+      "title": "Travelling 'by'",
+      "explanation": "English says 'by train'. German says 'with the train', and it needs the article.",
+      "wrong": "Ich fahre mit Zug.",
+      "correct": "Ich fahre mit dem Zug."
+    },
+    {
+      "title": "On foot is different",
+      "explanation": "Walking isn't mit anything: zu Fuß.",
+      "wrong": "Ich gehe mit den Füßen.",
+      "correct": "Ich gehe zu Fuß."
+    },
+    {
+      "title": "Coming along",
+      "explanation": "Mit is also a separable prefix. At the end of a question it means 'along'.",
+      "examples": [
+        {
+          "german": "Kommst du mit?",
+          "english": "Are you coming along?",
+          "highlight": "mit?"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich trinke Kaffee mit Milch.",
+      "english": "I drink coffee with milk.",
+      "highlight": [
+        "mit"
+      ]
+    },
+    {
+      "german": "Sie fährt jeden Tag mit dem Bus.",
+      "english": "She takes the bus every day.",
+      "highlight": [
+        "mit",
+        "dem"
+      ]
+    },
+    {
+      "german": "Darf ich mit Karte zahlen?",
+      "english": "Can I pay by card?",
+      "highlight": [
+        "mit"
+      ]
+    },
+    {
+      "german": "Ich wohne mit zwei Freunden zusammen.",
+      "english": "I live with two friends.",
+      "highlight": [
+        "mit",
+        "Freunden"
+      ]
+    },
+    {
+      "german": "Wir gehen ins Kino. Kommst du mit?",
+      "english": "We're going to the cinema. Are you coming?",
+      "highlight": [
+        "mit?"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "fill-in-the-blank",
+      "prompt": "Ich fahre mit ___ Fahrrad. (das)",
+      "answer": "dem",
+      "fullAnswer": "Ich fahre mit dem Fahrrad.",
+      "explanation": "Neuter dative: dem."
+    },
+    {
+      "id": "q2",
+      "type": "fill-in-the-blank",
+      "prompt": "Er spricht mit ___ Lehrerin. (die)",
+      "answer": "der",
+      "fullAnswer": "Er spricht mit der Lehrerin.",
+      "explanation": "Feminine dative: der."
+    },
+    {
+      "id": "q3",
+      "type": "fill-in-the-blank",
+      "prompt": "Möchtest du mit ___ essen? (I)",
+      "answer": "mir",
+      "fullAnswer": "Möchtest du mit mir essen?",
+      "explanation": "Ich becomes mir in the dative."
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich fahre ___ Bus.",
+      "options": [
+        "mit dem",
+        "mit der",
+        "mit den"
+      ],
+      "answer": "mit dem",
+      "explanation": "Der Bus is masculine, so the dative is dem.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich komme mit ___. (you, informal)",
+      "options": [
+        "du",
+        "dich",
+        "dir"
+      ],
+      "answer": "dir",
+      "explanation": "Mit takes the dative: dir.",
+      "id": "q5"
+    }
+  ],
+  "forms": [],
+  "memoryHook": "Mit is always with the dative, and the dative is always with mit: mit dem, mit der, mit dem, mit den.",
+  "signOff": "Kommst du mit?",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste"
+}

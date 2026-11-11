@@ -1,0 +1,147 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Sicherung",
+    "partOfSpeech": "noun, feminine (die Sicherung)",
+    "pronunciation": {
+      "respelling": "ZIKH-e-rung",
+      "ipa": "ˈzɪçəʁʊŋ",
+      "notes": "Plural: die Sicherungen."
+    },
+    "meaning": "fuse; safeguard; backup",
+    "shortDefinition": "Fuse; safeguard; backup."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Sicher",
+        "meaning": "safe"
+      },
+      {
+        "part": "ung",
+        "meaning": "noun ending"
+      }
+    ],
+    "literalMeaning": "a making safe"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Sicherung, plural die Sicherungen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Sicherung"
+        },
+        {
+          "label": "More than one",
+          "value": "die Sicherungen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Sicherung ist durchgebrannt.",
+      "english": "The fuse has blown.",
+      "highlight": [
+        "Sicherung"
+      ]
+    },
+    {
+      "german": "Mach eine Sicherung deiner Daten.",
+      "english": "Make a backup of your data.",
+      "highlight": [
+        "Sicherung"
+      ]
+    },
+    {
+      "german": "Die Sicherung des Friedens.",
+      "english": "Safeguarding peace.",
+      "highlight": [
+        "Sicherung"
+      ]
+    }
+  ],
+  "forms": [
+    "sichern"
+  ],
+  "memoryHook": "Sichern → die Sicherung (fuse; backup; safeguard).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Sicherung",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Sicherung is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Sicherung, zwei ___",
+      "answer": "Sicherungen",
+      "fullAnswer": "ein Sicherung, zwei Sicherungen",
+      "explanation": "The plural is Sicherungen.",
+      "acceptedAnswers": [
+        "Sicherungen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Sicherung mean?",
+      "options": [
+        "quiet",
+        "the evening",
+        "fuse"
+      ],
+      "answer": "fuse",
+      "explanation": "Sicherung: fuse; safeguard; backup.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Ihm ist die Sicherung durchgebrannt' means…",
+      "options": [
+        "he lost his temper",
+        "his fuse blew only"
+      ],
+      "answer": "he lost his temper",
+      "explanation": "Idiom.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "sichern (secure)",
+        "sicher only"
+      ],
+      "answer": "sichern (secure)",
+      "explanation": "Secure.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Data backup:",
+      "options": [
+        "die Datensicherung",
+        "der Datenschutz"
+      ],
+      "answer": "die Datensicherung",
+      "explanation": "Backup.",
+      "id": "q6"
+    }
+  ]
+}

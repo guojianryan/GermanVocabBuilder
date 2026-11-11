@@ -1,0 +1,140 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Feststellung",
+    "partOfSpeech": "noun, feminine (die Feststellung)",
+    "pronunciation": {
+      "respelling": "FEST-shte-lung",
+      "ipa": "ˈfɛstʃtɛlʊŋ",
+      "notes": "Plural: die Feststellungen."
+    },
+    "meaning": "observation, finding; determination",
+    "shortDefinition": "Observation, finding; determination."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Fest",
+        "meaning": "firm"
+      },
+      {
+        "part": "stell",
+        "meaning": "place (stellen)"
+      },
+      {
+        "part": "ung",
+        "meaning": "noun ending"
+      }
+    ],
+    "literalMeaning": "a fixing firm"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Feststellung, plural die Feststellungen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Feststellung"
+        },
+        {
+          "label": "More than one",
+          "value": "die Feststellungen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das ist eine richtige Feststellung.",
+      "english": "That's a correct observation.",
+      "highlight": [
+        "Feststellung."
+      ]
+    },
+    {
+      "german": "Nach Feststellung des Arztes …",
+      "english": "According to the doctor's findings …",
+      "highlight": [
+        "Feststellung"
+      ]
+    },
+    {
+      "german": "Die Feststellung der Identität.",
+      "english": "Establishing identity.",
+      "highlight": [
+        "Feststellung"
+      ]
+    }
+  ],
+  "forms": [
+    "feststellen"
+  ],
+  "memoryHook": "Feststellen → die Feststellung.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Feststellung",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Feststellung is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Feststellung, zwei ___",
+      "answer": "Feststellungen",
+      "fullAnswer": "ein Feststellung, zwei Feststellungen",
+      "explanation": "The plural is Feststellungen.",
+      "acceptedAnswers": [
+        "Feststellungen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Feststellung mean?",
+      "options": [
+        "the door",
+        "observation",
+        "the street"
+      ],
+      "answer": "observation",
+      "explanation": "Feststellung: observation, finding; determination.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "feststellen (find, establish)",
+        "Fest only"
+      ],
+      "answer": "feststellen (find, establish)",
+      "explanation": "Establish.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Die Feststellung machen' means…",
+      "options": [
+        "to make an observation",
+        "to throw a party"
+      ],
+      "answer": "to make an observation",
+      "explanation": "Observe.",
+      "id": "q5"
+    }
+  ]
+}

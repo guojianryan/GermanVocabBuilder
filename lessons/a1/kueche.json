@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Küche",
+    "partOfSpeech": "noun, feminine (die Küche)",
+    "pronunciation": {
+      "respelling": "KÜ-khe",
+      "ipa": "ˈkʏçə",
+      "notes": "Plural: die Küchen."
+    },
+    "meaning": "kitchen; cuisine",
+    "shortDefinition": "Kitchen; cuisine."
+  },
+  "wordFamily": [
+    {
+      "german": "kochen",
+      "english": "to cook",
+      "type": "verb"
+    },
+    {
+      "german": "der Kuchen",
+      "english": "cake",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Küche, plural die Küchen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Küche"
+        },
+        {
+          "label": "More than one",
+          "value": "die Küchen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der neue Herd kommt in die Küche.",
+      "english": "The new cooker goes in the kitchen.",
+      "highlight": [
+        "Küche."
+      ]
+    },
+    {
+      "german": "Wir essen in der Küche.",
+      "english": "We eat in the kitchen.",
+      "highlight": [
+        "Küche."
+      ]
+    },
+    {
+      "german": "Ich mag die italienische Küche.",
+      "english": "I like Italian cuisine.",
+      "highlight": [
+        "Küche."
+      ]
+    }
+  ],
+  "forms": [
+    "Küchen",
+    "die Küchen",
+    "die Küche"
+  ],
+  "memoryHook": "Küche (kitchen, ü) vs Kuchen (cake, u): the umlaut makes all the difference.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Küche",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Küche is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Küche, zwei ___",
+      "answer": "Küchen",
+      "fullAnswer": "ein Küche, zwei Küchen",
+      "explanation": "The plural is Küchen.",
+      "acceptedAnswers": [
+        "Kuechen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Küche mean?",
+      "options": [
+        "kitchen",
+        "the bread",
+        "the bed"
+      ],
+      "answer": "kitchen",
+      "explanation": "Küche: kitchen; cuisine.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Küche or Kuchen? 'The kitchen':",
+      "options": [
+        "die Küche",
+        "der Kuchen"
+      ],
+      "answer": "die Küche",
+      "explanation": "Kuchen = cake!",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Die italienische Küche is…",
+      "options": [
+        "Italian cooking",
+        "an Italian kitchen only"
+      ],
+      "answer": "Italian cooking",
+      "explanation": "Küche also means cuisine.",
+      "id": "q5"
+    }
+  ]
+}

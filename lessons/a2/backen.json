@@ -1,0 +1,173 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "backen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "BAK-en",
+      "ipa": "ˈbakn̩",
+      "notes": ""
+    },
+    "meaning": "to bake",
+    "shortDefinition": "To bake."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "back|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "b|ä|ckst"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "b|ä|ckt"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "back|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "back|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "back|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gebacken",
+        "Du bäckst/backst, er bäckt/backt: both are correct."
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "der Bäcker",
+      "english": "baker",
+      "type": "noun"
+    },
+    {
+      "german": "die Bäckerei",
+      "english": "bakery",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wenn du kommst, backe ich einen Kuchen.",
+      "english": "When you come, I'll bake a cake.",
+      "highlight": [
+        "backe"
+      ]
+    },
+    {
+      "german": "Sie bäckt jeden Sonntag Brot.",
+      "english": "She bakes bread every Sunday.",
+      "highlight": [
+        "bäckt"
+      ]
+    },
+    {
+      "german": "Der Kuchen ist frisch gebacken.",
+      "english": "The cake is freshly baked.",
+      "highlight": [
+        "gebacken."
+      ]
+    }
+  ],
+  "forms": [
+    "backe",
+    "bäckst",
+    "bäckt",
+    "backen",
+    "backt",
+    "gebacken",
+    "backst"
+  ],
+  "memoryHook": "Backen → der Bäcker → die Bäckerei.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (backen)",
+      "answer": "bäckt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: bäckt.",
+      "acceptedAnswers": [
+        "baeckt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (backen, past)",
+      "answer": "gebacken",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gebacken.",
+      "acceptedAnswers": [
+        "gebacken"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does backen mean?",
+      "options": [
+        "to learn",
+        "to sleep",
+        "to bake"
+      ],
+      "answer": "to bake",
+      "explanation": "backen: to bake.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Er ___ einen Kuchen. (both are used)",
+      "options": [
+        "bäckt / backt",
+        "backst"
+      ],
+      "answer": "bäckt / backt",
+      "explanation": "Both forms are correct today.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "A baker is…",
+      "options": [
+        "ein Bäcker",
+        "ein Backer"
+      ],
+      "answer": "ein Bäcker",
+      "explanation": "Die Bäckerei.",
+      "id": "q5"
+    }
+  ]
+}

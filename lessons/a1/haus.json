@@ -1,0 +1,142 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Haus",
+    "partOfSpeech": "noun, neuter (das Haus)",
+    "pronunciation": {
+      "respelling": "HOWS",
+      "ipa": "haʊ̯s",
+      "notes": "Plural: die Häuser."
+    },
+    "meaning": "house",
+    "shortDefinition": "House."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Haus, plural die Häuser.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Haus"
+        },
+        {
+          "label": "More than one",
+          "value": "die Häuser"
+        }
+      ]
+    },
+    {
+      "title": "nach Hause or zu Hause?",
+      "explanation": "Going there: nach Hause. Being there: zu Hause.",
+      "examples": [
+        {
+          "german": "Ich gehe nach Hause.",
+          "english": "I'm going home.",
+          "highlight": "nach"
+        },
+        {
+          "german": "Ich bin zu Hause.",
+          "english": "I'm at home.",
+          "highlight": "zu"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir wohnen in einem alten Haus.",
+      "english": "We live in an old house.",
+      "highlight": [
+        "Haus."
+      ]
+    },
+    {
+      "german": "Ich gehe nach Hause.",
+      "english": "I'm going home.",
+      "highlight": [
+        "Hause."
+      ]
+    },
+    {
+      "german": "Ich bin heute zu Hause.",
+      "english": "I'm at home today.",
+      "highlight": [
+        "Hause."
+      ]
+    }
+  ],
+  "forms": [
+    "Häuser",
+    "Hause",
+    "nach Hause",
+    "zu Hause",
+    "das Haus"
+  ],
+  "memoryHook": "Haus = house. Nach Hause (going home), zu Hause (at home): note the old -e ending.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Haus",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Haus is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Haus, zwei ___",
+      "answer": "Häuser",
+      "fullAnswer": "ein Haus, zwei Häuser",
+      "explanation": "The plural is Häuser.",
+      "acceptedAnswers": [
+        "Haeuser"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Haus mean?",
+      "options": [
+        "house",
+        "never",
+        "the car"
+      ],
+      "answer": "house",
+      "explanation": "Haus: house.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Going home' is…",
+      "options": [
+        "nach Hause",
+        "zu Hause"
+      ],
+      "answer": "nach Hause",
+      "explanation": "Nach Hause: home (direction).",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'At home' is…",
+      "options": [
+        "nach Hause",
+        "zu Hause"
+      ],
+      "answer": "zu Hause",
+      "explanation": "Zu Hause: at home (place).",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,241 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "full",
+  "word": {
+    "headword": "auf",
+    "partOfSpeech": "preposition (dative or accusative); separable prefix",
+    "pronunciation": {
+      "respelling": "OWF",
+      "ipa": "aʊ̯f",
+      "notes": "Au as in 'how'."
+    },
+    "meaning": "on (a horizontal surface); open; in (a language)",
+    "shortDefinition": "On top of something, and in many fixed phrases."
+  },
+  "intro": {
+    "title": "On the table, in German, goodbye",
+    "paragraphs": [
+      "Auf means 'on top of': auf dem Tisch. But it turns up in phrases where English uses other words: auf Deutsch (in German), Auf Wiedersehen (goodbye), and as a prefix in aufstehen and aufhören."
+    ]
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "summary": "Auf is related to English 'up'. Many auf- verbs still have an 'up' feeling: aufstehen, to stand up.",
+    "cognates": [
+      {
+        "word": "up",
+        "language": "English"
+      },
+      {
+        "word": "op",
+        "language": "Dutch"
+      }
+    ]
+  },
+  "tables": [
+    {
+      "title": "Where or where to?",
+      "columns": [
+        "where (dative)",
+        "where to (accusative)"
+      ],
+      "rows": [
+        {
+          "label": "masculine",
+          "cells": [
+            "auf |dem| Tisch",
+            "auf |den| Tisch"
+          ]
+        },
+        {
+          "label": "feminine",
+          "cells": [
+            "auf |der| Straße",
+            "auf |die| Straße"
+          ]
+        },
+        {
+          "label": "neuter",
+          "cells": [
+            "auf |dem| Sofa",
+            "auf|s| Sofa"
+          ]
+        }
+      ],
+      "notes": [
+        "Where something is: dative. Where you put it or where it goes: accusative.",
+        "Auf + das often shortens to aufs."
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "Auf Wiedersehen!",
+      "english": "Goodbye!",
+      "type": "phrase"
+    },
+    {
+      "german": "auf Deutsch",
+      "english": "in German",
+      "type": "phrase"
+    },
+    {
+      "german": "auf sein",
+      "english": "to be open",
+      "type": "phrase"
+    },
+    {
+      "german": "aufstehen, aufhören",
+      "english": "to get up, to stop",
+      "type": "separable verbs"
+    }
+  ],
+  "keyTrap": {
+    "title": "The big trap: in German = auf Deutsch",
+    "explanation": "For languages, German uses auf, not in.",
+    "wrong": {
+      "german": "Wie heißt das in Deutsch?",
+      "verdict": "Languages take auf."
+    },
+    "correct": [
+      {
+        "german": "Wie heißt das auf Deutsch?",
+        "literal": "How is that called on German?",
+        "note": "Languages: auf."
+      },
+      {
+        "german": "Der Brief ist auf Englisch.",
+        "literal": "The letter is on English.",
+        "note": "Same rule."
+      }
+    ]
+  },
+  "commonMistakes": [
+    {
+      "title": "auf or an?",
+      "explanation": "Auf is for horizontal surfaces, an for vertical ones.",
+      "examples": [
+        {
+          "german": "Die Tasse steht auf dem Tisch.",
+          "english": "The cup is on the table.",
+          "highlight": "auf"
+        },
+        {
+          "german": "Die Uhr hängt an der Wand.",
+          "english": "The clock is on the wall.",
+          "highlight": "an"
+        }
+      ]
+    },
+    {
+      "title": "Open",
+      "explanation": "Auf sein means 'to be open' in everyday speech.",
+      "wrong": "Die Tür ist offen auf.",
+      "correct": "Die Tür ist auf."
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Kinder spielen auf der Straße.",
+      "english": "The children are playing in the street.",
+      "highlight": [
+        "auf"
+      ]
+    },
+    {
+      "german": "Leg das Buch bitte auf den Tisch.",
+      "english": "Put the book on the table, please.",
+      "highlight": [
+        "auf",
+        "den"
+      ]
+    },
+    {
+      "german": "Wie sagt man das auf Deutsch?",
+      "english": "How do you say that in German?",
+      "highlight": [
+        "auf"
+      ]
+    },
+    {
+      "german": "Auf Wiedersehen und bis morgen!",
+      "english": "Goodbye and see you tomorrow!",
+      "highlight": [
+        "Auf"
+      ]
+    },
+    {
+      "german": "Ist die Apotheke noch auf?",
+      "english": "Is the pharmacy still open?",
+      "highlight": [
+        "auf?"
+      ]
+    }
+  ],
+  "forms": [
+    "aufs",
+    "auf dem",
+    "auf den",
+    "auf der"
+  ],
+  "memoryHook": "Auf = up and on. On the table, on German (auf Deutsch), up out of bed (aufstehen).",
+  "signOff": "Auf Wiedersehen!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Das Handy liegt ___ dem Tisch.",
+      "options": [
+        "an",
+        "auf"
+      ],
+      "answer": "auf",
+      "explanation": "A horizontal surface: auf.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Wie heißt das ___ Deutsch?",
+      "options": [
+        "in",
+        "auf"
+      ],
+      "answer": "auf",
+      "explanation": "Languages: auf.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich lege das Buch auf ___ Tisch. (putting it there)",
+      "options": [
+        "dem",
+        "den"
+      ],
+      "answer": "den",
+      "explanation": "Where to: accusative, den.",
+      "id": "q3"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "___ Wiedersehen! (Goodbye)",
+      "answer": "Auf",
+      "fullAnswer": "Auf Wiedersehen!",
+      "explanation": "Auf Wiedersehen: until we see each other again.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Der Supermarkt ist bis 22 Uhr ___. (open)",
+      "options": [
+        "auf",
+        "an"
+      ],
+      "answer": "auf",
+      "explanation": "Open: auf sein.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Club",
+    "partOfSpeech": "noun, masculine (der Club)",
+    "pronunciation": {
+      "respelling": "KLOOP",
+      "ipa": "klʊp",
+      "notes": "Plural: die Clubs."
+    },
+    "meaning": "club",
+    "shortDefinition": "Club."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Club, plural die Clubs.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Club"
+        },
+        {
+          "label": "More than one",
+          "value": "die Clubs"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Am Wochenende gehen wir in einen Club.",
+      "english": "At the weekend we go to a club.",
+      "highlight": [
+        "Club."
+      ]
+    },
+    {
+      "german": "Er ist Mitglied in einem Tennisclub.",
+      "english": "He's a member of a tennis club.",
+      "highlight": [
+        "Tennisclub."
+      ]
+    },
+    {
+      "german": "Der Klub hat 200 Mitglieder.",
+      "english": "The club has 200 members.",
+      "highlight": [
+        "Klub"
+      ]
+    }
+  ],
+  "forms": [
+    "Klub",
+    "Klubs",
+    "der Klub"
+  ],
+  "memoryHook": "Der Club / Klub. For sports: der Verein.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Club",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Club is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Club, zwei ___",
+      "answer": "Clubs",
+      "fullAnswer": "ein Club, zwei Clubs",
+      "explanation": "The plural is Clubs.",
+      "acceptedAnswers": [
+        "Clubs"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Club mean?",
+      "options": [
+        "to sleep",
+        "club",
+        "cheap"
+      ],
+      "answer": "club",
+      "explanation": "Club: club.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Also spelled…",
+      "options": [
+        "Klub",
+        "Klubb"
+      ],
+      "answer": "Klub",
+      "explanation": "Both spellings.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "A sports club is more often…",
+      "options": [
+        "ein Verein",
+        "ein Club"
+      ],
+      "answer": "ein Verein",
+      "explanation": "Sportverein.",
+      "id": "q5"
+    }
+  ]
+}

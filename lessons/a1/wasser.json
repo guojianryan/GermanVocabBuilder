@@ -1,0 +1,115 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Wasser",
+    "partOfSpeech": "noun, neuter (das Wasser)",
+    "pronunciation": {
+      "respelling": "VASS-er",
+      "ipa": "ˈvasɐ",
+      "notes": "Plural (Wässer) is rare. Usually no plural."
+    },
+    "meaning": "water",
+    "shortDefinition": "Water."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Wasser, usually no plural.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Wasser"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ein Glas Wasser, bitte.",
+      "english": "A glass of water, please.",
+      "highlight": [
+        "Wasser,"
+      ]
+    },
+    {
+      "german": "Das Wasser ist sehr kalt.",
+      "english": "The water is very cold.",
+      "highlight": [
+        "Wasser"
+      ]
+    },
+    {
+      "german": "Mit oder ohne Kohlensäure?",
+      "english": "Sparkling or still?",
+      "highlight": [
+        "Kohlensäure?"
+      ]
+    }
+  ],
+  "forms": [
+    "das Wasser"
+  ],
+  "memoryHook": "Das Wasser (W = v). Mit Kohlensäure = sparkling; still = ohne. Leitungswasser = tap water.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Wasser",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Wasser is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Wasser mean?",
+      "options": [
+        "to learn",
+        "to wait",
+        "water"
+      ],
+      "answer": "water",
+      "explanation": "Wasser: water.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Sparkling water is…",
+      "options": [
+        "Wasser mit Kohlensäure / Sprudel",
+        "Wasser ohne"
+      ],
+      "answer": "Wasser mit Kohlensäure / Sprudel",
+      "explanation": "Still: ohne Kohlensäure.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Leitungswasser is…",
+      "options": [
+        "tap water",
+        "bottled water"
+      ],
+      "answer": "tap water",
+      "explanation": "Leitung = pipe.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ein Glas ___, bitte. (water)",
+      "answer": "Wasser",
+      "fullAnswer": "Ein Glas Wasser, bitte.",
+      "explanation": "Das Wasser.",
+      "id": "q5"
+    }
+  ]
+}

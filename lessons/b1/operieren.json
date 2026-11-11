@@ -1,0 +1,164 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "operieren",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "o-pe-REE-ren",
+      "ipa": "opəˈʁiːʁən",
+      "notes": ""
+    },
+    "meaning": "to operate (on)",
+    "shortDefinition": "To operate (on)."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "operier|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "operier|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "operier|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "operier|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "operier|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "operier|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat operiert"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "die Operation",
+      "english": "operation",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Arzt operiert das Knie.",
+      "english": "The doctor is operating on the knee.",
+      "highlight": [
+        "operiert"
+      ]
+    },
+    {
+      "german": "Sie wurde gestern operiert.",
+      "english": "She had an operation yesterday.",
+      "highlight": [
+        "operiert."
+      ]
+    },
+    {
+      "german": "Muss ich operiert werden?",
+      "english": "Do I need an operation?",
+      "highlight": [
+        "operiert"
+      ]
+    }
+  ],
+  "forms": [
+    "operiere",
+    "operierst",
+    "operiert",
+    "operieren"
+  ],
+  "memoryHook": "Operieren → die Operation (OP).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (operieren)",
+      "answer": "operiert",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: operiert.",
+      "acceptedAnswers": [
+        "operiert"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (operieren, past)",
+      "answer": "operiert",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe operiert.",
+      "acceptedAnswers": [
+        "operiert"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does operieren mean?",
+      "options": [
+        "to operate (on)",
+        "to sleep",
+        "to help"
+      ],
+      "answer": "to operate (on)",
+      "explanation": "operieren: to operate (on).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Ich wurde operiert' means…",
+      "options": [
+        "I had an operation",
+        "I operated"
+      ],
+      "answer": "I had an operation",
+      "explanation": "Passive.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "hat operiert",
+        "hat geoperiert"
+      ],
+      "answer": "hat operiert",
+      "explanation": "No ge-.",
+      "id": "q5"
+    }
+  ]
+}

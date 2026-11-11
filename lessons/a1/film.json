@@ -1,0 +1,131 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Film",
+    "partOfSpeech": "noun, masculine (der Film)",
+    "pronunciation": {
+      "respelling": "FILM",
+      "ipa": "fɪlm",
+      "notes": "Plural: die Filme."
+    },
+    "meaning": "film, movie",
+    "shortDefinition": "Film, movie."
+  },
+  "wordFamily": [
+    {
+      "german": "das Kino",
+      "english": "cinema",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Film, plural die Filme.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Film"
+        },
+        {
+          "label": "More than one",
+          "value": "die Filme"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Film beginnt um acht.",
+      "english": "The film starts at eight.",
+      "highlight": [
+        "Film"
+      ]
+    },
+    {
+      "german": "Ich möchte gern diesen Film sehen.",
+      "english": "I'd like to see this film.",
+      "highlight": [
+        "Film"
+      ]
+    },
+    {
+      "german": "Wir sehen heute Abend einen Film.",
+      "english": "We're watching a film tonight.",
+      "highlight": [
+        "Film."
+      ]
+    }
+  ],
+  "forms": [
+    "Filme",
+    "die Filme",
+    "der Film"
+  ],
+  "memoryHook": "Der Film, plural Filme. You see it im Kino or im Fernsehen.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Film",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Film is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Film, zwei ___",
+      "answer": "Filme",
+      "fullAnswer": "ein Film, zwei Filme",
+      "explanation": "The plural is Filme.",
+      "acceptedAnswers": [
+        "Filme"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Film mean?",
+      "options": [
+        "the bed",
+        "the job",
+        "film"
+      ],
+      "answer": "film",
+      "explanation": "Film: film, movie.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich sehe ___ Film.",
+      "options": [
+        "einen",
+        "ein"
+      ],
+      "answer": "einen",
+      "explanation": "Masculine accusative.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Where do you watch films?",
+      "options": [
+        "im Kino",
+        "in der Kirche"
+      ],
+      "answer": "im Kino",
+      "explanation": "Das Kino: cinema.",
+      "id": "q5"
+    }
+  ]
+}

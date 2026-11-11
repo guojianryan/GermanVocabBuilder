@@ -1,0 +1,125 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Kollege",
+    "partOfSpeech": "noun, masculine (der Kollege)",
+    "pronunciation": {
+      "respelling": "ko-LAY-guh",
+      "ipa": "kɔˈleːɡə",
+      "notes": "It adds -n in all forms except der Kollege. Plural: die Kollegen."
+    },
+    "meaning": "colleague",
+    "shortDefinition": "Colleague."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Kollege, plural die Kollegen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Kollege"
+        },
+        {
+          "label": "More than one",
+          "value": "die Kollegen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Mein Kollege ist heute krank.",
+      "english": "My colleague is ill today.",
+      "highlight": [
+        "Kollege"
+      ]
+    },
+    {
+      "german": "Ich gehe mit den Kollegen essen.",
+      "english": "I'm going for lunch with colleagues.",
+      "highlight": [
+        "Kollegen"
+      ]
+    },
+    {
+      "german": "Das ist meine Kollegin, Frau Ahmadi.",
+      "english": "This is my colleague, Ms Ahmadi.",
+      "highlight": [
+        "Kollegin,"
+      ]
+    }
+  ],
+  "forms": [
+    "Kollegen",
+    "Kollegin",
+    "Kolleginnen",
+    "der Kollege"
+  ],
+  "memoryHook": "Der Kollege adds -n in other cases: meinen Kollegen. Female: die Kollegin.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Kollege",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Kollege is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Kollege, zwei ___",
+      "answer": "Kollegen",
+      "fullAnswer": "ein Kollege, zwei Kollegen",
+      "explanation": "The plural is Kollegen.",
+      "acceptedAnswers": [
+        "Kollegen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Kollege mean?",
+      "options": [
+        "colleague",
+        "to sleep",
+        "to buy"
+      ],
+      "answer": "colleague",
+      "explanation": "Kollege: colleague.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "A female colleague is…",
+      "options": [
+        "die Kollegin",
+        "die Kollege"
+      ],
+      "answer": "die Kollegin",
+      "explanation": "Add -in.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich frage meinen ___. (colleague)",
+      "options": [
+        "Kollege",
+        "Kollegen"
+      ],
+      "answer": "Kollegen",
+      "explanation": "It adds -n except as the subject.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "gewöhnen",
+    "partOfSpeech": "verb, usually reflexive",
+    "pronunciation": {
+      "respelling": "ge-VÖ-nen",
+      "ipa": "ɡəˈvøːnən",
+      "notes": ""
+    },
+    "meaning": "(sich) to get used to",
+    "shortDefinition": "(sich) to get used to."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "gewöhn|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "gewöhn|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "gewöhn|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "gewöhn|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "gewöhn|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "gewöhn|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gewöhnt"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "die Gewohnheit",
+      "english": "habit",
+      "type": "noun"
+    },
+    {
+      "german": "gewöhnlich",
+      "english": "usual",
+      "type": "adjective"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich habe mich an das Wetter gewöhnt.",
+      "english": "I've got used to the weather.",
+      "highlight": [
+        "gewöhnt."
+      ]
+    },
+    {
+      "german": "Daran gewöhnt man sich.",
+      "english": "You get used to it.",
+      "highlight": [
+        "gewöhnt",
+        "sich."
+      ]
+    },
+    {
+      "german": "Ich bin es gewöhnt, früh aufzustehen.",
+      "english": "I'm used to getting up early.",
+      "highlight": [
+        "gewöhnt,"
+      ]
+    }
+  ],
+  "forms": [
+    "gewöhne",
+    "gewöhnst",
+    "gewöhnt",
+    "gewöhnen",
+    "sich gewöhnen"
+  ],
+  "memoryHook": "Sich gewöhnen an = get used to. Gewöhnt sein = be used to.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (gewöhnen)",
+      "answer": "gewöhnt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: gewöhnt.",
+      "acceptedAnswers": [
+        "gewoehnt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (gewöhnen, past)",
+      "answer": "gewöhnt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gewöhnt.",
+      "acceptedAnswers": [
+        "gewoehnt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does gewöhnen mean?",
+      "options": [
+        "the key",
+        "(sich) to get used to",
+        "hot"
+      ],
+      "answer": "(sich) to get used to",
+      "explanation": "gewöhnen: (sich) to get used to.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Get used ___ something:",
+      "options": [
+        "sich gewöhnen an",
+        "sich gewöhnen zu"
+      ],
+      "answer": "sich gewöhnen an",
+      "explanation": "An + acc.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Gewöhnt sein' means…",
+      "options": [
+        "to be used to",
+        "to be usual"
+      ],
+      "answer": "to be used to",
+      "explanation": "State.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Café",
+    "partOfSpeech": "noun, neuter (das Café)",
+    "pronunciation": {
+      "respelling": "ka-FAY",
+      "ipa": "kaˈfeː",
+      "notes": "Plural: die Cafés."
+    },
+    "meaning": "café",
+    "shortDefinition": "Café."
+  },
+  "wordFamily": [
+    {
+      "german": "der Kaffee",
+      "english": "coffee",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Café, plural die Cafés.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Café"
+        },
+        {
+          "label": "More than one",
+          "value": "die Cafés"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir treffen uns im Café.",
+      "english": "Let's meet at the café.",
+      "highlight": [
+        "Café."
+      ]
+    },
+    {
+      "german": "Das Café hat einen schönen Garten.",
+      "english": "The café has a nice garden.",
+      "highlight": [
+        "Café"
+      ]
+    },
+    {
+      "german": "In der Altstadt gibt es viele Cafés.",
+      "english": "There are lots of cafés in the old town.",
+      "highlight": [
+        "Cafés."
+      ]
+    }
+  ],
+  "forms": [
+    "Cafés",
+    "die Cafés",
+    "das Café"
+  ],
+  "memoryHook": "Das Café is the place; der Kaffee is the drink. Both are stressed differently: ca-FÉ, KAF-fee.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Café",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Café is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Café, zwei ___",
+      "answer": "Cafés",
+      "fullAnswer": "ein Café, zwei Cafés",
+      "explanation": "The plural is Cafés.",
+      "acceptedAnswers": [
+        "Cafés"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Café mean?",
+      "options": [
+        "to sing",
+        "the street",
+        "café"
+      ],
+      "answer": "café",
+      "explanation": "Café: café.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Café (the place) vs Kaffee (the drink): which is the drink?",
+      "options": [
+        "der Kaffee",
+        "das Café"
+      ],
+      "answer": "der Kaffee",
+      "explanation": "Kaffee: drink. Café: place.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Where's the stress in Café?",
+      "options": [
+        "CA-fé",
+        "ca-FÉ"
+      ],
+      "answer": "ca-FÉ",
+      "explanation": "Stress the end, as in French.",
+      "id": "q5"
+    }
+  ]
+}

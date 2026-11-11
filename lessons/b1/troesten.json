@@ -1,0 +1,154 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "trösten",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "TRÖS-ten",
+      "ipa": "ˈtʁøːstn̩",
+      "notes": ""
+    },
+    "meaning": "to comfort, console",
+    "shortDefinition": "To comfort, console."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "tröst|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "tröst|est"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "tröst|et"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "tröst|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "tröst|et"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "tröst|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat getröstet"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Mutter tröstet das Kind.",
+      "english": "The mother comforts the child.",
+      "highlight": [
+        "tröstet"
+      ]
+    },
+    {
+      "german": "Das tröstet mich wenig.",
+      "english": "That's not much comfort to me.",
+      "highlight": [
+        "tröstet"
+      ]
+    },
+    {
+      "german": "Er hat sie getröstet.",
+      "english": "He consoled her.",
+      "highlight": [
+        "getröstet."
+      ]
+    }
+  ],
+  "forms": [
+    "Trost"
+  ],
+  "memoryHook": "Trösten → der Trost, der Trostpreis.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (trösten)",
+      "answer": "tröstet",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: tröstet.",
+      "acceptedAnswers": [
+        "troestet"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (trösten, past)",
+      "answer": "getröstet",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe getröstet.",
+      "acceptedAnswers": [
+        "getroestet"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does trösten mean?",
+      "options": [
+        "the flower",
+        "to buy",
+        "to comfort"
+      ],
+      "answer": "to comfort",
+      "explanation": "trösten: to comfort, console.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Noun:",
+      "options": [
+        "der Trost",
+        "die Tröstung only"
+      ],
+      "answer": "der Trost",
+      "explanation": "Comfort.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Consolation prize:",
+      "options": [
+        "der Trostpreis",
+        "der Tröstpreis"
+      ],
+      "answer": "der Trostpreis",
+      "explanation": "Compound.",
+      "id": "q5"
+    }
+  ]
+}

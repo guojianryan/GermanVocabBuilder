@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Sprache",
+    "partOfSpeech": "noun, feminine (die Sprache)",
+    "pronunciation": {
+      "respelling": "SHPRAH-khuh",
+      "ipa": "ˈʃpʁaːxə",
+      "notes": "Plural: die Sprachen."
+    },
+    "meaning": "language",
+    "shortDefinition": "Language."
+  },
+  "wordFamily": [
+    {
+      "german": "sprechen",
+      "english": "to speak",
+      "type": "verb"
+    },
+    {
+      "german": "die Fremdsprache",
+      "english": "foreign language",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Sprache, plural die Sprachen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Sprache"
+        },
+        {
+          "label": "More than one",
+          "value": "die Sprachen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Welche Sprachen sprichst du?",
+      "english": "Which languages do you speak?",
+      "highlight": [
+        "Sprachen"
+      ]
+    },
+    {
+      "german": "Deutsch ist eine schöne Sprache.",
+      "english": "German is a beautiful language.",
+      "highlight": [
+        "Sprache."
+      ]
+    },
+    {
+      "german": "Meine Muttersprache ist Arabisch.",
+      "english": "My native language is Arabic.",
+      "highlight": [
+        "Muttersprache"
+      ]
+    }
+  ],
+  "forms": [
+    "Sprachen",
+    "die Sprachen",
+    "die Sprache"
+  ],
+  "memoryHook": "Die Sprache (from sprechen). Muttersprache = native tongue; Fremdsprache = foreign language.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Sprache",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Sprache is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Sprache, zwei ___",
+      "answer": "Sprachen",
+      "fullAnswer": "ein Sprache, zwei Sprachen",
+      "explanation": "The plural is Sprachen.",
+      "acceptedAnswers": [
+        "Sprachen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Sprache mean?",
+      "options": [
+        "never",
+        "the door",
+        "language"
+      ],
+      "answer": "language",
+      "explanation": "Sprache: language.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Die Muttersprache is…",
+      "options": [
+        "native language",
+        "mother's language only"
+      ],
+      "answer": "native language",
+      "explanation": "Mutter + Sprache.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Sprache comes from…",
+      "options": [
+        "sprechen",
+        "springen"
+      ],
+      "answer": "sprechen",
+      "explanation": "Speaking → language.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Pfarrer",
+    "partOfSpeech": "noun, masculine (der Pfarrer)",
+    "pronunciation": {
+      "respelling": "PFAR-er",
+      "ipa": "ˈpfaʁɐ",
+      "notes": "The plural looks the same. Plural: die Pfarrer."
+    },
+    "meaning": "priest, vicar, pastor",
+    "shortDefinition": "Priest, vicar, pastor."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Pfarrer, plural die Pfarrer.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Pfarrer"
+        },
+        {
+          "label": "More than one",
+          "value": "die Pfarrer"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Pfarrer hält die Messe.",
+      "english": "The priest is holding mass.",
+      "highlight": [
+        "Pfarrer"
+      ]
+    },
+    {
+      "german": "Die Pfarrerin hat uns getraut.",
+      "english": "The (woman) minister married us.",
+      "highlight": [
+        "Pfarrerin"
+      ]
+    },
+    {
+      "german": "Der Pfarrer besucht die Kranken.",
+      "english": "The pastor visits the sick.",
+      "highlight": [
+        "Pfarrer"
+      ]
+    }
+  ],
+  "forms": [
+    "Pfarrerin"
+  ],
+  "memoryHook": "Der Pfarrer, die Pfarrerin.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Pfarrer",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Pfarrer is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Pfarrer, zwei ___",
+      "answer": "Pfarrer",
+      "fullAnswer": "ein Pfarrer, zwei Pfarrer",
+      "explanation": "The plural is Pfarrer.",
+      "acceptedAnswers": [
+        "Pfarrer"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Pfarrer mean?",
+      "options": [
+        "the bread",
+        "priest",
+        "to open"
+      ],
+      "answer": "priest",
+      "explanation": "Pfarrer: priest, vicar, pastor.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Pf sounds like…",
+      "options": [
+        "p + f",
+        "f"
+      ],
+      "answer": "p + f",
+      "explanation": "PFAR-er.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Parish:",
+      "options": [
+        "die Pfarrei / Gemeinde",
+        "die Pfarrerei"
+      ],
+      "answer": "die Pfarrei / Gemeinde",
+      "explanation": "Parish.",
+      "id": "q5"
+    }
+  ]
+}

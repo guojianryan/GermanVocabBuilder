@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Stiefel",
+    "partOfSpeech": "noun, masculine (der Stiefel)",
+    "pronunciation": {
+      "respelling": "SHTEE-fel",
+      "ipa": "ˈʃtiːfl̩",
+      "notes": "The plural looks the same. Plural: die Stiefel."
+    },
+    "meaning": "boot",
+    "shortDefinition": "Boot."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Stiefel, plural die Stiefel.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Stiefel"
+        },
+        {
+          "label": "More than one",
+          "value": "die Stiefel"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Im Winter trage ich Stiefel.",
+      "english": "In winter I wear boots.",
+      "highlight": [
+        "Stiefel."
+      ]
+    },
+    {
+      "german": "Die Stiefel sind wasserdicht.",
+      "english": "The boots are waterproof.",
+      "highlight": [
+        "Stiefel"
+      ]
+    },
+    {
+      "german": "Ich brauche neue Gummistiefel.",
+      "english": "I need new wellies.",
+      "highlight": [
+        "Gummistiefel."
+      ]
+    }
+  ],
+  "forms": [
+    "Stiefel",
+    "die Stiefel",
+    "der Stiefel"
+  ],
+  "memoryHook": "Der Stiefel (boot). Gummistiefel = wellies.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Stiefel",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Stiefel is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Stiefel, zwei ___",
+      "answer": "Stiefel",
+      "fullAnswer": "ein Stiefel, zwei Stiefel",
+      "explanation": "The plural is Stiefel.",
+      "acceptedAnswers": [
+        "Stiefel"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Stiefel mean?",
+      "options": [
+        "boot",
+        "the child",
+        "the evening"
+      ],
+      "answer": "boot",
+      "explanation": "Stiefel: boot.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Wellington boots:",
+      "options": [
+        "Gummistiefel",
+        "Regenschuhe"
+      ],
+      "answer": "Gummistiefel",
+      "explanation": "Rubber boots.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Stiefel",
+        "Stiefeln"
+      ],
+      "answer": "Stiefel",
+      "explanation": "No change.",
+      "id": "q5"
+    }
+  ]
+}

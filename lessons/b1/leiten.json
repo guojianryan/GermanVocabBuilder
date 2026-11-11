@@ -1,0 +1,165 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "leiten",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "LYE-ten",
+      "ipa": "ˈlaɪ̯tn̩",
+      "notes": ""
+    },
+    "meaning": "to lead, manage",
+    "shortDefinition": "To lead, manage."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "leit|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "leit|est"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "leit|et"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "leit|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "leit|et"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "leit|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat geleitet"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "der Leiter",
+      "english": "head, manager",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Sie leitet die Abteilung.",
+      "english": "She runs the department.",
+      "highlight": [
+        "leitet"
+      ]
+    },
+    {
+      "german": "Wer leitet den Kurs?",
+      "english": "Who's leading the course?",
+      "highlight": [
+        "leitet"
+      ]
+    },
+    {
+      "german": "Er hat das Projekt geleitet.",
+      "english": "He managed the project.",
+      "highlight": [
+        "geleitet."
+      ]
+    }
+  ],
+  "forms": [
+    "leite",
+    "leitest",
+    "leitet",
+    "leiten",
+    "geleitet"
+  ],
+  "memoryHook": "Leiten = lead, manage → der Leiter, die Leitung.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (leiten)",
+      "answer": "leitet",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: leitet.",
+      "acceptedAnswers": [
+        "leitet"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (leiten, past)",
+      "answer": "geleitet",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe geleitet.",
+      "acceptedAnswers": [
+        "geleitet"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does leiten mean?",
+      "options": [
+        "the flower",
+        "to lead",
+        "the station"
+      ],
+      "answer": "to lead",
+      "explanation": "leiten: to lead, manage.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Leiten vs führen:",
+      "options": [
+        "both: lead; leiten = manage, run",
+        "different meanings"
+      ],
+      "answer": "both: lead; leiten = manage, run",
+      "explanation": "Close.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Don't confuse with…",
+      "options": [
+        "leiden (suffer)",
+        "läuten"
+      ],
+      "answer": "leiden (suffer)",
+      "explanation": "t vs d.",
+      "id": "q5"
+    }
+  ]
+}

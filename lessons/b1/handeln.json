@@ -1,0 +1,171 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "handeln",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "HAN-deln",
+      "ipa": "ˈhandl̩n",
+      "notes": ""
+    },
+    "meaning": "to act; to trade; to haggle; (es handelt sich um) to be about",
+    "shortDefinition": "To act; to trade; to haggle; (es handelt sich um) to be about."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "handl|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "handel|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "handel|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "handel|n"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "handel|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "handel|n"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gehandelt"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "der Handel",
+      "english": "trade",
+      "type": "noun"
+    },
+    {
+      "german": "der Händler",
+      "english": "dealer",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir müssen schnell handeln.",
+      "english": "We need to act quickly.",
+      "highlight": [
+        "handeln."
+      ]
+    },
+    {
+      "german": "Worum handelt es sich?",
+      "english": "What is it about?",
+      "highlight": [
+        "handelt",
+        "sich?"
+      ]
+    },
+    {
+      "german": "Auf dem Markt kann man handeln.",
+      "english": "You can haggle at the market.",
+      "highlight": [
+        "handeln."
+      ]
+    }
+  ],
+  "forms": [
+    "handle",
+    "handelst",
+    "handelt",
+    "handeln",
+    "gehandelt"
+  ],
+  "memoryHook": "Handeln: act, trade, haggle. Es handelt sich um = it's about.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (handeln)",
+      "answer": "handelt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: handelt.",
+      "acceptedAnswers": [
+        "handelt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (handeln, past)",
+      "answer": "gehandelt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gehandelt.",
+      "acceptedAnswers": [
+        "gehandelt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does handeln mean?",
+      "options": [
+        "tomorrow",
+        "quiet",
+        "to act"
+      ],
+      "answer": "to act",
+      "explanation": "handeln: to act; to trade; to haggle; (es handelt sich um) to be about.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Es handelt sich um…' means…",
+      "options": [
+        "It's about… / It concerns…",
+        "It's for sale…"
+      ],
+      "answer": "It's about… / It concerns…",
+      "explanation": "Very common.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Der Film handelt von…' means…",
+      "options": [
+        "The film is about…",
+        "The film sells…"
+      ],
+      "answer": "The film is about…",
+      "explanation": "Plot.",
+      "id": "q5"
+    }
+  ]
+}

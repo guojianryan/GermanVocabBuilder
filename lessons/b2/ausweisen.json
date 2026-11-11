@@ -1,0 +1,182 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "ausweisen",
+    "partOfSpeech": "separable verb",
+    "pronunciation": {
+      "respelling": "OWS-vye-zen",
+      "ipa": "ˈaʊ̯sˌvaɪ̯zn̩",
+      "notes": ""
+    },
+    "meaning": "to expel, deport; (sich ~) to prove one's identity; to designate",
+    "shortDefinition": "To expel, deport; (sich ~) to prove one's identity; to designate."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "aus",
+        "meaning": "out"
+      },
+      {
+        "part": "weisen",
+        "meaning": "to show, point",
+        "emphasis": "release"
+      }
+    ],
+    "literalMeaning": "to point out (of the country)",
+    "summary": "Shown the way out."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "weis|e … |aus"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "weis|t … |aus"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "weis|t … |aus"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "weis|en … |aus"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "weis|t … |aus"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "weis|en … |aus"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat ausgewiesen"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Können Sie sich ausweisen?",
+      "english": "Can you prove your identity?",
+      "highlight": [
+        "ausweisen?"
+      ]
+    },
+    {
+      "german": "Der Diplomat wurde ausgewiesen.",
+      "english": "The diplomat was expelled.",
+      "highlight": [
+        "ausgewiesen."
+      ]
+    },
+    {
+      "german": "Das Gebiet ist als Naturschutzgebiet ausgewiesen.",
+      "english": "The area is designated a nature reserve.",
+      "highlight": [
+        "ausgewiesen."
+      ]
+    }
+  ],
+  "forms": [
+    "Ausweis",
+    "Ausweisung"
+  ],
+  "memoryHook": "Ausweisen: expel; sich ausweisen (ID); der Ausweis.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ … aus (ausweisen)",
+      "answer": "weist",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: weist … aus.",
+      "acceptedAnswers": [
+        "weist"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (ausweisen, past)",
+      "answer": "ausgewiesen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe ausgewiesen.",
+      "acceptedAnswers": [
+        "ausgewiesen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does ausweisen mean?",
+      "options": [
+        "the window",
+        "to open",
+        "to expel"
+      ],
+      "answer": "to expel",
+      "explanation": "ausweisen: to expel, deport; (sich ~) to prove one's identity; to designate.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "ID card:",
+      "options": [
+        "der Ausweis",
+        "die Ausweisung"
+      ],
+      "answer": "der Ausweis",
+      "explanation": "ID.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Ausgewiesener Experte' means…",
+      "options": [
+        "recognised expert",
+        "expelled expert"
+      ],
+      "answer": "recognised expert",
+      "explanation": "Proven.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "hat ausgewiesen",
+        "hat ausgeweist"
+      ],
+      "answer": "hat ausgewiesen",
+      "explanation": "Strong.",
+      "id": "q6"
+    }
+  ]
+}

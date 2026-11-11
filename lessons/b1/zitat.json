@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Zitat",
+    "partOfSpeech": "noun, neuter (das Zitat)",
+    "pronunciation": {
+      "respelling": "tsi-TAAT",
+      "ipa": "tsiˈtaːt",
+      "notes": "Plural: die Zitate."
+    },
+    "meaning": "quotation",
+    "shortDefinition": "Quotation."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Zitat, plural die Zitate.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Zitat"
+        },
+        {
+          "label": "More than one",
+          "value": "die Zitate"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das ist ein Zitat von Goethe.",
+      "english": "That's a quote from Goethe.",
+      "highlight": [
+        "Zitat"
+      ]
+    },
+    {
+      "german": "Er beginnt die Rede mit einem Zitat.",
+      "english": "He begins the speech with a quotation.",
+      "highlight": [
+        "Zitat."
+      ]
+    },
+    {
+      "german": "Zitat Ende.",
+      "english": "End quote.",
+      "highlight": [
+        "Zitat"
+      ]
+    }
+  ],
+  "forms": [
+    "zitieren"
+  ],
+  "memoryHook": "Zitieren → das Zitat.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Zitat",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Zitat is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Zitat, zwei ___",
+      "answer": "Zitate",
+      "fullAnswer": "ein Zitat, zwei Zitate",
+      "explanation": "The plural is Zitate.",
+      "acceptedAnswers": [
+        "Zitate"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Zitat mean?",
+      "options": [
+        "quotation",
+        "the street",
+        "to open"
+      ],
+      "answer": "quotation",
+      "explanation": "Zitat: quotation.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Verb:",
+      "options": [
+        "zitieren",
+        "zitaten"
+      ],
+      "answer": "zitieren",
+      "explanation": "Quote.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Stress on…",
+      "options": [
+        "-TAT",
+        "ZI-"
+      ],
+      "answer": "-TAT",
+      "explanation": "End.",
+      "id": "q5"
+    }
+  ]
+}

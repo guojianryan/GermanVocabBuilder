@@ -1,0 +1,155 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Momente A2.2 Kursbuch Glossar",
+  "lessonType": "card",
+  "word": {
+    "headword": "scannen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "SKEN-en",
+      "ipa": "ˈskɛnən",
+      "notes": ""
+    },
+    "meaning": "to scan",
+    "shortDefinition": "To scan."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "scann|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "scann|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "scann|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "scann|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "scann|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "scann|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gescannt"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich scanne das Dokument ein.",
+      "english": "I'm scanning in the document.",
+      "highlight": [
+        "scanne",
+        "ein."
+      ]
+    },
+    {
+      "german": "Hast du den Code gescannt?",
+      "english": "Have you scanned the code?",
+      "highlight": [
+        "gescannt?"
+      ]
+    },
+    {
+      "german": "Bitte scannen Sie Ihr Ticket.",
+      "english": "Please scan your ticket.",
+      "highlight": [
+        "scannen"
+      ]
+    }
+  ],
+  "forms": [
+    "Scanner"
+  ],
+  "memoryHook": "Scannen → der Scanner.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (scannen)",
+      "answer": "scannt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: scannt.",
+      "acceptedAnswers": [
+        "scannt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (scannen, past)",
+      "answer": "gescannt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gescannt.",
+      "acceptedAnswers": [
+        "gescannt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does scannen mean?",
+      "options": [
+        "to learn",
+        "to sleep",
+        "to scan"
+      ],
+      "answer": "to scan",
+      "explanation": "scannen: to scan.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Pronunciation:",
+      "options": [
+        "SKEN-en (English-like)",
+        "SHKAN-en"
+      ],
+      "answer": "SKEN-en (English-like)",
+      "explanation": "Loanword.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "The device:",
+      "options": [
+        "der Scanner",
+        "die Scanne"
+      ],
+      "answer": "der Scanner",
+      "explanation": "Scanner.",
+      "id": "q5"
+    }
+  ]
+}

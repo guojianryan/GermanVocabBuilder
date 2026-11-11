@@ -1,0 +1,164 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "passen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "PAS-en",
+      "ipa": "ˈpasn̩",
+      "notes": ""
+    },
+    "meaning": "to fit; to suit",
+    "shortDefinition": "To fit; to suit."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "pass|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "pass|t"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "pass|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "pass|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "pass|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "pass|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gepasst"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "passend",
+      "english": "suitable",
+      "type": "adjective"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Hose passt mir nicht.",
+      "english": "The trousers don't fit me.",
+      "highlight": [
+        "passt"
+      ]
+    },
+    {
+      "german": "Passt es dir am Montag?",
+      "english": "Does Monday suit you?",
+      "highlight": [
+        "Passt"
+      ]
+    },
+    {
+      "german": "Das passt gut zusammen.",
+      "english": "That goes well together.",
+      "highlight": [
+        "passt"
+      ]
+    }
+  ],
+  "forms": [
+    "passe",
+    "passt",
+    "passen",
+    "gepasst"
+  ],
+  "memoryHook": "Passen + dative: fits me, suits me. Passt schon! = it's fine.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (passen)",
+      "answer": "passt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: passt.",
+      "acceptedAnswers": [
+        "passt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (passen, past)",
+      "answer": "gepasst",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gepasst.",
+      "acceptedAnswers": [
+        "gepasst"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does passen mean?",
+      "options": [
+        "to fit",
+        "to buy",
+        "the car"
+      ],
+      "answer": "to fit",
+      "explanation": "passen: to fit; to suit.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Does it suit you?' (time):",
+      "options": [
+        "Passt es dir?",
+        "Passt es dich?"
+      ],
+      "answer": "Passt es dir?",
+      "explanation": "Dative.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Passt schon!' means…",
+      "options": [
+        "It's fine! / Keep the change.",
+        "Pass it on!"
+      ],
+      "answer": "It's fine! / Keep the change.",
+      "explanation": "Very common.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Felsen",
+    "partOfSpeech": "noun, masculine (der Felsen)",
+    "pronunciation": {
+      "respelling": "FEL-zen",
+      "ipa": "ˈfɛlzn̩",
+      "notes": "The plural looks the same. Plural: die Felsen."
+    },
+    "meaning": "rock, cliff",
+    "shortDefinition": "Rock, cliff."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Felsen, plural die Felsen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Felsen"
+        },
+        {
+          "label": "More than one",
+          "value": "die Felsen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir klettern auf den Felsen.",
+      "english": "We're climbing the rock.",
+      "highlight": [
+        "Felsen."
+      ]
+    },
+    {
+      "german": "Die Burg steht auf einem Felsen.",
+      "english": "The castle stands on a rock.",
+      "highlight": [
+        "Felsen."
+      ]
+    },
+    {
+      "german": "Er ist fest wie ein Fels.",
+      "english": "He's solid as a rock.",
+      "highlight": [
+        "Fels."
+      ]
+    }
+  ],
+  "forms": [
+    "Fels"
+  ],
+  "memoryHook": "Der Fels(en) = large rock; der Stein = stone.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Felsen",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Felsen is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Felsen, zwei ___",
+      "answer": "Felsen",
+      "fullAnswer": "ein Felsen, zwei Felsen",
+      "explanation": "The plural is Felsen.",
+      "acceptedAnswers": [
+        "Felsen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Felsen mean?",
+      "options": [
+        "the key",
+        "the window",
+        "rock"
+      ],
+      "answer": "rock",
+      "explanation": "Felsen: rock, cliff.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Short form:",
+      "options": [
+        "der Fels",
+        "die Fels"
+      ],
+      "answer": "der Fels",
+      "explanation": "Also used.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Felsen vs Stein:",
+      "options": [
+        "big rock vs stone",
+        "same"
+      ],
+      "answer": "big rock vs stone",
+      "explanation": "Size.",
+      "id": "q5"
+    }
+  ]
+}

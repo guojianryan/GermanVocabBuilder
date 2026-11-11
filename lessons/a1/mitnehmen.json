@@ -1,0 +1,175 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "mitnehmen",
+    "partOfSpeech": "separable verb",
+    "pronunciation": {
+      "respelling": "MIT-nay-men",
+      "ipa": "ˈmɪtˌneːmən",
+      "notes": ""
+    },
+    "meaning": "to take (along), to take away",
+    "shortDefinition": "To take (along), to take away."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "mit",
+        "meaning": "with, along"
+      },
+      {
+        "part": "nehmen",
+        "meaning": "to take"
+      }
+    ],
+    "literalMeaning": "to take with"
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "nehme … |mit"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "nimmst … |mit"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "nimmt … |mit"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "nehmen … |mit"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "nehmt … |mit"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "nehmen … |mit"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat mitgenommen",
+        "Nehmen changes to nimm- for du and er."
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Nimm einen Regenschirm mit!",
+      "english": "Take an umbrella with you!",
+      "highlight": [
+        "Nimm",
+        "mit!"
+      ]
+    },
+    {
+      "german": "Zum Mitnehmen, bitte.",
+      "english": "To take away, please.",
+      "highlight": [
+        "Mitnehmen,"
+      ]
+    },
+    {
+      "german": "Kannst du mich zum Bahnhof mitnehmen?",
+      "english": "Can you give me a lift to the station?",
+      "highlight": [
+        "mitnehmen?"
+      ]
+    }
+  ],
+  "forms": [
+    "nehme mit",
+    "nimmst mit",
+    "nimmt mit",
+    "nehmen mit",
+    "nehmt mit",
+    "mitgenommen"
+  ],
+  "memoryHook": "Mitnehmen = take along. Zum Mitnehmen = to take away. Nehmen: du nimmst, er nimmt.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ … mit (mitnehmen)",
+      "answer": "nimmt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: nimmt … mit.",
+      "acceptedAnswers": [
+        "nimmt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (mitnehmen, past)",
+      "answer": "mitgenommen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe mitgenommen.",
+      "acceptedAnswers": [
+        "mitgenommen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does mitnehmen mean?",
+      "options": [
+        "the key",
+        "to take (along)",
+        "always"
+      ],
+      "answer": "to take (along)",
+      "explanation": "mitnehmen: to take (along), to take away.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "At a café: 'Zum Hieressen oder zum ___?'",
+      "options": [
+        "Mitnehmen",
+        "Mitbringen"
+      ],
+      "answer": "Mitnehmen",
+      "explanation": "Eat in or take away?",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Kannst du mich mitnehmen?' means…",
+      "options": [
+        "Can you give me a lift?",
+        "Can you take me home forever?"
+      ],
+      "answer": "Can you give me a lift?",
+      "explanation": "Mitnehmen: take along.",
+      "id": "q5"
+    }
+  ]
+}

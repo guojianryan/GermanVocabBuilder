@@ -1,0 +1,138 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Hintergrund",
+    "partOfSpeech": "noun, masculine (der Hintergrund)",
+    "pronunciation": {
+      "respelling": "HIN-ter-groont",
+      "ipa": "ˈhɪntɐɡʁʊnt",
+      "notes": "Plural: die Hintergründe."
+    },
+    "meaning": "background",
+    "shortDefinition": "Background."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Hinter",
+        "meaning": "behind"
+      },
+      {
+        "part": "grund",
+        "meaning": "ground"
+      }
+    ],
+    "literalMeaning": "ground behind"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Hintergrund, plural die Hintergründe.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Hintergrund"
+        },
+        {
+          "label": "More than one",
+          "value": "die Hintergründe"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Im Hintergrund sieht man die Berge.",
+      "english": "You can see the mountains in the background.",
+      "highlight": [
+        "Hintergrund"
+      ]
+    },
+    {
+      "german": "Was ist der Hintergrund des Streits?",
+      "english": "What's the background to the argument?",
+      "highlight": [
+        "Hintergrund"
+      ]
+    },
+    {
+      "german": "Er hält sich im Hintergrund.",
+      "english": "He keeps in the background.",
+      "highlight": [
+        "Hintergrund."
+      ]
+    }
+  ],
+  "forms": [
+    "Hintergründe",
+    "die Hintergründe",
+    "der Hintergrund"
+  ],
+  "memoryHook": "Hinter + Grund = background ↔ Vordergrund.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Hintergrund",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Hintergrund is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Hintergrund, zwei ___",
+      "answer": "Hintergründe",
+      "fullAnswer": "ein Hintergrund, zwei Hintergründe",
+      "explanation": "The plural is Hintergründe.",
+      "acceptedAnswers": [
+        "Hintergruende"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Hintergrund mean?",
+      "options": [
+        "the bread",
+        "never",
+        "background"
+      ],
+      "answer": "background",
+      "explanation": "Hintergrund: background.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "hinter (behind) + Grund (ground)",
+        "hinten + Grund"
+      ],
+      "answer": "hinter (behind) + Grund (ground)",
+      "explanation": "Back ground.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Opposite:",
+      "options": [
+        "der Vordergrund",
+        "der Untergrund"
+      ],
+      "answer": "der Vordergrund",
+      "explanation": "Foreground.",
+      "id": "q5"
+    }
+  ]
+}

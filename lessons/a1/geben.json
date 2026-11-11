@@ -1,0 +1,227 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "full",
+  "word": {
+    "headword": "geben",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "GAY-ben",
+      "ipa": "ˈɡeːbn̩",
+      "notes": "Long e."
+    },
+    "meaning": "to give; (es gibt) there is, there are",
+    "shortDefinition": "To hand something to someone."
+  },
+  "intro": {
+    "title": "Give, and 'there is'",
+    "paragraphs": [
+      "Geben means to give. In the present tense the e changes to i (du gibst, er gibt), and the phrase es gibt is how German says 'there is' or 'there are'."
+    ]
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "geb|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "g|i|bst"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "g|i|bt"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "geb|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "geb|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "geb|en"
+          ]
+        }
+      ],
+      "notes": [
+        "E changes to i for du and er.",
+        "Past (Perfekt): hat gegeben."
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "es gibt",
+      "english": "there is, there are",
+      "type": "phrase"
+    },
+    {
+      "german": "abgeben",
+      "english": "to hand in",
+      "type": "separable verb"
+    },
+    {
+      "german": "ausgeben",
+      "english": "to spend (money)",
+      "type": "separable verb"
+    }
+  ],
+  "keyTrap": {
+    "title": "The big trap: who gets what",
+    "explanation": "The person who receives is in the dative, the thing given is in the accusative.",
+    "wrong": {
+      "german": "Ich gebe dich das Buch.",
+      "verdict": "The receiver needs the dative: dir."
+    },
+    "correct": [
+      {
+        "german": "Ich gebe dir das Buch.",
+        "literal": "I give to-you the book.",
+        "note": "Receiver: dative. Thing: accusative."
+      },
+      {
+        "german": "Gib mir bitte das Salz.",
+        "literal": "Give me please the salt.",
+        "note": "Command: gib."
+      }
+    ]
+  },
+  "commonMistakes": [
+    {
+      "title": "es gibt + accusative",
+      "explanation": "What exists is in the accusative.",
+      "wrong": "Es gibt ein Supermarkt.",
+      "correct": "Es gibt einen Supermarkt."
+    },
+    {
+      "title": "The command",
+      "explanation": "For du: gib! (not gebe!).",
+      "examples": [
+        {
+          "german": "Gib mir das!",
+          "english": "Give me that!",
+          "highlight": "Gib"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Kannst du mir deine Telefonnummer geben?",
+      "english": "Can you give me your phone number?",
+      "highlight": [
+        "geben?"
+      ]
+    },
+    {
+      "german": "Er gibt leider keine Antwort.",
+      "english": "Unfortunately he isn't answering.",
+      "highlight": [
+        "gibt"
+      ]
+    },
+    {
+      "german": "Hier gibt es viele Cafés.",
+      "english": "There are lots of cafés here.",
+      "highlight": [
+        "gibt"
+      ]
+    },
+    {
+      "german": "Was gibt es heute zum Essen?",
+      "english": "What's for dinner today?",
+      "highlight": [
+        "gibt"
+      ]
+    }
+  ],
+  "forms": [
+    "gebe",
+    "gibst",
+    "gibt",
+    "gebt",
+    "gegeben",
+    "gab",
+    "gib",
+    "es gibt"
+  ],
+  "memoryHook": "Geben: du gibst, er gibt, gib! The receiver gets the dative: ich gebe dir.",
+  "signOff": "Gib nicht auf!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Er ___ mir das Geld. (geben)",
+      "answer": "gibt",
+      "fullAnswer": "Er gibt mir das Geld.",
+      "explanation": "E → i: gibt.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich gebe ___ einen Kuss. (her)",
+      "options": [
+        "sie",
+        "ihr"
+      ],
+      "answer": "ihr",
+      "explanation": "Receiver: dative ihr.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "In der Stadt gibt es ___ Bahnhof.",
+      "options": [
+        "ein",
+        "einen"
+      ],
+      "answer": "einen",
+      "explanation": "Es gibt + accusative.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Command to a friend: '___ mir bitte den Schlüssel!'",
+      "options": [
+        "Gib",
+        "Gebe"
+      ],
+      "answer": "Gib",
+      "explanation": "Du-command: gib.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Was gibt's?' means…",
+      "options": [
+        "What's up?",
+        "What do you give?"
+      ],
+      "answer": "What's up?",
+      "explanation": "Casual greeting.",
+      "id": "q5"
+    }
+  ]
+}

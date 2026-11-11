@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Höhle",
+    "partOfSpeech": "noun, feminine (die Höhle)",
+    "pronunciation": {
+      "respelling": "HÖ-le",
+      "ipa": "ˈhøːlə",
+      "notes": "Plural: die Höhlen."
+    },
+    "meaning": "cave",
+    "shortDefinition": "Cave."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Höhle, plural die Höhlen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Höhle"
+        },
+        {
+          "label": "More than one",
+          "value": "die Höhlen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir besuchen eine Tropfsteinhöhle.",
+      "english": "We're visiting a stalactite cave.",
+      "highlight": [
+        "Tropfsteinhöhle."
+      ]
+    },
+    {
+      "german": "Der Bär schläft in einer Höhle.",
+      "english": "The bear sleeps in a cave.",
+      "highlight": [
+        "Höhle."
+      ]
+    },
+    {
+      "german": "Sich in die Höhle des Löwen wagen.",
+      "english": "To venture into the lion's den.",
+      "highlight": [
+        "Höhle"
+      ]
+    }
+  ],
+  "forms": [
+    "hohl"
+  ],
+  "memoryHook": "Hohl → die Höhle (cave). Not die Hölle (hell)!",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Höhle",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Höhle is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Höhle, zwei ___",
+      "answer": "Höhlen",
+      "fullAnswer": "ein Höhle, zwei Höhlen",
+      "explanation": "The plural is Höhlen.",
+      "acceptedAnswers": [
+        "Hoehlen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Höhle mean?",
+      "options": [
+        "cave",
+        "the station",
+        "the bill"
+      ],
+      "answer": "cave",
+      "explanation": "Höhle: cave.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Don't confuse with…",
+      "options": [
+        "die Hölle (hell)",
+        "die Hülle"
+      ],
+      "answer": "die Hölle (hell)",
+      "explanation": "Long ö vs short ö.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Related:",
+      "options": [
+        "hohl (hollow)",
+        "hoch"
+      ],
+      "answer": "hohl (hollow)",
+      "explanation": "Hollow.",
+      "id": "q5"
+    }
+  ]
+}

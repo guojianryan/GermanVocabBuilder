@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Stimme",
+    "partOfSpeech": "noun, feminine (die Stimme)",
+    "pronunciation": {
+      "respelling": "SHTIM-e",
+      "ipa": "ˈʃtɪmə",
+      "notes": "Plural: die Stimmen."
+    },
+    "meaning": "voice; vote",
+    "shortDefinition": "Voice; vote."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Stimme, plural die Stimmen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Stimme"
+        },
+        {
+          "label": "More than one",
+          "value": "die Stimmen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Sie hat eine schöne Stimme.",
+      "english": "She has a lovely voice.",
+      "highlight": [
+        "Stimme."
+      ]
+    },
+    {
+      "german": "Ich habe meine Stimme verloren.",
+      "english": "I've lost my voice.",
+      "highlight": [
+        "Stimme"
+      ]
+    },
+    {
+      "german": "Die Partei bekam 30 % der Stimmen.",
+      "english": "The party got 30% of the votes.",
+      "highlight": [
+        "Stimmen."
+      ]
+    }
+  ],
+  "forms": [
+    "Stimmen",
+    "die Stimmen",
+    "die Stimme"
+  ],
+  "memoryHook": "Die Stimme: voice; vote.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Stimme",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Stimme is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Stimme, zwei ___",
+      "answer": "Stimmen",
+      "fullAnswer": "ein Stimme, zwei Stimmen",
+      "explanation": "The plural is Stimmen.",
+      "acceptedAnswers": [
+        "Stimmen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Stimme mean?",
+      "options": [
+        "to open",
+        "the street",
+        "voice"
+      ],
+      "answer": "voice",
+      "explanation": "Stimme: voice; vote.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "In an election, Stimme means…",
+      "options": [
+        "vote",
+        "voice"
+      ],
+      "answer": "vote",
+      "explanation": "Vote.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Stimmen",
+        "Stimmes"
+      ],
+      "answer": "Stimmen",
+      "explanation": "-n.",
+      "id": "q5"
+    }
+  ]
+}

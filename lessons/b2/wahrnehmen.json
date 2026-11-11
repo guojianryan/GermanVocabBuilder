@@ -1,0 +1,182 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "wahrnehmen",
+    "partOfSpeech": "separable verb",
+    "pronunciation": {
+      "respelling": "VAAR-nay-men",
+      "ipa": "ˈvaːɐ̯ˌneːmən",
+      "notes": ""
+    },
+    "meaning": "to perceive, notice; to take up (an offer)",
+    "shortDefinition": "To perceive, notice; to take up (an offer)."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "wahr",
+        "meaning": "attention (old: Wahr = heed)"
+      },
+      {
+        "part": "nehmen",
+        "meaning": "to take"
+      }
+    ],
+    "literalMeaning": "to take heed of",
+    "summary": "Not 'true': old wahr = care, heed."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "nehm|e … |wahr"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "nimm|st … |wahr"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "nimm|t … |wahr"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "nehm|en … |wahr"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "nehm|t … |wahr"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "nehm|en … |wahr"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat wahrgenommen"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich habe den Geruch nicht wahrgenommen.",
+      "english": "I didn't notice the smell.",
+      "highlight": [
+        "wahrgenommen."
+      ]
+    },
+    {
+      "german": "Sie nimmt die Welt anders wahr.",
+      "english": "She perceives the world differently.",
+      "highlight": [
+        "nimmt",
+        "wahr."
+      ]
+    },
+    {
+      "german": "Er nimmt den Termin wahr.",
+      "english": "He's keeping the appointment.",
+      "highlight": [
+        "nimmt",
+        "wahr."
+      ]
+    }
+  ],
+  "forms": [
+    "Wahrnehmung"
+  ],
+  "memoryHook": "Wahrnehmen = perceive; keep (appointment); die Wahrnehmung.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ … wahr (wahrnehmen)",
+      "answer": "nimmt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: nimmt … wahr.",
+      "acceptedAnswers": [
+        "nimmt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (wahrnehmen, past)",
+      "answer": "wahrgenommen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe wahrgenommen.",
+      "acceptedAnswers": [
+        "wahrgenommen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does wahrnehmen mean?",
+      "options": [
+        "to perceive",
+        "always",
+        "to learn"
+      ],
+      "answer": "to perceive",
+      "explanation": "wahrnehmen: to perceive, notice; to take up (an offer).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Einen Termin wahrnehmen' means…",
+      "options": [
+        "to keep an appointment",
+        "to make an appointment"
+      ],
+      "answer": "to keep an appointment",
+      "explanation": "Attend.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Noun:",
+      "options": [
+        "die Wahrnehmung (perception)",
+        "die Wahrheit"
+      ],
+      "answer": "die Wahrnehmung (perception)",
+      "explanation": "Perception.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Separable?",
+      "options": [
+        "yes (nimmt … wahr)",
+        "no"
+      ],
+      "answer": "yes (nimmt … wahr)",
+      "explanation": "Wahr = particle.",
+      "id": "q6"
+    }
+  ]
+}

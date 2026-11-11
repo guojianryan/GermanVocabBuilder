@@ -1,0 +1,147 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Währung",
+    "partOfSpeech": "noun, feminine (die Währung)",
+    "pronunciation": {
+      "respelling": "VAY-rung",
+      "ipa": "ˈvɛːʁʊŋ",
+      "notes": "Plural: die Währungen."
+    },
+    "meaning": "currency",
+    "shortDefinition": "Currency."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Währ",
+        "meaning": "last, guarantee (währen)"
+      },
+      {
+        "part": "ung",
+        "meaning": "noun ending"
+      }
+    ],
+    "literalMeaning": "what guarantees (value)"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Währung, plural die Währungen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Währung"
+        },
+        {
+          "label": "More than one",
+          "value": "die Währungen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Währung in Japan ist der Yen.",
+      "english": "The currency in Japan is the yen.",
+      "highlight": [
+        "Währung"
+      ]
+    },
+    {
+      "german": "Der Euro ist eine stabile Währung.",
+      "english": "The euro is a stable currency.",
+      "highlight": [
+        "Währung."
+      ]
+    },
+    {
+      "german": "In welcher Währung zahlen Sie?",
+      "english": "What currency are you paying in?",
+      "highlight": [
+        "Währung"
+      ]
+    }
+  ],
+  "forms": [
+    "Währungsunion"
+  ],
+  "memoryHook": "Die Währung (currency); Währungsunion.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Währung",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Währung is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Währung, zwei ___",
+      "answer": "Währungen",
+      "fullAnswer": "ein Währung, zwei Währungen",
+      "explanation": "The plural is Währungen.",
+      "acceptedAnswers": [
+        "Waehrungen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Währung mean?",
+      "options": [
+        "the weather",
+        "slowly",
+        "currency"
+      ],
+      "answer": "currency",
+      "explanation": "Währung: currency.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Foreign currency:",
+      "options": [
+        "die Fremdwährung / Devisen",
+        "das Fremdgeld"
+      ],
+      "answer": "die Fremdwährung / Devisen",
+      "explanation": "Foreign.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Monetary union:",
+      "options": [
+        "die Währungsunion",
+        "die Geldunion"
+      ],
+      "answer": "die Währungsunion",
+      "explanation": "EU.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Related (old):",
+      "options": [
+        "währen (last)",
+        "wahr (true)"
+      ],
+      "answer": "währen (last)",
+      "explanation": "What lasts.",
+      "id": "q6"
+    }
+  ]
+}

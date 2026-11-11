@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Akteur",
+    "partOfSpeech": "noun, masculine (der Akteur)",
+    "pronunciation": {
+      "respelling": "ak-TÖR",
+      "ipa": "akˈtøːɐ̯",
+      "notes": "Plural: die Akteure."
+    },
+    "meaning": "player, actor (in politics, business)",
+    "shortDefinition": "Player, actor (in politics, business)."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Akteur, plural die Akteure.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Akteur"
+        },
+        {
+          "label": "More than one",
+          "value": "die Akteure"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die wichtigsten Akteure im Konflikt.",
+      "english": "The main actors in the conflict.",
+      "highlight": [
+        "Akteure"
+      ]
+    },
+    {
+      "german": "Ein globaler Akteur.",
+      "english": "A global player.",
+      "highlight": [
+        "Akteur."
+      ]
+    },
+    {
+      "german": "Alle Akteurinnen und Akteure.",
+      "english": "All stakeholders.",
+      "highlight": [
+        "Akteurinnen",
+        "Akteure."
+      ]
+    }
+  ],
+  "forms": [
+    "Schauspieler"
+  ],
+  "memoryHook": "Der Akteur (player in politics) ≠ Schauspieler.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Akteur",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Akteur is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Akteur, zwei ___",
+      "answer": "Akteure",
+      "fullAnswer": "ein Akteur, zwei Akteure",
+      "explanation": "The plural is Akteure.",
+      "acceptedAnswers": [
+        "Akteure"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Akteur mean?",
+      "options": [
+        "the bread",
+        "player",
+        "to sing"
+      ],
+      "answer": "player",
+      "explanation": "Akteur: player, actor (in politics, business).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Pronunciation:",
+      "options": [
+        "French (ak-TÖR)",
+        "German (AK-toyr)"
+      ],
+      "answer": "French (ak-TÖR)",
+      "explanation": "Loanword.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Actor (theatre) is usually…",
+      "options": [
+        "der Schauspieler",
+        "der Akteur"
+      ],
+      "answer": "der Schauspieler",
+      "explanation": "Different.",
+      "id": "q5"
+    }
+  ]
+}

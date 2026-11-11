@@ -1,0 +1,173 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "sprechen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "SHPREKH-en",
+      "ipa": "ˈʃpʁɛçn̩",
+      "notes": ""
+    },
+    "meaning": "to speak, to talk",
+    "shortDefinition": "To speak, to talk."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "sprech|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "spr|i|chst"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "spr|i|cht"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "sprech|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "sprech|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "sprech|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gesprochen",
+        "E → i for du and er."
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "die Sprache",
+      "english": "language",
+      "type": "noun"
+    },
+    {
+      "german": "das Gespräch",
+      "english": "conversation",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Sprechen Sie Englisch?",
+      "english": "Do you speak English?",
+      "highlight": [
+        "Sprechen"
+      ]
+    },
+    {
+      "german": "Er spricht drei Sprachen.",
+      "english": "He speaks three languages.",
+      "highlight": [
+        "spricht"
+      ]
+    },
+    {
+      "german": "Ich möchte mit dem Chef sprechen.",
+      "english": "I'd like to speak to the manager.",
+      "highlight": [
+        "sprechen."
+      ]
+    }
+  ],
+  "forms": [
+    "spreche",
+    "sprichst",
+    "spricht",
+    "sprechen",
+    "sprecht",
+    "gesprochen",
+    "sprach"
+  ],
+  "memoryHook": "Sprechen: du sprichst, er spricht. Mit jemandem sprechen = speak to someone.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (sprechen)",
+      "answer": "spricht",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: spricht.",
+      "acceptedAnswers": [
+        "spricht"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (sprechen, past)",
+      "answer": "gesprochen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gesprochen.",
+      "acceptedAnswers": [
+        "gesprochen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does sprechen mean?",
+      "options": [
+        "to speak",
+        "hot",
+        "the door"
+      ],
+      "answer": "to speak",
+      "explanation": "sprechen: to speak, to talk.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Er ___ Deutsch.",
+      "options": [
+        "sprecht",
+        "spricht"
+      ],
+      "answer": "spricht",
+      "explanation": "E → i.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Speak TO someone: sprechen…",
+      "options": [
+        "mit",
+        "zu"
+      ],
+      "answer": "mit",
+      "explanation": "Mit + dative.",
+      "id": "q5"
+    }
+  ]
+}

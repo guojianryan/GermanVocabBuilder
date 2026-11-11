@@ -1,0 +1,134 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Stamm",
+    "partOfSpeech": "noun, masculine (der Stamm)",
+    "pronunciation": {
+      "respelling": "SHTAM",
+      "ipa": "ʃtam",
+      "notes": "Plural: die Stämme."
+    },
+    "meaning": "trunk; stem; tribe; regulars",
+    "shortDefinition": "Trunk; stem; tribe; regulars."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Stamm, plural die Stämme.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Stamm"
+        },
+        {
+          "label": "More than one",
+          "value": "die Stämme"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Stamm des Baumes ist dick.",
+      "english": "The tree trunk is thick.",
+      "highlight": [
+        "Stamm"
+      ]
+    },
+    {
+      "german": "Ein afrikanischer Stamm.",
+      "english": "An African tribe.",
+      "highlight": [
+        "Stamm."
+      ]
+    },
+    {
+      "german": "Er gehört zum Stammpublikum.",
+      "english": "He's one of the regulars.",
+      "highlight": [
+        "Stammpublikum."
+      ]
+    }
+  ],
+  "forms": [
+    "stammen",
+    "Stammgast"
+  ],
+  "memoryHook": "Der Stamm: trunk; stem; tribe; Stammgast; stammen aus.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Stamm",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Stamm is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Stamm, zwei ___",
+      "answer": "Stämme",
+      "fullAnswer": "ein Stamm, zwei Stämme",
+      "explanation": "The plural is Stämme.",
+      "acceptedAnswers": [
+        "Staemme"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Stamm mean?",
+      "options": [
+        "the key",
+        "trunk",
+        "tomorrow"
+      ],
+      "answer": "trunk",
+      "explanation": "Stamm: trunk; stem; tribe; regulars.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Regular (customer):",
+      "options": [
+        "der Stammgast / Stammkunde",
+        "der Stammler"
+      ],
+      "answer": "der Stammgast / Stammkunde",
+      "explanation": "Regular.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Grammar 'Wortstamm' =",
+      "options": [
+        "word stem",
+        "word tribe"
+      ],
+      "answer": "word stem",
+      "explanation": "Stem.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Verb 'stammen aus' means…",
+      "options": [
+        "to come from",
+        "to stammer"
+      ],
+      "answer": "to come from",
+      "explanation": "Origin.",
+      "id": "q6"
+    }
+  ]
+}

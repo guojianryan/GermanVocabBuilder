@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Laptop",
+    "partOfSpeech": "noun, masculine (der Laptop)",
+    "pronunciation": {
+      "respelling": "LEP-top",
+      "ipa": "ˈlɛptɔp",
+      "notes": "Plural: die Laptops."
+    },
+    "meaning": "laptop",
+    "shortDefinition": "Laptop."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Laptop, plural die Laptops.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Laptop"
+        },
+        {
+          "label": "More than one",
+          "value": "die Laptops"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich arbeite am Laptop.",
+      "english": "I'm working on the laptop.",
+      "highlight": [
+        "Laptop."
+      ]
+    },
+    {
+      "german": "Mein Laptop ist kaputt.",
+      "english": "My laptop is broken.",
+      "highlight": [
+        "Laptop"
+      ]
+    },
+    {
+      "german": "Darf ich deinen Laptop benutzen?",
+      "english": "Can I use your laptop?",
+      "highlight": [
+        "Laptop"
+      ]
+    }
+  ],
+  "forms": [
+    "das Laptop",
+    "der Laptop"
+  ],
+  "memoryHook": "Der/das Laptop: both genders are fine.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Laptop",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Laptop is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Laptop, zwei ___",
+      "answer": "Laptops",
+      "fullAnswer": "ein Laptop, zwei Laptops",
+      "explanation": "The plural is Laptops.",
+      "acceptedAnswers": [
+        "Laptops"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Laptop mean?",
+      "options": [
+        "the weather",
+        "laptop",
+        "to sleep"
+      ],
+      "answer": "laptop",
+      "explanation": "Laptop: laptop.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gender:",
+      "options": [
+        "der or das",
+        "die"
+      ],
+      "answer": "der or das",
+      "explanation": "Both used.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'On the laptop':",
+      "options": [
+        "am Laptop",
+        "auf dem Laptop only"
+      ],
+      "answer": "am Laptop",
+      "explanation": "Working at it.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "geschehen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "ge-SHAY-en",
+      "ipa": "ɡəˈʃeːən",
+      "notes": ""
+    },
+    "meaning": "to happen",
+    "shortDefinition": "To happen."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "gescheh|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "gesch|ie|hst"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "gesch|ie|ht"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "gescheh|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "gescheh|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "gescheh|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): ist geschehen",
+        "Es geschieht (e → ie)."
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Was ist geschehen?",
+      "english": "What happened?",
+      "highlight": [
+        "geschehen?"
+      ]
+    },
+    {
+      "german": "Das geschieht dir recht!",
+      "english": "It serves you right!",
+      "highlight": [
+        "geschieht"
+      ]
+    },
+    {
+      "german": "Gern geschehen!",
+      "english": "You're welcome!",
+      "highlight": [
+        "geschehen!"
+      ]
+    }
+  ],
+  "forms": [
+    "geschehe",
+    "geschiehst",
+    "geschieht",
+    "geschehen",
+    "gescheht",
+    "geschah"
+  ],
+  "memoryHook": "Geschehen = passieren (formal). Gern geschehen = you're welcome!",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (geschehen)",
+      "answer": "geschieht",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: geschieht.",
+      "acceptedAnswers": [
+        "geschieht"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich bin schon ___. (geschehen, past)",
+      "answer": "geschehen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: bin geschehen.",
+      "acceptedAnswers": [
+        "geschehen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does geschehen mean?",
+      "options": [
+        "cheap",
+        "tomorrow",
+        "to happen"
+      ],
+      "answer": "to happen",
+      "explanation": "geschehen: to happen.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Gern geschehen!' means…",
+      "options": [
+        "You're welcome!",
+        "Happy happenings!"
+      ],
+      "answer": "You're welcome!",
+      "explanation": "Reply to danke.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Everyday synonym:",
+      "options": [
+        "passieren",
+        "gehen"
+      ],
+      "answer": "passieren",
+      "explanation": "Happen.",
+      "id": "q5"
+    }
+  ]
+}

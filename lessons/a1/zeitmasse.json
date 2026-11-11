@@ -1,0 +1,188 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "group",
+  "word": {
+    "headword": "Zeitmaße",
+    "partOfSpeech": "word group: units of time",
+    "pronunciation": {
+      "respelling": "TSITE-maa-se",
+      "ipa": "ˈtsaɪ̯tˌmaːsə",
+      "notes": ""
+    },
+    "meaning": "seconds, minutes, hours, days, weeks, months and years",
+    "shortDefinition": "Seconds, minutes, hours, days, weeks, months and years."
+  },
+  "members": [
+    {
+      "german": "die Sekunde",
+      "english": "second",
+      "plural": "Sekunden"
+    },
+    {
+      "german": "die Minute",
+      "english": "minute",
+      "plural": "Minuten"
+    },
+    {
+      "german": "die Stunde",
+      "english": "hour",
+      "plural": "Stunden",
+      "note": "A length of time. 'At 3 o'clock' uses Uhr."
+    },
+    {
+      "german": "der Tag",
+      "english": "day",
+      "plural": "Tage"
+    },
+    {
+      "german": "die Woche",
+      "english": "week",
+      "plural": "Wochen"
+    },
+    {
+      "german": "der Monat",
+      "english": "month",
+      "plural": "Monate"
+    },
+    {
+      "german": "das Jahr",
+      "english": "year",
+      "plural": "Jahre"
+    },
+    {
+      "german": "das Wochenende",
+      "english": "weekend",
+      "plural": "Wochenenden",
+      "note": "am Wochenende = at the weekend"
+    }
+  ],
+  "intro": {
+    "title": "Stunde or Uhr?",
+    "paragraphs": [
+      "These words measure time. All are easy except one pair: eine Stunde is an hour as a length of time, but drei Uhr is three o'clock. Ich warte eine Stunde, but der Kurs beginnt um drei Uhr.",
+      "Mind the genders: Tag and Monat are masculine, Woche, Minute, Sekunde and Stunde feminine, Jahr neuter."
+    ]
+  },
+  "sampleSentences": [
+    {
+      "german": "Der Film dauert zwei Stunden.",
+      "english": "The film lasts two hours.",
+      "highlight": [
+        "Stunden."
+      ]
+    },
+    {
+      "german": "Ich bin drei Wochen im Urlaub.",
+      "english": "I'm on holiday for three weeks.",
+      "highlight": [
+        "Wochen"
+      ]
+    },
+    {
+      "german": "Wir sehen uns am Wochenende.",
+      "english": "See you at the weekend.",
+      "highlight": [
+        "Wochenende."
+      ]
+    }
+  ],
+  "forms": [
+    "die Sekunde",
+    "Sekunde",
+    "Sekunden",
+    "die Minute",
+    "Minute",
+    "Minuten",
+    "die Stunde",
+    "Stunde",
+    "Stunden",
+    "der Tag",
+    "Tag",
+    "Tage",
+    "die Woche",
+    "Woche",
+    "Wochen",
+    "der Monat",
+    "Monat",
+    "Monate",
+    "das Jahr",
+    "Jahr",
+    "Jahre",
+    "das Wochenende",
+    "Wochenende",
+    "Wochenenden"
+  ],
+  "memoryHook": "Stunde = an hour you spend. Uhr = the time on the clock.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "'I'm waiting an hour':",
+      "options": [
+        "Ich warte eine Stunde.",
+        "Ich warte eine Uhr."
+      ],
+      "answer": "Ich warte eine Stunde.",
+      "explanation": "Length of time: Stunde.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "___ Monat",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Der Monat, die Monate.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "___ Jahr",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Das Jahr, die Jahre.",
+      "id": "q3"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Wir sehen uns ___ Wochenende.",
+      "answer": "am",
+      "fullAnswer": "Wir sehen uns am Wochenende.",
+      "explanation": "Am Wochenende.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural of Tag:",
+      "options": [
+        "Tage",
+        "Tags"
+      ],
+      "answer": "Tage",
+      "explanation": "Der Tag, die Tage.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Every day' is…",
+      "options": [
+        "jeden Tag",
+        "alle Tag"
+      ],
+      "answer": "jeden Tag",
+      "explanation": "Jeden Tag, jede Woche, jedes Jahr.",
+      "id": "q6"
+    }
+  ]
+}

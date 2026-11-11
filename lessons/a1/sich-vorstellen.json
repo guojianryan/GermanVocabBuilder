@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "(sich) vorstellen",
+    "partOfSpeech": "separable verb, often reflexive",
+    "pronunciation": {
+      "respelling": "FOR-shtel-en",
+      "ipa": "ˈfoːɐ̯ˌʃtɛlən",
+      "notes": ""
+    },
+    "meaning": "to introduce (oneself); (sich etwas) to imagine",
+    "shortDefinition": "To introduce (oneself); (sich etwas) to imagine."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "vor",
+        "meaning": "in front, before"
+      },
+      {
+        "part": "stellen",
+        "meaning": "to put, to place"
+      }
+    ],
+    "literalMeaning": "to put (yourself) in front"
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "stelle … |vor"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "stellst … |vor"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "stellt … |vor"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "stellen … |vor"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "stellt … |vor"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "stellen … |vor"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat vorgestellt"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "das Vorstellungsgespräch",
+      "english": "job interview",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Darf ich mich vorstellen? Mein Name ist Ana.",
+      "english": "May I introduce myself? My name is Ana.",
+      "highlight": [
+        "mich",
+        "vorstellen?"
+      ]
+    },
+    {
+      "german": "Ich stelle dir meinen Freund vor.",
+      "english": "Let me introduce my boyfriend to you.",
+      "highlight": [
+        "stelle",
+        "vor."
+      ]
+    },
+    {
+      "german": "Stell dir vor, ich habe gewonnen!",
+      "english": "Imagine, I won!",
+      "highlight": [
+        "Stell",
+        "dir",
+        "vor,"
+      ]
+    }
+  ],
+  "forms": [
+    "stelle vor",
+    "stellst vor",
+    "stellt vor",
+    "stellen vor",
+    "vorgestellt"
+  ],
+  "memoryHook": "Sich vorstellen = introduce yourself (mich). Sich etwas vorstellen = imagine (mir). Vorstellungsgespräch = job interview.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ … vor ((sich) vorstellen)",
+      "answer": "stellt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: stellt … vor.",
+      "acceptedAnswers": [
+        "stellt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. ((sich) vorstellen, past)",
+      "answer": "vorgestellt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe vorgestellt.",
+      "acceptedAnswers": [
+        "vorgestellt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does (sich) vorstellen mean?",
+      "options": [
+        "to introduce (oneself)",
+        "quiet",
+        "the car"
+      ],
+      "answer": "to introduce (oneself)",
+      "explanation": "(sich) vorstellen: to introduce (oneself); (sich etwas) to imagine.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Stell dir vor!' means…",
+      "options": [
+        "Imagine!",
+        "Introduce yourself!"
+      ],
+      "answer": "Imagine!",
+      "explanation": "Sich (dat.) vorstellen = imagine.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Introducing yourself: Ich stelle ___ vor.",
+      "options": [
+        "mich",
+        "mir"
+      ],
+      "answer": "mich",
+      "explanation": "Accusative: mich.",
+      "id": "q5"
+    }
+  ]
+}

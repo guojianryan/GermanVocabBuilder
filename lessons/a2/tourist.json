@@ -1,0 +1,125 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Tourist",
+    "partOfSpeech": "noun, masculine (der Tourist)",
+    "pronunciation": {
+      "respelling": "too-RIST",
+      "ipa": "tuˈʁɪst",
+      "notes": "Plural: die Touristen."
+    },
+    "meaning": "tourist",
+    "shortDefinition": "Tourist."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Tourist, plural die Touristen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Tourist"
+        },
+        {
+          "label": "More than one",
+          "value": "die Touristen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Im Sommer kommen viele Touristen.",
+      "english": "Lots of tourists come in summer.",
+      "highlight": [
+        "Touristen."
+      ]
+    },
+    {
+      "german": "Ich bin hier nur Tourist.",
+      "english": "I'm just a tourist here.",
+      "highlight": [
+        "Tourist."
+      ]
+    },
+    {
+      "german": "Die Touristin fragt nach dem Weg.",
+      "english": "The tourist (female) is asking the way.",
+      "highlight": [
+        "Touristin"
+      ]
+    }
+  ],
+  "forms": [
+    "Touristin",
+    "Touristen",
+    "den Touristen",
+    "Touristeninformation"
+  ],
+  "memoryHook": "Der Tourist, den Touristen; die Touristin.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Tourist",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Tourist is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Tourist, zwei ___",
+      "answer": "Touristen",
+      "fullAnswer": "ein Tourist, zwei Touristen",
+      "explanation": "The plural is Touristen.",
+      "acceptedAnswers": [
+        "Touristen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Tourist mean?",
+      "options": [
+        "tourist",
+        "tomorrow",
+        "always"
+      ],
+      "answer": "tourist",
+      "explanation": "Tourist: tourist.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Accusative:",
+      "options": [
+        "den Touristen",
+        "den Tourist"
+      ],
+      "answer": "den Touristen",
+      "explanation": "-en.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Tourist information:",
+      "options": [
+        "die Touristeninformation",
+        "die Touristinfo only"
+      ],
+      "answer": "die Touristeninformation",
+      "explanation": "Touristen + Information.",
+      "id": "q5"
+    }
+  ]
+}

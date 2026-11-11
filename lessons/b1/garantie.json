@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Garantie",
+    "partOfSpeech": "noun, feminine (die Garantie)",
+    "pronunciation": {
+      "respelling": "ga-ran-TEE",
+      "ipa": "ɡaʁanˈtiː",
+      "notes": "Plural: die Garantien."
+    },
+    "meaning": "guarantee, warranty",
+    "shortDefinition": "Guarantee, warranty."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Garantie, plural die Garantien.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Garantie"
+        },
+        {
+          "label": "More than one",
+          "value": "die Garantien"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das Gerät hat zwei Jahre Garantie.",
+      "english": "The device has a two-year warranty.",
+      "highlight": [
+        "Garantie."
+      ]
+    },
+    {
+      "german": "Ist das noch in der Garantie?",
+      "english": "Is that still under warranty?",
+      "highlight": [
+        "Garantie?"
+      ]
+    },
+    {
+      "german": "Dafür gibt es keine Garantie.",
+      "english": "There's no guarantee of that.",
+      "highlight": [
+        "Garantie."
+      ]
+    }
+  ],
+  "forms": [
+    "Garantien",
+    "die Garantien",
+    "die Garantie"
+  ],
+  "memoryHook": "Die Garantie (stress at the end) = warranty.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Garantie",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Garantie is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Garantie, zwei ___",
+      "answer": "Garantien",
+      "fullAnswer": "ein Garantie, zwei Garantien",
+      "explanation": "The plural is Garantien.",
+      "acceptedAnswers": [
+        "Garantien"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Garantie mean?",
+      "options": [
+        "the evening",
+        "to travel",
+        "guarantee"
+      ],
+      "answer": "guarantee",
+      "explanation": "Garantie: guarantee, warranty.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Unter/In der Garantie' means…",
+      "options": [
+        "under warranty",
+        "guaranteed delivery"
+      ],
+      "answer": "under warranty",
+      "explanation": "Warranty.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Stress on…",
+      "options": [
+        "-TIE",
+        "GA-"
+      ],
+      "answer": "-TIE",
+      "explanation": "End.",
+      "id": "q5"
+    }
+  ]
+}

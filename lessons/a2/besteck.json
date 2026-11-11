@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Momente A2.2 Kursbuch Glossar",
+  "lessonType": "card",
+  "word": {
+    "headword": "Besteck",
+    "partOfSpeech": "noun, neuter (das Besteck)",
+    "pronunciation": {
+      "respelling": "be-SHTEK",
+      "ipa": "bəˈʃtɛk",
+      "notes": "Plural: die Bestecke."
+    },
+    "meaning": "cutlery",
+    "shortDefinition": "Cutlery."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Besteck, plural die Bestecke.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Besteck"
+        },
+        {
+          "label": "More than one",
+          "value": "die Bestecke"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das Besteck liegt in der Schublade.",
+      "english": "The cutlery is in the drawer.",
+      "highlight": [
+        "Besteck"
+      ]
+    },
+    {
+      "german": "Können wir noch Besteck haben?",
+      "english": "Could we have some more cutlery?",
+      "highlight": [
+        "Besteck"
+      ]
+    },
+    {
+      "german": "Messer, Gabel und Löffel sind Besteck.",
+      "english": "Knife, fork and spoon are cutlery.",
+      "highlight": [
+        "Besteck."
+      ]
+    }
+  ],
+  "forms": [
+    "Bestecke",
+    "die Bestecke",
+    "das Besteck"
+  ],
+  "memoryHook": "Das Besteck (knife, fork, spoon) vs das Geschirr (plates, cups).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Besteck",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Besteck is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Besteck, zwei ___",
+      "answer": "Bestecke",
+      "fullAnswer": "ein Besteck, zwei Bestecke",
+      "explanation": "The plural is Bestecke.",
+      "acceptedAnswers": [
+        "Bestecke"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Besteck mean?",
+      "options": [
+        "tomorrow",
+        "to help",
+        "cutlery"
+      ],
+      "answer": "cutlery",
+      "explanation": "Besteck: cutlery.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Besteck includes…",
+      "options": [
+        "Messer, Gabel, Löffel",
+        "Teller, Tasse"
+      ],
+      "answer": "Messer, Gabel, Löffel",
+      "explanation": "Teller = Geschirr.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gender:",
+      "options": [
+        "das",
+        "der"
+      ],
+      "answer": "das",
+      "explanation": "Das Besteck.",
+      "id": "q5"
+    }
+  ]
+}

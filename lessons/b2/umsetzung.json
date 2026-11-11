@@ -1,0 +1,142 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Umsetzung",
+    "partOfSpeech": "noun, feminine (die Umsetzung)",
+    "pronunciation": {
+      "respelling": "OOM-zet-sung",
+      "ipa": "ˈʊmzɛtsʊŋ",
+      "notes": "Plural: die Umsetzungen."
+    },
+    "meaning": "implementation, realisation",
+    "shortDefinition": "Implementation, realisation."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Um",
+        "meaning": "around, change"
+      },
+      {
+        "part": "setz",
+        "meaning": "set (setzen)",
+        "emphasis": "turn"
+      },
+      {
+        "part": "ung",
+        "meaning": "noun ending"
+      }
+    ],
+    "literalMeaning": "a setting-differently",
+    "summary": "An idea turns into action."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Umsetzung, plural die Umsetzungen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Umsetzung"
+        },
+        {
+          "label": "More than one",
+          "value": "die Umsetzungen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Umsetzung des Plans dauert.",
+      "english": "Implementing the plan takes time.",
+      "highlight": [
+        "Umsetzung"
+      ]
+    },
+    {
+      "german": "Gute Idee, schlechte Umsetzung.",
+      "english": "Good idea, poor execution.",
+      "highlight": [
+        "Umsetzung."
+      ]
+    },
+    {
+      "german": "Bei der Umsetzung gibt es Probleme.",
+      "english": "There are problems with the implementation.",
+      "highlight": [
+        "Umsetzung"
+      ]
+    }
+  ],
+  "forms": [
+    "umsetzen"
+  ],
+  "memoryHook": "Umsetzen → die Umsetzung.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Umsetzung",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Umsetzung is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Umsetzung, zwei ___",
+      "answer": "Umsetzungen",
+      "fullAnswer": "ein Umsetzung, zwei Umsetzungen",
+      "explanation": "The plural is Umsetzungen.",
+      "acceptedAnswers": [
+        "Umsetzungen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Umsetzung mean?",
+      "options": [
+        "expensive",
+        "implementation",
+        "quiet"
+      ],
+      "answer": "implementation",
+      "explanation": "Umsetzung: implementation, realisation.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "umsetzen (implement)",
+        "Umsatz"
+      ],
+      "answer": "umsetzen (implement)",
+      "explanation": "Implement.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonym:",
+      "options": [
+        "die Realisierung, die Durchführung",
+        "die Planung"
+      ],
+      "answer": "die Realisierung, die Durchführung",
+      "explanation": "Execution.",
+      "id": "q5"
+    }
+  ]
+}

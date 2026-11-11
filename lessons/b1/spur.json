@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Spur",
+    "partOfSpeech": "noun, feminine (die Spur)",
+    "pronunciation": {
+      "respelling": "SHPOOR",
+      "ipa": "ʃpuːɐ̯",
+      "notes": "Plural: die Spuren."
+    },
+    "meaning": "trace, track; lane",
+    "shortDefinition": "Trace, track; lane."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Spur, plural die Spuren.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Spur"
+        },
+        {
+          "label": "More than one",
+          "value": "die Spuren"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Polizei sucht nach Spuren.",
+      "english": "The police are looking for clues.",
+      "highlight": [
+        "Spuren."
+      ]
+    },
+    {
+      "german": "Bleiben Sie auf der rechten Spur.",
+      "english": "Stay in the right-hand lane.",
+      "highlight": [
+        "Spur."
+      ]
+    },
+    {
+      "german": "Im Schnee sieht man Spuren.",
+      "english": "You can see tracks in the snow.",
+      "highlight": [
+        "Spuren."
+      ]
+    }
+  ],
+  "forms": [
+    "Spuren",
+    "die Spuren",
+    "die Spur"
+  ],
+  "memoryHook": "Die Spur: trace, track, lane. Keine Spur! = not a bit.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Spur",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Spur is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Spur, zwei ___",
+      "answer": "Spuren",
+      "fullAnswer": "ein Spur, zwei Spuren",
+      "explanation": "The plural is Spuren.",
+      "acceptedAnswers": [
+        "Spuren"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Spur mean?",
+      "options": [
+        "trace",
+        "the child",
+        "to open"
+      ],
+      "answer": "trace",
+      "explanation": "Spur: trace, track; lane.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "On the motorway, Spur means…",
+      "options": [
+        "lane",
+        "exit"
+      ],
+      "answer": "lane",
+      "explanation": "Lane.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Keine Spur!' means…",
+      "options": [
+        "Not at all!",
+        "No track"
+      ],
+      "answer": "Not at all!",
+      "explanation": "Idiom.",
+      "id": "q5"
+    }
+  ]
+}

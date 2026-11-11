@@ -1,0 +1,187 @@
+{
+ "schemaVersion": "1.4",
+ "language": "de",
+ "explanationLanguage": "en",
+ "level": "B1",
+ "levelSource": "Goethe-Zertifikat B1 Wortliste",
+ "lessonType": "card",
+ "word": {
+  "headword": "empfangen",
+  "partOfSpeech": "verb",
+  "pronunciation": {
+   "respelling": "emp-FANG-en",
+   "ipa": "ɛmpˈfaŋən",
+   "notes": ""
+  },
+  "meaning": "to receive",
+  "shortDefinition": "To receive."
+ },
+ "tables": [
+  {
+   "title": "Present tense",
+   "columns": [
+    "present"
+   ],
+   "rows": [
+    {
+     "label": "ich",
+     "cells": [
+      "empfang|e"
+     ]
+    },
+    {
+     "label": "du",
+     "cells": [
+      "empf|ä|ngst"
+     ]
+    },
+    {
+     "label": "er, sie, es",
+     "cells": [
+      "empf|ä|ngt"
+     ]
+    },
+    {
+     "label": "wir",
+     "cells": [
+      "empfang|en"
+     ]
+    },
+    {
+     "label": "ihr",
+     "cells": [
+      "empfang|t"
+     ]
+    },
+    {
+     "label": "sie, Sie",
+     "cells": [
+      "empfang|en"
+     ]
+    }
+   ],
+   "notes": [
+    "Past (Perfekt): hat empfangen",
+    "a → ä for du and er."
+   ]
+  }
+ ],
+ "wordFamily": [
+  {
+   "german": "der Empfang",
+   "english": "reception",
+   "type": "noun"
+  },
+  {
+   "german": "der Empfänger",
+   "english": "recipient",
+   "type": "noun"
+  }
+ ],
+ "sampleSentences": [
+  {
+   "german": "Wir haben Ihre E-Mail empfangen.",
+   "english": "We've received your email.",
+   "highlight": [
+    "empfangen."
+   ]
+  },
+  {
+   "german": "Die Gäste wurden herzlich empfangen.",
+   "english": "The guests were warmly welcomed.",
+   "highlight": [
+    "empfangen."
+   ]
+  },
+  {
+   "german": "Hier kann ich kein Radio empfangen.",
+   "english": "I can't get radio reception here.",
+   "highlight": [
+    "empfangen."
+   ]
+  }
+ ],
+ "forms": [
+  "empfange",
+  "empfängst",
+  "empfängt",
+  "empfangen",
+  "empfangt",
+  "empfing"
+ ],
+ "memoryHook": "Empfangen = receive (formal, guests, signals). Der Empfänger = recipient.",
+ "signOff": "Gut gemacht!",
+ "quiz": [
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "er ___ (empfangen)",
+   "answer": "empfängt",
+   "fullAnswer": "",
+   "explanation": "For er, sie, es: empfängt.",
+   "acceptedAnswers": [
+    "empfaengt"
+   ],
+   "id": "q1"
+  },
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "Ich habe schon ___. (empfangen, past)",
+   "answer": "empfangen",
+   "fullAnswer": "",
+   "explanation": "Perfekt: habe empfangen.",
+   "acceptedAnswers": [
+    "empfangen"
+   ],
+   "id": "q2"
+  },
+  {
+   "type": "choice",
+   "prompt": "What does empfangen mean?",
+   "options": [
+    "the bed",
+    "the flower",
+    "to receive"
+   ],
+   "answer": "to receive",
+   "explanation": "empfangen: to receive.",
+   "id": "q3"
+  },
+  {
+   "type": "choice",
+   "prompt": "More common for letters:",
+   "options": [
+    "bekommen / erhalten",
+    "empfangen only"
+   ],
+   "answer": "bekommen / erhalten",
+   "explanation": "Empfangen is formal.",
+   "id": "q4"
+  },
+  {
+   "type": "choice",
+   "prompt": "Er ___ die Gäste.",
+   "options": [
+    "empfängt",
+    "empfangt"
+   ],
+   "answer": "empfängt",
+   "explanation": "a → ä.",
+   "id": "q5"
+  }
+ ],
+ "etymology": {
+  "title": "Where it comes from",
+  "parts": [
+   {
+    "part": "emp",
+    "meaning": "towards (old ent-)"
+   },
+   {
+    "part": "fangen",
+    "meaning": "to catch",
+    "emphasis": "arrive"
+   }
+  ],
+  "literalMeaning": "to catch in, receive"
+ }
+}

@@ -1,0 +1,173 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "essen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "ESS-en",
+      "ipa": "ˈɛsn̩",
+      "notes": ""
+    },
+    "meaning": "to eat",
+    "shortDefinition": "To eat."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "ess|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "|isst"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "|isst"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "ess|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "ess|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "ess|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gegessen",
+        "Du isst and er isst are the same."
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "das Essen",
+      "english": "food, meal",
+      "type": "noun"
+    },
+    {
+      "german": "das Mittagessen",
+      "english": "lunch",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Was isst du gern?",
+      "english": "What do you like eating?",
+      "highlight": [
+        "isst"
+      ]
+    },
+    {
+      "german": "Wir essen um sieben zu Abend.",
+      "english": "We have dinner at seven.",
+      "highlight": [
+        "essen"
+      ]
+    },
+    {
+      "german": "Ich habe schon gegessen.",
+      "english": "I've already eaten.",
+      "highlight": [
+        "gegessen."
+      ]
+    }
+  ],
+  "forms": [
+    "esse",
+    "isst",
+    "essen",
+    "esst",
+    "gegessen",
+    "aß",
+    "Essen"
+  ],
+  "memoryHook": "Essen: e becomes i for du and er (isst). Das Essen = food, meal. Zu Abend essen = have dinner.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (essen)",
+      "answer": "isst",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: isst.",
+      "acceptedAnswers": [
+        "isst"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (essen, past)",
+      "answer": "gegessen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gegessen.",
+      "acceptedAnswers": [
+        "gegessen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does essen mean?",
+      "options": [
+        "tomorrow",
+        "to eat",
+        "the evening"
+      ],
+      "answer": "to eat",
+      "explanation": "essen: to eat.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Du ___ zu viel Schokolade.",
+      "options": [
+        "esst",
+        "isst"
+      ],
+      "answer": "isst",
+      "explanation": "E changes to i: du isst.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Das Essen means…",
+      "options": [
+        "food, meal",
+        "the eater"
+      ],
+      "answer": "food, meal",
+      "explanation": "Das Essen ist fertig: dinner's ready.",
+      "id": "q5"
+    }
+  ]
+}

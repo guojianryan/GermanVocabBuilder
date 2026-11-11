@@ -1,0 +1,167 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "merken",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "MAIR-ken",
+      "ipa": "ˈmɛʁkn̩",
+      "notes": ""
+    },
+    "meaning": "to notice; (sich) to remember",
+    "shortDefinition": "To notice; (sich) to remember."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "merk|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "merk|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "merk|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "merk|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "merk|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "merk|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gemerkt"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "bemerken",
+      "english": "to notice",
+      "type": "verb"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich habe nichts gemerkt.",
+      "english": "I didn't notice anything.",
+      "highlight": [
+        "gemerkt."
+      ]
+    },
+    {
+      "german": "Das kann ich mir nicht merken.",
+      "english": "I can't remember that.",
+      "highlight": [
+        "mir",
+        "merken."
+      ]
+    },
+    {
+      "german": "Merk dir die Nummer!",
+      "english": "Remember the number!",
+      "highlight": [
+        "Merk",
+        "dir"
+      ]
+    }
+  ],
+  "forms": [
+    "merke",
+    "merkst",
+    "merkt",
+    "merken",
+    "gemerkt"
+  ],
+  "memoryHook": "Merken = notice. Sich (dative) etwas merken = keep it in mind.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (merken)",
+      "answer": "merkt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: merkt.",
+      "acceptedAnswers": [
+        "merkt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (merken, past)",
+      "answer": "gemerkt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gemerkt.",
+      "acceptedAnswers": [
+        "gemerkt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does merken mean?",
+      "options": [
+        "to notice",
+        "never",
+        "the evening"
+      ],
+      "answer": "to notice",
+      "explanation": "merken: to notice; (sich) to remember.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Sich etwas merken' means…",
+      "options": [
+        "to memorise",
+        "to notice"
+      ],
+      "answer": "to memorise",
+      "explanation": "With mir/dir (dative).",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'I can't remember names':",
+      "options": [
+        "Ich kann mir keine Namen merken.",
+        "Ich kann mich keine Namen merken."
+      ],
+      "answer": "Ich kann mir keine Namen merken.",
+      "explanation": "Dative mir.",
+      "id": "q5"
+    }
+  ]
+}

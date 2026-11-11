@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Professor",
+    "partOfSpeech": "noun, masculine (der Professor)",
+    "pronunciation": {
+      "respelling": "pro-FE-sor",
+      "ipa": "pʁoˈfɛsoːɐ̯",
+      "notes": "Plural: die Professoren."
+    },
+    "meaning": "professor",
+    "shortDefinition": "Professor."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Professor, plural die Professoren.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Professor"
+        },
+        {
+          "label": "More than one",
+          "value": "die Professoren"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Professor hält eine Vorlesung.",
+      "english": "The professor is giving a lecture.",
+      "highlight": [
+        "Professor"
+      ]
+    },
+    {
+      "german": "Sie ist Professorin für Physik.",
+      "english": "She's a professor of physics.",
+      "highlight": [
+        "Professorin"
+      ]
+    },
+    {
+      "german": "Die Professoren sind sehr bekannt.",
+      "english": "The professors are very well known.",
+      "highlight": [
+        "Professoren"
+      ]
+    }
+  ],
+  "forms": [
+    "Professorin",
+    "Prof."
+  ],
+  "memoryHook": "Der Professor (pro-FE-sor), die Professoren (pro-fe-SOH-ren).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Professor",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Professor is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Professor, zwei ___",
+      "answer": "Professoren",
+      "fullAnswer": "ein Professor, zwei Professoren",
+      "explanation": "The plural is Professoren.",
+      "acceptedAnswers": [
+        "Professoren"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Professor mean?",
+      "options": [
+        "professor",
+        "the street",
+        "expensive"
+      ],
+      "answer": "professor",
+      "explanation": "Professor: professor.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural stress moves to…",
+      "options": [
+        "-SO-: Professoren",
+        "stays: PRO-"
+      ],
+      "answer": "-SO-: Professoren",
+      "explanation": "pro-fe-SOH-ren.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Abbreviation (title):",
+      "options": [
+        "Prof.",
+        "Pr."
+      ],
+      "answer": "Prof.",
+      "explanation": "Prof. Dr.",
+      "id": "q5"
+    }
+  ]
+}

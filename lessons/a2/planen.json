@@ -1,0 +1,165 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "planen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "PLAA-nen",
+      "ipa": "ˈplaːnən",
+      "notes": ""
+    },
+    "meaning": "to plan",
+    "shortDefinition": "To plan."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "plan|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "plan|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "plan|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "plan|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "plan|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "plan|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat geplant"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "der Plan",
+      "english": "plan",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir planen eine Reise.",
+      "english": "We're planning a trip.",
+      "highlight": [
+        "planen"
+      ]
+    },
+    {
+      "german": "Was hast du für morgen geplant?",
+      "english": "What have you planned for tomorrow?",
+      "highlight": [
+        "geplant?"
+      ]
+    },
+    {
+      "german": "Alles läuft wie geplant.",
+      "english": "Everything is going to plan.",
+      "highlight": [
+        "geplant."
+      ]
+    }
+  ],
+  "forms": [
+    "plane",
+    "planst",
+    "plant",
+    "planen",
+    "geplant"
+  ],
+  "memoryHook": "Der Plan → planen. Wie geplant = as planned.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (planen)",
+      "answer": "plant",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: plant.",
+      "acceptedAnswers": [
+        "plant"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (planen, past)",
+      "answer": "geplant",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe geplant.",
+      "acceptedAnswers": [
+        "geplant"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does planen mean?",
+      "options": [
+        "hot",
+        "the child",
+        "to plan"
+      ],
+      "answer": "to plan",
+      "explanation": "planen: to plan.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'As planned':",
+      "options": [
+        "wie geplant",
+        "als geplant"
+      ],
+      "answer": "wie geplant",
+      "explanation": "Wie.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "The noun:",
+      "options": [
+        "der Plan",
+        "die Planung only"
+      ],
+      "answer": "der Plan",
+      "explanation": "Both exist.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "schicken",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "SHIK-en",
+      "ipa": "ˈʃɪkn̩",
+      "notes": ""
+    },
+    "meaning": "to send",
+    "shortDefinition": "To send."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "schick|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "schick|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "schick|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "schick|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "schick|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "schick|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat geschickt"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich schicke dir eine Nachricht.",
+      "english": "I'll send you a message.",
+      "highlight": [
+        "schicke"
+      ]
+    },
+    {
+      "german": "Hast du das Paket schon geschickt?",
+      "english": "Have you sent the parcel yet?",
+      "highlight": [
+        "geschickt?"
+      ]
+    },
+    {
+      "german": "Schick mir die Fotos!",
+      "english": "Send me the photos!",
+      "highlight": [
+        "Schick"
+      ]
+    }
+  ],
+  "forms": [
+    "schicke",
+    "schickst",
+    "schickt",
+    "schicken",
+    "geschickt"
+  ],
+  "memoryHook": "Schicken = send. Receiver in the dative: Ich schicke dir …",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (schicken)",
+      "answer": "schickt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: schickt.",
+      "acceptedAnswers": [
+        "schickt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (schicken, past)",
+      "answer": "geschickt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe geschickt.",
+      "acceptedAnswers": [
+        "geschickt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does schicken mean?",
+      "options": [
+        "to learn",
+        "to send",
+        "to sing"
+      ],
+      "answer": "to send",
+      "explanation": "schicken: to send.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich schicke ___ eine E-Mail. (you)",
+      "options": [
+        "dich",
+        "dir"
+      ],
+      "answer": "dir",
+      "explanation": "The receiver: dative.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "A synonym is…",
+      "options": [
+        "senden",
+        "bringen"
+      ],
+      "answer": "senden",
+      "explanation": "Senden = send.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "vertreiben",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "fer-TRY-ben",
+      "ipa": "fɛɐ̯ˈtʁaɪ̯bn̩",
+      "notes": ""
+    },
+    "meaning": "to drive out, expel; to sell, distribute; to pass (time)",
+    "shortDefinition": "To drive out, expel; to sell, distribute; to pass (time)."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "ver",
+        "meaning": "away"
+      },
+      {
+        "part": "treiben",
+        "meaning": "to drive",
+        "emphasis": "release"
+      }
+    ],
+    "literalMeaning": "to drive away",
+    "summary": "Pushed off and away."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "vertreib|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "vertreib|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "vertreib|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "vertreib|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "vertreib|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "vertreib|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat vertrieben"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Viele Menschen wurden aus ihrer Heimat vertrieben.",
+      "english": "Many people were driven from their homes.",
+      "highlight": [
+        "vertrieben."
+      ]
+    },
+    {
+      "german": "Die Firma vertreibt Software.",
+      "english": "The company sells software.",
+      "highlight": [
+        "vertreibt"
+      ]
+    },
+    {
+      "german": "Wir vertreiben uns die Zeit mit Karten.",
+      "english": "We pass the time playing cards.",
+      "highlight": [
+        "vertreiben"
+      ]
+    }
+  ],
+  "forms": [
+    "Vertrieb",
+    "Vertreibung",
+    "Zeitvertreib"
+  ],
+  "memoryHook": "Vertreiben: expel (Vertreibung); sell (Vertrieb); Zeitvertreib.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (vertreiben)",
+      "answer": "vertreibt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: vertreibt.",
+      "acceptedAnswers": [
+        "vertreibt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (vertreiben, past)",
+      "answer": "vertrieben",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe vertrieben.",
+      "acceptedAnswers": [
+        "vertrieben"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does vertreiben mean?",
+      "options": [
+        "the street",
+        "to drive out",
+        "to sleep"
+      ],
+      "answer": "to drive out",
+      "explanation": "vertreiben: to drive out, expel; to sell, distribute; to pass (time).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Sich die Zeit vertreiben' means…",
+      "options": [
+        "to pass the time",
+        "to waste time"
+      ],
+      "answer": "to pass the time",
+      "explanation": "Pastime.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Noun (sales dept):",
+      "options": [
+        "der Vertrieb",
+        "die Vertreibung only"
+      ],
+      "answer": "der Vertrieb",
+      "explanation": "Sales.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Pastime:",
+      "options": [
+        "der Zeitvertreib",
+        "die Zeitvertreibung"
+      ],
+      "answer": "der Zeitvertreib",
+      "explanation": "Compound.",
+      "id": "q6"
+    }
+  ]
+}

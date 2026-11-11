@@ -1,0 +1,179 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "betragen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "be-TRAA-gen",
+      "ipa": "bəˈtʁaːɡn̩",
+      "notes": ""
+    },
+    "meaning": "to amount to; (sich ~) to behave",
+    "shortDefinition": "To amount to; (sich ~) to behave."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "be",
+        "meaning": "prefix"
+      },
+      {
+        "part": "tragen",
+        "meaning": "to carry"
+      }
+    ],
+    "literalMeaning": "to carry (a sum)"
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "betrag|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "beträg|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "beträg|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "betrag|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "betrag|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "betrag|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat betragen"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Miete beträgt 800 Euro.",
+      "english": "The rent amounts to 800 euros.",
+      "highlight": [
+        "beträgt"
+      ]
+    },
+    {
+      "german": "Der Unterschied beträgt zwei Prozent.",
+      "english": "The difference is two per cent.",
+      "highlight": [
+        "beträgt"
+      ]
+    },
+    {
+      "german": "Er hat sich gut betragen.",
+      "english": "He behaved well.",
+      "highlight": [
+        "betragen."
+      ]
+    }
+  ],
+  "forms": [
+    "Betrag"
+  ],
+  "memoryHook": "Betragen (beträgt) = amount to; der Betrag.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (betragen)",
+      "answer": "beträgt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: beträgt.",
+      "acceptedAnswers": [
+        "betraegt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (betragen, past)",
+      "answer": "betragen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe betragen.",
+      "acceptedAnswers": [
+        "betragen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does betragen mean?",
+      "options": [
+        "to amount to",
+        "the shop",
+        "the car"
+      ],
+      "answer": "to amount to",
+      "explanation": "betragen: to amount to; (sich ~) to behave.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "er ___ (betragen):",
+      "options": [
+        "beträgt",
+        "betragt"
+      ],
+      "answer": "beträgt",
+      "explanation": "a → ä.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Noun (amount):",
+      "options": [
+        "der Betrag",
+        "die Betragung"
+      ],
+      "answer": "der Betrag",
+      "explanation": "Amount.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Typical subject:",
+      "options": [
+        "Preis, Kosten, Miete",
+        "a person"
+      ],
+      "answer": "Preis, Kosten, Miete",
+      "explanation": "Numbers.",
+      "id": "q6"
+    }
+  ]
+}

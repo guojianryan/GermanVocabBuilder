@@ -1,0 +1,138 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Jahrhundert",
+    "partOfSpeech": "noun, neuter (das Jahrhundert)",
+    "pronunciation": {
+      "respelling": "yaar-HOON-dert",
+      "ipa": "jaːɐ̯ˈhʊndɐt",
+      "notes": "Plural: die Jahrhunderte."
+    },
+    "meaning": "century",
+    "shortDefinition": "Century."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Jahr",
+        "meaning": "year"
+      },
+      {
+        "part": "hundert",
+        "meaning": "hundred",
+        "emphasis": "stretch"
+      }
+    ],
+    "literalMeaning": "a hundred years",
+    "summary": "A long stretch of time."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Jahrhundert, plural die Jahrhunderte.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Jahrhundert"
+        },
+        {
+          "label": "More than one",
+          "value": "die Jahrhunderte"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir leben im 21. Jahrhundert.",
+      "english": "We live in the 21st century.",
+      "highlight": [
+        "Jahrhundert."
+      ]
+    },
+    {
+      "german": "Die Kirche ist aus dem 12. Jahrhundert.",
+      "english": "The church is from the 12th century.",
+      "highlight": [
+        "Jahrhundert."
+      ]
+    },
+    {
+      "german": "Das war das Spiel des Jahrhunderts!",
+      "english": "That was the match of the century!",
+      "highlight": [
+        "Jahrhunderts!"
+      ]
+    }
+  ],
+  "forms": [
+    "Jh."
+  ],
+  "memoryHook": "Jahr + hundert = century (Jh.).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Jahrhundert",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Jahrhundert is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Jahrhundert, zwei ___",
+      "answer": "Jahrhunderte",
+      "fullAnswer": "ein Jahrhundert, zwei Jahrhunderte",
+      "explanation": "The plural is Jahrhunderte.",
+      "acceptedAnswers": [
+        "Jahrhunderte"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Jahrhundert mean?",
+      "options": [
+        "century",
+        "to help",
+        "quiet"
+      ],
+      "answer": "century",
+      "explanation": "Jahrhundert: century.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Jahr + hundert",
+        "Jahr + Hund"
+      ],
+      "answer": "Jahr + hundert",
+      "explanation": "Hundred years.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Abbreviation:",
+      "options": [
+        "Jh.",
+        "Jhd only"
+      ],
+      "answer": "Jh.",
+      "explanation": "Written.",
+      "id": "q5"
+    }
+  ]
+}

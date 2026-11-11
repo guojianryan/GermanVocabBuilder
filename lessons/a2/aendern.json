@@ -1,0 +1,170 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "ändern",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "EN-dern",
+      "ipa": "ˈɛndɐn",
+      "notes": ""
+    },
+    "meaning": "to change",
+    "shortDefinition": "To change."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "änder|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "änder|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "änder|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "änder|n"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "änder|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "änder|n"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat geändert"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "die Änderung",
+      "english": "change",
+      "type": "noun"
+    },
+    {
+      "german": "anders",
+      "english": "different",
+      "type": "adjective"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wie kann ich mein Passwort ändern?",
+      "english": "How can I change my password?",
+      "highlight": [
+        "ändern?"
+      ]
+    },
+    {
+      "german": "Das Wetter hat sich geändert.",
+      "english": "The weather has changed.",
+      "highlight": [
+        "geändert."
+      ]
+    },
+    {
+      "german": "Wir müssen den Plan ändern.",
+      "english": "We need to change the plan.",
+      "highlight": [
+        "ändern."
+      ]
+    }
+  ],
+  "forms": [
+    "ändere",
+    "änderst",
+    "ändert",
+    "ändern",
+    "geändert"
+  ],
+  "memoryHook": "Ändern = change something. Sich ändern = to change (by itself). Money: wechseln.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (ändern)",
+      "answer": "ändert",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: ändert.",
+      "acceptedAnswers": [
+        "aendert"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (ändern, past)",
+      "answer": "geändert",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe geändert.",
+      "acceptedAnswers": [
+        "geaendert"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does ändern mean?",
+      "options": [
+        "to change",
+        "the window",
+        "to learn"
+      ],
+      "answer": "to change",
+      "explanation": "ändern: to change.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Things have changed':",
+      "options": [
+        "Es hat sich viel geändert.",
+        "Es hat viel geändert."
+      ],
+      "answer": "Es hat sich viel geändert.",
+      "explanation": "Change by itself: sich ändern.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Changing money is…",
+      "options": [
+        "Geld wechseln",
+        "Geld ändern"
+      ],
+      "answer": "Geld wechseln",
+      "explanation": "Wechseln = exchange.",
+      "id": "q5"
+    }
+  ]
+}

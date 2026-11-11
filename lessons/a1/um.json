@@ -1,0 +1,169 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "full",
+  "word": {
+    "headword": "um",
+    "partOfSpeech": "preposition (always with the accusative)",
+    "pronunciation": {
+      "respelling": "OOM",
+      "ipa": "ʊm",
+      "notes": "Short u."
+    },
+    "meaning": "at (clock time); around",
+    "shortDefinition": "Exact clock times, and going around something."
+  },
+  "intro": {
+    "title": "Um acht Uhr",
+    "paragraphs": [
+      "Um is the word for clock times: um acht Uhr (at eight). It also means 'around': um die Ecke (round the corner), um den See. Approximate times use gegen."
+    ]
+  },
+  "wordFamily": [
+    {
+      "german": "um … herum",
+      "english": "around",
+      "type": "phrase"
+    },
+    {
+      "german": "umsteigen",
+      "english": "to change (trains)",
+      "type": "separable verb"
+    },
+    {
+      "german": "gegen",
+      "english": "around (approx. time)",
+      "type": "preposition"
+    }
+  ],
+  "keyTrap": {
+    "title": "The big trap: um, am or im?",
+    "explanation": "Clock times: um. Days and dates: am. Months, seasons, years: im (or nothing for years).",
+    "wrong": {
+      "german": "Ich komme am 8 Uhr.",
+      "verdict": "Clock time: um."
+    },
+    "correct": [
+      {
+        "german": "Ich komme um 8 Uhr.",
+        "literal": "I come at 8 o'clock.",
+        "note": "Clock: um."
+      },
+      {
+        "german": "Ich komme am Montag.",
+        "literal": "I come on-the Monday.",
+        "note": "Day: am."
+      },
+      {
+        "german": "Ich komme im Mai.",
+        "literal": "I come in-the May.",
+        "note": "Month: im."
+      }
+    ]
+  },
+  "commonMistakes": [
+    {
+      "title": "Around (approximately)",
+      "explanation": "Gegen or um … herum for approximate times.",
+      "examples": [
+        {
+          "german": "Ich komme gegen acht.",
+          "english": "I'll come around eight.",
+          "highlight": "gegen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Film beginnt um 20 Uhr.",
+      "english": "The film starts at 8pm.",
+      "highlight": [
+        "um"
+      ]
+    },
+    {
+      "german": "Um wie viel Uhr fährt der Zug?",
+      "english": "What time does the train leave?",
+      "highlight": [
+        "Um"
+      ]
+    },
+    {
+      "german": "Die Bäckerei ist gleich um die Ecke.",
+      "english": "The bakery is just round the corner.",
+      "highlight": [
+        "um"
+      ]
+    },
+    {
+      "german": "Wir laufen um den See.",
+      "english": "We're walking round the lake.",
+      "highlight": [
+        "um"
+      ]
+    }
+  ],
+  "forms": [
+    "ums"
+  ],
+  "memoryHook": "Um + clock: um 8. Am + day: am Montag. Im + month: im Mai.",
+  "signOff": "Bis morgen um die gleiche Zeit!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Ich stehe ___ sechs Uhr auf.",
+      "options": [
+        "um",
+        "am"
+      ],
+      "answer": "um",
+      "explanation": "Clock time.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Wir treffen uns ___ Freitag.",
+      "options": [
+        "um",
+        "am"
+      ],
+      "answer": "am",
+      "explanation": "Day.",
+      "id": "q2"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "___ wie viel Uhr? (At what time?)",
+      "answer": "Um",
+      "fullAnswer": "Um wie viel Uhr?",
+      "explanation": "Um.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Um die Ecke' means…",
+      "options": [
+        "round the corner",
+        "at the corner"
+      ],
+      "answer": "round the corner",
+      "explanation": "Around.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Approximate time:",
+      "options": [
+        "gegen acht",
+        "um acht"
+      ],
+      "answer": "gegen acht",
+      "explanation": "Gegen = around.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Oma",
+    "partOfSpeech": "noun, feminine (die Oma)",
+    "pronunciation": {
+      "respelling": "OH-ma",
+      "ipa": "ˈoːma",
+      "notes": "Plural: die Omas."
+    },
+    "meaning": "grandma, granny",
+    "shortDefinition": "Grandma, granny."
+  },
+  "wordFamily": [
+    {
+      "german": "der Opa",
+      "english": "grandpa",
+      "type": "noun"
+    },
+    {
+      "german": "die Großmutter",
+      "english": "grandmother",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Oma, plural die Omas.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Oma"
+        },
+        {
+          "label": "More than one",
+          "value": "die Omas"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Meine Oma backt den besten Kuchen.",
+      "english": "My grandma bakes the best cake.",
+      "highlight": [
+        "Oma"
+      ]
+    },
+    {
+      "german": "Am Sonntag besuchen wir Oma.",
+      "english": "On Sunday we're visiting Grandma.",
+      "highlight": [
+        "Oma."
+      ]
+    },
+    {
+      "german": "Oma und Opa kommen zu Weihnachten.",
+      "english": "Grandma and Grandpa are coming for Christmas.",
+      "highlight": [
+        "Oma"
+      ]
+    }
+  ],
+  "forms": [
+    "Omas",
+    "die Omas",
+    "die Oma"
+  ],
+  "memoryHook": "Oma = grandma (formal: Großmutter). Plural Omas.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Oma",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Oma is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Oma, zwei ___",
+      "answer": "Omas",
+      "fullAnswer": "ein Oma, zwei Omas",
+      "explanation": "The plural is Omas.",
+      "acceptedAnswers": [
+        "Omas"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Oma mean?",
+      "options": [
+        "quiet",
+        "the key",
+        "grandma"
+      ],
+      "answer": "grandma",
+      "explanation": "Oma: grandma, granny.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "The formal word for Oma is…",
+      "options": [
+        "die Großmutter",
+        "die Großfrau"
+      ],
+      "answer": "die Großmutter",
+      "explanation": "Großmutter.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Oma's partner is…",
+      "options": [
+        "Opa",
+        "Papa"
+      ],
+      "answer": "Opa",
+      "explanation": "Oma und Opa.",
+      "id": "q5"
+    }
+  ]
+}

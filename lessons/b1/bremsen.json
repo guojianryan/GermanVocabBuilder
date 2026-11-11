@@ -1,0 +1,164 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "bremsen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "BREM-zen",
+      "ipa": "ˈbʁɛmzn̩",
+      "notes": ""
+    },
+    "meaning": "to brake",
+    "shortDefinition": "To brake."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "brems|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "brems|t"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "brems|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "brems|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "brems|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "brems|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gebremst"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "die Bremse",
+      "english": "brake",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er hat zu spät gebremst.",
+      "english": "He braked too late.",
+      "highlight": [
+        "gebremst."
+      ]
+    },
+    {
+      "german": "Brems!",
+      "english": "Brake!",
+      "highlight": [
+        "Brems!"
+      ]
+    },
+    {
+      "german": "Das Fahrrad bremst schlecht.",
+      "english": "The bike's brakes are poor.",
+      "highlight": [
+        "bremst"
+      ]
+    }
+  ],
+  "forms": [
+    "bremse",
+    "bremst",
+    "bremsen",
+    "gebremst"
+  ],
+  "memoryHook": "Die Bremse → bremsen (brake).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (bremsen)",
+      "answer": "bremst",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: bremst.",
+      "acceptedAnswers": [
+        "bremst"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (bremsen, past)",
+      "answer": "gebremst",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gebremst.",
+      "acceptedAnswers": [
+        "gebremst"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does bremsen mean?",
+      "options": [
+        "the shop",
+        "to brake",
+        "the job"
+      ],
+      "answer": "to brake",
+      "explanation": "bremsen: to brake.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "The brake:",
+      "options": [
+        "die Bremse",
+        "der Brems"
+      ],
+      "answer": "die Bremse",
+      "explanation": "Bremse.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Du ___ .",
+      "options": [
+        "bremst",
+        "bremsest"
+      ],
+      "answer": "bremst",
+      "explanation": "Stem in -s.",
+      "id": "q5"
+    }
+  ]
+}

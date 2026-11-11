@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Rahmen",
+    "partOfSpeech": "noun, masculine (der Rahmen)",
+    "pronunciation": {
+      "respelling": "RAA-men",
+      "ipa": "ˈʁaːmən",
+      "notes": "The plural looks the same. Plural: die Rahmen."
+    },
+    "meaning": "frame; framework",
+    "shortDefinition": "Frame; framework."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Rahmen, plural die Rahmen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Rahmen"
+        },
+        {
+          "label": "More than one",
+          "value": "die Rahmen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das Bild hat einen goldenen Rahmen.",
+      "english": "The picture has a gold frame.",
+      "highlight": [
+        "Rahmen."
+      ]
+    },
+    {
+      "german": "Im Rahmen des Projekts reisen wir nach Rom.",
+      "english": "As part of the project we're travelling to Rome.",
+      "highlight": [
+        "Rahmen"
+      ]
+    },
+    {
+      "german": "Das sprengt den Rahmen.",
+      "english": "That goes beyond the scope.",
+      "highlight": [
+        "Rahmen."
+      ]
+    }
+  ],
+  "forms": [
+    "Rahmen",
+    "die Rahmen",
+    "der Rahmen"
+  ],
+  "memoryHook": "Der Rahmen: frame; im Rahmen = as part of.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Rahmen",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Rahmen is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Rahmen, zwei ___",
+      "answer": "Rahmen",
+      "fullAnswer": "ein Rahmen, zwei Rahmen",
+      "explanation": "The plural is Rahmen.",
+      "acceptedAnswers": [
+        "Rahmen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Rahmen mean?",
+      "options": [
+        "to wait",
+        "the car",
+        "frame"
+      ],
+      "answer": "frame",
+      "explanation": "Rahmen: frame; framework.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Im Rahmen (+ Gen)' means…",
+      "options": [
+        "as part of, within",
+        "in a picture"
+      ],
+      "answer": "as part of, within",
+      "explanation": "Formal.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Rahmen",
+        "Rähmen"
+      ],
+      "answer": "Rahmen",
+      "explanation": "No change.",
+      "id": "q5"
+    }
+  ]
+}

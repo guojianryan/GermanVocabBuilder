@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Wurst",
+    "partOfSpeech": "noun, feminine (die Wurst)",
+    "pronunciation": {
+      "respelling": "VOORST",
+      "ipa": "vʊʁst",
+      "notes": "Plural: die Würste."
+    },
+    "meaning": "sausage; cold cuts",
+    "shortDefinition": "Sausage; cold cuts."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Wurst, plural die Würste.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Wurst"
+        },
+        {
+          "label": "More than one",
+          "value": "die Würste"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich esse ein Brot mit Wurst.",
+      "english": "I'm having bread with cold meat.",
+      "highlight": [
+        "Wurst."
+      ]
+    },
+    {
+      "german": "Eine Bratwurst mit Senf, bitte.",
+      "english": "A fried sausage with mustard, please.",
+      "highlight": [
+        "Bratwurst"
+      ]
+    },
+    {
+      "german": "Das ist mir Wurst.",
+      "english": "I couldn't care less.",
+      "highlight": [
+        "Wurst."
+      ]
+    }
+  ],
+  "forms": [
+    "Würste",
+    "die Würste",
+    "die Wurst"
+  ],
+  "memoryHook": "Die Wurst: sausage or sliced cold meat. Das ist mir Wurst = I don't care.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Wurst",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Wurst is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Wurst, zwei ___",
+      "answer": "Würste",
+      "fullAnswer": "ein Wurst, zwei Würste",
+      "explanation": "The plural is Würste.",
+      "acceptedAnswers": [
+        "Wuerste"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Wurst mean?",
+      "options": [
+        "sausage",
+        "the shop",
+        "the street"
+      ],
+      "answer": "sausage",
+      "explanation": "Wurst: sausage; cold cuts.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Das ist mir Wurst' means…",
+      "options": [
+        "I don't care.",
+        "I love sausage."
+      ],
+      "answer": "I don't care.",
+      "explanation": "Idiom!",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Würste",
+        "Wursten"
+      ],
+      "answer": "Würste",
+      "explanation": "u → ü.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Rätsel",
+    "partOfSpeech": "noun, neuter (das Rätsel)",
+    "pronunciation": {
+      "respelling": "RAYT-sel",
+      "ipa": "ˈʁɛːtsl̩",
+      "notes": "The plural looks the same. Plural: die Rätsel."
+    },
+    "meaning": "puzzle, riddle; mystery",
+    "shortDefinition": "Puzzle, riddle; mystery."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Rätsel, plural die Rätsel.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Rätsel"
+        },
+        {
+          "label": "More than one",
+          "value": "die Rätsel"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich löse gern Rätsel.",
+      "english": "I like doing puzzles.",
+      "highlight": [
+        "Rätsel."
+      ]
+    },
+    {
+      "german": "In der Zeitung ist ein Kreuzworträtsel.",
+      "english": "There's a crossword in the paper.",
+      "highlight": [
+        "Kreuzworträtsel."
+      ]
+    },
+    {
+      "german": "Das ist mir ein Rätsel.",
+      "english": "That's a mystery to me.",
+      "highlight": [
+        "Rätsel."
+      ]
+    }
+  ],
+  "forms": [
+    "Rätsel",
+    "die Rätsel",
+    "das Rätsel"
+  ],
+  "memoryHook": "Raten (guess) → das Rätsel (puzzle).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Rätsel",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Rätsel is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Rätsel, zwei ___",
+      "answer": "Rätsel",
+      "fullAnswer": "ein Rätsel, zwei Rätsel",
+      "explanation": "The plural is Rätsel.",
+      "acceptedAnswers": [
+        "Raetsel"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Rätsel mean?",
+      "options": [
+        "puzzle",
+        "to buy",
+        "the child"
+      ],
+      "answer": "puzzle",
+      "explanation": "Rätsel: puzzle, riddle; mystery.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Solve a puzzle':",
+      "options": [
+        "ein Rätsel lösen",
+        "ein Rätsel machen only"
+      ],
+      "answer": "ein Rätsel lösen",
+      "explanation": "Lösen.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "A crossword:",
+      "options": [
+        "ein Kreuzworträtsel",
+        "ein Wortkreuz"
+      ],
+      "answer": "ein Kreuzworträtsel",
+      "explanation": "Cross-word-puzzle.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Verkauf",
+    "partOfSpeech": "noun, masculine (der Verkauf)",
+    "pronunciation": {
+      "respelling": "fer-KOWF",
+      "ipa": "fɛɐ̯ˈkaʊ̯f",
+      "notes": "Plural: die Verkäufe."
+    },
+    "meaning": "sale, selling",
+    "shortDefinition": "Sale, selling."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Ver",
+        "meaning": "away (prefix)"
+      },
+      {
+        "part": "kauf",
+        "meaning": "buying"
+      }
+    ],
+    "literalMeaning": "buying-away (selling)"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Verkauf, plural die Verkäufe.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Verkauf"
+        },
+        {
+          "label": "More than one",
+          "value": "die Verkäufe"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das Haus steht zum Verkauf.",
+      "english": "The house is for sale.",
+      "highlight": [
+        "Verkauf."
+      ]
+    },
+    {
+      "german": "Der Verkauf läuft gut.",
+      "english": "Sales are going well.",
+      "highlight": [
+        "Verkauf"
+      ]
+    },
+    {
+      "german": "Sie arbeitet im Verkauf.",
+      "english": "She works in sales.",
+      "highlight": [
+        "Verkauf."
+      ]
+    }
+  ],
+  "forms": [
+    "verkaufen"
+  ],
+  "memoryHook": "Verkaufen → der Verkauf ↔ Kauf.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Verkauf",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Verkauf is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Verkauf, zwei ___",
+      "answer": "Verkäufe",
+      "fullAnswer": "ein Verkauf, zwei Verkäufe",
+      "explanation": "The plural is Verkäufe.",
+      "acceptedAnswers": [
+        "Verkaeufe"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Verkauf mean?",
+      "options": [
+        "expensive",
+        "cheap",
+        "sale"
+      ],
+      "answer": "sale",
+      "explanation": "Verkauf: sale, selling.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Zum Verkauf stehen' means…",
+      "options": [
+        "to be for sale",
+        "to stand at the till"
+      ],
+      "answer": "to be for sale",
+      "explanation": "For sale.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Opposite:",
+      "options": [
+        "der Kauf / Einkauf",
+        "der Ausverkauf"
+      ],
+      "answer": "der Kauf / Einkauf",
+      "explanation": "Purchase.",
+      "id": "q5"
+    }
+  ]
+}

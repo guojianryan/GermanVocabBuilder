@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Formular",
+    "partOfSpeech": "noun, neuter (das Formular)",
+    "pronunciation": {
+      "respelling": "for-moo-LAHR",
+      "ipa": "fɔʁmuˈlaːɐ̯",
+      "notes": "Plural: die Formulare."
+    },
+    "meaning": "form (to fill in)",
+    "shortDefinition": "Form (to fill in)."
+  },
+  "wordFamily": [
+    {
+      "german": "ausfüllen",
+      "english": "to fill in",
+      "type": "separable verb"
+    },
+    {
+      "german": "der Antrag",
+      "english": "application",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Formular, plural die Formulare.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Formular"
+        },
+        {
+          "label": "More than one",
+          "value": "die Formulare"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Füllen Sie bitte dieses Formular aus.",
+      "english": "Please fill in this form.",
+      "highlight": [
+        "Formular"
+      ]
+    },
+    {
+      "german": "Das Formular gibt es auch online.",
+      "english": "The form is also available online.",
+      "highlight": [
+        "Formular"
+      ]
+    },
+    {
+      "german": "Unterschreiben Sie das Formular hier unten.",
+      "english": "Sign the form down here.",
+      "highlight": [
+        "Formular"
+      ]
+    }
+  ],
+  "forms": [
+    "Formulare",
+    "die Formulare",
+    "das Formular"
+  ],
+  "memoryHook": "Germany runs on Formulare. Ausfüllen, then unterschreiben (sign).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Formular",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Formular is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Formular, zwei ___",
+      "answer": "Formulare",
+      "fullAnswer": "ein Formular, zwei Formulare",
+      "explanation": "The plural is Formulare.",
+      "acceptedAnswers": [
+        "Formulare"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Formular mean?",
+      "options": [
+        "the bread",
+        "form (to fill in)",
+        "the bill"
+      ],
+      "answer": "form (to fill in)",
+      "explanation": "Formular: form (to fill in).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "You ___ ein Formular aus.",
+      "options": [
+        "füllen",
+        "machen"
+      ],
+      "answer": "füllen",
+      "explanation": "Ausfüllen: fill in.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Where's the stress?",
+      "options": [
+        "FOR-mu-lar",
+        "for-mu-LAR"
+      ],
+      "answer": "for-mu-LAR",
+      "explanation": "Stress the end.",
+      "id": "q5"
+    }
+  ]
+}

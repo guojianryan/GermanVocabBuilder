@@ -1,0 +1,147 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Gewebe",
+    "partOfSpeech": "noun, neuter (das Gewebe)",
+    "pronunciation": {
+      "respelling": "ge-VAY-be",
+      "ipa": "ɡəˈveːbə",
+      "notes": "The plural looks the same. Plural: die Gewebe."
+    },
+    "meaning": "fabric; tissue",
+    "shortDefinition": "Fabric; tissue."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Ge",
+        "meaning": "collective prefix"
+      },
+      {
+        "part": "webe",
+        "meaning": "weaving (weben)"
+      }
+    ],
+    "literalMeaning": "something woven"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Gewebe, plural die Gewebe.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Gewebe"
+        },
+        {
+          "label": "More than one",
+          "value": "die Gewebe"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das Gewebe ist sehr fein.",
+      "english": "The fabric is very fine.",
+      "highlight": [
+        "Gewebe"
+      ]
+    },
+    {
+      "german": "Der Arzt entnimmt eine Gewebeprobe.",
+      "english": "The doctor takes a tissue sample.",
+      "highlight": [
+        "Gewebeprobe."
+      ]
+    },
+    {
+      "german": "Ein Gewebe aus Lügen.",
+      "english": "A web of lies.",
+      "highlight": [
+        "Gewebe"
+      ]
+    }
+  ],
+  "forms": [
+    "weben"
+  ],
+  "memoryHook": "Weben → das Gewebe (fabric; tissue).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Gewebe",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Gewebe is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Gewebe, zwei ___",
+      "answer": "Gewebe",
+      "fullAnswer": "ein Gewebe, zwei Gewebe",
+      "explanation": "The plural is Gewebe.",
+      "acceptedAnswers": [
+        "Gewebe"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Gewebe mean?",
+      "options": [
+        "fabric",
+        "to sleep",
+        "the job"
+      ],
+      "answer": "fabric",
+      "explanation": "Gewebe: fabric; tissue.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "weben (weave)",
+        "wehen"
+      ],
+      "answer": "weben (weave)",
+      "explanation": "Weave.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Biology 'Gewebe' =",
+      "options": [
+        "tissue",
+        "fabric only"
+      ],
+      "answer": "tissue",
+      "explanation": "Tissue.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Gewebe",
+        "Geweben"
+      ],
+      "answer": "Gewebe",
+      "explanation": "No change.",
+      "id": "q6"
+    }
+  ]
+}

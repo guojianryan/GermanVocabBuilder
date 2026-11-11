@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Netz",
+    "partOfSpeech": "noun, neuter (das Netz)",
+    "pronunciation": {
+      "respelling": "NETS",
+      "ipa": "nɛts",
+      "notes": "Plural: die Netze."
+    },
+    "meaning": "net; network",
+    "shortDefinition": "Net; network."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Netz, plural die Netze.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Netz"
+        },
+        {
+          "label": "More than one",
+          "value": "die Netze"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich habe hier kein Netz.",
+      "english": "I've got no signal here.",
+      "highlight": [
+        "Netz."
+      ]
+    },
+    {
+      "german": "Das steht im Netz.",
+      "english": "It's on the internet.",
+      "highlight": [
+        "Netz."
+      ]
+    },
+    {
+      "german": "Der Ball ist im Netz!",
+      "english": "The ball is in the net!",
+      "highlight": [
+        "Netz!"
+      ]
+    }
+  ],
+  "forms": [
+    "Netze",
+    "die Netze",
+    "das Netz"
+  ],
+  "memoryHook": "Das Netz: net, network, internet, signal.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Netz",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Netz is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Netz, zwei ___",
+      "answer": "Netze",
+      "fullAnswer": "ein Netz, zwei Netze",
+      "explanation": "The plural is Netze.",
+      "acceptedAnswers": [
+        "Netze"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Netz mean?",
+      "options": [
+        "the street",
+        "to wait",
+        "net"
+      ],
+      "answer": "net",
+      "explanation": "Netz: net; network.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Kein Netz haben' means…",
+      "options": [
+        "no mobile signal",
+        "no fishing net"
+      ],
+      "answer": "no mobile signal",
+      "explanation": "Signal.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Im Netz' often means…",
+      "options": [
+        "online",
+        "trapped"
+      ],
+      "answer": "online",
+      "explanation": "Internet.",
+      "id": "q5"
+    }
+  ]
+}

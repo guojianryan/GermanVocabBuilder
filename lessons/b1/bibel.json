@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Bibel",
+    "partOfSpeech": "noun, feminine (die Bibel)",
+    "pronunciation": {
+      "respelling": "BEE-bel",
+      "ipa": "ˈbiːbl̩",
+      "notes": "Plural: die Bibeln."
+    },
+    "meaning": "Bible",
+    "shortDefinition": "Bible."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Bibel, plural die Bibeln.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Bibel"
+        },
+        {
+          "label": "More than one",
+          "value": "die Bibeln"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er liest jeden Tag in der Bibel.",
+      "english": "He reads the Bible every day.",
+      "highlight": [
+        "Bibel."
+      ]
+    },
+    {
+      "german": "Das steht schon in der Bibel.",
+      "english": "That's already in the Bible.",
+      "highlight": [
+        "Bibel."
+      ]
+    },
+    {
+      "german": "Dieses Kochbuch ist meine Bibel.",
+      "english": "This cookbook is my bible.",
+      "highlight": [
+        "Bibel."
+      ]
+    }
+  ],
+  "forms": [
+    "Bibeln",
+    "die Bibeln",
+    "die Bibel"
+  ],
+  "memoryHook": "Die Bibel (Luther's translation shaped German).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Bibel",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Bibel is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Bibel, zwei ___",
+      "answer": "Bibeln",
+      "fullAnswer": "ein Bibel, zwei Bibeln",
+      "explanation": "The plural is Bibeln.",
+      "acceptedAnswers": [
+        "Bibeln"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Bibel mean?",
+      "options": [
+        "to open",
+        "Bible",
+        "expensive"
+      ],
+      "answer": "Bible",
+      "explanation": "Bibel: Bible.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gender:",
+      "options": [
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Die Bibel.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Luther translated it into…",
+      "options": [
+        "German",
+        "Latin"
+      ],
+      "answer": "German",
+      "explanation": "1534.",
+      "id": "q5"
+    }
+  ]
+}

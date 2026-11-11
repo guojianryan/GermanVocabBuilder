@@ -1,0 +1,138 @@
+{
+ "schemaVersion": "1.4",
+ "language": "de",
+ "explanationLanguage": "en",
+ "level": "A2",
+ "levelSource": "Goethe-Zertifikat A2 Wortliste",
+ "lessonType": "card",
+ "word": {
+  "headword": "Stadtplan",
+  "partOfSpeech": "noun, masculine (der Stadtplan)",
+  "pronunciation": {
+   "respelling": "SHTAT-plaan",
+   "ipa": "ˈʃtatplaːn",
+   "notes": "Plural: die Stadtpläne."
+  },
+  "meaning": "city map",
+  "shortDefinition": "City map."
+ },
+ "commonMistakes": [
+  {
+   "title": "Gender and plural",
+   "explanation": "Der Stadtplan, plural die Stadtpläne.",
+   "forms": [
+    {
+     "label": "One",
+     "value": "der Stadtplan"
+    },
+    {
+     "label": "More than one",
+     "value": "die Stadtpläne"
+    }
+   ]
+  }
+ ],
+ "sampleSentences": [
+  {
+   "german": "Hast du einen Stadtplan?",
+   "english": "Have you got a city map?",
+   "highlight": [
+    "Stadtplan?"
+   ]
+  },
+  {
+   "german": "Den Stadtplan gibt es in der Touristeninformation.",
+   "english": "You can get the city map at the tourist office.",
+   "highlight": [
+    "Stadtplan"
+   ]
+  },
+  {
+   "german": "Zeig mir das auf dem Stadtplan.",
+   "english": "Show me on the map.",
+   "highlight": [
+    "Stadtplan."
+   ]
+  }
+ ],
+ "forms": [
+  "Stadtpläne",
+  "die Stadtpläne",
+  "der Stadtplan"
+ ],
+ "memoryHook": "Stadt + Plan = city map. Country map: Landkarte.",
+ "signOff": "Gut gemacht!",
+ "quiz": [
+  {
+   "type": "choice",
+   "prompt": "___ Stadtplan",
+   "options": [
+    "der",
+    "die",
+    "das"
+   ],
+   "answer": "der",
+   "explanation": "Stadtplan is masculine.",
+   "id": "q1"
+  },
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "ein Stadtplan, zwei ___",
+   "answer": "Stadtpläne",
+   "fullAnswer": "ein Stadtplan, zwei Stadtpläne",
+   "explanation": "The plural is Stadtpläne.",
+   "acceptedAnswers": [
+    "Stadtplaene"
+   ],
+   "id": "q2"
+  },
+  {
+   "type": "choice",
+   "prompt": "What does Stadtplan mean?",
+   "options": [
+    "cheap",
+    "city map",
+    "expensive"
+   ],
+   "answer": "city map",
+   "explanation": "Stadtplan: city map.",
+   "id": "q3"
+  },
+  {
+   "type": "choice",
+   "prompt": "A map of a country:",
+   "options": [
+    "die Landkarte",
+    "der Landplan"
+   ],
+   "answer": "die Landkarte",
+   "explanation": "Karte.",
+   "id": "q4"
+  },
+  {
+   "type": "choice",
+   "prompt": "'On the map':",
+   "options": [
+    "auf dem Stadtplan",
+    "im Stadtplan"
+   ],
+   "answer": "auf dem Stadtplan",
+   "explanation": "Auf.",
+   "id": "q5"
+  }
+ ],
+ "etymology": {
+  "title": "Where it comes from",
+  "parts": [
+   {
+    "part": "Stadt",
+    "meaning": "city"
+   },
+   {
+    "part": "plan",
+    "meaning": "plan"
+   }
+  ],
+  "literalMeaning": "city plan"
+ }
+}

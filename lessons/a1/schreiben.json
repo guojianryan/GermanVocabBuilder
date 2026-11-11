@@ -1,0 +1,171 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "schreiben",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "SHRY-ben",
+      "ipa": "ˈʃʁaɪ̯bn̩",
+      "notes": ""
+    },
+    "meaning": "to write",
+    "shortDefinition": "To write."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "schreib|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "schreib|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "schreib|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "schreib|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "schreib|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "schreib|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat geschrieben"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "unterschreiben",
+      "english": "to sign",
+      "type": "verb"
+    },
+    {
+      "german": "der Schreibtisch",
+      "english": "desk",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er schreibt jeden Tag fünfzig E-Mails.",
+      "english": "He writes fifty emails every day.",
+      "highlight": [
+        "schreibt"
+      ]
+    },
+    {
+      "german": "Wie schreibt man das?",
+      "english": "How do you spell that?",
+      "highlight": [
+        "schreibt"
+      ]
+    },
+    {
+      "german": "Ich habe dir eine Nachricht geschrieben.",
+      "english": "I've sent you a message.",
+      "highlight": [
+        "geschrieben."
+      ]
+    }
+  ],
+  "forms": [
+    "schreibe",
+    "schreibst",
+    "schreibt",
+    "schreiben",
+    "geschrieben",
+    "schrieb"
+  ],
+  "memoryHook": "Schreiben, schrieb, geschrieben: ei → ie in the past.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (schreiben)",
+      "answer": "schreibt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: schreibt.",
+      "acceptedAnswers": [
+        "schreibt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (schreiben, past)",
+      "answer": "geschrieben",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe geschrieben.",
+      "acceptedAnswers": [
+        "geschrieben"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does schreiben mean?",
+      "options": [
+        "to write",
+        "the job",
+        "expensive"
+      ],
+      "answer": "to write",
+      "explanation": "schreiben: to write.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'How do you spell that?'",
+      "options": [
+        "Wie schreibt man das?",
+        "Wie spellt man das?"
+      ],
+      "answer": "Wie schreibt man das?",
+      "explanation": "Schreiben = write and spell.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Write to me!'",
+      "options": [
+        "Schreib mir!",
+        "Schreib zu mir!"
+      ],
+      "answer": "Schreib mir!",
+      "explanation": "Dative: mir.",
+      "id": "q5"
+    }
+  ]
+}

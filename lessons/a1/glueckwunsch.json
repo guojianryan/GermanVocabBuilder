@@ -1,0 +1,150 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Glückwunsch",
+    "partOfSpeech": "noun, masculine (der Glückwunsch)",
+    "pronunciation": {
+      "respelling": "GLUEK-voonsh",
+      "ipa": "ˈɡlʏkˌvʊnʃ",
+      "notes": "Plural: die Glückwünsche."
+    },
+    "meaning": "congratulations",
+    "shortDefinition": "Congratulations."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Glück",
+        "meaning": "luck"
+      },
+      {
+        "part": "wunsch",
+        "meaning": "wish"
+      }
+    ],
+    "literalMeaning": "lucky wish"
+  },
+  "wordFamily": [
+    {
+      "german": "gratulieren",
+      "english": "to congratulate",
+      "type": "verb"
+    },
+    {
+      "german": "der Wunsch",
+      "english": "wish",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Glückwunsch, plural die Glückwünsche.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Glückwunsch"
+        },
+        {
+          "label": "More than one",
+          "value": "die Glückwünsche"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Herzlichen Glückwunsch zum Geburtstag!",
+      "english": "Happy birthday!",
+      "highlight": [
+        "Glückwunsch"
+      ]
+    },
+    {
+      "german": "Herzlichen Glückwunsch zur Hochzeit!",
+      "english": "Congratulations on your wedding!",
+      "highlight": [
+        "Glückwunsch"
+      ]
+    },
+    {
+      "german": "Viele Glückwünsche aus Berlin!",
+      "english": "Best wishes from Berlin!",
+      "highlight": [
+        "Glückwünsche"
+      ]
+    }
+  ],
+  "forms": [
+    "Glückwünsche",
+    "die Glückwünsche",
+    "der Glückwunsch"
+  ],
+  "memoryHook": "Glück + Wunsch (wish). Herzlichen Glückwunsch zum Geburtstag! = Happy birthday!",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Glückwunsch",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Glückwunsch is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Glückwunsch, zwei ___",
+      "answer": "Glückwünsche",
+      "fullAnswer": "ein Glückwunsch, zwei Glückwünsche",
+      "explanation": "The plural is Glückwünsche.",
+      "acceptedAnswers": [
+        "Glueckwuensche"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Glückwunsch mean?",
+      "options": [
+        "quiet",
+        "congratulations",
+        "the key"
+      ],
+      "answer": "congratulations",
+      "explanation": "Glückwunsch: congratulations.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Herzlichen Glückwunsch ___ Geburtstag!",
+      "options": [
+        "zum",
+        "für"
+      ],
+      "answer": "zum",
+      "explanation": "Zum Geburtstag.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Glückwunsch = Glück + Wunsch. Wunsch means…",
+      "options": [
+        "wish",
+        "win"
+      ],
+      "answer": "wish",
+      "explanation": "A lucky wish.",
+      "id": "q5"
+    }
+  ]
+}

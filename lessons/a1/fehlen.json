@@ -1,0 +1,165 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "fehlen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "FAY-len",
+      "ipa": "ˈfeːlən",
+      "notes": ""
+    },
+    "meaning": "to be missing; to be absent",
+    "shortDefinition": "To be missing; to be absent."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "fehl|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "fehl|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "fehl|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "fehl|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "fehl|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "fehl|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gefehlt"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "der Fehler",
+      "english": "mistake",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "An meinem Arbeitsplatz fehlt ein Drucker.",
+      "english": "There's no printer at my workplace.",
+      "highlight": [
+        "fehlt"
+      ]
+    },
+    {
+      "german": "Wer fehlt heute?",
+      "english": "Who's absent today?",
+      "highlight": [
+        "fehlt"
+      ]
+    },
+    {
+      "german": "Was fehlt Ihnen?",
+      "english": "What's wrong with you? (at the doctor's)",
+      "highlight": [
+        "fehlt"
+      ]
+    }
+  ],
+  "forms": [
+    "fehle",
+    "fehlst",
+    "fehlt",
+    "fehlen",
+    "gefehlt"
+  ],
+  "memoryHook": "Fehlen = be missing. Du fehlst mir = I miss you (you are missing for me).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (fehlen)",
+      "answer": "fehlt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: fehlt.",
+      "acceptedAnswers": [
+        "fehlt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (fehlen, past)",
+      "answer": "gefehlt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gefehlt.",
+      "acceptedAnswers": [
+        "gefehlt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does fehlen mean?",
+      "options": [
+        "to be missing",
+        "the station",
+        "the car"
+      ],
+      "answer": "to be missing",
+      "explanation": "fehlen: to be missing; to be absent.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Du fehlst mir' means…",
+      "options": [
+        "I miss you",
+        "You're wrong"
+      ],
+      "answer": "I miss you",
+      "explanation": "Literally: you are missing to me.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "The doctor asks 'Was fehlt Ihnen?' He wants to know…",
+      "options": [
+        "what's wrong with you",
+        "what you're missing"
+      ],
+      "answer": "what's wrong with you",
+      "explanation": "A classic doctor's question.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Lokal",
+    "partOfSpeech": "noun, neuter (das Lokal)",
+    "pronunciation": {
+      "respelling": "loh-KAHL",
+      "ipa": "loˈkaːl",
+      "notes": "Plural: die Lokale."
+    },
+    "meaning": "pub, restaurant, bar",
+    "shortDefinition": "Pub, restaurant, bar."
+  },
+  "wordFamily": [
+    {
+      "german": "die Kneipe",
+      "english": "pub",
+      "type": "noun"
+    },
+    {
+      "german": "das Restaurant",
+      "english": "restaurant",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Lokal, plural die Lokale.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Lokal"
+        },
+        {
+          "label": "More than one",
+          "value": "die Lokale"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Gibt es hier ein gutes Lokal?",
+      "english": "Is there a good place to eat round here?",
+      "highlight": [
+        "Lokal?"
+      ]
+    },
+    {
+      "german": "Das Lokal ist sonntags geschlossen.",
+      "english": "The restaurant is closed on Sundays.",
+      "highlight": [
+        "Lokal"
+      ]
+    },
+    {
+      "german": "Wir treffen uns im Lokal am Markt.",
+      "english": "We're meeting at the pub on the market square.",
+      "highlight": [
+        "Lokal"
+      ]
+    }
+  ],
+  "forms": [
+    "Lokale",
+    "die Lokale",
+    "das Lokal"
+  ],
+  "memoryHook": "Das Lokal = a pub or restaurant (not 'a local person').",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Lokal",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Lokal is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Lokal, zwei ___",
+      "answer": "Lokale",
+      "fullAnswer": "ein Lokal, zwei Lokale",
+      "explanation": "The plural is Lokale.",
+      "acceptedAnswers": [
+        "Lokale"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Lokal mean?",
+      "options": [
+        "the bill",
+        "the family",
+        "pub"
+      ],
+      "answer": "pub",
+      "explanation": "Lokal: pub, restaurant, bar.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ein Lokal is…",
+      "options": [
+        "a place to eat and drink",
+        "a local train"
+      ],
+      "answer": "a place to eat and drink",
+      "explanation": "Pub, restaurant.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Where's the stress?",
+      "options": [
+        "LO-kal",
+        "lo-KAL"
+      ],
+      "answer": "lo-KAL",
+      "explanation": "Stress the end.",
+      "id": "q5"
+    }
+  ]
+}

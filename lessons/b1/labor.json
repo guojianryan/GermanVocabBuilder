@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Labor",
+    "partOfSpeech": "noun, neuter (das Labor)",
+    "pronunciation": {
+      "respelling": "la-BOHR",
+      "ipa": "laˈboːɐ̯",
+      "notes": "Plural: die Labore."
+    },
+    "meaning": "laboratory, lab",
+    "shortDefinition": "Laboratory, lab."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Labor, plural die Labore.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Labor"
+        },
+        {
+          "label": "More than one",
+          "value": "die Labore"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Sie arbeitet im Labor.",
+      "english": "She works in the lab.",
+      "highlight": [
+        "Labor."
+      ]
+    },
+    {
+      "german": "Die Probe geht ins Labor.",
+      "english": "The sample goes to the lab.",
+      "highlight": [
+        "Labor."
+      ]
+    },
+    {
+      "german": "Das Labor ist modern.",
+      "english": "The laboratory is modern.",
+      "highlight": [
+        "Labor"
+      ]
+    }
+  ],
+  "forms": [
+    "Labore",
+    "die Labore",
+    "das Labor"
+  ],
+  "memoryHook": "Das Labor (stress at end).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Labor",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Labor is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Labor, zwei ___",
+      "answer": "Labore",
+      "fullAnswer": "ein Labor, zwei Labore",
+      "explanation": "The plural is Labore.",
+      "acceptedAnswers": [
+        "Labore"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Labor mean?",
+      "options": [
+        "the bill",
+        "laboratory",
+        "the door"
+      ],
+      "answer": "laboratory",
+      "explanation": "Labor: laboratory, lab.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Stress on…",
+      "options": [
+        "-BOR",
+        "LA-"
+      ],
+      "answer": "-BOR",
+      "explanation": "End.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Labore / Labors",
+        "Laborer"
+      ],
+      "answer": "Labore / Labors",
+      "explanation": "Both.",
+      "id": "q5"
+    }
+  ]
+}

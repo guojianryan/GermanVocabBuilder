@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Feld",
+    "partOfSpeech": "noun, neuter (das Feld)",
+    "pronunciation": {
+      "respelling": "FELT",
+      "ipa": "fɛlt",
+      "notes": "Plural: die Felder."
+    },
+    "meaning": "field",
+    "shortDefinition": "Field."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Feld, plural die Felder.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Feld"
+        },
+        {
+          "label": "More than one",
+          "value": "die Felder"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Auf dem Feld wächst Weizen.",
+      "english": "Wheat is growing in the field.",
+      "highlight": [
+        "Feld"
+      ]
+    },
+    {
+      "german": "Füllen Sie alle Felder aus.",
+      "english": "Fill in all fields.",
+      "highlight": [
+        "Felder"
+      ]
+    },
+    {
+      "german": "Die Spieler laufen aufs Feld.",
+      "english": "The players run onto the pitch.",
+      "highlight": [
+        "Feld."
+      ]
+    }
+  ],
+  "forms": [
+    "Felder",
+    "die Felder",
+    "das Feld"
+  ],
+  "memoryHook": "Das Feld: field (farm, form, sport).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Feld",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Feld is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Feld, zwei ___",
+      "answer": "Felder",
+      "fullAnswer": "ein Feld, zwei Felder",
+      "explanation": "The plural is Felder.",
+      "acceptedAnswers": [
+        "Felder"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Feld mean?",
+      "options": [
+        "to open",
+        "field",
+        "cheap"
+      ],
+      "answer": "field",
+      "explanation": "Feld: field.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "On a form, 'Feld' means…",
+      "options": [
+        "box, field",
+        "meadow"
+      ],
+      "answer": "box, field",
+      "explanation": "Form field.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Felder",
+        "Felde"
+      ],
+      "answer": "Felder",
+      "explanation": "-er.",
+      "id": "q5"
+    }
+  ]
+}

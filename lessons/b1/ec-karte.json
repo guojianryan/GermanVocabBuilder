@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "EC-Karte",
+    "partOfSpeech": "noun, feminine (die EC-Karte)",
+    "pronunciation": {
+      "respelling": "ay-TSAY-kar-te",
+      "ipa": "eːˈtseːkaʁtə",
+      "notes": "Plural: die EC-Karten."
+    },
+    "meaning": "debit card",
+    "shortDefinition": "Debit card."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die EC-Karte, plural die EC-Karten.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die EC-Karte"
+        },
+        {
+          "label": "More than one",
+          "value": "die EC-Karten"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Kann ich mit EC-Karte zahlen?",
+      "english": "Can I pay by debit card?",
+      "highlight": [
+        "EC-Karte"
+      ]
+    },
+    {
+      "german": "Ich habe meine EC-Karte verloren.",
+      "english": "I've lost my debit card.",
+      "highlight": [
+        "EC-Karte"
+      ]
+    },
+    {
+      "german": "Mit der EC-Karte hebe ich Geld ab.",
+      "english": "I withdraw money with my debit card.",
+      "highlight": [
+        "EC-Karte"
+      ]
+    }
+  ],
+  "forms": [
+    "Girocard",
+    "Bankkarte"
+  ],
+  "memoryHook": "Die EC-Karte = debit card (Girocard).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ EC-Karte",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "EC-Karte is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein EC-Karte, zwei ___",
+      "answer": "EC-Karten",
+      "fullAnswer": "ein EC-Karte, zwei EC-Karten",
+      "explanation": "The plural is EC-Karten.",
+      "acceptedAnswers": [
+        "EC-Karten"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does EC-Karte mean?",
+      "options": [
+        "debit card",
+        "cheap",
+        "the child"
+      ],
+      "answer": "debit card",
+      "explanation": "EC-Karte: debit card.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Today it's often called…",
+      "options": [
+        "die Girocard / Bankkarte",
+        "die Kreditkarte"
+      ],
+      "answer": "die Girocard / Bankkarte",
+      "explanation": "Same thing.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "EC is said…",
+      "options": [
+        "ay-tsay",
+        "ee-see"
+      ],
+      "answer": "ay-tsay",
+      "explanation": "German letters.",
+      "id": "q5"
+    }
+  ]
+}

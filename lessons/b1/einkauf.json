@@ -1,0 +1,137 @@
+{
+ "schemaVersion": "1.4",
+ "language": "de",
+ "explanationLanguage": "en",
+ "level": "B1",
+ "levelSource": "Goethe-Zertifikat B1 Wortliste",
+ "lessonType": "card",
+ "word": {
+  "headword": "Einkauf",
+  "partOfSpeech": "noun, masculine (der Einkauf)",
+  "pronunciation": {
+   "respelling": "INE-kowf",
+   "ipa": "ˈaɪ̯nkaʊ̯f",
+   "notes": "Plural: die Einkäufe."
+  },
+  "meaning": "shopping; purchase",
+  "shortDefinition": "Shopping; purchase."
+ },
+ "commonMistakes": [
+  {
+   "title": "Gender and plural",
+   "explanation": "Der Einkauf, plural die Einkäufe.",
+   "forms": [
+    {
+     "label": "One",
+     "value": "der Einkauf"
+    },
+    {
+     "label": "More than one",
+     "value": "die Einkäufe"
+    }
+   ]
+  }
+ ],
+ "sampleSentences": [
+  {
+   "german": "Ich muss noch den Einkauf machen.",
+   "english": "I still have to do the shopping.",
+   "highlight": [
+    "Einkauf"
+   ]
+  },
+  {
+   "german": "Die Einkäufe stehen in der Küche.",
+   "english": "The shopping is in the kitchen.",
+   "highlight": [
+    "Einkäufe"
+   ]
+  },
+  {
+   "german": "Der Einkauf hat 50 Euro gekostet.",
+   "english": "The shopping cost 50 euros.",
+   "highlight": [
+    "Einkauf"
+   ]
+  }
+ ],
+ "forms": [
+  "Einkaufswagen",
+  "Einkaufstasche"
+ ],
+ "memoryHook": "Einkaufen → der Einkauf (the shopping).",
+ "signOff": "Gut gemacht!",
+ "quiz": [
+  {
+   "type": "choice",
+   "prompt": "___ Einkauf",
+   "options": [
+    "der",
+    "die",
+    "das"
+   ],
+   "answer": "der",
+   "explanation": "Einkauf is masculine.",
+   "id": "q1"
+  },
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "ein Einkauf, zwei ___",
+   "answer": "Einkäufe",
+   "fullAnswer": "ein Einkauf, zwei Einkäufe",
+   "explanation": "The plural is Einkäufe.",
+   "acceptedAnswers": [
+    "Einkaeufe"
+   ],
+   "id": "q2"
+  },
+  {
+   "type": "choice",
+   "prompt": "What does Einkauf mean?",
+   "options": [
+    "shopping",
+    "to wait",
+    "the job"
+   ],
+   "answer": "shopping",
+   "explanation": "Einkauf: shopping; purchase.",
+   "id": "q3"
+  },
+  {
+   "type": "choice",
+   "prompt": "From…",
+   "options": [
+    "einkaufen",
+    "kaufen only"
+   ],
+   "answer": "einkaufen",
+   "explanation": "Shop.",
+   "id": "q4"
+  },
+  {
+   "type": "choice",
+   "prompt": "Shopping bag:",
+   "options": [
+    "die Einkaufstasche",
+    "der Einkaufsbeutel (also)"
+   ],
+   "answer": "die Einkaufstasche",
+   "explanation": "Both used.",
+   "id": "q5"
+  }
+ ],
+ "etymology": {
+  "title": "Where it comes from",
+  "parts": [
+   {
+    "part": "Ein",
+    "meaning": "in, into"
+   },
+   {
+    "part": "kauf",
+    "meaning": "buying"
+   }
+  ],
+  "literalMeaning": "buying in"
+ }
+}

@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Virus",
+    "partOfSpeech": "noun, neuter (das Virus)",
+    "pronunciation": {
+      "respelling": "VEE-roos",
+      "ipa": "ˈviːʁʊs",
+      "notes": "Plural: die Viren."
+    },
+    "meaning": "virus",
+    "shortDefinition": "Virus."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Virus, plural die Viren.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Virus"
+        },
+        {
+          "label": "More than one",
+          "value": "die Viren"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das Virus ist gefährlich.",
+      "english": "The virus is dangerous.",
+      "highlight": [
+        "Virus"
+      ]
+    },
+    {
+      "german": "Mein Computer hat einen Virus.",
+      "english": "My computer has a virus.",
+      "highlight": [
+        "Virus."
+      ]
+    },
+    {
+      "german": "Viren verbreiten sich schnell.",
+      "english": "Viruses spread quickly.",
+      "highlight": [
+        "Viren"
+      ]
+    }
+  ],
+  "forms": [
+    "Viren"
+  ],
+  "memoryHook": "Das (der) Virus, die Viren.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Virus",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Virus is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Virus, zwei ___",
+      "answer": "Viren",
+      "fullAnswer": "ein Virus, zwei Viren",
+      "explanation": "The plural is Viren.",
+      "acceptedAnswers": [
+        "Viren"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Virus mean?",
+      "options": [
+        "the evening",
+        "virus",
+        "the job"
+      ],
+      "answer": "virus",
+      "explanation": "Virus: virus.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gender:",
+      "options": [
+        "das (also der in everyday speech)",
+        "die"
+      ],
+      "answer": "das (also der in everyday speech)",
+      "explanation": "Both heard.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Viren",
+        "Viruse"
+      ],
+      "answer": "Viren",
+      "explanation": "Latin.",
+      "id": "q5"
+    }
+  ]
+}

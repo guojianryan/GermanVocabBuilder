@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Figur",
+    "partOfSpeech": "noun, feminine (die Figur)",
+    "pronunciation": {
+      "respelling": "fi-GOOR",
+      "ipa": "fiˈɡuːɐ̯",
+      "notes": "Plural: die Figuren."
+    },
+    "meaning": "figure",
+    "shortDefinition": "Figure."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Figur, plural die Figuren.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Figur"
+        },
+        {
+          "label": "More than one",
+          "value": "die Figuren"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Sie hat eine gute Figur.",
+      "english": "She has a good figure.",
+      "highlight": [
+        "Figur."
+      ]
+    },
+    {
+      "german": "Die Hauptfigur im Film ist ein Kind.",
+      "english": "The main character in the film is a child.",
+      "highlight": [
+        "Hauptfigur"
+      ]
+    },
+    {
+      "german": "Auf dem Tisch steht eine kleine Figur.",
+      "english": "There's a little figurine on the table.",
+      "highlight": [
+        "Figur."
+      ]
+    }
+  ],
+  "forms": [
+    "Figuren",
+    "die Figuren",
+    "die Figur"
+  ],
+  "memoryHook": "Die Figur: body shape, character, figurine (not a number!).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Figur",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Figur is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Figur, zwei ___",
+      "answer": "Figuren",
+      "fullAnswer": "ein Figur, zwei Figuren",
+      "explanation": "The plural is Figuren.",
+      "acceptedAnswers": [
+        "Figuren"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Figur mean?",
+      "options": [
+        "quiet",
+        "figure",
+        "to sleep"
+      ],
+      "answer": "figure",
+      "explanation": "Figur: figure.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Figur can mean…",
+      "options": [
+        "body shape, character, figurine",
+        "only number"
+      ],
+      "answer": "body shape, character, figurine",
+      "explanation": "Several.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "A number is…",
+      "options": [
+        "die Zahl / Ziffer",
+        "die Figur"
+      ],
+      "answer": "die Zahl / Ziffer",
+      "explanation": "Not Figur.",
+      "id": "q5"
+    }
+  ]
+}

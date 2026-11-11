@@ -1,0 +1,138 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Straßenbahn",
+    "partOfSpeech": "noun, feminine (die Straßenbahn)",
+    "pronunciation": {
+      "respelling": "SHTRAH-sen-bahn",
+      "ipa": "ˈʃtʁaːsn̩ˌbaːn",
+      "notes": "Plural: die Straßenbahnen."
+    },
+    "meaning": "tram",
+    "shortDefinition": "Tram."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Straßen",
+        "meaning": "street"
+      },
+      {
+        "part": "bahn",
+        "meaning": "railway, track"
+      }
+    ],
+    "literalMeaning": "street railway"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Straßenbahn, plural die Straßenbahnen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Straßenbahn"
+        },
+        {
+          "label": "More than one",
+          "value": "die Straßenbahnen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich fahre mit der Straßenbahn.",
+      "english": "I'm going by tram.",
+      "highlight": [
+        "Straßenbahn."
+      ]
+    },
+    {
+      "german": "Die Straßenbahn hält vor dem Bahnhof.",
+      "english": "The tram stops in front of the station.",
+      "highlight": [
+        "Straßenbahn"
+      ]
+    },
+    {
+      "german": "Nehmen Sie die Straßenbahn Linie 4.",
+      "english": "Take tram number 4.",
+      "highlight": [
+        "Straßenbahn"
+      ]
+    }
+  ],
+  "forms": [
+    "Straßenbahnen",
+    "die Straßenbahnen",
+    "die Straßenbahn"
+  ],
+  "memoryHook": "Straßen + Bahn: a street railway, a tram. In the south: die Tram.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Straßenbahn",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Straßenbahn is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Straßenbahn, zwei ___",
+      "answer": "Straßenbahnen",
+      "fullAnswer": "ein Straßenbahn, zwei Straßenbahnen",
+      "explanation": "The plural is Straßenbahnen.",
+      "acceptedAnswers": [
+        "Straßenbahnen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Straßenbahn mean?",
+      "options": [
+        "tram",
+        "the flower",
+        "to buy"
+      ],
+      "answer": "tram",
+      "explanation": "Straßenbahn: tram.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Straßenbahn = Straße + Bahn:",
+      "options": [
+        "a train on the street",
+        "a road map"
+      ],
+      "answer": "a train on the street",
+      "explanation": "Tram.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "In some cities it's called…",
+      "options": [
+        "die Tram",
+        "die U-Bahn"
+      ],
+      "answer": "die Tram",
+      "explanation": "Tram.",
+      "id": "q5"
+    }
+  ]
+}

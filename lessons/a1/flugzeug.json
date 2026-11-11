@@ -1,0 +1,138 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Flugzeug",
+    "partOfSpeech": "noun, neuter (das Flugzeug)",
+    "pronunciation": {
+      "respelling": "FLOOK-tsoyk",
+      "ipa": "ˈfluːkˌtsɔɪ̯k",
+      "notes": "Plural: die Flugzeuge."
+    },
+    "meaning": "aeroplane, plane",
+    "shortDefinition": "Aeroplane, plane."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Flug",
+        "meaning": "flight"
+      },
+      {
+        "part": "zeug",
+        "meaning": "stuff, gear"
+      }
+    ],
+    "literalMeaning": "flight stuff"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Flugzeug, plural die Flugzeuge.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Flugzeug"
+        },
+        {
+          "label": "More than one",
+          "value": "die Flugzeuge"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das Flugzeug landet um zehn.",
+      "english": "The plane lands at ten.",
+      "highlight": [
+        "Flugzeug"
+      ]
+    },
+    {
+      "german": "Ich reise lieber mit dem Zug als mit dem Flugzeug.",
+      "english": "I prefer travelling by train to flying.",
+      "highlight": [
+        "Flugzeug."
+      ]
+    },
+    {
+      "german": "Im Flugzeug ist es oft kalt.",
+      "english": "It's often cold on the plane.",
+      "highlight": [
+        "Flugzeug"
+      ]
+    }
+  ],
+  "forms": [
+    "Flugzeuge",
+    "die Flugzeuge",
+    "das Flugzeug"
+  ],
+  "memoryHook": "Flug + Zeug (stuff): 'flying stuff'. German is wonderfully literal.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Flugzeug",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Flugzeug is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Flugzeug, zwei ___",
+      "answer": "Flugzeuge",
+      "fullAnswer": "ein Flugzeug, zwei Flugzeuge",
+      "explanation": "The plural is Flugzeuge.",
+      "acceptedAnswers": [
+        "Flugzeuge"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Flugzeug mean?",
+      "options": [
+        "the child",
+        "tomorrow",
+        "aeroplane"
+      ],
+      "answer": "aeroplane",
+      "explanation": "Flugzeug: aeroplane, plane.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Das Zeug means 'stuff, thing'. So Flugzeug is…",
+      "options": [
+        "a flying thing",
+        "a flight ticket"
+      ],
+      "answer": "a flying thing",
+      "explanation": "Flug + Zeug.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich fliege ___ dem Flugzeug.",
+      "options": [
+        "mit",
+        "in"
+      ],
+      "answer": "mit",
+      "explanation": "Means of transport: mit.",
+      "id": "q5"
+    }
+  ]
+}

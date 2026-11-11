@@ -1,0 +1,134 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Jude",
+    "partOfSpeech": "noun, masculine (der Jude)",
+    "pronunciation": {
+      "respelling": "YOO-de",
+      "ipa": "ˈjuːdə",
+      "notes": "Plural: die Juden."
+    },
+    "meaning": "Jew",
+    "shortDefinition": "Jew."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Jude, plural die Juden.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Jude"
+        },
+        {
+          "label": "More than one",
+          "value": "die Juden"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er ist Jude.",
+      "english": "He's Jewish.",
+      "highlight": [
+        "Jude."
+      ]
+    },
+    {
+      "german": "Die Geschichte der Juden in Europa.",
+      "english": "The history of the Jews in Europe.",
+      "highlight": [
+        "Juden"
+      ]
+    },
+    {
+      "german": "Sie ist Jüdin.",
+      "english": "She's Jewish.",
+      "highlight": [
+        "Jüdin."
+      ]
+    }
+  ],
+  "forms": [
+    "Jüdin",
+    "jüdisch"
+  ],
+  "memoryHook": "Der Jude (weak), die Jüdin; jüdisch.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Jude",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Jude is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Jude, zwei ___",
+      "answer": "Juden",
+      "fullAnswer": "ein Jude, zwei Juden",
+      "explanation": "The plural is Juden.",
+      "acceptedAnswers": [
+        "Juden"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Jude mean?",
+      "options": [
+        "Jew",
+        "hot",
+        "to travel"
+      ],
+      "answer": "Jew",
+      "explanation": "Jude: Jew.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Weak noun: den/dem…",
+      "options": [
+        "Juden",
+        "Jude"
+      ],
+      "answer": "Juden",
+      "explanation": "-n.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Female:",
+      "options": [
+        "die Jüdin",
+        "die Judin"
+      ],
+      "answer": "die Jüdin",
+      "explanation": "Umlaut.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Adjective:",
+      "options": [
+        "jüdisch",
+        "judisch"
+      ],
+      "answer": "jüdisch",
+      "explanation": "Jewish.",
+      "id": "q6"
+    }
+  ]
+}

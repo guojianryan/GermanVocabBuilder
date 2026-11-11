@@ -1,0 +1,117 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "falsch",
+    "partOfSpeech": "adjective",
+    "pronunciation": {
+      "respelling": "FALSH",
+      "ipa": "falʃ",
+      "notes": ""
+    },
+    "meaning": "wrong, false",
+    "shortDefinition": "Wrong, false."
+  },
+  "wordFamily": [
+    {
+      "german": "richtig",
+      "english": "right, correct",
+      "type": "adjective"
+    },
+    {
+      "german": "der Fehler",
+      "english": "mistake",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Antwort ist falsch.",
+      "english": "The answer is wrong.",
+      "highlight": [
+        "falsch."
+      ]
+    },
+    {
+      "german": "Entschuldigung, falsch verbunden.",
+      "english": "Sorry, wrong number.",
+      "highlight": [
+        "falsch"
+      ]
+    },
+    {
+      "german": "Ich bin in den falschen Bus gestiegen.",
+      "english": "I got on the wrong bus.",
+      "highlight": [
+        "falschen"
+      ]
+    }
+  ],
+  "forms": [
+    "falsche",
+    "falschen",
+    "falscher",
+    "falsches"
+  ],
+  "memoryHook": "Falsch = wrong, false. Richtig oder falsch? is the classic test question.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does falsch mean?",
+      "options": [
+        "cheap",
+        "wrong",
+        "to help"
+      ],
+      "answer": "wrong",
+      "explanation": "falsch: wrong, false.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "The opposite of falsch is…",
+      "options": [
+        "richtig",
+        "leicht"
+      ],
+      "answer": "richtig",
+      "explanation": "Richtig oder falsch? True or false?",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "On the phone, 'falsch verbunden' means…",
+      "options": [
+        "wrong number",
+        "bad connection"
+      ],
+      "answer": "wrong number",
+      "explanation": "Falsch verbunden: wrongly connected.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich habe die ___ Nummer. (wrong)",
+      "options": [
+        "falsch",
+        "falsche"
+      ],
+      "answer": "falsche",
+      "explanation": "Die + feminine: falsche.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Das ist nicht richtig, das ist ___.",
+      "answer": "falsch",
+      "fullAnswer": "Das ist falsch.",
+      "explanation": "Wrong: falsch.",
+      "id": "q5"
+    }
+  ]
+}

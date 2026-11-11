@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Karotte",
+    "partOfSpeech": "noun, feminine (die Karotte)",
+    "pronunciation": {
+      "respelling": "ka-ROT-e",
+      "ipa": "kaˈʁɔtə",
+      "notes": "Plural: die Karotten."
+    },
+    "meaning": "carrot",
+    "shortDefinition": "Carrot."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Karotte, plural die Karotten.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Karotte"
+        },
+        {
+          "label": "More than one",
+          "value": "die Karotten"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich schneide die Karotten.",
+      "english": "I'm cutting the carrots.",
+      "highlight": [
+        "Karotten."
+      ]
+    },
+    {
+      "german": "Karotten sind gesund.",
+      "english": "Carrots are healthy.",
+      "highlight": [
+        "Karotten"
+      ]
+    },
+    {
+      "german": "Der Hase frisst eine Karotte.",
+      "english": "The rabbit is eating a carrot.",
+      "highlight": [
+        "Karotte."
+      ]
+    }
+  ],
+  "forms": [
+    "Möhre"
+  ],
+  "memoryHook": "Die Karotte = die Möhre.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Karotte",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Karotte is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Karotte, zwei ___",
+      "answer": "Karotten",
+      "fullAnswer": "ein Karotte, zwei Karotten",
+      "explanation": "The plural is Karotten.",
+      "acceptedAnswers": [
+        "Karotten"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Karotte mean?",
+      "options": [
+        "the weather",
+        "carrot",
+        "the family"
+      ],
+      "answer": "carrot",
+      "explanation": "Karotte: carrot.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Other German words:",
+      "options": [
+        "Möhre, Mohrrübe, Rübli (CH)",
+        "Kartoffel"
+      ],
+      "answer": "Möhre, Mohrrübe, Rübli (CH)",
+      "explanation": "Regional.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Stress on…",
+      "options": [
+        "-ROT-",
+        "KA-"
+      ],
+      "answer": "-ROT-",
+      "explanation": "ka-ROT-e.",
+      "id": "q5"
+    }
+  ]
+}

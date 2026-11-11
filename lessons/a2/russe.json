@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Russe",
+    "partOfSpeech": "noun, masculine (der Russe)",
+    "pronunciation": {
+      "respelling": "ROO-se",
+      "ipa": "ˈʁʊsə",
+      "notes": "Plural: die Russen."
+    },
+    "meaning": "Russian (person)",
+    "shortDefinition": "Russian (person)."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Russe, plural die Russen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Russe"
+        },
+        {
+          "label": "More than one",
+          "value": "die Russen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Mein Kollege ist Russe.",
+      "english": "My colleague is Russian.",
+      "highlight": [
+        "Russe."
+      ]
+    },
+    {
+      "german": "Sie ist Russin.",
+      "english": "She's Russian.",
+      "highlight": [
+        "Russin."
+      ]
+    },
+    {
+      "german": "Ich habe einen Russen kennengelernt.",
+      "english": "I met a Russian.",
+      "highlight": [
+        "Russen"
+      ]
+    }
+  ],
+  "forms": [
+    "Russin"
+  ],
+  "memoryHook": "Der Russe (weak), die Russin.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Russe",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Russe is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Russe, zwei ___",
+      "answer": "Russen",
+      "fullAnswer": "ein Russe, zwei Russen",
+      "explanation": "The plural is Russen.",
+      "acceptedAnswers": [
+        "Russen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Russe mean?",
+      "options": [
+        "the job",
+        "the child",
+        "Russian (person)"
+      ],
+      "answer": "Russian (person)",
+      "explanation": "Russe: Russian (person).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Weak noun: den/dem…",
+      "options": [
+        "Russen",
+        "Russe"
+      ],
+      "answer": "Russen",
+      "explanation": "-n.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Female:",
+      "options": [
+        "die Russin",
+        "die Russe"
+      ],
+      "answer": "die Russin",
+      "explanation": "Russin.",
+      "id": "q5"
+    }
+  ]
+}

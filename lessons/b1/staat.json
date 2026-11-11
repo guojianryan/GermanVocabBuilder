@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Staat",
+    "partOfSpeech": "noun, masculine (der Staat)",
+    "pronunciation": {
+      "respelling": "SHTAAT",
+      "ipa": "ʃtaːt",
+      "notes": "Plural: die Staaten."
+    },
+    "meaning": "state",
+    "shortDefinition": "State."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Staat, plural die Staaten.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Staat"
+        },
+        {
+          "label": "More than one",
+          "value": "die Staaten"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Staat zahlt die Schulen.",
+      "english": "The state pays for schools.",
+      "highlight": [
+        "Staat"
+      ]
+    },
+    {
+      "german": "Die Vereinigten Staaten.",
+      "english": "The United States.",
+      "highlight": [
+        "Staaten."
+      ]
+    },
+    {
+      "german": "Deutschland ist ein demokratischer Staat.",
+      "english": "Germany is a democratic state.",
+      "highlight": [
+        "Staat."
+      ]
+    }
+  ],
+  "forms": [
+    "staatlich",
+    "Staatsangehörigkeit"
+  ],
+  "memoryHook": "Der Staat (long aa) ≠ die Stadt. Staatlich = state-run.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Staat",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Staat is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Staat, zwei ___",
+      "answer": "Staaten",
+      "fullAnswer": "ein Staat, zwei Staaten",
+      "explanation": "The plural is Staaten.",
+      "acceptedAnswers": [
+        "Staaten"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Staat mean?",
+      "options": [
+        "always",
+        "cheap",
+        "state"
+      ],
+      "answer": "state",
+      "explanation": "Staat: state.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Staat vs Stadt:",
+      "options": [
+        "state vs town",
+        "same"
+      ],
+      "answer": "state vs town",
+      "explanation": "Long aa!",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Adjective:",
+      "options": [
+        "staatlich",
+        "stattlich"
+      ],
+      "answer": "staatlich",
+      "explanation": "State-run.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "klopfen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "KLOP-fen",
+      "ipa": "ˈklɔpfn̩",
+      "notes": ""
+    },
+    "meaning": "to knock",
+    "shortDefinition": "To knock."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "klopf|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "klopf|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "klopf|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "klopf|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "klopf|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "klopf|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat geklopft"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Es klopft an der Tür.",
+      "english": "Someone's knocking at the door.",
+      "highlight": [
+        "klopft"
+      ]
+    },
+    {
+      "german": "Bitte klopfen Sie an.",
+      "english": "Please knock.",
+      "highlight": [
+        "klopfen",
+        "an."
+      ]
+    },
+    {
+      "german": "Mein Herz klopft.",
+      "english": "My heart is pounding.",
+      "highlight": [
+        "klopft."
+      ]
+    }
+  ],
+  "forms": [
+    "klopfe",
+    "klopfst",
+    "klopft",
+    "klopfen",
+    "geklopft"
+  ],
+  "memoryHook": "Klopfen (an die Tür) = knock.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (klopfen)",
+      "answer": "klopft",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: klopft.",
+      "acceptedAnswers": [
+        "klopft"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (klopfen, past)",
+      "answer": "geklopft",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe geklopft.",
+      "acceptedAnswers": [
+        "geklopft"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does klopfen mean?",
+      "options": [
+        "to knock",
+        "quiet",
+        "to sleep"
+      ],
+      "answer": "to knock",
+      "explanation": "klopfen: to knock.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Es klopft' means…",
+      "options": [
+        "someone is knocking",
+        "it's dripping"
+      ],
+      "answer": "someone is knocking",
+      "explanation": "Door.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Knock ___ the door:",
+      "options": [
+        "an die Tür",
+        "auf die Tür"
+      ],
+      "answer": "an die Tür",
+      "explanation": "An.",
+      "id": "q5"
+    }
+  ]
+}

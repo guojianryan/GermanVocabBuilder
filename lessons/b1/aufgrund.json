@@ -1,0 +1,121 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "aufgrund",
+    "partOfSpeech": "preposition",
+    "pronunciation": {
+      "respelling": "owf-GROONT",
+      "ipa": "aʊ̯fˈɡʁʊnt",
+      "notes": ""
+    },
+    "meaning": "because of, on the basis of",
+    "shortDefinition": "Because of, on the basis of."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "auf",
+        "meaning": "on"
+      },
+      {
+        "part": "grund",
+        "meaning": "ground, reason"
+      }
+    ],
+    "literalMeaning": "on the grounds (of)"
+  },
+  "sampleSentences": [
+    {
+      "german": "Aufgrund des Wetters fällt das Spiel aus.",
+      "english": "The game is cancelled because of the weather.",
+      "highlight": [
+        "Aufgrund",
+        "des"
+      ]
+    },
+    {
+      "german": "Aufgrund seiner Erfahrung bekam er die Stelle.",
+      "english": "He got the job on the strength of his experience.",
+      "highlight": [
+        "Aufgrund"
+      ]
+    },
+    {
+      "german": "Aufgrund von Bauarbeiten gibt es Stau.",
+      "english": "There are jams due to roadworks.",
+      "highlight": [
+        "Aufgrund",
+        "von"
+      ]
+    }
+  ],
+  "forms": [
+    "auf Grund"
+  ],
+  "memoryHook": "Aufgrund (+ Gen) = wegen (formal).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does aufgrund mean?",
+      "options": [
+        "the door",
+        "the shop",
+        "because of"
+      ],
+      "answer": "because of",
+      "explanation": "aufgrund: because of, on the basis of.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Case:",
+      "options": [
+        "genitive (or von + Dat)",
+        "accusative"
+      ],
+      "answer": "genitive (or von + Dat)",
+      "explanation": "Formal.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonym:",
+      "options": [
+        "wegen",
+        "trotz"
+      ],
+      "answer": "wegen",
+      "explanation": "Because of.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Also written…",
+      "options": [
+        "auf Grund",
+        "aufgrunde"
+      ],
+      "answer": "auf Grund",
+      "explanation": "Both OK.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "___ der Krankheit blieb er zu Hause. (because of)",
+      "answer": "Aufgrund",
+      "fullAnswer": "Aufgrund der Krankheit blieb er zu Hause.",
+      "explanation": "Aufgrund.",
+      "acceptedAnswers": [
+        "Wegen"
+      ],
+      "id": "q5"
+    }
+  ]
+}

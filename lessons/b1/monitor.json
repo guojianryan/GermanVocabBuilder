@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Monitor",
+    "partOfSpeech": "noun, masculine (der Monitor)",
+    "pronunciation": {
+      "respelling": "MOH-ni-tor",
+      "ipa": "ˈmoːnitoːɐ̯",
+      "notes": "Plural: die Monitore."
+    },
+    "meaning": "monitor, screen",
+    "shortDefinition": "Monitor, screen."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Monitor, plural die Monitore.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Monitor"
+        },
+        {
+          "label": "More than one",
+          "value": "die Monitore"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Monitor ist zu klein.",
+      "english": "The monitor is too small.",
+      "highlight": [
+        "Monitor"
+      ]
+    },
+    {
+      "german": "Ich arbeite mit zwei Monitoren.",
+      "english": "I work with two monitors.",
+      "highlight": [
+        "Monitoren."
+      ]
+    },
+    {
+      "german": "Schalten Sie den Monitor aus.",
+      "english": "Switch off the monitor.",
+      "highlight": [
+        "Monitor"
+      ]
+    }
+  ],
+  "forms": [
+    "Monitoren"
+  ],
+  "memoryHook": "Der Monitor = Bildschirm.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Monitor",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Monitor is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Monitor, zwei ___",
+      "answer": "Monitore",
+      "fullAnswer": "ein Monitor, zwei Monitore",
+      "explanation": "The plural is Monitore.",
+      "acceptedAnswers": [
+        "Monitore"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Monitor mean?",
+      "options": [
+        "to help",
+        "the bread",
+        "monitor"
+      ],
+      "answer": "monitor",
+      "explanation": "Monitor: monitor, screen.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Monitore (also Monitoren)",
+        "Monitors"
+      ],
+      "answer": "Monitore (also Monitoren)",
+      "explanation": "Both.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonym:",
+      "options": [
+        "der Bildschirm",
+        "die Tastatur"
+      ],
+      "answer": "der Bildschirm",
+      "explanation": "Screen.",
+      "id": "q5"
+    }
+  ]
+}

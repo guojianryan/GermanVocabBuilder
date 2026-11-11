@@ -1,0 +1,133 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Graf",
+    "partOfSpeech": "noun, masculine (der Graf)",
+    "pronunciation": {
+      "respelling": "GRAAF",
+      "ipa": "ɡʁaːf",
+      "notes": "Plural: die Grafen."
+    },
+    "meaning": "count, earl",
+    "shortDefinition": "Count, earl."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Graf, plural die Grafen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Graf"
+        },
+        {
+          "label": "More than one",
+          "value": "die Grafen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Graf wohnt im Schloss.",
+      "english": "The count lives in the castle.",
+      "highlight": [
+        "Graf"
+      ]
+    },
+    {
+      "german": "Graf Dracula.",
+      "english": "Count Dracula.",
+      "highlight": [
+        "Graf"
+      ]
+    },
+    {
+      "german": "Die Gräfin gab ein Fest.",
+      "english": "The countess gave a party.",
+      "highlight": [
+        "Gräfin"
+      ]
+    }
+  ],
+  "forms": [
+    "Gräfin"
+  ],
+  "memoryHook": "Der Graf (weak), die Gräfin.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Graf",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Graf is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Graf, zwei ___",
+      "answer": "Grafen",
+      "fullAnswer": "ein Graf, zwei Grafen",
+      "explanation": "The plural is Grafen.",
+      "acceptedAnswers": [
+        "Grafen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Graf mean?",
+      "options": [
+        "count",
+        "cheap",
+        "the flower"
+      ],
+      "answer": "count",
+      "explanation": "Graf: count, earl.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Weak noun: den/dem…",
+      "options": [
+        "Grafen",
+        "Graf"
+      ],
+      "answer": "Grafen",
+      "explanation": "-en.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Female:",
+      "options": [
+        "die Gräfin",
+        "die Grafin"
+      ],
+      "answer": "die Gräfin",
+      "explanation": "Umlaut.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Don't confuse with…",
+      "options": [
+        "die Grafik (graphic)",
+        "der Graph only"
+      ],
+      "answer": "die Grafik (graphic)",
+      "explanation": "Different.",
+      "id": "q6"
+    }
+  ]
+}

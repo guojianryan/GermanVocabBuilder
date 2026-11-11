@@ -1,0 +1,138 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Betriebssystem",
+    "partOfSpeech": "noun, neuter (das Betriebssystem)",
+    "pronunciation": {
+      "respelling": "be-TREEPS-züs-taym",
+      "ipa": "bəˈtʁiːpszʏsˌteːm",
+      "notes": "Plural: die Betriebssysteme."
+    },
+    "meaning": "operating system",
+    "shortDefinition": "Operating system."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Betriebs",
+        "meaning": "of operation"
+      },
+      {
+        "part": "system",
+        "meaning": "system"
+      }
+    ],
+    "literalMeaning": "operation system"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Betriebssystem, plural die Betriebssysteme.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Betriebssystem"
+        },
+        {
+          "label": "More than one",
+          "value": "die Betriebssysteme"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Welches Betriebssystem hast du?",
+      "english": "Which operating system do you have?",
+      "highlight": [
+        "Betriebssystem"
+      ]
+    },
+    {
+      "german": "Das Betriebssystem muss aktualisiert werden.",
+      "english": "The operating system needs updating.",
+      "highlight": [
+        "Betriebssystem"
+      ]
+    },
+    {
+      "german": "Ein neues Betriebssystem installieren.",
+      "english": "To install a new OS.",
+      "highlight": [
+        "Betriebssystem"
+      ]
+    }
+  ],
+  "forms": [
+    "Betriebssysteme",
+    "die Betriebssysteme",
+    "das Betriebssystem"
+  ],
+  "memoryHook": "Betrieb + System = operating system.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Betriebssystem",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Betriebssystem is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Betriebssystem, zwei ___",
+      "answer": "Betriebssysteme",
+      "fullAnswer": "ein Betriebssystem, zwei Betriebssysteme",
+      "explanation": "The plural is Betriebssysteme.",
+      "acceptedAnswers": [
+        "Betriebssysteme"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Betriebssystem mean?",
+      "options": [
+        "the flower",
+        "the family",
+        "operating system"
+      ],
+      "answer": "operating system",
+      "explanation": "Betriebssystem: operating system.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Betrieb (operation) + s + System",
+        "Betrieb + System only"
+      ],
+      "answer": "Betrieb (operation) + s + System",
+      "explanation": "Operation system.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gender:",
+      "options": [
+        "das (System)",
+        "der (Betrieb)"
+      ],
+      "answer": "das (System)",
+      "explanation": "Last part.",
+      "id": "q5"
+    }
+  ]
+}

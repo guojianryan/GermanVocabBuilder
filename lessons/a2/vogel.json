@@ -1,0 +1,135 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Vogel",
+    "partOfSpeech": "noun, masculine (der Vogel)",
+    "pronunciation": {
+      "respelling": "FOH-gel",
+      "ipa": "ˈfoːɡl̩",
+      "notes": "Plural: die Vögel."
+    },
+    "meaning": "bird",
+    "shortDefinition": "Bird."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Vogel, plural die Vögel.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Vogel"
+        },
+        {
+          "label": "More than one",
+          "value": "die Vögel"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Vögel singen am Morgen.",
+      "english": "The birds sing in the morning.",
+      "highlight": [
+        "Vögel"
+      ]
+    },
+    {
+      "german": "Was ist das für ein Vogel?",
+      "english": "What kind of bird is that?",
+      "highlight": [
+        "Vogel?"
+      ]
+    },
+    {
+      "german": "Du hast einen Vogel!",
+      "english": "You're crazy! (informal)",
+      "highlight": [
+        "Vogel!"
+      ]
+    }
+  ],
+  "forms": [
+    "Vögel",
+    "die Vögel",
+    "der Vogel"
+  ],
+  "memoryHook": "Der Vogel (v = f), die Vögel. Related to English 'fowl'.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Vogel",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Vogel is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Vogel, zwei ___",
+      "answer": "Vögel",
+      "fullAnswer": "ein Vogel, zwei Vögel",
+      "explanation": "The plural is Vögel.",
+      "acceptedAnswers": [
+        "Voegel"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Vogel mean?",
+      "options": [
+        "hot",
+        "to sing",
+        "bird"
+      ],
+      "answer": "bird",
+      "explanation": "Vogel: bird.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "V sounds like…",
+      "options": [
+        "f",
+        "v"
+      ],
+      "answer": "f",
+      "explanation": "FOH-gel.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Vögel",
+        "Vogels"
+      ],
+      "answer": "Vögel",
+      "explanation": "o → ö.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Du hast einen Vogel!' means…",
+      "options": [
+        "You're nuts!",
+        "You have a pet!"
+      ],
+      "answer": "You're nuts!",
+      "explanation": "Rude idiom.",
+      "id": "q6"
+    }
+  ]
+}

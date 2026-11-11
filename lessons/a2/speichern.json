@@ -1,0 +1,165 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "speichern",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "SHPY-khern",
+      "ipa": "ˈʃpaɪ̯çɐn",
+      "notes": ""
+    },
+    "meaning": "to save (data)",
+    "shortDefinition": "To save (data)."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "speicher|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "speicher|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "speicher|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "speicher|n"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "speicher|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "speicher|n"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gespeichert"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "der Speicher",
+      "english": "storage; attic",
+      "type": "noun"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Hast du die Datei gespeichert?",
+      "english": "Did you save the file?",
+      "highlight": [
+        "gespeichert?"
+      ]
+    },
+    {
+      "german": "Ich speichere deine Nummer.",
+      "english": "I'll save your number.",
+      "highlight": [
+        "speichere"
+      ]
+    },
+    {
+      "german": "Vergiss nicht zu speichern!",
+      "english": "Don't forget to save!",
+      "highlight": [
+        "speichern!"
+      ]
+    }
+  ],
+  "forms": [
+    "speichere",
+    "speicherst",
+    "speichert",
+    "speichern",
+    "gespeichert"
+  ],
+  "memoryHook": "Speichern = save data. Der Speicher = storage (and attic!).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (speichern)",
+      "answer": "speichert",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: speichert.",
+      "acceptedAnswers": [
+        "speichert"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (speichern, past)",
+      "answer": "gespeichert",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gespeichert.",
+      "acceptedAnswers": [
+        "gespeichert"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does speichern mean?",
+      "options": [
+        "the shop",
+        "to save (data)",
+        "tomorrow"
+      ],
+      "answer": "to save (data)",
+      "explanation": "speichern: to save (data).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Save money:",
+      "options": [
+        "sparen",
+        "speichern"
+      ],
+      "answer": "sparen",
+      "explanation": "Speichern = data.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Der Speicher is…",
+      "options": [
+        "memory/storage; attic",
+        "a saver"
+      ],
+      "answer": "memory/storage; attic",
+      "explanation": "Storage.",
+      "id": "q5"
+    }
+  ]
+}

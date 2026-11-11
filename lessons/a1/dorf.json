@@ -1,0 +1,131 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Dorf",
+    "partOfSpeech": "noun, neuter (das Dorf)",
+    "pronunciation": {
+      "respelling": "DORF",
+      "ipa": "dɔʁf",
+      "notes": "Plural: die Dörfer."
+    },
+    "meaning": "village",
+    "shortDefinition": "Village."
+  },
+  "wordFamily": [
+    {
+      "german": "die Stadt",
+      "english": "town, city",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Dorf, plural die Dörfer.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Dorf"
+        },
+        {
+          "label": "More than one",
+          "value": "die Dörfer"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Meine Großeltern wohnen in einem kleinen Dorf.",
+      "english": "My grandparents live in a small village.",
+      "highlight": [
+        "Dorf."
+      ]
+    },
+    {
+      "german": "Das Dorf hat nur 300 Einwohner.",
+      "english": "The village has only 300 inhabitants.",
+      "highlight": [
+        "Dorf"
+      ]
+    },
+    {
+      "german": "Ich bin auf dem Dorf aufgewachsen.",
+      "english": "I grew up in the country.",
+      "highlight": [
+        "Dorf"
+      ]
+    }
+  ],
+  "forms": [
+    "Dörfer",
+    "die Dörfer",
+    "das Dorf"
+  ],
+  "memoryHook": "Dorf, plural Dörfer: o becomes ö and -er is added (like Buch, Bücher).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Dorf",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Dorf is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Dorf, zwei ___",
+      "answer": "Dörfer",
+      "fullAnswer": "ein Dorf, zwei Dörfer",
+      "explanation": "The plural is Dörfer.",
+      "acceptedAnswers": [
+        "Doerfer"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Dorf mean?",
+      "options": [
+        "expensive",
+        "to sleep",
+        "village"
+      ],
+      "answer": "village",
+      "explanation": "Dorf: village.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "A village is smaller than…",
+      "options": [
+        "eine Stadt",
+        "ein Haus"
+      ],
+      "answer": "eine Stadt",
+      "explanation": "Stadt: town, city.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Auf dem Dorf' means…",
+      "options": [
+        "in the countryside, in a village",
+        "on the roof"
+      ],
+      "answer": "in the countryside, in a village",
+      "explanation": "Auf dem Dorf wohnen.",
+      "id": "q5"
+    }
+  ]
+}

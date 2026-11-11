@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Löffel",
+    "partOfSpeech": "noun, masculine (der Löffel)",
+    "pronunciation": {
+      "respelling": "LÖF-el",
+      "ipa": "ˈlœfl̩",
+      "notes": "The plural looks the same. Plural: die Löffel."
+    },
+    "meaning": "spoon",
+    "shortDefinition": "Spoon."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Löffel, plural die Löffel.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Löffel"
+        },
+        {
+          "label": "More than one",
+          "value": "die Löffel"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich brauche einen Löffel für die Suppe.",
+      "english": "I need a spoon for the soup.",
+      "highlight": [
+        "Löffel"
+      ]
+    },
+    {
+      "german": "Zwei Löffel Zucker, bitte.",
+      "english": "Two spoonfuls of sugar, please.",
+      "highlight": [
+        "Löffel"
+      ]
+    },
+    {
+      "german": "Der Löffel liegt neben dem Teller.",
+      "english": "The spoon is next to the plate.",
+      "highlight": [
+        "Löffel"
+      ]
+    }
+  ],
+  "forms": [
+    "Löffel",
+    "die Löffel",
+    "der Löffel"
+  ],
+  "memoryHook": "Der Löffel, die Gabel, das Messer.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Löffel",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Löffel is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Löffel, zwei ___",
+      "answer": "Löffel",
+      "fullAnswer": "ein Löffel, zwei Löffel",
+      "explanation": "The plural is Löffel.",
+      "acceptedAnswers": [
+        "Loeffel"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Löffel mean?",
+      "options": [
+        "the shop",
+        "slowly",
+        "spoon"
+      ],
+      "answer": "spoon",
+      "explanation": "Löffel: spoon.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "A teaspoon:",
+      "options": [
+        "ein Teelöffel",
+        "ein Kaffeegabel"
+      ],
+      "answer": "ein Teelöffel",
+      "explanation": "Tee + Löffel.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Löffel",
+        "Löffeln"
+      ],
+      "answer": "Löffel",
+      "explanation": "No change.",
+      "id": "q5"
+    }
+  ]
+}

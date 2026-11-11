@@ -1,0 +1,140 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Zuordnung",
+    "partOfSpeech": "noun, feminine (die Zuordnung)",
+    "pronunciation": {
+      "respelling": "TSOO-ord-nung",
+      "ipa": "ˈtsuːʔɔʁdnʊŋ",
+      "notes": "Plural: die Zuordnungen."
+    },
+    "meaning": "assignment, classification",
+    "shortDefinition": "Assignment, classification."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Zu",
+        "meaning": "to"
+      },
+      {
+        "part": "ordn",
+        "meaning": "order"
+      },
+      {
+        "part": "ung",
+        "meaning": "noun ending"
+      }
+    ],
+    "literalMeaning": "an ordering-to"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Zuordnung, plural die Zuordnungen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Zuordnung"
+        },
+        {
+          "label": "More than one",
+          "value": "die Zuordnungen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Zuordnung der Kosten ist schwierig.",
+      "english": "Allocating the costs is difficult.",
+      "highlight": [
+        "Zuordnung"
+      ]
+    },
+    {
+      "german": "Eine klare Zuordnung der Aufgaben.",
+      "english": "A clear assignment of tasks.",
+      "highlight": [
+        "Zuordnung"
+      ]
+    },
+    {
+      "german": "Zuordnungsübung: Wort und Bild.",
+      "english": "Matching exercise: word and picture.",
+      "highlight": [
+        "Zuordnungsübung:"
+      ]
+    }
+  ],
+  "forms": [
+    "zuordnen"
+  ],
+  "memoryHook": "Zuordnen → die Zuordnung.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Zuordnung",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Zuordnung is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Zuordnung, zwei ___",
+      "answer": "Zuordnungen",
+      "fullAnswer": "ein Zuordnung, zwei Zuordnungen",
+      "explanation": "The plural is Zuordnungen.",
+      "acceptedAnswers": [
+        "Zuordnungen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Zuordnung mean?",
+      "options": [
+        "the job",
+        "assignment",
+        "hot"
+      ],
+      "answer": "assignment",
+      "explanation": "Zuordnung: assignment, classification.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "zuordnen (assign, match)",
+        "Ordnung only"
+      ],
+      "answer": "zuordnen (assign, match)",
+      "explanation": "Assign.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Matching exercise:",
+      "options": [
+        "die Zuordnungsübung",
+        "die Ordnungsübung"
+      ],
+      "answer": "die Zuordnungsübung",
+      "explanation": "Exercise.",
+      "id": "q5"
+    }
+  ]
+}

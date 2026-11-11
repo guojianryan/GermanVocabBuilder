@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Restaurant",
+    "partOfSpeech": "noun, neuter (das Restaurant)",
+    "pronunciation": {
+      "respelling": "res-toh-RAHNG",
+      "ipa": "ʁɛstoˈʁãː",
+      "notes": "Plural: die Restaurants."
+    },
+    "meaning": "restaurant",
+    "shortDefinition": "Restaurant."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Restaurant, plural die Restaurants.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Restaurant"
+        },
+        {
+          "label": "More than one",
+          "value": "die Restaurants"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir gehen heute ins Restaurant.",
+      "english": "We're going out to a restaurant today.",
+      "highlight": [
+        "Restaurant."
+      ]
+    },
+    {
+      "german": "Das Restaurant ist sehr gut.",
+      "english": "The restaurant is very good.",
+      "highlight": [
+        "Restaurant"
+      ]
+    },
+    {
+      "german": "Können Sie ein Restaurant empfehlen?",
+      "english": "Can you recommend a restaurant?",
+      "highlight": [
+        "Restaurant"
+      ]
+    }
+  ],
+  "forms": [
+    "Restaurants",
+    "die Restaurants",
+    "das Restaurant"
+  ],
+  "memoryHook": "Das Restaurant, French pronunciation: res-to-RANG (nasal). Plural Restaurants.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Restaurant",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Restaurant is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Restaurant, zwei ___",
+      "answer": "Restaurants",
+      "fullAnswer": "ein Restaurant, zwei Restaurants",
+      "explanation": "The plural is Restaurants.",
+      "acceptedAnswers": [
+        "Restaurants"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Restaurant mean?",
+      "options": [
+        "expensive",
+        "restaurant",
+        "the bed"
+      ],
+      "answer": "restaurant",
+      "explanation": "Restaurant: restaurant.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "The end of Restaurant is pronounced…",
+      "options": [
+        "the French way: -RANG (nasal)",
+        "-RANT"
+      ],
+      "answer": "the French way: -RANG (nasal)",
+      "explanation": "French loanword.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Going to a restaurant: ___ Restaurant",
+      "options": [
+        "ins",
+        "im"
+      ],
+      "answer": "ins",
+      "explanation": "Direction.",
+      "id": "q5"
+    }
+  ]
+}

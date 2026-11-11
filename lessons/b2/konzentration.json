@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Konzentration",
+    "partOfSpeech": "noun, feminine (die Konzentration)",
+    "pronunciation": {
+      "respelling": "kon-tsen-tra-TSYOHN",
+      "ipa": "kɔntsɛntʁaˈtsi̯oːn",
+      "notes": "Plural: die Konzentrationen."
+    },
+    "meaning": "concentration",
+    "shortDefinition": "Concentration."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Konzentration, plural die Konzentrationen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Konzentration"
+        },
+        {
+          "label": "More than one",
+          "value": "die Konzentrationen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Mir fehlt die Konzentration.",
+      "english": "I can't concentrate.",
+      "highlight": [
+        "Konzentration."
+      ]
+    },
+    {
+      "german": "Die Konzentration von CO₂ steigt.",
+      "english": "The concentration of CO₂ is rising.",
+      "highlight": [
+        "Konzentration"
+      ]
+    },
+    {
+      "german": "Das erfordert volle Konzentration.",
+      "english": "That requires full concentration.",
+      "highlight": [
+        "Konzentration."
+      ]
+    }
+  ],
+  "forms": [
+    "konzentrieren"
+  ],
+  "memoryHook": "Sich konzentrieren (auf) → die Konzentration.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Konzentration",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Konzentration is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Konzentration, zwei ___",
+      "answer": "Konzentrationen",
+      "fullAnswer": "ein Konzentration, zwei Konzentrationen",
+      "explanation": "The plural is Konzentrationen.",
+      "acceptedAnswers": [
+        "Konzentrationen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Konzentration mean?",
+      "options": [
+        "the family",
+        "concentration",
+        "the job"
+      ],
+      "answer": "concentration",
+      "explanation": "Konzentration: concentration.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Verb:",
+      "options": [
+        "sich konzentrieren",
+        "konzentrationieren"
+      ],
+      "answer": "sich konzentrieren",
+      "explanation": "Concentrate.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Sich konzentrieren auf' means…",
+      "options": [
+        "to concentrate on",
+        "to concentrate in"
+      ],
+      "answer": "to concentrate on",
+      "explanation": "On.",
+      "id": "q5"
+    }
+  ]
+}

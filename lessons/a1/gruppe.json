@@ -1,0 +1,121 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Gruppe",
+    "partOfSpeech": "noun, feminine (die Gruppe)",
+    "pronunciation": {
+      "respelling": "GROOP-uh",
+      "ipa": "ˈɡʁʊpə",
+      "notes": "Plural: die Gruppen."
+    },
+    "meaning": "group",
+    "shortDefinition": "Group."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Gruppe, plural die Gruppen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Gruppe"
+        },
+        {
+          "label": "More than one",
+          "value": "die Gruppen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir arbeiten in Gruppen.",
+      "english": "We work in groups.",
+      "highlight": [
+        "Gruppen."
+      ]
+    },
+    {
+      "german": "Die Gruppe trifft sich um zehn.",
+      "english": "The group meets at ten.",
+      "highlight": [
+        "Gruppe"
+      ]
+    },
+    {
+      "german": "Gibt es einen Preis für Gruppen?",
+      "english": "Is there a group price?",
+      "highlight": [
+        "Gruppen?"
+      ]
+    }
+  ],
+  "forms": [
+    "Gruppen",
+    "die Gruppen",
+    "die Gruppe"
+  ],
+  "memoryHook": "Die Gruppe: English 'group' with a German -e.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Gruppe",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Gruppe is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Gruppe, zwei ___",
+      "answer": "Gruppen",
+      "fullAnswer": "ein Gruppe, zwei Gruppen",
+      "explanation": "The plural is Gruppen.",
+      "acceptedAnswers": [
+        "Gruppen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Gruppe mean?",
+      "options": [
+        "group",
+        "to learn",
+        "cheap"
+      ],
+      "answer": "group",
+      "explanation": "Gruppe: group.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gruppe is like English 'group' but ends in…",
+      "options": [
+        "-e",
+        "-en"
+      ],
+      "answer": "-e",
+      "explanation": "Die Gruppe.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Wir sind eine ___ von zehn Leuten. (group)",
+      "answer": "Gruppe",
+      "fullAnswer": "eine Gruppe von zehn Leuten",
+      "explanation": "Die Gruppe.",
+      "id": "q5"
+    }
+  ]
+}

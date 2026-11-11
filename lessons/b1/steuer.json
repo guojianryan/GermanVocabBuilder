@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Steuer",
+    "partOfSpeech": "noun, feminine (die Steuer)",
+    "pronunciation": {
+      "respelling": "SHTOY-er",
+      "ipa": "ˈʃtɔɪ̯ɐ",
+      "notes": "Plural: die Steuern."
+    },
+    "meaning": "tax",
+    "shortDefinition": "Tax."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Steuer, plural die Steuern.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Steuer"
+        },
+        {
+          "label": "More than one",
+          "value": "die Steuern"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir müssen Steuern zahlen.",
+      "english": "We have to pay taxes.",
+      "highlight": [
+        "Steuern"
+      ]
+    },
+    {
+      "german": "Die Steuer ist gestiegen.",
+      "english": "The tax has gone up.",
+      "highlight": [
+        "Steuer"
+      ]
+    },
+    {
+      "german": "Ich mache meine Steuererklärung.",
+      "english": "I'm doing my tax return.",
+      "highlight": [
+        "Steuererklärung."
+      ]
+    }
+  ],
+  "forms": [
+    "Steuererklärung"
+  ],
+  "memoryHook": "Die Steuer = tax; das Steuer = steering wheel!",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Steuer",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Steuer is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Steuer, zwei ___",
+      "answer": "Steuern",
+      "fullAnswer": "ein Steuer, zwei Steuern",
+      "explanation": "The plural is Steuern.",
+      "acceptedAnswers": [
+        "Steuern"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Steuer mean?",
+      "options": [
+        "the shop",
+        "expensive",
+        "tax"
+      ],
+      "answer": "tax",
+      "explanation": "Steuer: tax.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Das Steuer (neuter) means…",
+      "options": [
+        "steering wheel",
+        "tax"
+      ],
+      "answer": "steering wheel",
+      "explanation": "Different gender!",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Tax return:",
+      "options": [
+        "die Steuererklärung",
+        "die Steuerrechnung"
+      ],
+      "answer": "die Steuererklärung",
+      "explanation": "Declaration.",
+      "id": "q5"
+    }
+  ]
+}

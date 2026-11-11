@@ -1,0 +1,172 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "brauchen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "BROW-khen",
+      "ipa": "ˈbʁaʊ̯xn̩",
+      "notes": ""
+    },
+    "meaning": "to need",
+    "shortDefinition": "To need."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "brauch|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "brauch|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "brauch|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "brauch|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "brauch|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "brauch|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gebraucht"
+      ]
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Don't need to",
+      "explanation": "Nicht brauchen + zu + verb means 'don't have to'.",
+      "examples": [
+        {
+          "german": "Du brauchst nicht zu warten.",
+          "english": "You don't have to wait.",
+          "highlight": "zu"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich brauche einen neuen Pass.",
+      "english": "I need a new passport.",
+      "highlight": [
+        "brauche"
+      ]
+    },
+    {
+      "german": "Brauchst du Hilfe?",
+      "english": "Do you need help?",
+      "highlight": [
+        "Brauchst"
+      ]
+    },
+    {
+      "german": "Du brauchst nicht zu kommen.",
+      "english": "You don't need to come.",
+      "highlight": [
+        "brauchst",
+        "zu"
+      ]
+    }
+  ],
+  "forms": [
+    "brauche",
+    "brauchst",
+    "braucht",
+    "brauchen",
+    "gebraucht"
+  ],
+  "memoryHook": "Brauchen = need, with the accusative: ich brauche einen Schlüssel. 'Don't need to': nicht brauchen zu.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (brauchen)",
+      "answer": "braucht",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: braucht.",
+      "acceptedAnswers": [
+        "braucht"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (brauchen, past)",
+      "answer": "gebraucht",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gebraucht.",
+      "acceptedAnswers": [
+        "gebraucht"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does brauchen mean?",
+      "options": [
+        "to open",
+        "to need",
+        "the bread"
+      ],
+      "answer": "to need",
+      "explanation": "brauchen: to need.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich brauche ___ Regenschirm.",
+      "options": [
+        "einen",
+        "ein"
+      ],
+      "answer": "einen",
+      "explanation": "Brauchen + accusative: einen.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'You don't need to come' is…",
+      "options": [
+        "Du brauchst nicht zu kommen.",
+        "Du brauchst nicht kommen."
+      ],
+      "answer": "Du brauchst nicht zu kommen.",
+      "explanation": "Nicht brauchen + zu.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Bearbeitung",
+    "partOfSpeech": "noun, feminine (die Bearbeitung)",
+    "pronunciation": {
+      "respelling": "be-AR-bye-tung",
+      "ipa": "bəˈʔaʁbaɪ̯tʊŋ",
+      "notes": "Plural: die Bearbeitungen."
+    },
+    "meaning": "processing, handling; adaptation",
+    "shortDefinition": "Processing, handling; adaptation."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Be",
+        "meaning": "prefix"
+      },
+      {
+        "part": "arbeit",
+        "meaning": "work"
+      },
+      {
+        "part": "ung",
+        "meaning": "noun ending"
+      }
+    ],
+    "literalMeaning": "a working-on"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Bearbeitung, plural die Bearbeitungen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Bearbeitung"
+        },
+        {
+          "label": "More than one",
+          "value": "die Bearbeitungen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Bearbeitung Ihres Antrags dauert zwei Wochen.",
+      "english": "Processing your application takes two weeks.",
+      "highlight": [
+        "Bearbeitung"
+      ]
+    },
+    {
+      "german": "Eine Bearbeitung des Romans für die Bühne.",
+      "english": "A stage adaptation of the novel.",
+      "highlight": [
+        "Bearbeitung"
+      ]
+    },
+    {
+      "german": "Die Bearbeitung von Metall.",
+      "english": "Metalworking.",
+      "highlight": [
+        "Bearbeitung"
+      ]
+    }
+  ],
+  "forms": [
+    "bearbeiten"
+  ],
+  "memoryHook": "Bearbeiten → die Bearbeitung.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Bearbeitung",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Bearbeitung is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Bearbeitung, zwei ___",
+      "answer": "Bearbeitungen",
+      "fullAnswer": "ein Bearbeitung, zwei Bearbeitungen",
+      "explanation": "The plural is Bearbeitungen.",
+      "acceptedAnswers": [
+        "Bearbeitungen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Bearbeitung mean?",
+      "options": [
+        "tomorrow",
+        "processing",
+        "to help"
+      ],
+      "answer": "processing",
+      "explanation": "Bearbeitung: processing, handling; adaptation.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "bearbeiten (process, edit)",
+        "Arbeit only"
+      ],
+      "answer": "bearbeiten (process, edit)",
+      "explanation": "Process.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Processing fee:",
+      "options": [
+        "die Bearbeitungsgebühr",
+        "die Bearbeitungskosten only"
+      ],
+      "answer": "die Bearbeitungsgebühr",
+      "explanation": "Compound.",
+      "id": "q5"
+    }
+  ]
+}

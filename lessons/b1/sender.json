@@ -1,0 +1,138 @@
+{
+ "schemaVersion": "1.4",
+ "language": "de",
+ "explanationLanguage": "en",
+ "level": "B1",
+ "levelSource": "Goethe-Zertifikat B1 Wortliste",
+ "lessonType": "card",
+ "word": {
+  "headword": "Sender",
+  "partOfSpeech": "noun, masculine (der Sender)",
+  "pronunciation": {
+   "respelling": "ZEN-der",
+   "ipa": "ˈzɛndɐ",
+   "notes": "The plural looks the same. Plural: die Sender."
+  },
+  "meaning": "(TV/radio) station, channel",
+  "shortDefinition": "(TV/radio) station, channel."
+ },
+ "commonMistakes": [
+  {
+   "title": "Gender and plural",
+   "explanation": "Der Sender, plural die Sender.",
+   "forms": [
+    {
+     "label": "One",
+     "value": "der Sender"
+    },
+    {
+     "label": "More than one",
+     "value": "die Sender"
+    }
+   ]
+  }
+ ],
+ "sampleSentences": [
+  {
+   "german": "Auf welchem Sender läuft das Spiel?",
+   "english": "Which channel is the game on?",
+   "highlight": [
+    "Sender"
+   ]
+  },
+  {
+   "german": "Das ist mein Lieblingssender.",
+   "english": "That's my favourite station.",
+   "highlight": [
+    "Lieblingssender."
+   ]
+  },
+  {
+   "german": "Der Sender sendet rund um die Uhr.",
+   "english": "The station broadcasts round the clock.",
+   "highlight": [
+    "Sender"
+   ]
+  }
+ ],
+ "forms": [
+  "Sender",
+  "die Sender",
+  "der Sender"
+ ],
+ "memoryHook": "Der Sender (channel) / die Sendung (programme).",
+ "signOff": "Gut gemacht!",
+ "quiz": [
+  {
+   "type": "choice",
+   "prompt": "___ Sender",
+   "options": [
+    "der",
+    "die",
+    "das"
+   ],
+   "answer": "der",
+   "explanation": "Sender is masculine.",
+   "id": "q1"
+  },
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "ein Sender, zwei ___",
+   "answer": "Sender",
+   "fullAnswer": "ein Sender, zwei Sender",
+   "explanation": "The plural is Sender.",
+   "acceptedAnswers": [
+    "Sender"
+   ],
+   "id": "q2"
+  },
+  {
+   "type": "choice",
+   "prompt": "What does Sender mean?",
+   "options": [
+    "the window",
+    "tomorrow",
+    "(TV/radio) station"
+   ],
+   "answer": "(TV/radio) station",
+   "explanation": "Sender: (TV/radio) station, channel.",
+   "id": "q3"
+  },
+  {
+   "type": "choice",
+   "prompt": "From…",
+   "options": [
+    "senden (broadcast)",
+    "Sendung"
+   ],
+   "answer": "senden (broadcast)",
+   "explanation": "Sender.",
+   "id": "q4"
+  },
+  {
+   "type": "choice",
+   "prompt": "A programme:",
+   "options": [
+    "die Sendung",
+    "der Sender"
+   ],
+   "answer": "die Sendung",
+   "explanation": "Programme.",
+   "id": "q5"
+  }
+ ],
+ "etymology": {
+  "title": "Where it comes from",
+  "parts": [
+   {
+    "part": "Send",
+    "meaning": "broadcast"
+   },
+   {
+    "part": "er",
+    "meaning": "person or thing that does it"
+   }
+  ],
+  "literalMeaning": "thing that broadcasts"
+ }
+}

@@ -1,0 +1,138 @@
+{
+ "schemaVersion": "1.4",
+ "language": "de",
+ "explanationLanguage": "en",
+ "level": "A2",
+ "levelSource": "Goethe-Zertifikat A2 Wortliste",
+ "lessonType": "card",
+ "word": {
+  "headword": "Vertrag",
+  "partOfSpeech": "noun, masculine (der Vertrag)",
+  "pronunciation": {
+   "respelling": "fair-TRAAK",
+   "ipa": "fɛɐ̯ˈtʁaːk",
+   "notes": "Plural: die Verträge."
+  },
+  "meaning": "contract",
+  "shortDefinition": "Contract."
+ },
+ "commonMistakes": [
+  {
+   "title": "Gender and plural",
+   "explanation": "Der Vertrag, plural die Verträge.",
+   "forms": [
+    {
+     "label": "One",
+     "value": "der Vertrag"
+    },
+    {
+     "label": "More than one",
+     "value": "die Verträge"
+    }
+   ]
+  }
+ ],
+ "sampleSentences": [
+  {
+   "german": "Ich habe den Vertrag unterschrieben.",
+   "english": "I've signed the contract.",
+   "highlight": [
+    "Vertrag"
+   ]
+  },
+  {
+   "german": "Der Mietvertrag läuft zwei Jahre.",
+   "english": "The tenancy agreement runs for two years.",
+   "highlight": [
+    "Mietvertrag"
+   ]
+  },
+  {
+   "german": "Lesen Sie den Vertrag genau.",
+   "english": "Read the contract carefully.",
+   "highlight": [
+    "Vertrag"
+   ]
+  }
+ ],
+ "forms": [
+  "Verträge",
+  "die Verträge",
+  "der Vertrag"
+ ],
+ "memoryHook": "Der Vertrag, die Verträge. Mietvertrag, Arbeitsvertrag.",
+ "signOff": "Gut gemacht!",
+ "quiz": [
+  {
+   "type": "choice",
+   "prompt": "___ Vertrag",
+   "options": [
+    "der",
+    "die",
+    "das"
+   ],
+   "answer": "der",
+   "explanation": "Vertrag is masculine.",
+   "id": "q1"
+  },
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "ein Vertrag, zwei ___",
+   "answer": "Verträge",
+   "fullAnswer": "ein Vertrag, zwei Verträge",
+   "explanation": "The plural is Verträge.",
+   "acceptedAnswers": [
+    "Vertraege"
+   ],
+   "id": "q2"
+  },
+  {
+   "type": "choice",
+   "prompt": "What does Vertrag mean?",
+   "options": [
+    "contract",
+    "the window",
+    "expensive"
+   ],
+   "answer": "contract",
+   "explanation": "Vertrag: contract.",
+   "id": "q3"
+  },
+  {
+   "type": "choice",
+   "prompt": "Sign a contract:",
+   "options": [
+    "einen Vertrag unterschreiben",
+    "einen Vertrag schreiben unter"
+   ],
+   "answer": "einen Vertrag unterschreiben",
+   "explanation": "Inseparable.",
+   "id": "q4"
+  },
+  {
+   "type": "choice",
+   "prompt": "Tenancy agreement:",
+   "options": [
+    "der Mietvertrag",
+    "der Wohnvertrag"
+   ],
+   "answer": "der Mietvertrag",
+   "explanation": "Miete + Vertrag.",
+   "id": "q5"
+  }
+ ],
+ "etymology": {
+  "title": "Where it comes from",
+  "parts": [
+   {
+    "part": "Ver",
+    "meaning": "prefix (change, away)"
+   },
+   {
+    "part": "trag",
+    "meaning": "carry"
+   }
+  ],
+  "literalMeaning": "what's carried together"
+ }
+}

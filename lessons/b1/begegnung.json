@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Begegnung",
+    "partOfSpeech": "noun, feminine (die Begegnung)",
+    "pronunciation": {
+      "respelling": "be-GAYG-nung",
+      "ipa": "bəˈɡeːɡnʊŋ",
+      "notes": "Plural: die Begegnungen."
+    },
+    "meaning": "encounter, meeting",
+    "shortDefinition": "Encounter, meeting."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Begegnung, plural die Begegnungen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Begegnung"
+        },
+        {
+          "label": "More than one",
+          "value": "die Begegnungen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das war eine schöne Begegnung.",
+      "english": "That was a lovely encounter.",
+      "highlight": [
+        "Begegnung."
+      ]
+    },
+    {
+      "german": "Die Begegnung endete 2:2.",
+      "english": "The match ended 2-2.",
+      "highlight": [
+        "Begegnung"
+      ]
+    },
+    {
+      "german": "Ich erinnere mich an unsere erste Begegnung.",
+      "english": "I remember our first meeting.",
+      "highlight": [
+        "Begegnung."
+      ]
+    }
+  ],
+  "forms": [
+    "begegnen"
+  ],
+  "memoryHook": "Begegnen (+ Dat) → die Begegnung (encounter).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Begegnung",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Begegnung is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Begegnung, zwei ___",
+      "answer": "Begegnungen",
+      "fullAnswer": "ein Begegnung, zwei Begegnungen",
+      "explanation": "The plural is Begegnungen.",
+      "acceptedAnswers": [
+        "Begegnungen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Begegnung mean?",
+      "options": [
+        "the door",
+        "tomorrow",
+        "encounter"
+      ],
+      "answer": "encounter",
+      "explanation": "Begegnung: encounter, meeting.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Verb:",
+      "options": [
+        "begegnen (+ Dat)",
+        "begegnen (+ Akk)"
+      ],
+      "answer": "begegnen (+ Dat)",
+      "explanation": "Meet by chance.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "In sport, Begegnung means…",
+      "options": [
+        "a match",
+        "a training"
+      ],
+      "answer": "a match",
+      "explanation": "Game.",
+      "id": "q5"
+    }
+  ]
+}

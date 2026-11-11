@@ -1,0 +1,236 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "full",
+  "word": {
+    "headword": "sein",
+    "partOfSpeech": "verb; also possessive (his/its)",
+    "pronunciation": {
+      "respelling": "ZINE",
+      "ipa": "zaɪ̯n",
+      "notes": "S like z; ei like 'eye'."
+    },
+    "meaning": "to be; (possessive) his, its",
+    "shortDefinition": "The verb 'to be', the most irregular verb in German."
+  },
+  "intro": {
+    "title": "Ich bin, du bist…",
+    "paragraphs": [
+      "Sein is 'to be' and completely irregular. It's also the helper for past tenses of movement verbs: ich bin gefahren. Don't confuse it with the possessive sein (his): sein Auto."
+    ]
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present",
+        "simple past"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "|bin",
+            "|war"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "|bist",
+            "|warst"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "|ist",
+            "|war"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "|sind",
+            "|waren"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "|seid",
+            "|wart"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "|sind",
+            "|waren"
+          ]
+        }
+      ],
+      "notes": [
+        "Past: ich war (more common than ich bin gewesen).",
+        "Ihr seid (be) vs seit (since): same sound, different words."
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "haben",
+      "english": "to have",
+      "type": "verb"
+    },
+    {
+      "german": "sein (possessive)",
+      "english": "his, its",
+      "type": "possessive"
+    },
+    {
+      "german": "da sein, an sein, aus sein",
+      "english": "to be there, on, off",
+      "type": "phrases"
+    }
+  ],
+  "keyTrap": {
+    "title": "The big trap: hungry, cold, 25",
+    "explanation": "Some English 'be' phrases use haben or a dative in German.",
+    "wrong": {
+      "german": "Ich bin kalt.",
+      "verdict": "This can sound like 'I'm a cold person'. Feeling cold: Mir ist kalt."
+    },
+    "correct": [
+      {
+        "german": "Mir ist kalt.",
+        "literal": "To me it is cold.",
+        "note": "Feeling cold or hot: mir ist …"
+      },
+      {
+        "german": "Ich habe Hunger.",
+        "literal": "I have hunger.",
+        "note": "Hungry: haben."
+      },
+      {
+        "german": "Ich bin 25 Jahre alt.",
+        "literal": "I am 25 years old.",
+        "note": "Age: sein, like English."
+      }
+    ]
+  },
+  "commonMistakes": [
+    {
+      "title": "seid or seit?",
+      "explanation": "Ihr seid = you (all) are. Seit = since.",
+      "wrong": "Ihr seit nett.",
+      "correct": "Ihr seid nett."
+    },
+    {
+      "title": "Past",
+      "explanation": "Use war in speech too.",
+      "examples": [
+        {
+          "german": "Ich war gestern krank.",
+          "english": "I was ill yesterday.",
+          "highlight": "war"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich bin Lehrerin.",
+      "english": "I'm a teacher.",
+      "highlight": [
+        "bin"
+      ]
+    },
+    {
+      "german": "Wo bist du?",
+      "english": "Where are you?",
+      "highlight": [
+        "bist"
+      ]
+    },
+    {
+      "german": "Wir sind aus Polen.",
+      "english": "We're from Poland.",
+      "highlight": [
+        "sind"
+      ]
+    },
+    {
+      "german": "Das war ein schöner Tag.",
+      "english": "That was a lovely day.",
+      "highlight": [
+        "war"
+      ]
+    }
+  ],
+  "forms": [
+    "bin",
+    "bist",
+    "ist",
+    "sind",
+    "seid",
+    "war",
+    "warst",
+    "waren",
+    "wart",
+    "gewesen",
+    "sei"
+  ],
+  "memoryHook": "Bin, bist, ist, sind, seid, sind. Past: war. Ihr seid (with d) are; seit (with t) is since.",
+  "signOff": "Du bist super!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Wir ___ müde. (sein)",
+      "answer": "sind",
+      "fullAnswer": "Wir sind müde.",
+      "explanation": "Wir sind.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Du ___ nett. (sein)",
+      "answer": "bist",
+      "fullAnswer": "Du bist nett.",
+      "explanation": "Du bist.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ihr ___ spät!",
+      "options": [
+        "seid",
+        "seit"
+      ],
+      "answer": "seid",
+      "explanation": "Verb with d.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Feeling cold:",
+      "options": [
+        "Mir ist kalt.",
+        "Ich bin kalt."
+      ],
+      "answer": "Mir ist kalt.",
+      "explanation": "Dative.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Gestern ___ ich krank. (was)",
+      "answer": "war",
+      "fullAnswer": "Gestern war ich krank.",
+      "explanation": "Ich war.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Scheibe",
+    "partOfSpeech": "noun, feminine (die Scheibe)",
+    "pronunciation": {
+      "respelling": "SHY-be",
+      "ipa": "ˈʃaɪ̯bə",
+      "notes": "Plural: die Scheiben."
+    },
+    "meaning": "slice; pane",
+    "shortDefinition": "Slice; pane."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Scheibe, plural die Scheiben.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Scheibe"
+        },
+        {
+          "label": "More than one",
+          "value": "die Scheiben"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Eine Scheibe Brot, bitte.",
+      "english": "A slice of bread, please.",
+      "highlight": [
+        "Scheibe"
+      ]
+    },
+    {
+      "german": "Die Scheibe ist kaputt.",
+      "english": "The window pane is broken.",
+      "highlight": [
+        "Scheibe"
+      ]
+    },
+    {
+      "german": "Ich schneide den Käse in Scheiben.",
+      "english": "I'm slicing the cheese.",
+      "highlight": [
+        "Scheiben."
+      ]
+    }
+  ],
+  "forms": [
+    "Scheiben",
+    "die Scheiben",
+    "die Scheibe"
+  ],
+  "memoryHook": "Die Scheibe: slice; pane of glass.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Scheibe",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Scheibe is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Scheibe, zwei ___",
+      "answer": "Scheiben",
+      "fullAnswer": "ein Scheibe, zwei Scheiben",
+      "explanation": "The plural is Scheiben.",
+      "acceptedAnswers": [
+        "Scheiben"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Scheibe mean?",
+      "options": [
+        "the car",
+        "slice",
+        "the bill"
+      ],
+      "answer": "slice",
+      "explanation": "Scheibe: slice; pane.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Windscreen:",
+      "options": [
+        "die Windschutzscheibe",
+        "das Windfenster"
+      ],
+      "answer": "die Windschutzscheibe",
+      "explanation": "Wind protection pane.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Scheiben",
+        "Scheibes"
+      ],
+      "answer": "Scheiben",
+      "explanation": "-n.",
+      "id": "q5"
+    }
+  ]
+}

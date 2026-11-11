@@ -1,0 +1,133 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Fakultät",
+    "partOfSpeech": "noun, feminine (die Fakultät)",
+    "pronunciation": {
+      "respelling": "fa-kool-TAIT",
+      "ipa": "fakʊlˈtɛːt",
+      "notes": "Plural: die Fakultäten."
+    },
+    "meaning": "faculty (university)",
+    "shortDefinition": "Faculty (university)."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Fakultät, plural die Fakultäten.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Fakultät"
+        },
+        {
+          "label": "More than one",
+          "value": "die Fakultäten"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Sie studiert an der juristischen Fakultät.",
+      "english": "She studies at the law faculty.",
+      "highlight": [
+        "Fakultät."
+      ]
+    },
+    {
+      "german": "Die medizinische Fakultät.",
+      "english": "The medical faculty.",
+      "highlight": [
+        "Fakultät."
+      ]
+    },
+    {
+      "german": "Der Dekan der Fakultät.",
+      "english": "The dean of the faculty.",
+      "highlight": [
+        "Fakultät."
+      ]
+    }
+  ],
+  "forms": [
+    "Fachbereich"
+  ],
+  "memoryHook": "Die Fakultät (≈ Fachbereich); der Dekan.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Fakultät",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Fakultät is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Fakultät, zwei ___",
+      "answer": "Fakultäten",
+      "fullAnswer": "ein Fakultät, zwei Fakultäten",
+      "explanation": "The plural is Fakultäten.",
+      "acceptedAnswers": [
+        "Fakultaeten"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Fakultät mean?",
+      "options": [
+        "faculty (university)",
+        "the evening",
+        "the bed"
+      ],
+      "answer": "faculty (university)",
+      "explanation": "Fakultät: faculty (university).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Head:",
+      "options": [
+        "der Dekan / die Dekanin",
+        "der Rektor"
+      ],
+      "answer": "der Dekan / die Dekanin",
+      "explanation": "Dean.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Stress on…",
+      "options": [
+        "-TÄT",
+        "FA-"
+      ],
+      "answer": "-TÄT",
+      "explanation": "End.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonym:",
+      "options": [
+        "der Fachbereich",
+        "die Fähigkeit"
+      ],
+      "answer": "der Fachbereich",
+      "explanation": "Department.",
+      "id": "q6"
+    }
+  ]
+}

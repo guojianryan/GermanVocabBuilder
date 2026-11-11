@@ -1,0 +1,179 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "verdanken",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "fer-DANG-ken",
+      "ipa": "fɛɐ̯ˈdaŋkn̩",
+      "notes": ""
+    },
+    "meaning": "to owe (thanks to), have to thank for",
+    "shortDefinition": "To owe (thanks to), have to thank for."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "ver",
+        "meaning": "prefix"
+      },
+      {
+        "part": "danken",
+        "meaning": "to thank"
+      }
+    ],
+    "literalMeaning": "to owe thanks"
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "verdank|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "verdank|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "verdank|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "verdank|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "verdank|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "verdank|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat verdankt"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich verdanke ihm mein Leben.",
+      "english": "I owe him my life.",
+      "highlight": [
+        "verdanke"
+      ]
+    },
+    {
+      "german": "Das haben wir dir zu verdanken.",
+      "english": "We have you to thank for that.",
+      "highlight": [
+        "verdanken."
+      ]
+    },
+    {
+      "german": "Den Erfolg verdankt sie ihrem Fleiß.",
+      "english": "She owes her success to hard work.",
+      "highlight": [
+        "verdankt"
+      ]
+    }
+  ],
+  "forms": [
+    "danken"
+  ],
+  "memoryHook": "Verdanken (+ Dat.) = owe to; zu verdanken haben.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (verdanken)",
+      "answer": "verdankt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: verdankt.",
+      "acceptedAnswers": [
+        "verdankt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (verdanken, past)",
+      "answer": "verdankt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe verdankt.",
+      "acceptedAnswers": [
+        "verdankt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does verdanken mean?",
+      "options": [
+        "to owe (thanks to)",
+        "hot",
+        "to help"
+      ],
+      "answer": "to owe (thanks to)",
+      "explanation": "verdanken: to owe (thanks to), have to thank for.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Structure:",
+      "options": [
+        "jemandem etwas verdanken",
+        "jemanden für etwas verdanken"
+      ],
+      "answer": "jemandem etwas verdanken",
+      "explanation": "Dative.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Zu verdanken haben' means…",
+      "options": [
+        "to have … to thank for",
+        "to have to thank"
+      ],
+      "answer": "to have … to thank for",
+      "explanation": "Owe.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "danken (thank)",
+        "denken"
+      ],
+      "answer": "danken (thank)",
+      "explanation": "Thank.",
+      "id": "q6"
+    }
+  ]
+}

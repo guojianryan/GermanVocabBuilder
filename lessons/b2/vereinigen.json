@@ -1,0 +1,186 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "vereinigen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "fer-INE-i-gen",
+      "ipa": "fɛɐ̯ˈʔaɪ̯nɪɡn̩",
+      "notes": ""
+    },
+    "meaning": "to unite, combine",
+    "shortDefinition": "To unite, combine."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "ver",
+        "meaning": "make"
+      },
+      {
+        "part": "einig",
+        "meaning": "united, one",
+        "emphasis": "arrive"
+      },
+      {
+        "part": "en",
+        "meaning": "verb ending"
+      }
+    ],
+    "literalMeaning": "to make one",
+    "summary": "Coming together as one."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "vereinig|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "vereinig|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "vereinig|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "vereinig|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "vereinig|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "vereinig|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat vereinigt"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Deutschland wurde 1990 wiedervereinigt.",
+      "english": "Germany was reunited in 1990.",
+      "highlight": [
+        "wiedervereinigt."
+      ]
+    },
+    {
+      "german": "Sie vereinigt Talent und Fleiß.",
+      "english": "She combines talent and hard work.",
+      "highlight": [
+        "vereinigt"
+      ]
+    },
+    {
+      "german": "Die Vereinigten Staaten.",
+      "english": "The United States.",
+      "highlight": [
+        "Vereinigten"
+      ]
+    }
+  ],
+  "forms": [
+    "Vereinigung",
+    "Wiedervereinigung"
+  ],
+  "memoryHook": "Ver + einig = unite; die (Wieder)vereinigung.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (vereinigen)",
+      "answer": "vereinigt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: vereinigt.",
+      "acceptedAnswers": [
+        "vereinigt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (vereinigen, past)",
+      "answer": "vereinigt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe vereinigt.",
+      "acceptedAnswers": [
+        "vereinigt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does vereinigen mean?",
+      "options": [
+        "to unite",
+        "expensive",
+        "the key"
+      ],
+      "answer": "to unite",
+      "explanation": "vereinigen: to unite, combine.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Die Vereinigten Staaten' are…",
+      "options": [
+        "the USA",
+        "the EU"
+      ],
+      "answer": "the USA",
+      "explanation": "USA.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Noun:",
+      "options": [
+        "die Vereinigung",
+        "der Verein only"
+      ],
+      "answer": "die Vereinigung",
+      "explanation": "Union.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "einig (united, one)",
+        "Verein only"
+      ],
+      "answer": "einig (united, one)",
+      "explanation": "One.",
+      "id": "q6"
+    }
+  ]
+}

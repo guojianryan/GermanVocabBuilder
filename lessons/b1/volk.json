@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Volk",
+    "partOfSpeech": "noun, neuter (das Volk)",
+    "pronunciation": {
+      "respelling": "FOLK",
+      "ipa": "fɔlk",
+      "notes": "Plural: die Völker."
+    },
+    "meaning": "people, nation",
+    "shortDefinition": "People, nation."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Volk, plural die Völker.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Volk"
+        },
+        {
+          "label": "More than one",
+          "value": "die Völker"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das deutsche Volk hat gewählt.",
+      "english": "The German people have voted.",
+      "highlight": [
+        "Volk"
+      ]
+    },
+    {
+      "german": "Viele Völker leben in Europa.",
+      "english": "Many peoples live in Europe.",
+      "highlight": [
+        "Völker"
+      ]
+    },
+    {
+      "german": "Ein Volksfest ist ein großes Fest.",
+      "english": "A Volksfest is a big public festival.",
+      "highlight": [
+        "Volksfest"
+      ]
+    }
+  ],
+  "forms": [
+    "Volksfest"
+  ],
+  "memoryHook": "Das Volk (people, nation). Volksfest, Volkswagen.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Volk",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Volk is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Volk, zwei ___",
+      "answer": "Völker",
+      "fullAnswer": "ein Volk, zwei Völker",
+      "explanation": "The plural is Völker.",
+      "acceptedAnswers": [
+        "Voelker"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Volk mean?",
+      "options": [
+        "people",
+        "the job",
+        "tomorrow"
+      ],
+      "answer": "people",
+      "explanation": "Volk: people, nation.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "V sounds like…",
+      "options": [
+        "f",
+        "v"
+      ],
+      "answer": "f",
+      "explanation": "FOLK.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Völker",
+        "Volke"
+      ],
+      "answer": "Völker",
+      "explanation": "o → ö + -er.",
+      "id": "q5"
+    }
+  ]
+}

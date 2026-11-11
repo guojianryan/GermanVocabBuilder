@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Gas",
+    "partOfSpeech": "noun, neuter (das Gas)",
+    "pronunciation": {
+      "respelling": "GAAS",
+      "ipa": "ɡaːs",
+      "notes": "Plural: die Gase."
+    },
+    "meaning": "gas",
+    "shortDefinition": "Gas."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Gas, plural die Gase.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Gas"
+        },
+        {
+          "label": "More than one",
+          "value": "die Gase"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir kochen mit Gas.",
+      "english": "We cook with gas.",
+      "highlight": [
+        "Gas."
+      ]
+    },
+    {
+      "german": "Gib Gas!",
+      "english": "Step on it!",
+      "highlight": [
+        "Gas!"
+      ]
+    },
+    {
+      "german": "Die Gasrechnung ist hoch.",
+      "english": "The gas bill is high.",
+      "highlight": [
+        "Gasrechnung"
+      ]
+    }
+  ],
+  "forms": [
+    "Gase",
+    "die Gase",
+    "das Gas"
+  ],
+  "memoryHook": "Das Gas (cooking, heating). Gas geben = accelerate. Petrol = Benzin.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Gas",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Gas is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Gas, zwei ___",
+      "answer": "Gase",
+      "fullAnswer": "ein Gas, zwei Gase",
+      "explanation": "The plural is Gase.",
+      "acceptedAnswers": [
+        "Gase"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Gas mean?",
+      "options": [
+        "to sing",
+        "to learn",
+        "gas"
+      ],
+      "answer": "gas",
+      "explanation": "Gas: gas.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Gas geben' means…",
+      "options": [
+        "to accelerate",
+        "to give gas away"
+      ],
+      "answer": "to accelerate",
+      "explanation": "Car.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Petrol is…",
+      "options": [
+        "das Benzin",
+        "das Gas"
+      ],
+      "answer": "das Benzin",
+      "explanation": "Not Gas!",
+      "id": "q5"
+    }
+  ]
+}

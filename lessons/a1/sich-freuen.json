@@ -1,0 +1,194 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "(sich) freuen",
+    "partOfSpeech": "reflexive verb",
+    "pronunciation": {
+      "respelling": "FROY-en",
+      "ipa": "ˈfʁɔɪ̯ən",
+      "notes": ""
+    },
+    "meaning": "to be happy, to be pleased",
+    "shortDefinition": "To be happy, to be pleased."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "freu|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "freu|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "freu|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "freu|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "freu|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "freu|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat sich gefreut"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "die Freude",
+      "english": "joy",
+      "type": "noun"
+    },
+    {
+      "german": "Freut mich!",
+      "english": "Pleased to meet you!",
+      "type": "phrase"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "auf or über?",
+      "explanation": "Auf looks ahead; über is about something that's here or has happened.",
+      "examples": [
+        {
+          "german": "Ich freue mich auf den Urlaub.",
+          "english": "I'm looking forward to the holiday.",
+          "highlight": "auf"
+        },
+        {
+          "german": "Ich freue mich über das Geschenk.",
+          "english": "I'm pleased with the present.",
+          "highlight": "über"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich freue mich auf das Wochenende.",
+      "english": "I'm looking forward to the weekend.",
+      "highlight": [
+        "freue",
+        "mich",
+        "auf"
+      ]
+    },
+    {
+      "german": "Wir freuen uns über deinen Besuch.",
+      "english": "We're glad about your visit.",
+      "highlight": [
+        "freuen",
+        "uns",
+        "über"
+      ]
+    },
+    {
+      "german": "Freut mich!",
+      "english": "Pleased to meet you!",
+      "highlight": [
+        "Freut"
+      ]
+    }
+  ],
+  "forms": [
+    "freue",
+    "freust",
+    "freut",
+    "freuen",
+    "gefreut",
+    "freue mich",
+    "Freude"
+  ],
+  "memoryHook": "Sich freuen auf = look forward to (future). Sich freuen über = be glad about (now). Freut mich! = Nice to meet you.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ ((sich) freuen)",
+      "answer": "freut",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: freut.",
+      "acceptedAnswers": [
+        "freut"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. ((sich) freuen, past)",
+      "answer": "gefreut",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gefreut.",
+      "acceptedAnswers": [
+        "gefreut"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does (sich) freuen mean?",
+      "options": [
+        "to be happy",
+        "the child",
+        "the bread"
+      ],
+      "answer": "to be happy",
+      "explanation": "(sich) freuen: to be happy, to be pleased.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Looking forward to the future: sich freuen…",
+      "options": [
+        "auf",
+        "über"
+      ],
+      "answer": "auf",
+      "explanation": "Auf = looking forward.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Happy about something now: sich freuen…",
+      "options": [
+        "auf",
+        "über"
+      ],
+      "answer": "über",
+      "explanation": "Über = about, now or past.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Arbeitgeber",
+    "partOfSpeech": "noun, masculine (der Arbeitgeber)",
+    "pronunciation": {
+      "respelling": "AR-bite-gay-ber",
+      "ipa": "ˈaʁbaɪ̯tˌɡeːbɐ",
+      "notes": "The plural looks the same. Plural: die Arbeitgeber."
+    },
+    "meaning": "employer",
+    "shortDefinition": "Employer."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Arbeit",
+        "meaning": "work"
+      },
+      {
+        "part": "geber",
+        "meaning": "giver"
+      }
+    ],
+    "literalMeaning": "work giver"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Arbeitgeber, plural die Arbeitgeber.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Arbeitgeber"
+        },
+        {
+          "label": "More than one",
+          "value": "die Arbeitgeber"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Mein Arbeitgeber zahlt pünktlich.",
+      "english": "My employer pays on time.",
+      "highlight": [
+        "Arbeitgeber"
+      ]
+    },
+    {
+      "german": "Die Arbeitgeber und die Gewerkschaften verhandeln.",
+      "english": "Employers and unions are negotiating.",
+      "highlight": [
+        "Arbeitgeber"
+      ]
+    },
+    {
+      "german": "Wer ist Ihr Arbeitgeber?",
+      "english": "Who's your employer?",
+      "highlight": [
+        "Arbeitgeber?"
+      ]
+    }
+  ],
+  "forms": [
+    "Arbeitgeberin"
+  ],
+  "memoryHook": "Arbeit + Geber = employer ↔ Arbeitnehmer.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Arbeitgeber",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Arbeitgeber is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Arbeitgeber, zwei ___",
+      "answer": "Arbeitgeber",
+      "fullAnswer": "ein Arbeitgeber, zwei Arbeitgeber",
+      "explanation": "The plural is Arbeitgeber.",
+      "acceptedAnswers": [
+        "Arbeitgeber"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Arbeitgeber mean?",
+      "options": [
+        "employer",
+        "hot",
+        "always"
+      ],
+      "answer": "employer",
+      "explanation": "Arbeitgeber: employer.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Arbeit + Geber (giver)",
+        "Arbeit + geben only"
+      ],
+      "answer": "Arbeit + Geber (giver)",
+      "explanation": "Work giver.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Opposite:",
+      "options": [
+        "der Arbeitnehmer",
+        "der Arbeiter"
+      ],
+      "answer": "der Arbeitnehmer",
+      "explanation": "Employee.",
+      "id": "q5"
+    }
+  ]
+}

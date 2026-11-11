@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Fan",
+    "partOfSpeech": "noun, masculine (der Fan)",
+    "pronunciation": {
+      "respelling": "FEN",
+      "ipa": "fɛn",
+      "notes": "Plural: die Fans."
+    },
+    "meaning": "fan",
+    "shortDefinition": "Fan."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Fan, plural die Fans.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Fan"
+        },
+        {
+          "label": "More than one",
+          "value": "die Fans"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich bin ein großer Fan von Bayern München.",
+      "english": "I'm a big Bayern Munich fan.",
+      "highlight": [
+        "Fan"
+      ]
+    },
+    {
+      "german": "Die Fans singen im Stadion.",
+      "english": "The fans are singing in the stadium.",
+      "highlight": [
+        "Fans"
+      ]
+    },
+    {
+      "german": "Sie ist ein Fan von Krimis.",
+      "english": "She's a fan of crime novels.",
+      "highlight": [
+        "Fan"
+      ]
+    }
+  ],
+  "forms": [
+    "Fans",
+    "die Fans",
+    "der Fan"
+  ],
+  "memoryHook": "Der Fan: the person. The cooling fan is der Ventilator.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Fan",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Fan is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Fan, zwei ___",
+      "answer": "Fans",
+      "fullAnswer": "ein Fan, zwei Fans",
+      "explanation": "The plural is Fans.",
+      "acceptedAnswers": [
+        "Fans"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Fan mean?",
+      "options": [
+        "fan",
+        "the bed",
+        "to open"
+      ],
+      "answer": "fan",
+      "explanation": "Fan: fan.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "A fan ___ something:",
+      "options": [
+        "von",
+        "für"
+      ],
+      "answer": "von",
+      "explanation": "Ein Fan von.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "A fan (for cooling) is…",
+      "options": [
+        "ein Ventilator",
+        "ein Fan"
+      ],
+      "answer": "ein Ventilator",
+      "explanation": "Fan = only the person.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "spät",
+    "partOfSpeech": "adjective / adverb",
+    "pronunciation": {
+      "respelling": "SHPAYT",
+      "ipa": "ʃpɛːt",
+      "notes": ""
+    },
+    "meaning": "late",
+    "shortDefinition": "Late."
+  },
+  "wordFamily": [
+    {
+      "german": "früh",
+      "english": "early",
+      "type": "adjective"
+    },
+    {
+      "german": "später",
+      "english": "later",
+      "type": "adverb"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Es ist schon spät.",
+      "english": "It's already late.",
+      "highlight": [
+        "spät."
+      ]
+    },
+    {
+      "german": "Wie spät ist es?",
+      "english": "What time is it?",
+      "highlight": [
+        "spät"
+      ]
+    },
+    {
+      "german": "Der Zug kommt zu spät.",
+      "english": "The train is late.",
+      "highlight": [
+        "spät."
+      ]
+    }
+  ],
+  "forms": [],
+  "memoryHook": "Spät = late. Wie spät ist es? = What time is it? Zu spät kommen = be late.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does spät mean?",
+      "options": [
+        "hot",
+        "the street",
+        "late"
+      ],
+      "answer": "late",
+      "explanation": "spät: late.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Wie spät ist es?' means…",
+      "options": [
+        "What time is it?",
+        "How late is it?"
+      ],
+      "answer": "What time is it?",
+      "explanation": "Asking the time.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Zu spät' means…",
+      "options": [
+        "too late / late",
+        "very late"
+      ],
+      "answer": "too late / late",
+      "explanation": "Er kommt zu spät.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "The opposite of spät is…",
+      "options": [
+        "früh",
+        "schnell"
+      ],
+      "answer": "früh",
+      "explanation": "Early.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Entschuldigung, ich bin zu ___. (late)",
+      "answer": "spät",
+      "fullAnswer": "Ich bin zu spät.",
+      "explanation": "Spät.",
+      "acceptedAnswers": [
+        "spaet"
+      ],
+      "id": "q5"
+    }
+  ]
+}

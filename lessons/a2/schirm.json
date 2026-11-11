@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Schirm",
+    "partOfSpeech": "noun, masculine (der Schirm)",
+    "pronunciation": {
+      "respelling": "SHEERM",
+      "ipa": "ʃɪʁm",
+      "notes": "Plural: die Schirme."
+    },
+    "meaning": "umbrella",
+    "shortDefinition": "Umbrella."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Schirm, plural die Schirme.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Schirm"
+        },
+        {
+          "label": "More than one",
+          "value": "die Schirme"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Nimm einen Schirm mit, es regnet!",
+      "english": "Take an umbrella, it's raining!",
+      "highlight": [
+        "Schirm"
+      ]
+    },
+    {
+      "german": "Ich habe meinen Schirm im Bus vergessen.",
+      "english": "I left my umbrella on the bus.",
+      "highlight": [
+        "Schirm"
+      ]
+    },
+    {
+      "german": "Der Regenschirm ist kaputt.",
+      "english": "The umbrella is broken.",
+      "highlight": [
+        "Regenschirm"
+      ]
+    }
+  ],
+  "forms": [
+    "Regenschirm",
+    "Bildschirm"
+  ],
+  "memoryHook": "Der (Regen)schirm. Bildschirm = screen.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Schirm",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Schirm is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Schirm, zwei ___",
+      "answer": "Schirme",
+      "fullAnswer": "ein Schirm, zwei Schirme",
+      "explanation": "The plural is Schirme.",
+      "acceptedAnswers": [
+        "Schirme"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Schirm mean?",
+      "options": [
+        "the bed",
+        "umbrella",
+        "never"
+      ],
+      "answer": "umbrella",
+      "explanation": "Schirm: umbrella.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Full word:",
+      "options": [
+        "der Regenschirm",
+        "der Wasserschirm"
+      ],
+      "answer": "der Regenschirm",
+      "explanation": "Rain + screen.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Der Bildschirm is…",
+      "options": [
+        "a screen (computer)",
+        "a picture umbrella"
+      ],
+      "answer": "a screen (computer)",
+      "explanation": "Schirm = screen too.",
+      "id": "q5"
+    }
+  ]
+}

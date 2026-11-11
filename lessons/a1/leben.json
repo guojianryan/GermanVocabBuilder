@@ -1,0 +1,171 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "leben",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "LAY-ben",
+      "ipa": "ˈleːbn̩",
+      "notes": ""
+    },
+    "meaning": "to live (be alive; live somewhere, your life)",
+    "shortDefinition": "To live (be alive; live somewhere, your life)."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "leb|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "leb|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "leb|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "leb|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "leb|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "leb|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gelebt"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "das Leben",
+      "english": "life",
+      "type": "noun"
+    },
+    {
+      "german": "wohnen",
+      "english": "to live (reside)",
+      "type": "verb"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich lebe seit zehn Jahren in Deutschland.",
+      "english": "I've been living in Germany for ten years.",
+      "highlight": [
+        "lebe"
+      ]
+    },
+    {
+      "german": "Lebt dein Großvater noch?",
+      "english": "Is your grandfather still alive?",
+      "highlight": [
+        "Lebt"
+      ]
+    },
+    {
+      "german": "Das Leben ist schön.",
+      "english": "Life is beautiful.",
+      "highlight": [
+        "Leben"
+      ]
+    }
+  ],
+  "forms": [
+    "lebe",
+    "lebst",
+    "lebt",
+    "leben",
+    "gelebt",
+    "Leben"
+  ],
+  "memoryHook": "Leben = live, be alive. Das Leben = life. For your address, wohnen is better.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (leben)",
+      "answer": "lebt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: lebt.",
+      "acceptedAnswers": [
+        "lebt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (leben, past)",
+      "answer": "gelebt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gelebt.",
+      "acceptedAnswers": [
+        "gelebt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does leben mean?",
+      "options": [
+        "the bed",
+        "to live (be alive",
+        "hot"
+      ],
+      "answer": "to live (be alive",
+      "explanation": "leben: to live (be alive; live somewhere, your life).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "For your exact address, use…",
+      "options": [
+        "wohnen",
+        "leben"
+      ],
+      "answer": "wohnen",
+      "explanation": "Wohnen: reside at an address.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Das Leben means…",
+      "options": [
+        "life",
+        "the living room"
+      ],
+      "answer": "life",
+      "explanation": "Leben → das Leben.",
+      "id": "q5"
+    }
+  ]
+}

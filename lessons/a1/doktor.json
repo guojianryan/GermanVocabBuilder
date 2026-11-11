@@ -1,0 +1,131 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Doktor",
+    "partOfSpeech": "noun, masculine (der Doktor)",
+    "pronunciation": {
+      "respelling": "DOK-tor",
+      "ipa": "ˈdɔktoːɐ̯",
+      "notes": "Plural stress moves: Dok-TO-ren. Plural: die Doktoren."
+    },
+    "meaning": "doctor (title; informally a medical doctor)",
+    "shortDefinition": "Doctor (title; informally a medical doctor)."
+  },
+  "wordFamily": [
+    {
+      "german": "der Arzt",
+      "english": "doctor",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Doktor, plural die Doktoren.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Doktor"
+        },
+        {
+          "label": "More than one",
+          "value": "die Doktoren"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Herr Doktor, mir geht es nicht gut.",
+      "english": "Doctor, I'm not feeling well.",
+      "highlight": [
+        "Doktor,"
+      ]
+    },
+    {
+      "german": "Sie hat einen Doktor in Physik.",
+      "english": "She has a doctorate in physics.",
+      "highlight": [
+        "Doktor"
+      ]
+    },
+    {
+      "german": "Das ist Frau Dr. Schmidt.",
+      "english": "This is Dr Schmidt.",
+      "highlight": [
+        "Dr."
+      ]
+    }
+  ],
+  "forms": [
+    "Doktoren",
+    "Dr.",
+    "der Doktor"
+  ],
+  "memoryHook": "Doktor is a title (Dr.). For 'I'm going to the doctor', Germans say zum Arzt.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Doktor",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Doktor is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Doktor, zwei ___",
+      "answer": "Doktoren",
+      "fullAnswer": "ein Doktor, zwei Doktoren",
+      "explanation": "The plural is Doktoren.",
+      "acceptedAnswers": [
+        "Doktoren"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Doktor mean?",
+      "options": [
+        "the flower",
+        "the bed",
+        "doctor (title"
+      ],
+      "answer": "doctor (title",
+      "explanation": "Doktor: doctor (title; informally a medical doctor).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "The everyday word for a medical doctor is…",
+      "options": [
+        "der Arzt",
+        "der Doktor"
+      ],
+      "answer": "der Arzt",
+      "explanation": "Doktor is mainly a title.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "The plural stress moves: Dok-TO-ren. True?",
+      "options": [
+        "yes",
+        "no"
+      ],
+      "answer": "yes",
+      "explanation": "Der DOK-tor, die Dok-TO-ren.",
+      "id": "q5"
+    }
+  ]
+}

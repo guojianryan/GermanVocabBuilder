@@ -1,0 +1,138 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Haustür",
+    "partOfSpeech": "noun, feminine (die Haustür)",
+    "pronunciation": {
+      "respelling": "HOWS-tür",
+      "ipa": "ˈhaʊ̯styːɐ̯",
+      "notes": "Plural: die Haustüren."
+    },
+    "meaning": "front door",
+    "shortDefinition": "Front door."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Haus",
+        "meaning": "house"
+      },
+      {
+        "part": "tür",
+        "meaning": "door"
+      }
+    ],
+    "literalMeaning": "house door"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Haustür, plural die Haustüren.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Haustür"
+        },
+        {
+          "label": "More than one",
+          "value": "die Haustüren"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Mach bitte die Haustür zu.",
+      "english": "Please close the front door.",
+      "highlight": [
+        "Haustür"
+      ]
+    },
+    {
+      "german": "Jemand klingelt an der Haustür.",
+      "english": "Someone's ringing at the front door.",
+      "highlight": [
+        "Haustür."
+      ]
+    },
+    {
+      "german": "Die Haustür ist abgeschlossen.",
+      "english": "The front door is locked.",
+      "highlight": [
+        "Haustür"
+      ]
+    }
+  ],
+  "forms": [
+    "Haustüren",
+    "die Haustüren",
+    "die Haustür"
+  ],
+  "memoryHook": "Haus + Tür = front door.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Haustür",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Haustür is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Haustür, zwei ___",
+      "answer": "Haustüren",
+      "fullAnswer": "ein Haustür, zwei Haustüren",
+      "explanation": "The plural is Haustüren.",
+      "acceptedAnswers": [
+        "Haustueren"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Haustür mean?",
+      "options": [
+        "the window",
+        "to wait",
+        "front door"
+      ],
+      "answer": "front door",
+      "explanation": "Haustür: front door.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Haus + Tür",
+        "Hauch + Tür"
+      ],
+      "answer": "Haus + Tür",
+      "explanation": "House door.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Haustür vs Wohnungstür:",
+      "options": [
+        "building door vs flat door",
+        "same"
+      ],
+      "answer": "building door vs flat door",
+      "explanation": "Different.",
+      "id": "q5"
+    }
+  ]
+}

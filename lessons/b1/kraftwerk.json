@@ -1,0 +1,138 @@
+{
+ "schemaVersion": "1.4",
+ "language": "de",
+ "explanationLanguage": "en",
+ "level": "B1",
+ "levelSource": "Goethe-Zertifikat B1 Wortliste",
+ "lessonType": "card",
+ "word": {
+  "headword": "Kraftwerk",
+  "partOfSpeech": "noun, neuter (das Kraftwerk)",
+  "pronunciation": {
+   "respelling": "KRAFT-vairk",
+   "ipa": "ˈkʁaftvɛʁk",
+   "notes": "Plural: die Kraftwerke."
+  },
+  "meaning": "power station",
+  "shortDefinition": "Power station."
+ },
+ "commonMistakes": [
+  {
+   "title": "Gender and plural",
+   "explanation": "Das Kraftwerk, plural die Kraftwerke.",
+   "forms": [
+    {
+     "label": "One",
+     "value": "das Kraftwerk"
+    },
+    {
+     "label": "More than one",
+     "value": "die Kraftwerke"
+    }
+   ]
+  }
+ ],
+ "sampleSentences": [
+  {
+   "german": "Das Kraftwerk produziert Strom.",
+   "english": "The power station produces electricity.",
+   "highlight": [
+    "Kraftwerk"
+   ]
+  },
+  {
+   "german": "Das Atomkraftwerk wurde geschlossen.",
+   "english": "The nuclear power plant was closed.",
+   "highlight": [
+    "Atomkraftwerk"
+   ]
+  },
+  {
+   "german": "Hier steht ein Kohlekraftwerk.",
+   "english": "There's a coal power station here.",
+   "highlight": [
+    "Kohlekraftwerk."
+   ]
+  }
+ ],
+ "forms": [
+  "Kraftwerke",
+  "die Kraftwerke",
+  "das Kraftwerk"
+ ],
+ "memoryHook": "Kraft + Werk = power station.",
+ "signOff": "Gut gemacht!",
+ "quiz": [
+  {
+   "type": "choice",
+   "prompt": "___ Kraftwerk",
+   "options": [
+    "der",
+    "die",
+    "das"
+   ],
+   "answer": "das",
+   "explanation": "Kraftwerk is neuter.",
+   "id": "q1"
+  },
+  {
+   "type": "fill-in-the-blank",
+   "prompt": "ein Kraftwerk, zwei ___",
+   "answer": "Kraftwerke",
+   "fullAnswer": "ein Kraftwerk, zwei Kraftwerke",
+   "explanation": "The plural is Kraftwerke.",
+   "acceptedAnswers": [
+    "Kraftwerke"
+   ],
+   "id": "q2"
+  },
+  {
+   "type": "choice",
+   "prompt": "What does Kraftwerk mean?",
+   "options": [
+    "the child",
+    "power station",
+    "the weather"
+   ],
+   "answer": "power station",
+   "explanation": "Kraftwerk: power station.",
+   "id": "q3"
+  },
+  {
+   "type": "choice",
+   "prompt": "Built from…",
+   "options": [
+    "Kraft (power) + Werk (works)",
+    "Kraft + Wort"
+   ],
+   "answer": "Kraft (power) + Werk (works)",
+   "explanation": "Power works.",
+   "id": "q4"
+  },
+  {
+   "type": "choice",
+   "prompt": "Nuclear power station:",
+   "options": [
+    "das Atomkraftwerk",
+    "das Atomwerk"
+   ],
+   "answer": "das Atomkraftwerk",
+   "explanation": "AKW.",
+   "id": "q5"
+  }
+ ],
+ "etymology": {
+  "title": "Where it comes from",
+  "parts": [
+   {
+    "part": "Kraft",
+    "meaning": "power"
+   },
+   {
+    "part": "werk",
+    "meaning": "works"
+   }
+  ],
+  "literalMeaning": "power works"
+ }
+}

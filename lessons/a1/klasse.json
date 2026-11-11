@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Klasse",
+    "partOfSpeech": "noun, feminine (die Klasse)",
+    "pronunciation": {
+      "respelling": "KLASS-uh",
+      "ipa": "ˈklasə",
+      "notes": "Plural: die Klassen."
+    },
+    "meaning": "class (school); great!",
+    "shortDefinition": "Class (school); great!."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Klasse, plural die Klassen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Klasse"
+        },
+        {
+          "label": "More than one",
+          "value": "die Klassen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Meine Tochter ist in der dritten Klasse.",
+      "english": "My daughter is in third grade.",
+      "highlight": [
+        "Klasse."
+      ]
+    },
+    {
+      "german": "Ich fahre zweiter Klasse.",
+      "english": "I'm travelling second class.",
+      "highlight": [
+        "Klasse."
+      ]
+    },
+    {
+      "german": "Das ist ja Klasse!",
+      "english": "That's great!",
+      "highlight": [
+        "Klasse!"
+      ]
+    }
+  ],
+  "forms": [
+    "Klassen",
+    "die Klassen",
+    "die Klasse"
+  ],
+  "memoryHook": "Die Klasse: school class, train class, and 'great!'.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Klasse",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Klasse is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Klasse, zwei ___",
+      "answer": "Klassen",
+      "fullAnswer": "ein Klasse, zwei Klassen",
+      "explanation": "The plural is Klassen.",
+      "acceptedAnswers": [
+        "Klassen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Klasse mean?",
+      "options": [
+        "the key",
+        "to sleep",
+        "class (school)"
+      ],
+      "answer": "class (school)",
+      "explanation": "Klasse: class (school); great!.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Klasse!' on its own means…",
+      "options": [
+        "Great!",
+        "Class!"
+      ],
+      "answer": "Great!",
+      "explanation": "Informal praise.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "On trains, you travel erster or zweiter…",
+      "options": [
+        "Klasse",
+        "Kurs"
+      ],
+      "answer": "Klasse",
+      "explanation": "First or second class.",
+      "id": "q5"
+    }
+  ]
+}

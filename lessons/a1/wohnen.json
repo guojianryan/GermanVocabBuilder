@@ -1,0 +1,170 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "wohnen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "VOH-nen",
+      "ipa": "ˈvoːnən",
+      "notes": ""
+    },
+    "meaning": "to live (at an address), to reside",
+    "shortDefinition": "To live (at an address), to reside."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "wohn|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "wohn|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "wohn|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "wohn|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "wohn|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "wohn|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gewohnt"
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "die Wohnung",
+      "english": "flat",
+      "type": "noun"
+    },
+    {
+      "german": "leben",
+      "english": "to live",
+      "type": "verb"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wo wohnst du?",
+      "english": "Where do you live?",
+      "highlight": [
+        "wohnst"
+      ]
+    },
+    {
+      "german": "Ich wohne in der Schillerstraße 7.",
+      "english": "I live at Schillerstraße 7.",
+      "highlight": [
+        "wohne"
+      ]
+    },
+    {
+      "german": "Wir wohnen seit drei Jahren in Hamburg.",
+      "english": "We've lived in Hamburg for three years.",
+      "highlight": [
+        "wohnen"
+      ]
+    }
+  ],
+  "forms": [
+    "wohne",
+    "wohnst",
+    "wohnt",
+    "wohnen",
+    "gewohnt"
+  ],
+  "memoryHook": "Wohnen = live (address). Die Wohnung, das Wohnzimmer. Leben = live (be alive, life in general).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (wohnen)",
+      "answer": "wohnt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: wohnt.",
+      "acceptedAnswers": [
+        "wohnt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (wohnen, past)",
+      "answer": "gewohnt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gewohnt.",
+      "acceptedAnswers": [
+        "gewohnt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does wohnen mean?",
+      "options": [
+        "to live (at an address)",
+        "the child",
+        "the weather"
+      ],
+      "answer": "to live (at an address)",
+      "explanation": "wohnen: to live (at an address), to reside.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "For your address, use…",
+      "options": [
+        "wohnen",
+        "leben"
+      ],
+      "answer": "wohnen",
+      "explanation": "Residence.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Die Wohnung comes from…",
+      "options": [
+        "wohnen",
+        "wohl"
+      ],
+      "answer": "wohnen",
+      "explanation": "Where you wohnst.",
+      "id": "q5"
+    }
+  ]
+}

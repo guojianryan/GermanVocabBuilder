@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Wunsch",
+    "partOfSpeech": "noun, masculine (der Wunsch)",
+    "pronunciation": {
+      "respelling": "VOONSH",
+      "ipa": "vʊnʃ",
+      "notes": "Plural: die Wünsche."
+    },
+    "meaning": "wish",
+    "shortDefinition": "Wish."
+  },
+  "wordFamily": [
+    {
+      "german": "wünschen",
+      "english": "to wish",
+      "type": "verb"
+    },
+    {
+      "german": "der Glückwunsch",
+      "english": "congratulations",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Wunsch, plural die Wünsche.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Wunsch"
+        },
+        {
+          "label": "More than one",
+          "value": "die Wünsche"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Hast du einen Wunsch?",
+      "english": "Have you got a wish?",
+      "highlight": [
+        "Wunsch?"
+      ]
+    },
+    {
+      "german": "Alle guten Wünsche zum Geburtstag!",
+      "english": "Best wishes for your birthday!",
+      "highlight": [
+        "Wünsche"
+      ]
+    },
+    {
+      "german": "Haben Sie noch einen Wunsch?",
+      "english": "Is there anything else? (waiter)",
+      "highlight": [
+        "Wunsch?"
+      ]
+    }
+  ],
+  "forms": [
+    "Wünsche",
+    "die Wünsche",
+    "der Wunsch"
+  ],
+  "memoryHook": "Der Wunsch, die Wünsche. Wünschen = to wish.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Wunsch",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Wunsch is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Wunsch, zwei ___",
+      "answer": "Wünsche",
+      "fullAnswer": "ein Wunsch, zwei Wünsche",
+      "explanation": "The plural is Wünsche.",
+      "acceptedAnswers": [
+        "Wuensche"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Wunsch mean?",
+      "options": [
+        "never",
+        "slowly",
+        "wish"
+      ],
+      "answer": "wish",
+      "explanation": "Wunsch: wish.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Wünsche",
+        "Wunsche"
+      ],
+      "answer": "Wünsche",
+      "explanation": "u → ü.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "A waiter's 'Noch einen Wunsch?' means…",
+      "options": [
+        "Anything else?",
+        "Make a wish!"
+      ],
+      "answer": "Anything else?",
+      "explanation": "Polite.",
+      "id": "q5"
+    }
+  ]
+}

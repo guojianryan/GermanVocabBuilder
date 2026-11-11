@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Tempo",
+    "partOfSpeech": "noun, neuter (das Tempo)",
+    "pronunciation": {
+      "respelling": "TEM-po",
+      "ipa": "ˈtɛmpo",
+      "notes": "Plural: die Tempos."
+    },
+    "meaning": "speed, pace",
+    "shortDefinition": "Speed, pace."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Tempo, plural die Tempos.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Tempo"
+        },
+        {
+          "label": "More than one",
+          "value": "die Tempos"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "In der Stadt gilt Tempo 50.",
+      "english": "The speed limit in town is 50.",
+      "highlight": [
+        "Tempo"
+      ]
+    },
+    {
+      "german": "Er fährt mit hohem Tempo.",
+      "english": "He's driving at high speed.",
+      "highlight": [
+        "Tempo."
+      ]
+    },
+    {
+      "german": "Hast du ein Tempo?",
+      "english": "Have you got a tissue?",
+      "highlight": [
+        "Tempo?"
+      ]
+    }
+  ],
+  "forms": [
+    "Tempos",
+    "die Tempos",
+    "das Tempo"
+  ],
+  "memoryHook": "Das Tempo: speed. Ein Tempo = a tissue!",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Tempo",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Tempo is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Tempo, zwei ___",
+      "answer": "Tempos",
+      "fullAnswer": "ein Tempo, zwei Tempos",
+      "explanation": "The plural is Tempos.",
+      "acceptedAnswers": [
+        "Tempos"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Tempo mean?",
+      "options": [
+        "the shop",
+        "the evening",
+        "speed"
+      ],
+      "answer": "speed",
+      "explanation": "Tempo: speed, pace.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Ein Tempo' (brand) can also mean…",
+      "options": [
+        "a tissue",
+        "a clock"
+      ],
+      "answer": "a tissue",
+      "explanation": "Brand name.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Tempo 30' means…",
+      "options": [
+        "30 km/h limit",
+        "30 minutes"
+      ],
+      "answer": "30 km/h limit",
+      "explanation": "Speed.",
+      "id": "q5"
+    }
+  ]
+}

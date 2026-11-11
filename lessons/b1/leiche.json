@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Leiche",
+    "partOfSpeech": "noun, feminine (die Leiche)",
+    "pronunciation": {
+      "respelling": "LYE-khe",
+      "ipa": "ˈlaɪ̯çə",
+      "notes": "Plural: die Leichen."
+    },
+    "meaning": "corpse, dead body",
+    "shortDefinition": "Corpse, dead body."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Leiche, plural die Leichen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Leiche"
+        },
+        {
+          "label": "More than one",
+          "value": "die Leichen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Polizei fand eine Leiche.",
+      "english": "The police found a body.",
+      "highlight": [
+        "Leiche."
+      ]
+    },
+    {
+      "german": "Er geht über Leichen.",
+      "english": "He'd stop at nothing.",
+      "highlight": [
+        "Leichen."
+      ]
+    },
+    {
+      "german": "Nur über meine Leiche!",
+      "english": "Over my dead body!",
+      "highlight": [
+        "Leiche!"
+      ]
+    }
+  ],
+  "forms": [
+    "Leichen",
+    "die Leichen",
+    "die Leiche"
+  ],
+  "memoryHook": "Die Leiche (corpse); nur über meine Leiche!",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Leiche",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Leiche is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Leiche, zwei ___",
+      "answer": "Leichen",
+      "fullAnswer": "ein Leiche, zwei Leichen",
+      "explanation": "The plural is Leichen.",
+      "acceptedAnswers": [
+        "Leichen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Leiche mean?",
+      "options": [
+        "to sleep",
+        "corpse",
+        "the door"
+      ],
+      "answer": "corpse",
+      "explanation": "Leiche: corpse, dead body.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Über Leichen gehen' means…",
+      "options": [
+        "to stop at nothing",
+        "to walk in a cemetery"
+      ],
+      "answer": "to stop at nothing",
+      "explanation": "Ruthless.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Don't confuse with…",
+      "options": [
+        "leicht (light, easy)",
+        "Leiche only"
+      ],
+      "answer": "leicht (light, easy)",
+      "explanation": "Different.",
+      "id": "q5"
+    }
+  ]
+}

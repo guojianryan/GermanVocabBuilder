@@ -1,0 +1,188 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "hervorgehen",
+    "partOfSpeech": "separable verb",
+    "pronunciation": {
+      "respelling": "hair-FOR-gay-en",
+      "ipa": "hɛɐ̯ˈfoːɐ̯ˌɡeːən",
+      "notes": ""
+    },
+    "meaning": "to emerge; (~ aus) to follow, be evident from",
+    "shortDefinition": "To emerge; (~ aus) to follow, be evident from."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "hervor",
+        "meaning": "forth, out"
+      },
+      {
+        "part": "gehen",
+        "meaning": "to go",
+        "emphasis": "rise"
+      }
+    ],
+    "literalMeaning": "to go forth",
+    "summary": "Coming up out of something."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "geh|e … |hervor"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "geh|st … |hervor"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "geh|t … |hervor"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "geh|en … |hervor"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "geh|t … |hervor"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "geh|en … |hervor"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): ist hervorgegangen"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Aus dem Brief geht hervor, dass …",
+      "english": "It's clear from the letter that …",
+      "highlight": [
+        "geht",
+        "hervor,"
+      ]
+    },
+    {
+      "german": "Sie ging als Siegerin hervor.",
+      "english": "She emerged as the winner.",
+      "highlight": [
+        "ging",
+        "hervor."
+      ]
+    },
+    {
+      "german": "Aus der Ehe gingen drei Kinder hervor.",
+      "english": "The marriage produced three children.",
+      "highlight": [
+        "gingen",
+        "hervor."
+      ]
+    }
+  ],
+  "forms": [
+    "gehe hervor",
+    "gehst hervor",
+    "geht hervor",
+    "gehen hervor",
+    "hervorgegangen"
+  ],
+  "memoryHook": "Hervorgehen aus = be evident from; emerge.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ … hervor (hervorgehen)",
+      "answer": "geht",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: geht … hervor.",
+      "acceptedAnswers": [
+        "geht"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich bin schon ___. (hervorgehen, past)",
+      "answer": "hervorgegangen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: bin hervorgegangen.",
+      "acceptedAnswers": [
+        "hervorgegangen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does hervorgehen mean?",
+      "options": [
+        "to emerge",
+        "to wait",
+        "tomorrow"
+      ],
+      "answer": "to emerge",
+      "explanation": "hervorgehen: to emerge; (~ aus) to follow, be evident from.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Aus etwas hervorgehen' (text) means…",
+      "options": [
+        "to be evident from",
+        "to go out of"
+      ],
+      "answer": "to be evident from",
+      "explanation": "Follow.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Als Sieger hervorgehen' means…",
+      "options": [
+        "to emerge as the winner",
+        "to go ahead"
+      ],
+      "answer": "to emerge as the winner",
+      "explanation": "Emerge.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "ist hervorgegangen",
+        "hat hervorgegangen"
+      ],
+      "answer": "ist hervorgegangen",
+      "explanation": "Sein.",
+      "id": "q6"
+    }
+  ]
+}

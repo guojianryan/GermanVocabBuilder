@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Gast",
+    "partOfSpeech": "noun, masculine (der Gast)",
+    "pronunciation": {
+      "respelling": "GAHST",
+      "ipa": "ɡast",
+      "notes": "Plural: die Gäste."
+    },
+    "meaning": "guest",
+    "shortDefinition": "Guest."
+  },
+  "wordFamily": [
+    {
+      "german": "das Gasthaus",
+      "english": "inn, pub-restaurant",
+      "type": "noun"
+    },
+    {
+      "german": "der Gastgeber",
+      "english": "host",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Gast, plural die Gäste.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Gast"
+        },
+        {
+          "label": "More than one",
+          "value": "die Gäste"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir haben heute Gäste.",
+      "english": "We have guests today.",
+      "highlight": [
+        "Gäste."
+      ]
+    },
+    {
+      "german": "Der Gast möchte bezahlen.",
+      "english": "The guest would like to pay.",
+      "highlight": [
+        "Gast"
+      ]
+    },
+    {
+      "german": "Sie sind heute mein Gast!",
+      "english": "You're my guest today!",
+      "highlight": [
+        "Gast!"
+      ]
+    }
+  ],
+  "forms": [
+    "Gäste",
+    "die Gäste",
+    "der Gast"
+  ],
+  "memoryHook": "Gast = guest; plural Gäste. 'Sie sind mein Gast' = it's on me.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Gast",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Gast is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Gast, zwei ___",
+      "answer": "Gäste",
+      "fullAnswer": "ein Gast, zwei Gäste",
+      "explanation": "The plural is Gäste.",
+      "acceptedAnswers": [
+        "Gaeste"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Gast mean?",
+      "options": [
+        "the door",
+        "guest",
+        "always"
+      ],
+      "answer": "guest",
+      "explanation": "Gast: guest.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Sie sind mein Gast' when paying means…",
+      "options": [
+        "It's on me",
+        "You're my visitor"
+      ],
+      "answer": "It's on me",
+      "explanation": "I'm paying.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "A guest house is…",
+      "options": [
+        "das Gasthaus",
+        "das Gastland"
+      ],
+      "answer": "das Gasthaus",
+      "explanation": "Gast + Haus.",
+      "id": "q5"
+    }
+  ]
+}

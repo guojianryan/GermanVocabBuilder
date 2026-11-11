@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "Goethe-Zertifikat A2 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Pferd",
+    "partOfSpeech": "noun, neuter (das Pferd)",
+    "pronunciation": {
+      "respelling": "PFAIRT",
+      "ipa": "pfeːɐ̯t",
+      "notes": "Plural: die Pferde."
+    },
+    "meaning": "horse",
+    "shortDefinition": "Horse."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Pferd, plural die Pferde.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Pferd"
+        },
+        {
+          "label": "More than one",
+          "value": "die Pferde"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Sie reitet gern auf ihrem Pferd.",
+      "english": "She likes riding her horse.",
+      "highlight": [
+        "Pferd."
+      ]
+    },
+    {
+      "german": "Auf dem Bauernhof gibt es Pferde.",
+      "english": "There are horses on the farm.",
+      "highlight": [
+        "Pferde."
+      ]
+    },
+    {
+      "german": "Ich bin noch nie auf einem Pferd geritten.",
+      "english": "I've never ridden a horse.",
+      "highlight": [
+        "Pferd"
+      ]
+    }
+  ],
+  "forms": [
+    "Pferde",
+    "die Pferde",
+    "das Pferd"
+  ],
+  "memoryHook": "Das Pferd (say both p and f!). Reiten = ride.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Pferd",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Pferd is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Pferd, zwei ___",
+      "answer": "Pferde",
+      "fullAnswer": "ein Pferd, zwei Pferde",
+      "explanation": "The plural is Pferde.",
+      "acceptedAnswers": [
+        "Pferde"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Pferd mean?",
+      "options": [
+        "horse",
+        "to open",
+        "the job"
+      ],
+      "answer": "horse",
+      "explanation": "Pferd: horse.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Pf sounds like…",
+      "options": [
+        "p + f together",
+        "just f"
+      ],
+      "answer": "p + f together",
+      "explanation": "PFAIRT.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Ride a horse':",
+      "options": [
+        "reiten",
+        "fahren"
+      ],
+      "answer": "reiten",
+      "explanation": "Reiten.",
+      "id": "q5"
+    }
+  ]
+}

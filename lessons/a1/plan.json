@@ -1,0 +1,141 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Plan",
+    "partOfSpeech": "noun, masculine (der Plan)",
+    "pronunciation": {
+      "respelling": "PLAHN",
+      "ipa": "plaːn",
+      "notes": "Plural: die Pläne."
+    },
+    "meaning": "plan; map; timetable",
+    "shortDefinition": "Plan; map; timetable."
+  },
+  "wordFamily": [
+    {
+      "german": "der Stadtplan",
+      "english": "city map",
+      "type": "noun"
+    },
+    {
+      "german": "der Fahrplan",
+      "english": "timetable",
+      "type": "noun"
+    },
+    {
+      "german": "planen",
+      "english": "to plan",
+      "type": "verb"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Plan, plural die Pläne.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Plan"
+        },
+        {
+          "label": "More than one",
+          "value": "die Pläne"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Hast du schon Pläne für das Wochenende?",
+      "english": "Have you got plans for the weekend?",
+      "highlight": [
+        "Pläne"
+      ]
+    },
+    {
+      "german": "Auf diesem Plan sind alle Linien.",
+      "english": "All the lines are on this map.",
+      "highlight": [
+        "Plan"
+      ]
+    },
+    {
+      "german": "Der Stundenplan hängt an der Tür.",
+      "english": "The timetable is on the door.",
+      "highlight": [
+        "Stundenplan"
+      ]
+    }
+  ],
+  "forms": [
+    "Pläne",
+    "die Pläne",
+    "der Plan"
+  ],
+  "memoryHook": "Der Plan: plan, map (Stadtplan), timetable (Fahrplan, Stundenplan).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Plan",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Plan is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Plan, zwei ___",
+      "answer": "Pläne",
+      "fullAnswer": "ein Plan, zwei Pläne",
+      "explanation": "The plural is Pläne.",
+      "acceptedAnswers": [
+        "Plaene"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Plan mean?",
+      "options": [
+        "the shop",
+        "to learn",
+        "plan"
+      ],
+      "answer": "plan",
+      "explanation": "Plan: plan; map; timetable.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Der Stadtplan is…",
+      "options": [
+        "a city map",
+        "a city plan for the future"
+      ],
+      "answer": "a city map",
+      "explanation": "Stadt + Plan.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Pläne",
+        "Plane"
+      ],
+      "answer": "Pläne",
+      "explanation": "Umlaut + e.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Fabrik",
+    "partOfSpeech": "noun, feminine (die Fabrik)",
+    "pronunciation": {
+      "respelling": "fa-BREEK",
+      "ipa": "faˈbʁiːk",
+      "notes": "Plural: die Fabriken."
+    },
+    "meaning": "factory",
+    "shortDefinition": "Factory."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Fabrik, plural die Fabriken.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Fabrik"
+        },
+        {
+          "label": "More than one",
+          "value": "die Fabriken"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er arbeitet in einer Fabrik.",
+      "english": "He works in a factory.",
+      "highlight": [
+        "Fabrik."
+      ]
+    },
+    {
+      "german": "Die Fabrik produziert Autos.",
+      "english": "The factory makes cars.",
+      "highlight": [
+        "Fabrik"
+      ]
+    },
+    {
+      "german": "Die alte Fabrik ist jetzt ein Museum.",
+      "english": "The old factory is now a museum.",
+      "highlight": [
+        "Fabrik"
+      ]
+    }
+  ],
+  "forms": [
+    "Fabriken",
+    "die Fabriken",
+    "die Fabrik"
+  ],
+  "memoryHook": "Die Fabrik = factory, NOT fabric (der Stoff).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Fabrik",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Fabrik is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Fabrik, zwei ___",
+      "answer": "Fabriken",
+      "fullAnswer": "ein Fabrik, zwei Fabriken",
+      "explanation": "The plural is Fabriken.",
+      "acceptedAnswers": [
+        "Fabriken"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Fabrik mean?",
+      "options": [
+        "to sleep",
+        "factory",
+        "slowly"
+      ],
+      "answer": "factory",
+      "explanation": "Fabrik: factory.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Fabrik means…",
+      "options": [
+        "factory",
+        "fabric"
+      ],
+      "answer": "factory",
+      "explanation": "False friend! Fabric = Stoff.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Stress on…",
+      "options": [
+        "-BRIK",
+        "FA-"
+      ],
+      "answer": "-BRIK",
+      "explanation": "fa-BREEK.",
+      "id": "q5"
+    }
+  ]
+}

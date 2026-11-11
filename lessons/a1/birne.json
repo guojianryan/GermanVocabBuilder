@@ -1,0 +1,121 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Birne",
+    "partOfSpeech": "noun, feminine (die Birne)",
+    "pronunciation": {
+      "respelling": "BEER-nuh",
+      "ipa": "ˈbɪʁnə",
+      "notes": "Plural: die Birnen."
+    },
+    "meaning": "pear; light bulb",
+    "shortDefinition": "Pear; light bulb."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Birne, plural die Birnen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Birne"
+        },
+        {
+          "label": "More than one",
+          "value": "die Birnen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich esse lieber Birnen als Äpfel.",
+      "english": "I prefer pears to apples.",
+      "highlight": [
+        "Birnen"
+      ]
+    },
+    {
+      "german": "Die Birne in der Lampe ist kaputt.",
+      "english": "The bulb in the lamp has gone.",
+      "highlight": [
+        "Birne"
+      ]
+    },
+    {
+      "german": "Ein Kilo Birnen, bitte.",
+      "english": "A kilo of pears, please.",
+      "highlight": [
+        "Birnen,"
+      ]
+    }
+  ],
+  "forms": [
+    "Birnen",
+    "die Birnen",
+    "die Birne"
+  ],
+  "memoryHook": "A Birne is pear-shaped, so an old light bulb is a Birne too.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Birne",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Birne is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Birne, zwei ___",
+      "answer": "Birnen",
+      "fullAnswer": "ein Birne, zwei Birnen",
+      "explanation": "The plural is Birnen.",
+      "acceptedAnswers": [
+        "Birnen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Birne mean?",
+      "options": [
+        "pear",
+        "to buy",
+        "the weather"
+      ],
+      "answer": "pear",
+      "explanation": "Birne: pear; light bulb.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Birne has two meanings: pear and…",
+      "options": [
+        "light bulb",
+        "apple"
+      ],
+      "answer": "light bulb",
+      "explanation": "Because of its shape.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Kilo ___ (pears)",
+      "answer": "Birnen",
+      "fullAnswer": "ein Kilo Birnen",
+      "explanation": "Plural: Birnen.",
+      "id": "q5"
+    }
+  ]
+}

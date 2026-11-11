@@ -1,0 +1,130 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "Kaffee",
+    "partOfSpeech": "noun, masculine (der Kaffee)",
+    "pronunciation": {
+      "respelling": "KAF-ay",
+      "ipa": "ˈkafe",
+      "notes": "Stress the first syllable in Germany: KAF-fee. Usually no plural."
+    },
+    "meaning": "coffee",
+    "shortDefinition": "Coffee."
+  },
+  "wordFamily": [
+    {
+      "german": "das Café",
+      "english": "café",
+      "type": "noun"
+    },
+    {
+      "german": "der Kuchen",
+      "english": "cake",
+      "type": "noun"
+    }
+  ],
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Kaffee, usually no plural.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Kaffee"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Einen Kaffee, bitte.",
+      "english": "A coffee, please.",
+      "highlight": [
+        "Kaffee,"
+      ]
+    },
+    {
+      "german": "Trinkst du Kaffee mit Milch?",
+      "english": "Do you take milk in your coffee?",
+      "highlight": [
+        "Kaffee"
+      ]
+    },
+    {
+      "german": "Kommst du zu Kaffee und Kuchen?",
+      "english": "Are you coming for coffee and cake?",
+      "highlight": [
+        "Kaffee"
+      ]
+    }
+  ],
+  "forms": [
+    "der Kaffee"
+  ],
+  "memoryHook": "Der Kaffee (drink), das Café (place). Kaffee und Kuchen: the German afternoon break.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Kaffee",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Kaffee is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Kaffee mean?",
+      "options": [
+        "to learn",
+        "coffee",
+        "never"
+      ],
+      "answer": "coffee",
+      "explanation": "Kaffee: coffee.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ordering: '___ Kaffee, bitte.'",
+      "options": [
+        "Ein",
+        "Einen"
+      ],
+      "answer": "Einen",
+      "explanation": "Masculine object: einen.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Kaffee und Kuchen' is…",
+      "options": [
+        "an afternoon tradition",
+        "breakfast"
+      ],
+      "answer": "an afternoon tradition",
+      "explanation": "Coffee and cake at about 3–4pm.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "The drink is der Kaffee; the place is…",
+      "options": [
+        "das Café",
+        "die Kaffee"
+      ],
+      "answer": "das Café",
+      "explanation": "Café = place.",
+      "id": "q5"
+    }
+  ]
+}

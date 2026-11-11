@@ -1,0 +1,231 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "full",
+  "word": {
+    "headword": "gehen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "GAY-en",
+      "ipa": "ˈɡeːən",
+      "notes": "The h is silent; it just lengthens the e."
+    },
+    "meaning": "to go (on foot), to walk; to work, to be OK",
+    "shortDefinition": "To go somewhere on foot, and many idioms."
+  },
+  "intro": {
+    "title": "Wie geht's?",
+    "paragraphs": [
+      "Gehen is going on foot. It's also in some of the most common phrases in German: Wie geht's? (How are you?), Das geht nicht (That won't work), Es geht (It's OK)."
+    ]
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "geh|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "geh|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "geh|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "geh|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "geh|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "geh|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Regular in the present.",
+        "Past (Perfekt): ist gegangen. Irregular, and with sein."
+      ]
+    }
+  ],
+  "wordFamily": [
+    {
+      "german": "Wie geht es dir?",
+      "english": "How are you?",
+      "type": "phrase"
+    },
+    {
+      "german": "Das geht nicht.",
+      "english": "That's not possible.",
+      "type": "phrase"
+    },
+    {
+      "german": "zu Fuß gehen",
+      "english": "to walk",
+      "type": "phrase"
+    },
+    {
+      "german": "fahren",
+      "english": "to go (by vehicle)",
+      "type": "verb"
+    }
+  ],
+  "keyTrap": {
+    "title": "The big trap: gehen is on foot",
+    "explanation": "For trips by car, train or plane, use fahren or fliegen. Gehen is walking, or going somewhere nearby.",
+    "wrong": {
+      "german": "Ich gehe mit dem Auto zur Arbeit.",
+      "verdict": "With a car it's fahren."
+    },
+    "correct": [
+      {
+        "german": "Ich fahre mit dem Auto zur Arbeit.",
+        "literal": "I drive with the car to work.",
+        "note": "Vehicle: fahren."
+      },
+      {
+        "german": "Ich gehe zu Fuß zur Arbeit.",
+        "literal": "I go on foot to work.",
+        "note": "Walking: gehen."
+      }
+    ]
+  },
+  "commonMistakes": [
+    {
+      "title": "Past with sein",
+      "explanation": "Gehen is movement, so it uses sein.",
+      "wrong": "Ich habe nach Hause gegangen.",
+      "correct": "Ich bin nach Hause gegangen."
+    },
+    {
+      "title": "Going to do something",
+      "explanation": "Gehen + infinitive, with no zu.",
+      "examples": [
+        {
+          "german": "Ich gehe schwimmen.",
+          "english": "I'm going swimming.",
+          "highlight": "gehe"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wie geht es Ihnen? – Danke, gut.",
+      "english": "How are you? – Fine, thanks.",
+      "highlight": [
+        "geht"
+      ]
+    },
+    {
+      "german": "Ich gehe jetzt nach Hause.",
+      "english": "I'm going home now.",
+      "highlight": [
+        "gehe"
+      ]
+    },
+    {
+      "german": "Morgen geht es leider nicht.",
+      "english": "Unfortunately tomorrow doesn't work.",
+      "highlight": [
+        "geht"
+      ]
+    },
+    {
+      "german": "Wir sind ins Kino gegangen.",
+      "english": "We went to the cinema.",
+      "highlight": [
+        "gegangen."
+      ]
+    }
+  ],
+  "forms": [
+    "gehe",
+    "gehst",
+    "geht",
+    "gegangen",
+    "ging",
+    "gingen",
+    "geh"
+  ],
+  "memoryHook": "Gehen = on foot. Wie geht's? Es geht. Das geht nicht. Ich bin gegangen.",
+  "signOff": "Los geht's!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "Wir ___ ins Kino. (walking, it's close)",
+      "options": [
+        "gehen",
+        "fahren"
+      ],
+      "answer": "gehen",
+      "explanation": "On foot: gehen.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich ___ gestern spazieren gegangen.",
+      "options": [
+        "habe",
+        "bin"
+      ],
+      "answer": "bin",
+      "explanation": "Gehen uses sein.",
+      "id": "q2"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Wie ___ es dir? (How are you?)",
+      "answer": "geht",
+      "fullAnswer": "Wie geht es dir?",
+      "explanation": "Wie geht's?",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Das geht nicht' means…",
+      "options": [
+        "That's not possible.",
+        "That doesn't walk."
+      ],
+      "answer": "That's not possible.",
+      "explanation": "Gehen = work, be possible.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ich gehe heute ___. (shopping)",
+      "options": [
+        "einkaufen",
+        "zu einkaufen"
+      ],
+      "answer": "einkaufen",
+      "explanation": "Gehen + infinitive, no zu.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Gelände",
+    "partOfSpeech": "noun, neuter (das Gelände)",
+    "pronunciation": {
+      "respelling": "ge-LEN-de",
+      "ipa": "ɡəˈlɛndə",
+      "notes": "The plural looks the same. Plural: die Gelände."
+    },
+    "meaning": "grounds, site, terrain",
+    "shortDefinition": "Grounds, site, terrain."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Ge",
+        "meaning": "collective prefix"
+      },
+      {
+        "part": "lände",
+        "meaning": "land"
+      }
+    ],
+    "literalMeaning": "a stretch of land"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Gelände, plural die Gelände.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Gelände"
+        },
+        {
+          "label": "More than one",
+          "value": "die Gelände"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das Firmengelände ist groß.",
+      "english": "The company grounds are large.",
+      "highlight": [
+        "Firmengelände"
+      ]
+    },
+    {
+      "german": "Rauchen ist auf dem Gelände verboten.",
+      "english": "Smoking is forbidden on the premises.",
+      "highlight": [
+        "Gelände"
+      ]
+    },
+    {
+      "german": "Ein Auto für jedes Gelände.",
+      "english": "A car for any terrain.",
+      "highlight": [
+        "Gelände."
+      ]
+    }
+  ],
+  "forms": [
+    "Geländewagen"
+  ],
+  "memoryHook": "Ge + Land → das Gelände; Geländewagen.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Gelände",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Gelände is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Gelände, zwei ___",
+      "answer": "Gelände",
+      "fullAnswer": "ein Gelände, zwei Gelände",
+      "explanation": "The plural is Gelände.",
+      "acceptedAnswers": [
+        "Gelaende"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Gelände mean?",
+      "options": [
+        "the car",
+        "grounds",
+        "the station"
+      ],
+      "answer": "grounds",
+      "explanation": "Gelände: grounds, site, terrain.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Related to…",
+      "options": [
+        "das Land",
+        "die Länge"
+      ],
+      "answer": "das Land",
+      "explanation": "Ge + Land.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Off-road vehicle:",
+      "options": [
+        "der Geländewagen",
+        "das Landauto"
+      ],
+      "answer": "der Geländewagen",
+      "explanation": "SUV.",
+      "id": "q5"
+    }
+  ]
+}

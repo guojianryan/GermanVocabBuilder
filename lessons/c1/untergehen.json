@@ -1,0 +1,185 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "C1",
+  "levelSource": "A Frequency Dictionary of German (Jones & Tschirner); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "untergehen",
+    "partOfSpeech": "separable verb",
+    "pronunciation": {
+      "respelling": "OON-ter-gay-en",
+      "ipa": "ˈʊntɐˌɡeːən",
+      "notes": ""
+    },
+    "meaning": "to sink; to set (sun); to perish; to get lost",
+    "shortDefinition": "To sink; to set (sun); to perish; to get lost."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "unter",
+        "meaning": "under, down"
+      },
+      {
+        "part": "gehen",
+        "meaning": "to go",
+        "emphasis": "release"
+      }
+    ],
+    "literalMeaning": "to go under",
+    "summary": "Sinking down and gone."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "geh|e … |unter"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "geh|st … |unter"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "geh|t … |unter"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "geh|en … |unter"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "geh|t … |unter"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "geh|en … |unter"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): ist untergegangen"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Titanic ging 1912 unter.",
+      "english": "The Titanic sank in 1912.",
+      "highlight": [
+        "ging",
+        "unter."
+      ]
+    },
+    {
+      "german": "Die Sonne geht um acht unter.",
+      "english": "The sun sets at eight.",
+      "highlight": [
+        "geht",
+        "unter."
+      ]
+    },
+    {
+      "german": "Seine Worte gingen im Lärm unter.",
+      "english": "His words were drowned out by the noise.",
+      "highlight": [
+        "gingen",
+        "unter."
+      ]
+    }
+  ],
+  "forms": [
+    "Untergang",
+    "Sonnenuntergang"
+  ],
+  "memoryHook": "Untergehen: sink; set; perish; der Untergang ↔ aufgehen.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ … unter (untergehen)",
+      "answer": "geht",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: geht … unter.",
+      "acceptedAnswers": [
+        "geht"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich bin schon ___. (untergehen, past)",
+      "answer": "untergegangen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: bin untergegangen.",
+      "acceptedAnswers": [
+        "untergegangen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does untergehen mean?",
+      "options": [
+        "to sink",
+        "tomorrow",
+        "to buy"
+      ],
+      "answer": "to sink",
+      "explanation": "untergehen: to sink; to set (sun); to perish; to get lost.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Opposite (sun):",
+      "options": [
+        "aufgehen",
+        "ausgehen"
+      ],
+      "answer": "aufgehen",
+      "explanation": "Rise.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Noun:",
+      "options": [
+        "der Untergang (sinking; downfall)",
+        "die Untergehung"
+      ],
+      "answer": "der Untergang (sinking; downfall)",
+      "explanation": "Downfall.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "ist untergegangen",
+        "hat untergegangen"
+      ],
+      "answer": "ist untergegangen",
+      "explanation": "Sein.",
+      "id": "q6"
+    }
+  ]
+}
