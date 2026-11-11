@@ -23,7 +23,25 @@ struct WordRow: View {
     @Environment(\.appTheme) private var theme
     @Environment(AppStore.self) private var store
     let entry: WordEntry
+    /// When set, the row is in "deck editing" mode: the button marks/unmarks the word instead of saving/removing it.
+    var removalMarked: Bool?
+    var onToggleRemoval: (() -> Void)?
     var body: some View {
+        if let removalMarked, let onToggleRemoval {
+            row(
+                icon: removalMarked ? "arrow.uturn.backward" : "checkmark", filled: !removalMarked,
+                label: removalMarked ? "Keep \(entry.headword) in deck" : "Remove \(entry.headword) from deck",
+                action: onToggleRemoval
+            ).opacity(removalMarked ? 0.45 : 1)
+        } else {
+            row(
+                icon: store.contains(entry) ? "checkmark" : "plus", filled: store.contains(entry),
+                label: store.contains(entry) ? "Remove \(entry.headword) from deck" : "Add \(entry.headword) to deck",
+                action: { store.toggle(entry) }
+            )
+        }
+    }
+    private func row(icon: String, filled: Bool, label: String, action: @escaping () -> Void) -> some View {
         HStack(spacing: 14) {
             NavigationLink(value: entry) {
                 HStack(spacing: 14) {
@@ -40,16 +58,16 @@ struct WordRow: View {
                 }.contentShape(Rectangle())
             }.buttonStyle(.plain).accessibilityIdentifier("wordResult-\(entry.id)").accessibilityValue(entry.level)
             Button {
-                withAnimation(reduceMotion ? nil : .spring(response: 0.3, dampingFraction: 0.8)) { store.toggle(entry) }
+                withAnimation(reduceMotion ? nil : .spring(response: 0.3, dampingFraction: 0.8)) { action() }
             } label: {
-                Image(systemName: store.contains(entry) ? "checkmark" : "plus")
+                Image(systemName: icon)
                     .contentTransition(reduceMotion ? .identity : .symbolEffect(.replace))
-                    .symbolEffect(.bounce, options: .nonRepeating, value: !reduceMotion && store.contains(entry))
+                    .symbolEffect(.bounce, options: .nonRepeating, value: !reduceMotion && filled)
                     .font(.system(size: 15, weight: .semibold)).frame(width: 44, height: 44)
-                    .foregroundStyle(store.contains(entry) ? theme.onAction : theme.accent)
-                    .background(store.contains(entry) ? theme.action : theme.accent.opacity(0.06), in: Circle())
+                    .foregroundStyle(filled ? theme.onAction : theme.accent)
+                    .background(filled ? theme.action : theme.accent.opacity(0.06), in: Circle())
             }.buttonStyle(.plain)
-                .accessibilityLabel(store.contains(entry) ? "Remove \(entry.headword) from deck" : "Add \(entry.headword) to deck")
+                .accessibilityLabel(label)
         }.padding(.vertical, 13)
     }
 }

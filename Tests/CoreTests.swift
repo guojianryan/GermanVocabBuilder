@@ -9,21 +9,66 @@ import Foundation
             precondition(test(), message)
             checks += 1
         }
+        var reviewCalendar = Calendar(identifier: .gregorian)
+        reviewCalendar.timeZone = TimeZone(secondsFromGMT: 0)!
+        let reviewToday = reviewCalendar.startOfDay(for: Date(timeIntervalSince1970: 1_700_006_400))
+        func day(_ offset: Int, from date: Date = Date(timeIntervalSince1970: 1_700_006_400)) -> Date {
+            reviewCalendar.date(byAdding: .day, value: offset, to: reviewCalendar.startOfDay(for: date))!
+        }
+        var scheduled = ReviewProgress(due: reviewToday)
+        var practiced = reviewToday
+        for (i, interval) in ReviewProgress.intervals.enumerated() {
+            check(scheduled.isDue(at: practiced, calendar: reviewCalendar), "Scheduled word is due on its review day")
+            scheduled.record(success: true, at: practiced, calendar: reviewCalendar)
+            check(scheduled.stage == i + 1 && scheduled.nextReview == day(interval, from: practiced), "Successful recall advances to interval \(interval)")
+            let unchanged = scheduled.nextReview
+            scheduled.record(success: true, at: practiced.addingTimeInterval(100), calendar: reviewCalendar)
+            check(scheduled.stage == i + 1 && scheduled.nextReview == unchanged, "Repeated same-day success cannot advance the schedule")
+            practiced = scheduled.nextReview
+        }
+        scheduled.record(success: true, at: practiced, calendar: reviewCalendar)
+        check(scheduled.stage == 5 && scheduled.nextReview == day(30, from: practiced), "Mature words retain the 30-day interval")
+        scheduled.record(success: false, at: practiced, calendar: reviewCalendar)
+        check(scheduled.stage == 0 && scheduled.nextReview == day(1, from: practiced), "A lapse resets the word for tomorrow")
+        scheduled.record(success: true, at: practiced.addingTimeInterval(300), calendar: reviewCalendar)
+        check(scheduled.stage == 0 && scheduled.nextReview == day(1, from: practiced), "Immediate retry after a lapse does not promote the word")
+        scheduled.record(success: true, at: day(1, from: practiced), calendar: reviewCalendar)
+        check(scheduled.stage == 1, "A later successful recall restarts the interval ladder")
+        var early = ReviewProgress(due: day(7))
+        early.record(success: true, at: reviewToday, calendar: reviewCalendar)
+        check(early.stage == 0 && early.nextReview == day(7), "Early extra practice does not bring a future review forward")
+        check(early.successHint(at: reviewToday, calendar: reviewCalendar) == "In 7 days", "Button hint matches the saved next review")
+        let decodedSchedule = try JSONDecoder().decode(ReviewProgress.self, from: JSONEncoder().encode(scheduled))
+        check(decodedSchedule == scheduled, "Review dates, stages, and last practice survive persistence")
         let a1 = index.entries.filter { $0.level == "A1" }
         let failed = a1[0].id, familiar = a1[1].id
+        let migrated = ReviewProgress.migrate([failed: false, familiar: true], at: reviewToday, calendar: reviewCalendar)
+        check(migrated.count == 2 && migrated.values.allSatisfy { $0.stage == 0 && $0.lastPracticed == nil && $0.isDue(at: reviewToday, calendar: reviewCalendar) }, "Old recall history migrates to due-today records without invented stages")
+        let dueReviews = [failed: ReviewProgress(due: day(-3)), familiar: ReviewProgress(due: day(-1))]
         let daily = DailyFive.make(day: "today", level: "A1", candidates: index.entries,
-                                   deck: [familiar], history: [failed: false])
+                                   reviews: dueReviews, now: reviewToday, calendar: reviewCalendar)
         check(daily.wordIDs.count == 5 && Set(daily.wordIDs).count == 5, "Daily set has five unique words")
-        check(daily.wordIDs[0] == failed && daily.wordIDs[1] == familiar, "Review prioritizes missed words then saved words")
-        check(daily.wordIDs.dropFirst(2).allSatisfy { $0 != failed && $0 != familiar }, "Remaining daily words are new")
-        let fresh = DailyFive.make(day: "today", level: "A1", candidates: index.entries, deck: [], history: [:])
+        check(daily.wordIDs[0] == failed && daily.wordIDs[1] == familiar, "Daily review starts with the most overdue words")
+        check(daily.wordIDs.dropFirst(2).allSatisfy { dueReviews[$0] == nil }, "Remaining daily slots contain new words")
+        let fresh = DailyFive.make(day: "today", level: "A1", candidates: index.entries, reviews: [:], now: reviewToday)
         check(fresh.wordIDs.count == 5 && fresh.wordIDs.allSatisfy { id in a1.contains { $0.id == id } }, "Daily set works without a deck and stays at the chosen level")
-        let allSaved = DailyFive.make(day: "today", level: "A1", candidates: a1, deck: Set(a1.map(\.id)), history: [:])
-        check(allSaved.wordIDs.count == 5, "Daily set fills remaining slots when no new words remain")
-        let small = DailyFive.make(day: "today", level: "A1", candidates: Array(a1.prefix(3)), deck: [], history: [:])
+        let allScheduled = Dictionary(uniqueKeysWithValues: a1.map { ($0.id, ReviewProgress(due: day(3))) })
+        let notDue = DailyFive.make(day: "today", level: "A1", candidates: a1, reviews: allScheduled, now: reviewToday)
+        check(notDue.wordIDs.isEmpty, "Daily set does not bring scheduled future words forward")
+        let backlog = Dictionary(uniqueKeysWithValues: a1.prefix(7).enumerated().map { ($0.element.id, ReviewProgress(due: day(-10 + $0.offset))) })
+        let dueOnly = DailyFive.make(day: "today", level: "A1", candidates: index.entries.reversed(), reviews: backlog, now: reviewToday)
+        check(dueOnly.wordIDs == Array(a1.prefix(5)).map(\.id), "All five daily slots prioritize due words, leaving overflow for optional review")
+        let small = DailyFive.make(day: "today", level: "A1", candidates: Array(a1.prefix(3)), reviews: [:])
         check(small.wordIDs.count == 3, "Small catalogs never duplicate daily words")
-        let empty = DailyFive.make(day: "today", level: "missing", candidates: index.entries, deck: [], history: [:])
+        let empty = DailyFive.make(day: "today", level: "missing", candidates: index.entries, reviews: [:])
         check(empty.wordIDs.isEmpty && !empty.isComplete, "Empty sets are not marked complete")
+        var berlin = Calendar(identifier: .gregorian)
+        berlin.timeZone = TimeZone(identifier: "Europe/Berlin")!
+        let beforeDST = berlin.date(from: DateComponents(year: 2026, month: 3, day: 29, hour: 22))!
+        var dstReview = ReviewProgress(due: berlin.startOfDay(for: beforeDST))
+        dstReview.record(success: true, at: beforeDST, calendar: berlin)
+        let dueParts = berlin.dateComponents([.day, .hour], from: dstReview.nextReview)
+        check(dueParts.day == 30 && dueParts.hour == 0 && dstReview.nextReview.timeIntervalSince(berlin.startOfDay(for: beforeDST)) == 23 * 3600, "Intervals follow local calendar days across daylight-saving changes")
         var progress = daily
         progress.record("unknown", success: true)
         check(progress.completedCount == 0, "Unrelated practice does not advance a daily set")

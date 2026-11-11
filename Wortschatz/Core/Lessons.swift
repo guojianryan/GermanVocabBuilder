@@ -294,6 +294,42 @@ actor LessonRepository {
     }
 }
 
+/// Calendar-day scheduling, independent of UI and storage.
+struct ReviewProgress: Codable, Equatable, Sendable {
+    static let intervals = [1, 3, 7, 14, 30]
+    private(set) var stage = 0
+    private(set) var nextReview: Date
+    private(set) var lastPracticed: Date?
+
+    init(due: Date) { nextReview = due }
+    func isDue(at now: Date, calendar: Calendar = .current) -> Bool {
+        nextReview <= calendar.startOfDay(for: now)
+    }
+    mutating func record(success: Bool, at now: Date, calendar: Calendar = .current) {
+        let today = calendar.startOfDay(for: now)
+        let practicedToday = lastPracticed.map { calendar.isDate($0, inSameDayAs: now) } ?? false
+        if !success {
+            stage = 0
+            nextReview = calendar.date(byAdding: .day, value: 1, to: today)!
+        } else if !practicedToday && isDue(at: now, calendar: calendar) {
+            stage = min(stage + 1, Self.intervals.count)
+            nextReview = calendar.date(byAdding: .day, value: Self.intervals[max(0, stage - 1)], to: today)!
+        }
+        // Early or repeated successes cannot move a word through several stages in one day.
+        lastPracticed = now
+    }
+    func successHint(at now: Date, calendar: Calendar = .current) -> String {
+        var projected = self
+        projected.record(success: true, at: now, calendar: calendar)
+        let days = calendar.dateComponents([.day], from: calendar.startOfDay(for: now), to: projected.nextReview).day ?? 1
+        return days <= 1 ? "Review tomorrow" : "In \(days) days"
+    }
+    static func migrate(_ history: [String: Bool], at now: Date, calendar: Calendar = .current) -> [String: Self] {
+        // Old results have no dates or reliable stage information: review them today.
+        history.mapValues { _ in Self(due: calendar.startOfDay(for: now)) }
+    }
+}
+
 /// A local-calendar daily set. Its selection stays fixed until the next day.
 struct DailyFive: Codable, Equatable {
     let day: String
@@ -308,16 +344,16 @@ struct DailyFive: Codable, Equatable {
         return "\(parts.era ?? 0)-\(parts.year ?? 0)-\(parts.month ?? 0)-\(parts.day ?? 0)"
     }
 
-    /// Pass candidates in shuffled order; failed recalls take priority among review words.
-    static func make(day: String, level: String, candidates: [WordEntry], deck: Set<String>, history: [String: Bool]) -> Self {
+    /// Due words first (oldest first), then genuinely new words. Never bring future reviews forward.
+    static func make(day: String, level: String, candidates: [WordEntry], reviews: [String: ReviewProgress],
+                     now: Date = Date(), calendar: Calendar = .current) -> Self {
         let eligible = candidates.filter { $0.level == level }
-        let reviews = eligible.filter { history[$0.id] == false }
-            + eligible.filter { history[$0.id] != false && (deck.contains($0.id) || history[$0.id] != nil) }
-        var selected = Array(reviews.prefix(2))
-        selected += eligible.filter { !deck.contains($0.id) && history[$0.id] == nil }.prefix(5 - selected.count)
-        let selectedIDs = Set(selected.map(\.id))
-        selected += eligible.filter { !selectedIDs.contains($0.id) }.prefix(5 - selected.count)
-        return Self(day: day, level: level, wordIDs: selected.map(\.id))
+        let due = eligible.filter { reviews[$0.id]?.isDue(at: now, calendar: calendar) == true }.sorted {
+            let first = reviews[$0.id]!.nextReview, second = reviews[$1.id]!.nextReview
+            return first == second ? $0.id < $1.id : first < second
+        }
+        let new = eligible.filter { reviews[$0.id] == nil }
+        return Self(day: day, level: level, wordIDs: Array((due + new).prefix(5)).map(\.id))
     }
 
     mutating func record(_ id: String, success: Bool) {

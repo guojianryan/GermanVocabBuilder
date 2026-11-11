@@ -16,11 +16,14 @@ import AVFoundation
         }
     }
     private(set) var dailyFive: DailyFive?
-    private var recallHistory: [String: Bool] = [:]
+    private(set) var reviews: [String: ReviewProgress] = [:]
+    private(set) var reviewClock = Date()
     var dailyWords: [WordEntry] { catalog?.words(for: dailyFive?.wordIDs ?? []) ?? [] }
     var dailyRemainingWords: [WordEntry] { dailyWords.filter { dailyFive?.outcomes[$0.id] == nil } }
     private(set) var deckWords: [WordEntry] = []
     private(set) var deckIDs: Set<String>
+    /// Deck words marked for removal; they stay in the deck until the user confirms on leaving My Deck.
+    private(set) var pendingRemoval: Set<String> = []
     @ObservationIgnored let readerPool = LessonWebViewPool()
     @ObservationIgnored private var catalog: LibraryCatalog?
     @ObservationIgnored private var loading = false
@@ -32,8 +35,14 @@ import AVFoundation
         if let data = defaults.data(forKey: "dailyFive.v1") {
             dailyFive = try? JSONDecoder().decode(DailyFive.self, from: data)
         }
-        if let data = defaults.data(forKey: "recallHistory.v1") {
-            recallHistory = (try? JSONDecoder().decode([String: Bool].self, from: data)) ?? [:]
+        if let data = defaults.data(forKey: "reviewSchedule.v1"),
+           let saved = try? JSONDecoder().decode([String: ReviewProgress].self, from: data) {
+            reviews = saved
+        } else {
+            let old = defaults.data(forKey: "recallHistory.v1").flatMap { try? JSONDecoder().decode([String: Bool].self, from: $0) } ?? [:]
+            let migrated = ReviewProgress.migrate(old, at: Date())
+            reviews = migrated
+            if let data = try? JSONEncoder().encode(migrated) { defaults.set(data, forKey: "reviewSchedule.v1") }
         }
         theme = AppTheme(rawValue: defaults.string(forKey: "appearance.theme.v1") ?? "") ?? .warm
         studyLevel = StudyLevel(rawValue: defaults.string(forKey: "studyLevel.v1") ?? "") ?? .a1
@@ -67,12 +76,13 @@ import AVFoundation
         } catch { loadError = "The lesson library couldn’t be opened. \(error.localizedDescription)" }
     }
     func refreshDailyFive(now: Date = Date()) {
+        reviewClock = now
         guard let index else { return }
         let day = DailyFive.dayKey(now)
         if let dailyFive, dailyFive.day == day, !dailyFive.wordIDs.isEmpty,
            dailyFive.level == studyLevel.rawValue || dailyFive.completedCount > 0 { return }
         dailyFive = DailyFive.make(day: day, level: studyLevel.rawValue,
-                                   candidates: index.entries.shuffled(), deck: deckIDs, history: recallHistory)
+                                   candidates: index.entries.shuffled(), reviews: reviews, now: now)
         persistDailyFive()
     }
     private func persistDailyFive() {
@@ -80,9 +90,23 @@ import AVFoundation
             defaults.set(data, forKey: "dailyFive.v1")
         }
     }
+    func dueWords(level: String) -> [WordEntry] {
+        let ids = reviews.keys.filter { reviews[$0]!.isDue(at: reviewClock) }.sorted {
+            let first = reviews[$0]!.nextReview, second = reviews[$1]!.nextReview
+            return first == second ? $0 < $1 : first < second
+        }
+        return (catalog?.words(for: ids) ?? []).filter { $0.level == level }
+    }
+    func reviewHint(_ entry: WordEntry) -> String {
+        (reviews[entry.id] ?? ReviewProgress(due: Calendar.current.startOfDay(for: reviewClock))).successHint(at: reviewClock)
+    }
     func recordRecall(_ entry: WordEntry, success: Bool, dailyDay: String? = nil) {
-        recallHistory[entry.id] = success
-        if let data = try? JSONEncoder().encode(recallHistory) { defaults.set(data, forKey: "recallHistory.v1") }
+        let now = Date()
+        reviewClock = now
+        var progress = reviews[entry.id] ?? ReviewProgress(due: Calendar.current.startOfDay(for: now))
+        progress.record(success: success, at: now)
+        reviews[entry.id] = progress
+        if let data = try? JSONEncoder().encode(reviews) { defaults.set(data, forKey: "reviewSchedule.v1") }
         if let dailyDay, dailyFive?.day == dailyDay {
             dailyFive?.record(entry.id, success: success)
             persistDailyFive()
@@ -94,6 +118,17 @@ import AVFoundation
         if contains(e) { deck.removeAll { $0 == e.id } } else { deck.append(e.id) }
         UISelectionFeedbackGenerator().selectionChanged()
     }
+    func isMarkedForRemoval(_ e: WordEntry) -> Bool { pendingRemoval.contains(e.id) }
+    func toggleRemovalMark(_ e: WordEntry) {
+        if !pendingRemoval.insert(e.id).inserted { pendingRemoval.remove(e.id) }
+        UISelectionFeedbackGenerator().selectionChanged()
+    }
+    func commitRemovals() {
+        let ids = pendingRemoval
+        pendingRemoval = []
+        deck.removeAll { ids.contains($0) }
+    }
+    func discardRemovals() { pendingRemoval = [] }
     func lesson(_ e: WordEntry) async throws -> Lesson { try await repository.lesson(e) }
     func readerSource(_ e: WordEntry) async throws -> LessonRepository.ReaderSource { try await repository.readerSource(e) }
     func practiceItems(_ entries: [WordEntry], quiz: Bool) async throws -> [PracticeItem] {
@@ -120,6 +155,12 @@ import AVFoundation
         #if DEBUG
         if let suite = ProcessInfo.processInfo.environment["WORTSCHATZ_TEST_DEFAULTS"],
            suite.hasPrefix("Wortschatz.UITests."), let isolated = UserDefaults(suiteName: suite) {
+            if ProcessInfo.processInfo.environment["WORTSCHATZ_TEST_REVIEWS"] == "legacyDue",
+               isolated.data(forKey: "reviewSchedule.v1") == nil,
+               isolated.data(forKey: "recallHistory.v1") == nil {
+                let legacy = Dictionary(uniqueKeysWithValues: ["apfel", "haus", "tisch", "buch", "hund", "brot", "wasser"].map { ($0, true) })
+                isolated.set(try? JSONEncoder().encode(legacy), forKey: "recallHistory.v1")
+            }
             defaults = isolated
         }
         #endif

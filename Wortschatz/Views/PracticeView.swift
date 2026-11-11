@@ -10,20 +10,26 @@ struct PracticeHome: View {
     let explore: () -> Void
     @State private var selectedMode: PracticeMode?
     @State private var dailyRun: DailyPracticeRun?
+    @State private var dueRun: DuePracticeRun?
     var body: some View {
         NavigationStack {
             ScrollView {
                 VStack(alignment: .leading, spacing: 26) {
                     Eyebrow(text: "A moment for your German").padding(.top, 20)
                     Text("From familiar\nto unforgettable.").font(.system(size: 40, weight: .medium, design: .serif)).tracking(-1)
-                    TodayFiveCard {
+                    TodayFiveCard(start: {
                         store.refreshDailyFive()
                         if let daily = store.dailyFive, !store.dailyRemainingWords.isEmpty {
                             dailyRun = DailyPracticeRun(id: daily.day, entries: store.dailyRemainingWords,
                                                         completed: daily.completedCount, total: daily.wordIDs.count,
                                                         recalled: daily.outcomes.values.filter { $0 }.count)
                         }
-                    }
+                    }, review: {
+                        if let daily = store.dailyFive {
+                            let due = store.dueWords(level: daily.level)
+                            if !due.isEmpty { dueRun = DuePracticeRun(entries: due) }
+                        }
+                    })
                     if store.isLoadingLibrary {
                         ProgressView("Loading your deck…").frame(maxWidth: .infinity)
                     } else if store.deckWords.isEmpty {
@@ -46,6 +52,9 @@ struct PracticeHome: View {
                 .fullScreenCover(item: $selectedMode) { mode in PracticeSession(entries: store.deckWords, mode: mode) }
                 .fullScreenCover(item: $dailyRun) { run in
                     PracticeSession(entries: run.entries, mode: .flashcards, dailyRun: run)
+                }
+                .fullScreenCover(item: $dueRun) { run in
+                    PracticeSession(entries: run.entries, mode: .flashcards, isDueReview: true)
                 }
                 .onAppear { store.refreshDailyFive() }
         }
@@ -97,6 +106,11 @@ private struct PracticeCardButtonStyle: ButtonStyle {
     }
 }
 
+private struct DuePracticeRun: Identifiable {
+    let id = UUID()
+    let entries: [WordEntry]
+}
+
 struct DailyPracticeRun: Identifiable {
     let id: String
     let entries: [WordEntry]
@@ -109,6 +123,7 @@ private struct TodayFiveCard: View {
     @Environment(\.appTheme) private var theme
     @Environment(AppStore.self) private var store
     let start: () -> Void
+    let review: () -> Void
     var body: some View {
         VStack(alignment: .leading, spacing: 16) {
             HStack {
@@ -122,7 +137,7 @@ private struct TodayFiveCard: View {
             } else if let daily = store.dailyFive, !daily.wordIDs.isEmpty {
                 Text(daily.isComplete ? "A little German, done." : "Five words. One small step.")
                     .font(.system(.title2, design: .serif).weight(.medium))
-                Text(daily.isComplete ? "You’ve met all \(daily.wordIDs.count) words. A fresh set arrives tomorrow." : "A mix of new words and familiar ones when you have them. Your place is saved as you go.")
+                Text(daily.isComplete ? "You’ve met all \(daily.wordIDs.count) words. A fresh set arrives tomorrow." : "Words due for another look, then something new. Your place is saved as you go.")
                     .font(.subheadline).foregroundStyle(theme.muted)
                 HStack(spacing: 8) {
                     ForEach(daily.wordIDs, id: \.self) { id in
@@ -145,9 +160,16 @@ private struct TodayFiveCard: View {
                 } else {
                     Label("Today’s five complete", systemImage: "checkmark.seal.fill")
                         .font(.subheadline.weight(.semibold)).foregroundStyle(theme.accent)
+                    let due = store.dueWords(level: daily.level)
+                    if !due.isEmpty {
+                        PrimaryButton(title: "Review \(due.count) more", icon: "arrow.counterclockwise", action: review)
+                            .accessibilityIdentifier("reviewMoreDue")
+                    }
                 }
             } else {
-                Text(store.loadError ?? "No words at this level yet. Choose another level in Settings to get started.")
+                Text(store.loadError ?? ((store.index?.entries.contains { $0.level == store.studyLevel.rawValue } == true)
+                    ? "You’re all caught up. Your next words will appear when they’re due. You can still practice your saved deck below."
+                    : "No words at this level yet. Choose another level in Settings to get started."))
                     .font(.subheadline).foregroundStyle(theme.muted)
             }
         }.padding(22).frame(maxWidth: .infinity, alignment: .leading)
@@ -164,6 +186,10 @@ struct PracticeSession: View {
     let entries: [WordEntry]
     let mode: PracticeMode
     var dailyRun: DailyPracticeRun? = nil
+    var isDueReview = false
+    @State private var reviewRound = false
+    private var activeDailyRun: DailyPracticeRun? { reviewRound ? nil : dailyRun }
+    private var remainingDue: [WordEntry] { store.dueWords(level: dailyRun?.entries.first?.level ?? entries.first?.level ?? store.studyLevel.rawValue) }
     @State private var currentLesson: Lesson?
     @State private var preparing = false
     @State private var items: [PracticeItem] = []
@@ -189,8 +215,8 @@ struct PracticeSession: View {
                     } else if items.indices.contains(position) {
                         let item = items[position]
                         VStack(spacing: 10) {
-                            HStack { Eyebrow(text: dailyRun == nil ? mode.rawValue : "Today’s five"); Spacer(); Text("\((dailyRun?.completed ?? 0) + position + 1) / \(dailyRun?.total ?? items.count)").font(.caption.monospacedDigit()).foregroundStyle(theme.muted) }
-                            ProgressView(value: Double((dailyRun?.completed ?? 0) + position), total: Double(max(1, dailyRun?.total ?? items.count))).tint(theme.accent)
+                            HStack { Eyebrow(text: activeDailyRun == nil ? (isDueReview || reviewRound ? "Review" : mode.rawValue) : "Today’s five"); Spacer(); Text("\((activeDailyRun?.completed ?? 0) + position + 1) / \(activeDailyRun?.total ?? items.count)").font(.caption.monospacedDigit()).foregroundStyle(theme.muted) }
+                            ProgressView(value: Double((activeDailyRun?.completed ?? 0) + position), total: Double(max(1, activeDailyRun?.total ?? items.count))).tint(theme.accent)
                                 .animation(reduceMotion ? nil : .easeInOut(duration: 0.3), value: position)
                         }
                         ZStack {
@@ -205,7 +231,7 @@ struct PracticeSession: View {
                         .animation(reduceMotion ? nil : .easeInOut(duration: 0.28), value: position)
                     } else { ProgressView().padding(80) }
                 }.padding(24).frame(maxWidth: 620).frame(maxWidth: .infinity)
-            }.background(theme.paper).navigationTitle(dailyRun == nil ? "A little practice" : "Today’s five").navigationBarTitleDisplayMode(.inline)
+            }.background(theme.paper).navigationTitle(activeDailyRun == nil ? (isDueReview || reviewRound ? "Another meeting" : "A little practice") : "Today’s five").navigationBarTitleDisplayMode(.inline)
                 .toolbar { ToolbarItem(placement: .topBarLeading) { Button { if finished || error != nil { dismiss() } else { confirmExit = true } } label: { Image(systemName: "xmark") }.accessibilityLabel("End practice") } }
                 .confirmationDialog("End this practice?", isPresented: $confirmExit, titleVisibility: .visible) {
                     Button("End practice", role: .destructive) { dismiss() }
@@ -264,7 +290,7 @@ struct PracticeSession: View {
                         }.multilineTextAlignment(.center)
                     }
                 } else { Text("What does it mean?").font(.subheadline).foregroundStyle(theme.muted).padding(.top, 20) }
-                if dailyRun != nil {
+                if dailyRun != nil || isDueReview {
                     Button { store.toggle(item.entry) } label: {
                         Label(store.contains(item.entry) ? "Saved to My Deck" : "Save to My Deck",
                               systemImage: store.contains(item.entry) ? "checkmark.circle.fill" : "plus.circle")
@@ -276,14 +302,30 @@ struct PracticeSession: View {
                 .overlay(RoundedRectangle(cornerRadius: 28).stroke(theme.line))
             if revealed {
                 Text("How did you do?").font(.subheadline).foregroundStyle(theme.muted)
-                HStack(spacing: 12) {
-                    Button { advance(item, success: false) } label: { Label("Another look", systemImage: "arrow.counterclockwise").frame(maxWidth: .infinity).padding(18).background(theme.accent.opacity(0.08), in: RoundedRectangle(cornerRadius: 18)) }.buttonStyle(.plain)
-                    Button { advance(item, success: true) } label: { Label("Got it", systemImage: "checkmark").frame(maxWidth: .infinity).padding(18).foregroundStyle(theme.onAction).background(theme.action, in: RoundedRectangle(cornerRadius: 18)) }.buttonStyle(.plain)
+                ViewThatFits(in: .horizontal) {
+                    HStack(spacing: 12) { recallButtons(item) }
+                    VStack(spacing: 12) { recallButtons(item) }
                 }.font(.subheadline.weight(.semibold))
                     .transition(reduceMotion ? .identity : .opacity.combined(with: .offset(y: 8)))
             } else { PrimaryButton(title: "Reveal meaning", icon: "arrow.turn.down.right") { revealed = true }.disabled(currentLesson == nil) }
         }
         .animation(reduceMotion ? nil : .easeInOut(duration: 0.25), value: revealed)
+    }
+    @ViewBuilder private func recallButtons(_ item: PracticeItem) -> some View {
+        Button { advance(item, success: false) } label: {
+            VStack(spacing: 7) {
+                Label("Another look", systemImage: "arrow.counterclockwise")
+                Text("Again this session").font(.caption).fontWeight(.regular)
+            }.frame(maxWidth: .infinity).padding(16)
+                .background(theme.accent.opacity(0.08), in: RoundedRectangle(cornerRadius: 18))
+        }.buttonStyle(.plain).accessibilityLabel("Another look").accessibilityValue("Again this session")
+        Button { advance(item, success: true) } label: {
+            VStack(spacing: 7) {
+                Label("Got it", systemImage: "checkmark")
+                Text(store.reviewHint(item.entry)).font(.caption).fontWeight(.regular)
+            }.frame(maxWidth: .infinity).padding(16).foregroundStyle(theme.onAction)
+                .background(theme.action, in: RoundedRectangle(cornerRadius: 18))
+        }.buttonStyle(.plain).accessibilityLabel("Got it").accessibilityValue(store.reviewHint(item.entry))
     }
     @ViewBuilder private func questionCard(_ item: PracticeItem) -> some View {
         if let q = item.question {
@@ -328,17 +370,34 @@ struct PracticeSession: View {
         VStack(spacing: 24) {
             Image(systemName: "sun.max").font(.system(size: 72, weight: .ultraLight)).foregroundStyle(theme.accent).padding(.top, 40)
             Eyebrow(text: "Gut gemacht")
-            Text(dailyRun == nil ? "A little more\nyours." : "Today’s words,\ndone.").font(.system(size: 43, weight: .medium, design: .serif)).multilineTextAlignment(.center)
-            Text("\(score + (dailyRun?.recalled ?? 0)) of \(dailyRun?.total ?? items.count) \(mode == .flashcards ? "words recalled" : "answers correct").").font(.title3)
-            if dailyRun != nil {
-                Text("You gave every word a moment. Come back tomorrow for a fresh set.")
+            Text(activeDailyRun == nil ? "A little more\nyours." : "Today’s words,\ndone.").font(.system(size: 43, weight: .medium, design: .serif)).multilineTextAlignment(.center)
+            Text("\(score + (activeDailyRun?.recalled ?? 0)) of \(activeDailyRun?.total ?? items.count) \(mode == .flashcards ? "words recalled" : "answers correct").").font(.title3)
+            if activeDailyRun != nil {
+                Text("Your five are done. Revisit tricky words below, or come back tomorrow for a fresh set.")
                     .multilineTextAlignment(.center).foregroundStyle(theme.muted)
             } else {
                 Text(missed.isEmpty ? "You gave every word a moment. That’s how it sticks." : "Some words need another meeting. Give them one more look.").multilineTextAlignment(.center).foregroundStyle(theme.muted)
-                if !missed.isEmpty { PrimaryButton(title: "Review \(missed.count) again", icon: "arrow.counterclockwise") { items = missed.shuffled(); missed = []; position = 0; score = 0; reset() } }
+            }
+            if !missed.isEmpty {
+                PrimaryButton(title: "Review \(missed.count) again", icon: "arrow.counterclockwise") {
+                    beginReview(missed.shuffled())
+                }
+            }
+            if dailyRun != nil || isDueReview, !remainingDue.isEmpty {
+                PrimaryButton(title: "Review \(remainingDue.count) more", icon: "arrow.counterclockwise") {
+                    beginReview(remainingDue.map { PracticeItem(entry: $0, question: nil) })
+                }.accessibilityIdentifier("reviewMoreDue")
             }
             Button("Finish practice") { dismiss() }.font(.headline).padding(16)
         }
+    }
+    private func beginReview(_ next: [PracticeItem]) {
+        reviewRound = true
+        items = next
+        missed = []
+        position = 0
+        score = 0
+        reset()
     }
     private func audio(_ text: String) -> some View {
         Button { store.speak(text) } label: { Image(systemName: "speaker.wave.2").frame(width: 44, height: 44).background(theme.accent.opacity(0.07), in: Circle()) }.accessibilityLabel("Hear German pronunciation")
@@ -346,7 +405,10 @@ struct PracticeSession: View {
     private func check(_ q: Question) { correct = q.accepts(input); revealed = true }
     private func reset() { revealed = false; input = ""; correct = false; currentLesson = nil }
     private func advance(_ item: PracticeItem, success: Bool) {
-        store.recordRecall(item.entry, success: success, dailyDay: dailyRun?.id)
+        // Quiz answers and immediate repeats must not promote a flashcard recall schedule.
+        if mode == .flashcards {
+            store.recordRecall(item.entry, success: success, dailyDay: activeDailyRun?.id)
+        }
         if success { score += 1 } else { missed.append(item) }
         store.stopAudio(); reset(); position += 1
     }

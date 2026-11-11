@@ -1,6 +1,61 @@
 import XCTest
 
 final class StudyFlowTests: XCTestCase {
+    @MainActor func testSpacedReviewsMigrateRetryAndFinishOverflow() throws {
+        let app = makeApp()
+        app.launchEnvironment["WORTSCHATZ_TEST_REVIEWS"] = "legacyDue"
+        app.launch()
+        app.buttons["Practice"].tap()
+        let start = app.buttons["startDailyFive"]
+        XCTAssertTrue(start.waitForExistence(timeout: 10))
+        start.tap()
+        let reveal = app.buttons["Reveal meaning"]
+        func revealReadyCard() {
+            XCTAssertTrue(reveal.waitForExistence(timeout: 10))
+            let ready = expectation(for: NSPredicate(format: "enabled == true"), evaluatedWith: reveal)
+            wait(for: [ready], timeout: 10)
+            reveal.tap()
+        }
+        for number in 1...5 {
+            XCTAssertTrue(app.staticTexts["\(number) / 5"].waitForExistence(timeout: 10))
+            revealReadyCard()
+            XCTAssertEqual(app.buttons["Got it"].value as? String, "Review tomorrow")
+            XCTAssertEqual(app.buttons["Another look"].value as? String, "Again this session")
+            if number == 1 { attach(app, "Spaced review buttons") }
+            app.buttons[number == 1 ? "Another look" : "Got it"].tap()
+        }
+        XCTAssertTrue(app.staticTexts["Today’s words,\ndone."].waitForExistence(timeout: 5))
+        let more = app.buttons["reviewMoreDue"]
+        XCTAssertTrue(more.waitForExistence(timeout: 5))
+        XCTAssertEqual(more.label, "Review 2 more")
+        attach(app, "Daily review choices")
+        app.buttons["Review 1 again"].tap()
+        revealReadyCard()
+        XCTAssertEqual(app.buttons["Got it"].value as? String, "Review tomorrow", "Immediate retry must keep tomorrow’s schedule")
+        app.buttons["Got it"].tap()
+        XCTAssertTrue(more.waitForExistence(timeout: 5))
+        XCTAssertEqual(more.label, "Review 2 more")
+        app.buttons["Finish practice"].tap()
+        app.terminate()
+        app.launch()
+        app.buttons["Practice"].tap()
+        XCTAssertTrue(more.waitForExistence(timeout: 10), "Remaining due reviews survive relaunch")
+        XCTAssertEqual(app.staticTexts["dailyProgress"].label, "5 of 5 complete", "Extra review never resets the daily goal")
+        more.tap()
+        for _ in 1...2 {
+            revealReadyCard()
+            app.buttons["Got it"].tap()
+        }
+        XCTAssertTrue(app.buttons["Finish practice"].waitForExistence(timeout: 5))
+        XCTAssertFalse(more.exists, "Reviewed words are no longer due today")
+        app.buttons["Finish practice"].tap()
+        app.terminate()
+        app.launch()
+        app.buttons["Practice"].tap()
+        XCTAssertTrue(app.staticTexts["Today’s five complete"].waitForExistence(timeout: 10))
+        XCTAssertFalse(more.exists, "Saved schedules must not migrate old history again")
+    }
+
     @MainActor func testKellerReaderLoadsOnFirstAndRepeatOpen() throws {
         let app = makeApp()
         app.launch()
