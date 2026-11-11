@@ -5,6 +5,13 @@ enum StudyLevel: String, CaseIterable, Identifiable {
     var id: String { rawValue }
 }
 
+enum NounGender: String, CaseIterable, Sendable {
+    case masculine, feminine, neuter
+    var article: String {
+        switch self { case .masculine: "der"; case .feminine: "die"; case .neuter: "das" }
+    }
+}
+
 struct LessonIndex: Decodable, Sendable {
     let entries: [WordEntry]
     let lookup: [String: [String]]
@@ -22,6 +29,7 @@ struct WordEntry: Decodable, Identifiable, Hashable, Sendable {
     let forms: [String]
     let related: [String]
     let searchKeys: [String]
+    var nounGender: NounGender? { gender.flatMap(NounGender.init(rawValue:)) }
     var badgeText: String {
         if let article { return article }
         let verb = headword.trimmingCharacters(in: .whitespacesAndNewlines)

@@ -248,7 +248,10 @@ struct PracticeSession: View {
             VStack(spacing: 22) {
                 HStack { Text(item.entry.level + " · " + item.entry.kind).font(.caption).foregroundStyle(theme.muted); Spacer(); audio(item.entry.displayWord) }
                 Spacer(minLength: 24)
-                Text(item.entry.displayWord).font(.system(size: 43, weight: .medium, design: .serif)).multilineTextAlignment(.center).minimumScaleFactor(0.6)
+                Text(item.entry.displayWord).font(.system(size: 43, weight: .medium, design: .serif))
+                    .foregroundStyle(theme.wordColor(item.entry))
+                    .multilineTextAlignment(.center).minimumScaleFactor(0.6)
+                    .accessibilityHint(item.entry.nounGender.map { "\($0.rawValue) noun" } ?? "")
                 if let p = currentLesson?.word.pronunciation?.ipa { Text("/\(p)/").foregroundStyle(theme.muted).font(.subheadline) }
                 if revealed {
                     Divider().padding(.horizontal, 30)

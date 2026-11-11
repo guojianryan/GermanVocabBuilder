@@ -29,10 +29,10 @@ struct WordRow: View {
                 HStack(spacing: 14) {
                     Text(entry.badgeText)
                         .font(.system(entry.article == nil ? .title3 : .subheadline, design: .serif).weight(.medium))
-                        .foregroundStyle(theme.accent).frame(width: 48, height: 52)
-                        .background(theme.accent.opacity(0.07), in: RoundedRectangle(cornerRadius: 13))
+                        .foregroundStyle(entry.nounGender.map(theme.nounColor) ?? theme.accent).frame(width: 48, height: 52)
+                        .background((entry.nounGender.map(theme.nounColor) ?? theme.accent).opacity(0.07), in: RoundedRectangle(cornerRadius: 13))
                     VStack(alignment: .leading, spacing: 5) {
-                        Text(entry.headword).font(.system(.title3, design: .serif).weight(.semibold)).foregroundStyle(theme.ink).lineLimit(2)
+                        Text(entry.headword).font(.system(.title3, design: .serif).weight(.semibold)).foregroundStyle(theme.wordColor(entry)).lineLimit(2)
                         Text(entry.meaning).font(.subheadline).foregroundStyle(theme.muted).lineLimit(2)
                     }
                     Spacer(minLength: 0)
@@ -65,5 +65,27 @@ struct EmptyState: View {
             Text(title).font(.system(.title2, design: .serif).weight(.semibold))
             Text(detail).font(.subheadline).foregroundStyle(theme.muted).multilineTextAlignment(.center)
         }.frame(maxWidth: .infinity).padding(.vertical, 48)
+    }
+}
+
+struct NounGenderKey: View {
+    @Environment(\.appTheme) private var theme
+    var body: some View {
+        ViewThatFits(in: .horizontal) {
+            HStack(spacing: 16) { labels }
+            VStack(alignment: .leading, spacing: 8) { labels }
+        }
+        .font(.caption)
+        .accessibilityElement(children: .combine)
+        .accessibilityLabel("Noun colors: der, masculine, blue; die, feminine, red; das, neuter, green")
+    }
+    private var labels: some View {
+        ForEach(NounGender.allCases, id: \.self) { gender in
+            HStack(spacing: 5) {
+                Circle().fill(theme.nounColor(gender)).frame(width: 6, height: 6)
+                Text(gender.article).fontWeight(.semibold)
+                Text(gender.rawValue)
+            }.foregroundStyle(theme.nounColor(gender))
+        }
     }
 }

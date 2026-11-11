@@ -50,8 +50,9 @@ struct LessonView: View {
             .task(id: retry) {
                 do {
                     let source = try await store.readerSource(entry)
+                    let gender = entry.nounGender
                     let rendered = await Task.detached(priority: .userInitiated) {
-                        LessonHTML.make(template: source.template, json: source.json.replacingOccurrences(of: "<", with: "\\u003c"))
+                        LessonHTML.make(template: source.template, json: source.json.replacingOccurrences(of: "<", with: "\\u003c"), gender: gender)
                     }.value
                     try Task.checkCancellation()
                     html = rendered
@@ -70,7 +71,7 @@ struct LessonView: View {
     }
 }
 enum LessonHTML {
-    static func make(template: String, json: String) -> String {
+    static func make(template: String, json: String, gender: NounGender? = nil) -> String {
         var page = template.replacingOccurrences(of: "__LESSON_JSON__", with: json)
         // The lesson renderer remains the reference for optional sections and highlighting.
         // Remove remote fonts so every part of the reader works offline.
@@ -92,12 +93,22 @@ enum LessonHTML {
         @media(prefers-reduced-motion:reduce){ * { animation:none!important; transition:none!important; } }
         </style></head>
         """)
+        if let gender {
+            page = page.replacingOccurrences(of: "</head>", with: """
+            <style>
+            .hero .headword,.hero .pos { color:var(--noun-\(gender.rawValue)); }
+            .noun-key { display:flex;flex-wrap:wrap;gap:8px 18px;font:12px -apple-system,system-ui,sans-serif;margin:20px 0; }
+            .noun-key span { white-space:nowrap; }
+            </style></head>
+            """)
+
+        }
         // Also show the explanation and completed sentence after a fill answer.
         page = page.replacingOccurrences(of: "\"Richtig! \" + (q.fullAnswer || \"\")", with: "\"Richtig! \" + (q.fullAnswer || \"\") + \" \" + (q.explanation || \"\")")
         page = page.replacingOccurrences(of: "\"Not quite. Try again, or show the answer.\"", with: "\"Not quite. \" + (q.explanation || \"\") + \" \" + (q.fullAnswer || \"Try again, or show the answer.\")")
         page = page.replacingOccurrences(of: "\"Not quite. Try another one.\"", with: "\"Not quite. \" + (q.explanation || \"\") + \" \" + (q.fullAnswer || \"Try another one.\")")
         page = page.replacingOccurrences(of: "(q.explanation || \"\") :", with: "(q.explanation || \"\") + \" \" + (q.fullAnswer || \"\") :")
-        return page.replacingOccurrences(of: "</body>", with: """
+        page = page.replacingOccurrences(of: "</body>", with: """
         <script>
         var lessonData=JSON.parse(document.getElementById('lesson-data').textContent);
         var badge=document.createElement('p');
@@ -134,6 +145,16 @@ enum LessonHTML {
         });
         </script></body>
         """)
+        if gender != nil {
+            page = page.replacingOccurrences(of: "var badge=document.createElement('p');", with: """
+            var key=document.createElement('div');key.className='noun-key';
+            key.setAttribute('aria-label','Noun colors: der masculine blue, die feminine red, das neuter green');
+            key.innerHTML='<span style="color:var(--noun-masculine)">● der · masculine</span><span style="color:var(--noun-feminine)">● die · feminine</span><span style="color:var(--noun-neuter)">● das · neuter</span>';
+            document.querySelector('.hero').after(key);
+            var badge=document.createElement('p');
+            """)
+        }
+        return page
     }
 }
 /// Keep one idle reader ready, without sharing a mounted view between navigation stacks.

@@ -65,6 +65,7 @@ struct LibraryView: View {
                             }
                         }
                     }
+                    if results.contains(where: { $0.nounGender != nil }) { NounGenderKey() }
                     if hasResultsRequest || store.loadError != nil {
                     VStack(spacing: 6) {
                         HStack {
@@ -176,7 +177,13 @@ private struct FeaturedWordBanner: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 12) {
             HStack(alignment: .firstTextBaseline, spacing: 0) {
-                if let article = entry.article { Text(article + " ") }
+                if let gender = entry.nounGender {
+                    Text(gender.article).font(.system(.subheadline, design: .serif).weight(.semibold))
+                        .foregroundStyle(theme.nounColor(gender))
+                        .padding(.horizontal, 8).padding(.vertical, 5)
+                        .background(theme.surface, in: RoundedRectangle(cornerRadius: 8))
+                        .padding(.trailing, 8)
+                } else if let article = entry.article { Text(article + " ") }
                 if let lesson {
                     ForEach(Array(lesson.bannerSegments.enumerated()), id: \.offset) { i, segment in
                         Text(segment.text)
@@ -262,6 +269,7 @@ struct DeckView: View {
                         PrimaryButton(title: "Find your first words", action: explore)
                     } else {
                         PrimaryButton(title: "Practice my deck", icon: "play.fill") { practice = true }
+                        if store.deckWords.contains(where: { $0.nounGender != nil }) { NounGenderKey() }
                         LazyVStack(spacing: 0) {
                             ForEach(store.deckWords) { e in
                                 VStack(spacing: 0) { WordRow(entry: e); Divider() }

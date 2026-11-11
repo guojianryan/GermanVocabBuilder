@@ -44,6 +44,18 @@ enum AppTheme: String, CaseIterable, Identifiable {
     var secondaryAccent: Color {
         Color(hex: self == .dark ? "C9A66B" : self == .dusk ? "D9B97A" : self == .warm ? "8A6B3F" : self == .green ? "B9CB8B" : self == .blue ? "9FC9E8" : "4C6A8A")
     }
+    func nounColorHex(_ gender: NounGender) -> String {
+        switch (gender, scheme == .dark) {
+        case (.masculine, false): "2457A7"
+        case (.feminine, false): "AF234C"
+        case (.neuter, false): "246C3B"
+        case (.masculine, true): "BBDFFF"
+        case (.feminine, true): "FFC8D2"
+        case (.neuter, true): "B1EABD"
+        }
+    }
+    func nounColor(_ gender: NounGender) -> Color { Color(hex: nounColorHex(gender)) }
+    func wordColor(_ entry: WordEntry) -> Color { entry.nounGender.map(nounColor) ?? ink }
     var paper: Color { Color(hex: paperHex) }
     var surface: Color { Color(hex: surfaceHex) }
     var accent: Color { Color(hex: accentHex) }
@@ -52,7 +64,7 @@ enum AppTheme: String, CaseIterable, Identifiable {
     var muted: Color { Color(hex: mutedHex) }
     var line: Color { Color(hex: lineHex) }
     var css: String {
-        "--paper:#\(paperHex);--ink:#\(inkHex);--muted:#\(mutedHex);--blue:#\(accentHex);--rule:#\(lineHex);--tint:#\(tintHex);--red:#\(scheme == .dark ? "FFAAA1" : "C42B2B");color-scheme:\(scheme == .dark ? "dark" : "light");"
+        "--paper:#\(paperHex);--ink:#\(inkHex);--muted:#\(mutedHex);--blue:#\(accentHex);--rule:#\(lineHex);--tint:#\(tintHex);--red:#\(scheme == .dark ? "FFAAA1" : "C42B2B");--noun-masculine:#\(nounColorHex(.masculine));--noun-feminine:#\(nounColorHex(.feminine));--noun-neuter:#\(nounColorHex(.neuter));color-scheme:\(scheme == .dark ? "dark" : "light");"
     }
 }
 private struct AppThemeKey: EnvironmentKey { static let defaultValue = AppTheme.warm }
