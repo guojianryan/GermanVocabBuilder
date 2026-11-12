@@ -1,0 +1,139 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Kreisverkehr",
+    "partOfSpeech": "noun, masculine (der Kreisverkehr)",
+    "pronunciation": {
+      "respelling": "KRICE-fer-kayr",
+      "ipa": "ˈkʁaɪ̯sfɛɐ̯ˌkeːɐ̯",
+      "notes": "Plural: die Kreisverkehre."
+    },
+    "meaning": "roundabout",
+    "shortDefinition": "Roundabout."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Kreis",
+        "meaning": "circle",
+        "emphasis": "turn"
+      },
+      {
+        "part": "verkehr",
+        "meaning": "traffic"
+      }
+    ],
+    "literalMeaning": "circle traffic",
+    "summary": "Going round and round."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Kreisverkehr, plural die Kreisverkehre.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Kreisverkehr"
+        },
+        {
+          "label": "More than one",
+          "value": "die Kreisverkehre"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Am Kreisverkehr die zweite Ausfahrt nehmen.",
+      "english": "Take the second exit at the roundabout.",
+      "highlight": [
+        "Kreisverkehr"
+      ]
+    },
+    {
+      "german": "Im Kreisverkehr hat man Vorfahrt.",
+      "english": "Traffic on the roundabout has priority.",
+      "highlight": [
+        "Kreisverkehr"
+      ]
+    },
+    {
+      "german": "Ein neuer Kreisverkehr.",
+      "english": "A new roundabout.",
+      "highlight": [
+        "Kreisverkehr."
+      ]
+    }
+  ],
+  "forms": [
+    "Verkehr",
+    "Ausfahrt"
+  ],
+  "memoryHook": "Kreis + Verkehr = roundabout; Ausfahrt.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Kreisverkehr",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Kreisverkehr is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Kreisverkehr, zwei ___",
+      "answer": "Kreisverkehre",
+      "fullAnswer": "ein Kreisverkehr, zwei Kreisverkehre",
+      "explanation": "The plural is Kreisverkehre.",
+      "acceptedAnswers": [
+        "Kreisverkehre"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Kreisverkehr mean?",
+      "options": [
+        "the street",
+        "roundabout",
+        "to learn"
+      ],
+      "answer": "roundabout",
+      "explanation": "Kreisverkehr: roundabout.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Kreis (circle) + Verkehr (traffic)",
+        "Kreis (district) + Verkehr"
+      ],
+      "answer": "Kreis (circle) + Verkehr (traffic)",
+      "explanation": "Circle traffic.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Exit:",
+      "options": [
+        "die Ausfahrt",
+        "der Ausgang"
+      ],
+      "answer": "die Ausfahrt",
+      "explanation": "Driving.",
+      "id": "q5"
+    }
+  ]
+}

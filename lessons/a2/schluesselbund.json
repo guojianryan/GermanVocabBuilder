@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Schlüsselbund",
+    "partOfSpeech": "noun, masculine (der Schlüsselbund)",
+    "pronunciation": {
+      "respelling": "SHLÜ-sel-boont",
+      "ipa": "ˈʃlʏsl̩ˌbʊnt",
+      "notes": "Also das Schlüsselbund. Plural: die Schlüsselbunde."
+    },
+    "meaning": "bunch of keys, keyring",
+    "shortDefinition": "Bunch of keys, keyring."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Schlüssel",
+        "meaning": "key"
+      },
+      {
+        "part": "bund",
+        "meaning": "bundle"
+      }
+    ],
+    "literalMeaning": "key bundle"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Schlüsselbund, plural die Schlüsselbunde.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Schlüsselbund"
+        },
+        {
+          "label": "More than one",
+          "value": "die Schlüsselbunde"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich habe meinen Schlüsselbund verloren.",
+      "english": "I've lost my keys.",
+      "highlight": [
+        "Schlüsselbund"
+      ]
+    },
+    {
+      "german": "Der Schlüsselbund liegt auf dem Tisch.",
+      "english": "The keys are on the table.",
+      "highlight": [
+        "Schlüsselbund"
+      ]
+    },
+    {
+      "german": "Ein schwerer Schlüsselbund.",
+      "english": "A heavy bunch of keys.",
+      "highlight": [
+        "Schlüsselbund."
+      ]
+    }
+  ],
+  "forms": [
+    "Schlüssel"
+  ],
+  "memoryHook": "Schlüssel + Bund = bunch of keys.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Schlüsselbund",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Schlüsselbund is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Schlüsselbund, zwei ___",
+      "answer": "Schlüsselbunde",
+      "fullAnswer": "ein Schlüsselbund, zwei Schlüsselbunde",
+      "explanation": "The plural is Schlüsselbunde.",
+      "acceptedAnswers": [
+        "Schluesselbunde"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Schlüsselbund mean?",
+      "options": [
+        "the family",
+        "bunch of keys",
+        "the weather"
+      ],
+      "answer": "bunch of keys",
+      "explanation": "Schlüsselbund: bunch of keys, keyring.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Schlüssel + Bund (bundle)",
+        "Schlüssel + bunt"
+      ],
+      "answer": "Schlüssel + Bund (bundle)",
+      "explanation": "Key bundle.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gender:",
+      "options": [
+        "der (also das)",
+        "die"
+      ],
+      "answer": "der (also das)",
+      "explanation": "Both used.",
+      "id": "q5"
+    }
+  ]
+}

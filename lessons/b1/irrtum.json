@@ -1,0 +1,150 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Irrtum",
+    "partOfSpeech": "noun, masculine (der Irrtum)",
+    "pronunciation": {
+      "respelling": "IR-toom",
+      "ipa": "ˈɪʁtuːm",
+      "notes": "Plural: die Irrtümer."
+    },
+    "meaning": "error, mistake (in belief)",
+    "shortDefinition": "Error, mistake (in belief)."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Irr",
+        "meaning": "err (irren)",
+        "emphasis": "turn"
+      },
+      {
+        "part": "tum",
+        "meaning": "noun ending"
+      }
+    ],
+    "literalMeaning": "an erring",
+    "summary": "A wrong turn in thinking."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Irrtum, plural die Irrtümer.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Irrtum"
+        },
+        {
+          "label": "More than one",
+          "value": "die Irrtümer"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das ist ein Irrtum!",
+      "english": "That's a mistake!",
+      "highlight": [
+        "Irrtum!"
+      ]
+    },
+    {
+      "german": "Ein weit verbreiteter Irrtum.",
+      "english": "A widespread misconception.",
+      "highlight": [
+        "Irrtum."
+      ]
+    },
+    {
+      "german": "Irrtümer vorbehalten.",
+      "english": "Errors excepted.",
+      "highlight": [
+        "Irrtümer"
+      ]
+    }
+  ],
+  "forms": [
+    "irren",
+    "Fehler"
+  ],
+  "memoryHook": "Sich irren → der Irrtum (misconception).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Irrtum",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Irrtum is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Irrtum, zwei ___",
+      "answer": "Irrtümer",
+      "fullAnswer": "ein Irrtum, zwei Irrtümer",
+      "explanation": "The plural is Irrtümer.",
+      "acceptedAnswers": [
+        "Irrtuemer"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Irrtum mean?",
+      "options": [
+        "the key",
+        "error",
+        "to buy"
+      ],
+      "answer": "error",
+      "explanation": "Irrtum: error, mistake (in belief).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "(sich) irren (be wrong)",
+        "irre (crazy)"
+      ],
+      "answer": "(sich) irren (be wrong)",
+      "explanation": "Err.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Irrtum vs Fehler:",
+      "options": [
+        "mistaken belief vs any mistake",
+        "same"
+      ],
+      "answer": "mistaken belief vs any mistake",
+      "explanation": "Nuance.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Irrtümer",
+        "Irrtume"
+      ],
+      "answer": "Irrtümer",
+      "explanation": "-tum → -tümer.",
+      "id": "q6"
+    }
+  ]
+}

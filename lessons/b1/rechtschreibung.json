@@ -1,0 +1,134 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Rechtschreibung",
+    "partOfSpeech": "noun, feminine (die Rechtschreibung)",
+    "pronunciation": {
+      "respelling": "REKHT-shrye-bung",
+      "ipa": "ˈʁɛçtˌʃʁaɪ̯bʊŋ",
+      "notes": "Usually no plural."
+    },
+    "meaning": "spelling, orthography",
+    "shortDefinition": "Spelling, orthography."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Recht",
+        "meaning": "right, correct"
+      },
+      {
+        "part": "schreib",
+        "meaning": "write"
+      },
+      {
+        "part": "ung",
+        "meaning": "noun ending"
+      }
+    ],
+    "literalMeaning": "right writing"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Rechtschreibung, usually no plural.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Rechtschreibung"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Achte auf die Rechtschreibung!",
+      "english": "Mind your spelling!",
+      "highlight": [
+        "Rechtschreibung!"
+      ]
+    },
+    {
+      "german": "Seine Rechtschreibung ist schlecht.",
+      "english": "His spelling is poor.",
+      "highlight": [
+        "Rechtschreibung"
+      ]
+    },
+    {
+      "german": "Die neue deutsche Rechtschreibung.",
+      "english": "The new German spelling rules.",
+      "highlight": [
+        "Rechtschreibung."
+      ]
+    }
+  ],
+  "forms": [
+    "Rechtschreibfehler",
+    "schreiben"
+  ],
+  "memoryHook": "Recht + Schreibung = spelling; Rechtschreibfehler.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Rechtschreibung",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Rechtschreibung is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Rechtschreibung mean?",
+      "options": [
+        "quiet",
+        "the shop",
+        "spelling"
+      ],
+      "answer": "spelling",
+      "explanation": "Rechtschreibung: spelling, orthography.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "recht (correct) + Schreibung",
+        "Recht (law) + schreiben"
+      ],
+      "answer": "recht (correct) + Schreibung",
+      "explanation": "Correct writing.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Spelling mistake:",
+      "options": [
+        "der Rechtschreibfehler",
+        "der Schreibrechtfehler"
+      ],
+      "answer": "der Rechtschreibfehler",
+      "explanation": "Compound.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Die ___ ist schwer. (spelling)",
+      "answer": "Rechtschreibung",
+      "fullAnswer": "Die Rechtschreibung ist schwer.",
+      "explanation": "Rechtschreibung.",
+      "id": "q5"
+    }
+  ]
+}

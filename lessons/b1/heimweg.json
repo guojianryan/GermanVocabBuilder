@@ -1,0 +1,139 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Heimweg",
+    "partOfSpeech": "noun, masculine (der Heimweg)",
+    "pronunciation": {
+      "respelling": "HIME-vayk",
+      "ipa": "ˈhaɪ̯mveːk",
+      "notes": "Plural: die Heimwege."
+    },
+    "meaning": "way home",
+    "shortDefinition": "Way home."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Heim",
+        "meaning": "home",
+        "emphasis": "arrive"
+      },
+      {
+        "part": "weg",
+        "meaning": "way"
+      }
+    ],
+    "literalMeaning": "home way",
+    "summary": "Heading to arrive home."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Heimweg, plural die Heimwege.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Heimweg"
+        },
+        {
+          "label": "More than one",
+          "value": "die Heimwege"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Auf dem Heimweg hat es geregnet.",
+      "english": "It rained on the way home.",
+      "highlight": [
+        "Heimweg"
+      ]
+    },
+    {
+      "german": "Ich mache mich auf den Heimweg.",
+      "english": "I'm heading home.",
+      "highlight": [
+        "Heimweg."
+      ]
+    },
+    {
+      "german": "Der Heimweg dauert eine Stunde.",
+      "english": "The journey home takes an hour.",
+      "highlight": [
+        "Heimweg"
+      ]
+    }
+  ],
+  "forms": [
+    "Heimweh",
+    "Rückweg"
+  ],
+  "memoryHook": "Heim + Weg = way home ≠ Heimweh (homesickness).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Heimweg",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Heimweg is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Heimweg, zwei ___",
+      "answer": "Heimwege",
+      "fullAnswer": "ein Heimweg, zwei Heimwege",
+      "explanation": "The plural is Heimwege.",
+      "acceptedAnswers": [
+        "Heimwege"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Heimweg mean?",
+      "options": [
+        "to sing",
+        "way home",
+        "the door"
+      ],
+      "answer": "way home",
+      "explanation": "Heimweg: way home.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "heim (home) + Weg",
+        "Heim + Weh"
+      ],
+      "answer": "heim (home) + Weg",
+      "explanation": "Home way.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Careful: 'Heimweh' means…",
+      "options": [
+        "homesickness",
+        "way home"
+      ],
+      "answer": "homesickness",
+      "explanation": "Different!",
+      "id": "q5"
+    }
+  ]
+}

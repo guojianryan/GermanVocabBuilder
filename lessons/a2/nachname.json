@@ -1,0 +1,148 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Nachname",
+    "partOfSpeech": "noun, masculine (der Nachname)",
+    "pronunciation": {
+      "respelling": "NAAKH-naa-me",
+      "ipa": "ˈnaːxˌnaːmə",
+      "notes": "Plural: die Nachnamen."
+    },
+    "meaning": "surname, last name",
+    "shortDefinition": "Surname, last name."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Nach",
+        "meaning": "after"
+      },
+      {
+        "part": "name",
+        "meaning": "name"
+      }
+    ],
+    "literalMeaning": "after-name"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Nachname, plural die Nachnamen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Nachname"
+        },
+        {
+          "label": "More than one",
+          "value": "die Nachnamen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wie ist Ihr Nachname?",
+      "english": "What's your surname?",
+      "highlight": [
+        "Nachname?"
+      ]
+    },
+    {
+      "german": "Mein Nachname ist Müller.",
+      "english": "My surname is Müller.",
+      "highlight": [
+        "Nachname"
+      ]
+    },
+    {
+      "german": "Bitte buchstabieren Sie Ihren Nachnamen.",
+      "english": "Please spell your surname.",
+      "highlight": [
+        "Nachnamen."
+      ]
+    }
+  ],
+  "forms": [
+    "Vorname",
+    "Familienname"
+  ],
+  "memoryHook": "Nach + Name = surname ↔ Vorname.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Nachname",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Nachname is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Nachname, zwei ___",
+      "answer": "Nachnamen",
+      "fullAnswer": "ein Nachname, zwei Nachnamen",
+      "explanation": "The plural is Nachnamen.",
+      "acceptedAnswers": [
+        "Nachnamen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Nachname mean?",
+      "options": [
+        "never",
+        "surname",
+        "to buy"
+      ],
+      "answer": "surname",
+      "explanation": "Nachname: surname, last name.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Weak noun: den/dem…",
+      "options": [
+        "Nachnamen",
+        "Nachname"
+      ],
+      "answer": "Nachnamen",
+      "explanation": "Like Name.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "First name:",
+      "options": [
+        "der Vorname",
+        "der Erstname"
+      ],
+      "answer": "der Vorname",
+      "explanation": "Opposite.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonym (forms):",
+      "options": [
+        "der Familienname",
+        "der Spitzname"
+      ],
+      "answer": "der Familienname",
+      "explanation": "Spitzname = nickname.",
+      "id": "q6"
+    }
+  ]
+}

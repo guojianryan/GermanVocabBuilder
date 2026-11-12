@@ -1,0 +1,130 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Kummer",
+    "partOfSpeech": "noun, masculine (der Kummer)",
+    "pronunciation": {
+      "respelling": "KU-mer",
+      "ipa": "ˈkʊmɐ",
+      "notes": "Usually no plural."
+    },
+    "meaning": "grief, sorrow, worry",
+    "shortDefinition": "Grief, sorrow, worry."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Kummer, usually no plural.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Kummer"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Sie hat großen Kummer.",
+      "english": "She's very upset.",
+      "highlight": [
+        "Kummer."
+      ]
+    },
+    {
+      "german": "Er hat Liebeskummer.",
+      "english": "He's lovesick.",
+      "highlight": [
+        "Liebeskummer."
+      ]
+    },
+    {
+      "german": "Das macht mir Kummer.",
+      "english": "That worries me.",
+      "highlight": [
+        "Kummer."
+      ]
+    }
+  ],
+  "forms": [
+    "Liebeskummer",
+    "kümmern"
+  ],
+  "memoryHook": "Der Kummer; Liebeskummer; sich kümmern.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Kummer",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Kummer is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Kummer mean?",
+      "options": [
+        "grief",
+        "never",
+        "to learn"
+      ],
+      "answer": "grief",
+      "explanation": "Kummer: grief, sorrow, worry.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Liebeskummer' means…",
+      "options": [
+        "heartache, lovesickness",
+        "love letters"
+      ],
+      "answer": "heartache, lovesickness",
+      "explanation": "Compound.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Verb:",
+      "options": [
+        "(sich) kümmern (worry; take care)",
+        "kummern"
+      ],
+      "answer": "(sich) kümmern (worry; take care)",
+      "explanation": "Related.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonym:",
+      "options": [
+        "Sorge, Leid",
+        "Freude"
+      ],
+      "answer": "Sorge, Leid",
+      "explanation": "Worry.",
+      "id": "q5"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Er hat ___ . (heartache)",
+      "answer": "Liebeskummer",
+      "fullAnswer": "Er hat Liebeskummer.",
+      "explanation": "Liebeskummer.",
+      "acceptedAnswers": [
+        "Kummer"
+      ],
+      "id": "q6"
+    }
+  ]
+}

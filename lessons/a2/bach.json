@@ -1,0 +1,133 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Bach",
+    "partOfSpeech": "noun, masculine (der Bach)",
+    "pronunciation": {
+      "respelling": "BAKH",
+      "ipa": "bax",
+      "notes": "Plural: die Bäche."
+    },
+    "meaning": "stream, brook",
+    "shortDefinition": "Stream, brook."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Bach, plural die Bäche.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Bach"
+        },
+        {
+          "label": "More than one",
+          "value": "die Bäche"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ein kleiner Bach fließt durch das Dorf.",
+      "english": "A little stream flows through the village.",
+      "highlight": [
+        "Bach"
+      ]
+    },
+    {
+      "german": "Die Kinder spielen am Bach.",
+      "english": "The children play by the stream.",
+      "highlight": [
+        "Bach."
+      ]
+    },
+    {
+      "german": "Die Firma ging den Bach runter.",
+      "english": "The company went down the drain.",
+      "highlight": [
+        "Bach"
+      ]
+    }
+  ],
+  "forms": [
+    "Fluss"
+  ],
+  "memoryHook": "Der Bach (stream) < Fluss < Strom.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Bach",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Bach is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Bach, zwei ___",
+      "answer": "Bäche",
+      "fullAnswer": "ein Bach, zwei Bäche",
+      "explanation": "The plural is Bäche.",
+      "acceptedAnswers": [
+        "Baeche"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Bach mean?",
+      "options": [
+        "the key",
+        "the bread",
+        "stream"
+      ],
+      "answer": "stream",
+      "explanation": "Bach: stream, brook.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Bäche",
+        "Bache"
+      ],
+      "answer": "Bäche",
+      "explanation": "Umlaut.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Den Bach runtergehen' means…",
+      "options": [
+        "to go downhill, fail",
+        "to go for a walk"
+      ],
+      "answer": "to go downhill, fail",
+      "explanation": "Idiom.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Bach vs Fluss:",
+      "options": [
+        "small stream vs river",
+        "same"
+      ],
+      "answer": "small stream vs river",
+      "explanation": "Size.",
+      "id": "q6"
+    }
+  ]
+}

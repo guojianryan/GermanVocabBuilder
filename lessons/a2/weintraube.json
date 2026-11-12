@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Weintraube",
+    "partOfSpeech": "noun, feminine (die Weintraube)",
+    "pronunciation": {
+      "respelling": "VINE-trow-be",
+      "ipa": "ˈvaɪ̯nˌtʁaʊ̯bə",
+      "notes": "Plural: die Weintrauben."
+    },
+    "meaning": "grape",
+    "shortDefinition": "Grape."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Wein",
+        "meaning": "wine"
+      },
+      {
+        "part": "traube",
+        "meaning": "bunch, cluster"
+      }
+    ],
+    "literalMeaning": "wine cluster"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Weintraube, plural die Weintrauben.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Weintraube"
+        },
+        {
+          "label": "More than one",
+          "value": "die Weintrauben"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich kaufe Weintrauben.",
+      "english": "I'm buying grapes.",
+      "highlight": [
+        "Weintrauben."
+      ]
+    },
+    {
+      "german": "Grüne oder rote Weintrauben?",
+      "english": "Green or red grapes?",
+      "highlight": [
+        "Weintrauben?"
+      ]
+    },
+    {
+      "german": "Eine Weintraube ist runtergefallen.",
+      "english": "A grape fell on the floor.",
+      "highlight": [
+        "Weintraube"
+      ]
+    }
+  ],
+  "forms": [
+    "Traube",
+    "Rosine"
+  ],
+  "memoryHook": "Wein + Traube = grape; Rosine = raisin.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Weintraube",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Weintraube is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Weintraube, zwei ___",
+      "answer": "Weintrauben",
+      "fullAnswer": "ein Weintraube, zwei Weintrauben",
+      "explanation": "The plural is Weintrauben.",
+      "acceptedAnswers": [
+        "Weintrauben"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Weintraube mean?",
+      "options": [
+        "grape",
+        "the window",
+        "the job"
+      ],
+      "answer": "grape",
+      "explanation": "Weintraube: grape.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Wein + Traube (bunch)",
+        "weinen + Traube"
+      ],
+      "answer": "Wein + Traube (bunch)",
+      "explanation": "Wine bunch.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Raisin:",
+      "options": [
+        "die Rosine",
+        "die Trockentraube"
+      ],
+      "answer": "die Rosine",
+      "explanation": "Dried.",
+      "id": "q5"
+    }
+  ]
+}

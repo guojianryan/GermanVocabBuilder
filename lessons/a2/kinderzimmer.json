@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Kinderzimmer",
+    "partOfSpeech": "noun, neuter (das Kinderzimmer)",
+    "pronunciation": {
+      "respelling": "KIN-der-tsi-mer",
+      "ipa": "ˈkɪndɐˌtsɪmɐ",
+      "notes": "The plural looks the same. Plural: die Kinderzimmer."
+    },
+    "meaning": "children's room, nursery",
+    "shortDefinition": "Children's room, nursery."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Kinder",
+        "meaning": "children"
+      },
+      {
+        "part": "zimmer",
+        "meaning": "room"
+      }
+    ],
+    "literalMeaning": "children room"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Kinderzimmer, plural die Kinderzimmer.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Kinderzimmer"
+        },
+        {
+          "label": "More than one",
+          "value": "die Kinderzimmer"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das Kinderzimmer ist sehr unordentlich.",
+      "english": "The kids' room is really messy.",
+      "highlight": [
+        "Kinderzimmer"
+      ]
+    },
+    {
+      "german": "Die Kinder spielen im Kinderzimmer.",
+      "english": "The children are playing in their room.",
+      "highlight": [
+        "Kinderzimmer."
+      ]
+    },
+    {
+      "german": "Wir streichen das Kinderzimmer blau.",
+      "english": "We're painting the nursery blue.",
+      "highlight": [
+        "Kinderzimmer"
+      ]
+    }
+  ],
+  "forms": [
+    "Zimmer"
+  ],
+  "memoryHook": "Kinder + Zimmer; also Schlafzimmer, Wohnzimmer.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Kinderzimmer",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Kinderzimmer is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Kinderzimmer, zwei ___",
+      "answer": "Kinderzimmer",
+      "fullAnswer": "ein Kinderzimmer, zwei Kinderzimmer",
+      "explanation": "The plural is Kinderzimmer.",
+      "acceptedAnswers": [
+        "Kinderzimmer"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Kinderzimmer mean?",
+      "options": [
+        "the weather",
+        "children's room",
+        "to buy"
+      ],
+      "answer": "children's room",
+      "explanation": "Kinderzimmer: children's room, nursery.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Kinder + Zimmer",
+        "Kind + Erzimmer"
+      ],
+      "answer": "Kinder + Zimmer",
+      "explanation": "Compound.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Kinderzimmer",
+        "Kinderzimmern"
+      ],
+      "answer": "Kinderzimmer",
+      "explanation": "No change.",
+      "id": "q5"
+    }
+  ]
+}

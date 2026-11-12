@@ -1,0 +1,171 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "hungern",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "HUNG-ern",
+      "ipa": "ˈhʊŋɐn",
+      "notes": ""
+    },
+    "meaning": "to go hungry, starve; to diet hard",
+    "shortDefinition": "To go hungry, starve; to diet hard."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "hunger|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "hunger|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "hunger|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "hunger|n"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "hunger|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "hunger|n"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gehungert"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Viele Menschen hungern.",
+      "english": "Many people are going hungry.",
+      "highlight": [
+        "hungern."
+      ]
+    },
+    {
+      "german": "Sie hungert für ihre Figur.",
+      "english": "She starves herself for her figure.",
+      "highlight": [
+        "hungert"
+      ]
+    },
+    {
+      "german": "Im Krieg haben sie gehungert.",
+      "english": "In the war they went hungry.",
+      "highlight": [
+        "gehungert."
+      ]
+    }
+  ],
+  "forms": [
+    "hungere",
+    "hungerst",
+    "hungert",
+    "hungern",
+    "gehungert",
+    "Hunger",
+    "verhungern"
+  ],
+  "memoryHook": "Hunger → hungern; verhungern.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (hungern)",
+      "answer": "hungert",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: hungert.",
+      "acceptedAnswers": [
+        "hungert"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (hungern, past)",
+      "answer": "gehungert",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gehungert.",
+      "acceptedAnswers": [
+        "gehungert"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does hungern mean?",
+      "options": [
+        "expensive",
+        "to go hungry",
+        "slowly"
+      ],
+      "answer": "to go hungry",
+      "explanation": "hungern: to go hungry, starve; to diet hard.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Noun:",
+      "options": [
+        "der Hunger",
+        "die Hungerung"
+      ],
+      "answer": "der Hunger",
+      "explanation": "Hunger.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Starve to death:",
+      "options": [
+        "verhungern",
+        "hungern only"
+      ],
+      "answer": "verhungern",
+      "explanation": "Ver- = to the end.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Hunger strike:",
+      "options": [
+        "der Hungerstreik",
+        "der Hungerkampf"
+      ],
+      "answer": "der Hungerstreik",
+      "explanation": "Compound.",
+      "id": "q6"
+    }
+  ]
+}

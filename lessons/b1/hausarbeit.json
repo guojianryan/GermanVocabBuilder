@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Hausarbeit",
+    "partOfSpeech": "noun, feminine (die Hausarbeit)",
+    "pronunciation": {
+      "respelling": "HOWS-ar-bite",
+      "ipa": "ˈhaʊ̯sˌʔaʁbaɪ̯t",
+      "notes": "Plural: die Hausarbeiten."
+    },
+    "meaning": "housework; term paper",
+    "shortDefinition": "Housework; term paper."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Haus",
+        "meaning": "house"
+      },
+      {
+        "part": "arbeit",
+        "meaning": "work"
+      }
+    ],
+    "literalMeaning": "house work"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Hausarbeit, plural die Hausarbeiten.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Hausarbeit"
+        },
+        {
+          "label": "More than one",
+          "value": "die Hausarbeiten"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir teilen uns die Hausarbeit.",
+      "english": "We share the housework.",
+      "highlight": [
+        "Hausarbeit."
+      ]
+    },
+    {
+      "german": "Ich muss eine Hausarbeit schreiben.",
+      "english": "I have to write a term paper.",
+      "highlight": [
+        "Hausarbeit"
+      ]
+    },
+    {
+      "german": "Hausarbeit macht keinen Spaß.",
+      "english": "Housework isn't fun.",
+      "highlight": [
+        "Hausarbeit"
+      ]
+    }
+  ],
+  "forms": [
+    "Hausaufgabe",
+    "Haushalt"
+  ],
+  "memoryHook": "Haus + Arbeit = housework; (uni) term paper ≠ Hausaufgaben.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Hausarbeit",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Hausarbeit is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Hausarbeit, zwei ___",
+      "answer": "Hausarbeiten",
+      "fullAnswer": "ein Hausarbeit, zwei Hausarbeiten",
+      "explanation": "The plural is Hausarbeiten.",
+      "acceptedAnswers": [
+        "Hausarbeiten"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Hausarbeit mean?",
+      "options": [
+        "to open",
+        "always",
+        "housework"
+      ],
+      "answer": "housework",
+      "explanation": "Hausarbeit: housework; term paper.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "At university 'Hausarbeit' means…",
+      "options": [
+        "a written term paper",
+        "homework for kids"
+      ],
+      "answer": "a written term paper",
+      "explanation": "Seminar paper.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Household chores:",
+      "options": [
+        "die Hausarbeit",
+        "die Hausaufgabe"
+      ],
+      "answer": "die Hausarbeit",
+      "explanation": "Cleaning etc.",
+      "id": "q5"
+    }
+  ]
+}

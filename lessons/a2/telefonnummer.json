@@ -1,0 +1,148 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Telefonnummer",
+    "partOfSpeech": "noun, feminine (die Telefonnummer)",
+    "pronunciation": {
+      "respelling": "te-le-FOHN-noo-mer",
+      "ipa": "teleˈfoːnˌnʊmɐ",
+      "notes": "Plural: die Telefonnummern."
+    },
+    "meaning": "phone number",
+    "shortDefinition": "Phone number."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Telefon",
+        "meaning": "telephone"
+      },
+      {
+        "part": "nummer",
+        "meaning": "number"
+      }
+    ],
+    "literalMeaning": "telephone number"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Telefonnummer, plural die Telefonnummern.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Telefonnummer"
+        },
+        {
+          "label": "More than one",
+          "value": "die Telefonnummern"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wie ist deine Telefonnummer?",
+      "english": "What's your phone number?",
+      "highlight": [
+        "Telefonnummer?"
+      ]
+    },
+    {
+      "german": "Ich gebe dir meine Telefonnummer.",
+      "english": "I'll give you my phone number.",
+      "highlight": [
+        "Telefonnummer."
+      ]
+    },
+    {
+      "german": "Die Telefonnummer stimmt nicht.",
+      "english": "The phone number is wrong.",
+      "highlight": [
+        "Telefonnummer"
+      ]
+    }
+  ],
+  "forms": [
+    "Handynummer",
+    "Nummer"
+  ],
+  "memoryHook": "Telefon + Nummer = phone number; Handynummer.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Telefonnummer",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Telefonnummer is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Telefonnummer, zwei ___",
+      "answer": "Telefonnummern",
+      "fullAnswer": "ein Telefonnummer, zwei Telefonnummern",
+      "explanation": "The plural is Telefonnummern.",
+      "acceptedAnswers": [
+        "Telefonnummern"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Telefonnummer mean?",
+      "options": [
+        "phone number",
+        "the window",
+        "the family"
+      ],
+      "answer": "phone number",
+      "explanation": "Telefonnummer: phone number.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Telefon + Nummer",
+        "Tele + Fonnummer"
+      ],
+      "answer": "Telefon + Nummer",
+      "explanation": "Compound.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Mobile number:",
+      "options": [
+        "die Handynummer",
+        "die Mobilenummer"
+      ],
+      "answer": "die Handynummer",
+      "explanation": "Everyday.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gender comes from…",
+      "options": [
+        "die Nummer (last part)",
+        "das Telefon"
+      ],
+      "answer": "die Nummer (last part)",
+      "explanation": "Last part decides.",
+      "id": "q6"
+    }
+  ]
+}

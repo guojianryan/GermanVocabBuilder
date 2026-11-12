@@ -76,7 +76,7 @@ private struct PracticeModeCard: View {
                 VStack(alignment: .leading, spacing: 8) {
                     Text(mode.rawValue).font(.system(.title3, design: .serif).weight(.semibold))
                         .foregroundStyle(theme.ink)
-                    Text(isFlashcards ? "Recall the meaning, then reveal it. Go at your own pace." : "Choose or write an answer, then see why it works.")
+                    Text(isFlashcards ? "Recall the meaning, then reveal it. Go at your own pace." : "One random question per word. Answer, then see why it works.")
                         .font(.subheadline).foregroundStyle(theme.muted)
                         .fixedSize(horizontal: false, vertical: true)
                     HStack(spacing: 6) {
@@ -91,7 +91,7 @@ private struct PracticeModeCard: View {
                 .contentShape(RoundedRectangle(cornerRadius: 22))
         }.buttonStyle(PracticeCardButtonStyle())
             .accessibilityLabel(isFlashcards ? "Start flashcards" : "Start lesson quiz")
-            .accessibilityHint(isFlashcards ? "Recall meanings from your saved words." : "Answer questions from your saved lessons.")
+            .accessibilityHint(isFlashcards ? "Recall meanings from your saved words." : "Answer one random question per saved word.")
             .accessibilityIdentifier(isFlashcards ? "startFlashcards" : "startLessonQuiz")
     }
 }
@@ -341,8 +341,10 @@ struct PracticeSession: View {
                         }.buttonStyle(.plain).disabled(revealed)
                     }
                 } else if q.type == "fill-in-the-blank" {
-                    TextField("Your answer", text: $input).textInputAutocapitalization(.never).autocorrectionDisabled().padding(18)
-                        .background(theme.ink.opacity(0.04), in: RoundedRectangle(cornerRadius: 15)).disabled(revealed).onSubmit { if !input.trimmingCharacters(in: .whitespaces).isEmpty { check(q) } }
+                    GermanTextField(text: $input, placeholder: "Your answer", returnKey: .go, submit: {
+                        if !input.trimmingCharacters(in: .whitespaces).isEmpty { check(q) }
+                    }).padding(18)
+                        .background(theme.ink.opacity(0.04), in: RoundedRectangle(cornerRadius: 15)).disabled(revealed)
                     if !revealed { PrimaryButton(title: "Check answer", icon: "checkmark") { check(q) }.disabled(input.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty) }
                 } else if !revealed {
                     Text("Say your answer, then compare it with the examples.").font(.subheadline).foregroundStyle(theme.muted)

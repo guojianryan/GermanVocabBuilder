@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Spargel",
+    "partOfSpeech": "noun, masculine (der Spargel)",
+    "pronunciation": {
+      "respelling": "SHPAR-gel",
+      "ipa": "ˈʃpaʁɡl̩",
+      "notes": "The plural looks the same. Plural: die Spargel."
+    },
+    "meaning": "asparagus",
+    "shortDefinition": "Asparagus."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Spargel, plural die Spargel.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Spargel"
+        },
+        {
+          "label": "More than one",
+          "value": "die Spargel"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Im Mai ist Spargelzeit.",
+      "english": "May is asparagus season.",
+      "highlight": [
+        "Spargelzeit."
+      ]
+    },
+    {
+      "german": "Weißer Spargel mit Kartoffeln.",
+      "english": "White asparagus with potatoes.",
+      "highlight": [
+        "Spargel"
+      ]
+    },
+    {
+      "german": "Ein Kilo Spargel, bitte.",
+      "english": "A kilo of asparagus, please.",
+      "highlight": [
+        "Spargel,"
+      ]
+    }
+  ],
+  "forms": [
+    "Spargel",
+    "die Spargel",
+    "der Spargel"
+  ],
+  "memoryHook": "Der Spargel; Spargelzeit (April–June).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Spargel",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Spargel is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Spargel, zwei ___",
+      "answer": "Spargel",
+      "fullAnswer": "ein Spargel, zwei Spargel",
+      "explanation": "The plural is Spargel.",
+      "acceptedAnswers": [
+        "Spargel"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Spargel mean?",
+      "options": [
+        "quiet",
+        "asparagus",
+        "the family"
+      ],
+      "answer": "asparagus",
+      "explanation": "Spargel: asparagus.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "In Germany, typical asparagus is…",
+      "options": [
+        "white",
+        "purple"
+      ],
+      "answer": "white",
+      "explanation": "Weißer Spargel.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Asparagus season:",
+      "options": [
+        "die Spargelzeit",
+        "die Spargelsaison only"
+      ],
+      "answer": "die Spargelzeit",
+      "explanation": "Spring.",
+      "id": "q5"
+    }
+  ]
+}

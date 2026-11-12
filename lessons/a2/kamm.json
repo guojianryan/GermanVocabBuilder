@@ -1,0 +1,134 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Kamm",
+    "partOfSpeech": "noun, masculine (der Kamm)",
+    "pronunciation": {
+      "respelling": "KAM",
+      "ipa": "kam",
+      "notes": "Plural: die Kämme."
+    },
+    "meaning": "comb",
+    "shortDefinition": "Comb."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Kamm, plural die Kämme.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Kamm"
+        },
+        {
+          "label": "More than one",
+          "value": "die Kämme"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Hast du einen Kamm?",
+      "english": "Have you got a comb?",
+      "highlight": [
+        "Kamm?"
+      ]
+    },
+    {
+      "german": "Er fährt sich mit dem Kamm durchs Haar.",
+      "english": "He runs the comb through his hair.",
+      "highlight": [
+        "Kamm"
+      ]
+    },
+    {
+      "german": "Alles über einen Kamm scheren.",
+      "english": "To lump everything together.",
+      "highlight": [
+        "Kamm"
+      ]
+    }
+  ],
+  "forms": [
+    "kämmen",
+    "Bürste"
+  ],
+  "memoryHook": "Der Kamm → kämmen; Bürste = brush.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Kamm",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Kamm is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Kamm, zwei ___",
+      "answer": "Kämme",
+      "fullAnswer": "ein Kamm, zwei Kämme",
+      "explanation": "The plural is Kämme.",
+      "acceptedAnswers": [
+        "Kaemme"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Kamm mean?",
+      "options": [
+        "comb",
+        "the flower",
+        "the family"
+      ],
+      "answer": "comb",
+      "explanation": "Kamm: comb.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Verb:",
+      "options": [
+        "kämmen",
+        "kammen"
+      ],
+      "answer": "kämmen",
+      "explanation": "To comb.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Alle über einen Kamm scheren' means…",
+      "options": [
+        "to treat everyone the same / lump together",
+        "to cut everyone's hair"
+      ],
+      "answer": "to treat everyone the same / lump together",
+      "explanation": "Idiom.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Kämme",
+        "Kamme"
+      ],
+      "answer": "Kämme",
+      "explanation": "Umlaut.",
+      "id": "q6"
+    }
+  ]
+}

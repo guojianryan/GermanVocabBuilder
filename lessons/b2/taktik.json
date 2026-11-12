@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Taktik",
+    "partOfSpeech": "noun, feminine (die Taktik)",
+    "pronunciation": {
+      "respelling": "TAK-tik",
+      "ipa": "ˈtaktɪk",
+      "notes": "Plural: die Taktiken."
+    },
+    "meaning": "tactic(s)",
+    "shortDefinition": "Tactic(s)."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Taktik, plural die Taktiken.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Taktik"
+        },
+        {
+          "label": "More than one",
+          "value": "die Taktiken"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das ist eine clevere Taktik.",
+      "english": "That's a clever tactic.",
+      "highlight": [
+        "Taktik."
+      ]
+    },
+    {
+      "german": "Der Trainer ändert die Taktik.",
+      "english": "The coach changes tactics.",
+      "highlight": [
+        "Taktik."
+      ]
+    },
+    {
+      "german": "Er verfolgt eine Taktik der kleinen Schritte.",
+      "english": "He's taking a softly-softly approach.",
+      "highlight": [
+        "Taktik"
+      ]
+    }
+  ],
+  "forms": [
+    "taktisch",
+    "Strategie"
+  ],
+  "memoryHook": "Die Taktik; taktisch; Strategie.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Taktik",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Taktik is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Taktik, zwei ___",
+      "answer": "Taktiken",
+      "fullAnswer": "ein Taktik, zwei Taktiken",
+      "explanation": "The plural is Taktiken.",
+      "acceptedAnswers": [
+        "Taktiken"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Taktik mean?",
+      "options": [
+        "the car",
+        "tactic(s)",
+        "the family"
+      ],
+      "answer": "tactic(s)",
+      "explanation": "Taktik: tactic(s).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Adjective:",
+      "options": [
+        "taktisch",
+        "taktikisch"
+      ],
+      "answer": "taktisch",
+      "explanation": "Tactical.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Taktik vs Strategie:",
+      "options": [
+        "short-term moves vs overall plan",
+        "same"
+      ],
+      "answer": "short-term moves vs overall plan",
+      "explanation": "Nuance.",
+      "id": "q5"
+    }
+  ]
+}

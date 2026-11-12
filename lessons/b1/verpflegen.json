@@ -1,168 +1,172 @@
 {
- "schemaVersion": "1.4",
- "language": "de",
- "explanationLanguage": "en",
- "level": "B1",
- "levelSource": "Goethe-Zertifikat B1 Wortliste",
- "lessonType": "card",
- "word": {
-  "headword": "verpflegen",
-  "partOfSpeech": "verb",
-  "pronunciation": {
-   "respelling": "fer-PFLAY-gen",
-   "ipa": "fɛɐ̯ˈpfleːɡn̩",
-   "notes": ""
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "verpflegen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "fer-PFLAY-gen",
+      "ipa": "fɛɐ̯ˈpfleːɡn̩",
+      "notes": ""
+    },
+    "meaning": "to cater for, feed",
+    "shortDefinition": "To cater for, feed."
   },
-  "meaning": "to cater for, feed",
-  "shortDefinition": "To cater for, feed."
- },
- "tables": [
-  {
-   "title": "Present tense",
-   "columns": [
-    "present"
-   ],
-   "rows": [
+  "tables": [
     {
-     "label": "ich",
-     "cells": [
-      "verpfleg|e"
-     ]
-    },
-    {
-     "label": "du",
-     "cells": [
-      "verpfleg|st"
-     ]
-    },
-    {
-     "label": "er, sie, es",
-     "cells": [
-      "verpfleg|t"
-     ]
-    },
-    {
-     "label": "wir",
-     "cells": [
-      "verpfleg|en"
-     ]
-    },
-    {
-     "label": "ihr",
-     "cells": [
-      "verpfleg|t"
-     ]
-    },
-    {
-     "label": "sie, Sie",
-     "cells": [
-      "verpfleg|en"
-     ]
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "verpfleg|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "verpfleg|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "verpfleg|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "verpfleg|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "verpfleg|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "verpfleg|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat verpflegt"
+      ]
     }
-   ],
-   "notes": [
-    "Past (Perfekt): hat verpflegt"
-   ]
-  }
- ],
- "sampleSentences": [
-  {
-   "german": "Die Teilnehmer werden gut verpflegt.",
-   "english": "Participants are well catered for.",
-   "highlight": [
-    "verpflegt."
-   ]
-  },
-  {
-   "german": "Wer verpflegt die Gruppe?",
-   "english": "Who's feeding the group?",
-   "highlight": [
-    "verpflegt"
-   ]
-  },
-  {
-   "german": "Vollpension: Sie werden ganztags verpflegt.",
-   "english": "Full board: you're fed all day.",
-   "highlight": [
-    "verpflegt."
-   ]
-  }
- ],
- "forms": [
-  "Verpflegung"
- ],
- "memoryHook": "Verpflegen → die Verpflegung (food, board).",
- "signOff": "Gut gemacht!",
- "quiz": [
-  {
-   "type": "fill-in-the-blank",
-   "prompt": "er ___ (verpflegen)",
-   "answer": "verpflegt",
-   "fullAnswer": "",
-   "explanation": "For er, sie, es: verpflegt.",
-   "acceptedAnswers": [
-    "verpflegt"
-   ],
-   "id": "q1"
-  },
-  {
-   "type": "fill-in-the-blank",
-   "prompt": "Ich habe schon ___. (verpflegen, past)",
-   "answer": "verpflegt",
-   "fullAnswer": "",
-   "explanation": "Perfekt: habe verpflegt.",
-   "acceptedAnswers": [
-    "verpflegt"
-   ],
-   "id": "q2"
-  },
-  {
-   "type": "choice",
-   "prompt": "What does verpflegen mean?",
-   "options": [
-    "to cater for",
-    "the flower",
-    "the key"
-   ],
-   "answer": "to cater for",
-   "explanation": "verpflegen: to cater for, feed.",
-   "id": "q3"
-  },
-  {
-   "type": "choice",
-   "prompt": "Noun:",
-   "options": [
-    "die Verpflegung",
-    "die Verpflege"
-   ],
-   "answer": "die Verpflegung",
-   "explanation": "Catering, board.",
-   "id": "q4"
-  },
-  {
-   "type": "choice",
-   "prompt": "Register:",
-   "options": [
-    "formal (hotels, trips)",
-    "slang"
-   ],
-   "answer": "formal (hotels, trips)",
-   "explanation": "Formal.",
-   "id": "q5"
-  }
- ],
- "etymology": {
-  "title": "Where it comes from",
-  "parts": [
-   {
-    "part": "ver",
-    "meaning": "prefix (change, away)"
-   },
-   {
-    "part": "pflegen",
-    "meaning": "to care"
-   }
   ],
-  "literalMeaning": "to care for"
- }
+  "sampleSentences": [
+    {
+      "german": "Die Teilnehmer werden gut verpflegt.",
+      "english": "Participants are well catered for.",
+      "highlight": [
+        "verpflegt."
+      ]
+    },
+    {
+      "german": "Wer verpflegt die Gruppe?",
+      "english": "Who's feeding the group?",
+      "highlight": [
+        "verpflegt"
+      ]
+    },
+    {
+      "german": "Vollpension: Sie werden ganztags verpflegt.",
+      "english": "Full board: you're fed all day.",
+      "highlight": [
+        "verpflegt."
+      ]
+    }
+  ],
+  "forms": [
+    "verpflege",
+    "verpflegst",
+    "verpflegt",
+    "verpflegen",
+    "Verpflegung"
+  ],
+  "memoryHook": "Verpflegen → die Verpflegung (food, board).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (verpflegen)",
+      "answer": "verpflegt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: verpflegt.",
+      "acceptedAnswers": [
+        "verpflegt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (verpflegen, past)",
+      "answer": "verpflegt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe verpflegt.",
+      "acceptedAnswers": [
+        "verpflegt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does verpflegen mean?",
+      "options": [
+        "to cater for",
+        "the flower",
+        "the key"
+      ],
+      "answer": "to cater for",
+      "explanation": "verpflegen: to cater for, feed.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Noun:",
+      "options": [
+        "die Verpflegung",
+        "die Verpflege"
+      ],
+      "answer": "die Verpflegung",
+      "explanation": "Catering, board.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Register:",
+      "options": [
+        "formal (hotels, trips)",
+        "slang"
+      ],
+      "answer": "formal (hotels, trips)",
+      "explanation": "Formal.",
+      "id": "q5"
+    }
+  ],
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "ver",
+        "meaning": "prefix (change, away)"
+      },
+      {
+        "part": "pflegen",
+        "meaning": "to care"
+      }
+    ],
+    "literalMeaning": "to care for"
+  }
 }

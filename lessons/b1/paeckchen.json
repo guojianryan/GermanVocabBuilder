@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Päckchen",
+    "partOfSpeech": "noun, neuter (das Päckchen)",
+    "pronunciation": {
+      "respelling": "PEK-khen",
+      "ipa": "ˈpɛkçən",
+      "notes": "The plural looks the same. Plural: die Päckchen."
+    },
+    "meaning": "small parcel, packet",
+    "shortDefinition": "Small parcel, packet."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Päck",
+        "meaning": "pack (Paket)"
+      },
+      {
+        "part": "chen",
+        "meaning": "small"
+      }
+    ],
+    "literalMeaning": "little pack"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Päckchen, plural die Päckchen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Päckchen"
+        },
+        {
+          "label": "More than one",
+          "value": "die Päckchen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich habe ein Päckchen bekommen.",
+      "english": "I've received a small parcel.",
+      "highlight": [
+        "Päckchen"
+      ]
+    },
+    {
+      "german": "Ein Päckchen Zigaretten.",
+      "english": "A packet of cigarettes.",
+      "highlight": [
+        "Päckchen"
+      ]
+    },
+    {
+      "german": "Jeder hat sein Päckchen zu tragen.",
+      "english": "Everyone has their cross to bear.",
+      "highlight": [
+        "Päckchen"
+      ]
+    }
+  ],
+  "forms": [
+    "Paket"
+  ],
+  "memoryHook": "Paket → das Päckchen (small parcel).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Päckchen",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Päckchen is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Päckchen, zwei ___",
+      "answer": "Päckchen",
+      "fullAnswer": "ein Päckchen, zwei Päckchen",
+      "explanation": "The plural is Päckchen.",
+      "acceptedAnswers": [
+        "Paeckchen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Päckchen mean?",
+      "options": [
+        "small parcel",
+        "to wait",
+        "the child"
+      ],
+      "answer": "small parcel",
+      "explanation": "Päckchen: small parcel, packet.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "das Paket + -chen",
+        "packen only"
+      ],
+      "answer": "das Paket + -chen",
+      "explanation": "Small parcel.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Post: Päckchen vs Paket:",
+      "options": [
+        "small (cheaper) vs larger parcel",
+        "same"
+      ],
+      "answer": "small (cheaper) vs larger parcel",
+      "explanation": "Postage.",
+      "id": "q5"
+    }
+  ]
+}

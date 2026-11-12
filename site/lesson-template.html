@@ -251,7 +251,7 @@ td .lit { color: var(--muted); font-style: italic; }
       <button type="button" class="btn" id="toggle-json" aria-expanded="false" aria-controls="json-view">Show JSON</button>
     </div>
   </div>
-  <div id="finder" class="finder" hidden><label for="find">Find a word</label><input id="find" type="search" autocomplete="off" spellcheck="false" placeholder="e.g. fährt, Wohnung, mit"><span id="find-count"></span></div>
+  <div id="finder" class="finder" hidden><label for="find">Find a word</label><input id="find" lang="de" type="search" autocomplete="off" spellcheck="false" placeholder="e.g. fährt, Wohnung, mit"><span id="find-count"></span></div>
   <nav id="picker" class="picker" aria-label="Lessons" hidden></nav>
   <div id="error" class="error" role="alert" hidden></div>
   <pre id="json-view" class="panel" hidden></pre>
@@ -575,7 +575,7 @@ td .lit { color: var(--muted); font-style: italic; }
             body.appendChild(opts);
             body.appendChild(cfb);
           } else if (q.type === "fill-in-the-blank") {
-            var input = h("input", { id: id + "-input", type: "text", autocomplete: "off", spellcheck: "false", "aria-label": "Your answer" });
+            var input = h("input", { id: id + "-input", lang: "de", autocapitalize: "none", type: "text", autocomplete: "off", spellcheck: "false", "aria-label": "Your answer" });
             var fb = h("p", { class: "feedback", "aria-live": "polite" });
             var check = function () {
               if (!input.value.trim()) { fb.className = "feedback bad"; fb.textContent = "Type the missing ending first."; return; }

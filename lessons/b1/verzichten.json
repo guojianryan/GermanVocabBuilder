@@ -1,171 +1,175 @@
 {
- "schemaVersion": "1.4",
- "language": "de",
- "explanationLanguage": "en",
- "level": "B1",
- "levelSource": "Goethe-Zertifikat B1 Wortliste",
- "lessonType": "card",
- "word": {
-  "headword": "verzichten",
-  "partOfSpeech": "verb",
-  "pronunciation": {
-   "respelling": "fer-TSIKH-ten",
-   "ipa": "fɛɐ̯ˈtsɪçtn̩",
-   "notes": ""
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "verzichten",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "fer-TSIKH-ten",
+      "ipa": "fɛɐ̯ˈtsɪçtn̩",
+      "notes": ""
+    },
+    "meaning": "to do without, give up",
+    "shortDefinition": "To do without, give up."
   },
-  "meaning": "to do without, give up",
-  "shortDefinition": "To do without, give up."
- },
- "tables": [
-  {
-   "title": "Present tense",
-   "columns": [
-    "present"
-   ],
-   "rows": [
+  "tables": [
     {
-     "label": "ich",
-     "cells": [
-      "verzicht|e"
-     ]
-    },
-    {
-     "label": "du",
-     "cells": [
-      "verzicht|est"
-     ]
-    },
-    {
-     "label": "er, sie, es",
-     "cells": [
-      "verzicht|et"
-     ]
-    },
-    {
-     "label": "wir",
-     "cells": [
-      "verzicht|en"
-     ]
-    },
-    {
-     "label": "ihr",
-     "cells": [
-      "verzicht|et"
-     ]
-    },
-    {
-     "label": "sie, Sie",
-     "cells": [
-      "verzicht|en"
-     ]
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "verzicht|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "verzicht|est"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "verzicht|et"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "verzicht|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "verzicht|et"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "verzicht|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat verzichtet"
+      ]
     }
-   ],
-   "notes": [
-    "Past (Perfekt): hat verzichtet"
-   ]
-  }
- ],
- "sampleSentences": [
-  {
-   "german": "Ich verzichte auf Zucker.",
-   "english": "I'm giving up sugar.",
-   "highlight": [
-    "verzichte",
-    "auf"
-   ]
-  },
-  {
-   "german": "Er hat auf seinen Urlaub verzichtet.",
-   "english": "He did without his holiday.",
-   "highlight": [
-    "auf",
-    "verzichtet."
-   ]
-  },
-  {
-   "german": "Darauf kann ich verzichten!",
-   "english": "I can do without that!",
-   "highlight": [
-    "Darauf",
-    "verzichten!"
-   ]
-  }
- ],
- "forms": [
-  "Verzicht"
- ],
- "memoryHook": "Verzichten auf = do without.",
- "signOff": "Gut gemacht!",
- "quiz": [
-  {
-   "type": "fill-in-the-blank",
-   "prompt": "er ___ (verzichten)",
-   "answer": "verzichtet",
-   "fullAnswer": "",
-   "explanation": "For er, sie, es: verzichtet.",
-   "acceptedAnswers": [
-    "verzichtet"
-   ],
-   "id": "q1"
-  },
-  {
-   "type": "fill-in-the-blank",
-   "prompt": "Ich habe schon ___. (verzichten, past)",
-   "answer": "verzichtet",
-   "fullAnswer": "",
-   "explanation": "Perfekt: habe verzichtet.",
-   "acceptedAnswers": [
-    "verzichtet"
-   ],
-   "id": "q2"
-  },
-  {
-   "type": "choice",
-   "prompt": "What does verzichten mean?",
-   "options": [
-    "the weather",
-    "the child",
-    "to do without"
-   ],
-   "answer": "to do without",
-   "explanation": "verzichten: to do without, give up.",
-   "id": "q3"
-  },
-  {
-   "type": "choice",
-   "prompt": "Preposition:",
-   "options": [
-    "verzichten auf (+ Akk)",
-    "verzichten von"
-   ],
-   "answer": "verzichten auf (+ Akk)",
-   "explanation": "Auf.",
-   "id": "q4"
-  },
-  {
-   "type": "choice",
-   "prompt": "Noun:",
-   "options": [
-    "der Verzicht",
-    "die Verzichtung"
-   ],
-   "answer": "der Verzicht",
-   "explanation": "Renunciation.",
-   "id": "q5"
-  }
- ],
- "etymology": {
-  "title": "Where it comes from",
-  "parts": [
-   {
-    "part": "ver",
-    "meaning": "prefix (change, away)"
-   },
-   {
-    "part": "zichten",
-    "meaning": "to accuse (old)"
-   }
   ],
-  "literalMeaning": "to renounce"
- }
+  "sampleSentences": [
+    {
+      "german": "Ich verzichte auf Zucker.",
+      "english": "I'm giving up sugar.",
+      "highlight": [
+        "verzichte",
+        "auf"
+      ]
+    },
+    {
+      "german": "Er hat auf seinen Urlaub verzichtet.",
+      "english": "He did without his holiday.",
+      "highlight": [
+        "auf",
+        "verzichtet."
+      ]
+    },
+    {
+      "german": "Darauf kann ich verzichten!",
+      "english": "I can do without that!",
+      "highlight": [
+        "Darauf",
+        "verzichten!"
+      ]
+    }
+  ],
+  "forms": [
+    "verzichte",
+    "verzichtest",
+    "verzichtet",
+    "verzichten",
+    "Verzicht"
+  ],
+  "memoryHook": "Verzichten auf = do without.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (verzichten)",
+      "answer": "verzichtet",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: verzichtet.",
+      "acceptedAnswers": [
+        "verzichtet"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (verzichten, past)",
+      "answer": "verzichtet",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe verzichtet.",
+      "acceptedAnswers": [
+        "verzichtet"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does verzichten mean?",
+      "options": [
+        "the weather",
+        "the child",
+        "to do without"
+      ],
+      "answer": "to do without",
+      "explanation": "verzichten: to do without, give up.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Preposition:",
+      "options": [
+        "verzichten auf (+ Akk)",
+        "verzichten von"
+      ],
+      "answer": "verzichten auf (+ Akk)",
+      "explanation": "Auf.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Noun:",
+      "options": [
+        "der Verzicht",
+        "die Verzichtung"
+      ],
+      "answer": "der Verzicht",
+      "explanation": "Renunciation.",
+      "id": "q5"
+    }
+  ],
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "ver",
+        "meaning": "prefix (change, away)"
+      },
+      {
+        "part": "zichten",
+        "meaning": "to accuse (old)"
+      }
+    ],
+    "literalMeaning": "to renounce"
+  }
 }

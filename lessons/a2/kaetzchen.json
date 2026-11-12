@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Kätzchen",
+    "partOfSpeech": "noun, neuter (das Kätzchen)",
+    "pronunciation": {
+      "respelling": "KETS-khen",
+      "ipa": "ˈkɛtsçən",
+      "notes": "The plural looks the same. Plural: die Kätzchen."
+    },
+    "meaning": "kitten; catkin",
+    "shortDefinition": "Kitten; catkin."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Kätz",
+        "meaning": "cat (Katze)"
+      },
+      {
+        "part": "chen",
+        "meaning": "small"
+      }
+    ],
+    "literalMeaning": "little cat"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Kätzchen, plural die Kätzchen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Kätzchen"
+        },
+        {
+          "label": "More than one",
+          "value": "die Kätzchen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Katze hat vier Kätzchen.",
+      "english": "The cat has four kittens.",
+      "highlight": [
+        "Kätzchen."
+      ]
+    },
+    {
+      "german": "Was für ein süßes Kätzchen!",
+      "english": "What a sweet kitten!",
+      "highlight": [
+        "Kätzchen!"
+      ]
+    },
+    {
+      "german": "Die Weide hat Kätzchen.",
+      "english": "The willow has catkins.",
+      "highlight": [
+        "Kätzchen."
+      ]
+    }
+  ],
+  "forms": [
+    "Katze"
+  ],
+  "memoryHook": "Die Katze → das Kätzchen.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Kätzchen",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Kätzchen is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Kätzchen, zwei ___",
+      "answer": "Kätzchen",
+      "fullAnswer": "ein Kätzchen, zwei Kätzchen",
+      "explanation": "The plural is Kätzchen.",
+      "acceptedAnswers": [
+        "Kaetzchen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Kätzchen mean?",
+      "options": [
+        "the window",
+        "kitten",
+        "the family"
+      ],
+      "answer": "kitten",
+      "explanation": "Kätzchen: kitten; catkin.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "die Katze + -chen",
+        "die Kette"
+      ],
+      "answer": "die Katze + -chen",
+      "explanation": "Small cat.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gender:",
+      "options": [
+        "das",
+        "die"
+      ],
+      "answer": "das",
+      "explanation": "-chen.",
+      "id": "q5"
+    }
+  ]
+}

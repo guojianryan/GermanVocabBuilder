@@ -1,0 +1,150 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Obergeschoss",
+    "partOfSpeech": "noun, neuter (das Obergeschoss)",
+    "pronunciation": {
+      "respelling": "OH-ber-ge-shos",
+      "ipa": "ˈoːbɐɡəˌʃɔs",
+      "notes": "Plural: die Obergeschosse."
+    },
+    "meaning": "upper floor",
+    "shortDefinition": "Upper floor."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Ober",
+        "meaning": "upper",
+        "emphasis": "rise"
+      },
+      {
+        "part": "geschoss",
+        "meaning": "storey"
+      }
+    ],
+    "literalMeaning": "upper storey",
+    "summary": "Up a level."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Obergeschoss, plural die Obergeschosse.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Obergeschoss"
+        },
+        {
+          "label": "More than one",
+          "value": "die Obergeschosse"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das Bad ist im Obergeschoss.",
+      "english": "The bathroom is on the upper floor.",
+      "highlight": [
+        "Obergeschoss."
+      ]
+    },
+    {
+      "german": "Im ersten Obergeschoss.",
+      "english": "On the first floor.",
+      "highlight": [
+        "Obergeschoss."
+      ]
+    },
+    {
+      "german": "Das Obergeschoss wird vermietet.",
+      "english": "The upper floor is being let.",
+      "highlight": [
+        "Obergeschoss"
+      ]
+    }
+  ],
+  "forms": [
+    "Erdgeschoss",
+    "Stock"
+  ],
+  "memoryHook": "Ober + Geschoss (OG) ↔ Erdgeschoss (EG), Untergeschoss (UG).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Obergeschoss",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Obergeschoss is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Obergeschoss, zwei ___",
+      "answer": "Obergeschosse",
+      "fullAnswer": "ein Obergeschoss, zwei Obergeschosse",
+      "explanation": "The plural is Obergeschosse.",
+      "acceptedAnswers": [
+        "Obergeschosse"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Obergeschoss mean?",
+      "options": [
+        "to sing",
+        "upper floor",
+        "the window"
+      ],
+      "answer": "upper floor",
+      "explanation": "Obergeschoss: upper floor.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ground floor:",
+      "options": [
+        "das Erdgeschoss (EG)",
+        "das Untergeschoss"
+      ],
+      "answer": "das Erdgeschoss (EG)",
+      "explanation": "Ground.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Basement:",
+      "options": [
+        "das Untergeschoss / der Keller",
+        "das Obergeschoss"
+      ],
+      "answer": "das Untergeschoss / der Keller",
+      "explanation": "Below.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Abbreviation:",
+      "options": [
+        "OG",
+        "OGS"
+      ],
+      "answer": "OG",
+      "explanation": "Signs.",
+      "id": "q6"
+    }
+  ]
+}

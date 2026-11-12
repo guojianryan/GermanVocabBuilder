@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Erdbeere",
+    "partOfSpeech": "noun, feminine (die Erdbeere)",
+    "pronunciation": {
+      "respelling": "AYRT-bay-re",
+      "ipa": "ˈeːɐ̯tˌbeːʁə",
+      "notes": "Plural: die Erdbeeren."
+    },
+    "meaning": "strawberry",
+    "shortDefinition": "Strawberry."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Erd",
+        "meaning": "earth, ground"
+      },
+      {
+        "part": "beere",
+        "meaning": "berry"
+      }
+    ],
+    "literalMeaning": "ground berry"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Erdbeere, plural die Erdbeeren.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Erdbeere"
+        },
+        {
+          "label": "More than one",
+          "value": "die Erdbeeren"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Erdbeeren mit Sahne.",
+      "english": "Strawberries and cream.",
+      "highlight": [
+        "Erdbeeren"
+      ]
+    },
+    {
+      "german": "Ein Erdbeerkuchen.",
+      "english": "A strawberry cake.",
+      "highlight": [
+        "Erdbeerkuchen."
+      ]
+    },
+    {
+      "german": "Wir gehen Erdbeeren pflücken.",
+      "english": "We're going strawberry picking.",
+      "highlight": [
+        "Erdbeeren"
+      ]
+    }
+  ],
+  "forms": [
+    "Beere"
+  ],
+  "memoryHook": "Erde + Beere = strawberry.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Erdbeere",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Erdbeere is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Erdbeere, zwei ___",
+      "answer": "Erdbeeren",
+      "fullAnswer": "ein Erdbeere, zwei Erdbeeren",
+      "explanation": "The plural is Erdbeeren.",
+      "acceptedAnswers": [
+        "Erdbeeren"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Erdbeere mean?",
+      "options": [
+        "the family",
+        "strawberry",
+        "the shop"
+      ],
+      "answer": "strawberry",
+      "explanation": "Erdbeere: strawberry.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Erde + Beere",
+        "Erd + Bär"
+      ],
+      "answer": "Erde + Beere",
+      "explanation": "Ground berry.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Erdbeeren",
+        "Erdbeere"
+      ],
+      "answer": "Erdbeeren",
+      "explanation": "-n.",
+      "id": "q5"
+    }
+  ]
+}

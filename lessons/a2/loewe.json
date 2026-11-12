@@ -1,0 +1,134 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Löwe",
+    "partOfSpeech": "noun, masculine (der Löwe)",
+    "pronunciation": {
+      "respelling": "LÖ-ve",
+      "ipa": "ˈløːvə",
+      "notes": "Plural: die Löwen."
+    },
+    "meaning": "lion; Leo",
+    "shortDefinition": "Lion; Leo."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Löwe, plural die Löwen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Löwe"
+        },
+        {
+          "label": "More than one",
+          "value": "die Löwen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Löwe ist der König der Tiere.",
+      "english": "The lion is the king of the animals.",
+      "highlight": [
+        "Löwe"
+      ]
+    },
+    {
+      "german": "Im Zoo gibt es zwei Löwen.",
+      "english": "There are two lions at the zoo.",
+      "highlight": [
+        "Löwen."
+      ]
+    },
+    {
+      "german": "Ich bin Löwe.",
+      "english": "I'm a Leo.",
+      "highlight": [
+        "Löwe."
+      ]
+    }
+  ],
+  "forms": [
+    "Löwin",
+    "Löwenanteil"
+  ],
+  "memoryHook": "Der Löwe (weak), die Löwin; Löwenanteil.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Löwe",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Löwe is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Löwe, zwei ___",
+      "answer": "Löwen",
+      "fullAnswer": "ein Löwe, zwei Löwen",
+      "explanation": "The plural is Löwen.",
+      "acceptedAnswers": [
+        "Loewen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Löwe mean?",
+      "options": [
+        "expensive",
+        "always",
+        "lion"
+      ],
+      "answer": "lion",
+      "explanation": "Löwe: lion; Leo.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Weak noun: den/dem…",
+      "options": [
+        "Löwen",
+        "Löwe"
+      ],
+      "answer": "Löwen",
+      "explanation": "-n.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Female:",
+      "options": [
+        "die Löwin",
+        "die Löwe"
+      ],
+      "answer": "die Löwin",
+      "explanation": "-in.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Lion's share:",
+      "options": [
+        "der Löwenanteil",
+        "das Löwenstück"
+      ],
+      "answer": "der Löwenanteil",
+      "explanation": "Compound.",
+      "id": "q6"
+    }
+  ]
+}

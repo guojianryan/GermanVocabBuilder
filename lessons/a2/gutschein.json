@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Gutschein",
+    "partOfSpeech": "noun, masculine (der Gutschein)",
+    "pronunciation": {
+      "respelling": "GOOT-shine",
+      "ipa": "ˈɡuːtˌʃaɪ̯n",
+      "notes": "Plural: die Gutscheine."
+    },
+    "meaning": "voucher, gift card",
+    "shortDefinition": "Voucher, gift card."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Gut",
+        "meaning": "credit (zugute)"
+      },
+      {
+        "part": "schein",
+        "meaning": "slip, note"
+      }
+    ],
+    "literalMeaning": "credit note"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Gutschein, plural die Gutscheine.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Gutschein"
+        },
+        {
+          "label": "More than one",
+          "value": "die Gutscheine"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich schenke dir einen Gutschein.",
+      "english": "I'm giving you a voucher.",
+      "highlight": [
+        "Gutschein."
+      ]
+    },
+    {
+      "german": "Der Gutschein ist ein Jahr gültig.",
+      "english": "The voucher is valid for a year.",
+      "highlight": [
+        "Gutschein"
+      ]
+    },
+    {
+      "german": "Kann ich mit Gutschein bezahlen?",
+      "english": "Can I pay with a voucher?",
+      "highlight": [
+        "Gutschein"
+      ]
+    }
+  ],
+  "forms": [
+    "einlösen",
+    "Schein"
+  ],
+  "memoryHook": "Gut + Schein = voucher; einlösen.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Gutschein",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Gutschein is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Gutschein, zwei ___",
+      "answer": "Gutscheine",
+      "fullAnswer": "ein Gutschein, zwei Gutscheine",
+      "explanation": "The plural is Gutscheine.",
+      "acceptedAnswers": [
+        "Gutscheine"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Gutschein mean?",
+      "options": [
+        "the flower",
+        "voucher",
+        "the bed"
+      ],
+      "answer": "voucher",
+      "explanation": "Gutschein: voucher, gift card.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "gut (credit) + Schein (slip)",
+        "gut + scheinen"
+      ],
+      "answer": "gut (credit) + Schein (slip)",
+      "explanation": "Credit slip.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Einen Gutschein einlösen' means…",
+      "options": [
+        "to redeem a voucher",
+        "to buy a voucher"
+      ],
+      "answer": "to redeem a voucher",
+      "explanation": "Use it.",
+      "id": "q5"
+    }
+  ]
+}

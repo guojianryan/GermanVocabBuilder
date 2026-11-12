@@ -1,0 +1,141 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Verwandtschaft",
+    "partOfSpeech": "noun, feminine (die Verwandtschaft)",
+    "pronunciation": {
+      "respelling": "fer-VANT-shaft",
+      "ipa": "fɛɐ̯ˈvantʃaft",
+      "notes": "Plural: die Verwandtschaften."
+    },
+    "meaning": "relatives; relationship",
+    "shortDefinition": "Relatives; relationship."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Ver",
+        "meaning": "prefix"
+      },
+      {
+        "part": "wandt",
+        "meaning": "turned to (wenden)"
+      },
+      {
+        "part": "schaft",
+        "meaning": "-ship"
+      }
+    ],
+    "literalMeaning": "kinship"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Verwandtschaft, plural die Verwandtschaften.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Verwandtschaft"
+        },
+        {
+          "label": "More than one",
+          "value": "die Verwandtschaften"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die ganze Verwandtschaft kommt zu Weihnachten.",
+      "english": "All the relatives are coming at Christmas.",
+      "highlight": [
+        "Verwandtschaft"
+      ]
+    },
+    {
+      "german": "Ich habe eine große Verwandtschaft.",
+      "english": "I have a lot of relatives.",
+      "highlight": [
+        "Verwandtschaft."
+      ]
+    },
+    {
+      "german": "Die Verwandtschaft der Sprachen.",
+      "english": "The relationship between the languages.",
+      "highlight": [
+        "Verwandtschaft"
+      ]
+    }
+  ],
+  "forms": [
+    "verwandt",
+    "Verwandte"
+  ],
+  "memoryHook": "Verwandt → die Verwandtschaft (all relatives).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Verwandtschaft",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Verwandtschaft is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Verwandtschaft, zwei ___",
+      "answer": "Verwandtschaften",
+      "fullAnswer": "ein Verwandtschaft, zwei Verwandtschaften",
+      "explanation": "The plural is Verwandtschaften.",
+      "acceptedAnswers": [
+        "Verwandtschaften"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Verwandtschaft mean?",
+      "options": [
+        "never",
+        "quiet",
+        "relatives"
+      ],
+      "answer": "relatives",
+      "explanation": "Verwandtschaft: relatives; relationship.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "verwandt (related)",
+        "verwenden"
+      ],
+      "answer": "verwandt (related)",
+      "explanation": "Related.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "A relative:",
+      "options": [
+        "der / die Verwandte",
+        "der Verwandt"
+      ],
+      "answer": "der / die Verwandte",
+      "explanation": "Person.",
+      "id": "q5"
+    }
+  ]
+}

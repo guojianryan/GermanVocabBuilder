@@ -1,0 +1,148 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Gasthaus",
+    "partOfSpeech": "noun, neuter (das Gasthaus)",
+    "pronunciation": {
+      "respelling": "GAST-hows",
+      "ipa": "ˈɡasthaʊ̯s",
+      "notes": "Plural: die Gasthäuser."
+    },
+    "meaning": "inn, pub-restaurant",
+    "shortDefinition": "Inn, pub-restaurant."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Gast",
+        "meaning": "guest"
+      },
+      {
+        "part": "haus",
+        "meaning": "house"
+      }
+    ],
+    "literalMeaning": "guest house"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Gasthaus, plural die Gasthäuser.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Gasthaus"
+        },
+        {
+          "label": "More than one",
+          "value": "die Gasthäuser"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir essen im Gasthaus zur Post.",
+      "english": "We're eating at the Post Inn.",
+      "highlight": [
+        "Gasthaus"
+      ]
+    },
+    {
+      "german": "Ein gemütliches Gasthaus auf dem Land.",
+      "english": "A cosy country inn.",
+      "highlight": [
+        "Gasthaus"
+      ]
+    },
+    {
+      "german": "Das Gasthaus hat auch Zimmer.",
+      "english": "The inn also has rooms.",
+      "highlight": [
+        "Gasthaus"
+      ]
+    }
+  ],
+  "forms": [
+    "Gasthof",
+    "Wirtshaus"
+  ],
+  "memoryHook": "Gast + Haus = inn (= Gasthof, Wirtshaus).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Gasthaus",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Gasthaus is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Gasthaus, zwei ___",
+      "answer": "Gasthäuser",
+      "fullAnswer": "ein Gasthaus, zwei Gasthäuser",
+      "explanation": "The plural is Gasthäuser.",
+      "acceptedAnswers": [
+        "Gasthaeuser"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Gasthaus mean?",
+      "options": [
+        "to open",
+        "the child",
+        "inn"
+      ],
+      "answer": "inn",
+      "explanation": "Gasthaus: inn, pub-restaurant.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Gast + Haus",
+        "Gas + Haus"
+      ],
+      "answer": "Gast + Haus",
+      "explanation": "Guest house.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonyms:",
+      "options": [
+        "der Gasthof, das Wirtshaus",
+        "das Krankenhaus"
+      ],
+      "answer": "der Gasthof, das Wirtshaus",
+      "explanation": "Inn.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Gasthäuser",
+        "Gasthause"
+      ],
+      "answer": "Gasthäuser",
+      "explanation": "Umlaut + -er.",
+      "id": "q6"
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Klebstoff",
+    "partOfSpeech": "noun, masculine (der Klebstoff)",
+    "pronunciation": {
+      "respelling": "KLAYP-shtof",
+      "ipa": "ˈkleːpˌʃtɔf",
+      "notes": "Plural: die Klebstoffe."
+    },
+    "meaning": "glue, adhesive",
+    "shortDefinition": "Glue, adhesive."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Kleb",
+        "meaning": "stick (kleben)"
+      },
+      {
+        "part": "stoff",
+        "meaning": "substance"
+      }
+    ],
+    "literalMeaning": "sticking stuff"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Klebstoff, plural die Klebstoffe.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Klebstoff"
+        },
+        {
+          "label": "More than one",
+          "value": "die Klebstoffe"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir brauchen Klebstoff.",
+      "english": "We need glue.",
+      "highlight": [
+        "Klebstoff."
+      ]
+    },
+    {
+      "german": "Der Klebstoff ist trocken.",
+      "english": "The glue has dried.",
+      "highlight": [
+        "Klebstoff"
+      ]
+    },
+    {
+      "german": "Ein starker Klebstoff.",
+      "english": "A strong adhesive.",
+      "highlight": [
+        "Klebstoff."
+      ]
+    }
+  ],
+  "forms": [
+    "kleben",
+    "Kleber"
+  ],
+  "memoryHook": "Kleben + Stoff = glue (= Kleber).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Klebstoff",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Klebstoff is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Klebstoff, zwei ___",
+      "answer": "Klebstoffe",
+      "fullAnswer": "ein Klebstoff, zwei Klebstoffe",
+      "explanation": "The plural is Klebstoffe.",
+      "acceptedAnswers": [
+        "Klebstoffe"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Klebstoff mean?",
+      "options": [
+        "the street",
+        "glue",
+        "to open"
+      ],
+      "answer": "glue",
+      "explanation": "Klebstoff: glue, adhesive.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "kleben (stick) + Stoff (substance)",
+        "Kleber + Stoff"
+      ],
+      "answer": "kleben (stick) + Stoff (substance)",
+      "explanation": "Sticking substance.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Everyday synonym:",
+      "options": [
+        "der Kleber",
+        "der Leim only"
+      ],
+      "answer": "der Kleber",
+      "explanation": "Glue.",
+      "id": "q5"
+    }
+  ]
+}

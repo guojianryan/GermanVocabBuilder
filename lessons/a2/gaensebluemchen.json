@@ -1,0 +1,141 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Gänseblümchen",
+    "partOfSpeech": "noun, neuter (das Gänseblümchen)",
+    "pronunciation": {
+      "respelling": "GEN-ze-blüm-khen",
+      "ipa": "ˈɡɛnzəˌblyːmçən",
+      "notes": "The plural looks the same. Plural: die Gänseblümchen."
+    },
+    "meaning": "daisy",
+    "shortDefinition": "Daisy."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Gänse",
+        "meaning": "geese"
+      },
+      {
+        "part": "blüm",
+        "meaning": "flower"
+      },
+      {
+        "part": "chen",
+        "meaning": "small"
+      }
+    ],
+    "literalMeaning": "geese's little flower"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Gänseblümchen, plural die Gänseblümchen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Gänseblümchen"
+        },
+        {
+          "label": "More than one",
+          "value": "die Gänseblümchen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Auf der Wiese wachsen Gänseblümchen.",
+      "english": "Daisies are growing in the meadow.",
+      "highlight": [
+        "Gänseblümchen."
+      ]
+    },
+    {
+      "german": "Sie macht einen Kranz aus Gänseblümchen.",
+      "english": "She's making a daisy chain.",
+      "highlight": [
+        "Gänseblümchen."
+      ]
+    },
+    {
+      "german": "Ein kleines Gänseblümchen.",
+      "english": "A little daisy.",
+      "highlight": [
+        "Gänseblümchen."
+      ]
+    }
+  ],
+  "forms": [
+    "Gans",
+    "Blume"
+  ],
+  "memoryHook": "Gänse + Blümchen = daisy.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Gänseblümchen",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Gänseblümchen is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Gänseblümchen, zwei ___",
+      "answer": "Gänseblümchen",
+      "fullAnswer": "ein Gänseblümchen, zwei Gänseblümchen",
+      "explanation": "The plural is Gänseblümchen.",
+      "acceptedAnswers": [
+        "Gaensebluemchen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Gänseblümchen mean?",
+      "options": [
+        "daisy",
+        "to open",
+        "to sleep"
+      ],
+      "answer": "daisy",
+      "explanation": "Gänseblümchen: daisy.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Gänse + Blümchen (little flower)",
+        "Gans + Blume only"
+      ],
+      "answer": "Gänse + Blümchen (little flower)",
+      "explanation": "Geese's little flower.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gender:",
+      "options": [
+        "das",
+        "die"
+      ],
+      "answer": "das",
+      "explanation": "-chen.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Explosion",
+    "partOfSpeech": "noun, feminine (die Explosion)",
+    "pronunciation": {
+      "respelling": "eks-plo-ZYOHN",
+      "ipa": "ɛksploˈzi̯oːn",
+      "notes": "Plural: die Explosionen."
+    },
+    "meaning": "explosion",
+    "shortDefinition": "Explosion."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Explosion, plural die Explosionen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Explosion"
+        },
+        {
+          "label": "More than one",
+          "value": "die Explosionen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Bei der Explosion wurden drei Menschen verletzt.",
+      "english": "Three people were injured in the explosion.",
+      "highlight": [
+        "Explosion"
+      ]
+    },
+    {
+      "german": "Eine Explosion der Preise.",
+      "english": "An explosion in prices.",
+      "highlight": [
+        "Explosion"
+      ]
+    },
+    {
+      "german": "Die Ursache der Explosion ist unklar.",
+      "english": "The cause of the explosion is unclear.",
+      "highlight": [
+        "Explosion"
+      ]
+    }
+  ],
+  "forms": [
+    "explodieren",
+    "explosiv"
+  ],
+  "memoryHook": "Explodieren → die Explosion; explosiv.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Explosion",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Explosion is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Explosion, zwei ___",
+      "answer": "Explosionen",
+      "fullAnswer": "ein Explosion, zwei Explosionen",
+      "explanation": "The plural is Explosionen.",
+      "acceptedAnswers": [
+        "Explosionen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Explosion mean?",
+      "options": [
+        "the shop",
+        "the child",
+        "explosion"
+      ],
+      "answer": "explosion",
+      "explanation": "Explosion: explosion.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Verb:",
+      "options": [
+        "explodieren",
+        "explosionieren"
+      ],
+      "answer": "explodieren",
+      "explanation": "Explode.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Adjective:",
+      "options": [
+        "explosiv",
+        "explosionell"
+      ],
+      "answer": "explosiv",
+      "explanation": "Explosive.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "planmäßig",
+    "partOfSpeech": "adjective / adverb",
+    "pronunciation": {
+      "respelling": "PLAAN-may-sikh",
+      "ipa": "ˈplaːnmɛːsɪç",
+      "notes": ""
+    },
+    "meaning": "as scheduled, according to plan",
+    "shortDefinition": "As scheduled, according to plan."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "plan",
+        "meaning": "plan"
+      },
+      {
+        "part": "mäßig",
+        "meaning": "according to"
+      }
+    ],
+    "literalMeaning": "according to plan"
+  },
+  "sampleSentences": [
+    {
+      "german": "Der Zug fährt planmäßig um 10 Uhr ab.",
+      "english": "The train is scheduled to leave at 10.",
+      "highlight": [
+        "planmäßig"
+      ]
+    },
+    {
+      "german": "Alles lief planmäßig.",
+      "english": "Everything went according to plan.",
+      "highlight": [
+        "planmäßig."
+      ]
+    },
+    {
+      "german": "Die planmäßige Ankunft.",
+      "english": "The scheduled arrival.",
+      "highlight": [
+        "planmäßige"
+      ]
+    }
+  ],
+  "forms": [
+    "Plan",
+    "außerplanmäßig"
+  ],
+  "memoryHook": "Plan + mäßig = as scheduled.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does planmäßig mean?",
+      "options": [
+        "the station",
+        "expensive",
+        "as scheduled"
+      ],
+      "answer": "as scheduled",
+      "explanation": "planmäßig: as scheduled, according to plan.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Plan + -mäßig",
+        "planen + Maß"
+      ],
+      "answer": "Plan + -mäßig",
+      "explanation": "Plan-wise.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonyms:",
+      "options": [
+        "wie geplant, fahrplanmäßig",
+        "spontan"
+      ],
+      "answer": "wie geplant, fahrplanmäßig",
+      "explanation": "Scheduled.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Opposite:",
+      "options": [
+        "außerplanmäßig (unscheduled)",
+        "unplanmäßig only"
+      ],
+      "answer": "außerplanmäßig (unscheduled)",
+      "explanation": "Extra.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Der Flug landete ___ . (on schedule)",
+      "answer": "planmäßig",
+      "fullAnswer": "Der Flug landete planmäßig.",
+      "explanation": "Planmäßig.",
+      "acceptedAnswers": [
+        "pünktlich"
+      ],
+      "id": "q5"
+    }
+  ]
+}

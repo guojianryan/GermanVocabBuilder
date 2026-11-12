@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Festnahme",
+    "partOfSpeech": "noun, feminine (die Festnahme)",
+    "pronunciation": {
+      "respelling": "FEST-naa-me",
+      "ipa": "ˈfɛstˌnaːmə",
+      "notes": "Plural: die Festnahmen."
+    },
+    "meaning": "arrest",
+    "shortDefinition": "Arrest."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Fest",
+        "meaning": "fast, firm"
+      },
+      {
+        "part": "nahme",
+        "meaning": "taking (nehmen)"
+      }
+    ],
+    "literalMeaning": "a taking fast"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Festnahme, plural die Festnahmen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Festnahme"
+        },
+        {
+          "label": "More than one",
+          "value": "die Festnahmen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Polizei meldet eine Festnahme.",
+      "english": "The police report an arrest.",
+      "highlight": [
+        "Festnahme."
+      ]
+    },
+    {
+      "german": "Bei der Festnahme leistete er Widerstand.",
+      "english": "He resisted arrest.",
+      "highlight": [
+        "Festnahme"
+      ]
+    },
+    {
+      "german": "Es gab mehrere Festnahmen.",
+      "english": "There were several arrests.",
+      "highlight": [
+        "Festnahmen."
+      ]
+    }
+  ],
+  "forms": [
+    "festnehmen",
+    "Verhaftung"
+  ],
+  "memoryHook": "Festnehmen → die Festnahme (= Verhaftung).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Festnahme",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Festnahme is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Festnahme, zwei ___",
+      "answer": "Festnahmen",
+      "fullAnswer": "ein Festnahme, zwei Festnahmen",
+      "explanation": "The plural is Festnahmen.",
+      "acceptedAnswers": [
+        "Festnahmen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Festnahme mean?",
+      "options": [
+        "arrest",
+        "the key",
+        "quiet"
+      ],
+      "answer": "arrest",
+      "explanation": "Festnahme: arrest.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Verb:",
+      "options": [
+        "festnehmen",
+        "festnahmen"
+      ],
+      "answer": "festnehmen",
+      "explanation": "Arrest.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonym:",
+      "options": [
+        "die Verhaftung",
+        "die Freilassung"
+      ],
+      "answer": "die Verhaftung",
+      "explanation": "Arrest.",
+      "id": "q5"
+    }
+  ]
+}

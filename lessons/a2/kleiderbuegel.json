@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Kleiderbügel",
+    "partOfSpeech": "noun, masculine (der Kleiderbügel)",
+    "pronunciation": {
+      "respelling": "KLY-der-bü-gel",
+      "ipa": "ˈklaɪ̯dɐˌbyːɡl̩",
+      "notes": "The plural looks the same. Plural: die Kleiderbügel."
+    },
+    "meaning": "coat hanger",
+    "shortDefinition": "Coat hanger."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Kleider",
+        "meaning": "clothes"
+      },
+      {
+        "part": "bügel",
+        "meaning": "bow, bracket"
+      }
+    ],
+    "literalMeaning": "clothes bracket"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Kleiderbügel, plural die Kleiderbügel.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Kleiderbügel"
+        },
+        {
+          "label": "More than one",
+          "value": "die Kleiderbügel"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Häng die Jacke auf einen Kleiderbügel.",
+      "english": "Hang the jacket on a hanger.",
+      "highlight": [
+        "Kleiderbügel."
+      ]
+    },
+    {
+      "german": "Wir brauchen mehr Kleiderbügel.",
+      "english": "We need more hangers.",
+      "highlight": [
+        "Kleiderbügel."
+      ]
+    },
+    {
+      "german": "Ein Kleiderbügel aus Holz.",
+      "english": "A wooden hanger.",
+      "highlight": [
+        "Kleiderbügel"
+      ]
+    }
+  ],
+  "forms": [
+    "Bügel"
+  ],
+  "memoryHook": "Kleider + Bügel = hanger.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Kleiderbügel",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Kleiderbügel is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Kleiderbügel, zwei ___",
+      "answer": "Kleiderbügel",
+      "fullAnswer": "ein Kleiderbügel, zwei Kleiderbügel",
+      "explanation": "The plural is Kleiderbügel.",
+      "acceptedAnswers": [
+        "Kleiderbuegel"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Kleiderbügel mean?",
+      "options": [
+        "the flower",
+        "coat hanger",
+        "never"
+      ],
+      "answer": "coat hanger",
+      "explanation": "Kleiderbügel: coat hanger.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Kleider + Bügel (bow, bracket)",
+        "Kleid + Igel"
+      ],
+      "answer": "Kleider + Bügel (bow, bracket)",
+      "explanation": "Clothes bracket.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Kleiderbügel",
+        "Kleiderbügeln"
+      ],
+      "answer": "Kleiderbügel",
+      "explanation": "No change.",
+      "id": "q5"
+    }
+  ]
+}

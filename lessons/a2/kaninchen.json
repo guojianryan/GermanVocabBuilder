@@ -1,0 +1,133 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Kaninchen",
+    "partOfSpeech": "noun, neuter (das Kaninchen)",
+    "pronunciation": {
+      "respelling": "ka-NEEN-khen",
+      "ipa": "kaˈniːnçən",
+      "notes": "The plural looks the same. Plural: die Kaninchen."
+    },
+    "meaning": "rabbit",
+    "shortDefinition": "Rabbit."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Kaninchen, plural die Kaninchen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Kaninchen"
+        },
+        {
+          "label": "More than one",
+          "value": "die Kaninchen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir haben zwei Kaninchen.",
+      "english": "We have two rabbits.",
+      "highlight": [
+        "Kaninchen."
+      ]
+    },
+    {
+      "german": "Das Kaninchen frisst Karotten.",
+      "english": "The rabbit eats carrots.",
+      "highlight": [
+        "Kaninchen"
+      ]
+    },
+    {
+      "german": "Ein Kaninchen im Garten.",
+      "english": "A rabbit in the garden.",
+      "highlight": [
+        "Kaninchen"
+      ]
+    }
+  ],
+  "forms": [
+    "Hase"
+  ],
+  "memoryHook": "Das Kaninchen (pet rabbit) ≠ der Hase (hare).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Kaninchen",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Kaninchen is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Kaninchen, zwei ___",
+      "answer": "Kaninchen",
+      "fullAnswer": "ein Kaninchen, zwei Kaninchen",
+      "explanation": "The plural is Kaninchen.",
+      "acceptedAnswers": [
+        "Kaninchen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Kaninchen mean?",
+      "options": [
+        "rabbit",
+        "cheap",
+        "to learn"
+      ],
+      "answer": "rabbit",
+      "explanation": "Kaninchen: rabbit.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Kaninchen vs Hase:",
+      "options": [
+        "pet / small rabbit vs wild hare",
+        "same animal"
+      ],
+      "answer": "pet / small rabbit vs wild hare",
+      "explanation": "Different.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gender (-chen):",
+      "options": [
+        "das",
+        "der"
+      ],
+      "answer": "das",
+      "explanation": "-chen = das.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Kaninchen",
+        "Kaninchens"
+      ],
+      "answer": "Kaninchen",
+      "explanation": "No change.",
+      "id": "q6"
+    }
+  ]
+}

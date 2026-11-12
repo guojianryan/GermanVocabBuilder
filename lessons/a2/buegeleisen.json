@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Bügeleisen",
+    "partOfSpeech": "noun, neuter (das Bügeleisen)",
+    "pronunciation": {
+      "respelling": "BÜ-gel-eye-zen",
+      "ipa": "ˈbyːɡl̩ˌʔaɪ̯zn̩",
+      "notes": "The plural looks the same. Plural: die Bügeleisen."
+    },
+    "meaning": "iron (for clothes)",
+    "shortDefinition": "Iron (for clothes)."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Bügel",
+        "meaning": "ironing (bügeln)"
+      },
+      {
+        "part": "eisen",
+        "meaning": "iron"
+      }
+    ],
+    "literalMeaning": "ironing iron"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Bügeleisen, plural die Bügeleisen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Bügeleisen"
+        },
+        {
+          "label": "More than one",
+          "value": "die Bügeleisen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das Bügeleisen ist heiß.",
+      "english": "The iron is hot.",
+      "highlight": [
+        "Bügeleisen"
+      ]
+    },
+    {
+      "german": "Hast du das Bügeleisen ausgemacht?",
+      "english": "Did you switch off the iron?",
+      "highlight": [
+        "Bügeleisen"
+      ]
+    },
+    {
+      "german": "Ein Dampfbügeleisen.",
+      "english": "A steam iron.",
+      "highlight": [
+        "Dampfbügeleisen."
+      ]
+    }
+  ],
+  "forms": [
+    "bügeln"
+  ],
+  "memoryHook": "Bügeln + Eisen = iron; bügeln.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Bügeleisen",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Bügeleisen is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Bügeleisen, zwei ___",
+      "answer": "Bügeleisen",
+      "fullAnswer": "ein Bügeleisen, zwei Bügeleisen",
+      "explanation": "The plural is Bügeleisen.",
+      "acceptedAnswers": [
+        "Buegeleisen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Bügeleisen mean?",
+      "options": [
+        "iron (for clothes)",
+        "the key",
+        "the bill"
+      ],
+      "answer": "iron (for clothes)",
+      "explanation": "Bügeleisen: iron (for clothes).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "bügeln (to iron) + Eisen",
+        "Bügel + Eis"
+      ],
+      "answer": "bügeln (to iron) + Eisen",
+      "explanation": "Ironing iron.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Verb:",
+      "options": [
+        "bügeln",
+        "eisen"
+      ],
+      "answer": "bügeln",
+      "explanation": "To iron.",
+      "id": "q5"
+    }
+  ]
+}

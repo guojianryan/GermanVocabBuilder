@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Witwe",
+    "partOfSpeech": "noun, feminine (die Witwe)",
+    "pronunciation": {
+      "respelling": "VIT-ve",
+      "ipa": "ˈvɪtvə",
+      "notes": "Plural: die Witwen."
+    },
+    "meaning": "widow",
+    "shortDefinition": "Widow."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Witwe, plural die Witwen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Witwe"
+        },
+        {
+          "label": "More than one",
+          "value": "die Witwen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Sie ist seit zwei Jahren Witwe.",
+      "english": "She's been a widow for two years.",
+      "highlight": [
+        "Witwe."
+      ]
+    },
+    {
+      "german": "Die Witwe des Präsidenten.",
+      "english": "The president's widow.",
+      "highlight": [
+        "Witwe"
+      ]
+    },
+    {
+      "german": "Er ist Witwer.",
+      "english": "He's a widower.",
+      "highlight": [
+        "Witwer."
+      ]
+    }
+  ],
+  "forms": [
+    "Witwer",
+    "verwitwet"
+  ],
+  "memoryHook": "Die Witwe, der Witwer; verwitwet.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Witwe",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Witwe is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Witwe, zwei ___",
+      "answer": "Witwen",
+      "fullAnswer": "ein Witwe, zwei Witwen",
+      "explanation": "The plural is Witwen.",
+      "acceptedAnswers": [
+        "Witwen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Witwe mean?",
+      "options": [
+        "slowly",
+        "always",
+        "widow"
+      ],
+      "answer": "widow",
+      "explanation": "Witwe: widow.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Widower:",
+      "options": [
+        "der Witwer",
+        "der Witwe"
+      ],
+      "answer": "der Witwer",
+      "explanation": "Male.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Widowed (adjective):",
+      "options": [
+        "verwitwet",
+        "witwig"
+      ],
+      "answer": "verwitwet",
+      "explanation": "On forms.",
+      "id": "q5"
+    }
+  ]
+}

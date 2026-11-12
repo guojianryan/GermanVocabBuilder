@@ -1,0 +1,157 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "ignorieren",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "ig-no-REE-ren",
+      "ipa": "ɪɡnoˈʁiːʁən",
+      "notes": ""
+    },
+    "meaning": "to ignore",
+    "shortDefinition": "To ignore."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "ignorier|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "ignorier|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "ignorier|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "ignorier|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "ignorier|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "ignorier|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat ignoriert"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er ignoriert mich.",
+      "english": "He's ignoring me.",
+      "highlight": [
+        "ignoriert"
+      ]
+    },
+    {
+      "german": "Ignorier ihn einfach!",
+      "english": "Just ignore him!",
+      "highlight": [
+        "Ignorier"
+      ]
+    },
+    {
+      "german": "Die Warnung wurde ignoriert.",
+      "english": "The warning was ignored.",
+      "highlight": [
+        "ignoriert."
+      ]
+    }
+  ],
+  "forms": [
+    "ignoriere",
+    "ignorierst",
+    "ignoriert",
+    "ignorieren"
+  ],
+  "memoryHook": "Ignorieren; die Ignoranz.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (ignorieren)",
+      "answer": "ignoriert",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: ignoriert.",
+      "acceptedAnswers": [
+        "ignoriert"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (ignorieren, past)",
+      "answer": "ignoriert",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe ignoriert.",
+      "acceptedAnswers": [
+        "ignoriert"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does ignorieren mean?",
+      "options": [
+        "to ignore",
+        "to open",
+        "to travel"
+      ],
+      "answer": "to ignore",
+      "explanation": "ignorieren: to ignore.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "hat ignoriert",
+        "hat geignoriert"
+      ],
+      "answer": "hat ignoriert",
+      "explanation": "-ieren: no ge-.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Noun:",
+      "options": [
+        "die Ignoranz",
+        "die Ignorierung only"
+      ],
+      "answer": "die Ignoranz",
+      "explanation": "Ignorance.",
+      "id": "q5"
+    }
+  ]
+}

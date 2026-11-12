@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Getreide",
+    "partOfSpeech": "noun, neuter (das Getreide)",
+    "pronunciation": {
+      "respelling": "ge-TRY-de",
+      "ipa": "ɡəˈtʁaɪ̯də",
+      "notes": "Usually singular; plural Getreide (types). Plural: die Getreide."
+    },
+    "meaning": "grain, cereal (crops)",
+    "shortDefinition": "Grain, cereal (crops)."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Getreide, plural die Getreide.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Getreide"
+        },
+        {
+          "label": "More than one",
+          "value": "die Getreide"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Auf dem Feld wächst Getreide.",
+      "english": "Grain grows in the field.",
+      "highlight": [
+        "Getreide."
+      ]
+    },
+    {
+      "german": "Weizen und Roggen sind Getreide.",
+      "english": "Wheat and rye are cereals.",
+      "highlight": [
+        "Getreide."
+      ]
+    },
+    {
+      "german": "Die Getreidepreise steigen.",
+      "english": "Grain prices are rising.",
+      "highlight": [
+        "Getreidepreise"
+      ]
+    }
+  ],
+  "forms": [
+    "Weizen"
+  ],
+  "memoryHook": "Das Getreide (grain crops).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Getreide",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Getreide is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Getreide, zwei ___",
+      "answer": "Getreide",
+      "fullAnswer": "ein Getreide, zwei Getreide",
+      "explanation": "The plural is Getreide.",
+      "acceptedAnswers": [
+        "Getreide"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Getreide mean?",
+      "options": [
+        "the bread",
+        "the key",
+        "grain"
+      ],
+      "answer": "grain",
+      "explanation": "Getreide: grain, cereal (crops).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Examples:",
+      "options": [
+        "Weizen, Roggen, Gerste",
+        "Kartoffeln, Bohnen"
+      ],
+      "answer": "Weizen, Roggen, Gerste",
+      "explanation": "Grains.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Breakfast cereal:",
+      "options": [
+        "die Cerealien / das Müsli",
+        "das Getreide"
+      ],
+      "answer": "die Cerealien / das Müsli",
+      "explanation": "Different.",
+      "id": "q5"
+    }
+  ]
+}

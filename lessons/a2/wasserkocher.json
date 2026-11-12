@@ -1,0 +1,140 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Wasserkocher",
+    "partOfSpeech": "noun, masculine (der Wasserkocher)",
+    "pronunciation": {
+      "respelling": "VA-ser-ko-kher",
+      "ipa": "ˈvasɐˌkɔxɐ",
+      "notes": "The plural looks the same. Plural: die Wasserkocher."
+    },
+    "meaning": "kettle",
+    "shortDefinition": "Kettle."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Wasser",
+        "meaning": "water"
+      },
+      {
+        "part": "koch",
+        "meaning": "boil"
+      },
+      {
+        "part": "er",
+        "meaning": "device"
+      }
+    ],
+    "literalMeaning": "water boiler"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Wasserkocher, plural die Wasserkocher.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Wasserkocher"
+        },
+        {
+          "label": "More than one",
+          "value": "die Wasserkocher"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Mach mal den Wasserkocher an.",
+      "english": "Switch the kettle on.",
+      "highlight": [
+        "Wasserkocher"
+      ]
+    },
+    {
+      "german": "Der Wasserkocher ist kaputt.",
+      "english": "The kettle's broken.",
+      "highlight": [
+        "Wasserkocher"
+      ]
+    },
+    {
+      "german": "Ein Wasserkocher aus Glas.",
+      "english": "A glass kettle.",
+      "highlight": [
+        "Wasserkocher"
+      ]
+    }
+  ],
+  "forms": [
+    "kochen"
+  ],
+  "memoryHook": "Wasser + Kocher = kettle.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Wasserkocher",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Wasserkocher is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Wasserkocher, zwei ___",
+      "answer": "Wasserkocher",
+      "fullAnswer": "ein Wasserkocher, zwei Wasserkocher",
+      "explanation": "The plural is Wasserkocher.",
+      "acceptedAnswers": [
+        "Wasserkocher"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Wasserkocher mean?",
+      "options": [
+        "the bread",
+        "the car",
+        "kettle"
+      ],
+      "answer": "kettle",
+      "explanation": "Wasserkocher: kettle.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Wasser + kochen + -er",
+        "Wasser + Koch"
+      ],
+      "answer": "Wasser + kochen + -er",
+      "explanation": "Water boiler.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Wasserkocher",
+        "Wasserkochern"
+      ],
+      "answer": "Wasserkocher",
+      "explanation": "No change.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Beifahrer",
+    "partOfSpeech": "noun, masculine (der Beifahrer)",
+    "pronunciation": {
+      "respelling": "BYE-faa-rer",
+      "ipa": "ˈbaɪ̯ˌfaːʁɐ",
+      "notes": "The plural looks the same. Plural: die Beifahrer."
+    },
+    "meaning": "front-seat passenger",
+    "shortDefinition": "Front-seat passenger."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Bei",
+        "meaning": "beside"
+      },
+      {
+        "part": "fahrer",
+        "meaning": "driver"
+      }
+    ],
+    "literalMeaning": "beside the driver"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Beifahrer, plural die Beifahrer.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Beifahrer"
+        },
+        {
+          "label": "More than one",
+          "value": "die Beifahrer"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich sitze auf dem Beifahrersitz.",
+      "english": "I'm sitting in the passenger seat.",
+      "highlight": [
+        "Beifahrersitz."
+      ]
+    },
+    {
+      "german": "Der Beifahrer wurde verletzt.",
+      "english": "The passenger was injured.",
+      "highlight": [
+        "Beifahrer"
+      ]
+    },
+    {
+      "german": "Sie ist eine nervige Beifahrerin.",
+      "english": "She's an annoying passenger.",
+      "highlight": [
+        "Beifahrerin."
+      ]
+    }
+  ],
+  "forms": [
+    "Fahrer",
+    "Beifahrersitz"
+  ],
+  "memoryHook": "Bei + Fahrer = front passenger.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Beifahrer",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Beifahrer is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Beifahrer, zwei ___",
+      "answer": "Beifahrer",
+      "fullAnswer": "ein Beifahrer, zwei Beifahrer",
+      "explanation": "The plural is Beifahrer.",
+      "acceptedAnswers": [
+        "Beifahrer"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Beifahrer mean?",
+      "options": [
+        "front-seat passenger",
+        "cheap",
+        "to travel"
+      ],
+      "answer": "front-seat passenger",
+      "explanation": "Beifahrer: front-seat passenger.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "bei (beside) + Fahrer",
+        "Bei + fahren"
+      ],
+      "answer": "bei (beside) + Fahrer",
+      "explanation": "Beside the driver.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Back-seat passenger:",
+      "options": [
+        "der Mitfahrer / Fahrgast",
+        "der Hinterfahrer"
+      ],
+      "answer": "der Mitfahrer / Fahrgast",
+      "explanation": "General.",
+      "id": "q5"
+    }
+  ]
+}

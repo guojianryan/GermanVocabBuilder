@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Kaution",
+    "partOfSpeech": "noun, feminine (die Kaution)",
+    "pronunciation": {
+      "respelling": "kow-TSYOHN",
+      "ipa": "kaʊ̯ˈtsi̯oːn",
+      "notes": "Plural: die Kautionen."
+    },
+    "meaning": "deposit (rent); bail",
+    "shortDefinition": "Deposit (rent); bail."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Kaution, plural die Kautionen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Kaution"
+        },
+        {
+          "label": "More than one",
+          "value": "die Kautionen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Kaution beträgt drei Monatsmieten.",
+      "english": "The deposit is three months' rent.",
+      "highlight": [
+        "Kaution"
+      ]
+    },
+    {
+      "german": "Ich bekomme die Kaution zurück.",
+      "english": "I'm getting the deposit back.",
+      "highlight": [
+        "Kaution"
+      ]
+    },
+    {
+      "german": "Er wurde gegen Kaution freigelassen.",
+      "english": "He was released on bail.",
+      "highlight": [
+        "Kaution"
+      ]
+    }
+  ],
+  "forms": [
+    "Pfand",
+    "Vorsicht"
+  ],
+  "memoryHook": "Die Kaution (rent deposit; bail) ≠ caution (Vorsicht).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Kaution",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Kaution is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Kaution, zwei ___",
+      "answer": "Kautionen",
+      "fullAnswer": "ein Kaution, zwei Kautionen",
+      "explanation": "The plural is Kautionen.",
+      "acceptedAnswers": [
+        "Kautionen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Kaution mean?",
+      "options": [
+        "the key",
+        "the evening",
+        "deposit (rent)"
+      ],
+      "answer": "deposit (rent)",
+      "explanation": "Kaution: deposit (rent); bail.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Kaution vs Pfand:",
+      "options": [
+        "rent deposit / bail vs bottle deposit",
+        "same"
+      ],
+      "answer": "rent deposit / bail vs bottle deposit",
+      "explanation": "Nuance.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Caution' (English) in German:",
+      "options": [
+        "die Vorsicht",
+        "die Kaution"
+      ],
+      "answer": "die Vorsicht",
+      "explanation": "False friend!",
+      "id": "q5"
+    }
+  ]
+}

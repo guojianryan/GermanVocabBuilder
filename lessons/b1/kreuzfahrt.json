@@ -1,0 +1,139 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Kreuzfahrt",
+    "partOfSpeech": "noun, feminine (die Kreuzfahrt)",
+    "pronunciation": {
+      "respelling": "KROYTS-faart",
+      "ipa": "ˈkʁɔʏ̯tsˌfaːɐ̯t",
+      "notes": "Plural: die Kreuzfahrten."
+    },
+    "meaning": "cruise",
+    "shortDefinition": "Cruise."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Kreuz",
+        "meaning": "cruise (kreuzen)"
+      },
+      {
+        "part": "fahrt",
+        "meaning": "trip",
+        "emphasis": "stretch"
+      }
+    ],
+    "literalMeaning": "cruising trip",
+    "summary": "Long voyage."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Kreuzfahrt, plural die Kreuzfahrten.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Kreuzfahrt"
+        },
+        {
+          "label": "More than one",
+          "value": "die Kreuzfahrten"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir machen eine Kreuzfahrt im Mittelmeer.",
+      "english": "We're going on a Mediterranean cruise.",
+      "highlight": [
+        "Kreuzfahrt"
+      ]
+    },
+    {
+      "german": "Kreuzfahrten sind schlecht für die Umwelt.",
+      "english": "Cruises are bad for the environment.",
+      "highlight": [
+        "Kreuzfahrten"
+      ]
+    },
+    {
+      "german": "Ein Kreuzfahrtschiff.",
+      "english": "A cruise ship.",
+      "highlight": [
+        "Kreuzfahrtschiff."
+      ]
+    }
+  ],
+  "forms": [
+    "Schiff",
+    "Fahrt"
+  ],
+  "memoryHook": "Kreuzen + Fahrt = cruise.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Kreuzfahrt",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Kreuzfahrt is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Kreuzfahrt, zwei ___",
+      "answer": "Kreuzfahrten",
+      "fullAnswer": "ein Kreuzfahrt, zwei Kreuzfahrten",
+      "explanation": "The plural is Kreuzfahrten.",
+      "acceptedAnswers": [
+        "Kreuzfahrten"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Kreuzfahrt mean?",
+      "options": [
+        "the window",
+        "cruise",
+        "to sing"
+      ],
+      "answer": "cruise",
+      "explanation": "Kreuzfahrt: cruise.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "kreuzen (cruise) + Fahrt",
+        "Kreuz (cross) + Farbe"
+      ],
+      "answer": "kreuzen (cruise) + Fahrt",
+      "explanation": "Cruising trip.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Cruise ship:",
+      "options": [
+        "das Kreuzfahrtschiff",
+        "der Kreuzer only"
+      ],
+      "answer": "das Kreuzfahrtschiff",
+      "explanation": "Ship.",
+      "id": "q5"
+    }
+  ]
+}

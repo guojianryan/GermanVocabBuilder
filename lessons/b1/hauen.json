@@ -1,0 +1,172 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "hauen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "HOW-en",
+      "ipa": "ˈhaʊ̯ən",
+      "notes": ""
+    },
+    "meaning": "to hit, bash; (sich ~) to scrap",
+    "shortDefinition": "To hit, bash; (sich ~) to scrap."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "hau|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "hau|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "hau|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "hau|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "hau|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "hau|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gehauen"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er hat mich gehauen!",
+      "english": "He hit me!",
+      "highlight": [
+        "gehauen!"
+      ]
+    },
+    {
+      "german": "Die Kinder hauen sich.",
+      "english": "The kids are scrapping.",
+      "highlight": [
+        "hauen"
+      ]
+    },
+    {
+      "german": "Hau ab!",
+      "english": "Get lost!",
+      "highlight": [
+        "Hau",
+        "ab!"
+      ]
+    }
+  ],
+  "forms": [
+    "haue",
+    "haust",
+    "haut",
+    "hauen",
+    "gehauen",
+    "abhauen",
+    "schlagen"
+  ],
+  "memoryHook": "Hauen = schlagen (informal); abhauen = get lost.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (hauen)",
+      "answer": "haut",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: haut.",
+      "acceptedAnswers": [
+        "haut"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (hauen, past)",
+      "answer": "gehauen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gehauen.",
+      "acceptedAnswers": [
+        "gehauen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does hauen mean?",
+      "options": [
+        "to open",
+        "to wait",
+        "to hit"
+      ],
+      "answer": "to hit",
+      "explanation": "hauen: to hit, bash; (sich ~) to scrap.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Hau ab!' means…",
+      "options": [
+        "Get lost! / Go away!",
+        "Cut it off!"
+      ],
+      "answer": "Get lost! / Go away!",
+      "explanation": "Rude.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Register:",
+      "options": [
+        "informal",
+        "formal"
+      ],
+      "answer": "informal",
+      "explanation": "Standard: schlagen.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Das haut mich um!' means…",
+      "options": [
+        "That blows me away!",
+        "That hits me hard."
+      ],
+      "answer": "That blows me away!",
+      "explanation": "Amazed.",
+      "id": "q6"
+    }
+  ]
+}

@@ -178,10 +178,16 @@ import Foundation
         let boundedCount = await repository.cachedLessonCount
         check(boundedCount == 2, "Lesson cache stays within its entry limit")
         let quiz = try await repository.practiceItems([first, second, third], quiz: true)
-        let expectedQuestions = try [first, second, third].flatMap { entry in
+        let expectedQuestions = try [first, second, third].map { entry in
             try JSONDecoder().decode(Lesson.self, from: Data(contentsOf: root.appendingPathComponent("lessons/" + entry.file))).quiz.map { entry.id + "/" + $0.id }
         }
-        check(quiz.count == expectedQuestions.count && Set(quiz.map { $0.entry.id + "/" + $0.question!.id }) == Set(expectedQuestions), "Shuffled quiz retains every question exactly once")
+        let eligibleWords = zip([first, second, third], expectedQuestions).filter { !$0.1.isEmpty }.map { $0.0.id }
+        check(quiz.count == eligibleWords.count && Set(quiz.map { $0.entry.id }) == Set(eligibleWords), "Quiz selects exactly one question per eligible word")
+        let validQuestions = Set(expectedQuestions.flatMap { $0 })
+        check(quiz.allSatisfy { item in
+            guard let question = item.question else { return false }
+            return validQuestions.contains(item.entry.id + "/" + question.id)
+        }, "Selected questions belong to their lessons")
         let afterQuizCount = await repository.cachedLessonCount
         check(afterQuizCount <= 2, "Large quiz preparation respects the cache bound")
         let noCache = LessonRepository(resourceRoot: root, byteLimit: 1)

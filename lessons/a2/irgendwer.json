@@ -1,0 +1,121 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "irgendwer",
+    "partOfSpeech": "pronoun (informal)",
+    "pronunciation": {
+      "respelling": "IR-gent-vayr",
+      "ipa": "ˈɪʁɡn̩tˌveːɐ̯",
+      "notes": ""
+    },
+    "meaning": "somebody, anybody",
+    "shortDefinition": "Somebody, anybody."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "irgend",
+        "meaning": "some… or other"
+      },
+      {
+        "part": "wer",
+        "meaning": "who"
+      }
+    ],
+    "literalMeaning": "some-who"
+  },
+  "sampleSentences": [
+    {
+      "german": "Irgendwer hat mein Fahrrad geklaut.",
+      "english": "Somebody nicked my bike.",
+      "highlight": [
+        "Irgendwer"
+      ]
+    },
+    {
+      "german": "Hat irgendwer meinen Schlüssel gesehen?",
+      "english": "Has anybody seen my key?",
+      "highlight": [
+        "irgendwer"
+      ]
+    },
+    {
+      "german": "Er ist nicht irgendwer!",
+      "english": "He's not just anybody!",
+      "highlight": [
+        "irgendwer!"
+      ]
+    }
+  ],
+  "forms": [
+    "irgendjemand",
+    "jemand"
+  ],
+  "memoryHook": "Irgend + wer = someone or other (= irgendjemand).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does irgendwer mean?",
+      "options": [
+        "to wait",
+        "somebody",
+        "the car"
+      ],
+      "answer": "somebody",
+      "explanation": "irgendwer: somebody, anybody.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonym:",
+      "options": [
+        "irgendjemand, jemand",
+        "niemand"
+      ],
+      "answer": "irgendjemand, jemand",
+      "explanation": "Someone.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Irgend- adds…",
+      "options": [
+        "'some… or other', vagueness",
+        "negation"
+      ],
+      "answer": "'some… or other', vagueness",
+      "explanation": "Indefinite.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Nicht irgendwer' means…",
+      "options": [
+        "not just anyone, someone important",
+        "nobody"
+      ],
+      "answer": "not just anyone, someone important",
+      "explanation": "Emphasis.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "___ hat angerufen. (somebody)",
+      "answer": "Irgendwer",
+      "fullAnswer": "Irgendwer hat angerufen.",
+      "explanation": "Irgendwer.",
+      "acceptedAnswers": [
+        "Jemand",
+        "Irgendjemand"
+      ],
+      "id": "q5"
+    }
+  ]
+}

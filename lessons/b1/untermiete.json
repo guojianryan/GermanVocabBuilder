@@ -1,0 +1,130 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Untermiete",
+    "partOfSpeech": "noun, feminine (die Untermiete)",
+    "pronunciation": {
+      "respelling": "UN-ter-mee-te",
+      "ipa": "ˈʊntɐˌmiːtə",
+      "notes": "Usually no plural."
+    },
+    "meaning": "subletting",
+    "shortDefinition": "Subletting."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Unter",
+        "meaning": "under"
+      },
+      {
+        "part": "miete",
+        "meaning": "rent"
+      }
+    ],
+    "literalMeaning": "under-rent"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Untermiete, usually no plural.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Untermiete"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich wohne zur Untermiete.",
+      "english": "I'm a lodger / I'm subletting.",
+      "highlight": [
+        "Untermiete."
+      ]
+    },
+    {
+      "german": "Darf ich das Zimmer in Untermiete vergeben?",
+      "english": "May I sublet the room?",
+      "highlight": [
+        "Untermiete"
+      ]
+    },
+    {
+      "german": "Ein Zimmer zur Untermiete.",
+      "english": "A room to sublet.",
+      "highlight": [
+        "Untermiete."
+      ]
+    }
+  ],
+  "forms": [
+    "Untermieter",
+    "Miete"
+  ],
+  "memoryHook": "Unter + Miete = sublet; der Untermieter.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Untermiete",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Untermiete is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Untermiete mean?",
+      "options": [
+        "to sleep",
+        "the station",
+        "subletting"
+      ],
+      "answer": "subletting",
+      "explanation": "Untermiete: subletting.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Zur Untermiete wohnen' means…",
+      "options": [
+        "to be a lodger / subtenant",
+        "to live in the basement"
+      ],
+      "answer": "to be a lodger / subtenant",
+      "explanation": "Sublet.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Subtenant:",
+      "options": [
+        "der Untermieter",
+        "der Untervermieter"
+      ],
+      "answer": "der Untermieter",
+      "explanation": "Person.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Sie wohnt zur ___ . (sublet)",
+      "answer": "Untermiete",
+      "fullAnswer": "Sie wohnt zur Untermiete.",
+      "explanation": "Untermiete.",
+      "id": "q5"
+    }
+  ]
+}

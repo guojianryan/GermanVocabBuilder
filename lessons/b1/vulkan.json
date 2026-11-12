@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Vulkan",
+    "partOfSpeech": "noun, masculine (der Vulkan)",
+    "pronunciation": {
+      "respelling": "vul-KAAN",
+      "ipa": "vʊlˈkaːn",
+      "notes": "Plural: die Vulkane."
+    },
+    "meaning": "volcano",
+    "shortDefinition": "Volcano."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Vulkan, plural die Vulkane.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Vulkan"
+        },
+        {
+          "label": "More than one",
+          "value": "die Vulkane"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Vulkan ist ausgebrochen.",
+      "english": "The volcano has erupted.",
+      "highlight": [
+        "Vulkan"
+      ]
+    },
+    {
+      "german": "Die Eifel hat alte Vulkane.",
+      "english": "The Eifel has old volcanoes.",
+      "highlight": [
+        "Vulkane."
+      ]
+    },
+    {
+      "german": "Ein Tanz auf dem Vulkan.",
+      "english": "Dancing on the edge of a volcano.",
+      "highlight": [
+        "Vulkan."
+      ]
+    }
+  ],
+  "forms": [
+    "Ausbruch",
+    "ausbrechen"
+  ],
+  "memoryHook": "Der Vulkan; ausbrechen; der Ausbruch.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Vulkan",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Vulkan is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Vulkan, zwei ___",
+      "answer": "Vulkane",
+      "fullAnswer": "ein Vulkan, zwei Vulkane",
+      "explanation": "The plural is Vulkane.",
+      "acceptedAnswers": [
+        "Vulkane"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Vulkan mean?",
+      "options": [
+        "to help",
+        "volcano",
+        "slowly"
+      ],
+      "answer": "volcano",
+      "explanation": "Vulkan: volcano.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "V sounds like…",
+      "options": [
+        "v",
+        "f"
+      ],
+      "answer": "v",
+      "explanation": "vul-KAAN.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Erupt:",
+      "options": [
+        "ausbrechen",
+        "explodieren only"
+      ],
+      "answer": "ausbrechen",
+      "explanation": "Der Vulkan bricht aus.",
+      "id": "q5"
+    }
+  ]
+}

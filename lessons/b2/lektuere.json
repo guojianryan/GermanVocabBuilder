@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Lektüre",
+    "partOfSpeech": "noun, feminine (die Lektüre)",
+    "pronunciation": {
+      "respelling": "lek-TÜ-re",
+      "ipa": "lɛkˈtyːʁə",
+      "notes": "Plural: die Lektüren."
+    },
+    "meaning": "reading (material)",
+    "shortDefinition": "Reading (material)."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Lektüre, plural die Lektüren.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Lektüre"
+        },
+        {
+          "label": "More than one",
+          "value": "die Lektüren"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das Buch ist Pflichtlektüre.",
+      "english": "The book is required reading.",
+      "highlight": [
+        "Pflichtlektüre."
+      ]
+    },
+    {
+      "german": "Leichte Lektüre für den Urlaub.",
+      "english": "Light reading for the holiday.",
+      "highlight": [
+        "Lektüre"
+      ]
+    },
+    {
+      "german": "Nach der Lektüre des Artikels …",
+      "english": "After reading the article …",
+      "highlight": [
+        "Lektüre"
+      ]
+    }
+  ],
+  "forms": [
+    "Vorlesung",
+    "lesen"
+  ],
+  "memoryHook": "Die Lektüre (reading) ≠ lecture (Vorlesung).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Lektüre",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Lektüre is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Lektüre, zwei ___",
+      "answer": "Lektüren",
+      "fullAnswer": "ein Lektüre, zwei Lektüren",
+      "explanation": "The plural is Lektüren.",
+      "acceptedAnswers": [
+        "Lektueren"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Lektüre mean?",
+      "options": [
+        "hot",
+        "to help",
+        "reading (material)"
+      ],
+      "answer": "reading (material)",
+      "explanation": "Lektüre: reading (material).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Lektüre' means…",
+      "options": [
+        "reading material",
+        "lecture"
+      ],
+      "answer": "reading material",
+      "explanation": "False friend!",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Lecture (university):",
+      "options": [
+        "die Vorlesung",
+        "die Lektüre"
+      ],
+      "answer": "die Vorlesung",
+      "explanation": "False friend.",
+      "id": "q5"
+    }
+  ]
+}

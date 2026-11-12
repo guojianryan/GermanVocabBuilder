@@ -1,0 +1,147 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Würstchen",
+    "partOfSpeech": "noun, neuter (das Würstchen)",
+    "pronunciation": {
+      "respelling": "VÜRST-khen",
+      "ipa": "ˈvʏʁstçən",
+      "notes": "The plural looks the same. Plural: die Würstchen."
+    },
+    "meaning": "sausage (small)",
+    "shortDefinition": "Sausage (small)."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Würst",
+        "meaning": "sausage (Wurst)"
+      },
+      {
+        "part": "chen",
+        "meaning": "small"
+      }
+    ],
+    "literalMeaning": "little sausage"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Würstchen, plural die Würstchen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Würstchen"
+        },
+        {
+          "label": "More than one",
+          "value": "die Würstchen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wiener Würstchen mit Kartoffelsalat.",
+      "english": "Frankfurters with potato salad.",
+      "highlight": [
+        "Würstchen"
+      ]
+    },
+    {
+      "german": "Die Kinder essen gern Würstchen.",
+      "english": "Children love sausages.",
+      "highlight": [
+        "Würstchen."
+      ]
+    },
+    {
+      "german": "Er ist ein armes Würstchen.",
+      "english": "He's a poor little thing.",
+      "highlight": [
+        "Würstchen."
+      ]
+    }
+  ],
+  "forms": [
+    "Wurst"
+  ],
+  "memoryHook": "Die Wurst → das Würstchen.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Würstchen",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Würstchen is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Würstchen, zwei ___",
+      "answer": "Würstchen",
+      "fullAnswer": "ein Würstchen, zwei Würstchen",
+      "explanation": "The plural is Würstchen.",
+      "acceptedAnswers": [
+        "Wuerstchen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Würstchen mean?",
+      "options": [
+        "sausage (small)",
+        "the key",
+        "the window"
+      ],
+      "answer": "sausage (small)",
+      "explanation": "Würstchen: sausage (small).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "die Wurst + -chen",
+        "das Wort"
+      ],
+      "answer": "die Wurst + -chen",
+      "explanation": "Small sausage.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gender:",
+      "options": [
+        "das",
+        "die"
+      ],
+      "answer": "das",
+      "explanation": "-chen = das.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Ein armes Würstchen' means…",
+      "options": [
+        "a pitiful person",
+        "a cheap sausage"
+      ],
+      "answer": "a pitiful person",
+      "explanation": "Idiom.",
+      "id": "q6"
+    }
+  ]
+}

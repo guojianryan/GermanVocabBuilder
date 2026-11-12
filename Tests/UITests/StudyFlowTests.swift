@@ -127,6 +127,68 @@ final class StudyFlowTests: XCTestCase {
         XCTAssertTrue(app.staticTexts["Today’s five complete"].waitForExistence(timeout: 10))
     }
 
+    @MainActor func testDailyReminderCanBeEnabledAndDisabled() throws {
+        let app = makeApp()
+        app.launch()
+        app.buttons["Settings"].tap()
+        let toggle = app.switches["dailyReminderToggle"]
+        for _ in 0..<4 where !toggle.isHittable { app.swipeUp() }
+        XCTAssertTrue(toggle.waitForExistence(timeout: 5))
+        XCTAssertEqual(toggle.value as? String, "0")
+        toggle.tap()
+        let allow = XCUIApplication(bundleIdentifier: "com.apple.springboard").buttons["Allow"]
+        if allow.waitForExistence(timeout: 3) { allow.tap() }
+        let enabled = expectation(for: NSPredicate(format: "value == '1'"), evaluatedWith: toggle)
+        wait(for: [enabled], timeout: 5)
+        XCTAssertTrue(app.datePickers["reminderTimePicker"].exists)
+        attach(app, "Daily review reminder enabled")
+        app.terminate()
+        app.launch()
+        app.buttons["Settings"].tap()
+        for _ in 0..<4 where !toggle.isHittable { app.swipeUp() }
+        XCTAssertEqual(toggle.value as? String, "1", "Reminder preference survives relaunch")
+        toggle.tap()
+        let disabled = expectation(for: NSPredicate(format: "value == '0'"), evaluatedWith: toggle)
+        wait(for: [disabled], timeout: 5)
+        XCTAssertFalse(app.datePickers["reminderTimePicker"].exists)
+    }
+
+    @MainActor func testDeckRemovalWaitsFiveSecondsAndSupportsUndo() throws {
+        let app = makeApp()
+        app.launch()
+        let search = app.textFields["wordSearch"]
+        XCTAssertTrue(search.waitForExistence(timeout: 10))
+        search.tap()
+        search.typeText("apple")
+        let add = app.buttons["Add Apfel to deck"]
+        XCTAssertTrue(add.waitForExistence(timeout: 5))
+        add.tap()
+        app.buttons["My Deck"].tap()
+        let remove = app.buttons["Remove Apfel from deck"]
+        XCTAssertTrue(remove.waitForExistence(timeout: 5))
+        remove.tap()
+        let undo = app.buttons["Undo removal of Apfel"]
+        XCTAssertTrue(undo.waitForExistence(timeout: 2))
+        XCTAssertTrue(app.staticTexts["Apfel"].exists, "Word stays visible during the grace period")
+        undo.tap()
+        XCTAssertTrue(remove.waitForExistence(timeout: 2))
+        // Wait past the original deadline to verify Undo cancels removal.
+        let stillSaved = expectation(for: NSPredicate(format: "exists == true"), evaluatedWith: remove)
+        stillSaved.assertForOverFulfill = false
+        RunLoop.current.run(until: Date().addingTimeInterval(6))
+        wait(for: [stillSaved], timeout: 2)
+        XCTAssertTrue(remove.exists)
+        remove.tap()
+        XCTAssertTrue(undo.waitForExistence(timeout: 2))
+        let deleted = expectation(for: NSPredicate(format: "exists == false"), evaluatedWith: undo)
+        wait(for: [deleted], timeout: 7)
+        XCTAssertTrue(app.staticTexts["Your deck starts here"].exists)
+        app.terminate()
+        app.launch()
+        app.buttons["My Deck"].tap()
+        XCTAssertTrue(app.staticTexts["Your deck starts here"].waitForExistence(timeout: 10))
+    }
+
     @MainActor func testSearchDeckLessonAndPractice() throws {
         let app = makeApp()
         app.launch()

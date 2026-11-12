@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Hausordnung",
+    "partOfSpeech": "noun, feminine (die Hausordnung)",
+    "pronunciation": {
+      "respelling": "HOWS-ort-nung",
+      "ipa": "ˈhaʊ̯sʔɔʁdnʊŋ",
+      "notes": "Plural: die Hausordnungen."
+    },
+    "meaning": "house rules (for a building)",
+    "shortDefinition": "House rules (for a building)."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Haus",
+        "meaning": "house"
+      },
+      {
+        "part": "ordnung",
+        "meaning": "order, rules"
+      }
+    ],
+    "literalMeaning": "house order"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Hausordnung, plural die Hausordnungen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Hausordnung"
+        },
+        {
+          "label": "More than one",
+          "value": "die Hausordnungen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Laut Hausordnung ist ab 22 Uhr Ruhe.",
+      "english": "According to the house rules, it's quiet from 10 pm.",
+      "highlight": [
+        "Hausordnung"
+      ]
+    },
+    {
+      "german": "Die Hausordnung hängt im Flur.",
+      "english": "The house rules are in the hallway.",
+      "highlight": [
+        "Hausordnung"
+      ]
+    },
+    {
+      "german": "Das verstößt gegen die Hausordnung.",
+      "english": "That's against the house rules.",
+      "highlight": [
+        "Hausordnung."
+      ]
+    }
+  ],
+  "forms": [
+    "Ordnung",
+    "Ruhezeit"
+  ],
+  "memoryHook": "Haus + Ordnung = house rules; Ruhezeit.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Hausordnung",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Hausordnung is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Hausordnung, zwei ___",
+      "answer": "Hausordnungen",
+      "fullAnswer": "ein Hausordnung, zwei Hausordnungen",
+      "explanation": "The plural is Hausordnungen.",
+      "acceptedAnswers": [
+        "Hausordnungen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Hausordnung mean?",
+      "options": [
+        "cheap",
+        "the car",
+        "house rules (for a building)"
+      ],
+      "answer": "house rules (for a building)",
+      "explanation": "Hausordnung: house rules (for a building).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Haus + Ordnung (order)",
+        "Haus + Ordner"
+      ],
+      "answer": "Haus + Ordnung (order)",
+      "explanation": "House order.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Quiet time:",
+      "options": [
+        "die Ruhezeit",
+        "die Stillzeit"
+      ],
+      "answer": "die Ruhezeit",
+      "explanation": "Rules.",
+      "id": "q5"
+    }
+  ]
+}

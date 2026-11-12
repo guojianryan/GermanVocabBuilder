@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Kuscheltier",
+    "partOfSpeech": "noun, neuter (das Kuscheltier)",
+    "pronunciation": {
+      "respelling": "KU-shel-teer",
+      "ipa": "ˈkʊʃl̩ˌtiːɐ̯",
+      "notes": "Plural: die Kuscheltiere."
+    },
+    "meaning": "cuddly toy, soft toy",
+    "shortDefinition": "Cuddly toy, soft toy."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Kuschel",
+        "meaning": "cuddle"
+      },
+      {
+        "part": "tier",
+        "meaning": "animal"
+      }
+    ],
+    "literalMeaning": "cuddle animal"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Kuscheltier, plural die Kuscheltiere.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Kuscheltier"
+        },
+        {
+          "label": "More than one",
+          "value": "die Kuscheltiere"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Sie schläft nie ohne ihr Kuscheltier.",
+      "english": "She never sleeps without her cuddly toy.",
+      "highlight": [
+        "Kuscheltier."
+      ]
+    },
+    {
+      "german": "Das Kuscheltier ist ein Hase.",
+      "english": "The soft toy is a rabbit.",
+      "highlight": [
+        "Kuscheltier"
+      ]
+    },
+    {
+      "german": "Er hat viele Kuscheltiere.",
+      "english": "He has lots of soft toys.",
+      "highlight": [
+        "Kuscheltiere."
+      ]
+    }
+  ],
+  "forms": [
+    "kuscheln",
+    "Tier"
+  ],
+  "memoryHook": "Kuscheln + Tier = soft toy.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Kuscheltier",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Kuscheltier is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Kuscheltier, zwei ___",
+      "answer": "Kuscheltiere",
+      "fullAnswer": "ein Kuscheltier, zwei Kuscheltiere",
+      "explanation": "The plural is Kuscheltiere.",
+      "acceptedAnswers": [
+        "Kuscheltiere"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Kuscheltier mean?",
+      "options": [
+        "to travel",
+        "to buy",
+        "cuddly toy"
+      ],
+      "answer": "cuddly toy",
+      "explanation": "Kuscheltier: cuddly toy, soft toy.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "kuscheln (cuddle) + Tier",
+        "Kuss + Tier"
+      ],
+      "answer": "kuscheln (cuddle) + Tier",
+      "explanation": "Cuddle animal.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gender comes from…",
+      "options": [
+        "das Tier",
+        "kuscheln"
+      ],
+      "answer": "das Tier",
+      "explanation": "Last part.",
+      "id": "q5"
+    }
+  ]
+}

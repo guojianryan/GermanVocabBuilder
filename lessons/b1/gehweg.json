@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Gehweg",
+    "partOfSpeech": "noun, masculine (der Gehweg)",
+    "pronunciation": {
+      "respelling": "GAY-vayk",
+      "ipa": "ˈɡeːveːk",
+      "notes": "Plural: die Gehwege."
+    },
+    "meaning": "pavement, sidewalk",
+    "shortDefinition": "Pavement, sidewalk."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Geh",
+        "meaning": "walk (gehen)"
+      },
+      {
+        "part": "weg",
+        "meaning": "way"
+      }
+    ],
+    "literalMeaning": "walking way"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Gehweg, plural die Gehwege.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Gehweg"
+        },
+        {
+          "label": "More than one",
+          "value": "die Gehwege"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Bitte auf dem Gehweg bleiben!",
+      "english": "Please stay on the pavement!",
+      "highlight": [
+        "Gehweg"
+      ]
+    },
+    {
+      "german": "Radfahren auf dem Gehweg ist verboten.",
+      "english": "Cycling on the pavement is forbidden.",
+      "highlight": [
+        "Gehweg"
+      ]
+    },
+    {
+      "german": "Der Gehweg ist glatt.",
+      "english": "The pavement is icy.",
+      "highlight": [
+        "Gehweg"
+      ]
+    }
+  ],
+  "forms": [
+    "Bürgersteig",
+    "Fußweg"
+  ],
+  "memoryHook": "Gehen + Weg = pavement (= Bürgersteig).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Gehweg",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Gehweg is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Gehweg, zwei ___",
+      "answer": "Gehwege",
+      "fullAnswer": "ein Gehweg, zwei Gehwege",
+      "explanation": "The plural is Gehwege.",
+      "acceptedAnswers": [
+        "Gehwege"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Gehweg mean?",
+      "options": [
+        "pavement",
+        "quiet",
+        "the family"
+      ],
+      "answer": "pavement",
+      "explanation": "Gehweg: pavement, sidewalk.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "gehen + Weg",
+        "Geh + weg (away)"
+      ],
+      "answer": "gehen + Weg",
+      "explanation": "Walking way.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonyms:",
+      "options": [
+        "der Bürgersteig, der Fußweg",
+        "die Fahrbahn"
+      ],
+      "answer": "der Bürgersteig, der Fußweg",
+      "explanation": "Pavement.",
+      "id": "q5"
+    }
+  ]
+}

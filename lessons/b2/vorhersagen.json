@@ -1,0 +1,188 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "vorhersagen",
+    "partOfSpeech": "separable verb",
+    "pronunciation": {
+      "respelling": "for-HAYR-zaa-gen",
+      "ipa": "foːɐ̯ˈheːɐ̯ˌzaːɡn̩",
+      "notes": ""
+    },
+    "meaning": "to predict, forecast",
+    "shortDefinition": "To predict, forecast."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "vorher",
+        "meaning": "beforehand",
+        "emphasis": "stretch"
+      },
+      {
+        "part": "sagen",
+        "meaning": "to say"
+      }
+    ],
+    "literalMeaning": "to say beforehand",
+    "summary": "Looking ahead in time."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "sag|e … |vorher"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "sag|st … |vorher"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "sag|t … |vorher"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "sag|en … |vorher"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "sag|t … |vorher"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "sag|en … |vorher"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat vorhergesagt"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Für morgen ist Regen vorhergesagt.",
+      "english": "Rain is forecast for tomorrow.",
+      "highlight": [
+        "vorhergesagt."
+      ]
+    },
+    {
+      "german": "Niemand kann die Zukunft vorhersagen.",
+      "english": "Nobody can predict the future.",
+      "highlight": [
+        "vorhersagen."
+      ]
+    },
+    {
+      "german": "Er sagte den Sieg vorher.",
+      "english": "He predicted the win.",
+      "highlight": [
+        "sagte",
+        "vorher."
+      ]
+    }
+  ],
+  "forms": [
+    "sage vorher",
+    "sagst vorher",
+    "sagt vorher",
+    "sagen vorher",
+    "vorhergesagt",
+    "Vorhersage",
+    "Wettervorhersage"
+  ],
+  "memoryHook": "Vorher + sagen = predict; die Vorhersage.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ … vorher (vorhersagen)",
+      "answer": "sagt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: sagt … vorher.",
+      "acceptedAnswers": [
+        "sagt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (vorhersagen, past)",
+      "answer": "vorhergesagt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe vorhergesagt.",
+      "acceptedAnswers": [
+        "vorhergesagt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does vorhersagen mean?",
+      "options": [
+        "to buy",
+        "the weather",
+        "to predict"
+      ],
+      "answer": "to predict",
+      "explanation": "vorhersagen: to predict, forecast.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Noun:",
+      "options": [
+        "die Vorhersage (forecast)",
+        "die Vorhersagung"
+      ],
+      "answer": "die Vorhersage (forecast)",
+      "explanation": "Forecast.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Weather forecast:",
+      "options": [
+        "die Wettervorhersage",
+        "der Wetterbericht only"
+      ],
+      "answer": "die Wettervorhersage",
+      "explanation": "Both used.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Separable?",
+      "options": [
+        "yes – sagt … vorher",
+        "no"
+      ],
+      "answer": "yes – sagt … vorher",
+      "explanation": "Separable.",
+      "id": "q6"
+    }
+  ]
+}

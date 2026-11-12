@@ -1,0 +1,135 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Zauberer",
+    "partOfSpeech": "noun, masculine (der Zauberer)",
+    "pronunciation": {
+      "respelling": "TSOW-be-rer",
+      "ipa": "ˈtsaʊ̯bəʁɐ",
+      "notes": "The plural looks the same. Plural: die Zauberer."
+    },
+    "meaning": "magician, wizard",
+    "shortDefinition": "Magician, wizard."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Zauberer, plural die Zauberer.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Zauberer"
+        },
+        {
+          "label": "More than one",
+          "value": "die Zauberer"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Zauberer zieht ein Kaninchen aus dem Hut.",
+      "english": "The magician pulls a rabbit out of the hat.",
+      "highlight": [
+        "Zauberer"
+      ]
+    },
+    {
+      "german": "Der Zauberer von Oz.",
+      "english": "The Wizard of Oz.",
+      "highlight": [
+        "Zauberer"
+      ]
+    },
+    {
+      "german": "Sie ist eine echte Zauberin in der Küche.",
+      "english": "She's a real wizard in the kitchen.",
+      "highlight": [
+        "Zauberin"
+      ]
+    }
+  ],
+  "forms": [
+    "zaubern",
+    "Zauberin",
+    "Hexe"
+  ],
+  "memoryHook": "Zaubern → der Zauberer, die Zauberin; Hexe.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Zauberer",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Zauberer is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Zauberer, zwei ___",
+      "answer": "Zauberer",
+      "fullAnswer": "ein Zauberer, zwei Zauberer",
+      "explanation": "The plural is Zauberer.",
+      "acceptedAnswers": [
+        "Zauberer"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Zauberer mean?",
+      "options": [
+        "magician",
+        "the family",
+        "to help"
+      ],
+      "answer": "magician",
+      "explanation": "Zauberer: magician, wizard.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "zaubern (do magic)",
+        "Zauber only"
+      ],
+      "answer": "zaubern (do magic)",
+      "explanation": "Magic.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Female:",
+      "options": [
+        "die Zauberin",
+        "die Zaubererin"
+      ],
+      "answer": "die Zauberin",
+      "explanation": "-in.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Witch:",
+      "options": [
+        "die Hexe",
+        "die Zauberin only"
+      ],
+      "answer": "die Hexe",
+      "explanation": "Fairy tales.",
+      "id": "q6"
+    }
+  ]
+}

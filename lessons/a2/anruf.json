@@ -1,0 +1,148 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Anruf",
+    "partOfSpeech": "noun, masculine (der Anruf)",
+    "pronunciation": {
+      "respelling": "AN-roof",
+      "ipa": "ˈanʁuːf",
+      "notes": "Plural: die Anrufe."
+    },
+    "meaning": "phone call",
+    "shortDefinition": "Phone call."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "An",
+        "meaning": "to, at"
+      },
+      {
+        "part": "ruf",
+        "meaning": "call (rufen)"
+      }
+    ],
+    "literalMeaning": "a call to"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Anruf, plural die Anrufe.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Anruf"
+        },
+        {
+          "label": "More than one",
+          "value": "die Anrufe"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Danke für deinen Anruf!",
+      "english": "Thanks for your call!",
+      "highlight": [
+        "Anruf!"
+      ]
+    },
+    {
+      "german": "Ich warte auf einen wichtigen Anruf.",
+      "english": "I'm waiting for an important call.",
+      "highlight": [
+        "Anruf."
+      ]
+    },
+    {
+      "german": "Ich hatte drei verpasste Anrufe.",
+      "english": "I had three missed calls.",
+      "highlight": [
+        "Anrufe."
+      ]
+    }
+  ],
+  "forms": [
+    "anrufen",
+    "Anrufer"
+  ],
+  "memoryHook": "Anrufen → der Anruf; der Anrufer (caller).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Anruf",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Anruf is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Anruf, zwei ___",
+      "answer": "Anrufe",
+      "fullAnswer": "ein Anruf, zwei Anrufe",
+      "explanation": "The plural is Anrufe.",
+      "acceptedAnswers": [
+        "Anrufe"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Anruf mean?",
+      "options": [
+        "phone call",
+        "to help",
+        "the car"
+      ],
+      "answer": "phone call",
+      "explanation": "Anruf: phone call.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Verb:",
+      "options": [
+        "anrufen",
+        "rufen an"
+      ],
+      "answer": "anrufen",
+      "explanation": "Ich rufe dich an.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Missed call:",
+      "options": [
+        "ein verpasster Anruf",
+        "ein verlorener Anruf"
+      ],
+      "answer": "ein verpasster Anruf",
+      "explanation": "Phone.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Answering machine:",
+      "options": [
+        "der Anrufbeantworter",
+        "der Anrufer"
+      ],
+      "answer": "der Anrufbeantworter",
+      "explanation": "Compound.",
+      "id": "q6"
+    }
+  ]
+}

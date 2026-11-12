@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Zaun",
+    "partOfSpeech": "noun, masculine (der Zaun)",
+    "pronunciation": {
+      "respelling": "TSOWN",
+      "ipa": "tsaʊ̯n",
+      "notes": "Plural: die Zäune."
+    },
+    "meaning": "fence",
+    "shortDefinition": "Fence."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Zaun, plural die Zäune.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Zaun"
+        },
+        {
+          "label": "More than one",
+          "value": "die Zäune"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Hund springt über den Zaun.",
+      "english": "The dog jumps over the fence.",
+      "highlight": [
+        "Zaun."
+      ]
+    },
+    {
+      "german": "Wir bauen einen neuen Zaun.",
+      "english": "We're building a new fence.",
+      "highlight": [
+        "Zaun."
+      ]
+    },
+    {
+      "german": "Er hat einen Streit vom Zaun gebrochen.",
+      "english": "He started a quarrel out of nowhere.",
+      "highlight": [
+        "Zaun"
+      ]
+    }
+  ],
+  "forms": [
+    "Zäune",
+    "die Zäune",
+    "der Zaun"
+  ],
+  "memoryHook": "Der Zaun, die Zäune.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Zaun",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Zaun is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Zaun, zwei ___",
+      "answer": "Zäune",
+      "fullAnswer": "ein Zaun, zwei Zäune",
+      "explanation": "The plural is Zäune.",
+      "acceptedAnswers": [
+        "Zaeune"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Zaun mean?",
+      "options": [
+        "fence",
+        "the street",
+        "the door"
+      ],
+      "answer": "fence",
+      "explanation": "Zaun: fence.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Zäune",
+        "Zaune"
+      ],
+      "answer": "Zäune",
+      "explanation": "Umlaut.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Einen Streit vom Zaun brechen' means…",
+      "options": [
+        "to start a fight for no reason",
+        "to fix a fence"
+      ],
+      "answer": "to start a fight for no reason",
+      "explanation": "Idiom.",
+      "id": "q5"
+    }
+  ]
+}

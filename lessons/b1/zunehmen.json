@@ -1,171 +1,177 @@
 {
- "schemaVersion": "1.4",
- "language": "de",
- "explanationLanguage": "en",
- "level": "B1",
- "levelSource": "Goethe-Zertifikat B1 Wortliste",
- "lessonType": "card",
- "word": {
-  "headword": "zunehmen",
-  "partOfSpeech": "separable verb",
-  "pronunciation": {
-   "respelling": "TSOO-nay-men",
-   "ipa": "ˈtsuːˌneːmən",
-   "notes": ""
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "zunehmen",
+    "partOfSpeech": "separable verb",
+    "pronunciation": {
+      "respelling": "TSOO-nay-men",
+      "ipa": "ˈtsuːˌneːmən",
+      "notes": ""
+    },
+    "meaning": "to increase; to put on weight",
+    "shortDefinition": "To increase; to put on weight."
   },
-  "meaning": "to increase; to put on weight",
-  "shortDefinition": "To increase; to put on weight."
- },
- "tables": [
-  {
-   "title": "Present tense",
-   "columns": [
-    "present"
-   ],
-   "rows": [
+  "tables": [
     {
-     "label": "ich",
-     "cells": [
-      "nehm|e … |zu"
-     ]
-    },
-    {
-     "label": "du",
-     "cells": [
-      "nimm|st … |zu"
-     ]
-    },
-    {
-     "label": "er, sie, es",
-     "cells": [
-      "nimm|t … |zu"
-     ]
-    },
-    {
-     "label": "wir",
-     "cells": [
-      "nehm|en … |zu"
-     ]
-    },
-    {
-     "label": "ihr",
-     "cells": [
-      "nehm|t … |zu"
-     ]
-    },
-    {
-     "label": "sie, Sie",
-     "cells": [
-      "nehm|en … |zu"
-     ]
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "nehm|e … |zu"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "nimm|st … |zu"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "nimm|t … |zu"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "nehm|en … |zu"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "nehm|t … |zu"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "nehm|en … |zu"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat zugenommen"
+      ]
     }
-   ],
-   "notes": [
-    "Past (Perfekt): hat zugenommen"
-   ]
-  }
- ],
- "sampleSentences": [
-  {
-   "german": "Ich habe zwei Kilo zugenommen.",
-   "english": "I've put on two kilos.",
-   "highlight": [
-    "zugenommen."
-   ]
-  },
-  {
-   "german": "Der Verkehr nimmt zu.",
-   "english": "Traffic is increasing.",
-   "highlight": [
-    "nimmt",
-    "zu."
-   ]
-  },
-  {
-   "german": "Im Winter nehme ich immer zu.",
-   "english": "I always put on weight in winter.",
-   "highlight": [
-    "nehme",
-    "zu."
-   ]
-  }
- ],
- "forms": [
-  "Zunahme"
- ],
- "memoryHook": "Zunehmen ↔ abnehmen. Die Zunahme = increase.",
- "signOff": "Gut gemacht!",
- "quiz": [
-  {
-   "type": "fill-in-the-blank",
-   "prompt": "er ___ … zu (zunehmen)",
-   "answer": "nimmt",
-   "fullAnswer": "",
-   "explanation": "For er, sie, es: nimmt … zu.",
-   "acceptedAnswers": [
-    "nimmt"
-   ],
-   "id": "q1"
-  },
-  {
-   "type": "fill-in-the-blank",
-   "prompt": "Ich habe schon ___. (zunehmen, past)",
-   "answer": "zugenommen",
-   "fullAnswer": "",
-   "explanation": "Perfekt: habe zugenommen.",
-   "acceptedAnswers": [
-    "zugenommen"
-   ],
-   "id": "q2"
-  },
-  {
-   "type": "choice",
-   "prompt": "What does zunehmen mean?",
-   "options": [
-    "the bread",
-    "to help",
-    "to increase"
-   ],
-   "answer": "to increase",
-   "explanation": "zunehmen: to increase; to put on weight.",
-   "id": "q3"
-  },
-  {
-   "type": "choice",
-   "prompt": "Opposite:",
-   "options": [
-    "abnehmen",
-    "aufnehmen"
-   ],
-   "answer": "abnehmen",
-   "explanation": "Lose weight; decrease.",
-   "id": "q4"
-  },
-  {
-   "type": "choice",
-   "prompt": "er ___ … zu (zunehmen):",
-   "options": [
-    "nimmt",
-    "nehmt"
-   ],
-   "answer": "nimmt",
-   "explanation": "e → i.",
-   "id": "q5"
-  }
- ],
- "etymology": {
-  "title": "Where it comes from",
-  "parts": [
-   {
-    "part": "zu",
-    "meaning": "on"
-   },
-   {
-    "part": "nehmen",
-    "meaning": "to take",
-    "emphasis": "stretch"
-   }
   ],
-  "literalMeaning": "to take on"
- }
+  "sampleSentences": [
+    {
+      "german": "Ich habe zwei Kilo zugenommen.",
+      "english": "I've put on two kilos.",
+      "highlight": [
+        "zugenommen."
+      ]
+    },
+    {
+      "german": "Der Verkehr nimmt zu.",
+      "english": "Traffic is increasing.",
+      "highlight": [
+        "nimmt",
+        "zu."
+      ]
+    },
+    {
+      "german": "Im Winter nehme ich immer zu.",
+      "english": "I always put on weight in winter.",
+      "highlight": [
+        "nehme",
+        "zu."
+      ]
+    }
+  ],
+  "forms": [
+    "nehme zu",
+    "nimmst zu",
+    "nimmt zu",
+    "nehmen zu",
+    "nehmt zu",
+    "zugenommen",
+    "Zunahme"
+  ],
+  "memoryHook": "Zunehmen ↔ abnehmen. Die Zunahme = increase.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ … zu (zunehmen)",
+      "answer": "nimmt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: nimmt … zu.",
+      "acceptedAnswers": [
+        "nimmt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (zunehmen, past)",
+      "answer": "zugenommen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe zugenommen.",
+      "acceptedAnswers": [
+        "zugenommen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does zunehmen mean?",
+      "options": [
+        "the bread",
+        "to help",
+        "to increase"
+      ],
+      "answer": "to increase",
+      "explanation": "zunehmen: to increase; to put on weight.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Opposite:",
+      "options": [
+        "abnehmen",
+        "aufnehmen"
+      ],
+      "answer": "abnehmen",
+      "explanation": "Lose weight; decrease.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "er ___ … zu (zunehmen):",
+      "options": [
+        "nimmt",
+        "nehmt"
+      ],
+      "answer": "nimmt",
+      "explanation": "e → i.",
+      "id": "q5"
+    }
+  ],
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "zu",
+        "meaning": "on"
+      },
+      {
+        "part": "nehmen",
+        "meaning": "to take",
+        "emphasis": "stretch"
+      }
+    ],
+    "literalMeaning": "to take on"
+  }
 }

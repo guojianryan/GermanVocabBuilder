@@ -1,0 +1,105 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "simpel",
+    "partOfSpeech": "adjective",
+    "pronunciation": {
+      "respelling": "ZIM-pel",
+      "ipa": "ˈzɪmpl̩",
+      "notes": ""
+    },
+    "meaning": "simple, basic; simplistic",
+    "shortDefinition": "Simple, basic; simplistic."
+  },
+  "sampleSentences": [
+    {
+      "german": "Die Lösung ist ganz simpel.",
+      "english": "The solution is really simple.",
+      "highlight": [
+        "simpel."
+      ]
+    },
+    {
+      "german": "Eine simple Frage.",
+      "english": "A simple question.",
+      "highlight": [
+        "simple"
+      ]
+    },
+    {
+      "german": "Das ist mir zu simpel.",
+      "english": "That's too simplistic for me.",
+      "highlight": [
+        "simpel."
+      ]
+    }
+  ],
+  "forms": [
+    "einfach"
+  ],
+  "memoryHook": "Simpel = einfach (simple, sometimes simplistic).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does simpel mean?",
+      "options": [
+        "to learn",
+        "simple",
+        "the evening"
+      ],
+      "answer": "simple",
+      "explanation": "simpel: simple, basic; simplistic.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Declined form loses the e:",
+      "options": [
+        "eine simple Frage",
+        "eine simpele Frage"
+      ],
+      "answer": "eine simple Frage",
+      "explanation": "-el → -l-.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonym:",
+      "options": [
+        "einfach",
+        "schwierig"
+      ],
+      "answer": "einfach",
+      "explanation": "Simple.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Can sound…",
+      "options": [
+        "slightly negative (simplistic)",
+        "always positive"
+      ],
+      "answer": "slightly negative (simplistic)",
+      "explanation": "Nuance.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Das ist ein ___ Trick. (simple)",
+      "answer": "simpler",
+      "fullAnswer": "Das ist ein simpler Trick.",
+      "explanation": "Simpler.",
+      "acceptedAnswers": [
+        "einfacher"
+      ],
+      "id": "q5"
+    }
+  ]
+}

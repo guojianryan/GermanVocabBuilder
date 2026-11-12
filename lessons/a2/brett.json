@@ -1,0 +1,133 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Brett",
+    "partOfSpeech": "noun, neuter (das Brett)",
+    "pronunciation": {
+      "respelling": "BRET",
+      "ipa": "bʁɛt",
+      "notes": "Plural: die Bretter."
+    },
+    "meaning": "board, plank; shelf",
+    "shortDefinition": "Board, plank; shelf."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Brett, plural die Bretter.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Brett"
+        },
+        {
+          "label": "More than one",
+          "value": "die Bretter"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ein Brett aus Holz.",
+      "english": "A wooden board.",
+      "highlight": [
+        "Brett"
+      ]
+    },
+    {
+      "german": "Wir spielen ein Brettspiel.",
+      "english": "We're playing a board game.",
+      "highlight": [
+        "Brettspiel."
+      ]
+    },
+    {
+      "german": "Ich hab ein Brett vor dem Kopf.",
+      "english": "I can't think straight.",
+      "highlight": [
+        "Brett"
+      ]
+    }
+  ],
+  "forms": [
+    "Brettspiel"
+  ],
+  "memoryHook": "Das Brett; Brettspiel; schwarzes Brett.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Brett",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Brett is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Brett, zwei ___",
+      "answer": "Bretter",
+      "fullAnswer": "ein Brett, zwei Bretter",
+      "explanation": "The plural is Bretter.",
+      "acceptedAnswers": [
+        "Bretter"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Brett mean?",
+      "options": [
+        "to open",
+        "board",
+        "the weather"
+      ],
+      "answer": "board",
+      "explanation": "Brett: board, plank; shelf.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Board game:",
+      "options": [
+        "das Brettspiel",
+        "das Tischspiel"
+      ],
+      "answer": "das Brettspiel",
+      "explanation": "Compound.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Ein Brett vor dem Kopf haben' means…",
+      "options": [
+        "to be slow on the uptake",
+        "to be injured"
+      ],
+      "answer": "to be slow on the uptake",
+      "explanation": "Idiom.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Das schwarze Brett' means…",
+      "options": [
+        "the noticeboard",
+        "a blackboard only"
+      ],
+      "answer": "the noticeboard",
+      "explanation": "Notices.",
+      "id": "q6"
+    }
+  ]
+}

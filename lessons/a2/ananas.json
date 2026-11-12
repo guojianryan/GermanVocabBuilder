@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Ananas",
+    "partOfSpeech": "noun, feminine (die Ananas)",
+    "pronunciation": {
+      "respelling": "A-na-nas",
+      "ipa": "ˈananas",
+      "notes": "Plural: die Ananas or die Ananasse. Plural: die Ananas."
+    },
+    "meaning": "pineapple",
+    "shortDefinition": "Pineapple."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Ananas, plural die Ananas.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Ananas"
+        },
+        {
+          "label": "More than one",
+          "value": "die Ananas"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Pizza mit Ananas? Nein, danke!",
+      "english": "Pizza with pineapple? No thanks!",
+      "highlight": [
+        "Ananas?"
+      ]
+    },
+    {
+      "german": "Die Ananas ist süß.",
+      "english": "The pineapple is sweet.",
+      "highlight": [
+        "Ananas"
+      ]
+    },
+    {
+      "german": "Ich kaufe zwei Ananas.",
+      "english": "I'm buying two pineapples.",
+      "highlight": [
+        "Ananas."
+      ]
+    }
+  ],
+  "forms": [
+    "Ananas",
+    "die Ananas",
+    "die Ananas"
+  ],
+  "memoryHook": "Die Ananas (pineapple).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Ananas",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Ananas is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Ananas, zwei ___",
+      "answer": "Ananas",
+      "fullAnswer": "ein Ananas, zwei Ananas",
+      "explanation": "The plural is Ananas.",
+      "acceptedAnswers": [
+        "Ananas"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Ananas mean?",
+      "options": [
+        "pineapple",
+        "quiet",
+        "to learn"
+      ],
+      "answer": "pineapple",
+      "explanation": "Ananas: pineapple.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Ananas (or Ananasse)",
+        "Ananassen only"
+      ],
+      "answer": "Ananas (or Ananasse)",
+      "explanation": "Usually unchanged.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Stress on…",
+      "options": [
+        "A-",
+        "-NAS"
+      ],
+      "answer": "A-",
+      "explanation": "A-na-nas.",
+      "id": "q5"
+    }
+  ]
+}

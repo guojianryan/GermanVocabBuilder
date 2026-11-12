@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Gurke",
+    "partOfSpeech": "noun, feminine (die Gurke)",
+    "pronunciation": {
+      "respelling": "GOOR-ke",
+      "ipa": "ˈɡʊʁkə",
+      "notes": "Plural: die Gurken."
+    },
+    "meaning": "cucumber; gherkin",
+    "shortDefinition": "Cucumber; gherkin."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Gurke, plural die Gurken.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Gurke"
+        },
+        {
+          "label": "More than one",
+          "value": "die Gurken"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ein Salat mit Tomaten und Gurken.",
+      "english": "A salad with tomatoes and cucumbers.",
+      "highlight": [
+        "Gurken."
+      ]
+    },
+    {
+      "german": "Saure Gurken.",
+      "english": "Pickled gherkins.",
+      "highlight": [
+        "Gurken."
+      ]
+    },
+    {
+      "german": "Die Gurke ist frisch.",
+      "english": "The cucumber is fresh.",
+      "highlight": [
+        "Gurke"
+      ]
+    }
+  ],
+  "forms": [
+    "Essiggurke"
+  ],
+  "memoryHook": "Die Gurke; Essiggurke; Gurkensalat.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Gurke",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Gurke is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Gurke, zwei ___",
+      "answer": "Gurken",
+      "fullAnswer": "ein Gurke, zwei Gurken",
+      "explanation": "The plural is Gurken.",
+      "acceptedAnswers": [
+        "Gurken"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Gurke mean?",
+      "options": [
+        "the child",
+        "the bread",
+        "cucumber"
+      ],
+      "answer": "cucumber",
+      "explanation": "Gurke: cucumber; gherkin.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gherkins:",
+      "options": [
+        "Essiggurken, saure Gurken",
+        "kleine Tomaten"
+      ],
+      "answer": "Essiggurken, saure Gurken",
+      "explanation": "Pickled.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Gurken",
+        "Gurke"
+      ],
+      "answer": "Gurken",
+      "explanation": "-n.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Zeitplan",
+    "partOfSpeech": "noun, masculine (der Zeitplan)",
+    "pronunciation": {
+      "respelling": "TSITE-plaan",
+      "ipa": "ˈtsaɪ̯tˌplaːn",
+      "notes": "Plural: die Zeitpläne."
+    },
+    "meaning": "schedule, timetable",
+    "shortDefinition": "Schedule, timetable."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Zeit",
+        "meaning": "time"
+      },
+      {
+        "part": "plan",
+        "meaning": "plan"
+      }
+    ],
+    "literalMeaning": "time plan"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Zeitplan, plural die Zeitpläne.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Zeitplan"
+        },
+        {
+          "label": "More than one",
+          "value": "die Zeitpläne"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir liegen gut im Zeitplan.",
+      "english": "We're on schedule.",
+      "highlight": [
+        "Zeitplan."
+      ]
+    },
+    {
+      "german": "Der Zeitplan ist sehr eng.",
+      "english": "The schedule is very tight.",
+      "highlight": [
+        "Zeitplan"
+      ]
+    },
+    {
+      "german": "Hast du einen Zeitplan gemacht?",
+      "english": "Have you made a schedule?",
+      "highlight": [
+        "Zeitplan"
+      ]
+    }
+  ],
+  "forms": [
+    "Fahrplan",
+    "Plan"
+  ],
+  "memoryHook": "Zeit + Plan = schedule; Fahrplan (transport).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Zeitplan",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Zeitplan is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Zeitplan, zwei ___",
+      "answer": "Zeitpläne",
+      "fullAnswer": "ein Zeitplan, zwei Zeitpläne",
+      "explanation": "The plural is Zeitpläne.",
+      "acceptedAnswers": [
+        "Zeitplaene"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Zeitplan mean?",
+      "options": [
+        "schedule",
+        "the bed",
+        "expensive"
+      ],
+      "answer": "schedule",
+      "explanation": "Zeitplan: schedule, timetable.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Im Zeitplan liegen' means…",
+      "options": [
+        "to be on schedule",
+        "to be late"
+      ],
+      "answer": "to be on schedule",
+      "explanation": "Phrase.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Train timetable:",
+      "options": [
+        "der Fahrplan",
+        "der Zeitplan"
+      ],
+      "answer": "der Fahrplan",
+      "explanation": "Transport.",
+      "id": "q5"
+    }
+  ]
+}

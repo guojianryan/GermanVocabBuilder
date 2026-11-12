@@ -1,0 +1,143 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Entschädigung",
+    "partOfSpeech": "noun, feminine (die Entschädigung)",
+    "pronunciation": {
+      "respelling": "ent-SHAY-di-gung",
+      "ipa": "ɛntˈʃɛːdɪɡʊŋ",
+      "notes": "Plural: die Entschädigungen."
+    },
+    "meaning": "compensation",
+    "shortDefinition": "Compensation."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Ent",
+        "meaning": "away"
+      },
+      {
+        "part": "schädig",
+        "meaning": "damage (Schaden)",
+        "emphasis": "release"
+      },
+      {
+        "part": "ung",
+        "meaning": "noun ending"
+      }
+    ],
+    "literalMeaning": "an un-damaging",
+    "summary": "Taking the damage away."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Entschädigung, plural die Entschädigungen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Entschädigung"
+        },
+        {
+          "label": "More than one",
+          "value": "die Entschädigungen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Sie fordern eine Entschädigung.",
+      "english": "They're demanding compensation.",
+      "highlight": [
+        "Entschädigung."
+      ]
+    },
+    {
+      "german": "Als Entschädigung bekommt er 500 Euro.",
+      "english": "As compensation he gets 500 euros.",
+      "highlight": [
+        "Entschädigung"
+      ]
+    },
+    {
+      "german": "Entschädigung bei Flugverspätung.",
+      "english": "Compensation for flight delays.",
+      "highlight": [
+        "Entschädigung"
+      ]
+    }
+  ],
+  "forms": [
+    "entschädigen",
+    "Schaden"
+  ],
+  "memoryHook": "Ent + Schaden → entschädigen → die Entschädigung.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Entschädigung",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Entschädigung is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Entschädigung, zwei ___",
+      "answer": "Entschädigungen",
+      "fullAnswer": "ein Entschädigung, zwei Entschädigungen",
+      "explanation": "The plural is Entschädigungen.",
+      "acceptedAnswers": [
+        "Entschaedigungen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Entschädigung mean?",
+      "options": [
+        "compensation",
+        "expensive",
+        "to sleep"
+      ],
+      "answer": "compensation",
+      "explanation": "Entschädigung: compensation.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "entschädigen (compensate)",
+        "Schaden only"
+      ],
+      "answer": "entschädigen (compensate)",
+      "explanation": "Compensate.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built on…",
+      "options": [
+        "ent- (remove) + Schaden (damage)",
+        "ent + schade"
+      ],
+      "answer": "ent- (remove) + Schaden (damage)",
+      "explanation": "Undo damage.",
+      "id": "q5"
+    }
+  ]
+}

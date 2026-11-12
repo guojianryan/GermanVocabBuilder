@@ -1,0 +1,115 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Senf",
+    "partOfSpeech": "noun, masculine (der Senf)",
+    "pronunciation": {
+      "respelling": "ZENF",
+      "ipa": "zɛnf",
+      "notes": "Usually no plural."
+    },
+    "meaning": "mustard",
+    "shortDefinition": "Mustard."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Senf, usually no plural.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Senf"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Eine Bratwurst mit Senf, bitte.",
+      "english": "A bratwurst with mustard, please.",
+      "highlight": [
+        "Senf,"
+      ]
+    },
+    {
+      "german": "Der Senf ist scharf.",
+      "english": "The mustard is hot.",
+      "highlight": [
+        "Senf"
+      ]
+    },
+    {
+      "german": "Er muss immer seinen Senf dazugeben.",
+      "english": "He always has to put his two cents in.",
+      "highlight": [
+        "Senf"
+      ]
+    }
+  ],
+  "forms": [
+    "der Senf"
+  ],
+  "memoryHook": "Der Senf; seinen Senf dazugeben.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Senf",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Senf is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Senf mean?",
+      "options": [
+        "tomorrow",
+        "the child",
+        "mustard"
+      ],
+      "answer": "mustard",
+      "explanation": "Senf: mustard.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Seinen Senf dazugeben' means…",
+      "options": [
+        "to give one's (unwanted) opinion",
+        "to add spice"
+      ],
+      "answer": "to give one's (unwanted) opinion",
+      "explanation": "Idiom.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Sweet Bavarian mustard:",
+      "options": [
+        "süßer Senf",
+        "Honigsenf only"
+      ],
+      "answer": "süßer Senf",
+      "explanation": "With Weißwurst.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Eine Wurst mit ___ , bitte. (mustard)",
+      "answer": "Senf",
+      "fullAnswer": "Eine Wurst mit Senf, bitte.",
+      "explanation": "Senf.",
+      "id": "q5"
+    }
+  ]
+}

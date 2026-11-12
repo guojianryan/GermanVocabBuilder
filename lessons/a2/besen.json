@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Besen",
+    "partOfSpeech": "noun, masculine (der Besen)",
+    "pronunciation": {
+      "respelling": "BAY-zen",
+      "ipa": "ˈbeːzn̩",
+      "notes": "The plural looks the same. Plural: die Besen."
+    },
+    "meaning": "broom",
+    "shortDefinition": "Broom."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Besen, plural die Besen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Besen"
+        },
+        {
+          "label": "More than one",
+          "value": "die Besen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Fegen Sie mit dem Besen.",
+      "english": "Sweep with the broom.",
+      "highlight": [
+        "Besen."
+      ]
+    },
+    {
+      "german": "Die Hexe fliegt auf einem Besen.",
+      "english": "The witch flies on a broomstick.",
+      "highlight": [
+        "Besen."
+      ]
+    },
+    {
+      "german": "Ich fress einen Besen, wenn das stimmt!",
+      "english": "I'll eat my hat if that's true!",
+      "highlight": [
+        "Besen,"
+      ]
+    }
+  ],
+  "forms": [
+    "fegen",
+    "kehren"
+  ],
+  "memoryHook": "Der Besen; fegen, kehren.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Besen",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Besen is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Besen, zwei ___",
+      "answer": "Besen",
+      "fullAnswer": "ein Besen, zwei Besen",
+      "explanation": "The plural is Besen.",
+      "acceptedAnswers": [
+        "Besen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Besen mean?",
+      "options": [
+        "to buy",
+        "broom",
+        "the street"
+      ],
+      "answer": "broom",
+      "explanation": "Besen: broom.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Ich fresse einen Besen' means…",
+      "options": [
+        "I'll eat my hat",
+        "I'm very hungry"
+      ],
+      "answer": "I'll eat my hat",
+      "explanation": "Idiom.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Sweep:",
+      "options": [
+        "fegen / kehren",
+        "wischen"
+      ],
+      "answer": "fegen / kehren",
+      "explanation": "Verb.",
+      "id": "q5"
+    }
+  ]
+}

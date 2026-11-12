@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Warnung",
+    "partOfSpeech": "noun, feminine (die Warnung)",
+    "pronunciation": {
+      "respelling": "VAR-nung",
+      "ipa": "ˈvaʁnʊŋ",
+      "notes": "Plural: die Warnungen."
+    },
+    "meaning": "warning",
+    "shortDefinition": "Warning."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Warn",
+        "meaning": "warn"
+      },
+      {
+        "part": "ung",
+        "meaning": "noun ending"
+      }
+    ],
+    "literalMeaning": "a warning"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Warnung, plural die Warnungen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Warnung"
+        },
+        {
+          "label": "More than one",
+          "value": "die Warnungen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das ist meine letzte Warnung!",
+      "english": "That's my last warning!",
+      "highlight": [
+        "Warnung!"
+      ]
+    },
+    {
+      "german": "Es gibt eine Unwetterwarnung.",
+      "english": "There's a severe weather warning.",
+      "highlight": [
+        "Unwetterwarnung."
+      ]
+    },
+    {
+      "german": "Er ignorierte alle Warnungen.",
+      "english": "He ignored all warnings.",
+      "highlight": [
+        "Warnungen."
+      ]
+    }
+  ],
+  "forms": [
+    "warnen"
+  ],
+  "memoryHook": "Warnen vor → die Warnung.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Warnung",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Warnung is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Warnung, zwei ___",
+      "answer": "Warnungen",
+      "fullAnswer": "ein Warnung, zwei Warnungen",
+      "explanation": "The plural is Warnungen.",
+      "acceptedAnswers": [
+        "Warnungen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Warnung mean?",
+      "options": [
+        "warning",
+        "the street",
+        "the weather"
+      ],
+      "answer": "warning",
+      "explanation": "Warnung: warning.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "warnen (warn)",
+        "warm"
+      ],
+      "answer": "warnen (warn)",
+      "explanation": "Warn.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Preposition:",
+      "options": [
+        "Warnung vor + Dat.",
+        "Warnung gegen"
+      ],
+      "answer": "Warnung vor + Dat.",
+      "explanation": "Of.",
+      "id": "q5"
+    }
+  ]
+}

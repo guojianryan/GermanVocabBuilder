@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Erbse",
+    "partOfSpeech": "noun, feminine (die Erbse)",
+    "pronunciation": {
+      "respelling": "ERP-se",
+      "ipa": "ˈɛʁpsə",
+      "notes": "Plural: die Erbsen."
+    },
+    "meaning": "pea",
+    "shortDefinition": "Pea."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Erbse, plural die Erbsen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Erbse"
+        },
+        {
+          "label": "More than one",
+          "value": "die Erbsen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Erbsen und Möhren.",
+      "english": "Peas and carrots.",
+      "highlight": [
+        "Erbsen"
+      ]
+    },
+    {
+      "german": "Eine Erbsensuppe.",
+      "english": "A pea soup.",
+      "highlight": [
+        "Erbsensuppe."
+      ]
+    },
+    {
+      "german": "Das Kind isst keine Erbsen.",
+      "english": "The child won't eat peas.",
+      "highlight": [
+        "Erbsen."
+      ]
+    }
+  ],
+  "forms": [
+    "Erbsensuppe"
+  ],
+  "memoryHook": "Die Erbse; Erbsenzähler = nitpicker.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Erbse",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Erbse is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Erbse, zwei ___",
+      "answer": "Erbsen",
+      "fullAnswer": "ein Erbse, zwei Erbsen",
+      "explanation": "The plural is Erbsen.",
+      "acceptedAnswers": [
+        "Erbsen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Erbse mean?",
+      "options": [
+        "to buy",
+        "never",
+        "pea"
+      ],
+      "answer": "pea",
+      "explanation": "Erbse: pea.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Erbsen",
+        "Erbse"
+      ],
+      "answer": "Erbsen",
+      "explanation": "-n.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Erbsenzähler' means…",
+      "options": [
+        "a nitpicker, bean counter",
+        "a farmer"
+      ],
+      "answer": "a nitpicker, bean counter",
+      "explanation": "Pea counter!",
+      "id": "q5"
+    }
+  ]
+}

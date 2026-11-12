@@ -1,0 +1,133 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Esel",
+    "partOfSpeech": "noun, masculine (der Esel)",
+    "pronunciation": {
+      "respelling": "AY-zel",
+      "ipa": "ˈeːzl̩",
+      "notes": "The plural looks the same. Plural: die Esel."
+    },
+    "meaning": "donkey; (informal) idiot",
+    "shortDefinition": "Donkey; (informal) idiot."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Esel, plural die Esel.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Esel"
+        },
+        {
+          "label": "More than one",
+          "value": "die Esel"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Esel trägt die Säcke.",
+      "english": "The donkey carries the sacks.",
+      "highlight": [
+        "Esel"
+      ]
+    },
+    {
+      "german": "Du alter Esel!",
+      "english": "You silly ass!",
+      "highlight": [
+        "Esel!"
+      ]
+    },
+    {
+      "german": "Eine Eselsbrücke hilft beim Lernen.",
+      "english": "A mnemonic helps with learning.",
+      "highlight": [
+        "Eselsbrücke"
+      ]
+    }
+  ],
+  "forms": [
+    "Eselsbrücke"
+  ],
+  "memoryHook": "Der Esel; die Eselsbrücke = memory aid.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Esel",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Esel is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Esel, zwei ___",
+      "answer": "Esel",
+      "fullAnswer": "ein Esel, zwei Esel",
+      "explanation": "The plural is Esel.",
+      "acceptedAnswers": [
+        "Esel"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Esel mean?",
+      "options": [
+        "never",
+        "donkey",
+        "the evening"
+      ],
+      "answer": "donkey",
+      "explanation": "Esel: donkey; (informal) idiot.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Eselsbrücke' means…",
+      "options": [
+        "mnemonic, memory aid",
+        "a narrow bridge"
+      ],
+      "answer": "mnemonic, memory aid",
+      "explanation": "Donkey bridge!",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Esel",
+        "Eseln"
+      ],
+      "answer": "Esel",
+      "explanation": "No change.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Calling someone 'Esel' is…",
+      "options": [
+        "an insult",
+        "a compliment"
+      ],
+      "answer": "an insult",
+      "explanation": "Idiot.",
+      "id": "q6"
+    }
+  ]
+}

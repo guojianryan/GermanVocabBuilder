@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Rückseite",
+    "partOfSpeech": "noun, feminine (die Rückseite)",
+    "pronunciation": {
+      "respelling": "RÜK-zye-te",
+      "ipa": "ˈʁʏkˌzaɪ̯tə",
+      "notes": "Plural: die Rückseiten."
+    },
+    "meaning": "back, reverse side",
+    "shortDefinition": "Back, reverse side."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Rück",
+        "meaning": "back"
+      },
+      {
+        "part": "seite",
+        "meaning": "side"
+      }
+    ],
+    "literalMeaning": "back side"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Rückseite, plural die Rückseiten.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Rückseite"
+        },
+        {
+          "label": "More than one",
+          "value": "die Rückseiten"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Siehe Rückseite.",
+      "english": "See overleaf.",
+      "highlight": [
+        "Rückseite."
+      ]
+    },
+    {
+      "german": "Auf der Rückseite steht die Adresse.",
+      "english": "The address is on the back.",
+      "highlight": [
+        "Rückseite"
+      ]
+    },
+    {
+      "german": "Die Rückseite des Hauses.",
+      "english": "The back of the house.",
+      "highlight": [
+        "Rückseite"
+      ]
+    }
+  ],
+  "forms": [
+    "Vorderseite",
+    "Seite"
+  ],
+  "memoryHook": "Rück + Seite ↔ Vorderseite.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Rückseite",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Rückseite is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Rückseite, zwei ___",
+      "answer": "Rückseiten",
+      "fullAnswer": "ein Rückseite, zwei Rückseiten",
+      "explanation": "The plural is Rückseiten.",
+      "acceptedAnswers": [
+        "Rueckseiten"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Rückseite mean?",
+      "options": [
+        "the job",
+        "the bread",
+        "back"
+      ],
+      "answer": "back",
+      "explanation": "Rückseite: back, reverse side.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Rück (back) + Seite",
+        "Rücken + Seite"
+      ],
+      "answer": "Rück (back) + Seite",
+      "explanation": "Back side.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Front:",
+      "options": [
+        "die Vorderseite",
+        "die Frontseite only"
+      ],
+      "answer": "die Vorderseite",
+      "explanation": "Opposite.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,171 +1,175 @@
 {
- "schemaVersion": "1.4",
- "language": "de",
- "explanationLanguage": "en",
- "level": "B1",
- "levelSource": "Goethe-Zertifikat B1 Wortliste",
- "lessonType": "card",
- "word": {
-  "headword": "(sich) verlaufen",
-  "partOfSpeech": "reflexive verb",
-  "pronunciation": {
-   "respelling": "fer-LOW-fen",
-   "ipa": "fɛɐ̯ˈlaʊ̯fn̩",
-   "notes": ""
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "(sich) verlaufen",
+    "partOfSpeech": "reflexive verb",
+    "pronunciation": {
+      "respelling": "fer-LOW-fen",
+      "ipa": "fɛɐ̯ˈlaʊ̯fn̩",
+      "notes": ""
+    },
+    "meaning": "to get lost (on foot)",
+    "shortDefinition": "To get lost (on foot)."
   },
-  "meaning": "to get lost (on foot)",
-  "shortDefinition": "To get lost (on foot)."
- },
- "tables": [
-  {
-   "title": "Present tense",
-   "columns": [
-    "present"
-   ],
-   "rows": [
+  "tables": [
     {
-     "label": "ich",
-     "cells": [
-      "verlauf|e"
-     ]
-    },
-    {
-     "label": "du",
-     "cells": [
-      "verläuf|st"
-     ]
-    },
-    {
-     "label": "er, sie, es",
-     "cells": [
-      "verläuf|t"
-     ]
-    },
-    {
-     "label": "wir",
-     "cells": [
-      "verlauf|en"
-     ]
-    },
-    {
-     "label": "ihr",
-     "cells": [
-      "verlauf|t"
-     ]
-    },
-    {
-     "label": "sie, Sie",
-     "cells": [
-      "verlauf|en"
-     ]
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "verlauf|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "verläuf|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "verläuf|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "verlauf|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "verlauf|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "verlauf|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat verlaufen"
+      ]
     }
-   ],
-   "notes": [
-    "Past (Perfekt): hat verlaufen"
-   ]
-  }
- ],
- "sampleSentences": [
-  {
-   "german": "Ich habe mich verlaufen.",
-   "english": "I've got lost.",
-   "highlight": [
-    "mich",
-    "verlaufen."
-   ]
-  },
-  {
-   "german": "Im Wald kann man sich leicht verlaufen.",
-   "english": "It's easy to get lost in the woods.",
-   "highlight": [
-    "sich",
-    "verlaufen."
-   ]
-  },
-  {
-   "german": "Das Treffen ist gut verlaufen.",
-   "english": "The meeting went well.",
-   "highlight": [
-    "verlaufen."
-   ]
-  }
- ],
- "forms": [
-  "verlaufen",
-  "verfahren"
- ],
- "memoryHook": "Sich verlaufen (on foot) / verfahren (by car).",
- "signOff": "Gut gemacht!",
- "quiz": [
-  {
-   "type": "fill-in-the-blank",
-   "prompt": "er ___ ((sich) verlaufen)",
-   "answer": "verläuft",
-   "fullAnswer": "",
-   "explanation": "For er, sie, es: verläuft.",
-   "acceptedAnswers": [
-    "verlaeuft"
-   ],
-   "id": "q1"
-  },
-  {
-   "type": "fill-in-the-blank",
-   "prompt": "Ich habe mich schon ___. ((sich) verlaufen, past)",
-   "answer": "verlaufen",
-   "fullAnswer": "",
-   "explanation": "Perfekt: habe mich verlaufen.",
-   "acceptedAnswers": [
-    "verlaufen"
-   ],
-   "id": "q2"
-  },
-  {
-   "type": "choice",
-   "prompt": "What does (sich) verlaufen mean?",
-   "options": [
-    "the door",
-    "the shop",
-    "to get lost (on foot)"
-   ],
-   "answer": "to get lost (on foot)",
-   "explanation": "(sich) verlaufen: to get lost (on foot).",
-   "id": "q3"
-  },
-  {
-   "type": "choice",
-   "prompt": "Get lost by car:",
-   "options": [
-    "sich verfahren",
-    "sich verlaufen"
-   ],
-   "answer": "sich verfahren",
-   "explanation": "By car.",
-   "id": "q4"
-  },
-  {
-   "type": "choice",
-   "prompt": "'Gut verlaufen' (event) means…",
-   "options": [
-    "to go well",
-    "to get lost well"
-   ],
-   "answer": "to go well",
-   "explanation": "Go.",
-   "id": "q5"
-  }
- ],
- "etymology": {
-  "title": "Where it comes from",
-  "parts": [
-   {
-    "part": "ver",
-    "meaning": "wrong"
-   },
-   {
-    "part": "laufen",
-    "meaning": "to walk"
-   }
   ],
-  "literalMeaning": "to walk wrong"
- }
+  "sampleSentences": [
+    {
+      "german": "Ich habe mich verlaufen.",
+      "english": "I've got lost.",
+      "highlight": [
+        "mich",
+        "verlaufen."
+      ]
+    },
+    {
+      "german": "Im Wald kann man sich leicht verlaufen.",
+      "english": "It's easy to get lost in the woods.",
+      "highlight": [
+        "sich",
+        "verlaufen."
+      ]
+    },
+    {
+      "german": "Das Treffen ist gut verlaufen.",
+      "english": "The meeting went well.",
+      "highlight": [
+        "verlaufen."
+      ]
+    }
+  ],
+  "forms": [
+    "verlaufe",
+    "verläufst",
+    "verläuft",
+    "verlaufen",
+    "verlauft",
+    "verfahren"
+  ],
+  "memoryHook": "Sich verlaufen (on foot) / verfahren (by car).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ ((sich) verlaufen)",
+      "answer": "verläuft",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: verläuft.",
+      "acceptedAnswers": [
+        "verlaeuft"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe mich schon ___. ((sich) verlaufen, past)",
+      "answer": "verlaufen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe mich verlaufen.",
+      "acceptedAnswers": [
+        "verlaufen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does (sich) verlaufen mean?",
+      "options": [
+        "the door",
+        "the shop",
+        "to get lost (on foot)"
+      ],
+      "answer": "to get lost (on foot)",
+      "explanation": "(sich) verlaufen: to get lost (on foot).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Get lost by car:",
+      "options": [
+        "sich verfahren",
+        "sich verlaufen"
+      ],
+      "answer": "sich verfahren",
+      "explanation": "By car.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Gut verlaufen' (event) means…",
+      "options": [
+        "to go well",
+        "to get lost well"
+      ],
+      "answer": "to go well",
+      "explanation": "Go.",
+      "id": "q5"
+    }
+  ],
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "ver",
+        "meaning": "wrong"
+      },
+      {
+        "part": "laufen",
+        "meaning": "to walk"
+      }
+    ],
+    "literalMeaning": "to walk wrong"
+  }
 }

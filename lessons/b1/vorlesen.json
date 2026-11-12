@@ -1,169 +1,174 @@
 {
- "schemaVersion": "1.4",
- "language": "de",
- "explanationLanguage": "en",
- "level": "B1",
- "levelSource": "Goethe-Zertifikat B1 Wortliste",
- "lessonType": "card",
- "word": {
-  "headword": "vorlesen",
-  "partOfSpeech": "separable verb",
-  "pronunciation": {
-   "respelling": "FOR-lay-zen",
-   "ipa": "ˈfoːɐ̯ˌleːzn̩",
-   "notes": ""
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "vorlesen",
+    "partOfSpeech": "separable verb",
+    "pronunciation": {
+      "respelling": "FOR-lay-zen",
+      "ipa": "ˈfoːɐ̯ˌleːzn̩",
+      "notes": ""
+    },
+    "meaning": "to read aloud",
+    "shortDefinition": "To read aloud."
   },
-  "meaning": "to read aloud",
-  "shortDefinition": "To read aloud."
- },
- "tables": [
-  {
-   "title": "Present tense",
-   "columns": [
-    "present"
-   ],
-   "rows": [
+  "tables": [
     {
-     "label": "ich",
-     "cells": [
-      "les|e … |vor"
-     ]
-    },
-    {
-     "label": "du",
-     "cells": [
-      "lie|st … |vor"
-     ]
-    },
-    {
-     "label": "er, sie, es",
-     "cells": [
-      "lies|t … |vor"
-     ]
-    },
-    {
-     "label": "wir",
-     "cells": [
-      "les|en … |vor"
-     ]
-    },
-    {
-     "label": "ihr",
-     "cells": [
-      "les|t … |vor"
-     ]
-    },
-    {
-     "label": "sie, Sie",
-     "cells": [
-      "les|en … |vor"
-     ]
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "les|e … |vor"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "lie|st … |vor"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "lies|t … |vor"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "les|en … |vor"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "les|t … |vor"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "les|en … |vor"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat vorgelesen"
+      ]
     }
-   ],
-   "notes": [
-    "Past (Perfekt): hat vorgelesen"
-   ]
-  }
- ],
- "sampleSentences": [
-  {
-   "german": "Papa liest uns eine Geschichte vor.",
-   "english": "Dad reads us a story.",
-   "highlight": [
-    "liest",
-    "vor."
-   ]
-  },
-  {
-   "german": "Kannst du den Brief vorlesen?",
-   "english": "Can you read the letter out?",
-   "highlight": [
-    "vorlesen?"
-   ]
-  },
-  {
-   "german": "Die Lehrerin hat den Text vorgelesen.",
-   "english": "The teacher read the text aloud.",
-   "highlight": [
-    "vorgelesen."
-   ]
-  }
- ],
- "forms": [
-  "Vorlesung"
- ],
- "memoryHook": "Vorlesen = read aloud. Die Vorlesung = lecture.",
- "signOff": "Gut gemacht!",
- "quiz": [
-  {
-   "type": "fill-in-the-blank",
-   "prompt": "er ___ … vor (vorlesen)",
-   "answer": "liest",
-   "fullAnswer": "",
-   "explanation": "For er, sie, es: liest … vor.",
-   "acceptedAnswers": [
-    "liest"
-   ],
-   "id": "q1"
-  },
-  {
-   "type": "fill-in-the-blank",
-   "prompt": "Ich habe schon ___. (vorlesen, past)",
-   "answer": "vorgelesen",
-   "fullAnswer": "",
-   "explanation": "Perfekt: habe vorgelesen.",
-   "acceptedAnswers": [
-    "vorgelesen"
-   ],
-   "id": "q2"
-  },
-  {
-   "type": "choice",
-   "prompt": "What does vorlesen mean?",
-   "options": [
-    "to open",
-    "to buy",
-    "to read aloud"
-   ],
-   "answer": "to read aloud",
-   "explanation": "vorlesen: to read aloud.",
-   "id": "q3"
-  },
-  {
-   "type": "choice",
-   "prompt": "Separable?",
-   "options": [
-    "yes",
-    "no"
-   ],
-   "answer": "yes",
-   "explanation": "Ich lese vor.",
-   "id": "q4"
-  },
-  {
-   "type": "choice",
-   "prompt": "University lecture:",
-   "options": [
-    "die Vorlesung",
-    "die Vorlese"
-   ],
-   "answer": "die Vorlesung",
-   "explanation": "Lecture.",
-   "id": "q5"
-  }
- ],
- "etymology": {
-  "title": "Where it comes from",
-  "parts": [
-   {
-    "part": "vor",
-    "meaning": "in front"
-   },
-   {
-    "part": "lesen",
-    "meaning": "to read"
-   }
   ],
-  "literalMeaning": "to read out in front"
- }
+  "sampleSentences": [
+    {
+      "german": "Papa liest uns eine Geschichte vor.",
+      "english": "Dad reads us a story.",
+      "highlight": [
+        "liest",
+        "vor."
+      ]
+    },
+    {
+      "german": "Kannst du den Brief vorlesen?",
+      "english": "Can you read the letter out?",
+      "highlight": [
+        "vorlesen?"
+      ]
+    },
+    {
+      "german": "Die Lehrerin hat den Text vorgelesen.",
+      "english": "The teacher read the text aloud.",
+      "highlight": [
+        "vorgelesen."
+      ]
+    }
+  ],
+  "forms": [
+    "lese vor",
+    "liest vor",
+    "lesen vor",
+    "lest vor",
+    "vorgelesen",
+    "Vorlesung"
+  ],
+  "memoryHook": "Vorlesen = read aloud. Die Vorlesung = lecture.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ … vor (vorlesen)",
+      "answer": "liest",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: liest … vor.",
+      "acceptedAnswers": [
+        "liest"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (vorlesen, past)",
+      "answer": "vorgelesen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe vorgelesen.",
+      "acceptedAnswers": [
+        "vorgelesen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does vorlesen mean?",
+      "options": [
+        "to open",
+        "to buy",
+        "to read aloud"
+      ],
+      "answer": "to read aloud",
+      "explanation": "vorlesen: to read aloud.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Separable?",
+      "options": [
+        "yes",
+        "no"
+      ],
+      "answer": "yes",
+      "explanation": "Ich lese vor.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "University lecture:",
+      "options": [
+        "die Vorlesung",
+        "die Vorlese"
+      ],
+      "answer": "die Vorlesung",
+      "explanation": "Lecture.",
+      "id": "q5"
+    }
+  ],
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "vor",
+        "meaning": "in front"
+      },
+      {
+        "part": "lesen",
+        "meaning": "to read"
+      }
+    ],
+    "literalMeaning": "to read out in front"
+  }
 }

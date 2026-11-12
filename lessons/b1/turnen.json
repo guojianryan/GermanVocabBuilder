@@ -1,0 +1,171 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "turnen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "TOOR-nen",
+      "ipa": "ˈtʊʁnən",
+      "notes": ""
+    },
+    "meaning": "to do gymnastics; (informal) to clamber about",
+    "shortDefinition": "To do gymnastics; (informal) to clamber about."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "turn|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "turn|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "turn|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "turn|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "turn|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "turn|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat geturnt"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Kinder turnen in der Halle.",
+      "english": "The children are doing gymnastics in the hall.",
+      "highlight": [
+        "turnen"
+      ]
+    },
+    {
+      "german": "Sie turnt seit sie fünf ist.",
+      "english": "She's done gymnastics since she was five.",
+      "highlight": [
+        "turnt"
+      ]
+    },
+    {
+      "german": "Im Sportunterricht haben wir geturnt.",
+      "english": "We did gymnastics in PE.",
+      "highlight": [
+        "geturnt."
+      ]
+    }
+  ],
+  "forms": [
+    "turne",
+    "turnst",
+    "turnt",
+    "turnen",
+    "geturnt",
+    "Turner",
+    "Turnhalle"
+  ],
+  "memoryHook": "Turnen = gymnastics (NOT turn → drehen); Turnhalle.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (turnen)",
+      "answer": "turnt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: turnt.",
+      "acceptedAnswers": [
+        "turnt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (turnen, past)",
+      "answer": "geturnt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe geturnt.",
+      "acceptedAnswers": [
+        "geturnt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does turnen mean?",
+      "options": [
+        "to do gymnastics",
+        "to buy",
+        "tomorrow"
+      ],
+      "answer": "to do gymnastics",
+      "explanation": "turnen: to do gymnastics; (informal) to clamber about.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Turnen' (German) means…",
+      "options": [
+        "do gymnastics",
+        "to turn"
+      ],
+      "answer": "do gymnastics",
+      "explanation": "False friend!",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gymnast:",
+      "options": [
+        "der Turner / die Turnerin",
+        "der Gymnast"
+      ],
+      "answer": "der Turner / die Turnerin",
+      "explanation": "Person.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "To turn (round):",
+      "options": [
+        "(sich) drehen",
+        "turnen"
+      ],
+      "answer": "(sich) drehen",
+      "explanation": "Different verb.",
+      "id": "q6"
+    }
+  ]
+}

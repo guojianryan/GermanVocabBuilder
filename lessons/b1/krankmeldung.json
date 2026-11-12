@@ -1,0 +1,152 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Krankmeldung",
+    "partOfSpeech": "noun, feminine (die Krankmeldung)",
+    "pronunciation": {
+      "respelling": "KRANK-mel-dung",
+      "ipa": "ˈkʁaŋkˌmɛldʊŋ",
+      "notes": "Plural: die Krankmeldungen."
+    },
+    "meaning": "sick note, notice of illness",
+    "shortDefinition": "Sick note, notice of illness."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Krank",
+        "meaning": "sick"
+      },
+      {
+        "part": "meld",
+        "meaning": "report (melden)"
+      },
+      {
+        "part": "ung",
+        "meaning": "noun ending"
+      }
+    ],
+    "literalMeaning": "sick report"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Krankmeldung, plural die Krankmeldungen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Krankmeldung"
+        },
+        {
+          "label": "More than one",
+          "value": "die Krankmeldungen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich schicke meinem Chef eine Krankmeldung.",
+      "english": "I'm sending my boss a sick note.",
+      "highlight": [
+        "Krankmeldung."
+      ]
+    },
+    {
+      "german": "Ab dem dritten Tag brauchst du eine Krankmeldung.",
+      "english": "From day three you need a sick note.",
+      "highlight": [
+        "Krankmeldung."
+      ]
+    },
+    {
+      "german": "Die Zahl der Krankmeldungen steigt.",
+      "english": "The number of sick days is rising.",
+      "highlight": [
+        "Krankmeldungen"
+      ]
+    }
+  ],
+  "forms": [
+    "krankmelden",
+    "Krankschreibung"
+  ],
+  "memoryHook": "Krank + Meldung = sick note; sich krankmelden.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Krankmeldung",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Krankmeldung is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Krankmeldung, zwei ___",
+      "answer": "Krankmeldungen",
+      "fullAnswer": "ein Krankmeldung, zwei Krankmeldungen",
+      "explanation": "The plural is Krankmeldungen.",
+      "acceptedAnswers": [
+        "Krankmeldungen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Krankmeldung mean?",
+      "options": [
+        "hot",
+        "sick note",
+        "to learn"
+      ],
+      "answer": "sick note",
+      "explanation": "Krankmeldung: sick note, notice of illness.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "krank + Meldung (report)",
+        "Krankheit + melden only"
+      ],
+      "answer": "krank + Meldung (report)",
+      "explanation": "Sick report.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Sich krankmelden' means…",
+      "options": [
+        "to call in sick",
+        "to get ill"
+      ],
+      "answer": "to call in sick",
+      "explanation": "Verb.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Doctor's certificate:",
+      "options": [
+        "die AU / Krankschreibung",
+        "die Krankkarte"
+      ],
+      "answer": "die AU / Krankschreibung",
+      "explanation": "Official.",
+      "id": "q6"
+    }
+  ]
+}

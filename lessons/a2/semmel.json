@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Semmel",
+    "partOfSpeech": "noun, feminine (die Semmel)",
+    "pronunciation": {
+      "respelling": "ZE-mel",
+      "ipa": "ˈzɛml̩",
+      "notes": "Plural: die Semmeln."
+    },
+    "meaning": "bread roll (south Germany, Austria)",
+    "shortDefinition": "Bread roll (south Germany, Austria)."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Semmel, plural die Semmeln.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Semmel"
+        },
+        {
+          "label": "More than one",
+          "value": "die Semmeln"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Zwei Semmeln, bitte.",
+      "english": "Two rolls, please.",
+      "highlight": [
+        "Semmeln,"
+      ]
+    },
+    {
+      "german": "Eine Semmel mit Leberkäse.",
+      "english": "A roll with Leberkäse.",
+      "highlight": [
+        "Semmel"
+      ]
+    },
+    {
+      "german": "Die Semmeln sind noch warm.",
+      "english": "The rolls are still warm.",
+      "highlight": [
+        "Semmeln"
+      ]
+    }
+  ],
+  "forms": [
+    "Brötchen",
+    "Schrippe"
+  ],
+  "memoryHook": "Die Semmel (south) = das Brötchen.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Semmel",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Semmel is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Semmel, zwei ___",
+      "answer": "Semmeln",
+      "fullAnswer": "ein Semmel, zwei Semmeln",
+      "explanation": "The plural is Semmeln.",
+      "acceptedAnswers": [
+        "Semmeln"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Semmel mean?",
+      "options": [
+        "the key",
+        "to travel",
+        "bread roll (south Germany"
+      ],
+      "answer": "bread roll (south Germany",
+      "explanation": "Semmel: bread roll (south Germany, Austria).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "North / standard word:",
+      "options": [
+        "das Brötchen",
+        "das Brot"
+      ],
+      "answer": "das Brötchen",
+      "explanation": "Regional.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Weggehen wie warme Semmeln' means…",
+      "options": [
+        "to sell like hot cakes",
+        "to go cold"
+      ],
+      "answer": "to sell like hot cakes",
+      "explanation": "Idiom.",
+      "id": "q5"
+    }
+  ]
+}

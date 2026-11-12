@@ -1,0 +1,126 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Mist",
+    "partOfSpeech": "noun, masculine (der Mist)",
+    "pronunciation": {
+      "respelling": "MIST",
+      "ipa": "mɪst",
+      "notes": "Usually no plural."
+    },
+    "meaning": "manure; (informal) rubbish, damn",
+    "shortDefinition": "Manure; (informal) rubbish, damn."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Mist, usually no plural.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Mist"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Mist! Ich habe den Bus verpasst.",
+      "english": "Damn! I've missed the bus.",
+      "highlight": [
+        "Mist!"
+      ]
+    },
+    {
+      "german": "Das ist doch Mist!",
+      "english": "That's rubbish!",
+      "highlight": [
+        "Mist!"
+      ]
+    },
+    {
+      "german": "Der Bauer fährt Mist aufs Feld.",
+      "english": "The farmer spreads manure on the field.",
+      "highlight": [
+        "Mist"
+      ]
+    }
+  ],
+  "forms": [
+    "Nebel"
+  ],
+  "memoryHook": "Der Mist (manure; Damn!) ≠ mist (Nebel); Mist bauen.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Mist",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Mist is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Mist mean?",
+      "options": [
+        "quiet",
+        "manure",
+        "the car"
+      ],
+      "answer": "manure",
+      "explanation": "Mist: manure; (informal) rubbish, damn.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Mist!' as an exclamation means…",
+      "options": [
+        "Damn!",
+        "Fog!"
+      ],
+      "answer": "Damn!",
+      "explanation": "Mild curse.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "English 'mist' in German:",
+      "options": [
+        "der Nebel / Dunst",
+        "der Mist"
+      ],
+      "answer": "der Nebel / Dunst",
+      "explanation": "False friend!",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Mist bauen' means…",
+      "options": [
+        "to mess up",
+        "to build a farm"
+      ],
+      "answer": "to mess up",
+      "explanation": "Idiom.",
+      "id": "q5"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "So ein ___ ! (damn)",
+      "answer": "Mist",
+      "fullAnswer": "So ein Mist!",
+      "explanation": "Mist.",
+      "id": "q6"
+    }
+  ]
+}

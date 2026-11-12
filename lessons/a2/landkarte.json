@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Landkarte",
+    "partOfSpeech": "noun, feminine (die Landkarte)",
+    "pronunciation": {
+      "respelling": "LANT-kar-te",
+      "ipa": "ˈlantˌkaʁtə",
+      "notes": "Plural: die Landkarten."
+    },
+    "meaning": "map",
+    "shortDefinition": "Map."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Land",
+        "meaning": "land"
+      },
+      {
+        "part": "karte",
+        "meaning": "card, chart"
+      }
+    ],
+    "literalMeaning": "land chart"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Landkarte, plural die Landkarten.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Landkarte"
+        },
+        {
+          "label": "More than one",
+          "value": "die Landkarten"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir brauchen eine Landkarte.",
+      "english": "We need a map.",
+      "highlight": [
+        "Landkarte."
+      ]
+    },
+    {
+      "german": "Zeig es mir auf der Landkarte.",
+      "english": "Show me on the map.",
+      "highlight": [
+        "Landkarte."
+      ]
+    },
+    {
+      "german": "Eine alte Landkarte von Europa.",
+      "english": "An old map of Europe.",
+      "highlight": [
+        "Landkarte"
+      ]
+    }
+  ],
+  "forms": [
+    "Karte",
+    "Stadtplan"
+  ],
+  "memoryHook": "Land + Karte = map; Stadtplan.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Landkarte",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Landkarte is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Landkarte, zwei ___",
+      "answer": "Landkarten",
+      "fullAnswer": "ein Landkarte, zwei Landkarten",
+      "explanation": "The plural is Landkarten.",
+      "acceptedAnswers": [
+        "Landkarten"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Landkarte mean?",
+      "options": [
+        "map",
+        "the family",
+        "quiet"
+      ],
+      "answer": "map",
+      "explanation": "Landkarte: map.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Land + Karte",
+        "Land + Kerze"
+      ],
+      "answer": "Land + Karte",
+      "explanation": "Land card.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "City map:",
+      "options": [
+        "der Stadtplan",
+        "die Stadtkarte only"
+      ],
+      "answer": "der Stadtplan",
+      "explanation": "Town.",
+      "id": "q5"
+    }
+  ]
+}

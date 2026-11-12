@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Schaukel",
+    "partOfSpeech": "noun, feminine (die Schaukel)",
+    "pronunciation": {
+      "respelling": "SHOW-kel",
+      "ipa": "ˈʃaʊ̯kl̩",
+      "notes": "Plural: die Schaukeln."
+    },
+    "meaning": "swing",
+    "shortDefinition": "Swing."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Schaukel, plural die Schaukeln.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Schaukel"
+        },
+        {
+          "label": "More than one",
+          "value": "die Schaukeln"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Kinder sind auf der Schaukel.",
+      "english": "The kids are on the swing.",
+      "highlight": [
+        "Schaukel."
+      ]
+    },
+    {
+      "german": "Im Garten hängt eine Schaukel.",
+      "english": "There's a swing in the garden.",
+      "highlight": [
+        "Schaukel."
+      ]
+    },
+    {
+      "german": "Ein Schaukelstuhl.",
+      "english": "A rocking chair.",
+      "highlight": [
+        "Schaukelstuhl."
+      ]
+    }
+  ],
+  "forms": [
+    "schaukeln",
+    "Rutsche"
+  ],
+  "memoryHook": "Die Schaukel → schaukeln; Rutsche, Sandkasten.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Schaukel",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Schaukel is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Schaukel, zwei ___",
+      "answer": "Schaukeln",
+      "fullAnswer": "ein Schaukel, zwei Schaukeln",
+      "explanation": "The plural is Schaukeln.",
+      "acceptedAnswers": [
+        "Schaukeln"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Schaukel mean?",
+      "options": [
+        "swing",
+        "never",
+        "always"
+      ],
+      "answer": "swing",
+      "explanation": "Schaukel: swing.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Verb:",
+      "options": [
+        "schaukeln",
+        "schaukelen"
+      ],
+      "answer": "schaukeln",
+      "explanation": "To swing, rock.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Rocking chair:",
+      "options": [
+        "der Schaukelstuhl",
+        "der Wiegestuhl"
+      ],
+      "answer": "der Schaukelstuhl",
+      "explanation": "Compound.",
+      "id": "q5"
+    }
+  ]
+}

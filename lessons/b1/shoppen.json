@@ -1,0 +1,171 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "shoppen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "SHO-pen",
+      "ipa": "ˈʃɔpn̩",
+      "notes": ""
+    },
+    "meaning": "to go shopping (for fun)",
+    "shortDefinition": "To go shopping (for fun)."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "shopp|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "shopp|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "shopp|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "shopp|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "shopp|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "shopp|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat geshoppt"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir gehen am Samstag shoppen.",
+      "english": "We're going shopping on Saturday.",
+      "highlight": [
+        "shoppen."
+      ]
+    },
+    {
+      "german": "Sie shoppt gern online.",
+      "english": "She likes shopping online.",
+      "highlight": [
+        "shoppt"
+      ]
+    },
+    {
+      "german": "Ich war gestern shoppen.",
+      "english": "I went shopping yesterday.",
+      "highlight": [
+        "shoppen."
+      ]
+    }
+  ],
+  "forms": [
+    "shoppe",
+    "shoppst",
+    "shoppt",
+    "shoppen",
+    "geshoppt",
+    "einkaufen",
+    "Shopping"
+  ],
+  "memoryHook": "Shoppen (fun) ≠ einkaufen (groceries).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (shoppen)",
+      "answer": "shoppt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: shoppt.",
+      "acceptedAnswers": [
+        "shoppt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (shoppen, past)",
+      "answer": "geshoppt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe geshoppt.",
+      "acceptedAnswers": [
+        "geshoppt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does shoppen mean?",
+      "options": [
+        "to go shopping (for fun)",
+        "expensive",
+        "to wait"
+      ],
+      "answer": "to go shopping (for fun)",
+      "explanation": "shoppen: to go shopping (for fun).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Shoppen vs einkaufen:",
+      "options": [
+        "shopping for fun (clothes) vs buying groceries",
+        "same"
+      ],
+      "answer": "shopping for fun (clothes) vs buying groceries",
+      "explanation": "Nuance.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "hat geshoppt",
+        "hat gesheppt"
+      ],
+      "answer": "hat geshoppt",
+      "explanation": "English loan.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Register:",
+      "options": [
+        "informal",
+        "formal"
+      ],
+      "answer": "informal",
+      "explanation": "Colloquial.",
+      "id": "q6"
+    }
+  ]
+}

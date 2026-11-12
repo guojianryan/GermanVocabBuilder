@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Makler",
+    "partOfSpeech": "noun, masculine (der Makler)",
+    "pronunciation": {
+      "respelling": "MAAK-ler",
+      "ipa": "ˈmaːklɐ",
+      "notes": "The plural looks the same. Plural: die Makler."
+    },
+    "meaning": "estate agent; broker",
+    "shortDefinition": "Estate agent; broker."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Makler, plural die Makler.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Makler"
+        },
+        {
+          "label": "More than one",
+          "value": "die Makler"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir haben die Wohnung über einen Makler gefunden.",
+      "english": "We found the flat through an estate agent.",
+      "highlight": [
+        "Makler"
+      ]
+    },
+    {
+      "german": "Der Makler will zwei Monatsmieten.",
+      "english": "The agent wants two months' rent.",
+      "highlight": [
+        "Makler"
+      ]
+    },
+    {
+      "german": "Sie arbeitet als Immobilienmaklerin.",
+      "english": "She works as an estate agent.",
+      "highlight": [
+        "Immobilienmaklerin."
+      ]
+    }
+  ],
+  "forms": [
+    "Immobilienmakler",
+    "Provision"
+  ],
+  "memoryHook": "Der Makler (estate agent, broker); Provision.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Makler",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Makler is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Makler, zwei ___",
+      "answer": "Makler",
+      "fullAnswer": "ein Makler, zwei Makler",
+      "explanation": "The plural is Makler.",
+      "acceptedAnswers": [
+        "Makler"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Makler mean?",
+      "options": [
+        "the window",
+        "estate agent",
+        "the bill"
+      ],
+      "answer": "estate agent",
+      "explanation": "Makler: estate agent; broker.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Fee:",
+      "options": [
+        "die Maklergebühr / Provision",
+        "die Maklerkasse"
+      ],
+      "answer": "die Maklergebühr / Provision",
+      "explanation": "Commission.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Makler",
+        "Maklern"
+      ],
+      "answer": "Makler",
+      "explanation": "No change.",
+      "id": "q5"
+    }
+  ]
+}

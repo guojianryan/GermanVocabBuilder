@@ -1,0 +1,116 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Demenz",
+    "partOfSpeech": "noun, feminine (die Demenz)",
+    "pronunciation": {
+      "respelling": "de-MENTS",
+      "ipa": "deˈmɛnts",
+      "notes": "Usually no plural."
+    },
+    "meaning": "dementia",
+    "shortDefinition": "Dementia."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Demenz, usually no plural.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Demenz"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ihre Mutter hat Demenz.",
+      "english": "Her mother has dementia.",
+      "highlight": [
+        "Demenz."
+      ]
+    },
+    {
+      "german": "Die Zahl der Demenzkranken steigt.",
+      "english": "The number of dementia patients is rising.",
+      "highlight": [
+        "Demenzkranken"
+      ]
+    },
+    {
+      "german": "Leben mit Demenz.",
+      "english": "Living with dementia.",
+      "highlight": [
+        "Demenz."
+      ]
+    }
+  ],
+  "forms": [
+    "dement",
+    "Alzheimer"
+  ],
+  "memoryHook": "Die Demenz; dement; Alzheimer.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Demenz",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Demenz is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Demenz mean?",
+      "options": [
+        "expensive",
+        "dementia",
+        "cheap"
+      ],
+      "answer": "dementia",
+      "explanation": "Demenz: dementia.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Adjective:",
+      "options": [
+        "dement",
+        "demenziell / dementiell"
+      ],
+      "answer": "dement",
+      "explanation": "Both exist.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Common type:",
+      "options": [
+        "Alzheimer",
+        "Migräne"
+      ],
+      "answer": "Alzheimer",
+      "explanation": "Disease.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Er leidet an ___ . (dementia)",
+      "answer": "Demenz",
+      "fullAnswer": "Er leidet an Demenz.",
+      "explanation": "Demenz.",
+      "id": "q5"
+    }
+  ]
+}

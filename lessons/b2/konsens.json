@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Konsens",
+    "partOfSpeech": "noun, masculine (der Konsens)",
+    "pronunciation": {
+      "respelling": "kon-ZENS",
+      "ipa": "kɔnˈzɛns",
+      "notes": "Plural: die Konsense."
+    },
+    "meaning": "consensus",
+    "shortDefinition": "Consensus."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Konsens, plural die Konsense.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Konsens"
+        },
+        {
+          "label": "More than one",
+          "value": "die Konsense"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir haben einen Konsens gefunden.",
+      "english": "We've reached a consensus.",
+      "highlight": [
+        "Konsens"
+      ]
+    },
+    {
+      "german": "Darüber herrscht Konsens.",
+      "english": "There's agreement on that.",
+      "highlight": [
+        "Konsens."
+      ]
+    },
+    {
+      "german": "Ein breiter gesellschaftlicher Konsens.",
+      "english": "A broad social consensus.",
+      "highlight": [
+        "Konsens."
+      ]
+    }
+  ],
+  "forms": [
+    "Kompromiss",
+    "Einigkeit"
+  ],
+  "memoryHook": "Der Konsens ↔ Dissens; Kompromiss.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Konsens",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Konsens is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Konsens, zwei ___",
+      "answer": "Konsense",
+      "fullAnswer": "ein Konsens, zwei Konsense",
+      "explanation": "The plural is Konsense.",
+      "acceptedAnswers": [
+        "Konsense"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Konsens mean?",
+      "options": [
+        "the street",
+        "consensus",
+        "always"
+      ],
+      "answer": "consensus",
+      "explanation": "Konsens: consensus.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonym:",
+      "options": [
+        "die Übereinstimmung, die Einigkeit",
+        "der Streit"
+      ],
+      "answer": "die Übereinstimmung, die Einigkeit",
+      "explanation": "Agreement.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Opposite:",
+      "options": [
+        "der Dissens",
+        "der Kompromiss"
+      ],
+      "answer": "der Dissens",
+      "explanation": "Disagreement.",
+      "id": "q5"
+    }
+  ]
+}

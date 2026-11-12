@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Korrektur",
+    "partOfSpeech": "noun, feminine (die Korrektur)",
+    "pronunciation": {
+      "respelling": "ko-rek-TOOR",
+      "ipa": "kɔʁɛkˈtuːɐ̯",
+      "notes": "Plural: die Korrekturen."
+    },
+    "meaning": "correction; proofreading",
+    "shortDefinition": "Correction; proofreading."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Korrektur, plural die Korrekturen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Korrektur"
+        },
+        {
+          "label": "More than one",
+          "value": "die Korrekturen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Danke für die Korrektur!",
+      "english": "Thanks for the correction!",
+      "highlight": [
+        "Korrektur!"
+      ]
+    },
+    {
+      "german": "Der Text ist in der Korrektur.",
+      "english": "The text is being proofread.",
+      "highlight": [
+        "Korrektur."
+      ]
+    },
+    {
+      "german": "Eine Korrektur der Prognose.",
+      "english": "A revision of the forecast.",
+      "highlight": [
+        "Korrektur"
+      ]
+    }
+  ],
+  "forms": [
+    "korrigieren",
+    "korrekt"
+  ],
+  "memoryHook": "Korrigieren → die Korrektur.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Korrektur",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Korrektur is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Korrektur, zwei ___",
+      "answer": "Korrekturen",
+      "fullAnswer": "ein Korrektur, zwei Korrekturen",
+      "explanation": "The plural is Korrekturen.",
+      "acceptedAnswers": [
+        "Korrekturen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Korrektur mean?",
+      "options": [
+        "to open",
+        "correction",
+        "slowly"
+      ],
+      "answer": "correction",
+      "explanation": "Korrektur: correction; proofreading.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Verb:",
+      "options": [
+        "korrigieren",
+        "korrekturen"
+      ],
+      "answer": "korrigieren",
+      "explanation": "Correct.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Stress on…",
+      "options": [
+        "-TUR",
+        "KOR-"
+      ],
+      "answer": "-TUR",
+      "explanation": "ko-rek-TOOR.",
+      "id": "q5"
+    }
+  ]
+}

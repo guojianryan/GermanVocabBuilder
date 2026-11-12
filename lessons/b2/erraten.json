@@ -1,0 +1,186 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "erraten",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "er-RAA-ten",
+      "ipa": "ɛɐ̯ˈʁaːtn̩",
+      "notes": ""
+    },
+    "meaning": "to guess (correctly)",
+    "shortDefinition": "To guess (correctly)."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "er",
+        "meaning": "achieve"
+      },
+      {
+        "part": "raten",
+        "meaning": "to guess",
+        "emphasis": "arrive"
+      }
+    ],
+    "literalMeaning": "to achieve by guessing",
+    "summary": "Landing on the answer."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "errat|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "errät|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "errät"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "errat|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "errat|et"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "errat|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat erraten"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Rate mal! – Erraten!",
+      "english": "Have a guess! – You got it!",
+      "highlight": [
+        "Erraten!"
+      ]
+    },
+    {
+      "german": "Du errätst es nie.",
+      "english": "You'll never guess.",
+      "highlight": [
+        "errätst"
+      ]
+    },
+    {
+      "german": "Er hat das Passwort erraten.",
+      "english": "He guessed the password.",
+      "highlight": [
+        "erraten."
+      ]
+    }
+  ],
+  "forms": [
+    "errate",
+    "errätst",
+    "errät",
+    "erraten",
+    "erratet",
+    "raten"
+  ],
+  "memoryHook": "Er + raten = guess correctly.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (erraten)",
+      "answer": "errät",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: errät.",
+      "acceptedAnswers": [
+        "erraet"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (erraten, past)",
+      "answer": "erraten",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe erraten.",
+      "acceptedAnswers": [
+        "erraten"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does erraten mean?",
+      "options": [
+        "to wait",
+        "to guess (correctly)",
+        "the car"
+      ],
+      "answer": "to guess (correctly)",
+      "explanation": "erraten: to guess (correctly).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Erraten vs raten:",
+      "options": [
+        "guess right vs guess (try)",
+        "same"
+      ],
+      "answer": "guess right vs guess (try)",
+      "explanation": "Result.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Erraten!' as a reply means…",
+      "options": [
+        "Correct! You guessed it!",
+        "Wrong!"
+      ],
+      "answer": "Correct! You guessed it!",
+      "explanation": "Informal.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "hat erraten",
+        "hat errätet"
+      ],
+      "answer": "hat erraten",
+      "explanation": "Like raten.",
+      "id": "q6"
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Notarzt",
+    "partOfSpeech": "noun, masculine (der Notarzt)",
+    "pronunciation": {
+      "respelling": "NOHT-artst",
+      "ipa": "ˈnoːtˌʔaʁtst",
+      "notes": "Plural: die Notärzte."
+    },
+    "meaning": "emergency doctor",
+    "shortDefinition": "Emergency doctor."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Not",
+        "meaning": "emergency, need"
+      },
+      {
+        "part": "arzt",
+        "meaning": "doctor"
+      }
+    ],
+    "literalMeaning": "emergency doctor"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Notarzt, plural die Notärzte.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Notarzt"
+        },
+        {
+          "label": "More than one",
+          "value": "die Notärzte"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ruf sofort den Notarzt!",
+      "english": "Call the emergency doctor at once!",
+      "highlight": [
+        "Notarzt!"
+      ]
+    },
+    {
+      "german": "Der Notarzt kam nach zehn Minuten.",
+      "english": "The emergency doctor came after ten minutes.",
+      "highlight": [
+        "Notarzt"
+      ]
+    },
+    {
+      "german": "Sie arbeitet als Notärztin.",
+      "english": "She works as an emergency doctor.",
+      "highlight": [
+        "Notärztin."
+      ]
+    }
+  ],
+  "forms": [
+    "Notruf",
+    "Notaufnahme",
+    "Arzt"
+  ],
+  "memoryHook": "Not + Arzt; Notruf 112; Notaufnahme.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Notarzt",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Notarzt is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Notarzt, zwei ___",
+      "answer": "Notärzte",
+      "fullAnswer": "ein Notarzt, zwei Notärzte",
+      "explanation": "The plural is Notärzte.",
+      "acceptedAnswers": [
+        "Notaerzte"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Notarzt mean?",
+      "options": [
+        "quiet",
+        "emergency doctor",
+        "the station"
+      ],
+      "answer": "emergency doctor",
+      "explanation": "Notarzt: emergency doctor.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Not (emergency) + Arzt",
+        "Note + Arzt"
+      ],
+      "answer": "Not (emergency) + Arzt",
+      "explanation": "Emergency.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Emergency number in Germany:",
+      "options": [
+        "112",
+        "999"
+      ],
+      "answer": "112",
+      "explanation": "Notruf.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Emergency (room):",
+      "options": [
+        "die Notaufnahme",
+        "der Notraum"
+      ],
+      "answer": "die Notaufnahme",
+      "explanation": "A&E.",
+      "id": "q6"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "sensibel",
+    "partOfSpeech": "adjective",
+    "pronunciation": {
+      "respelling": "zen-ZEE-bel",
+      "ipa": "zɛnˈziːbl̩",
+      "notes": ""
+    },
+    "meaning": "sensitive",
+    "shortDefinition": "Sensitive."
+  },
+  "sampleSentences": [
+    {
+      "german": "Er ist sehr sensibel.",
+      "english": "He's very sensitive.",
+      "highlight": [
+        "sensibel."
+      ]
+    },
+    {
+      "german": "Ein sensibles Thema.",
+      "english": "A sensitive topic.",
+      "highlight": [
+        "sensibles"
+      ]
+    },
+    {
+      "german": "Sensible Haut.",
+      "english": "Sensitive skin.",
+      "highlight": [
+        "Sensible"
+      ]
+    }
+  ],
+  "forms": [
+    "Sensibilität",
+    "vernünftig"
+  ],
+  "memoryHook": "Sensibel = sensitive (NOT sensible → vernünftig).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does sensibel mean?",
+      "options": [
+        "to travel",
+        "the evening",
+        "sensitive"
+      ],
+      "answer": "sensitive",
+      "explanation": "sensibel: sensitive.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Sensibel' (German) means…",
+      "options": [
+        "sensitive",
+        "sensible"
+      ],
+      "answer": "sensitive",
+      "explanation": "False friend!",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Sensible (English) in German:",
+      "options": [
+        "vernünftig",
+        "sensibel"
+      ],
+      "answer": "vernünftig",
+      "explanation": "False friend.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Declined:",
+      "options": [
+        "ein sensibles Kind",
+        "ein sensibeles Kind"
+      ],
+      "answer": "ein sensibles Kind",
+      "explanation": "-el → -l-.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Das ist ein ___ Thema. (sensitive)",
+      "answer": "sensibles",
+      "fullAnswer": "Das ist ein sensibles Thema.",
+      "explanation": "Sensibles.",
+      "acceptedAnswers": [
+        "heikles"
+      ],
+      "id": "q5"
+    }
+  ]
+}

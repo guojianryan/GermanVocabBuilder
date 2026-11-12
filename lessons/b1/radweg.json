@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Radweg",
+    "partOfSpeech": "noun, masculine (der Radweg)",
+    "pronunciation": {
+      "respelling": "RAAT-vayk",
+      "ipa": "ˈʁaːtveːk",
+      "notes": "Plural: die Radwege."
+    },
+    "meaning": "cycle path",
+    "shortDefinition": "Cycle path."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Rad",
+        "meaning": "bike, wheel"
+      },
+      {
+        "part": "weg",
+        "meaning": "way"
+      }
+    ],
+    "literalMeaning": "bike way"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Radweg, plural die Radwege.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Radweg"
+        },
+        {
+          "label": "More than one",
+          "value": "die Radwege"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Fahr bitte auf dem Radweg!",
+      "english": "Please ride on the cycle path!",
+      "highlight": [
+        "Radweg!"
+      ]
+    },
+    {
+      "german": "Der Radweg führt am Fluss entlang.",
+      "english": "The cycle path runs along the river.",
+      "highlight": [
+        "Radweg"
+      ]
+    },
+    {
+      "german": "Neue Radwege in der Stadt.",
+      "english": "New cycle lanes in the city.",
+      "highlight": [
+        "Radwege"
+      ]
+    }
+  ],
+  "forms": [
+    "Rad",
+    "Radfahrer"
+  ],
+  "memoryHook": "Rad + Weg = cycle path.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Radweg",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Radweg is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Radweg, zwei ___",
+      "answer": "Radwege",
+      "fullAnswer": "ein Radweg, zwei Radwege",
+      "explanation": "The plural is Radwege.",
+      "acceptedAnswers": [
+        "Radwege"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Radweg mean?",
+      "options": [
+        "the bill",
+        "cycle path",
+        "slowly"
+      ],
+      "answer": "cycle path",
+      "explanation": "Radweg: cycle path.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Rad + Weg",
+        "Rat + Weg"
+      ],
+      "answer": "Rad + Weg",
+      "explanation": "Bike way.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Cyclist:",
+      "options": [
+        "der Radfahrer",
+        "der Radweger"
+      ],
+      "answer": "der Radfahrer",
+      "explanation": "Person.",
+      "id": "q5"
+    }
+  ]
+}

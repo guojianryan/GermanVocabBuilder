@@ -1,0 +1,185 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "besiegen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "be-ZEE-gen",
+      "ipa": "bəˈziːɡn̩",
+      "notes": ""
+    },
+    "meaning": "to defeat, beat",
+    "shortDefinition": "To defeat, beat."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "be",
+        "meaning": "prefix"
+      },
+      {
+        "part": "siegen",
+        "meaning": "to win"
+      }
+    ],
+    "literalMeaning": "to win over"
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "besieg|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "besieg|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "besieg|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "besieg|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "besieg|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "besieg|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat besiegt"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir haben den Gegner besiegt.",
+      "english": "We beat the opponent.",
+      "highlight": [
+        "besiegt."
+      ]
+    },
+    {
+      "german": "Sie hat ihre Angst besiegt.",
+      "english": "She overcame her fear.",
+      "highlight": [
+        "besiegt."
+      ]
+    },
+    {
+      "german": "Die Armee wurde besiegt.",
+      "english": "The army was defeated.",
+      "highlight": [
+        "besiegt."
+      ]
+    }
+  ],
+  "forms": [
+    "besiege",
+    "besiegst",
+    "besiegt",
+    "besiegen",
+    "Sieg",
+    "siegen",
+    "Sieger"
+  ],
+  "memoryHook": "Sieg → siegen → besiegen (+ Akk.).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (besiegen)",
+      "answer": "besiegt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: besiegt.",
+      "acceptedAnswers": [
+        "besiegt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (besiegen, past)",
+      "answer": "besiegt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe besiegt.",
+      "acceptedAnswers": [
+        "besiegt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does besiegen mean?",
+      "options": [
+        "the bill",
+        "to learn",
+        "to defeat"
+      ],
+      "answer": "to defeat",
+      "explanation": "besiegen: to defeat, beat.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "der Sieg (victory)",
+        "siegen only"
+      ],
+      "answer": "der Sieg (victory)",
+      "explanation": "Victory.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Takes…",
+      "options": [
+        "accusative (jemanden besiegen)",
+        "dative"
+      ],
+      "answer": "accusative (jemanden besiegen)",
+      "explanation": "Direct object.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonym:",
+      "options": [
+        "schlagen, gewinnen gegen",
+        "verlieren"
+      ],
+      "answer": "schlagen, gewinnen gegen",
+      "explanation": "Beat.",
+      "id": "q6"
+    }
+  ]
+}

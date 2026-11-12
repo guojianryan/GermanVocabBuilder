@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Gewinnspiel",
+    "partOfSpeech": "noun, neuter (das Gewinnspiel)",
+    "pronunciation": {
+      "respelling": "ge-VIN-shpeel",
+      "ipa": "ɡəˈvɪnˌʃpiːl",
+      "notes": "Plural: die Gewinnspiele."
+    },
+    "meaning": "competition, prize draw",
+    "shortDefinition": "Competition, prize draw."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Gewinn",
+        "meaning": "prize, win"
+      },
+      {
+        "part": "spiel",
+        "meaning": "game"
+      }
+    ],
+    "literalMeaning": "prize game"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Gewinnspiel, plural die Gewinnspiele.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Gewinnspiel"
+        },
+        {
+          "label": "More than one",
+          "value": "die Gewinnspiele"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Mach mit bei unserem Gewinnspiel!",
+      "english": "Enter our competition!",
+      "highlight": [
+        "Gewinnspiel!"
+      ]
+    },
+    {
+      "german": "Ich habe bei einem Gewinnspiel ein Auto gewonnen.",
+      "english": "I won a car in a prize draw.",
+      "highlight": [
+        "Gewinnspiel"
+      ]
+    },
+    {
+      "german": "Teilnahmebedingungen für das Gewinnspiel.",
+      "english": "Terms of entry for the competition.",
+      "highlight": [
+        "Gewinnspiel."
+      ]
+    }
+  ],
+  "forms": [
+    "Gewinn",
+    "gewinnen"
+  ],
+  "memoryHook": "Gewinn + Spiel = competition, prize draw.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Gewinnspiel",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Gewinnspiel is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Gewinnspiel, zwei ___",
+      "answer": "Gewinnspiele",
+      "fullAnswer": "ein Gewinnspiel, zwei Gewinnspiele",
+      "explanation": "The plural is Gewinnspiele.",
+      "acceptedAnswers": [
+        "Gewinnspiele"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Gewinnspiel mean?",
+      "options": [
+        "the flower",
+        "the bread",
+        "competition"
+      ],
+      "answer": "competition",
+      "explanation": "Gewinnspiel: competition, prize draw.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Gewinn (prize, win) + Spiel",
+        "gewinnen + spielen only"
+      ],
+      "answer": "Gewinn (prize, win) + Spiel",
+      "explanation": "Prize game.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Teilnehmen an' means…",
+      "options": [
+        "to take part in",
+        "to divide"
+      ],
+      "answer": "to take part in",
+      "explanation": "Enter.",
+      "id": "q5"
+    }
+  ]
+}

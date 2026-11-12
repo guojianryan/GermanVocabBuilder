@@ -1,0 +1,134 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Karton",
+    "partOfSpeech": "noun, masculine (der Karton)",
+    "pronunciation": {
+      "respelling": "kar-TONG",
+      "ipa": "kaʁˈtɔŋ",
+      "notes": "Plural: die Kartons."
+    },
+    "meaning": "cardboard box; cardboard",
+    "shortDefinition": "Cardboard box; cardboard."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Karton, plural die Kartons.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Karton"
+        },
+        {
+          "label": "More than one",
+          "value": "die Kartons"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Bücher sind in Kartons.",
+      "english": "The books are in boxes.",
+      "highlight": [
+        "Kartons."
+      ]
+    },
+    {
+      "german": "Ein Karton Milch.",
+      "english": "A carton of milk.",
+      "highlight": [
+        "Karton"
+      ]
+    },
+    {
+      "german": "Aus Karton gebastelt.",
+      "english": "Made of cardboard.",
+      "highlight": [
+        "Karton"
+      ]
+    }
+  ],
+  "forms": [
+    "Umzugskarton",
+    "Kiste"
+  ],
+  "memoryHook": "Der Karton (box; cardboard); Umzugskarton.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Karton",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Karton is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Karton, zwei ___",
+      "answer": "Kartons",
+      "fullAnswer": "ein Karton, zwei Kartons",
+      "explanation": "The plural is Kartons.",
+      "acceptedAnswers": [
+        "Kartons"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Karton mean?",
+      "options": [
+        "to buy",
+        "to help",
+        "cardboard box"
+      ],
+      "answer": "cardboard box",
+      "explanation": "Karton: cardboard box; cardboard.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Pronounced…",
+      "options": [
+        "kar-TONG (French)",
+        "KAR-ton"
+      ],
+      "answer": "kar-TONG (French)",
+      "explanation": "Nasal.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Moving boxes:",
+      "options": [
+        "Umzugskartons",
+        "Umzugskisten only"
+      ],
+      "answer": "Umzugskartons",
+      "explanation": "Compound.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Kartons",
+        "Kartone"
+      ],
+      "answer": "Kartons",
+      "explanation": "-s.",
+      "id": "q6"
+    }
+  ]
+}

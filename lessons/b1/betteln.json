@@ -1,0 +1,170 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "betteln",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "BE-teln",
+      "ipa": "ˈbɛtl̩n",
+      "notes": ""
+    },
+    "meaning": "to beg",
+    "shortDefinition": "To beg."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "bett|le"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "bettel|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "bettel|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "bettel|n"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "bettel|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "bettel|n"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gebettelt"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ein Mann bettelt am Bahnhof.",
+      "english": "A man is begging at the station.",
+      "highlight": [
+        "bettelt"
+      ]
+    },
+    {
+      "german": "Der Hund bettelt um Futter.",
+      "english": "The dog is begging for food.",
+      "highlight": [
+        "bettelt"
+      ]
+    },
+    {
+      "german": "Sie hat gebettelt, mitkommen zu dürfen.",
+      "english": "She begged to be allowed to come.",
+      "highlight": [
+        "gebettelt,"
+      ]
+    }
+  ],
+  "forms": [
+    "bettle",
+    "bettelst",
+    "bettelt",
+    "betteln",
+    "gebettelt",
+    "Bettler"
+  ],
+  "memoryHook": "Betteln um; der Bettler.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (betteln)",
+      "answer": "bettelt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: bettelt.",
+      "acceptedAnswers": [
+        "bettelt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (betteln, past)",
+      "answer": "gebettelt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gebettelt.",
+      "acceptedAnswers": [
+        "gebettelt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does betteln mean?",
+      "options": [
+        "tomorrow",
+        "to beg",
+        "the car"
+      ],
+      "answer": "to beg",
+      "explanation": "betteln: to beg.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Preposition:",
+      "options": [
+        "betteln um + Akk.",
+        "betteln für"
+      ],
+      "answer": "betteln um + Akk.",
+      "explanation": "For.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Beggar:",
+      "options": [
+        "der Bettler",
+        "der Bettel"
+      ],
+      "answer": "der Bettler",
+      "explanation": "Person.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "ich ___:",
+      "options": [
+        "bettle",
+        "bettele"
+      ],
+      "answer": "bettle",
+      "explanation": "-el verbs.",
+      "id": "q6"
+    }
+  ]
+}

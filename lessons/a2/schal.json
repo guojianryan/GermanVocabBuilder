@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Schal",
+    "partOfSpeech": "noun, masculine (der Schal)",
+    "pronunciation": {
+      "respelling": "SHAAL",
+      "ipa": "ʃaːl",
+      "notes": "Plural: die Schals."
+    },
+    "meaning": "scarf",
+    "shortDefinition": "Scarf."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Schal, plural die Schals.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Schal"
+        },
+        {
+          "label": "More than one",
+          "value": "die Schals"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Es ist kalt, nimm einen Schal mit.",
+      "english": "It's cold, take a scarf.",
+      "highlight": [
+        "Schal"
+      ]
+    },
+    {
+      "german": "Sie hat mir einen Schal gestrickt.",
+      "english": "She knitted me a scarf.",
+      "highlight": [
+        "Schal"
+      ]
+    },
+    {
+      "german": "Ein Schal von meinem Verein.",
+      "english": "A scarf from my club.",
+      "highlight": [
+        "Schal"
+      ]
+    }
+  ],
+  "forms": [
+    "Mütze",
+    "Handschuh"
+  ],
+  "memoryHook": "Der Schal, die Schals; Mütze, Handschuhe.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Schal",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Schal is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Schal, zwei ___",
+      "answer": "Schals",
+      "fullAnswer": "ein Schal, zwei Schals",
+      "explanation": "The plural is Schals.",
+      "acceptedAnswers": [
+        "Schals"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Schal mean?",
+      "options": [
+        "scarf",
+        "slowly",
+        "to buy"
+      ],
+      "answer": "scarf",
+      "explanation": "Schal: scarf.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Schals",
+        "Schäle"
+      ],
+      "answer": "Schals",
+      "explanation": "-s.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Headscarf:",
+      "options": [
+        "das Kopftuch",
+        "der Kopfschal"
+      ],
+      "answer": "das Kopftuch",
+      "explanation": "Different.",
+      "id": "q5"
+    }
+  ]
+}

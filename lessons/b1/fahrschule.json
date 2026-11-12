@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Fahrschule",
+    "partOfSpeech": "noun, feminine (die Fahrschule)",
+    "pronunciation": {
+      "respelling": "FAAR-shoo-le",
+      "ipa": "ˈfaːɐ̯ˌʃuːlə",
+      "notes": "Plural: die Fahrschulen."
+    },
+    "meaning": "driving school",
+    "shortDefinition": "Driving school."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Fahr",
+        "meaning": "drive (fahren)"
+      },
+      {
+        "part": "schule",
+        "meaning": "school"
+      }
+    ],
+    "literalMeaning": "driving school"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Fahrschule, plural die Fahrschulen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Fahrschule"
+        },
+        {
+          "label": "More than one",
+          "value": "die Fahrschulen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich gehe in die Fahrschule.",
+      "english": "I'm taking driving lessons.",
+      "highlight": [
+        "Fahrschule."
+      ]
+    },
+    {
+      "german": "Die Fahrschule ist teuer.",
+      "english": "Driving school is expensive.",
+      "highlight": [
+        "Fahrschule"
+      ]
+    },
+    {
+      "german": "Der Fahrlehrer ist nett.",
+      "english": "The driving instructor is nice.",
+      "highlight": [
+        "Fahrlehrer"
+      ]
+    }
+  ],
+  "forms": [
+    "Fahrlehrer",
+    "Führerschein"
+  ],
+  "memoryHook": "Fahren + Schule; Fahrlehrer, Führerschein.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Fahrschule",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Fahrschule is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Fahrschule, zwei ___",
+      "answer": "Fahrschulen",
+      "fullAnswer": "ein Fahrschule, zwei Fahrschulen",
+      "explanation": "The plural is Fahrschulen.",
+      "acceptedAnswers": [
+        "Fahrschulen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Fahrschule mean?",
+      "options": [
+        "expensive",
+        "cheap",
+        "driving school"
+      ],
+      "answer": "driving school",
+      "explanation": "Fahrschule: driving school.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "fahren + Schule",
+        "Fahrt + Schule"
+      ],
+      "answer": "fahren + Schule",
+      "explanation": "Driving school.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Driving instructor:",
+      "options": [
+        "der Fahrlehrer",
+        "der Fahrschüler"
+      ],
+      "answer": "der Fahrlehrer",
+      "explanation": "Fahrschüler = learner.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Badezimmer",
+    "partOfSpeech": "noun, neuter (das Badezimmer)",
+    "pronunciation": {
+      "respelling": "BAA-de-tsi-mer",
+      "ipa": "ˈbaːdəˌtsɪmɐ",
+      "notes": "The plural looks the same. Plural: die Badezimmer."
+    },
+    "meaning": "bathroom",
+    "shortDefinition": "Bathroom."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Bade",
+        "meaning": "bathing (baden)"
+      },
+      {
+        "part": "zimmer",
+        "meaning": "room"
+      }
+    ],
+    "literalMeaning": "bathing room"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Badezimmer, plural die Badezimmer.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Badezimmer"
+        },
+        {
+          "label": "More than one",
+          "value": "die Badezimmer"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das Badezimmer ist oben.",
+      "english": "The bathroom is upstairs.",
+      "highlight": [
+        "Badezimmer"
+      ]
+    },
+    {
+      "german": "Wir haben zwei Badezimmer.",
+      "english": "We have two bathrooms.",
+      "highlight": [
+        "Badezimmer."
+      ]
+    },
+    {
+      "german": "Er ist gerade im Badezimmer.",
+      "english": "He's in the bathroom right now.",
+      "highlight": [
+        "Badezimmer."
+      ]
+    }
+  ],
+  "forms": [
+    "Bad",
+    "baden"
+  ],
+  "memoryHook": "Baden + Zimmer = bathroom (= das Bad).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Badezimmer",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Badezimmer is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Badezimmer, zwei ___",
+      "answer": "Badezimmer",
+      "fullAnswer": "ein Badezimmer, zwei Badezimmer",
+      "explanation": "The plural is Badezimmer.",
+      "acceptedAnswers": [
+        "Badezimmer"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Badezimmer mean?",
+      "options": [
+        "the door",
+        "the bill",
+        "bathroom"
+      ],
+      "answer": "bathroom",
+      "explanation": "Badezimmer: bathroom.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Short form:",
+      "options": [
+        "das Bad",
+        "die Bade"
+      ],
+      "answer": "das Bad",
+      "explanation": "Everyday.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "baden + Zimmer",
+        "Bad + Ezimmer"
+      ],
+      "answer": "baden + Zimmer",
+      "explanation": "Bathing room.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Badezimmer",
+        "Badezimmern"
+      ],
+      "answer": "Badezimmer",
+      "explanation": "No change.",
+      "id": "q6"
+    }
+  ]
+}

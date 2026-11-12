@@ -1,0 +1,138 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Bettdecke",
+    "partOfSpeech": "noun, feminine (die Bettdecke)",
+    "pronunciation": {
+      "respelling": "BET-de-ke",
+      "ipa": "ˈbɛtˌdɛkə",
+      "notes": "Plural: die Bettdecken."
+    },
+    "meaning": "duvet, quilt",
+    "shortDefinition": "Duvet, quilt."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Bett",
+        "meaning": "bed"
+      },
+      {
+        "part": "decke",
+        "meaning": "cover"
+      }
+    ],
+    "literalMeaning": "bed cover"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Bettdecke, plural die Bettdecken.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Bettdecke"
+        },
+        {
+          "label": "More than one",
+          "value": "die Bettdecken"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Es ist kalt, ich brauche eine dicke Bettdecke.",
+      "english": "It's cold, I need a thick duvet.",
+      "highlight": [
+        "Bettdecke."
+      ]
+    },
+    {
+      "german": "Sie zieht die Bettdecke über den Kopf.",
+      "english": "She pulls the duvet over her head.",
+      "highlight": [
+        "Bettdecke"
+      ]
+    },
+    {
+      "german": "Die Bettdecke neu beziehen.",
+      "english": "To change the duvet cover.",
+      "highlight": [
+        "Bettdecke"
+      ]
+    }
+  ],
+  "forms": [
+    "Decke",
+    "Bettwäsche",
+    "Kissen"
+  ],
+  "memoryHook": "Bett + Decke = duvet; Bettwäsche.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Bettdecke",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Bettdecke is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Bettdecke, zwei ___",
+      "answer": "Bettdecken",
+      "fullAnswer": "ein Bettdecke, zwei Bettdecken",
+      "explanation": "The plural is Bettdecken.",
+      "acceptedAnswers": [
+        "Bettdecken"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Bettdecke mean?",
+      "options": [
+        "the child",
+        "tomorrow",
+        "duvet"
+      ],
+      "answer": "duvet",
+      "explanation": "Bettdecke: duvet, quilt.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Bett + Decke",
+        "Bett + Deckel"
+      ],
+      "answer": "Bett + Decke",
+      "explanation": "Bed cover.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Bed linen:",
+      "options": [
+        "die Bettwäsche",
+        "die Bettdecke"
+      ],
+      "answer": "die Bettwäsche",
+      "explanation": "Covers.",
+      "id": "q5"
+    }
+  ]
+}

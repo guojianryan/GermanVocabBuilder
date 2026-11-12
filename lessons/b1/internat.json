@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Internat",
+    "partOfSpeech": "noun, neuter (das Internat)",
+    "pronunciation": {
+      "respelling": "in-ter-NAAT",
+      "ipa": "ɪntɐˈnaːt",
+      "notes": "Plural: die Internate."
+    },
+    "meaning": "boarding school",
+    "shortDefinition": "Boarding school."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Internat, plural die Internate.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Internat"
+        },
+        {
+          "label": "More than one",
+          "value": "die Internate"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er war auf einem Internat.",
+      "english": "He went to boarding school.",
+      "highlight": [
+        "Internat."
+      ]
+    },
+    {
+      "german": "Die Kinder wohnen im Internat.",
+      "english": "The children live at the boarding school.",
+      "highlight": [
+        "Internat."
+      ]
+    },
+    {
+      "german": "Ein Internat in der Schweiz.",
+      "english": "A boarding school in Switzerland.",
+      "highlight": [
+        "Internat"
+      ]
+    }
+  ],
+  "forms": [
+    "Praktikum"
+  ],
+  "memoryHook": "Das Internat (boarding school) ≠ Praktikum (internship).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Internat",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Internat is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Internat, zwei ___",
+      "answer": "Internate",
+      "fullAnswer": "ein Internat, zwei Internate",
+      "explanation": "The plural is Internate.",
+      "acceptedAnswers": [
+        "Internate"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Internat mean?",
+      "options": [
+        "the evening",
+        "boarding school",
+        "cheap"
+      ],
+      "answer": "boarding school",
+      "explanation": "Internat: boarding school.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Internat' means…",
+      "options": [
+        "boarding school",
+        "internship"
+      ],
+      "answer": "boarding school",
+      "explanation": "False friend!",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Internship:",
+      "options": [
+        "das Praktikum",
+        "das Internat"
+      ],
+      "answer": "das Praktikum",
+      "explanation": "Work.",
+      "id": "q5"
+    }
+  ]
+}

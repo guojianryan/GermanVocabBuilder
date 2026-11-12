@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Einhorn",
+    "partOfSpeech": "noun, neuter (das Einhorn)",
+    "pronunciation": {
+      "respelling": "INE-horn",
+      "ipa": "ˈaɪ̯nhɔʁn",
+      "notes": "Plural: die Einhörner."
+    },
+    "meaning": "unicorn",
+    "shortDefinition": "Unicorn."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Ein",
+        "meaning": "one"
+      },
+      {
+        "part": "horn",
+        "meaning": "horn"
+      }
+    ],
+    "literalMeaning": "one-horn"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Einhorn, plural die Einhörner.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Einhorn"
+        },
+        {
+          "label": "More than one",
+          "value": "die Einhörner"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das Einhorn ist ein Fabelwesen.",
+      "english": "The unicorn is a mythical creature.",
+      "highlight": [
+        "Einhorn"
+      ]
+    },
+    {
+      "german": "Meine Tochter liebt Einhörner.",
+      "english": "My daughter loves unicorns.",
+      "highlight": [
+        "Einhörner."
+      ]
+    },
+    {
+      "german": "Ein Start-up-Einhorn.",
+      "english": "A start-up unicorn.",
+      "highlight": [
+        "Start-up-Einhorn."
+      ]
+    }
+  ],
+  "forms": [
+    "Horn"
+  ],
+  "memoryHook": "Ein + Horn = unicorn.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Einhorn",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Einhorn is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Einhorn, zwei ___",
+      "answer": "Einhörner",
+      "fullAnswer": "ein Einhorn, zwei Einhörner",
+      "explanation": "The plural is Einhörner.",
+      "acceptedAnswers": [
+        "Einhoerner"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Einhorn mean?",
+      "options": [
+        "the evening",
+        "the family",
+        "unicorn"
+      ],
+      "answer": "unicorn",
+      "explanation": "Einhorn: unicorn.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "ein + Horn",
+        "Ein + Ohr"
+      ],
+      "answer": "ein + Horn",
+      "explanation": "One horn.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Einhörner",
+        "Einhorne"
+      ],
+      "answer": "Einhörner",
+      "explanation": "Like Horn → Hörner.",
+      "id": "q5"
+    }
+  ]
+}

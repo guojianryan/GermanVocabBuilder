@@ -1,0 +1,135 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Joghurt",
+    "partOfSpeech": "noun, masculine (der Joghurt)",
+    "pronunciation": {
+      "respelling": "YOH-goort",
+      "ipa": "ˈjoːɡʊʁt",
+      "notes": "Also das Joghurt (Austria, some regions). Plural: die Joghurts."
+    },
+    "meaning": "yoghurt",
+    "shortDefinition": "Yoghurt."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Joghurt, plural die Joghurts.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Joghurt"
+        },
+        {
+          "label": "More than one",
+          "value": "die Joghurts"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich esse Joghurt mit Obst.",
+      "english": "I eat yoghurt with fruit.",
+      "highlight": [
+        "Joghurt"
+      ]
+    },
+    {
+      "german": "Ein Becher Joghurt.",
+      "english": "A pot of yoghurt.",
+      "highlight": [
+        "Joghurt."
+      ]
+    },
+    {
+      "german": "Naturjoghurt ohne Zucker.",
+      "english": "Plain yoghurt without sugar.",
+      "highlight": [
+        "Naturjoghurt"
+      ]
+    }
+  ],
+  "forms": [
+    "Joghurts",
+    "die Joghurts",
+    "der Joghurt"
+  ],
+  "memoryHook": "Der/das Joghurt; Naturjoghurt.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Joghurt",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Joghurt is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Joghurt, zwei ___",
+      "answer": "Joghurts",
+      "fullAnswer": "ein Joghurt, zwei Joghurts",
+      "explanation": "The plural is Joghurts.",
+      "acceptedAnswers": [
+        "Joghurts"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Joghurt mean?",
+      "options": [
+        "yoghurt",
+        "the job",
+        "to open"
+      ],
+      "answer": "yoghurt",
+      "explanation": "Joghurt: yoghurt.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gender:",
+      "options": [
+        "der or das (both used)",
+        "die"
+      ],
+      "answer": "der or das (both used)",
+      "explanation": "Region.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "J sounds like…",
+      "options": [
+        "y",
+        "j in jam"
+      ],
+      "answer": "y",
+      "explanation": "YOH-goort.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plain yoghurt:",
+      "options": [
+        "der Naturjoghurt",
+        "der Normaljoghurt"
+      ],
+      "answer": "der Naturjoghurt",
+      "explanation": "Compound.",
+      "id": "q6"
+    }
+  ]
+}

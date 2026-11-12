@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Kita",
+    "partOfSpeech": "noun, feminine (die Kita)",
+    "pronunciation": {
+      "respelling": "KEE-ta",
+      "ipa": "ˈkiːta",
+      "notes": "Plural: die Kitas."
+    },
+    "meaning": "nursery, day care",
+    "shortDefinition": "Nursery, day care."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Ki",
+        "meaning": "Kinder (children)"
+      },
+      {
+        "part": "ta",
+        "meaning": "Tagesstätte (day place)"
+      }
+    ],
+    "literalMeaning": "children's day place"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Kita, plural die Kitas.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Kita"
+        },
+        {
+          "label": "More than one",
+          "value": "die Kitas"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Unser Sohn geht in die Kita.",
+      "english": "Our son goes to nursery.",
+      "highlight": [
+        "Kita."
+      ]
+    },
+    {
+      "german": "Wir haben keinen Kitaplatz bekommen.",
+      "english": "We didn't get a nursery place.",
+      "highlight": [
+        "Kitaplatz"
+      ]
+    },
+    {
+      "german": "Ich hole die Kleine von der Kita ab.",
+      "english": "I'm picking the little one up from nursery.",
+      "highlight": [
+        "Kita"
+      ]
+    }
+  ],
+  "forms": [
+    "Kindertagesstätte",
+    "Kindergarten"
+  ],
+  "memoryHook": "Die Kita = Kindertagesstätte (day care).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Kita",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Kita is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Kita, zwei ___",
+      "answer": "Kitas",
+      "fullAnswer": "ein Kita, zwei Kitas",
+      "explanation": "The plural is Kitas.",
+      "acceptedAnswers": [
+        "Kitas"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Kita mean?",
+      "options": [
+        "hot",
+        "the flower",
+        "nursery"
+      ],
+      "answer": "nursery",
+      "explanation": "Kita: nursery, day care.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Short for…",
+      "options": [
+        "Kindertagesstätte",
+        "Kinder-Theater"
+      ],
+      "answer": "Kindertagesstätte",
+      "explanation": "Day-care centre.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Related:",
+      "options": [
+        "der Kindergarten",
+        "die Grundschule"
+      ],
+      "answer": "der Kindergarten",
+      "explanation": "Similar.",
+      "id": "q5"
+    }
+  ]
+}

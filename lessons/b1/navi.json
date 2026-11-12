@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Navi",
+    "partOfSpeech": "noun, neuter (das Navi)",
+    "pronunciation": {
+      "respelling": "NAA-vee",
+      "ipa": "ˈnaːvi",
+      "notes": "Plural: die Navis."
+    },
+    "meaning": "satnav, GPS",
+    "shortDefinition": "Satnav, GPS."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Navi, plural die Navis.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Navi"
+        },
+        {
+          "label": "More than one",
+          "value": "die Navis"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das Navi sagt, wir sollen links abbiegen.",
+      "english": "The satnav says turn left.",
+      "highlight": [
+        "Navi"
+      ]
+    },
+    {
+      "german": "Ohne Navi verfahre ich mich.",
+      "english": "Without satnav I get lost.",
+      "highlight": [
+        "Navi"
+      ]
+    },
+    {
+      "german": "Hast du das Navi eingeschaltet?",
+      "english": "Have you switched on the satnav?",
+      "highlight": [
+        "Navi"
+      ]
+    }
+  ],
+  "forms": [
+    "Navigationsgerät"
+  ],
+  "memoryHook": "Das Navi = Navigationsgerät.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Navi",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Navi is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Navi, zwei ___",
+      "answer": "Navis",
+      "fullAnswer": "ein Navi, zwei Navis",
+      "explanation": "The plural is Navis.",
+      "acceptedAnswers": [
+        "Navis"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Navi mean?",
+      "options": [
+        "expensive",
+        "the door",
+        "satnav"
+      ],
+      "answer": "satnav",
+      "explanation": "Navi: satnav, GPS.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Short for…",
+      "options": [
+        "das Navigationsgerät",
+        "die Navigation only"
+      ],
+      "answer": "das Navigationsgerät",
+      "explanation": "Device.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gender:",
+      "options": [
+        "das (also: der)",
+        "die"
+      ],
+      "answer": "das (also: der)",
+      "explanation": "Usually das.",
+      "id": "q5"
+    }
+  ]
+}

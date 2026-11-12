@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Tulpe",
+    "partOfSpeech": "noun, feminine (die Tulpe)",
+    "pronunciation": {
+      "respelling": "TUL-pe",
+      "ipa": "ˈtʊlpə",
+      "notes": "Plural: die Tulpen."
+    },
+    "meaning": "tulip",
+    "shortDefinition": "Tulip."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Tulpe, plural die Tulpen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Tulpe"
+        },
+        {
+          "label": "More than one",
+          "value": "die Tulpen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ein Strauß Tulpen.",
+      "english": "A bunch of tulips.",
+      "highlight": [
+        "Tulpen."
+      ]
+    },
+    {
+      "german": "Im Frühling blühen die Tulpen.",
+      "english": "The tulips bloom in spring.",
+      "highlight": [
+        "Tulpen."
+      ]
+    },
+    {
+      "german": "Tulpen aus Amsterdam.",
+      "english": "Tulips from Amsterdam.",
+      "highlight": [
+        "Tulpen"
+      ]
+    }
+  ],
+  "forms": [
+    "Strauß",
+    "Blume"
+  ],
+  "memoryHook": "Die Tulpe, die Tulpen; Strauß.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Tulpe",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Tulpe is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Tulpe, zwei ___",
+      "answer": "Tulpen",
+      "fullAnswer": "ein Tulpe, zwei Tulpen",
+      "explanation": "The plural is Tulpen.",
+      "acceptedAnswers": [
+        "Tulpen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Tulpe mean?",
+      "options": [
+        "tulip",
+        "the car",
+        "slowly"
+      ],
+      "answer": "tulip",
+      "explanation": "Tulpe: tulip.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Tulpen",
+        "Tulpe"
+      ],
+      "answer": "Tulpen",
+      "explanation": "-n.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Bunch of flowers:",
+      "options": [
+        "der Strauß",
+        "der Bund"
+      ],
+      "answer": "der Strauß",
+      "explanation": "Bouquet.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Wohnmobil",
+    "partOfSpeech": "noun, neuter (das Wohnmobil)",
+    "pronunciation": {
+      "respelling": "VOHN-mo-beel",
+      "ipa": "ˈvoːnmoˌbiːl",
+      "notes": "Plural: die Wohnmobile."
+    },
+    "meaning": "motorhome, camper van",
+    "shortDefinition": "Motorhome, camper van."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Wohn",
+        "meaning": "living (wohnen)"
+      },
+      {
+        "part": "mobil",
+        "meaning": "vehicle"
+      }
+    ],
+    "literalMeaning": "living vehicle"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Wohnmobil, plural die Wohnmobile.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Wohnmobil"
+        },
+        {
+          "label": "More than one",
+          "value": "die Wohnmobile"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir reisen mit dem Wohnmobil.",
+      "english": "We travel by motorhome.",
+      "highlight": [
+        "Wohnmobil."
+      ]
+    },
+    {
+      "german": "Ein Wohnmobil mieten.",
+      "english": "Rent a camper van.",
+      "highlight": [
+        "Wohnmobil"
+      ]
+    },
+    {
+      "german": "Das Wohnmobil hat eine Küche.",
+      "english": "The motorhome has a kitchen.",
+      "highlight": [
+        "Wohnmobil"
+      ]
+    }
+  ],
+  "forms": [
+    "Wohnwagen"
+  ],
+  "memoryHook": "Wohnen + Mobil = motorhome ≠ Wohnwagen.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Wohnmobil",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Wohnmobil is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Wohnmobil, zwei ___",
+      "answer": "Wohnmobile",
+      "fullAnswer": "ein Wohnmobil, zwei Wohnmobile",
+      "explanation": "The plural is Wohnmobile.",
+      "acceptedAnswers": [
+        "Wohnmobile"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Wohnmobil mean?",
+      "options": [
+        "quiet",
+        "the family",
+        "motorhome"
+      ],
+      "answer": "motorhome",
+      "explanation": "Wohnmobil: motorhome, camper van.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "wohnen + Mobil (vehicle)",
+        "Wohnung + mobil only"
+      ],
+      "answer": "wohnen + Mobil (vehicle)",
+      "explanation": "Living vehicle.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Caravan (towed):",
+      "options": [
+        "der Wohnwagen",
+        "das Wohnmobil"
+      ],
+      "answer": "der Wohnwagen",
+      "explanation": "No engine.",
+      "id": "q5"
+    }
+  ]
+}

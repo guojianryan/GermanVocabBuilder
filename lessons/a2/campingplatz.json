@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Campingplatz",
+    "partOfSpeech": "noun, masculine (der Campingplatz)",
+    "pronunciation": {
+      "respelling": "KEM-ping-plats",
+      "ipa": "ˈkɛmpɪŋˌplats",
+      "notes": "Plural: die Campingplätze."
+    },
+    "meaning": "campsite",
+    "shortDefinition": "Campsite."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Camping",
+        "meaning": "camping"
+      },
+      {
+        "part": "platz",
+        "meaning": "place"
+      }
+    ],
+    "literalMeaning": "camping place"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Campingplatz, plural die Campingplätze.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Campingplatz"
+        },
+        {
+          "label": "More than one",
+          "value": "die Campingplätze"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir übernachten auf einem Campingplatz.",
+      "english": "We're staying on a campsite.",
+      "highlight": [
+        "Campingplatz."
+      ]
+    },
+    {
+      "german": "Der Campingplatz liegt am See.",
+      "english": "The campsite is by the lake.",
+      "highlight": [
+        "Campingplatz"
+      ]
+    },
+    {
+      "german": "Gibt es hier einen Campingplatz?",
+      "english": "Is there a campsite here?",
+      "highlight": [
+        "Campingplatz?"
+      ]
+    }
+  ],
+  "forms": [
+    "Platz",
+    "Zelt"
+  ],
+  "memoryHook": "Camping + Platz = campsite.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Campingplatz",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Campingplatz is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Campingplatz, zwei ___",
+      "answer": "Campingplätze",
+      "fullAnswer": "ein Campingplatz, zwei Campingplätze",
+      "explanation": "The plural is Campingplätze.",
+      "acceptedAnswers": [
+        "Campingplaetze"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Campingplatz mean?",
+      "options": [
+        "campsite",
+        "always",
+        "the street"
+      ],
+      "answer": "campsite",
+      "explanation": "Campingplatz: campsite.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Preposition:",
+      "options": [
+        "auf dem Campingplatz",
+        "in dem Campingplatz"
+      ],
+      "answer": "auf dem Campingplatz",
+      "explanation": "On.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Pronounced…",
+      "options": [
+        "KEM-ping (English)",
+        "KAM-ping (German a)"
+      ],
+      "answer": "KEM-ping (English)",
+      "explanation": "Loanword.",
+      "id": "q5"
+    }
+  ]
+}

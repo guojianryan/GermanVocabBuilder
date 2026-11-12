@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Tischdecke",
+    "partOfSpeech": "noun, feminine (die Tischdecke)",
+    "pronunciation": {
+      "respelling": "TISH-de-ke",
+      "ipa": "ˈtɪʃˌdɛkə",
+      "notes": "Plural: die Tischdecken."
+    },
+    "meaning": "tablecloth",
+    "shortDefinition": "Tablecloth."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Tisch",
+        "meaning": "table"
+      },
+      {
+        "part": "decke",
+        "meaning": "cover"
+      }
+    ],
+    "literalMeaning": "table cover"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Tischdecke, plural die Tischdecken.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Tischdecke"
+        },
+        {
+          "label": "More than one",
+          "value": "die Tischdecken"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Eine weiße Tischdecke.",
+      "english": "A white tablecloth.",
+      "highlight": [
+        "Tischdecke."
+      ]
+    },
+    {
+      "german": "Leg bitte die Tischdecke auf.",
+      "english": "Please put the tablecloth on.",
+      "highlight": [
+        "Tischdecke"
+      ]
+    },
+    {
+      "german": "Der Wein ist auf die Tischdecke gekippt.",
+      "english": "The wine spilled on the tablecloth.",
+      "highlight": [
+        "Tischdecke"
+      ]
+    }
+  ],
+  "forms": [
+    "Decke",
+    "Tisch"
+  ],
+  "memoryHook": "Tisch + Decke = tablecloth; den Tisch decken.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Tischdecke",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Tischdecke is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Tischdecke, zwei ___",
+      "answer": "Tischdecken",
+      "fullAnswer": "ein Tischdecke, zwei Tischdecken",
+      "explanation": "The plural is Tischdecken.",
+      "acceptedAnswers": [
+        "Tischdecken"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Tischdecke mean?",
+      "options": [
+        "the weather",
+        "tablecloth",
+        "to buy"
+      ],
+      "answer": "tablecloth",
+      "explanation": "Tischdecke: tablecloth.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Tisch + Decke (cover)",
+        "Tisch + Deckel"
+      ],
+      "answer": "Tisch + Decke (cover)",
+      "explanation": "Table cover.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Den Tisch decken' means…",
+      "options": [
+        "to lay the table",
+        "to cover the table only"
+      ],
+      "answer": "to lay the table",
+      "explanation": "Phrase.",
+      "id": "q5"
+    }
+  ]
+}

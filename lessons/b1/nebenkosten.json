@@ -1,0 +1,134 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Nebenkosten",
+    "partOfSpeech": "noun, feminine (die Nebenkosten)",
+    "pronunciation": {
+      "respelling": "NAY-ben-kos-ten",
+      "ipa": "ˈneːbn̩ˌkɔstn̩",
+      "notes": "Usually no plural."
+    },
+    "meaning": "additional costs, utilities (plural)",
+    "shortDefinition": "Additional costs, utilities (plural)."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Neben",
+        "meaning": "beside, extra"
+      },
+      {
+        "part": "kosten",
+        "meaning": "costs"
+      }
+    ],
+    "literalMeaning": "side costs"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Nebenkosten, usually no plural.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Nebenkosten"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Miete beträgt 800 Euro plus Nebenkosten.",
+      "english": "The rent is 800 euros plus bills.",
+      "highlight": [
+        "Nebenkosten."
+      ]
+    },
+    {
+      "german": "Die Nebenkosten sind gestiegen.",
+      "english": "The utility costs have gone up.",
+      "highlight": [
+        "Nebenkosten"
+      ]
+    },
+    {
+      "german": "Sind die Nebenkosten inklusive?",
+      "english": "Are the bills included?",
+      "highlight": [
+        "Nebenkosten"
+      ]
+    }
+  ],
+  "forms": [
+    "die Nebenkosten",
+    "Kaltmiete",
+    "Warmmiete"
+  ],
+  "memoryHook": "Neben + Kosten = bills; Kaltmiete vs Warmmiete.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Nebenkosten",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Nebenkosten is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Nebenkosten mean?",
+      "options": [
+        "to travel",
+        "additional costs",
+        "the bed"
+      ],
+      "answer": "additional costs",
+      "explanation": "Nebenkosten: additional costs, utilities (plural).",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Number:",
+      "options": [
+        "plural only (die Nebenkosten)",
+        "singular"
+      ],
+      "answer": "plural only (die Nebenkosten)",
+      "explanation": "Plural.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Rent without bills:",
+      "options": [
+        "die Kaltmiete",
+        "die Warmmiete"
+      ],
+      "answer": "die Kaltmiete",
+      "explanation": "Warmmiete includes them.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "neben (additional) + Kosten",
+        "Nebel + Kosten"
+      ],
+      "answer": "neben (additional) + Kosten",
+      "explanation": "Side costs.",
+      "id": "q5"
+    }
+  ]
+}

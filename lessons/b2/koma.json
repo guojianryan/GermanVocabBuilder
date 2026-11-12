@@ -1,0 +1,133 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Koma",
+    "partOfSpeech": "noun, neuter (das Koma)",
+    "pronunciation": {
+      "respelling": "KOH-ma",
+      "ipa": "ˈkoːma",
+      "notes": "Plural also Komata. Plural: die Komas."
+    },
+    "meaning": "coma",
+    "shortDefinition": "Coma."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Koma, plural die Komas.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Koma"
+        },
+        {
+          "label": "More than one",
+          "value": "die Komas"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er liegt im Koma.",
+      "english": "He's in a coma.",
+      "highlight": [
+        "Koma."
+      ]
+    },
+    {
+      "german": "Sie ist aus dem Koma erwacht.",
+      "english": "She woke from the coma.",
+      "highlight": [
+        "Koma"
+      ]
+    },
+    {
+      "german": "Ein künstliches Koma.",
+      "english": "An induced coma.",
+      "highlight": [
+        "Koma."
+      ]
+    }
+  ],
+  "forms": [
+    "Komma"
+  ],
+  "memoryHook": "Das Koma (coma) ≠ das Komma (comma).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Koma",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Koma is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Koma, zwei ___",
+      "answer": "Komas",
+      "fullAnswer": "ein Koma, zwei Komas",
+      "explanation": "The plural is Komas.",
+      "acceptedAnswers": [
+        "Komas"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Koma mean?",
+      "options": [
+        "coma",
+        "to travel",
+        "expensive"
+      ],
+      "answer": "coma",
+      "explanation": "Koma: coma.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Im Koma liegen' means…",
+      "options": [
+        "to be in a coma",
+        "to be asleep"
+      ],
+      "answer": "to be in a coma",
+      "explanation": "Phrase.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Careful: 'das Komma' means…",
+      "options": [
+        "comma",
+        "coma"
+      ],
+      "answer": "comma",
+      "explanation": "Different spelling!",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Komas / Komata",
+        "Komen"
+      ],
+      "answer": "Komas / Komata",
+      "explanation": "Both.",
+      "id": "q6"
+    }
+  ]
+}

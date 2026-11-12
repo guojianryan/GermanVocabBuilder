@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Fragezeichen",
+    "partOfSpeech": "noun, neuter (das Fragezeichen)",
+    "pronunciation": {
+      "respelling": "FRAA-ge-tsye-khen",
+      "ipa": "ˈfʁaːɡəˌtsaɪ̯çn̩",
+      "notes": "The plural looks the same. Plural: die Fragezeichen."
+    },
+    "meaning": "question mark",
+    "shortDefinition": "Question mark."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Frage",
+        "meaning": "question"
+      },
+      {
+        "part": "zeichen",
+        "meaning": "sign"
+      }
+    ],
+    "literalMeaning": "question sign"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Fragezeichen, plural die Fragezeichen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Fragezeichen"
+        },
+        {
+          "label": "More than one",
+          "value": "die Fragezeichen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Am Ende steht ein Fragezeichen.",
+      "english": "There's a question mark at the end.",
+      "highlight": [
+        "Fragezeichen."
+      ]
+    },
+    {
+      "german": "Hinter dem Projekt steht ein großes Fragezeichen.",
+      "english": "There's a big question mark over the project.",
+      "highlight": [
+        "Fragezeichen."
+      ]
+    },
+    {
+      "german": "Ausrufezeichen und Fragezeichen.",
+      "english": "Exclamation marks and question marks.",
+      "highlight": [
+        "Fragezeichen."
+      ]
+    }
+  ],
+  "forms": [
+    "Ausrufezeichen",
+    "Zeichen"
+  ],
+  "memoryHook": "Frage + Zeichen = question mark; Ausrufezeichen.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Fragezeichen",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Fragezeichen is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Fragezeichen, zwei ___",
+      "answer": "Fragezeichen",
+      "fullAnswer": "ein Fragezeichen, zwei Fragezeichen",
+      "explanation": "The plural is Fragezeichen.",
+      "acceptedAnswers": [
+        "Fragezeichen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Fragezeichen mean?",
+      "options": [
+        "question mark",
+        "the flower",
+        "to help"
+      ],
+      "answer": "question mark",
+      "explanation": "Fragezeichen: question mark.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Frage + Zeichen (sign)",
+        "Frage + zeichnen"
+      ],
+      "answer": "Frage + Zeichen (sign)",
+      "explanation": "Question sign.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Exclamation mark:",
+      "options": [
+        "das Ausrufezeichen",
+        "das Rufzeichen only"
+      ],
+      "answer": "das Ausrufezeichen",
+      "explanation": "Shout sign.",
+      "id": "q5"
+    }
+  ]
+}

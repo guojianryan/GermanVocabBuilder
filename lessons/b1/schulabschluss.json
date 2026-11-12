@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Schulabschluss",
+    "partOfSpeech": "noun, masculine (der Schulabschluss)",
+    "pronunciation": {
+      "respelling": "SHOOL-ap-shlus",
+      "ipa": "ˈʃuːlʔapˌʃlʊs",
+      "notes": "Plural: die Schulabschlüsse."
+    },
+    "meaning": "school-leaving qualification",
+    "shortDefinition": "School-leaving qualification."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Schul",
+        "meaning": "school"
+      },
+      {
+        "part": "abschluss",
+        "meaning": "completion"
+      }
+    ],
+    "literalMeaning": "school completion"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Schulabschluss, plural die Schulabschlüsse.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Schulabschluss"
+        },
+        {
+          "label": "More than one",
+          "value": "die Schulabschlüsse"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Welchen Schulabschluss haben Sie?",
+      "english": "What school qualification do you have?",
+      "highlight": [
+        "Schulabschluss"
+      ]
+    },
+    {
+      "german": "Ohne Schulabschluss ist es schwer.",
+      "english": "It's hard without qualifications.",
+      "highlight": [
+        "Schulabschluss"
+      ]
+    },
+    {
+      "german": "Das Abitur ist der höchste Schulabschluss.",
+      "english": "The Abitur is the highest school qualification.",
+      "highlight": [
+        "Schulabschluss."
+      ]
+    }
+  ],
+  "forms": [
+    "Abschluss",
+    "Abitur"
+  ],
+  "memoryHook": "Schule + Abschluss; Abitur, Mittlere Reife.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Schulabschluss",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Schulabschluss is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Schulabschluss, zwei ___",
+      "answer": "Schulabschlüsse",
+      "fullAnswer": "ein Schulabschluss, zwei Schulabschlüsse",
+      "explanation": "The plural is Schulabschlüsse.",
+      "acceptedAnswers": [
+        "Schulabschluesse"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Schulabschluss mean?",
+      "options": [
+        "tomorrow",
+        "school-leaving qualification",
+        "the bed"
+      ],
+      "answer": "school-leaving qualification",
+      "explanation": "Schulabschluss: school-leaving qualification.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Schule + Abschluss (completion)",
+        "Schule + Schluss"
+      ],
+      "answer": "Schule + Abschluss (completion)",
+      "explanation": "School completion.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Highest one in Germany:",
+      "options": [
+        "das Abitur",
+        "die Mittlere Reife"
+      ],
+      "answer": "das Abitur",
+      "explanation": "University entry.",
+      "id": "q5"
+    }
+  ]
+}

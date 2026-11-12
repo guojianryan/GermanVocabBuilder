@@ -29,37 +29,41 @@ func shadowed(blur: CGFloat, offset: NSSize, draw: () -> Void) {
 }
 image.lockFocus()
 let bounds = NSRect(origin: .zero, size: size)
-NSGradient(starting: color(0x326D58), ending: color(0x132E28))!.draw(in: bounds, angle: -65)
+color(0x000000).setFill()
+NSBezierPath(rect: bounds).fill()
 
 // A quiet halo adds depth without competing with the central silhouette.
-color(0x80B998).withAlphaComponent(0.06).setFill()
+color(0xFFCE00).withAlphaComponent(0.06).setFill()
 NSBezierPath(ovalIn: NSRect(x: 80, y: 130, width: 860, height: 860)).fill()
 
 // The offset card makes this a collection of words, rather than a single letter.
 rotated(10, center: NSPoint(x: 550, y: 486)) {
     shadowed(blur: 34, offset: NSSize(width: 0, height: -18)) {
-        color(0xB8CDB1).setFill()
+        color(0xDD0000).setFill()
         NSBezierPath(roundedRect: NSRect(x: -268, y: -310, width: 536, height: 620), xRadius: 58, yRadius: 58).fill()
     }
 }
 rotated(-9, center: NSPoint(x: 468, y: 506)) {
     let card = NSRect(x: -268, y: -318, width: 536, height: 636)
     shadowed(blur: 30, offset: NSSize(width: 0, height: -16)) {
-        color(0xFAF1DE).setFill()
+        color(0xFFCE00).setFill()
         NSBezierPath(roundedRect: card, xRadius: 56, yRadius: 56).fill()
     }
     let text = "W" as NSString
     let attributes: [NSAttributedString.Key: Any] = [
         .font: NSFont(name: "Baskerville-SemiBold", size: 400) ?? NSFont.systemFont(ofSize: 400, weight: .semibold),
-        .foregroundColor: color(0x234E40)
+        .foregroundColor: color(0x000000)
     ]
     let measured = text.size(withAttributes: attributes)
     text.draw(at: NSPoint(x: -measured.width / 2, y: -174), withAttributes: attributes)
 
-    // A subtle baseline and three gender colors give the card its own identity.
-    color(0xD8CBB5).setFill()
+    // A baseline and German flag colors tie the card to the app’s language.
+    color(0x000000).setFill()
     NSBezierPath(roundedRect: NSRect(x: -154, y: -208, width: 308, height: 7), xRadius: 3.5, yRadius: 3.5).fill()
-    for (index, hex) in [UInt32(0x3979BF), 0xC9516C, 0x438157].enumerated() {
+    // A black keyline keeps the yellow flag mark visible against the yellow card.
+    color(0x000000).setFill()
+    NSBezierPath(roundedRect: NSRect(x: -111, y: -269, width: 222, height: 28), xRadius: 12, yRadius: 12).fill()
+    for (index, hex) in [UInt32(0x000000), 0xDD0000, 0xFFCE00].enumerated() {
         color(hex).setFill()
         NSBezierPath(roundedRect: NSRect(x: -105 + CGFloat(index) * 78, y: -263, width: 54, height: 16), xRadius: 8, yRadius: 8).fill()
     }
@@ -75,7 +79,7 @@ shadowed(blur: 24, offset: NSSize(width: 0, height: -12)) {
     tail.close()
     bubble.append(tail)
     bubble.windingRule = .nonZero
-    color(0xDA8253).setFill()
+    color(0xDD0000).setFill()
     bubble.fill()
 }
 let spark = NSBezierPath()
@@ -85,7 +89,7 @@ spark.curve(to: NSPoint(x: 741, y: 672), controlPoint1: NSPoint(x: 759, y: 728),
 spark.curve(to: NSPoint(x: 678, y: 738), controlPoint1: NSPoint(x: 731, y: 720), controlPoint2: NSPoint(x: 723, y: 728))
 spark.curve(to: NSPoint(x: 741, y: 804), controlPoint1: NSPoint(x: 723, y: 748), controlPoint2: NSPoint(x: 731, y: 756))
 spark.close()
-color(0xFFF5DF).setFill()
+color(0xFFCE00).setFill()
 spark.fill()
 image.unlockFocus()
 

@@ -1,0 +1,121 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "glaubhaft",
+    "partOfSpeech": "adjective",
+    "pronunciation": {
+      "respelling": "GLOWP-haft",
+      "ipa": "ˈɡlaʊ̯phaft",
+      "notes": ""
+    },
+    "meaning": "credible, plausible",
+    "shortDefinition": "Credible, plausible."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "glaub",
+        "meaning": "believe"
+      },
+      {
+        "part": "haft",
+        "meaning": "-able"
+      }
+    ],
+    "literalMeaning": "believable"
+  },
+  "sampleSentences": [
+    {
+      "german": "Seine Erklärung klingt glaubhaft.",
+      "english": "His explanation sounds credible.",
+      "highlight": [
+        "glaubhaft."
+      ]
+    },
+    {
+      "german": "Eine glaubhafte Ausrede.",
+      "english": "A believable excuse.",
+      "highlight": [
+        "glaubhafte"
+      ]
+    },
+    {
+      "german": "Sie konnte glaubhaft machen, dass …",
+      "english": "She was able to show credibly that …",
+      "highlight": [
+        "glaubhaft"
+      ]
+    }
+  ],
+  "forms": [
+    "glaubwürdig",
+    "glauben"
+  ],
+  "memoryHook": "Glaub + haft = credible (≈ glaubwürdig).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does glaubhaft mean?",
+      "options": [
+        "credible",
+        "tomorrow",
+        "to travel"
+      ],
+      "answer": "credible",
+      "explanation": "glaubhaft: credible, plausible.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "glauben + -haft",
+        "Glaube + Haft (custody)"
+      ],
+      "answer": "glauben + -haft",
+      "explanation": "Believable.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonyms:",
+      "options": [
+        "glaubwürdig, plausibel",
+        "unglaublich"
+      ],
+      "answer": "glaubwürdig, plausibel",
+      "explanation": "Credible.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Opposite:",
+      "options": [
+        "unglaubhaft, unglaubwürdig",
+        "glaubig"
+      ],
+      "answer": "unglaubhaft, unglaubwürdig",
+      "explanation": "Not credible.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Das ist nicht sehr ___ . (credible)",
+      "answer": "glaubhaft",
+      "fullAnswer": "Das ist nicht sehr glaubhaft.",
+      "explanation": "Glaubhaft.",
+      "acceptedAnswers": [
+        "glaubwürdig",
+        "plausibel"
+      ],
+      "id": "q5"
+    }
+  ]
+}

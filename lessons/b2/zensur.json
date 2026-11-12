@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Zensur",
+    "partOfSpeech": "noun, feminine (die Zensur)",
+    "pronunciation": {
+      "respelling": "tsen-ZOOR",
+      "ipa": "tsɛnˈzuːɐ̯",
+      "notes": "Plural: die Zensuren."
+    },
+    "meaning": "censorship; (school) mark",
+    "shortDefinition": "Censorship; (school) mark."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Zensur, plural die Zensuren.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Zensur"
+        },
+        {
+          "label": "More than one",
+          "value": "die Zensuren"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "In dem Land gibt es strenge Zensur.",
+      "english": "There's strict censorship in that country.",
+      "highlight": [
+        "Zensur."
+      ]
+    },
+    {
+      "german": "Er hat gute Zensuren bekommen.",
+      "english": "He got good marks.",
+      "highlight": [
+        "Zensuren"
+      ]
+    },
+    {
+      "german": "Ein Kampf gegen die Zensur.",
+      "english": "A fight against censorship.",
+      "highlight": [
+        "Zensur."
+      ]
+    }
+  ],
+  "forms": [
+    "zensieren",
+    "Note"
+  ],
+  "memoryHook": "Die Zensur (censorship; school mark); zensieren.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Zensur",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Zensur is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Zensur, zwei ___",
+      "answer": "Zensuren",
+      "fullAnswer": "ein Zensur, zwei Zensuren",
+      "explanation": "The plural is Zensuren.",
+      "acceptedAnswers": [
+        "Zensuren"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Zensur mean?",
+      "options": [
+        "the job",
+        "the street",
+        "censorship"
+      ],
+      "answer": "censorship",
+      "explanation": "Zensur: censorship; (school) mark.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Verb:",
+      "options": [
+        "zensieren",
+        "zensuren"
+      ],
+      "answer": "zensieren",
+      "explanation": "Censor; mark.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "School meaning:",
+      "options": [
+        "mark, grade",
+        "detention"
+      ],
+      "answer": "mark, grade",
+      "explanation": "Old-fashioned.",
+      "id": "q5"
+    }
+  ]
+}

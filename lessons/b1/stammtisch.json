@@ -1,0 +1,148 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Stammtisch",
+    "partOfSpeech": "noun, masculine (der Stammtisch)",
+    "pronunciation": {
+      "respelling": "SHTAM-tish",
+      "ipa": "ˈʃtamtɪʃ",
+      "notes": "Plural: die Stammtische."
+    },
+    "meaning": "regulars' table; regular get-together",
+    "shortDefinition": "Regulars' table; regular get-together."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Stamm",
+        "meaning": "regular, core"
+      },
+      {
+        "part": "tisch",
+        "meaning": "table"
+      }
+    ],
+    "literalMeaning": "regulars' table"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Stammtisch, plural die Stammtische.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Stammtisch"
+        },
+        {
+          "label": "More than one",
+          "value": "die Stammtische"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Jeden Freitag ist Stammtisch.",
+      "english": "Every Friday is our regular get-together.",
+      "highlight": [
+        "Stammtisch."
+      ]
+    },
+    {
+      "german": "Er sitzt am Stammtisch in der Kneipe.",
+      "english": "He sits at the regulars' table in the pub.",
+      "highlight": [
+        "Stammtisch"
+      ]
+    },
+    {
+      "german": "Das sind Stammtischparolen.",
+      "english": "That's pub-talk prejudice.",
+      "highlight": [
+        "Stammtischparolen."
+      ]
+    }
+  ],
+  "forms": [
+    "Stammgast",
+    "Stammkunde"
+  ],
+  "memoryHook": "Stamm + Tisch = regulars' table; Stammgast.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Stammtisch",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Stammtisch is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Stammtisch, zwei ___",
+      "answer": "Stammtische",
+      "fullAnswer": "ein Stammtisch, zwei Stammtische",
+      "explanation": "The plural is Stammtische.",
+      "acceptedAnswers": [
+        "Stammtische"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Stammtisch mean?",
+      "options": [
+        "regulars' table",
+        "to help",
+        "to wait"
+      ],
+      "answer": "regulars' table",
+      "explanation": "Stammtisch: regulars' table; regular get-together.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Stamm (regular) + Tisch",
+        "Stamm (tribe) + Tisch only"
+      ],
+      "answer": "Stamm (regular) + Tisch",
+      "explanation": "Regulars' table.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Stammtischparolen' means…",
+      "options": [
+        "simplistic pub-talk opinions",
+        "drinking songs"
+      ],
+      "answer": "simplistic pub-talk opinions",
+      "explanation": "Pejorative.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Regular customer:",
+      "options": [
+        "der Stammgast / Stammkunde",
+        "der Tischgast"
+      ],
+      "answer": "der Stammgast / Stammkunde",
+      "explanation": "Regular.",
+      "id": "q6"
+    }
+  ]
+}

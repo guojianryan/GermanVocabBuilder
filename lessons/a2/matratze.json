@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Matratze",
+    "partOfSpeech": "noun, feminine (die Matratze)",
+    "pronunciation": {
+      "respelling": "ma-TRA-tse",
+      "ipa": "maˈtʁatsə",
+      "notes": "Plural: die Matratzen."
+    },
+    "meaning": "mattress",
+    "shortDefinition": "Mattress."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Matratze, plural die Matratzen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Matratze"
+        },
+        {
+          "label": "More than one",
+          "value": "die Matratzen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Matratze ist zu weich.",
+      "english": "The mattress is too soft.",
+      "highlight": [
+        "Matratze"
+      ]
+    },
+    {
+      "german": "Wir brauchen eine neue Matratze.",
+      "english": "We need a new mattress.",
+      "highlight": [
+        "Matratze."
+      ]
+    },
+    {
+      "german": "Er schläft auf einer Luftmatratze.",
+      "english": "He sleeps on an air mattress.",
+      "highlight": [
+        "Luftmatratze."
+      ]
+    }
+  ],
+  "forms": [
+    "Luftmatratze",
+    "Bett"
+  ],
+  "memoryHook": "Die Matratze; Luftmatratze.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Matratze",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Matratze is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Matratze, zwei ___",
+      "answer": "Matratzen",
+      "fullAnswer": "ein Matratze, zwei Matratzen",
+      "explanation": "The plural is Matratzen.",
+      "acceptedAnswers": [
+        "Matratzen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Matratze mean?",
+      "options": [
+        "mattress",
+        "to buy",
+        "the bread"
+      ],
+      "answer": "mattress",
+      "explanation": "Matratze: mattress.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Stress on…",
+      "options": [
+        "-TRAT-",
+        "MA-"
+      ],
+      "answer": "-TRAT-",
+      "explanation": "ma-TRA-tse.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Air bed:",
+      "options": [
+        "die Luftmatratze",
+        "das Luftbett only"
+      ],
+      "answer": "die Luftmatratze",
+      "explanation": "Camping.",
+      "id": "q5"
+    }
+  ]
+}

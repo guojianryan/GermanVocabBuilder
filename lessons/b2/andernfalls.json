@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "andernfalls",
+    "partOfSpeech": "adverb",
+    "pronunciation": {
+      "respelling": "AN-dern-fals",
+      "ipa": "ˈandɐnˈfals",
+      "notes": ""
+    },
+    "meaning": "otherwise, or else",
+    "shortDefinition": "Otherwise, or else."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "andern",
+        "meaning": "other"
+      },
+      {
+        "part": "falls",
+        "meaning": "case",
+        "emphasis": "turn"
+      }
+    ],
+    "literalMeaning": "in the other case",
+    "summary": "If it turns out differently."
+  },
+  "sampleSentences": [
+    {
+      "german": "Beeil dich, andernfalls verpassen wir den Zug.",
+      "english": "Hurry up, otherwise we'll miss the train.",
+      "highlight": [
+        "andernfalls"
+      ]
+    },
+    {
+      "german": "Bitte zahlen Sie, andernfalls …",
+      "english": "Please pay, or else …",
+      "highlight": [
+        "andernfalls"
+      ]
+    },
+    {
+      "german": "Andernfalls müssen wir absagen.",
+      "english": "Otherwise we'll have to cancel.",
+      "highlight": [
+        "Andernfalls"
+      ]
+    }
+  ],
+  "forms": [
+    "sonst",
+    "ansonsten"
+  ],
+  "memoryHook": "Andern + Falls = otherwise (= sonst).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does andernfalls mean?",
+      "options": [
+        "the street",
+        "otherwise",
+        "quiet"
+      ],
+      "answer": "otherwise",
+      "explanation": "andernfalls: otherwise, or else.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "andern + Falls (case)",
+        "ändern + falls"
+      ],
+      "answer": "andern + Falls (case)",
+      "explanation": "In the other case.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonyms:",
+      "options": [
+        "sonst, ansonsten",
+        "deshalb"
+      ],
+      "answer": "sonst, ansonsten",
+      "explanation": "Otherwise.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Word order after it:",
+      "options": [
+        "verb next (inversion)",
+        "verb at end"
+      ],
+      "answer": "verb next (inversion)",
+      "explanation": "Andernfalls müssen wir …",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Komm pünktlich, ___ fangen wir ohne dich an. (otherwise)",
+      "answer": "andernfalls",
+      "fullAnswer": "Komm pünktlich, andernfalls fangen wir ohne dich an.",
+      "explanation": "Andernfalls.",
+      "acceptedAnswers": [
+        "sonst",
+        "ansonsten"
+      ],
+      "id": "q5"
+    }
+  ]
+}

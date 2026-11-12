@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Toaster",
+    "partOfSpeech": "noun, masculine (der Toaster)",
+    "pronunciation": {
+      "respelling": "TOHS-ter",
+      "ipa": "ˈtoːstɐ",
+      "notes": "The plural looks the same. Plural: die Toaster."
+    },
+    "meaning": "toaster",
+    "shortDefinition": "Toaster."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Toaster, plural die Toaster.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Toaster"
+        },
+        {
+          "label": "More than one",
+          "value": "die Toaster"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das Brot ist im Toaster.",
+      "english": "The bread's in the toaster.",
+      "highlight": [
+        "Toaster."
+      ]
+    },
+    {
+      "german": "Der Toaster ist zu heiß.",
+      "english": "The toaster's too hot.",
+      "highlight": [
+        "Toaster"
+      ]
+    },
+    {
+      "german": "Ein neuer Toaster.",
+      "english": "A new toaster.",
+      "highlight": [
+        "Toaster."
+      ]
+    }
+  ],
+  "forms": [
+    "Toast",
+    "toasten"
+  ],
+  "memoryHook": "Der Toaster; der Toast; toasten.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Toaster",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Toaster is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Toaster, zwei ___",
+      "answer": "Toaster",
+      "fullAnswer": "ein Toaster, zwei Toaster",
+      "explanation": "The plural is Toaster.",
+      "acceptedAnswers": [
+        "Toaster"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Toaster mean?",
+      "options": [
+        "to sleep",
+        "toaster",
+        "the bed"
+      ],
+      "answer": "toaster",
+      "explanation": "Toaster: toaster.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Toasted bread:",
+      "options": [
+        "der Toast",
+        "das Toastbrot only"
+      ],
+      "answer": "der Toast",
+      "explanation": "Both exist.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Toaster",
+        "Toasters"
+      ],
+      "answer": "Toaster",
+      "explanation": "No change.",
+      "id": "q5"
+    }
+  ]
+}

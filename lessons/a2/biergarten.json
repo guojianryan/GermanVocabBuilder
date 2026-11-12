@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Biergarten",
+    "partOfSpeech": "noun, masculine (der Biergarten)",
+    "pronunciation": {
+      "respelling": "BEER-gar-ten",
+      "ipa": "ˈbiːɐ̯ˌɡaʁtn̩",
+      "notes": "Plural: die Biergärten."
+    },
+    "meaning": "beer garden",
+    "shortDefinition": "Beer garden."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Bier",
+        "meaning": "beer"
+      },
+      {
+        "part": "garten",
+        "meaning": "garden"
+      }
+    ],
+    "literalMeaning": "beer garden"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Biergarten, plural die Biergärten.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Biergarten"
+        },
+        {
+          "label": "More than one",
+          "value": "die Biergärten"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Im Sommer sitzen wir im Biergarten.",
+      "english": "In summer we sit in the beer garden.",
+      "highlight": [
+        "Biergarten."
+      ]
+    },
+    {
+      "german": "Der Biergarten ist voll.",
+      "english": "The beer garden is full.",
+      "highlight": [
+        "Biergarten"
+      ]
+    },
+    {
+      "german": "Münchner Biergärten sind berühmt.",
+      "english": "Munich's beer gardens are famous.",
+      "highlight": [
+        "Biergärten"
+      ]
+    }
+  ],
+  "forms": [
+    "Bier",
+    "Garten"
+  ],
+  "memoryHook": "Bier + Garten = beer garden.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Biergarten",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Biergarten is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Biergarten, zwei ___",
+      "answer": "Biergärten",
+      "fullAnswer": "ein Biergarten, zwei Biergärten",
+      "explanation": "The plural is Biergärten.",
+      "acceptedAnswers": [
+        "Biergaerten"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Biergarten mean?",
+      "options": [
+        "to sing",
+        "beer garden",
+        "the station"
+      ],
+      "answer": "beer garden",
+      "explanation": "Biergarten: beer garden.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Biergärten",
+        "Biergarten"
+      ],
+      "answer": "Biergärten",
+      "explanation": "Umlaut.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Tradition: in Bavarian beer gardens you may…",
+      "options": [
+        "bring your own food",
+        "not sit outside"
+      ],
+      "answer": "bring your own food",
+      "explanation": "Brotzeit.",
+      "id": "q5"
+    }
+  ]
+}

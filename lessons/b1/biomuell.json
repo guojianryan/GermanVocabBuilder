@@ -1,0 +1,131 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Biomüll",
+    "partOfSpeech": "noun, masculine (der Biomüll)",
+    "pronunciation": {
+      "respelling": "BEE-o-mül",
+      "ipa": "ˈbiːoˌmʏl",
+      "notes": "Usually no plural."
+    },
+    "meaning": "organic waste",
+    "shortDefinition": "Organic waste."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Bio",
+        "meaning": "organic"
+      },
+      {
+        "part": "müll",
+        "meaning": "rubbish"
+      }
+    ],
+    "literalMeaning": "organic rubbish"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Biomüll, usually no plural.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Biomüll"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Schalen gehören in den Biomüll.",
+      "english": "The peelings go in the organic waste.",
+      "highlight": [
+        "Biomüll."
+      ]
+    },
+    {
+      "german": "Die Biomülltonne ist braun.",
+      "english": "The organic waste bin is brown.",
+      "highlight": [
+        "Biomülltonne"
+      ]
+    },
+    {
+      "german": "Wir trennen den Biomüll.",
+      "english": "We separate the organic waste.",
+      "highlight": [
+        "Biomüll."
+      ]
+    }
+  ],
+  "forms": [
+    "Müll",
+    "Restmüll",
+    "Mülltrennung"
+  ],
+  "memoryHook": "Bio + Müll = organic waste (braune Tonne).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Biomüll",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Biomüll is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Biomüll mean?",
+      "options": [
+        "the station",
+        "to sing",
+        "organic waste"
+      ],
+      "answer": "organic waste",
+      "explanation": "Biomüll: organic waste.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "The bin colour (usually):",
+      "options": [
+        "brown",
+        "yellow"
+      ],
+      "answer": "brown",
+      "explanation": "Braune Tonne.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Paper bin:",
+      "options": [
+        "die blaue Tonne / Altpapier",
+        "der Biomüll"
+      ],
+      "answer": "die blaue Tonne / Altpapier",
+      "explanation": "Blue.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Kaffeesatz kommt in den ___ . (organic waste)",
+      "answer": "Biomüll",
+      "fullAnswer": "Kaffeesatz kommt in den Biomüll.",
+      "explanation": "Biomüll.",
+      "id": "q5"
+    }
+  ]
+}

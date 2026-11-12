@@ -1,0 +1,138 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Regenbogen",
+    "partOfSpeech": "noun, masculine (der Regenbogen)",
+    "pronunciation": {
+      "respelling": "RAY-gen-boh-gen",
+      "ipa": "ˈʁeːɡn̩ˌboːɡn̩",
+      "notes": "Plural: die Regenbögen."
+    },
+    "meaning": "rainbow",
+    "shortDefinition": "Rainbow."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Regen",
+        "meaning": "rain"
+      },
+      {
+        "part": "bogen",
+        "meaning": "arc, bow",
+        "emphasis": "stretch"
+      }
+    ],
+    "literalMeaning": "rain arc",
+    "summary": "A long arc across the sky."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Regenbogen, plural die Regenbögen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Regenbogen"
+        },
+        {
+          "label": "More than one",
+          "value": "die Regenbögen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Schau mal, ein Regenbogen!",
+      "english": "Look, a rainbow!",
+      "highlight": [
+        "Regenbogen!"
+      ]
+    },
+    {
+      "german": "Der Regenbogen hat sieben Farben.",
+      "english": "The rainbow has seven colours.",
+      "highlight": [
+        "Regenbogen"
+      ]
+    },
+    {
+      "german": "Die Regenbogenflagge.",
+      "english": "The rainbow flag.",
+      "highlight": [
+        "Regenbogenflagge."
+      ]
+    }
+  ],
+  "forms": [
+    "Bogen"
+  ],
+  "memoryHook": "Regen + Bogen = rainbow.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Regenbogen",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Regenbogen is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Regenbogen, zwei ___",
+      "answer": "Regenbögen",
+      "fullAnswer": "ein Regenbogen, zwei Regenbögen",
+      "explanation": "The plural is Regenbögen.",
+      "acceptedAnswers": [
+        "Regenboegen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Regenbogen mean?",
+      "options": [
+        "never",
+        "slowly",
+        "rainbow"
+      ],
+      "answer": "rainbow",
+      "explanation": "Regenbogen: rainbow.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Regen + Bogen (arc)",
+        "Regen + Boden"
+      ],
+      "answer": "Regen + Bogen (arc)",
+      "explanation": "Rain arc.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Regenbögen",
+        "Regenbogen"
+      ],
+      "answer": "Regenbögen",
+      "explanation": "Umlaut.",
+      "id": "q5"
+    }
+  ]
+}

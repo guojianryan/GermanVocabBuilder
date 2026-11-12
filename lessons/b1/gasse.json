@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Gasse",
+    "partOfSpeech": "noun, feminine (die Gasse)",
+    "pronunciation": {
+      "respelling": "GA-se",
+      "ipa": "ˈɡasə",
+      "notes": "Plural: die Gassen."
+    },
+    "meaning": "lane, alley",
+    "shortDefinition": "Lane, alley."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Gasse, plural die Gassen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Gasse"
+        },
+        {
+          "label": "More than one",
+          "value": "die Gassen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Eine enge Gasse in der Altstadt.",
+      "english": "A narrow lane in the old town.",
+      "highlight": [
+        "Gasse"
+      ]
+    },
+    {
+      "german": "Wir gehen mit dem Hund Gassi.",
+      "english": "We're taking the dog for a walk.",
+      "highlight": [
+        "Gassi."
+      ]
+    },
+    {
+      "german": "In Wien heißen viele Straßen Gasse.",
+      "english": "In Vienna many streets are called 'Gasse'.",
+      "highlight": [
+        "Gasse."
+      ]
+    }
+  ],
+  "forms": [
+    "Gassi",
+    "Straße"
+  ],
+  "memoryHook": "Die Gasse (lane); Gassi gehen = walk the dog.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Gasse",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Gasse is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Gasse, zwei ___",
+      "answer": "Gassen",
+      "fullAnswer": "ein Gasse, zwei Gassen",
+      "explanation": "The plural is Gassen.",
+      "acceptedAnswers": [
+        "Gassen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Gasse mean?",
+      "options": [
+        "lane",
+        "to wait",
+        "the evening"
+      ],
+      "answer": "lane",
+      "explanation": "Gasse: lane, alley.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Gassi gehen' means…",
+      "options": [
+        "to walk the dog",
+        "to go down an alley"
+      ],
+      "answer": "to walk the dog",
+      "explanation": "Dog walk!",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Gassen",
+        "Gasse"
+      ],
+      "answer": "Gassen",
+      "explanation": "-n.",
+      "id": "q5"
+    }
+  ]
+}

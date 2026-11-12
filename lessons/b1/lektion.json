@@ -1,0 +1,133 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Lektion",
+    "partOfSpeech": "noun, feminine (die Lektion)",
+    "pronunciation": {
+      "respelling": "lek-TSYOHN",
+      "ipa": "lɛkˈtsi̯oːn",
+      "notes": "Plural: die Lektionen."
+    },
+    "meaning": "lesson (in a book); lesson learned",
+    "shortDefinition": "Lesson (in a book); lesson learned."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Lektion, plural die Lektionen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Lektion"
+        },
+        {
+          "label": "More than one",
+          "value": "die Lektionen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir sind in Lektion fünf.",
+      "english": "We're on lesson five.",
+      "highlight": [
+        "Lektion"
+      ]
+    },
+    {
+      "german": "Das war mir eine Lehre – eine harte Lektion.",
+      "english": "That taught me a hard lesson.",
+      "highlight": [
+        "Lektion."
+      ]
+    },
+    {
+      "german": "Ich werde ihm eine Lektion erteilen.",
+      "english": "I'll teach him a lesson.",
+      "highlight": [
+        "Lektion"
+      ]
+    }
+  ],
+  "forms": [
+    "Unterricht"
+  ],
+  "memoryHook": "Die Lektion (textbook unit; lesson learned) ≠ Unterrichtsstunde.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Lektion",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Lektion is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Lektion, zwei ___",
+      "answer": "Lektionen",
+      "fullAnswer": "ein Lektion, zwei Lektionen",
+      "explanation": "The plural is Lektionen.",
+      "acceptedAnswers": [
+        "Lektionen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Lektion mean?",
+      "options": [
+        "the job",
+        "lesson (in a book)",
+        "the evening"
+      ],
+      "answer": "lesson (in a book)",
+      "explanation": "Lektion: lesson (in a book); lesson learned.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Lektion vs Unterricht / Stunde:",
+      "options": [
+        "unit in a textbook vs school lesson",
+        "same"
+      ],
+      "answer": "unit in a textbook vs school lesson",
+      "explanation": "Nuance.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Jemandem eine Lektion erteilen' means…",
+      "options": [
+        "to teach someone a lesson",
+        "to give private lessons"
+      ],
+      "answer": "to teach someone a lesson",
+      "explanation": "Idiom.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Stress on…",
+      "options": [
+        "-TION",
+        "LEK-"
+      ],
+      "answer": "-TION",
+      "explanation": "lek-TSYOHN.",
+      "id": "q6"
+    }
+  ]
+}

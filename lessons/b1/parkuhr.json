@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Parkuhr",
+    "partOfSpeech": "noun, feminine (die Parkuhr)",
+    "pronunciation": {
+      "respelling": "PARK-oor",
+      "ipa": "ˈpaʁkˌʔuːɐ̯",
+      "notes": "Plural: die Parkuhren."
+    },
+    "meaning": "parking meter",
+    "shortDefinition": "Parking meter."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Park",
+        "meaning": "park"
+      },
+      {
+        "part": "uhr",
+        "meaning": "clock"
+      }
+    ],
+    "literalMeaning": "parking clock"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Parkuhr, plural die Parkuhren.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Parkuhr"
+        },
+        {
+          "label": "More than one",
+          "value": "die Parkuhren"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Hast du Kleingeld für die Parkuhr?",
+      "english": "Have you got change for the meter?",
+      "highlight": [
+        "Parkuhr?"
+      ]
+    },
+    {
+      "german": "Die Parkuhr ist abgelaufen.",
+      "english": "The meter has run out.",
+      "highlight": [
+        "Parkuhr"
+      ]
+    },
+    {
+      "german": "Heute gibt es meist Parkautomaten.",
+      "english": "Today it's mostly ticket machines.",
+      "highlight": [
+        "Parkautomaten."
+      ]
+    }
+  ],
+  "forms": [
+    "Parkautomat",
+    "parken"
+  ],
+  "memoryHook": "Parken + Uhr = parking meter; Parkautomat.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Parkuhr",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Parkuhr is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Parkuhr, zwei ___",
+      "answer": "Parkuhren",
+      "fullAnswer": "ein Parkuhr, zwei Parkuhren",
+      "explanation": "The plural is Parkuhren.",
+      "acceptedAnswers": [
+        "Parkuhren"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Parkuhr mean?",
+      "options": [
+        "parking meter",
+        "the child",
+        "the flower"
+      ],
+      "answer": "parking meter",
+      "explanation": "Parkuhr: parking meter.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "parken + Uhr",
+        "Park + Ohr"
+      ],
+      "answer": "parken + Uhr",
+      "explanation": "Parking clock.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Pay-and-display machine:",
+      "options": [
+        "der Parkautomat",
+        "die Parkmaschine"
+      ],
+      "answer": "der Parkautomat",
+      "explanation": "Modern.",
+      "id": "q5"
+    }
+  ]
+}

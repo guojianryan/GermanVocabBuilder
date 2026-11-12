@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Kofferraum",
+    "partOfSpeech": "noun, masculine (der Kofferraum)",
+    "pronunciation": {
+      "respelling": "KO-fer-rowm",
+      "ipa": "ˈkɔfɐˌʁaʊ̯m",
+      "notes": "Plural: die Kofferräume."
+    },
+    "meaning": "boot, trunk (car)",
+    "shortDefinition": "Boot, trunk (car)."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Koffer",
+        "meaning": "suitcase"
+      },
+      {
+        "part": "raum",
+        "meaning": "space"
+      }
+    ],
+    "literalMeaning": "suitcase space"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Kofferraum, plural die Kofferräume.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Kofferraum"
+        },
+        {
+          "label": "More than one",
+          "value": "die Kofferräume"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das Gepäck ist im Kofferraum.",
+      "english": "The luggage is in the boot.",
+      "highlight": [
+        "Kofferraum."
+      ]
+    },
+    {
+      "german": "Kannst du den Kofferraum aufmachen?",
+      "english": "Can you open the boot?",
+      "highlight": [
+        "Kofferraum"
+      ]
+    },
+    {
+      "german": "Der Kofferraum ist zu klein.",
+      "english": "The boot is too small.",
+      "highlight": [
+        "Kofferraum"
+      ]
+    }
+  ],
+  "forms": [
+    "Koffer",
+    "Raum"
+  ],
+  "memoryHook": "Koffer + Raum = boot.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Kofferraum",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Kofferraum is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Kofferraum, zwei ___",
+      "answer": "Kofferräume",
+      "fullAnswer": "ein Kofferraum, zwei Kofferräume",
+      "explanation": "The plural is Kofferräume.",
+      "acceptedAnswers": [
+        "Kofferraeume"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Kofferraum mean?",
+      "options": [
+        "never",
+        "quiet",
+        "boot"
+      ],
+      "answer": "boot",
+      "explanation": "Kofferraum: boot, trunk (car).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Koffer + Raum (space)",
+        "Koffer + Rahmen"
+      ],
+      "answer": "Koffer + Raum (space)",
+      "explanation": "Suitcase space.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Kofferräume",
+        "Kofferraume"
+      ],
+      "answer": "Kofferräume",
+      "explanation": "Umlaut.",
+      "id": "q5"
+    }
+  ]
+}

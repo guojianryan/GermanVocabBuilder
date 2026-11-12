@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Scheune",
+    "partOfSpeech": "noun, feminine (die Scheune)",
+    "pronunciation": {
+      "respelling": "SHOY-ne",
+      "ipa": "ˈʃɔʏ̯nə",
+      "notes": "Plural: die Scheunen."
+    },
+    "meaning": "barn",
+    "shortDefinition": "Barn."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Scheune, plural die Scheunen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Scheune"
+        },
+        {
+          "label": "More than one",
+          "value": "die Scheunen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das Heu ist in der Scheune.",
+      "english": "The hay is in the barn.",
+      "highlight": [
+        "Scheune."
+      ]
+    },
+    {
+      "german": "Eine alte Scheune.",
+      "english": "An old barn.",
+      "highlight": [
+        "Scheune."
+      ]
+    },
+    {
+      "german": "Die Party findet in einer Scheune statt.",
+      "english": "The party is in a barn.",
+      "highlight": [
+        "Scheune"
+      ]
+    }
+  ],
+  "forms": [
+    "Stall"
+  ],
+  "memoryHook": "Die Scheune (barn) ↔ Stall (stable).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Scheune",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Scheune is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Scheune, zwei ___",
+      "answer": "Scheunen",
+      "fullAnswer": "ein Scheune, zwei Scheunen",
+      "explanation": "The plural is Scheunen.",
+      "acceptedAnswers": [
+        "Scheunen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Scheune mean?",
+      "options": [
+        "the child",
+        "the door",
+        "barn"
+      ],
+      "answer": "barn",
+      "explanation": "Scheune: barn.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Scheunen",
+        "Scheune"
+      ],
+      "answer": "Scheunen",
+      "explanation": "-n.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Stable:",
+      "options": [
+        "der Stall",
+        "die Scheune"
+      ],
+      "answer": "der Stall",
+      "explanation": "Animals.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Käfer",
+    "partOfSpeech": "noun, masculine (der Käfer)",
+    "pronunciation": {
+      "respelling": "KAY-fer",
+      "ipa": "ˈkɛːfɐ",
+      "notes": "The plural looks the same. Plural: die Käfer."
+    },
+    "meaning": "beetle, bug",
+    "shortDefinition": "Beetle, bug."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Käfer, plural die Käfer.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Käfer"
+        },
+        {
+          "label": "More than one",
+          "value": "die Käfer"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ein Käfer krabbelt über den Tisch.",
+      "english": "A beetle is crawling across the table.",
+      "highlight": [
+        "Käfer"
+      ]
+    },
+    {
+      "german": "Der Marienkäfer bringt Glück.",
+      "english": "The ladybird brings luck.",
+      "highlight": [
+        "Marienkäfer"
+      ]
+    },
+    {
+      "german": "Der VW Käfer.",
+      "english": "The VW Beetle.",
+      "highlight": [
+        "Käfer."
+      ]
+    }
+  ],
+  "forms": [
+    "Marienkäfer"
+  ],
+  "memoryHook": "Der Käfer; Marienkäfer.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Käfer",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Käfer is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Käfer, zwei ___",
+      "answer": "Käfer",
+      "fullAnswer": "ein Käfer, zwei Käfer",
+      "explanation": "The plural is Käfer.",
+      "acceptedAnswers": [
+        "Kaefer"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Käfer mean?",
+      "options": [
+        "to learn",
+        "cheap",
+        "beetle"
+      ],
+      "answer": "beetle",
+      "explanation": "Käfer: beetle, bug.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Ladybird:",
+      "options": [
+        "der Marienkäfer",
+        "der Glückskäfer"
+      ],
+      "answer": "der Marienkäfer",
+      "explanation": "Mary's beetle.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Käfer",
+        "Käfers"
+      ],
+      "answer": "Käfer",
+      "explanation": "No change.",
+      "id": "q5"
+    }
+  ]
+}

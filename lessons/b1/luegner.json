@@ -1,0 +1,148 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Lügner",
+    "partOfSpeech": "noun, masculine (der Lügner)",
+    "pronunciation": {
+      "respelling": "LÜG-ner",
+      "ipa": "ˈlyːɡnɐ",
+      "notes": "The plural looks the same. Plural: die Lügner."
+    },
+    "meaning": "liar",
+    "shortDefinition": "Liar."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Lüg",
+        "meaning": "lie (lügen)"
+      },
+      {
+        "part": "ner",
+        "meaning": "person"
+      }
+    ],
+    "literalMeaning": "liar"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Lügner, plural die Lügner.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Lügner"
+        },
+        {
+          "label": "More than one",
+          "value": "die Lügner"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Du bist ein Lügner!",
+      "english": "You're a liar!",
+      "highlight": [
+        "Lügner!"
+      ]
+    },
+    {
+      "german": "Ich glaube dem Lügner nicht mehr.",
+      "english": "I don't believe the liar any more.",
+      "highlight": [
+        "Lügner"
+      ]
+    },
+    {
+      "german": "Sie ist eine schlechte Lügnerin.",
+      "english": "She's a bad liar.",
+      "highlight": [
+        "Lügnerin."
+      ]
+    }
+  ],
+  "forms": [
+    "lügen",
+    "Lüge"
+  ],
+  "memoryHook": "Lügen → die Lüge → der Lügner.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Lügner",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Lügner is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Lügner, zwei ___",
+      "answer": "Lügner",
+      "fullAnswer": "ein Lügner, zwei Lügner",
+      "explanation": "The plural is Lügner.",
+      "acceptedAnswers": [
+        "Luegner"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Lügner mean?",
+      "options": [
+        "the job",
+        "the flower",
+        "liar"
+      ],
+      "answer": "liar",
+      "explanation": "Lügner: liar.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "lügen (lie)",
+        "liegen"
+      ],
+      "answer": "lügen (lie)",
+      "explanation": "Tell lies.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "A lie:",
+      "options": [
+        "die Lüge",
+        "der Lug"
+      ],
+      "answer": "die Lüge",
+      "explanation": "Lie.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Female:",
+      "options": [
+        "die Lügnerin",
+        "die Lügin"
+      ],
+      "answer": "die Lügnerin",
+      "explanation": "-in.",
+      "id": "q6"
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Lagerfeuer",
+    "partOfSpeech": "noun, neuter (das Lagerfeuer)",
+    "pronunciation": {
+      "respelling": "LAA-ger-foy-er",
+      "ipa": "ˈlaːɡɐˌfɔʏ̯ɐ",
+      "notes": "The plural looks the same. Plural: die Lagerfeuer."
+    },
+    "meaning": "campfire",
+    "shortDefinition": "Campfire."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Lager",
+        "meaning": "camp"
+      },
+      {
+        "part": "feuer",
+        "meaning": "fire"
+      }
+    ],
+    "literalMeaning": "camp fire"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Lagerfeuer, plural die Lagerfeuer.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Lagerfeuer"
+        },
+        {
+          "label": "More than one",
+          "value": "die Lagerfeuer"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir sitzen am Lagerfeuer.",
+      "english": "We're sitting round the campfire.",
+      "highlight": [
+        "Lagerfeuer."
+      ]
+    },
+    {
+      "german": "Am Lagerfeuer singen wir Lieder.",
+      "english": "We sing songs at the campfire.",
+      "highlight": [
+        "Lagerfeuer"
+      ]
+    },
+    {
+      "german": "Ein Lagerfeuer machen.",
+      "english": "To make a campfire.",
+      "highlight": [
+        "Lagerfeuer"
+      ]
+    }
+  ],
+  "forms": [
+    "Feuer",
+    "Lager"
+  ],
+  "memoryHook": "Lager + Feuer = campfire.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Lagerfeuer",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Lagerfeuer is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Lagerfeuer, zwei ___",
+      "answer": "Lagerfeuer",
+      "fullAnswer": "ein Lagerfeuer, zwei Lagerfeuer",
+      "explanation": "The plural is Lagerfeuer.",
+      "acceptedAnswers": [
+        "Lagerfeuer"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Lagerfeuer mean?",
+      "options": [
+        "campfire",
+        "the job",
+        "the family"
+      ],
+      "answer": "campfire",
+      "explanation": "Lagerfeuer: campfire.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Lager (camp) + Feuer",
+        "Lager (storage) + Feier"
+      ],
+      "answer": "Lager (camp) + Feuer",
+      "explanation": "Camp fire.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Lagerfeuer",
+        "Lagerfeuern"
+      ],
+      "answer": "Lagerfeuer",
+      "explanation": "No change.",
+      "id": "q5"
+    }
+  ]
+}

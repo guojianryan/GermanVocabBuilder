@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Fell",
+    "partOfSpeech": "noun, neuter (das Fell)",
+    "pronunciation": {
+      "respelling": "FEL",
+      "ipa": "fɛl",
+      "notes": "Plural: die Felle."
+    },
+    "meaning": "fur, coat (of an animal)",
+    "shortDefinition": "Fur, coat (of an animal)."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Fell, plural die Felle.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Fell"
+        },
+        {
+          "label": "More than one",
+          "value": "die Felle"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Katze hat ein weiches Fell.",
+      "english": "The cat has soft fur.",
+      "highlight": [
+        "Fell."
+      ]
+    },
+    {
+      "german": "Der Hund verliert sein Fell.",
+      "english": "The dog is shedding.",
+      "highlight": [
+        "Fell."
+      ]
+    },
+    {
+      "german": "Er hat ein dickes Fell.",
+      "english": "He has a thick skin.",
+      "highlight": [
+        "Fell."
+      ]
+    }
+  ],
+  "forms": [
+    "Pelz"
+  ],
+  "memoryHook": "Das Fell; ein dickes Fell haben.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Fell",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Fell is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Fell, zwei ___",
+      "answer": "Felle",
+      "fullAnswer": "ein Fell, zwei Felle",
+      "explanation": "The plural is Felle.",
+      "acceptedAnswers": [
+        "Felle"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Fell mean?",
+      "options": [
+        "the shop",
+        "always",
+        "fur"
+      ],
+      "answer": "fur",
+      "explanation": "Fell: fur, coat (of an animal).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Ein dickes Fell haben' means…",
+      "options": [
+        "to be thick-skinned",
+        "to be fat"
+      ],
+      "answer": "to be thick-skinned",
+      "explanation": "Idiom.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Fell vs Pelz:",
+      "options": [
+        "animal's coat vs fur (garment)",
+        "same"
+      ],
+      "answer": "animal's coat vs fur (garment)",
+      "explanation": "Nuance.",
+      "id": "q5"
+    }
+  ]
+}

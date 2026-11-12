@@ -1,0 +1,115 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Ketchup",
+    "partOfSpeech": "noun, masculine (der Ketchup)",
+    "pronunciation": {
+      "respelling": "KET-chap",
+      "ipa": "ˈkɛtʃap",
+      "notes": "Also das Ketchup. Usually no plural."
+    },
+    "meaning": "ketchup",
+    "shortDefinition": "Ketchup."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Ketchup, usually no plural.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Ketchup"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Pommes mit Ketchup.",
+      "english": "Chips with ketchup.",
+      "highlight": [
+        "Ketchup."
+      ]
+    },
+    {
+      "german": "Gib mir bitte das Ketchup.",
+      "english": "Pass me the ketchup, please.",
+      "highlight": [
+        "Ketchup."
+      ]
+    },
+    {
+      "german": "Zu viel Ketchup!",
+      "english": "Too much ketchup!",
+      "highlight": [
+        "Ketchup!"
+      ]
+    }
+  ],
+  "forms": [
+    "Pommes"
+  ],
+  "memoryHook": "Der/das Ketchup; Pommes rot-weiß.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Ketchup",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Ketchup is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Ketchup mean?",
+      "options": [
+        "ketchup",
+        "hot",
+        "to sleep"
+      ],
+      "answer": "ketchup",
+      "explanation": "Ketchup: ketchup.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gender:",
+      "options": [
+        "der or das",
+        "die"
+      ],
+      "answer": "der or das",
+      "explanation": "Both used.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Pommes rot-weiß' means…",
+      "options": [
+        "chips with ketchup and mayo",
+        "red and white potatoes"
+      ],
+      "answer": "chips with ketchup and mayo",
+      "explanation": "Snack bar.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Pommes mit ___ . (ketchup)",
+      "answer": "Ketchup",
+      "fullAnswer": "Pommes mit Ketchup.",
+      "explanation": "Ketchup.",
+      "id": "q5"
+    }
+  ]
+}

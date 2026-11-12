@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Turnhalle",
+    "partOfSpeech": "noun, feminine (die Turnhalle)",
+    "pronunciation": {
+      "respelling": "TOORN-ha-le",
+      "ipa": "ˈtʊʁnˌhalə",
+      "notes": "Plural: die Turnhallen."
+    },
+    "meaning": "gym, sports hall (school)",
+    "shortDefinition": "Gym, sports hall (school)."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Turn",
+        "meaning": "gymnastics (turnen)"
+      },
+      {
+        "part": "halle",
+        "meaning": "hall"
+      }
+    ],
+    "literalMeaning": "gymnastics hall"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Turnhalle, plural die Turnhallen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Turnhalle"
+        },
+        {
+          "label": "More than one",
+          "value": "die Turnhallen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Sportunterricht ist in der Turnhalle.",
+      "english": "PE is in the gym.",
+      "highlight": [
+        "Turnhalle."
+      ]
+    },
+    {
+      "german": "Die Turnhalle wird renoviert.",
+      "english": "The sports hall is being renovated.",
+      "highlight": [
+        "Turnhalle"
+      ]
+    },
+    {
+      "german": "Wir treffen uns vor der Turnhalle.",
+      "english": "We'll meet outside the gym.",
+      "highlight": [
+        "Turnhalle."
+      ]
+    }
+  ],
+  "forms": [
+    "turnen",
+    "Sporthalle"
+  ],
+  "memoryHook": "Turnen + Halle = school gym (≠ Fitnessstudio).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Turnhalle",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Turnhalle is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Turnhalle, zwei ___",
+      "answer": "Turnhallen",
+      "fullAnswer": "ein Turnhalle, zwei Turnhallen",
+      "explanation": "The plural is Turnhallen.",
+      "acceptedAnswers": [
+        "Turnhallen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Turnhalle mean?",
+      "options": [
+        "the window",
+        "gym",
+        "the bed"
+      ],
+      "answer": "gym",
+      "explanation": "Turnhalle: gym, sports hall (school).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "turnen (do gymnastics) + Halle",
+        "Turm + Halle"
+      ],
+      "answer": "turnen (do gymnastics) + Halle",
+      "explanation": "Gym hall.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Fitness studio:",
+      "options": [
+        "das Fitnessstudio",
+        "die Turnhalle"
+      ],
+      "answer": "das Fitnessstudio",
+      "explanation": "Different.",
+      "id": "q5"
+    }
+  ]
+}

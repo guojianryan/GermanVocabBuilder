@@ -1,0 +1,134 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Sünde",
+    "partOfSpeech": "noun, feminine (die Sünde)",
+    "pronunciation": {
+      "respelling": "ZÜN-de",
+      "ipa": "ˈzʏndə",
+      "notes": "Plural: die Sünden."
+    },
+    "meaning": "sin",
+    "shortDefinition": "Sin."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Sünde, plural die Sünden.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Sünde"
+        },
+        {
+          "label": "More than one",
+          "value": "die Sünden"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das ist doch keine Sünde!",
+      "english": "That's not a crime!",
+      "highlight": [
+        "Sünde!"
+      ]
+    },
+    {
+      "german": "Die sieben Todsünden.",
+      "english": "The seven deadly sins.",
+      "highlight": [
+        "Todsünden."
+      ]
+    },
+    {
+      "german": "Eine Sünde wert.",
+      "english": "Worth sinning for. (delicious)",
+      "highlight": [
+        "Sünde"
+      ]
+    }
+  ],
+  "forms": [
+    "sündigen",
+    "Sünder"
+  ],
+  "memoryHook": "Die Sünde; sündigen; der Sünder.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Sünde",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Sünde is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Sünde, zwei ___",
+      "answer": "Sünden",
+      "fullAnswer": "ein Sünde, zwei Sünden",
+      "explanation": "The plural is Sünden.",
+      "acceptedAnswers": [
+        "Suenden"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Sünde mean?",
+      "options": [
+        "sin",
+        "to travel",
+        "to learn"
+      ],
+      "answer": "sin",
+      "explanation": "Sünde: sin.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Verb:",
+      "options": [
+        "sündigen",
+        "sünden"
+      ],
+      "answer": "sündigen",
+      "explanation": "To sin.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Eine Sünde wert' (food) means…",
+      "options": [
+        "irresistible, worth the indulgence",
+        "very bad"
+      ],
+      "answer": "irresistible, worth the indulgence",
+      "explanation": "Jokey.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Sinner:",
+      "options": [
+        "der Sünder",
+        "der Sündiger"
+      ],
+      "answer": "der Sünder",
+      "explanation": "Person.",
+      "id": "q6"
+    }
+  ]
+}

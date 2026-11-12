@@ -1,0 +1,185 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "entkommen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "ent-KO-men",
+      "ipa": "ɛntˈkɔmən",
+      "notes": ""
+    },
+    "meaning": "to escape, get away",
+    "shortDefinition": "To escape, get away."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "ent",
+        "meaning": "away"
+      },
+      {
+        "part": "kommen",
+        "meaning": "to come",
+        "emphasis": "release"
+      }
+    ],
+    "literalMeaning": "to come away",
+    "summary": "Slipping away."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "entkomm|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "entkomm|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "entkomm|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "entkomm|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "entkomm|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "entkomm|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): ist entkommen"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Dieb ist entkommen.",
+      "english": "The thief got away.",
+      "highlight": [
+        "entkommen."
+      ]
+    },
+    {
+      "german": "Er entkam nur knapp dem Feuer.",
+      "english": "He narrowly escaped the fire.",
+      "highlight": [
+        "entkam"
+      ]
+    },
+    {
+      "german": "Aus diesem Gefängnis entkommt niemand.",
+      "english": "Nobody escapes from this prison.",
+      "highlight": [
+        "entkommt"
+      ]
+    }
+  ],
+  "forms": [
+    "entkomme",
+    "entkommst",
+    "entkommt",
+    "entkommen",
+    "entkam"
+  ],
+  "memoryHook": "Ent + kommen = get away.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (entkommen)",
+      "answer": "entkommt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: entkommt.",
+      "acceptedAnswers": [
+        "entkommt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich bin schon ___. (entkommen, past)",
+      "answer": "entkommen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: bin entkommen.",
+      "acceptedAnswers": [
+        "entkommen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does entkommen mean?",
+      "options": [
+        "to learn",
+        "slowly",
+        "to escape"
+      ],
+      "answer": "to escape",
+      "explanation": "entkommen: to escape, get away.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "ist entkommen",
+        "hat entkommen"
+      ],
+      "answer": "ist entkommen",
+      "explanation": "Movement → sein.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Takes…",
+      "options": [
+        "dative (+ aus)",
+        "accusative"
+      ],
+      "answer": "dative (+ aus)",
+      "explanation": "Jemandem entkommen.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonym:",
+      "options": [
+        "fliehen, flüchten",
+        "ankommen"
+      ],
+      "answer": "fliehen, flüchten",
+      "explanation": "Escape.",
+      "id": "q6"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Spielraum",
+    "partOfSpeech": "noun, masculine (der Spielraum)",
+    "pronunciation": {
+      "respelling": "SHPEEL-rowm",
+      "ipa": "ˈʃpiːlˌʁaʊ̯m",
+      "notes": "Plural: die Spielräume."
+    },
+    "meaning": "room for manoeuvre, scope, leeway",
+    "shortDefinition": "Room for manoeuvre, scope, leeway."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Spiel",
+        "meaning": "play"
+      },
+      {
+        "part": "raum",
+        "meaning": "space",
+        "emphasis": "stretch"
+      }
+    ],
+    "literalMeaning": "play space",
+    "summary": "Room to move."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Spielraum, plural die Spielräume.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Spielraum"
+        },
+        {
+          "label": "More than one",
+          "value": "die Spielräume"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir haben wenig Spielraum.",
+      "english": "We have little room for manoeuvre.",
+      "highlight": [
+        "Spielraum."
+      ]
+    },
+    {
+      "german": "Finanzieller Spielraum.",
+      "english": "Financial leeway.",
+      "highlight": [
+        "Spielraum."
+      ]
+    },
+    {
+      "german": "Das lässt Spielraum für Interpretation.",
+      "english": "That leaves room for interpretation.",
+      "highlight": [
+        "Spielraum"
+      ]
+    }
+  ],
+  "forms": [
+    "Spielplatz",
+    "Raum"
+  ],
+  "memoryHook": "Spiel + Raum = leeway (≠ Spielplatz).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Spielraum",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Spielraum is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Spielraum, zwei ___",
+      "answer": "Spielräume",
+      "fullAnswer": "ein Spielraum, zwei Spielräume",
+      "explanation": "The plural is Spielräume.",
+      "acceptedAnswers": [
+        "Spielraeume"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Spielraum mean?",
+      "options": [
+        "room for manoeuvre",
+        "the station",
+        "the car"
+      ],
+      "answer": "room for manoeuvre",
+      "explanation": "Spielraum: room for manoeuvre, scope, leeway.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Spiel (play) + Raum (space)",
+        "Spiel + Rahmen"
+      ],
+      "answer": "Spiel (play) + Raum (space)",
+      "explanation": "Play space.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Means (figurative)…",
+      "options": [
+        "leeway, scope",
+        "playground"
+      ],
+      "answer": "leeway, scope",
+      "explanation": "Playground = Spielplatz.",
+      "id": "q5"
+    }
+  ]
+}

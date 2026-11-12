@@ -1,0 +1,168 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "platzen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "PLA-tsen",
+      "ipa": "ˈplatsn̩",
+      "notes": ""
+    },
+    "meaning": "to burst; to fall through",
+    "shortDefinition": "To burst; to fall through."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "platz|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "platz|t"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "platz|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "platz|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "platz|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "platz|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): ist geplatzt"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Luftballon ist geplatzt.",
+      "english": "The balloon burst.",
+      "highlight": [
+        "geplatzt."
+      ]
+    },
+    {
+      "german": "Der Termin ist geplatzt.",
+      "english": "The appointment fell through.",
+      "highlight": [
+        "geplatzt."
+      ]
+    },
+    {
+      "german": "Ich platze gleich vor Wut!",
+      "english": "I'm about to explode with anger!",
+      "highlight": [
+        "platze"
+      ]
+    }
+  ],
+  "forms": [
+    "platze",
+    "platzt",
+    "platzen",
+    "geplatzt"
+  ],
+  "memoryHook": "Platzen = burst; fall through (ist geplatzt).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (platzen)",
+      "answer": "platzt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: platzt.",
+      "acceptedAnswers": [
+        "platzt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich bin schon ___. (platzen, past)",
+      "answer": "geplatzt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: bin geplatzt.",
+      "acceptedAnswers": [
+        "geplatzt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does platzen mean?",
+      "options": [
+        "to open",
+        "to burst",
+        "the bread"
+      ],
+      "answer": "to burst",
+      "explanation": "platzen: to burst; to fall through.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "ist geplatzt",
+        "hat geplatzt"
+      ],
+      "answer": "ist geplatzt",
+      "explanation": "Change of state → sein.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Ein Termin platzt' means…",
+      "options": [
+        "an appointment falls through",
+        "an appointment is very full"
+      ],
+      "answer": "an appointment falls through",
+      "explanation": "Figurative.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Vor Neugier platzen' means…",
+      "options": [
+        "to be bursting with curiosity",
+        "to be very bored"
+      ],
+      "answer": "to be bursting with curiosity",
+      "explanation": "Idiom.",
+      "id": "q6"
+    }
+  ]
+}

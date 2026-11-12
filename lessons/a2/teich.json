@@ -1,0 +1,133 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Teich",
+    "partOfSpeech": "noun, masculine (der Teich)",
+    "pronunciation": {
+      "respelling": "TYKHE",
+      "ipa": "taɪ̯ç",
+      "notes": "Plural: die Teiche."
+    },
+    "meaning": "pond",
+    "shortDefinition": "Pond."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Teich, plural die Teiche.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Teich"
+        },
+        {
+          "label": "More than one",
+          "value": "die Teiche"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Im Garten ist ein kleiner Teich.",
+      "english": "There's a small pond in the garden.",
+      "highlight": [
+        "Teich."
+      ]
+    },
+    {
+      "german": "Die Enten schwimmen im Teich.",
+      "english": "The ducks swim in the pond.",
+      "highlight": [
+        "Teich."
+      ]
+    },
+    {
+      "german": "Er ist über den großen Teich geflogen.",
+      "english": "He flew across the pond (the Atlantic).",
+      "highlight": [
+        "Teich"
+      ]
+    }
+  ],
+  "forms": [
+    "See"
+  ],
+  "memoryHook": "Der Teich (pond) ≠ der See (lake) ≠ der Teig (dough).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Teich",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Teich is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Teich, zwei ___",
+      "answer": "Teiche",
+      "fullAnswer": "ein Teich, zwei Teiche",
+      "explanation": "The plural is Teiche.",
+      "acceptedAnswers": [
+        "Teiche"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Teich mean?",
+      "options": [
+        "hot",
+        "pond",
+        "the shop"
+      ],
+      "answer": "pond",
+      "explanation": "Teich: pond.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Teich vs See:",
+      "options": [
+        "small pond vs lake",
+        "same"
+      ],
+      "answer": "small pond vs lake",
+      "explanation": "Size.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Der große Teich' means…",
+      "options": [
+        "the Atlantic",
+        "the Pacific"
+      ],
+      "answer": "the Atlantic",
+      "explanation": "Idiom.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Not to be confused with…",
+      "options": [
+        "der Teig (dough)",
+        "das Dach"
+      ],
+      "answer": "der Teig (dough)",
+      "explanation": "Similar sound.",
+      "id": "q6"
+    }
+  ]
+}

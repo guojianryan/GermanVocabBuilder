@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Heilung",
+    "partOfSpeech": "noun, feminine (die Heilung)",
+    "pronunciation": {
+      "respelling": "HYE-lung",
+      "ipa": "ˈhaɪ̯lʊŋ",
+      "notes": "Plural: die Heilungen."
+    },
+    "meaning": "healing, cure, recovery",
+    "shortDefinition": "Healing, cure, recovery."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Heil",
+        "meaning": "whole, healthy"
+      },
+      {
+        "part": "ung",
+        "meaning": "noun ending"
+      }
+    ],
+    "literalMeaning": "a making whole"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Heilung, plural die Heilungen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Heilung"
+        },
+        {
+          "label": "More than one",
+          "value": "die Heilungen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Es gibt keine Heilung für die Krankheit.",
+      "english": "There's no cure for the disease.",
+      "highlight": [
+        "Heilung"
+      ]
+    },
+    {
+      "german": "Die Heilung dauert Wochen.",
+      "english": "Healing takes weeks.",
+      "highlight": [
+        "Heilung"
+      ]
+    },
+    {
+      "german": "Wir wünschen schnelle Heilung.",
+      "english": "We wish you a speedy recovery.",
+      "highlight": [
+        "Heilung."
+      ]
+    }
+  ],
+  "forms": [
+    "heilen",
+    "Genesung"
+  ],
+  "memoryHook": "Heilen → die Heilung (= Genesung).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Heilung",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Heilung is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Heilung, zwei ___",
+      "answer": "Heilungen",
+      "fullAnswer": "ein Heilung, zwei Heilungen",
+      "explanation": "The plural is Heilungen.",
+      "acceptedAnswers": [
+        "Heilungen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Heilung mean?",
+      "options": [
+        "slowly",
+        "tomorrow",
+        "healing"
+      ],
+      "answer": "healing",
+      "explanation": "Heilung: healing, cure, recovery.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "heilen (heal)",
+        "heil (intact) only"
+      ],
+      "answer": "heilen (heal)",
+      "explanation": "Heal.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonym (recovery):",
+      "options": [
+        "die Genesung",
+        "die Krankheit"
+      ],
+      "answer": "die Genesung",
+      "explanation": "Recovery.",
+      "id": "q5"
+    }
+  ]
+}

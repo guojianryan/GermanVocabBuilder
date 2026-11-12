@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Kleinkind",
+    "partOfSpeech": "noun, neuter (das Kleinkind)",
+    "pronunciation": {
+      "respelling": "KLINE-kint",
+      "ipa": "ˈklaɪ̯nkɪnt",
+      "notes": "Plural: die Kleinkinder."
+    },
+    "meaning": "toddler, small child",
+    "shortDefinition": "Toddler, small child."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Klein",
+        "meaning": "small"
+      },
+      {
+        "part": "kind",
+        "meaning": "child"
+      }
+    ],
+    "literalMeaning": "small child"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Kleinkind, plural die Kleinkinder.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Kleinkind"
+        },
+        {
+          "label": "More than one",
+          "value": "die Kleinkinder"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Spielzeug für Kleinkinder.",
+      "english": "Toys for toddlers.",
+      "highlight": [
+        "Kleinkinder."
+      ]
+    },
+    {
+      "german": "Ein Kleinkind braucht viel Aufmerksamkeit.",
+      "english": "A toddler needs a lot of attention.",
+      "highlight": [
+        "Kleinkind"
+      ]
+    },
+    {
+      "german": "Familien mit Kleinkindern.",
+      "english": "Families with small children.",
+      "highlight": [
+        "Kleinkindern."
+      ]
+    }
+  ],
+  "forms": [
+    "Baby",
+    "Kind"
+  ],
+  "memoryHook": "Klein + Kind = toddler; Baby, Säugling.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Kleinkind",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Kleinkind is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Kleinkind, zwei ___",
+      "answer": "Kleinkinder",
+      "fullAnswer": "ein Kleinkind, zwei Kleinkinder",
+      "explanation": "The plural is Kleinkinder.",
+      "acceptedAnswers": [
+        "Kleinkinder"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Kleinkind mean?",
+      "options": [
+        "toddler",
+        "to wait",
+        "the flower"
+      ],
+      "answer": "toddler",
+      "explanation": "Kleinkind: toddler, small child.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "klein + Kind",
+        "Klein + kindisch"
+      ],
+      "answer": "klein + Kind",
+      "explanation": "Small child.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Age (roughly):",
+      "options": [
+        "1–3 years",
+        "10–12 years"
+      ],
+      "answer": "1–3 years",
+      "explanation": "Toddler.",
+      "id": "q5"
+    }
+  ]
+}

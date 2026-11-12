@@ -1,0 +1,134 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Klo",
+    "partOfSpeech": "noun, neuter (das Klo)",
+    "pronunciation": {
+      "respelling": "KLOH",
+      "ipa": "kloː",
+      "notes": "Plural: die Klos."
+    },
+    "meaning": "loo (informal for Toilette)",
+    "shortDefinition": "Loo (informal for Toilette)."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Klo, plural die Klos.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Klo"
+        },
+        {
+          "label": "More than one",
+          "value": "die Klos"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich muss mal aufs Klo.",
+      "english": "I need the loo.",
+      "highlight": [
+        "Klo."
+      ]
+    },
+    {
+      "german": "Wo ist das Klo?",
+      "english": "Where's the loo?",
+      "highlight": [
+        "Klo?"
+      ]
+    },
+    {
+      "german": "Das Klopapier ist alle.",
+      "english": "We're out of loo paper.",
+      "highlight": [
+        "Klopapier"
+      ]
+    }
+  ],
+  "forms": [
+    "Toilette",
+    "Klopapier"
+  ],
+  "memoryHook": "Das Klo (informal) = die Toilette; Klopapier.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Klo",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Klo is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Klo, zwei ___",
+      "answer": "Klos",
+      "fullAnswer": "ein Klo, zwei Klos",
+      "explanation": "The plural is Klos.",
+      "acceptedAnswers": [
+        "Klos"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Klo mean?",
+      "options": [
+        "the job",
+        "loo (informal for Toilette)",
+        "tomorrow"
+      ],
+      "answer": "loo (informal for Toilette)",
+      "explanation": "Klo: loo (informal for Toilette).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Short for…",
+      "options": [
+        "das Klosett",
+        "die Klinik"
+      ],
+      "answer": "das Klosett",
+      "explanation": "Old word for WC.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Register:",
+      "options": [
+        "informal",
+        "formal"
+      ],
+      "answer": "informal",
+      "explanation": "Polite: die Toilette.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Aufs Klo gehen' = …",
+      "options": [
+        "auf die Toilette gehen",
+        "ins Bad gehen only"
+      ],
+      "answer": "auf die Toilette gehen",
+      "explanation": "Same meaning.",
+      "id": "q6"
+    }
+  ]
+}

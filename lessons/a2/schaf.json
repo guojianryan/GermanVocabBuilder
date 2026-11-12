@@ -1,0 +1,133 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Schaf",
+    "partOfSpeech": "noun, neuter (das Schaf)",
+    "pronunciation": {
+      "respelling": "SHAAF",
+      "ipa": "ʃaːf",
+      "notes": "Plural: die Schafe."
+    },
+    "meaning": "sheep",
+    "shortDefinition": "Sheep."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Schaf, plural die Schafe.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Schaf"
+        },
+        {
+          "label": "More than one",
+          "value": "die Schafe"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Schafe sind auf der Wiese.",
+      "english": "The sheep are in the meadow.",
+      "highlight": [
+        "Schafe"
+      ]
+    },
+    {
+      "german": "Ich zähle Schafe, um einzuschlafen.",
+      "english": "I count sheep to fall asleep.",
+      "highlight": [
+        "Schafe,"
+      ]
+    },
+    {
+      "german": "Er ist das schwarze Schaf der Familie.",
+      "english": "He's the black sheep of the family.",
+      "highlight": [
+        "Schaf"
+      ]
+    }
+  ],
+  "forms": [
+    "Schäfer"
+  ],
+  "memoryHook": "Das Schaf; schwarzes Schaf; der Schäfer.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Schaf",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Schaf is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Schaf, zwei ___",
+      "answer": "Schafe",
+      "fullAnswer": "ein Schaf, zwei Schafe",
+      "explanation": "The plural is Schafe.",
+      "acceptedAnswers": [
+        "Schafe"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Schaf mean?",
+      "options": [
+        "hot",
+        "sheep",
+        "tomorrow"
+      ],
+      "answer": "sheep",
+      "explanation": "Schaf: sheep.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Schafe",
+        "Schäfe"
+      ],
+      "answer": "Schafe",
+      "explanation": "-e.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Shepherd:",
+      "options": [
+        "der Schäfer",
+        "der Schafer"
+      ],
+      "answer": "der Schäfer",
+      "explanation": "Umlaut.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Sheep's wool:",
+      "options": [
+        "die Schafwolle",
+        "die Schafhaar"
+      ],
+      "answer": "die Schafwolle",
+      "explanation": "Compound.",
+      "id": "q6"
+    }
+  ]
+}

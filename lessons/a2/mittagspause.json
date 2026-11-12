@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Mittagspause",
+    "partOfSpeech": "noun, feminine (die Mittagspause)",
+    "pronunciation": {
+      "respelling": "MI-taaks-pow-ze",
+      "ipa": "ˈmɪtaːksˌpaʊ̯zə",
+      "notes": "Plural: die Mittagspausen."
+    },
+    "meaning": "lunch break",
+    "shortDefinition": "Lunch break."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Mittags",
+        "meaning": "midday"
+      },
+      {
+        "part": "pause",
+        "meaning": "break"
+      }
+    ],
+    "literalMeaning": "midday break"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Mittagspause, plural die Mittagspausen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Mittagspause"
+        },
+        {
+          "label": "More than one",
+          "value": "die Mittagspausen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir haben eine Stunde Mittagspause.",
+      "english": "We have an hour's lunch break.",
+      "highlight": [
+        "Mittagspause."
+      ]
+    },
+    {
+      "german": "In der Mittagspause gehe ich spazieren.",
+      "english": "I go for a walk in my lunch break.",
+      "highlight": [
+        "Mittagspause"
+      ]
+    },
+    {
+      "german": "Er macht gerade Mittagspause.",
+      "english": "He's on his lunch break.",
+      "highlight": [
+        "Mittagspause."
+      ]
+    }
+  ],
+  "forms": [
+    "Pause",
+    "Mittag"
+  ],
+  "memoryHook": "Mittag + Pause = lunch break.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Mittagspause",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Mittagspause is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Mittagspause, zwei ___",
+      "answer": "Mittagspausen",
+      "fullAnswer": "ein Mittagspause, zwei Mittagspausen",
+      "explanation": "The plural is Mittagspausen.",
+      "acceptedAnswers": [
+        "Mittagspausen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Mittagspause mean?",
+      "options": [
+        "the key",
+        "the weather",
+        "lunch break"
+      ],
+      "answer": "lunch break",
+      "explanation": "Mittagspause: lunch break.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Mittag + s + Pause",
+        "Mitte + Tagespause"
+      ],
+      "answer": "Mittag + s + Pause",
+      "explanation": "Linking -s.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Mittagspause machen' means…",
+      "options": [
+        "to take a lunch break",
+        "to cook lunch"
+      ],
+      "answer": "to take a lunch break",
+      "explanation": "Phrase.",
+      "id": "q5"
+    }
+  ]
+}

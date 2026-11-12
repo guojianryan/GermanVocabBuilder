@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Sandkasten",
+    "partOfSpeech": "noun, masculine (der Sandkasten)",
+    "pronunciation": {
+      "respelling": "ZANT-kas-ten",
+      "ipa": "ˈzantˌkastn̩",
+      "notes": "Plural: die Sandkästen."
+    },
+    "meaning": "sandpit, sandbox",
+    "shortDefinition": "Sandpit, sandbox."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Sand",
+        "meaning": "sand"
+      },
+      {
+        "part": "kasten",
+        "meaning": "box"
+      }
+    ],
+    "literalMeaning": "sand box"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Sandkasten, plural die Sandkästen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Sandkasten"
+        },
+        {
+          "label": "More than one",
+          "value": "die Sandkästen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Kleine spielt im Sandkasten.",
+      "english": "The little one is playing in the sandpit.",
+      "highlight": [
+        "Sandkasten."
+      ]
+    },
+    {
+      "german": "Wir kennen uns aus dem Sandkasten.",
+      "english": "We've known each other since we were tiny.",
+      "highlight": [
+        "Sandkasten."
+      ]
+    },
+    {
+      "german": "Eine Sandkastenfreundschaft.",
+      "english": "A childhood friendship.",
+      "highlight": [
+        "Sandkastenfreundschaft."
+      ]
+    }
+  ],
+  "forms": [
+    "Kasten",
+    "Sand"
+  ],
+  "memoryHook": "Sand + Kasten = sandpit.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Sandkasten",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Sandkasten is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Sandkasten, zwei ___",
+      "answer": "Sandkästen",
+      "fullAnswer": "ein Sandkasten, zwei Sandkästen",
+      "explanation": "The plural is Sandkästen.",
+      "acceptedAnswers": [
+        "Sandkaesten"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Sandkasten mean?",
+      "options": [
+        "cheap",
+        "sandpit",
+        "to learn"
+      ],
+      "answer": "sandpit",
+      "explanation": "Sandkasten: sandpit, sandbox.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Sand + Kasten (box)",
+        "Sand + Kaste"
+      ],
+      "answer": "Sand + Kasten (box)",
+      "explanation": "Sand box.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Sandkästen",
+        "Sandkasten"
+      ],
+      "answer": "Sandkästen",
+      "explanation": "Umlaut.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Ente",
+    "partOfSpeech": "noun, feminine (die Ente)",
+    "pronunciation": {
+      "respelling": "EN-te",
+      "ipa": "ˈɛntə",
+      "notes": "Plural: die Enten."
+    },
+    "meaning": "duck; hoax (news)",
+    "shortDefinition": "Duck; hoax (news)."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Ente, plural die Enten.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Ente"
+        },
+        {
+          "label": "More than one",
+          "value": "die Enten"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Enten schwimmen auf dem See.",
+      "english": "The ducks are swimming on the lake.",
+      "highlight": [
+        "Enten"
+      ]
+    },
+    {
+      "german": "Heute gibt es Ente.",
+      "english": "It's duck today.",
+      "highlight": [
+        "Ente."
+      ]
+    },
+    {
+      "german": "Die Meldung war eine Ente.",
+      "english": "The report was a hoax.",
+      "highlight": [
+        "Ente."
+      ]
+    }
+  ],
+  "forms": [
+    "Zeitungsente"
+  ],
+  "memoryHook": "Die Ente (duck; hoax).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Ente",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Ente is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Ente, zwei ___",
+      "answer": "Enten",
+      "fullAnswer": "ein Ente, zwei Enten",
+      "explanation": "The plural is Enten.",
+      "acceptedAnswers": [
+        "Enten"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Ente mean?",
+      "options": [
+        "duck",
+        "the bread",
+        "the job"
+      ],
+      "answer": "duck",
+      "explanation": "Ente: duck; hoax (news).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Eine Zeitungsente' is…",
+      "options": [
+        "a false news story",
+        "a newspaper mascot"
+      ],
+      "answer": "a false news story",
+      "explanation": "Hoax.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Enten",
+        "Ente"
+      ],
+      "answer": "Enten",
+      "explanation": "-n.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Duckling:",
+      "options": [
+        "das Entenküken",
+        "die Entlein only"
+      ],
+      "answer": "das Entenküken",
+      "explanation": "Baby.",
+      "id": "q6"
+    }
+  ]
+}

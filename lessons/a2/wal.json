@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Wal",
+    "partOfSpeech": "noun, masculine (der Wal)",
+    "pronunciation": {
+      "respelling": "VAAL",
+      "ipa": "vaːl",
+      "notes": "Plural: die Wale."
+    },
+    "meaning": "whale",
+    "shortDefinition": "Whale."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Wal, plural die Wale.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Wal"
+        },
+        {
+          "label": "More than one",
+          "value": "die Wale"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wale sind Säugetiere.",
+      "english": "Whales are mammals.",
+      "highlight": [
+        "Wale"
+      ]
+    },
+    {
+      "german": "Wir haben einen Wal gesehen!",
+      "english": "We saw a whale!",
+      "highlight": [
+        "Wal"
+      ]
+    },
+    {
+      "german": "Der Blauwal ist das größte Tier.",
+      "english": "The blue whale is the biggest animal.",
+      "highlight": [
+        "Blauwal"
+      ]
+    }
+  ],
+  "forms": [
+    "Blauwal"
+  ],
+  "memoryHook": "Der Wal (whale) ≠ die Wahl (election).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Wal",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Wal is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Wal, zwei ___",
+      "answer": "Wale",
+      "fullAnswer": "ein Wal, zwei Wale",
+      "explanation": "The plural is Wale.",
+      "acceptedAnswers": [
+        "Wale"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Wal mean?",
+      "options": [
+        "to travel",
+        "expensive",
+        "whale"
+      ],
+      "answer": "whale",
+      "explanation": "Wal: whale.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Not to be confused with…",
+      "options": [
+        "die Wahl (choice, election)",
+        "der Wald"
+      ],
+      "answer": "die Wahl (choice, election)",
+      "explanation": "Same sound!",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Wale",
+        "Wäle"
+      ],
+      "answer": "Wale",
+      "explanation": "-e.",
+      "id": "q5"
+    }
+  ]
+}

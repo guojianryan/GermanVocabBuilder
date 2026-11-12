@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Muttertag",
+    "partOfSpeech": "noun, masculine (der Muttertag)",
+    "pronunciation": {
+      "respelling": "MU-ter-taak",
+      "ipa": "ˈmʊtɐˌtaːk",
+      "notes": "Plural: die Muttertage."
+    },
+    "meaning": "Mother's Day",
+    "shortDefinition": "Mother's Day."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Mutter",
+        "meaning": "mother"
+      },
+      {
+        "part": "tag",
+        "meaning": "day"
+      }
+    ],
+    "literalMeaning": "mother day"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Muttertag, plural die Muttertage.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Muttertag"
+        },
+        {
+          "label": "More than one",
+          "value": "die Muttertage"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Am Muttertag schenke ich meiner Mutter Blumen.",
+      "english": "On Mother's Day I give my mum flowers.",
+      "highlight": [
+        "Muttertag"
+      ]
+    },
+    {
+      "german": "Muttertag ist im Mai.",
+      "english": "Mother's Day is in May.",
+      "highlight": [
+        "Muttertag"
+      ]
+    },
+    {
+      "german": "Alles Gute zum Muttertag!",
+      "english": "Happy Mother's Day!",
+      "highlight": [
+        "Muttertag!"
+      ]
+    }
+  ],
+  "forms": [
+    "Vatertag"
+  ],
+  "memoryHook": "Mutter + Tag; Vatertag.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Muttertag",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Muttertag is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Muttertag, zwei ___",
+      "answer": "Muttertage",
+      "fullAnswer": "ein Muttertag, zwei Muttertage",
+      "explanation": "The plural is Muttertage.",
+      "acceptedAnswers": [
+        "Muttertage"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Muttertag mean?",
+      "options": [
+        "always",
+        "Mother's Day",
+        "the shop"
+      ],
+      "answer": "Mother's Day",
+      "explanation": "Muttertag: Mother's Day.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "In Germany, Mother's Day is…",
+      "options": [
+        "the 2nd Sunday in May",
+        "in March"
+      ],
+      "answer": "the 2nd Sunday in May",
+      "explanation": "Date.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Father's Day:",
+      "options": [
+        "der Vatertag",
+        "der Vätertag"
+      ],
+      "answer": "der Vatertag",
+      "explanation": "Ascension Day.",
+      "id": "q5"
+    }
+  ]
+}

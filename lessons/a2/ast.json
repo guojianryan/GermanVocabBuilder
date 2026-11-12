@@ -1,0 +1,134 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Ast",
+    "partOfSpeech": "noun, masculine (der Ast)",
+    "pronunciation": {
+      "respelling": "AST",
+      "ipa": "ast",
+      "notes": "Plural: die Äste."
+    },
+    "meaning": "branch, bough",
+    "shortDefinition": "Branch, bough."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Ast, plural die Äste.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Ast"
+        },
+        {
+          "label": "More than one",
+          "value": "die Äste"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Vogel sitzt auf dem Ast.",
+      "english": "The bird is sitting on the branch.",
+      "highlight": [
+        "Ast."
+      ]
+    },
+    {
+      "german": "Der Sturm hat Äste abgebrochen.",
+      "english": "The storm broke off branches.",
+      "highlight": [
+        "Äste"
+      ]
+    },
+    {
+      "german": "Ich lach mir einen Ast!",
+      "english": "I'm killing myself laughing!",
+      "highlight": [
+        "Ast!"
+      ]
+    }
+  ],
+  "forms": [
+    "Zweig",
+    "Stamm"
+  ],
+  "memoryHook": "Der Ast, die Äste; Zweig, Stamm.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Ast",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Ast is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Ast, zwei ___",
+      "answer": "Äste",
+      "fullAnswer": "ein Ast, zwei Äste",
+      "explanation": "The plural is Äste.",
+      "acceptedAnswers": [
+        "Äste"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Ast mean?",
+      "options": [
+        "branch",
+        "to open",
+        "to sing"
+      ],
+      "answer": "branch",
+      "explanation": "Ast: branch, bough.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Äste",
+        "Aste"
+      ],
+      "answer": "Äste",
+      "explanation": "Umlaut.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Sich einen Ast lachen' means…",
+      "options": [
+        "to laugh one's head off",
+        "to climb a tree"
+      ],
+      "answer": "to laugh one's head off",
+      "explanation": "Idiom.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Twig:",
+      "options": [
+        "der Zweig",
+        "der Stamm"
+      ],
+      "answer": "der Zweig",
+      "explanation": "Smaller. Stamm = trunk.",
+      "id": "q6"
+    }
+  ]
+}

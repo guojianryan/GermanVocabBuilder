@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Handschuh",
+    "partOfSpeech": "noun, masculine (der Handschuh)",
+    "pronunciation": {
+      "respelling": "HANT-shoo",
+      "ipa": "ˈhantˌʃuː",
+      "notes": "Plural: die Handschuhe."
+    },
+    "meaning": "glove",
+    "shortDefinition": "Glove."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Hand",
+        "meaning": "hand"
+      },
+      {
+        "part": "schuh",
+        "meaning": "shoe"
+      }
+    ],
+    "literalMeaning": "hand shoe"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Handschuh, plural die Handschuhe.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Handschuh"
+        },
+        {
+          "label": "More than one",
+          "value": "die Handschuhe"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich habe meine Handschuhe vergessen.",
+      "english": "I've forgotten my gloves.",
+      "highlight": [
+        "Handschuhe"
+      ]
+    },
+    {
+      "german": "Ein Paar Handschuhe.",
+      "english": "A pair of gloves.",
+      "highlight": [
+        "Handschuhe."
+      ]
+    },
+    {
+      "german": "Ziehst du Handschuhe an?",
+      "english": "Are you putting gloves on?",
+      "highlight": [
+        "Handschuhe"
+      ]
+    }
+  ],
+  "forms": [
+    "Schuh"
+  ],
+  "memoryHook": "Hand + Schuh = glove.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Handschuh",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Handschuh is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Handschuh, zwei ___",
+      "answer": "Handschuhe",
+      "fullAnswer": "ein Handschuh, zwei Handschuhe",
+      "explanation": "The plural is Handschuhe.",
+      "acceptedAnswers": [
+        "Handschuhe"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Handschuh mean?",
+      "options": [
+        "cheap",
+        "glove",
+        "the bread"
+      ],
+      "answer": "glove",
+      "explanation": "Handschuh: glove.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Hand + Schuh",
+        "Hand + Schutz"
+      ],
+      "answer": "Hand + Schuh",
+      "explanation": "Hand shoe!",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Mittens:",
+      "options": [
+        "die Fäustlinge",
+        "die Fingerhandschuhe"
+      ],
+      "answer": "die Fäustlinge",
+      "explanation": "Fist ones.",
+      "id": "q5"
+    }
+  ]
+}

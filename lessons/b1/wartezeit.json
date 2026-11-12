@@ -1,0 +1,139 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Wartezeit",
+    "partOfSpeech": "noun, feminine (die Wartezeit)",
+    "pronunciation": {
+      "respelling": "VAR-te-tsite",
+      "ipa": "ˈvaʁtəˌtsaɪ̯t",
+      "notes": "Plural: die Wartezeiten."
+    },
+    "meaning": "waiting time",
+    "shortDefinition": "Waiting time."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Warte",
+        "meaning": "wait"
+      },
+      {
+        "part": "zeit",
+        "meaning": "time",
+        "emphasis": "stretch"
+      }
+    ],
+    "literalMeaning": "wait time",
+    "summary": "Time dragging on."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Wartezeit, plural die Wartezeiten.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Wartezeit"
+        },
+        {
+          "label": "More than one",
+          "value": "die Wartezeiten"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Wartezeit beträgt 30 Minuten.",
+      "english": "The waiting time is 30 minutes.",
+      "highlight": [
+        "Wartezeit"
+      ]
+    },
+    {
+      "german": "Lange Wartezeiten beim Arzt.",
+      "english": "Long waits at the doctor's.",
+      "highlight": [
+        "Wartezeiten"
+      ]
+    },
+    {
+      "german": "Wir nutzen die Wartezeit zum Lesen.",
+      "english": "We use the waiting time to read.",
+      "highlight": [
+        "Wartezeit"
+      ]
+    }
+  ],
+  "forms": [
+    "warten",
+    "Wartezimmer"
+  ],
+  "memoryHook": "Warten + Zeit; Wartezimmer.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Wartezeit",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Wartezeit is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Wartezeit, zwei ___",
+      "answer": "Wartezeiten",
+      "fullAnswer": "ein Wartezeit, zwei Wartezeiten",
+      "explanation": "The plural is Wartezeiten.",
+      "acceptedAnswers": [
+        "Wartezeiten"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Wartezeit mean?",
+      "options": [
+        "the key",
+        "waiting time",
+        "cheap"
+      ],
+      "answer": "waiting time",
+      "explanation": "Wartezeit: waiting time.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "warten + Zeit",
+        "Wart + Ezeit"
+      ],
+      "answer": "warten + Zeit",
+      "explanation": "Wait time.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Waiting room:",
+      "options": [
+        "das Wartezimmer",
+        "die Wartehalle only"
+      ],
+      "answer": "das Wartezimmer",
+      "explanation": "Doctor's.",
+      "id": "q5"
+    }
+  ]
+}

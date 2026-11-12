@@ -256,7 +256,9 @@ actor LessonRepository {
             try Task.checkCancellation()
             if quiz {
                 let value = try resource(entry).lesson
-                items += value.quiz.map { PracticeItem(entry: entry, question: $0) }
+                if let question = value.quiz.randomElement() {
+                    items.append(PracticeItem(entry: entry, question: question))
+                }
             } else {
                 // Flashcards load only the active card's lesson, not the entire deck.
                 items.append(PracticeItem(entry: entry, question: nil))

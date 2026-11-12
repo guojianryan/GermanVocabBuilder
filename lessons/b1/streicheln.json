@@ -1,0 +1,159 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "streicheln",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "SHTRYE-kheln",
+      "ipa": "ˈʃtʁaɪ̯çl̩n",
+      "notes": ""
+    },
+    "meaning": "to stroke, pet",
+    "shortDefinition": "To stroke, pet."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "streich|le"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "streichel|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "streichel|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "streichel|n"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "streichel|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "streichel|n"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gestreichelt"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Darf ich den Hund streicheln?",
+      "english": "May I stroke the dog?",
+      "highlight": [
+        "streicheln?"
+      ]
+    },
+    {
+      "german": "Sie streichelt das Baby.",
+      "english": "She's stroking the baby.",
+      "highlight": [
+        "streichelt"
+      ]
+    },
+    {
+      "german": "Er streichelte ihre Hand.",
+      "english": "He stroked her hand.",
+      "highlight": [
+        "streichelte"
+      ]
+    }
+  ],
+  "forms": [
+    "streichle",
+    "streichelst",
+    "streichelt",
+    "streicheln",
+    "gestreichelt",
+    "Streichelzoo"
+  ],
+  "memoryHook": "Streicheln; Streichelzoo.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (streicheln)",
+      "answer": "streichelt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: streichelt.",
+      "acceptedAnswers": [
+        "streichelt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (streicheln, past)",
+      "answer": "gestreichelt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gestreichelt.",
+      "acceptedAnswers": [
+        "gestreichelt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does streicheln mean?",
+      "options": [
+        "the car",
+        "to stroke",
+        "to learn"
+      ],
+      "answer": "to stroke",
+      "explanation": "streicheln: to stroke, pet.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "ich ___:",
+      "options": [
+        "streichle",
+        "streichele only"
+      ],
+      "answer": "streichle",
+      "explanation": "-el verbs.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Petting zoo:",
+      "options": [
+        "der Streichelzoo",
+        "der Kuschelzoo"
+      ],
+      "answer": "der Streichelzoo",
+      "explanation": "Compound.",
+      "id": "q5"
+    }
+  ]
+}

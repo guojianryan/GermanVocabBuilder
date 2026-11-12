@@ -1,0 +1,134 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Hase",
+    "partOfSpeech": "noun, masculine (der Hase)",
+    "pronunciation": {
+      "respelling": "HAA-ze",
+      "ipa": "ˈhaːzə",
+      "notes": "Plural: die Hasen."
+    },
+    "meaning": "hare; bunny",
+    "shortDefinition": "Hare; bunny."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Hase, plural die Hasen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Hase"
+        },
+        {
+          "label": "More than one",
+          "value": "die Hasen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ein Hase läuft über das Feld.",
+      "english": "A hare runs across the field.",
+      "highlight": [
+        "Hase"
+      ]
+    },
+    {
+      "german": "Der Osterhase bringt die Eier.",
+      "english": "The Easter bunny brings the eggs.",
+      "highlight": [
+        "Osterhase"
+      ]
+    },
+    {
+      "german": "Mein Hase! (term of endearment)",
+      "english": "My sweetie!",
+      "highlight": [
+        "Hase!"
+      ]
+    }
+  ],
+  "forms": [
+    "Osterhase",
+    "Kaninchen"
+  ],
+  "memoryHook": "Der Hase (weak); Osterhase; ein alter Hase = expert.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Hase",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Hase is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Hase, zwei ___",
+      "answer": "Hasen",
+      "fullAnswer": "ein Hase, zwei Hasen",
+      "explanation": "The plural is Hasen.",
+      "acceptedAnswers": [
+        "Hasen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Hase mean?",
+      "options": [
+        "hare",
+        "the key",
+        "the family"
+      ],
+      "answer": "hare",
+      "explanation": "Hase: hare; bunny.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Weak noun: den/dem…",
+      "options": [
+        "Hasen",
+        "Hase"
+      ],
+      "answer": "Hasen",
+      "explanation": "-n.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Rabbit (pet):",
+      "options": [
+        "das Kaninchen",
+        "der Hase only"
+      ],
+      "answer": "das Kaninchen",
+      "explanation": "Different animals.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Ein alter Hase' means…",
+      "options": [
+        "an old hand, an expert",
+        "an old animal"
+      ],
+      "answer": "an old hand, an expert",
+      "explanation": "Idiom.",
+      "id": "q6"
+    }
+  ]
+}

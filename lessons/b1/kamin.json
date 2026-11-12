@@ -1,0 +1,133 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Kamin",
+    "partOfSpeech": "noun, masculine (der Kamin)",
+    "pronunciation": {
+      "respelling": "ka-MEEN",
+      "ipa": "kaˈmiːn",
+      "notes": "Plural: die Kamine."
+    },
+    "meaning": "fireplace; chimney",
+    "shortDefinition": "Fireplace; chimney."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Kamin, plural die Kamine.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Kamin"
+        },
+        {
+          "label": "More than one",
+          "value": "die Kamine"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir sitzen am Kamin.",
+      "english": "We're sitting by the fire.",
+      "highlight": [
+        "Kamin."
+      ]
+    },
+    {
+      "german": "Im Winter brennt der Kamin.",
+      "english": "In winter the fire is lit.",
+      "highlight": [
+        "Kamin"
+      ]
+    },
+    {
+      "german": "Der Rauch steigt aus dem Kamin.",
+      "english": "Smoke rises from the chimney.",
+      "highlight": [
+        "Kamin."
+      ]
+    }
+  ],
+  "forms": [
+    "Schornstein"
+  ],
+  "memoryHook": "Der Kamin (fireplace; chimney = Schornstein).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Kamin",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Kamin is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Kamin, zwei ___",
+      "answer": "Kamine",
+      "fullAnswer": "ein Kamin, zwei Kamine",
+      "explanation": "The plural is Kamine.",
+      "acceptedAnswers": [
+        "Kamine"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Kamin mean?",
+      "options": [
+        "cheap",
+        "to wait",
+        "fireplace"
+      ],
+      "answer": "fireplace",
+      "explanation": "Kamin: fireplace; chimney.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Two meanings:",
+      "options": [
+        "fireplace; chimney",
+        "oven; kitchen"
+      ],
+      "answer": "fireplace; chimney",
+      "explanation": "Both.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Chimney (north):",
+      "options": [
+        "der Schornstein",
+        "der Rauchturm"
+      ],
+      "answer": "der Schornstein",
+      "explanation": "Regional.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Stress on…",
+      "options": [
+        "-MIN",
+        "KA-"
+      ],
+      "answer": "-MIN",
+      "explanation": "ka-MEEN.",
+      "id": "q6"
+    }
+  ]
+}

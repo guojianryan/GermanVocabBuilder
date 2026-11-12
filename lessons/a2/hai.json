@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Hai",
+    "partOfSpeech": "noun, masculine (der Hai)",
+    "pronunciation": {
+      "respelling": "HY",
+      "ipa": "haɪ̯",
+      "notes": "Plural: die Haie."
+    },
+    "meaning": "shark",
+    "shortDefinition": "Shark."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Hai, plural die Haie.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Hai"
+        },
+        {
+          "label": "More than one",
+          "value": "die Haie"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Im Meer gibt es Haie.",
+      "english": "There are sharks in the sea.",
+      "highlight": [
+        "Haie."
+      ]
+    },
+    {
+      "german": "Der weiße Hai.",
+      "english": "The great white shark.",
+      "highlight": [
+        "Hai."
+      ]
+    },
+    {
+      "german": "Ein Kredithai.",
+      "english": "A loan shark.",
+      "highlight": [
+        "Kredithai."
+      ]
+    }
+  ],
+  "forms": [
+    "Haifisch"
+  ],
+  "memoryHook": "Der Hai (= Haifisch).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Hai",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Hai is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Hai, zwei ___",
+      "answer": "Haie",
+      "fullAnswer": "ein Hai, zwei Haie",
+      "explanation": "The plural is Haie.",
+      "acceptedAnswers": [
+        "Haie"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Hai mean?",
+      "options": [
+        "the station",
+        "the flower",
+        "shark"
+      ],
+      "answer": "shark",
+      "explanation": "Hai: shark.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Haie",
+        "Hais"
+      ],
+      "answer": "Haie",
+      "explanation": "-e.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonym (long form):",
+      "options": [
+        "der Haifisch",
+        "der Haiwal"
+      ],
+      "answer": "der Haifisch",
+      "explanation": "Shark fish.",
+      "id": "q5"
+    }
+  ]
+}

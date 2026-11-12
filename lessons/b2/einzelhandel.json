@@ -1,0 +1,130 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Einzelhandel",
+    "partOfSpeech": "noun, masculine (der Einzelhandel)",
+    "pronunciation": {
+      "respelling": "INE-tsel-han-del",
+      "ipa": "ˈaɪ̯ntsl̩ˌhandl̩",
+      "notes": "Usually no plural."
+    },
+    "meaning": "retail (trade)",
+    "shortDefinition": "Retail (trade)."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Einzel",
+        "meaning": "single"
+      },
+      {
+        "part": "handel",
+        "meaning": "trade"
+      }
+    ],
+    "literalMeaning": "single trade"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Einzelhandel, usually no plural.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Einzelhandel"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Einzelhandel verliert an das Internet.",
+      "english": "Retail is losing out to the internet.",
+      "highlight": [
+        "Einzelhandel"
+      ]
+    },
+    {
+      "german": "Sie arbeitet im Einzelhandel.",
+      "english": "She works in retail.",
+      "highlight": [
+        "Einzelhandel."
+      ]
+    },
+    {
+      "german": "Die Umsätze im Einzelhandel.",
+      "english": "Retail sales.",
+      "highlight": [
+        "Einzelhandel."
+      ]
+    }
+  ],
+  "forms": [
+    "Großhandel",
+    "Handel"
+  ],
+  "memoryHook": "Einzel + Handel = retail ↔ Großhandel.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Einzelhandel",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Einzelhandel is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Einzelhandel mean?",
+      "options": [
+        "retail (trade)",
+        "the street",
+        "the bread"
+      ],
+      "answer": "retail (trade)",
+      "explanation": "Einzelhandel: retail (trade).",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Einzel (single) + Handel (trade)",
+        "einzeln + handeln"
+      ],
+      "answer": "Einzel (single) + Handel (trade)",
+      "explanation": "Single trade.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Wholesale:",
+      "options": [
+        "der Großhandel",
+        "der Massenhandel"
+      ],
+      "answer": "der Großhandel",
+      "explanation": "Opposite.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Er arbeitet im ___ . (retail)",
+      "answer": "Einzelhandel",
+      "fullAnswer": "Er arbeitet im Einzelhandel.",
+      "explanation": "Einzelhandel.",
+      "id": "q5"
+    }
+  ]
+}

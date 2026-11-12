@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Osterhase",
+    "partOfSpeech": "noun, masculine (der Osterhase)",
+    "pronunciation": {
+      "respelling": "OH-ster-haa-ze",
+      "ipa": "ˈoːstɐˌhaːzə",
+      "notes": "Plural: die Osterhasen."
+    },
+    "meaning": "Easter bunny",
+    "shortDefinition": "Easter bunny."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Oster",
+        "meaning": "Easter"
+      },
+      {
+        "part": "hase",
+        "meaning": "hare"
+      }
+    ],
+    "literalMeaning": "Easter hare"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Osterhase, plural die Osterhasen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Osterhase"
+        },
+        {
+          "label": "More than one",
+          "value": "die Osterhasen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Osterhase versteckt die Eier.",
+      "english": "The Easter bunny hides the eggs.",
+      "highlight": [
+        "Osterhase"
+      ]
+    },
+    {
+      "german": "Ein Schokoladen-Osterhase.",
+      "english": "A chocolate Easter bunny.",
+      "highlight": [
+        "Schokoladen-Osterhase."
+      ]
+    },
+    {
+      "german": "Glaubst du an den Osterhasen?",
+      "english": "Do you believe in the Easter bunny?",
+      "highlight": [
+        "Osterhasen?"
+      ]
+    }
+  ],
+  "forms": [
+    "Ostern",
+    "Hase"
+  ],
+  "memoryHook": "Ostern + Hase = Easter bunny.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Osterhase",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Osterhase is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Osterhase, zwei ___",
+      "answer": "Osterhasen",
+      "fullAnswer": "ein Osterhase, zwei Osterhasen",
+      "explanation": "The plural is Osterhasen.",
+      "acceptedAnswers": [
+        "Osterhasen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Osterhase mean?",
+      "options": [
+        "Easter bunny",
+        "never",
+        "to sing"
+      ],
+      "answer": "Easter bunny",
+      "explanation": "Osterhase: Easter bunny.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Weak noun: den/dem…",
+      "options": [
+        "Osterhasen",
+        "Osterhase"
+      ],
+      "answer": "Osterhasen",
+      "explanation": "Like Hase.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Ostern + Hase",
+        "Osten + Hase"
+      ],
+      "answer": "Ostern + Hase",
+      "explanation": "Easter hare.",
+      "id": "q5"
+    }
+  ]
+}

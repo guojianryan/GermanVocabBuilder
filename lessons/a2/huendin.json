@@ -1,0 +1,138 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Hündin",
+    "partOfSpeech": "noun, feminine (die Hündin)",
+    "pronunciation": {
+      "respelling": "HÜN-din",
+      "ipa": "ˈhʏndɪn",
+      "notes": "Plural: die Hündinnen."
+    },
+    "meaning": "female dog, bitch",
+    "shortDefinition": "Female dog, bitch."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Hünd",
+        "meaning": "dog (Hund)"
+      },
+      {
+        "part": "in",
+        "meaning": "female"
+      }
+    ],
+    "literalMeaning": "she-dog"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Hündin, plural die Hündinnen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Hündin"
+        },
+        {
+          "label": "More than one",
+          "value": "die Hündinnen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Unsere Hündin heißt Luna.",
+      "english": "Our dog (she) is called Luna.",
+      "highlight": [
+        "Hündin"
+      ]
+    },
+    {
+      "german": "Die Hündin hat Welpen bekommen.",
+      "english": "The dog had puppies.",
+      "highlight": [
+        "Hündin"
+      ]
+    },
+    {
+      "german": "Ist das ein Rüde oder eine Hündin?",
+      "english": "Is it a male or a female?",
+      "highlight": [
+        "Hündin?"
+      ]
+    }
+  ],
+  "forms": [
+    "Hund",
+    "Rüde",
+    "Welpe"
+  ],
+  "memoryHook": "Der Hund → die Hündin; der Rüde = male.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Hündin",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Hündin is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Hündin, zwei ___",
+      "answer": "Hündinnen",
+      "fullAnswer": "ein Hündin, zwei Hündinnen",
+      "explanation": "The plural is Hündinnen.",
+      "acceptedAnswers": [
+        "Huendinnen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Hündin mean?",
+      "options": [
+        "always",
+        "female dog",
+        "the car"
+      ],
+      "answer": "female dog",
+      "explanation": "Hündin: female dog, bitch.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Male dog:",
+      "options": [
+        "der Rüde",
+        "der Hündin"
+      ],
+      "answer": "der Rüde",
+      "explanation": "Male.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Hündinnen",
+        "Hündinen"
+      ],
+      "answer": "Hündinnen",
+      "explanation": "-nnen.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Blitzer",
+    "partOfSpeech": "noun, masculine (der Blitzer)",
+    "pronunciation": {
+      "respelling": "BLIT-ser",
+      "ipa": "ˈblɪtsɐ",
+      "notes": "The plural looks the same. Plural: die Blitzer."
+    },
+    "meaning": "speed camera",
+    "shortDefinition": "Speed camera."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Blitzer, plural die Blitzer.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Blitzer"
+        },
+        {
+          "label": "More than one",
+          "value": "die Blitzer"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Achtung, da vorne ist ein Blitzer!",
+      "english": "Watch out, there's a speed camera ahead!",
+      "highlight": [
+        "Blitzer!"
+      ]
+    },
+    {
+      "german": "Ich bin geblitzt worden.",
+      "english": "I got caught by a speed camera.",
+      "highlight": [
+        "geblitzt"
+      ]
+    },
+    {
+      "german": "Die Stadt stellt neue Blitzer auf.",
+      "english": "The town is installing new speed cameras.",
+      "highlight": [
+        "Blitzer"
+      ]
+    }
+  ],
+  "forms": [
+    "blitzen",
+    "Blitz"
+  ],
+  "memoryHook": "Blitzen → der Blitzer; geblitzt werden.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Blitzer",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Blitzer is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Blitzer, zwei ___",
+      "answer": "Blitzer",
+      "fullAnswer": "ein Blitzer, zwei Blitzer",
+      "explanation": "The plural is Blitzer.",
+      "acceptedAnswers": [
+        "Blitzer"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Blitzer mean?",
+      "options": [
+        "speed camera",
+        "the key",
+        "the job"
+      ],
+      "answer": "speed camera",
+      "explanation": "Blitzer: speed camera.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "blitzen (flash)",
+        "Blitz (lightning) only"
+      ],
+      "answer": "blitzen (flash)",
+      "explanation": "Flash.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Geblitzt werden' means…",
+      "options": [
+        "to be caught speeding on camera",
+        "to be struck by lightning"
+      ],
+      "answer": "to be caught speeding on camera",
+      "explanation": "Speeding.",
+      "id": "q5"
+    }
+  ]
+}

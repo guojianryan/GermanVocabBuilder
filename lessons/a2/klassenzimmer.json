@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Klassenzimmer",
+    "partOfSpeech": "noun, neuter (das Klassenzimmer)",
+    "pronunciation": {
+      "respelling": "KLA-sen-tsi-mer",
+      "ipa": "ˈklasn̩ˌtsɪmɐ",
+      "notes": "The plural looks the same. Plural: die Klassenzimmer."
+    },
+    "meaning": "classroom",
+    "shortDefinition": "Classroom."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Klassen",
+        "meaning": "class"
+      },
+      {
+        "part": "zimmer",
+        "meaning": "room"
+      }
+    ],
+    "literalMeaning": "class room"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Klassenzimmer, plural die Klassenzimmer.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Klassenzimmer"
+        },
+        {
+          "label": "More than one",
+          "value": "die Klassenzimmer"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das Klassenzimmer ist im zweiten Stock.",
+      "english": "The classroom is on the second floor.",
+      "highlight": [
+        "Klassenzimmer"
+      ]
+    },
+    {
+      "german": "Alle Schüler sitzen im Klassenzimmer.",
+      "english": "All the pupils are sitting in the classroom.",
+      "highlight": [
+        "Klassenzimmer."
+      ]
+    },
+    {
+      "german": "Wir schmücken das Klassenzimmer.",
+      "english": "We're decorating the classroom.",
+      "highlight": [
+        "Klassenzimmer."
+      ]
+    }
+  ],
+  "forms": [
+    "Klasse",
+    "Klassenraum"
+  ],
+  "memoryHook": "Klasse + Zimmer = classroom (= Klassenraum).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Klassenzimmer",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Klassenzimmer is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Klassenzimmer, zwei ___",
+      "answer": "Klassenzimmer",
+      "fullAnswer": "ein Klassenzimmer, zwei Klassenzimmer",
+      "explanation": "The plural is Klassenzimmer.",
+      "acceptedAnswers": [
+        "Klassenzimmer"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Klassenzimmer mean?",
+      "options": [
+        "the street",
+        "classroom",
+        "the car"
+      ],
+      "answer": "classroom",
+      "explanation": "Klassenzimmer: classroom.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Klasse + n + Zimmer",
+        "Klassen + Zimmer only"
+      ],
+      "answer": "Klasse + n + Zimmer",
+      "explanation": "Linking -n.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonym:",
+      "options": [
+        "der Klassenraum",
+        "die Klassenfahrt"
+      ],
+      "answer": "der Klassenraum",
+      "explanation": "Classroom.",
+      "id": "q5"
+    }
+  ]
+}

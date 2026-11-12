@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Narbe",
+    "partOfSpeech": "noun, feminine (die Narbe)",
+    "pronunciation": {
+      "respelling": "NAR-be",
+      "ipa": "ˈnaʁbə",
+      "notes": "Plural: die Narben."
+    },
+    "meaning": "scar",
+    "shortDefinition": "Scar."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Narbe, plural die Narben.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Narbe"
+        },
+        {
+          "label": "More than one",
+          "value": "die Narben"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er hat eine Narbe am Kinn.",
+      "english": "He has a scar on his chin.",
+      "highlight": [
+        "Narbe"
+      ]
+    },
+    {
+      "german": "Die Wunde hinterließ eine Narbe.",
+      "english": "The wound left a scar.",
+      "highlight": [
+        "Narbe."
+      ]
+    },
+    {
+      "german": "Seelische Narben.",
+      "english": "Emotional scars.",
+      "highlight": [
+        "Narben."
+      ]
+    }
+  ],
+  "forms": [
+    "Wunde"
+  ],
+  "memoryHook": "Die Narbe (scar) ← die Wunde.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Narbe",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Narbe is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Narbe, zwei ___",
+      "answer": "Narben",
+      "fullAnswer": "ein Narbe, zwei Narben",
+      "explanation": "The plural is Narben.",
+      "acceptedAnswers": [
+        "Narben"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Narbe mean?",
+      "options": [
+        "scar",
+        "to wait",
+        "the station"
+      ],
+      "answer": "scar",
+      "explanation": "Narbe: scar.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Narben",
+        "Narbe"
+      ],
+      "answer": "Narben",
+      "explanation": "-n.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Wound:",
+      "options": [
+        "die Wunde",
+        "die Narbe"
+      ],
+      "answer": "die Wunde",
+      "explanation": "Before the scar.",
+      "id": "q5"
+    }
+  ]
+}

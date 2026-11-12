@@ -1,0 +1,171 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "fischen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "FI-shen",
+      "ipa": "ˈfɪʃn̩",
+      "notes": ""
+    },
+    "meaning": "to fish",
+    "shortDefinition": "To fish."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "fisch|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "fisch|t"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "fisch|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "fisch|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "fisch|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "fisch|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gefischt"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir gehen am See fischen.",
+      "english": "We're going fishing at the lake.",
+      "highlight": [
+        "fischen."
+      ]
+    },
+    {
+      "german": "Er fischt im Trüben.",
+      "english": "He's fishing in troubled waters.",
+      "highlight": [
+        "fischt"
+      ]
+    },
+    {
+      "german": "Sie fischte den Schlüssel aus der Tasche.",
+      "english": "She fished the key out of her bag.",
+      "highlight": [
+        "fischte"
+      ]
+    }
+  ],
+  "forms": [
+    "fische",
+    "fischt",
+    "fischen",
+    "gefischt",
+    "Fisch",
+    "Fischer",
+    "angeln"
+  ],
+  "memoryHook": "Fisch → fischen (= angeln); der Fischer.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (fischen)",
+      "answer": "fischt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: fischt.",
+      "acceptedAnswers": [
+        "fischt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (fischen, past)",
+      "answer": "gefischt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gefischt.",
+      "acceptedAnswers": [
+        "gefischt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does fischen mean?",
+      "options": [
+        "never",
+        "to fish",
+        "the flower"
+      ],
+      "answer": "to fish",
+      "explanation": "fischen: to fish.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonym (hobby):",
+      "options": [
+        "angeln",
+        "jagen"
+      ],
+      "answer": "angeln",
+      "explanation": "Rod.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Fisherman:",
+      "options": [
+        "der Fischer",
+        "der Fischmann"
+      ],
+      "answer": "der Fischer",
+      "explanation": "Job.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "du ___:",
+      "options": [
+        "fischst",
+        "fischt"
+      ],
+      "answer": "fischst",
+      "explanation": "-sch + st.",
+      "id": "q6"
+    }
+  ]
+}

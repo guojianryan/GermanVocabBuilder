@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Eule",
+    "partOfSpeech": "noun, feminine (die Eule)",
+    "pronunciation": {
+      "respelling": "OY-le",
+      "ipa": "ˈɔʏ̯lə",
+      "notes": "Plural: die Eulen."
+    },
+    "meaning": "owl",
+    "shortDefinition": "Owl."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Eule, plural die Eulen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Eule"
+        },
+        {
+          "label": "More than one",
+          "value": "die Eulen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Eule jagt nachts.",
+      "english": "The owl hunts at night.",
+      "highlight": [
+        "Eule"
+      ]
+    },
+    {
+      "german": "Ich bin eine Nachteule.",
+      "english": "I'm a night owl.",
+      "highlight": [
+        "Nachteule."
+      ]
+    },
+    {
+      "german": "Eulen nach Athen tragen.",
+      "english": "To carry coals to Newcastle.",
+      "highlight": [
+        "Eulen"
+      ]
+    }
+  ],
+  "forms": [
+    "Nachteule"
+  ],
+  "memoryHook": "Die Eule; Nachteule; Eulen nach Athen tragen.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Eule",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Eule is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Eule, zwei ___",
+      "answer": "Eulen",
+      "fullAnswer": "ein Eule, zwei Eulen",
+      "explanation": "The plural is Eulen.",
+      "acceptedAnswers": [
+        "Eulen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Eule mean?",
+      "options": [
+        "the street",
+        "owl",
+        "to sleep"
+      ],
+      "answer": "owl",
+      "explanation": "Eule: owl.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Eulen nach Athen tragen' means…",
+      "options": [
+        "to do something pointless",
+        "to travel to Greece"
+      ],
+      "answer": "to do something pointless",
+      "explanation": "Idiom.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Night owl:",
+      "options": [
+        "die Nachteule",
+        "der Nachtvogel"
+      ],
+      "answer": "die Nachteule",
+      "explanation": "Person.",
+      "id": "q5"
+    }
+  ]
+}

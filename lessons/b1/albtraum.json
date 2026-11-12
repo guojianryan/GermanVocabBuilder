@@ -1,0 +1,148 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Albtraum",
+    "partOfSpeech": "noun, masculine (der Albtraum)",
+    "pronunciation": {
+      "respelling": "ALP-trowm",
+      "ipa": "ˈalpˌtʁaʊ̯m",
+      "notes": "Plural: die Albträume."
+    },
+    "meaning": "nightmare",
+    "shortDefinition": "Nightmare."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Alb",
+        "meaning": "elf, goblin"
+      },
+      {
+        "part": "traum",
+        "meaning": "dream"
+      }
+    ],
+    "literalMeaning": "goblin dream"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Albtraum, plural die Albträume.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Albtraum"
+        },
+        {
+          "label": "More than one",
+          "value": "die Albträume"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich hatte einen Albtraum.",
+      "english": "I had a nightmare.",
+      "highlight": [
+        "Albtraum."
+      ]
+    },
+    {
+      "german": "Die Reise war ein Albtraum.",
+      "english": "The trip was a nightmare.",
+      "highlight": [
+        "Albtraum."
+      ]
+    },
+    {
+      "german": "Ein Albtraum wird wahr.",
+      "english": "A nightmare comes true.",
+      "highlight": [
+        "Albtraum"
+      ]
+    }
+  ],
+  "forms": [
+    "Alptraum",
+    "Traum"
+  ],
+  "memoryHook": "Alb (goblin) + Traum = nightmare (also Alptraum).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Albtraum",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Albtraum is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Albtraum, zwei ___",
+      "answer": "Albträume",
+      "fullAnswer": "ein Albtraum, zwei Albträume",
+      "explanation": "The plural is Albträume.",
+      "acceptedAnswers": [
+        "Albtraeume"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Albtraum mean?",
+      "options": [
+        "to open",
+        "the station",
+        "nightmare"
+      ],
+      "answer": "nightmare",
+      "explanation": "Albtraum: nightmare.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Also spelled…",
+      "options": [
+        "Alptraum",
+        "Altraum"
+      ],
+      "answer": "Alptraum",
+      "explanation": "Both allowed.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Alb / Alp is…",
+      "options": [
+        "an elf / goblin (old)",
+        "the Alps"
+      ],
+      "answer": "an elf / goblin (old)",
+      "explanation": "Old belief.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Albträume",
+        "Albtraume"
+      ],
+      "answer": "Albträume",
+      "explanation": "Umlaut.",
+      "id": "q6"
+    }
+  ]
+}

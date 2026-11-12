@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Murmel",
+    "partOfSpeech": "noun, feminine (die Murmel)",
+    "pronunciation": {
+      "respelling": "MOOR-mel",
+      "ipa": "ˈmʊʁml̩",
+      "notes": "Plural: die Murmeln."
+    },
+    "meaning": "marble (toy)",
+    "shortDefinition": "Marble (toy)."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Murmel, plural die Murmeln.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Murmel"
+        },
+        {
+          "label": "More than one",
+          "value": "die Murmeln"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Kinder spielen mit Murmeln.",
+      "english": "The children play marbles.",
+      "highlight": [
+        "Murmeln."
+      ]
+    },
+    {
+      "german": "Eine blaue Glasmurmel.",
+      "english": "A blue glass marble.",
+      "highlight": [
+        "Glasmurmel."
+      ]
+    },
+    {
+      "german": "Die Murmel rollt unter das Sofa.",
+      "english": "The marble rolls under the sofa.",
+      "highlight": [
+        "Murmel"
+      ]
+    }
+  ],
+  "forms": [
+    "murmeln"
+  ],
+  "memoryHook": "Die Murmel (marble) ≠ murmeln (mumble).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Murmel",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Murmel is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Murmel, zwei ___",
+      "answer": "Murmeln",
+      "fullAnswer": "ein Murmel, zwei Murmeln",
+      "explanation": "The plural is Murmeln.",
+      "acceptedAnswers": [
+        "Murmeln"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Murmel mean?",
+      "options": [
+        "the bread",
+        "quiet",
+        "marble (toy)"
+      ],
+      "answer": "marble (toy)",
+      "explanation": "Murmel: marble (toy).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Not to be confused with…",
+      "options": [
+        "murmeln (to mumble)",
+        "Murmeltier only"
+      ],
+      "answer": "murmeln (to mumble)",
+      "explanation": "Verb!",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Murmeln",
+        "Murmel"
+      ],
+      "answer": "Murmeln",
+      "explanation": "-n.",
+      "id": "q5"
+    }
+  ]
+}

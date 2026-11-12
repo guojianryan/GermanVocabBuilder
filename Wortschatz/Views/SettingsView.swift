@@ -1,6 +1,7 @@
 import SwiftUI
 
 struct SettingsView: View {
+    @Environment(\.openURL) private var openURL
     @Environment(AppStore.self) private var store
     @Environment(\.appTheme) private var theme
     var body: some View {
@@ -10,7 +11,7 @@ struct SettingsView: View {
                     Eyebrow(text: "Make yourself at home").padding(.top, 20)
                     Text("A different\nkind of mood.")
                         .font(.system(size: 40, weight: .medium, design: .serif)).tracking(-1)
-                    Text("Choose your palette and your learning level.")
+                    Text("Choose your palette, learning level, and review reminder.")
                         .font(.subheadline).foregroundStyle(theme.muted)
                     VStack(alignment: .leading, spacing: 14) {
                         Eyebrow(text: "Appearance")
@@ -53,6 +54,37 @@ struct SettingsView: View {
                         Text("The featured word on Explore will match your level and come from outside your study deck.")
                             .font(.subheadline).foregroundStyle(theme.muted)
                     }.padding(20).background(theme.surface, in: RoundedRectangle(cornerRadius: 22))
+                    VStack(alignment: .leading, spacing: 14) {
+                        Eyebrow(text: "Review reminder")
+                        Toggle("Daily reminder", isOn: Binding(
+                            get: { store.reminderEnabled },
+                            set: { enabled in Task { await store.updateReminder(enabled: enabled) } }
+                        )).accessibilityIdentifier("dailyReminderToggle")
+                        Text("A gentle daily nudge to open Practice and review your words.")
+                            .font(.subheadline).foregroundStyle(theme.muted)
+                        if store.reminderEnabled {
+                            DatePicker("Remind me at", selection: Binding(
+                                get: { Calendar.current.date(bySettingHour: store.reminderMinutes / 60, minute: store.reminderMinutes % 60, second: 0, of: Date()) ?? Date() },
+                                set: { date in
+                                    let parts = Calendar.current.dateComponents([.hour, .minute], from: date)
+                                    Task { await store.updateReminder(enabled: true, minutes: (parts.hour ?? 19) * 60 + (parts.minute ?? 0)) }
+                                }
+                            ), displayedComponents: .hourAndMinute)
+                            .accessibilityIdentifier("reminderTimePicker")
+                        }
+                        if store.notificationsDenied {
+                            Text("Notifications are off for Wortschatz. Allow them in iPhone Settings, then enable your reminder here.")
+                                .font(.subheadline).foregroundStyle(theme.muted)
+                            Button("Open notification settings") {
+                                if let url = URL(string: UIApplication.openNotificationSettingsURLString) { openURL(url) }
+                            }
+                        }
+                        if let error = store.reminderError {
+                            Text(error).font(.subheadline).foregroundStyle(theme.muted)
+                        }
+                    }
+                    .disabled(store.updatingReminder)
+                    .padding(20).background(theme.surface, in: RoundedRectangle(cornerRadius: 22))
                     Label("Your preferences are saved on this device.", systemImage: "iphone")
                         .font(.caption).foregroundStyle(theme.muted)
                 }.padding(24).frame(maxWidth: 620).frame(maxWidth: .infinity)

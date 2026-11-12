@@ -1,0 +1,141 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Bezahlung",
+    "partOfSpeech": "noun, feminine (die Bezahlung)",
+    "pronunciation": {
+      "respelling": "be-TSAA-lung",
+      "ipa": "bəˈtsaːlʊŋ",
+      "notes": "Plural: die Bezahlungen."
+    },
+    "meaning": "payment, pay",
+    "shortDefinition": "Payment, pay."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Be",
+        "meaning": "prefix"
+      },
+      {
+        "part": "zahl",
+        "meaning": "pay (zahlen)"
+      },
+      {
+        "part": "ung",
+        "meaning": "noun ending"
+      }
+    ],
+    "literalMeaning": "a paying"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Bezahlung, plural die Bezahlungen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Bezahlung"
+        },
+        {
+          "label": "More than one",
+          "value": "die Bezahlungen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Bezahlung ist schlecht.",
+      "english": "The pay is poor.",
+      "highlight": [
+        "Bezahlung"
+      ]
+    },
+    {
+      "german": "Bezahlung per Karte ist möglich.",
+      "english": "Payment by card is possible.",
+      "highlight": [
+        "Bezahlung"
+      ]
+    },
+    {
+      "german": "Gleiche Bezahlung für Männer und Frauen.",
+      "english": "Equal pay for men and women.",
+      "highlight": [
+        "Bezahlung"
+      ]
+    }
+  ],
+  "forms": [
+    "bezahlen",
+    "Zahlung"
+  ],
+  "memoryHook": "Bezahlen → die Bezahlung.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Bezahlung",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Bezahlung is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Bezahlung, zwei ___",
+      "answer": "Bezahlungen",
+      "fullAnswer": "ein Bezahlung, zwei Bezahlungen",
+      "explanation": "The plural is Bezahlungen.",
+      "acceptedAnswers": [
+        "Bezahlungen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Bezahlung mean?",
+      "options": [
+        "hot",
+        "payment",
+        "the job"
+      ],
+      "answer": "payment",
+      "explanation": "Bezahlung: payment, pay.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "bezahlen (pay)",
+        "Zahl only"
+      ],
+      "answer": "bezahlen (pay)",
+      "explanation": "Pay.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonym (salary):",
+      "options": [
+        "das Gehalt, der Lohn",
+        "die Rechnung"
+      ],
+      "answer": "das Gehalt, der Lohn",
+      "explanation": "Pay.",
+      "id": "q5"
+    }
+  ]
+}

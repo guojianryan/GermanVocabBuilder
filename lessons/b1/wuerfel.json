@@ -1,0 +1,133 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Würfel",
+    "partOfSpeech": "noun, masculine (der Würfel)",
+    "pronunciation": {
+      "respelling": "VÜR-fel",
+      "ipa": "ˈvʏʁfl̩",
+      "notes": "The plural looks the same. Plural: die Würfel."
+    },
+    "meaning": "dice; cube",
+    "shortDefinition": "Dice; cube."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Würfel, plural die Würfel.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Würfel"
+        },
+        {
+          "label": "More than one",
+          "value": "die Würfel"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Du bist dran, wirf den Würfel!",
+      "english": "Your turn, roll the dice!",
+      "highlight": [
+        "Würfel!"
+      ]
+    },
+    {
+      "german": "Ein Würfel Zucker.",
+      "english": "A sugar cube.",
+      "highlight": [
+        "Würfel"
+      ]
+    },
+    {
+      "german": "Die Würfel sind gefallen.",
+      "english": "The die is cast.",
+      "highlight": [
+        "Würfel"
+      ]
+    }
+  ],
+  "forms": [
+    "würfeln"
+  ],
+  "memoryHook": "Der Würfel (dice; cube); würfeln.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Würfel",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Würfel is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Würfel, zwei ___",
+      "answer": "Würfel",
+      "fullAnswer": "ein Würfel, zwei Würfel",
+      "explanation": "The plural is Würfel.",
+      "acceptedAnswers": [
+        "Wuerfel"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Würfel mean?",
+      "options": [
+        "quiet",
+        "to learn",
+        "dice"
+      ],
+      "answer": "dice",
+      "explanation": "Würfel: dice; cube.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Verb:",
+      "options": [
+        "würfeln",
+        "würfen"
+      ],
+      "answer": "würfeln",
+      "explanation": "Roll dice.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Die Würfel sind gefallen' means…",
+      "options": [
+        "the decision has been made",
+        "the dice are lost"
+      ],
+      "answer": "the decision has been made",
+      "explanation": "Idiom.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Würfel",
+        "Würfeln"
+      ],
+      "answer": "Würfel",
+      "explanation": "No change.",
+      "id": "q6"
+    }
+  ]
+}

@@ -19,7 +19,7 @@ for path in sorted((ROOT / 'Wortschatz').rglob('*.swift')):
     refs.append(ref)
     sources.append(add('build'+rel, f'isa = PBXBuildFile; fileRef = {ref};'))
 resources = []
-for path, kind in [('lessons', 'folder'), ('site/lesson-template.html', 'text.html'), ('Wortschatz/Resources/Assets.xcassets', 'folder.assetcatalog')]:
+for path, kind in [('Wortschatz/Resources/PrivacyInfo.xcprivacy', 'text.xml'), ('lessons', 'folder'), ('site/lesson-template.html', 'text.html'), ('Wortschatz/Resources/Assets.xcassets', 'folder.assetcatalog')]:
     ref = add(path, f'isa = PBXFileReference; lastKnownFileType = {kind}; path = "{path}"; sourceTree = SOURCE_ROOT;')
     refs.append(ref)
     resources.append(add('build'+path, f'isa = PBXBuildFile; fileRef = {ref};'))

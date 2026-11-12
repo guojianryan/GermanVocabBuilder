@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Mikrowelle",
+    "partOfSpeech": "noun, feminine (die Mikrowelle)",
+    "pronunciation": {
+      "respelling": "MEE-kro-ve-le",
+      "ipa": "ˈmiːkʁoˌvɛlə",
+      "notes": "Plural: die Mikrowellen."
+    },
+    "meaning": "microwave",
+    "shortDefinition": "Microwave."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Mikro",
+        "meaning": "small"
+      },
+      {
+        "part": "welle",
+        "meaning": "wave"
+      }
+    ],
+    "literalMeaning": "small wave"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Mikrowelle, plural die Mikrowellen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Mikrowelle"
+        },
+        {
+          "label": "More than one",
+          "value": "die Mikrowellen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich mache das Essen in der Mikrowelle warm.",
+      "english": "I heat the food in the microwave.",
+      "highlight": [
+        "Mikrowelle"
+      ]
+    },
+    {
+      "german": "Zwei Minuten in die Mikrowelle.",
+      "english": "Two minutes in the microwave.",
+      "highlight": [
+        "Mikrowelle."
+      ]
+    },
+    {
+      "german": "Die Mikrowelle piept.",
+      "english": "The microwave is beeping.",
+      "highlight": [
+        "Mikrowelle"
+      ]
+    }
+  ],
+  "forms": [
+    "Welle"
+  ],
+  "memoryHook": "Mikro + Welle = microwave.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Mikrowelle",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Mikrowelle is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Mikrowelle, zwei ___",
+      "answer": "Mikrowellen",
+      "fullAnswer": "ein Mikrowelle, zwei Mikrowellen",
+      "explanation": "The plural is Mikrowellen.",
+      "acceptedAnswers": [
+        "Mikrowellen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Mikrowelle mean?",
+      "options": [
+        "the door",
+        "microwave",
+        "the key"
+      ],
+      "answer": "microwave",
+      "explanation": "Mikrowelle: microwave.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Mikro + Welle (wave)",
+        "Mikro + Wall"
+      ],
+      "answer": "Mikro + Welle (wave)",
+      "explanation": "Micro wave.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gender comes from…",
+      "options": [
+        "die Welle",
+        "das Mikro"
+      ],
+      "answer": "die Welle",
+      "explanation": "Last part.",
+      "id": "q5"
+    }
+  ]
+}

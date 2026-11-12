@@ -1,7 +1,16 @@
 import SwiftUI
 import AVFoundation
+import UserNotifications
 
 @MainActor @Observable final class AppStore {
+    private(set) var reminderEnabled = false
+    private(set) var reminderMinutes = 19 * 60
+    private(set) var updatingReminder = false
+    private(set) var notificationsDenied = false
+    var reminderError: String?
+    var showPractice = false
+    @ObservationIgnored private let notificationDelegate = ReviewNotificationDelegate()
+    private static let reminderID = "dailyReview.v1"
     var theme: AppTheme { didSet { defaults.set(theme.rawValue, forKey: "appearance.theme.v1") } }
     var studyLevel: StudyLevel { didSet { defaults.set(studyLevel.rawValue, forKey: "studyLevel.v1"); refreshDailyFive() } }
     private(set) var searchEngine: WordSearchEngine?
@@ -22,8 +31,8 @@ import AVFoundation
     var dailyRemainingWords: [WordEntry] { dailyWords.filter { dailyFive?.outcomes[$0.id] == nil } }
     private(set) var deckWords: [WordEntry] = []
     private(set) var deckIDs: Set<String>
-    /// Deck words marked for removal; they stay in the deck until the user confirms on leaving My Deck.
     private(set) var pendingRemoval: Set<String> = []
+    @ObservationIgnored private var removalTasks: [String: Task<Void, Never>] = [:]
     @ObservationIgnored let readerPool = LessonWebViewPool()
     @ObservationIgnored private var catalog: LibraryCatalog?
     @ObservationIgnored private var loading = false
@@ -32,6 +41,10 @@ import AVFoundation
     private let speaker = AVSpeechSynthesizer()
     init(defaults: UserDefaults = .standard) {
         self.defaults = defaults
+        reminderEnabled = defaults.bool(forKey: "reminder.enabled.v1")
+        if defaults.object(forKey: "reminder.minutes.v1") != nil {
+            reminderMinutes = min(1439, max(0, defaults.integer(forKey: "reminder.minutes.v1")))
+        }
         if let data = defaults.data(forKey: "dailyFive.v1") {
             dailyFive = try? JSONDecoder().decode(DailyFive.self, from: data)
         }
@@ -44,12 +57,57 @@ import AVFoundation
             reviews = migrated
             if let data = try? JSONEncoder().encode(migrated) { defaults.set(data, forKey: "reviewSchedule.v1") }
         }
-        theme = AppTheme(rawValue: defaults.string(forKey: "appearance.theme.v1") ?? "") ?? .warm
+        theme = AppTheme(rawValue: defaults.string(forKey: "appearance.theme.v1") ?? "") ?? .dark
         studyLevel = StudyLevel(rawValue: defaults.string(forKey: "studyLevel.v1") ?? "") ?? .a1
         let savedDeck = defaults.stringArray(forKey: "studyDeck.v1") ?? []
         deck = savedDeck
         deckIDs = Set(savedDeck)
         repository = LessonRepository(resourceRoot: Bundle.main.resourceURL ?? Bundle.main.bundleURL)
+        notificationDelegate.store = self
+        UNUserNotificationCenter.current().delegate = notificationDelegate
+    }
+    func updateReminder(enabled: Bool, minutes: Int? = nil) async {
+        guard !updatingReminder else { return }
+        updatingReminder = true
+        defer { updatingReminder = false }
+        reminderError = nil
+        let center = UNUserNotificationCenter.current()
+        if !enabled {
+            center.removePendingNotificationRequests(withIdentifiers: [Self.reminderID])
+            center.removeDeliveredNotifications(withIdentifiers: [Self.reminderID])
+            reminderEnabled = false
+            defaults.set(false, forKey: "reminder.enabled.v1")
+            return
+        }
+        do {
+            let allowed = try await center.requestAuthorization(options: [.alert, .sound])
+            notificationsDenied = !allowed
+            guard allowed else {
+                reminderEnabled = false
+                defaults.set(false, forKey: "reminder.enabled.v1")
+                center.removePendingNotificationRequests(withIdentifiers: [Self.reminderID])
+                return
+            }
+            let selectedMinutes = min(1439, max(0, minutes ?? reminderMinutes))
+            let content = UNMutableNotificationContent()
+            content.title = "A little German, every day"
+            content.body = "Take a moment for your flashcards. Your next review is waiting in Practice."
+            content.sound = .default
+            let trigger = UNCalendarNotificationTrigger(
+                dateMatching: DateComponents(hour: selectedMinutes / 60, minute: selectedMinutes % 60), repeats: true)
+            try await center.add(UNNotificationRequest(identifier: Self.reminderID, content: content, trigger: trigger))
+            reminderMinutes = selectedMinutes
+            reminderEnabled = true
+            defaults.set(selectedMinutes, forKey: "reminder.minutes.v1")
+            defaults.set(true, forKey: "reminder.enabled.v1")
+        } catch {
+            reminderError = "The reminder couldn’t be saved. Please try again."
+        }
+    }
+    func refreshReminderPermission() async {
+        let settings = await UNUserNotificationCenter.current().notificationSettings()
+        notificationsDenied = settings.authorizationStatus == .denied
+        if notificationsDenied && reminderEnabled { await updateReminder(enabled: false) }
     }
     func loadLibrary() async {
         guard index == nil && !loading else { return }
@@ -112,23 +170,31 @@ import AVFoundation
             persistDailyFive()
         }
     }
-    private func refreshDeckWords() { deckWords = catalog?.words(for: deck) ?? [] }
+    private func refreshDeckWords() { deckWords = catalog?.words(for: Array(deck.reversed())) ?? [] }
     func contains(_ e: WordEntry) -> Bool { deckIDs.contains(e.id) }
     func toggle(_ e: WordEntry) {
+        removalTasks.removeValue(forKey: e.id)?.cancel()
+        pendingRemoval.remove(e.id)
         if contains(e) { deck.removeAll { $0 == e.id } } else { deck.append(e.id) }
         UISelectionFeedbackGenerator().selectionChanged()
     }
-    func isMarkedForRemoval(_ e: WordEntry) -> Bool { pendingRemoval.contains(e.id) }
-    func toggleRemovalMark(_ e: WordEntry) {
-        if !pendingRemoval.insert(e.id).inserted { pendingRemoval.remove(e.id) }
+    func toggleRemoval(_ entry: WordEntry) {
+        if pendingRemoval.contains(entry.id) {
+            removalTasks.removeValue(forKey: entry.id)?.cancel()
+            pendingRemoval.remove(entry.id)
+        } else {
+            guard contains(entry) else { return }
+            pendingRemoval.insert(entry.id)
+            removalTasks[entry.id] = Task { @MainActor [weak self] in
+                do { try await Task.sleep(for: .seconds(5)) } catch { return }
+                guard let self else { return }
+                self.pendingRemoval.remove(entry.id)
+                self.removalTasks.removeValue(forKey: entry.id)
+                self.deck.removeAll { $0 == entry.id }
+            }
+        }
         UISelectionFeedbackGenerator().selectionChanged()
     }
-    func commitRemovals() {
-        let ids = pendingRemoval
-        pendingRemoval = []
-        deck.removeAll { ids.contains($0) }
-    }
-    func discardRemovals() { pendingRemoval = [] }
     func lesson(_ e: WordEntry) async throws -> Lesson { try await repository.lesson(e) }
     func readerSource(_ e: WordEntry) async throws -> LessonRepository.ReaderSource { try await repository.readerSource(e) }
     func practiceItems(_ entries: [WordEntry], quiz: Bool) async throws -> [PracticeItem] {
@@ -145,6 +211,15 @@ import AVFoundation
         speaker.speak(utterance)
     }
     func stopAudio() { speaker.stopSpeaking(at: .immediate) }
+}
+
+final class ReviewNotificationDelegate: NSObject, UNUserNotificationCenterDelegate {
+    @MainActor weak var store: AppStore?
+    func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse,
+                                withCompletionHandler completionHandler: @escaping () -> Void) {
+        Task { @MainActor in store?.showPractice = true }
+        completionHandler()
+    }
 }
 
 @main struct WortschatzApp: App {
@@ -170,8 +245,8 @@ import AVFoundation
         WindowGroup { RootView().environment(store).environment(\.appTheme, store.theme)
             .foregroundStyle(store.theme.ink)
             .preferredColorScheme(store.theme.scheme).tint(store.theme.accent)
-            .task { await store.loadLibrary() }
-            .onChange(of: scenePhase) { _, phase in if phase == .active { store.refreshDailyFive() } }
+            .task { await store.refreshReminderPermission(); await store.loadLibrary() }
+            .onChange(of: scenePhase) { _, phase in if phase == .active { store.refreshDailyFive(); Task { await store.refreshReminderPermission() } } }
             .onReceive(NotificationCenter.default.publisher(for: UIApplication.significantTimeChangeNotification)) { _ in
                 store.refreshDailyFive()
             }

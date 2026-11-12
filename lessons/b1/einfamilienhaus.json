@@ -1,0 +1,141 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Einfamilienhaus",
+    "partOfSpeech": "noun, neuter (das Einfamilienhaus)",
+    "pronunciation": {
+      "respelling": "INE-fa-mee-lyen-hows",
+      "ipa": "aɪ̯nfaˈmiːli̯ənˌhaʊ̯s",
+      "notes": "Plural: die Einfamilienhäuser."
+    },
+    "meaning": "detached (single-family) house",
+    "shortDefinition": "Detached (single-family) house."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Ein",
+        "meaning": "one"
+      },
+      {
+        "part": "familien",
+        "meaning": "family"
+      },
+      {
+        "part": "haus",
+        "meaning": "house"
+      }
+    ],
+    "literalMeaning": "one-family house"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Einfamilienhaus, plural die Einfamilienhäuser.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Einfamilienhaus"
+        },
+        {
+          "label": "More than one",
+          "value": "die Einfamilienhäuser"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Sie wohnen in einem Einfamilienhaus.",
+      "english": "They live in a detached house.",
+      "highlight": [
+        "Einfamilienhaus."
+      ]
+    },
+    {
+      "german": "Ein Einfamilienhaus mit Garten.",
+      "english": "A house with a garden.",
+      "highlight": [
+        "Einfamilienhaus"
+      ]
+    },
+    {
+      "german": "Viele träumen vom Einfamilienhaus.",
+      "english": "Many dream of their own house.",
+      "highlight": [
+        "Einfamilienhaus."
+      ]
+    }
+  ],
+  "forms": [
+    "Mehrfamilienhaus",
+    "Reihenhaus"
+  ],
+  "memoryHook": "Ein + Familie + Haus ↔ Mehrfamilienhaus; Reihenhaus.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Einfamilienhaus",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Einfamilienhaus is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Einfamilienhaus, zwei ___",
+      "answer": "Einfamilienhäuser",
+      "fullAnswer": "ein Einfamilienhaus, zwei Einfamilienhäuser",
+      "explanation": "The plural is Einfamilienhäuser.",
+      "acceptedAnswers": [
+        "Einfamilienhaeuser"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Einfamilienhaus mean?",
+      "options": [
+        "the door",
+        "the job",
+        "detached (single-family) house"
+      ],
+      "answer": "detached (single-family) house",
+      "explanation": "Einfamilienhaus: detached (single-family) house.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "ein + Familie + Haus",
+        "eine + Familien + Haus"
+      ],
+      "answer": "ein + Familie + Haus",
+      "explanation": "One-family house.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Apartment block:",
+      "options": [
+        "das Mehrfamilienhaus",
+        "das Vielfamilienhaus"
+      ],
+      "answer": "das Mehrfamilienhaus",
+      "explanation": "Opposite.",
+      "id": "q5"
+    }
+  ]
+}

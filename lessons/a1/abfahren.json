@@ -1,197 +1,199 @@
 {
- "schemaVersion": "1.4",
- "language": "de",
- "explanationLanguage": "en",
- "level": "A1",
- "levelSource": "Goethe-Zertifikat A1 Wortliste",
- "lessonType": "card",
- "word": {
-  "headword": "abfahren",
-  "partOfSpeech": "separable verb",
-  "pronunciation": {
-   "respelling": "AHP-fah-ren",
-   "ipa": "ˈapfaːʁən",
-   "notes": ""
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A1",
+  "levelSource": "Goethe-Zertifikat A1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "abfahren",
+    "partOfSpeech": "separable verb",
+    "pronunciation": {
+      "respelling": "AHP-fah-ren",
+      "ipa": "ˈapfaːʁən",
+      "notes": ""
+    },
+    "meaning": "to depart, to leave (by vehicle)",
+    "shortDefinition": "To depart, to leave (by vehicle)."
   },
-  "meaning": "to depart, to leave (by vehicle)",
-  "shortDefinition": "To depart, to leave (by vehicle)."
- },
- "etymology": {
-  "title": "Where it comes from",
-  "parts": [
-   {
-    "part": "ab",
-    "meaning": "away, off"
-   },
-   {
-    "part": "fahren",
-    "meaning": "to travel",
-    "emphasis": "release"
-   }
-  ],
-  "literalMeaning": "to travel away"
- },
- "tables": [
-  {
-   "title": "Present tense",
-   "columns": [
-    "present"
-   ],
-   "rows": [
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "ab",
+        "meaning": "away, off"
+      },
+      {
+        "part": "fahren",
+        "meaning": "to travel",
+        "emphasis": "release"
+      }
+    ],
+    "literalMeaning": "to travel away"
+  },
+  "tables": [
     {
-     "label": "ich",
-     "cells": [
-      "fahre … |ab"
-     ]
-    },
-    {
-     "label": "du",
-     "cells": [
-      "fährst … |ab"
-     ]
-    },
-    {
-     "label": "er, sie, es",
-     "cells": [
-      "fährt … |ab"
-     ]
-    },
-    {
-     "label": "wir",
-     "cells": [
-      "fahren … |ab"
-     ]
-    },
-    {
-     "label": "ihr",
-     "cells": [
-      "fahrt … |ab"
-     ]
-    },
-    {
-     "label": "sie, Sie",
-     "cells": [
-      "fahren … |ab"
-     ]
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "fahre … |ab"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "fährst … |ab"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "fährt … |ab"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "fahren … |ab"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "fahrt … |ab"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "fahren … |ab"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): ist abgefahren",
+        "Fahren adds an umlaut for du and er: du fährst, er fährt."
+      ]
     }
-   ],
-   "notes": [
-    "Past (Perfekt): ist abgefahren",
-    "Fahren adds an umlaut for du and er: du fährst, er fährt."
-   ]
-  }
- ],
- "wordFamily": [
-  {
-   "german": "die Abfahrt",
-   "english": "departure",
-   "type": "noun"
-  },
-  {
-   "german": "die Ankunft",
-   "english": "arrival",
-   "type": "noun"
-  },
-  {
-   "german": "fahren",
-   "english": "to drive, to go (by vehicle)",
-   "type": "verb"
-  }
- ],
- "sampleSentences": [
-  {
-   "german": "Wann fährt der Zug ab?",
-   "english": "When does the train leave?",
-   "highlight": [
-    "fährt",
-    "ab?"
-   ]
-  },
-  {
-   "german": "Wir fahren morgen früh ab.",
-   "english": "We're leaving early tomorrow morning.",
-   "highlight": [
-    "fahren",
-    "ab."
-   ]
-  },
-  {
-   "german": "Der Bus ist schon abgefahren.",
-   "english": "The bus has already left.",
-   "highlight": [
-    "abgefahren."
-   ]
-  },
-  {
-   "german": "Die Abfahrt ist um 10:15 Uhr.",
-   "english": "Departure is at 10:15.",
-   "highlight": [
+  ],
+  "wordFamily": [
+    {
+      "german": "die Abfahrt",
+      "english": "departure",
+      "type": "noun"
+    },
+    {
+      "german": "die Ankunft",
+      "english": "arrival",
+      "type": "noun"
+    },
+    {
+      "german": "fahren",
+      "english": "to drive, to go (by vehicle)",
+      "type": "verb"
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wann fährt der Zug ab?",
+      "english": "When does the train leave?",
+      "highlight": [
+        "fährt",
+        "ab?"
+      ]
+    },
+    {
+      "german": "Wir fahren morgen früh ab.",
+      "english": "We're leaving early tomorrow morning.",
+      "highlight": [
+        "fahren",
+        "ab."
+      ]
+    },
+    {
+      "german": "Der Bus ist schon abgefahren.",
+      "english": "The bus has already left.",
+      "highlight": [
+        "abgefahren."
+      ]
+    },
+    {
+      "german": "Die Abfahrt ist um 10:15 Uhr.",
+      "english": "Departure is at 10:15.",
+      "highlight": [
+        "Abfahrt"
+      ]
+    }
+  ],
+  "forms": [
+    "fahre ab",
+    "fährst ab",
+    "fährt ab",
+    "fahren ab",
+    "fahrt ab",
+    "abgefahren",
+    "fuhr ab",
     "Abfahrt"
-   ]
-  }
- ],
- "forms": [
-  "fahre ab",
-  "fährst ab",
-  "fährt ab",
-  "abgefahren",
-  "fuhr ab",
-  "Abfahrt"
- ],
- "memoryHook": "Ab = away, fahren = to travel. You fahr away: abfahren. On the board, Abfahrt sits next to Ankunft.",
- "signOff": "Gute Fahrt!",
- "quiz": [
-  {
-   "type": "fill-in-the-blank",
-   "prompt": "Der Zug ___ um acht Uhr ab.",
-   "answer": "fährt",
-   "fullAnswer": "Der Zug fährt um acht Uhr ab.",
-   "explanation": "Fahren changes to fährt for er, sie, es.",
-   "acceptedAnswers": [
-    "faehrt"
-   ],
-   "id": "q1"
-  },
-  {
-   "type": "choice",
-   "prompt": "Der Bus ___ schon abgefahren.",
-   "options": [
-    "hat",
-    "ist"
-   ],
-   "answer": "ist",
-   "explanation": "Verbs of movement use sein in the Perfekt.",
-   "id": "q2"
-  },
-  {
-   "type": "fill-in-the-blank",
-   "prompt": "Die ___ ist um 9 Uhr. (departure)",
-   "answer": "Abfahrt",
-   "fullAnswer": "Die Abfahrt ist um 9 Uhr.",
-   "explanation": "The noun is die Abfahrt.",
-   "id": "q3"
-  },
-  {
-   "type": "choice",
-   "prompt": "Which sentence is correct?",
-   "options": [
-    "Wir abfahren um zehn.",
-    "Wir fahren um zehn ab."
-   ],
-   "answer": "Wir fahren um zehn ab.",
-   "explanation": "Ab goes to the end.",
-   "id": "q4"
-  },
-  {
-   "type": "choice",
-   "prompt": "On a departure board, Abfahrt means…",
-   "options": [
-    "arrival",
-    "departure"
-   ],
-   "answer": "departure",
-   "explanation": "Ankunft is arrival.",
-   "id": "q5"
-  }
- ]
+  ],
+  "memoryHook": "Ab = away, fahren = to travel. You fahr away: abfahren. On the board, Abfahrt sits next to Ankunft.",
+  "signOff": "Gute Fahrt!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Der Zug ___ um acht Uhr ab.",
+      "answer": "fährt",
+      "fullAnswer": "Der Zug fährt um acht Uhr ab.",
+      "explanation": "Fahren changes to fährt for er, sie, es.",
+      "acceptedAnswers": [
+        "faehrt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "Der Bus ___ schon abgefahren.",
+      "options": [
+        "hat",
+        "ist"
+      ],
+      "answer": "ist",
+      "explanation": "Verbs of movement use sein in the Perfekt.",
+      "id": "q2"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Die ___ ist um 9 Uhr. (departure)",
+      "answer": "Abfahrt",
+      "fullAnswer": "Die Abfahrt ist um 9 Uhr.",
+      "explanation": "The noun is die Abfahrt.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Which sentence is correct?",
+      "options": [
+        "Wir abfahren um zehn.",
+        "Wir fahren um zehn ab."
+      ],
+      "answer": "Wir fahren um zehn ab.",
+      "explanation": "Ab goes to the end.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "On a departure board, Abfahrt means…",
+      "options": [
+        "arrival",
+        "departure"
+      ],
+      "answer": "departure",
+      "explanation": "Ankunft is arrival.",
+      "id": "q5"
+    }
+  ]
 }

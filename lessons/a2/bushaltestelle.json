@@ -1,0 +1,141 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Bushaltestelle",
+    "partOfSpeech": "noun, feminine (die Bushaltestelle)",
+    "pronunciation": {
+      "respelling": "BUS-hal-te-shte-le",
+      "ipa": "ˈbʊshaltəˌʃtɛlə",
+      "notes": "Plural: die Bushaltestellen."
+    },
+    "meaning": "bus stop",
+    "shortDefinition": "Bus stop."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Bus",
+        "meaning": "bus"
+      },
+      {
+        "part": "halte",
+        "meaning": "stop (halten)"
+      },
+      {
+        "part": "stelle",
+        "meaning": "place"
+      }
+    ],
+    "literalMeaning": "bus stopping place"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Bushaltestelle, plural die Bushaltestellen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Bushaltestelle"
+        },
+        {
+          "label": "More than one",
+          "value": "die Bushaltestellen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wo ist die nächste Bushaltestelle?",
+      "english": "Where's the nearest bus stop?",
+      "highlight": [
+        "Bushaltestelle?"
+      ]
+    },
+    {
+      "german": "Ich warte an der Bushaltestelle.",
+      "english": "I'm waiting at the bus stop.",
+      "highlight": [
+        "Bushaltestelle."
+      ]
+    },
+    {
+      "german": "Die Bushaltestelle ist direkt vor dem Haus.",
+      "english": "The bus stop is right outside the house.",
+      "highlight": [
+        "Bushaltestelle"
+      ]
+    }
+  ],
+  "forms": [
+    "Haltestelle",
+    "halten"
+  ],
+  "memoryHook": "Bus + Haltestelle = bus stop.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Bushaltestelle",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Bushaltestelle is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Bushaltestelle, zwei ___",
+      "answer": "Bushaltestellen",
+      "fullAnswer": "ein Bushaltestelle, zwei Bushaltestellen",
+      "explanation": "The plural is Bushaltestellen.",
+      "acceptedAnswers": [
+        "Bushaltestellen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Bushaltestelle mean?",
+      "options": [
+        "the window",
+        "to learn",
+        "bus stop"
+      ],
+      "answer": "bus stop",
+      "explanation": "Bushaltestelle: bus stop.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Bus + halten + Stelle",
+        "Bus + Halt + Stall"
+      ],
+      "answer": "Bus + halten + Stelle",
+      "explanation": "Bus stopping place.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Preposition:",
+      "options": [
+        "an der Bushaltestelle",
+        "in der Bushaltestelle"
+      ],
+      "answer": "an der Bushaltestelle",
+      "explanation": "At.",
+      "id": "q5"
+    }
+  ]
+}

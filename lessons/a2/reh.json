@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Reh",
+    "partOfSpeech": "noun, neuter (das Reh)",
+    "pronunciation": {
+      "respelling": "RAY",
+      "ipa": "ʁeː",
+      "notes": "Plural: die Rehe."
+    },
+    "meaning": "roe deer",
+    "shortDefinition": "Roe deer."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Reh, plural die Rehe.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Reh"
+        },
+        {
+          "label": "More than one",
+          "value": "die Rehe"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Im Wald haben wir ein Reh gesehen.",
+      "english": "We saw a deer in the forest.",
+      "highlight": [
+        "Reh"
+      ]
+    },
+    {
+      "german": "Das Reh ist scheu.",
+      "english": "The deer is shy.",
+      "highlight": [
+        "Reh"
+      ]
+    },
+    {
+      "german": "Rehbraten mit Rotkohl.",
+      "english": "Roast venison with red cabbage.",
+      "highlight": [
+        "Rehbraten"
+      ]
+    }
+  ],
+  "forms": [
+    "Hirsch"
+  ],
+  "memoryHook": "Das Reh (roe deer) ↔ der Hirsch (stag).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Reh",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Reh is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Reh, zwei ___",
+      "answer": "Rehe",
+      "fullAnswer": "ein Reh, zwei Rehe",
+      "explanation": "The plural is Rehe.",
+      "acceptedAnswers": [
+        "Rehe"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Reh mean?",
+      "options": [
+        "to sing",
+        "roe deer",
+        "the bed"
+      ],
+      "answer": "roe deer",
+      "explanation": "Reh: roe deer.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Reh vs Hirsch:",
+      "options": [
+        "small roe deer vs larger red deer / stag",
+        "same animal"
+      ],
+      "answer": "small roe deer vs larger red deer / stag",
+      "explanation": "Size.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Rehe",
+        "Rehs"
+      ],
+      "answer": "Rehe",
+      "explanation": "-e.",
+      "id": "q5"
+    }
+  ]
+}

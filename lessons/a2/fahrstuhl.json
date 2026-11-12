@@ -1,0 +1,139 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Fahrstuhl",
+    "partOfSpeech": "noun, masculine (der Fahrstuhl)",
+    "pronunciation": {
+      "respelling": "FAAR-shtool",
+      "ipa": "ˈfaːɐ̯ˌʃtuːl",
+      "notes": "Plural: die Fahrstühle."
+    },
+    "meaning": "lift, elevator",
+    "shortDefinition": "Lift, elevator."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Fahr",
+        "meaning": "ride (fahren)",
+        "emphasis": "rise"
+      },
+      {
+        "part": "stuhl",
+        "meaning": "chair"
+      }
+    ],
+    "literalMeaning": "riding chair",
+    "summary": "A chair that carries you up."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Fahrstuhl, plural die Fahrstühle.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Fahrstuhl"
+        },
+        {
+          "label": "More than one",
+          "value": "die Fahrstühle"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Nehmen wir den Fahrstuhl?",
+      "english": "Shall we take the lift?",
+      "highlight": [
+        "Fahrstuhl?"
+      ]
+    },
+    {
+      "german": "Der Fahrstuhl ist außer Betrieb.",
+      "english": "The lift is out of order.",
+      "highlight": [
+        "Fahrstuhl"
+      ]
+    },
+    {
+      "german": "Ich bin im Fahrstuhl stecken geblieben.",
+      "english": "I got stuck in the lift.",
+      "highlight": [
+        "Fahrstuhl"
+      ]
+    }
+  ],
+  "forms": [
+    "Aufzug",
+    "Lift"
+  ],
+  "memoryHook": "Fahren + Stuhl = lift (= Aufzug, Lift).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Fahrstuhl",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Fahrstuhl is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Fahrstuhl, zwei ___",
+      "answer": "Fahrstühle",
+      "fullAnswer": "ein Fahrstuhl, zwei Fahrstühle",
+      "explanation": "The plural is Fahrstühle.",
+      "acceptedAnswers": [
+        "Fahrstuehle"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Fahrstuhl mean?",
+      "options": [
+        "lift",
+        "the child",
+        "the street"
+      ],
+      "answer": "lift",
+      "explanation": "Fahrstuhl: lift, elevator.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "fahren + Stuhl (chair)",
+        "Fahrt + Stahl"
+      ],
+      "answer": "fahren + Stuhl (chair)",
+      "explanation": "Riding chair!",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonym:",
+      "options": [
+        "der Aufzug, der Lift",
+        "die Rolltreppe"
+      ],
+      "answer": "der Aufzug, der Lift",
+      "explanation": "Rolltreppe = escalator.",
+      "id": "q5"
+    }
+  ]
+}

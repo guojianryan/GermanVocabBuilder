@@ -1,0 +1,173 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "saufen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "ZOW-fen",
+      "ipa": "ˈzaʊ̯fn̩",
+      "notes": ""
+    },
+    "meaning": "to drink (animals); (vulgar) to booze",
+    "shortDefinition": "To drink (animals); (vulgar) to booze."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "sauf|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "säuf|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "säuf|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "sauf|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "sauf|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "sauf|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gesoffen"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Kühe saufen am Fluss.",
+      "english": "The cows drink at the river.",
+      "highlight": [
+        "saufen"
+      ]
+    },
+    {
+      "german": "Er säuft zu viel.",
+      "english": "He drinks too much.",
+      "highlight": [
+        "säuft"
+      ]
+    },
+    {
+      "german": "Sie haben die ganze Nacht gesoffen.",
+      "english": "They boozed all night.",
+      "highlight": [
+        "gesoffen."
+      ]
+    }
+  ],
+  "forms": [
+    "saufe",
+    "säufst",
+    "säuft",
+    "saufen",
+    "sauft",
+    "gesoffen",
+    "soff",
+    "besoffen",
+    "trinken"
+  ],
+  "memoryHook": "Saufen (animals; vulgar: booze) ↔ trinken; fressen ↔ essen.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (saufen)",
+      "answer": "säuft",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: säuft.",
+      "acceptedAnswers": [
+        "saeuft"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (saufen, past)",
+      "answer": "gesoffen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gesoffen.",
+      "acceptedAnswers": [
+        "gesoffen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does saufen mean?",
+      "options": [
+        "to buy",
+        "the bread",
+        "to drink (animals)"
+      ],
+      "answer": "to drink (animals)",
+      "explanation": "saufen: to drink (animals); (vulgar) to booze.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "For people it is…",
+      "options": [
+        "vulgar / informal",
+        "neutral"
+      ],
+      "answer": "vulgar / informal",
+      "explanation": "Polite: trinken.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Perfekt:",
+      "options": [
+        "hat gesoffen",
+        "hat gesauft"
+      ],
+      "answer": "hat gesoffen",
+      "explanation": "Strong.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Animal eating:",
+      "options": [
+        "fressen",
+        "essen"
+      ],
+      "answer": "fressen",
+      "explanation": "Parallel pair.",
+      "id": "q6"
+    }
+  ]
+}

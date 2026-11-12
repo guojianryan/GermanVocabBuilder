@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Realschule",
+    "partOfSpeech": "noun, feminine (die Realschule)",
+    "pronunciation": {
+      "respelling": "ray-AAL-shoo-le",
+      "ipa": "ʁeˈaːlˌʃuːlə",
+      "notes": "Plural: die Realschulen."
+    },
+    "meaning": "secondary school (middle track, to age 16)",
+    "shortDefinition": "Secondary school (middle track, to age 16)."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Realschule, plural die Realschulen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Realschule"
+        },
+        {
+          "label": "More than one",
+          "value": "die Realschulen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Sie geht auf die Realschule.",
+      "english": "She goes to the Realschule.",
+      "highlight": [
+        "Realschule."
+      ]
+    },
+    {
+      "german": "Nach der Realschule macht er eine Ausbildung.",
+      "english": "After the Realschule he's doing an apprenticeship.",
+      "highlight": [
+        "Realschule"
+      ]
+    },
+    {
+      "german": "Der Realschulabschluss.",
+      "english": "The Realschule leaving certificate.",
+      "highlight": [
+        "Realschulabschluss."
+      ]
+    }
+  ],
+  "forms": [
+    "Gymnasium",
+    "Mittlere Reife"
+  ],
+  "memoryHook": "Die Realschule → Mittlere Reife; Gymnasium → Abitur.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Realschule",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Realschule is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Realschule, zwei ___",
+      "answer": "Realschulen",
+      "fullAnswer": "ein Realschule, zwei Realschulen",
+      "explanation": "The plural is Realschulen.",
+      "acceptedAnswers": [
+        "Realschulen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Realschule mean?",
+      "options": [
+        "the evening",
+        "the door",
+        "secondary school (middle track"
+      ],
+      "answer": "secondary school (middle track",
+      "explanation": "Realschule: secondary school (middle track, to age 16).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Leaving certificate is called…",
+      "options": [
+        "die Mittlere Reife",
+        "das Abitur"
+      ],
+      "answer": "die Mittlere Reife",
+      "explanation": "After year 10.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "The three classic school types:",
+      "options": [
+        "Hauptschule, Realschule, Gymnasium",
+        "Grundschule, Uni, Kita"
+      ],
+      "answer": "Hauptschule, Realschule, Gymnasium",
+      "explanation": "Tracks.",
+      "id": "q5"
+    }
+  ]
+}

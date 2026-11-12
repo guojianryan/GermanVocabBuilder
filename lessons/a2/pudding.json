@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Pudding",
+    "partOfSpeech": "noun, masculine (der Pudding)",
+    "pronunciation": {
+      "respelling": "PU-ding",
+      "ipa": "ˈpʊdɪŋ",
+      "notes": "Plural: die Puddings."
+    },
+    "meaning": "(blancmange-style) pudding, custard dessert",
+    "shortDefinition": "(blancmange-style) pudding, custard dessert."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Pudding, plural die Puddings.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Pudding"
+        },
+        {
+          "label": "More than one",
+          "value": "die Puddings"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Zum Nachtisch gibt es Schokoladenpudding.",
+      "english": "There's chocolate pudding for dessert.",
+      "highlight": [
+        "Schokoladenpudding."
+      ]
+    },
+    {
+      "german": "Pudding mit Vanillesoße.",
+      "english": "Pudding with custard.",
+      "highlight": [
+        "Pudding"
+      ]
+    },
+    {
+      "german": "Ich koche einen Pudding.",
+      "english": "I'm making a pudding.",
+      "highlight": [
+        "Pudding."
+      ]
+    }
+  ],
+  "forms": [
+    "Nachtisch"
+  ],
+  "memoryHook": "Der Pudding (sweet milk dessert); Nachtisch.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Pudding",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Pudding is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Pudding, zwei ___",
+      "answer": "Puddings",
+      "fullAnswer": "ein Pudding, zwei Puddings",
+      "explanation": "The plural is Puddings.",
+      "acceptedAnswers": [
+        "Puddings"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Pudding mean?",
+      "options": [
+        "the family",
+        "(blancmange-style) pudding",
+        "cheap"
+      ],
+      "answer": "(blancmange-style) pudding",
+      "explanation": "Pudding: (blancmange-style) pudding, custard dessert.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "German Pudding is…",
+      "options": [
+        "a sweet milk dessert",
+        "any dessert"
+      ],
+      "answer": "a sweet milk dessert",
+      "explanation": "Narrower than English.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Puddings",
+        "Puddinge"
+      ],
+      "answer": "Puddings",
+      "explanation": "-s.",
+      "id": "q5"
+    }
+  ]
+}

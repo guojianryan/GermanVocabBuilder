@@ -1,0 +1,117 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "wörtlich",
+    "partOfSpeech": "adjective / adverb",
+    "pronunciation": {
+      "respelling": "VÖRT-likh",
+      "ipa": "ˈvœʁtlɪç",
+      "notes": ""
+    },
+    "meaning": "literal(ly), word for word",
+    "shortDefinition": "Literal(ly), word for word."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "wört",
+        "meaning": "word"
+      },
+      {
+        "part": "lich",
+        "meaning": "-ly"
+      }
+    ],
+    "literalMeaning": "word-ly"
+  },
+  "sampleSentences": [
+    {
+      "german": "Das darfst du nicht wörtlich nehmen.",
+      "english": "Don't take that literally.",
+      "highlight": [
+        "wörtlich"
+      ]
+    },
+    {
+      "german": "Eine wörtliche Übersetzung.",
+      "english": "A literal translation.",
+      "highlight": [
+        "wörtliche"
+      ]
+    },
+    {
+      "german": "Er hat es wörtlich so gesagt.",
+      "english": "He said it word for word.",
+      "highlight": [
+        "wörtlich"
+      ]
+    }
+  ],
+  "forms": [
+    "Wort",
+    "buchstäblich"
+  ],
+  "memoryHook": "Wort → wörtlich (literal); wörtliche Rede.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "What does wörtlich mean?",
+      "options": [
+        "literal(ly)",
+        "the family",
+        "the shop"
+      ],
+      "answer": "literal(ly)",
+      "explanation": "wörtlich: literal(ly), word for word.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "das Wort",
+        "Wörter only"
+      ],
+      "answer": "das Wort",
+      "explanation": "Word.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Wörtliche Rede' means…",
+      "options": [
+        "direct speech",
+        "literal translation"
+      ],
+      "answer": "direct speech",
+      "explanation": "Grammar.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonym:",
+      "options": [
+        "buchstäblich",
+        "ungefähr"
+      ],
+      "answer": "buchstäblich",
+      "explanation": "Literally.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Nimm das nicht so ___ ! (literally)",
+      "answer": "wörtlich",
+      "fullAnswer": "Nimm das nicht so wörtlich!",
+      "explanation": "Wörtlich.",
+      "id": "q5"
+    }
+  ]
+}

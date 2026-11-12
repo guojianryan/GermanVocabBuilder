@@ -1,0 +1,134 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Korb",
+    "partOfSpeech": "noun, masculine (der Korb)",
+    "pronunciation": {
+      "respelling": "KORP",
+      "ipa": "kɔʁp",
+      "notes": "Plural: die Körbe."
+    },
+    "meaning": "basket; (informal) rejection",
+    "shortDefinition": "Basket; (informal) rejection."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Korb, plural die Körbe.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Korb"
+        },
+        {
+          "label": "More than one",
+          "value": "die Körbe"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ein Korb mit Äpfeln.",
+      "english": "A basket of apples.",
+      "highlight": [
+        "Korb"
+      ]
+    },
+    {
+      "german": "Leg die Wäsche in den Wäschekorb.",
+      "english": "Put the washing in the laundry basket.",
+      "highlight": [
+        "Wäschekorb."
+      ]
+    },
+    {
+      "german": "Sie hat ihm einen Korb gegeben.",
+      "english": "She turned him down.",
+      "highlight": [
+        "Korb"
+      ]
+    }
+  ],
+  "forms": [
+    "Einkaufskorb",
+    "Wäschekorb"
+  ],
+  "memoryHook": "Der Korb, die Körbe; einen Korb geben = turn down.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Korb",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Korb is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Korb, zwei ___",
+      "answer": "Körbe",
+      "fullAnswer": "ein Korb, zwei Körbe",
+      "explanation": "The plural is Körbe.",
+      "acceptedAnswers": [
+        "Koerbe"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Korb mean?",
+      "options": [
+        "basket",
+        "expensive",
+        "the family"
+      ],
+      "answer": "basket",
+      "explanation": "Korb: basket; (informal) rejection.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Jemandem einen Korb geben' means…",
+      "options": [
+        "to turn someone down",
+        "to give someone a present"
+      ],
+      "answer": "to turn someone down",
+      "explanation": "Rejection.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Körbe",
+        "Korbe"
+      ],
+      "answer": "Körbe",
+      "explanation": "Umlaut.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Shopping basket:",
+      "options": [
+        "der Einkaufskorb",
+        "der Kaufkorb"
+      ],
+      "answer": "der Einkaufskorb",
+      "explanation": "Compound.",
+      "id": "q6"
+    }
+  ]
+}

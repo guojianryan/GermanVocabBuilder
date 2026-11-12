@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Inflation",
+    "partOfSpeech": "noun, feminine (die Inflation)",
+    "pronunciation": {
+      "respelling": "in-fla-TSYOHN",
+      "ipa": "ɪnflaˈtsi̯oːn",
+      "notes": "Plural: die Inflationen."
+    },
+    "meaning": "inflation",
+    "shortDefinition": "Inflation."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Inflation, plural die Inflationen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Inflation"
+        },
+        {
+          "label": "More than one",
+          "value": "die Inflationen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Inflation liegt bei drei Prozent.",
+      "english": "Inflation is at three percent.",
+      "highlight": [
+        "Inflation"
+      ]
+    },
+    {
+      "german": "Die Inflation frisst die Ersparnisse.",
+      "english": "Inflation eats up savings.",
+      "highlight": [
+        "Inflation"
+      ]
+    },
+    {
+      "german": "Steigende Inflation.",
+      "english": "Rising inflation.",
+      "highlight": [
+        "Inflation."
+      ]
+    }
+  ],
+  "forms": [
+    "Teuerung",
+    "Inflationsrate"
+  ],
+  "memoryHook": "Die Inflation (= Teuerung); Inflationsrate.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Inflation",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Inflation is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Inflation, zwei ___",
+      "answer": "Inflationen",
+      "fullAnswer": "ein Inflation, zwei Inflationen",
+      "explanation": "The plural is Inflationen.",
+      "acceptedAnswers": [
+        "Inflationen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Inflation mean?",
+      "options": [
+        "the weather",
+        "tomorrow",
+        "inflation"
+      ],
+      "answer": "inflation",
+      "explanation": "Inflation: inflation.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonym:",
+      "options": [
+        "die Teuerung",
+        "die Senkung"
+      ],
+      "answer": "die Teuerung",
+      "explanation": "Rising prices.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Inflation rate:",
+      "options": [
+        "die Inflationsrate",
+        "die Inflationszahl"
+      ],
+      "answer": "die Inflationsrate",
+      "explanation": "Rate.",
+      "id": "q5"
+    }
+  ]
+}

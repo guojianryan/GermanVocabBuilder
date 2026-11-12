@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Krug",
+    "partOfSpeech": "noun, masculine (der Krug)",
+    "pronunciation": {
+      "respelling": "KROOK",
+      "ipa": "kʁuːk",
+      "notes": "Plural: die Krüge."
+    },
+    "meaning": "jug, pitcher; stein",
+    "shortDefinition": "Jug, pitcher; stein."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Krug, plural die Krüge.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Krug"
+        },
+        {
+          "label": "More than one",
+          "value": "die Krüge"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ein Krug Wasser.",
+      "english": "A jug of water.",
+      "highlight": [
+        "Krug"
+      ]
+    },
+    {
+      "german": "Ein Bierkrug.",
+      "english": "A beer stein.",
+      "highlight": [
+        "Bierkrug."
+      ]
+    },
+    {
+      "german": "Der Krug geht so lange zum Brunnen, bis er bricht.",
+      "english": "Pride comes before a fall.",
+      "highlight": [
+        "Krug"
+      ]
+    }
+  ],
+  "forms": [
+    "Kanne"
+  ],
+  "memoryHook": "Der Krug (jug, stein); Kanne.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Krug",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Krug is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Krug, zwei ___",
+      "answer": "Krüge",
+      "fullAnswer": "ein Krug, zwei Krüge",
+      "explanation": "The plural is Krüge.",
+      "acceptedAnswers": [
+        "Kruege"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Krug mean?",
+      "options": [
+        "jug",
+        "to wait",
+        "to sleep"
+      ],
+      "answer": "jug",
+      "explanation": "Krug: jug, pitcher; stein.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Krüge",
+        "Kruge"
+      ],
+      "answer": "Krüge",
+      "explanation": "Umlaut.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonym:",
+      "options": [
+        "die Kanne",
+        "die Tasse"
+      ],
+      "answer": "die Kanne",
+      "explanation": "Jug, pot.",
+      "id": "q5"
+    }
+  ]
+}

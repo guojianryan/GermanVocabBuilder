@@ -1,0 +1,135 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Versand",
+    "partOfSpeech": "noun, masculine (der Versand)",
+    "pronunciation": {
+      "respelling": "fer-ZANT",
+      "ipa": "fɛɐ̯ˈzant",
+      "notes": "Usually no plural."
+    },
+    "meaning": "shipping, dispatch",
+    "shortDefinition": "Shipping, dispatch."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Ver",
+        "meaning": "away, out"
+      },
+      {
+        "part": "sand",
+        "meaning": "sent (senden)",
+        "emphasis": "release"
+      }
+    ],
+    "literalMeaning": "a sending out",
+    "summary": "Goods sent off."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Versand, usually no plural.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Versand"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Versand ist kostenlos.",
+      "english": "Shipping is free.",
+      "highlight": [
+        "Versand"
+      ]
+    },
+    {
+      "german": "Versand innerhalb von 24 Stunden.",
+      "english": "Dispatch within 24 hours.",
+      "highlight": [
+        "Versand"
+      ]
+    },
+    {
+      "german": "Die Kosten für den Versand.",
+      "english": "The shipping costs.",
+      "highlight": [
+        "Versand."
+      ]
+    }
+  ],
+  "forms": [
+    "versenden",
+    "Versandkosten"
+  ],
+  "memoryHook": "Versenden → der Versand; Versandkosten.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Versand",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Versand is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Versand mean?",
+      "options": [
+        "shipping",
+        "the weather",
+        "the flower"
+      ],
+      "answer": "shipping",
+      "explanation": "Versand: shipping, dispatch.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "versenden (send out)",
+        "Sand"
+      ],
+      "answer": "versenden (send out)",
+      "explanation": "Send.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Mail-order company:",
+      "options": [
+        "das Versandhaus / der Versandhandel",
+        "die Sandfirma"
+      ],
+      "answer": "das Versandhaus / der Versandhandel",
+      "explanation": "Business.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Der ___ dauert zwei Tage. (shipping)",
+      "answer": "Versand",
+      "fullAnswer": "Der Versand dauert zwei Tage.",
+      "explanation": "Versand.",
+      "acceptedAnswers": [
+        "Lieferung"
+      ],
+      "id": "q5"
+    }
+  ]
+}

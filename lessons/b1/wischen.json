@@ -1,0 +1,170 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "wischen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "VI-shen",
+      "ipa": "ˈvɪʃn̩",
+      "notes": ""
+    },
+    "meaning": "to wipe, mop; to swipe",
+    "shortDefinition": "To wipe, mop; to swipe."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "wisch|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "wisch|t"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "wisch|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "wisch|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "wisch|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "wisch|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gewischt"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Kannst du den Tisch wischen?",
+      "english": "Can you wipe the table?",
+      "highlight": [
+        "wischen?"
+      ]
+    },
+    {
+      "german": "Ich muss noch den Boden wischen.",
+      "english": "I still have to mop the floor.",
+      "highlight": [
+        "wischen."
+      ]
+    },
+    {
+      "german": "Nach links wischen.",
+      "english": "Swipe left.",
+      "highlight": [
+        "wischen."
+      ]
+    }
+  ],
+  "forms": [
+    "wische",
+    "wischt",
+    "wischen",
+    "gewischt",
+    "Scheibenwischer",
+    "abwischen"
+  ],
+  "memoryHook": "Wischen = wipe, mop, swipe; Staub wischen.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (wischen)",
+      "answer": "wischt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: wischt.",
+      "acceptedAnswers": [
+        "wischt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (wischen, past)",
+      "answer": "gewischt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gewischt.",
+      "acceptedAnswers": [
+        "gewischt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does wischen mean?",
+      "options": [
+        "the family",
+        "to wipe",
+        "the shop"
+      ],
+      "answer": "to wipe",
+      "explanation": "wischen: to wipe, mop; to swipe.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Staub wischen' means…",
+      "options": [
+        "to dust",
+        "to sweep"
+      ],
+      "answer": "to dust",
+      "explanation": "Phrase.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Windscreen wiper:",
+      "options": [
+        "der Scheibenwischer",
+        "der Fensterwischer"
+      ],
+      "answer": "der Scheibenwischer",
+      "explanation": "Car.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "du ___:",
+      "options": [
+        "wischst",
+        "wischt"
+      ],
+      "answer": "wischst",
+      "explanation": "-sch + st.",
+      "id": "q6"
+    }
+  ]
+}

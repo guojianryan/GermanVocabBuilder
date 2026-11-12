@@ -1,0 +1,133 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Affe",
+    "partOfSpeech": "noun, masculine (der Affe)",
+    "pronunciation": {
+      "respelling": "A-fe",
+      "ipa": "ˈafə",
+      "notes": "Plural: die Affen."
+    },
+    "meaning": "monkey, ape",
+    "shortDefinition": "Monkey, ape."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Affe, plural die Affen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Affe"
+        },
+        {
+          "label": "More than one",
+          "value": "die Affen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Affen klettern auf den Baum.",
+      "english": "The monkeys climb the tree.",
+      "highlight": [
+        "Affen"
+      ]
+    },
+    {
+      "german": "Ich hab einen Affen gesehen.",
+      "english": "I saw a monkey.",
+      "highlight": [
+        "Affen"
+      ]
+    },
+    {
+      "german": "Ich glaub, mich laust der Affe!",
+      "english": "Well, I'll be blowed!",
+      "highlight": [
+        "Affe!"
+      ]
+    }
+  ],
+  "forms": [
+    "Klammeraffe"
+  ],
+  "memoryHook": "Der Affe (weak); Klammeraffe = @.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Affe",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Affe is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Affe, zwei ___",
+      "answer": "Affen",
+      "fullAnswer": "ein Affe, zwei Affen",
+      "explanation": "The plural is Affen.",
+      "acceptedAnswers": [
+        "Affen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Affe mean?",
+      "options": [
+        "monkey",
+        "to sleep",
+        "the bill"
+      ],
+      "answer": "monkey",
+      "explanation": "Affe: monkey, ape.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Weak noun: den/dem…",
+      "options": [
+        "Affen",
+        "Affe"
+      ],
+      "answer": "Affen",
+      "explanation": "-n.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "The @ sign is called…",
+      "options": [
+        "Klammeraffe",
+        "Affenzeichen"
+      ],
+      "answer": "Klammeraffe",
+      "explanation": "Clinging monkey!",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Affenhitze' means…",
+      "options": [
+        "sweltering heat",
+        "monkey house"
+      ],
+      "answer": "sweltering heat",
+      "explanation": "Informal.",
+      "id": "q6"
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Pfannkuchen",
+    "partOfSpeech": "noun, masculine (der Pfannkuchen)",
+    "pronunciation": {
+      "respelling": "PFAN-koo-khen",
+      "ipa": "ˈpfanˌkuːxn̩",
+      "notes": "The plural looks the same. Plural: die Pfannkuchen."
+    },
+    "meaning": "pancake (in Berlin: doughnut)",
+    "shortDefinition": "Pancake (in Berlin: doughnut)."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Pfann",
+        "meaning": "pan"
+      },
+      {
+        "part": "kuchen",
+        "meaning": "cake"
+      }
+    ],
+    "literalMeaning": "pan cake"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Pfannkuchen, plural die Pfannkuchen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Pfannkuchen"
+        },
+        {
+          "label": "More than one",
+          "value": "die Pfannkuchen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Zum Frühstück gibt es Pfannkuchen.",
+      "english": "There are pancakes for breakfast.",
+      "highlight": [
+        "Pfannkuchen."
+      ]
+    },
+    {
+      "german": "Pfannkuchen mit Apfelmus.",
+      "english": "Pancakes with apple sauce.",
+      "highlight": [
+        "Pfannkuchen"
+      ]
+    },
+    {
+      "german": "In Berlin ist ein Pfannkuchen ein Berliner.",
+      "english": "In Berlin a 'Pfannkuchen' is a doughnut.",
+      "highlight": [
+        "Pfannkuchen"
+      ]
+    }
+  ],
+  "forms": [
+    "Pfanne",
+    "Eierkuchen"
+  ],
+  "memoryHook": "Pfanne + Kuchen = pancake (= Eierkuchen).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Pfannkuchen",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Pfannkuchen is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Pfannkuchen, zwei ___",
+      "answer": "Pfannkuchen",
+      "fullAnswer": "ein Pfannkuchen, zwei Pfannkuchen",
+      "explanation": "The plural is Pfannkuchen.",
+      "acceptedAnswers": [
+        "Pfannkuchen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Pfannkuchen mean?",
+      "options": [
+        "the station",
+        "the street",
+        "pancake (in Berlin: doughnut)"
+      ],
+      "answer": "pancake (in Berlin: doughnut)",
+      "explanation": "Pfannkuchen: pancake (in Berlin: doughnut).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Pfanne (pan) + Kuchen",
+        "Pfand + Kuchen"
+      ],
+      "answer": "Pfanne (pan) + Kuchen",
+      "explanation": "Pan cake!",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Regional synonym:",
+      "options": [
+        "der Eierkuchen",
+        "der Käsekuchen"
+      ],
+      "answer": "der Eierkuchen",
+      "explanation": "Same thing.",
+      "id": "q5"
+    }
+  ]
+}

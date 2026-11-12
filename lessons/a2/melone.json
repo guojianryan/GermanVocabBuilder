@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Melone",
+    "partOfSpeech": "noun, feminine (die Melone)",
+    "pronunciation": {
+      "respelling": "me-LOH-ne",
+      "ipa": "meˈloːnə",
+      "notes": "Plural: die Melonen."
+    },
+    "meaning": "melon",
+    "shortDefinition": "Melon."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Melone, plural die Melonen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Melone"
+        },
+        {
+          "label": "More than one",
+          "value": "die Melonen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Im Sommer essen wir Melone.",
+      "english": "In summer we eat melon.",
+      "highlight": [
+        "Melone."
+      ]
+    },
+    {
+      "german": "Eine Wassermelone ist schwer.",
+      "english": "A watermelon is heavy.",
+      "highlight": [
+        "Wassermelone"
+      ]
+    },
+    {
+      "german": "Er trägt eine Melone.",
+      "english": "He's wearing a bowler hat.",
+      "highlight": [
+        "Melone."
+      ]
+    }
+  ],
+  "forms": [
+    "Wassermelone"
+  ],
+  "memoryHook": "Die Melone; Wassermelone; (hat) bowler.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Melone",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Melone is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Melone, zwei ___",
+      "answer": "Melonen",
+      "fullAnswer": "ein Melone, zwei Melonen",
+      "explanation": "The plural is Melonen.",
+      "acceptedAnswers": [
+        "Melonen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Melone mean?",
+      "options": [
+        "the shop",
+        "the key",
+        "melon"
+      ],
+      "answer": "melon",
+      "explanation": "Melone: melon.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Watermelon:",
+      "options": [
+        "die Wassermelone",
+        "die Wassmelone"
+      ],
+      "answer": "die Wassermelone",
+      "explanation": "Compound.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Hat meaning:",
+      "options": [
+        "bowler hat",
+        "beret"
+      ],
+      "answer": "bowler hat",
+      "explanation": "Funny.",
+      "id": "q5"
+    }
+  ]
+}

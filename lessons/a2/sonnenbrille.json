@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Sonnenbrille",
+    "partOfSpeech": "noun, feminine (die Sonnenbrille)",
+    "pronunciation": {
+      "respelling": "ZO-nen-bri-le",
+      "ipa": "ˈzɔnənˌbʁɪlə",
+      "notes": "Plural: die Sonnenbrillen."
+    },
+    "meaning": "sunglasses",
+    "shortDefinition": "Sunglasses."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Sonnen",
+        "meaning": "sun"
+      },
+      {
+        "part": "brille",
+        "meaning": "glasses"
+      }
+    ],
+    "literalMeaning": "sun glasses"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Sonnenbrille, plural die Sonnenbrillen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Sonnenbrille"
+        },
+        {
+          "label": "More than one",
+          "value": "die Sonnenbrillen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Vergiss deine Sonnenbrille nicht!",
+      "english": "Don't forget your sunglasses!",
+      "highlight": [
+        "Sonnenbrille"
+      ]
+    },
+    {
+      "german": "Er trägt immer eine Sonnenbrille.",
+      "english": "He always wears sunglasses.",
+      "highlight": [
+        "Sonnenbrille."
+      ]
+    },
+    {
+      "german": "Meine Sonnenbrille ist kaputt.",
+      "english": "My sunglasses are broken.",
+      "highlight": [
+        "Sonnenbrille"
+      ]
+    }
+  ],
+  "forms": [
+    "Brille"
+  ],
+  "memoryHook": "Sonne + Brille = sunglasses (singular!).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Sonnenbrille",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Sonnenbrille is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Sonnenbrille, zwei ___",
+      "answer": "Sonnenbrillen",
+      "fullAnswer": "ein Sonnenbrille, zwei Sonnenbrillen",
+      "explanation": "The plural is Sonnenbrillen.",
+      "acceptedAnswers": [
+        "Sonnenbrillen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Sonnenbrille mean?",
+      "options": [
+        "the street",
+        "sunglasses",
+        "the car"
+      ],
+      "answer": "sunglasses",
+      "explanation": "Sonnenbrille: sunglasses.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Sonne + Brille",
+        "Sonne + Brücke"
+      ],
+      "answer": "Sonne + Brille",
+      "explanation": "Sun glasses.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Singular or plural in German?",
+      "options": [
+        "singular: eine Sonnenbrille",
+        "plural only"
+      ],
+      "answer": "singular: eine Sonnenbrille",
+      "explanation": "Unlike English.",
+      "id": "q5"
+    }
+  ]
+}

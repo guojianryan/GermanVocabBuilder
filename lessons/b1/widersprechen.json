@@ -1,169 +1,175 @@
 {
- "schemaVersion": "1.4",
- "language": "de",
- "explanationLanguage": "en",
- "level": "B1",
- "levelSource": "Goethe-Zertifikat B1 Wortliste",
- "lessonType": "card",
- "word": {
-  "headword": "widersprechen",
-  "partOfSpeech": "verb",
-  "pronunciation": {
-   "respelling": "vee-der-SHPREKH-en",
-   "ipa": "viːdɐˈʃpʁɛçn̩",
-   "notes": ""
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "widersprechen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "vee-der-SHPREKH-en",
+      "ipa": "viːdɐˈʃpʁɛçn̩",
+      "notes": ""
+    },
+    "meaning": "to contradict",
+    "shortDefinition": "To contradict."
   },
-  "meaning": "to contradict",
-  "shortDefinition": "To contradict."
- },
- "tables": [
-  {
-   "title": "Present tense",
-   "columns": [
-    "present"
-   ],
-   "rows": [
+  "tables": [
     {
-     "label": "ich",
-     "cells": [
-      "widersprech|e"
-     ]
-    },
-    {
-     "label": "du",
-     "cells": [
-      "widersprich|st"
-     ]
-    },
-    {
-     "label": "er, sie, es",
-     "cells": [
-      "widersprich|t"
-     ]
-    },
-    {
-     "label": "wir",
-     "cells": [
-      "widersprech|en"
-     ]
-    },
-    {
-     "label": "ihr",
-     "cells": [
-      "widersprech|t"
-     ]
-    },
-    {
-     "label": "sie, Sie",
-     "cells": [
-      "widersprech|en"
-     ]
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "widersprech|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "widersprich|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "widersprich|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "widersprech|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "widersprech|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "widersprech|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat widersprochen"
+      ]
     }
-   ],
-   "notes": [
-    "Past (Perfekt): hat widersprochen"
-   ]
-  }
- ],
- "sampleSentences": [
-  {
-   "german": "Da muss ich widersprechen.",
-   "english": "I have to disagree there.",
-   "highlight": [
-    "widersprechen."
-   ]
-  },
-  {
-   "german": "Widersprich mir nicht!",
-   "english": "Don't contradict me!",
-   "highlight": [
-    "Widersprich"
-   ]
-  },
-  {
-   "german": "Die Aussagen widersprechen sich.",
-   "english": "The statements contradict each other.",
-   "highlight": [
-    "widersprechen",
-    "sich."
-   ]
-  }
- ],
- "forms": [
-  "Widerspruch"
- ],
- "memoryHook": "Wider (against) + sprechen = contradict (+ Dat). Der Widerspruch.",
- "signOff": "Gut gemacht!",
- "quiz": [
-  {
-   "type": "fill-in-the-blank",
-   "prompt": "er ___ (widersprechen)",
-   "answer": "widerspricht",
-   "fullAnswer": "",
-   "explanation": "For er, sie, es: widerspricht.",
-   "acceptedAnswers": [
-    "widerspricht"
-   ],
-   "id": "q1"
-  },
-  {
-   "type": "fill-in-the-blank",
-   "prompt": "Ich habe schon ___. (widersprechen, past)",
-   "answer": "widersprochen",
-   "fullAnswer": "",
-   "explanation": "Perfekt: habe widersprochen.",
-   "acceptedAnswers": [
-    "widersprochen"
-   ],
-   "id": "q2"
-  },
-  {
-   "type": "choice",
-   "prompt": "What does widersprechen mean?",
-   "options": [
-    "to contradict",
-    "the shop",
-    "the weather"
-   ],
-   "answer": "to contradict",
-   "explanation": "widersprechen: to contradict.",
-   "id": "q3"
-  },
-  {
-   "type": "choice",
-   "prompt": "Case: jemandem widersprechen",
-   "options": [
-    "dative",
-    "accusative"
-   ],
-   "answer": "dative",
-   "explanation": "Widersprich mir.",
-   "id": "q4"
-  },
-  {
-   "type": "choice",
-   "prompt": "Wider- means…",
-   "options": [
-    "against",
-    "again (wieder)"
-   ],
-   "answer": "against",
-   "explanation": "Wieder = again!",
-   "id": "q5"
-  }
- ],
- "etymology": {
-  "title": "Where it comes from",
-  "parts": [
-   {
-    "part": "wider",
-    "meaning": "against"
-   },
-   {
-    "part": "sprechen",
-    "meaning": "to speak"
-   }
   ],
-  "literalMeaning": "to speak against"
- }
+  "sampleSentences": [
+    {
+      "german": "Da muss ich widersprechen.",
+      "english": "I have to disagree there.",
+      "highlight": [
+        "widersprechen."
+      ]
+    },
+    {
+      "german": "Widersprich mir nicht!",
+      "english": "Don't contradict me!",
+      "highlight": [
+        "Widersprich"
+      ]
+    },
+    {
+      "german": "Die Aussagen widersprechen sich.",
+      "english": "The statements contradict each other.",
+      "highlight": [
+        "widersprechen",
+        "sich."
+      ]
+    }
+  ],
+  "forms": [
+    "widerspreche",
+    "widersprichst",
+    "widerspricht",
+    "widersprechen",
+    "widersprecht",
+    "widersprochen",
+    "Widerspruch"
+  ],
+  "memoryHook": "Wider (against) + sprechen = contradict (+ Dat). Der Widerspruch.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (widersprechen)",
+      "answer": "widerspricht",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: widerspricht.",
+      "acceptedAnswers": [
+        "widerspricht"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (widersprechen, past)",
+      "answer": "widersprochen",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe widersprochen.",
+      "acceptedAnswers": [
+        "widersprochen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does widersprechen mean?",
+      "options": [
+        "to contradict",
+        "the shop",
+        "the weather"
+      ],
+      "answer": "to contradict",
+      "explanation": "widersprechen: to contradict.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Case: jemandem widersprechen",
+      "options": [
+        "dative",
+        "accusative"
+      ],
+      "answer": "dative",
+      "explanation": "Widersprich mir.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Wider- means…",
+      "options": [
+        "against",
+        "again (wieder)"
+      ],
+      "answer": "against",
+      "explanation": "Wieder = again!",
+      "id": "q5"
+    }
+  ],
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "wider",
+        "meaning": "against"
+      },
+      {
+        "part": "sprechen",
+        "meaning": "to speak"
+      }
+    ],
+    "literalMeaning": "to speak against"
+  }
 }

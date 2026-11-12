@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Satzung",
+    "partOfSpeech": "noun, feminine (die Satzung)",
+    "pronunciation": {
+      "respelling": "ZAT-sung",
+      "ipa": "ˈzatsʊŋ",
+      "notes": "Plural: die Satzungen."
+    },
+    "meaning": "statutes, constitution (of a club)",
+    "shortDefinition": "Statutes, constitution (of a club)."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Satz",
+        "meaning": "setting (setzen)"
+      },
+      {
+        "part": "ung",
+        "meaning": "noun ending"
+      }
+    ],
+    "literalMeaning": "something set down"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Satzung, plural die Satzungen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Satzung"
+        },
+        {
+          "label": "More than one",
+          "value": "die Satzungen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das steht in der Satzung des Vereins.",
+      "english": "That's in the club's statutes.",
+      "highlight": [
+        "Satzung"
+      ]
+    },
+    {
+      "german": "Die Satzung wurde geändert.",
+      "english": "The constitution was amended.",
+      "highlight": [
+        "Satzung"
+      ]
+    },
+    {
+      "german": "Laut Satzung …",
+      "english": "According to the statutes …",
+      "highlight": [
+        "Satzung"
+      ]
+    }
+  ],
+  "forms": [
+    "Verein"
+  ],
+  "memoryHook": "Setzen → die Satzung (statutes).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Satzung",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Satzung is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Satzung, zwei ___",
+      "answer": "Satzungen",
+      "fullAnswer": "ein Satzung, zwei Satzungen",
+      "explanation": "The plural is Satzungen.",
+      "acceptedAnswers": [
+        "Satzungen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Satzung mean?",
+      "options": [
+        "the car",
+        "statutes",
+        "hot"
+      ],
+      "answer": "statutes",
+      "explanation": "Satzung: statutes, constitution (of a club).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "setzen (set)",
+        "Satz only"
+      ],
+      "answer": "setzen (set)",
+      "explanation": "Set down.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Used for…",
+      "options": [
+        "clubs, associations, companies",
+        "countries only"
+      ],
+      "answer": "clubs, associations, companies",
+      "explanation": "Rules.",
+      "id": "q5"
+    }
+  ]
+}

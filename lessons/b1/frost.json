@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Frost",
+    "partOfSpeech": "noun, masculine (der Frost)",
+    "pronunciation": {
+      "respelling": "FROST",
+      "ipa": "fʁɔst",
+      "notes": "Plural: die Fröste."
+    },
+    "meaning": "frost",
+    "shortDefinition": "Frost."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Frost, plural die Fröste.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Frost"
+        },
+        {
+          "label": "More than one",
+          "value": "die Fröste"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Heute Nacht gibt es Frost.",
+      "english": "There'll be frost tonight.",
+      "highlight": [
+        "Frost."
+      ]
+    },
+    {
+      "german": "Der erste Frost kam früh.",
+      "english": "The first frost came early.",
+      "highlight": [
+        "Frost"
+      ]
+    },
+    {
+      "german": "Frostschutzmittel fürs Auto.",
+      "english": "Antifreeze for the car.",
+      "highlight": [
+        "Frostschutzmittel"
+      ]
+    }
+  ],
+  "forms": [
+    "frostig"
+  ],
+  "memoryHook": "Der Frost; frostig.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Frost",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Frost is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Frost, zwei ___",
+      "answer": "Fröste",
+      "fullAnswer": "ein Frost, zwei Fröste",
+      "explanation": "The plural is Fröste.",
+      "acceptedAnswers": [
+        "Froeste"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Frost mean?",
+      "options": [
+        "the shop",
+        "frost",
+        "to sing"
+      ],
+      "answer": "frost",
+      "explanation": "Frost: frost.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Adjective:",
+      "options": [
+        "frostig",
+        "frostlich"
+      ],
+      "answer": "frostig",
+      "explanation": "Frosty.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural (rare):",
+      "options": [
+        "Fröste",
+        "Froste"
+      ],
+      "answer": "Fröste",
+      "explanation": "Umlaut.",
+      "id": "q5"
+    }
+  ]
+}

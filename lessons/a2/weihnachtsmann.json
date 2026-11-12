@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Weihnachtsmann",
+    "partOfSpeech": "noun, masculine (der Weihnachtsmann)",
+    "pronunciation": {
+      "respelling": "VYE-nakhts-man",
+      "ipa": "ˈvaɪ̯naxtsˌman",
+      "notes": "Plural: die Weihnachtsmänner."
+    },
+    "meaning": "Father Christmas, Santa",
+    "shortDefinition": "Father Christmas, Santa."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Weihnachts",
+        "meaning": "Christmas"
+      },
+      {
+        "part": "mann",
+        "meaning": "man"
+      }
+    ],
+    "literalMeaning": "Christmas man"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Weihnachtsmann, plural die Weihnachtsmänner.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Weihnachtsmann"
+        },
+        {
+          "label": "More than one",
+          "value": "die Weihnachtsmänner"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Weihnachtsmann bringt die Geschenke.",
+      "english": "Father Christmas brings the presents.",
+      "highlight": [
+        "Weihnachtsmann"
+      ]
+    },
+    {
+      "german": "Glaubst du noch an den Weihnachtsmann?",
+      "english": "Do you still believe in Santa?",
+      "highlight": [
+        "Weihnachtsmann?"
+      ]
+    },
+    {
+      "german": "Schoko-Weihnachtsmänner.",
+      "english": "Chocolate Santas.",
+      "highlight": [
+        "Schoko-Weihnachtsmänner."
+      ]
+    }
+  ],
+  "forms": [
+    "Christkind",
+    "Nikolaus"
+  ],
+  "memoryHook": "Weihnacht + Mann = Santa (south: Christkind).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Weihnachtsmann",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Weihnachtsmann is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Weihnachtsmann, zwei ___",
+      "answer": "Weihnachtsmänner",
+      "fullAnswer": "ein Weihnachtsmann, zwei Weihnachtsmänner",
+      "explanation": "The plural is Weihnachtsmänner.",
+      "acceptedAnswers": [
+        "Weihnachtsmaenner"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Weihnachtsmann mean?",
+      "options": [
+        "quiet",
+        "the car",
+        "Father Christmas"
+      ],
+      "answer": "Father Christmas",
+      "explanation": "Weihnachtsmann: Father Christmas, Santa.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "In southern Germany presents come from…",
+      "options": [
+        "das Christkind",
+        "der Nikolaus only"
+      ],
+      "answer": "das Christkind",
+      "explanation": "Regional.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Weihnachtsmänner",
+        "Weihnachtsmanne"
+      ],
+      "answer": "Weihnachtsmänner",
+      "explanation": "Umlaut + -er.",
+      "id": "q5"
+    }
+  ]
+}

@@ -12,6 +12,7 @@ No API keys, packages, account, or server are required. The deck, Today’s five
 
 - Today’s five appears at the top of Practice, even with an empty deck. Each local day selects due words at the chosen study level (most overdue first), then fills remaining places with new words. Future reviews are not brought forward. The set has up to five unique words, depending on how many are due or new. Each self-assessment saves progress immediately, including “Another look”; relaunching resumes the unfinished words. Daily cards can be saved to My Deck. Completed sets wait until the next local day, with no streak penalties. Changing study level replaces an unstarted set; a set already in progress keeps its level until tomorrow.
 
+- Native text fields (search and practice answers) open with an enabled German keyboard when available; otherwise they use the current keyboard. Embedded lesson answer fields declare German as their input language; iOS controls their keyboard selection. Enable German in iOS Settings → General → Keyboard → Keyboards to use this preference. You can still switch keyboards manually.
 - Search headwords, conjugations, plurals, related words, and English meanings. German folding and ranking follow `AGENT_BRIEF.md`.
 - Explore shows words after searching or selecting a word type, with results displayed in batches of 10 as you scroll. Changing a query or word type resets pagination.
 - Add/remove words from Explore, a lesson, or My Deck.
@@ -22,9 +23,9 @@ No API keys, packages, account, or server are required. The deck, Today’s five
 - Flashcard meanings expand and fade in; practice cards slide between words with smooth progress updates. Saving words animates the checkmark, and removed deck rows close smoothly. These interactions respect Reduce Motion.
 - My Deck renders rows lazily and resolves saved IDs through a cached dictionary. Flashcards load only the active lesson, reveal meanings and examples; self-assess recall and review missed cards.
 - Practice offers separate Flashcards and Lesson quiz cards, each with a short explanation and one-tap start.
-- Lesson quiz mode supports choices, fill-in answers, and manually assessed open responses. Multi-word sessions prepare and shuffle questions in the background once at the start, without retaining every full lesson. Explanations and completed sentences follow answers.
+- Lesson quiz mode supports choices, fill-in answers, and manually assessed open responses. Each session randomly selects one question per word and shuffles them in the background once at the start, without retaining every full lesson. Words without quiz questions are skipped. Explanations and completed sentences follow answers.
 - German pronunciation uses Apple’s on-device `AVSpeechSynthesizer` for headwords and example sentences. This is Apple speech synthesis, rather than an Apple Intelligence audio-generation service. Voice quality depends on German voices installed on the device; audio should be checked on a real iPhone.
-- Settings with Twilines Dark, Dusk, Warm, and Cool palettes, plus dark forest Green and midnight Blue. The chosen theme is saved locally and applies to Explore, My Deck, Practice, and the lesson reader. Warm is the default.
+- Settings with black, crimson, and gold Dark, plus Dusk, Warm, and Cool palettes, plus dark forest Green and midnight Blue. The chosen theme is saved locally and applies to Explore, My Deck, Practice, and the lesson reader. Dark is the default.
 - Settings offers a saved current German level (A1, A2, B1, B2, or C1; A1 by default). Explore suggests only words at that level outside the study deck, with an empty state when that level has no lessons or all its words are saved. All six theme swatches appear in a three-column, two-row grid.
 - Native navigation, VoiceOver labels, reduced-motion support in the lesson reader, and layouts for iPhone and iPad.
 

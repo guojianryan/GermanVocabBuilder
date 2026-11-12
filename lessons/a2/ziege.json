@@ -1,0 +1,134 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Ziege",
+    "partOfSpeech": "noun, feminine (die Ziege)",
+    "pronunciation": {
+      "respelling": "TSEE-ge",
+      "ipa": "ˈtsiːɡə",
+      "notes": "Plural: die Ziegen."
+    },
+    "meaning": "goat",
+    "shortDefinition": "Goat."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Ziege, plural die Ziegen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Ziege"
+        },
+        {
+          "label": "More than one",
+          "value": "die Ziegen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Ziege gibt Milch.",
+      "english": "The goat gives milk.",
+      "highlight": [
+        "Ziege"
+      ]
+    },
+    {
+      "german": "Ich mag Ziegenkäse.",
+      "english": "I like goat's cheese.",
+      "highlight": [
+        "Ziegenkäse."
+      ]
+    },
+    {
+      "german": "Blöde Ziege! (rude)",
+      "english": "Silly cow!",
+      "highlight": [
+        "Ziege!"
+      ]
+    }
+  ],
+  "forms": [
+    "Ziegenkäse",
+    "Bock"
+  ],
+  "memoryHook": "Die Ziege; Ziegenkäse; der Bock.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Ziege",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Ziege is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Ziege, zwei ___",
+      "answer": "Ziegen",
+      "fullAnswer": "ein Ziege, zwei Ziegen",
+      "explanation": "The plural is Ziegen.",
+      "acceptedAnswers": [
+        "Ziegen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Ziege mean?",
+      "options": [
+        "the door",
+        "goat",
+        "to travel"
+      ],
+      "answer": "goat",
+      "explanation": "Ziege: goat.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Goat's cheese:",
+      "options": [
+        "der Ziegenkäse",
+        "der Ziegekäse"
+      ],
+      "answer": "der Ziegenkäse",
+      "explanation": "-n-.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Ziegen",
+        "Ziege"
+      ],
+      "answer": "Ziegen",
+      "explanation": "-n.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Male goat:",
+      "options": [
+        "der Bock",
+        "der Ziegerich"
+      ],
+      "answer": "der Bock",
+      "explanation": "Billy goat.",
+      "id": "q6"
+    }
+  ]
+}

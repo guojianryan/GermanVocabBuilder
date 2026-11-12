@@ -1,0 +1,133 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Acker",
+    "partOfSpeech": "noun, masculine (der Acker)",
+    "pronunciation": {
+      "respelling": "A-ker",
+      "ipa": "ˈakɐ",
+      "notes": "Plural: die Äcker."
+    },
+    "meaning": "field (for crops)",
+    "shortDefinition": "Field (for crops)."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Acker, plural die Äcker.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Acker"
+        },
+        {
+          "label": "More than one",
+          "value": "die Äcker"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Bauer pflügt den Acker.",
+      "english": "The farmer ploughs the field.",
+      "highlight": [
+        "Acker."
+      ]
+    },
+    {
+      "german": "Die Äcker sind voller Getreide.",
+      "english": "The fields are full of grain.",
+      "highlight": [
+        "Äcker"
+      ]
+    },
+    {
+      "german": "Er macht sich vom Acker.",
+      "english": "He's clearing off.",
+      "highlight": [
+        "Acker."
+      ]
+    }
+  ],
+  "forms": [
+    "Feld"
+  ],
+  "memoryHook": "Der Acker, die Äcker (farmland); Feld.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Acker",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Acker is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Acker, zwei ___",
+      "answer": "Äcker",
+      "fullAnswer": "ein Acker, zwei Äcker",
+      "explanation": "The plural is Äcker.",
+      "acceptedAnswers": [
+        "Äcker"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Acker mean?",
+      "options": [
+        "the bill",
+        "the station",
+        "field (for crops)"
+      ],
+      "answer": "field (for crops)",
+      "explanation": "Acker: field (for crops).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Äcker",
+        "Acker"
+      ],
+      "answer": "Äcker",
+      "explanation": "Umlaut.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Sich vom Acker machen' means…",
+      "options": [
+        "to clear off, leave",
+        "to start farming"
+      ],
+      "answer": "to clear off, leave",
+      "explanation": "Informal.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Acker vs Feld:",
+      "options": [
+        "ploughed farmland vs field (general)",
+        "same"
+      ],
+      "answer": "ploughed farmland vs field (general)",
+      "explanation": "Nuance.",
+      "id": "q6"
+    }
+  ]
+}

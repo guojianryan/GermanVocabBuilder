@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Kaffeemaschine",
+    "partOfSpeech": "noun, feminine (die Kaffeemaschine)",
+    "pronunciation": {
+      "respelling": "KA-fay-ma-shee-ne",
+      "ipa": "ˈkafeːmaˌʃiːnə",
+      "notes": "Plural: die Kaffeemaschinen."
+    },
+    "meaning": "coffee machine",
+    "shortDefinition": "Coffee machine."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Kaffee",
+        "meaning": "coffee"
+      },
+      {
+        "part": "maschine",
+        "meaning": "machine"
+      }
+    ],
+    "literalMeaning": "coffee machine"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Kaffeemaschine, plural die Kaffeemaschinen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Kaffeemaschine"
+        },
+        {
+          "label": "More than one",
+          "value": "die Kaffeemaschinen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Kaffeemaschine ist kaputt.",
+      "english": "The coffee machine is broken.",
+      "highlight": [
+        "Kaffeemaschine"
+      ]
+    },
+    {
+      "german": "Kannst du die Kaffeemaschine anmachen?",
+      "english": "Can you switch on the coffee machine?",
+      "highlight": [
+        "Kaffeemaschine"
+      ]
+    },
+    {
+      "german": "Eine neue Kaffeemaschine.",
+      "english": "A new coffee machine.",
+      "highlight": [
+        "Kaffeemaschine."
+      ]
+    }
+  ],
+  "forms": [
+    "Kaffee",
+    "Maschine"
+  ],
+  "memoryHook": "Kaffee + Maschine; Wasserkocher, Toaster.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Kaffeemaschine",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Kaffeemaschine is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Kaffeemaschine, zwei ___",
+      "answer": "Kaffeemaschinen",
+      "fullAnswer": "ein Kaffeemaschine, zwei Kaffeemaschinen",
+      "explanation": "The plural is Kaffeemaschinen.",
+      "acceptedAnswers": [
+        "Kaffeemaschinen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Kaffeemaschine mean?",
+      "options": [
+        "coffee machine",
+        "the bed",
+        "the job"
+      ],
+      "answer": "coffee machine",
+      "explanation": "Kaffeemaschine: coffee machine.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Kaffee + Maschine",
+        "Kaff + Emaschine"
+      ],
+      "answer": "Kaffee + Maschine",
+      "explanation": "Compound.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gender comes from…",
+      "options": [
+        "die Maschine",
+        "der Kaffee"
+      ],
+      "answer": "die Maschine",
+      "explanation": "Last part.",
+      "id": "q5"
+    }
+  ]
+}

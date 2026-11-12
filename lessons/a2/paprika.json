@@ -1,0 +1,133 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Paprika",
+    "partOfSpeech": "noun, masculine (der Paprika)",
+    "pronunciation": {
+      "respelling": "PA-pri-ka",
+      "ipa": "ˈpapʁika",
+      "notes": "Also die Paprika in many regions. Plural: die Paprikas."
+    },
+    "meaning": "pepper (vegetable); paprika (spice)",
+    "shortDefinition": "Pepper (vegetable); paprika (spice)."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Paprika, plural die Paprikas.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Paprika"
+        },
+        {
+          "label": "More than one",
+          "value": "die Paprikas"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ein roter Paprika.",
+      "english": "A red pepper.",
+      "highlight": [
+        "Paprika."
+      ]
+    },
+    {
+      "german": "Ich schneide die Paprika klein.",
+      "english": "I chop the peppers.",
+      "highlight": [
+        "Paprika"
+      ]
+    },
+    {
+      "german": "Mit etwas Paprika würzen.",
+      "english": "Season with a little paprika.",
+      "highlight": [
+        "Paprika"
+      ]
+    }
+  ],
+  "forms": [
+    "Pfeffer"
+  ],
+  "memoryHook": "Der/die Paprika (bell pepper; paprika) ≠ Pfeffer.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Paprika",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Paprika is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Paprika, zwei ___",
+      "answer": "Paprikas",
+      "fullAnswer": "ein Paprika, zwei Paprikas",
+      "explanation": "The plural is Paprikas.",
+      "acceptedAnswers": [
+        "Paprikas"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Paprika mean?",
+      "options": [
+        "slowly",
+        "pepper (vegetable)",
+        "cheap"
+      ],
+      "answer": "pepper (vegetable)",
+      "explanation": "Paprika: pepper (vegetable); paprika (spice).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Gender:",
+      "options": [
+        "der (also die, regional)",
+        "das only"
+      ],
+      "answer": "der (also die, regional)",
+      "explanation": "Varies.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Paprika (vegetable) in English:",
+      "options": [
+        "bell pepper",
+        "chilli"
+      ],
+      "answer": "bell pepper",
+      "explanation": "Sweet.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Black pepper:",
+      "options": [
+        "der Pfeffer",
+        "der Paprika"
+      ],
+      "answer": "der Pfeffer",
+      "explanation": "Spice.",
+      "id": "q6"
+    }
+  ]
+}

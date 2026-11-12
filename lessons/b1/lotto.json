@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Lotto",
+    "partOfSpeech": "noun, neuter (das Lotto)",
+    "pronunciation": {
+      "respelling": "LO-to",
+      "ipa": "ˈlɔto",
+      "notes": "Plural: die Lottos."
+    },
+    "meaning": "lottery",
+    "shortDefinition": "Lottery."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Lotto, plural die Lottos.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Lotto"
+        },
+        {
+          "label": "More than one",
+          "value": "die Lottos"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Er spielt jede Woche Lotto.",
+      "english": "He plays the lottery every week.",
+      "highlight": [
+        "Lotto."
+      ]
+    },
+    {
+      "german": "Ich habe im Lotto gewonnen!",
+      "english": "I've won the lottery!",
+      "highlight": [
+        "Lotto"
+      ]
+    },
+    {
+      "german": "Ein Sechser im Lotto.",
+      "english": "Six numbers in the lottery (a jackpot).",
+      "highlight": [
+        "Lotto."
+      ]
+    }
+  ],
+  "forms": [
+    "Lottoschein"
+  ],
+  "memoryHook": "Das Lotto; Lotto spielen; Sechser im Lotto.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Lotto",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Lotto is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Lotto, zwei ___",
+      "answer": "Lottos",
+      "fullAnswer": "ein Lotto, zwei Lottos",
+      "explanation": "The plural is Lottos.",
+      "acceptedAnswers": [
+        "Lottos"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Lotto mean?",
+      "options": [
+        "the child",
+        "to sleep",
+        "lottery"
+      ],
+      "answer": "lottery",
+      "explanation": "Lotto: lottery.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Ein Sechser im Lotto' means…",
+      "options": [
+        "a jackpot / huge stroke of luck",
+        "six tickets"
+      ],
+      "answer": "a jackpot / huge stroke of luck",
+      "explanation": "Idiom.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Lottery ticket:",
+      "options": [
+        "der Lottoschein",
+        "die Lottokarte only"
+      ],
+      "answer": "der Lottoschein",
+      "explanation": "Ticket.",
+      "id": "q5"
+    }
+  ]
+}

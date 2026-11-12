@@ -1,162 +1,166 @@
 {
- "schemaVersion": "1.4",
- "language": "de",
- "explanationLanguage": "en",
- "level": "B1",
- "levelSource": "Goethe-Zertifikat B1 Wortliste",
- "lessonType": "card",
- "word": {
-  "headword": "stehen bleiben",
-  "partOfSpeech": "separable verb",
-  "pronunciation": {
-   "respelling": "SHTAY-en BLYE-ben",
-   "ipa": "ˈʃteːən ˈblaɪ̯bn̩",
-   "notes": ""
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "Goethe-Zertifikat B1 Wortliste",
+  "lessonType": "card",
+  "word": {
+    "headword": "stehen bleiben",
+    "partOfSpeech": "separable verb",
+    "pronunciation": {
+      "respelling": "SHTAY-en BLYE-ben",
+      "ipa": "ˈʃteːən ˈblaɪ̯bn̩",
+      "notes": ""
+    },
+    "meaning": "to stop; to stand still",
+    "shortDefinition": "To stop; to stand still."
   },
-  "meaning": "to stop; to stand still",
-  "shortDefinition": "To stop; to stand still."
- },
- "tables": [
-  {
-   "title": "Present tense",
-   "columns": [
-    "present"
-   ],
-   "rows": [
+  "tables": [
     {
-     "label": "ich",
-     "cells": [
-      "bleib|e … |stehen"
-     ]
-    },
-    {
-     "label": "du",
-     "cells": [
-      "bleib|st … |stehen"
-     ]
-    },
-    {
-     "label": "er, sie, es",
-     "cells": [
-      "bleib|t … |stehen"
-     ]
-    },
-    {
-     "label": "wir",
-     "cells": [
-      "bleib|en … |stehen"
-     ]
-    },
-    {
-     "label": "ihr",
-     "cells": [
-      "bleib|t … |stehen"
-     ]
-    },
-    {
-     "label": "sie, Sie",
-     "cells": [
-      "bleib|en … |stehen"
-     ]
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "bleib|e … |stehen"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "bleib|st … |stehen"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "bleib|t … |stehen"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "bleib|en … |stehen"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "bleib|t … |stehen"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "bleib|en … |stehen"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): ist stehen geblieben"
+      ]
     }
-   ],
-   "notes": [
-    "Past (Perfekt): ist stehen geblieben"
-   ]
-  }
- ],
- "sampleSentences": [
-  {
-   "german": "Bleib stehen!",
-   "english": "Stop! / Stand still!",
-   "highlight": [
-    "Bleib",
-    "stehen!"
-   ]
-  },
-  {
-   "german": "Meine Uhr ist stehen geblieben.",
-   "english": "My watch has stopped.",
-   "highlight": [
-    "ist",
-    "stehen",
-    "geblieben."
-   ]
-  },
-  {
-   "german": "Wo waren wir stehen geblieben?",
-   "english": "Where did we leave off?",
-   "highlight": [
-    "stehen",
-    "geblieben?"
-   ]
-  }
- ],
- "forms": [
-  "stehenbleiben",
-  "bleibt stehen",
-  "stehen geblieben",
-  "stehengeblieben"
- ],
- "memoryHook": "Stehen bleiben = stop. Ich bleibe stehen; ist stehen geblieben.",
- "signOff": "Gut gemacht!",
- "quiz": [
-  {
-   "type": "fill-in-the-blank",
-   "prompt": "er ___ … stehen (stehen bleiben)",
-   "answer": "bleibt",
-   "fullAnswer": "",
-   "explanation": "For er, sie, es: bleibt … stehen.",
-   "acceptedAnswers": [
-    "bleibt"
-   ],
-   "id": "q1"
-  },
-  {
-   "type": "fill-in-the-blank",
-   "prompt": "Meine Uhr ist ___ ___. (stehen bleiben, past)",
-   "answer": "stehen geblieben",
-   "fullAnswer": "",
-   "explanation": "Perfekt: ist stehen geblieben.",
-   "acceptedAnswers": [
+  ],
+  "sampleSentences": [
+    {
+      "german": "Bleib stehen!",
+      "english": "Stop! / Stand still!",
+      "highlight": [
+        "Bleib",
+        "stehen!"
+      ]
+    },
+    {
+      "german": "Meine Uhr ist stehen geblieben.",
+      "english": "My watch has stopped.",
+      "highlight": [
+        "ist",
+        "stehen",
+        "geblieben."
+      ]
+    },
+    {
+      "german": "Wo waren wir stehen geblieben?",
+      "english": "Where did we leave off?",
+      "highlight": [
+        "stehen",
+        "geblieben?"
+      ]
+    }
+  ],
+  "forms": [
+    "bleibe stehen",
+    "bleibst stehen",
+    "bleibt stehen",
+    "bleiben stehen",
+    "geblieben",
+    "stehenbleiben",
     "stehen geblieben",
     "stehengeblieben"
-   ],
-   "id": "q2"
-  },
-  {
-   "type": "choice",
-   "prompt": "What does stehen bleiben mean?",
-   "options": [
-    "to open",
-    "the door",
-    "to stop"
-   ],
-   "answer": "to stop",
-   "explanation": "stehen bleiben: to stop; to stand still.",
-   "id": "q3"
-  },
-  {
-   "type": "choice",
-   "prompt": "Which verb is conjugated?",
-   "options": [
-    "bleiben",
-    "stehen"
-   ],
-   "answer": "bleiben",
-   "explanation": "Ich bleibe stehen.",
-   "id": "q4"
-  },
-  {
-   "type": "choice",
-   "prompt": "'Wo waren wir stehen geblieben?' means…",
-   "options": [
-    "Where did we leave off?",
-    "Where were we standing?"
-   ],
-   "answer": "Where did we leave off?",
-   "explanation": "Idiom.",
-   "id": "q5"
-  }
- ]
+  ],
+  "memoryHook": "Stehen bleiben = stop. Ich bleibe stehen; ist stehen geblieben.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ … stehen (stehen bleiben)",
+      "answer": "bleibt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: bleibt … stehen.",
+      "acceptedAnswers": [
+        "bleibt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Meine Uhr ist ___ ___. (stehen bleiben, past)",
+      "answer": "stehen geblieben",
+      "fullAnswer": "",
+      "explanation": "Perfekt: ist stehen geblieben.",
+      "acceptedAnswers": [
+        "stehen geblieben",
+        "stehengeblieben"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does stehen bleiben mean?",
+      "options": [
+        "to open",
+        "the door",
+        "to stop"
+      ],
+      "answer": "to stop",
+      "explanation": "stehen bleiben: to stop; to stand still.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Which verb is conjugated?",
+      "options": [
+        "bleiben",
+        "stehen"
+      ],
+      "answer": "bleiben",
+      "explanation": "Ich bleibe stehen.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Wo waren wir stehen geblieben?' means…",
+      "options": [
+        "Where did we leave off?",
+        "Where were we standing?"
+      ],
+      "answer": "Where did we leave off?",
+      "explanation": "Idiom.",
+      "id": "q5"
+    }
+  ]
 }

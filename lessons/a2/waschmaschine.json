@@ -1,0 +1,149 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Waschmaschine",
+    "partOfSpeech": "noun, feminine (die Waschmaschine)",
+    "pronunciation": {
+      "respelling": "VASH-ma-shee-ne",
+      "ipa": "ˈvaʃmaˌʃiːnə",
+      "notes": "Plural: die Waschmaschinen."
+    },
+    "meaning": "washing machine",
+    "shortDefinition": "Washing machine."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Wasch",
+        "meaning": "washing"
+      },
+      {
+        "part": "maschine",
+        "meaning": "machine"
+      }
+    ],
+    "literalMeaning": "washing machine"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Waschmaschine, plural die Waschmaschinen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Waschmaschine"
+        },
+        {
+          "label": "More than one",
+          "value": "die Waschmaschinen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Waschmaschine ist kaputt.",
+      "english": "The washing machine is broken.",
+      "highlight": [
+        "Waschmaschine"
+      ]
+    },
+    {
+      "german": "Kannst du die Waschmaschine anmachen?",
+      "english": "Can you switch on the washing machine?",
+      "highlight": [
+        "Waschmaschine"
+      ]
+    },
+    {
+      "german": "Die Wäsche ist noch in der Waschmaschine.",
+      "english": "The washing is still in the machine.",
+      "highlight": [
+        "Waschmaschine."
+      ]
+    }
+  ],
+  "forms": [
+    "waschen",
+    "Spülmaschine",
+    "Trockner"
+  ],
+  "memoryHook": "Waschen + Maschine; Spülmaschine; Trockner.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Waschmaschine",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Waschmaschine is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Waschmaschine, zwei ___",
+      "answer": "Waschmaschinen",
+      "fullAnswer": "ein Waschmaschine, zwei Waschmaschinen",
+      "explanation": "The plural is Waschmaschinen.",
+      "acceptedAnswers": [
+        "Waschmaschinen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Waschmaschine mean?",
+      "options": [
+        "the key",
+        "washing machine",
+        "to help"
+      ],
+      "answer": "washing machine",
+      "explanation": "Waschmaschine: washing machine.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "waschen + Maschine",
+        "Wäsche + Schiene"
+      ],
+      "answer": "waschen + Maschine",
+      "explanation": "Compound.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Dishwasher:",
+      "options": [
+        "die Spülmaschine",
+        "die Tellerwaschmaschine"
+      ],
+      "answer": "die Spülmaschine",
+      "explanation": "Dishes.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Dryer:",
+      "options": [
+        "der Trockner",
+        "die Trockenmaschine"
+      ],
+      "answer": "der Trockner",
+      "explanation": "Dries.",
+      "id": "q6"
+    }
+  ]
+}

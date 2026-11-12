@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Ansprechpartner",
+    "partOfSpeech": "noun, masculine (der Ansprechpartner)",
+    "pronunciation": {
+      "respelling": "AN-shprekh-part-ner",
+      "ipa": "ˈanʃpʁɛçˌpaʁtnɐ",
+      "notes": "The plural looks the same. Plural: die Ansprechpartner."
+    },
+    "meaning": "contact (person)",
+    "shortDefinition": "Contact (person)."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Ansprech",
+        "meaning": "address (ansprechen)"
+      },
+      {
+        "part": "partner",
+        "meaning": "partner"
+      }
+    ],
+    "literalMeaning": "partner to address"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Ansprechpartner, plural die Ansprechpartner.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Ansprechpartner"
+        },
+        {
+          "label": "More than one",
+          "value": "die Ansprechpartner"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wer ist mein Ansprechpartner?",
+      "english": "Who is my contact person?",
+      "highlight": [
+        "Ansprechpartner?"
+      ]
+    },
+    {
+      "german": "Ihre Ansprechpartnerin ist Frau Klein.",
+      "english": "Your contact is Ms Klein.",
+      "highlight": [
+        "Ansprechpartnerin"
+      ]
+    },
+    {
+      "german": "Bei Fragen ist er der richtige Ansprechpartner.",
+      "english": "He's the person to ask.",
+      "highlight": [
+        "Ansprechpartner."
+      ]
+    }
+  ],
+  "forms": [
+    "ansprechen",
+    "Kontaktperson"
+  ],
+  "memoryHook": "Ansprechen + Partner = contact person.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Ansprechpartner",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Ansprechpartner is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Ansprechpartner, zwei ___",
+      "answer": "Ansprechpartner",
+      "fullAnswer": "ein Ansprechpartner, zwei Ansprechpartner",
+      "explanation": "The plural is Ansprechpartner.",
+      "acceptedAnswers": [
+        "Ansprechpartner"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Ansprechpartner mean?",
+      "options": [
+        "contact (person)",
+        "the window",
+        "never"
+      ],
+      "answer": "contact (person)",
+      "explanation": "Ansprechpartner: contact (person).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "ansprechen (address) + Partner",
+        "Anspruch + Partner"
+      ],
+      "answer": "ansprechen (address) + Partner",
+      "explanation": "Address partner.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Female:",
+      "options": [
+        "die Ansprechpartnerin",
+        "die Ansprechpartnerinne"
+      ],
+      "answer": "die Ansprechpartnerin",
+      "explanation": "-in.",
+      "id": "q5"
+    }
+  ]
+}

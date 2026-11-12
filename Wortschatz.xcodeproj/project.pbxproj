@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+ AABB00112233445566778801 = {isa = PBXBuildFile; fileRef = AABB00112233445566778802; };
 		0CF1246F69A07551644A2432 /* site/lesson-template.html in Resources */ = {isa = PBXBuildFile; fileRef = 51877A7EFDCD758E90FB71BF /* site/lesson-template.html */; };
 		24C55EF7E4F4BBEA71A0AEE8 /* Wortschatz/Views/LessonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BE2D7ABD09ED3C3CFB6CC8 /* Wortschatz/Views/LessonView.swift */; };
 		257A652C846BC0ED3D660CE8 /* Wortschatz/Views/LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1550F61602870EC7050BD3D7 /* Wortschatz/Views/LibraryView.swift */; };
@@ -32,6 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+ AABB00112233445566778802 = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Wortschatz/Resources/PrivacyInfo.xcprivacy; sourceTree = SOURCE_ROOT; };
 		0152570CCF065832DCDF6A59 /* Wortschatz/Views/AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wortschatz/Views/AppTheme.swift; sourceTree = SOURCE_ROOT; };
 		0BA160854168B34EE80E1C98 /* Wortschatz/Views/PracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wortschatz/Views/PracticeView.swift; sourceTree = SOURCE_ROOT; };
 		1550F61602870EC7050BD3D7 /* Wortschatz/Views/LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wortschatz/Views/LibraryView.swift; sourceTree = SOURCE_ROOT; };
@@ -81,6 +83,7 @@
 				B0647DFE72ECBB4A82201EBC /* lessons */,
 				51877A7EFDCD758E90FB71BF /* site/lesson-template.html */,
 				773AA64041E38D501714E021 /* Wortschatz/Resources/Assets.xcassets */,
+ AABB00112233445566778802,
 				FBDC4F23F93125BBEEAE800C /* Products */,
 				8EED960630A35CF900E26FAF /* Recovered References */,
 			);
@@ -166,6 +169,7 @@
 				92316BCADCF0D1447D81D452 /* lessons in Resources */,
 				0CF1246F69A07551644A2432 /* site/lesson-template.html in Resources */,
 				4CA583B97A179BFF789E607F /* Wortschatz/Resources/Assets.xcassets in Resources */,
+ AABB00112233445566778801,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

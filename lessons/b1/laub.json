@@ -1,0 +1,116 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Laub",
+    "partOfSpeech": "noun, neuter (das Laub)",
+    "pronunciation": {
+      "respelling": "LOWP",
+      "ipa": "laʊ̯p",
+      "notes": "Usually no plural."
+    },
+    "meaning": "leaves, foliage",
+    "shortDefinition": "Leaves, foliage."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Laub, usually no plural.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Laub"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Im Herbst fällt das Laub.",
+      "english": "In autumn the leaves fall.",
+      "highlight": [
+        "Laub"
+      ]
+    },
+    {
+      "german": "Wir harken das Laub.",
+      "english": "We're raking the leaves.",
+      "highlight": [
+        "Laub."
+      ]
+    },
+    {
+      "german": "Ein Laubwald.",
+      "english": "A deciduous forest.",
+      "highlight": [
+        "Laubwald."
+      ]
+    }
+  ],
+  "forms": [
+    "Blatt",
+    "Laubwald"
+  ],
+  "memoryHook": "Das Laub (fallen leaves); Laubwald ↔ Nadelwald.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Laub",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Laub is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Laub mean?",
+      "options": [
+        "leaves",
+        "never",
+        "the family"
+      ],
+      "answer": "leaves",
+      "explanation": "Laub: leaves, foliage.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Laub vs Blätter:",
+      "options": [
+        "collective (all leaves) vs individual leaves",
+        "same"
+      ],
+      "answer": "collective (all leaves) vs individual leaves",
+      "explanation": "Collective.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Deciduous forest:",
+      "options": [
+        "der Laubwald",
+        "der Nadelwald"
+      ],
+      "answer": "der Laubwald",
+      "explanation": "Nadelwald = coniferous.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Das ___ ist bunt. (foliage)",
+      "answer": "Laub",
+      "fullAnswer": "Das Laub ist bunt.",
+      "explanation": "Laub.",
+      "id": "q5"
+    }
+  ]
+}

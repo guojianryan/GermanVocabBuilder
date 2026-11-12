@@ -1,0 +1,169 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "kratzen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "KRAT-sen",
+      "ipa": "ˈkʁatsn̩",
+      "notes": ""
+    },
+    "meaning": "to scratch",
+    "shortDefinition": "To scratch."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "kratz|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "kratz|t"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "kratz|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "kratz|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "kratz|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "kratz|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gekratzt"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Katze hat mich gekratzt.",
+      "english": "The cat scratched me.",
+      "highlight": [
+        "gekratzt."
+      ]
+    },
+    {
+      "german": "Kratz dich nicht!",
+      "english": "Don't scratch!",
+      "highlight": [
+        "Kratz"
+      ]
+    },
+    {
+      "german": "Der Pullover kratzt.",
+      "english": "The jumper is itchy.",
+      "highlight": [
+        "kratzt."
+      ]
+    }
+  ],
+  "forms": [
+    "kratze",
+    "kratzt",
+    "kratzen",
+    "gekratzt",
+    "Kratzer"
+  ],
+  "memoryHook": "Kratzen; der Kratzer; das kratzt mich nicht = I don't care.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (kratzen)",
+      "answer": "kratzt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: kratzt.",
+      "acceptedAnswers": [
+        "kratzt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (kratzen, past)",
+      "answer": "gekratzt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gekratzt.",
+      "acceptedAnswers": [
+        "gekratzt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does kratzen mean?",
+      "options": [
+        "the flower",
+        "the shop",
+        "to scratch"
+      ],
+      "answer": "to scratch",
+      "explanation": "kratzen: to scratch.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Der Pullover kratzt' means…",
+      "options": [
+        "the jumper is scratchy / itchy",
+        "the jumper is torn"
+      ],
+      "answer": "the jumper is scratchy / itchy",
+      "explanation": "Wool.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Noun (a scratch):",
+      "options": [
+        "der Kratzer",
+        "die Kratze"
+      ],
+      "answer": "der Kratzer",
+      "explanation": "Scratch.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Das kratzt mich nicht' (informal) means…",
+      "options": [
+        "I don't care",
+        "It doesn't itch"
+      ],
+      "answer": "I don't care",
+      "explanation": "Idiom.",
+      "id": "q6"
+    }
+  ]
+}

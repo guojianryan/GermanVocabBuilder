@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Renovierung",
+    "partOfSpeech": "noun, feminine (die Renovierung)",
+    "pronunciation": {
+      "respelling": "re-no-VEE-rung",
+      "ipa": "ʁenoˈviːʁʊŋ",
+      "notes": "Plural: die Renovierungen."
+    },
+    "meaning": "renovation, redecoration",
+    "shortDefinition": "Renovation, redecoration."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Renovierung, plural die Renovierungen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Renovierung"
+        },
+        {
+          "label": "More than one",
+          "value": "die Renovierungen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wegen Renovierung geschlossen.",
+      "english": "Closed for renovation.",
+      "highlight": [
+        "Renovierung"
+      ]
+    },
+    {
+      "german": "Die Renovierung dauert drei Monate.",
+      "english": "The renovation takes three months.",
+      "highlight": [
+        "Renovierung"
+      ]
+    },
+    {
+      "german": "Die Kosten der Renovierung.",
+      "english": "The costs of the renovation.",
+      "highlight": [
+        "Renovierung."
+      ]
+    }
+  ],
+  "forms": [
+    "renovieren"
+  ],
+  "memoryHook": "Renovieren → die Renovierung.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Renovierung",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Renovierung is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Renovierung, zwei ___",
+      "answer": "Renovierungen",
+      "fullAnswer": "ein Renovierung, zwei Renovierungen",
+      "explanation": "The plural is Renovierungen.",
+      "acceptedAnswers": [
+        "Renovierungen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Renovierung mean?",
+      "options": [
+        "the car",
+        "to buy",
+        "renovation"
+      ],
+      "answer": "renovation",
+      "explanation": "Renovierung: renovation, redecoration.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Verb:",
+      "options": [
+        "renovieren",
+        "renovern"
+      ],
+      "answer": "renovieren",
+      "explanation": "Renovate.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Sign 'Wegen Renovierung geschlossen' means…",
+      "options": [
+        "closed for refurbishment",
+        "closed for good"
+      ],
+      "answer": "closed for refurbishment",
+      "explanation": "Shops.",
+      "id": "q5"
+    }
+  ]
+}

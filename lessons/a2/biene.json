@@ -1,0 +1,134 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Biene",
+    "partOfSpeech": "noun, feminine (die Biene)",
+    "pronunciation": {
+      "respelling": "BEE-ne",
+      "ipa": "ˈbiːnə",
+      "notes": "Plural: die Bienen."
+    },
+    "meaning": "bee",
+    "shortDefinition": "Bee."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Biene, plural die Bienen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Biene"
+        },
+        {
+          "label": "More than one",
+          "value": "die Bienen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Bienen machen Honig.",
+      "english": "Bees make honey.",
+      "highlight": [
+        "Bienen"
+      ]
+    },
+    {
+      "german": "Mich hat eine Biene gestochen.",
+      "english": "A bee stung me.",
+      "highlight": [
+        "Biene"
+      ]
+    },
+    {
+      "german": "Sie ist fleißig wie eine Biene.",
+      "english": "She's as busy as a bee.",
+      "highlight": [
+        "Biene."
+      ]
+    }
+  ],
+  "forms": [
+    "Honig",
+    "stechen"
+  ],
+  "memoryHook": "Die Biene; der Honig; stechen.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Biene",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Biene is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Biene, zwei ___",
+      "answer": "Bienen",
+      "fullAnswer": "ein Biene, zwei Bienen",
+      "explanation": "The plural is Bienen.",
+      "acceptedAnswers": [
+        "Bienen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Biene mean?",
+      "options": [
+        "bee",
+        "to sleep",
+        "the bed"
+      ],
+      "answer": "bee",
+      "explanation": "Biene: bee.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Bienen",
+        "Biene"
+      ],
+      "answer": "Bienen",
+      "explanation": "-n.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Beekeeper:",
+      "options": [
+        "der Imker",
+        "der Bienenmann"
+      ],
+      "answer": "der Imker",
+      "explanation": "Job.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Bees… people:",
+      "options": [
+        "stechen (sting)",
+        "beißen (bite)"
+      ],
+      "answer": "stechen (sting)",
+      "explanation": "Verb.",
+      "id": "q6"
+    }
+  ]
+}

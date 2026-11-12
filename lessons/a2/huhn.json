@@ -1,0 +1,135 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Huhn",
+    "partOfSpeech": "noun, neuter (das Huhn)",
+    "pronunciation": {
+      "respelling": "HOON",
+      "ipa": "huːn",
+      "notes": "Plural: die Hühner."
+    },
+    "meaning": "chicken, hen",
+    "shortDefinition": "Chicken, hen."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Huhn, plural die Hühner.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Huhn"
+        },
+        {
+          "label": "More than one",
+          "value": "die Hühner"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Hühner legen Eier.",
+      "english": "The hens lay eggs.",
+      "highlight": [
+        "Hühner"
+      ]
+    },
+    {
+      "german": "Heute gibt es Huhn mit Reis.",
+      "english": "Today it's chicken with rice.",
+      "highlight": [
+        "Huhn"
+      ]
+    },
+    {
+      "german": "Ein dummes Huhn!",
+      "english": "A silly goose! (of a person)",
+      "highlight": [
+        "Huhn!"
+      ]
+    }
+  ],
+  "forms": [
+    "Hähnchen",
+    "Hahn",
+    "Hühnchen"
+  ],
+  "memoryHook": "Das Huhn, die Hühner; der Hahn; das Hähnchen.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Huhn",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Huhn is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Huhn, zwei ___",
+      "answer": "Hühner",
+      "fullAnswer": "ein Huhn, zwei Hühner",
+      "explanation": "The plural is Hühner.",
+      "acceptedAnswers": [
+        "Huehner"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Huhn mean?",
+      "options": [
+        "chicken",
+        "hot",
+        "quiet"
+      ],
+      "answer": "chicken",
+      "explanation": "Huhn: chicken, hen.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Hühner",
+        "Huhne"
+      ],
+      "answer": "Hühner",
+      "explanation": "Umlaut + -er.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Meat on a menu often:",
+      "options": [
+        "Hähnchen / Hühnchen",
+        "Hahn"
+      ],
+      "answer": "Hähnchen / Hühnchen",
+      "explanation": "Chicken.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Rooster:",
+      "options": [
+        "der Hahn",
+        "der Huhn"
+      ],
+      "answer": "der Hahn",
+      "explanation": "Male.",
+      "id": "q6"
+    }
+  ]
+}

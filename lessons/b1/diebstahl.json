@@ -1,0 +1,149 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Diebstahl",
+    "partOfSpeech": "noun, masculine (der Diebstahl)",
+    "pronunciation": {
+      "respelling": "DEEP-shtaal",
+      "ipa": "ˈdiːpˌʃtaːl",
+      "notes": "Plural: die Diebstähle."
+    },
+    "meaning": "theft",
+    "shortDefinition": "Theft."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Dieb",
+        "meaning": "thief"
+      },
+      {
+        "part": "stahl",
+        "meaning": "stealing (stehlen)"
+      }
+    ],
+    "literalMeaning": "thief-stealing"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Diebstahl, plural die Diebstähle.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Diebstahl"
+        },
+        {
+          "label": "More than one",
+          "value": "die Diebstähle"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich möchte einen Diebstahl melden.",
+      "english": "I'd like to report a theft.",
+      "highlight": [
+        "Diebstahl"
+      ]
+    },
+    {
+      "german": "Der Diebstahl wurde gefilmt.",
+      "english": "The theft was caught on camera.",
+      "highlight": [
+        "Diebstahl"
+      ]
+    },
+    {
+      "german": "Ladendiebstahl wird angezeigt.",
+      "english": "Shoplifters will be prosecuted.",
+      "highlight": [
+        "Ladendiebstahl"
+      ]
+    }
+  ],
+  "forms": [
+    "Dieb",
+    "stehlen",
+    "Ladendiebstahl"
+  ],
+  "memoryHook": "Dieb + stehlen → der Diebstahl.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Diebstahl",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Diebstahl is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Diebstahl, zwei ___",
+      "answer": "Diebstähle",
+      "fullAnswer": "ein Diebstahl, zwei Diebstähle",
+      "explanation": "The plural is Diebstähle.",
+      "acceptedAnswers": [
+        "Diebstaehle"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Diebstahl mean?",
+      "options": [
+        "the door",
+        "the car",
+        "theft"
+      ],
+      "answer": "theft",
+      "explanation": "Diebstahl: theft.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Dieb (thief) + Stahl (from stehlen)",
+        "Dieb + Stahl (steel)"
+      ],
+      "answer": "Dieb (thief) + Stahl (from stehlen)",
+      "explanation": "Thief + stealing.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Shoplifting:",
+      "options": [
+        "der Ladendiebstahl",
+        "der Kaufdiebstahl"
+      ],
+      "answer": "der Ladendiebstahl",
+      "explanation": "Shop theft.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Diebstähle",
+        "Diebstahle"
+      ],
+      "answer": "Diebstähle",
+      "explanation": "Umlaut.",
+      "id": "q6"
+    }
+  ]
+}

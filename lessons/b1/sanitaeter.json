@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Sanitäter",
+    "partOfSpeech": "noun, masculine (der Sanitäter)",
+    "pronunciation": {
+      "respelling": "za-ni-TAY-ter",
+      "ipa": "zaniˈtɛːtɐ",
+      "notes": "The plural looks the same. Plural: die Sanitäter."
+    },
+    "meaning": "paramedic, first-aider",
+    "shortDefinition": "Paramedic, first-aider."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Sanitäter, plural die Sanitäter.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Sanitäter"
+        },
+        {
+          "label": "More than one",
+          "value": "die Sanitäter"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Sanitäter kümmern sich um den Verletzten.",
+      "english": "The paramedics are seeing to the injured person.",
+      "highlight": [
+        "Sanitäter"
+      ]
+    },
+    {
+      "german": "Er ist Sanitäter beim Roten Kreuz.",
+      "english": "He's a first-aider with the Red Cross.",
+      "highlight": [
+        "Sanitäter"
+      ]
+    },
+    {
+      "german": "Ruf einen Sanitäter!",
+      "english": "Call a medic!",
+      "highlight": [
+        "Sanitäter!"
+      ]
+    }
+  ],
+  "forms": [
+    "Sani",
+    "Rettungsdienst"
+  ],
+  "memoryHook": "Der Sanitäter (Sani); Rettungsdienst.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Sanitäter",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Sanitäter is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Sanitäter, zwei ___",
+      "answer": "Sanitäter",
+      "fullAnswer": "ein Sanitäter, zwei Sanitäter",
+      "explanation": "The plural is Sanitäter.",
+      "acceptedAnswers": [
+        "Sanitaeter"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Sanitäter mean?",
+      "options": [
+        "to help",
+        "to learn",
+        "paramedic"
+      ],
+      "answer": "paramedic",
+      "explanation": "Sanitäter: paramedic, first-aider.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Informal short form:",
+      "options": [
+        "der Sani",
+        "der Sanit"
+      ],
+      "answer": "der Sani",
+      "explanation": "Colloquial.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Sanitäter",
+        "Sanitätern"
+      ],
+      "answer": "Sanitäter",
+      "explanation": "No change.",
+      "id": "q5"
+    }
+  ]
+}

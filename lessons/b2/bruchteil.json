@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Bruchteil",
+    "partOfSpeech": "noun, masculine (der Bruchteil)",
+    "pronunciation": {
+      "respelling": "BROOKH-tile",
+      "ipa": "ˈbʁʊxtaɪ̯l",
+      "notes": "Plural: die Bruchteile."
+    },
+    "meaning": "fraction",
+    "shortDefinition": "Fraction."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Bruch",
+        "meaning": "break, fraction"
+      },
+      {
+        "part": "teil",
+        "meaning": "part"
+      }
+    ],
+    "literalMeaning": "broken part"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Bruchteil, plural die Bruchteile.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Bruchteil"
+        },
+        {
+          "label": "More than one",
+          "value": "die Bruchteile"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Zu einem Bruchteil des Preises.",
+      "english": "At a fraction of the price.",
+      "highlight": [
+        "Bruchteil"
+      ]
+    },
+    {
+      "german": "In einem Bruchteil einer Sekunde.",
+      "english": "In a split second.",
+      "highlight": [
+        "Bruchteil"
+      ]
+    },
+    {
+      "german": "Nur ein Bruchteil kam an.",
+      "english": "Only a fraction arrived.",
+      "highlight": [
+        "Bruchteil"
+      ]
+    }
+  ],
+  "forms": [
+    "Bruch",
+    "Teil"
+  ],
+  "memoryHook": "Bruch + Teil = fraction.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Bruchteil",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Bruchteil is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Bruchteil, zwei ___",
+      "answer": "Bruchteile",
+      "fullAnswer": "ein Bruchteil, zwei Bruchteile",
+      "explanation": "The plural is Bruchteile.",
+      "acceptedAnswers": [
+        "Bruchteile"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Bruchteil mean?",
+      "options": [
+        "the station",
+        "the family",
+        "fraction"
+      ],
+      "answer": "fraction",
+      "explanation": "Bruchteil: fraction.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Bruch (fraction, break) + Teil",
+        "brauchen + Teil"
+      ],
+      "answer": "Bruch (fraction, break) + Teil",
+      "explanation": "Broken part.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Maths 'Bruch' means…",
+      "options": [
+        "fraction",
+        "multiplication"
+      ],
+      "answer": "fraction",
+      "explanation": "1/2.",
+      "id": "q5"
+    }
+  ]
+}

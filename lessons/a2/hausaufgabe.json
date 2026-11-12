@@ -1,0 +1,148 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Hausaufgabe",
+    "partOfSpeech": "noun, feminine (die Hausaufgabe)",
+    "pronunciation": {
+      "respelling": "HOWS-owf-gaa-be",
+      "ipa": "ˈhaʊ̯sˌʔaʊ̯fɡaːbə",
+      "notes": "Plural: die Hausaufgaben."
+    },
+    "meaning": "homework (task)",
+    "shortDefinition": "Homework (task)."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Haus",
+        "meaning": "house, home"
+      },
+      {
+        "part": "aufgabe",
+        "meaning": "task"
+      }
+    ],
+    "literalMeaning": "home task"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Hausaufgabe, plural die Hausaufgaben.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Hausaufgabe"
+        },
+        {
+          "label": "More than one",
+          "value": "die Hausaufgaben"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Hast du deine Hausaufgaben gemacht?",
+      "english": "Have you done your homework?",
+      "highlight": [
+        "Hausaufgaben"
+      ]
+    },
+    {
+      "german": "Wir haben heute keine Hausaufgaben.",
+      "english": "We have no homework today.",
+      "highlight": [
+        "Hausaufgaben."
+      ]
+    },
+    {
+      "german": "Die Regierung hat ihre Hausaufgaben nicht gemacht.",
+      "english": "The government hasn't done its homework.",
+      "highlight": [
+        "Hausaufgaben"
+      ]
+    }
+  ],
+  "forms": [
+    "Hausaufgaben",
+    "Aufgabe"
+  ],
+  "memoryHook": "Haus + Aufgabe = homework (usually plural).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Hausaufgabe",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Hausaufgabe is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Hausaufgabe, zwei ___",
+      "answer": "Hausaufgaben",
+      "fullAnswer": "ein Hausaufgabe, zwei Hausaufgaben",
+      "explanation": "The plural is Hausaufgaben.",
+      "acceptedAnswers": [
+        "Hausaufgaben"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Hausaufgabe mean?",
+      "options": [
+        "homework (task)",
+        "the street",
+        "the car"
+      ],
+      "answer": "homework (task)",
+      "explanation": "Hausaufgabe: homework (task).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Usually used in…",
+      "options": [
+        "the plural (Hausaufgaben)",
+        "the singular"
+      ],
+      "answer": "the plural (Hausaufgaben)",
+      "explanation": "Countable.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Haus + Aufgabe (task)",
+        "Haus + Aufgang"
+      ],
+      "answer": "Haus + Aufgabe (task)",
+      "explanation": "Home task.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Hausaufgaben machen' =",
+      "options": [
+        "do homework",
+        "make houses"
+      ],
+      "answer": "do homework",
+      "explanation": "Verb: machen.",
+      "id": "q6"
+    }
+  ]
+}

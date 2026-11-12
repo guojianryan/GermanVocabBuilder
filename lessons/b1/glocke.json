@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Glocke",
+    "partOfSpeech": "noun, feminine (die Glocke)",
+    "pronunciation": {
+      "respelling": "GLO-ke",
+      "ipa": "ˈɡlɔkə",
+      "notes": "Plural: die Glocken."
+    },
+    "meaning": "bell",
+    "shortDefinition": "Bell."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Glocke, plural die Glocken.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Glocke"
+        },
+        {
+          "label": "More than one",
+          "value": "die Glocken"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Glocken läuten.",
+      "english": "The bells are ringing.",
+      "highlight": [
+        "Glocken"
+      ]
+    },
+    {
+      "german": "Die Kirchenglocke schlägt zwölf.",
+      "english": "The church bell strikes twelve.",
+      "highlight": [
+        "Kirchenglocke"
+      ]
+    },
+    {
+      "german": "Er hängt es an die große Glocke.",
+      "english": "He's telling the whole world.",
+      "highlight": [
+        "Glocke."
+      ]
+    }
+  ],
+  "forms": [
+    "Klingel"
+  ],
+  "memoryHook": "Die Glocke (bell); Klingel = doorbell.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Glocke",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Glocke is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Glocke, zwei ___",
+      "answer": "Glocken",
+      "fullAnswer": "ein Glocke, zwei Glocken",
+      "explanation": "The plural is Glocken.",
+      "acceptedAnswers": [
+        "Glocken"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Glocke mean?",
+      "options": [
+        "to travel",
+        "cheap",
+        "bell"
+      ],
+      "answer": "bell",
+      "explanation": "Glocke: bell.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Etwas an die große Glocke hängen' means…",
+      "options": [
+        "to broadcast something",
+        "to ring a bell"
+      ],
+      "answer": "to broadcast something",
+      "explanation": "Idiom.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Doorbell:",
+      "options": [
+        "die Klingel",
+        "die Türglocke only"
+      ],
+      "answer": "die Klingel",
+      "explanation": "Ring.",
+      "id": "q5"
+    }
+  ]
+}

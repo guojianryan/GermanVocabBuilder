@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Impfung",
+    "partOfSpeech": "noun, feminine (die Impfung)",
+    "pronunciation": {
+      "respelling": "IMP-fung",
+      "ipa": "ˈɪmpfʊŋ",
+      "notes": "Plural: die Impfungen."
+    },
+    "meaning": "vaccination",
+    "shortDefinition": "Vaccination."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Impf",
+        "meaning": "graft, inoculate"
+      },
+      {
+        "part": "ung",
+        "meaning": "noun ending"
+      }
+    ],
+    "literalMeaning": "an inoculating"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Impfung, plural die Impfungen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Impfung"
+        },
+        {
+          "label": "More than one",
+          "value": "die Impfungen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Impfung ist kostenlos.",
+      "english": "The vaccination is free.",
+      "highlight": [
+        "Impfung"
+      ]
+    },
+    {
+      "german": "Hast du schon die zweite Impfung?",
+      "english": "Have you had your second jab?",
+      "highlight": [
+        "Impfung?"
+      ]
+    },
+    {
+      "german": "Eine Impfung gegen Tetanus.",
+      "english": "A tetanus shot.",
+      "highlight": [
+        "Impfung"
+      ]
+    }
+  ],
+  "forms": [
+    "impfen",
+    "Impfpass"
+  ],
+  "memoryHook": "Impfen → die Impfung; Impfpass.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Impfung",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Impfung is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Impfung, zwei ___",
+      "answer": "Impfungen",
+      "fullAnswer": "ein Impfung, zwei Impfungen",
+      "explanation": "The plural is Impfungen.",
+      "acceptedAnswers": [
+        "Impfungen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Impfung mean?",
+      "options": [
+        "the street",
+        "to help",
+        "vaccination"
+      ],
+      "answer": "vaccination",
+      "explanation": "Impfung: vaccination.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Verb:",
+      "options": [
+        "impfen",
+        "impfungen"
+      ],
+      "answer": "impfen",
+      "explanation": "Vaccinate.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Vaccination record:",
+      "options": [
+        "der Impfpass",
+        "das Impfbuch"
+      ],
+      "answer": "der Impfpass",
+      "explanation": "Booklet.",
+      "id": "q5"
+    }
+  ]
+}

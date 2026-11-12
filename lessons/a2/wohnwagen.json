@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Wohnwagen",
+    "partOfSpeech": "noun, masculine (der Wohnwagen)",
+    "pronunciation": {
+      "respelling": "VOHN-vaa-gen",
+      "ipa": "ˈvoːnˌvaːɡn̩",
+      "notes": "The plural looks the same. Plural: die Wohnwagen."
+    },
+    "meaning": "caravan, trailer",
+    "shortDefinition": "Caravan, trailer."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Wohn",
+        "meaning": "living (wohnen)"
+      },
+      {
+        "part": "wagen",
+        "meaning": "wagon"
+      }
+    ],
+    "literalMeaning": "living wagon"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Wohnwagen, plural die Wohnwagen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Wohnwagen"
+        },
+        {
+          "label": "More than one",
+          "value": "die Wohnwagen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir fahren mit dem Wohnwagen nach Italien.",
+      "english": "We're going to Italy with the caravan.",
+      "highlight": [
+        "Wohnwagen"
+      ]
+    },
+    {
+      "german": "Der Wohnwagen steht auf dem Campingplatz.",
+      "english": "The caravan is on the campsite.",
+      "highlight": [
+        "Wohnwagen"
+      ]
+    },
+    {
+      "german": "Sie leben in einem Wohnwagen.",
+      "english": "They live in a caravan.",
+      "highlight": [
+        "Wohnwagen."
+      ]
+    }
+  ],
+  "forms": [
+    "Wohnmobil",
+    "Wagen"
+  ],
+  "memoryHook": "Wohnen + Wagen = caravan (≠ Wohnmobil).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Wohnwagen",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Wohnwagen is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Wohnwagen, zwei ___",
+      "answer": "Wohnwagen",
+      "fullAnswer": "ein Wohnwagen, zwei Wohnwagen",
+      "explanation": "The plural is Wohnwagen.",
+      "acceptedAnswers": [
+        "Wohnwagen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Wohnwagen mean?",
+      "options": [
+        "the weather",
+        "never",
+        "caravan"
+      ],
+      "answer": "caravan",
+      "explanation": "Wohnwagen: caravan, trailer.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "wohnen + Wagen",
+        "Wohnung + Wagen"
+      ],
+      "answer": "wohnen + Wagen",
+      "explanation": "Living wagon.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Motorhome:",
+      "options": [
+        "das Wohnmobil",
+        "der Wohnwagen"
+      ],
+      "answer": "das Wohnmobil",
+      "explanation": "Has an engine.",
+      "id": "q5"
+    }
+  ]
+}

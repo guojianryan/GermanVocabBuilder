@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Lehrbuch",
+    "partOfSpeech": "noun, neuter (das Lehrbuch)",
+    "pronunciation": {
+      "respelling": "LAYR-bookh",
+      "ipa": "ˈleːɐ̯ˌbuːx",
+      "notes": "Plural: die Lehrbücher."
+    },
+    "meaning": "textbook",
+    "shortDefinition": "Textbook."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Lehr",
+        "meaning": "teach (lehren)"
+      },
+      {
+        "part": "buch",
+        "meaning": "book"
+      }
+    ],
+    "literalMeaning": "teaching book"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Lehrbuch, plural die Lehrbücher.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Lehrbuch"
+        },
+        {
+          "label": "More than one",
+          "value": "die Lehrbücher"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Schlagt bitte das Lehrbuch auf.",
+      "english": "Please open your textbooks.",
+      "highlight": [
+        "Lehrbuch"
+      ]
+    },
+    {
+      "german": "Ein Lehrbuch für Anfänger.",
+      "english": "A textbook for beginners.",
+      "highlight": [
+        "Lehrbuch"
+      ]
+    },
+    {
+      "german": "Das war wie aus dem Lehrbuch.",
+      "english": "That was textbook.",
+      "highlight": [
+        "Lehrbuch."
+      ]
+    }
+  ],
+  "forms": [
+    "lehren",
+    "Arbeitsbuch"
+  ],
+  "memoryHook": "Lehren + Buch = textbook.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Lehrbuch",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Lehrbuch is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Lehrbuch, zwei ___",
+      "answer": "Lehrbücher",
+      "fullAnswer": "ein Lehrbuch, zwei Lehrbücher",
+      "explanation": "The plural is Lehrbücher.",
+      "acceptedAnswers": [
+        "Lehrbuecher"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Lehrbuch mean?",
+      "options": [
+        "expensive",
+        "textbook",
+        "the window"
+      ],
+      "answer": "textbook",
+      "explanation": "Lehrbuch: textbook.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "lehren (teach) + Buch",
+        "leer + Buch"
+      ],
+      "answer": "lehren (teach) + Buch",
+      "explanation": "Teaching book.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Exercise book (workbook):",
+      "options": [
+        "das Arbeitsbuch / Übungsbuch",
+        "das Lehrheft"
+      ],
+      "answer": "das Arbeitsbuch / Übungsbuch",
+      "explanation": "Exercises.",
+      "id": "q5"
+    }
+  ]
+}

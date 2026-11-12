@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Rotwein",
+    "partOfSpeech": "noun, masculine (der Rotwein)",
+    "pronunciation": {
+      "respelling": "ROHT-vine",
+      "ipa": "ˈʁoːtˌvaɪ̯n",
+      "notes": "Plural: die Rotweine."
+    },
+    "meaning": "red wine",
+    "shortDefinition": "Red wine."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Rot",
+        "meaning": "red"
+      },
+      {
+        "part": "wein",
+        "meaning": "wine"
+      }
+    ],
+    "literalMeaning": "red wine"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Rotwein, plural die Rotweine.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Rotwein"
+        },
+        {
+          "label": "More than one",
+          "value": "die Rotweine"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ein Glas Rotwein, bitte.",
+      "english": "A glass of red wine, please.",
+      "highlight": [
+        "Rotwein,"
+      ]
+    },
+    {
+      "german": "Rotwein passt gut zu Fleisch.",
+      "english": "Red wine goes well with meat.",
+      "highlight": [
+        "Rotwein"
+      ]
+    },
+    {
+      "german": "Trinkst du lieber Rotwein oder Weißwein?",
+      "english": "Do you prefer red or white?",
+      "highlight": [
+        "Rotwein"
+      ]
+    }
+  ],
+  "forms": [
+    "Weißwein",
+    "Wein"
+  ],
+  "memoryHook": "Rot + Wein ↔ Weißwein, Rosé.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Rotwein",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Rotwein is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Rotwein, zwei ___",
+      "answer": "Rotweine",
+      "fullAnswer": "ein Rotwein, zwei Rotweine",
+      "explanation": "The plural is Rotweine.",
+      "acceptedAnswers": [
+        "Rotweine"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Rotwein mean?",
+      "options": [
+        "red wine",
+        "always",
+        "to buy"
+      ],
+      "answer": "red wine",
+      "explanation": "Rotwein: red wine.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "rot + Wein",
+        "Rot + Weinen"
+      ],
+      "answer": "rot + Wein",
+      "explanation": "Red wine.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "White wine:",
+      "options": [
+        "der Weißwein",
+        "der Weinweiß"
+      ],
+      "answer": "der Weißwein",
+      "explanation": "White.",
+      "id": "q5"
+    }
+  ]
+}

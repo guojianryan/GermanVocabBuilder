@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Wortschatz",
+    "partOfSpeech": "noun, masculine (der Wortschatz)",
+    "pronunciation": {
+      "respelling": "VORT-shats",
+      "ipa": "ˈvɔʁtˌʃats",
+      "notes": "Plural: die Wortschätze."
+    },
+    "meaning": "vocabulary",
+    "shortDefinition": "Vocabulary."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Wort",
+        "meaning": "word"
+      },
+      {
+        "part": "schatz",
+        "meaning": "treasure"
+      }
+    ],
+    "literalMeaning": "word treasure"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Wortschatz, plural die Wortschätze.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Wortschatz"
+        },
+        {
+          "label": "More than one",
+          "value": "die Wortschätze"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich will meinen Wortschatz erweitern.",
+      "english": "I want to expand my vocabulary.",
+      "highlight": [
+        "Wortschatz"
+      ]
+    },
+    {
+      "german": "Sie hat einen großen Wortschatz.",
+      "english": "She has a large vocabulary.",
+      "highlight": [
+        "Wortschatz."
+      ]
+    },
+    {
+      "german": "Der aktive und passive Wortschatz.",
+      "english": "Active and passive vocabulary.",
+      "highlight": [
+        "Wortschatz."
+      ]
+    }
+  ],
+  "forms": [
+    "Vokabeln",
+    "Wort"
+  ],
+  "memoryHook": "Wort + Schatz = vocabulary (word treasure!).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Wortschatz",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Wortschatz is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Wortschatz, zwei ___",
+      "answer": "Wortschätze",
+      "fullAnswer": "ein Wortschatz, zwei Wortschätze",
+      "explanation": "The plural is Wortschätze.",
+      "acceptedAnswers": [
+        "Wortschaetze"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Wortschatz mean?",
+      "options": [
+        "the window",
+        "to open",
+        "vocabulary"
+      ],
+      "answer": "vocabulary",
+      "explanation": "Wortschatz: vocabulary.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Wort + Schatz (treasure)",
+        "Wort + schätzen"
+      ],
+      "answer": "Wort + Schatz (treasure)",
+      "explanation": "Word treasure.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonym (for lists):",
+      "options": [
+        "die Vokabeln",
+        "die Grammatik"
+      ],
+      "answer": "die Vokabeln",
+      "explanation": "Vocab.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Hausarzt",
+    "partOfSpeech": "noun, masculine (der Hausarzt)",
+    "pronunciation": {
+      "respelling": "HOWS-artst",
+      "ipa": "ˈhaʊ̯sˌʔaʁtst",
+      "notes": "Plural: die Hausärzte."
+    },
+    "meaning": "family doctor, GP",
+    "shortDefinition": "Family doctor, GP."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Haus",
+        "meaning": "house"
+      },
+      {
+        "part": "arzt",
+        "meaning": "doctor"
+      }
+    ],
+    "literalMeaning": "house doctor"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Hausarzt, plural die Hausärzte.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Hausarzt"
+        },
+        {
+          "label": "More than one",
+          "value": "die Hausärzte"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich gehe zu meinem Hausarzt.",
+      "english": "I'm going to my GP.",
+      "highlight": [
+        "Hausarzt."
+      ]
+    },
+    {
+      "german": "Mein Hausarzt hat mich überwiesen.",
+      "english": "My GP referred me.",
+      "highlight": [
+        "Hausarzt"
+      ]
+    },
+    {
+      "german": "Sie ist Hausärztin.",
+      "english": "She's a GP.",
+      "highlight": [
+        "Hausärztin."
+      ]
+    }
+  ],
+  "forms": [
+    "Hausärztin",
+    "Facharzt"
+  ],
+  "memoryHook": "Haus + Arzt = GP ↔ Facharzt.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Hausarzt",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Hausarzt is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Hausarzt, zwei ___",
+      "answer": "Hausärzte",
+      "fullAnswer": "ein Hausarzt, zwei Hausärzte",
+      "explanation": "The plural is Hausärzte.",
+      "acceptedAnswers": [
+        "Hausaerzte"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Hausarzt mean?",
+      "options": [
+        "family doctor",
+        "to sing",
+        "the bill"
+      ],
+      "answer": "family doctor",
+      "explanation": "Hausarzt: family doctor, GP.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "A Hausarzt is…",
+      "options": [
+        "your regular family doctor",
+        "a doctor who visits only"
+      ],
+      "answer": "your regular family doctor",
+      "explanation": "GP.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Specialist:",
+      "options": [
+        "der Facharzt",
+        "der Hausarzt"
+      ],
+      "answer": "der Facharzt",
+      "explanation": "Referral.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Female:",
+      "options": [
+        "die Hausärztin",
+        "die Hausarztin"
+      ],
+      "answer": "die Hausärztin",
+      "explanation": "Umlaut.",
+      "id": "q6"
+    }
+  ]
+}

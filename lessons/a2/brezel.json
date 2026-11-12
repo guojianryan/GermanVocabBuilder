@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Brezel",
+    "partOfSpeech": "noun, feminine (die Brezel)",
+    "pronunciation": {
+      "respelling": "BRAY-tsel",
+      "ipa": "ˈbʁeːtsl̩",
+      "notes": "Also die Breze (Bavaria). Plural: die Brezeln."
+    },
+    "meaning": "pretzel",
+    "shortDefinition": "Pretzel."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Brezel, plural die Brezeln.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Brezel"
+        },
+        {
+          "label": "More than one",
+          "value": "die Brezeln"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Eine Brezel mit Butter.",
+      "english": "A pretzel with butter.",
+      "highlight": [
+        "Brezel"
+      ]
+    },
+    {
+      "german": "Zum Bier gibt es Brezeln.",
+      "english": "Pretzels go with beer.",
+      "highlight": [
+        "Brezeln."
+      ]
+    },
+    {
+      "german": "Die Brezel ist frisch.",
+      "english": "The pretzel is fresh.",
+      "highlight": [
+        "Brezel"
+      ]
+    }
+  ],
+  "forms": [
+    "Breze"
+  ],
+  "memoryHook": "Die Brezel (south: Breze, Brezn).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Brezel",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Brezel is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Brezel, zwei ___",
+      "answer": "Brezeln",
+      "fullAnswer": "ein Brezel, zwei Brezeln",
+      "explanation": "The plural is Brezeln.",
+      "acceptedAnswers": [
+        "Brezeln"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Brezel mean?",
+      "options": [
+        "never",
+        "quiet",
+        "pretzel"
+      ],
+      "answer": "pretzel",
+      "explanation": "Brezel: pretzel.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "In Bavaria / Austria it's also…",
+      "options": [
+        "die Breze / Brezn",
+        "der Brezel"
+      ],
+      "answer": "die Breze / Brezn",
+      "explanation": "Regional.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Brezeln",
+        "Brezel"
+      ],
+      "answer": "Brezeln",
+      "explanation": "-n.",
+      "id": "q5"
+    }
+  ]
+}

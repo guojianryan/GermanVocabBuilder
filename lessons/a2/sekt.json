@@ -1,0 +1,133 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Sekt",
+    "partOfSpeech": "noun, masculine (der Sekt)",
+    "pronunciation": {
+      "respelling": "ZEKT",
+      "ipa": "zɛkt",
+      "notes": "Plural: die Sekte."
+    },
+    "meaning": "sparkling wine",
+    "shortDefinition": "Sparkling wine."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Sekt, plural die Sekte.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Sekt"
+        },
+        {
+          "label": "More than one",
+          "value": "die Sekte"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Zum Geburtstag trinken wir Sekt.",
+      "english": "We drink sparkling wine on birthdays.",
+      "highlight": [
+        "Sekt."
+      ]
+    },
+    {
+      "german": "Eine Flasche Sekt.",
+      "english": "A bottle of bubbly.",
+      "highlight": [
+        "Sekt."
+      ]
+    },
+    {
+      "german": "Sekt oder Selters!",
+      "english": "All or nothing!",
+      "highlight": [
+        "Sekt"
+      ]
+    }
+  ],
+  "forms": [
+    "Champagner"
+  ],
+  "memoryHook": "Der Sekt ≠ die Sekte (cult).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Sekt",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Sekt is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Sekt, zwei ___",
+      "answer": "Sekte",
+      "fullAnswer": "ein Sekt, zwei Sekte",
+      "explanation": "The plural is Sekte.",
+      "acceptedAnswers": [
+        "Sekte"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Sekt mean?",
+      "options": [
+        "sparkling wine",
+        "the door",
+        "the child"
+      ],
+      "answer": "sparkling wine",
+      "explanation": "Sekt: sparkling wine.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Sekt is…",
+      "options": [
+        "German sparkling wine",
+        "a religious group"
+      ],
+      "answer": "German sparkling wine",
+      "explanation": "Bubbly.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Careful: 'die Sekte' means…",
+      "options": [
+        "a sect, cult",
+        "champagne"
+      ],
+      "answer": "a sect, cult",
+      "explanation": "Different word.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Champagne from France:",
+      "options": [
+        "der Champagner",
+        "der Sekt only"
+      ],
+      "answer": "der Champagner",
+      "explanation": "Origin.",
+      "id": "q6"
+    }
+  ]
+}

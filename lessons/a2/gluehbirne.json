@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Glühbirne",
+    "partOfSpeech": "noun, feminine (die Glühbirne)",
+    "pronunciation": {
+      "respelling": "GLÜ-bir-ne",
+      "ipa": "ˈɡlyːˌbɪʁnə",
+      "notes": "Plural: die Glühbirnen."
+    },
+    "meaning": "light bulb",
+    "shortDefinition": "Light bulb."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Glüh",
+        "meaning": "glow (glühen)"
+      },
+      {
+        "part": "birne",
+        "meaning": "pear"
+      }
+    ],
+    "literalMeaning": "glowing pear"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Glühbirne, plural die Glühbirnen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Glühbirne"
+        },
+        {
+          "label": "More than one",
+          "value": "die Glühbirnen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Glühbirne ist kaputt.",
+      "english": "The bulb has gone.",
+      "highlight": [
+        "Glühbirne"
+      ]
+    },
+    {
+      "german": "Kannst du die Glühbirne wechseln?",
+      "english": "Can you change the light bulb?",
+      "highlight": [
+        "Glühbirne"
+      ]
+    },
+    {
+      "german": "Eine LED-Glühbirne.",
+      "english": "An LED bulb.",
+      "highlight": [
+        "LED-Glühbirne."
+      ]
+    }
+  ],
+  "forms": [
+    "glühen",
+    "Birne"
+  ],
+  "memoryHook": "Glühen + Birne = light bulb.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Glühbirne",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Glühbirne is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Glühbirne, zwei ___",
+      "answer": "Glühbirnen",
+      "fullAnswer": "ein Glühbirne, zwei Glühbirnen",
+      "explanation": "The plural is Glühbirnen.",
+      "acceptedAnswers": [
+        "Gluehbirnen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Glühbirne mean?",
+      "options": [
+        "cheap",
+        "never",
+        "light bulb"
+      ],
+      "answer": "light bulb",
+      "explanation": "Glühbirne: light bulb.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "glühen (glow) + Birne (pear)",
+        "Glück + Birne"
+      ],
+      "answer": "glühen (glow) + Birne (pear)",
+      "explanation": "Glowing pear!",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Informal short form:",
+      "options": [
+        "die Birne",
+        "die Glühe"
+      ],
+      "answer": "die Birne",
+      "explanation": "Also 'head'!",
+      "id": "q5"
+    }
+  ]
+}

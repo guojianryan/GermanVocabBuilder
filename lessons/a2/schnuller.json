@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Schnuller",
+    "partOfSpeech": "noun, masculine (der Schnuller)",
+    "pronunciation": {
+      "respelling": "SHNU-ler",
+      "ipa": "ˈʃnʊlɐ",
+      "notes": "The plural looks the same. Plural: die Schnuller."
+    },
+    "meaning": "dummy, pacifier",
+    "shortDefinition": "Dummy, pacifier."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Schnuller, plural die Schnuller.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Schnuller"
+        },
+        {
+          "label": "More than one",
+          "value": "die Schnuller"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das Baby braucht seinen Schnuller.",
+      "english": "The baby needs its dummy.",
+      "highlight": [
+        "Schnuller."
+      ]
+    },
+    {
+      "german": "Der Schnuller ist runtergefallen.",
+      "english": "The dummy fell down.",
+      "highlight": [
+        "Schnuller"
+      ]
+    },
+    {
+      "german": "Sie gewöhnt sich den Schnuller ab.",
+      "english": "She's giving up the dummy.",
+      "highlight": [
+        "Schnuller"
+      ]
+    }
+  ],
+  "forms": [
+    "Baby"
+  ],
+  "memoryHook": "Der Schnuller (dummy).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Schnuller",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Schnuller is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Schnuller, zwei ___",
+      "answer": "Schnuller",
+      "fullAnswer": "ein Schnuller, zwei Schnuller",
+      "explanation": "The plural is Schnuller.",
+      "acceptedAnswers": [
+        "Schnuller"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Schnuller mean?",
+      "options": [
+        "hot",
+        "dummy",
+        "the weather"
+      ],
+      "answer": "dummy",
+      "explanation": "Schnuller: dummy, pacifier.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "schnullen (to suck, dialect)",
+        "schnell"
+      ],
+      "answer": "schnullen (to suck, dialect)",
+      "explanation": "Sucking.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Schnuller",
+        "Schnullern"
+      ],
+      "answer": "Schnuller",
+      "explanation": "No change.",
+      "id": "q5"
+    }
+  ]
+}

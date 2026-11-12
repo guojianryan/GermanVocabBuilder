@@ -1,0 +1,139 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Abgabe",
+    "partOfSpeech": "noun, feminine (die Abgabe)",
+    "pronunciation": {
+      "respelling": "AP-gaa-be",
+      "ipa": "ˈapɡaːbə",
+      "notes": "Plural: die Abgaben."
+    },
+    "meaning": "submission, handing in; levy, tax",
+    "shortDefinition": "Submission, handing in; levy, tax."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Ab",
+        "meaning": "off",
+        "emphasis": "release"
+      },
+      {
+        "part": "gabe",
+        "meaning": "giving (geben)"
+      }
+    ],
+    "literalMeaning": "a giving off",
+    "summary": "Handed over."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Abgabe, plural die Abgaben.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Abgabe"
+        },
+        {
+          "label": "More than one",
+          "value": "die Abgaben"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Abgabe der Hausarbeit ist am Freitag.",
+      "english": "The deadline for the paper is Friday.",
+      "highlight": [
+        "Abgabe"
+      ]
+    },
+    {
+      "german": "Steuern und Abgaben.",
+      "english": "Taxes and levies.",
+      "highlight": [
+        "Abgaben."
+      ]
+    },
+    {
+      "german": "Die Abgabe von Alkohol an Jugendliche ist verboten.",
+      "english": "Selling alcohol to minors is prohibited.",
+      "highlight": [
+        "Abgabe"
+      ]
+    }
+  ],
+  "forms": [
+    "abgeben",
+    "Abgabetermin"
+  ],
+  "memoryHook": "Abgeben → die Abgabe; Abgabetermin.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Abgabe",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Abgabe is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Abgabe, zwei ___",
+      "answer": "Abgaben",
+      "fullAnswer": "ein Abgabe, zwei Abgaben",
+      "explanation": "The plural is Abgaben.",
+      "acceptedAnswers": [
+        "Abgaben"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Abgabe mean?",
+      "options": [
+        "slowly",
+        "submission",
+        "to open"
+      ],
+      "answer": "submission",
+      "explanation": "Abgabe: submission, handing in; levy, tax.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "abgeben (hand in)",
+        "geben only"
+      ],
+      "answer": "abgeben (hand in)",
+      "explanation": "Hand in.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Deadline:",
+      "options": [
+        "der Abgabetermin",
+        "der Abgabetag only"
+      ],
+      "answer": "der Abgabetermin",
+      "explanation": "Compound.",
+      "id": "q5"
+    }
+  ]
+}

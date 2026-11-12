@@ -1,0 +1,171 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "impfen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "IM-pfen",
+      "ipa": "ˈɪmpfn̩",
+      "notes": ""
+    },
+    "meaning": "to vaccinate, inoculate",
+    "shortDefinition": "To vaccinate, inoculate."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "impf|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "impf|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "impf|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "impf|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "impf|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "impf|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat geimpft"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Bist du gegen Grippe geimpft?",
+      "english": "Have you had the flu jab?",
+      "highlight": [
+        "geimpft?"
+      ]
+    },
+    {
+      "german": "Kinder werden gegen Masern geimpft.",
+      "english": "Children are vaccinated against measles.",
+      "highlight": [
+        "geimpft."
+      ]
+    },
+    {
+      "german": "Ich lasse mich impfen.",
+      "english": "I'm getting vaccinated.",
+      "highlight": [
+        "impfen."
+      ]
+    }
+  ],
+  "forms": [
+    "impfe",
+    "impfst",
+    "impft",
+    "impfen",
+    "geimpft",
+    "Impfung",
+    "Impfstoff"
+  ],
+  "memoryHook": "Impfen gegen; die Impfung; der Impfstoff.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (impfen)",
+      "answer": "impft",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: impft.",
+      "acceptedAnswers": [
+        "impft"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (impfen, past)",
+      "answer": "geimpft",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe geimpft.",
+      "acceptedAnswers": [
+        "geimpft"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does impfen mean?",
+      "options": [
+        "quiet",
+        "to vaccinate",
+        "the evening"
+      ],
+      "answer": "to vaccinate",
+      "explanation": "impfen: to vaccinate, inoculate.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Preposition:",
+      "options": [
+        "impfen gegen + Akk.",
+        "impfen vor"
+      ],
+      "answer": "impfen gegen + Akk.",
+      "explanation": "Against.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Noun:",
+      "options": [
+        "die Impfung",
+        "der Impf"
+      ],
+      "answer": "die Impfung",
+      "explanation": "Vaccination.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Vaccine:",
+      "options": [
+        "der Impfstoff",
+        "die Impfe"
+      ],
+      "answer": "der Impfstoff",
+      "explanation": "Substance.",
+      "id": "q6"
+    }
+  ]
+}

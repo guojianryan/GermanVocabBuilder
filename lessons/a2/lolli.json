@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Lolli",
+    "partOfSpeech": "noun, masculine (der Lolli)",
+    "pronunciation": {
+      "respelling": "LO-li",
+      "ipa": "ˈlɔli",
+      "notes": "Plural: die Lollis."
+    },
+    "meaning": "lollipop",
+    "shortDefinition": "Lollipop."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Lolli, plural die Lollis.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Lolli"
+        },
+        {
+          "label": "More than one",
+          "value": "die Lollis"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das Kind hat einen Lolli.",
+      "english": "The child has a lollipop.",
+      "highlight": [
+        "Lolli."
+      ]
+    },
+    {
+      "german": "Beim Arzt gibt es einen Lolli.",
+      "english": "You get a lollipop at the doctor's.",
+      "highlight": [
+        "Lolli."
+      ]
+    },
+    {
+      "german": "Ein roter Lolli.",
+      "english": "A red lollipop.",
+      "highlight": [
+        "Lolli."
+      ]
+    }
+  ],
+  "forms": [
+    "Lutscher"
+  ],
+  "memoryHook": "Der Lolli (= Lutscher).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Lolli",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Lolli is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Lolli, zwei ___",
+      "answer": "Lollis",
+      "fullAnswer": "ein Lolli, zwei Lollis",
+      "explanation": "The plural is Lollis.",
+      "acceptedAnswers": [
+        "Lollis"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Lolli mean?",
+      "options": [
+        "never",
+        "the family",
+        "lollipop"
+      ],
+      "answer": "lollipop",
+      "explanation": "Lolli: lollipop.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Long form:",
+      "options": [
+        "der Lutscher",
+        "der Lecker"
+      ],
+      "answer": "der Lutscher",
+      "explanation": "Standard.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Lollis",
+        "Lollies"
+      ],
+      "answer": "Lollis",
+      "explanation": "German -s.",
+      "id": "q5"
+    }
+  ]
+}

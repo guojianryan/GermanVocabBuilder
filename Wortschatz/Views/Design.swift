@@ -1,3 +1,4 @@
+import UIKit
 import SwiftUI
 
 struct Eyebrow: View {
@@ -23,16 +24,14 @@ struct WordRow: View {
     @Environment(\.appTheme) private var theme
     @Environment(AppStore.self) private var store
     let entry: WordEntry
-    /// When set, the row is in "deck editing" mode: the button marks/unmarks the word instead of saving/removing it.
-    var removalMarked: Bool?
-    var onToggleRemoval: (() -> Void)?
+    var removalPending = false
+    var onRemove: (() -> Void)?
     var body: some View {
-        if let removalMarked, let onToggleRemoval {
-            row(
-                icon: removalMarked ? "arrow.uturn.backward" : "checkmark", filled: !removalMarked,
-                label: removalMarked ? "Keep \(entry.headword) in deck" : "Remove \(entry.headword) from deck",
-                action: onToggleRemoval
-            ).opacity(removalMarked ? 0.45 : 1)
+        if let onRemove {
+            row(icon: removalPending ? "arrow.uturn.backward" : "checkmark", filled: !removalPending,
+                label: removalPending ? "Undo removal of \(entry.headword)" : "Remove \(entry.headword) from deck",
+                action: onRemove)
+                .opacity(removalPending ? 0.65 : 1)
         } else {
             row(
                 icon: store.contains(entry) ? "checkmark" : "plus", filled: store.contains(entry),
@@ -60,7 +59,12 @@ struct WordRow: View {
             Button {
                 withAnimation(reduceMotion ? nil : .spring(response: 0.3, dampingFraction: 0.8)) { action() }
             } label: {
-                Image(systemName: icon)
+                VStack(spacing: 2) {
+                    Image(systemName: icon)
+                    if onRemove != nil && removalPending {
+                        Text("Undo").font(.system(size: 10, weight: .semibold))
+                    }
+                }
                     .contentTransition(reduceMotion ? .identity : .symbolEffect(.replace))
                     .symbolEffect(.bounce, options: .nonRepeating, value: !reduceMotion && filled)
                     .font(.system(size: 15, weight: .semibold)).frame(width: 44, height: 44)
@@ -104,6 +108,70 @@ struct NounGenderKey: View {
                 Text(gender.article).fontWeight(.semibold)
                 Text(gender.rawValue)
             }.foregroundStyle(theme.nounColor(gender))
+        }
+    }
+}
+
+/// Prefer an enabled German keyboard whenever a text field receives focus.
+struct GermanTextField: UIViewRepresentable {
+    @Binding var text: String
+    var placeholder: String
+    var identifier: String? = nil
+    var returnKey: UIReturnKeyType = .done
+    var submit: (() -> Void)? = nil
+    @ScaledMetric(relativeTo: .body) private var fieldHeight = 22
+    @Environment(\.appTheme) private var theme
+    @Environment(\.isEnabled) private var isEnabled
+
+    final class Field: UITextField {
+        override var textInputMode: UITextInputMode? {
+            UITextInputMode.activeInputModes.first {
+                $0.primaryLanguage?.split(separator: "-").first == "de"
+            } ?? super.textInputMode
+        }
+    }
+
+    func makeUIView(context: Context) -> Field {
+        let field = Field()
+        field.placeholder = placeholder
+        field.accessibilityIdentifier = identifier
+        field.font = .preferredFont(forTextStyle: .body)
+        field.adjustsFontForContentSizeCategory = true
+        field.autocorrectionType = .no
+        field.autocapitalizationType = .none
+        field.returnKeyType = returnKey
+        field.delegate = context.coordinator
+        field.addTarget(context.coordinator, action: #selector(Coordinator.changed(_:)), for: .editingChanged)
+        field.setContentCompressionResistancePriority(.defaultLow, for: .horizontal)
+        return field
+    }
+
+    func updateUIView(_ field: Field, context: Context) {
+        context.coordinator.parent = self
+        // Preserve marked text and the cursor while UIKit is handling input.
+        if field.text != text && field.markedTextRange == nil { field.text = text }
+        field.isEnabled = isEnabled
+        field.textColor = UIColor(theme.ink)
+        field.tintColor = UIColor(theme.accent)
+        field.attributedPlaceholder = NSAttributedString(
+            string: placeholder,
+            attributes: [.foregroundColor: UIColor(theme.muted)])
+    }
+
+    func sizeThatFits(_ proposal: ProposedViewSize, uiView: Field, context: Context) -> CGSize? {
+        CGSize(width: proposal.width ?? uiView.intrinsicContentSize.width, height: fieldHeight)
+    }
+
+    func makeCoordinator() -> Coordinator { Coordinator(parent: self) }
+
+    final class Coordinator: NSObject, UITextFieldDelegate {
+        var parent: GermanTextField
+        init(parent: GermanTextField) { self.parent = parent }
+        @objc func changed(_ field: UITextField) { parent.text = field.text ?? "" }
+        func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+            if let submit = parent.submit { submit() }
+            else { textField.resignFirstResponder() }
+            return true
         }
     }
 }

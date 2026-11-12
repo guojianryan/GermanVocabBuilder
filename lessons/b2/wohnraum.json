@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Wohnraum",
+    "partOfSpeech": "noun, masculine (der Wohnraum)",
+    "pronunciation": {
+      "respelling": "VOHN-rowm",
+      "ipa": "ˈvoːnˌʁaʊ̯m",
+      "notes": "Plural: die Wohnräume."
+    },
+    "meaning": "housing, living space",
+    "shortDefinition": "Housing, living space."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Wohn",
+        "meaning": "living"
+      },
+      {
+        "part": "raum",
+        "meaning": "space"
+      }
+    ],
+    "literalMeaning": "living space"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Wohnraum, plural die Wohnräume.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Wohnraum"
+        },
+        {
+          "label": "More than one",
+          "value": "die Wohnräume"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "In der Stadt fehlt bezahlbarer Wohnraum.",
+      "english": "The city lacks affordable housing.",
+      "highlight": [
+        "Wohnraum."
+      ]
+    },
+    {
+      "german": "Neuer Wohnraum wird gebaut.",
+      "english": "New housing is being built.",
+      "highlight": [
+        "Wohnraum"
+      ]
+    },
+    {
+      "german": "Ein heller Wohnraum.",
+      "english": "A bright living area.",
+      "highlight": [
+        "Wohnraum."
+      ]
+    }
+  ],
+  "forms": [
+    "Wohnung",
+    "Raum"
+  ],
+  "memoryHook": "Wohnen + Raum = housing.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Wohnraum",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Wohnraum is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Wohnraum, zwei ___",
+      "answer": "Wohnräume",
+      "fullAnswer": "ein Wohnraum, zwei Wohnräume",
+      "explanation": "The plural is Wohnräume.",
+      "acceptedAnswers": [
+        "Wohnraeume"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Wohnraum mean?",
+      "options": [
+        "the key",
+        "hot",
+        "housing"
+      ],
+      "answer": "housing",
+      "explanation": "Wohnraum: housing, living space.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "wohnen + Raum",
+        "Wohnung + Raum"
+      ],
+      "answer": "wohnen + Raum",
+      "explanation": "Living space.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Bezahlbarer Wohnraum' means…",
+      "options": [
+        "affordable housing",
+        "paid rooms"
+      ],
+      "answer": "affordable housing",
+      "explanation": "Politics.",
+      "id": "q5"
+    }
+  ]
+}

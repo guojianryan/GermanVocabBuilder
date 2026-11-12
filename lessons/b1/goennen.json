@@ -1,0 +1,170 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "gönnen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "GÖ-nen",
+      "ipa": "ˈɡœnən",
+      "notes": ""
+    },
+    "meaning": "to not begrudge, be happy for; (sich ~) to treat oneself",
+    "shortDefinition": "To not begrudge, be happy for; (sich ~) to treat oneself."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "gönn|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "gönn|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "gönn|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "gönn|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "gönn|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "gönn|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gegönnt"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich gönne es dir!",
+      "english": "I'm happy for you! / You deserve it!",
+      "highlight": [
+        "gönne"
+      ]
+    },
+    {
+      "german": "Gönn dir mal eine Pause!",
+      "english": "Treat yourself to a break!",
+      "highlight": [
+        "Gönn"
+      ]
+    },
+    {
+      "german": "Er gönnt ihr den Erfolg nicht.",
+      "english": "He begrudges her the success.",
+      "highlight": [
+        "gönnt"
+      ]
+    }
+  ],
+  "forms": [
+    "gönne",
+    "gönnst",
+    "gönnt",
+    "gönnen",
+    "gegönnt",
+    "Missgunst"
+  ],
+  "memoryHook": "Gönnen = not begrudge; sich etwas gönnen = treat oneself.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (gönnen)",
+      "answer": "gönnt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: gönnt.",
+      "acceptedAnswers": [
+        "goennt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (gönnen, past)",
+      "answer": "gegönnt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gegönnt.",
+      "acceptedAnswers": [
+        "gegoennt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does gönnen mean?",
+      "options": [
+        "to not begrudge",
+        "the weather",
+        "expensive"
+      ],
+      "answer": "to not begrudge",
+      "explanation": "gönnen: to not begrudge, be happy for; (sich ~) to treat oneself.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Ich gönne es dir' means…",
+      "options": [
+        "I'm glad you have it, you deserve it",
+        "I give it to you"
+      ],
+      "answer": "I'm glad you have it, you deserve it",
+      "explanation": "No envy.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Sich etwas gönnen' means…",
+      "options": [
+        "to treat oneself",
+        "to forbid oneself"
+      ],
+      "answer": "to treat oneself",
+      "explanation": "Treat.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Opposite feeling:",
+      "options": [
+        "Neid (envy)",
+        "Freude"
+      ],
+      "answer": "Neid (envy)",
+      "explanation": "Missgunst.",
+      "id": "q6"
+    }
+  ]
+}

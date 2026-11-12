@@ -1,0 +1,133 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Wurm",
+    "partOfSpeech": "noun, masculine (der Wurm)",
+    "pronunciation": {
+      "respelling": "VOORM",
+      "ipa": "vʊʁm",
+      "notes": "Plural: die Würmer."
+    },
+    "meaning": "worm",
+    "shortDefinition": "Worm."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Wurm, plural die Würmer.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Wurm"
+        },
+        {
+          "label": "More than one",
+          "value": "die Würmer"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Nach dem Regen sind viele Würmer da.",
+      "english": "After the rain there are lots of worms.",
+      "highlight": [
+        "Würmer"
+      ]
+    },
+    {
+      "german": "Der Apfel hat einen Wurm.",
+      "english": "The apple has a worm.",
+      "highlight": [
+        "Wurm."
+      ]
+    },
+    {
+      "german": "Da ist der Wurm drin.",
+      "english": "Something's wrong there.",
+      "highlight": [
+        "Wurm"
+      ]
+    }
+  ],
+  "forms": [
+    "Regenwurm"
+  ],
+  "memoryHook": "Der Wurm, die Würmer; Regenwurm.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Wurm",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Wurm is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Wurm, zwei ___",
+      "answer": "Würmer",
+      "fullAnswer": "ein Wurm, zwei Würmer",
+      "explanation": "The plural is Würmer.",
+      "acceptedAnswers": [
+        "Wuermer"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Wurm mean?",
+      "options": [
+        "the car",
+        "the family",
+        "worm"
+      ],
+      "answer": "worm",
+      "explanation": "Wurm: worm.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Würmer",
+        "Wurme"
+      ],
+      "answer": "Würmer",
+      "explanation": "Umlaut + -er.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Da ist der Wurm drin' means…",
+      "options": [
+        "something's not right",
+        "it's rotten fruit"
+      ],
+      "answer": "something's not right",
+      "explanation": "Idiom.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Earthworm:",
+      "options": [
+        "der Regenwurm",
+        "der Erdwurm only"
+      ],
+      "answer": "der Regenwurm",
+      "explanation": "Rain worm!",
+      "id": "q6"
+    }
+  ]
+}

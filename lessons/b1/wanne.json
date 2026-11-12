@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Wanne",
+    "partOfSpeech": "noun, feminine (die Wanne)",
+    "pronunciation": {
+      "respelling": "VA-ne",
+      "ipa": "ˈvanə",
+      "notes": "Plural: die Wannen."
+    },
+    "meaning": "tub, bath",
+    "shortDefinition": "Tub, bath."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Wanne, plural die Wannen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Wanne"
+        },
+        {
+          "label": "More than one",
+          "value": "die Wannen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich lege mich in die Wanne.",
+      "english": "I'm getting in the bath.",
+      "highlight": [
+        "Wanne."
+      ]
+    },
+    {
+      "german": "Die Badewanne ist voll.",
+      "english": "The bath is full.",
+      "highlight": [
+        "Badewanne"
+      ]
+    },
+    {
+      "german": "Eine Wanne mit Wasser.",
+      "english": "A tub of water.",
+      "highlight": [
+        "Wanne"
+      ]
+    }
+  ],
+  "forms": [
+    "Badewanne",
+    "Dusche"
+  ],
+  "memoryHook": "Die Wanne; Badewanne.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Wanne",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Wanne is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Wanne, zwei ___",
+      "answer": "Wannen",
+      "fullAnswer": "ein Wanne, zwei Wannen",
+      "explanation": "The plural is Wannen.",
+      "acceptedAnswers": [
+        "Wannen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Wanne mean?",
+      "options": [
+        "tub",
+        "always",
+        "expensive"
+      ],
+      "answer": "tub",
+      "explanation": "Wanne: tub, bath.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Bathtub:",
+      "options": [
+        "die Badewanne",
+        "das Badebecken"
+      ],
+      "answer": "die Badewanne",
+      "explanation": "Compound.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Wannen",
+        "Wanne"
+      ],
+      "answer": "Wannen",
+      "explanation": "-n.",
+      "id": "q5"
+    }
+  ]
+}

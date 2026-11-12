@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Bratwurst",
+    "partOfSpeech": "noun, feminine (die Bratwurst)",
+    "pronunciation": {
+      "respelling": "BRAAT-voorst",
+      "ipa": "ˈbʁaːtˌvʊʁst",
+      "notes": "Plural: die Bratwürste."
+    },
+    "meaning": "fried / grilled sausage",
+    "shortDefinition": "Fried / grilled sausage."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Brat",
+        "meaning": "fry (braten)"
+      },
+      {
+        "part": "wurst",
+        "meaning": "sausage"
+      }
+    ],
+    "literalMeaning": "frying sausage"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Bratwurst, plural die Bratwürste.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Bratwurst"
+        },
+        {
+          "label": "More than one",
+          "value": "die Bratwürste"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Eine Bratwurst mit Senf.",
+      "english": "A bratwurst with mustard.",
+      "highlight": [
+        "Bratwurst"
+      ]
+    },
+    {
+      "german": "Am Wochenende grillen wir Bratwürste.",
+      "english": "We're grilling sausages at the weekend.",
+      "highlight": [
+        "Bratwürste."
+      ]
+    },
+    {
+      "german": "Die Thüringer Bratwurst ist berühmt.",
+      "english": "The Thuringian bratwurst is famous.",
+      "highlight": [
+        "Bratwurst"
+      ]
+    }
+  ],
+  "forms": [
+    "braten",
+    "Wurst"
+  ],
+  "memoryHook": "Braten + Wurst = bratwurst.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Bratwurst",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Bratwurst is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Bratwurst, zwei ___",
+      "answer": "Bratwürste",
+      "fullAnswer": "ein Bratwurst, zwei Bratwürste",
+      "explanation": "The plural is Bratwürste.",
+      "acceptedAnswers": [
+        "Bratwuerste"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Bratwurst mean?",
+      "options": [
+        "tomorrow",
+        "fried / grilled sausage",
+        "the child"
+      ],
+      "answer": "fried / grilled sausage",
+      "explanation": "Bratwurst: fried / grilled sausage.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "braten (fry) + Wurst",
+        "Brat + Würze"
+      ],
+      "answer": "braten (fry) + Wurst",
+      "explanation": "Frying sausage.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Bratwürste",
+        "Bratwursten"
+      ],
+      "answer": "Bratwürste",
+      "explanation": "Umlaut.",
+      "id": "q5"
+    }
+  ]
+}

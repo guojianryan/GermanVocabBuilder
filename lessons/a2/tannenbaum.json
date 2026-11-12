@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Tannenbaum",
+    "partOfSpeech": "noun, masculine (der Tannenbaum)",
+    "pronunciation": {
+      "respelling": "TA-nen-bowm",
+      "ipa": "ˈtanənˌbaʊ̯m",
+      "notes": "Plural: die Tannenbäume."
+    },
+    "meaning": "fir tree; Christmas tree",
+    "shortDefinition": "Fir tree; Christmas tree."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Tannen",
+        "meaning": "fir"
+      },
+      {
+        "part": "baum",
+        "meaning": "tree"
+      }
+    ],
+    "literalMeaning": "fir tree"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Tannenbaum, plural die Tannenbäume.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Tannenbaum"
+        },
+        {
+          "label": "More than one",
+          "value": "die Tannenbäume"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir schmücken den Tannenbaum.",
+      "english": "We're decorating the Christmas tree.",
+      "highlight": [
+        "Tannenbaum."
+      ]
+    },
+    {
+      "german": "O Tannenbaum!",
+      "english": "O Christmas tree!",
+      "highlight": [
+        "Tannenbaum!"
+      ]
+    },
+    {
+      "german": "Der Tannenbaum steht im Wohnzimmer.",
+      "english": "The Christmas tree is in the living room.",
+      "highlight": [
+        "Tannenbaum"
+      ]
+    }
+  ],
+  "forms": [
+    "Tanne",
+    "Weihnachtsbaum"
+  ],
+  "memoryHook": "Tanne + Baum (= Weihnachtsbaum).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Tannenbaum",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Tannenbaum is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Tannenbaum, zwei ___",
+      "answer": "Tannenbäume",
+      "fullAnswer": "ein Tannenbaum, zwei Tannenbäume",
+      "explanation": "The plural is Tannenbäume.",
+      "acceptedAnswers": [
+        "Tannenbaeume"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Tannenbaum mean?",
+      "options": [
+        "to sing",
+        "the shop",
+        "fir tree"
+      ],
+      "answer": "fir tree",
+      "explanation": "Tannenbaum: fir tree; Christmas tree.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Tanne (fir) + Baum",
+        "Tanz + Baum"
+      ],
+      "answer": "Tanne (fir) + Baum",
+      "explanation": "Fir tree.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonym:",
+      "options": [
+        "der Weihnachtsbaum",
+        "der Osterbaum"
+      ],
+      "answer": "der Weihnachtsbaum",
+      "explanation": "Christmas tree.",
+      "id": "q5"
+    }
+  ]
+}

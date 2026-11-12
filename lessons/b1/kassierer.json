@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Kassierer",
+    "partOfSpeech": "noun, masculine (der Kassierer)",
+    "pronunciation": {
+      "respelling": "ka-SEE-rer",
+      "ipa": "kaˈsiːʁɐ",
+      "notes": "The plural looks the same. Plural: die Kassierer."
+    },
+    "meaning": "cashier",
+    "shortDefinition": "Cashier."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Kassierer, plural die Kassierer.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Kassierer"
+        },
+        {
+          "label": "More than one",
+          "value": "die Kassierer"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Kassierer gibt mir das Wechselgeld.",
+      "english": "The cashier gives me my change.",
+      "highlight": [
+        "Kassierer"
+      ]
+    },
+    {
+      "german": "Sie arbeitet als Kassiererin im Supermarkt.",
+      "english": "She works as a cashier in the supermarket.",
+      "highlight": [
+        "Kassiererin"
+      ]
+    },
+    {
+      "german": "Bitte zahlen Sie beim Kassierer.",
+      "english": "Please pay the cashier.",
+      "highlight": [
+        "Kassierer."
+      ]
+    }
+  ],
+  "forms": [
+    "Kasse",
+    "kassieren"
+  ],
+  "memoryHook": "Die Kasse → kassieren → der Kassierer.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Kassierer",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Kassierer is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Kassierer, zwei ___",
+      "answer": "Kassierer",
+      "fullAnswer": "ein Kassierer, zwei Kassierer",
+      "explanation": "The plural is Kassierer.",
+      "acceptedAnswers": [
+        "Kassierer"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Kassierer mean?",
+      "options": [
+        "to open",
+        "tomorrow",
+        "cashier"
+      ],
+      "answer": "cashier",
+      "explanation": "Kassierer: cashier.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "kassieren / die Kasse",
+        "der Kasten"
+      ],
+      "answer": "kassieren / die Kasse",
+      "explanation": "Till.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Female:",
+      "options": [
+        "die Kassiererin",
+        "die Kassierin"
+      ],
+      "answer": "die Kassiererin",
+      "explanation": "-in.",
+      "id": "q5"
+    }
+  ]
+}

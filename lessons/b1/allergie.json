@@ -1,0 +1,134 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Allergie",
+    "partOfSpeech": "noun, feminine (die Allergie)",
+    "pronunciation": {
+      "respelling": "a-ler-GEE",
+      "ipa": "alɛʁˈɡiː",
+      "notes": "Plural: die Allergien."
+    },
+    "meaning": "allergy",
+    "shortDefinition": "Allergy."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Allergie, plural die Allergien.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Allergie"
+        },
+        {
+          "label": "More than one",
+          "value": "die Allergien"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich habe eine Allergie gegen Nüsse.",
+      "english": "I'm allergic to nuts.",
+      "highlight": [
+        "Allergie"
+      ]
+    },
+    {
+      "german": "Viele Menschen haben Allergien.",
+      "english": "Many people have allergies.",
+      "highlight": [
+        "Allergien."
+      ]
+    },
+    {
+      "german": "Er ist Allergiker.",
+      "english": "He's an allergy sufferer.",
+      "highlight": [
+        "Allergiker."
+      ]
+    }
+  ],
+  "forms": [
+    "allergisch",
+    "Allergiker"
+  ],
+  "memoryHook": "Die Allergie gegen; allergisch gegen.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Allergie",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Allergie is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Allergie, zwei ___",
+      "answer": "Allergien",
+      "fullAnswer": "ein Allergie, zwei Allergien",
+      "explanation": "The plural is Allergien.",
+      "acceptedAnswers": [
+        "Allergien"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Allergie mean?",
+      "options": [
+        "always",
+        "allergy",
+        "the street"
+      ],
+      "answer": "allergy",
+      "explanation": "Allergie: allergy.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Preposition:",
+      "options": [
+        "Allergie gegen + Akk.",
+        "Allergie auf only"
+      ],
+      "answer": "Allergie gegen + Akk.",
+      "explanation": "Against.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Adjective:",
+      "options": [
+        "allergisch (gegen)",
+        "allergistisch"
+      ],
+      "answer": "allergisch (gegen)",
+      "explanation": "Allergic.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Stress on…",
+      "options": [
+        "-GIE",
+        "AL-"
+      ],
+      "answer": "-GIE",
+      "explanation": "a-ler-GEE.",
+      "id": "q6"
+    }
+  ]
+}

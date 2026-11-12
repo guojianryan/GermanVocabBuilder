@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Räuber",
+    "partOfSpeech": "noun, masculine (der Räuber)",
+    "pronunciation": {
+      "respelling": "ROY-ber",
+      "ipa": "ˈʁɔʏ̯bɐ",
+      "notes": "The plural looks the same. Plural: die Räuber."
+    },
+    "meaning": "robber",
+    "shortDefinition": "Robber."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Räub",
+        "meaning": "rob (rauben)"
+      },
+      {
+        "part": "er",
+        "meaning": "person"
+      }
+    ],
+    "literalMeaning": "robber"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Räuber, plural die Räuber.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Räuber"
+        },
+        {
+          "label": "More than one",
+          "value": "die Räuber"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Räuber flohen mit dem Geld.",
+      "english": "The robbers fled with the money.",
+      "highlight": [
+        "Räuber"
+      ]
+    },
+    {
+      "german": "Räuber und Gendarm spielen.",
+      "english": "To play cops and robbers.",
+      "highlight": [
+        "Räuber"
+      ]
+    },
+    {
+      "german": "Ein Bankräuber.",
+      "english": "A bank robber.",
+      "highlight": [
+        "Bankräuber."
+      ]
+    }
+  ],
+  "forms": [
+    "rauben",
+    "Raub"
+  ],
+  "memoryHook": "Rauben → der Räuber; der Raub.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Räuber",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Räuber is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Räuber, zwei ___",
+      "answer": "Räuber",
+      "fullAnswer": "ein Räuber, zwei Räuber",
+      "explanation": "The plural is Räuber.",
+      "acceptedAnswers": [
+        "Raeuber"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Räuber mean?",
+      "options": [
+        "to learn",
+        "robber",
+        "to buy"
+      ],
+      "answer": "robber",
+      "explanation": "Räuber: robber.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "From…",
+      "options": [
+        "rauben (rob)",
+        "Rauch"
+      ],
+      "answer": "rauben (rob)",
+      "explanation": "Rob.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Robbery:",
+      "options": [
+        "der Raub / der Überfall",
+        "die Räuberei"
+      ],
+      "answer": "der Raub / der Überfall",
+      "explanation": "Crime.",
+      "id": "q5"
+    }
+  ]
+}

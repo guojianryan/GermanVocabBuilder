@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Kürbis",
+    "partOfSpeech": "noun, masculine (der Kürbis)",
+    "pronunciation": {
+      "respelling": "KÜR-bis",
+      "ipa": "ˈkʏʁbɪs",
+      "notes": "Plural: die Kürbisse."
+    },
+    "meaning": "pumpkin, squash",
+    "shortDefinition": "Pumpkin, squash."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Kürbis, plural die Kürbisse.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Kürbis"
+        },
+        {
+          "label": "More than one",
+          "value": "die Kürbisse"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Wir schnitzen einen Kürbis.",
+      "english": "We're carving a pumpkin.",
+      "highlight": [
+        "Kürbis."
+      ]
+    },
+    {
+      "german": "Kürbissuppe ist lecker.",
+      "english": "Pumpkin soup is delicious.",
+      "highlight": [
+        "Kürbissuppe"
+      ]
+    },
+    {
+      "german": "Im Herbst gibt es viele Kürbisse.",
+      "english": "There are lots of pumpkins in autumn.",
+      "highlight": [
+        "Kürbisse."
+      ]
+    }
+  ],
+  "forms": [
+    "Kürbissuppe"
+  ],
+  "memoryHook": "Der Kürbis, die Kürbisse; Kürbissuppe.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Kürbis",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Kürbis is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Kürbis, zwei ___",
+      "answer": "Kürbisse",
+      "fullAnswer": "ein Kürbis, zwei Kürbisse",
+      "explanation": "The plural is Kürbisse.",
+      "acceptedAnswers": [
+        "Kuerbisse"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Kürbis mean?",
+      "options": [
+        "pumpkin",
+        "quiet",
+        "expensive"
+      ],
+      "answer": "pumpkin",
+      "explanation": "Kürbis: pumpkin, squash.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Kürbisse",
+        "Kürbise"
+      ],
+      "answer": "Kürbisse",
+      "explanation": "Double s.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Pumpkin seeds:",
+      "options": [
+        "die Kürbiskerne",
+        "die Kürbissamen only"
+      ],
+      "answer": "die Kürbiskerne",
+      "explanation": "Snack.",
+      "id": "q5"
+    }
+  ]
+}

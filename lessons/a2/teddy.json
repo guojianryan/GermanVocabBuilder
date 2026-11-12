@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Teddy",
+    "partOfSpeech": "noun, masculine (der Teddy)",
+    "pronunciation": {
+      "respelling": "TE-di",
+      "ipa": "ˈtɛdi",
+      "notes": "Plural: die Teddys."
+    },
+    "meaning": "teddy bear",
+    "shortDefinition": "Teddy bear."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Teddy, plural die Teddys.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Teddy"
+        },
+        {
+          "label": "More than one",
+          "value": "die Teddys"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das Kind schläft mit seinem Teddy.",
+      "english": "The child sleeps with its teddy.",
+      "highlight": [
+        "Teddy."
+      ]
+    },
+    {
+      "german": "Ein alter Teddybär.",
+      "english": "An old teddy bear.",
+      "highlight": [
+        "Teddybär."
+      ]
+    },
+    {
+      "german": "Wo ist mein Teddy?",
+      "english": "Where's my teddy?",
+      "highlight": [
+        "Teddy?"
+      ]
+    }
+  ],
+  "forms": [
+    "Teddybär",
+    "Kuscheltier"
+  ],
+  "memoryHook": "Der Teddy (= Teddybär); Kuscheltier.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Teddy",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Teddy is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Teddy, zwei ___",
+      "answer": "Teddys",
+      "fullAnswer": "ein Teddy, zwei Teddys",
+      "explanation": "The plural is Teddys.",
+      "acceptedAnswers": [
+        "Teddys"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Teddy mean?",
+      "options": [
+        "the window",
+        "the bed",
+        "teddy bear"
+      ],
+      "answer": "teddy bear",
+      "explanation": "Teddy: teddy bear.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Long form:",
+      "options": [
+        "der Teddybär",
+        "die Teddybärin"
+      ],
+      "answer": "der Teddybär",
+      "explanation": "Bear.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Teddys",
+        "Teddies"
+      ],
+      "answer": "Teddys",
+      "explanation": "German -s.",
+      "id": "q5"
+    }
+  ]
+}

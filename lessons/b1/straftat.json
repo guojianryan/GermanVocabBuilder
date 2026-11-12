@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Straftat",
+    "partOfSpeech": "noun, feminine (die Straftat)",
+    "pronunciation": {
+      "respelling": "SHTRAAF-taat",
+      "ipa": "ˈʃtʁaːfˌtaːt",
+      "notes": "Plural: die Straftaten."
+    },
+    "meaning": "criminal offence, crime",
+    "shortDefinition": "Criminal offence, crime."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Straf",
+        "meaning": "punishment"
+      },
+      {
+        "part": "tat",
+        "meaning": "deed"
+      }
+    ],
+    "literalMeaning": "punishable deed"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Straftat, plural die Straftaten.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Straftat"
+        },
+        {
+          "label": "More than one",
+          "value": "die Straftaten"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Das ist eine Straftat.",
+      "english": "That's a criminal offence.",
+      "highlight": [
+        "Straftat."
+      ]
+    },
+    {
+      "german": "Er wurde wegen mehrerer Straftaten verurteilt.",
+      "english": "He was convicted of several offences.",
+      "highlight": [
+        "Straftaten"
+      ]
+    },
+    {
+      "german": "Eine schwere Straftat.",
+      "english": "A serious crime.",
+      "highlight": [
+        "Straftat."
+      ]
+    }
+  ],
+  "forms": [
+    "Straftäter",
+    "Verbrechen"
+  ],
+  "memoryHook": "Strafe + Tat = criminal offence; Straftäter.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Straftat",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Straftat is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Straftat, zwei ___",
+      "answer": "Straftaten",
+      "fullAnswer": "ein Straftat, zwei Straftaten",
+      "explanation": "The plural is Straftaten.",
+      "acceptedAnswers": [
+        "Straftaten"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Straftat mean?",
+      "options": [
+        "to sing",
+        "always",
+        "criminal offence"
+      ],
+      "answer": "criminal offence",
+      "explanation": "Straftat: criminal offence, crime.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Strafe (punishment) + Tat (deed)",
+        "Straße + Tat"
+      ],
+      "answer": "Strafe (punishment) + Tat (deed)",
+      "explanation": "Punishable deed.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Offender:",
+      "options": [
+        "der Straftäter",
+        "der Strafer"
+      ],
+      "answer": "der Straftäter",
+      "explanation": "Person.",
+      "id": "q5"
+    }
+  ]
+}

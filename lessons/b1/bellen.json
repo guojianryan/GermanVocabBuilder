@@ -1,0 +1,158 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "bellen",
+    "partOfSpeech": "verb",
+    "pronunciation": {
+      "respelling": "BE-len",
+      "ipa": "ˈbɛlən",
+      "notes": ""
+    },
+    "meaning": "to bark",
+    "shortDefinition": "To bark."
+  },
+  "tables": [
+    {
+      "title": "Present tense",
+      "columns": [
+        "present"
+      ],
+      "rows": [
+        {
+          "label": "ich",
+          "cells": [
+            "bell|e"
+          ]
+        },
+        {
+          "label": "du",
+          "cells": [
+            "bell|st"
+          ]
+        },
+        {
+          "label": "er, sie, es",
+          "cells": [
+            "bell|t"
+          ]
+        },
+        {
+          "label": "wir",
+          "cells": [
+            "bell|en"
+          ]
+        },
+        {
+          "label": "ihr",
+          "cells": [
+            "bell|t"
+          ]
+        },
+        {
+          "label": "sie, Sie",
+          "cells": [
+            "bell|en"
+          ]
+        }
+      ],
+      "notes": [
+        "Past (Perfekt): hat gebellt"
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Der Hund bellt die ganze Nacht.",
+      "english": "The dog barks all night.",
+      "highlight": [
+        "bellt"
+      ]
+    },
+    {
+      "german": "Hunde, die bellen, beißen nicht.",
+      "english": "His bark is worse than his bite.",
+      "highlight": [
+        "bellen,"
+      ]
+    },
+    {
+      "german": "Er bellte einen Befehl.",
+      "english": "He barked an order.",
+      "highlight": [
+        "bellte"
+      ]
+    }
+  ],
+  "forms": [
+    "belle",
+    "bellst",
+    "bellt",
+    "bellen",
+    "gebellt"
+  ],
+  "memoryHook": "Bellen = bark; Hunde, die bellen, beißen nicht.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "er ___ (bellen)",
+      "answer": "bellt",
+      "fullAnswer": "",
+      "explanation": "For er, sie, es: bellt.",
+      "acceptedAnswers": [
+        "bellt"
+      ],
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich habe schon ___. (bellen, past)",
+      "answer": "gebellt",
+      "fullAnswer": "",
+      "explanation": "Perfekt: habe gebellt.",
+      "acceptedAnswers": [
+        "gebellt"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does bellen mean?",
+      "options": [
+        "to help",
+        "slowly",
+        "to bark"
+      ],
+      "answer": "to bark",
+      "explanation": "bellen: to bark.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Hunde, die bellen, beißen nicht' means…",
+      "options": [
+        "people who threaten often don't act",
+        "dogs are friendly"
+      ],
+      "answer": "people who threaten often don't act",
+      "explanation": "Saying.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "A cat…",
+      "options": [
+        "miaut",
+        "bellt"
+      ],
+      "answer": "miaut",
+      "explanation": "Animal sounds.",
+      "id": "q5"
+    }
+  ]
+}

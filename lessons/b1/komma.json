@@ -1,0 +1,133 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Komma",
+    "partOfSpeech": "noun, neuter (das Komma)",
+    "pronunciation": {
+      "respelling": "KO-ma",
+      "ipa": "ˈkɔma",
+      "notes": "Plural also Kommata. Plural: die Kommas."
+    },
+    "meaning": "comma; decimal point",
+    "shortDefinition": "Comma; decimal point."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Komma, plural die Kommas.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Komma"
+        },
+        {
+          "label": "More than one",
+          "value": "die Kommas"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Vor 'dass' steht ein Komma.",
+      "english": "There's a comma before 'dass'.",
+      "highlight": [
+        "Komma."
+      ]
+    },
+    {
+      "german": "Drei Komma fünf Prozent.",
+      "english": "Three point five percent.",
+      "highlight": [
+        "Komma"
+      ]
+    },
+    {
+      "german": "Hier fehlt ein Komma.",
+      "english": "A comma is missing here.",
+      "highlight": [
+        "Komma."
+      ]
+    }
+  ],
+  "forms": [
+    "Punkt"
+  ],
+  "memoryHook": "Das Komma; 3,5 = drei Komma fünf.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Komma",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Komma is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Komma, zwei ___",
+      "answer": "Kommas",
+      "fullAnswer": "ein Komma, zwei Kommas",
+      "explanation": "The plural is Kommas.",
+      "acceptedAnswers": [
+        "Kommas"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Komma mean?",
+      "options": [
+        "comma",
+        "never",
+        "hot"
+      ],
+      "answer": "comma",
+      "explanation": "Komma: comma; decimal point.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "In numbers, German uses a comma for…",
+      "options": [
+        "the decimal point (3,5)",
+        "thousands"
+      ],
+      "answer": "the decimal point (3,5)",
+      "explanation": "3,5 = 3.5.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Kommas / Kommata",
+        "Kommen"
+      ],
+      "answer": "Kommas / Kommata",
+      "explanation": "Both.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Full stop:",
+      "options": [
+        "der Punkt",
+        "das Komma"
+      ],
+      "answer": "der Punkt",
+      "explanation": "End.",
+      "id": "q6"
+    }
+  ]
+}

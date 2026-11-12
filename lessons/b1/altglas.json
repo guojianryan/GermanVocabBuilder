@@ -1,0 +1,130 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Altglas",
+    "partOfSpeech": "noun, neuter (das Altglas)",
+    "pronunciation": {
+      "respelling": "ALT-glaas",
+      "ipa": "ˈaltˌɡlaːs",
+      "notes": "Usually no plural."
+    },
+    "meaning": "glass for recycling",
+    "shortDefinition": "Glass for recycling."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Alt",
+        "meaning": "old"
+      },
+      {
+        "part": "glas",
+        "meaning": "glass"
+      }
+    ],
+    "literalMeaning": "old glass"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Altglas, usually no plural.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Altglas"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Altglas kommt in den Container.",
+      "english": "Old glass goes in the bottle bank.",
+      "highlight": [
+        "Altglas"
+      ]
+    },
+    {
+      "german": "Weißglas, Grünglas, Braunglas.",
+      "english": "Clear, green, brown glass.",
+      "highlight": [
+        "Grünglas,"
+      ]
+    },
+    {
+      "german": "Der Altglascontainer ist voll.",
+      "english": "The bottle bank is full.",
+      "highlight": [
+        "Altglascontainer"
+      ]
+    }
+  ],
+  "forms": [
+    "Altpapier",
+    "Glas"
+  ],
+  "memoryHook": "Alt + Glas = recycling glass; Altpapier.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Altglas",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Altglas is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Altglas mean?",
+      "options": [
+        "the street",
+        "the shop",
+        "glass for recycling"
+      ],
+      "answer": "glass for recycling",
+      "explanation": "Altglas: glass for recycling.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "alt + Glas",
+        "Alt + Glanz"
+      ],
+      "answer": "alt + Glas",
+      "explanation": "Old glass.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Sorted by…",
+      "options": [
+        "colour",
+        "size"
+      ],
+      "answer": "colour",
+      "explanation": "Weiß, grün, braun.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Bring das ___ weg. (old glass)",
+      "answer": "Altglas",
+      "fullAnswer": "Bring das Altglas weg.",
+      "explanation": "Altglas.",
+      "id": "q5"
+    }
+  ]
+}

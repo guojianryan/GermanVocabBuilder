@@ -1,0 +1,141 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Federmäppchen",
+    "partOfSpeech": "noun, neuter (das Federmäppchen)",
+    "pronunciation": {
+      "respelling": "FAY-der-mep-khen",
+      "ipa": "ˈfeːdɐˌmɛpçən",
+      "notes": "The plural looks the same. Plural: die Federmäppchen."
+    },
+    "meaning": "pencil case",
+    "shortDefinition": "Pencil case."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Feder",
+        "meaning": "feather, quill"
+      },
+      {
+        "part": "mäpp",
+        "meaning": "folder (Mappe)"
+      },
+      {
+        "part": "chen",
+        "meaning": "small"
+      }
+    ],
+    "literalMeaning": "little quill folder"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Federmäppchen, plural die Federmäppchen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Federmäppchen"
+        },
+        {
+          "label": "More than one",
+          "value": "die Federmäppchen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Mein Federmäppchen ist im Rucksack.",
+      "english": "My pencil case is in my rucksack.",
+      "highlight": [
+        "Federmäppchen"
+      ]
+    },
+    {
+      "german": "Im Federmäppchen sind Stifte und ein Radiergummi.",
+      "english": "There are pens and a rubber in the pencil case.",
+      "highlight": [
+        "Federmäppchen"
+      ]
+    },
+    {
+      "german": "Ein neues Federmäppchen für die Schule.",
+      "english": "A new pencil case for school.",
+      "highlight": [
+        "Federmäppchen"
+      ]
+    }
+  ],
+  "forms": [
+    "Mäppchen",
+    "Federtasche"
+  ],
+  "memoryHook": "Feder + Mäppchen = pencil case.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Federmäppchen",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Federmäppchen is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Federmäppchen, zwei ___",
+      "answer": "Federmäppchen",
+      "fullAnswer": "ein Federmäppchen, zwei Federmäppchen",
+      "explanation": "The plural is Federmäppchen.",
+      "acceptedAnswers": [
+        "Federmaeppchen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Federmäppchen mean?",
+      "options": [
+        "pencil case",
+        "the bed",
+        "slowly"
+      ],
+      "answer": "pencil case",
+      "explanation": "Federmäppchen: pencil case.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Feder (quill) + Mäppchen (small folder)",
+        "Feder + Mappe only"
+      ],
+      "answer": "Feder (quill) + Mäppchen (small folder)",
+      "explanation": "Quill case.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Short synonym:",
+      "options": [
+        "das Mäppchen",
+        "die Federtasche only"
+      ],
+      "answer": "das Mäppchen",
+      "explanation": "Also Federtasche.",
+      "id": "q5"
+    }
+  ]
+}

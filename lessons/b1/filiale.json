@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Filiale",
+    "partOfSpeech": "noun, feminine (die Filiale)",
+    "pronunciation": {
+      "respelling": "fi-LYAA-le",
+      "ipa": "fiˈli̯aːlə",
+      "notes": "Plural: die Filialen."
+    },
+    "meaning": "branch (of a shop / bank)",
+    "shortDefinition": "Branch (of a shop / bank)."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Filiale, plural die Filialen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Filiale"
+        },
+        {
+          "label": "More than one",
+          "value": "die Filialen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Bank hat eine Filiale am Markt.",
+      "english": "The bank has a branch on the market square.",
+      "highlight": [
+        "Filiale"
+      ]
+    },
+    {
+      "german": "Viele Filialen werden geschlossen.",
+      "english": "Many branches are being closed.",
+      "highlight": [
+        "Filialen"
+      ]
+    },
+    {
+      "german": "In welcher Filiale arbeiten Sie?",
+      "english": "Which branch do you work in?",
+      "highlight": [
+        "Filiale"
+      ]
+    }
+  ],
+  "forms": [
+    "Zweigstelle",
+    "Zentrale"
+  ],
+  "memoryHook": "Die Filiale (= Zweigstelle) ↔ Zentrale.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Filiale",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Filiale is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Filiale, zwei ___",
+      "answer": "Filialen",
+      "fullAnswer": "ein Filiale, zwei Filialen",
+      "explanation": "The plural is Filialen.",
+      "acceptedAnswers": [
+        "Filialen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Filiale mean?",
+      "options": [
+        "the door",
+        "to sleep",
+        "branch (of a shop / bank)"
+      ],
+      "answer": "branch (of a shop / bank)",
+      "explanation": "Filiale: branch (of a shop / bank).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonym:",
+      "options": [
+        "die Zweigstelle",
+        "die Zentrale"
+      ],
+      "answer": "die Zweigstelle",
+      "explanation": "Branch.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Head office:",
+      "options": [
+        "die Zentrale",
+        "die Hauptfiliale only"
+      ],
+      "answer": "die Zentrale",
+      "explanation": "HQ.",
+      "id": "q5"
+    }
+  ]
+}

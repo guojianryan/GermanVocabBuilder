@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Kleiderschrank",
+    "partOfSpeech": "noun, masculine (der Kleiderschrank)",
+    "pronunciation": {
+      "respelling": "KLY-der-shrank",
+      "ipa": "ˈklaɪ̯dɐˌʃʁaŋk",
+      "notes": "Plural: die Kleiderschränke."
+    },
+    "meaning": "wardrobe",
+    "shortDefinition": "Wardrobe."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Kleider",
+        "meaning": "clothes"
+      },
+      {
+        "part": "schrank",
+        "meaning": "cupboard"
+      }
+    ],
+    "literalMeaning": "clothes cupboard"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Kleiderschrank, plural die Kleiderschränke.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Kleiderschrank"
+        },
+        {
+          "label": "More than one",
+          "value": "die Kleiderschränke"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Meine Sachen sind im Kleiderschrank.",
+      "english": "My things are in the wardrobe.",
+      "highlight": [
+        "Kleiderschrank."
+      ]
+    },
+    {
+      "german": "Der Kleiderschrank ist voll.",
+      "english": "The wardrobe is full.",
+      "highlight": [
+        "Kleiderschrank"
+      ]
+    },
+    {
+      "german": "Er ist ein richtiger Kleiderschrank.",
+      "english": "He's built like a wardrobe (huge).",
+      "highlight": [
+        "Kleiderschrank."
+      ]
+    }
+  ],
+  "forms": [
+    "Schrank",
+    "Kleider"
+  ],
+  "memoryHook": "Kleider + Schrank = wardrobe.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Kleiderschrank",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Kleiderschrank is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Kleiderschrank, zwei ___",
+      "answer": "Kleiderschränke",
+      "fullAnswer": "ein Kleiderschrank, zwei Kleiderschränke",
+      "explanation": "The plural is Kleiderschränke.",
+      "acceptedAnswers": [
+        "Kleiderschraenke"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Kleiderschrank mean?",
+      "options": [
+        "slowly",
+        "wardrobe",
+        "the child"
+      ],
+      "answer": "wardrobe",
+      "explanation": "Kleiderschrank: wardrobe.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Kleider + Schrank",
+        "Kleid + Erschrank"
+      ],
+      "answer": "Kleider + Schrank",
+      "explanation": "Clothes cupboard.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Kleiderschränke",
+        "Kleiderschranken"
+      ],
+      "answer": "Kleiderschränke",
+      "explanation": "Umlaut.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Ratte",
+    "partOfSpeech": "noun, feminine (die Ratte)",
+    "pronunciation": {
+      "respelling": "RA-te",
+      "ipa": "ˈʁatə",
+      "notes": "Plural: die Ratten."
+    },
+    "meaning": "rat",
+    "shortDefinition": "Rat."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Ratte, plural die Ratten.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Ratte"
+        },
+        {
+          "label": "More than one",
+          "value": "die Ratten"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Im Keller ist eine Ratte.",
+      "english": "There's a rat in the cellar.",
+      "highlight": [
+        "Ratte."
+      ]
+    },
+    {
+      "german": "Ratten übertragen Krankheiten.",
+      "english": "Rats spread diseases.",
+      "highlight": [
+        "Ratten"
+      ]
+    },
+    {
+      "german": "Er ist eine Leseratte.",
+      "english": "He's a bookworm.",
+      "highlight": [
+        "Leseratte."
+      ]
+    }
+  ],
+  "forms": [
+    "Leseratte",
+    "Maus"
+  ],
+  "memoryHook": "Die Ratte; die Leseratte = bookworm.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Ratte",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Ratte is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Ratte, zwei ___",
+      "answer": "Ratten",
+      "fullAnswer": "ein Ratte, zwei Ratten",
+      "explanation": "The plural is Ratten.",
+      "acceptedAnswers": [
+        "Ratten"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Ratte mean?",
+      "options": [
+        "to open",
+        "rat",
+        "slowly"
+      ],
+      "answer": "rat",
+      "explanation": "Ratte: rat.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Leseratte' means…",
+      "options": [
+        "bookworm",
+        "a rat that reads"
+      ],
+      "answer": "bookworm",
+      "explanation": "Reading rat.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Mouse:",
+      "options": [
+        "die Maus",
+        "die Ratte"
+      ],
+      "answer": "die Maus",
+      "explanation": "Smaller.",
+      "id": "q5"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Ratten",
+        "Rätte"
+      ],
+      "answer": "Ratten",
+      "explanation": "-n.",
+      "id": "q6"
+    }
+  ]
+}

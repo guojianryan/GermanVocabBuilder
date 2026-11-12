@@ -1,44 +1,26 @@
 import SwiftUI
+import UIKit
 
 struct RootView: View {
-    @Environment(\.appTheme) private var theme
     @Environment(AppStore.self) private var store
     @State private var tab = 0
-    @State private var requestedTab: Int?
-    private var tabSelection: Binding<Int> {
-        Binding(get: { tab }, set: { newTab in
-            if tab == 1, newTab != 1, !store.pendingRemoval.isEmpty { requestedTab = newTab } else { tab = newTab }
-        })
-    }
     var body: some View {
-        TabView(selection: tabSelection) {
+        TabView(selection: $tab) {
             Tab("Explore", systemImage: "square.grid.2x2", value: 0) { LibraryView() }
-            Tab("My Deck", systemImage: "rectangle.on.rectangle", value: 1) { DeckView { tabSelection.wrappedValue = 0 } }
+            Tab("My Deck", systemImage: "rectangle.on.rectangle", value: 1) { DeckView { tab = 0 } }
             Tab("Practice", systemImage: "sparkles", value: 2) { PracticeHome { tab = 0 } }
             Tab("Settings", systemImage: "gearshape", value: 3) { SettingsView() }
         }
-        .confirmationDialog(
-            "Remove \(store.pendingRemoval.count) \(store.pendingRemoval.count == 1 ? "word" : "words") from your deck?",
-            isPresented: Binding(get: { requestedTab != nil }, set: { if !$0 { requestedTab = nil } }),
-            titleVisibility: .visible
-        ) {
-            Button("Remove", role: .destructive) { finishLeaving(commit: true) }
-            Button("Keep in deck") { finishLeaving(commit: false) }
-            Button("Cancel", role: .cancel) {}
-        } message: { Text("These words will be deleted from My Deck.") }
-    }
-}
-extension RootView {
-    private func finishLeaving(commit: Bool) {
-        if commit { store.commitRemovals() } else { store.discardRemovals() }
-        if let requestedTab { tab = requestedTab }
-        requestedTab = nil
+        .onChange(of: store.showPractice, initial: true) { _, show in
+            if show { tab = 2; store.showPractice = false }
+        }
     }
 }
 struct LibraryView: View {
     @Environment(\.appTheme) private var theme
     @Environment(AppStore.self) private var store
     @State private var search = ""
+    @ScaledMetric(relativeTo: .body) private var searchFieldHeight = 22
     @State private var category = "All words"
     @State private var featuredWord: WordEntry?
     @State private var visibleCount = 10
@@ -71,7 +53,8 @@ struct LibraryView: View {
                     VStack(spacing: 16) {
                         HStack(spacing: 10) {
                             Image(systemName: "magnifyingglass").foregroundStyle(theme.accent)
-                            TextField("Search German or English", text: $search).autocorrectionDisabled().textInputAutocapitalization(.never)
+                            GermanTextField(text: $search, placeholder: "Search German or English", identifier: "wordSearch", returnKey: .search)
+                                .frame(height: searchFieldHeight)
                                 .accessibilityIdentifier("wordSearch").disabled(store.index == nil)
                             if !search.isEmpty { Button { search = "" } label: { Image(systemName: "xmark.circle.fill").foregroundStyle(theme.muted) }.accessibilityLabel("Clear search") }
                         }.padding(16).background(theme.surface, in: RoundedRectangle(cornerRadius: 16))
@@ -284,7 +267,7 @@ struct DeckView: View {
                 VStack(alignment: .leading, spacing: 24) {
                     Eyebrow(text: "Your personal collection").padding(.top, 20)
                     Text("Words worth\nkeeping.").font(.system(size: 40, weight: .medium, design: .serif)).tracking(-1)
-                    HStack { Label("\(store.deckWords.count - store.pendingRemoval.count) words", systemImage: "rectangle.on.rectangle"); Spacer(); Text("Saved on this device") }.font(.caption).foregroundStyle(theme.muted)
+                    HStack { Label("\(store.deckWords.count) words", systemImage: "rectangle.on.rectangle"); Spacer(); Text("Saved on this device") }.font(.caption).foregroundStyle(theme.muted)
                     if store.isLoadingLibrary {
                         ProgressView("Loading your deck…").frame(maxWidth: .infinity)
                     } else if store.deckWords.isEmpty {
@@ -296,19 +279,20 @@ struct DeckView: View {
                         LazyVStack(spacing: 0) {
                             ForEach(store.deckWords) { e in
                                 VStack(spacing: 0) {
-                                    WordRow(entry: e, removalMarked: store.isMarkedForRemoval(e)) { store.toggleRemovalMark(e) }
+                                    WordRow(entry: e, removalPending: store.pendingRemoval.contains(e.id),
+                                            onRemove: { store.toggleRemoval(e) })
                                     Divider()
                                 }
                                     .transition(reduceMotion ? .identity : .opacity.combined(with: .scale(scale: 0.97)))
                             }
                         }
                         .animation(reduceMotion ? nil : .easeInOut(duration: 0.25), value: store.deckWords.map(\.id))
-                        Text("Tap a checkmark to mark a word for removal. You’ll be asked to confirm when you leave.").font(.caption).foregroundStyle(theme.muted)
+                        Text("Tap a checkmark to remove a word. Tap Undo within 5 seconds to keep it.").font(.caption).foregroundStyle(theme.muted)
                     }
                 }.padding(24).frame(maxWidth: 720).frame(maxWidth: .infinity)
             }.background(theme.paper).navigationTitle("My Deck").navigationBarTitleDisplayMode(.inline)
                 .navigationDestination(for: WordEntry.self) { LessonView(entry: $0) }
-                .fullScreenCover(isPresented: $practice) { PracticeSession(entries: store.deckWords.filter { !store.isMarkedForRemoval($0) }, mode: .flashcards) }
+                .fullScreenCover(isPresented: $practice) { PracticeSession(entries: store.deckWords.filter { !store.pendingRemoval.contains($0.id) }, mode: .flashcards) }
         }
     }
 }

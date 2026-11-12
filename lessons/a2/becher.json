@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Becher",
+    "partOfSpeech": "noun, masculine (der Becher)",
+    "pronunciation": {
+      "respelling": "BE-kher",
+      "ipa": "ˈbɛçɐ",
+      "notes": "The plural looks the same. Plural: die Becher."
+    },
+    "meaning": "mug, beaker, cup (without handle); pot",
+    "shortDefinition": "Mug, beaker, cup (without handle); pot."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Becher, plural die Becher.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Becher"
+        },
+        {
+          "label": "More than one",
+          "value": "die Becher"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ein Becher Kaffee zum Mitnehmen.",
+      "english": "A coffee to go.",
+      "highlight": [
+        "Becher"
+      ]
+    },
+    {
+      "german": "Ein Becher Joghurt.",
+      "english": "A pot of yoghurt.",
+      "highlight": [
+        "Becher"
+      ]
+    },
+    {
+      "german": "Die Kinder trinken aus Plastikbechern.",
+      "english": "The children drink from plastic cups.",
+      "highlight": [
+        "Plastikbechern."
+      ]
+    }
+  ],
+  "forms": [
+    "Tasse"
+  ],
+  "memoryHook": "Der Becher (mug, pot); Tasse = cup.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Becher",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Becher is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Becher, zwei ___",
+      "answer": "Becher",
+      "fullAnswer": "ein Becher, zwei Becher",
+      "explanation": "The plural is Becher.",
+      "acceptedAnswers": [
+        "Becher"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Becher mean?",
+      "options": [
+        "to wait",
+        "to learn",
+        "mug"
+      ],
+      "answer": "mug",
+      "explanation": "Becher: mug, beaker, cup (without handle); pot.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Becher vs Tasse:",
+      "options": [
+        "mug / beaker vs cup with saucer",
+        "same"
+      ],
+      "answer": "mug / beaker vs cup with saucer",
+      "explanation": "Shape.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Becher",
+        "Bechern"
+      ],
+      "answer": "Becher",
+      "explanation": "No change.",
+      "id": "q5"
+    }
+  ]
+}

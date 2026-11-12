@@ -1,0 +1,115 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Quark",
+    "partOfSpeech": "noun, masculine (der Quark)",
+    "pronunciation": {
+      "respelling": "KVARK",
+      "ipa": "kvaʁk",
+      "notes": "Usually no plural."
+    },
+    "meaning": "quark (fresh curd cheese); rubbish",
+    "shortDefinition": "Quark (fresh curd cheese); rubbish."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Quark, usually no plural.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Quark"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Quark mit Kräutern.",
+      "english": "Quark with herbs.",
+      "highlight": [
+        "Quark"
+      ]
+    },
+    {
+      "german": "Ein Käsekuchen aus Quark.",
+      "english": "A cheesecake made with quark.",
+      "highlight": [
+        "Quark."
+      ]
+    },
+    {
+      "german": "Red keinen Quark!",
+      "english": "Don't talk rubbish!",
+      "highlight": [
+        "Quark!"
+      ]
+    }
+  ],
+  "forms": [
+    "Topfen"
+  ],
+  "memoryHook": "Der Quark (curd cheese; nonsense); Austria: Topfen.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Quark",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Quark is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Quark mean?",
+      "options": [
+        "expensive",
+        "to wait",
+        "quark (fresh curd cheese)"
+      ],
+      "answer": "quark (fresh curd cheese)",
+      "explanation": "Quark: quark (fresh curd cheese); rubbish.",
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "'Quark reden' (informal) means…",
+      "options": [
+        "to talk nonsense",
+        "to talk about cheese"
+      ],
+      "answer": "to talk nonsense",
+      "explanation": "Idiom.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "In Austria it's called…",
+      "options": [
+        "Topfen",
+        "Quarkel"
+      ],
+      "answer": "Topfen",
+      "explanation": "Regional.",
+      "id": "q4"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "Ich esse ___ mit Obst. (quark)",
+      "answer": "Quark",
+      "fullAnswer": "Ich esse Quark mit Obst.",
+      "explanation": "Quark.",
+      "id": "q5"
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Handbuch",
+    "partOfSpeech": "noun, neuter (das Handbuch)",
+    "pronunciation": {
+      "respelling": "HANT-bookh",
+      "ipa": "ˈhantˌbuːx",
+      "notes": "Plural: die Handbücher."
+    },
+    "meaning": "manual, handbook",
+    "shortDefinition": "Manual, handbook."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Hand",
+        "meaning": "hand"
+      },
+      {
+        "part": "buch",
+        "meaning": "book"
+      }
+    ],
+    "literalMeaning": "hand book"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Das Handbuch, plural die Handbücher.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "das Handbuch"
+        },
+        {
+          "label": "More than one",
+          "value": "die Handbücher"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Lies erst das Handbuch!",
+      "english": "Read the manual first!",
+      "highlight": [
+        "Handbuch!"
+      ]
+    },
+    {
+      "german": "Das Handbuch ist auf Englisch.",
+      "english": "The manual is in English.",
+      "highlight": [
+        "Handbuch"
+      ]
+    },
+    {
+      "german": "Ein Handbuch für Lehrer.",
+      "english": "A teachers' handbook.",
+      "highlight": [
+        "Handbuch"
+      ]
+    }
+  ],
+  "forms": [
+    "Buch",
+    "Bedienungsanleitung"
+  ],
+  "memoryHook": "Hand + Buch = manual (≈ Bedienungsanleitung).",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Handbuch",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "das",
+      "explanation": "Handbuch is neuter.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Handbuch, zwei ___",
+      "answer": "Handbücher",
+      "fullAnswer": "ein Handbuch, zwei Handbücher",
+      "explanation": "The plural is Handbücher.",
+      "acceptedAnswers": [
+        "Handbuecher"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Handbuch mean?",
+      "options": [
+        "manual",
+        "to travel",
+        "hot"
+      ],
+      "answer": "manual",
+      "explanation": "Handbuch: manual, handbook.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Hand + Buch",
+        "Hand + Bauch"
+      ],
+      "answer": "Hand + Buch",
+      "explanation": "Hand book.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Synonym (device):",
+      "options": [
+        "die Bedienungsanleitung",
+        "das Kochbuch"
+      ],
+      "answer": "die Bedienungsanleitung",
+      "explanation": "Instructions.",
+      "id": "q5"
+    }
+  ]
+}

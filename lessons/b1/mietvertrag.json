@@ -1,0 +1,138 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Mietvertrag",
+    "partOfSpeech": "noun, masculine (der Mietvertrag)",
+    "pronunciation": {
+      "respelling": "MEET-fer-traak",
+      "ipa": "ˈmiːtfɛɐ̯ˌtʁaːk",
+      "notes": "Plural: die Mietverträge."
+    },
+    "meaning": "tenancy agreement, lease",
+    "shortDefinition": "Tenancy agreement, lease."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Miet",
+        "meaning": "rent"
+      },
+      {
+        "part": "vertrag",
+        "meaning": "contract"
+      }
+    ],
+    "literalMeaning": "rent contract"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Mietvertrag, plural die Mietverträge.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Mietvertrag"
+        },
+        {
+          "label": "More than one",
+          "value": "die Mietverträge"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Ich habe den Mietvertrag unterschrieben.",
+      "english": "I've signed the lease.",
+      "highlight": [
+        "Mietvertrag"
+      ]
+    },
+    {
+      "german": "Der Mietvertrag läuft zwei Jahre.",
+      "english": "The lease runs for two years.",
+      "highlight": [
+        "Mietvertrag"
+      ]
+    },
+    {
+      "german": "Steht das im Mietvertrag?",
+      "english": "Is that in the tenancy agreement?",
+      "highlight": [
+        "Mietvertrag?"
+      ]
+    }
+  ],
+  "forms": [
+    "Miete",
+    "Vertrag",
+    "Vermieter"
+  ],
+  "memoryHook": "Miete + Vertrag = lease; Mieter, Vermieter.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Mietvertrag",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Mietvertrag is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Mietvertrag, zwei ___",
+      "answer": "Mietverträge",
+      "fullAnswer": "ein Mietvertrag, zwei Mietverträge",
+      "explanation": "The plural is Mietverträge.",
+      "acceptedAnswers": [
+        "Mietvertraege"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Mietvertrag mean?",
+      "options": [
+        "tenancy agreement",
+        "tomorrow",
+        "the evening"
+      ],
+      "answer": "tenancy agreement",
+      "explanation": "Mietvertrag: tenancy agreement, lease.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "Miete + Vertrag (contract)",
+        "Mieter + Trag"
+      ],
+      "answer": "Miete + Vertrag (contract)",
+      "explanation": "Rent contract.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Mietverträge",
+        "Mietvertrage"
+      ],
+      "answer": "Mietverträge",
+      "explanation": "Umlaut.",
+      "id": "q5"
+    }
+  ]
+}

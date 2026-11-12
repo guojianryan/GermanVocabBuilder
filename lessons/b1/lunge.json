@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Lunge",
+    "partOfSpeech": "noun, feminine (die Lunge)",
+    "pronunciation": {
+      "respelling": "LUNG-e",
+      "ipa": "ˈlʊŋə",
+      "notes": "Plural: die Lungen."
+    },
+    "meaning": "lung(s)",
+    "shortDefinition": "Lung(s)."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Die Lunge, plural die Lungen.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "die Lunge"
+        },
+        {
+          "label": "More than one",
+          "value": "die Lungen"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Rauchen schadet der Lunge.",
+      "english": "Smoking damages the lungs.",
+      "highlight": [
+        "Lunge."
+      ]
+    },
+    {
+      "german": "Er hat eine Lungenentzündung.",
+      "english": "He has pneumonia.",
+      "highlight": [
+        "Lungenentzündung."
+      ]
+    },
+    {
+      "german": "Sie schrie aus voller Lunge.",
+      "english": "She screamed at the top of her lungs.",
+      "highlight": [
+        "Lunge."
+      ]
+    }
+  ],
+  "forms": [
+    "Lungenentzündung"
+  ],
+  "memoryHook": "Die Lunge; Lungenentzündung.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Lunge",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "die",
+      "explanation": "Lunge is feminine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Lunge, zwei ___",
+      "answer": "Lungen",
+      "fullAnswer": "ein Lunge, zwei Lungen",
+      "explanation": "The plural is Lungen.",
+      "acceptedAnswers": [
+        "Lungen"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Lunge mean?",
+      "options": [
+        "lung(s)",
+        "the bill",
+        "the key"
+      ],
+      "answer": "lung(s)",
+      "explanation": "Lunge: lung(s).",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "In German usually…",
+      "options": [
+        "singular (die Lunge = both lungs)",
+        "plural only"
+      ],
+      "answer": "singular (die Lunge = both lungs)",
+      "explanation": "Unlike English.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Pneumonia:",
+      "options": [
+        "die Lungenentzündung",
+        "die Lungengrippe"
+      ],
+      "answer": "die Lungenentzündung",
+      "explanation": "Inflammation.",
+      "id": "q5"
+    }
+  ]
+}

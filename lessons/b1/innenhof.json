@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Innenhof",
+    "partOfSpeech": "noun, masculine (der Innenhof)",
+    "pronunciation": {
+      "respelling": "I-nen-hohf",
+      "ipa": "ˈɪnənˌhoːf",
+      "notes": "Plural: die Innenhöfe."
+    },
+    "meaning": "courtyard",
+    "shortDefinition": "Courtyard."
+  },
+  "etymology": {
+    "title": "Where it comes from",
+    "parts": [
+      {
+        "part": "Innen",
+        "meaning": "inside"
+      },
+      {
+        "part": "hof",
+        "meaning": "yard"
+      }
+    ],
+    "literalMeaning": "inner yard"
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Innenhof, plural die Innenhöfe.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Innenhof"
+        },
+        {
+          "label": "More than one",
+          "value": "die Innenhöfe"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Die Wohnung geht zum Innenhof.",
+      "english": "The flat faces the courtyard.",
+      "highlight": [
+        "Innenhof."
+      ]
+    },
+    {
+      "german": "Ein ruhiger Innenhof mit Bäumen.",
+      "english": "A quiet courtyard with trees.",
+      "highlight": [
+        "Innenhof"
+      ]
+    },
+    {
+      "german": "Die Fahrräder stehen im Innenhof.",
+      "english": "The bikes are in the courtyard.",
+      "highlight": [
+        "Innenhof."
+      ]
+    }
+  ],
+  "forms": [
+    "Hof"
+  ],
+  "memoryHook": "Innen + Hof = courtyard.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Innenhof",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Innenhof is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Innenhof, zwei ___",
+      "answer": "Innenhöfe",
+      "fullAnswer": "ein Innenhof, zwei Innenhöfe",
+      "explanation": "The plural is Innenhöfe.",
+      "acceptedAnswers": [
+        "Innenhoefe"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Innenhof mean?",
+      "options": [
+        "courtyard",
+        "to help",
+        "the shop"
+      ],
+      "answer": "courtyard",
+      "explanation": "Innenhof: courtyard.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Built from…",
+      "options": [
+        "innen (inside) + Hof",
+        "Inn + Hof"
+      ],
+      "answer": "innen (inside) + Hof",
+      "explanation": "Inner yard.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Innenhöfe",
+        "Innenhofe"
+      ],
+      "answer": "Innenhöfe",
+      "explanation": "Umlaut.",
+      "id": "q5"
+    }
+  ]
+}

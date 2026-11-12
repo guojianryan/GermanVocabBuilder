@@ -1,0 +1,123 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "B1",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Schwager",
+    "partOfSpeech": "noun, masculine (der Schwager)",
+    "pronunciation": {
+      "respelling": "SHVAA-ger",
+      "ipa": "ˈʃvaːɡɐ",
+      "notes": "Plural: die Schwäger."
+    },
+    "meaning": "brother-in-law",
+    "shortDefinition": "Brother-in-law."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Schwager, plural die Schwäger.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Schwager"
+        },
+        {
+          "label": "More than one",
+          "value": "die Schwäger"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Mein Schwager ist Arzt.",
+      "english": "My brother-in-law is a doctor.",
+      "highlight": [
+        "Schwager"
+      ]
+    },
+    {
+      "german": "Wir feiern bei meinem Schwager.",
+      "english": "We're celebrating at my brother-in-law's.",
+      "highlight": [
+        "Schwager."
+      ]
+    },
+    {
+      "german": "Er ist der Mann meiner Schwester – mein Schwager.",
+      "english": "He's my sister's husband – my brother-in-law.",
+      "highlight": [
+        "Schwager."
+      ]
+    }
+  ],
+  "forms": [
+    "Schwägerin",
+    "Schwiegervater"
+  ],
+  "memoryHook": "Der Schwager, die Schwägerin; Schwiegereltern.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Schwager",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Schwager is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Schwager, zwei ___",
+      "answer": "Schwäger",
+      "fullAnswer": "ein Schwager, zwei Schwäger",
+      "explanation": "The plural is Schwäger.",
+      "acceptedAnswers": [
+        "Schwaeger"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Schwager mean?",
+      "options": [
+        "brother-in-law",
+        "the evening",
+        "tomorrow"
+      ],
+      "answer": "brother-in-law",
+      "explanation": "Schwager: brother-in-law.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Sister-in-law:",
+      "options": [
+        "die Schwägerin",
+        "die Schwagerin"
+      ],
+      "answer": "die Schwägerin",
+      "explanation": "Umlaut.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Schwäger",
+        "Schwagers"
+      ],
+      "answer": "Schwäger",
+      "explanation": "Umlaut.",
+      "id": "q5"
+    }
+  ]
+}

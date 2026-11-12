@@ -1,0 +1,122 @@
+{
+  "schemaVersion": "1.4",
+  "language": "de",
+  "explanationLanguage": "en",
+  "level": "A2",
+  "levelSource": "everyday-word gap check (wordfreq); level estimated",
+  "lessonType": "card",
+  "word": {
+    "headword": "Zwerg",
+    "partOfSpeech": "noun, masculine (der Zwerg)",
+    "pronunciation": {
+      "respelling": "TSVERK",
+      "ipa": "tsvɛʁk",
+      "notes": "Plural: die Zwerge."
+    },
+    "meaning": "dwarf, gnome",
+    "shortDefinition": "Dwarf, gnome."
+  },
+  "commonMistakes": [
+    {
+      "title": "Gender and plural",
+      "explanation": "Der Zwerg, plural die Zwerge.",
+      "forms": [
+        {
+          "label": "One",
+          "value": "der Zwerg"
+        },
+        {
+          "label": "More than one",
+          "value": "die Zwerge"
+        }
+      ]
+    }
+  ],
+  "sampleSentences": [
+    {
+      "german": "Schneewittchen und die sieben Zwerge.",
+      "english": "Snow White and the Seven Dwarfs.",
+      "highlight": [
+        "Zwerge."
+      ]
+    },
+    {
+      "german": "Im Garten steht ein Gartenzwerg.",
+      "english": "There's a garden gnome in the garden.",
+      "highlight": [
+        "Gartenzwerg."
+      ]
+    },
+    {
+      "german": "Er ist ein politischer Zwerg.",
+      "english": "He's a political lightweight.",
+      "highlight": [
+        "Zwerg."
+      ]
+    }
+  ],
+  "forms": [
+    "Gartenzwerg"
+  ],
+  "memoryHook": "Der Zwerg; Gartenzwerg.",
+  "signOff": "Gut gemacht!",
+  "quiz": [
+    {
+      "type": "choice",
+      "prompt": "___ Zwerg",
+      "options": [
+        "der",
+        "die",
+        "das"
+      ],
+      "answer": "der",
+      "explanation": "Zwerg is masculine.",
+      "id": "q1"
+    },
+    {
+      "type": "fill-in-the-blank",
+      "prompt": "ein Zwerg, zwei ___",
+      "answer": "Zwerge",
+      "fullAnswer": "ein Zwerg, zwei Zwerge",
+      "explanation": "The plural is Zwerge.",
+      "acceptedAnswers": [
+        "Zwerge"
+      ],
+      "id": "q2"
+    },
+    {
+      "type": "choice",
+      "prompt": "What does Zwerg mean?",
+      "options": [
+        "dwarf",
+        "the shop",
+        "the child"
+      ],
+      "answer": "dwarf",
+      "explanation": "Zwerg: dwarf, gnome.",
+      "id": "q3"
+    },
+    {
+      "type": "choice",
+      "prompt": "Garden gnome:",
+      "options": [
+        "der Gartenzwerg",
+        "der Hauszwerg"
+      ],
+      "answer": "der Gartenzwerg",
+      "explanation": "Classic.",
+      "id": "q4"
+    },
+    {
+      "type": "choice",
+      "prompt": "Plural:",
+      "options": [
+        "Zwerge",
+        "Zwerger"
+      ],
+      "answer": "Zwerge",
+      "explanation": "-e.",
+      "id": "q5"
+    }
+  ]
+}
