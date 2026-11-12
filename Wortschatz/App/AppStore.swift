@@ -13,6 +13,21 @@ import UserNotifications
     private static let reminderID = "dailyReview.v1"
     var theme: AppTheme { didSet { defaults.set(theme.rawValue, forKey: "appearance.theme.v1") } }
     var studyLevel: StudyLevel { didSet { defaults.set(studyLevel.rawValue, forKey: "studyLevel.v1"); refreshDailyFive() } }
+    var speechVoiceID: String {
+        didSet {
+            defaults.set(speechVoiceID, forKey: "speech.voice.v1")
+            stopAudio()
+        }
+    }
+    private(set) var speechVoices: [AVSpeechSynthesisVoice] = []
+    func refreshSpeechVoices() {
+        speechVoices = AVSpeechSynthesisVoice.speechVoices()
+            .filter { $0.language == "de" || $0.language.hasPrefix("de-") }
+            .sorted { ($0.language, $0.name, $0.identifier) < ($1.language, $1.name, $1.identifier) }
+        if !speechVoiceID.isEmpty && !speechVoices.contains(where: { $0.identifier == speechVoiceID }) {
+            speechVoiceID = ""
+        }
+    }
     private(set) var searchEngine: WordSearchEngine?
     private(set) var index: LessonIndex?
     private(set) var isLoadingLibrary = true
@@ -41,6 +56,7 @@ import UserNotifications
     private let speaker = AVSpeechSynthesizer()
     init(defaults: UserDefaults = .standard) {
         self.defaults = defaults
+        speechVoiceID = defaults.string(forKey: "speech.voice.v1") ?? ""
         reminderEnabled = defaults.bool(forKey: "reminder.enabled.v1")
         if defaults.object(forKey: "reminder.minutes.v1") != nil {
             reminderMinutes = min(1439, max(0, defaults.integer(forKey: "reminder.minutes.v1")))
@@ -65,6 +81,7 @@ import UserNotifications
         repository = LessonRepository(resourceRoot: Bundle.main.resourceURL ?? Bundle.main.bundleURL)
         notificationDelegate.store = self
         UNUserNotificationCenter.current().delegate = notificationDelegate
+        refreshSpeechVoices()
     }
     func updateReminder(enabled: Bool, minutes: Int? = nil) async {
         guard !updatingReminder else { return }
@@ -206,7 +223,8 @@ import UserNotifications
         try? AVAudioSession.sharedInstance().setCategory(.playback, mode: .spokenAudio, options: [.duckOthers])
         try? AVAudioSession.sharedInstance().setActive(true)
         let utterance = AVSpeechUtterance(string: text)
-        utterance.voice = AVSpeechSynthesisVoice(language: "de-DE")
+        utterance.voice = speechVoices.first(where: { $0.identifier == speechVoiceID })
+            ?? AVSpeechSynthesisVoice(language: "de-DE")
         utterance.rate = 0.43
         speaker.speak(utterance)
     }
