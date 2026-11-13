@@ -37,6 +37,7 @@ import UserNotifications
             deckIDs = Set(deck)
             refreshDeckWords()
             defaults.set(deck, forKey: "studyDeck.v1")
+            refreshDailyFive(resetUnstarted: true)
         }
     }
     private(set) var dailyFive: DailyFive?
@@ -150,20 +151,23 @@ import UserNotifications
             return
         } catch { loadError = "The lesson library couldn’t be opened. \(error.localizedDescription)" }
     }
-    func refreshDailyFive(now: Date = Date()) {
+    func refreshDailyFive(now: Date = Date(), resetUnstarted: Bool = false) {
         reviewClock = now
         guard let index else { return }
         let day = DailyFive.dayKey(now)
         if let dailyFive, dailyFive.day == day, !dailyFive.wordIDs.isEmpty,
-           dailyFive.level == studyLevel.rawValue || dailyFive.completedCount > 0 { return }
+           dailyFive.completedCount > 0 || (!resetUnstarted && dailyFive.selectionVersion == 2 && dailyFive.level == studyLevel.rawValue) { return }
         dailyFive = DailyFive.make(day: day, level: studyLevel.rawValue,
-                                   candidates: index.entries.shuffled(), reviews: reviews, now: now)
+                                   candidates: index.entries.shuffled(), reviews: reviews, deckIDs: deckIDs, now: now)
         persistDailyFive()
     }
     private func persistDailyFive() {
         if let dailyFive, let data = try? JSONEncoder().encode(dailyFive) {
             defaults.set(data, forKey: "dailyFive.v1")
         }
+    }
+    var dueDeckWords: [WordEntry] {
+        ReviewProgress.dueWords(in: deckWords, reviews: reviews, at: reviewClock)
     }
     func dueWords(level: String) -> [WordEntry] {
         let ids = reviews.keys.filter { reviews[$0]!.isDue(at: reviewClock) }.sorted {
@@ -253,6 +257,7 @@ final class ReviewNotificationDelegate: NSObject, UNUserNotificationCenterDelega
                isolated.data(forKey: "recallHistory.v1") == nil {
                 let legacy = Dictionary(uniqueKeysWithValues: ["apfel", "haus", "tisch", "buch", "hund", "brot", "wasser"].map { ($0, true) })
                 isolated.set(try? JSONEncoder().encode(legacy), forKey: "recallHistory.v1")
+                isolated.set(Array(legacy.keys), forKey: "studyDeck.v1")
             }
             defaults = isolated
         }

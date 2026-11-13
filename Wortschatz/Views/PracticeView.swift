@@ -9,7 +9,6 @@ struct PracticeHome: View {
     @Environment(AppStore.self) private var store
     let explore: () -> Void
     @State private var selectedMode: PracticeMode?
-    @State private var dailyRun: DailyPracticeRun?
     @State private var dueRun: DuePracticeRun?
     var body: some View {
         NavigationStack {
@@ -17,23 +16,15 @@ struct PracticeHome: View {
                 VStack(alignment: .leading, spacing: 26) {
                     Eyebrow(text: "A moment for your German").padding(.top, 20)
                     Text("From familiar\nto unforgettable.").font(.system(size: 40, weight: .medium, design: .serif)).tracking(-1)
-                    TodayFiveCard(start: {
+                    DueReviewCard {
                         store.refreshDailyFive()
-                        if let daily = store.dailyFive, !store.dailyRemainingWords.isEmpty {
-                            dailyRun = DailyPracticeRun(id: daily.day, entries: store.dailyRemainingWords,
-                                                        completed: daily.completedCount, total: daily.wordIDs.count,
-                                                        recalled: daily.outcomes.values.filter { $0 }.count)
-                        }
-                    }, review: {
-                        if let daily = store.dailyFive {
-                            let due = store.dueWords(level: daily.level)
-                            if !due.isEmpty { dueRun = DuePracticeRun(entries: due) }
-                        }
-                    })
+                        let due = store.dueDeckWords
+                        if !due.isEmpty { dueRun = DuePracticeRun(entries: due) }
+                    }
                     if store.isLoadingLibrary {
                         ProgressView("Loading your deck…").frame(maxWidth: .infinity)
                     } else if store.deckWords.isEmpty {
-                        EmptyState(icon: "sparkles", title: "Build your own deck", detail: "Save words from today’s set or Explore for extra practice whenever you like.")
+                        EmptyState(icon: "sparkles", title: "Build your own deck", detail: "Save words from Explore to start learning and build your review schedule.")
                         PrimaryButton(title: "Explore words", action: explore)
                     } else {
                         VStack(alignment: .leading, spacing: 16) {
@@ -50,10 +41,7 @@ struct PracticeHome: View {
                 }.padding(24).frame(maxWidth: 600).frame(maxWidth: .infinity)
             }.background(theme.paper).navigationTitle("Practice").navigationBarTitleDisplayMode(.inline)
                 .fullScreenCover(item: $selectedMode) { mode in PracticeSession(entries: store.deckWords, mode: mode) }
-                .fullScreenCover(item: $dailyRun) { run in
-                    PracticeSession(entries: run.entries, mode: .flashcards, dailyRun: run)
-                }
-                .fullScreenCover(item: $dueRun) { run in
+                .fullScreenCover(item: $dueRun, onDismiss: { store.refreshDailyFive() }) { run in
                     PracticeSession(entries: run.entries, mode: .flashcards, isDueReview: true)
                 }
                 .onAppear { store.refreshDailyFive() }
@@ -119,58 +107,32 @@ struct DailyPracticeRun: Identifiable {
     let recalled: Int
 }
 
-private struct TodayFiveCard: View {
+private struct DueReviewCard: View {
     @Environment(\.appTheme) private var theme
     @Environment(AppStore.self) private var store
     let start: () -> Void
-    let review: () -> Void
     var body: some View {
         VStack(alignment: .leading, spacing: 16) {
-            HStack {
-                Label("TODAY’S FIVE", systemImage: "sun.max")
-                    .font(.system(.caption, design: .monospaced).weight(.semibold)).tracking(1.5)
-                Spacer()
-                if let daily = store.dailyFive { Text(daily.level).font(.caption.weight(.semibold)) }
-            }.foregroundStyle(theme.accent)
+            Label("DUE FOR REVIEW", systemImage: "arrow.counterclockwise")
+                .font(.system(.caption, design: .monospaced).weight(.semibold)).tracking(1.5)
+                .foregroundStyle(theme.accent)
             if store.isLoadingLibrary {
-                ProgressView("Choosing your words…")
-            } else if let daily = store.dailyFive, !daily.wordIDs.isEmpty {
-                Text(daily.isComplete ? "A little German, done." : "Five words. One small step.")
-                    .font(.system(.title2, design: .serif).weight(.medium))
-                Text(daily.isComplete ? "You’ve met all \(daily.wordIDs.count) words. A fresh set arrives tomorrow." : "Words due for another look, then something new. Your place is saved as you go.")
-                    .font(.subheadline).foregroundStyle(theme.muted)
-                HStack(spacing: 8) {
-                    ForEach(daily.wordIDs, id: \.self) { id in
-                        Image(systemName: daily.outcomes[id] == nil ? "circle" : "checkmark.circle.fill")
-                            .font(.title2).foregroundStyle(theme.accent)
-                            .accessibilityHidden(true)
-                    }
-                    Spacer()
-                    Text("\(daily.completedCount) of \(daily.wordIDs.count) complete")
-                        .font(.caption.monospacedDigit()).foregroundStyle(theme.muted)
-                        .accessibilityIdentifier("dailyProgress")
-                }
-                if daily.level != store.studyLevel.rawValue {
-                    Text("Today’s set stays at \(daily.level). Tomorrow’s will use \(store.studyLevel.rawValue).")
-                        .font(.caption).foregroundStyle(theme.muted)
-                }
-                if !daily.isComplete {
-                    PrimaryButton(title: daily.completedCount == 0 ? "Start today’s five" : "Continue today’s five", icon: "play.fill", action: start)
-                        .accessibilityIdentifier("startDailyFive")
-                } else {
-                    Label("Today’s five complete", systemImage: "checkmark.seal.fill")
-                        .font(.subheadline.weight(.semibold)).foregroundStyle(theme.accent)
-                    let due = store.dueWords(level: daily.level)
-                    if !due.isEmpty {
-                        PrimaryButton(title: "Review \(due.count) more", icon: "arrow.counterclockwise", action: review)
-                            .accessibilityIdentifier("reviewMoreDue")
-                    }
-                }
+                ProgressView("Checking your reviews…")
+            } else if let error = store.loadError {
+                Text(error).font(.subheadline).foregroundStyle(theme.muted)
             } else {
-                Text(store.loadError ?? ((store.index?.entries.contains { $0.level == store.studyLevel.rawValue } == true)
-                    ? "You’re all caught up. Your next words will appear when they’re due. You can still practice your saved deck below."
-                    : "No words at this level yet. Choose another level in Settings to get started."))
+                let count = store.dueDeckWords.count
+                Text(count == 0 ? "You’re all caught up." : "\(count) \(count == 1 ? "word" : "words") ready for another look.")
+                    .font(.system(.title2, design: .serif).weight(.medium))
+                    .accessibilityIdentifier("dueReviewCount")
+                Text(count == 0
+                     ? "No saved words are due. Practice flashcards below to learn new words or come back when your next review is due."
+                     : "All due and overdue words from My Deck, across every level. Oldest reviews first. Your progress is saved after each word.")
                     .font(.subheadline).foregroundStyle(theme.muted)
+                if count > 0 {
+                    PrimaryButton(title: "Review all \(count) \(count == 1 ? "word" : "words")", icon: "play.fill", action: start)
+                        .accessibilityIdentifier("startDueReview")
+                }
             }
         }.padding(22).frame(maxWidth: .infinity, alignment: .leading)
             .background(theme.surface, in: RoundedRectangle(cornerRadius: 25))
@@ -189,7 +151,7 @@ struct PracticeSession: View {
     var isDueReview = false
     @State private var reviewRound = false
     private var activeDailyRun: DailyPracticeRun? { reviewRound ? nil : dailyRun }
-    private var remainingDue: [WordEntry] { store.dueWords(level: dailyRun?.entries.first?.level ?? entries.first?.level ?? store.studyLevel.rawValue) }
+    private var remainingDue: [WordEntry] { store.dueDeckWords }
     @State private var currentLesson: Lesson?
     @State private var preparing = false
     @State private var items: [PracticeItem] = []
@@ -231,9 +193,9 @@ struct PracticeSession: View {
                         .animation(reduceMotion ? nil : .easeInOut(duration: 0.28), value: position)
                     } else { ProgressView().padding(80) }
                 }.padding(24).frame(maxWidth: 620).frame(maxWidth: .infinity)
-            }.background(theme.paper).navigationTitle(activeDailyRun == nil ? (isDueReview || reviewRound ? "Another meeting" : "A little practice") : "Today’s five").navigationBarTitleDisplayMode(.inline)
+            }.background(theme.paper).navigationTitle(activeDailyRun == nil ? (isDueReview ? "Due for review" : (reviewRound ? "Another meeting" : "A little practice")) : "Today’s five").navigationBarTitleDisplayMode(.inline)
                 .toolbar { ToolbarItem(placement: .topBarLeading) { Button { if finished || error != nil { dismiss() } else { confirmExit = true } } label: { Image(systemName: "xmark") }.accessibilityLabel("End practice") } }
-                .confirmationDialog("End this practice?", isPresented: $confirmExit, titleVisibility: .visible) {
+                .alert("End this practice?", isPresented: $confirmExit) {
                     Button("End practice", role: .destructive) { dismiss() }
                     Button("Keep practicing", role: .cancel) {}
                 } message: { Text(dailyRun == nil ? "Your saved deck will stay as it is." : "Your progress is saved. Come back to finish today’s words.") }
@@ -372,7 +334,7 @@ struct PracticeSession: View {
         VStack(spacing: 24) {
             Image(systemName: "sun.max").font(.system(size: 72, weight: .ultraLight)).foregroundStyle(theme.accent).padding(.top, 40)
             Eyebrow(text: "Gut gemacht")
-            Text(activeDailyRun == nil ? "A little more\nyours." : "Today’s words,\ndone.").font(.system(size: 43, weight: .medium, design: .serif)).multilineTextAlignment(.center)
+            Text(isDueReview ? "Reviews,\ndone." : (activeDailyRun == nil ? "A little more\nyours." : "Today’s words,\ndone.")).font(.system(size: 43, weight: .medium, design: .serif)).multilineTextAlignment(.center)
             Text("\(score + (activeDailyRun?.recalled ?? 0)) of \(activeDailyRun?.total ?? items.count) \(mode == .flashcards ? "words recalled" : "answers correct").").font(.title3)
             if activeDailyRun != nil {
                 Text("Your five are done. Revisit tricky words below, or come back tomorrow for a fresh set.")

@@ -62,6 +62,31 @@ import Foundation
         check(small.wordIDs.count == 3, "Small catalogs never duplicate daily words")
         let empty = DailyFive.make(day: "today", level: "missing", candidates: index.entries, reviews: [:])
         check(empty.wordIDs.isEmpty && !empty.isComplete, "Empty sets are not marked complete")
+        let deckIDs = Set(a1.prefix(6).map(\.id))
+        let deckFirst = DailyFive.make(day: "today", level: "C1", candidates: index.entries,
+                                       reviews: dueReviews, deckIDs: deckIDs, now: reviewToday, calendar: reviewCalendar)
+        check(deckFirst.wordIDs.count == 5 && deckFirst.wordIDs.allSatisfy { deckIDs.contains($0) }, "Deck words fill all five slots across learning levels")
+        check(Array(deckFirst.wordIDs.prefix(2)) == [failed, familiar], "Deck due reviews precede new deck words, oldest first")
+        let shortDeck = Set([failed, familiar])
+        let mixed = DailyFive.make(day: "today", level: "C1", candidates: index.entries,
+                                   reviews: dueReviews, deckIDs: shortDeck, now: reviewToday, calendar: reviewCalendar)
+        check(Array(mixed.wordIDs.prefix(2)) == [failed, familiar] && mixed.wordIDs.count == 5, "A short deck takes priority before level fallback")
+        check(mixed.wordIDs.dropFirst(2).allSatisfy { id in index.entries.contains { $0.id == id && $0.level == "C1" } }, "Fallback words follow the selected learning level")
+        let futureDeck = DailyFive.make(day: "today", level: "C1", candidates: index.entries,
+                                        reviews: [failed: ReviewProgress(due: day(3))], deckIDs: [failed], now: reviewToday, calendar: reviewCalendar)
+        check(!futureDeck.wordIDs.contains(failed) && futureDeck.wordIDs.count == 5, "Future deck reviews stay scheduled while learning-level words fill the set")
+        let overlapping = DailyFive.make(day: "today", level: "A1", candidates: index.entries,
+                                         reviews: [:], deckIDs: shortDeck, now: reviewToday)
+        check(overlapping.wordIDs.count == 5 && Set(overlapping.wordIDs).count == 5 && Set(overlapping.wordIDs.prefix(2)) == shortDeck, "Deck and level overlap never duplicates a word")
+        let reviewDeck = Array(a1.prefix(7)) + Array(index.entries.filter { $0.level == "C1" }.prefix(2))
+        let deckSchedule = Dictionary(uniqueKeysWithValues: reviewDeck.enumerated().map {
+            ($0.element.id, ReviewProgress(due: day($0.offset - 8)))
+        })
+        let allDue = ReviewProgress.dueWords(in: reviewDeck.reversed(), reviews: deckSchedule, at: reviewToday, calendar: reviewCalendar)
+        check(allDue.map(\.id) == reviewDeck.map(\.id), "Due review includes all nine due and overdue deck words across levels, oldest first")
+        let filteredDue = ReviewProgress.dueWords(in: reviewDeck, reviews: [failed: ReviewProgress(due: day(1)), familiar: ReviewProgress(due: day(0))], at: reviewToday, calendar: reviewCalendar)
+        check(filteredDue.map(\.id) == [familiar], "Due review includes today and excludes future and unpracticed deck words")
+        check(ReviewProgress.dueWords(in: [], reviews: deckSchedule, at: reviewToday).isEmpty, "Words outside My Deck are excluded from due review")
         var berlin = Calendar(identifier: .gregorian)
         berlin.timeZone = TimeZone(identifier: "Europe/Berlin")!
         let beforeDST = berlin.date(from: DateComponents(year: 2026, month: 3, day: 29, hour: 22))!

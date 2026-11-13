@@ -320,6 +320,13 @@ struct ReviewProgress: Codable, Equatable, Sendable {
         // Early or repeated successes cannot move a word through several stages in one day.
         lastPracticed = now
     }
+    static func dueWords(in entries: [WordEntry], reviews: [String: Self], at now: Date,
+                         calendar: Calendar = .current) -> [WordEntry] {
+        entries.filter { reviews[$0.id]?.isDue(at: now, calendar: calendar) == true }.sorted {
+            let first = reviews[$0.id]!.nextReview, second = reviews[$1.id]!.nextReview
+            return first == second ? $0.id < $1.id : first < second
+        }
+    }
     func successHint(at now: Date, calendar: Calendar = .current) -> String {
         var projected = self
         projected.record(success: true, at: now, calendar: calendar)
@@ -338,6 +345,7 @@ struct DailyFive: Codable, Equatable {
     let level: String
     let wordIDs: [String]
     var outcomes: [String: Bool] = [:]
+    var selectionVersion: Int? = nil
     var completedCount: Int { wordIDs.filter { outcomes[$0] != nil }.count }
     var isComplete: Bool { !wordIDs.isEmpty && completedCount == wordIDs.count }
 
@@ -346,16 +354,21 @@ struct DailyFive: Codable, Equatable {
         return "\(parts.era ?? 0)-\(parts.year ?? 0)-\(parts.month ?? 0)-\(parts.day ?? 0)"
     }
 
-    /// Due words first (oldest first), then genuinely new words. Never bring future reviews forward.
+    /// Deck words across levels come first; fill from the study level without advancing future reviews.
     static func make(day: String, level: String, candidates: [WordEntry], reviews: [String: ReviewProgress],
-                     now: Date = Date(), calendar: Calendar = .current) -> Self {
-        let eligible = candidates.filter { $0.level == level }
-        let due = eligible.filter { reviews[$0.id]?.isDue(at: now, calendar: calendar) == true }.sorted {
-            let first = reviews[$0.id]!.nextReview, second = reviews[$1.id]!.nextReview
-            return first == second ? $0.id < $1.id : first < second
+                     deckIDs: Set<String> = [], now: Date = Date(), calendar: Calendar = .current) -> Self {
+        func prioritized(_ entries: [WordEntry]) -> [WordEntry] {
+            let due = entries.filter { reviews[$0.id]?.isDue(at: now, calendar: calendar) == true }.sorted {
+                let first = reviews[$0.id]!.nextReview, second = reviews[$1.id]!.nextReview
+                return first == second ? $0.id < $1.id : first < second
+            }
+            return due + entries.filter { reviews[$0.id] == nil }
         }
-        let new = eligible.filter { reviews[$0.id] == nil }
-        return Self(day: day, level: level, wordIDs: Array((due + new).prefix(5)).map(\.id))
+        let deck = prioritized(candidates.filter { deckIDs.contains($0.id) })
+        let levelWords = prioritized(candidates.filter { $0.level == level && !deckIDs.contains($0.id) })
+        var seen = Set<String>()
+        let ids = (deck + levelWords).filter { seen.insert($0.id).inserted }.prefix(5).map(\.id)
+        return Self(day: day, level: level, wordIDs: ids, selectionVersion: 2)
     }
 
     mutating func record(_ id: String, success: Bool) {
